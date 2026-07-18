@@ -9,6 +9,7 @@ import {
   scheduleDoseReminders,
   sendTestNotification,
 } from "@/lib/notifications";
+import { Disclaimer } from "@/components/Disclaimer";
 import type { Settings } from "@/lib/types";
 
 export default function SettingsPage() {
@@ -21,7 +22,7 @@ export default function SettingsPage() {
     if (notificationsSupported()) setPermission(Notification.permission);
   }, []);
 
-  if (!settings) return <p className="text-sm text-[var(--foreground)]/50">Loading…</p>;
+  if (!settings) return <p className="font-sans text-[13px] text-muted">Loading…</p>;
 
   const supported = notificationsSupported();
 
@@ -65,95 +66,103 @@ export default function SettingsPage() {
   }
 
   return (
-    <div className="max-w-2xl space-y-8">
-      <div>
-        <h1 className="text-2xl font-bold">Settings</h1>
-        <p className="mt-1 text-sm text-[var(--foreground)]/60">
-          Reminders, quiet hours, and your disclaimer acknowledgment.
-        </p>
-      </div>
+    <div>
+      <p className="eyebrow">Settings</p>
+      <h1 className="mt-3 font-serif text-[38px] font-bold text-ink">Settings</h1>
+      <p className="mt-3 max-w-[640px] font-serif text-[15px] italic leading-[1.6] text-body">
+        Dose reminders, quiet hours, and your disclaimer acknowledgment.
+      </p>
 
-      <section className="space-y-4 rounded-2xl border border-black/10 p-5 dark:border-white/10">
-        <div className="flex items-center justify-between gap-4">
-          <div>
-            <h2 className="font-semibold">Dose reminders</h2>
-            <p className="mt-1 text-sm text-[var(--foreground)]/60">
-              Local notifications for upcoming doses when the app is open or installed.
-            </p>
-          </div>
-          <label className="relative inline-flex cursor-pointer items-center">
+      <section className="mt-10 max-w-[640px]">
+        <h2 className="section-head">Dose reminders</h2>
+
+        <div className="mt-5 flex items-start justify-between gap-4">
+          <p className="font-sans text-[13px] leading-[1.5] text-body">
+            Local notifications for upcoming doses when the app is open or installed.
+          </p>
+          <label className="flex shrink-0 items-center gap-2 font-sans text-[13px] text-ink">
             <input
               type="checkbox"
-              className="peer sr-only"
               disabled={!supported}
               checked={settings.notificationsEnabled}
               onChange={(e) => toggleNotifications(e.target.checked)}
+              className="h-4 w-4 accent-ink disabled:opacity-40"
             />
-            <div className="h-6 w-11 rounded-full bg-black/20 after:absolute after:left-0.5 after:top-0.5 after:h-5 after:w-5 after:rounded-full after:bg-white after:transition-all peer-checked:bg-brand-600 peer-checked:after:translate-x-5 dark:bg-white/20" />
+            Enabled
           </label>
         </div>
 
         {!supported && (
-          <p className="rounded-lg bg-amber-50 p-3 text-xs text-amber-900 dark:bg-amber-900/20 dark:text-amber-100">
-            This browser doesn&apos;t support notifications. The in-app due-doses list is your
-            reminder here.
-          </p>
+          <div className="mt-5">
+            <Disclaimer title="Notifications unavailable">
+              <p>
+                This browser doesn&apos;t support notifications. The in-app due-doses list is your
+                reminder here.
+              </p>
+            </Disclaimer>
+          </div>
         )}
 
-        <div className="rounded-lg bg-black/[0.03] p-3 text-xs text-[var(--foreground)]/60 dark:bg-white/[0.03]">
+        <p className="mt-5 font-sans text-[12px] leading-[1.5] text-muted">
           On iPhone/iPad, notifications only work after you add this app to your Home Screen
           (Share → Add to Home Screen), on iOS 16.4+. The in-app list always works regardless.
-        </div>
+        </p>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="mt-6 grid max-w-sm grid-cols-2 gap-4">
           <label className="block">
-            <span className="text-sm font-medium">Quiet hours start</span>
+            <span className="font-sans text-[11px] uppercase tracking-wide text-muted">
+              Quiet hours start
+            </span>
             <input
               type="time"
               value={settings.quietHours?.start ?? "22:00"}
               onChange={(e) => updateQuiet("start", e.target.value)}
-              className="mt-1 w-full rounded-lg border border-black/15 bg-transparent px-3 py-2 text-sm dark:border-white/15"
+              className="mt-1 w-full border border-rule bg-transparent px-2.5 py-2 font-sans text-[13px] text-ink outline-none focus:border-ink"
             />
           </label>
           <label className="block">
-            <span className="text-sm font-medium">Quiet hours end</span>
+            <span className="font-sans text-[11px] uppercase tracking-wide text-muted">
+              Quiet hours end
+            </span>
             <input
               type="time"
               value={settings.quietHours?.end ?? "07:00"}
               onChange={(e) => updateQuiet("end", e.target.value)}
-              className="mt-1 w-full rounded-lg border border-black/15 bg-transparent px-3 py-2 text-sm dark:border-white/15"
+              className="mt-1 w-full border border-rule bg-transparent px-2.5 py-2 font-sans text-[13px] text-ink outline-none focus:border-ink"
             />
           </label>
         </div>
-        <p className="text-xs text-[var(--foreground)]/50">
+        <p className="mt-2 font-sans text-[12px] text-muted">
           Reminders won&apos;t fire during quiet hours.
         </p>
 
-        <div className="flex items-center gap-3">
+        <div className="mt-6 flex flex-wrap items-center gap-4 border-t border-rule pt-6">
           <button
             onClick={test}
             disabled={!supported || permission !== "granted"}
-            className="rounded-lg border border-black/15 px-3 py-1.5 text-sm disabled:opacity-40 dark:border-white/15"
+            className="btn-secondary disabled:opacity-40"
           >
             Send test notification
           </button>
-          <span className="text-xs text-[var(--foreground)]/50">Permission: {permission}</span>
+          <span className="font-sans text-[12px] text-muted">Permission: {permission}</span>
         </div>
 
-        {status && <p className="text-sm text-brand-600 dark:text-brand-300">{status}</p>}
+        {status && <p className="mt-3 font-sans text-[13px] text-rust">{status}</p>}
       </section>
 
-      <section className="space-y-3 rounded-2xl border border-black/10 p-5 dark:border-white/10">
-        <h2 className="font-semibold">Disclaimer</h2>
-        <p className="text-sm text-[var(--foreground)]/60">
+      <section className="mt-12 max-w-[640px]">
+        <h2 className="section-head">Disclaimer</h2>
+        <p className="mt-5 font-sans text-[13px] leading-[1.5] text-body">
           You acknowledged that this app is educational and not medical advice
           {settings.acknowledgedDisclaimerAt
             ? ` on ${new Date(settings.acknowledgedDisclaimerAt).toLocaleDateString()}.`
             : "."}
         </p>
         <button
-          onClick={async () => setSettings(await updateSettings({ acknowledgedDisclaimerAt: undefined }))}
-          className="rounded-lg border border-black/15 px-3 py-1.5 text-sm dark:border-white/15"
+          onClick={async () =>
+            setSettings(await updateSettings({ acknowledgedDisclaimerAt: undefined }))
+          }
+          className="btn-secondary mt-4"
         >
           Show disclaimer again
         </button>
