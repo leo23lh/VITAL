@@ -152,7 +152,8 @@ export default function ProtocolBuilder({
             <button
               key={t.id}
               onClick={() => loadTemplate(t)}
-              className="border border-rule p-6 text-left transition-colors hover:border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rust"
+              disabled={aiLoading}
+              className="border border-rule p-6 text-left transition-colors hover:border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rust disabled:cursor-not-allowed disabled:opacity-40"
             >
               <p className="eyebrow">{t.goal}</p>
               <h3 className="mt-2 font-serif text-[22px] font-bold text-ink">{t.name}</h3>
@@ -164,7 +165,8 @@ export default function ProtocolBuilder({
           ))}
           <button
             onClick={startBlank}
-            className="border border-dashed border-rule p-6 text-left transition-colors hover:border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rust"
+            disabled={aiLoading}
+            className="border border-dashed border-rule p-6 text-left transition-colors hover:border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rust disabled:cursor-not-allowed disabled:opacity-40"
           >
             <h3 className="font-serif text-[22px] font-bold text-ink">Start from scratch</h3>
             <p className="mt-2 font-serif text-[15px] leading-[1.6] text-body">
