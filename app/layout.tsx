@@ -1,55 +1,44 @@
 import type { Metadata, Viewport } from "next";
-import { Oswald, Inter } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 import Nav from "@/components/Nav";
 import DisclaimerGate from "@/components/DisclaimerGate";
 
-const oswald = Oswald({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-  variable: "--font-oswald",
-  display: "swap",
-});
-
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "600"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
 export const metadata: Metadata = {
-  title: "Peptide & Supplement Companion",
+  title: "VitalPeps",
   description:
-    "An educational catalog and personal tracker for peptides and supplements. Not medical advice.",
+    "VitalPeps — an educational reference and personal tracker for peptides and supplements. Not medical advice.",
   manifest: "/manifest.json",
-  appleWebApp: { capable: true, statusBarStyle: "default", title: "Companion" },
+  appleWebApp: { capable: true, statusBarStyle: "default", title: "VitalPeps" },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#1a1613",
+  themeColor: "#161311",
   width: "device-width",
   initialScale: 1,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${inter.variable} ${oswald.variable}`}>
+    <html lang="en">
       <body className="min-h-screen">
         <DisclaimerGate>
-          <div className="md:flex">
-            <Nav />
-            <div className="min-w-0 flex-1">
-              <main className="mx-auto max-w-5xl px-5 py-8 md:px-10 md:py-12">{children}</main>
-              <footer className="mx-auto max-w-5xl border-t-2 border-ink/15 px-5 py-8 md:px-10">
-                <p className="max-w-3xl text-xs leading-relaxed text-muted">
-                  Educational reference and personal tracker — <strong>not medical advice</strong>.
-                  Many peptides are unapproved research chemicals; consult a healthcare
-                  professional before use.
-                </p>
-              </footer>
+          <Nav />
+          <main className="mx-auto max-w-[1200px] px-5 pb-24 pt-8 md:px-10 md:pb-12 md:pt-12">
+            {children}
+          </main>
+          <footer className="border-t-2 border-rule pb-24 md:pb-0">
+            <div className="mx-auto max-w-[1200px] px-5 py-8 md:px-10">
+              <p className="max-w-3xl font-serif text-sm leading-relaxed text-body">
+                Educational reference and personal tracker — <strong>not medical advice</strong>.
+                Many peptides are unapproved research chemicals; consult a healthcare
+                professional before use.
+              </p>
+              <Link href="/settings" className="btn-secondary mt-4 inline-block">
+                Settings
+              </Link>
             </div>
-          </div>
+          </footer>
         </DisclaimerGate>
         <script
           dangerouslySetInnerHTML={{

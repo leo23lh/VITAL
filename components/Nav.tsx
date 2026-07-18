@@ -4,68 +4,38 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const LINKS = [
-  { href: "/", label: "Dashboard" },
-  { href: "/catalog", label: "Catalogue" },
+  { href: "/catalog", label: "Catalog" },
   { href: "/protocols", label: "Protocols" },
   { href: "/tracker", label: "Tracker" },
-  { href: "/settings", label: "Settings" },
 ];
-
-function Wordmark({ className = "" }: { className?: string }) {
-  return (
-    <Link
-      href="/"
-      className={`font-display text-xl font-bold uppercase leading-none tracking-wide ${className}`}
-    >
-      Peptide<span className="text-rust">Co</span>
-    </Link>
-  );
-}
 
 export default function Nav() {
   const pathname = usePathname();
-  const isActive = (href: string) =>
-    href === "/" ? pathname === "/" : pathname.startsWith(href);
+  const isActive = (href: string) => pathname.startsWith(href);
 
   return (
     <>
-      {/* Desktop: fixed dark sidebar */}
-      <aside className="sticky top-0 hidden h-screen w-56 shrink-0 flex-col bg-ink py-7 text-cream md:flex">
-        <div className="px-6 pb-8">
-          <Wordmark className="text-cream" />
-        </div>
-        <nav className="flex flex-col">
-          {LINKS.map((l) => {
-            const active = isActive(l.href);
-            return (
-              <Link
-                key={l.href}
-                href={l.href}
-                className={`px-6 py-3 font-display text-xs font-semibold uppercase tracking-widest transition ${
-                  active ? "bg-rust text-cream" : "text-sage hover:text-cream"
-                }`}
-              >
-                {l.label}
-              </Link>
-            );
-          })}
-        </nav>
-      </aside>
+      {/* Masthead strip: thin meta line above the main masthead */}
+      <div className="masthead-strip px-5 md:px-10">
+        <span>VitalPeps &middot; Vol. I</span>
+        <span className="hidden md:inline">An educational reference — not medical advice</span>
+        <span className="md:hidden">Not medical advice</span>
+      </div>
 
-      {/* Mobile: dark top bar with horizontal nav */}
-      <header className="sticky top-0 z-40 bg-ink text-cream md:hidden">
-        <div className="flex items-center justify-between px-5 pt-4">
-          <Wordmark className="text-cream" />
-        </div>
-        <nav className="flex gap-1 overflow-x-auto px-3 pb-2 pt-3">
+      {/* Masthead: wordmark + primary nav */}
+      <header className="flex items-center justify-between border-b-2 border-ink px-5 py-4 md:px-10">
+        <Link href="/" className="font-serif text-[30px] font-bold leading-none text-ink">
+          VitalPeps
+        </Link>
+        <nav className="hidden gap-6 md:flex">
           {LINKS.map((l) => {
             const active = isActive(l.href);
             return (
               <Link
                 key={l.href}
                 href={l.href}
-                className={`whitespace-nowrap px-3 py-1.5 font-display text-xs font-semibold uppercase tracking-widest transition ${
-                  active ? "bg-rust text-cream" : "text-sage"
+                className={`border-b-2 pb-1 font-sans text-[13px] uppercase tracking-wide ${
+                  active ? "border-rust text-rust" : "border-transparent text-ink"
                 }`}
               >
                 {l.label}
@@ -74,6 +44,24 @@ export default function Nav() {
           })}
         </nav>
       </header>
+
+      {/* Mobile: fixed bottom tab bar */}
+      <nav className="fixed inset-x-0 bottom-0 z-40 flex border-t border-rule bg-surface md:hidden">
+        {LINKS.map((l) => {
+          const active = isActive(l.href);
+          return (
+            <Link
+              key={l.href}
+              href={l.href}
+              className={`flex-1 border-t-2 py-3 text-center font-sans text-[11px] uppercase tracking-wide ${
+                active ? "border-rust text-rust" : "border-transparent text-ink"
+              }`}
+            >
+              {l.label}
+            </Link>
+          );
+        })}
+      </nav>
     </>
   );
 }

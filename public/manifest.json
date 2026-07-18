@@ -1,11 +1,11 @@
 {
-  "name": "Peptide & Supplement Companion",
-  "short_name": "Companion",
-  "description": "Educational catalog and personal tracker for peptides and supplements. Not medical advice.",
+  "name": "VitalPeps",
+  "short_name": "VitalPeps",
+  "description": "VitalPeps — educational catalog and personal tracker for peptides and supplements. Not medical advice.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0b1220",
-  "theme_color": "#1f66f1",
+  "background_color": "#eeece6",
+  "theme_color": "#161311",
   "icons": [
     { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
   ]
