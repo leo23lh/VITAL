@@ -2,17 +2,95 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ---- Swiss Deco design language ----
-   Cream / ink / rust palette, Oswald display + Inter body, flat bold shapes. */
+/* ============================================================================
+   VitalPeps Editorial — Design System (Task 1: design foundation)
+
+   A printed-magazine aesthetic: paper canvas, serif prose, sharp corners,
+   rust accent. Single committed light theme — darkMode:"class" is kept in
+   tailwind.config.ts but never applied; it exists only to neutralize any
+   legacy `dark:` variants still present in markup.
+
+   PALETTE (see .superpowers/sdd/global-constraints.md for canonical values —
+   exposed both as CSS custom properties below and as Tailwind `colors` so
+   `var(--x)` and `text-ink` / `bg-paper` etc. both work):
+     --paper        #eeece6              page canvas
+     --surface      #ffffff              article/card surfaces
+     --ink          #161311              primary text, 2px masthead rule, bars
+     --rust         #a3311c              accent: eyebrows, active nav, links, callout rules
+     --muted        #8a8378              meta/caption text ONLY — never body copy (~3:1 contrast)
+     --body         #3a352f              body prose
+     --rule         rgba(22,19,17,.15)   hairline rules
+     --rule-soft    rgba(22,19,17,.12)   list-row separators
+     --ev-strong    #1a4d2e              evidence pill: Strong
+     --ev-moderate  #8a6d1a              evidence pill: Moderate
+     --ev-limited   #a3311c              evidence pill: Limited
+     --ev-anecdotal #a3311c              evidence pill: Anecdotal
+
+   TYPOGRAPHY (families defined directly here — no webfont loading required,
+   so this works whether or not app/layout.tsx still loads next/font/google):
+     --font-serif   Georgia, 'Times New Roman', serif             headlines + body prose
+     --font-sans    -apple-system, 'Helvetica Neue', Arial, sans-serif   UI chrome (nav, eyebrows, buttons, meta)
+     --font-mono    ui-monospace, Menlo, monospace                 photo-placeholder captions
+
+   UTILITY CLASSES (exact specs from global-constraints.md):
+     .eyebrow            Small uppercase kicker. Sans 11px, letter-spacing 1.5px,
+                          uppercase, rust. Add .eyebrow--muted for the numbered-
+                          feature variant (muted instead of rust).
+     .section-head       Section title. Sans 13px, letter-spacing 1.5px, uppercase,
+                          2px bottom rule, 8px bottom padding.
+     .hatch               Diagonal hatch fill for large image placeholders.
+     .hatch-thumb         Diagonal hatch fill for thumbnail-sized placeholders
+                          (denser, slightly darker than .hatch).
+     .dropcap             Oversized first letter for a lead paragraph (56px,
+                          floated, tight line-height, bold).
+     .pull-quote          Indented italic serif block quote, rust left border,
+                          faint rust tint background.
+     .safety-callout      Surfaced safety-note box: rust top border, hairline
+                          bottom border. Pair with .safety-callout-label for the
+                          "A note on safety" heading inside it.
+     .btn                 Primary button: 1px ink border, sans 13px, no fill.
+     .btn-secondary       Secondary button: rust text, single rust bottom border
+                          only (looks like an underlined link, not a boxed button).
+     .stat-box            Bordered stat display (2px ink border). Pair with
+                          .stat-box-label (rust uppercase caption) and
+                          .stat-box-value (14px bold value) inside it.
+     .masthead-strip      Thin meta strip above the main masthead: sans 11px
+                          uppercase muted text, hairline bottom border, content
+                          (left/right copy) supplied by the consuming component.
+     .rule                Generic 1px hairline divider (for <hr> or a div used
+                          as a separator).
+
+   NON-NEGOTIABLES carried from global-constraints.md:
+     - Presentation only; no behavior/content changes live here.
+     - Sharp corners everywhere: border-radius forced to 0 globally, and the
+       Tailwind border-radius scale (tailwind.config.ts) is zeroed out too.
+     - `muted` is for meta/caption text only — never body copy.
+   ========================================================================= */
+
 :root {
-  --background: #f2ead9; /* cream */
-  --foreground: #1a1613; /* ink */
-  --rust: #c9481f; /* accent */
-  --rust-dark: #a83c19;
-  --sage: #a9a196; /* muted secondary */
-  --brown: #a9764f; /* eyebrow labels */
-  --muted: #6b6459; /* secondary text */
-  --body: #3a352f; /* long-form body text */
+  --paper: #eeece6;
+  --surface: #ffffff;
+  --ink: #161311;
+  --rust: #a3311c;
+  --muted: #8a8378;
+  --body: #3a352f;
+  --rule: rgba(22, 19, 17, 0.15);
+  --rule-soft: rgba(22, 19, 17, 0.12);
+  --ev-strong: #1a4d2e;
+  --ev-moderate: #8a6d1a;
+  --ev-limited: #a3311c;
+  --ev-anecdotal: #a3311c;
+
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-sans: -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, Menlo, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border-radius: 0;
 }
 
 html,
@@ -22,58 +100,175 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  margin: 0;
+  background: var(--paper);
+  color: var(--body);
+  font-family: var(--font-serif);
+  font-size: 16px;
+  line-height: 1.75;
   -webkit-font-smoothing: antialiased;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-/* Display type: Oswald, condensed and confident. */
 h1,
 h2,
 h3,
-.font-display {
-  font-family: var(--font-oswald), "Oswald", system-ui, sans-serif;
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  color: var(--ink);
 }
 
-h1 {
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  font-weight: 700;
-}
-
-h2,
-h3 {
-  font-weight: 600;
-}
-
-/* Small uppercase eyebrow labels used throughout the mockup. */
+/* ---- Eyebrow: small uppercase kicker label ---- */
 .eyebrow {
-  font-family: var(--font-oswald), "Oswald", sans-serif;
-  text-transform: uppercase;
+  font-family: var(--font-sans);
+  font-size: 11px;
   letter-spacing: 1.5px;
-  font-weight: 600;
-  font-size: 0.7rem;
-  color: var(--brown);
+  text-transform: uppercase;
+  color: var(--rust);
 }
 
-/* Diagonal hatch fill used for image placeholders. */
+.eyebrow--muted {
+  color: var(--muted);
+}
+
+/* ---- Section header: uppercase title with bottom rule ---- */
+.section-head {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--ink);
+  border-bottom: 2px solid var(--rule);
+  padding-bottom: 8px;
+}
+
+/* ---- Hatch: diagonal hatch fill for image placeholders ---- */
 .hatch {
   background-image: repeating-linear-gradient(
     135deg,
-    rgba(0, 0, 0, 0.08) 0 8px,
-    transparent 8px 16px
+    rgba(22, 19, 17, 0.07) 0 9px,
+    transparent 9px 18px
   );
 }
 
-.hatch-light {
+.hatch-thumb {
   background-image: repeating-linear-gradient(
     135deg,
-    rgba(255, 255, 255, 0.06) 0 8px,
-    transparent 8px 16px
+    rgba(22, 19, 17, 0.08) 0 7px,
+    transparent 7px 14px
   );
+}
+
+/* ---- Drop cap: oversized first letter on lead paragraphs ---- */
+.dropcap {
+  float: left;
+  font-family: var(--font-serif);
+  font-size: 56px;
+  line-height: 0.8;
+  padding: 6px 8px 0 0;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+/* ---- Pull quote: indented italic block quote ---- */
+.pull-quote {
+  border-left: 4px solid var(--rust);
+  background: rgba(163, 49, 28, 0.05);
+  padding: 16px 20px;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--body);
+}
+
+/* ---- Safety callout: surfaced safety-note box ---- */
+.safety-callout {
+  background: var(--surface);
+  border-top: 3px solid var(--rust);
+  border-bottom: 1px solid var(--rule);
+  padding: 14px 20px;
+}
+
+.safety-callout-label {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--rust);
+  margin-bottom: 6px;
+}
+
+/* ---- Buttons ---- */
+.btn {
+  display: inline-block;
+  border: 1px solid var(--ink);
+  padding: 9px 18px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  color: var(--ink);
+  background: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-secondary {
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid var(--rust);
+  padding: 9px 2px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  color: var(--rust);
+  background: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* ---- Stat box: bordered stat/number display ---- */
+.stat-box {
+  border: 2px solid var(--ink);
+  padding: 10px 18px;
+}
+
+.stat-box-label {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--rust);
+}
+
+.stat-box-value {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+/* ---- Masthead strip: thin meta strip above the main masthead ---- */
+.masthead-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-bottom: 1px solid var(--rule);
+  padding: 6px 0;
+}
+
+/* ---- Rule: generic hairline divider ---- */
+.rule {
+  border: none;
+  border-top: 1px solid var(--rule);
+  height: 0;
+  margin: 0;
 }
