@@ -1,73 +1,95 @@
 import Link from "next/link";
 import DueDoses from "@/components/DueDoses";
 
-const CARDS = [
+const FEATURES = [
   {
     href: "/catalog",
+    eyebrow: "01 — Reference",
     title: "Catalog",
-    body: "Browse peptides and supplements with mechanisms, benefits, side effects, honest evidence grading, citations, and vendor COAs.",
+    body: "Mechanisms, benefits, side effects, honest evidence grading, and citations for every compound.",
   },
   {
     href: "/protocols/new",
-    title: "Build a protocol",
-    body: "Pick a goal and assemble a dosing regimen with ancillary supplements — grounded in curated data, never invented.",
+    eyebrow: "02 — Build",
+    title: "Protocol Creator",
+    body: "Choose a goal, assemble a regimen from curated data — never invented, never guessed.",
   },
   {
     href: "/tracker",
-    title: "Track doses",
-    body: "Log doses over time, see your adherence, and get reminders so you stay on track and stay safe.",
+    eyebrow: "03 — Track",
+    title: "Tracker",
+    body: "Log doses, watch adherence over time, and stay consistent.",
   },
 ];
 
 export default function Home() {
   return (
-    <div className="space-y-8">
-      <section className="rounded-2xl bg-gradient-to-br from-brand-600 to-brand-800 p-6 text-white sm:p-8">
-        <h1 className="text-2xl font-bold sm:text-3xl">Use supplements &amp; peptides more safely</h1>
-        <p className="mt-2 max-w-2xl text-white/85">
-          An educational reference and personal tracker. Understand what a compound does, what the
-          evidence actually shows, where to check purity, and how to keep a consistent, careful
-          routine.
+    <div>
+      {/* Cover story */}
+      <section>
+        <p className="eyebrow">Cover Story</p>
+        <h1 className="mt-3 max-w-3xl font-serif text-[38px] font-bold leading-[1.05] text-ink sm:text-[52px]">
+          The Careful Guide to Peptide Therapy
+        </h1>
+        <p className="mt-4 max-w-[760px] font-serif text-[19px] italic leading-[1.5] text-body">
+          A plain-language catalog of what the research actually shows, a protocol builder grounded
+          in it, and a tracker to keep you honest — not a recommendation to use anything.
         </p>
-        <div className="mt-5 flex flex-wrap gap-3">
-          <Link
-            href="/catalog"
-            className="rounded-xl bg-white px-4 py-2 font-medium text-brand-700 transition hover:bg-white/90"
-          >
+        <div className="mt-6 flex flex-wrap items-center gap-x-8 gap-y-3">
+          <Link href="/catalog" className="btn">
             Explore the catalog
           </Link>
-          <Link
-            href="/protocols/new"
-            className="rounded-xl border border-white/40 px-4 py-2 font-medium text-white transition hover:bg-white/10"
-          >
-            Build a protocol
+          <Link href="/protocols/new" className="btn-secondary">
+            Build a protocol →
           </Link>
         </div>
       </section>
 
-      <section className="space-y-3">
-        <div className="flex items-center justify-between">
-          <h2 className="text-lg font-semibold">Today&apos;s doses</h2>
-          <Link href="/tracker" className="text-sm text-brand-600 hover:underline dark:text-brand-300">
+      <div className="my-10">
+        <hr className="rule" />
+      </div>
+
+      {/* Photograph band */}
+      <section className="hatch flex h-[230px] items-center justify-center">
+        <p className="font-mono text-[11px] text-muted">
+          PHOTOGRAPH — still life, vials and syringe on linen
+        </p>
+      </section>
+
+      <div className="my-10">
+        <hr className="rule" />
+      </div>
+
+      {/* Three numbered features */}
+      <section className="grid grid-cols-1 gap-8 md:grid-cols-3">
+        {FEATURES.map((f, i) => (
+          <Link
+            key={f.href}
+            href={f.href}
+            className={`block ${i > 0 ? "md:border-l md:border-rule md:pl-8" : ""}`}
+          >
+            <p className="eyebrow eyebrow--muted">{f.eyebrow}</p>
+            <h2 className="mt-2 font-serif text-[22px] font-bold text-ink">{f.title}</h2>
+            <p className="mt-2 text-[14px] leading-[1.6] text-body">{f.body}</p>
+          </Link>
+        ))}
+      </section>
+
+      <div className="my-10">
+        <hr className="rule" />
+      </div>
+
+      {/* Today's doses */}
+      <section>
+        <div className="section-head flex items-end justify-between">
+          <span>Today&apos;s Doses</span>
+          <Link href="/tracker" className="normal-case tracking-normal text-rust">
             Open tracker →
           </Link>
         </div>
-        <DueDoses compact />
-      </section>
-
-      <section className="grid gap-4 sm:grid-cols-3">
-        {CARDS.map((c) => (
-          <Link
-            key={c.href}
-            href={c.href}
-            className="group rounded-2xl border border-black/10 p-5 transition hover:border-brand-400 hover:shadow-sm dark:border-white/10"
-          >
-            <h2 className="font-semibold text-brand-700 group-hover:text-brand-600 dark:text-brand-300">
-              {c.title}
-            </h2>
-            <p className="mt-2 text-sm text-[var(--foreground)]/70">{c.body}</p>
-          </Link>
-        ))}
+        <div className="mt-5">
+          <DueDoses compact />
+        </div>
       </section>
     </div>
   );
