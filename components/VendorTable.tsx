@@ -115,7 +115,7 @@ export default function VendorTable({ vendors }: { vendors: Vendor[] }) {
                     ))}
                   </ul>
                   {v.notes && (
-                    <p className="mt-2 font-sans text-[12px] leading-[1.5] text-muted">{v.notes}</p>
+                    <p className="mt-2 font-sans text-[12px] leading-[1.5] text-body">{v.notes}</p>
                   )}
                   {v.pricesCheckedAt && (
                     <p className="mt-1 font-sans text-[12px] leading-[1.5] text-muted">

@@ -7,6 +7,7 @@ import type { Protocol } from "@/lib/types";
 import { deleteProtocol, getProtocol, setActiveProtocol } from "@/lib/db";
 import { getCompound } from "@/content/compounds";
 import { Disclaimer } from "@/components/Disclaimer";
+import ActiveBadge from "@/components/ActiveBadge";
 
 export default function ProtocolDetailPage() {
   const params = useParams<{ id: string }>();
@@ -59,11 +60,7 @@ export default function ProtocolDetailPage() {
             <h1 className="font-serif text-[38px] font-bold leading-[1.05] text-ink">
               {protocol.name}
             </h1>
-            {protocol.active && (
-              <span className="border border-rust px-2 py-[2px] font-sans text-[10.5px] uppercase tracking-[.5px] text-rust">
-                Active
-              </span>
-            )}
+            {protocol.active && <ActiveBadge />}
           </div>
           <p className="mt-2 font-sans text-[13px] text-muted">{protocol.goal}</p>
         </div>

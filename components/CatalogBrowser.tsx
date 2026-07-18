@@ -56,7 +56,7 @@ export default function CatalogBrowser({
           onChange={(e) => setQ(e.target.value)}
           placeholder="Search compounds…"
           aria-label="Search compounds"
-          className="w-full border-0 border-b border-ink bg-transparent px-0 py-1.5 font-sans text-[14px] text-ink outline-none placeholder:text-muted sm:w-[260px]"
+          className="w-full border-0 border-b border-ink bg-transparent px-0 py-1.5 font-sans text-[14px] text-ink outline-none placeholder:text-muted focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rust sm:w-[260px]"
         />
 
         <div className="flex flex-wrap gap-2" role="group" aria-label="Filter by type">
@@ -73,12 +73,16 @@ export default function CatalogBrowser({
           ))}
         </div>
 
-        <div className="flex flex-wrap gap-2" role="group" aria-label="Filter by goal">
+        <div
+          className="-mx-4 flex flex-nowrap gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0"
+          role="group"
+          aria-label="Filter by goal"
+        >
           <button
             type="button"
             onClick={() => setGoal("all")}
             aria-pressed={goal === "all"}
-            className={chipClass(goal === "all")}
+            className={`flex-none ${chipClass(goal === "all")}`}
           >
             All goals
           </button>
@@ -88,7 +92,7 @@ export default function CatalogBrowser({
               type="button"
               onClick={() => setGoal(g)}
               aria-pressed={goal === g}
-              className={chipClass(goal === g)}
+              className={`flex-none ${chipClass(goal === g)}`}
             >
               {g}
             </button>

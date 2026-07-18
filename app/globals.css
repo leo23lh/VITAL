@@ -22,7 +22,7 @@
      --rule         rgba(22,19,17,.15)   hairline rules
      --rule-soft    rgba(22,19,17,.12)   list-row separators
      --ev-strong    #1a4d2e              evidence pill: Strong
-     --ev-moderate  #8a6d1a              evidence pill: Moderate
+     --ev-moderate  #6f5714              evidence pill: Moderate
      --ev-limited   #a3311c              evidence pill: Limited
      --ev-anecdotal #a3311c              evidence pill: Anecdotal
 
@@ -77,7 +77,7 @@
   --rule: rgba(22, 19, 17, 0.15);
   --rule-soft: rgba(22, 19, 17, 0.12);
   --ev-strong: #1a4d2e;
-  --ev-moderate: #8a6d1a;
+  --ev-moderate: #6f5714;
   --ev-limited: #a3311c;
   --ev-anecdotal: #a3311c;
 
@@ -227,6 +227,14 @@ h6 {
   text-decoration: none;
   cursor: pointer;
   text-align: center;
+}
+
+/* Visible keyboard-focus ring, matching the outline used on catalog filter
+   chips. Native mouse-click focus is left alone (:focus-visible only). */
+.btn:focus-visible,
+.btn-secondary:focus-visible {
+  outline: 2px solid var(--rust);
+  outline-offset: 2px;
 }
 
 /* ---- Stat box: bordered stat/number display ---- */

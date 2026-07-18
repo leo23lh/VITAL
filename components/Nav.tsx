@@ -32,7 +32,10 @@ export default function Nav() {
           is centered in the same 1200px column as main/footer. */}
       <header className="border-b-2 border-ink">
         <div className="mx-auto flex max-w-[1200px] items-center justify-between px-5 py-4 md:px-10">
-          <Link href="/" className="font-serif text-[30px] font-bold leading-none text-ink">
+          <Link
+            href="/"
+            className="font-serif text-[30px] font-bold leading-none text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rust"
+          >
             VitalPeps
           </Link>
           <nav className="hidden gap-6 md:flex">
@@ -42,7 +45,7 @@ export default function Nav() {
                 <Link
                   key={l.href}
                   href={l.href}
-                  className={`border-b-2 pb-1 font-sans text-[13px] uppercase tracking-wide ${
+                  className={`border-b-2 pb-1 font-sans text-[13px] uppercase tracking-wide focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rust ${
                     active ? "border-rust text-rust" : "border-transparent text-ink"
                   }`}
                 >
@@ -62,7 +65,7 @@ export default function Nav() {
             <Link
               key={l.href}
               href={l.href}
-              className={`flex-1 border-t-2 py-3 text-center font-sans text-[11px] uppercase tracking-wide ${
+              className={`flex-1 border-t-2 py-3 text-center font-sans text-[11px] uppercase tracking-wide focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-rust ${
                 active ? "border-rust text-rust" : "border-transparent text-ink"
               }`}
             >

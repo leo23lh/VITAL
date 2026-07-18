@@ -43,7 +43,7 @@ const config: Config = {
         rule: "rgba(22, 19, 17, 0.15)",
         "rule-soft": "rgba(22, 19, 17, 0.12)",
         "ev-strong": "#1a4d2e",
-        "ev-moderate": "#8a6d1a",
+        "ev-moderate": "#6f5714",
         "ev-limited": "#a3311c",
         "ev-anecdotal": "#a3311c",
       },

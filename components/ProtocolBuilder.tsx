@@ -36,7 +36,9 @@ function FieldLabel({ children }: { children: React.ReactNode }) {
 }
 
 const fieldClasses =
-  "mt-1 w-full border border-rule bg-transparent px-2.5 py-2 font-sans text-[13px] text-ink outline-none focus:border-ink";
+  "mt-1 w-full border border-rule bg-transparent px-2.5 py-2 font-sans text-[13px] text-ink outline-none focus:border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rust";
+
+const selectClasses = `${fieldClasses} appearance-none`;
 
 export default function ProtocolBuilder({
   compounds,
@@ -117,7 +119,7 @@ export default function ProtocolBuilder({
             <button
               key={t.id}
               onClick={() => loadTemplate(t)}
-              className="border border-rule p-6 text-left transition-colors hover:border-ink"
+              className="border border-rule p-6 text-left transition-colors hover:border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rust"
             >
               <p className="eyebrow">{t.goal}</p>
               <h3 className="mt-2 font-serif text-[22px] font-bold text-ink">{t.name}</h3>
@@ -129,7 +131,7 @@ export default function ProtocolBuilder({
           ))}
           <button
             onClick={startBlank}
-            className="border border-dashed border-rule p-6 text-left transition-colors hover:border-ink"
+            className="border border-dashed border-rule p-6 text-left transition-colors hover:border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rust"
           >
             <h3 className="font-serif text-[22px] font-bold text-ink">Start from scratch</h3>
             <p className="mt-2 font-serif text-[15px] leading-[1.6] text-body">
@@ -185,7 +187,7 @@ export default function ProtocolBuilder({
                         {c?.name ?? it.compoundId}
                       </h3>
                       {c?.dosingNotes && (
-                        <p className="mt-1 font-sans text-[12px] leading-[1.5] text-muted">
+                        <p className="mt-1 font-sans text-[12px] leading-[1.5] text-body">
                           {c.dosingNotes}
                         </p>
                       )}
@@ -221,7 +223,7 @@ export default function ProtocolBuilder({
                       <select
                         value={it.frequency}
                         onChange={(e) => updateItem(i, { frequency: e.target.value as Frequency })}
-                        className={fieldClasses}
+                        className={selectClasses}
                       >
                         {FREQUENCIES.map((f) => (
                           <option key={f} value={f}>
@@ -235,7 +237,7 @@ export default function ProtocolBuilder({
                       <select
                         value={it.timing}
                         onChange={(e) => updateItem(i, { timing: e.target.value as Timing })}
-                        className={fieldClasses}
+                        className={selectClasses}
                       >
                         {TIMINGS.map((t) => (
                           <option key={t} value={t}>
@@ -267,7 +269,7 @@ export default function ProtocolBuilder({
               <select
                 value={addId}
                 onChange={(e) => setAddId(e.target.value)}
-                className="border border-rule bg-transparent px-3 py-2 font-sans text-[13px] text-ink outline-none focus:border-ink"
+                className="appearance-none border border-rule bg-transparent px-3 py-2 font-sans text-[13px] text-ink outline-none focus:border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rust"
               >
                 {compounds.map((c) => (
                   <option key={c.id} value={c.id}>

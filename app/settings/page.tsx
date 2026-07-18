@@ -117,7 +117,7 @@ export default function SettingsPage() {
               type="time"
               value={settings.quietHours?.start ?? "22:00"}
               onChange={(e) => updateQuiet("start", e.target.value)}
-              className="mt-1 w-full border border-rule bg-transparent px-2.5 py-2 font-sans text-[13px] text-ink outline-none focus:border-ink"
+              className="mt-1 w-full border border-rule bg-transparent px-2.5 py-2 font-sans text-[13px] text-ink outline-none focus:border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rust"
             />
           </label>
           <label className="block">
@@ -128,7 +128,7 @@ export default function SettingsPage() {
               type="time"
               value={settings.quietHours?.end ?? "07:00"}
               onChange={(e) => updateQuiet("end", e.target.value)}
-              className="mt-1 w-full border border-rule bg-transparent px-2.5 py-2 font-sans text-[13px] text-ink outline-none focus:border-ink"
+              className="mt-1 w-full border border-rule bg-transparent px-2.5 py-2 font-sans text-[13px] text-ink outline-none focus:border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rust"
             />
           </label>
         </div>

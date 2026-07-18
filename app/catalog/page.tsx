@@ -13,7 +13,7 @@ export default function CatalogPage() {
         moderate, limited, or anecdotal only.
       </p>
 
-      <div className="mt-8">
+      <div className="mt-10">
         <CatalogBrowser compounds={COMPOUNDS} goals={allGoals()} />
       </div>
     </div>

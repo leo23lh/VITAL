@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
 import type { Protocol } from "@/lib/types";
 import { deleteProtocol, listProtocols, setActiveProtocol } from "@/lib/db";
+import ActiveBadge from "@/components/ActiveBadge";
 
 export default function ProtocolsPage() {
   const [protocols, setProtocols] = useState<Protocol[] | null>(null);
@@ -63,11 +64,7 @@ export default function ProtocolsPage() {
                   >
                     {p.name}
                   </Link>
-                  {p.active && (
-                    <span className="border border-rust px-2 py-[2px] font-sans text-[10.5px] uppercase tracking-[.5px] text-rust">
-                      Active
-                    </span>
-                  )}
+                  {p.active && <ActiveBadge />}
                 </div>
                 <p className="mt-1 font-sans text-[12px] text-muted">
                   {p.goal} · {p.items.length} {p.items.length === 1 ? "compound" : "compounds"}
