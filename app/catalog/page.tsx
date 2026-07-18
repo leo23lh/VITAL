@@ -5,15 +5,17 @@ export const metadata = { title: "Catalog · Peptide & Supplement Companion" };
 
 export default function CatalogPage() {
   return (
-    <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold">Catalog</h1>
-        <p className="mt-1 text-sm text-[var(--foreground)]/60">
-          Browse compounds with mechanisms, benefits, side effects, honest evidence grading,
-          citations, and vendor COAs. Search or filter by type and goal.
-        </p>
+    <div>
+      <p className="eyebrow">Catalog</p>
+      <h1 className="mt-3 font-serif text-[38px] font-bold text-ink">Compounds, A&ndash;Z</h1>
+      <p className="mt-3 max-w-[640px] font-serif text-[15px] italic leading-[1.6] text-body">
+        Search or filter by goal. Every entry carries an honest evidence grade — strong,
+        moderate, limited, or anecdotal only.
+      </p>
+
+      <div className="mt-8">
+        <CatalogBrowser compounds={COMPOUNDS} goals={allGoals()} />
       </div>
-      <CatalogBrowser compounds={COMPOUNDS} goals={allGoals()} />
     </div>
   );
 }

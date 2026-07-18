@@ -7,6 +7,24 @@ import EvidenceBadge from "./EvidenceBadge";
 
 type CatFilter = "all" | Category;
 
+const TYPE_CHIPS: { value: CatFilter; label: string }[] = [
+  { value: "all", label: "All types" },
+  { value: "supplement", label: "Supplements" },
+  { value: "peptide", label: "Peptides" },
+  { value: "sarm", label: "SARMs" },
+  { value: "hormone", label: "Hormones" },
+];
+
+function chipClass(active: boolean) {
+  return [
+    "border px-3 py-[6px] font-sans text-[12px] uppercase tracking-[.3px] transition-colors",
+    "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rust",
+    active
+      ? "border-ink bg-ink text-paper"
+      : "border-[rgba(22,19,17,.3)] text-body hover:border-ink",
+  ].join(" ");
+}
+
 export default function CatalogBrowser({
   compounds,
   goals,
@@ -30,83 +48,87 @@ export default function CatalogBrowser({
   }, [compounds, q, cat, goal]);
 
   return (
-    <div className="space-y-5">
-      <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+    <div>
+      <div className="flex flex-wrap items-center gap-x-6 gap-y-4 pb-6">
         <input
+          type="text"
           value={q}
           onChange={(e) => setQ(e.target.value)}
           placeholder="Search compounds…"
-          className="w-full rounded-xl border border-black/15 bg-transparent px-4 py-2.5 text-sm outline-none focus:border-brand-400 dark:border-white/15"
+          aria-label="Search compounds"
+          className="w-full border-0 border-b border-ink bg-transparent px-0 py-1.5 font-sans text-[14px] text-ink outline-none placeholder:text-muted sm:w-[260px]"
         />
-        <div className="flex gap-2">
-          <select
-            value={cat}
-            onChange={(e) => setCat(e.target.value as CatFilter)}
-            className="rounded-xl border border-black/15 bg-transparent px-3 py-2.5 text-sm dark:border-white/15"
+
+        <div className="flex flex-wrap gap-2" role="group" aria-label="Filter by type">
+          {TYPE_CHIPS.map((chip) => (
+            <button
+              key={chip.value}
+              type="button"
+              onClick={() => setCat(chip.value)}
+              aria-pressed={cat === chip.value}
+              className={chipClass(cat === chip.value)}
+            >
+              {chip.label}
+            </button>
+          ))}
+        </div>
+
+        <div className="flex flex-wrap gap-2" role="group" aria-label="Filter by goal">
+          <button
+            type="button"
+            onClick={() => setGoal("all")}
+            aria-pressed={goal === "all"}
+            className={chipClass(goal === "all")}
           >
-            <option value="all">All types</option>
-            <option value="supplement">Supplements</option>
-            <option value="peptide">Peptides</option>
-            <option value="sarm">SARMs</option>
-            <option value="hormone">Hormones / PEDs</option>
-          </select>
-          <select
-            value={goal}
-            onChange={(e) => setGoal(e.target.value)}
-            className="rounded-xl border border-black/15 bg-transparent px-3 py-2.5 text-sm dark:border-white/15"
-          >
-            <option value="all">All goals</option>
-            {goals.map((g) => (
-              <option key={g} value={g}>
-                {g}
-              </option>
-            ))}
-          </select>
+            All goals
+          </button>
+          {goals.map((g) => (
+            <button
+              key={g}
+              type="button"
+              onClick={() => setGoal(g)}
+              aria-pressed={goal === g}
+              className={chipClass(goal === g)}
+            >
+              {g}
+            </button>
+          ))}
         </div>
       </div>
 
-      <p className="text-xs text-[var(--foreground)]/50">
+      <hr className="rule" />
+
+      <p className="mt-4 font-sans text-[12px] text-muted">
         {filtered.length} {filtered.length === 1 ? "compound" : "compounds"}
       </p>
 
-      <ul className="grid gap-4 sm:grid-cols-2">
+      <ul className="mt-2">
         {filtered.map((c) => (
-          <li key={c.id}>
-            <Link
-              href={`/catalog/${c.id}`}
-              className="group block h-full rounded-2xl border border-black/10 p-5 transition hover:border-brand-400 hover:shadow-sm dark:border-white/10"
-            >
-              <div className="flex items-start justify-between gap-3">
-                <div>
-                  <h3 className="font-semibold group-hover:text-brand-600 dark:group-hover:text-brand-300">
+          <li key={c.id} className="border-b border-rule-soft last:border-b-0">
+            <Link href={`/catalog/${c.id}`} className="group flex items-start gap-4 py-5 sm:gap-5">
+              <div className="hatch-thumb hidden h-16 w-16 flex-none sm:block" />
+              <div className="min-w-0 flex-1">
+                <p className="font-sans text-[10.5px] uppercase tracking-[1px] text-muted">
+                  {c.category}
+                  {c.goals[0] ? ` · ${c.goals[0]}` : ""}
+                </p>
+                <div className="mt-1 flex flex-wrap items-center gap-3">
+                  <h3 className="font-serif text-[22px] font-bold text-ink group-hover:text-rust">
                     {c.name}
                   </h3>
-                  <p className="mt-0.5 text-xs uppercase tracking-wide text-[var(--foreground)]/40">
-                    {c.category}
-                  </p>
+                  <EvidenceBadge level={c.evidenceLevel as EvidenceLevel} />
                 </div>
-                <EvidenceBadge level={c.evidenceLevel as EvidenceLevel} />
+                <p className="mt-2 max-w-[640px] text-[14px] leading-[1.5] text-body">
+                  {c.summary}
+                </p>
               </div>
-              <p className="mt-3 text-sm text-[var(--foreground)]/70">{c.summary}</p>
-              {c.goals.length > 0 && (
-                <div className="mt-3 flex flex-wrap gap-1.5">
-                  {c.goals.map((g) => (
-                    <span
-                      key={g}
-                      className="rounded-full bg-black/5 px-2 py-0.5 text-xs text-[var(--foreground)]/60 dark:bg-white/10"
-                    >
-                      {g}
-                    </span>
-                  ))}
-                </div>
-              )}
             </Link>
           </li>
         ))}
       </ul>
 
       {filtered.length === 0 && (
-        <p className="py-10 text-center text-sm text-[var(--foreground)]/50">
+        <p className="py-10 text-center font-sans text-sm text-muted">
           No compounds match your filters.
         </p>
       )}
