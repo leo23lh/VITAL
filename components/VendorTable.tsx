@@ -8,17 +8,33 @@ function formatPrice(price: number, currency: string) {
   }
 }
 
+/** Sans 11px uppercase column label (also used as the stacked mobile label). */
+function ColLabel({ children, className = "" }: { children: React.ReactNode; className?: string }) {
+  return (
+    <span
+      className={`block font-sans text-[11px] uppercase leading-[1.4] tracking-[1px] text-muted ${className}`}
+    >
+      {children}
+    </span>
+  );
+}
+
 /**
  * Shows where to buy — with price snapshots (retail) or a "priced after medical
  * evaluation" note (clinician-gated) — plus the COA link for each vendor. Vendor
  * links are third-party and open in a new tab; the app makes no purity guarantee.
+ *
+ * Editorial treatment: hairline `rule-soft` row separators, sans uppercase muted
+ * column labels, serif vendor names, sans prices, rust COA links. Compounds with
+ * no vendors (high-risk entries such as insulin, EPO, anabolic steroids) render
+ * the explanatory empty state and never a buy link or price.
  */
 export default function VendorTable({ vendors }: { vendors: Vendor[] }) {
   if (vendors.length === 0) {
     return (
-      <div className="border-2 border-dashed border-ink/25 p-4 text-sm text-muted">
-        <p className="font-semibold text-ink">No buy links for this compound.</p>
-        <p className="mt-1">
+      <div className="border border-rule bg-surface px-5 py-4">
+        <ColLabel>No buy links for this compound</ColLabel>
+        <p className="mt-2 font-serif text-[14px] leading-[1.6] text-body">
           Either no trusted vendor applies, or this is a widely available shelf supplement. When a
           seller you trust is listed here, its <strong>Certificate of Analysis (COA)</strong> and
           current pricing appear so you can check third-party purity before buying.
@@ -28,96 +44,116 @@ export default function VendorTable({ vendors }: { vendors: Vendor[] }) {
   }
 
   return (
-    <div className="space-y-4">
-      {vendors.map((v) => (
-        <div key={v.url} className="border-2 border-ink/85 bg-cream/40">
-          {/* Vendor header */}
-          <div className="flex flex-wrap items-center justify-between gap-2 border-b-2 border-ink/85 bg-ink px-4 py-2.5 text-cream">
-            <div className="flex items-center gap-3">
-              <span className="font-display text-sm font-semibold uppercase tracking-wide">
-                {v.name}
-              </span>
+    <div>
+      <div className="border-y border-rule-soft">
+        {/* Column header row (desktop only — stacked rows carry inline labels) */}
+        <div className="hidden gap-6 border-b border-rule-soft py-2 md:grid md:grid-cols-[1fr_1.5fr_auto]">
+          <ColLabel>Vendor</ColLabel>
+          <ColLabel>Product &amp; price</ColLabel>
+          <ColLabel>Purity</ColLabel>
+        </div>
+
+        {vendors.map((v) => (
+          <div
+            key={v.url}
+            className="grid gap-4 border-b border-rule-soft py-5 last:border-b-0 md:grid-cols-[1fr_1.5fr_auto] md:gap-6"
+          >
+            {/* Vendor */}
+            <div>
+              <ColLabel className="md:hidden">Vendor</ColLabel>
+              <p className="mt-1 font-serif text-[18px] leading-[1.3] text-ink md:mt-0">{v.name}</p>
               {v.pricingModel === "clinician-gated" && (
-                <span className="bg-rust px-2 py-0.5 font-display text-[10px] font-semibold uppercase tracking-widest text-cream">
+                <span className="mt-1 inline-block font-sans text-[11px] uppercase tracking-[1px] text-rust">
                   Clinician-gated
                 </span>
-              )}
-            </div>
-            <div className="flex items-center gap-3">
-              {v.coaUrl ? (
-                <a
-                  href={v.coaUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-cream px-2.5 py-1 font-display text-[11px] font-semibold uppercase tracking-wide text-ink hover:bg-white"
-                >
-                  View COA ↗
-                </a>
-              ) : (
-                <span className="text-[11px] text-sage">No COA listed</span>
               )}
               <a
                 href={v.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-display text-[11px] font-semibold uppercase tracking-wide text-rust-dark underline decoration-rust/60 underline-offset-2 hover:text-cream"
-                style={{ color: "#e0a184" }}
+                className="mt-2 block font-sans text-[12px] text-rust no-underline hover:underline"
               >
-                Visit ↗
+                Visit site ↗
               </a>
             </div>
-          </div>
 
-          {/* Body: prices or clinician note */}
-          <div className="px-4 py-3">
-            {v.pricingModel === "clinician-gated" ? (
-              <p className="text-sm text-body">
-                Priced after a medical evaluation, via licensed pharmacies — no fixed retail price.
-                {v.notes ? ` ${v.notes}` : ""}
-              </p>
-            ) : v.products.length > 0 ? (
-              <>
-                <ul className="divide-y divide-ink/10">
-                  {v.products.map((p, i) => (
-                    <li key={i} className="flex items-center justify-between gap-4 py-2 text-sm">
-                      <span className="text-body">
-                        {p.url ? (
-                          <a
-                            href={p.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="underline decoration-ink/30 underline-offset-2 hover:decoration-rust"
-                          >
-                            {p.label}
-                          </a>
-                        ) : (
-                          p.label
-                        )}
-                      </span>
-                      <span className="whitespace-nowrap font-display text-base font-semibold text-ink">
-                        {formatPrice(p.price, p.currency)}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-                {v.notes && <p className="mt-2 text-xs text-muted">{v.notes}</p>}
-                {v.pricesCheckedAt && (
-                  <p className="mt-1 text-xs text-muted">
-                    Prices approximate · checked {v.pricesCheckedAt}. Confirm on the vendor site.
-                  </p>
-                )}
-              </>
-            ) : (
-              <p className="text-sm text-body">
-                Carried by this vendor — check the site for current pricing.
-                {v.notes ? ` ${v.notes}` : ""}
-              </p>
-            )}
-          </div>
-        </div>
-      ))}
+            {/* Product & price */}
+            <div>
+              <ColLabel className="md:hidden">Product &amp; price</ColLabel>
+              {v.pricingModel === "clinician-gated" ? (
+                <p className="mt-1 font-serif text-[14px] leading-[1.6] text-body md:mt-0">
+                  Priced after a medical evaluation, via licensed pharmacies — no fixed retail
+                  price.
+                  {v.notes ? ` ${v.notes}` : ""}
+                </p>
+              ) : v.products.length > 0 ? (
+                <>
+                  <ul className="mt-1 md:mt-0">
+                    {v.products.map((p, i) => (
+                      <li
+                        key={i}
+                        className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-b border-rule-soft py-2 first:pt-0 last:border-b-0 last:pb-0"
+                      >
+                        <span className="font-serif text-[14px] leading-[1.5] text-body">
+                          {p.url ? (
+                            <a
+                              href={p.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-rust no-underline hover:underline"
+                            >
+                              {p.label}
+                            </a>
+                          ) : (
+                            p.label
+                          )}
+                        </span>
+                        <span className="whitespace-nowrap font-sans text-[14px] font-bold text-ink">
+                          {formatPrice(p.price, p.currency)}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                  {v.notes && (
+                    <p className="mt-2 font-sans text-[12px] leading-[1.5] text-muted">{v.notes}</p>
+                  )}
+                  {v.pricesCheckedAt && (
+                    <p className="mt-1 font-sans text-[12px] leading-[1.5] text-muted">
+                      Prices approximate · checked {v.pricesCheckedAt}. Confirm on the vendor site.
+                    </p>
+                  )}
+                </>
+              ) : (
+                <p className="mt-1 font-serif text-[14px] leading-[1.6] text-body md:mt-0">
+                  Carried by this vendor — check the site for current pricing.
+                  {v.notes ? ` ${v.notes}` : ""}
+                </p>
+              )}
+            </div>
 
-      <p className="text-xs text-muted">
+            {/* Purity / COA */}
+            <div>
+              <ColLabel className="md:hidden">Purity</ColLabel>
+              {v.coaUrl ? (
+                <a
+                  href={v.coaUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-1 block whitespace-nowrap font-sans text-[12px] text-rust no-underline hover:underline md:mt-0"
+                >
+                  View COA ↗
+                </a>
+              ) : (
+                <span className="mt-1 block whitespace-nowrap font-sans text-[12px] text-muted md:mt-0">
+                  No COA listed
+                </span>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <p className="mt-4 font-sans text-[12px] leading-[1.5] text-body">
         Vendor links are third-party. This app does not sell products and makes no purity
         guarantee — always confirm the COA matches your exact product and batch, and that a
         purchase is legal where you live.
