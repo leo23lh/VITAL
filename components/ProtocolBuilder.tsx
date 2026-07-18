@@ -11,6 +11,7 @@ import type {
 } from "@/lib/types";
 import { saveProtocol, setActiveProtocol } from "@/lib/db";
 import { newId } from "@/lib/id";
+import { Disclaimer } from "@/components/Disclaimer";
 
 const FREQUENCIES: Frequency[] = [
   "once-daily",
@@ -28,6 +29,14 @@ const TIMINGS: Timing[] = [
   "with-food",
   "any",
 ];
+
+/** Sans 11px uppercase caption used above every field in the builder. */
+function FieldLabel({ children }: { children: React.ReactNode }) {
+  return <span className="font-sans text-[11px] uppercase tracking-wide text-muted">{children}</span>;
+}
+
+const fieldClasses =
+  "mt-1 w-full border border-rule bg-transparent px-2.5 py-2 font-sans text-[13px] text-ink outline-none focus:border-ink";
 
 export default function ProtocolBuilder({
   compounds,
@@ -98,37 +107,32 @@ export default function ProtocolBuilder({
 
   if (!started) {
     return (
-      <div className="space-y-6">
-        <div>
-          <h2 className="text-lg font-semibold">Start from a goal</h2>
-          <p className="mt-1 text-sm text-[var(--foreground)]/60">
-            Pick a curated starting point, then adjust everything to fit you. Doses come from the
-            cited literature — nothing is invented.
-          </p>
-        </div>
-        <div className="grid gap-4 sm:grid-cols-2">
+      <div>
+        <p className="max-w-[640px] font-serif text-[15px] italic leading-[1.6] text-body">
+          Pick a curated starting point, then adjust everything to fit you. Doses come from the
+          cited literature — nothing is invented.
+        </p>
+        <div className="mt-8 grid gap-6 sm:grid-cols-2">
           {templates.map((t) => (
             <button
               key={t.id}
               onClick={() => loadTemplate(t)}
-              className="rounded-2xl border border-black/10 p-5 text-left transition hover:border-brand-400 hover:shadow-sm dark:border-white/10"
+              className="border border-rule p-6 text-left transition-colors hover:border-ink"
             >
-              <p className="text-xs uppercase tracking-wide text-brand-600 dark:text-brand-300">
-                {t.goal}
-              </p>
-              <h3 className="mt-1 font-semibold">{t.name}</h3>
-              <p className="mt-2 text-sm text-[var(--foreground)]/70">{t.description}</p>
-              <p className="mt-3 text-xs text-[var(--foreground)]/50">
+              <p className="eyebrow">{t.goal}</p>
+              <h3 className="mt-2 font-serif text-[22px] font-bold text-ink">{t.name}</h3>
+              <p className="mt-2 font-serif text-[15px] leading-[1.6] text-body">{t.description}</p>
+              <p className="mt-4 font-sans text-[12px] text-muted">
                 {t.items.length} {t.items.length === 1 ? "compound" : "compounds"}
               </p>
             </button>
           ))}
           <button
             onClick={startBlank}
-            className="rounded-2xl border border-dashed border-black/20 p-5 text-left transition hover:border-brand-400 dark:border-white/20"
+            className="border border-dashed border-rule p-6 text-left transition-colors hover:border-ink"
           >
-            <h3 className="font-semibold">Start from scratch</h3>
-            <p className="mt-2 text-sm text-[var(--foreground)]/70">
+            <h3 className="font-serif text-[22px] font-bold text-ink">Start from scratch</h3>
+            <p className="mt-2 font-serif text-[15px] leading-[1.6] text-body">
               Build your own from any compound in the catalog.
             </p>
           </button>
@@ -138,181 +142,216 @@ export default function ProtocolBuilder({
   }
 
   return (
-    <div className="space-y-6">
-      <div className="grid gap-4 sm:grid-cols-2">
-        <label className="block">
-          <span className="text-sm font-medium">Protocol name</span>
-          <input
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            placeholder="e.g. My wind-down stack"
-            className="mt-1 w-full rounded-xl border border-black/15 bg-transparent px-3 py-2 text-sm outline-none focus:border-brand-400 dark:border-white/15"
-          />
-        </label>
-        <label className="block">
-          <span className="text-sm font-medium">Goal</span>
-          <input
-            value={goal}
-            onChange={(e) => setGoal(e.target.value)}
-            placeholder="e.g. Sleep & recovery"
-            className="mt-1 w-full rounded-xl border border-black/15 bg-transparent px-3 py-2 text-sm outline-none focus:border-brand-400 dark:border-white/15"
-          />
-        </label>
-      </div>
+    <div className="grid gap-10 md:grid-cols-[1fr_340px]">
+      {/* ---- Main column ---- */}
+      <div className="space-y-10">
+        <section>
+          <h2 className="section-head">1 · Protocol details</h2>
+          <div className="mt-5 grid gap-4 sm:grid-cols-2">
+            <label className="block">
+              <FieldLabel>Protocol name</FieldLabel>
+              <input
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                placeholder="e.g. My wind-down stack"
+                className={fieldClasses}
+              />
+            </label>
+            <label className="block">
+              <FieldLabel>Goal</FieldLabel>
+              <input
+                value={goal}
+                onChange={(e) => setGoal(e.target.value)}
+                placeholder="e.g. Sleep & recovery"
+                className={fieldClasses}
+              />
+            </label>
+          </div>
+        </section>
 
-      <div className="space-y-3">
-        <h2 className="text-lg font-semibold">Compounds & dosing</h2>
-        {items.length === 0 && (
-          <p className="text-sm text-[var(--foreground)]/50">
-            No compounds yet — add one below.
-          </p>
-        )}
-        {items.map((it, i) => {
-          const c = byId.get(it.compoundId);
-          return (
-            <div
-              key={`${it.compoundId}-${i}`}
-              className="rounded-xl border border-black/10 p-4 dark:border-white/10"
-            >
-              <div className="flex items-center justify-between">
-                <h3 className="font-medium">{c?.name ?? it.compoundId}</h3>
-                <button
-                  onClick={() => removeItem(i)}
-                  className="text-xs text-rose-600 hover:underline dark:text-rose-400"
-                >
-                  Remove
-                </button>
-              </div>
-              {c?.dosingNotes && (
-                <p className="mt-1 text-xs text-[var(--foreground)]/50">{c.dosingNotes}</p>
-              )}
-              <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-5">
-                <label className="block">
-                  <span className="text-xs text-[var(--foreground)]/60">Dose</span>
-                  <input
-                    type="number"
-                    min={0}
-                    value={it.dose}
-                    onChange={(e) => updateItem(i, { dose: Number(e.target.value) })}
-                    className="mt-1 w-full rounded-lg border border-black/15 bg-transparent px-2 py-1.5 text-sm dark:border-white/15"
-                  />
-                </label>
-                <label className="block">
-                  <span className="text-xs text-[var(--foreground)]/60">Unit</span>
-                  <input
-                    value={it.unit}
-                    onChange={(e) => updateItem(i, { unit: e.target.value })}
-                    className="mt-1 w-full rounded-lg border border-black/15 bg-transparent px-2 py-1.5 text-sm dark:border-white/15"
-                  />
-                </label>
-                <label className="block">
-                  <span className="text-xs text-[var(--foreground)]/60">Frequency</span>
-                  <select
-                    value={it.frequency}
-                    onChange={(e) => updateItem(i, { frequency: e.target.value as Frequency })}
-                    className="mt-1 w-full rounded-lg border border-black/15 bg-transparent px-2 py-1.5 text-sm dark:border-white/15"
-                  >
-                    {FREQUENCIES.map((f) => (
-                      <option key={f} value={f}>
-                        {f}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-                <label className="block">
-                  <span className="text-xs text-[var(--foreground)]/60">Timing</span>
-                  <select
-                    value={it.timing}
-                    onChange={(e) => updateItem(i, { timing: e.target.value as Timing })}
-                    className="mt-1 w-full rounded-lg border border-black/15 bg-transparent px-2 py-1.5 text-sm dark:border-white/15"
-                  >
-                    {TIMINGS.map((t) => (
-                      <option key={t} value={t}>
-                        {t}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-                <label className="block">
-                  <span className="text-xs text-[var(--foreground)]/60">Weeks (opt.)</span>
-                  <input
-                    type="number"
-                    min={1}
-                    value={it.durationWeeks ?? ""}
-                    onChange={(e) =>
-                      updateItem(i, {
-                        durationWeeks: e.target.value ? Number(e.target.value) : undefined,
-                      })
-                    }
-                    className="mt-1 w-full rounded-lg border border-black/15 bg-transparent px-2 py-1.5 text-sm dark:border-white/15"
-                  />
-                </label>
-              </div>
+        <section>
+          <h2 className="section-head">2 · Compounds & dosing</h2>
+          <div className="mt-5 space-y-4">
+            {items.length === 0 && (
+              <p className="font-sans text-[13px] text-muted">No compounds yet — add one below.</p>
+            )}
+            {items.map((it, i) => {
+              const c = byId.get(it.compoundId);
+              return (
+                <div key={`${it.compoundId}-${i}`} className="border border-rule p-4">
+                  <div className="flex items-start justify-between gap-3">
+                    <div>
+                      <h3 className="font-serif text-[17px] font-bold text-ink">
+                        {c?.name ?? it.compoundId}
+                      </h3>
+                      {c?.dosingNotes && (
+                        <p className="mt-1 font-sans text-[12px] leading-[1.5] text-muted">
+                          {c.dosingNotes}
+                        </p>
+                      )}
+                    </div>
+                    <button
+                      onClick={() => removeItem(i)}
+                      className="btn-secondary shrink-0 whitespace-nowrap !py-0 text-[12px]"
+                    >
+                      Remove
+                    </button>
+                  </div>
+                  <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-5">
+                    <label className="block">
+                      <FieldLabel>Dose</FieldLabel>
+                      <input
+                        type="number"
+                        min={0}
+                        value={it.dose}
+                        onChange={(e) => updateItem(i, { dose: Number(e.target.value) })}
+                        className={fieldClasses}
+                      />
+                    </label>
+                    <label className="block">
+                      <FieldLabel>Unit</FieldLabel>
+                      <input
+                        value={it.unit}
+                        onChange={(e) => updateItem(i, { unit: e.target.value })}
+                        className={fieldClasses}
+                      />
+                    </label>
+                    <label className="block">
+                      <FieldLabel>Frequency</FieldLabel>
+                      <select
+                        value={it.frequency}
+                        onChange={(e) => updateItem(i, { frequency: e.target.value as Frequency })}
+                        className={fieldClasses}
+                      >
+                        {FREQUENCIES.map((f) => (
+                          <option key={f} value={f}>
+                            {f}
+                          </option>
+                        ))}
+                      </select>
+                    </label>
+                    <label className="block">
+                      <FieldLabel>Timing</FieldLabel>
+                      <select
+                        value={it.timing}
+                        onChange={(e) => updateItem(i, { timing: e.target.value as Timing })}
+                        className={fieldClasses}
+                      >
+                        {TIMINGS.map((t) => (
+                          <option key={t} value={t}>
+                            {t}
+                          </option>
+                        ))}
+                      </select>
+                    </label>
+                    <label className="block">
+                      <FieldLabel>Weeks (opt.)</FieldLabel>
+                      <input
+                        type="number"
+                        min={1}
+                        value={it.durationWeeks ?? ""}
+                        onChange={(e) =>
+                          updateItem(i, {
+                            durationWeeks: e.target.value ? Number(e.target.value) : undefined,
+                          })
+                        }
+                        className={fieldClasses}
+                      />
+                    </label>
+                  </div>
+                </div>
+              );
+            })}
+
+            <div className="flex flex-wrap items-center gap-3">
+              <select
+                value={addId}
+                onChange={(e) => setAddId(e.target.value)}
+                className="border border-rule bg-transparent px-3 py-2 font-sans text-[13px] text-ink outline-none focus:border-ink"
+              >
+                {compounds.map((c) => (
+                  <option key={c.id} value={c.id}>
+                    {c.name}
+                  </option>
+                ))}
+              </select>
+              <button onClick={addCompound} className="btn-secondary">
+                + Add compound
+              </button>
             </div>
-          );
-        })}
+          </div>
+        </section>
 
-        <div className="flex flex-wrap items-center gap-2">
-          <select
-            value={addId}
-            onChange={(e) => setAddId(e.target.value)}
-            className="rounded-xl border border-black/15 bg-transparent px-3 py-2 text-sm dark:border-white/15"
-          >
-            {compounds.map((c) => (
-              <option key={c.id} value={c.id}>
-                {c.name}
-              </option>
-            ))}
-          </select>
-          <button
-            onClick={addCompound}
-            className="rounded-xl border border-brand-400 px-3 py-2 text-sm font-medium text-brand-600 transition hover:bg-brand-50 dark:text-brand-300 dark:hover:bg-brand-900/20"
-          >
-            + Add compound
-          </button>
-        </div>
-      </div>
-
-      <label className="block">
-        <span className="text-sm font-medium">Notes (optional)</span>
-        <textarea
-          value={notes}
-          onChange={(e) => setNotes(e.target.value)}
-          rows={2}
-          className="mt-1 w-full rounded-xl border border-black/15 bg-transparent px-3 py-2 text-sm outline-none focus:border-brand-400 dark:border-white/15"
-        />
-      </label>
-
-      <div className="rounded-xl border border-amber-300/60 bg-amber-50 p-3 text-xs text-amber-900 dark:border-amber-500/30 dark:bg-amber-900/20 dark:text-amber-100">
-        This is your personal plan, not medical advice. Review doses against the catalog and a
-        healthcare professional before starting.
-      </div>
-
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <label className="flex items-center gap-2 text-sm">
-          <input
-            type="checkbox"
-            checked={activate}
-            onChange={(e) => setActivate(e.target.checked)}
+        <label className="block">
+          <FieldLabel>Notes (optional)</FieldLabel>
+          <textarea
+            value={notes}
+            onChange={(e) => setNotes(e.target.value)}
+            rows={2}
+            className={fieldClasses}
           />
-          Make this my active protocol
         </label>
-        <div className="flex gap-2">
-          <button
-            onClick={() => setStarted(false)}
-            className="rounded-xl px-4 py-2 text-sm text-[var(--foreground)]/60 hover:bg-black/5 dark:hover:bg-white/10"
-          >
-            Back
-          </button>
-          <button
-            onClick={save}
-            disabled={saving || !name.trim() || items.length === 0}
-            className="rounded-xl bg-brand-600 px-5 py-2 text-sm font-medium text-white transition hover:bg-brand-700 disabled:cursor-not-allowed disabled:opacity-40"
-          >
-            {saving ? "Saving…" : "Save protocol"}
+
+        <Disclaimer title="Not medical advice">
+          <p>
+            This is your personal plan, not medical advice. Review doses against the catalog and a
+            healthcare professional before starting.
+          </p>
+        </Disclaimer>
+
+        <div className="flex flex-wrap items-center justify-between gap-4 border-t border-rule pt-6">
+          <label className="flex items-center gap-2 font-sans text-[13px] text-body">
+            <input
+              type="checkbox"
+              checked={activate}
+              onChange={(e) => setActivate(e.target.checked)}
+              className="h-4 w-4 accent-ink"
+            />
+            Make this my active protocol
+          </label>
+          <button onClick={() => setStarted(false)} className="btn-secondary">
+            ← Back
           </button>
         </div>
       </div>
+
+      {/* ---- Summary rail ---- */}
+      <aside className="mt-2 border-t border-rule pt-8 md:mt-0 md:border-l md:border-t-0 md:pl-8 md:pt-0">
+        <p className="eyebrow eyebrow--muted">Summary</p>
+        <h2 className="mt-2 font-serif text-[22px] font-bold leading-[1.2] text-ink">
+          {name.trim() || "Untitled protocol"}
+        </h2>
+        <p className="mt-1 font-sans text-[12px] text-muted">
+          {items.length} {items.length === 1 ? "compound" : "compounds"}
+        </p>
+
+        <ul className="mt-5 space-y-3 border-t border-rule-soft pt-4">
+          {items.length === 0 ? (
+            <li className="font-sans text-[12px] text-muted">No compounds added yet.</li>
+          ) : (
+            items.map((it, i) => {
+              const c = byId.get(it.compoundId);
+              return (
+                <li key={i} className="border-b border-rule-soft pb-3 font-sans text-[13px] leading-[1.4]">
+                  <span className="font-semibold text-ink">{c?.name ?? it.compoundId}</span>
+                  <span className="text-muted">
+                    {" "}
+                    · {it.dose} {it.unit} · {it.frequency}
+                  </span>
+                </li>
+              );
+            })
+          )}
+        </ul>
+
+        <button
+          onClick={save}
+          disabled={saving || !name.trim() || items.length === 0}
+          className="btn mt-6 w-full disabled:cursor-not-allowed disabled:opacity-40"
+        >
+          {saving ? "Saving…" : "Save protocol"}
+        </button>
+      </aside>
     </div>
   );
 }

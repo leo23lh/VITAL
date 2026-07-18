@@ -6,6 +6,7 @@ import { useParams, useRouter } from "next/navigation";
 import type { Protocol } from "@/lib/types";
 import { deleteProtocol, getProtocol, setActiveProtocol } from "@/lib/db";
 import { getCompound } from "@/content/compounds";
+import { Disclaimer } from "@/components/Disclaimer";
 
 export default function ProtocolDetailPage() {
   const params = useParams<{ id: string }>();
@@ -22,13 +23,13 @@ export default function ProtocolDetailPage() {
   }, [params.id]);
 
   if (protocol === undefined) {
-    return <p className="text-sm text-[var(--foreground)]/50">Loading…</p>;
+    return <p className="font-sans text-[13px] text-muted">Loading…</p>;
   }
   if (protocol === null) {
     return (
-      <div className="space-y-3">
-        <p className="text-sm text-[var(--foreground)]/60">Protocol not found.</p>
-        <Link href="/protocols" className="text-sm text-brand-600 hover:underline dark:text-brand-300">
+      <div className="space-y-4">
+        <p className="font-sans text-[13px] text-muted">Protocol not found.</p>
+        <Link href="/protocols" className="btn-secondary">
           ← Back to protocols
         </Link>
       </div>
@@ -47,59 +48,52 @@ export default function ProtocolDetailPage() {
   }
 
   return (
-    <article className="space-y-6">
-      <Link href="/protocols" className="text-sm text-brand-600 hover:underline dark:text-brand-300">
+    <article className="mx-auto w-full max-w-[900px] md:px-6">
+      <Link href="/protocols" className="btn-secondary !py-0">
         ← Back to protocols
       </Link>
 
-      <div className="flex flex-wrap items-center justify-between gap-3">
+      <div className="mt-6 flex flex-wrap items-start justify-between gap-4">
         <div>
-          <div className="flex items-center gap-2">
-            <h1 className="text-2xl font-bold">{protocol.name}</h1>
+          <div className="flex flex-wrap items-center gap-3">
+            <h1 className="font-serif text-[38px] font-bold leading-[1.05] text-ink">
+              {protocol.name}
+            </h1>
             {protocol.active && (
-              <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-semibold text-emerald-900 dark:bg-emerald-900/40 dark:text-emerald-200">
+              <span className="border border-rust px-2 py-[2px] font-sans text-[10.5px] uppercase tracking-[.5px] text-rust">
                 Active
               </span>
             )}
           </div>
-          <p className="mt-1 text-sm text-[var(--foreground)]/60">{protocol.goal}</p>
+          <p className="mt-2 font-sans text-[13px] text-muted">{protocol.goal}</p>
         </div>
-        <div className="flex gap-2 text-sm">
+        <div className="flex flex-wrap items-center gap-5 font-sans text-[13px]">
           {!protocol.active && (
-            <button
-              onClick={activate}
-              className="rounded-lg border border-brand-400 px-3 py-1.5 font-medium text-brand-600 hover:bg-brand-50 dark:text-brand-300 dark:hover:bg-brand-900/20"
-            >
+            <button onClick={activate} className="btn-secondary">
               Activate
             </button>
           )}
-          <Link
-            href="/tracker"
-            className="rounded-lg bg-brand-600 px-3 py-1.5 font-medium text-white hover:bg-brand-700"
-          >
+          <Link href="/tracker" className="btn">
             Go to tracker
           </Link>
-          <button
-            onClick={remove}
-            className="rounded-lg px-3 py-1.5 text-rose-600 hover:bg-rose-50 dark:text-rose-400 dark:hover:bg-rose-900/20"
-          >
+          <button onClick={remove} className="btn-secondary">
             Delete
           </button>
         </div>
       </div>
 
       {protocol.notes && (
-        <p className="rounded-xl bg-black/5 p-3 text-sm text-[var(--foreground)]/70 dark:bg-white/5">
+        <p className="mt-6 max-w-[680px] font-serif text-[16px] italic leading-[1.6] text-body">
           {protocol.notes}
         </p>
       )}
 
-      <div className="space-y-3">
-        <h2 className="text-lg font-semibold">Regimen</h2>
-        <div className="overflow-x-auto">
-          <table className="w-full min-w-[520px] border-collapse text-sm">
+      <section className="mt-10">
+        <h2 className="section-head">Regimen</h2>
+        <div className="mt-5 overflow-x-auto">
+          <table className="w-full min-w-[520px] border-collapse font-sans text-[13px]">
             <thead>
-              <tr className="border-b border-black/10 text-left text-xs uppercase tracking-wide text-[var(--foreground)]/50 dark:border-white/10">
+              <tr className="border-b-2 border-rule text-left text-[11px] uppercase tracking-wide text-muted">
                 <th className="py-2 pr-4 font-semibold">Compound</th>
                 <th className="py-2 pr-4 font-semibold">Dose</th>
                 <th className="py-2 pr-4 font-semibold">Frequency</th>
@@ -111,25 +105,22 @@ export default function ProtocolDetailPage() {
               {protocol.items.map((it, i) => {
                 const c = getCompound(it.compoundId);
                 return (
-                  <tr key={i} className="border-b border-black/5 dark:border-white/5">
-                    <td className="py-3 pr-4 font-medium">
+                  <tr key={i} className="border-b border-rule-soft">
+                    <td className="py-3 pr-4 font-serif text-[15px] font-bold text-ink">
                       {c ? (
-                        <Link
-                          href={`/catalog/${c.id}`}
-                          className="hover:text-brand-600 dark:hover:text-brand-300"
-                        >
+                        <Link href={`/catalog/${c.id}`} className="hover:text-rust">
                           {c.name}
                         </Link>
                       ) : (
                         it.compoundId
                       )}
                     </td>
-                    <td className="py-3 pr-4">
+                    <td className="py-3 pr-4 text-body">
                       {it.dose} {it.unit}
                     </td>
-                    <td className="py-3 pr-4">{it.frequency}</td>
-                    <td className="py-3 pr-4">{it.timing}</td>
-                    <td className="py-3">
+                    <td className="py-3 pr-4 text-body">{it.frequency}</td>
+                    <td className="py-3 pr-4 text-body">{it.timing}</td>
+                    <td className="py-3 text-body">
                       {it.durationWeeks ? `${it.durationWeeks} wk` : "ongoing"}
                     </td>
                   </tr>
@@ -138,11 +129,15 @@ export default function ProtocolDetailPage() {
             </tbody>
           </table>
         </div>
-      </div>
+      </section>
 
-      <div className="rounded-xl border border-amber-300/60 bg-amber-50 p-3 text-xs text-amber-900 dark:border-amber-500/30 dark:bg-amber-900/20 dark:text-amber-100">
-        Personal plan — not medical advice. Confirm doses against the catalog and a healthcare
-        professional.
+      <div className="mt-10">
+        <Disclaimer title="Not medical advice">
+          <p>
+            Personal plan — not medical advice. Confirm doses against the catalog and a healthcare
+            professional.
+          </p>
+        </Disclaimer>
       </div>
     </article>
   );
