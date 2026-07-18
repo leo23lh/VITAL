@@ -47,14 +47,14 @@ export default function DueDoses({
   }
 
   if (logs === null) {
-    return <p className="text-sm text-[var(--foreground)]/50">Loading…</p>;
+    return <p className="font-sans text-[13px] text-muted">Loading…</p>;
   }
 
   if (!protocol) {
     return (
-      <div className="rounded-xl border border-dashed border-black/15 p-5 text-sm text-[var(--foreground)]/60 dark:border-white/15">
+      <div className="border border-dashed border-rule px-5 py-6 font-sans text-[13px] text-muted">
         No active protocol.{" "}
-        <Link href="/protocols/new" className="text-brand-600 hover:underline dark:text-brand-300">
+        <Link href="/protocols/new" className="text-rust hover:underline">
           Build one
         </Link>{" "}
         to start tracking doses.
@@ -64,8 +64,8 @@ export default function DueDoses({
 
   if (logs.length === 0) {
     return (
-      <p className="text-sm text-[var(--foreground)]/60">
-        No doses scheduled today for <strong>{protocol.name}</strong>.
+      <p className="font-sans text-[13px] text-muted">
+        No doses scheduled today for <strong className="text-body">{protocol.name}</strong>.
       </p>
     );
   }
@@ -73,47 +73,51 @@ export default function DueDoses({
   const pending = logs.filter((l) => l.status === "pending").length;
 
   return (
-    <div className="space-y-2">
+    <div>
       {!compact && (
-        <p className="text-sm text-[var(--foreground)]/60">
+        <p className="mb-4 font-sans text-[13px] text-muted">
           {pending === 0
             ? "All doses logged for today. Nice."
             : `${pending} dose${pending === 1 ? "" : "s"} still due today.`}
         </p>
       )}
-      <ul className="space-y-2">
+      <ul className="border-t border-rule-soft">
         {logs.map((l) => {
           const c = getCompound(l.compoundId);
+          const taken = l.status === "taken";
+          const skipped = l.status === "skipped";
           const done = l.status !== "pending";
           return (
             <li
               key={l.id}
-              className={`flex items-center justify-between gap-3 rounded-xl border p-3 ${
-                l.status === "taken"
-                  ? "border-emerald-300/50 bg-emerald-50 dark:border-emerald-500/30 dark:bg-emerald-900/15"
-                  : l.status === "skipped"
-                    ? "border-black/10 bg-black/[0.03] opacity-60 dark:border-white/10 dark:bg-white/[0.03]"
-                    : "border-black/10 dark:border-white/10"
+              className={`flex flex-wrap items-center justify-between gap-3 border-b border-rule-soft py-3 ${
+                skipped ? "opacity-50" : ""
               }`}
             >
-              <div>
-                <p className="text-sm font-medium">
-                  {c?.name ?? l.compoundId}{" "}
-                  <span className="font-normal text-[var(--foreground)]/60">
-                    · {l.dose} {l.unit}
-                  </span>
-                </p>
-                <p className="text-xs text-[var(--foreground)]/50">
-                  {timeLabel(l.scheduledAt)}
-                  {l.status === "taken" && " · taken"}
-                  {l.status === "skipped" && " · skipped"}
-                </p>
+              <div className="flex items-center gap-3">
+                <span
+                  aria-hidden
+                  className={`h-4 w-4 shrink-0 border border-ink ${taken ? "bg-ink" : "bg-transparent"}`}
+                />
+                <div>
+                  <p className="font-serif text-[15px] text-ink">
+                    {c?.name ?? l.compoundId}{" "}
+                    <span className="font-sans text-[12px] font-normal text-muted">
+                      · {l.dose} {l.unit}
+                    </span>
+                  </p>
+                  <p className="mt-0.5 font-sans text-[12px] text-muted">
+                    {timeLabel(l.scheduledAt)}
+                    {taken && " · taken"}
+                    {skipped && " · skipped"}
+                  </p>
+                </div>
               </div>
-              <div className="flex gap-1.5">
-                {l.status !== "taken" && (
+              <div className="flex items-center gap-4">
+                {!taken && (
                   <button
                     onClick={() => mark(l.id, "taken")}
-                    className="rounded-lg bg-brand-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-brand-700"
+                    className="border border-ink px-3 py-1.5 font-sans text-[11px] uppercase tracking-[.5px] text-ink hover:bg-ink hover:text-paper"
                   >
                     Take
                   </button>
@@ -121,14 +125,14 @@ export default function DueDoses({
                 {done ? (
                   <button
                     onClick={() => mark(l.id, "pending")}
-                    className="rounded-lg px-3 py-1.5 text-xs text-[var(--foreground)]/60 hover:bg-black/5 dark:hover:bg-white/10"
+                    className="border-b border-rust font-sans text-[11px] uppercase tracking-[.5px] text-rust hover:opacity-70"
                   >
                     Undo
                   </button>
                 ) : (
                   <button
                     onClick={() => mark(l.id, "skipped")}
-                    className="rounded-lg px-3 py-1.5 text-xs text-[var(--foreground)]/60 hover:bg-black/5 dark:hover:bg-white/10"
+                    className="border-b border-rust font-sans text-[11px] uppercase tracking-[.5px] text-rust hover:opacity-70"
                   >
                     Skip
                   </button>

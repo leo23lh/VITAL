@@ -24,42 +24,50 @@ export default function TrackerPage() {
       : 0;
 
   return (
-    <div className="space-y-8">
-      <div>
-        <h1 className="text-2xl font-bold">Tracker</h1>
-        <p className="mt-1 text-sm text-[var(--foreground)]/60">
-          Log today&apos;s doses and keep an eye on your consistency over time.
-        </p>
-      </div>
+    <div>
+      <p className="eyebrow">Tracker</p>
+      <h1 className="mt-3 font-serif text-[38px] font-bold text-ink">Today&apos;s Doses</h1>
+      <p className="mt-3 max-w-[640px] font-serif text-[15px] italic leading-[1.6] text-body">
+        Log today&apos;s doses and keep an eye on your consistency over time.
+      </p>
 
-      <section className="space-y-3">
-        <h2 className="text-lg font-semibold">Today</h2>
-        <DueDoses onChange={loadHistory} />
+      <section className="mt-10">
+        <p className="section-head">Today</p>
+        <div className="mt-5">
+          <DueDoses onChange={loadHistory} />
+        </div>
       </section>
 
-      <section className="space-y-3">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <h2 className="text-lg font-semibold">Adherence — last 14 days</h2>
-          <div className="flex gap-4 text-sm">
-            <span>
-              <span className="font-semibold text-emerald-600 dark:text-emerald-400">{streak}</span>{" "}
-              <span className="text-[var(--foreground)]/60">day streak</span>
-            </span>
-            <span>
-              <span className="font-semibold">{avg}%</span>{" "}
-              <span className="text-[var(--foreground)]/60">avg</span>
-            </span>
+      <section className="mt-12">
+        <p className="section-head">Adherence — last 14 days</p>
+
+        <div className="mt-6 flex items-center gap-8">
+          <div>
+            <p className="font-serif text-[38px] font-bold leading-none text-ink">{streak}</p>
+            <p className="mt-1 font-sans text-[11px] uppercase tracking-[1px] text-muted">
+              Day streak
+            </p>
+          </div>
+          <div className="h-11 w-px shrink-0 bg-rule" />
+          <div>
+            <p className="font-serif text-[38px] font-bold leading-none text-ink">{avg}%</p>
+            <p className="mt-1 font-sans text-[11px] uppercase tracking-[1px] text-muted">
+              Average
+            </p>
           </div>
         </div>
-        {history === null ? (
-          <p className="text-sm text-[var(--foreground)]/50">Loading…</p>
-        ) : daysWithDoses.length === 0 ? (
-          <p className="text-sm text-[var(--foreground)]/50">
-            No dose history yet. Log some doses above and your adherence will appear here.
-          </p>
-        ) : (
-          <AdherenceChart history={history} />
-        )}
+
+        <div className="mt-8">
+          {history === null ? (
+            <p className="font-sans text-[13px] text-muted">Loading…</p>
+          ) : daysWithDoses.length === 0 ? (
+            <p className="font-sans text-[13px] text-muted">
+              No dose history yet. Log some doses above and your adherence will appear here.
+            </p>
+          ) : (
+            <AdherenceChart history={history} />
+          )}
+        </div>
       </section>
     </div>
   );
