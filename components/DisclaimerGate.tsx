@@ -23,7 +23,7 @@ export default function DisclaimerGate({ children }: { children: React.ReactNode
 
   if (status === "loading") {
     return (
-      <div className="flex min-h-[60vh] items-center justify-center text-sm text-[var(--foreground)]/50">
+      <div className="flex min-h-[60vh] items-center justify-center font-sans text-sm text-muted">
         Loading…
       </div>
     );
@@ -32,9 +32,9 @@ export default function DisclaimerGate({ children }: { children: React.ReactNode
   if (status === "blocked") {
     return (
       <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4">
-        <div className="max-h-[90vh] w-full max-w-lg overflow-y-auto rounded-2xl bg-[var(--background)] p-6 shadow-xl">
-          <h2 className="text-xl font-semibold">Read this first</h2>
-          <div className="mt-4 space-y-3 text-sm leading-relaxed text-[var(--foreground)]/80">
+        <div className="max-h-[90vh] w-full max-w-lg overflow-y-auto border border-ink bg-surface p-6">
+          <h2 className="font-serif text-xl font-bold text-ink">Read this first</h2>
+          <div className="mt-4 space-y-3 font-serif text-[16px] leading-[1.75] text-body">
             <p>
               This app is an <strong>educational reference and personal tracker</strong>. It is{" "}
               <strong>not medical advice</strong> and is not a substitute for a licensed
@@ -55,10 +55,7 @@ export default function DisclaimerGate({ children }: { children: React.ReactNode
               any testimonials are clearly marked as <strong>anecdotal, not proof</strong>.
             </p>
           </div>
-          <button
-            onClick={accept}
-            className="mt-6 w-full rounded-xl bg-brand-600 px-4 py-3 font-medium text-white transition hover:bg-brand-700"
-          >
+          <button onClick={accept} className="btn mt-6 w-full">
             I understand — this is not medical advice
           </button>
         </div>

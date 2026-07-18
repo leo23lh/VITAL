@@ -12,10 +12,14 @@ export default function EvidenceBadge({
   return (
     <span
       title={meta.blurb}
-      className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold ${meta.classes}`}
+      className={`inline-flex items-center gap-1 border px-[7px] py-[2px] font-sans text-[10.5px] uppercase tracking-[.5px] ${meta.classes}`}
     >
       {meta.label}
-      {withBlurb && <span className="hidden font-normal opacity-80 sm:inline">· {meta.blurb}</span>}
+      {withBlurb && (
+        <span className="hidden font-sans font-normal normal-case tracking-normal text-body opacity-80 sm:inline">
+          · {meta.blurb}
+        </span>
+      )}
     </span>
   );
 }
