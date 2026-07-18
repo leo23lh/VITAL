@@ -58,11 +58,16 @@ export default function ProtocolBuilder({
   const [activate, setActivate] = useState(true);
   const [saving, setSaving] = useState(false);
   const [addId, setAddId] = useState(compounds[0]?.id ?? "");
+  const [aiGoal, setAiGoal] = useState("");
+  const [aiLoading, setAiLoading] = useState(false);
+  const [aiError, setAiError] = useState<string | null>(null);
+  const [aiRationale, setAiRationale] = useState<string | null>(null);
 
   function loadTemplate(t: ProtocolTemplate) {
     setName(t.name);
     setGoal(t.goal);
     setItems(t.items.map((i) => ({ ...i })));
+    setAiRationale(null);
     setStarted(true);
   }
 
@@ -70,6 +75,7 @@ export default function ProtocolBuilder({
     setName("");
     setGoal("");
     setItems([]);
+    setAiRationale(null);
     setStarted(true);
   }
 
@@ -88,6 +94,33 @@ export default function ProtocolBuilder({
 
   function removeItem(index: number) {
     setItems((prev) => prev.filter((_, i) => i !== index));
+  }
+
+  async function generateWithAI() {
+    if (!aiGoal.trim()) return;
+    setAiLoading(true);
+    setAiError(null);
+    try {
+      const res = await fetch("/api/generate-protocol", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ goal: aiGoal.trim() }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setAiError(data.error ?? "Something went wrong generating a protocol.");
+        return;
+      }
+      setName(data.name);
+      setGoal(data.goal);
+      setItems(data.items);
+      setAiRationale(data.rationale);
+      setStarted(true);
+    } catch {
+      setAiError("Couldn't reach the AI service. Check your connection and try again.");
+    } finally {
+      setAiLoading(false);
+    }
   }
 
   async function save() {
@@ -139,6 +172,33 @@ export default function ProtocolBuilder({
             </p>
           </button>
         </div>
+
+        <div className="mt-10 border-t border-rule pt-8">
+          <p className="eyebrow">Or describe your goal</p>
+          <p className="mt-2 max-w-[560px] font-serif text-[15px] italic leading-[1.6] text-body">
+            Tell the AI what you&apos;re after in your own words — it drafts a starting point from
+            the same catalog above, which you then review and edit like any other protocol.
+          </p>
+          <div className="mt-4 flex flex-col gap-3 sm:flex-row">
+            <input
+              value={aiGoal}
+              onChange={(e) => setAiGoal(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" && !aiLoading) generateWithAI();
+              }}
+              placeholder="e.g. help me recover from a shoulder injury, I lift 3x/week"
+              className={`${fieldClasses} mt-0 sm:flex-1`}
+            />
+            <button
+              onClick={generateWithAI}
+              disabled={aiLoading || !aiGoal.trim()}
+              className="btn whitespace-nowrap disabled:cursor-not-allowed disabled:opacity-40"
+            >
+              {aiLoading ? "Generating…" : "Generate with AI"}
+            </button>
+          </div>
+          {aiError && <p className="mt-3 font-sans text-[13px] text-rust">{aiError}</p>}
+        </div>
       </div>
     );
   }
@@ -147,6 +207,12 @@ export default function ProtocolBuilder({
     <div className="grid gap-10 md:grid-cols-[1fr_340px]">
       {/* ---- Main column ---- */}
       <div className="space-y-10">
+        {aiRationale && (
+          <Disclaimer title="AI-suggested — review before saving">
+            <p>{aiRationale}</p>
+          </Disclaimer>
+        )}
+
         <section>
           <h2 className="section-head">1 · Protocol details</h2>
           <div className="mt-5 grid gap-4 sm:grid-cols-2">
