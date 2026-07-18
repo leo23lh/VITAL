@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---- Swiss Deco design language ----
+   Cream / ink / rust palette, Oswald display + Inter body, flat bold shapes. */
+:root {
+  --background: #f2ead9; /* cream */
+  --foreground: #1a1613; /* ink */
+  --rust: #c9481f; /* accent */
+  --rust-dark: #a83c19;
+  --sage: #a9a196; /* muted secondary */
+  --brown: #a9764f; /* eyebrow labels */
+  --muted: #6b6459; /* secondary text */
+  --body: #3a352f; /* long-form body text */
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Display type: Oswald, condensed and confident. */
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-oswald), "Oswald", system-ui, sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+h2,
+h3 {
+  font-weight: 600;
+}
+
+/* Small uppercase eyebrow labels used throughout the mockup. */
+.eyebrow {
+  font-family: var(--font-oswald), "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  font-size: 0.7rem;
+  color: var(--brown);
+}
+
+/* Diagonal hatch fill used for image placeholders. */
+.hatch {
+  background-image: repeating-linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.08) 0 8px,
+    transparent 8px 16px
+  );
+}
+
+.hatch-light {
+  background-image: repeating-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.06) 0 8px,
+    transparent 8px 16px
+  );
+}
