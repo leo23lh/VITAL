@@ -11,7 +11,7 @@ export function Disclaimer({
 }) {
   return (
     <div className="safety-callout text-sm text-body">
-      <p className="safety-callout-label">A note on safety — {title}</p>
+      <p className="safety-callout-label">{title}</p>
       <div className="space-y-1 font-sans">{children}</div>
     </div>
   );
