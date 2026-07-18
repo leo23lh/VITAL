@@ -15,34 +15,43 @@ export default function Nav() {
 
   return (
     <>
-      {/* Masthead strip: thin meta line above the main masthead */}
-      <div className="masthead-strip px-5 md:px-10">
-        <span>VitalPeps &middot; Vol. I</span>
-        <span className="hidden md:inline">An educational reference — not medical advice</span>
-        <span className="md:hidden">Not medical advice</span>
+      {/* Masthead strip: thin meta line above the main masthead. The
+          .masthead-strip class owns its own vertical padding/border/flex —
+          horizontal page-margin padding is applied on an inner wrapper so it
+          doesn't collide with that class's own `padding: 6px 0` shorthand,
+          and so it stays aligned with main/footer at any viewport width. */}
+      <div className="masthead-strip">
+        <div className="mx-auto flex w-full max-w-[1200px] items-center justify-between px-5 md:px-10">
+          <span>VitalPeps &middot; Vol. I</span>
+          <span className="hidden md:inline">An educational reference — not medical advice</span>
+          <span className="md:hidden">Not medical advice</span>
+        </div>
       </div>
 
-      {/* Masthead: wordmark + primary nav */}
-      <header className="flex items-center justify-between border-b-2 border-ink px-5 py-4 md:px-10">
-        <Link href="/" className="font-serif text-[30px] font-bold leading-none text-ink">
-          VitalPeps
-        </Link>
-        <nav className="hidden gap-6 md:flex">
-          {LINKS.map((l) => {
-            const active = isActive(l.href);
-            return (
-              <Link
-                key={l.href}
-                href={l.href}
-                className={`border-b-2 pb-1 font-sans text-[13px] uppercase tracking-wide ${
-                  active ? "border-rust text-rust" : "border-transparent text-ink"
-                }`}
-              >
-                {l.label}
-              </Link>
-            );
-          })}
-        </nav>
+      {/* Masthead: wordmark + primary nav. Border spans full width; content
+          is centered in the same 1200px column as main/footer. */}
+      <header className="border-b-2 border-ink">
+        <div className="mx-auto flex max-w-[1200px] items-center justify-between px-5 py-4 md:px-10">
+          <Link href="/" className="font-serif text-[30px] font-bold leading-none text-ink">
+            VitalPeps
+          </Link>
+          <nav className="hidden gap-6 md:flex">
+            {LINKS.map((l) => {
+              const active = isActive(l.href);
+              return (
+                <Link
+                  key={l.href}
+                  href={l.href}
+                  className={`border-b-2 pb-1 font-sans text-[13px] uppercase tracking-wide ${
+                    active ? "border-rust text-rust" : "border-transparent text-ink"
+                  }`}
+                >
+                  {l.label}
+                </Link>
+              );
+            })}
+          </nav>
+        </div>
       </header>
 
       {/* Mobile: fixed bottom tab bar */}
