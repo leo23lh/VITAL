@@ -204,13 +204,16 @@ export interface ValidationResult {
  * Cross-checks the model's raw tool input against the real catalog and the
  * response schema. Any compoundId not in COMPOUNDS is dropped, never
  * rendered. If nothing valid remains, the whole response is rejected.
+ * Hormone-category compounds are unconditionally dropped from items server-side.
  */
 export function validateProtocolResponse(raw: unknown): ValidationResult {
   const parsed = AIProtocolResponse.safeParse(raw);
   if (!parsed.success) {
     return { ok: false, error: "The AI's response didn't match the expected shape." };
   }
-  const validItems = parsed.data.items.filter((item) => !!getCompound(item.compoundId));
+  const validItems = parsed.data.items
+    .filter((item) => !!getCompound(item.compoundId))
+    .filter((item) => getCompound(item.compoundId)?.category !== "hormone");
   if (validItems.length === 0) {
     return {
       ok: false,

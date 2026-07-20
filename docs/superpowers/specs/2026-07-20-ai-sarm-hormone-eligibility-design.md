@@ -33,10 +33,12 @@ harm-reduction purposes — but the AI builder effectively never surfaces anythi
 - No change to the manual builder or "+ Add compound" flow — it already allows adding any
   catalog compound with no restriction; that's pre-existing and out of scope here.
 - No change to the 3 curated templates on `/protocols/new` — they stay supplement-only.
-- No server-side keyword/regex intent filter as a second enforcement layer for the
-  hormone-tier gate. The gate is prompt-level, reinforced by the dose-grounding rule (below),
-  which is a structural backstop already proven in this codebase (it's the same mechanism
-  that has kept BPC-157/TB-500 out of AI-generated items since the feature first shipped).
+- No server-side keyword/regex intent filter as a second enforcement layer for the hormone-tier
+  *goal-signaling* gate (whether the user's own wording justifies mentioning that tier at all) —
+  that gate is prompt-level only. Separately, `validateProtocolResponse` does unconditionally
+  drop any hormone-category item server-side (see "Key finding" above) — that's a category-based
+  exclusion, not a keyword/intent filter, and it doesn't affect whether the AI can name a
+  hormone-tier compound in prose.
 - No new compounds added to the catalog.
 
 ## Key finding that shapes this design
@@ -57,11 +59,16 @@ turned up a structural fact that does most of the safety work here for free:
   both are captioned as cancer-trial/early-research doses under medical supervision, not
   consumer cycle doses.
 
-The existing rule that the AI must never invent a dose (`SYSTEM_PROMPT` rule 2, unchanged)
-already makes it structurally impossible for the AI to emit a schema-valid `items` entry for
-any compound with no grounded number. This means "hormone tier is eligible" in practice
-almost never produces a dosed item for testosterone/AAS/HGH/EPO/insulin — the gate below is
-belt-and-suspenders on top of that, not the primary mechanism.
+The existing rule that the AI must never invent a dose (`SYSTEM_PROMPT` rule 2, unchanged) is
+a prompt-level instruction, not a code-enforced guarantee — nothing in `validateProtocolResponse`
+checks whether a returned dose is actually grounded in a compound's `dosingNotes`. For SARMs and
+peptides, the safety property genuinely does rest on the model following that instruction (verified
+live against the real API — see Testing below). For the hormone tier specifically, this design adds
+a separate, unconditional code-level backstop in `validateProtocolResponse`: any `items` entry whose
+compound category is `"hormone"` is dropped server-side regardless of what the model returns, so no
+dosed testosterone/AAS/HGH/EPO/insulin item can ever reach the browser — a real code guarantee, not
+just prompt trust. The AI can still name a hormone-tier compound in its free-text `rationale` (per
+the goal-signaling gate below); only the structured, dosed `items` array is affected by this backstop.
 
 **The one real gap:** the `rationale` field is free text, not covered by the `items` schema's
 per-field constraints. Nothing currently stops the model from narrating a specific dose in
