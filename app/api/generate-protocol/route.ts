@@ -6,12 +6,23 @@ import {
   PROPOSE_PROTOCOL_TOOL,
   validateProtocolResponse,
 } from "@/lib/ai-protocol";
+import { checkRateLimit } from "@/lib/rate-limit";
 
 const MAX_GOAL_LENGTH = 500;
+const RATE_LIMIT_MAX = 10;
+const RATE_LIMIT_WINDOW_MS = 60 * 60 * 1000;
 
 export async function POST(request: Request) {
   const body = await request.json().catch(() => null);
   const goal = typeof body?.goal === "string" ? body.goal.trim() : "";
+
+  const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "unknown";
+  if (!checkRateLimit(ip, RATE_LIMIT_MAX, RATE_LIMIT_WINDOW_MS)) {
+    return NextResponse.json(
+      { error: "Too many requests. Try again in a bit." },
+      { status: 429 },
+    );
+  }
 
   if (!goal) {
     return NextResponse.json({ error: "Describe a goal before generating." }, { status: 400 });
