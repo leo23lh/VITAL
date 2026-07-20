@@ -36,7 +36,7 @@ harm-reduction purposes — but the AI builder effectively never surfaces anythi
 - No server-side keyword/regex intent filter as a second enforcement layer for the hormone-tier
   *goal-signaling* gate (whether the user's own wording justifies mentioning that tier at all) —
   that gate is prompt-level only. Separately, `validateProtocolResponse` does unconditionally
-  drop any hormone-category item server-side (see "Key finding" above) — that's a category-based
+  drop any hormone-category item server-side (see "Key finding" below) — that's a category-based
   exclusion, not a keyword/intent filter, and it doesn't affect whether the AI can name a
   hormone-tier compound in prose.
 - No new compounds added to the catalog.
