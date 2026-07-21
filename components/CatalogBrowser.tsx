@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { Category, Compound, EvidenceLevel } from "@/lib/types";
 import EvidenceBadge from "./EvidenceBadge";
@@ -14,6 +14,8 @@ const TYPE_CHIPS: { value: CatFilter; label: string }[] = [
   { value: "sarm", label: "SARMs" },
   { value: "hormone", label: "Hormones" },
 ];
+
+const PAGE_SIZE = 10;
 
 function chipClass(active: boolean) {
   return [
@@ -38,14 +40,25 @@ export default function CatalogBrowser({
 
   const filtered = useMemo(() => {
     const needle = q.trim().toLowerCase();
-    return compounds.filter((c) => {
-      if (cat !== "all" && c.category !== cat) return false;
-      if (goal !== "all" && !c.goals.includes(goal)) return false;
-      if (!needle) return true;
-      const hay = [c.name, ...c.aka, c.summary].join(" ").toLowerCase();
-      return hay.includes(needle);
-    });
+    return compounds
+      .filter((c) => {
+        if (cat !== "all" && c.category !== cat) return false;
+        if (goal !== "all" && !c.goals.includes(goal)) return false;
+        if (!needle) return true;
+        const hay = [c.name, ...c.aka, c.summary].join(" ").toLowerCase();
+        return hay.includes(needle);
+      })
+      .sort((a, b) => a.name.localeCompare(b.name));
   }, [compounds, q, cat, goal]);
+
+  const [page, setPage] = useState(1);
+
+  useEffect(() => {
+    setPage(1);
+  }, [q, cat, goal]);
+
+  const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const paginated = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
   return (
     <div>
@@ -107,7 +120,7 @@ export default function CatalogBrowser({
       </p>
 
       <ul className="mt-2">
-        {filtered.map((c) => (
+        {paginated.map((c) => (
           <li key={c.id} className="border-b border-rule-soft last:border-b-0">
             <Link href={`/catalog/${c.id}`} className="group flex items-start gap-4 py-5 sm:gap-5">
               <div className="hatch-thumb hidden h-16 w-16 flex-none sm:block" />
@@ -135,6 +148,30 @@ export default function CatalogBrowser({
         <p className="py-10 text-center font-sans text-sm text-muted">
           No compounds match your filters.
         </p>
+      )}
+
+      {filtered.length > PAGE_SIZE && (
+        <div className="mt-6 flex items-center justify-center gap-6 border-t border-rule-soft pt-6">
+          <button
+            type="button"
+            onClick={() => setPage((p) => Math.max(1, p - 1))}
+            disabled={page === 1}
+            className="btn-secondary disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            ← Prev
+          </button>
+          <span className="font-sans text-[12px] text-muted">
+            Page {page} of {pageCount}
+          </span>
+          <button
+            type="button"
+            onClick={() => setPage((p) => Math.min(pageCount, p + 1))}
+            disabled={page === pageCount}
+            className="btn-secondary disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            Next →
+          </button>
+        </div>
       )}
     </div>
   );
