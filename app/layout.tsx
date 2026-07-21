@@ -34,9 +34,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 Many peptides are unapproved research chemicals; consult a healthcare
                 professional before use.
               </p>
-              <Link href="/settings" className="btn-secondary mt-4 inline-block">
-                Settings
-              </Link>
+              <div className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2">
+                <Link href="/settings" className="btn-secondary inline-block">
+                  Settings
+                </Link>
+                <Link href="/about" className="btn-secondary inline-block">
+                  About
+                </Link>
+                <Link href="/faq" className="btn-secondary inline-block">
+                  FAQ
+                </Link>
+                <Link href="/legal" className="btn-secondary inline-block">
+                  Legal
+                </Link>
+              </div>
             </div>
           </footer>
         </DisclaimerGate>
