@@ -205,6 +205,14 @@ export default function ProtocolBuilder({
     );
   }
 
+  const higherRiskItems = aiRationale
+    ? items
+        .map((it) => byId.get(it.compoundId))
+        .filter(
+          (c): c is Compound => !!c && (c.category === "sarm" || c.category === "hormone"),
+        )
+    : [];
+
   return (
     <div className="grid gap-10 md:grid-cols-[1fr_340px]">
       {/* ---- Main column ---- */}
@@ -212,6 +220,15 @@ export default function ProtocolBuilder({
         {aiRationale && (
           <Disclaimer title="AI-suggested — review before saving">
             <p>{aiRationale}</p>
+          </Disclaimer>
+        )}
+        {higherRiskItems.length > 0 && (
+          <Disclaimer title="Higher-risk compounds included">
+            <p>
+              This protocol includes {higherRiskItems.map((c) => c.name).join(", ")} — review
+              each compound&apos;s full catalog entry for risks, evidence, and legal status
+              before using.
+            </p>
           </Disclaimer>
         )}
 

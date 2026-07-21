@@ -1,7 +1,7 @@
 import { COMPOUNDS, allGoals } from "@/content/compounds";
 import CatalogBrowser from "@/components/CatalogBrowser";
 
-export const metadata = { title: "Catalog · Peptide & Supplement Companion" };
+export const metadata = { title: "Catalog · VitalPeps" };
 
 export default function CatalogPage() {
   return (
