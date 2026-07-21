@@ -2,7 +2,7 @@ import { COMPOUNDS } from "@/content/compounds";
 import { PROTOCOL_TEMPLATES } from "@/content/protocol-templates";
 import ProtocolBuilder from "@/components/ProtocolBuilder";
 
-export const metadata = { title: "Build a protocol · Companion" };
+export const metadata = { title: "Build a protocol · VitalPeps" };
 
 export default function NewProtocolPage() {
   return (

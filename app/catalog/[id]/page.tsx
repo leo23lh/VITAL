@@ -13,7 +13,7 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { id: string } }) {
   const c = getCompound(params.id);
-  return { title: c ? `${c.name} · Companion` : "Not found" };
+  return { title: c ? `${c.name} · VitalPeps` : "Not found" };
 }
 
 /**
