@@ -732,6 +732,20 @@
         { "url": "https://www.axios.com/local/phoenix/2025/03/28/kari-lake-trump-usagm-voa", "title": "Former journalist Kari Lake helps Trump gut global news agency — Axios Phoenix" },
         { "url": "https://www.deseret.com/politics/2026/05/11/kari-lake-ambassador-jamaica/", "title": "Kari Lake nominated as ambassador to Jamaica — Deseret News" }
       ]
+    },
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employee",
+      "description": "Sonderling has served in both Trump administrations: at the Labor Department from 2017, as Trump's EEOC nominee and vice chair (2020–2021), as Deputy Secretary of Labor from March 2025, and as Labor Secretary, nominated by Trump on June 29, 2026 and confirmed September 30.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" },
+        { "url": "https://federalnewsnetwork.com/people/2026/06/trump-nominates-acting-labor-secretary-keith-sonderling-to-be-agencys-permanent-chief/", "title": "Trump nominates acting Labor Secretary Keith Sonderling to be agency's permanent chief — Federal News Network (AP)" },
+        { "url": "https://www.shrm.org/topics-tools/employment-law-compliance/senate-confirms-sonderling-as-head-of-us-department-of-labor", "title": "Senate confirms Sonderling as head of US Department of Labor — SHRM" }
+      ]
     }
   ],
   "source_conflicts": [

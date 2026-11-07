@@ -1,0 +1,128 @@
+{
+  "name": "Keith Sonderling",
+  "aliases": ["Keith E. Sonderling"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "current_role": "U.S. Secretary of Labor (acting from April 2026; confirmed September 30, 2026)",
+  "summary": "Keith Sonderling, a Florida labor and employment lawyer, joined Trump's Labor Department in 2017 and led its Wage and Hour Division, then served as an EEOC commissioner (2020–2024), where he focused on AI in hiring. Confirmed as Deputy Secretary of Labor in March 2025, he became acting secretary when Lori Chavez-DeRemer resigned in April 2026 and was confirmed as the 31st Secretary of Labor on September 30, 2026, by a 47–41 vote.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" },
+    { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "Secretary of Labor Keith Sonderling — U.S. Department of Labor" },
+    { "url": "https://www.shrm.org/topics-tools/employment-law-compliance/senate-confirms-sonderling-as-head-of-us-department-of-labor", "title": "Senate confirms Sonderling as head of US Department of Labor — SHRM" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2017,
+      "role": "Labor and employment lawyer",
+      "org": "Gunster (Florida law firm)",
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "Secretary of Labor Keith Sonderling — U.S. Department of Labor" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2020,
+      "role": "Senior policy adviser, then acting administrator of the Wage and Hour Division",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.help.senate.gov/imo/media/doc/a1b55675-c32d-2c87-9615-7ca329133a53/Sonderling%20Testimony_7b00c142-82ba-4197-9b9f-8eb791105c95.pdf", "title": "Keith E. Sonderling opening statement — Senate HELP Committee" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2020,
+      "end_year": 2024,
+      "role": "Commissioner (vice chair until January 2021); confirmed 52–41",
+      "org": "U.S. Equal Employment Opportunity Commission",
+      "sources": [
+        { "url": "https://www.eeoc.gov/newsroom/keith-e-sonderling-sworn-eeoc-commissioner-and-vice-chair", "title": "Keith E. Sonderling sworn in as EEOC Commissioner and Vice Chair — EEOC" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Deputy Secretary of Labor (confirmed March 2025)",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250318", "title": "US Department of Labor announces confirmation of Keith E. Sonderling as Deputy Secretary — U.S. Department of Labor" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Secretary of Labor (acting from April 2026; confirmed September 30, 2026)",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "Secretary of Labor Keith Sonderling — U.S. Department of Labor" },
+        { "url": "https://www.shrm.org/topics-tools/employment-law-compliance/senate-confirms-sonderling-as-head-of-us-department-of-labor", "title": "Senate confirms Sonderling as head of US Department of Labor — SHRM" },
+        { "url": "https://federalnewsnetwork.com/people/2026/06/trump-nominates-acting-labor-secretary-keith-sonderling-to-be-agencys-permanent-chief/", "title": "Trump nominates acting Labor Secretary Keith Sonderling to be agency's permanent chief — Federal News Network (AP)" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "U.S. Department of Labor",
+      "role": "Secretary",
+      "start_year": 2026,
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "Secretary of Labor Keith Sonderling — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Sonderling has served in both Trump administrations: at the Labor Department from 2017, as Trump's EEOC nominee and vice chair (2020–2021), as Deputy Secretary of Labor from March 2025, and as Labor Secretary, nominated by Trump on June 29, 2026 and confirmed September 30.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" },
+        { "url": "https://federalnewsnetwork.com/people/2026/06/trump-nominates-acting-labor-secretary-keith-sonderling-to-be-agencys-permanent-chief/", "title": "Trump nominates acting Labor Secretary Keith Sonderling to be agency's permanent chief — Federal News Network (AP)" },
+        { "url": "https://www.shrm.org/topics-tools/employment-law-compliance/senate-confirms-sonderling-as-head-of-us-department-of-labor", "title": "Senate confirms Sonderling as head of US Department of Labor — SHRM" }
+      ]
+    },
+    {
+      "name": "Lori Chavez-DeRemer",
+      "slug": "lori-chavez-deremer",
+      "relationship_type": "colleague",
+      "description": "Sonderling was Chavez-DeRemer's deputy at the Labor Department from March 2025 until she resigned in April 2026 amid inquiries into her conduct; he then succeeded her.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" },
+        { "url": "https://federalnewsnetwork.com/people/2026/06/trump-nominates-acting-labor-secretary-keith-sonderling-to-be-agencys-permanent-chief/", "title": "Trump nominates acting Labor Secretary Keith Sonderling to be agency's permanent chief — Federal News Network (AP)" }
+      ]
+    },
+    {
+      "name": "Leo Halperin",
+      "slug": "leo-halperin",
+      "relationship_type": "employee",
+      "description": "Leo Halperin works for Sonderling's department as a Digital Content Coordinator (since August 2026). Recorded at Leo Halperin's own request.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": ["user-provided"]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Swearing-in date as Secretary",
+      "details": "The Labor Department's biography says he was sworn in on October 2, 2026; a department news release dated October 9, 2026 reports the swearing-in that day, administered by Treasury Secretary Scott Bessent.",
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "Secretary of Labor Keith Sonderling — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/index.php/newsroom/releases/osec/osec20261009", "title": "Keith Sonderling sworn in as 31st US Secretary of Labor — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. A Labor Department page also says he was designated acting director of the Office of Government Ethics in June 2026; not recorded pending a second source.",
+  "last_researched": "2026-11-07"
+}

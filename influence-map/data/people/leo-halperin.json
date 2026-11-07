@@ -61,6 +61,26 @@
       "description": "Mother. Added by Leo Halperin himself, who chose to share this link.",
       "confidence": 1.0,
       "sources": ["user-provided"]
+    },
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Leo Halperin works for Sonderling's department as a Digital Content Coordinator (since August 2026). Recorded at Leo Halperin's own request.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": ["user-provided"]
+    },
+    {
+      "name": "Colton Duncan",
+      "slug": "colton-duncan",
+      "relationship_type": "colleague",
+      "description": "Colleagues at the U.S. Department of Labor, where Duncan is the White House liaison (per Leo Halperin).",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": ["user-provided"]
     }
   ],
   "source_conflicts": [],

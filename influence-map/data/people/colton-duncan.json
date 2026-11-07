@@ -1,0 +1,33 @@
+{
+  "name": "Colton Duncan",
+  "aliases": [],
+  "public_figure": false,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "White House liaison at the U.S. Department of Labor",
+  "summary": "White House liaison at the U.S. Department of Labor, as described by Leo Halperin. Not researched (not a public figure).",
+  "sources": ["user-provided"],
+  "timeline": [],
+  "affiliations": [
+    {
+      "name": "U.S. Department of Labor",
+      "role": "White House liaison",
+      "sources": ["user-provided"]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Leo Halperin",
+      "slug": "leo-halperin",
+      "relationship_type": "colleague",
+      "description": "Colleagues at the U.S. Department of Labor, where Duncan is the White House liaison (per Leo Halperin).",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": ["user-provided"]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Added at Leo Halperin's request with only the details he provided. Not a public figure as far as this map knows, so no web research and no photo. If he has a substantial public record, re-add him with /refresh-person after confirming that.",
+  "last_researched": "2026-11-07"
+}
