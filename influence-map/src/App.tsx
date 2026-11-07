@@ -1,21 +1,51 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import GraphView, { BACKGROUND, type GraphHandle } from './components/GraphView';
-import Legend from './components/Legend';
+import Menus, { type MenuName } from './components/Menus';
 import SidePanel from './components/SidePanel';
 import Toolbar from './components/Toolbar';
+import ViewChips from './components/ViewChips';
 import { canExport, exportGraphPng } from './lib/exportPng';
-import { buildGraph, linkEndId, type GraphNode } from './lib/graph';
-import { EDGE_GROUPS, type EdgeGroup } from './lib/schema';
+import {
+  activeInYear,
+  buildGraph,
+  familyOf,
+  mergePairs,
+  neighborhood,
+  yearSpan,
+  type GraphNode,
+} from './lib/graph';
+import { EDGE_FAMILIES, GROUPS, type EdgeFamily, type GroupId } from './lib/schema';
 import { usePeople } from './lib/usePeople';
 
+/** `id` of a link selection is a pair id ("a|b"): every link between the two people. */
 export type Selection = { kind: 'node'; id: string } | { kind: 'link'; id: string } | null;
+
+export type View =
+  | { kind: 'all' }
+  | { kind: 'group'; id: GroupId }
+  | { kind: 'money' }
+  | { kind: 'feuds' }
+  | { kind: 'world'; id: string; depth: 1 | 2 };
+
+export type Layout = 'wide' | 'card' | 'sheet';
+
+function currentLayout(): Layout {
+  if (window.matchMedia('(min-width: 1100px)').matches) return 'wide';
+  if (window.matchMedia('(min-width: 600px)').matches) return 'card';
+  return 'sheet';
+}
 
 export default function App() {
   const { people, errors, loaded, fetchError, lastUpdated, live } = usePeople();
   const [selection, setSelection] = useState<Selection>(null);
   const [query, setQuery] = useState('');
-  const [hidden, setHidden] = useState<Set<EdgeGroup>>(new Set());
-  const [showSuggested, setShowSuggested] = useState(true);
+  const [hidden, setHidden] = useState<Set<EdgeFamily>>(new Set());
+  const [showSuggested, setShowSuggested] = useState(false);
+  const [colorAll, setColorAll] = useState(false);
+  const [view, setView] = useState<View>({ kind: 'all' });
+  const [year, setYear] = useState<number | null>(null);
+  const [menu, setMenu] = useState<MenuName | null>(null);
+  const [layout, setLayout] = useState<Layout>(currentLayout);
   const fgRef = useRef<GraphHandle>(undefined);
   const graphWrapRef = useRef<HTMLDivElement>(null);
   const positions = useRef(new Map<string, GraphNode>());
@@ -23,6 +53,9 @@ export default function App() {
 
   useEffect(() => {
     void canExport().then(setExportable);
+    const onResize = () => setLayout(currentLayout());
+    window.addEventListener('resize', onResize);
+    return () => window.removeEventListener('resize', onResize);
   }, []);
 
   // Rebuild when files change, keeping existing nodes where they were.
@@ -36,50 +69,92 @@ export default function App() {
     return g;
   }, [people]);
 
+  const span = useMemo(() => yearSpan(graph.links), [graph]);
+  const byId = useMemo(() => new Map(graph.nodes.map((n) => [n.id, n])), [graph]);
+
+  // Links that pass the family, year and view filters (before choosing which people show).
+  const filteredLinks = useMemo(
+    () =>
+      graph.links.filter((l) => {
+        const fam = familyOf(l);
+        if (hidden.has(fam)) return false;
+        if (view.kind === 'money' && fam !== 'money') return false;
+        if (view.kind === 'feuds' && fam !== 'rivalry') return false;
+        if (year != null && !activeInYear(l, year)) return false;
+        return true;
+      }),
+    [graph, hidden, view.kind, year],
+  );
+
+  const selectedNodeId = selection?.kind === 'node' ? selection.id : null;
+
   const visible = useMemo(() => {
-    const byId = new Map(graph.nodes.map((n) => [n.id, n]));
-    const links = graph.links.filter((l) => {
-      if (hidden.has(l.group)) return false;
-      if (!showSuggested && l.touchesSuggested) return false;
-      return true;
-    });
-    const linked = new Set<string>();
-    for (const l of links) {
-      linked.add(linkEndId(l.source));
-      linked.add(linkEndId(l.target));
+    const ids = new Set<string>();
+    const touched = new Set<string>();
+    for (const l of filteredLinks) {
+      touched.add(l.sourceId);
+      touched.add(l.targetId);
     }
-    const nodes = graph.nodes.filter((n) => n.researched || (showSuggested && linked.has(n.id)));
-    const nodeIds = new Set(nodes.map((n) => n.id));
-    return {
-      nodes,
-      links: links.filter((l) => nodeIds.has(linkEndId(l.source)) && nodeIds.has(linkEndId(l.target))),
-      byId,
-    };
-  }, [graph, hidden, showSuggested]);
+    const okSuggested = (id: string) => byId.get(id)?.researched || showSuggested;
+
+    if (view.kind === 'world') {
+      for (const id of neighborhood(view.id, filteredLinks, view.depth)) ids.add(id);
+    } else if (view.kind === 'group') {
+      for (const n of graph.nodes) if (n.groups.includes(view.id)) ids.add(n.id);
+    } else if (view.kind === 'money' || view.kind === 'feuds') {
+      for (const id of touched) if (okSuggested(id)) ids.add(id);
+    } else {
+      for (const n of graph.nodes) if (n.researched || (showSuggested && touched.has(n.id))) ids.add(n.id);
+    }
+    // The selected person always brings their own connections along, suggested ones included.
+    if (selectedNodeId && byId.has(selectedNodeId)) {
+      ids.add(selectedNodeId);
+      for (const id of neighborhood(selectedNodeId, filteredLinks, 1)) ids.add(id);
+    }
+
+    const links = filteredLinks.filter((l) => ids.has(l.sourceId) && ids.has(l.targetId));
+    const nodes = graph.nodes.filter((n) => ids.has(n.id));
+    return { nodes, links, pairs: mergePairs(links) };
+  }, [graph, byId, filteredLinks, view, showSuggested, selectedNodeId]);
 
   const counts = useMemo(() => {
-    const c = Object.fromEntries(EDGE_GROUPS.map((g) => [g.id, 0])) as Record<EdgeGroup, number>;
-    for (const l of graph.links) if (showSuggested || !l.touchesSuggested) c[l.group]++;
+    const c = Object.fromEntries(EDGE_FAMILIES.map((f) => [f.id, 0])) as Record<EdgeFamily, number>;
+    for (const l of graph.links) c[familyOf(l)]++;
     return c;
-  }, [graph, showSuggested]);
+  }, [graph]);
+
+  const groupCounts = useMemo(() => {
+    const c = Object.fromEntries(GROUPS.map((g) => [g.id, 0])) as Record<GroupId, number>;
+    for (const n of graph.nodes) for (const g of n.groups) if (g in c) c[g]++;
+    return c;
+  }, [graph]);
 
   const focusNode = useCallback(
     (id: string) => {
       setSelection({ kind: 'node', id });
-      const n = visible.byId.get(id);
+      const n = byId.get(id);
       const fg = fgRef.current;
-      if (fg && n && n.x != null && n.y != null) {
-        const k = Math.max(fg.zoom(), 2);
-        // On narrow screens the panel covers the lower 60% of the graph, so aim for the space above it.
-        const narrow = window.matchMedia('(max-width: 820px)').matches;
-        const height = graphWrapRef.current?.clientHeight ?? 0;
-        const shift = narrow ? (height * 0.3) / k : 0;
-        fg.centerAt(n.x, n.y + shift, 600);
-        fg.zoom(k, 600);
-      }
+      if (!fg || !n || n.x == null || n.y == null) return;
+      const k = Math.max(fg.zoom(), 1.6);
+      const el = graphWrapRef.current;
+      const w = el?.clientWidth ?? 0;
+      const h = el?.clientHeight ?? 0;
+      // Aim for the part of the map the details panel doesn't cover.
+      const dx = layout === 'card' ? Math.min(400, w * 0.48) / 2 / k : 0;
+      const dy = layout === 'sheet' ? (h * 0.2) / k : 0;
+      fg.centerAt(n.x + dx, n.y + dy, 600);
+      fg.zoom(k, 600);
     },
-    [visible.byId],
+    [byId, layout],
   );
+
+  const openWorld = useCallback((id: string) => {
+    setView({ kind: 'world', id, depth: 1 });
+    setSelection({ kind: 'node', id });
+  }, []);
+
+  const fitKey = `${view.kind}:${'id' in view ? view.id : ''}:${'depth' in view ? view.depth : ''}:${year ?? ''}:${loaded}`;
+  const empty = loaded && people.length === 0;
 
   const stats = {
     researched: graph.nodes.filter((n) => n.researched).length,
@@ -87,27 +162,21 @@ export default function App() {
     links: graph.links.length,
   };
 
-  const empty = loaded && people.length === 0;
-
   return (
     <div className="app">
       <Toolbar
-        nodes={visible.nodes}
+        nodes={graph.nodes}
         query={query}
         onQuery={setQuery}
         onPick={(id) => {
           focusNode(id);
           setQuery('');
         }}
-        showSuggested={showSuggested}
-        onToggleSuggested={setShowSuggested}
-        onFit={() => fgRef.current?.zoomToFit(500, 60)}
-        onExport={
-          exportable
-            ? () => graphWrapRef.current && void exportGraphPng(graphWrapRef.current, { background: BACKGROUND, hidden, counts })
-            : undefined
-        }
-        stats={stats}
+        view={view}
+        nameOf={(id) => byId.get(id)?.name ?? id}
+        menu={menu}
+        onMenu={setMenu}
+        filtersActive={hidden.size + (year != null ? 1 : 0) + (showSuggested ? 1 : 0) + (colorAll ? 1 : 0)}
         live={live}
         lastUpdated={lastUpdated}
       />
@@ -128,7 +197,7 @@ export default function App() {
         </div>
       )}
 
-      <main className="main">
+      <main className={`main layout-${layout}`}>
         <div className="graph" ref={graphWrapRef}>
           {!loaded ? (
             <div className="empty">
@@ -145,37 +214,89 @@ export default function App() {
           ) : (
             <GraphView
               nodes={visible.nodes}
-              links={visible.links}
+              pairs={visible.pairs}
               selection={selection}
               query={query}
+              colorAll={colorAll || view.kind === 'money' || view.kind === 'feuds'}
+              fitKey={fitKey}
               fgRef={fgRef}
               onSelect={setSelection}
             />
           )}
+
           {loaded && !empty && (
-            <Legend
+            <ViewChips
+              view={view}
+              year={year}
+              nameOf={(id) => byId.get(id)?.name ?? id}
+              onView={(v) => {
+                if (v.kind !== 'world') setSelection(null);
+                setView(v);
+              }}
+              onYear={setYear}
+            />
+          )}
+
+          {menu && (
+            <Menus
+              menu={menu}
+              onClose={() => setMenu(null)}
+              view={view}
+              onView={(v) => {
+                setView(v);
+                setSelection(null);
+                setMenu(null);
+              }}
+              groupCounts={groupCounts}
+              selectedNode={selectedNodeId ? (byId.get(selectedNodeId) ?? null) : null}
+              onWorld={openWorld}
               counts={counts}
               hidden={hidden}
-              onToggle={(g) =>
+              onToggleFamily={(f) =>
                 setHidden((h) => {
                   const next = new Set(h);
-                  if (next.has(g)) next.delete(g);
-                  else next.add(g);
+                  if (next.has(f)) next.delete(f);
+                  else next.add(f);
                   return next;
                 })
               }
-              onAll={(v) => setHidden(v ? new Set() : new Set(EDGE_GROUPS.map((g) => g.id)))}
+              onAllFamilies={(v) => setHidden(v ? new Set() : new Set(EDGE_FAMILIES.map((f) => f.id)))}
+              showSuggested={showSuggested}
+              onShowSuggested={setShowSuggested}
+              colorAll={colorAll}
+              onColorAll={setColorAll}
+              year={year}
+              span={span}
+              onYear={setYear}
+              stats={stats}
+              live={live}
+              lastUpdated={lastUpdated}
+              onFit={() => {
+                fgRef.current?.zoomToFit(500, 50);
+                setMenu(null);
+              }}
+              onExport={
+                exportable
+                  ? () =>
+                      graphWrapRef.current &&
+                      void exportGraphPng(graphWrapRef.current, { background: BACKGROUND, hidden, counts })
+                  : undefined
+              }
             />
           )}
         </div>
+
         <SidePanel
+          layout={layout}
           selection={selection}
           nodes={graph.nodes}
           links={graph.links}
           onSelect={(s) => (s?.kind === 'node' ? focusNode(s.id) : setSelection(s))}
+          onWorld={openWorld}
           onClose={() => setSelection(null)}
         />
       </main>
     </div>
   );
 }
+

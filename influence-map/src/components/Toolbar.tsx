@@ -1,23 +1,41 @@
 import { useMemo, useState } from 'react';
+import type { View } from '../App';
 import { matchesQuery, type GraphNode } from '../lib/graph';
+import { GROUPS } from '../lib/schema';
+import type { MenuName } from './Menus';
 
 interface Props {
   nodes: GraphNode[];
   query: string;
   onQuery: (q: string) => void;
   onPick: (id: string) => void;
-  showSuggested: boolean;
-  onToggleSuggested: (v: boolean) => void;
-  onFit: () => void;
-  /** Omitted when this view can't save files. */
-  onExport?: () => void;
-  stats: { researched: number; suggested: number; links: number };
+  view: View;
+  nameOf: (id: string) => string;
+  menu: MenuName | null;
+  onMenu: (m: MenuName | null) => void;
+  /** How many filters differ from the defaults; shown as a badge. */
+  filtersActive: number;
   live: boolean;
   lastUpdated: Date | null;
 }
 
+export function viewLabel(view: View, nameOf: (id: string) => string): string {
+  switch (view.kind) {
+    case 'all':
+      return 'Whole network';
+    case 'group':
+      return GROUPS.find((g) => g.id === view.id)?.label ?? view.id;
+    case 'money':
+      return 'Follow the money';
+    case 'feuds':
+      return 'Feuds';
+    case 'world':
+      return `${nameOf(view.id)}'s world`;
+  }
+}
+
 export default function Toolbar(props: Props) {
-  const { nodes, query, onQuery, onPick } = props;
+  const { nodes, query, onQuery, onPick, menu, onMenu } = props;
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
 
@@ -34,10 +52,15 @@ export default function Toolbar(props: Props) {
     setOpen(false);
   };
 
+  const toggle = (m: MenuName) => onMenu(menu === m ? null : m);
+
   return (
     <header className="toolbar">
-      <div className="brand">
-        <svg width="20" height="20" viewBox="0 0 32 32" aria-hidden="true">
+      <div
+        className="brand"
+        title={props.live ? `Live${props.lastUpdated ? ` · updated ${props.lastUpdated.toLocaleTimeString()}` : ''}` : undefined}
+      >
+        <svg width="22" height="22" viewBox="0 0 32 32" aria-hidden="true">
           <g stroke="#4ea1ff" strokeWidth="2.4">
             <line x1="9" y1="10" x2="22" y2="8" />
             <line x1="9" y1="10" x2="16" y2="23" />
@@ -47,7 +70,8 @@ export default function Toolbar(props: Props) {
           <circle cx="22" cy="8" r="3" fill="#e6e9ef" />
           <circle cx="16" cy="23" r="5" fill="#e6e9ef" />
         </svg>
-        Influence Map
+        <span className="brand-name">Influence Map</span>
+        {props.live && <span className="live-dot" aria-label="Live" />}
       </div>
 
       <div className="search">
@@ -99,31 +123,36 @@ export default function Toolbar(props: Props) {
         )}
       </div>
 
-      <label className="toggle">
-        <input
-          type="checkbox"
-          checked={props.showSuggested}
-          onChange={(e) => props.onToggleSuggested(e.target.checked)}
-        />
-        Suggested nodes
-      </label>
-
-      <div className="toolbar-actions">
-        <button onClick={props.onFit}>Fit</button>
-        {props.onExport && <button onClick={props.onExport}>Export PNG</button>}
-      </div>
-
-      <div className="stats muted">
-        {props.stats.researched} researched · {props.stats.suggested} suggested · {props.stats.links} links
-        {props.live && (
-          <span
-            className="live"
-            title={props.lastUpdated ? `Updated ${props.lastUpdated.toLocaleTimeString()}` : 'Watching data/people'}
-          >
-            <span className="live-dot" /> live
-          </span>
-        )}
-      </div>
+      <button
+        className={`tool-button${menu === 'views' ? ' on' : ''}${props.view.kind !== 'all' ? ' active' : ''}`}
+        onClick={() => toggle('views')}
+        aria-expanded={menu === 'views'}
+        title="Preset views"
+      >
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+          <circle cx="4" cy="4" r="2.2" fill="currentColor" />
+          <circle cx="12" cy="4" r="2.2" fill="currentColor" />
+          <circle cx="4" cy="12" r="2.2" fill="currentColor" />
+          <circle cx="12" cy="12" r="2.2" fill="currentColor" opacity="0.45" />
+        </svg>
+        <span className="tool-label">{props.view.kind === 'all' ? 'Views' : viewLabel(props.view, props.nameOf)}</span>
+      </button>
+      <button
+        className={`tool-button${menu === 'filters' ? ' on' : ''}`}
+        onClick={() => toggle('filters')}
+        aria-expanded={menu === 'filters'}
+        title="Filters and display"
+      >
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+          <g stroke="currentColor" strokeWidth="1.6" strokeLinecap="round">
+            <line x1="2" y1="4" x2="14" y2="4" />
+            <line x1="4" y1="8" x2="12" y2="8" />
+            <line x1="6.5" y1="12" x2="9.5" y2="12" />
+          </g>
+        </svg>
+        <span className="tool-label">Filters</span>
+        {props.filtersActive > 0 && <span className="badge-count">{props.filtersActive}</span>}
+      </button>
     </header>
   );
 }

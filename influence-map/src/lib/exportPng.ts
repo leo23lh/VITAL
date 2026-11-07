@@ -1,10 +1,10 @@
 import { IS_ARTIFACT, capability, type ArtifactDownloads } from './platform';
-import { EDGE_GROUPS, type EdgeGroup } from './schema';
+import { EDGE_FAMILIES, SECTORS, type EdgeFamily } from './schema';
 
 /** Saves the graph canvas as a PNG with the legend drawn in the top-left corner. */
 export async function exportGraphPng(
   container: HTMLElement,
-  opts: { background: string; hidden: Set<EdgeGroup>; counts: Record<EdgeGroup, number> },
+  opts: { background: string; hidden: Set<EdgeFamily>; counts: Record<EdgeFamily, number> },
 ): Promise<void> {
   const blob = await renderPng(container, opts);
   if (!blob) return;
@@ -34,7 +34,7 @@ export async function canExport(): Promise<boolean> {
 
 function renderPng(
   container: HTMLElement,
-  opts: { background: string; hidden: Set<EdgeGroup>; counts: Record<EdgeGroup, number> },
+  opts: { background: string; hidden: Set<EdgeFamily>; counts: Record<EdgeFamily, number> },
 ): Promise<Blob | null> {
   const src = container.querySelector('canvas');
   if (!src) return Promise.resolve(null);
@@ -50,10 +50,10 @@ function renderPng(
   const dpr = src.width / (src.clientWidth || src.width);
   ctx.scale(dpr, dpr);
 
-  const groups = EDGE_GROUPS.filter((g) => !opts.hidden.has(g.id) && (opts.counts[g.id] ?? 0) > 0);
+  const families = EDGE_FAMILIES.filter((f) => !opts.hidden.has(f.id) && (opts.counts[f.id] ?? 0) > 0);
   const rowH = 18;
-  const boxW = 210;
-  const boxH = 44 + groups.length * rowH;
+  const boxW = 220;
+  const boxH = 44 + (families.length + SECTORS.length) * rowH + 10;
   ctx.fillStyle = 'rgba(20, 24, 35, 0.92)';
   roundRect(ctx, 12, 12, boxW, boxH, 8);
   ctx.fill();
@@ -69,13 +69,22 @@ function renderPng(
   ctx.font = '11px system-ui, -apple-system, Segoe UI, sans-serif';
   ctx.fillText(new Date().toISOString().slice(0, 10), 130, 30);
 
-  groups.forEach((g, i) => {
+  ctx.font = '12px system-ui, -apple-system, Segoe UI, sans-serif';
+  families.forEach((f, i) => {
     const y = 52 + i * rowH;
-    ctx.fillStyle = g.color;
+    ctx.fillStyle = f.color;
     ctx.fillRect(24, y - 1.5, 22, 3);
     ctx.fillStyle = '#d4d9e3';
-    ctx.font = '12px system-ui, -apple-system, Segoe UI, sans-serif';
-    ctx.fillText(g.label, 54, y);
+    ctx.fillText(`${f.label} (${f.hint})`, 54, y);
+  });
+  SECTORS.forEach((s, i) => {
+    const y = 62 + (families.length + i) * rowH;
+    ctx.fillStyle = s.color;
+    ctx.beginPath();
+    ctx.arc(35, y, 5, 0, 2 * Math.PI);
+    ctx.fill();
+    ctx.fillStyle = '#d4d9e3';
+    ctx.fillText(s.label, 54, y);
   });
 
   return new Promise((resolve) => out.toBlob(resolve, 'image/png'));

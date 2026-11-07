@@ -1,9 +1,14 @@
 import {
+  EDGE_GROUP_BY_ID,
+  FAMILY_PRIORITY,
   type Connection,
+  type EdgeFamily,
   type EdgeGroup,
+  type GroupId,
   type Person,
   type PersonFile,
   type RelationshipType,
+  type Sector,
   type SourceRef,
   TYPE_TO_EDGE,
   normalizeType,
@@ -17,6 +22,8 @@ export interface GraphNode {
   /** false = "suggested": someone's connection, but no file of their own yet. */
   researched: boolean;
   publicFigure: boolean;
+  sector?: Sector;
+  groups: GroupId[];
   person?: Person;
   file?: string;
   /** Number of distinct people this node is linked to. Drives node size. */
@@ -82,6 +89,8 @@ export function buildGraph(files: PersonFile[]): GraphData {
       name: f.data.name || f.slug,
       researched: true,
       publicFigure: f.data.public_figure !== false,
+      sector: f.data.sector,
+      groups: Array.isArray(f.data.groups) ? f.data.groups : [],
       person: f.data,
       file: f.file,
       degree: 0,
@@ -108,6 +117,7 @@ export function buildGraph(files: PersonFile[]): GraphData {
           name: c.name || otherSlug,
           researched: false,
           publicFigure: true,
+          groups: [],
           degree: 0,
           mentionedBy: [],
         };
@@ -299,4 +309,85 @@ function fold(s: string): string {
     .normalize('NFKD')
     .replace(/[̀-ͯ]/g, '')
     .toLowerCase();
+}
+
+export function familyOf(link: GraphLink): EdgeFamily {
+  return EDGE_GROUP_BY_ID[link.group].family;
+}
+
+/** All the links between one pair of people, drawn as a single line. */
+export interface PairLink {
+  /** "a|b" with the two slugs sorted. */
+  id: string;
+  /** For a pair with one directed link: its source (the mentor / employer / donor). */
+  source: string | GraphNode;
+  target: string | GraphNode;
+  links: GraphLink[];
+  /** The family that colors the line (see FAMILY_PRIORITY). */
+  family: EdgeFamily;
+  confidence: number;
+  /** Arrow only when the pair has a single, directed link. */
+  directed: boolean;
+  touchesSuggested: boolean;
+}
+
+export function pairKey(a: string, b: string): string {
+  return a < b ? `${a}|${b}` : `${b}|${a}`;
+}
+
+export function mergePairs(links: GraphLink[]): PairLink[] {
+  const byPair = new Map<string, GraphLink[]>();
+  for (const l of links) {
+    const key = pairKey(l.sourceId, l.targetId);
+    if (!byPair.has(key)) byPair.set(key, []);
+    byPair.get(key)!.push(l);
+  }
+  return [...byPair.entries()].map(([id, ls]) => {
+    ls.sort((a, b) => FAMILY_PRIORITY.indexOf(familyOf(a)) - FAMILY_PRIORITY.indexOf(familyOf(b)) || b.confidence - a.confidence);
+    const single = ls.length === 1 ? ls[0] : null;
+    const [a, b] = id.split('|');
+    return {
+      id,
+      source: single ? single.sourceId : a,
+      target: single ? single.targetId : b,
+      links: ls,
+      family: familyOf(ls[0]),
+      confidence: Math.max(...ls.map((l) => l.confidence)),
+      directed: !!single?.directed,
+      touchesSuggested: ls.some((l) => l.touchesSuggested),
+    };
+  });
+}
+
+/**
+ * Whether a link was active in `year`. Undated links always count; a link with a
+ * start but no recorded end counts from its start onward.
+ */
+export function activeInYear(link: GraphLink, year: number): boolean {
+  if (link.startYear != null && link.startYear > year) return false;
+  if (typeof link.endYear === 'number' && link.endYear < year) return false;
+  return true;
+}
+
+/** `id` plus everyone within `depth` links of them. */
+export function neighborhood(id: string, links: GraphLink[], depth: number): Set<string> {
+  const adj = new Map<string, string[]>();
+  for (const l of links) {
+    (adj.get(l.sourceId) ?? adj.set(l.sourceId, []).get(l.sourceId)!).push(l.targetId);
+    (adj.get(l.targetId) ?? adj.set(l.targetId, []).get(l.targetId)!).push(l.sourceId);
+  }
+  const seen = new Set([id]);
+  let frontier = [id];
+  for (let d = 0; d < depth; d++) {
+    const next: string[] = [];
+    for (const n of frontier) for (const m of adj.get(n) ?? []) if (!seen.has(m)) (seen.add(m), next.push(m));
+    frontier = next;
+  }
+  return seen;
+}
+
+/** Years covered by the data, for the timeline slider. */
+export function yearSpan(links: GraphLink[], now = new Date().getFullYear()): [number, number] {
+  const years = links.flatMap((l) => [l.startYear, typeof l.endYear === 'number' ? l.endYear : null]).filter(isYear);
+  return years.length ? [Math.min(...years), Math.max(now, ...years)] : [now, now];
 }

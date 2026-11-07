@@ -1,18 +1,23 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type RefObject } from 'react';
 import ForceGraph2D, { type ForceGraphMethods } from 'react-force-graph-2d';
-import { describeLink, linkEndId, matchesQuery, type GraphLink, type GraphNode } from '../lib/graph';
-import { EDGE_GROUP_BY_ID } from '../lib/schema';
+import { describeLink, familyOf, linkEndId, matchesQuery, type GraphNode, type PairLink } from '../lib/graph';
+import { EDGE_FAMILY_BY_ID, SECTOR_BY_ID } from '../lib/schema';
 import type { Selection } from '../App';
 
 export const BACKGROUND = '#0f1117';
+const GREY = '#94a3b8';
 
-export type GraphHandle = ForceGraphMethods<GraphNode, GraphLink> | undefined;
+export type GraphHandle = ForceGraphMethods<GraphNode, PairLink> | undefined;
 
 interface Props {
   nodes: GraphNode[];
-  links: GraphLink[];
+  pairs: PairLink[];
   selection: Selection;
   query: string;
+  /** Color every line by family, not only the selected person's. */
+  colorAll: boolean;
+  /** Changes when the view changes; the map re-fits once it settles. */
+  fitKey: string;
   fgRef: RefObject<GraphHandle>;
   onSelect: (s: Selection) => void;
 }
@@ -21,11 +26,12 @@ export function nodeRadius(n: GraphNode): number {
   return n.researched ? 5 + 2.6 * Math.sqrt(n.degree) : 2.5 + 1.4 * Math.sqrt(n.degree);
 }
 
-export default function GraphView({ nodes, links, selection, query, fgRef, onSelect }: Props) {
+export default function GraphView({ nodes, pairs, selection, query, colorAll, fitKey, fgRef, onSelect }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState({ width: 800, height: 600 });
   const [hoverId, setHoverId] = useState<string | null>(null);
-  const [hoverLinkId, setHoverLinkId] = useState<string | null>(null);
+  const [hoverPairId, setHoverPairId] = useState<string | null>(null);
+  const needsFit = useRef(true);
 
   useEffect(() => {
     const el = containerRef.current;
@@ -38,41 +44,54 @@ export default function GraphView({ nodes, links, selection, query, fgRef, onSel
     return () => ro.disconnect();
   }, []);
 
+  useEffect(() => {
+    needsFit.current = true;
+  }, [fitKey]);
+
   // Spread nodes out a little more than the defaults.
   useEffect(() => {
     const fg = fgRef.current;
     if (!fg) return;
-    fg.d3Force('charge')?.strength?.(-260);
-    fg.d3Force('link')?.distance?.((l: GraphLink) => (l.touchesSuggested ? 55 : 95));
+    fg.d3Force('charge')?.strength?.(-280);
+    fg.d3Force('link')?.distance?.((l: PairLink) => (l.touchesSuggested ? 55 : 100));
+    fg.d3Force('tidy', tidyForce());
     fg.d3ReheatSimulation();
-  }, [fgRef, nodes, links]);
+  }, [fgRef, nodes, pairs]);
 
-  const graphData = useMemo(() => ({ nodes, links }), [nodes, links]);
+  const graphData = useMemo(() => ({ nodes, links: pairs }), [nodes, pairs]);
 
   const nameOf = useMemo(() => {
     const m = new Map(nodes.map((n) => [n.id, n.name]));
     return (id: string) => m.get(id) ?? id;
   }, [nodes]);
 
+  // Names that always show: the best-connected researched people on screen.
+  const labeled = useMemo(() => {
+    const ranked = nodes.filter((n) => n.researched).sort((a, b) => b.degree - a.degree);
+    // How many keep their name when zoomed out: roughly one per 55px of width.
+    const count = Math.max(8, Math.round(size.width / 55));
+    return new Set(ranked.slice(0, count).map((n) => n.id));
+  }, [nodes, size.width]);
+
   // Highlight the hovered (or selected) node and its neighbours; dim the rest.
   const focusId = hoverId ?? (selection?.kind === 'node' ? selection.id : null);
   const focus = useMemo(() => {
     if (!focusId) return null;
     const ids = new Set<string>([focusId]);
-    const linkIds = new Set<string>();
-    for (const l of links) {
-      const s = linkEndId(l.source);
-      const t = linkEndId(l.target);
+    const pairIds = new Set<string>();
+    for (const p of pairs) {
+      const s = linkEndId(p.source);
+      const t = linkEndId(p.target);
       if (s === focusId || t === focusId) {
         ids.add(s);
         ids.add(t);
-        linkIds.add(l.id);
+        pairIds.add(p.id);
       }
     }
-    return { ids, linkIds };
-  }, [focusId, links]);
+    return { ids, pairIds };
+  }, [focusId, pairs]);
 
-  const selectedLinkId = selection?.kind === 'link' ? selection.id : null;
+  const selectedPairId = selection?.kind === 'link' ? selection.id : null;
   const selectedNodeId = selection?.kind === 'node' ? selection.id : null;
 
   const drawNode = useCallback(
@@ -81,17 +100,26 @@ export default function GraphView({ nodes, links, selection, query, fgRef, onSel
       const y = node.y ?? 0;
       const r = nodeRadius(node);
       const matched = query ? matchesQuery(node, query) : false;
+      const inFocus = focus?.ids.has(node.id) ?? false;
       let alpha = 1;
       if (query && !matched) alpha = 0.15;
-      else if (focus && !focus.ids.has(node.id)) alpha = 0.2;
+      else if (focus && !inFocus) alpha = 0.18;
 
       ctx.save();
       ctx.globalAlpha = alpha;
       ctx.beginPath();
       ctx.arc(x, y, r, 0, 2 * Math.PI);
       if (node.researched) {
-        ctx.fillStyle = node.publicFigure ? '#e6e9ef' : '#d6b76a';
+        ctx.fillStyle = node.publicFigure
+          ? node.sector
+            ? SECTOR_BY_ID[node.sector]?.color ?? '#e6e9ef'
+            : '#e6e9ef'
+          : '#d6b76a';
         ctx.fill();
+        // A thin dark ring keeps neighbouring dots apart.
+        ctx.lineWidth = 1.5 / scale;
+        ctx.strokeStyle = BACKGROUND;
+        ctx.stroke();
       } else {
         ctx.fillStyle = 'rgba(148, 163, 184, 0.16)';
         ctx.fill();
@@ -111,9 +139,12 @@ export default function GraphView({ nodes, links, selection, query, fgRef, onSel
       }
 
       const showLabel =
-        node.researched || scale > 1.6 || node.id === hoverId || node.id === selectedNodeId || matched;
+        node.id === hoverId ||
+        node.id === selectedNodeId ||
+        matched ||
+        (focus ? inFocus : node.researched ? labeled.has(node.id) || scale > 1.5 : scale > 2.4);
       if (showLabel) {
-        const fontSize = (node.researched ? 12 : 10) / scale;
+        const fontSize = (node.researched ? 12 : 10.5) / scale;
         ctx.font = `${node.researched ? 600 : 400} ${fontSize}px system-ui, -apple-system, Segoe UI, sans-serif`;
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
@@ -121,40 +152,46 @@ export default function GraphView({ nodes, links, selection, query, fgRef, onSel
         ctx.lineWidth = 3 / scale;
         ctx.strokeStyle = BACKGROUND;
         ctx.strokeText(node.name, x, ty);
-        ctx.fillStyle = node.researched ? '#e6e9ef' : 'rgba(170, 180, 198, 0.85)';
+        ctx.fillStyle = node.researched ? '#e6e9ef' : 'rgba(170, 180, 198, 0.9)';
         ctx.fillText(node.name, x, ty);
       }
       ctx.restore();
     },
-    [focus, hoverId, query, selectedNodeId],
+    [focus, hoverId, labeled, query, selectedNodeId],
   );
 
-  const linkAlpha = useCallback(
-    (l: GraphLink) => {
-      if (l.id === selectedLinkId || l.id === hoverLinkId) return 1;
-      if (focus) return focus.linkIds.has(l.id) ? 0.95 : 0.06;
-      if (query) return 0.25;
-      return l.touchesSuggested ? 0.4 : 0.85;
-    },
-    [focus, hoverLinkId, query, selectedLinkId],
-  );
-
+  // Lines are quiet grey until they matter: the selected person's lines, a hovered or
+  // selected line, or "color all lines" switch them to their family color.
   const linkColor = useCallback(
-    (l: GraphLink) => withAlpha(EDGE_GROUP_BY_ID[l.group].color, linkAlpha(l)),
-    [linkAlpha],
+    (p: PairLink) => {
+      const fam = EDGE_FAMILY_BY_ID[p.family].color;
+      if (p.id === selectedPairId || p.id === hoverPairId) return withAlpha(fam, 1);
+      if (focus) return focus.pairIds.has(p.id) ? withAlpha(fam, 0.95) : withAlpha(GREY, 0.05);
+      if (query) return withAlpha(GREY, 0.12);
+      if (colorAll) return withAlpha(fam, p.touchesSuggested ? 0.4 : 0.8);
+      return withAlpha(GREY, p.touchesSuggested ? 0.14 : 0.3);
+    },
+    [colorAll, focus, hoverPairId, query, selectedPairId],
+  );
+
+  const colored = useCallback(
+    (p: PairLink) =>
+      p.id === selectedPairId || p.id === hoverPairId || (focus ? focus.pairIds.has(p.id) : colorAll && !query),
+    [colorAll, focus, hoverPairId, query, selectedPairId],
   );
 
   const linkWidth = useCallback(
-    (l: GraphLink) => {
-      const base = 0.6 + 2.4 * l.confidence;
-      return l.id === selectedLinkId || l.id === hoverLinkId ? base + 2 : base;
+    (p: PairLink) => {
+      const base = 0.5 + 1.6 * p.confidence;
+      if (p.id === selectedPairId || p.id === hoverPairId) return base + 2;
+      return focus?.pairIds.has(p.id) ? base + 0.6 : base;
     },
-    [hoverLinkId, selectedLinkId],
+    [focus, hoverPairId, selectedPairId],
   );
 
   return (
     <div ref={containerRef} className="graph-canvas">
-      <ForceGraph2D<GraphNode, GraphLink>
+      <ForceGraph2D<GraphNode, PairLink>
         ref={fgRef as React.MutableRefObject<GraphHandle>}
         width={size.width}
         height={size.height}
@@ -168,24 +205,64 @@ export default function GraphView({ nodes, links, selection, query, fgRef, onSel
         nodeCanvasObjectMode={() => 'replace'}
         linkColor={linkColor}
         linkWidth={linkWidth}
-        linkCurvature={(l) => l.curvature}
-        linkLineDash={(l) => (l.confidence < 0.5 ? [4, 3] : null)}
-        linkDirectionalArrowLength={(l) => (l.directed ? 6 : 0)}
+        linkLineDash={(p) => (p.confidence < 0.5 ? [4, 3] : null)}
+        linkDirectionalArrowLength={(p) => (p.directed && colored(p) ? 6 : 0)}
         linkDirectionalArrowRelPos={1}
         linkDirectionalArrowColor={linkColor}
-        linkLabel={(l) => linkTooltip(l, nameOf)}
+        linkLabel={(p) => pairTooltip(p, nameOf)}
         linkHoverPrecision={6}
         onNodeHover={(n) => setHoverId(n ? n.id : null)}
-        onLinkHover={(l) => setHoverLinkId(l ? l.id : null)}
+        onLinkHover={(p) => setHoverPairId(p ? p.id : null)}
         onNodeClick={(n) => onSelect({ kind: 'node', id: n.id })}
-        onLinkClick={(l) => onSelect({ kind: 'link', id: l.id })}
+        onLinkClick={(p) => onSelect({ kind: 'link', id: p.id })}
         onBackgroundClick={() => onSelect(null)}
-        cooldownTicks={200}
+        onEngineStop={() => {
+          if (!needsFit.current) return;
+          needsFit.current = false;
+          fgRef.current?.zoomToFit(400, 40);
+        }}
+        cooldownTicks={160}
         minZoom={0.2}
         maxZoom={8}
       />
     </div>
   );
+}
+
+/**
+ * Keeps the map compact and readable: a gentle pull toward the middle (so people
+ * with no visible links don't drift off-screen in filtered views) and a simple
+ * collision that leaves room for each name under its dot.
+ */
+function tidyForce() {
+  let nodes: GraphNode[] = [];
+  const force = (alpha: number) => {
+    for (const n of nodes) {
+      n.vx = (n.vx ?? 0) - (n.x ?? 0) * 0.02 * alpha;
+      n.vy = (n.vy ?? 0) - (n.y ?? 0) * 0.02 * alpha;
+    }
+    for (let i = 0; i < nodes.length; i++) {
+      const a = nodes[i];
+      for (let j = i + 1; j < nodes.length; j++) {
+        const b = nodes[j];
+        const dx = (b.x ?? 0) - (a.x ?? 0);
+        const dy = (b.y ?? 0) - (a.y ?? 0);
+        const min = nodeRadius(a) + nodeRadius(b) + (a.researched && b.researched ? 26 : 10);
+        const d2 = dx * dx + dy * dy;
+        if (d2 >= min * min || d2 === 0) continue;
+        const d = Math.sqrt(d2);
+        const push = ((min - d) / d) * 0.5 * alpha;
+        a.vx = (a.vx ?? 0) - dx * push;
+        a.vy = (a.vy ?? 0) - dy * push;
+        b.vx = (b.vx ?? 0) + dx * push;
+        b.vy = (b.vy ?? 0) + dy * push;
+      }
+    }
+  };
+  force.initialize = (ns: GraphNode[]) => {
+    nodes = ns;
+  };
+  return force;
 }
 
 function nodeTooltip(n: GraphNode): string {
@@ -194,11 +271,14 @@ function nodeTooltip(n: GraphNode): string {
   return `<div class="tt"><strong>${esc(n.name)}</strong>${role ? `<div>${esc(role)}</div>` : ''}${tag}<div class="tt-muted">${n.degree} connection${n.degree === 1 ? '' : 's'}</div></div>`;
 }
 
-function linkTooltip(l: GraphLink, nameOf: (id: string) => string): string {
-  const g = EDGE_GROUP_BY_ID[l.group];
-  return `<div class="tt"><span class="tt-swatch" style="background:${g.color}"></span>${esc(
-    describeLink(l, nameOf),
-  )}<div class="tt-muted">Confidence ${Math.round(l.confidence * 100)}% · click for sources</div></div>`;
+function pairTooltip(p: PairLink, nameOf: (id: string) => string): string {
+  const rows = p.links
+    .map((l) => {
+      const f = EDGE_FAMILY_BY_ID[familyOf(l)];
+      return `<div><span class="tt-swatch" style="background:${f.color}"></span>${esc(describeLink(l, nameOf))}</div>`;
+    })
+    .join('');
+  return `<div class="tt">${rows}<div class="tt-muted">Confidence up to ${Math.round(p.confidence * 100)}% · tap for sources</div></div>`;
 }
 
 function esc(s: string): string {

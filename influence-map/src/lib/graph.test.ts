@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import * as validator from '../../scripts/validate.mjs';
-import { buildGraph, describeLink, roleOfOther } from './graph';
+import { activeInYear, buildGraph, describeLink, mergePairs, neighborhood, roleOfOther } from './graph';
 import { GROUPS, INVERSE_TYPE, RELATIONSHIP_TYPES, SECTORS, type Person, type PersonFile } from './schema';
 
 const src = (n: number) => [{ url: `https://example.com/${n}`, title: `Source ${n}` }];
@@ -88,6 +88,35 @@ describe('buildGraph', () => {
     expect(g.links[0].disagreements.join(' ')).toMatch(/Start year/);
     expect(g.links[0].disagreements.join(' ')).toMatch(/Confidence/);
     expect(g.skipped).toEqual([{ file: 'a.json', name: 'C', relationship_type: 'pen-pal' }]);
+  });
+});
+
+describe('views', () => {
+  const files = [
+    person('a', 'A', [conn('b', 'B', 'donor'), conn('b', 'B', 'rival', 0.8, { start_year: 2020, end_year: null })]),
+    person('b', 'B', [conn('a', 'A', 'funded_by'), conn('a', 'A', 'rival', 0.8, { start_year: 2020, end_year: null }), conn('c', 'C', 'ally')]),
+  ];
+  const g = buildGraph(files);
+
+  it('draws one line per pair, colored by the highest-priority family', () => {
+    const pairs = mergePairs(g.links);
+    const ab = pairs.find((p) => p.id === 'a|b')!;
+    expect(ab.links).toHaveLength(2);
+    expect(ab.family).toBe('rivalry');
+    expect(ab.directed).toBe(false);
+    const bc = pairs.find((p) => p.id === 'b|c')!;
+    expect(bc.links).toHaveLength(1);
+  });
+
+  it('filters links by year and finds neighbourhoods', () => {
+    const rival = g.links.find((l) => l.group === 'rival')!;
+    const funding = g.links.find((l) => l.group === 'funding')!;
+    expect(activeInYear(rival, 2019)).toBe(false);
+    expect(activeInYear(rival, 2026)).toBe(true);
+    expect(activeInYear(funding, 2017)).toBe(false);
+    expect(activeInYear(funding, 2010)).toBe(true);
+    expect([...neighborhood('a', g.links, 1)].sort()).toEqual(['a', 'b']);
+    expect([...neighborhood('a', g.links, 2)].sort()).toEqual(['a', 'b', 'c']);
   });
 });
 

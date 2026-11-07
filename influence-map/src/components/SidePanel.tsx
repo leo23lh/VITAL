@@ -1,30 +1,47 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {
   describeLink,
+  familyOf,
   linkEndId,
+  pairKey,
   roleOfOther,
   yearRange,
   type GraphLink,
   type GraphNode,
 } from '../lib/graph';
 import {
+  EDGE_FAMILY_BY_ID,
   EDGE_GROUP_BY_ID,
+  GROUPS,
+  SECTOR_BY_ID,
   sourceLabel,
   sourceUrl,
   type Affiliation,
   type SourceRef,
 } from '../lib/schema';
-import type { Selection } from '../App';
+import type { Layout, Selection } from '../App';
 
 interface Props {
+  layout: Layout;
   selection: Selection;
   nodes: GraphNode[];
   links: GraphLink[];
   onSelect: (s: Selection) => void;
+  onWorld: (id: string) => void;
   onClose: () => void;
 }
 
-export default function SidePanel({ selection, nodes, links, onSelect, onClose }: Props) {
+export default function SidePanel({ layout, selection, nodes, links, onSelect, onWorld, onClose }: Props) {
+  // Bottom sheet (folded phone): starts as a short peek, drag or tap the handle to expand.
+  const [expanded, setExpanded] = useState(false);
+  const drag = useRef<{ y: number } | null>(null);
+  const bodyRef = useRef<HTMLDivElement>(null);
+  const selKey = selection ? `${selection.kind}:${selection.id}` : '';
+  useEffect(() => {
+    setExpanded(false);
+    bodyRef.current?.scrollTo({ top: 0 });
+  }, [selKey]);
+
   if (!selection) return null;
   const nodeById = new Map(nodes.map((n) => [n.id, n]));
   const nameOf = (id: string) => nodeById.get(id)?.name ?? id;
@@ -32,19 +49,40 @@ export default function SidePanel({ selection, nodes, links, onSelect, onClose }
   let body: React.ReactNode = null;
   if (selection.kind === 'node') {
     const node = nodeById.get(selection.id);
-    if (node) body = <NodePanel node={node} links={links} nameOf={nameOf} onSelect={onSelect} />;
+    if (node) body = <NodePanel node={node} links={links} nameOf={nameOf} onSelect={onSelect} onWorld={onWorld} />;
   } else {
-    const link = links.find((l) => l.id === selection.id);
-    if (link) body = <LinkPanel link={link} nameOf={nameOf} onSelect={onSelect} />;
+    const pair = links.filter((l) => pairKey(l.sourceId, l.targetId) === selection.id);
+    if (pair.length) body = <PairPanel links={pair} nameOf={nameOf} onSelect={onSelect} />;
   }
   if (!body) return null;
 
+  const sheet = layout === 'sheet';
   return (
-    <aside className="panel" aria-label="Details">
-      <button className="panel-close" onClick={onClose} aria-label="Close panel">
+    <aside className={`panel panel-${layout}${sheet && expanded ? ' expanded' : ''}`} aria-label="Details">
+      {sheet && (
+        <button
+          className="sheet-handle"
+          aria-label={expanded ? 'Collapse details' : 'Expand details'}
+          onClick={() => setExpanded((e) => !e)}
+          onPointerDown={(e) => (drag.current = { y: e.clientY })}
+          onPointerUp={(e) => {
+            const start = drag.current;
+            drag.current = null;
+            if (!start) return;
+            const dy = e.clientY - start.y;
+            if (dy < -24) setExpanded(true);
+            else if (dy > 24) (expanded ? setExpanded(false) : onClose());
+          }}
+        >
+          <span />
+        </button>
+      )}
+      <button className="panel-close" onClick={onClose} aria-label="Close details">
         ×
       </button>
-      {body}
+      <div className="panel-scroll" ref={bodyRef} onScroll={() => sheet && !expanded && setExpanded(true)}>
+        {body}
+      </div>
     </aside>
   );
 }
@@ -54,16 +92,28 @@ function NodePanel({
   links,
   nameOf,
   onSelect,
+  onWorld,
 }: {
   node: GraphNode;
   links: GraphLink[];
   nameOf: (id: string) => string;
   onSelect: (s: Selection) => void;
+  onWorld: (id: string) => void;
 }) {
   const p = node.person;
-  const incident = links
-    .filter((l) => linkEndId(l.source) === node.id || linkEndId(l.target) === node.id)
-    .sort((a, b) => b.confidence - a.confidence || nameOf(otherEnd(a, node.id)).localeCompare(nameOf(otherEnd(b, node.id))));
+  // One row per connected person, with every kind of link between them.
+  const byOther = new Map<string, GraphLink[]>();
+  for (const l of links) {
+    if (linkEndId(l.source) !== node.id && linkEndId(l.target) !== node.id) continue;
+    const other = otherEnd(l, node.id);
+    if (!byOther.has(other)) byOther.set(other, []);
+    byOther.get(other)!.push(l);
+  }
+  const people = [...byOther.entries()]
+    .map(([id, ls]) => ({ id, links: ls, confidence: Math.max(...ls.map((l) => l.confidence)) }))
+    .sort((a, b) => b.confidence - a.confidence || nameOf(a.id).localeCompare(nameOf(b.id)));
+  const sector = node.sector ? SECTOR_BY_ID[node.sector] : null;
+  const groupLabels = node.groups.map((g) => GROUPS.find((x) => x.id === g)?.label ?? g);
 
   const timeline = [...(p?.timeline ?? [])].sort((a, b) => (a.year ?? 0) - (b.year ?? 0));
 
@@ -73,13 +123,25 @@ function NodePanel({
         <h2>{node.name}</h2>
         <div className="badges">
           {!node.researched && <span className="badge badge-suggested">Suggested · no file yet</span>}
-          {node.researched && node.publicFigure && <span className="badge">Public figure</span>}
+          {node.researched && sector && (
+            <span className="badge badge-sector">
+              <span className="key-dot" style={{ background: sector.color }} /> {sector.label}
+            </span>
+          )}
+          {node.researched && node.publicFigure && !sector && <span className="badge">Public figure</span>}
           {node.researched && !node.publicFigure && (
             <span className="badge badge-private">Not a public figure · user-provided info only</span>
           )}
         </div>
         {p?.aliases && p.aliases.length > 0 && <div className="muted">Also: {p.aliases.join(', ')}</div>}
         {p?.current_role && <div className="role">{p.current_role}</div>}
+        <div className="panel-actions">
+          <button onClick={() => onWorld(node.id)}>Focus</button>
+          <span className="muted small">
+            {people.length} connection{people.length === 1 ? '' : 's'}
+            {groupLabels.length > 0 && ` · ${groupLabels.join(' · ')}`}
+          </span>
+        </div>
       </header>
 
       {!node.researched && (
@@ -153,35 +215,43 @@ function NodePanel({
       )}
 
       <section>
-        <h3>Connections ({incident.length})</h3>
-        {incident.length === 0 && <p className="muted">None recorded.</p>}
+        <h3>Connections ({people.length})</h3>
+        {people.length === 0 && <p className="muted">None recorded.</p>}
         <ul className="connections">
-          {incident.map((l) => {
-            const otherId = otherEnd(l, node.id);
-            const g = EDGE_GROUP_BY_ID[l.group];
-            const descriptions = uniqueDescriptions(l);
+          {people.map(({ id: otherId, links: ls }) => {
+            const descriptions = [...new Set(ls.flatMap(uniqueDescriptions))];
+            const sources = dedupeSources(ls.flatMap((l) => l.sources));
             return (
-              <li key={l.id} className="connection">
+              <li key={otherId} className="connection">
                 <div className="conn-head">
-                  <span className="swatch" style={{ background: g.color }} />
                   <button className="link-button" onClick={() => onSelect({ kind: 'node', id: otherId })}>
                     {nameOf(otherId)}
                   </button>
-                  <span className="conn-type">{roleOfOther(l, node.id)}</span>
-                  <button className="link-button small" onClick={() => onSelect({ kind: 'link', id: l.id })}>
+                  <button
+                    className="link-button small"
+                    onClick={() => onSelect({ kind: 'link', id: pairKey(node.id, otherId) })}
+                  >
                     details
                   </button>
                 </div>
-                <div className="conn-meta">
-                  {yearRange(l.startYear, l.endYear) && <span>{yearRange(l.startYear, l.endYear)}</span>}
-                  <Confidence value={l.confidence} />
+                <div className="conn-types">
+                  {ls.map((l) => (
+                    <span key={l.id} className="type-chip">
+                      <span className="swatch" style={{ background: EDGE_FAMILY_BY_ID[familyOf(l)].color }} />
+                      {roleOfOther(l, node.id)}
+                      {yearRange(l.startYear, l.endYear) && (
+                        <span className="muted"> · {yearRange(l.startYear, l.endYear)}</span>
+                      )}
+                      <span className="muted"> · {Math.round(l.confidence * 100)}%</span>
+                    </span>
+                  ))}
                 </div>
                 {descriptions.map((d, i) => (
                   <p key={i} className="conn-desc">
                     {d}
                   </p>
                 ))}
-                <SourceList sources={l.sources} compact />
+                <SourceList sources={sources} compact />
               </li>
             );
           })}
@@ -200,70 +270,82 @@ function NodePanel({
   );
 }
 
-function LinkPanel({
-  link,
+function PairPanel({
+  links,
   nameOf,
   onSelect,
 }: {
-  link: GraphLink;
+  links: GraphLink[];
   nameOf: (id: string) => string;
   onSelect: (s: Selection) => void;
 }) {
-  const g = EDGE_GROUP_BY_ID[link.group];
+  const [a, b] = [links[0].sourceId, links[0].targetId].sort((x, y) => nameOf(x).localeCompare(nameOf(y)));
   return (
     <div className="panel-body">
       <header className="panel-header">
-        <div className="edge-kind">
-          <span className="swatch" style={{ background: g.color }} /> {g.label}
-        </div>
-        <h2>{describeLink(link, nameOf)}</h2>
-        <div className="edge-people">
-          <button className="link-button" onClick={() => onSelect({ kind: 'node', id: link.sourceId })}>
-            {nameOf(link.sourceId)}
+        <h2>
+          <button className="link-button big" onClick={() => onSelect({ kind: 'node', id: a })}>
+            {nameOf(a)}
           </button>
-          <span className="muted">{link.directed ? ' → ' : ' — '}</span>
-          <button className="link-button" onClick={() => onSelect({ kind: 'node', id: link.targetId })}>
-            {nameOf(link.targetId)}
+          <span className="muted"> &amp; </span>
+          <button className="link-button big" onClick={() => onSelect({ kind: 'node', id: b })}>
+            {nameOf(b)}
           </button>
+        </h2>
+        <div className="muted small">
+          {links.length} kind{links.length === 1 ? '' : 's'} of link
         </div>
       </header>
 
-      <section className="edge-facts">
-        <div>
-          <span className="muted">Dates</span>
-          <div>{yearRange(link.startYear, link.endYear) || 'Not recorded'}</div>
-        </div>
-        <div>
-          <span className="muted">Confidence</span>
-          <Confidence value={link.confidence} />
-        </div>
-      </section>
+      {links.map((link) => {
+        const g = EDGE_GROUP_BY_ID[link.group];
+        const f = EDGE_FAMILY_BY_ID[g.family];
+        return (
+          <section key={link.id} className="pair-link">
+            <div className="edge-kind">
+              <span className="swatch" style={{ background: f.color }} /> {g.label}
+              <span className="muted"> · {f.label}</span>
+            </div>
+            <h3 className="edge-sentence">{describeLink(link, nameOf)}</h3>
+            <div className="edge-facts">
+              <div>
+                <span className="muted">Dates</span>
+                <div>{yearRange(link.startYear, link.endYear) || 'Not recorded'}</div>
+              </div>
+              <div>
+                <span className="muted">Confidence</span>
+                <Confidence value={link.confidence} />
+              </div>
+            </div>
 
-      {link.disagreements.length > 0 && (
-        <section className="conflicts">
-          <h3>Files disagree</h3>
-          <ul>
-            {link.disagreements.map((d, i) => (
-              <li key={i}>{d}</li>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      {link.records.map((r, i) => (
-        <section key={i}>
-          <h3>As recorded in {r.fromName}'s file</h3>
-          {r.connection.description && <p>{r.connection.description}</p>}
-          <div className="conn-meta">
-            <span>Type: {r.type}</span>
-            {yearRange(r.connection.start_year, r.connection.end_year) && (
-              <span>{yearRange(r.connection.start_year, r.connection.end_year)}</span>
+            {link.disagreements.length > 0 && (
+              <div className="conflicts">
+                <h3>Files disagree</h3>
+                <ul>
+                  {link.disagreements.map((d, i) => (
+                    <li key={i}>{d}</li>
+                  ))}
+                </ul>
+              </div>
             )}
-            {typeof r.connection.confidence === 'number' && <Confidence value={r.connection.confidence} />}
-          </div>
-          <SourceList sources={r.connection.sources} />
-        </section>
-      ))}
+
+            {link.records.map((r, i) => (
+              <div key={i} className="record">
+                <h4>As recorded in {r.fromName}'s file</h4>
+                {r.connection.description && <p>{r.connection.description}</p>}
+                <div className="conn-meta">
+                  <span>Type: {r.type}</span>
+                  {yearRange(r.connection.start_year, r.connection.end_year) && (
+                    <span>{yearRange(r.connection.start_year, r.connection.end_year)}</span>
+                  )}
+                  {typeof r.connection.confidence === 'number' && <Confidence value={r.connection.confidence} />}
+                </div>
+                <SourceList sources={r.connection.sources} />
+              </div>
+            ))}
+          </section>
+        );
+      })}
     </div>
   );
 }
@@ -346,4 +428,14 @@ function otherEnd(l: GraphLink, selfId: string): string {
 
 function uniqueDescriptions(l: GraphLink): string[] {
   return [...new Set(l.records.map((r) => r.connection.description?.trim()).filter((d): d is string => !!d))];
+}
+
+function dedupeSources(sources: SourceRef[]): SourceRef[] {
+  const seen = new Set<string>();
+  return sources.filter((s) => {
+    const k = sourceUrl(s);
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
 }
