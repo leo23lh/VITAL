@@ -297,6 +297,18 @@
         { "url": "https://www.nbcnews.com/politics/politics-news/stephen-miller-planted-anti-rubio-stories-breitbart-during-2016-campaign-n1085451", "title": "Stephen Miller planted anti-Rubio stories in Breitbart during 2016 campaign — NBC News" },
         { "url": "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)", "title": "Stephen Miller (political advisor) — Wikipedia" }
       ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "colleague",
+      "description": "Senior White House colleagues since January 2025; when Trump named Miller chief of staff in November 2026, Vance called him \"an amazing patriot\" who \"will do great things\".",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.breitbart.com/immigration/2026/11/06/vance-immigration-hawks-applaud-stephen-millers-promotion-to-white-house-house-chief-of-staff/", "title": "JD Vance, immigration hawks applaud Stephen Miller's promotion to WH chief of staff — Breitbart" }
+      ]
     }
   ],
   "source_conflicts": [

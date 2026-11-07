@@ -1,0 +1,153 @@
+{
+  "name": "Dario Amodei",
+  "aliases": [],
+  "public_figure": true,
+  "current_role": "Co-founder and CEO of Anthropic",
+  "summary": "Dario Amodei, a Princeton-trained biophysicist, worked at Baidu and Google Brain and was OpenAI's vice president of research before leaving to co-found Anthropic with his sister Daniela and other former OpenAI staff in 2021. In 2025 Trump's AI czar David Sacks accused Anthropic of \"regulatory capture\"; in February 2026, after Anthropic refused to drop limits on military uses such as mass surveillance and autonomous weapons, Trump ordered agencies to stop using its technology and the Pentagon labeled it a supply-chain risk, which Anthropic is challenging in court.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" },
+    { "url": "https://pbs.org/newshour/politics/trump-orders-federal-agencies-to-stop-using-anthropic-tech-over-ai-safety-dispute", "title": "Trump orders federal agencies to stop using Anthropic tech over AI safety dispute — PBS NewsHour" },
+    { "url": "https://www.npr.org/2026/03/09/nx-s1-5742548/anthropic-pentagon-lawsuit-amodai-hegseth", "title": "Anthropic sues the Trump administration over 'supply chain risk' label — NPR" }
+  ],
+  "timeline": [
+    {
+      "year": 2014,
+      "end_year": 2015,
+      "role": "Researcher",
+      "org": "Baidu",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": 2016,
+      "role": "Researcher",
+      "org": "Google Brain",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2016,
+      "end_year": 2020,
+      "role": "Researcher, later vice president of research",
+      "org": "OpenAI",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": null,
+      "role": "Co-founder and chief executive officer",
+      "org": "Anthropic",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anthropic", "title": "Anthropic — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2026,
+      "role": "Sued the Trump administration over the Pentagon's supply-chain-risk designation of Anthropic",
+      "org": "Anthropic",
+      "sources": [
+        { "url": "https://www.npr.org/2026/03/09/nx-s1-5742548/anthropic-pentagon-lawsuit-amodai-hegseth", "title": "Anthropic sues the Trump administration over 'supply chain risk' label — NPR" },
+        { "url": "https://www.cnbc.com/2026/03/05/anthropic-ceo-says-no-choice-but-to-challenge-trump-admins-supply-chain-risk-designation-in-court.html", "title": "Anthropic CEO says 'no choice' but to challenge supply chain risk designation in court — CNBC" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Anthropic",
+      "role": "Co-founder and CEO",
+      "start_year": 2021,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anthropic", "title": "Anthropic — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "rival",
+      "description": "Amodei worked at OpenAI from 2016, rising to vice president of research, then left with others over directional differences to found Anthropic in 2021. The two companies are now direct competitors: in February 2026 Altman called Anthropic's Super Bowl ads \"clearly dishonest\" and the company \"authoritarian\".",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" },
+        { "url": "https://fortune.com/2026/02/09/super-bowl-ads-anthropic-openai-rivalry-trash-talk-ai-agent-war/", "title": "Super Bowl ads and the Anthropic–OpenAI rivalry — Fortune" },
+        { "url": "https://campustechnology.com/articles/2026/02/10/anthropic-criticizes-openai-ad-strategy.aspx", "title": "Anthropic Criticizes OpenAI Ad Strategy — Campus Technology" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "On February 27, 2026 Trump ordered every federal agency to stop using Anthropic's technology, calling it a \"radical Left AI company\", after Anthropic refused to lift limits on uses such as mass surveillance of Americans and autonomous weapons. Amodei challenged the resulting Pentagon designation in court and apologized for a leaked internal memo criticizing the administration.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://pbs.org/newshour/politics/trump-orders-federal-agencies-to-stop-using-anthropic-tech-over-ai-safety-dispute", "title": "Trump orders federal agencies to stop using Anthropic tech over AI safety dispute — PBS NewsHour" },
+        { "url": "https://www.aljazeera.com/news/2026/2/27/trump-orders-federal-agencies-to-stop-using-anthropic-as-dispute-escalates", "title": "Trump orders federal agencies to stop using Anthropic as dispute escalates — Al Jazeera" },
+        { "url": "https://www.axios.com/2026/03/06/pentagon-anthropic-amodei-apology", "title": "Scoop: Anthropic CEO apologizes for leaked memo criticizing Trump — Axios" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "rival",
+      "description": "In October 2025 Sacks, then Trump's AI czar, accused Anthropic of a \"sophisticated regulatory capture strategy based on fear-mongering\"; Amodei answered with a statement correcting what he called inaccurate claims about Anthropic's policy positions.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2025/10/16/anthropic-david-sacks-ai-white-house", "title": "New AI battle: White House vs. Anthropic — Axios" },
+        { "url": "https://www.nextgov.com/artificial-intelligence/2025/10/anthropic-ceo-defends-support-ai-regulations-alignment-trump-policies/408959", "title": "Anthropic CEO defends support for AI regulations, alignment with Trump policies — Nextgov" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "rival",
+      "description": "Defense Secretary Hegseth designated Anthropic a supply-chain risk to national security in February–March 2026; Anthropic sued, and Amodei said the ban was narrower than Hegseth had threatened.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk", "title": "Pentagon labels AI company Anthropic a supply chain risk — NPR" },
+        { "url": "https://www.npr.org/2026/03/09/nx-s1-5742548/anthropic-pentagon-lawsuit-amodai-hegseth", "title": "Anthropic sues the Trump administration over 'supply chain risk' label — NPR" },
+        { "url": "https://www.cnbc.com/2026/03/05/anthropic-ceo-says-no-choice-but-to-challenge-trump-admins-supply-chain-risk-designation-in-court.html", "title": "Anthropic CEO says 'no choice' but to challenge supply chain risk designation in court — CNBC" }
+      ]
+    },
+    {
+      "name": "Daniela Amodei",
+      "slug": "daniela-amodei",
+      "relationship_type": "family",
+      "description": "Sister; co-founded Anthropic with him in 2021 and is its president. Both previously worked at OpenAI.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Daniela_Amodei", "title": "Daniela Amodei — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Anthropic", "title": "Anthropic — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "When Amodei left OpenAI",
+      "details": "Daniela Amodei's Wikipedia article says the siblings left in 2020; the OpenAI article describes departures between December 2020 and January 2021.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Daniela_Amodei", "title": "Daniela Amodei — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Sources disagree on how many OpenAI staff left to found Anthropic (seven to eleven or more); the count is not recorded.",
+  "last_researched": "2026-11-07"
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Alexandr Wang",
+  "aliases": ["Alex Wang"],
+  "public_figure": true,
+  "current_role": "Chief AI Officer of Meta and head of Meta Superintelligence Labs (since June 2025)",
+  "summary": "Alexandr Wang left MIT to co-found the AI data company Scale AI in 2016, becoming the world's youngest self-made billionaire; Scale sold data-labeling services widely, including to the U.S. military. In January 2025 he ran a full-page open letter urging Trump to \"win the AI war\" with China. In June 2025 Meta bought 49% of Scale for about $14.3 billion and made Wang its first chief AI officer.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Alexandr_Wang", "title": "Alexandr Wang — Wikipedia" },
+    { "url": "https://fortune.com/2025/06/30/mark-zuckerberg-overhauled-meta-ai-org-superintelligence-alexandr-wang/", "title": "Mark Zuckerberg overhauled Meta's AI org around superintelligence and Alexandr Wang — Fortune" },
+    { "url": "https://techcrunch.com/2025/01/21/scale-ais-alexandr-wang-has-published-an-open-letter-lobbying-trump-to-invest-in-ai/", "title": "Scale AI's Alexandr Wang has published an open letter lobbying Trump to invest in AI — TechCrunch" }
+  ],
+  "timeline": [
+    {
+      "year": 2016,
+      "end_year": 2025,
+      "role": "Co-founder and CEO",
+      "org": "Scale AI",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alexandr_Wang", "title": "Alexandr Wang — Wikipedia" },
+        { "url": "https://www.theweek.co.uk/news/technology/961534/alexandr-wang-profile", "title": "Alexandr Wang: the world's youngest self-made billionaire — The Week" }
+      ]
+    },
+    {
+      "year": 2025,
+      "role": "Published \"Dear President Trump, America must win the AI war\" as a full-page Washington Post ad",
+      "org": "Scale AI",
+      "sources": [
+        { "url": "https://techcrunch.com/2025/01/21/scale-ais-alexandr-wang-has-published-an-open-letter-lobbying-trump-to-invest-in-ai/", "title": "Scale AI's Alexandr Wang has published an open letter lobbying Trump to invest in AI — TechCrunch" },
+        { "url": "https://www.semafor.com/article/01/20/2025/scale-ai-ceo-alexandr-wang-to-trump-america-must-win-the-ai-war", "title": "Scale AI CEO to Trump: 'America must win the AI war' — Semafor" },
+        { "url": "https://scale.com/blog/win-the-ai-war", "title": "Win the AI war — Scale AI" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Chief AI Officer; head of Meta Superintelligence Labs",
+      "org": "Meta Platforms",
+      "sources": [
+        { "url": "https://fortune.com/2025/06/30/mark-zuckerberg-overhauled-meta-ai-org-superintelligence-alexandr-wang/", "title": "Mark Zuckerberg overhauled Meta's AI org around superintelligence and Alexandr Wang — Fortune" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Scale AI",
+      "role": "Co-founder; former CEO",
+      "start_year": 2016,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alexandr_Wang", "title": "Alexandr Wang — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Meta Platforms",
+      "role": "Chief AI Officer",
+      "start_year": 2025,
+      "sources": [
+        { "url": "https://fortune.com/2025/06/30/mark-zuckerberg-overhauled-meta-ai-org-superintelligence-alexandr-wang/", "title": "Mark Zuckerberg overhauled Meta's AI org around superintelligence and Alexandr Wang — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Mark Zuckerberg",
+      "slug": "mark-zuckerberg",
+      "relationship_type": "employer",
+      "description": "Zuckerberg recruited Wang in June 2025, when Meta bought 49% of Scale AI for about $14.3 billion; Wang leads Meta Superintelligence Labs, which reports directly to Zuckerberg.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://fortune.com/2025/06/30/mark-zuckerberg-overhauled-meta-ai-org-superintelligence-alexandr-wang/", "title": "Mark Zuckerberg overhauled Meta's AI org around superintelligence and Alexandr Wang — Fortune" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Wang attended Trump's January 2025 inauguration and the next day ran a full-page open letter urging Trump to take five steps in his first 100 days to \"win the AI war\" with China. This is advocacy; no donation or formal role was found.",
+      "start_year": 2025,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://techcrunch.com/2025/01/21/scale-ais-alexandr-wang-has-published-an-open-letter-lobbying-trump-to-invest-in-ai/", "title": "Scale AI's Alexandr Wang has published an open letter lobbying Trump to invest in AI — TechCrunch" },
+        { "url": "https://www.semafor.com/article/01/20/2025/scale-ai-ceo-alexandr-wang-to-trump-america-must-win-the-ai-war", "title": "Scale AI CEO to Trump: 'America must win the AI war' — Semafor" }
+      ]
+    },
+    {
+      "name": "Lucy Guo",
+      "slug": "lucy-guo",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Scale AI in 2016; Guo left in 2018 over differences in vision.",
+      "start_year": 2016,
+      "end_year": 2018,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alexandr_Wang", "title": "Alexandr Wang — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Wang's standing at Meta in 2026",
+      "details": "A single May 2026 report said Zuckerberg had quietly reduced Wang's authority by creating a parallel AI engineering group; Meta rejected the claim. Not otherwise confirmed.",
+      "sources": [
+        { "url": "https://jbiznews.com/?p=384203", "title": "Meet Alexandr Wang, Mark Zuckerberg's Right-Hand Man — JBizNews" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Scale AI was reported in December 2024 to be in talks to join the Palantir–Anduril defense consortium; not recorded as a personal link. A reported past friendship with Sam Altman could not be confirmed.",
+  "last_researched": "2026-11-07"
+}

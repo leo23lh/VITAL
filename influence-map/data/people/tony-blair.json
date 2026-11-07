@@ -1,0 +1,168 @@
+{
+  "name": "Tony Blair",
+  "aliases": ["Anthony Charles Lynton Blair", "Sir Tony Blair"],
+  "public_figure": true,
+  "current_role": "Executive chairman of the Tony Blair Institute for Global Change; member of the Executive Board of Trump's Board of Peace for Gaza (since January 2026)",
+  "summary": "Tony Blair led the Labour Party from 1994 and was UK prime minister from 1997 to 2007, then served as the Middle East Quartet's envoy until 2015. His Tony Blair Institute for Global Change, founded in 2016, advises governments on technology and AI and has been funded heavily by Larry Ellison's foundation. In January 2026 the White House named him to the founding Executive Board of Trump's Board of Peace overseeing postwar Gaza.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Tony_Blair", "title": "Tony Blair — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Tony_Blair_Institute_for_Global_Change", "title": "Tony Blair Institute for Global Change — Wikipedia" },
+    { "url": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/", "title": "Statement on President Trump's Comprehensive Plan to End the Gaza Conflict — The White House" }
+  ],
+  "timeline": [
+    {
+      "year": 1994,
+      "end_year": 2007,
+      "role": "Leader",
+      "org": "Labour Party",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tony_Blair", "title": "Tony Blair — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1997,
+      "end_year": 2007,
+      "role": "Prime Minister of the United Kingdom",
+      "org": "UK Government",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tony_Blair", "title": "Tony Blair — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2007,
+      "end_year": 2015,
+      "role": "Special envoy (Quartet representative)",
+      "org": "Middle East Quartet (UN, US, EU, Russia)",
+      "sources": [
+        { "url": "https://www.aljazeera.com/amp/news/2015/5/28/tony-blair-to-step-down-as-middle-east-envoy", "title": "Tony Blair to step down as Middle East envoy — Al Jazeera" },
+        { "url": "https://news.un.org/en/node/499992", "title": "Middle East Quartet representative Tony Blair is stepping down — UN News" }
+      ]
+    },
+    {
+      "year": 2016,
+      "end_year": null,
+      "role": "Founder and executive chairman",
+      "org": "Tony Blair Institute for Global Change",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tony_Blair_Institute_for_Global_Change", "title": "Tony Blair Institute for Global Change — Wikipedia" },
+        { "url": "https://find-and-update.company-information.service.gov.uk/company/10505963", "title": "TONY BLAIR INSTITUTE — Companies House (GOV.UK)" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Member of the founding Executive Board and of the Gaza Executive Board",
+      "org": "Board of Peace (chaired by Donald Trump)",
+      "sources": [
+        { "url": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/", "title": "Statement on President Trump's Comprehensive Plan to End the Gaza Conflict — The White House" },
+        { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" },
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Tony Blair Institute for Global Change",
+      "role": "Founder and executive chairman",
+      "start_year": 2016,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tony_Blair_Institute_for_Global_Change", "title": "Tony Blair Institute for Global Change — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Board of Peace",
+      "role": "Executive Board member",
+      "start_year": 2026,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/", "title": "Statement on President Trump's Comprehensive Plan to End the Gaza Conflict — The White House" },
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "donor",
+      "description": "Through the Larry Ellison Foundation, Ellison is the Tony Blair Institute's largest known funder: Lighthouse Reports counts $130 million given from 2021 to 2023 and $218 million more pledged. Totals differ between outlets (see Sources disagree). Lighthouse alleges the money turned the institute toward promoting Oracle's technology; that is one investigation's finding.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.lighthousereports.com/investigation/blair-and-the-billionaire/", "title": "Blair and the Billionaire — Lighthouse Reports" },
+        { "url": "https://en.wikipedia.org/wiki/Tony_Blair_Institute_for_Global_Change", "title": "Tony Blair Institute for Global Change — Wikipedia" },
+        { "url": "https://www.newstatesman.com/podcasts/2025/09/who-does-the-tony-blair-institute-really-work-for-2", "title": "Who does the Tony Blair Institute really work for? — New Statesman" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "In January 2026 the White House named Blair to the founding Executive Board of the Board of Peace, which Trump chairs, to oversee Gaza's transition and reconstruction under Trump's plan; Blair said he was \"honoured\". Israel's government objected that the Gaza board was not coordinated with it.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/", "title": "Statement on President Trump's Comprehensive Plan to End the Gaza Conflict — The White House" },
+        { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" },
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "colleague",
+      "description": "Both sit on the founding Executive Board of Trump's Board of Peace, named in January 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/", "title": "Statement on President Trump's Comprehensive Plan to End the Gaza Conflict — The White House" },
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" },
+        { "url": "https://www.cbsnews.com/news/tony-blair-rubio-kushner-witkoff-help-oversee-gaza-reconstruction", "title": "Tony Blair, Rubio, Kushner and Witkoff to help oversee Gaza reconstruction — CBS News" }
+      ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "colleague",
+      "description": "Both sit on the Board of Peace's founding Executive Board and its Gaza Executive Board, named in January 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" },
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" }
+      ]
+    },
+    {
+      "name": "Steve Witkoff",
+      "slug": "steve-witkoff",
+      "relationship_type": "colleague",
+      "description": "Both sit on the Board of Peace's founding Executive Board and its Gaza Executive Board, named in January 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" },
+        { "url": "https://www.cbsnews.com/news/tony-blair-rubio-kushner-witkoff-help-oversee-gaza-reconstruction", "title": "Tony Blair, Rubio, Kushner and Witkoff to help oversee Gaza reconstruction — CBS News" }
+      ]
+    },
+    {
+      "name": "George W. Bush",
+      "slug": "george-w-bush",
+      "relationship_type": "ally",
+      "description": "Blair was Bush's principal ally in the 2003 invasion of Iraq, and was appointed Quartet envoy in 2007 at the Bush administration's request.",
+      "start_year": 2001,
+      "end_year": 2007,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tony_Blair", "title": "Tony Blair — Wikipedia" },
+        { "url": "https://www.aljazeera.com/amp/news/2015/5/28/tony-blair-to-step-down-as-middle-east-envoy", "title": "Tony Blair to step down as Middle East envoy — Al Jazeera" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. The Ellison record mirrors the one in Ellison's file. Claims that Blair is a mentor to Musk or partner of Altman come from a single secondary account and are not recorded.",
+  "last_researched": "2026-11-07"
+}

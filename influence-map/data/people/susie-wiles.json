@@ -162,6 +162,19 @@
         { "url": "https://www.foxnews.com/sports/trump-chief-staff-susie-wiles-once-helped-nfl-broadcast-legend-father-pat-summerall-beat-alcoholism", "title": "Trump chief of staff Susie Wiles and her father, NFL broadcast legend Pat Summerall — Fox News" },
         { "url": "https://www.cbsnews.com/news/trump-susie-wiles-chief-of-staff/", "title": "What to know about Susie Wiles, Donald Trump's White House chief of staff — CBS News" }
       ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "colleague",
+      "description": "Worked together in the White House while Wiles was chief of staff (January 2025–November 2026); the two were reported to have jointly urged Musk to repair his relationship with Trump in 2025.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=3439357", "title": "Vance and Wiles emerge as key figures in arranging Trump-Musk thaw-out — Washington Examiner" },
+        { "url": "https://www.breitbart.com/immigration/2026/11/06/vance-immigration-hawks-applaud-stephen-millers-promotion-to-white-house-house-chief-of-staff/", "title": "JD Vance, immigration hawks applaud Stephen Miller's promotion to WH chief of staff — Breitbart" }
+      ]
     }
   ],
   "source_conflicts": [],

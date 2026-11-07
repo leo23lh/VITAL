@@ -1,0 +1,149 @@
+{
+  "name": "Alex Karp",
+  "aliases": ["Alexander Karp", "Alexander C. Karp"],
+  "public_figure": true,
+  "current_role": "Co-founder and CEO of Palantir Technologies",
+  "summary": "Alex Karp co-founded the data-analytics and defense software company Palantir with Peter Thiel and others and has been its CEO since the company's early years. Raised in a left-leaning household and once a Trump critic, he gave $1 million to Trump's 2025 inaugural committee and has publicly praised Trump's border and national-security policies while Palantir's U.S. government business, including immigration-enforcement work for ICE, has grown sharply.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" },
+    { "url": "https://www.inquirer.com/politics/nation/palantir-ceo-alex-karp-trump-administration-20251216.html", "title": "Palantir CEO Alex Karp and the Trump administration — Philadelphia Inquirer" },
+    { "url": "https://www.thestar.com.my/tech/tech-news/2026/02/03/palantir-ceo-defends-surveillance-tech-as-us-government-contracts-boost-sales", "title": "Palantir CEO defends surveillance tech as US government contracts boost sales — Reuters via The Star" }
+  ],
+  "timeline": [
+    {
+      "year": 1989,
+      "role": "BA in philosophy",
+      "org": "Haverford College",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1992,
+      "role": "JD",
+      "org": "Stanford Law School",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2002,
+      "role": "PhD in neoclassical social theory",
+      "org": "Goethe University Frankfurt",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2004,
+      "end_year": null,
+      "role": "Co-founder and chief executive officer (company incorporated 2003)",
+      "org": "Palantir Technologies",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Palantir Technologies",
+      "role": "Co-founder and CEO",
+      "start_year": 2004,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir in 2003; Karp has been CEO since 2005 and Thiel chairman since 2003.",
+      "start_year": 2003,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Once critical of Trump, Karp wrote a $1 million check to the Trump-Vance Inaugural Committee and has since praised Trump on border and national security, calling him \"a peace president\" and backing strikes on suspected drug boats. Palantir's U.S. government revenue rose sharply under the administration, including a 2025 ICE contract.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.inquirer.com/politics/nation/palantir-ceo-alex-karp-trump-administration-20251216.html", "title": "Palantir CEO Alex Karp and the Trump administration — Philadelphia Inquirer" },
+        { "url": "https://www.foxbusiness.com/media/palantir-ceo-claims-company-first-completely-anti-woke-backs-trump-admins-bombing-drug-boats", "title": "Palantir CEO claims company is first to be 'completely anti-woke,' backs Trump admin's bombing of drug boats — Fox Business" },
+        { "url": "https://www.thestar.com.my/tech/tech-news/2026/02/03/palantir-ceo-defends-surveillance-tech-as-us-government-contracts-boost-sales", "title": "Palantir CEO defends surveillance tech as US government contracts boost sales — Reuters via The Star" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "ally",
+      "description": "In December 2024 Palantir and Luckey's Anduril were reported (by the Financial Times) to be forming a consortium with other tech firms to bid jointly for U.S. defense contracts.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/2024/12/23/palantir-anduril-spacex-openai-could-partner-to-bid-for-u-s-defense-contracts/", "title": "Palantir, Anduril, SpaceX and OpenAI could partner to bid for U.S. defense contracts — Fortune" },
+        { "url": "https://siliconangle.com/2024/12/22/report-palantir-anduril-join-forces-try-secure-u-s-government-defense-contracts/", "title": "Report: Palantir and Anduril join forces to try to secure U.S. government defense contracts — SiliconANGLE" }
+      ]
+    },
+    {
+      "name": "Brian Schimpf",
+      "slug": "brian-schimpf",
+      "relationship_type": "employee",
+      "description": "Schimpf worked at Palantir from 2007, ending as a director of engineering, before leaving in 2017 to co-found Anduril. Karp was Palantir's CEO throughout; no source describes them working together directly.",
+      "start_year": 2007,
+      "end_year": 2017,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://news.cornell.edu/index%2Ephp/node/331982", "title": "Brian Schimpf '07 and Anduril — Cornell Chronicle" },
+        { "url": "https://businessinsider.in/tech/news/the-left-leaning-cofounder-of-a-1-billion-defense-startup-building-drone-destroyers-and-a-virtual-border-wall-says-if-they-dont-do-the-work-the-united-states-military-loses/articleshow/71775020.cms", "title": "The left-leaning cofounder of a $1 billion defense startup — Business Insider" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir together in 2003–2004 with Peter Thiel, Stephen Cohen and Nathan Gettings.",
+      "start_year": 2003,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Stephen Cohen",
+      "slug": "stephen-cohen",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir together; Cohen remains the company's president.",
+      "start_year": 2003,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "When Karp became Palantir's CEO",
+      "details": "Wikipedia's Karp article says he co-founded Palantir and became CEO in 2004; other accounts say Thiel hired him as CEO in 2003, the year the company was incorporated; this map's Peter Thiel file says CEO since 2005.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. No documented personal link found to Musk, Altman, Amodei, Vance, Miller or the other PayPal co-founders beyond Thiel.",
+  "last_researched": "2026-11-07"
+}

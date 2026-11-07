@@ -321,6 +321,44 @@
         { "url": "https://prnewswire.com/news-releases/peter-thiel-to-retire-from-meta-board-of-directors-at-2022-annual-shareholder-meeting-301476881.html", "title": "Peter Thiel to Retire from Meta Board of Directors at 2022 Annual Shareholder Meeting — PR Newswire" },
         { "url": "https://csmonitor.com/Technology/2016/0621/Why-Facebook-s-board-members-are-no-strangers-to-controversy", "title": "Why Facebook's board members are no strangers to controversy — Christian Science Monitor" }
       ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "ally",
+      "description": "Thiel's Founders Fund, an early Oculus investor, seeded Anduril in 2017, led its 2018 Series A and put $1 billion, its largest-ever check, into the 2025 round that valued Anduril at $30.5 billion. Luckey met co-founder Trae Stephens at a Founders Fund retreat in 2014.",
+      "start_year": 2014,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2025/06/05/anduril-palmer-luckey-funding-30-billion-valuation-founders-fund/", "title": "Anduril raises at $30.5 billion valuation, led by Founders Fund — Fortune" },
+        { "url": "https://www.ocbj.com/oc-homepage/palmer-luckey-teams-with-peter-thiel-for-latest-anduril-push-forward/", "title": "Palmer Luckey teams with Peter Thiel for latest Anduril push forward — Orange County Business Journal" },
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "protégé",
+      "description": "Thiel is widely described as Altman's longtime mentor and was the main backer of Altman's first venture fund, Hydrazine Capital; Altman reportedly sought Thiel's advice weeks before his 2023 ouster.",
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://the-decoder.com/peter-thiel-reportedly-warned-sam-altman-about-ai-safety-conflicts-shortly-before-the-openai-crisis/", "title": "Peter Thiel reportedly warned Sam Altman about AI safety conflicts shortly before the OpenAI crisis — The Decoder" },
+        { "url": "https://www.adn.com/nation-world/2023/12/24/king-of-the-cannibals-how-sam-altman-took-over-silicon-valley/", "title": "'King of the cannibals': How Sam Altman took over Silicon Valley — The Washington Post via Anchorage Daily News" }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "funded_by",
+      "description": "Thiel was among the founding funders of the nonprofit OpenAI in December 2015, whose backers jointly pledged $1 billion (far less was ultimately paid in).",
+      "start_year": 2015,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

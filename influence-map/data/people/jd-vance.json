@@ -1,0 +1,190 @@
+{
+  "name": "JD Vance",
+  "aliases": ["James David Vance", "J. D. Vance", "James Donald Bowman"],
+  "public_figure": true,
+  "current_role": "50th Vice President of the United States (since January 20, 2025)",
+  "summary": "JD Vance, a Marine veteran and Yale Law graduate, became known for his 2016 memoir Hillbilly Elegy, worked for Peter Thiel's Mithril Capital, and won Ohio's Senate seat in 2022 with $15 million in super PAC backing from Thiel. Trump chose him as his 2024 running mate; he took office as vice president in January 2025. Rubio has said he would back Vance for the 2028 nomination, though the Republicans' November 2026 midterm losses raised doubts about his standing.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" },
+    { "url": "https://www.whitehouse.gov/administration/jd-vance/", "title": "Vice President JD Vance — The White House" },
+    { "url": "https://politicalwire.com/2025/11/07/marco-rubio-would-defer-to-jd-vance-in-2028/", "title": "Marco Rubio would defer to JD Vance in 2028 — Political Wire (Politico)" }
+  ],
+  "timeline": [
+    {
+      "year": 2016,
+      "role": "Published the memoir Hillbilly Elegy",
+      "org": "Author",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillbilly_Elegy", "title": "Hillbilly Elegy — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2016,
+      "role": "Worked at Peter Thiel's venture firm after a brief stint in corporate law",
+      "org": "Mithril Capital",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": 2025,
+      "role": "U.S. Senator from Ohio",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Vice President of the United States",
+      "org": "Trump administration",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" },
+        { "url": "https://www.whitehouse.gov/administration/jd-vance/", "title": "Vice President JD Vance — The White House" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Republican Party",
+      "role": "Member; 2024 vice-presidential nominee",
+      "start_year": 2024,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "Thiel gave $15 million to Protect Ohio Values, a super PAC backing Vance in the 2022 Ohio Senate primary, but did not fund him in the general election.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cnbc.com/2022/10/03/peter-thiel-signals-he-is-done-helping-jd-vance-will-fundraise-for-blake-masters.html", "title": "GOP megadonor Peter Thiel signals he is done helping Ohio Senate hopeful J.D. Vance — CNBC" },
+        { "url": "https://www.cnbc.com/2022/11/12/midterm-results-peter-thiel-picks-masters-vance-see-mixed-results-in-arizona-ohio.html", "title": "Peter Thiel's picks Masters, Vance split key Senate races — CNBC" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "mentor",
+      "description": "Vance worked at Mithril Capital, a firm Thiel co-founded, and is widely described as Thiel's protégé; Thiel introduced him to Trump in 2021.",
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2024/07/17/g-s1-11654/five-things-to-know-about-jd-vances-connections-to-tech-billionaires", "title": "Five things to know about J.D. Vance's ties to tech billionaires — NPR" },
+        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "A former Trump critic turned loyal ally, Vance was chosen as Trump's running mate on July 15, 2024 and became vice president in January 2025.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/trump-picks-sen-jd-vance-of-ohio-as-his-republican-running-mate", "title": "Trump picks Sen. JD Vance of Ohio, a critic turned loyal ally, as his Republican running mate — PBS NewsHour" },
+        { "url": "https://www.npr.org/2024/07/15/nx-s1-5040482/former-president-trump-has-chosen-ohio-sen-j-d-vance-as-his-running-mate", "title": "Former President Trump has chosen Ohio Sen. J.D. Vance as his running mate — NPR" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "ally",
+      "description": "Vance introduced Sacks to Donald Trump Jr. in March 2024, and Sacks credited Vance with making his June 2024 Trump fundraiser happen; Vance later appeared at Sacks's All-In AI event in 2025.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2024/05/24/trump-jd-vance-tech-fundraiser-david-sacks", "title": "Scoop: J.D. Vance courts Silicon Valley for Trump — Axios" },
+        { "url": "https://fortune.com/2025/07/23/all-in-podcast-trump-ai-action-plan-david-sacks-jd-vance-jensen-huang/", "title": "Silicon Valley's elite descend on D.C. to celebrate Trump's AI Action Plan — Fortune" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "ally",
+      "description": "Vance and Musk had a good relationship and spoke regularly even before Vance became Trump's running mate. During the June 2025 Trump–Musk feud Vance called Musk's attacks a \"huge mistake\" but hoped he would return to the fold, and with Susie Wiles he helped broker a thaw.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2025/06/07/trump-encouraged-vance-to-respond-diplomatically-when-asked-about-musk-heres-how-it-played-in-real-time/", "title": "Trump encouraged Vance to respond diplomatically when asked about Musk — CNN via ABC17" },
+        { "url": "https://www.pbs.org/newshour/politics/vance-says-musk-making-a-huge-mistake-for-attacking-trump-on-social-media", "title": "Vance says Musk making a 'huge mistake' for attacking Trump on social media — PBS NewsHour" },
+        { "url": "https://www.washingtonexaminer.com/?p=3439357", "title": "Vance and Wiles emerge as key figures in arranging Trump-Musk thaw-out — Washington Examiner" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "ally",
+      "description": "Rubio has said that if Vance runs in 2028 \"he's going to be our nominee, and I'll be one of the first people to support him\", and Trump has floated a Vance–Rubio ticket. After the November 2026 midterm losses Newt Gingrich argued momentum was shifting toward Rubio.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://politicalwire.com/2025/11/07/marco-rubio-would-defer-to-jd-vance-in-2028/", "title": "Marco Rubio would defer to JD Vance in 2028 — Political Wire (Politico)" },
+        { "url": "https://gvwire.com/2026/06/03/trump-floats-a-vance-rubio-ticket-for-2028/", "title": "Trump floats a Vance-Rubio ticket for 2028 — GV Wire" },
+        { "url": "https://thehill.com/homenews/campaign/6200720-newt-gingrich-jd-vance-gop-election-defeat/", "title": "Newt Gingrich says JD Vance no longer leads 2028 GOP primary field — The Hill" }
+      ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "colleague",
+      "description": "Senior White House colleagues since January 2025; when Trump named Miller chief of staff in November 2026, Vance called him \"an amazing patriot\" who \"will do great things\".",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.breitbart.com/immigration/2026/11/06/vance-immigration-hawks-applaud-stephen-millers-promotion-to-white-house-house-chief-of-staff/", "title": "JD Vance, immigration hawks applaud Stephen Miller's promotion to WH chief of staff — Breitbart" }
+      ]
+    },
+    {
+      "name": "Susie Wiles",
+      "slug": "susie-wiles",
+      "relationship_type": "colleague",
+      "description": "Worked together in the White House while Wiles was chief of staff (January 2025–November 2026); the two were reported to have jointly urged Musk to repair his relationship with Trump in 2025.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=3439357", "title": "Vance and Wiles emerge as key figures in arranging Trump-Musk thaw-out — Washington Examiner" },
+        { "url": "https://www.breitbart.com/immigration/2026/11/06/vance-immigration-hawks-applaud-stephen-millers-promotion-to-white-house-house-chief-of-staff/", "title": "JD Vance, immigration hawks applaud Stephen Miller's promotion to WH chief of staff — Breitbart" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "ally",
+      "description": "Vance invested in Anduril's first venture round while at Steve Case's firm Revolution, per Bloomberg. That investment is the only documented tie; no source describes a personal relationship.",
+      "start_year": 2017,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://fortune.com/2024/11/16/anduril-chairman-trae-stephens-donald-trump-us-military-reform-defense-spending/", "title": "Anduril chairman Trae Stephens on Trump and military reform — Fortune (Bloomberg)" }
+      ]
+    },
+    {
+      "name": "Usha Vance",
+      "slug": "usha-vance",
+      "relationship_type": "family",
+      "description": "Wife, whom he met at Yale Law School; a litigator who clerked for Brett Kavanaugh and Chief Justice John Roberts, and since 2025 the second lady.",
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/administration/usha-vance/", "title": "Second Lady Usha Vance — The White House" },
+        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Records for Thiel, Trump and Sacks mirror the records already in their files.",
+  "last_researched": "2026-11-07"
+}

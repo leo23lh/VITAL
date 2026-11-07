@@ -535,6 +535,100 @@
         { "url": "https://www.timesofisrael.com/liveblog_entry/hailing-adelson-and-her-60-billion-in-the-bank-trump-quips-that-she-likes-israel-more-than-us/", "title": "Hailing Adelson and her '$60 billion in the bank,' Trump quips that she likes Israel more than US — Times of Israel" },
         { "url": "https://www.nbcdfw.com/news/sports/dallas-mavericks/dallas-mavericks-owner-miriam-adelson-urges-trump-to-run-for-third-term/3958248/", "title": "Dallas Mavericks owner Miriam Adelson urges Trump to run for third term — NBC DFW" }
       ]
+    },
+    {
+      "name": "Alex Karp",
+      "slug": "alex-karp",
+      "relationship_type": "donor",
+      "description": "Once critical of Trump, Karp wrote a $1 million check to the Trump-Vance Inaugural Committee and has since praised Trump on border and national security, calling him \"a peace president\" and backing strikes on suspected drug boats. Palantir's U.S. government revenue rose sharply under the administration, including a 2025 ICE contract.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.inquirer.com/politics/nation/palantir-ceo-alex-karp-trump-administration-20251216.html", "title": "Palantir CEO Alex Karp and the Trump administration — Philadelphia Inquirer" },
+        { "url": "https://www.foxbusiness.com/media/palantir-ceo-claims-company-first-completely-anti-woke-backs-trump-admins-bombing-drug-boats", "title": "Palantir CEO claims company is first to be 'completely anti-woke,' backs Trump admin's bombing of drug boats — Fox Business" },
+        { "url": "https://www.thestar.com.my/tech/tech-news/2026/02/03/palantir-ceo-defends-surveillance-tech-as-us-government-contracts-boost-sales", "title": "Palantir CEO defends surveillance tech as US government contracts boost sales — Reuters via The Star" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "donor",
+      "description": "In 2016 Luckey gave $10,000 to Nimble America, a pro-Trump group, which led to his exit from Facebook in 2017; Fortune later reported further Trump contributions. He has hosted Trump fundraisers and says he has been on \"the tech-for-Trump train\" longer than almost anyone.",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2016/09/23/palmer-luckey-trump/", "title": "Oculus founder Palmer Luckey funded pro-Trump group — Fortune" },
+        { "url": "https://fortune.com/2017/04/23/palmer-luckey-trump-contributions/", "title": "Palmer Luckey's Trump contributions — Fortune" },
+        { "url": "https://m.washingtontimes.com/news/2025/oct/9/charismatic-defense-tech-leader-says-silicon-valley-warming-trump/", "title": "Charismatic defense tech leader says Silicon Valley warming to Trump — The Washington Times" }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "donor",
+      "description": "Altman personally gave $1 million to Trump's 2025 inaugural fund, saying Trump \"will lead our country into the age of AI\".",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.npr.org/2024/12/13/nx-s1-5227874/trump-bezos-zuckerberg-amazon-facebook-open-ai-meta-inauguration-fund", "title": "Tech moguls Altman, Bezos and Zuckerberg donate to Trump's inauguration fund — NPR" }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "ally",
+      "description": "Altman stood with Trump at the White House on January 21, 2025 to launch the $500 billion Stargate venture, which he called \"the most important project of this era\"; the Wall Street Journal described him as having become Trump's \"AI buddy\".",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
+        { "url": "https://www.aljazeera.com/news/2025/1/22/trump-announces-500bn-stargate-venture-to-build-up-ai-infrastucture", "title": "Trump announces $500bn 'Stargate' venture to build up AI infrastructure — Al Jazeera" },
+        { "url": "https://www.tovima.com/wsj/how-sam-altman-outfoxed-elon-musk-to-become-trumps-ai-buddy/", "title": "How Sam Altman Outfoxed Elon Musk to Become Trump's AI Buddy — The Wall Street Journal (via To Vima)" }
+      ]
+    },
+    {
+      "name": "Dario Amodei",
+      "slug": "dario-amodei",
+      "relationship_type": "rival",
+      "description": "On February 27, 2026 Trump ordered every federal agency to stop using Anthropic's technology, calling it a \"radical Left AI company\", after Anthropic refused to lift limits on uses such as mass surveillance of Americans and autonomous weapons. Amodei challenged the resulting Pentagon designation in court and apologized for a leaked internal memo criticizing the administration.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://pbs.org/newshour/politics/trump-orders-federal-agencies-to-stop-using-anthropic-tech-over-ai-safety-dispute", "title": "Trump orders federal agencies to stop using Anthropic tech over AI safety dispute — PBS NewsHour" },
+        { "url": "https://www.aljazeera.com/news/2026/2/27/trump-orders-federal-agencies-to-stop-using-anthropic-as-dispute-escalates", "title": "Trump orders federal agencies to stop using Anthropic as dispute escalates — Al Jazeera" },
+        { "url": "https://www.axios.com/2026/03/06/pentagon-anthropic-amodei-apology", "title": "Scoop: Anthropic CEO apologizes for leaked memo criticizing Trump — Axios" }
+      ]
+    },
+    {
+      "name": "Alexandr Wang",
+      "slug": "alexandr-wang",
+      "relationship_type": "ally",
+      "description": "Wang attended Trump's January 2025 inauguration and the next day ran a full-page open letter urging Trump to take five steps in his first 100 days to \"win the AI war\" with China. This is advocacy; no donation or formal role was found.",
+      "start_year": 2025,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://techcrunch.com/2025/01/21/scale-ais-alexandr-wang-has-published-an-open-letter-lobbying-trump-to-invest-in-ai/", "title": "Scale AI's Alexandr Wang has published an open letter lobbying Trump to invest in AI — TechCrunch" },
+        { "url": "https://www.semafor.com/article/01/20/2025/scale-ai-ceo-alexandr-wang-to-trump-america-must-win-the-ai-war", "title": "Scale AI CEO to Trump: 'America must win the AI war' — Semafor" }
+      ]
+    },
+    {
+      "name": "Tony Blair",
+      "slug": "tony-blair",
+      "relationship_type": "ally",
+      "description": "In January 2026 the White House named Blair to the founding Executive Board of the Board of Peace, which Trump chairs, to oversee Gaza's transition and reconstruction under Trump's plan; Blair said he was \"honoured\". Israel's government objected that the Gaza board was not coordinated with it.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/", "title": "Statement on President Trump's Comprehensive Plan to End the Gaza Conflict — The White House" },
+        { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" },
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" }
+      ]
     }
   ],
   "source_conflicts": [

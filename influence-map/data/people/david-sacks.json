@@ -175,6 +175,19 @@
         { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" },
         { "url": "https://a16z.com/podcast/david-sacks-ai-crypto-china-dems-and-sf/", "title": "David Sacks: AI, Crypto, China, Dems, and SF — a16z podcast" }
       ]
+    },
+    {
+      "name": "Dario Amodei",
+      "slug": "dario-amodei",
+      "relationship_type": "rival",
+      "description": "In October 2025 Sacks, then Trump's AI czar, accused Anthropic of a \"sophisticated regulatory capture strategy based on fear-mongering\"; Amodei answered with a statement correcting what he called inaccurate claims about Anthropic's policy positions.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2025/10/16/anthropic-david-sacks-ai-white-house", "title": "New AI battle: White House vs. Anthropic — Axios" },
+        { "url": "https://www.nextgov.com/artificial-intelligence/2025/10/anthropic-ceo-defends-support-ai-regulations-alignment-trump-policies/408959", "title": "Anthropic CEO defends support for AI regulations, alignment with Trump policies — Nextgov" }
+      ]
     }
   ],
   "source_conflicts": [

@@ -159,6 +159,34 @@
         { "url": "https://www.npr.org/sections/goats-and-soda/2025/03/10/g-s1-52964/rubio-announces-that-83-of-usaid-contracts-will-be-canceled", "title": "Rubio announces that 83% of USAID contracts will be canceled — NPR" },
         { "url": "https://www.pbs.org/newshour/politics/doge-official-taking-leadership-role-at-usaid-email-obtained-by-ap-says", "title": "DOGE official taking leadership role at USAID, email obtained by AP says — PBS NewsHour" }
       ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Rubio has said that if Vance runs in 2028 \"he's going to be our nominee, and I'll be one of the first people to support him\", and Trump has floated a Vance–Rubio ticket. After the November 2026 midterm losses Newt Gingrich argued momentum was shifting toward Rubio.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://politicalwire.com/2025/11/07/marco-rubio-would-defer-to-jd-vance-in-2028/", "title": "Marco Rubio would defer to JD Vance in 2028 — Political Wire (Politico)" },
+        { "url": "https://gvwire.com/2026/06/03/trump-floats-a-vance-rubio-ticket-for-2028/", "title": "Trump floats a Vance-Rubio ticket for 2028 — GV Wire" },
+        { "url": "https://thehill.com/homenews/campaign/6200720-newt-gingrich-jd-vance-gop-election-defeat/", "title": "Newt Gingrich says JD Vance no longer leads 2028 GOP primary field — The Hill" }
+      ]
+    },
+    {
+      "name": "Tony Blair",
+      "slug": "tony-blair",
+      "relationship_type": "colleague",
+      "description": "Both sit on the founding Executive Board of Trump's Board of Peace, named in January 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/", "title": "Statement on President Trump's Comprehensive Plan to End the Gaza Conflict — The White House" },
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" },
+        { "url": "https://www.cbsnews.com/news/tony-blair-rubio-kushner-witkoff-help-oversee-gaza-reconstruction", "title": "Tony Blair, Rubio, Kushner and Witkoff to help oversee Gaza reconstruction — CBS News" }
+      ]
     }
   ],
   "source_conflicts": [],

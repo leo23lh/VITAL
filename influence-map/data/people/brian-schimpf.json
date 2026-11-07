@@ -1,0 +1,96 @@
+{
+  "name": "Brian Schimpf",
+  "aliases": [],
+  "public_figure": true,
+  "current_role": "Co-founder and CEO of Anduril Industries",
+  "summary": "Brian Schimpf spent about a decade as an engineer at Palantir, finishing as a director of engineering, before co-founding the defense company Anduril in 2017 with Palmer Luckey and others; he has run it as CEO since its founding while Luckey serves as the public face.",
+  "sources": [
+    { "url": "https://news.cornell.edu/index%2Ephp/node/331982", "title": "Brian Schimpf '07 and Anduril — Cornell Chronicle" },
+    { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2007,
+      "end_year": 2017,
+      "role": "Engineer, later director of engineering",
+      "org": "Palantir Technologies",
+      "sources": [
+        { "url": "https://news.cornell.edu/index%2Ephp/node/331982", "title": "Brian Schimpf '07 and Anduril — Cornell Chronicle" },
+        { "url": "https://businessinsider.in/tech/news/the-left-leaning-cofounder-of-a-1-billion-defense-startup-building-drone-destroyers-and-a-virtual-border-wall-says-if-they-dont-do-the-work-the-united-states-military-loses/articleshow/71775020.cms", "title": "The left-leaning cofounder of a $1 billion defense startup — Business Insider" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": null,
+      "role": "Co-founder and chief executive officer",
+      "org": "Anduril Industries",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+        { "url": "https://fortune.com/2026/05/08/anduril-brian-schimpf-term-sheet/", "title": "Anduril's Brian Schimpf — Fortune Term Sheet" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Anduril Industries",
+      "role": "Co-founder and CEO",
+      "start_year": 2017,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Anduril in 2017 with Trae Stephens, Matt Grimm and Joe Chen; Schimpf has been CEO from the start while Luckey is the company's public face.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+        { "url": "https://fortune.com/2026/05/08/anduril-brian-schimpf-term-sheet/", "title": "Anduril's Brian Schimpf — Fortune Term Sheet" }
+      ]
+    },
+    {
+      "name": "Alex Karp",
+      "slug": "alex-karp",
+      "relationship_type": "employer",
+      "description": "Schimpf worked at Palantir from 2007, ending as a director of engineering, before leaving in 2017 to co-found Anduril. Karp was Palantir's CEO throughout; no source describes them working together directly.",
+      "start_year": 2007,
+      "end_year": 2017,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://news.cornell.edu/index%2Ephp/node/331982", "title": "Brian Schimpf '07 and Anduril — Cornell Chronicle" },
+        { "url": "https://businessinsider.in/tech/news/the-left-leaning-cofounder-of-a-1-billion-defense-startup-building-drone-destroyers-and-a-virtual-border-wall-says-if-they-dont-do-the-work-the-united-states-military-loses/articleshow/71775020.cms", "title": "The left-leaning cofounder of a $1 billion defense startup — Business Insider" }
+      ]
+    },
+    {
+      "name": "Trae Stephens",
+      "slug": "trae-stephens",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Anduril in 2017; Stephens, a former Palantir employee and Founders Fund partner, is executive chairman.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Length of Palantir tenure",
+      "details": "Profiles give about 6, 9 or 10 years at Palantir; Cornell says about 10 years, starting in 2007.",
+      "sources": [
+        { "url": "https://news.cornell.edu/index%2Ephp/node/331982", "title": "Brian Schimpf '07 and Anduril — Cornell Chronicle" },
+        { "url": "https://businessinsider.in/tech/news/the-left-leaning-cofounder-of-a-1-billion-defense-startup-building-drone-destroyers-and-a-virtual-border-wall-says-if-they-dont-do-the-work-the-united-states-military-loses/articleshow/71775020.cms", "title": "The left-leaning cofounder of a $1 billion defense startup — Business Insider" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Business Insider described him in 2019 as left-leaning. No documented link found to Trump, Vance, Thiel or others in the map beyond those recorded.",
+  "last_researched": "2026-11-07"
+}
