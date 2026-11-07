@@ -150,6 +150,18 @@
       "sources": [
         { "url": "https://www.washingtonpost.com/politics/2025/09/19/george-soros-gavin-newsom-california-redistricting/", "title": "George Soros gives $10 million to help Democrats redistrict in California — Washington Post" }
       ]
+    },
+    {
+      "name": "Chris Larsen",
+      "slug": "chris-larsen",
+      "relationship_type": "donor",
+      "description": "Larsen told Politico in May 2026 he plans to back Newsom in a likely 2028 run, calling him someone who \"gets the balance right between tech and the broader community\", and already supports Newsom's Campaign for Democracy PAC. Wikipedia lists him as a Pete Buttigieg endorser instead.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/articles/billionaire-chris-larsen-says-boost-175822022.html", "title": "Billionaire Chris Larsen says he will boost Newsom 'any way we can' in 2028 — Politico via Yahoo News" },
+        { "url": "https://en.wikipedia.org/wiki/2028_Democratic_Party_presidential_primaries", "title": "2028 Democratic Party presidential primaries — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

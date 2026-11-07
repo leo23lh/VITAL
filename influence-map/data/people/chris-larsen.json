@@ -1,0 +1,310 @@
+{
+  "name": "Chris Larsen",
+  "aliases": ["Christian Larsen", "Christian A. Larsen"],
+  "public_figure": true,
+  "sector": "tech",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Mostly a Democratic donor (Kamala Harris in 2024, Josh Shapiro, House Majority PAC, and Gavin Newsom for 2028) with a centrist, business-friendly bent: he spent millions against California's proposed billionaire tax, backed moderate San Francisco candidates, and gave to both a Democrat and a Republican in the California governor's race. His firm Ripple funds the bipartisan crypto super PAC Fairshake.",
+      "sources": [
+        { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" },
+        { "url": "https://fortune.com/2026/08/18/california-billionaires-chris-larsen-john-doerr-40-million-fresh-funds-building-a-better-california-proposition-40/", "title": "California's billionaires poured $40 million into blocking a wealth tax — Fortune" },
+        { "url": "https://www.cnbc.com/2024/10/15/kamala-harris-got-1-million-from-ripples-chris-larsen-crypto-warms.html", "title": "Harris PAC's $1 million contribution from Ripple's Chris Larsen shows crypto industry warming to VP — CNBC" },
+        { "url": "https://www.yahoo.com/news/articles/billionaire-chris-larsen-says-boost-175822022.html", "title": "Billionaire Chris Larsen says he will boost Newsom 'any way we can' in 2028 — Politico via Yahoo News" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["gavin-newsom"],
+    "basis": "Told Politico in May 2026 he plans to back Newsom in a likely 2028 run (\"we're already supporting him any way we can\"). Wikipedia's 2028 primaries page instead lists him as a Pete Buttigieg endorser; see source conflicts.",
+    "sources": [
+      { "url": "https://www.yahoo.com/news/articles/billionaire-chris-larsen-says-boost-175822022.html", "title": "Billionaire Chris Larsen says he will boost Newsom 'any way we can' in 2028 — Politico via Yahoo News" },
+      { "url": "https://en.wikipedia.org/wiki/2028_Democratic_Party_presidential_primaries", "title": "2028 Democratic Party presidential primaries — Wikipedia" }
+    ]
+  },
+  "current_role": "Co-founder and executive chairman of Ripple",
+  "summary": "Chris Larsen co-founded the online lender Prosper and, in 2012 with Jed McCaleb, the crypto firm that became Ripple, which he led as CEO before becoming executive chairman. The SEC sued Ripple and him in 2020 and dropped its remaining claims against him in 2023. With his partner Lyna Lam he is a leading Democratic-leaning donor, while Ripple is one of the biggest funders of the crypto super PAC Fairshake.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Chris_Larsen", "title": "Chris Larsen — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Ripple_Labs", "title": "Ripple Labs — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2006,
+      "end_year": 2012,
+      "role": "Co-founder and CEO",
+      "org": "Prosper Marketplace",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Larsen", "title": "Chris Larsen — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2012,
+      "end_year": null,
+      "role": "Co-founder; first CEO, now executive chairman",
+      "org": "Ripple (founded as NewCoin / OpenCoin)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Larsen", "title": "Chris Larsen — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Ripple_Labs", "title": "Ripple Labs — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Building a Better California (against Prop. 40, the billionaire tax)",
+      "role": "Major funder (an extra $10M in August 2026)",
+      "start_year": 2026,
+      "sources": [
+        { "url": "https://fortune.com/2026/08/18/california-billionaires-chris-larsen-john-doerr-40-million-fresh-funds-building-a-better-california-proposition-40/", "title": "California's billionaires poured $40 million into blocking a wealth tax — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Gavin Newsom",
+      "slug": "gavin-newsom",
+      "relationship_type": "funded_by",
+      "description": "Larsen told Politico in May 2026 he plans to back Newsom in a likely 2028 run, calling him someone who \"gets the balance right between tech and the broader community\", and already supports Newsom's Campaign for Democracy PAC. Wikipedia lists him as a Pete Buttigieg endorser instead.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/articles/billionaire-chris-larsen-says-boost-175822022.html", "title": "Billionaire Chris Larsen says he will boost Newsom 'any way we can' in 2028 — Politico via Yahoo News" },
+        { "url": "https://en.wikipedia.org/wiki/2028_Democratic_Party_presidential_primaries", "title": "2028 Democratic Party presidential primaries — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "funded_by",
+      "description": "Larsen endorsed Harris and gave at least $1 million in XRP to the pro-Harris super PAC Future Forward in 2024 (Decrypt reported about $10 million more), saying she would bring \"clear rules\" for crypto.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/10/15/kamala-harris-got-1-million-from-ripples-chris-larsen-crypto-warms.html", "title": "Harris PAC's $1 million contribution from Ripple's Chris Larsen shows crypto industry warming to VP — CNBC" },
+        { "url": "https://www.theblock.co/post/320785/ripple-co-founder-chris-larsen-donates-1-million-in-crypto-to-pac-supporting-kamala-harris-campaign", "title": "Ripple co-founder Chris Larsen donates $1 million in crypto to PAC supporting Kamala Harris — The Block" },
+        { "url": "https://decrypt.co/287549/ripple-founder-10-million-xrp-kamala-harris", "title": "Ripple founder donates another $10 million in XRP to support Kamala Harris — Decrypt" }
+      ]
+    },
+    {
+      "name": "Josh Shapiro",
+      "slug": "josh-shapiro",
+      "relationship_type": "funded_by",
+      "description": "Larsen has given Shapiro $2.2 million since 2023, including $1 million in December 2023 and $1 million in early 2026, the largest single gift to his reelection campaign.",
+      "start_year": 2023,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cityandstatepa.com/politics/2026/04/shapiro-raises-10m-and-other-takeaways-pennsylvanias-newest-campaign-finance-reports/412715/", "title": "Shapiro raises $10M and other takeaways from Pennsylvania's newest campaign finance reports — City & State PA" }
+      ]
+    },
+    {
+      "name": "Jed McCaleb",
+      "slug": "jed-mccaleb",
+      "relationship_type": "co-founder",
+      "description": "Co-founded NewCoin (later Ripple) in 2012; McCaleb recruited Larsen as CEO.",
+      "start_year": 2012,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ripple_Labs", "title": "Ripple Labs — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Alex Bores",
+      "slug": "alex-bores",
+      "relationship_type": "funded_by",
+      "description": "Larsen committed $3.5 million (the San Francisco Chronicle counts $4.5 million) to back Bores's 2026 House run as a \"counterweight\" to attack ads from the pro-AI super PAC Leading the Future.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Bores", "title": "Alex Bores — Wikipedia" },
+        { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" }
+      ]
+    },
+    {
+      "name": "Lyna Lam",
+      "slug": "lyna-lam",
+      "relationship_type": "family",
+      "description": "Partner and co-donor; the 2026 rankings list them together.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+        { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "2028 pick",
+      "details": "Politico (May 2026) quotes Larsen saying he will back Gavin Newsom; Wikipedia's 2028 Democratic primaries page lists him among Pete Buttigieg's endorsers.",
+      "sources": [
+        { "url": "https://www.yahoo.com/news/articles/billionaire-chris-larsen-says-boost-175822022.html", "title": "Billionaire Chris Larsen says he will boost Newsom 'any way we can' in 2028 — Politico via Yahoo News" },
+        { "url": "https://en.wikipedia.org/wiki/2028_Democratic_Party_presidential_primaries", "title": "2028 Democratic Party presidential primaries — Wikipedia" }
+      ]
+    },
+    {
+      "topic": "Giving to Harris in 2024",
+      "details": "CNBC counted about $1.9M to Harris directly and via PACs as of October 2024; Decrypt reported a further $10M in XRP to Future Forward in September 2024.",
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/10/15/kamala-harris-got-1-million-from-ripples-chris-larsen-crypto-warms.html", "title": "Harris PAC's $1 million contribution from Ripple's Chris Larsen shows crypto industry warming to VP — CNBC" },
+        { "url": "https://decrypt.co/287549/ripple-founder-10-million-xrp-kamala-harris", "title": "Ripple founder donates another $10 million in XRP to support Kamala Harris — Decrypt" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where news pages could not be opened, OpenSecrets was blocked and Wikipedia was rate-limiting; facts were confirmed with web searches tied to each cited URL. Lyna Lam (partner and co-donor) is a suggested connection only.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 68000000,
+        "rank": 10,
+        "ranking": "Rank among all 2026 donors, groups included (FEC data, per Al Jazeera and the Washington Post); \"over $68M\" for Ripple and Larsen combined per AFP",
+        "description": "Two streams: Ripple (about $49.6M, nearly all to the crypto super PAC Fairshake) and Larsen and Lyna Lam personally ($21.5M, mostly Democratic). Ripple also gave $5M toward Trump's White House ballroom.",
+        "sources": [
+          { "url": "https://www.france24.com/en/live-news/20261023-from-tech-giants-to-anonymous-nonprofits-the-biggest-donors-in-us-midterms", "title": "From tech giants to anonymous nonprofits, the biggest donors in US midterms — AFP via France 24" },
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+          { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },
+          { "url": "https://sfstandard.com/2026/10/17/san-francisco-crypto-ripple-chris-larsen-brad-garlinghouse/", "title": "SF-based crypto firm gave $5M to Trump's ballroom project — The San Francisco Standard" }
+        ],
+        "recipients": [
+          {
+            "name": "Fairshake (crypto super PAC, via Ripple)",
+            "kind": "super-pac",
+            "side": "both",
+            "amount_usd": 48000000,
+            "description": "96% of Ripple's 2026 political spending. Fairshake's biggest bets favored Republicans, including about $56M against Democrat Sherrod Brown in Ohio.",
+            "sources": [
+              { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },
+              { "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election", "title": "Crypto PACs spent $170 million, with most going to Republicans in final weeks — CoinDesk" }
+            ]
+          },
+          {
+            "name": "Building a Better California (against Prop. 40)",
+            "kind": "ballot-measure",
+            "side": "nonpartisan",
+            "amount_usd": 10000000,
+            "description": "Fighting a proposed 5% wealth tax on California billionaires; state-level, not counted in federal totals.",
+            "sources": [
+              { "url": "https://fortune.com/2026/08/18/california-billionaires-chris-larsen-john-doerr-40-million-fresh-funds-building-a-better-california-proposition-40/", "title": "California's billionaires poured $40 million into blocking a wealth tax — Fortune" }
+            ]
+          },
+          {
+            "name": "Invest in Tomorrow Coalition",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 6000000,
+            "description": "Pro-renewable-energy super PAC.",
+            "sources": [
+              { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" }
+            ]
+          },
+          {
+            "name": "You Can Push Back (for Alex Bores)",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 4500000,
+            "description": "Backed the New York assemblyman's House run against attacks from the pro-AI super PAC Leading the Future.",
+            "sources": [
+              { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" },
+              { "url": "https://en.wikipedia.org/wiki/Alex_Bores", "title": "Alex Bores — Wikipedia" }
+            ]
+          },
+          {
+            "name": "House Majority PAC",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 2500000,
+            "sources": [
+              { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" }
+            ]
+          },
+          {
+            "name": "Josh Shapiro (reelection)",
+            "slug": "josh-shapiro",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 1000000,
+            "description": "The biggest single gift to Shapiro's campaign in early 2026; $2.2M since 2023.",
+            "sources": [
+              { "url": "https://www.cityandstatepa.com/politics/2026/04/shapiro-raises-10m-and-other-takeaways-pennsylvanias-newest-campaign-finance-reports/412715/", "title": "Shapiro raises $10M and other takeaways from Pennsylvania's newest campaign finance reports — City & State PA" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "description": "Backed Kamala Harris, mostly in XRP to the super PAC Future Forward; figures disagree (see source conflicts).",
+        "sources": [
+          { "url": "https://www.cnbc.com/2024/10/15/kamala-harris-got-1-million-from-ripples-chris-larsen-crypto-warms.html", "title": "Harris PAC's $1 million contribution from Ripple's Chris Larsen shows crypto industry warming to VP — CNBC" },
+          { "url": "https://decrypt.co/287549/ripple-founder-10-million-xrp-kamala-harris", "title": "Ripple founder donates another $10 million in XRP to support Kamala Harris — Decrypt" }
+        ],
+        "recipients": [
+          {
+            "name": "Future Forward PAC (pro-Harris)",
+            "slug": "kamala-harris",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 1000000,
+            "description": "$1M in XRP in August 2024; Decrypt reported about $10M more in September.",
+            "sources": [
+              { "url": "https://www.theblock.co/post/320785/ripple-co-founder-chris-larsen-donates-1-million-in-crypto-to-pac-supporting-kamala-harris-campaign", "title": "Ripple co-founder Chris Larsen donates $1 million in crypto to PAC supporting Kamala Harris — The Block" },
+              { "url": "https://www.cnbc.com/2024/10/15/kamala-harris-got-1-million-from-ripples-chris-larsen-crypto-warms.html", "title": "Harris PAC's $1 million contribution from Ripple's Chris Larsen shows crypto industry warming to VP — CNBC" },
+              { "url": "https://decrypt.co/287549/ripple-founder-10-million-xrp-kamala-harris", "title": "Ripple founder donates another $10 million in XRP to support Kamala Harris — Decrypt" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "Larsen has said he will back Gavin Newsom in 2028 \"any way we can\". Ripple is expected to keep funding Fairshake, its main political vehicle in 2024 and 2026.",
+      "sources": [
+        { "url": "https://www.yahoo.com/news/articles/billionaire-chris-larsen-says-boost-175822022.html", "title": "Billionaire Chris Larsen says he will boost Newsom 'any way we can' in 2028 — Politico via Yahoo News" },
+        { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" }
+      ],
+      "likely": [
+        {
+          "name": "Gavin Newsom",
+          "slug": "gavin-newsom",
+          "kind": "candidate",
+          "side": "D",
+          "basis": "Told Politico in May 2026 he plans to back Newsom and already supports Newsom's Campaign for Democracy PAC; Wikipedia lists him as a Buttigieg endorser instead.",
+          "confidence": 0.75,
+          "sources": [
+            { "url": "https://www.yahoo.com/news/articles/billionaire-chris-larsen-says-boost-175822022.html", "title": "Billionaire Chris Larsen says he will boost Newsom 'any way we can' in 2028 — Politico via Yahoo News" },
+            { "url": "https://en.wikipedia.org/wiki/2028_Democratic_Party_presidential_primaries", "title": "2028 Democratic Party presidential primaries — Wikipedia" }
+          ]
+        },
+        {
+          "name": "Fairshake (crypto super PAC, via Ripple)",
+          "kind": "super-pac",
+          "side": "both",
+          "basis": "Ripple's main political vehicle in 2024 and 2026.",
+          "confidence": 0.8,
+          "sources": [
+            { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },
+            { "url": "https://www.coindesk.com/policy/2026/01/28/crypto-s-political-power-supercharged-with-usd193-million-in-fairshake-thanks-to-new-cash", "title": "Crypto's political power supercharged with $193 million in Fairshake — CoinDesk" }
+          ]
+        },
+        {
+          "name": "Josh Shapiro",
+          "slug": "josh-shapiro",
+          "kind": "candidate",
+          "side": "D",
+          "basis": "Gave him $2.2M since 2023, including his largest single 2026 gift.",
+          "confidence": 0.45,
+          "sources": [
+            { "url": "https://www.cityandstatepa.com/politics/2026/04/shapiro-raises-10m-and-other-takeaways-pennsylvanias-newest-campaign-finance-reports/412715/", "title": "Shapiro raises $10M and other takeaways from Pennsylvania's newest campaign finance reports — City & State PA" }
+          ]
+        }
+      ]
+    }
+  }
+}

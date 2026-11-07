@@ -91,6 +91,17 @@
       "sources": [
         { "url": "https://www.foxnews.com/politics/soros-political-machine-putting-millions-work-before-election-day-zeroing-key-races", "title": "Soros family pours $40M through Democracy PAC to Democratic allies — Fox News" }
       ]
+    },
+    {
+      "name": "Chris Larsen",
+      "slug": "chris-larsen",
+      "relationship_type": "donor",
+      "description": "Larsen has given Shapiro $2.2 million since 2023, including $1 million in December 2023 and $1 million in early 2026, the largest single gift to his reelection campaign.",
+      "start_year": 2023,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cityandstatepa.com/politics/2026/04/shapiro-raises-10m-and-other-takeaways-pennsylvanias-newest-campaign-finance-reports/412715/", "title": "Shapiro raises $10M and other takeaways from Pennsylvania's newest campaign finance reports — City & State PA" }
+      ]
     }
   ],
   "affiliations": [],
