@@ -255,5 +255,142 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Marco Rubio: no direct link recorded. In 2016 Sheldon Adelson leaned toward Rubio while Miriam favored Cruz; claims that she influenced Rubio's appointment as secretary of state come only from advocacy sites. Targeted searches found no documented link to Musk, Ellison, Thiel, Miller, Wiles, Sessions or David Horowitz. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 67600000,
+        "rank": 11,
+        "ranking": "Rank among all 2026 donors, groups included (FEC data, per Al Jazeera and the Washington Post); total as cited: $67.6M per the Washington Post (OpenSecrets: $66.1M)",
+        "description": "Mostly to Republican congressional super PACs, plus MAGA Inc.",
+        "sources": [
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+          { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" },
+          { "url": "https://www.france24.com/en/live-news/20261023-from-tech-giants-to-anonymous-nonprofits-the-biggest-donors-in-us-midterms", "title": "From tech giants to anonymous nonprofits, the biggest donors in US midterms — AFP via France 24" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 30000000,
+            "description": "Given in March 2026.",
+            "sources": [
+              { "url": "https://thehill.com/homenews/campaign/5834966-campaign-finance-reports-midterm-dynamics/", "title": "Democrats' fundraising dominates key midterm races: What we learned from the latest campaign filings — The Hill" },
+              { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10000000,
+            "sources": [
+              { "url": "https://thehill.com/homenews/campaign/5834966-campaign-finance-reports-midterm-dynamics/", "title": "Democrats' fundraising dominates key midterm races: What we learned from the latest campaign filings — The Hill" },
+              { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" }
+            ]
+          },
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "kind": "super-pac",
+            "side": "R",
+            "description": "Named among its big 2025–26 donors; amount not reported.",
+            "sources": [
+              { "url": "https://www.axios.com/2026/11/06/scoop-trump-to-keep-fundraising-hoping-to-retain-political-muscle", "title": "Scoop: Trump to keep fundraising, hoping to retain political muscle — Axios" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 148300000,
+        "rank": 3,
+        "ranking": "OpenSecrets 2024 top donors (via Newser)",
+        "sources": [
+          { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
+          { "url": "https://www.allsides.com/blog/elon-musk-tops-list-2024-political-donors-five-others-gave-more-100-million", "title": "Elon Musk tops list of 2024 political donors, five others gave more than $100 million — AllSides" }
+        ],
+        "recipients": [
+          {
+            "name": "Preserve America PAC",
+            "slug": "donald-trump",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 100000000,
+            "description": "Pro-Trump super PAC she has funded since 2020. InfluenceWatch puts her 2024 gifts at $106M.",
+            "sources": [
+              { "url": "https://forward.com/fast-forward/665095/miriam-adelson-donates-100m-to-trump-campaign-making-good-on-reported-promise/", "title": "Miriam Adelson donates $100M to Trump campaign — The Forward" }
+            ]
+          },
+          {
+            "name": "Pro-Cruz super PAC",
+            "slug": "ted-cruz",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1000000,
+            "sources": [
+              { "url": "https://api.texastribune.org/2024/06/20/miriam-adelson-ted-cruz-senate/", "title": "Texas Tribune: Miriam Adelson gives pro-Ted Cruz super PAC $1 million" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No 2028 pick reported. Trump said in December 2025 that Adelson offered $250 million if he ran for a third term, which the Constitution bars. She has ties to Vance, while some Jewish Republicans in the Adelson-aligned Republican Jewish Coalition prefer Rubio.",
+      "sources": [
+        { "url": "https://www.newsweek.com/donald-trump-offered-250m-run-third-term-11226316", "title": "Donald Trump Offered $250M to Run for a Third Term — Newsweek" },
+        { "url": "https://www.cnn.com/2026/09/01/politics/vance-jewish-gop-2028", "title": "JD Vance confronts Jewish GOP skeptics ahead of a potential 2028 run — CNN" },
+        { "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/", "title": "The billionaires cozying up to JD Vance — Forbes" }
+      ],
+      "likely": [
+        {
+          "name": "Senate Leadership Fund / Congressional Leadership Fund",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "Major gifts in 2024 and $40M in early 2026.",
+          "confidence": 0.8,
+          "sources": [
+            { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" },
+            { "url": "https://thehill.com/homenews/campaign/5834966-campaign-finance-reports-midterm-dynamics/", "title": "Democrats' fundraising dominates key midterm races: What we learned from the latest campaign filings — The Hill" }
+          ]
+        },
+        {
+          "name": "Preserve America PAC (for the Republican nominee)",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "Her presidential vehicle in 2020 and 2024.",
+          "confidence": 0.65,
+          "sources": [
+            { "url": "https://forward.com/fast-forward/665095/miriam-adelson-donates-100m-to-trump-campaign-making-good-on-reported-promise/", "title": "Miriam Adelson donates $100M to Trump campaign — The Forward" }
+          ]
+        },
+        {
+          "name": "JD Vance",
+          "slug": "jd-vance",
+          "kind": "candidate",
+          "side": "R",
+          "basis": "Forbes lists her among billionaires cultivating Vance; no commitment reported.",
+          "confidence": 0.45,
+          "sources": [
+            { "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/", "title": "The billionaires cozying up to JD Vance — Forbes" },
+            { "url": "https://www.cnn.com/2026/09/01/politics/vance-jewish-gop-2028", "title": "JD Vance confronts Jewish GOP skeptics ahead of a potential 2028 run — CNN" }
+          ]
+        },
+        {
+          "name": "Marco Rubio",
+          "slug": "marco-rubio",
+          "kind": "candidate",
+          "side": "R",
+          "basis": "CNN: some Jewish GOP activists in the Adelson-aligned RJC prefer Rubio; nothing from Adelson herself.",
+          "confidence": 0.35,
+          "sources": [
+            { "url": "https://www.cnn.com/2026/09/01/politics/vance-jewish-gop-2028", "title": "JD Vance confronts Jewish GOP skeptics ahead of a potential 2028 run — CNN" }
+          ]
+        }
+      ]
+    }
+  }
 }

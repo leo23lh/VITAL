@@ -78,5 +78,118 @@
   ],
   "affiliations": [],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 53500000,
+        "rank": 14,
+        "ranking": "Rank among all 2026 donors, groups included (FEC data, per Al Jazeera and the Washington Post); total as cited: $53.5M per the Washington Post (AFP: over $52M)",
+        "description": "To Republican congressional super PACs and a new super PAC he funds alone.",
+        "sources": [
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+          { "url": "https://www.france24.com/en/live-news/20261023-from-tech-giants-to-anonymous-nonprofits-the-biggest-donors-in-us-midterms", "title": "From tech giants to anonymous nonprofits, the biggest donors in US midterms — AFP via France 24" }
+        ],
+        "recipients": [
+          {
+            "name": "STW PAC",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 15050000,
+            "description": "New super PAC funded entirely by Singer (Washington Post).",
+            "sources": [
+              { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "kind": "super-pac",
+            "side": "R",
+            "description": "At least $1M in the first half of 2025; among his top recipients.",
+            "sources": [
+              { "url": "https://www.nbcnews.com/politics/2026-election/republican-super-pacs-bank-millions-ahead-midterm-battles-rcna222115", "title": "Republican super PACs bank millions ahead of midterm battles — NBC News" },
+              { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "kind": "super-pac",
+            "side": "R",
+            "description": "At least $1M in the first half of 2025; among his top recipients.",
+            "sources": [
+              { "url": "https://www.nbcnews.com/politics/2026-election/republican-super-pacs-bank-millions-ahead-midterm-battles-rcna222115", "title": "Republican super PACs bank millions ahead of midterm battles — NBC News" },
+              { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 66800000,
+        "rank": 7,
+        "ranking": "OpenSecrets 2024 top donors (via Newser)",
+        "description": "Backed Nikki Haley in the primary, then Trump after meeting him in 2024.",
+        "sources": [
+          { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
+          { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Griffin and Singer meet Trump about donating — Fortune" }
+        ],
+        "recipients": [
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 5000000,
+            "description": "Given in August 2024.",
+            "sources": [
+              { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No 2028 pick reported. Singer was Rubio's top backer in 2016; Rubio has said he would defer to Vance if Vance runs. His steady pattern is the Republican congressional super PACs.",
+      "sources": [
+        { "url": "https://thehill.com/homenews/administration/5786733-gop-donor-rubio-vance-2028/", "title": "JD Vance-Marco Rubio rivalry put into sharp contrast by Iran war — The Hill" }
+      ],
+      "likely": [
+        {
+          "name": "Senate Leadership Fund / Congressional Leadership Fund",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "Top recipients in 2024 and 2026.",
+          "confidence": 0.8,
+          "sources": [
+            { "url": "https://www.nbcnews.com/politics/2026-election/republican-super-pacs-bank-millions-ahead-midterm-battles-rcna222115", "title": "Republican super PACs bank millions ahead of midterm battles — NBC News" },
+            { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+          ]
+        },
+        {
+          "name": "STW PAC",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "His own new vehicle in 2026.",
+          "confidence": 0.6,
+          "sources": [
+            { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+          ]
+        },
+        {
+          "name": "Marco Rubio",
+          "slug": "marco-rubio",
+          "kind": "candidate",
+          "side": "R",
+          "basis": "Backed him in 2016 with a super PAC gift; nothing reported for 2028, and Rubio may not run against Vance.",
+          "confidence": 0.45,
+          "sources": [
+            { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Griffin and Singer meet Trump about donating — Fortune" },
+            { "url": "https://thehill.com/homenews/administration/5786733-gop-donor-rubio-vance-2028/", "title": "JD Vance-Marco Rubio rivalry put into sharp contrast by Iran war — The Hill" }
+          ]
+        }
+      ]
+    }
+  }
 }

@@ -341,5 +341,111 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Not recorded: a seat on Hewlett-Packard's board (start year could not be confirmed) and Reid Hoffman (no direct exchange with Andreessen found). Targeted searches found no documented link to the PayPal co-founders beyond Thiel and Musk, or to Miller, Sessions, Wiles or Rubio. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 92200000,
+        "rank": 8,
+        "ranking": "Rank among all 2026 donors, groups included (FEC data, per Al Jazeera and the Washington Post); total as cited: $92.2M is the Washington Post's figure for Andreessen and Horowitz together, with a16z",
+        "description": "Counted jointly with Ben Horowitz and their firm, mostly to the crypto super PAC Fairshake and the AI super PAC Leading the Future. Other tallies run higher: AFP over $113M, Newsweek $116.4M.",
+        "sources": [
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+          { "url": "https://www.france24.com/en/live-news/20261023-from-tech-giants-to-anonymous-nonprofits-the-biggest-donors-in-us-midterms", "title": "From tech giants to anonymous nonprofits, the biggest donors in US midterms — AFP via France 24" },
+          { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" }
+        ],
+        "recipients": [
+          {
+            "name": "Fairshake (crypto super PAC)",
+            "kind": "super-pac",
+            "side": "both",
+            "amount_usd": 47000000,
+            "description": "a16z pledged $23M for 2026 in November 2024 and added $24M in January 2026. Fairshake spends for both parties, but CoinDesk found its biggest 2026 bets favored Republicans, including about $56M against Sherrod Brown in Ohio.",
+            "sources": [
+              { "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html", "title": "Coinbase, a16z and others pour more than $78 million into pro-crypto PAC for 2026 election — CNBC" },
+              { "url": "https://www.coindesk.com/policy/2026/01/28/crypto-s-political-power-supercharged-with-usd193-million-in-fairshake-thanks-to-new-cash", "title": "Crypto's political power supercharged with $193 million in Fairshake — CoinDesk" },
+              { "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election", "title": "Crypto PACs spent $170 million, with most going to Republicans in final weeks — CoinDesk" }
+            ]
+          },
+          {
+            "name": "Leading the Future (pro-AI super PAC)",
+            "kind": "super-pac",
+            "side": "both",
+            "amount_usd": 25000000,
+            "description": "$12.5M each from Andreessen and Horowitz in late 2025. The network raised about $140M and fought the Anthropic-funded Public First groups.",
+            "sources": [
+              { "url": "https://www.nbcnews.com/politics/2026-election/ai-crypto-trump-super-pacs-stash-millions-spend-midterms-rcna256622", "title": "AI, crypto and Trump super PACs stash millions to spend on the midterms — NBC News" },
+              { "url": "https://www.axios.com/2026/01/30/openai-a16z-cash-ai-super-pac", "title": "Exclusive: OpenAI's Brockman and a16z funnel cash to pro-AI super PAC — Axios" },
+              { "url": "https://www.cnbc.com/2026/04/15/ai-2026-elections-midterms-campaign-donations.html", "title": "AI becomes contentious issue in 2026 midterm elections over donations — CNBC" },
+              { "url": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html", "title": "Silicon Valley AI political groups turn on each other in the 2026 election — CNBC" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 42400000,
+        "rank": 10,
+        "ranking": "OpenSecrets 2024 top donors (via Newser)",
+        "description": "Endorsed Trump in July 2024; gave to pro-Trump and pro-crypto groups.",
+        "sources": [
+          { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
+          { "url": "https://www.business-standard.com/world-news/silicon-valley-s-andreessen-horowitz-give-millions-to-pro-trump-pac-124101600146_1.html", "title": "Silicon Valley's Andreessen, Horowitz give millions to pro-Trump PAC — Business Standard (Bloomberg)" }
+        ],
+        "recipients": [
+          {
+            "name": "Right for America (pro-Trump super PAC)",
+            "slug": "donald-trump",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 2500000,
+            "sources": [
+              { "url": "https://www.business-standard.com/world-news/silicon-valley-s-andreessen-horowitz-give-millions-to-pro-trump-pac-124101600146_1.html", "title": "Silicon Valley's Andreessen, Horowitz give millions to pro-Trump PAC — Business Standard (Bloomberg)" }
+            ]
+          },
+          {
+            "name": "Fairshake (crypto super PAC, via a16z)",
+            "kind": "super-pac",
+            "side": "both",
+            "sources": [
+              { "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html", "title": "Coinbase, a16z and others pour more than $78 million into pro-crypto PAC for 2026 election — CNBC" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No reporting on a 2028 presidential pick. Andreessen and a16z have funded the same industry super PACs in 2024 and 2026, and Fairshake and Leading the Future are expected to keep spending.",
+      "sources": [
+        { "url": "https://www.coindesk.com/policy/2026/01/28/crypto-s-political-power-supercharged-with-usd193-million-in-fairshake-thanks-to-new-cash", "title": "Crypto's political power supercharged with $193 million in Fairshake — CoinDesk" },
+        { "url": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html", "title": "Silicon Valley AI political groups turn on each other in the 2026 election — CNBC" }
+      ],
+      "likely": [
+        {
+          "name": "Fairshake (crypto super PAC)",
+          "kind": "super-pac",
+          "side": "both",
+          "basis": "a16z has been a lead funder in 2024 and 2026, and pledged its 2026 money right after the 2024 election.",
+          "confidence": 0.8,
+          "sources": [
+            { "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html", "title": "Coinbase, a16z and others pour more than $78 million into pro-crypto PAC for 2026 election — CNBC" },
+            { "url": "https://www.coindesk.com/policy/2026/01/28/crypto-s-political-power-supercharged-with-usd193-million-in-fairshake-thanks-to-new-cash", "title": "Crypto's political power supercharged with $193 million in Fairshake — CoinDesk" }
+          ]
+        },
+        {
+          "name": "Leading the Future (pro-AI super PAC)",
+          "kind": "super-pac",
+          "side": "both",
+          "basis": "Founding funder in 2025–26; AI regulation stays a live fight (Semafor, after the election).",
+          "confidence": 0.7,
+          "sources": [
+            { "url": "https://www.nbcnews.com/politics/2026-election/ai-crypto-trump-super-pacs-stash-millions-spend-midterms-rcna256622", "title": "AI, crypto and Trump super PACs stash millions to spend on the midterms — NBC News" },
+            { "url": "https://www.semafor.com/article/11/05/2026/where-ai-money-worked-in-the-midterms", "title": "Where AI money worked in the midterms — Semafor" }
+          ]
+        }
+      ]
+    }
+  }
 }

@@ -399,6 +399,19 @@
         { "url": "https://fortune.com/2024/10/08/elon-musk-donald-trump-tucker-carlson/", "title": "Fortune: Musk tells Tucker Carlson he has gone all in on Trump" },
         { "url": "https://businessinsider.nl/elon-musk-tucker-carlson-and-david-sacks-personally-lobbied-trump-to-pick-vance-report", "title": "Business Insider: Musk, Carlson and Sacks personally lobbied Trump to pick Vance" }
       ]
+    },
+    {
+      "name": "Ken Paxton",
+      "slug": "ken-paxton",
+      "relationship_type": "funded_by",
+      "description": "Musk gave $10 million to Lone Star Liberty PAC, which backed Paxton's 2026 Texas Senate run, and $158 million to the Senate Leadership Fund, which passed the same amount to Texas PAC, Paxton's largest outside backer. Paxton lost to Democrat James Talarico.",
+      "start_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" },
+        { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
+        { "url": "https://www.cnn.com/2026/10/16/politics/musk-gop-support-texas-senate-race-hnk", "title": "Musk contributed more than $150 million to bolster GOP in Texas Senate race, filings show — CNN" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -411,5 +424,161 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Personal and family details were left out under the research rules. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 445500000,
+        "rank": 1,
+        "ranking": "Rank among all 2026 donors, groups included (FEC data, per Al Jazeera and the Washington Post); total as cited: $445.5M is OpenSecrets' figure via Newsweek",
+        "description": "The biggest donor of the cycle by far, almost all to Republicans and most of it aimed at Texas, where his Senate and governor picks lost. Tallies run from about $366M (his own representatives, early October) to $474M (CNBC, after the election).",
+        "sources": [
+          { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" },
+          { "url": "https://www.aljazeera.com/news/2026/10/27/tracking-the-money-the-biggest-donors-in-the-2026-us-midterm-elections", "title": "Tracking the money: The biggest donors in the 2026 US midterm elections — Al Jazeera" },
+          { "url": "https://www.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans", "title": "Here's what Elon Musk's $445 million is getting Republicans — CNN" },
+          { "url": "https://www.cnbc.com/2026/11/04/elon-musk-midterms-ai-data-centers.html", "title": "Elon Musk suffers political setback in 2026 midterms — CNBC" }
+        ],
+        "recipients": [
+          {
+            "name": "America PAC",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 216000000,
+            "description": "Musk's own super PAC; it backed or targeted 44 federal races and its side lost most of them.",
+            "sources": [
+              { "url": "https://www.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans", "title": "Here's what Elon Musk's $445 million is getting Republicans — CNN" },
+              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 158000000,
+            "description": "Senate Republicans' main super PAC (aligned with John Thune). It passed the same amount to Texas PAC, the biggest outside backer of Ken Paxton's Senate run. Newsweek and the Washington Post count $168M.",
+            "sources": [
+              { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
+              { "url": "https://www.cnn.com/2026/10/16/politics/musk-gop-support-texas-senate-race-hnk", "title": "Musk contributed more than $150 million to bolster GOP in Texas Senate race, filings show — CNN" },
+              { "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html", "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million — CNBC" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 20000000,
+            "description": "House Republicans' main super PAC.",
+            "sources": [
+              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" }
+            ]
+          },
+          {
+            "name": "Republican Governors Association",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 10000000,
+            "sources": [
+              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" }
+            ]
+          },
+          {
+            "name": "Lone Star Liberty PAC",
+            "slug": "ken-paxton",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10000000,
+            "description": "Backed Ken Paxton's Texas Senate run; Paxton lost to Democrat James Talarico.",
+            "sources": [
+              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" }
+            ]
+          },
+          {
+            "name": "Republican Attorneys General Association",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 2000000,
+            "sources": [
+              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 291500000,
+        "rank": 1,
+        "ranking": "OpenSecrets 2024 top donors (via Newser)",
+        "description": "Almost all to outside groups backing Trump and Republicans, mainly through America PAC, which ran Trump's swing-state turnout operation.",
+        "sources": [
+          { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
+          { "url": "https://www.allsides.com/blog/elon-musk-tops-list-2024-political-donors-five-others-gave-more-100-million", "title": "Elon Musk tops list of 2024 political donors, five others gave more than $100 million — AllSides" },
+          { "url": "https://www.axios.com/2025/06/05/musk-trump-feud-2024-election-contributions", "title": "Musk takes credit for Trump's win in 2024. Here's how much he spent — Axios" }
+        ],
+        "recipients": [
+          {
+            "name": "America PAC",
+            "kind": "super-pac",
+            "side": "R",
+            "description": "His main 2024 vehicle; he put at least $250 million behind Trump overall.",
+            "sources": [
+              { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
+              { "url": "https://www.axios.com/2025/06/05/musk-trump-feud-2024-election-contributions", "title": "Musk takes credit for Trump's win in 2024. Here's how much he spent — Axios" }
+            ]
+          },
+          {
+            "name": "Donald Trump (via America PAC)",
+            "slug": "donald-trump",
+            "kind": "candidate",
+            "side": "R",
+            "sources": [
+              { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No stated plan. After the 2026 losses Musk joked that his \"election-interfering space lasers didn't work this time\"; Axios says it is unclear how the defeat will affect his appetite for spending in 2028. In 2025 he said he would spend \"a lot less\", then spent more than in 2024.",
+      "sources": [
+        { "url": "https://www.axios.com/2026/11/04/musk-republicans-midterm-gop-texas", "title": "Musk laughs off election drubbing with space lasers joke — Axios" },
+        { "url": "https://www.cnbc.com/2026/11/04/elon-musk-midterms-ai-data-centers.html", "title": "Elon Musk suffers political setback in 2026 midterms — CNBC" }
+      ],
+      "likely": [
+        {
+          "name": "America PAC",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "His own vehicle in both 2024 and 2026.",
+          "confidence": 0.7,
+          "sources": [
+            { "url": "https://www.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans", "title": "Here's what Elon Musk's $445 million is getting Republicans — CNN" },
+            { "url": "https://www.axios.com/2025/06/05/musk-trump-feud-2024-election-contributions", "title": "Musk takes credit for Trump's win in 2024. Here's how much he spent — Axios" }
+          ]
+        },
+        {
+          "name": "Senate Leadership Fund",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "Largest single recipient in 2026 ($158M).",
+          "confidence": 0.55,
+          "sources": [
+            { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" }
+          ]
+        },
+        {
+          "name": "JD Vance",
+          "slug": "jd-vance",
+          "kind": "candidate",
+          "side": "R",
+          "basis": "The Wall Street Journal reported in 2025 that Musk was weighing backing Vance in 2028; Musk replied that nothing the Journal says \"should ever be thought of as true\".",
+          "confidence": 0.4,
+          "sources": [
+            { "url": "https://www.newsweek.com/elon-musk-jd-vance-relationship-2028-2116776", "title": "Elon Musk and JD Vance's Relationship Under Scrutiny Amid 2028 Talk — Newsweek" }
+          ]
+        }
+      ]
+    }
+  }
 }

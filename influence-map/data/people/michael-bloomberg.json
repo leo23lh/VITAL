@@ -96,5 +96,117 @@
   ],
   "affiliations": [],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 84200000,
+        "rank": 9,
+        "ranking": "Rank among all 2026 donors, groups included (FEC data, per Al Jazeera and the Washington Post); total as cited: $84.2M per the Washington Post",
+        "description": "Most of it in September–October, aimed at a bigger House majority for Hakeem Jeffries. Newsweek counts $84.8M.",
+        "sources": [
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+          { "url": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html", "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT — CNBC" },
+          { "url": "https://www.washingtonpost.com/politics/2026/10/20/mike-bloomberg-starts-spending-blitz-help-democrats-retake-house/", "title": "Mike Bloomberg starts spending blitz to help Democrats retake the House — Washington Post" },
+          { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" }
+        ],
+        "recipients": [
+          {
+            "name": "Everytown for Gun Safety",
+            "kind": "other",
+            "side": "D",
+            "amount_usd": 24000000,
+            "description": "The gun-control group he founded; spent in House races.",
+            "sources": [
+              { "url": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html", "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT — CNBC" }
+            ]
+          },
+          {
+            "name": "House Majority PAC",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 16000000,
+            "description": "House Democrats' main super PAC.",
+            "sources": [
+              { "url": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html", "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT — CNBC" },
+              { "url": "https://www.washingtonpost.com/politics/2026/10/20/mike-bloomberg-starts-spending-blitz-help-democrats-retake-house/", "title": "Mike Bloomberg starts spending blitz to help Democrats retake the House — Washington Post" }
+            ]
+          },
+          {
+            "name": "Democratic governor candidates",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 8000000,
+            "description": "Battleground governor races.",
+            "sources": [
+              { "url": "https://www.newsweek.com/trump-400m-gop-midterms-bloomberg-80m-democrats-12596027", "title": "Trump Pushes $400M to GOP in Midterms as Bloomberg Drops $80M For Democrats — Newsweek" }
+            ]
+          },
+          {
+            "name": "Super PAC backing James Talarico (Texas Senate)",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 2500000,
+            "description": "His only disclosed Senate spending; Talarico beat Ken Paxton.",
+            "sources": [
+              { "url": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html", "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT — CNBC" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 64300000,
+        "rank": 8,
+        "ranking": "OpenSecrets 2024 top donors (via Newser)",
+        "description": "The biggest Democratic donor of 2024.",
+        "sources": [
+          { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
+          { "url": "https://www.allsides.com/blog/elon-musk-tops-list-2024-political-donors-five-others-gave-more-100-million", "title": "Elon Musk tops list of 2024 political donors, five others gave more than $100 million — AllSides" }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "Bloomberg has not picked a 2028 candidate; his adviser Howard Wolfson said in February 2026 that he \"has not thought at all through the presidential contest\", while calling him a big fan of Josh Shapiro. He funds House Democrats and gun-control groups every cycle.",
+      "sources": [
+        { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Bloomberg bets big on Pennsylvania's Shapiro — Axios" }
+      ],
+      "likely": [
+        {
+          "name": "Everytown for Gun Safety",
+          "kind": "other",
+          "side": "D",
+          "basis": "He founded it and funds it every cycle ($24M in 2026).",
+          "confidence": 0.8,
+          "sources": [
+            { "url": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html", "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT — CNBC" }
+          ]
+        },
+        {
+          "name": "House Majority PAC",
+          "kind": "super-pac",
+          "side": "D",
+          "basis": "Gave $10M+ in 2022 and $16M in 2026.",
+          "confidence": 0.7,
+          "sources": [
+            { "url": "https://thehill.com/homenews/campaign/3705040-michael-bloomberg-gives-pelosi-aligned-super-pac-another-10m-as-midterms-near/", "title": "Michael Bloomberg gives Pelosi-aligned super PAC another $10M as midterms near — The Hill" },
+            { "url": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html", "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT — CNBC" }
+          ]
+        },
+        {
+          "name": "Josh Shapiro",
+          "slug": "josh-shapiro",
+          "kind": "candidate",
+          "side": "D",
+          "basis": "His largest direct gift to a potential 2028 candidate ($2.5M in 2025; $5.25M+ since 2016); Axios says not an endorsement \"yet\".",
+          "confidence": 0.55,
+          "sources": [
+            { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Bloomberg bets big on Pennsylvania's Shapiro — Axios" }
+          ]
+        }
+      ]
+    }
+  }
 }
