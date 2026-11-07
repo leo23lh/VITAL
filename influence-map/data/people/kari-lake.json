@@ -167,6 +167,14 @@
         { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
         { "url": "https://wfdd.org/story/kari-lake-wins-arizonas-gop-senate-primary-shell-face-democratic-rep-ruben-gallego", "title": "Kari Lake wins Arizona's GOP Senate primary; she'll face Democratic Rep. Ruben Gallego — NPR via WFDD" }
       ]
+    },
+    {
+      "name": "Leo Halperin",
+      "slug": "leo-halperin",
+      "relationship_type": "family",
+      "description": "Son. Added by Leo Halperin himself, who chose to share this link.",
+      "confidence": 1.0,
+      "sources": ["user-provided"]
     }
   ],
   "source_conflicts": [
@@ -179,6 +187,6 @@
       ]
     }
   ],
-  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Her husband and children are private individuals and are not recorded.",
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Her husband and her other child are private individuals and are not recorded; her son Leo Halperin added himself to the map (see his file).",
   "last_researched": "2026-11-07"
 }

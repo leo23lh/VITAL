@@ -36,6 +36,12 @@ These apply to every command and every edit to `data/people/`. They are not opti
    health information, or details about private relatives or minors. `family`
    connections are allowed only when the relationship is publicly documented and
    the relative is a public figure in their own right. Never name children.
+   **One exception:** the map's owner may add themselves. Their file has
+   `"public_figure": false` and `"self_added": true`, holds only what they
+   provide (sources `["user-provided"]`), gets no web research and no photo, and
+   may carry a family link they choose to share; the relative's file may link
+   back with a `"user-provided"` source. Only the owner's own file may use
+   `self_added` (currently `leo-halperin.json`).
 3. **Every fact and connection needs a source URL.** The URL must be a page that
    states the fact. Drop anything you cannot source. Don't fill gaps from memory.
 4. **Note when sources disagree.** For facts about the person, add a

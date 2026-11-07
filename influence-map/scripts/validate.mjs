@@ -133,9 +133,14 @@ export function validatePeople(records, opts = {}) {
       if (p[key] !== undefined && !Array.isArray(p[key])) err(file, `"${key}" must be an array`);
     }
 
+    if (p.self_added !== undefined) {
+      if (p.self_added !== true) err(file, '"self_added" must be true or left out');
+      else if (p.public_figure !== false) err(file, '"self_added" is only for the map owner\'s own file, with "public_figure": false');
+    }
+
     const researched = p.public_figure === true;
     // Files for non-public people hold only what the user provided, so "user-provided" stands in for a URL.
-    const checkSources = (sources, where, { required = true } = {}) => {
+    const checkSources = (sources, where, { required = true, allowUser = false } = {}) => {
       if (!Array.isArray(sources) || sources.length === 0) {
         if (required && researched) err(file, `${where}: no sources (drop it or add a source URL)`);
         return;
@@ -143,7 +148,7 @@ export function validatePeople(records, opts = {}) {
       for (const s of sources) {
         const u = urlOf(s);
         if (isHttp(u)) continue;
-        if (!researched && u === 'user-provided') continue;
+        if ((!researched || allowUser) && u === 'user-provided') continue;
         err(file, `${where}: source ${JSON.stringify(s)} is not an http(s) URL`);
       }
     };
@@ -184,7 +189,8 @@ export function validatePeople(records, opts = {}) {
         err(file, `${where}: "confidence" must be a number from 0 to 1`);
       if (!isYear(c.start_year) || !isYear(c.end_year)) err(file, `${where}: start_year/end_year must be years or null`);
       if (!c.description) warn(file, `${where}: no description`);
-      checkSources(c.sources, where);
+      // A link to the owner's self-added file may cite what the owner provided.
+      checkSources(c.sources, where, { allowUser: bySlug.get(c.slug)?.data?.self_added === true });
 
       const key = `${c.slug}|${c.relationship_type}`;
       if (seen.has(key)) err(file, `${where}: duplicate ${c.relationship_type} record — merge them`);
@@ -200,7 +206,8 @@ export function validatePeople(records, opts = {}) {
         return;
       }
 
-      if (c.relationship_type === 'family' && target.data?.public_figure === false)
+      // Exception: the map owner may add themselves and share a family link (see CLAUDE.md rule 2).
+      if (c.relationship_type === 'family' && target.data?.public_figure === false && target.data?.self_added !== true)
         err(file, `${where}: family links are only allowed to relatives who are public figures`);
 
       // Reciprocity: the other person's file must point back with the inverse type.

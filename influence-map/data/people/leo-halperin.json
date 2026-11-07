@@ -1,0 +1,69 @@
+{
+  "name": "Leo Halperin",
+  "aliases": [],
+  "public_figure": false,
+  "self_added": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Digital Content Coordinator, U.S. Department of Labor (since August 2026)",
+  "summary": "Digital Content Coordinator at the U.S. Department of Labor since August 2026, producing and editing video and digital content for the department. Previously photo department manager at Mercedes-Benz of Northern Arizona; studied strategic communication and public relations at Northern Arizona University. Son of Kari Lake.",
+  "sources": ["user-provided"],
+  "timeline": [
+    {
+      "year": 2022,
+      "end_year": 2026,
+      "role": "Student, strategic communication, public relations, advertising and applied communication",
+      "org": "Northern Arizona University",
+      "sources": ["user-provided"]
+    },
+    {
+      "year": 2024,
+      "end_year": 2024,
+      "role": "Intern",
+      "org": "Mercedes-Benz of Northern Arizona",
+      "sources": ["user-provided"]
+    },
+    {
+      "year": 2024,
+      "end_year": 2026,
+      "role": "Photo Department Manager",
+      "org": "Mercedes-Benz of Northern Arizona",
+      "sources": ["user-provided"]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Digital Content Coordinator (full-time, from August 2026)",
+      "org": "U.S. Department of Labor",
+      "sources": ["user-provided"]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "U.S. Department of Labor",
+      "role": "Digital Content Coordinator",
+      "start_year": 2026,
+      "sources": ["user-provided"]
+    },
+    {
+      "name": "Northern Arizona University",
+      "role": "Student",
+      "start_year": 2022,
+      "end_year": 2026,
+      "sources": ["user-provided"]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "family",
+      "description": "Mother. Added by Leo Halperin himself, who chose to share this link.",
+      "confidence": 1.0,
+      "sources": ["user-provided"]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Self-added by the map's owner from his own LinkedIn profile (screenshots shared 2026-11-07). Not a public figure: no web research and no photo. Only what he chose to share is recorded.",
+  "last_researched": "2026-11-07"
+}

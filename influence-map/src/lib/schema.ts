@@ -211,6 +211,8 @@ export interface Person {
   name: string;
   aliases?: string[];
   public_figure: boolean;
+  /** The map owner's own file (public_figure false, user-provided details). */
+  self_added?: boolean;
   /** One of SECTORS; tints the person's dot. */
   sector?: Sector;
   /** Any of GROUPS; drives the preset views. */

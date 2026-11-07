@@ -148,6 +148,21 @@ describe('validatePeople', () => {
     expect(validator.GROUPS).toEqual(GROUPS.map((g) => g.id));
   });
 
+  it("allows a family link only to the owner's self-added file", () => {
+    const pub = person('mom', 'Mom', [{ ...conn('me', 'Me', 'family'), sources: ['user-provided'] }]);
+    const me = person('me', 'Me', [{ ...conn('mom', 'Mom', 'family'), sources: ['user-provided'] }], {
+      public_figure: false,
+      self_added: true,
+    });
+    expect(validator.validatePeople([pub, me]).errors).toEqual([]);
+    const notSelf = person('me', 'Me', [{ ...conn('mom', 'Mom', 'family'), sources: ['user-provided'] }], {
+      public_figure: false,
+    });
+    const errs = validator.validatePeople([pub, notSelf]).errors.map((e) => e.message).join('\n');
+    expect(errs).toMatch(/family links are only allowed/);
+    expect(errs).toMatch(/not an http/);
+  });
+
   it('checks sector and group names', () => {
     const p = person('a', 'A', [], { sector: 'sports' as never, groups: ['paypal-mafia', 'nope'] as never });
     const { errors } = validator.validatePeople([p]);
