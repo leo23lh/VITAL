@@ -1,0 +1,153 @@
+{
+  "name": "Ron DeSantis",
+  "aliases": ["Ronald Dion DeSantis"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican congressman (2013–2018) and governor of Florida (2019–2027); ran for the 2024 Republican nomination.",
+      "sources": [
+        { "url": "https://ballotpedia.org/Ron_DeSantis", "title": "Ballotpedia: Ron DeSantis" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Has not ruled out a second presidential run after his term ends in January 2027, and his team has been raising money; he polls in single digits (3–8%).",
+    "sources": [
+      { "url": "https://thedispatch.com/?p=83540", "title": "The Dispatch: DeSantis and Casey DeSantis political futures" },
+      { "url": "https://floridapolitics.com/archives/790326-poll-marco-rubio-second-among-republicans-in-2028-while-ron-desantis-is-in-single-digits/", "title": "Florida Politics: Rubio second in 2028 poll, DeSantis in single digits" }
+    ]
+  },
+  "current_role": "Governor of Florida (since January 2019; term ends January 2027)",
+  "summary": "Ron DeSantis represented Florida in Congress from 2013 to 2018, won the governorship in 2018 with Trump's endorsement and Susie Wiles's help, and was reelected in 2022. He challenged Trump for the 2024 nomination, dropped out after Iowa in January 2024 and endorsed him. His term ends in January 2027 and he has not ruled out a 2028 run.",
+  "sources": [
+    { "url": "https://ballotpedia.org/Ron_DeSantis", "title": "Ballotpedia: Ron DeSantis" },
+    { "url": "https://www.mprnews.org/story/2024/01/21/ron-desantis-ends-his-presidential-bid-before-new-hampshire-after-falling-far-short-of-trump", "title": "AP via MPR News: DeSantis drops out of the presidential race, endorses Trump" }
+  ],
+  "timeline": [
+    {
+      "year": 2013,
+      "end_year": 2018,
+      "role": "U.S. representative for Florida's 6th district",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://www.cbsnews.com/miami/news/timeline-ron-desantis-career", "title": "CBS Miami: Timeline: Ron DeSantis" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "Governor of Florida (term ends January 5, 2027)",
+      "org": "State of Florida",
+      "sources": [
+        { "url": "https://ballotpedia.org/Ron_DeSantis", "title": "Ballotpedia: Ron DeSantis" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": 2024,
+      "role": "Candidate for the Republican presidential nomination (withdrew January 21, 2024)",
+      "org": "DeSantis for President",
+      "sources": [
+        { "url": "https://www.mprnews.org/story/2024/01/21/ron-desantis-ends-his-presidential-bid-before-new-hampshire-after-falling-far-short-of-trump", "title": "AP via MPR News: DeSantis drops out of the presidential race, endorses Trump" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Trump endorsed DeSantis in the 2018 governor's primary; DeSantis endorsed Trump when he quit the 2024 race.",
+      "start_year": 2018,
+      "end_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/614126-ron-desantis-faces-hard-road-to-white-house-but-has-beat-long-odds-before", "title": "Florida Politics" },
+        { "url": "https://www.mprnews.org/story/2024/01/21/ron-desantis-ends-his-presidential-bid-before-new-hampshire-after-falling-far-short-of-trump", "title": "AP via MPR News: DeSantis drops out of the presidential race, endorses Trump" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "DeSantis challenged Trump for the 2024 Republican nomination, then withdrew and endorsed him after losing Iowa by 30 points.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.mprnews.org/story/2024/01/21/ron-desantis-ends-his-presidential-bid-before-new-hampshire-after-falling-far-short-of-trump", "title": "AP via MPR News: DeSantis drops out of the presidential race, endorses Trump" }
+      ]
+    },
+    {
+      "name": "Susie Wiles",
+      "slug": "susie-wiles",
+      "relationship_type": "employee",
+      "description": "Wiles took over DeSantis's faltering 2018 campaign for governor in its final months and helped him win.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/275872-susie-wiles-chair-desantis/", "title": "Florida Politics: Susie Wiles now in charge of the DeSantis campaign" }
+      ]
+    },
+    {
+      "name": "Susie Wiles",
+      "slug": "susie-wiles",
+      "relationship_type": "rival",
+      "description": "After the 2018 win DeSantis shut Wiles out and discouraged Trump from hiring her; she helped run Trump's 2024 primary campaign against him.",
+      "start_year": 2019,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Susie_Wiles", "title": "Wikipedia: Susie Wiles" }
+      ]
+    },
+    {
+      "name": "Casey DeSantis",
+      "slug": "casey-desantis",
+      "relationship_type": "family",
+      "description": "His wife and closest adviser; first lady of Florida.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.99,
+      "sources": [
+        { "url": "https://www.yahoo.com/entertainment/meet-ron-desantis-inner-circle-093000673.html", "title": "Yahoo News: Meet Ron DeSantis' inner circle" }
+      ]
+    },
+    {
+      "name": "James Uthmeier",
+      "slug": "james-uthmeier",
+      "relationship_type": "employee",
+      "description": "Uthmeier was DeSantis's chief of staff from 2021 and his 2024 presidential campaign manager; DeSantis appointed him attorney general in 2025.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.clickorlando.com/news/politics/2025/01/17/who-is-james-uthmeier-governors-pick-for-floridas-next-attorney-general/", "title": "News 6: Who is James Uthmeier, the governor's pick for attorney general" },
+        { "url": "https://www.semafor.com/article/08/08/2023/desantis-new-campaign-manager-james-uthmeier", "title": "Semafor: DeSantis names James Uthmeier campaign manager" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "funded_by",
+      "description": "Sacks was a major donor and fundraiser for DeSantis in 2022–2023 and was seen as a potential kingmaker for his 2024 run.",
+      "start_year": 2022,
+      "end_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "CNBC: Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis" },
+        { "url": "https://sfist.com/2022/10/20/wealthy-sf-recall-backer-pumping-millions-to-desantis-and-j-d-vance-hyping-that-ukraine-needs-to-surrender/", "title": "SFist: Sacks pumping millions to DeSantis and Vance" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

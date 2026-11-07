@@ -142,6 +142,29 @@
         { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" },
         { "url": "https://www.megynkelly.com/2024/08/22/tucker-carlson-on-whether-rfk-jr-endorsement-will-help-trump/", "title": "Megyn Kelly Show: Carlson on an RFK Jr. endorsement" }
       ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "ally",
+      "description": "Trump Jr. held meetings and calls with Kennedy in 2024 to negotiate his exit and endorsement of Trump.",
+      "start_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" }
+      ]
+    },
+    {
+      "name": "Omeed Malik",
+      "slug": "omeed-malik",
+      "relationship_type": "ally",
+      "description": "NBC reported that Malik, with Carlson and Trump Jr., held meetings and calls to negotiate Kennedy's 2024 exit and Trump endorsement.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

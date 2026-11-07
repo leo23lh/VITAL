@@ -300,6 +300,55 @@
       "sources": [
         { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios: Vice President-elect JD Vance's inner circle" }
       ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "rival",
+      "description": "Axios obtained recordings of Cruz criticizing Vance, and CNN reports his 2028 ambitions have gotten Vance's attention and annoyed Trump allies.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.axios.com/2026/01/25/cruz-trump-vance-secret-tapes", "title": "Axios: In secret recordings, Cruz trashes Trump tariffs, Vance" },
+        { "url": "https://www.cnn.com/2026/06/25/politics/ted-cruz-2028-republican-nomination-jd-vance-trump-maga", "title": "CNN: Ted Cruz's not-so-secret White House dreams have gotten JD Vance's attention" }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "ally",
+      "description": "A close friend who made a last-minute push at a Mar-a-Lago dinner for his father to pick Vance in July 2024.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://kvia.com/politics/cnn-us-politics/2024/07/15/how-donald-trump-landed-on-jd-vance-as-his-vice-presidential-pick/", "title": "CNN via KVIA: How Donald Trump landed on JD Vance as his VP pick" }
+      ]
+    },
+    {
+      "name": "Chris Buskirk",
+      "slug": "chris-buskirk",
+      "relationship_type": "ally",
+      "description": "CNN describes Buskirk as a key strategist for Vance.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" }
+      ]
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "ally",
+      "description": "The New York Times reported that Vance has developed a relationship with Adelson as RNC finance chair courting donors for 2028.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/", "title": "Forbes: The billionaires cozying up to JD Vance" }
+      ]
     }
   ],
   "source_conflicts": [],

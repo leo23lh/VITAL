@@ -1099,6 +1099,92 @@
         { "url": "https://www.notus.org/trump-white-house/joe-kent-national-counterterrorism-center-director-resigns-iran-war", "title": "NOTUS: Joe Kent, Trump's National Counterterrorism Center director, resigns over Iran war" },
         { "url": "https://www.aljazeera.com/news/2026/3/17/us-national-counterterrorism-center-director-joe-kent-resigns-over-iran-war", "title": "Al Jazeera" }
       ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "rival",
+      "description": "Cruz was Trump's main rival in the 2016 Republican primary.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Ted-Cruz", "title": "Britannica: Ted Cruz" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "ally",
+      "description": "Trump has called Cruz \"a good friend of mine\" amid reports of a 2028 bid.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://abcnews4.com/news/nation-world/trump-calls-ted-cruz-a-good-friend-of-mine-amid-rumors-of-a-2028-presidential-bid-jd-vance-tucker-carlson-nick-fuentes", "title": "Trump calls Ted Cruz a 'good friend of mine' amid rumors of a 2028 bid" }
+      ]
+    },
+    {
+      "name": "Ken Paxton",
+      "slug": "ken-paxton",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Paxton a week before his May 2026 runoff win over Cornyn.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://abc7ny.com/post/texas-attorney-general-ken-paxton-wins-gop-runoff-us-senate-ousting-longtime-sen-john-cornyn-ap-projects/19177494/", "title": "AP via ABC7: Ken Paxton wins GOP runoff for US Senate, ousting John Cornyn" }
+      ]
+    },
+    {
+      "name": "Sergio Gor",
+      "slug": "sergio-gor",
+      "relationship_type": "employee",
+      "description": "Trump named Gor director of presidential personnel and then ambassador to India.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sergio_Gor", "title": "Wikipedia: Sergio Gor" },
+        { "url": "https://m.washingtontimes.com/news/2025/nov/10/sergio-gor-sworn-us-ambassador-india/", "title": "Washington Times: Sergio Gor sworn in as U.S. ambassador to India" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "ally",
+      "description": "Trump endorsed DeSantis in the 2018 governor's primary; DeSantis endorsed Trump when he quit the 2024 race.",
+      "start_year": 2018,
+      "end_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/614126-ron-desantis-faces-hard-road-to-white-house-but-has-beat-long-odds-before", "title": "Florida Politics" },
+        { "url": "https://www.mprnews.org/story/2024/01/21/ron-desantis-ends-his-presidential-bid-before-new-hampshire-after-falling-far-short-of-trump", "title": "AP via MPR News: DeSantis drops out of the presidential race, endorses Trump" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "rival",
+      "description": "DeSantis challenged Trump for the 2024 Republican nomination, then withdrew and endorsed him after losing Iowa by 30 points.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.mprnews.org/story/2024/01/21/ron-desantis-ends-his-presidential-bid-before-new-hampshire-after-falling-far-short-of-trump", "title": "AP via MPR News: DeSantis drops out of the presidential race, endorses Trump" }
+      ]
+    },
+    {
+      "name": "James Uthmeier",
+      "slug": "james-uthmeier",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Uthmeier for a full term as attorney general in October 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://floridaphoenix.com/2025/10/08/trump-is-backing-james-uthmeier-for-florida-attorney-general-in-2026/", "title": "Florida Phoenix" }
+      ]
     }
   ],
   "source_conflicts": [

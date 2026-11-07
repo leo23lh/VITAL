@@ -294,6 +294,29 @@
       "sources": [
         { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
       ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "rival",
+      "description": "Cruz has positioned himself for 2028 through a public feud with Carlson over foreign policy and Israel; Carlson called a Cruz run \"hilarious\".",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2025/11/17/ted-cruz-tucker-carlson-president-2028", "title": "Axios: Ted Cruz sets stage for 2028 run with Tucker jabs" }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "ally",
+      "description": "With Carlson and donor Omeed Malik, he negotiated Robert F. Kennedy Jr.'s exit and Trump endorsement in August 2024.",
+      "start_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" }
+      ]
     }
   ],
   "source_conflicts": [

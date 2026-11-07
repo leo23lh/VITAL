@@ -1,0 +1,82 @@
+{
+  "name": "Ken Paxton",
+  "aliases": ["Warren Kenneth Paxton Jr."],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican attorney general of Texas since 2015 and Trump-endorsed 2026 Senate nominee.",
+      "sources": [
+        { "url": "https://abc7ny.com/post/texas-attorney-general-ken-paxton-wins-gop-runoff-us-senate-ousting-longtime-sen-john-cornyn-ap-projects/19177494/", "title": "AP via ABC7: Ken Paxton wins GOP runoff for US Senate, ousting John Cornyn" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["ted-cruz"],
+    "basis": "Cruz's closest 2026 political ally: Cruz campaigned and raised money for Paxton's Senate run, which the pro-Cruz super PAC also backed.",
+    "sources": [
+      { "url": "https://dnyuz.com/2026/10/06/ken-paxtons-secret-weapon-ted-cruz/", "title": "New York Times via DNYUZ: Ken Paxton's secret weapon: Ted Cruz" }
+    ]
+  },
+  "current_role": "Attorney General of Texas (since 2015); lost the November 2026 U.S. Senate race",
+  "summary": "Ken Paxton has been Texas attorney general since 2015. With Trump's endorsement he ousted Sen. John Cornyn in the May 2026 Republican runoff, 64% to 36%, but lost the November 2026 general election to Democrat James Talarico, the first Democratic statewide win in Texas in more than 30 years. Ted Cruz was one of his main backers.",
+  "sources": [
+    { "url": "https://abc7ny.com/post/texas-attorney-general-ken-paxton-wins-gop-runoff-us-senate-ousting-longtime-sen-john-cornyn-ap-projects/19177494/", "title": "AP via ABC7: Ken Paxton wins GOP runoff for US Senate, ousting John Cornyn" },
+    { "url": "https://www.scrippsnews.com/politics/america-votes/democrat-james-talarico-to-flip-texas-senate-seat-in-historic-upset", "title": "Scripps News: Democrat James Talarico flips Texas Senate seat in historic upset" }
+  ],
+  "timeline": [
+    {
+      "year": 2015,
+      "end_year": null,
+      "role": "Attorney General of Texas (did not seek reelection in 2026)",
+      "org": "State of Texas",
+      "sources": [
+        { "url": "https://abc7ny.com/post/texas-attorney-general-ken-paxton-wins-gop-runoff-us-senate-ousting-longtime-sen-john-cornyn-ap-projects/19177494/", "title": "AP via ABC7: Ken Paxton wins GOP runoff for US Senate, ousting John Cornyn" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": 2026,
+      "role": "Republican nominee for U.S. Senate (won the runoff against Cornyn; lost to Talarico)",
+      "org": "Paxton for Senate",
+      "sources": [
+        { "url": "https://abc7ny.com/post/texas-attorney-general-ken-paxton-wins-gop-runoff-us-senate-ousting-longtime-sen-john-cornyn-ap-projects/19177494/", "title": "AP via ABC7: Ken Paxton wins GOP runoff for US Senate, ousting John Cornyn" },
+        { "url": "https://www.scrippsnews.com/politics/america-votes/democrat-james-talarico-to-flip-texas-senate-seat-in-historic-upset", "title": "Scripps News: Democrat James Talarico flips Texas Senate seat in historic upset" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "ally",
+      "description": "Cruz campaigned alongside Paxton and helped raise money for his 2026 Senate run, and the pro-Cruz super PAC spent millions backing him.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://dnyuz.com/2026/10/06/ken-paxtons-secret-weapon-ted-cruz/", "title": "New York Times via DNYUZ: Ken Paxton's secret weapon: Ted Cruz" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Paxton a week before his May 2026 runoff win over Cornyn.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://abc7ny.com/post/texas-attorney-general-ken-paxton-wins-gop-runoff-us-senate-ousting-longtime-sen-john-cornyn-ap-projects/19177494/", "title": "AP via ABC7: Ken Paxton wins GOP runoff for US Senate, ousting John Cornyn" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

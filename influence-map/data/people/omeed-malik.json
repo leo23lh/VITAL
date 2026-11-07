@@ -1,0 +1,88 @@
+{
+  "name": "Omeed Malik",
+  "public_figure": true,
+  "sector": "business",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Trump donor and financier of conservative \"patriotic capitalism\" ventures.",
+      "sources": [
+        { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["donald-trump-jr"],
+    "basis": "Trump Jr.'s business partner at 1789 Capital and co-owner with him of the Executive Branch club.",
+    "sources": [
+      { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" },
+      { "url": "https://en.wikipedia.org/wiki/Executive_Branch_(club)", "title": "Wikipedia: Executive Branch (club)" }
+    ]
+  },
+  "current_role": "Co-founder and president of 1789 Capital",
+  "summary": "Omeed Malik, an investment banker and Trump donor, co-founded the venture firm 1789 Capital in 2022 with Chris Buskirk and Rebekah Mercer; Donald Trump Jr. joined as a partner in late 2024. Malik co-owns the Washington club Executive Branch and helped negotiate Robert F. Kennedy Jr.'s 2024 endorsement of Trump.",
+  "sources": [
+    { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" },
+    { "url": "https://en.wikipedia.org/wiki/Executive_Branch_(club)", "title": "Wikipedia: Executive Branch (club)" }
+  ],
+  "timeline": [
+    {
+      "year": 2022,
+      "end_year": null,
+      "role": "Co-founder and president",
+      "org": "1789 Capital",
+      "sources": [
+        { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" },
+        { "url": "https://www.adn.com/nation-world/2025/11/04/inside-the-billionaire-network-shaping-magas-post-trump-future/", "title": "Washington Post via ADN: Inside the billionaire network shaping MAGA's post-Trump future" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "colleague",
+      "description": "Partners at 1789 Capital and co-owners of the Executive Branch club.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" },
+        { "url": "https://en.wikipedia.org/wiki/Executive_Branch_(club)", "title": "Wikipedia: Executive Branch (club)" }
+      ]
+    },
+    {
+      "name": "Chris Buskirk",
+      "slug": "chris-buskirk",
+      "relationship_type": "co-founder",
+      "description": "Co-founded 1789 Capital in 2022.",
+      "start_year": 2022,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" },
+        { "url": "https://www.adn.com/nation-world/2025/11/04/inside-the-billionaire-network-shaping-magas-post-trump-future/", "title": "Washington Post via ADN" }
+      ]
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "ally",
+      "description": "NBC reported that Malik, with Carlson and Trump Jr., held meetings and calls to negotiate Kennedy's 2024 exit and Trump endorsement.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

@@ -35,9 +35,10 @@
   "race_2028": {
     "role": "camp",
     "contenders": ["jd-vance"],
-    "basis": "Lobbied Trump to pick Vance as his running mate in 2024 and remains a close tech ally.",
+    "basis": "Lobbied Trump to pick Vance as his running mate in 2024 and remains a close tech ally; earlier a major DeSantis backer.",
     "sources": [
-      { "url": "https://businessinsider.nl/elon-musk-tucker-carlson-and-david-sacks-personally-lobbied-trump-to-pick-vance-report", "title": "Business Insider: Musk, Carlson and Sacks lobbied Trump to pick Vance" }
+      { "url": "https://businessinsider.nl/elon-musk-tucker-carlson-and-david-sacks-personally-lobbied-trump-to-pick-vance-report", "title": "Business Insider" },
+      { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "CNBC: Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis" }
     ]
   },
   "current_role": "Co-chair of the President's Council of Advisors on Science and Technology (PCAST); co-founder of Craft Ventures; All-In podcast co-host",
@@ -262,6 +263,19 @@
       "confidence": 0.7,
       "sources": [
         { "url": "https://businessinsider.nl/elon-musk-tucker-carlson-and-david-sacks-personally-lobbied-trump-to-pick-vance-report", "title": "Business Insider: Musk, Carlson and Sacks personally lobbied Trump to pick Vance" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "donor",
+      "description": "Sacks was a major donor and fundraiser for DeSantis in 2022–2023 and was seen as a potential kingmaker for his 2024 run.",
+      "start_year": 2022,
+      "end_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "CNBC: Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis" },
+        { "url": "https://sfist.com/2022/10/20/wealthy-sf-recall-backer-pumping-millions-to-desantis-and-j-d-vance-hyping-that-ukraine-needs-to-surrender/", "title": "SFist: Sacks pumping millions to DeSantis and Vance" }
       ]
     }
   ],

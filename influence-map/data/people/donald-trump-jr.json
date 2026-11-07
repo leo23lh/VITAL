@@ -1,0 +1,172 @@
+{
+  "name": "Donald Trump Jr.",
+  "aliases": ["Don Jr."],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle", "2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Leading MAGA surrogate for his father's campaigns and host of the Triggered podcast.",
+      "sources": [
+        { "url": "https://kvia.com/politics/cnn-us-politics/2024/07/15/how-donald-trump-landed-on-jd-vance-as-his-vice-presidential-pick/", "title": "CNN via KVIA: How Donald Trump landed on JD Vance as his VP pick" },
+        { "url": "https://www.axios.com/2023/01/03/donald-trump-jr-signs-7-figure-rumble-podcast-deal", "title": "Axios: Donald Trump Jr. signs 7-figure podcast deal with Rumble" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Polled second in some 2028 Republican polls (about 10–19%), though he has shown no sign of preparing a run and trails Vance by double digits.",
+    "sources": [
+      { "url": "https://www.pollcheck.co.uk/us/primaries/republican/", "title": "PollCheck: 2028 Republican primary polls, national average" },
+      { "url": "https://www.washingtonexaminer.com/?p=4502540", "title": "Washington Examiner: The road to the 2028 GOP nomination" }
+    ]
+  },
+  "current_role": "Executive vice president of the Trump Organization; partner at 1789 Capital",
+  "summary": "Donald Trump Jr., the president's eldest son, runs the Trump Organization with his brother Eric, hosts the Rumble podcast Triggered, and became a partner at the venture firm 1789 Capital in late 2024. A close friend of JD Vance, he pushed his father to pick Vance in 2024 and helped bring Robert F. Kennedy Jr. on board; he polls second in some 2028 surveys but has not moved toward a run.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Donald_Trump_Jr.", "title": "Wikipedia: Donald Trump Jr." },
+    { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" },
+    { "url": "https://kvia.com/politics/cnn-us-politics/2024/07/15/how-donald-trump-landed-on-jd-vance-as-his-vice-presidential-pick/", "title": "CNN via KVIA: How Donald Trump landed on JD Vance as his VP pick" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Executive vice president",
+      "org": "The Trump Organization",
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump-Jr", "title": "Britannica: Donald Trump Jr." }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": null,
+      "role": "Co-founder (with Sergio Gor)",
+      "org": "Winning Team Publishing",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sergio_Gor", "title": "Wikipedia: Sergio Gor" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": null,
+      "role": "Host of Triggered",
+      "org": "Rumble",
+      "sources": [
+        { "url": "https://www.axios.com/2023/01/03/donald-trump-jr-signs-7-figure-rumble-podcast-deal", "title": "Axios" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": null,
+      "role": "Partner",
+      "org": "1789 Capital",
+      "sources": [
+        { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "family",
+      "description": "Eldest son; executive vice president of the Trump Organization.",
+      "start_year": null,
+      "confidence": 0.99,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump-Jr", "title": "Britannica: Donald Trump Jr." }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "A close friend who made a last-minute push at a Mar-a-Lago dinner for his father to pick Vance in July 2024.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://kvia.com/politics/cnn-us-politics/2024/07/15/how-donald-trump-landed-on-jd-vance-as-his-vice-presidential-pick/", "title": "CNN via KVIA: How Donald Trump landed on JD Vance as his VP pick" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "With Carlson and donor Omeed Malik, he negotiated Robert F. Kennedy Jr.'s exit and Trump endorsement in August 2024.",
+      "start_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" }
+      ]
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "ally",
+      "description": "Trump Jr. held meetings and calls with Kennedy in 2024 to negotiate his exit and endorsement of Trump.",
+      "start_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" }
+      ]
+    },
+    {
+      "name": "Omeed Malik",
+      "slug": "omeed-malik",
+      "relationship_type": "colleague",
+      "description": "Partners at 1789 Capital, which Malik co-founded, and co-owners of the Executive Branch club; Malik also helped negotiate the RFK Jr. endorsement.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" },
+        { "url": "https://en.wikipedia.org/wiki/Executive_Branch_(club)", "title": "Wikipedia: Executive Branch (club)" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" }
+      ]
+    },
+    {
+      "name": "Chris Buskirk",
+      "slug": "chris-buskirk",
+      "relationship_type": "colleague",
+      "description": "Partners at 1789 Capital and co-owners of the Executive Branch club.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" },
+        { "url": "https://en.wikipedia.org/wiki/Executive_Branch_(club)", "title": "Wikipedia: Executive Branch (club)" }
+      ]
+    },
+    {
+      "name": "Sergio Gor",
+      "slug": "sergio-gor",
+      "relationship_type": "co-founder",
+      "description": "Co-founded the conservative publisher Winning Team Publishing in 2021.",
+      "start_year": 2021,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sergio_Gor", "title": "Wikipedia: Sergio Gor" }
+      ]
+    },
+    {
+      "name": "Andy Surabian",
+      "slug": "andy-surabian",
+      "relationship_type": "employee",
+      "description": "Surabian is a close political adviser and spokesman for Trump Jr.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

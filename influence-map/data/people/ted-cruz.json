@@ -1,0 +1,154 @@
+{
+  "name": "Ted Cruz",
+  "aliases": ["Rafael Edward Cruz"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican U.S. senator from Texas since 2013 and runner in the 2016 Republican presidential primary; a hawkish, pro-Israel conservative.",
+      "sources": [
+        { "url": "https://www.cruz.senate.gov/imo/media/doc/about_ted_bio.pdf", "title": "Sen. Ted Cruz: official biography" },
+        { "url": "https://www.britannica.com/biography/Ted-Cruz", "title": "Britannica: Ted Cruz" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Openly laying groundwork for 2028 as a pro-interventionist Republican, courting pro-Israel and former Haley donors; Trump allies treat a run as all but certain, though he says he is focused on the midterms.",
+    "sources": [
+      { "url": "https://www.axios.com/2025/11/17/ted-cruz-tucker-carlson-president-2028", "title": "Axios: Ted Cruz sets stage for 2028 run with Tucker jabs" },
+      { "url": "https://www.cnn.com/2026/06/25/politics/ted-cruz-2028-republican-nomination-jd-vance-trump-maga", "title": "CNN: Ted Cruz's not-so-secret White House dreams have gotten JD Vance's attention" }
+    ]
+  },
+  "current_role": "U.S. senator from Texas (since 2013)",
+  "summary": "Ted Cruz, Texas's solicitor general from 2003 to 2008, has represented Texas in the Senate since 2013 and finished second to Trump in the 2016 Republican primary. He hosts the Verdict podcast and is laying groundwork for a 2028 run as the hawkish alternative to JD Vance, feuding publicly with Tucker Carlson over foreign policy and Israel.",
+  "sources": [
+    { "url": "https://www.cruz.senate.gov/imo/media/doc/about_ted_bio.pdf", "title": "Sen. Ted Cruz: official biography" },
+    { "url": "https://www.britannica.com/biography/Ted-Cruz", "title": "Britannica: Ted Cruz" },
+    { "url": "https://www.axios.com/2025/11/17/ted-cruz-tucker-carlson-president-2028", "title": "Axios: Ted Cruz sets stage for 2028 run with Tucker jabs" }
+  ],
+  "timeline": [
+    {
+      "year": 2003,
+      "end_year": 2008,
+      "role": "Solicitor General of Texas",
+      "org": "Office of the Texas Attorney General",
+      "sources": [
+        { "url": "https://www.cruz.senate.gov/imo/media/doc/about_ted_bio.pdf", "title": "Sen. Ted Cruz: official biography" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": null,
+      "role": "U.S. senator from Texas",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://www.cruz.senate.gov/imo/media/doc/about_ted_bio.pdf", "title": "Sen. Ted Cruz: official biography" }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": 2016,
+      "role": "Candidate for the Republican presidential nomination",
+      "org": "Cruz for President",
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Ted-Cruz", "title": "Britannica: Ted Cruz" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "Cruz was Trump's main rival in the 2016 Republican primary.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Ted-Cruz", "title": "Britannica: Ted Cruz" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Trump has called Cruz \"a good friend of mine\" amid reports of a 2028 bid.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://abcnews4.com/news/nation-world/trump-calls-ted-cruz-a-good-friend-of-mine-amid-rumors-of-a-2028-presidential-bid-jd-vance-tucker-carlson-nick-fuentes", "title": "Trump calls Ted Cruz a 'good friend of mine' amid rumors of a 2028 bid" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "rival",
+      "description": "Cruz has positioned himself for 2028 through a public feud with Carlson over foreign policy and Israel; Carlson called a Cruz run \"hilarious\".",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2025/11/17/ted-cruz-tucker-carlson-president-2028", "title": "Axios: Ted Cruz sets stage for 2028 run with Tucker jabs" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "rival",
+      "description": "Axios obtained recordings of Cruz criticizing Vance, and CNN reports his 2028 ambitions have gotten Vance's attention and annoyed Trump allies.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.axios.com/2026/01/25/cruz-trump-vance-secret-tapes", "title": "Axios: In secret recordings, Cruz trashes Trump tariffs, Vance" },
+        { "url": "https://www.cnn.com/2026/06/25/politics/ted-cruz-2028-republican-nomination-jd-vance-trump-maga", "title": "CNN: Ted Cruz's not-so-secret White House dreams have gotten JD Vance's attention" }
+      ]
+    },
+    {
+      "name": "Ken Paxton",
+      "slug": "ken-paxton",
+      "relationship_type": "ally",
+      "description": "Cruz campaigned alongside Paxton and helped raise money for his 2026 Senate run, and the pro-Cruz super PAC spent millions backing him.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://dnyuz.com/2026/10/06/ken-paxtons-secret-weapon-ted-cruz/", "title": "New York Times via DNYUZ: Ken Paxton's secret weapon: Ted Cruz" },
+        { "url": "https://www.click2houston.com/news/texas/2026/10/16/pro-cruz-pac-launches-seven-figure-spanish-language-ad-buy-attacking-talarico/", "title": "Houston Public Media: Pro-Cruz PAC ad buy attacking Talarico" }
+      ]
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "donor",
+      "description": "Adelson gave $1 million to a super PAC supporting Cruz's 2024 Senate reelection.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://api.texastribune.org/2024/06/20/miriam-adelson-ted-cruz-senate/", "title": "Texas Tribune: Miriam Adelson gives pro-Ted Cruz super PAC $1 million" }
+      ]
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "ally",
+      "description": "In the 2016 Republican primary Miriam Adelson was reported to favor Cruz while Sheldon Adelson leaned toward Marco Rubio.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://news.yahoo.com/millions-at-stake-the-adelson-primary-is-neck-125553624.html", "title": "Millions at stake, the 'Adelson primary' is neck and neck — Yahoo News" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

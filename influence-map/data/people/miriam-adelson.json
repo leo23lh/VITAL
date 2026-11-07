@@ -3,7 +3,7 @@
   "aliases": ["Miriam Ochshorn", "Miriam Ochsorn Adelson", "Dr. Miriam Adelson"],
   "public_figure": true,
   "sector": "business",
-  "groups": ["middle-east", "media"],
+  "groups": ["middle-east", "media", "2028-race"],
   "photo": {
     "file": "miriam-adelson.jpg",
     "credit": "Gage Skidmore from Surprise, AZ, United States of America",
@@ -22,6 +22,15 @@
       ]
     }
   ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["ted-cruz", "jd-vance"],
+    "basis": "Major donor courted by both: she funded the pro-Cruz super PAC in 2024 and has developed a relationship with Vance as RNC finance chair.",
+    "sources": [
+      { "url": "https://api.texastribune.org/2024/06/20/miriam-adelson-ted-cruz-senate/", "title": "Texas Tribune: Miriam Adelson gives pro-Ted Cruz super PAC $1 million" },
+      { "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/", "title": "Forbes" }
+    ]
+  },
   "current_role": "Majority owner of Las Vegas Sands and of the Dallas Mavericks; publisher of Israel Hayom; Republican megadonor",
   "summary": "Miriam Adelson is an Israeli-American physician specializing in addiction treatment and the widow of casino magnate Sheldon Adelson (died 2021); she controls Las Vegas Sands, bought a majority of the Dallas Mavericks with her family in 2023 and publishes the Israeli daily Israel Hayom. One of the largest Republican donors, she gave about $100 million to the pro-Trump super PAC Preserve America in 2024, and Trump awarded her the Presidential Medal of Freedom in 2018.",
   "sources": [
@@ -207,6 +216,30 @@
       "confidence": 0.6,
       "sources": [
         { "url": "https://news.yahoo.com/millions-at-stake-the-adelson-primary-is-neck-125553624.html", "title": "Millions at stake, the 'Adelson primary' is neck and neck — Yahoo News" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "funded_by",
+      "description": "Adelson gave $1 million to a super PAC supporting Cruz's 2024 Senate reelection.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://api.texastribune.org/2024/06/20/miriam-adelson-ted-cruz-senate/", "title": "Texas Tribune: Miriam Adelson gives pro-Ted Cruz super PAC $1 million" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "The New York Times reported that Vance has developed a relationship with Adelson as RNC finance chair courting donors for 2028.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/", "title": "Forbes: The billionaires cozying up to JD Vance" }
       ]
     }
   ],

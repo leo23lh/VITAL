@@ -1,0 +1,49 @@
+{
+  "name": "Casey DeSantis",
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["ron-desantis"],
+    "basis": "Widely described as her husband's closest confidant, with more sway than any other adviser.",
+    "sources": [
+      { "url": "https://www.yahoo.com/entertainment/meet-ron-desantis-inner-circle-093000673.html", "title": "Yahoo News: Meet Ron DeSantis' inner circle" }
+    ]
+  },
+  "current_role": "First Lady of Florida (since 2019)",
+  "summary": "Casey DeSantis, a former television journalist, has been first lady of Florida since 2019 and is described as Ron DeSantis's most influential adviser. She weighed running to succeed him in 2026, which donors encouraged, amid controversy over her Hope Florida initiative.",
+  "sources": [
+    { "url": "https://www.yahoo.com/entertainment/meet-ron-desantis-inner-circle-093000673.html", "title": "Yahoo News: Meet Ron DeSantis' inner circle" },
+    { "url": "https://www.yahoo.com/news/casey-desantis-considers-running-florida-032348519.html", "title": "NBC News via Yahoo: Casey DeSantis considers running for Florida governor" }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "First Lady of Florida",
+      "org": "State of Florida",
+      "sources": [
+        { "url": "https://www.yahoo.com/entertainment/meet-ron-desantis-inner-circle-093000673.html", "title": "Yahoo News: Meet Ron DeSantis' inner circle" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "family",
+      "description": "Her husband; she is his closest adviser.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.99,
+      "sources": [
+        { "url": "https://www.yahoo.com/entertainment/meet-ron-desantis-inner-circle-093000673.html", "title": "Yahoo News: Meet Ron DeSantis' inner circle" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages. Whether she entered the 2026 governor's race could not be confirmed from the sources found, so it is left out.",
+  "aliases": [],
+  "affiliations": [],
+  "last_researched": "2026-11-07"
+}
