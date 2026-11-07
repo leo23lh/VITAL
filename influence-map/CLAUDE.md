@@ -155,7 +155,7 @@ means "Jeff Sessions employed Stephen Miller".
 | `funded_by` | O was funded by S | `donor` |
 | `colleague` | worked alongside each other | `colleague` |
 | `ally` | publicly documented political or professional alliance | `ally` |
-| `rival` | publicly documented opposition or feud | `rival` |
+| `rival` | publicly documented opposition or feud (set `end_year: null` if ongoing, the year it ended if it's over) | `rival` |
 | `co-founder` | founded something together | `co-founder` |
 | `family` | relatives — only if documented and both are public figures | `family` |
 
@@ -210,8 +210,10 @@ on a phone. Its link is in `artifact.json`.
   event when a file changes (`vite-plugin-people.ts`). There is no backend
   beyond that and no network access from the app.
 - **Colors.** Relationship lines are grey until a person is selected (or "Color
-  all lines" is on), then colored by family (Work, Money, Alliance, Rivalry,
-  Personal). Dots are tinted by sector. Both color sets were checked for
+  all lines" is on), then colored by family (Work, Money, Alliance, Current
+  rivalry, Past rivalry, Personal). A rivalry is past when its `end_year` is a
+  year; ongoing or undated rivalries count as current. Past rivalries share the
+  rivalry color but are drawn dotted (dashed still means confidence under 50%). Dots are tinted by sector. Both color sets were checked for
   color-blind separation against the dark background; the viewer always pairs
   color with text (legend, tooltips, details), so keep it that way.
 - If you add a sector or group, update `src/lib/schema.ts`, `scripts/validate.mjs`,

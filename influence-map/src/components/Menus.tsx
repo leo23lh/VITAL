@@ -109,7 +109,7 @@ function FiltersMenu(props: Props) {
       {EDGE_FAMILIES.map((f) => (
         <label key={f.id} className={`check-row${hidden.has(f.id) ? ' off' : ''}`}>
           <input type="checkbox" checked={!hidden.has(f.id)} onChange={() => props.onToggleFamily(f.id)} />
-          <span className="family-line" style={{ background: f.color }} />
+          <span className={`family-line${f.dotted ? ' dotted' : ''}`} style={{ color: f.color, background: f.dotted ? undefined : f.color }} />
           <span className="check-label">
             {f.label} <span className="muted">· {f.hint}</span>
           </span>

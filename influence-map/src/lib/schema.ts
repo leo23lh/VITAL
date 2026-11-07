@@ -48,7 +48,7 @@ export type EdgeGroup =
   | 'family';
 
 /** Relationship families: the colors and filters in the viewer. Fine types stay in the details. */
-export type EdgeFamily = 'work' | 'money' | 'alliance' | 'rivalry' | 'personal';
+export type EdgeFamily = 'work' | 'money' | 'alliance' | 'rivalry' | 'past-rivalry' | 'personal';
 
 export interface EdgeFamilyInfo {
   id: EdgeFamily;
@@ -56,13 +56,16 @@ export interface EdgeFamilyInfo {
   /** Validated as a set against the dark background; see CLAUDE.md "Colors". */
   color: string;
   hint: string;
+  /** Dotted lines tell past rivalries from current ones without relying on color. */
+  dotted?: boolean;
 }
 
 export const EDGE_FAMILIES: EdgeFamilyInfo[] = [
   { id: 'work', label: 'Work', color: '#8b95a8', hint: 'employer, colleague, co-founder' },
   { id: 'money', label: 'Money', color: '#008300', hint: 'donor → recipient' },
   { id: 'alliance', label: 'Alliance', color: '#9085e9', hint: 'ally' },
-  { id: 'rivalry', label: 'Rivalry', color: '#d55181', hint: 'rival' },
+  { id: 'rivalry', label: 'Current rivalry', color: '#d55181', hint: 'rival, ongoing' },
+  { id: 'past-rivalry', label: 'Past rivalry', color: '#d55181', hint: 'rival, ended', dotted: true },
   { id: 'personal', label: 'Personal', color: '#c98500', hint: 'mentor, family' },
 ];
 
@@ -102,7 +105,8 @@ export const EDGE_GROUP_BY_ID: Record<EdgeGroup, EdgeGroupInfo> = Object.fromEnt
 ) as Record<EdgeGroup, EdgeGroupInfo>;
 
 /** Which line wins the color when two people share several kinds of link. */
-export const FAMILY_PRIORITY: EdgeFamily[] = ['rivalry', 'money', 'personal', 'alliance', 'work'];
+// A past rivalry only colors the line when nothing current links the pair.
+export const FAMILY_PRIORITY: EdgeFamily[] = ['rivalry', 'money', 'personal', 'alliance', 'work', 'past-rivalry'];
 
 /** Sector: one per person, tints their dot. Keep in sync with scripts/validate.mjs. */
 export const SECTORS = [

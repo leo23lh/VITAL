@@ -110,7 +110,9 @@ to this person (their boss is `employer`, their staffer is `employee`).
 
 a. Write `DATA_DIR/<slug>.json` in the CLAUDE.md format, with `last_researched`
    set to today's date. Set `sector` and `groups` from the "Sectors and groups"
-   tables in CLAUDE.md, based on what the file's sourced facts show.
+   tables in CLAUDE.md, based on what the file's sourced facts show. For every
+   `rival` record, set `end_year: null` if the feud is ongoing or the year it ended
+   (the viewer draws ended rivalries as dotted "past rivalry" lines).
 
 b. **Reciprocal links.** For every connection whose `slug` has a file in DATA_DIR,
    open that file and add the inverse record to its `connections` (inverse type

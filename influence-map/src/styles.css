@@ -349,6 +349,11 @@ code {
   min-width: 0;
 }
 
+.family-line.dotted {
+  height: 3px;
+  background: radial-gradient(circle, currentColor 1.4px, transparent 1.6px) 0 50% / 5px 3px repeat-x;
+}
+
 .family-line {
   width: 22px;
   height: 3px;

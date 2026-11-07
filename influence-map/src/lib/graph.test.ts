@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import * as validator from '../../scripts/validate.mjs';
-import { activeInYear, buildGraph, describeLink, mergePairs, neighborhood, ringDistances, roleOfOther } from './graph';
+import { activeInYear, buildGraph, describeLink, familyOf, mergePairs, neighborhood, ringDistances, roleOfOther } from './graph';
 import { GROUPS, INVERSE_TYPE, RELATIONSHIP_TYPES, SECTORS, type Person, type PersonFile } from './schema';
 
 const src = (n: number) => [{ url: `https://example.com/${n}`, title: `Source ${n}` }];
@@ -117,6 +117,20 @@ describe('views', () => {
     expect(activeInYear(funding, 2010)).toBe(true);
     expect([...neighborhood('a', g.links, 1)].sort()).toEqual(['a', 'b']);
     expect([...neighborhood('a', g.links, 2)].sort()).toEqual(['a', 'b', 'c']);
+  });
+
+  it('splits rivalries into current (ongoing) and past (ended)', () => {
+    const g2 = buildGraph([
+      person('x', 'X', [conn('y', 'Y', 'rival', 0.9, { end_year: 2016 }), conn('z', 'Z', 'rival', 0.9, { end_year: null })]),
+      person('y', 'Y', [conn('x', 'X', 'rival', 0.9, { end_year: 2016 })]),
+      person('z', 'Z', [conn('x', 'X', 'rival', 0.9, { end_year: null })]),
+    ]);
+    const xy = g2.links.find((l) => l.targetId === 'y' || l.sourceId === 'y')!;
+    const xz = g2.links.find((l) => l.targetId === 'z' || l.sourceId === 'z')!;
+    expect(familyOf(xy)).toBe('past-rivalry');
+    expect(familyOf(xz)).toBe('rivalry');
+    expect(describeLink(xy, (id) => id.toUpperCase())).toBe('X and Y were rivals');
+    expect(roleOfOther(xy, 'x')).toBe('past rival');
   });
 
   it('puts the core in the middle and everyone else on rings by distance', () => {

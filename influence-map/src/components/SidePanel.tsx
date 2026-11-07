@@ -299,7 +299,7 @@ function PairPanel({
 
       {links.map((link) => {
         const g = EDGE_GROUP_BY_ID[link.group];
-        const f = EDGE_FAMILY_BY_ID[g.family];
+        const f = EDGE_FAMILY_BY_ID[familyOf(link)];
         return (
           <section key={link.id} className="pair-link">
             <div className="edge-kind">

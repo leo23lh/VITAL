@@ -198,8 +198,8 @@ export default function GraphView({ nodes, pairs, selection, query, colorAll, ra
         const s = radial.core.has(linkEndId(p.source));
         const t = radial.core.has(linkEndId(p.target));
         if (radial.emphasis) {
-          if (p.links.some((l) => familyOf(l) === radial.emphasis))
-            return withAlpha(EDGE_FAMILY_BY_ID[radial.emphasis].color, 0.9);
+          const hit = p.links.map(familyOf).find((f) => radial.emphasis!.includes(f));
+          if (hit) return withAlpha(EDGE_FAMILY_BY_ID[hit].color, 0.9);
         } else if (s && t) return withAlpha(fam, 0.85);
         if (colorAll) return withAlpha(fam, s || t ? 0.45 : 0.25);
         return withAlpha(GREY, s && t ? 0.3 : s || t ? 0.16 : 0.07);
@@ -241,7 +241,7 @@ export default function GraphView({ nodes, pairs, selection, query, colorAll, ra
         nodeCanvasObjectMode={() => 'replace'}
         linkColor={linkColor}
         linkWidth={linkWidth}
-        linkLineDash={(p) => (p.confidence < 0.5 ? [4, 3] : null)}
+        linkLineDash={(p) => (lineFamily(p, radial) === 'past-rivalry' ? [1.5, 3] : p.confidence < 0.5 ? [4, 3] : null)}
         linkDirectionalArrowLength={(p) => (p.directed && colored(p) ? 6 : 0)}
         linkDirectionalArrowRelPos={1}
         linkDirectionalArrowColor={linkColor}
@@ -350,6 +350,12 @@ function drawRings(ctx: CanvasRenderingContext2D, scale: number, { core, rings, 
     ctx.fillText(r === unlinked ? 'not linked' : `${r} step${r === 1 ? '' : 's'} out`, 0, -R - 4 / scale);
   }
   ctx.restore();
+}
+
+/** The family a line is drawn as: the lens family in Follow the money / Feuds, else the pair's. */
+function lineFamily(p: PairLink, radial: RadialLayout | null) {
+  const lens = radial?.emphasis;
+  return (lens && p.links.map(familyOf).find((f) => lens.includes(f))) || p.family;
 }
 
 function nodeTooltip(n: GraphNode): string {

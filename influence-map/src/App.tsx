@@ -37,7 +37,7 @@ export interface RadialLayout {
   /** The outer ring for people with no path to the core, if any. */
   unlinked: number | null;
   /** Lens family whose lines stay colored (Follow the money, Feuds); null = core-to-core lines. */
-  emphasis: EdgeFamily | null;
+  emphasis: EdgeFamily[] | null;
 }
 
 function currentLayout(): Layout {
@@ -123,14 +123,15 @@ export default function App() {
     let radial: RadialLayout | null = null;
     if (view.kind !== 'all') {
       const core = new Set<string>();
-      const lens = view.kind === 'money' ? 'money' : view.kind === 'feuds' ? 'rivalry' : null;
+      const lens: EdgeFamily[] | null =
+        view.kind === 'money' ? ['money'] : view.kind === 'feuds' ? ['rivalry', 'past-rivalry'] : null;
       if (view.kind === 'world') {
         core.add(view.id);
       } else if (view.kind === 'group') {
         for (const n of nodes) if (n.groups.includes(view.id)) core.add(n.id);
       } else {
         for (const l of links) {
-          if (familyOf(l) !== lens) continue;
+          if (!lens?.includes(familyOf(l))) continue;
           core.add(l.sourceId);
           core.add(l.targetId);
         }

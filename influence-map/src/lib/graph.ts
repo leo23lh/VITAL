@@ -267,7 +267,7 @@ export function describeLink(link: GraphLink, nameOf: (id: string) => string): s
     case 'ally':
       return `${a} and ${b} are allies`;
     case 'rival':
-      return `${a} and ${b} are rivals`;
+      return isPastRivalry(link) ? `${a} and ${b} were rivals` : `${a} and ${b} are rivals`;
     case 'family':
       return `${a} and ${b} are family`;
   }
@@ -283,6 +283,8 @@ export function roleOfOther(link: GraphLink, selfId: string): string {
       return otherIsSource ? 'employer' : 'employee';
     case 'funding':
       return otherIsSource ? 'donor' : 'funded by them';
+    case 'rival':
+      return isPastRivalry(link) ? 'past rival' : 'rival';
     default:
       return link.group;
   }
@@ -311,8 +313,13 @@ function fold(s: string): string {
     .toLowerCase();
 }
 
+/** A rivalry is past once a file records the year it ended; ongoing or undated ones count as current. */
+export function isPastRivalry(link: GraphLink): boolean {
+  return link.group === 'rival' && typeof link.endYear === 'number';
+}
+
 export function familyOf(link: GraphLink): EdgeFamily {
-  return EDGE_GROUP_BY_ID[link.group].family;
+  return isPastRivalry(link) ? 'past-rivalry' : EDGE_GROUP_BY_ID[link.group].family;
 }
 
 /** All the links between one pair of people, drawn as a single line. */

@@ -73,7 +73,8 @@ function renderPng(
   families.forEach((f, i) => {
     const y = 52 + i * rowH;
     ctx.fillStyle = f.color;
-    ctx.fillRect(24, y - 1.5, 22, 3);
+    if (f.dotted) for (let x = 24; x < 46; x += 5) ctx.fillRect(x, y - 1.5, 2, 3);
+    else ctx.fillRect(24, y - 1.5, 22, 3);
     ctx.fillStyle = '#d4d9e3';
     ctx.fillText(`${f.label} (${f.hint})`, 54, y);
   });
