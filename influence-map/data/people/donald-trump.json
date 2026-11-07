@@ -759,6 +759,21 @@
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" },
         { "url": "https://www.yahoo.com/news/trump-administration-hires-strategist-posted-174642684.html", "title": "Trump Administration Hires Strategist Who Posted Racist Tweet About Native Americans — HuffPost via Yahoo News" }
       ]
+    },
+    {
+      "name": "Nick Fuentes",
+      "slug": "nick-fuentes",
+      "relationship_type": "rival",
+      "description": "Fuentes backed Trump through the 2020 \"Stop the Steal\" campaign and dined with him and Ye at Mar-a-Lago in November 2022 (Trump said he did not know who Fuentes was). He later turned on Trump: in 2026 he attacked Trump as a liar, said he would not vote in the midterms and would back a Democrat over Vance or Rubio. Trump has largely not responded, and in November 2025 he defended Tucker Carlson's interview with Fuentes.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://news.yahoo.com/nick-fuentes-white-supremacist-friend-180254046.html", "title": "Who is Nick Fuentes? The white supremacist, friend of Kanye West and dinner guest Trump claims he never heard of — USA Today via Yahoo" },
+        { "url": "https://www.lalibre.be/international/amerique/2026/03/09/il-dejeunait-autrefois-avec-donald-trump-a-mar-a-lago-le-tres-controverse-nick-fuentes-reve-a-present-de-le-faire-tomber-WMJTSTUNCVB55HPIXMWFA5QYWA/", "title": "Nick Fuentes, once a Mar-a-Lago dinner guest, now wants to bring Trump down — La Libre Belgique" },
+        { "url": "https://www.startribune.com/far-right-provocateur-nick-fuentes-is-triggering-a-maga-civil-war/601521097", "title": "Far-right provocateur Nick Fuentes is triggering a MAGA civil war — Star Tribune" },
+        { "url": "https://www.pbs.org/newshour/politics/trump-defends-tucker-carlson-after-interview-with-nick-fuentes-far-right-activist-known-for-his-antisemitic-views", "title": "Trump defends Tucker Carlson after interview with Nick Fuentes — PBS NewsHour" }
+      ]
     }
   ],
   "source_conflicts": [

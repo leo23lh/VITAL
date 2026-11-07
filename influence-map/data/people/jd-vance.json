@@ -231,6 +231,20 @@
         { "url": "https://www.washingtonexaminer.com/?p=2892300", "title": "JD Vance endorses Kari Lake for Senate — Washington Examiner" },
         { "url": "https://www.breitbart.com/2024-election/2024/02/28/sens-marsha-blackburn-j-d-vance-back-arizona-republican-kari-lake-for-senate", "title": "Sens. Marsha Blackburn, J.D. Vance back Arizona Republican Kari Lake for Senate — Breitbart" }
       ]
+    },
+    {
+      "name": "Nick Fuentes",
+      "slug": "nick-fuentes",
+      "relationship_type": "rival",
+      "description": "Vance called Fuentes \"a total loser\" in 2025 and, after Fuentes attacked his wife Usha with racist slurs, said in December 2025 that anyone who attacks her \"can eat s--t\"; Fuentes answered with more racist remarks.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://digital-release.thehill.com/?p=4822598", "title": "Vance says he 'disavows' Nick Fuentes: 'A total loser' — The Hill" },
+        { "url": "https://thegrio.com/2025/12/22/vice-president-jd-vance-issues-expletive-response-to-racist-attacks-on-his-wife", "title": "Vice President JD Vance issues expletive response to racist attacks on his wife — TheGrio" },
+        { "url": "https://www.yahoo.com/news/articles/jd-vance-responds-nick-fuentes-004420613.html", "title": "JD Vance responds to Nick Fuentes' use of racial slur against wife Usha — USA Today via Yahoo" }
+      ]
     }
   ],
   "source_conflicts": [],
