@@ -181,6 +181,19 @@
       "description": "Son. Added by Leo Halperin himself, who chose to share this link.",
       "confidence": 1.0,
       "sources": ["user-provided"]
+    },
+    {
+      "name": "Colton Duncan",
+      "slug": "colton-duncan",
+      "relationship_type": "employee",
+      "description": "Duncan was a top aide to Lake's 2022 campaign for Arizona governor: the Labor Department calls him her senior adviser, while the Arizona Mirror and Raw Story describe him as her campaign manager and \"the most important person\" on the campaign. In October 2022 tribal leaders called on Lake to fire him over an Indigenous Peoples' Day post; the campaign did not respond.",
+      "start_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" },
+        { "url": "https://missoulacurrent.com/kari-lake-racist-tweet/", "title": "Kari Lake's campaign manager posted racist tweet — Arizona Mirror via Missoula Current" },
+        { "url": "https://www.rawstory.com/colton-duncan", "title": "The 'most important person' on Kari Lake's campaign mocked Native Americans in a racist tweet — Raw Story" }
+      ]
     }
   ],
   "source_conflicts": [

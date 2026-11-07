@@ -1,21 +1,112 @@
 {
   "name": "Colton Duncan",
   "aliases": [],
-  "public_figure": false,
+  "public_figure": true,
   "sector": "politics",
   "groups": [],
-  "current_role": "White House liaison at the U.S. Department of Labor",
-  "summary": "White House liaison at the U.S. Department of Labor, as described by Leo Halperin. Not researched (not a public figure).",
-  "sources": ["user-provided"],
-  "timeline": [],
+  "current_role": "White House liaison, U.S. Department of Labor (since March 2025)",
+  "summary": "Colton Duncan, a political strategist and digital media entrepreneur from Lubbock, Texas, and a Turning Point USA alumnus, was president and CEO of Ninja Digital and a top aide to Kari Lake's 2022 Arizona governor campaign. The Labor Department named him its White House liaison in March 2025. In October 2022 he drew criticism, and calls from tribal leaders for Lake to fire him, for an Indigenous Peoples' Day post showing an image of human sacrifice; he made his account private, and the campaign and later the department did not respond to requests for comment.",
+  "sources": [
+    { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" },
+    { "url": "https://www.yahoo.com/news/trump-administration-hires-strategist-posted-174642684.html", "title": "Trump Administration Hires Strategist Who Posted Racist Tweet About Native Americans — HuffPost via Yahoo News" },
+    { "url": "https://missoulacurrent.com/kari-lake-racist-tweet/", "title": "Kari Lake's campaign manager posted racist tweet — Arizona Mirror via Missoula Current" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "role": "President and CEO",
+      "org": "Ninja Digital",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" },
+        { "url": "https://www.ishn.com/articles/114661-department-of-labor-announces-senior-trump-administration-appointees", "title": "Department of Labor announces senior Trump Administration appointees — ISHN" }
+      ]
+    },
+    {
+      "year": 2022,
+      "role": "Top aide to Kari Lake's gubernatorial campaign (senior adviser per the Labor Department; campaign manager per the Arizona Mirror)",
+      "org": "Kari Lake for Arizona",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" },
+        { "url": "https://missoulacurrent.com/kari-lake-racist-tweet/", "title": "Kari Lake's campaign manager posted racist tweet — Arizona Mirror via Missoula Current" },
+        { "url": "https://www.rawstory.com/colton-duncan", "title": "The 'most important person' on Kari Lake's campaign mocked Native Americans in a racist tweet — Raw Story" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "White House liaison (senior political appointee)",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" },
+        { "url": "https://www.ishn.com/articles/114661-department-of-labor-announces-senior-trump-administration-appointees", "title": "Department of Labor announces senior Trump Administration appointees — ISHN" },
+        { "url": "https://www.yahoo.com/news/trump-administration-hires-strategist-posted-174642684.html", "title": "Trump Administration Hires Strategist Who Posted Racist Tweet About Native Americans — HuffPost via Yahoo News" }
+      ]
+    }
+  ],
   "affiliations": [
     {
       "name": "U.S. Department of Labor",
       "role": "White House liaison",
-      "sources": ["user-provided"]
+      "start_year": 2025,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" }
+      ]
+    },
+    {
+      "name": "Ninja Digital",
+      "role": "President and CEO",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" }
+      ]
+    },
+    {
+      "name": "Turning Point USA",
+      "role": "Alumnus",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" }
+      ]
     }
   ],
   "connections": [
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "employer",
+      "description": "Duncan was a top aide to Lake's 2022 campaign for Arizona governor: the Labor Department calls him her senior adviser, while the Arizona Mirror and Raw Story describe him as her campaign manager and \"the most important person\" on the campaign. In October 2022 tribal leaders called on Lake to fire him over an Indigenous Peoples' Day post; the campaign did not respond.",
+      "start_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" },
+        { "url": "https://missoulacurrent.com/kari-lake-racist-tweet/", "title": "Kari Lake's campaign manager posted racist tweet — Arizona Mirror via Missoula Current" },
+        { "url": "https://www.rawstory.com/colton-duncan", "title": "The 'most important person' on Kari Lake's campaign mocked Native Americans in a racist tweet — Raw Story" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Duncan was named in March 2025 among the Labor Department's senior Trump administration political appointees, as White House liaison.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" },
+        { "url": "https://www.yahoo.com/news/trump-administration-hires-strategist-posted-174642684.html", "title": "Trump Administration Hires Strategist Who Posted Racist Tweet About Native Americans — HuffPost via Yahoo News" }
+      ]
+    },
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "colleague",
+      "description": "Both have served in the Labor Department's political leadership since March 2025, Duncan as White House liaison and Sonderling as deputy secretary and then secretary. Inferred from that overlap; no source describes them working together directly.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "Secretary of Labor Keith Sonderling — U.S. Department of Labor" }
+      ]
+    },
     {
       "name": "Leo Halperin",
       "slug": "leo-halperin",
@@ -27,7 +118,17 @@
       "sources": ["user-provided"]
     }
   ],
-  "source_conflicts": [],
-  "notes": "Added at Leo Halperin's request with only the details he provided. Not a public figure as far as this map knows, so no web research and no photo. If he has a substantial public record, re-add him with /refresh-person after confirming that.",
+  "source_conflicts": [
+    {
+      "topic": "Role on Kari Lake's 2022 campaign",
+      "details": "The Labor Department's 2025 announcement calls him a senior adviser to Kari Lake; the Arizona Mirror (2022) and Raw Story call him her campaign manager.",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" },
+        { "url": "https://missoulacurrent.com/kari-lake-racist-tweet/", "title": "Kari Lake's campaign manager posted racist tweet — Arizona Mirror via Missoula Current" },
+        { "url": "https://www.rawstory.com/colton-duncan", "title": "The 'most important person' on Kari Lake's campaign mocked Native Americans in a racist tweet — Raw Story" }
+      ]
+    }
+  ],
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Upgraded from a non-public, user-provided entry at Leo Halperin's request after confirming a public record (Labor Department announcement, HuffPost, Arizona Mirror). The Leo Halperin link remains user-provided. No Wikipedia article or free photo found.",
   "last_researched": "2026-11-07"
 }
