@@ -355,9 +355,10 @@ on a phone. Its link is in `artifact.json`.
 - The dev server serves the data folder at `/api/people` and pushes a reload
   event when a file changes (`vite-plugin-people.ts`). There is no backend
   beyond that and no network access from the app.
-- **Colors.** Relationship lines are grey until a person is selected (or "Color
-  all lines" is on), then colored by family (Work, Money, Alliance, Current
-  rivalry, Past rivalry, Personal). A rivalry is past when its `end_year` is a
+- **Colors.** Relationship lines are colored by family from the start ("Color
+  all lines" is on by default; turned off, lines stay grey until a person is
+  selected). Families: Work, Money, Alliance, Current
+  rivalry, Past rivalry, Personal. A rivalry is past when its `end_year` is a
   year; ongoing or undated rivalries count as current. Past rivalries share the
   rivalry color but are drawn dotted (dashed still means confidence under 50%). Dots are tinted by sector. Both color sets were checked for
   color-blind separation against the dark background; the viewer always pairs

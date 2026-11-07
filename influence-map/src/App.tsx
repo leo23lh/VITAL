@@ -97,7 +97,7 @@ export default function App() {
   const [query, setQuery] = useState('');
   const [hidden, setHidden] = useState<Set<EdgeFamily>>(new Set());
   const [showSuggested, setShowSuggested] = useState(false);
-  const [colorAll, setColorAll] = useState(false);
+  const [colorAll, setColorAll] = useState(true);
   const [showPhotos, setShowPhotos] = useState(true);
   const [view, setView] = useState<View>({ kind: 'all' });
   const [year, setYear] = useState<number | null>(null);
@@ -264,7 +264,7 @@ export default function App() {
         nameOf={(id) => byId.get(id)?.name ?? id}
         menu={menu}
         onMenu={setMenu}
-        filtersActive={hidden.size + (year != null ? 1 : 0) + (showSuggested ? 1 : 0) + (colorAll ? 1 : 0)}
+        filtersActive={hidden.size + (year != null ? 1 : 0) + (showSuggested ? 1 : 0) + (colorAll ? 0 : 1)}
         live={live}
         lastUpdated={lastUpdated}
       />
