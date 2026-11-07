@@ -331,6 +331,18 @@
       "sources": [
         { "url": "https://www.dailysignal.com/2019/07/28/national-conservatives-set-out-to-define-future-of-politics-on-right/", "title": "\"National Conservatives\" Set Out to Define Future of Politics on Right — Daily Signal" }
       ]
+    },
+    {
+      "name": "Sohrab Ahmari",
+      "slug": "sohrab-ahmari",
+      "relationship_type": "rival",
+      "description": "Ahmari has attacked the \"woke right\", including right-wing historical revisionists platformed by Carlson.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.45,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

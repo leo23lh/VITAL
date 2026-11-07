@@ -452,6 +452,30 @@
         { "url": "https://www.cnn.com/2023/05/16/business/elon-musk-george-soros/index.html", "title": "Elon Musk claims George Soros 'hates humanity.' The ADL says Musk's attacks 'will embolden extremists' — CNN" },
         { "url": "https://www.cnbc.com/2023/05/16/elon-musk-defends-inflammatory-tweets-ill-say-what-i-want.html", "title": "Elon Musk defends Soros tweets: 'I'll say what I want' — CNBC" }
       ]
+    },
+    {
+      "name": "Giorgia Meloni",
+      "slug": "giorgia-meloni",
+      "relationship_type": "ally",
+      "description": "Meloni has called Musk a personal \"friend\" and a \"genius\" and worked to build close ties with him; Musk denied a romantic relationship in 2024.",
+      "start_year": 2023,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/europe/2025/01/07/meloni-closeness-musk-trump-big-risk/", "title": "Meloni's closeness to Musk and Trump — Fortune" }
+      ]
+    },
+    {
+      "name": "Nigel Farage",
+      "slug": "nigel-farage",
+      "relationship_type": "rival",
+      "description": "In January 2025 Musk, who had been expected to donate to Reform, said \"Farage doesn't have what it takes\" over Farage's refusal to back Tommy Robinson; Farage said days later they were on \"very good terms\".",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/2025/01/05/elon-musk-vs-nigel-farage-reform-uk-new-leader-right-wing-populist", "title": "Elon Musk vs Nigel Farage — Fortune" },
+        { "url": "https://shropshirestar.com/uk-news/2025/01/11/farage-says-he-is-on-very-good-terms-with-elon-musk", "title": "Farage says he is on 'very good terms' with Elon Musk — Shropshire Star" }
+      ]
     }
   ],
   "source_conflicts": [

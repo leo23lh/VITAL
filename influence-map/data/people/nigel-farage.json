@@ -1,0 +1,149 @@
+{
+  "name": "Nigel Farage",
+  "aliases": ["Nigel Paul Farage"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Conservative Party member 1978–1992, then UKIP leader, Brexit Party co-founder and Reform UK leader. Wikipedia describes Reform as right-wing populist and far-right; it is an anti-immigration party (see source conflicts).",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nigel_Farage", "title": "Nigel Farage — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "Leader of Reform UK; MP for Clacton (since 2024; re-elected at an August 2026 by-election)",
+  "summary": "Nigel Farage led UKIP, drove the 2016 Brexit referendum, co-founded the Brexit Party (now Reform UK) and became MP for Clacton in 2024. A longtime Trump friend who spoke at Trump rallies in 2016, he spoke at NatCon in Brussels in April 2024, when police tried to shut it down mid-speech, and at NatCon Washington in 2025. In 2026 Reform added Conservative defectors including Suella Braverman; Farage resigned and won back his seat in an August 2026 by-election amid a standards inquiry into undeclared gifts.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Nigel_Farage", "title": "Nigel Farage — Wikipedia" },
+    { "url": "https://itv.com/news/2024-04-16/brussels-police-move-to-shut-down-right-wing-event-where-farage-was-speaking", "title": "Brussels police move to shut down right-wing conference where Nigel Farage was speaking — ITV" },
+    { "url": "https://www.irishtimes.com/world/uk/2026/01/26/suella-braverman-defects-to-nigel-farages-reform-and-slams-tory-lies/", "title": "Suella Braverman defects to Nigel Farage's Reform and slams Tory 'lies' — Irish Times" }
+  ],
+  "timeline": [
+    {
+      "year": 1999,
+      "end_year": 2020,
+      "role": "Member of the European Parliament",
+      "org": "European Parliament",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nigel_Farage", "title": "Nigel Farage — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2006,
+      "end_year": 2016,
+      "role": "Leader (2006–2009, 2010–2016)",
+      "org": "UK Independence Party",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nigel_Farage", "title": "Nigel Farage — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2018,
+      "end_year": null,
+      "role": "Co-founder; leader (2019–2021, since June 2024)",
+      "org": "Brexit Party / Reform UK",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nigel_Farage", "title": "Nigel Farage — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": null,
+      "role": "MP for Clacton",
+      "org": "House of Commons",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nigel_Farage", "title": "Nigel Farage — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "National Conservatism Conference",
+      "role": "Speaker (Brussels 2024; Washington 2025)",
+      "sources": [
+        { "url": "https://itv.com/news/2024-04-16/brussels-police-move-to-shut-down-right-wing-event-where-farage-was-speaking", "title": "Brussels police move to shut down right-wing conference where Nigel Farage was speaking — ITV" },
+        { "url": "https://nationalconservatism.org/natcon-5-2025/", "title": "National Conservatism Conference, Washington 2025" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Farage attended the 2016 Republican convention and spoke at a Trump rally that year; their friendship has continued, though polls in 2026 suggested it was costing Reform votes.",
+      "start_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nigel_Farage", "title": "Nigel Farage — Wikipedia" },
+        { "url": "https://www.gbnews.com/politics/nigel-farage-donald-trump-problem-polls", "title": "How Nigel Farage's 'Donald Trump problem' risks narrowing Reform's path to power — GB News" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "rival",
+      "description": "In January 2025 Musk, who had been expected to donate to Reform, said \"Farage doesn't have what it takes\" over Farage's refusal to back Tommy Robinson; Farage said days later they were on \"very good terms\".",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/2025/01/05/elon-musk-vs-nigel-farage-reform-uk-new-leader-right-wing-populist", "title": "Elon Musk vs Nigel Farage — Fortune" },
+        { "url": "https://shropshirestar.com/uk-news/2025/01/11/farage-says-he-is-on-very-good-terms-with-elon-musk", "title": "Farage says he is on 'very good terms' with Elon Musk — Shropshire Star" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Farage spoke at Hazony's NatCon in Brussels in April 2024 (police moved to shut it down during his speech) and at NatCon Washington in 2025.",
+      "start_year": 2024,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://itv.com/news/2024-04-16/brussels-police-move-to-shut-down-right-wing-event-where-farage-was-speaking", "title": "Brussels police move to shut down right-wing conference where Nigel Farage was speaking — ITV" },
+        { "url": "https://nationalconservatism.org/natcon-5-2025/", "title": "National Conservatism Conference, Washington 2025" }
+      ]
+    },
+    {
+      "name": "Christopher Harborne",
+      "slug": "christopher-harborne",
+      "relationship_type": "donor",
+      "description": "Reported in April 2026 to have given Farage £5 million in early 2024, weeks before he announced his 2024 run; part of a standards inquiry into undeclared gifts.",
+      "start_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nigel_Farage", "title": "Nigel Farage — Wikipedia" }
+      ]
+    },
+    {
+      "name": "James Orr",
+      "slug": "james-orr",
+      "relationship_type": "employee",
+      "description": "Farage made Orr a senior adviser in 2025 and Reform UK's head of policy in February 2026; Orr stepped down on September 4, 2026 after an undercover sting on foreign donations, which Farage called entrapment.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.desmog.com/2026/04/02/seven-things-you-should-know-reform-policy-chief-james-orr/", "title": "Eight Things You Should Know About Reform's Policy Chief James Orr — DeSmog" },
+        { "url": "https://aljazeera.com/news/2026/9/4/reform-uk-officials-step-down-as-new-funding-scandal-hits-far-right-party", "title": "Reform UK officials step down as new funding scandal hits party — Al Jazeera" },
+        { "url": "https://www.lbc.co.uk/politics/uk-politics/two-reform-uk-officials-step-down-after-undercover-sting-over-foreign-donations/", "title": "Two Reform UK officials step down after undercover sting over foreign donations — LBC" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Far-right label",
+      "details": "Wikipedia describes Reform UK as right-wing populist and far-right; other outlets use \"hard-right\" or \"anti-immigration\"; Farage rejects the far-right label.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nigel_Farage", "title": "Nigel Farage — Wikipedia" },
+        { "url": "https://www.clickondetroit.com/news/world/2026/01/26/britains-conservative-party-loses-another-high-profile-lawmaker-to-hard-right-reform", "title": "Britain's Conservative Party loses another high-profile lawmaker to hard-right Reform — AP" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-07"
+}

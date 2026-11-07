@@ -1,0 +1,109 @@
+{
+  "name": "Josh Hawley",
+  "aliases": ["Joshua David Hawley"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican senator from Missouri since 2019 (attorney general 2017–2019); first senator to announce an objection to certifying the 2020 election; described as populist and socially conservative.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "US senator from Missouri (Republican)",
+  "summary": "Josh Hawley, a former clerk to Chief Justice John Roberts and Missouri attorney general, has been a Republican senator from Missouri since 2019. His speech at the first National Conservatism Conference in 2019, attacking a \"cosmopolitan elite\", made him an early face of the movement (critics, including the ADL, called the language antisemitic; he rejected that); he gave NatCon keynotes again in 2021 and 2022.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
+    { "url": "https://www.hawley.senate.gov/senator-josh-hawleys-speech-national-conservatism-conference", "title": "Senator Josh Hawley's Speech at the National Conservatism Conference (2019)" },
+    { "url": "https://www.timesofisrael.com/senators-speech-an-anti-semitic-dog-whistle-or-poli-sci-speak/", "title": "Senator's speech an anti-Semitic dog whistle or poli-sci speak? — Times of Israel" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2019,
+      "role": "Attorney general",
+      "org": "State of Missouri",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "US senator (reelected 2024)",
+      "org": "US Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "National Conservatism Conference",
+      "role": "Speaker (2019, 2021 keynote, 2022, 2025)",
+      "sources": [
+        { "url": "https://www.hawley.senate.gov/senator-josh-hawleys-speech-national-conservatism-conference", "title": "Senator Josh Hawley's Speech at the National Conservatism Conference (2019)" },
+        { "url": "https://www.hawley.senate.gov/?p=3398", "title": "Senator Hawley Delivers National Conservatism Keynote on the Left's Attack on Men in America (2021)" },
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
+        { "url": "https://nationalconservatism.org/natcon-5-2025/", "title": "National Conservatism Conference, Washington 2025" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Hawley's \"cosmopolitan elite\" speech at Hazony's first NatCon in 2019 made him a face of the movement; Hazony defended the term against charges of antisemitism. Hawley returned as a keynote speaker in 2021 and 2022.",
+      "start_year": 2019,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
+        { "url": "https://www.timesofisrael.com/senators-speech-an-anti-semitic-dog-whistle-or-poli-sci-speak/", "title": "Senator's speech an anti-Semitic dog whistle or poli-sci speak? — Times of Israel" },
+        { "url": "https://www.hawley.senate.gov/?p=3398", "title": "Senator Hawley Delivers National Conservatism Keynote on the Left's Attack on Men in America (2021)" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Hawley's 2018 Senate run; Hawley was the first senator to announce an objection to certifying Biden's 2020 win, raising a fist to protesters on January 6, 2021.",
+      "start_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Described, with Marco Rubio, as the Senate bloc behind Oren Cass's American Compass economic-populist agenda until Vance became vice president.",
+      "start_year": 2023,
+      "end_year": 2025,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" }
+      ]
+    },
+    {
+      "name": "Eric Schmitt",
+      "slug": "eric-schmitt",
+      "relationship_type": "colleague",
+      "description": "Missouri's two Republican senators since 2023; Schmitt succeeded Hawley as state attorney general in 2019.",
+      "start_year": 2023,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-07"
+}

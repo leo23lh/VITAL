@@ -1,0 +1,132 @@
+{
+  "name": "Sohrab Ahmari",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon", "media"],
+  "lean": [
+    {
+      "value": 1,
+      "start_year": null,
+      "end_year": 2018,
+      "basis": "Neoconservative writer (Wall Street Journal opinion pages, Commentary) who criticized Trump, Putin and Le Pen as part of a global illiberal trend.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2019,
+      "end_year": null,
+      "basis": "Turned to post-liberal \"common-good\" conservatism (\"Against David French-ism\", 2019), backed Trump and Orbán, and served as an adviser to Vice President JD Vance; combines social conservatism with pro-worker economics.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "US editor of UnHerd; founding editor of Compact; adviser to Vice President JD Vance",
+  "summary": "Sohrab Ahmari (born 1985 in Tehran) is an Iranian-American writer and editor, formerly op-ed editor of the New York Post. A convert to Catholicism, he broke with \"David French-ism\" in 2019 and became a leading post-liberal voice; in 2022 he co-founded the magazine Compact. Wikipedia describes him as an adviser to Vice President Vance in Trump's second term; in June 2026 he flew with Vance to Switzerland for talks with Iran without a security clearance.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Compact_(American_magazine)", "title": "Compact (American magazine) — Wikipedia" },
+    { "url": "https://unherd.com/author/sohrab-ahmariunherd-com/?edition=us", "title": "Sohrab Ahmari — UnHerd" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Op-ed editor",
+      "org": "New York Post",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2022,
+      "end_year": null,
+      "role": "Co-founder and founding editor (with Matthew Schmitz and Edwin Aponte)",
+      "org": "Compact",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Compact_(American_magazine)", "title": "Compact (American magazine) — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": null,
+      "role": "US editor",
+      "org": "UnHerd",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+        { "url": "https://unherd.com/author/sohrab-ahmariunherd-com/?edition=us", "title": "Sohrab Ahmari — UnHerd" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "National Conservatism Conference",
+      "role": "Speaker (2021)",
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "employer",
+      "description": "Wikipedia describes Ahmari as an adviser to Vice President Vance in Trump's second term; in June 2026 he flew with Vance on Air Force Two to Switzerland for talks with Iran, without a security clearance.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Ahmari spoke at Hazony's NatCon in 2021.",
+      "start_year": 2021,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" }
+      ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "funded_by",
+      "description": "Vanity Fair reported that Compact received extensive funding from the Soros family's Open Society Foundations; contested, since Salon earlier said Peter Thiel was behind it.",
+      "start_year": 2022,
+      "confidence": 0.4,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "rival",
+      "description": "Ahmari has attacked the \"woke right\", including right-wing historical revisionists platformed by Carlson.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.45,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Compact's funding",
+      "details": "Salon reported that Peter Thiel was behind Compact; a later Vanity Fair report said it received extensive funding from the Soros family's Open Society Foundations, contradicting Salon.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-07"
+}

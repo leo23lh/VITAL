@@ -1,0 +1,125 @@
+{
+  "name": "Eric Schmitt",
+  "aliases": ["Eric Stephen Schmitt"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican senator from Missouri since 2023; as attorney general joined the suit to overturn the 2020 election (Texas v. Pennsylvania) and sued the Biden administration 25 times; openly backs national conservatism.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "US senator from Missouri (Republican); vice chair of the Joint Economic Committee",
+  "summary": "Eric Schmitt was Missouri treasurer and then attorney general (2019–2023), succeeding Josh Hawley, before winning a Senate seat in 2022. He openly embraces national conservatism: at NatCon 2025 he said it \"is an idea whose time has arrived\" and, in a speech titled \"What is an American?\", rejected the idea that America is defined by shared principles alone.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+    { "url": "https://www.usnews.com/news/politics/articles/2025-09-05/national-conservatism-asserts-its-dominance-in-trumps-washington", "title": "National Conservatism Asserts Its Dominance in Trump's Washington — AP via US News" },
+    { "url": "https://www.c-span.org/program/public-affairs-event/national-conservatism-conference-senator-eric-schmitt-and-others/665005", "title": "National Conservatism Conference: Senator Eric Schmitt and Others — C-SPAN" }
+  ],
+  "timeline": [
+    {
+      "year": 2009,
+      "end_year": 2017,
+      "role": "State senator",
+      "org": "Missouri Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2019,
+      "role": "State treasurer",
+      "org": "State of Missouri",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2023,
+      "role": "Attorney general",
+      "org": "State of Missouri",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": null,
+      "role": "US senator",
+      "org": "US Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "National Conservatism Conference",
+      "role": "Speaker (2025)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+        { "url": "https://nationalconservatism.org/natcon-5-2025/", "title": "National Conservatism Conference, Washington 2025" },
+        { "url": "https://www.c-span.org/program/public-affairs-event/national-conservatism-conference-senator-eric-schmitt-and-others/665005", "title": "National Conservatism Conference: Senator Eric Schmitt and Others — C-SPAN" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Josh Hawley",
+      "slug": "josh-hawley",
+      "relationship_type": "colleague",
+      "description": "Missouri's two Republican senators since 2023; Schmitt succeeded Hawley as state attorney general in 2019.",
+      "start_year": 2023,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Schmitt spoke at Hazony's NatCon 5 in 2025, declaring national conservatism \"an idea whose time has arrived\".",
+      "start_year": 2025,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+        { "url": "https://www.usnews.com/news/politics/articles/2025-09-05/national-conservatism-asserts-its-dominance-in-trumps-washington", "title": "National Conservatism Asserts Its Dominance in Trump's Washington — AP via US News" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "As Missouri attorney general Schmitt backed the Texas suit to overturn the 2020 election; Trump endorsed \"ERIC\" before the 2022 Senate primary, and Schmitt has defended Trump's policies in the Senate.",
+      "start_year": 2020,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "funded_by",
+      "description": "Klingenstein gave the maximum direct donations to Schmitt's 2022 Senate campaign.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://vice.com/en/article/claremont-institute-thomas-klingenstein-super-pac", "title": "Claremont Institute chairman Thomas Klingenstein super PAC — Vice" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-07"
+}

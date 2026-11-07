@@ -251,6 +251,101 @@
         { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
         { "url": "https://www.yoramhazony.org/about/", "title": "About — Yoram Hazony" }
       ]
+    },
+    {
+      "name": "Julius Krein",
+      "slug": "julius-krein",
+      "relationship_type": "ally",
+      "description": "Krein spoke at Hazony's NatCon in 2019 (\"A Strategy for National Development\") and 2021.",
+      "start_year": 2019,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/julius-krein/", "title": "Julius Krein — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" }
+      ]
+    },
+    {
+      "name": "Sohrab Ahmari",
+      "slug": "sohrab-ahmari",
+      "relationship_type": "ally",
+      "description": "Ahmari spoke at Hazony's NatCon in 2021.",
+      "start_year": 2021,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" }
+      ]
+    },
+    {
+      "name": "Josh Hawley",
+      "slug": "josh-hawley",
+      "relationship_type": "ally",
+      "description": "Hawley's \"cosmopolitan elite\" speech at Hazony's first NatCon in 2019 made him a face of the movement; Hazony defended the term against charges of antisemitism. Hawley returned as a keynote speaker in 2021 and 2022.",
+      "start_year": 2019,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
+        { "url": "https://www.timesofisrael.com/senators-speech-an-anti-semitic-dog-whistle-or-poli-sci-speak/", "title": "Senator's speech an anti-Semitic dog whistle or poli-sci speak? — Times of Israel" },
+        { "url": "https://www.hawley.senate.gov/?p=3398", "title": "Senator Hawley Delivers National Conservatism Keynote on the Left's Attack on Men in America (2021)" }
+      ]
+    },
+    {
+      "name": "Eric Schmitt",
+      "slug": "eric-schmitt",
+      "relationship_type": "ally",
+      "description": "Schmitt spoke at Hazony's NatCon 5 in 2025, declaring national conservatism \"an idea whose time has arrived\".",
+      "start_year": 2025,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+        { "url": "https://www.usnews.com/news/politics/articles/2025-09-05/national-conservatism-asserts-its-dominance-in-trumps-washington", "title": "National Conservatism Asserts Its Dominance in Trump's Washington — AP via US News" }
+      ]
+    },
+    {
+      "name": "Russ Vought",
+      "slug": "russ-vought",
+      "relationship_type": "ally",
+      "description": "Vought made his first NatCon appearance at Hazony's 2025 conference, defending Trump's spending cuts.",
+      "start_year": 2025,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://www.dailysignal.com/2025/09/03/omb-director-vought-deconstructing-the-administrative-state/", "title": "OMB Director: How President Trump Is Deconstructing the Administrative State — Daily Signal" },
+        { "url": "https://www.usnews.com/news/politics/articles/2025-09-05/national-conservatism-asserts-its-dominance-in-trumps-washington", "title": "National Conservatism Asserts Its Dominance in Trump's Washington — AP via US News" }
+      ]
+    },
+    {
+      "name": "Giorgia Meloni",
+      "slug": "giorgia-meloni",
+      "relationship_type": "ally",
+      "description": "Meloni opened Hazony's National Conservatism conference in Rome in February 2020 with a speech titled \"God, Honor, Country\".",
+      "start_year": 2020,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.theamericanconservative.com/rome-conference-national-conservatism/", "title": "The Rome conference on national conservatism — The American Conservative" },
+        { "url": "https://www.catholicworldreport.com/2020/02/16/national-conservatism-and-the-true-europe", "title": "National Conservatism and the 'True Europe' — Catholic World Report" }
+      ]
+    },
+    {
+      "name": "Nigel Farage",
+      "slug": "nigel-farage",
+      "relationship_type": "ally",
+      "description": "Farage spoke at Hazony's NatCon in Brussels in April 2024 (police moved to shut it down during his speech) and at NatCon Washington in 2025.",
+      "start_year": 2024,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://itv.com/news/2024-04-16/brussels-police-move-to-shut-down-right-wing-event-where-farage-was-speaking", "title": "Brussels police move to shut down right-wing conference where Nigel Farage was speaking — ITV" },
+        { "url": "https://nationalconservatism.org/natcon-5-2025/", "title": "National Conservatism Conference, Washington 2025" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "funded_by",
+      "description": "The Thomas D. Klingenstein Fund gave Hazony's Edmund Burke Foundation $100,058 in December 2019 and $201,258 in 2024.",
+      "start_year": 2019,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.influencewatch.org/person/thomas-d-klingenstein/", "title": "Thomas D. Klingenstein — InfluenceWatch" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and, where available, with Wikipedia via its API. The Edmund Burke Foundation's funders are organizations, not people, so they are listed under affiliations; figures come from grant trackers (InfluenceWatch, Cause IQ, Monitoring Influence), not the foundation's own filings.",

@@ -82,6 +82,17 @@
         { "url": "https://floridapolitics.com/archives/261574-marco-rubio-hires-new-chief-of-staff-away-from-heritage-action", "title": "Florida Politics" },
         { "url": "https://whbl.com/2026/05/26/rubio-aide-mike-needham-promoted-to-top-white-house-national-security-post-source-says/", "title": "Reuters via WHBL: Rubio aide Mike Needham promoted to top White House national security post" }
       ]
+    },
+    {
+      "name": "Russ Vought",
+      "slug": "russ-vought",
+      "relationship_type": "co-founder",
+      "description": "Vought left the House Republican Conference in 2010 to establish Heritage Action for America with Needham.",
+      "start_year": 2010,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

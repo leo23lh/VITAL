@@ -144,6 +144,17 @@
         { "url": "https://www.cnn.com/2023/06/12/investing/george-soros-taps-son-alexander/index.html", "title": "George Soros has handed control of his charitable and political activities to his son Alex — CNN" },
         { "url": "https://www.opensocietyfoundations.org/who-we-are/board-of-directors", "title": "Board of Directors — Open Society Foundations" }
       ]
+    },
+    {
+      "name": "Sohrab Ahmari",
+      "slug": "sohrab-ahmari",
+      "relationship_type": "donor",
+      "description": "Vanity Fair reported that Compact received extensive funding from the Soros family's Open Society Foundations; contested, since Salon earlier said Peter Thiel was behind it.",
+      "start_year": 2022,
+      "confidence": 0.4,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [
