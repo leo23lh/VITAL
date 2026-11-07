@@ -4,6 +4,12 @@
   "public_figure": true,
   "sector": "tech",
   "groups": ["tech-right", "ai-race"],
+  "photo": {
+    "file": "marc-andreessen.jpg",
+    "credit": "JD Lasica",
+    "license": "CC BY 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Marc_Andreessen-9_(cropped).jpg", "title": "File:Marc Andreessen-9 (cropped).jpg — Wikimedia Commons" }
+  },
   "current_role": "Co-founder and general partner of Andreessen Horowitz (a16z); member of the President's Council of Advisors on Science and Technology (since March 2026); Meta board member",
   "summary": "Marc Andreessen co-created the Mosaic web browser, co-founded Netscape, Loudcloud/Opsware and, in 2009, the venture capital firm Andreessen Horowitz with Ben Horowitz. With Horowitz he published the firm's \"Little Tech Agenda\" in July 2024 and endorsed Donald Trump; he then helped recruit staff for the Trump transition and DOGE, and Trump named him to PCAST in March 2026. He and Horowitz are among the largest funders of pro-AI and pro-crypto super PACs in the 2026 midterms.",
   "sources": [

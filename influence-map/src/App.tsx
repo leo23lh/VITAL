@@ -53,6 +53,7 @@ export default function App() {
   const [hidden, setHidden] = useState<Set<EdgeFamily>>(new Set());
   const [showSuggested, setShowSuggested] = useState(false);
   const [colorAll, setColorAll] = useState(false);
+  const [showPhotos, setShowPhotos] = useState(true);
   const [view, setView] = useState<View>({ kind: 'all' });
   const [year, setYear] = useState<number | null>(null);
   const [menu, setMenu] = useState<MenuName | null>(null);
@@ -242,6 +243,7 @@ export default function App() {
               selection={selection}
               query={query}
               colorAll={colorAll}
+              showPhotos={showPhotos}
               radial={visible.radial}
               fitKey={fitKey}
               fgRef={fgRef}
@@ -290,6 +292,8 @@ export default function App() {
               onShowSuggested={setShowSuggested}
               colorAll={colorAll}
               onColorAll={setColorAll}
+              showPhotos={showPhotos}
+              onShowPhotos={setShowPhotos}
               year={year}
               span={span}
               onYear={setYear}

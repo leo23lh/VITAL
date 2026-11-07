@@ -4,6 +4,12 @@
   "public_figure": true,
   "sector": "tech",
   "groups": ["tech-right", "ai-race", "middle-east", "media"],
+  "photo": {
+    "file": "larry-ellison.png",
+    "credit": "Oracle PR Hartmann Studios",
+    "license": "CC BY 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Larry_Ellison_2016.png", "title": "File:Larry Ellison 2016.png — Wikimedia Commons" }
+  },
   "current_role": "Executive chairman and chief technology officer of Oracle (since 2014)",
   "summary": "Larry Ellison (born 1944) co-founded the software company Oracle in 1977 and was its CEO until 2014; he has since been its executive chairman and chief technology officer, steering it toward cloud infrastructure for AI. One of the world's richest people, he is a major Republican donor and an ally of Donald Trump, a partner in the Stargate AI project and the Oracle-led TikTok U.S. venture, and the financial backer of his son David Ellison's Skydance, which acquired Paramount in 2025 and Warner Bros. Discovery in October 2026. His foundation is the largest known funder of the Tony Blair Institute.",
   "sources": [

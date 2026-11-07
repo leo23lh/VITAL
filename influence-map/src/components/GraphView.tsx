@@ -19,6 +19,8 @@ interface Props {
   query: string;
   /** Color every line by family, not only the selected person's. */
   colorAll: boolean;
+  /** Draw people's portraits inside their dots. */
+  showPhotos: boolean;
   /** Set in group and lens views: core people in the middle, everyone else on rings. */
   radial: RadialLayout | null;
   /** Changes when the view changes; the map re-fits once it settles. */
@@ -31,12 +33,29 @@ export function nodeRadius(n: GraphNode): number {
   return n.researched ? 5 + 2.6 * Math.sqrt(n.degree) : 2.5 + 1.4 * Math.sqrt(n.degree);
 }
 
-export default function GraphView({ nodes, pairs, selection, query, colorAll, radial, fitKey, fgRef, onSelect }: Props) {
+export default function GraphView({
+  nodes,
+  pairs,
+  selection,
+  query,
+  colorAll,
+  showPhotos,
+  radial,
+  fitKey,
+  fgRef,
+  onSelect,
+}: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState({ width: 800, height: 600 });
   const [hoverId, setHoverId] = useState<string | null>(null);
   const [hoverPairId, setHoverPairId] = useState<string | null>(null);
   const needsFit = useRef(true);
+  // Bumped when a portrait finishes loading, so the canvas repaints with it.
+  const [photoTick, setPhotoTick] = useState(0);
+  const photo = useCallback(
+    (url: string) => loadPhoto(url, () => setPhotoTick((t) => t + 1)),
+    [],
+  );
 
   useEffect(() => {
     const el = containerRef.current;
@@ -129,12 +148,30 @@ export default function GraphView({ nodes, pairs, selection, query, colorAll, ra
       ctx.globalAlpha = alpha;
       ctx.beginPath();
       ctx.arc(x, y, r, 0, 2 * Math.PI);
-      if (node.researched) {
-        ctx.fillStyle = node.publicFigure
-          ? node.sector
-            ? SECTOR_BY_ID[node.sector]?.color ?? '#e6e9ef'
-            : '#e6e9ef'
-          : '#d6b76a';
+      const tint = node.publicFigure
+        ? node.sector
+          ? SECTOR_BY_ID[node.sector]?.color ?? '#e6e9ef'
+          : '#e6e9ef'
+        : '#d6b76a';
+      const img = showPhotos && node.photoUrl ? photo(node.photoUrl) : null;
+      if (node.researched && img) {
+        // Portrait cropped to the circle (faces sit high in most portraits), ringed in the sector color.
+        ctx.fillStyle = tint;
+        ctx.fill();
+        ctx.save();
+        ctx.clip();
+        const side = Math.min(img.naturalWidth, img.naturalHeight);
+        const sx = (img.naturalWidth - side) / 2;
+        const sy = Math.max(0, (img.naturalHeight - side) * 0.2);
+        ctx.drawImage(img, sx, sy, side, side, x - r, y - r, 2 * r, 2 * r);
+        ctx.restore();
+        ctx.beginPath();
+        ctx.arc(x, y, r, 0, 2 * Math.PI);
+        ctx.lineWidth = Math.max(1.5 / scale, r * 0.16);
+        ctx.strokeStyle = tint;
+        ctx.stroke();
+      } else if (node.researched) {
+        ctx.fillStyle = tint;
         ctx.fill();
         // A thin dark ring keeps neighbouring dots apart.
         ctx.lineWidth = 1.5 / scale;
@@ -183,7 +220,7 @@ export default function GraphView({ nodes, pairs, selection, query, colorAll, ra
       }
       ctx.restore();
     },
-    [focus, hoverId, labeled, query, radial, selectedNodeId],
+    [focus, hoverId, labeled, query, radial, selectedNodeId, showPhotos, photo, photoTick],
   );
 
   // Lines are quiet grey until they matter: the selected person's lines, a hovered or
@@ -302,6 +339,20 @@ function tidyForce(centerPull: boolean, gap = 26) {
     nodes = ns;
   };
   return force;
+}
+
+const photoCache = new Map<string, HTMLImageElement | null>();
+
+/** The loaded portrait for `url`, or null while it loads (then `onLoad` fires once) or if it failed. */
+function loadPhoto(url: string, onLoad: () => void): HTMLImageElement | null {
+  const hit = photoCache.get(url);
+  if (hit !== undefined) return hit?.complete && hit.naturalWidth ? hit : null;
+  const img = new Image();
+  photoCache.set(url, img);
+  img.onload = onLoad;
+  img.onerror = () => photoCache.set(url, null);
+  img.src = url;
+  return null;
 }
 
 /** Pulls core people into the middle and everyone else onto the ring for their distance. */

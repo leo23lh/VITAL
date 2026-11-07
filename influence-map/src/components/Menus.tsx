@@ -21,6 +21,8 @@ interface Props {
   onShowSuggested: (v: boolean) => void;
   colorAll: boolean;
   onColorAll: (v: boolean) => void;
+  showPhotos: boolean;
+  onShowPhotos: (v: boolean) => void;
   year: number | null;
   span: [number, number];
   onYear: (y: number | null) => void;
@@ -137,6 +139,12 @@ function FiltersMenu(props: Props) {
       )}
 
       <h4>Display</h4>
+      <label className="check-row">
+        <input type="checkbox" checked={props.showPhotos} onChange={(e) => props.onShowPhotos(e.target.checked)} />
+        <span className="check-label">
+          Show photos <span className="muted">· in each person's circle, ringed in their sector color</span>
+        </span>
+      </label>
       <label className="check-row">
         <input type="checkbox" checked={props.showSuggested} onChange={(e) => props.onShowSuggested(e.target.checked)} />
         <span className="check-label">

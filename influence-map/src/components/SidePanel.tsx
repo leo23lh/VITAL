@@ -120,7 +120,17 @@ function NodePanel({
   return (
     <div className="panel-body">
       <header className="panel-header">
-        <h2>{node.name}</h2>
+        <div className="panel-title">
+          {node.photoUrl && (
+            <img
+              className="panel-photo"
+              src={node.photoUrl}
+              alt=""
+              style={{ borderColor: sector?.color ?? 'var(--border)' }}
+            />
+          )}
+          <h2>{node.name}</h2>
+        </div>
         <div className="badges">
           {!node.researched && <span className="badge badge-suggested">Suggested · no file yet</span>}
           {node.researched && sector && (
@@ -135,6 +145,15 @@ function NodePanel({
         </div>
         {p?.aliases && p.aliases.length > 0 && <div className="muted">Also: {p.aliases.join(', ')}</div>}
         {p?.current_role && <div className="role">{p.current_role}</div>}
+        {p?.photo && (
+          <div className="photo-credit muted">
+            Photo:{' '}
+            <a href={sourceUrl(p.photo.source)} target="_blank" rel="noreferrer noopener">
+              {p.photo.credit}
+            </a>
+            , {p.photo.license}, via Wikimedia Commons
+          </div>
+        )}
         <div className="panel-actions">
           <button onClick={() => onWorld(node.id)}>Focus</button>
           <span className="muted small">

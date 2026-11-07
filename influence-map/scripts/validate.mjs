@@ -80,9 +80,10 @@ const isYear = (y) => y === null || y === undefined || (Number.isInteger(y) && y
 
 /**
  * @param {{file: string, slug: string, data: any}[]} records
+ * @param {{photosDir?: string}} [opts] when given, photo files must exist there
  * @returns {{errors: {file: string, message: string}[], warnings: {file: string, message: string}[]}}
  */
-export function validatePeople(records) {
+export function validatePeople(records, opts = {}) {
   const errors = [];
   const warnings = [];
   const err = (file, message) => errors.push({ file, message });
@@ -106,6 +107,20 @@ export function validatePeople(records) {
     if (typeof p.public_figure !== 'boolean') err(file, '"public_figure" must be true or false');
     if (typeof p.last_researched !== 'string' || !DATE_RE.test(p.last_researched))
       err(file, '"last_researched" must be a YYYY-MM-DD date');
+    if (p.photo !== undefined) {
+      const ph = p.photo;
+      if (!ph || typeof ph !== 'object') err(file, '"photo" must be an object');
+      else {
+        if (typeof ph.file !== 'string' || !/^[a-z0-9-]+\.(jpg|png|webp)$/.test(ph.file))
+          err(file, 'photo.file must be a file name like "<slug>.jpg"');
+        else if (opts.photosDir && !fs.existsSync(path.join(opts.photosDir, ph.file)))
+          err(file, `photo.file "${ph.file}" is missing from public/photos`);
+        if (typeof ph.credit !== 'string' || !ph.credit.trim()) err(file, 'photo.credit is required (the license needs attribution)');
+        if (typeof ph.license !== 'string' || !ph.license.trim()) err(file, 'photo.license is required');
+        if (!isHttp(urlOf(ph.source))) err(file, 'photo.source must link to the image page');
+        if (p.public_figure === false) err(file, 'Only public figures may have a photo');
+      }
+    }
     if (p.sector === undefined) warn(file, `No "sector"; the dot shows untinted (one of ${SECTORS.join(', ')})`);
     else if (!SECTORS.includes(p.sector)) err(file, `"sector" must be one of ${SECTORS.join(', ')}`);
     if (p.groups !== undefined) {
@@ -247,7 +262,7 @@ function main() {
     process.exit(1);
   }
   const { records, parseErrors } = loadDir(dir);
-  const { errors, warnings } = validatePeople(records);
+  const { errors, warnings } = validatePeople(records, { photosDir: path.join(dir, '..', '..', 'public', 'photos') });
   const all = [...parseErrors, ...errors];
 
   for (const w of warnings) console.log(`warning  ${w.file}: ${w.message}`);

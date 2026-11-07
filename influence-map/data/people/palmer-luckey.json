@@ -4,6 +4,12 @@
   "public_figure": true,
   "sector": "ai-defense",
   "groups": ["tech-right", "defense-tech"],
+  "photo": {
+    "file": "palmer-luckey.jpg",
+    "credit": "Xuthoria",
+    "license": "CC BY-SA 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:CES_2026_-_Palmer_Luckey_01_(cropped).jpg", "title": "File:CES 2026 - Palmer Luckey 01 (cropped).jpg — Wikimedia Commons" }
+  },
   "current_role": "Founder of Anduril Industries",
   "summary": "Palmer Luckey founded the virtual-reality company Oculus VR in 2012 and sold it to Facebook in 2014; he left Facebook in 2017 after controversy over his funding of a pro-Trump group, which he says got him fired and Facebook denies. He then co-founded the defense company Anduril, backed by Peter Thiel's Founders Fund and valued at $30.5 billion in 2025, and is an outspoken Trump supporter.",
   "sources": [

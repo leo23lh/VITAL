@@ -24,6 +24,8 @@ export interface GraphNode {
   publicFigure: boolean;
   sector?: Sector;
   groups: GroupId[];
+  /** URL of the person's portrait, relative to the page. */
+  photoUrl?: string;
   person?: Person;
   file?: string;
   /** Number of distinct people this node is linked to. Drives node size. */
@@ -91,6 +93,7 @@ export function buildGraph(files: PersonFile[]): GraphData {
       publicFigure: f.data.public_figure !== false,
       sector: f.data.sector,
       groups: Array.isArray(f.data.groups) ? f.data.groups : [],
+      photoUrl: f.data.photo?.file ? `photos/${encodeURIComponent(f.data.photo.file)}` : undefined,
       person: f.data,
       file: f.file,
       degree: 0,

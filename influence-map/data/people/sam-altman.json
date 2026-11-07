@@ -4,6 +4,12 @@
   "public_figure": true,
   "sector": "ai-defense",
   "groups": ["ai-race"],
+  "photo": {
+    "file": "sam-altman.jpg",
+    "credit": "首相官邸ホームページ / Office of the Prime Minister of Japan Official Website",
+    "license": "CC BY 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Meeting_with_Masayoshi_Son_and_Sam_Altman_(February_3,_2025)_(3x4_cropped_on_Altman).jpg", "title": "File:Meeting with Masayoshi Son and Sam Altman (February 3, 2025) (3x4 cropped on Altman).jpg — Wikimedia Commons" }
+  },
   "current_role": "CEO of OpenAI",
   "summary": "Sam Altman co-founded Loopt, ran the startup accelerator Y Combinator from 2014 to 2019 and co-founded OpenAI in 2015 with Elon Musk and others, becoming its CEO in 2019. Briefly ousted by OpenAI's board in November 2023 and reinstated days later, he gave $1 million to Trump's 2025 inauguration and launched the $500 billion Stargate AI infrastructure venture with Trump, Larry Ellison and Masayoshi Son. In May 2026 a jury rejected Musk's lawsuit against him and OpenAI.",
   "sources": [

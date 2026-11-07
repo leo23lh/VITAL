@@ -190,6 +190,17 @@ export interface Connection {
   sources?: SourceRef[];
 }
 
+/** A freely licensed portrait saved in public/photos (see scripts/fetch-photos.mjs). */
+export interface Photo {
+  /** File name inside public/photos. */
+  file: string;
+  /** Photographer or rights holder, for the attribution the license requires. */
+  credit: string;
+  license: string;
+  /** The image's Wikimedia Commons page. */
+  source: Source;
+}
+
 export interface SourceConflict {
   topic: string;
   details: string;
@@ -204,6 +215,7 @@ export interface Person {
   sector?: Sector;
   /** Any of GROUPS; drives the preset views. */
   groups?: GroupId[];
+  photo?: Photo;
   current_role?: string;
   summary?: string;
   /** Sources backing summary and current_role. */

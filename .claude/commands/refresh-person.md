@@ -67,6 +67,10 @@ optionally followed by context about what to focus on.
 7. **Validate:** run `node influence-map/scripts/validate.mjs` (or
    `node scripts/validate.mjs` from inside `influence-map/`) and fix every error.
 
+7b. **Photo.** If the person has no `photo`, run
+   `node influence-map/scripts/fetch-photos.mjs <slug>` (see `/add-person` step 6c);
+   publish any new photo with the phone-page update below.
+
 8. **Update the phone page.** If `influence-map/artifact.json` exists, copy every
    file you changed into that page's database: ArtifactData `list` (its `url`,
    collection `people`) for the current versions, then one `batch` of `set`

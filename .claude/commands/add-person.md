@@ -122,6 +122,14 @@ b. **Reciprocal links.** For every connection whose `slug` has a file in DATA_DI
    Only touch `connections` in the other file. Don't delete anything there and
    don't change its `last_researched`.
 
+### 6c. Photo
+
+For a public figure, run `node influence-map/scripts/fetch-photos.mjs <slug>`. It
+saves a freely licensed Wikipedia lead photo and writes the `photo` field, or
+explains why it skipped (no image, or not a free license). If the network blocks
+Wikipedia, skip this and say so in the report. Never add a photo by hand or for
+someone with `"public_figure": false`.
+
 ### 7. Validate
 
 Run `node influence-map/scripts/validate.mjs` (or `node scripts/validate.mjs`
@@ -139,6 +147,9 @@ database, so the graph on the user's phone updates:
 2. One ArtifactData `batch` of `set` writes (up to 50 per batch): collection
    `people`, `doc_id` = the slug, `file_path` = the person's JSON file, and
    `if_version` = the version from step 1 (leave it out for someone not stored yet).
+
+3. If step 6c saved a photo, publish it next to the page as CLAUDE.md "Phone
+   page → Photos" describes.
 
 If this fails (for example, ArtifactData isn't available in this session), say
 so in the report and suggest running `/sync-map` later. The files stay the

@@ -13,6 +13,8 @@ two slash commands in the repo root's `.claude/commands/`:
 | Path | What it is |
 | --- | --- |
 | `data/people/<slug>.json` | One file per person. The only source of truth. |
+| `public/photos/<slug>.jpg` | Portraits shown in the dots (freely licensed, from Wikimedia Commons). |
+| `scripts/fetch-photos.mjs` | Downloads a person's Wikipedia lead photo if its license is free and records the credit. |
 | `scripts/validate.mjs` | Checks every file against the rules below. No install needed: `node influence-map/scripts/validate.mjs` from the repo root. |
 | `src/` | Vite + React + TypeScript viewer (`npm run dev`). Reads the data folder and live-reloads. |
 
@@ -99,6 +101,15 @@ patterns). Passing it does not mean the rules are met; it only catches slips.
 - **sources**: objects `{ "url", "title" }` (a bare URL string also works).
 - **affiliations**: objects, not strings, so each can carry sources.
 - **sector** and **groups**: see "Sectors and groups" below.
+- **photo** (optional): written by `node influence-map/scripts/fetch-photos.mjs <slug>`,
+  never by hand. It downloads the person's Wikipedia lead image only if it is on
+  Wikimedia Commons under a free license (Creative Commons BY / BY-SA, CC0 or
+  public domain), saves a 250px copy to `public/photos/`, and records `file`,
+  `credit` (photographer), `license` and `source` (the Commons page). The viewer
+  shows the credit with the photo, as the licenses require. Public figures only;
+  no photos of people with `"public_figure": false`. The script needs network
+  access to en.wikipedia.org and upload.wikimedia.org (the "VITAL" cloud
+  environment allows them); if they're blocked, skip the photo and say so.
 - **last_researched**: date the person was last researched (YYYY-MM-DD). Don't
   change it when you only add a reciprocal link to their file.
 
@@ -192,6 +203,12 @@ on a phone. Its link is in `artifact.json`.
   source of truth; never edit the database by hand.
 - **Access:** only the owner can write the database; anyone the owner shares
   the page with can read it. Sharing is done from the page's Share menu.
+- **Photos:** published as files next to the page, at `photos/<file>`. After
+  fetching a new photo, publish it: Artifact `read` the URL from `artifact.json`,
+  then `publish` with that `url`, `file_path: influence-map/dist-artifact/page.html`
+  (run `npm run build:artifact` first if `dist-artifact/` is missing) and
+  `files: {"photos/<file>": "influence-map/public/photos/<file>"}`. Files left out
+  of a publish are kept.
 - **Viewer code changes:** run `npm run build:artifact` (writes
   `dist-artifact/page.html` and `dist-artifact/app.js`), then republish: Artifact
   `read` the URL from `artifact.json` first, then `publish` with that `url`,

@@ -20,4 +20,8 @@ the page.
      `if_version` = its listed version (leave it out if it isn't stored yet);
    - for every stored document with no matching file: `delete` with its
      `if_version`.
-5. Report how many people were added, updated and removed, and give the page link.
+5. Photos: Artifact `list` with `scope: "files"` and the page `url`. If any file in
+   `influence-map/public/photos/` isn't published as `photos/<file>`, publish the
+   missing ones as CLAUDE.md "Phone page → Photos" describes.
+6. Report how many people were added, updated and removed, how many photos were
+   published, and give the page link.
