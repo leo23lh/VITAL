@@ -49,6 +49,7 @@ export const GROUPS = [
   'middle-east',
   'media',
   'critics',
+  '2028-race',
 ];
 
 const PRIVACY_PATTERNS = [
@@ -194,6 +195,29 @@ export function validatePeople(records, opts = {}) {
       });
     } else if (researched && p.lean === undefined) {
       warn(file, 'No "lean"; on the main map the person is placed left–right by their links only');
+    }
+
+    if (p.race_2028 !== undefined) {
+      const r = p.race_2028;
+      if (!r || typeof r !== 'object') err(file, '"race_2028" must be an object');
+      else {
+        if (!['contender', 'camp'].includes(r.role)) err(file, 'race_2028.role must be "contender" or "camp"');
+        if (r.role === 'camp') {
+          if (!Array.isArray(r.contenders) || !r.contenders.length) err(file, 'race_2028.contenders must list the contenders\' slugs');
+          else
+            for (const s of r.contenders) {
+              if (!(p.connections ?? []).some((c) => c?.slug === s))
+                err(file, `race_2028: in ${s}'s camp but has no connection to ${s}`);
+              const target = bySlug.get(s);
+              if (target && target.data?.race_2028?.role !== 'contender')
+                err(file, `race_2028: ${s}.json is not marked as a 2028 contender`);
+            }
+        }
+        if (typeof r.basis !== 'string' || !r.basis.trim()) err(file, 'race_2028.basis is required');
+        checkSources(r.sources, 'race_2028');
+        if (!Array.isArray(p.groups) || !p.groups.includes('2028-race'))
+          warn(file, 'Has race_2028 but not the "2028-race" group, so it won\'t show in the 2028 race view');
+      }
     }
 
     (p.source_conflicts ?? []).forEach((c, i) => {

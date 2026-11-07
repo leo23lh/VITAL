@@ -144,6 +144,28 @@ function NodePanel({
             <span className="badge badge-private">Not a public figure · user-provided info only</span>
           )}
         </div>
+        {p?.race_2028 && (
+          <div className="race-2028">
+            <strong>2028:</strong>{' '}
+            {p.race_2028.role === 'contender' ? (
+              'likely contender'
+            ) : (
+              <>
+                in the camp of{' '}
+                {(p.race_2028.contenders ?? []).map((s, i) => (
+                  <span key={s}>
+                    {i > 0 && ', '}
+                    <button className="link-button" onClick={() => onSelect({ kind: 'node', id: s })}>
+                      {nameOf(s)}
+                    </button>
+                  </span>
+                ))}
+              </>
+            )}
+            <span className="muted"> · {p.race_2028.basis}</span>
+            <SourceList sources={p.race_2028.sources} compact />
+          </div>
+        )}
         {p?.aliases && p.aliases.length > 0 && <div className="muted">Also: {p.aliases.join(', ')}</div>}
         {p?.current_role && <div className="role">{p.current_role}</div>}
         {p?.photo && (

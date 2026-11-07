@@ -148,6 +148,7 @@ connections show. The validator rejects names not listed here; keep the lists in
 | `middle-east` | Middle East dealmakers | People with a documented role in Israel / Gaza / Gulf diplomacy or funding |
 | `media` | Media & platforms | Owners or leaders of news outlets, social platforms and major podcasts |
 | `critics` | Critics & opponents | Prominent opponents of Trump or his administration |
+| `2028-race` | 2028 race | Likely 2028 presidential contenders and their camps (see "2028 race" below) |
 
 ## Political lean
 
@@ -194,6 +195,25 @@ links. Left–right comes from `lean`:
   near the closeness-weighted average lean of the people they're linked to.
 - Group and lens views keep their radial layout; the left–right pull is only
   for the main view.
+
+## 2028 race
+
+People in the 2028 presidential race carry a `race_2028` field and the
+`2028-race` group:
+
+```json
+"race_2028": { "role": "contender", "basis": "Second in most 2028 Democratic primary polls.",
+               "sources": [{ "url": "https://…", "title": "…" }] }
+"race_2028": { "role": "camp", "contenders": ["jd-vance"],
+               "basis": "Longtime donor and adviser.", "sources": [{ "url": "https://…" }] }
+```
+
+- **Contender:** reliable polling or reporting treats them as a likely 2028
+  candidate (declared, exploring, or consistently polled near the top).
+- **Camp:** a close adviser, strategist, major donor, family member who is a
+  public figure, or key ally of one or more contenders. The validator requires
+  a connection to each listed contender and that contender's own `race_2028`.
+- Update these as candidates declare or drop out (`/refresh-person`).
 
 The viewer also has three views that need no tagging: **Follow the money**
 (people with donor links), **Feuds** (people with rival links), and

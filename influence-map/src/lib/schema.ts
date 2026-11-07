@@ -133,6 +133,7 @@ export const GROUPS = [
   { id: 'middle-east', label: 'Middle East dealmakers' },
   { id: 'media', label: 'Media & platforms' },
   { id: 'critics', label: 'Critics & opponents' },
+  { id: '2028-race', label: '2028 race' },
 ] as const;
 
 export type GroupId = (typeof GROUPS)[number]['id'];
@@ -230,6 +231,19 @@ export function leanLabel(value: number): string {
   return LEAN_LABELS[value] ?? `${value}`;
 }
 
+/**
+ * The 2028 presidential race. A contender is someone reliable reporting or polling
+ * treats as a likely 2028 candidate; a camp member is a close adviser, donor or
+ * ally of one or more contenders (each listed contender must also be a connection).
+ */
+export interface Race2028 {
+  role: 'contender' | 'camp';
+  /** For camp members: the contenders' slugs. */
+  contenders?: string[];
+  basis: string;
+  sources: SourceRef[];
+}
+
 export interface SourceConflict {
   topic: string;
   details: string;
@@ -249,6 +263,8 @@ export interface Person {
   photo?: Photo;
   /** Political lean by period; places the person left–right on the main map. */
   lean?: LeanPeriod[];
+  /** Role in the 2028 presidential race, if any. */
+  race_2028?: Race2028;
   current_role?: string;
   summary?: string;
   /** Sources backing summary and current_role. */
