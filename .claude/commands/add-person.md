@@ -118,6 +118,9 @@ a. Write `DATA_DIR/<slug>.json` in the CLAUDE.md format, with `last_researched`
    Research and set `lean` as CLAUDE.md "Political lean" describes: one period
    per documented shift, each with a `basis` and sources. Leave it out if the
    person has no public political record.
+   If they are a political donor, add `giving` as CLAUDE.md "Giving" describes:
+   totals and main recipients per cycle (latest two cycles at least), and an
+   `outlook` for the next cycle that rests only on reporting.
 
 b. **Reciprocal links.** For every connection whose `slug` has a file in DATA_DIR,
    open that file and add the inverse record to its `connections` (inverse type

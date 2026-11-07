@@ -228,6 +228,57 @@ Group and lens views use a radial layout: the view's people sit in the middle,
 and everyone else sits on faint rings by how many links away they are
 ("1 step out", "2 steps out", "not linked"). The whole network stays visible.
 
+## Giving
+
+Donors (anyone whose political giving is publicly reported) can carry a `giving`
+field. It shows as a "Giving" section in the person's details. Committees and
+groups (super PACs, dark-money groups) are not people, so they live here as
+recipients, not as files. Money to or from someone in the map is also recorded
+as a `donor` / `funded_by` connection, so it shows as a Money line.
+
+```json
+"giving": {
+  "cycles": [
+    { "cycle": 2026, "total_usd": 445500000, "rank": 1,
+      "ranking": "OpenSecrets, as reported by Newsweek",
+      "description": "Optional one-line summary of the cycle.",
+      "sources": [{ "url": "https://…", "title": "…" }],
+      "recipients": [
+        { "name": "America PAC", "kind": "super-pac", "side": "R", "amount_usd": 216000000,
+          "description": "Musk's own super PAC.", "sources": [{ "url": "https://…" }] },
+        { "name": "Donald Trump", "slug": "donald-trump", "kind": "candidate", "side": "R", "sources": [ … ] }
+      ] }
+  ],
+  "outlook": {
+    "cycle": 2028,
+    "summary": "What reporting says about their plans, in one or two sentences.",
+    "sources": [ … ],
+    "likely": [
+      { "name": "Marco Rubio", "slug": "marco-rubio", "kind": "candidate", "side": "R",
+        "basis": "Told Axios in July 2026 he would back Rubio over Vance.",
+        "confidence": 0.8, "sources": [ … ] }
+    ]
+  }
+}
+```
+
+- `cycle`: the even year a federal cycle ends in. One entry per cycle.
+- `total_usd` / `rank`: from a named ranking (`ranking`), e.g. OpenSecrets'
+  top donors. Rankings differ by method (all giving vs outside spending; which
+  filing date). Give the figure the cited source states, and put other figures
+  in `source_conflicts`.
+- `kind`: `super-pac`, `dark-money`, `candidate`, `party`, `pac`, `ballot-measure`, `other`.
+  `side`: `D`, `R`, `both` (gives to both parties, e.g. industry PACs) or `nonpartisan`.
+- `amount_usd`: whole dollars as reported. Leave it out when no source gives a figure.
+- `slug`: when the recipient is, or is run by, someone in the map (MAGA Inc. → `donald-trump`).
+- **Outlook** is a forecast, so it rests only on reporting: a stated plan or
+  preference ("would back Rubio"), a pledge, or a long documented pattern (gave to
+  the same committees every cycle). Say which in `basis`. Confidence uses the
+  scale below: 0.8+ for a stated plan, 0.6–0.75 for a pattern across several
+  cycles, 0.4–0.55 for thin or denied reports. Nothing below 0.3; no guesses.
+- Spouses who give jointly are usually counted together by the rankings. Keep the
+  main donor's file and say "with [spouse]" in the description.
+
 ## Relationship types
 
 `relationship_type` says **what the connected person is to the file's subject**.

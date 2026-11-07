@@ -11,7 +11,17 @@ import {
   ringDistances,
   roleOfOther,
 } from './graph';
-import { GROUPS, INVERSE_TYPE, RELATIONSHIP_TYPES, SECTORS, type Person, type PersonFile } from './schema';
+import {
+  GIVING_SIDES,
+  GROUPS,
+  INVERSE_TYPE,
+  RECIPIENT_KINDS,
+  RELATIONSHIP_TYPES,
+  SECTORS,
+  formatUsd,
+  type Person,
+  type PersonFile,
+} from './schema';
 
 const src = (n: number) => [{ url: `https://example.com/${n}`, title: `Source ${n}` }];
 
@@ -156,6 +166,8 @@ describe('validatePeople', () => {
     expect(validator.INVERSE_TYPE).toEqual(INVERSE_TYPE);
     expect(validator.SECTORS).toEqual(SECTORS.map((s) => s.id));
     expect(validator.GROUPS).toEqual(GROUPS.map((g) => g.id));
+    expect(validator.RECIPIENT_KINDS).toEqual(RECIPIENT_KINDS.map((k) => k.id));
+    expect(validator.GIVING_SIDES).toEqual([...GIVING_SIDES]);
   });
 
   it("allows a family link only to the owner's self-added file", () => {
@@ -274,5 +286,62 @@ describe('political lean', () => {
     const fam = pairs.find((p) => p.id === 'a|b')!;
     const riv = pairs.find((p) => p.id === 'a|c')!;
     expect(fam.closeness).toBeGreaterThan(riv.closeness);
+  });
+});
+
+describe('giving', () => {
+  const giving = {
+    cycles: [
+      {
+        cycle: 2026,
+        total_usd: 445_500_000,
+        rank: 1,
+        ranking: 'OpenSecrets',
+        sources: src(1),
+        recipients: [{ name: 'America PAC', kind: 'super-pac' as const, side: 'R' as const, amount_usd: 216e6, sources: src(2) }],
+      },
+    ],
+    outlook: {
+      cycle: 2028,
+      summary: 'Expected to keep funding Republicans.',
+      likely: [{ name: 'JD Vance', slug: 'jd-vance', kind: 'candidate' as const, side: 'R' as const, basis: 'Reported interest.', confidence: 0.5, sources: src(3) }],
+    },
+  };
+
+  it('accepts a well-formed record', () => {
+    expect(validator.validatePeople([person('a', 'A', [], { giving })]).errors).toEqual([]);
+  });
+
+  it('rejects bad cycles, kinds, amounts and unsourced items', () => {
+    const bad = person('a', 'A', [], {
+      giving: {
+        cycles: [
+          { cycle: 2025, total_usd: -1, sources: [], recipients: [{ name: 'X', kind: 'church' as never, sources: [] }] },
+        ],
+        outlook: { cycle: 2028, summary: '', likely: [{ name: 'Y', kind: 'candidate', basis: '', confidence: 0.1, sources: src(1) }] },
+      },
+    });
+    const text = validator.validatePeople([bad]).errors.map((e: { message: string }) => e.message).join('\n');
+    expect(text).toMatch(/even election year/);
+    expect(text).toMatch(/dollar amount/);
+    expect(text).toMatch(/"kind" must be one of/);
+    expect(text).toMatch(/no sources/);
+    expect(text).toMatch(/"summary" is required/);
+    expect(text).toMatch(/"basis"/);
+    expect(text).toMatch(/0.3 to 1/);
+  });
+
+  it('is only for public figures', () => {
+    const priv = person('me', 'Me', [], { public_figure: false, giving });
+    expect(validator.validatePeople([priv]).errors.map((e: { message: string }) => e.message).join('\n')).toMatch(
+      /only public figures/,
+    );
+  });
+
+  it('formats dollar amounts', () => {
+    expect(formatUsd(445_500_000)).toBe('$445.5M');
+    expect(formatUsd(16_000_000)).toBe('$16M');
+    expect(formatUsd(1_200_000_000)).toBe('$1.2B');
+    expect(formatUsd(500_000)).toBe('$500K');
   });
 });

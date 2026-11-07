@@ -13,11 +13,15 @@ import {
   EDGE_FAMILY_BY_ID,
   EDGE_GROUP_BY_ID,
   GROUPS,
+  RECIPIENT_KIND_LABEL,
   SECTOR_BY_ID,
+  formatUsd,
   leanLabel,
   sourceLabel,
   sourceUrl,
   type Affiliation,
+  type Giving,
+  type GivingSide,
   type SourceRef,
 } from '../lib/schema';
 import type { Layout, Selection } from '../App';
@@ -50,7 +54,17 @@ export default function SidePanel({ layout, selection, nodes, links, onSelect, o
   let body: React.ReactNode = null;
   if (selection.kind === 'node') {
     const node = nodeById.get(selection.id);
-    if (node) body = <NodePanel node={node} links={links} nameOf={nameOf} onSelect={onSelect} onWorld={onWorld} />;
+    if (node)
+      body = (
+        <NodePanel
+          node={node}
+          links={links}
+          nameOf={nameOf}
+          hasFile={(id) => nodeById.has(id)}
+          onSelect={onSelect}
+          onWorld={onWorld}
+        />
+      );
   } else {
     const pair = links.filter((l) => pairKey(l.sourceId, l.targetId) === selection.id);
     if (pair.length) body = <PairPanel links={pair} nameOf={nameOf} onSelect={onSelect} />;
@@ -92,12 +106,15 @@ function NodePanel({
   node,
   links,
   nameOf,
+  hasFile,
   onSelect,
   onWorld,
 }: {
   node: GraphNode;
   links: GraphLink[];
   nameOf: (id: string) => string;
+  /** Whether a slug is a dot on the map (so it can be selected). */
+  hasFile: (id: string) => boolean;
   onSelect: (s: Selection) => void;
   onWorld: (id: string) => void;
 }) {
@@ -224,6 +241,8 @@ function NodePanel({
         </section>
       )}
 
+      {p?.giving && <GivingSection giving={p.giving} hasFile={hasFile} onSelect={onSelect} />}
+
       {p?.source_conflicts && p.source_conflicts.length > 0 && (
         <section className="conflicts">
           <h3>Sources disagree</h3>
@@ -330,6 +349,96 @@ function NodePanel({
         </footer>
       )}
     </div>
+  );
+}
+
+const SIDE_LABEL: Record<GivingSide, string> = { D: 'Dem', R: 'GOP', both: 'Both parties', nonpartisan: 'Nonpartisan' };
+
+function SideTag({ side }: { side?: GivingSide }) {
+  if (!side) return null;
+  return <span className={`side-tag side-${side}`}>{SIDE_LABEL[side]}</span>;
+}
+
+/** Donations by cycle, newest first, then the sourced outlook for the next cycle. */
+function GivingSection({
+  giving,
+  hasFile,
+  onSelect,
+}: {
+  giving: Giving;
+  hasFile: (id: string) => boolean;
+  onSelect: (s: Selection) => void;
+}) {
+  const cycles = [...(giving.cycles ?? [])].sort((a, b) => b.cycle - a.cycle);
+  const target = (name: string, slug?: string) =>
+    slug && hasFile(slug) ? (
+      <button className="link-button" onClick={() => onSelect({ kind: 'node', id: slug })}>
+        {name}
+      </button>
+    ) : (
+      <strong>{name}</strong>
+    );
+  return (
+    <section className="giving">
+      <h3>Giving</h3>
+      {cycles.map((c) => (
+        <div key={c.cycle} className="giving-cycle">
+          <div className="giving-head">
+            <span className="giving-year">{c.cycle} cycle</span>
+            {typeof c.total_usd === 'number' && <strong>{formatUsd(c.total_usd)}</strong>}
+            {c.rank && <span className="giving-rank">#{c.rank}</span>}
+            {c.ranking && <span className="muted small">· {c.ranking}</span>}
+          </div>
+          {c.description && <p className="small">{c.description}</p>}
+          <SourceList sources={c.sources} compact />
+          {c.recipients && c.recipients.length > 0 && (
+            <ul className="giving-list">
+              {[...c.recipients]
+                .sort((a, b) => (b.amount_usd ?? 0) - (a.amount_usd ?? 0))
+                .map((r, i) => (
+                  <li key={i}>
+                    <div className="giving-row">
+                      <span className="giving-amt">{typeof r.amount_usd === 'number' ? formatUsd(r.amount_usd) : '—'}</span>
+                      <span>
+                        {target(r.name, r.slug)} <span className="muted small">{RECIPIENT_KIND_LABEL[r.kind] ?? r.kind}</span>{' '}
+                        <SideTag side={r.side} />
+                      </span>
+                    </div>
+                    {r.description && <p className="small giving-desc">{r.description}</p>}
+                    <SourceList sources={r.sources} compact />
+                  </li>
+                ))}
+            </ul>
+          )}
+        </div>
+      ))}
+      {giving.outlook && (
+        <div className="giving-outlook">
+          <h4>Likely in {giving.outlook.cycle}</h4>
+          <p className="small">{giving.outlook.summary}</p>
+          <SourceList sources={giving.outlook.sources} compact />
+          {giving.outlook.likely && giving.outlook.likely.length > 0 && (
+            <ul className="giving-list">
+              {[...giving.outlook.likely]
+                .sort((a, b) => b.confidence - a.confidence)
+                .map((l, i) => (
+                  <li key={i}>
+                    <div className="giving-row">
+                      <Confidence value={l.confidence} />
+                      <span>
+                        {target(l.name, l.slug)} <span className="muted small">{RECIPIENT_KIND_LABEL[l.kind] ?? l.kind}</span>{' '}
+                        <SideTag side={l.side} />
+                      </span>
+                    </div>
+                    <p className="small giving-desc">{l.basis}</p>
+                    <SourceList sources={l.sources} compact />
+                  </li>
+                ))}
+            </ul>
+          )}
+        </div>
+      )}
+    </section>
   );
 }
 

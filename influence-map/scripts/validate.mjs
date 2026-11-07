@@ -52,6 +52,10 @@ export const GROUPS = [
   '2028-race',
 ];
 
+// Keep in sync with RECIPIENT_KINDS and GIVING_SIDES in src/lib/schema.ts (a unit test checks this).
+export const RECIPIENT_KINDS = ['super-pac', 'dark-money', 'candidate', 'party', 'pac', 'ballot-measure', 'other'];
+export const GIVING_SIDES = ['D', 'R', 'both', 'nonpartisan'];
+
 const PRIVACY_PATTERNS = [
   { what: 'an email address', re: /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i },
   { what: 'a phone number', re: /(?:\+?1[\s.-]?)?\(?\b\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}\b/ },
@@ -220,6 +224,62 @@ export function validatePeople(records, opts = {}) {
         checkSources(r.sources, 'race_2028');
         if (!Array.isArray(p.groups) || !p.groups.includes('2028-race'))
           warn(file, 'Has race_2028 but not the "2028-race" group, so it won\'t show in the 2028 race view');
+      }
+    }
+
+    // Giving: cycles of reported donations, and a sourced outlook for the next cycle.
+    if (p.giving !== undefined) {
+      const g = p.giving;
+      const isCycle = (y) => Number.isInteger(y) && y % 2 === 0 && y > 1970 && y < 2100;
+      const isUsd = (n) => n === undefined || (typeof n === 'number' && Number.isFinite(n) && n >= 0);
+      const checkTarget = (t, where) => {
+        if (typeof t?.name !== 'string' || !t.name.trim()) err(file, `${where}: missing "name"`);
+        if (t?.slug !== undefined && (typeof t.slug !== 'string' || !SLUG_RE.test(t.slug)))
+          err(file, `${where}: "slug" must be a lowercase-hyphenated slug`);
+        if (!RECIPIENT_KINDS.includes(t?.kind)) err(file, `${where}: "kind" must be one of ${RECIPIENT_KINDS.join(', ')}`);
+        if (t?.side !== undefined && !GIVING_SIDES.includes(t.side))
+          err(file, `${where}: "side" must be one of ${GIVING_SIDES.join(', ')}`);
+        checkSources(t?.sources, where);
+      };
+      if (!g || typeof g !== 'object') err(file, '"giving" must be an object');
+      else {
+        if (!researched) err(file, '"giving" is researched, so only public figures may have it');
+        if (g.cycles !== undefined && !Array.isArray(g.cycles)) err(file, 'giving.cycles must be an array');
+        const seenCycles = new Set();
+        (Array.isArray(g.cycles) ? g.cycles : []).forEach((c, i) => {
+          const where = `giving.cycles[${i}] (${c?.cycle ?? '?'})`;
+          if (!isCycle(c?.cycle)) err(file, `${where}: "cycle" must be an even election year`);
+          if (seenCycles.has(c?.cycle)) err(file, `${where}: duplicate cycle — merge them`);
+          seenCycles.add(c?.cycle);
+          if (!isUsd(c?.total_usd)) err(file, `${where}: "total_usd" must be a dollar amount`);
+          if (c?.rank !== undefined && (!Number.isInteger(c.rank) || c.rank < 1)) err(file, `${where}: "rank" must be 1 or more`);
+          if ((c?.rank !== undefined || c?.total_usd !== undefined) && !c?.ranking)
+            warn(file, `${where}: say which ranking the total/rank come from ("ranking")`);
+          checkSources(c?.sources, where);
+          if (c?.recipients !== undefined && !Array.isArray(c.recipients)) err(file, `${where}: "recipients" must be an array`);
+          (Array.isArray(c?.recipients) ? c.recipients : []).forEach((r, j) => {
+            const rw = `${where} recipient ${r?.name ?? `#${j}`}`;
+            checkTarget(r, rw);
+            if (!isUsd(r?.amount_usd)) err(file, `${rw}: "amount_usd" must be a dollar amount`);
+          });
+        });
+        if (g.outlook !== undefined) {
+          const o = g.outlook;
+          if (!o || typeof o !== 'object') err(file, 'giving.outlook must be an object');
+          else {
+            if (!isCycle(o.cycle)) err(file, 'giving.outlook: "cycle" must be an even election year');
+            if (typeof o.summary !== 'string' || !o.summary.trim()) err(file, 'giving.outlook: "summary" is required');
+            if (o.sources !== undefined) checkSources(o.sources, 'giving.outlook');
+            if (o.likely !== undefined && !Array.isArray(o.likely)) err(file, 'giving.outlook.likely must be an array');
+            (Array.isArray(o.likely) ? o.likely : []).forEach((l, j) => {
+              const lw = `giving.outlook likely ${l?.name ?? `#${j}`}`;
+              checkTarget(l, lw);
+              if (typeof l?.basis !== 'string' || !l.basis.trim()) err(file, `${lw}: "basis" must say what reporting it rests on`);
+              if (typeof l?.confidence !== 'number' || l.confidence < 0.3 || l.confidence > 1)
+                err(file, `${lw}: "confidence" must be from 0.3 to 1 (below 0.3, leave it out)`);
+            });
+          }
+        }
       }
     }
 

@@ -244,6 +244,87 @@ export interface Race2028 {
   sources: SourceRef[];
 }
 
+/** Political giving: what a donor gave, cycle by cycle, and a sourced outlook. See CLAUDE.md "Giving". */
+export const RECIPIENT_KINDS = [
+  { id: 'super-pac', label: 'Super PAC' },
+  { id: 'dark-money', label: 'Dark-money group' },
+  { id: 'candidate', label: 'Candidate' },
+  { id: 'party', label: 'Party committee' },
+  { id: 'pac', label: 'PAC' },
+  { id: 'ballot-measure', label: 'Ballot measure' },
+  { id: 'other', label: 'Other' },
+] as const;
+
+export type RecipientKind = (typeof RECIPIENT_KINDS)[number]['id'];
+
+/** Which side the money helps. "both" = gives to both parties (e.g. industry PACs). */
+export const GIVING_SIDES = ['D', 'R', 'both', 'nonpartisan'] as const;
+export type GivingSide = (typeof GIVING_SIDES)[number];
+
+export interface GivingRecipient {
+  /** A committee, group or candidate. */
+  name: string;
+  /** When the recipient is (or is run by) someone in the map, their slug. */
+  slug?: string;
+  kind: RecipientKind;
+  side?: GivingSide;
+  /** Whole dollars, as reported. Leave out when no source gives a figure. */
+  amount_usd?: number;
+  description?: string;
+  sources: SourceRef[];
+}
+
+export interface GivingCycle {
+  /** Federal election cycle: the even year it ends in (2024, 2026). */
+  cycle: number;
+  /** Total given that cycle, as the cited ranking reports it. */
+  total_usd?: number;
+  /** Place on the cited ranking of top donors. */
+  rank?: number;
+  /** Which ranking total_usd and rank come from, e.g. "OpenSecrets, via Newsweek". */
+  ranking?: string;
+  description?: string;
+  recipients?: GivingRecipient[];
+  sources: SourceRef[];
+}
+
+/** A likely recipient next cycle. It must rest on reporting (stated plans, a long pattern), never a guess. */
+export interface GivingProspect {
+  name: string;
+  slug?: string;
+  kind: RecipientKind;
+  side?: GivingSide;
+  basis: string;
+  confidence: number;
+  sources: SourceRef[];
+}
+
+export interface GivingOutlook {
+  cycle: number;
+  summary: string;
+  likely?: GivingProspect[];
+  sources?: SourceRef[];
+}
+
+export interface Giving {
+  cycles?: GivingCycle[];
+  outlook?: GivingOutlook;
+}
+
+export const RECIPIENT_KIND_LABEL = Object.fromEntries(RECIPIENT_KINDS.map((k) => [k.id, k.label])) as Record<
+  RecipientKind,
+  string
+>;
+
+/** $445.5M, $16M, $500K. */
+export function formatUsd(n: number): string {
+  const short = (v: number) => String(Number(v.toFixed(1)));
+  if (n >= 1e9) return `$${short(n / 1e9)}B`;
+  if (n >= 1e6) return `$${short(n / 1e6)}M`;
+  if (n >= 1e3) return `$${Math.round(n / 1e3)}K`;
+  return `$${n}`;
+}
+
 export interface SourceConflict {
   topic: string;
   details: string;
@@ -265,6 +346,8 @@ export interface Person {
   lean?: LeanPeriod[];
   /** Role in the 2028 presidential race, if any. */
   race_2028?: Race2028;
+  /** Political giving by cycle, and who they are likely to fund next. */
+  giving?: Giving;
   current_role?: string;
   summary?: string;
   /** Sources backing summary and current_role. */
