@@ -1235,6 +1235,45 @@
         { "url": "https://thehill.com/homenews/campaign/5910837-buttigieg-democratic-party-counterweight-trump/", "title": "The Hill: Buttigieg, untethered, acts as Trump counterweight" },
         { "url": "https://zephr.thedailybeast.com/trump-blames-buttigieg-for-air-safety-crisis-on-magas-watch", "title": "Daily Beast: Trump blames Buttigieg for air safety crisis" }
       ]
+    },
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "donor",
+      "description": "Yass gave $16 million to the pro-Trump MAGA Inc. in the first half of 2025 (the largest gift that period) and at least $2.5 million toward Trump's White House ballroom. After they met at a Club for Growth event in March 2024, Trump went from backing a TikTok ban to opposing one; Yass's firm is a major ByteDance investor.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+        { "url": "https://www.inquirer.com/politics/nation/jeffrey-yass-trump-ballroom-billionaire-donations-20251103.html", "title": "Pennsylvania's richest man has donated at least $2.5 million to Trump's ballroom — Philadelphia Inquirer" },
+        { "url": "https://www.nbcnews.com/tech/tech-news/jeff-yass-billionaire-donor-investments-tiktoks-parent-company-rcna142531", "title": "Who is Jeff Yass? The billionaire donor with investments in TikTok's parent company — NBC News" }
+      ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "donor",
+      "description": "Brockman and his wife gave $25 million to the pro-Trump MAGA Inc. in 2025, making them its biggest donors that year; he praised Trump's willingness to engage the AI community.",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/01/02/politics/trump-super-pac-maga-inc-fundraising", "title": "Trump's super PAC builds $300 million cash stockpile — CNN" },
+        { "url": "https://fortune.com/2026/08/04/jackie-bald-eagle-greg-brockman-openai-5-5-million-donation-fundraiser-philanthropy/", "title": "OpenAI's Greg Brockman gave $5.5 million to protect the home of a bald eagle — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Timothy Mellon",
+      "slug": "timothy-mellon",
+      "relationship_type": "donor",
+      "description": "Mellon gave $10 million to the pro-Trump America First Action in 2020 and about $150 million to MAGA Inc. in the 2024 cycle, Trump's largest donor; $2 million more in 2025.",
+      "start_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/timothy-mellon-leads-huge-month-trump-megadonors-pouring-cash-into-election-rcna158204", "title": "Timothy Mellon leads huge month for Trump megadonors — NBC News" },
+        { "url": "https://www.cnn.com/2024/08/21/politics/cash-advantage-harris-trump-rfk-filings/index.html", "title": "Harris erases Trump's cash edge while RFK Jr. faces dwindling resources — CNN" }
+      ]
     }
   ],
   "source_conflicts": [

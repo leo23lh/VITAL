@@ -121,6 +121,18 @@
       "sources": [
         { "url": "https://www.nbcnews.com/politics/2028-election/bernie-sanders-lane-2028-aoc-ro-khanna-rcna343290", "title": "NBC News: The front-runners to lead Bernie Sanders' movement in 2028" }
       ]
+    },
+    {
+      "name": "Timothy Mellon",
+      "slug": "timothy-mellon",
+      "relationship_type": "donor",
+      "description": "Mellon donated to Ocasio-Cortez's 2018 campaign, one of only two Democrats he has funded; he said he did it to disrupt the Democratic Party.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

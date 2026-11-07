@@ -1,0 +1,214 @@
+{
+  "name": "Timothy Mellon",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "business",
+  "groups": [],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican since the Reagan years (by his own account he earlier voted for Johnson, McGovern and Carter). Nearly all of his $227 million in federal giving from 2020 to mid-2024 went to Republicans, above all Trump's super PACs; his only Democratic gifts were to Alexandria Ocasio-Cortez in 2018 (\"to disrupt the Democratic Party\") and Tulsi Gabbard in 2020.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/timothy-mellon-leads-huge-month-trump-megadonors-pouring-cash-into-election-rcna158204", "title": "Timothy Mellon leads huge month for Trump megadonors — NBC News" }
+      ]
+    }
+  ],
+  "current_role": "Heir to the Mellon banking fortune; former owner of Pan Am Railways; Republican megadonor",
+  "summary": "Timothy Mellon, a grandson of Treasury Secretary Andrew Mellon, built a railroad holding company (Guilford Transportation, later Pan Am Railways) that he sold to CSX in 2022. He was the second-biggest donor of the 2024 cycle, giving about $150 million to the pro-Trump MAGA Inc. and $25 million to a super PAC backing Robert F. Kennedy Jr. During the 2025 government shutdown he gave $130 million to help pay the armed forces.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+    { "url": "https://thehill.com/policy/defense/5575276-timothy-mellon-troop-pay-report/", "title": "What to know about Timothy Mellon, who reportedly donated $130M to pay troops — The Hill" },
+    { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" }
+  ],
+  "timeline": [
+    {
+      "year": 1977,
+      "role": "Founder",
+      "org": "Perma Treat",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1981,
+      "end_year": 2022,
+      "role": "Founder and owner (sold to CSX for $600M in 2022)",
+      "org": "Guilford Transportation Industries / Pan Am Railways",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1981,
+      "end_year": 2002,
+      "role": "Trustee",
+      "org": "Andrew W. Mellon Foundation",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Mellon gave $10 million to the pro-Trump America First Action in 2020 and about $150 million to MAGA Inc. in the 2024 cycle, Trump's largest donor; $2 million more in 2025.",
+      "start_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/timothy-mellon-leads-huge-month-trump-megadonors-pouring-cash-into-election-rcna158204", "title": "Timothy Mellon leads huge month for Trump megadonors — NBC News" },
+        { "url": "https://www.cnn.com/2024/08/21/politics/cash-advantage-harris-trump-rfk-filings/index.html", "title": "Harris erases Trump's cash edge while RFK Jr. faces dwindling resources — CNN" }
+      ]
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "funded_by",
+      "description": "Mellon gave $25 million to American Values 2024, the super PAC backing Kennedy's 2024 presidential run, making him its largest donor while also Trump's.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+        { "url": "https://www.newsweek.com/donald-trump-rfk-donations-timothy-mellon-fec-1872315", "title": "Donald Trump and RFK Jr Have the Same Largest Donor — Newsweek" }
+      ]
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "slug": "alexandria-ocasio-cortez",
+      "relationship_type": "funded_by",
+      "description": "Mellon donated to Ocasio-Cortez's 2018 campaign, one of only two Democrats he has funded; he said he did it to disrupt the Democratic Party.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Andrew Mellon",
+      "slug": "andrew-mellon",
+      "relationship_type": "family",
+      "description": "Grandson of the banker and Treasury Secretary (1921–1932).",
+      "start_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jan Brewer",
+      "slug": "jan-brewer",
+      "relationship_type": "funded_by",
+      "description": "Mellon gave $1.5 million to Arizona Gov. Brewer's fund defending the SB 1070 immigration law, its biggest donation.",
+      "start_year": 2010,
+      "end_year": 2010,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "2026 cycle giving",
+      "details": "Newsweek found about $3.05M in federal filings, a roughly 97% drop from 2024; the Washington Post's tracker (FEC data to Oct. 15, 2026) lists $23.1M. Some of his giving goes to nonprofits that do not report to the FEC.",
+      "sources": [
+        { "url": "https://www.newsweek.com/timothy-mellon-donations-republicans-trump-drop-12194458", "title": "Timothy Mellon, A Top Trump Donor, Isn't Giving as Much to Republicans as He Used to — Newsweek" },
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where news pages could not be opened and OpenSecrets was blocked; facts were confirmed with web searches tied to each cited URL and with the Wikipedia article via its API.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "description": "Sharply down from 2024; tallies disagree (about $3M per Newsweek, $23.1M per the Washington Post). His $130M gift to pay troops in the 2025 shutdown was not political giving.",
+        "sources": [
+          { "url": "https://www.newsweek.com/timothy-mellon-donations-republicans-trump-drop-12194458", "title": "Timothy Mellon, A Top Trump Donor, Isn't Giving as Much to Republicans as He Used to — Newsweek" },
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+          { "url": "https://thehill.com/policy/defense/5575276-timothy-mellon-troop-pay-report/", "title": "What to know about Timothy Mellon, who reportedly donated $130M to pay troops — The Hill" }
+        ],
+        "recipients": [
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 2000000,
+            "description": "First half of 2025.",
+            "sources": [
+              { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 197000000,
+        "rank": 2,
+        "ranking": "OpenSecrets 2024 top donors (via Newser)",
+        "description": "The largest donor to Trump's 2024 campaign effort; also the main funder of the pro-Kennedy super PAC.",
+        "sources": [
+          { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
+          { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+        ],
+        "recipients": [
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 150000000,
+            "description": "Including $50M on May 31, 2024, one of the largest disclosed gifts ever.",
+            "sources": [
+              { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+              { "url": "https://www.nbcnews.com/politics/2024-election/timothy-mellon-leads-huge-month-trump-megadonors-pouring-cash-into-election-rcna158204", "title": "Timothy Mellon leads huge month for Trump megadonors — NBC News" },
+              { "url": "https://www.cnn.com/2024/08/21/politics/cash-advantage-harris-trump-rfk-filings/index.html", "title": "Harris erases Trump's cash edge while RFK Jr. faces dwindling resources — CNN" }
+            ]
+          },
+          {
+            "name": "American Values 2024 (pro-Kennedy super PAC)",
+            "slug": "robert-f-kennedy-jr",
+            "kind": "super-pac",
+            "side": "nonpartisan",
+            "amount_usd": 25000000,
+            "sources": [
+              { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+              { "url": "https://www.newsweek.com/donald-trump-rfk-donations-timothy-mellon-fec-1872315", "title": "Donald Trump and RFK Jr Have the Same Largest Donor — Newsweek" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No reporting on 2028. His federal giving fell sharply in 2026 after record 2024 spending; his pattern since 2020 is Trump-aligned super PACs.",
+      "sources": [
+        { "url": "https://www.newsweek.com/timothy-mellon-donations-republicans-trump-drop-12194458", "title": "Timothy Mellon, A Top Trump Donor, Isn't Giving as Much to Republicans as He Used to — Newsweek" }
+      ],
+      "likely": [
+        {
+          "name": "MAGA Inc. or a successor pro-Trump vehicle",
+          "slug": "donald-trump",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "Gave to Trump super PACs in 2020 ($10M, America First Action), 2024 ($150M) and 2025 ($2M); 2026 giving dropped.",
+          "confidence": 0.45,
+          "sources": [
+            { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+            { "url": "https://www.newsweek.com/timothy-mellon-donations-republicans-trump-drop-12194458", "title": "Timothy Mellon, A Top Trump Donor, Isn't Giving as Much to Republicans as He Used to — Newsweek" }
+          ]
+        }
+      ]
+    }
+  }
+}

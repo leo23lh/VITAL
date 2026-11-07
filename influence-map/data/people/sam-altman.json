@@ -231,13 +231,14 @@
       "name": "Greg Brockman",
       "slug": "greg-brockman",
       "relationship_type": "co-founder",
-      "description": "Co-founded OpenAI in 2015; Brockman, its president, left and returned with Altman during the November 2023 board crisis.",
+      "description": "Co-founded OpenAI in 2015; Brockman, its president, left and returned with Altman during the November 2023 board crisis. Co-founded OpenAI in 2015; Brockman, its president, quit and returned with Altman during the November 2023 board crisis.",
       "start_year": 2015,
       "end_year": null,
       "confidence": 0.95,
       "sources": [
         { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
-        { "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI", "title": "Removal of Sam Altman from OpenAI — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI", "title": "Removal of Sam Altman from OpenAI — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" }
       ]
     },
     {

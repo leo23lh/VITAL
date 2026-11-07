@@ -412,6 +412,33 @@
         { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
         { "url": "https://www.cnn.com/2026/10/16/politics/musk-gop-support-texas-senate-race-hnk", "title": "Musk contributed more than $150 million to bolster GOP in Texas Senate race, filings show — CNN" }
       ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "co-founder",
+      "description": "Musk and Brockman were among OpenAI's co-founders in 2015; Brockman recruited the founding team. Musk left OpenAI's board in 2018.",
+      "start_year": 2015,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" },
+        { "url": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/", "title": "How Elon Musk left OpenAI, according to Greg Brockman — TechCrunch" }
+      ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "rival",
+      "description": "Musk sued OpenAI, Altman and Brockman over OpenAI's shift to a for-profit model; on May 18, 2026 a jury found the claims time-barred. Musk said he would appeal.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" },
+        { "url": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/", "title": "How Elon Musk left OpenAI, according to Greg Brockman — TechCrunch" }
+      ]
     }
   ],
   "source_conflicts": [

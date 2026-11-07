@@ -1,0 +1,284 @@
+{
+  "name": "Jeff Yass",
+  "aliases": ["Jeffrey Yass", "Jeffrey Steven Yass"],
+  "public_figure": true,
+  "sector": "business",
+  "groups": [],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "A registered Libertarian who gives almost entirely to Republicans and conservative groups: Club for Growth, Rand Paul's super PAC (2015), about $100 million to Republican groups in 2024, and $16 million to the pro-Trump MAGA Inc. in 2025. Occasional gifts to Democrats who back school choice.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+        { "url": "https://www.nbcnews.com/tech/tech-news/jeff-yass-billionaire-donor-investments-tiktoks-parent-company-rcna142531", "title": "Who is Jeff Yass? The billionaire donor with investments in TikTok's parent company — NBC News" },
+        { "url": "https://www.inquirer.com/politics/nation/jeffrey-yass-school-voucher-pennsylvania-20251205.html", "title": "Jeffrey Yass details how school vouchers drive his political spending — Philadelphia Inquirer" }
+      ]
+    }
+  ],
+  "current_role": "Co-founder and managing director of Susquehanna International Group; Pennsylvania's richest person and a top Republican donor",
+  "summary": "Jeff Yass co-founded the trading firm Susquehanna International Group (SIG) in 1987; SIG is a major investor in TikTok's parent ByteDance. He and his wife Janine fund school-choice causes and were among the largest Republican donors in 2024 and 2026. After he met Trump at a Club for Growth event in March 2024, Trump dropped his support for a TikTok ban.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+    { "url": "https://www.nbcnews.com/tech/tech-news/jeff-yass-billionaire-donor-investments-tiktoks-parent-company-rcna142531", "title": "Who is Jeff Yass? The billionaire donor with investments in TikTok's parent company — NBC News" },
+    { "url": "https://www.axios.com/2024/03/21/tiktok-jeff-yass-bytedance-donor-conservative", "title": "ByteDance investor Jeff Yass tops 2024 donor list with TikTok under fire — Axios" }
+  ],
+  "timeline": [
+    {
+      "year": 1987,
+      "end_year": null,
+      "role": "Co-founder and managing director",
+      "org": "Susquehanna International Group",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2002,
+      "end_year": null,
+      "role": "Member, executive advisory council",
+      "org": "Cato Institute",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Students First PAC (Pennsylvania)",
+      "role": "Co-founder and main funder; $41.7M from 2010 to 2022",
+      "start_year": 2010,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+        { "url": "https://www.spotlightpa.org/news/2026/11/pennsylvania-legislature-election-spending-dark-money-jeff-yass-pac-for-americas-future-elections/", "title": "Dark money, billionaire cash flows into PA legislative races — Spotlight PA" }
+      ]
+    },
+    {
+      "name": "Club for Growth Action",
+      "role": "Major donor ($15M in 2026)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Yass Prize",
+      "role": "Founder, with Janine Yass (education innovation prize)",
+      "start_year": 2021,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Yass gave $16 million to the pro-Trump MAGA Inc. in the first half of 2025 (the largest gift that period) and at least $2.5 million toward Trump's White House ballroom. After they met at a Club for Growth event in March 2024, Trump went from backing a TikTok ban to opposing one; Yass's firm is a major ByteDance investor.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+        { "url": "https://www.inquirer.com/politics/nation/jeffrey-yass-trump-ballroom-billionaire-donations-20251103.html", "title": "Pennsylvania's richest man has donated at least $2.5 million to Trump's ballroom — Philadelphia Inquirer" },
+        { "url": "https://www.nbcnews.com/tech/tech-news/jeff-yass-billionaire-donor-investments-tiktoks-parent-company-rcna142531", "title": "Who is Jeff Yass? The billionaire donor with investments in TikTok's parent company — NBC News" }
+      ]
+    },
+    {
+      "name": "Vivek Ramaswamy",
+      "slug": "vivek-ramaswamy",
+      "relationship_type": "funded_by",
+      "description": "Yass and his wife were the top backers of Ramaswamy's 2026 Ohio governor run ($10M to his super PAC in 2025, $20M in 2026); Ramaswamy lost to Democrat Amy Acton.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+        { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" }
+      ]
+    },
+    {
+      "name": "Janine Yass",
+      "slug": "janine-yass",
+      "relationship_type": "family",
+      "description": "Wife; school-choice advocate and co-donor (op-eds, the Yass Prize).",
+      "start_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Rand Paul",
+      "slug": "rand-paul",
+      "relationship_type": "funded_by",
+      "description": "Yass gave $2.3 million to a super PAC backing Paul's 2016 presidential run.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Dave Sunday",
+      "slug": "dave-sunday",
+      "relationship_type": "funded_by",
+      "description": "Yass put $6 million through the Commonwealth Leaders Fund behind Sunday's successful 2024 run for Pennsylvania attorney general.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "2026 total",
+      "details": "The Washington Post and Al Jazeera count about $110M (FEC data); OpenSecrets via Newsweek $109M; Wikipedia says the Yasses gave over $89.3M in 2026; the map owner's ranking lists $107M.",
+      "sources": [
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+        { "url": "https://www.aljazeera.com/news/2026/10/27/tracking-the-money-the-biggest-donors-in-the-2026-us-midterm-elections", "title": "Tracking the money: The biggest donors in the 2026 US midterm elections — Al Jazeera" },
+        { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" },
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where news pages could not be opened and OpenSecrets was blocked; facts were confirmed with web searches tied to each cited URL and with the Wikipedia article via its API. Janine Yass is listed as a suggested connection only (main donor per family, at the owner's request).",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 110000000,
+        "rank": 4,
+        "ranking": "Rank among all 2026 donors, groups included (FEC data, per Al Jazeera and the Washington Post); total as cited: about $110M per the Washington Post and Al Jazeera",
+        "description": "With Janine Yass. Biggest bets: Vivek Ramaswamy for Ohio governor (he lost to Amy Acton, 52–45), MAGA Inc. and Club for Growth.",
+        "sources": [
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+          { "url": "https://www.aljazeera.com/news/2026/10/27/tracking-the-money-the-biggest-donors-in-the-2026-us-midterm-elections", "title": "Tracking the money: The biggest donors in the 2026 US midterm elections — Al Jazeera" },
+          { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" }
+        ],
+        "recipients": [
+          {
+            "name": "Pro-Ramaswamy super PAC (Ohio governor)",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 20000000,
+            "description": "Plus $10M in 2025. The Yasses were Ramaswamy's top backers; he lost.",
+            "sources": [
+              { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+              { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" }
+            ]
+          },
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 16000000,
+            "description": "The largest gift to the pro-Trump super PAC in the first half of 2025.",
+            "sources": [
+              { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+            ]
+          },
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 15000000,
+            "sources": [
+              { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+            ]
+          },
+          {
+            "name": "Students First PAC (Pennsylvania legislature)",
+            "kind": "pac",
+            "side": "R",
+            "description": "Yass-funded school-choice PAC; it spent $23.5M in 2026, including $2.5M to state Senate leader Kim Ward.",
+            "sources": [
+              { "url": "https://www.spotlightpa.org/news/2026/11/pennsylvania-legislature-election-spending-dark-money-jeff-yass-pac-for-americas-future-elections/", "title": "Dark money, billionaire cash flows into PA legislative races — Spotlight PA" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 101100000,
+        "rank": 6,
+        "ranking": "OpenSecrets 2024 top donors (via Newser), with Janine Yass",
+        "sources": [
+          { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
+          { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+        ],
+        "recipients": [
+          {
+            "name": "Commonwealth Leaders Fund",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 6000000,
+            "description": "Backed Republican Dave Sunday, who won the Pennsylvania attorney general race.",
+            "sources": [
+              { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+            ]
+          },
+          {
+            "name": "Moderate PAC",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 1000000,
+            "description": "Backed Democratic incumbents against progressive primary challengers.",
+            "sources": [
+              { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No reporting on a 2028 presidential pick. Yass funds the same vehicles every cycle: Club for Growth, Pennsylvania school-choice PACs and, since 2025, Trump's MAGA Inc. Trump plans to keep raising money through his political operation.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+        { "url": "https://www.axios.com/2026/11/06/scoop-trump-to-keep-fundraising-hoping-to-retain-political-muscle", "title": "Scoop: Trump to keep fundraising, hoping to retain political muscle — Axios" }
+      ],
+      "likely": [
+        {
+          "name": "Club for Growth Action",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "Funded every cycle since at least 2018 ($3.8M in 2018, $20.7M in 2020, $15M in 2026).",
+          "confidence": 0.8,
+          "sources": [
+            { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+          ]
+        },
+        {
+          "name": "Students First PAC and school-choice candidates (Pennsylvania)",
+          "kind": "pac",
+          "side": "R",
+          "basis": "His core cause since 2010; he told the Washington Post vouchers drive his spending.",
+          "confidence": 0.8,
+          "sources": [
+            { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+            { "url": "https://www.inquirer.com/politics/nation/jeffrey-yass-school-voucher-pennsylvania-20251205.html", "title": "Jeffrey Yass details how school vouchers drive his political spending — Philadelphia Inquirer" },
+            { "url": "https://www.spotlightpa.org/news/2026/11/pennsylvania-legislature-election-spending-dark-money-jeff-yass-pac-for-americas-future-elections/", "title": "Dark money, billionaire cash flows into PA legislative races — Spotlight PA" }
+          ]
+        },
+        {
+          "name": "MAGA Inc.",
+          "slug": "donald-trump",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "$16M in 2025; Trump says he will keep fundraising after the midterms.",
+          "confidence": 0.5,
+          "sources": [
+            { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+            { "url": "https://www.axios.com/2026/11/06/scoop-trump-to-keep-fundraising-hoping-to-retain-political-muscle", "title": "Scoop: Trump to keep fundraising, hoping to retain political muscle — Axios" }
+          ]
+        }
+      ]
+    }
+  }
+}
