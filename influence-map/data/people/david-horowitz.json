@@ -139,6 +139,19 @@
         { "url": "https://en.wikipedia.org/wiki/David_Horowitz", "title": "David Horowitz — Wikipedia" },
         { "url": "https://www.washingtonexaminer.com/politics/3397480/david-horowitz-obituary/", "title": "David Horowitz, 1939–2025 — Washington Examiner" }
       ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Horowitz was a prominent Trump supporter: he endorsed Trump and published Big Agenda: President Trump's Plan to Save America (2017). Critics have called him an intellectual godfather of the Trump administration, partly through his protégé Stephen Miller. No source found documents a direct working relationship between the two men.",
+      "start_year": 2016,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Horowitz", "title": "David Horowitz — Wikipedia" },
+        { "url": "https://www.yahoo.com/news/david-horowitz-intellectual-godfather-trump-100254288.html", "title": "David Horowitz, intellectual godfather of the Trump administration — Yahoo News" }
+      ]
     }
   ],
   "source_conflicts": [],

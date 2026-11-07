@@ -1,0 +1,400 @@
+{
+  "name": "Donald Trump",
+  "aliases": ["Donald J. Trump"],
+  "public_figure": true,
+  "current_role": "47th President of the United States (since January 20, 2025)",
+  "summary": "Donald Trump (born 1946) is the 47th president of the United States, in office since January 20, 2025, and was also the 45th president (2017–2021), the second president to serve non-consecutive terms. A New York real estate developer who ran his family's business, renamed the Trump Organization, and hosted NBC's The Apprentice from 2004, he was impeached twice in his first term and acquitted both times. In May 2024 a New York jury convicted him on 34 felony counts of falsifying business records; he was sentenced to an unconditional discharge. Democrats won control of both chambers of Congress in the November 3, 2026 midterms, after which he named Stephen Miller White House chief of staff.",
+  "sources": [
+    { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" },
+    { "url": "https://www.npr.org/2025/01/10/nx-s1-5255806/president-elect-trump-gets-sentence-of-unconditional-discharge-in-new-york", "title": "President-elect Trump gets sentence of unconditional discharge in New York — NPR" },
+    { "url": "https://www.kut.org/politics/2026-11-04/democrats-win-full-control-of-congress-ushering-in-a-new-era-of-divided-government", "title": "Democrats win full control of Congress, ushering in a new era of divided government — KUT (NPR)" },
+    { "url": "https://www.npr.org/2026/11/06/nx-s1-6032810/stephen-miller-replaces-susie-wiles-as-white-house-chief-of-staff", "title": "Stephen Miller replaces Susie Wiles as White House chief of staff — NPR" }
+  ],
+  "timeline": [
+    {
+      "year": 1971,
+      "end_year": 2017,
+      "role": "President of the family real estate business, which he renamed the Trump Organization (start year differs by source)",
+      "org": "Trump Organization",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Donald_Trump", "title": "Donald Trump — Wikipedia" },
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" },
+        { "url": "https://www.britannica.com/biography/Donald-Trump-Jr", "title": "Donald Trump, Jr. — Britannica" }
+      ]
+    },
+    {
+      "year": 2004,
+      "role": "Host of the reality series The Apprentice",
+      "org": "NBC",
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2021,
+      "role": "45th President of the United States (impeached in 2019 and 2021; acquitted both times)",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" },
+        { "url": "https://www.britannica.com/summary/Donald-Trump", "title": "Donald Trump summary — Britannica" }
+      ]
+    },
+    {
+      "year": 2020,
+      "end_year": 2020,
+      "role": "Lost re-election to Joe Biden (306–232 in the Electoral College); refused to concede and pursued unsuccessful legal challenges",
+      "org": "Republican Party presidential nominee",
+      "sources": [
+        { "url": "https://www.britannica.com/event/United-States-presidential-election-of-2020", "title": "U.S. presidential election of 2020 — Britannica" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": 2024,
+      "role": "Convicted May 30 by a New York jury on 34 felony counts of falsifying business records; sentenced January 10, 2025 to an unconditional discharge",
+      "org": "New York State Supreme Court, Manhattan",
+      "sources": [
+        { "url": "https://www.npr.org/2025/01/10/nx-s1-5255806/president-elect-trump-gets-sentence-of-unconditional-discharge-in-new-york", "title": "President-elect Trump gets sentence of unconditional discharge in New York — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/trump-was-sentenced-to-an-unconditional-discharge-in-his-hush-money-conviction-heres-what-that-means", "title": "Trump was sentenced to an 'unconditional discharge' in his hush money conviction — PBS NewsHour" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "47th President of the United States (defeated Kamala Harris on November 5, 2024)",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" },
+        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Kamala Harris — Britannica" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Republican Party",
+      "role": "Presidential nominee in 2016, 2020 and 2024",
+      "start_year": 2016,
+      "end_year": null,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" },
+        { "url": "https://www.britannica.com/event/United-States-presidential-election-of-2020", "title": "U.S. presidential election of 2020 — Britannica" }
+      ]
+    },
+    {
+      "name": "Trump Organization",
+      "role": "Owner; run by his sons Donald Jr. and Eric since he took office in 2017",
+      "start_year": 1971,
+      "end_year": null,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump-Jr", "title": "Donald Trump, Jr. — Britannica" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "employee",
+      "description": "Miller has worked for Trump since January 2016: senior policy adviser on the 2016 campaign, senior adviser for policy in the first White House (2017–2021), deputy chief of staff for policy from 2025, and named White House chief of staff on November 6, 2026, starting November 9.",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.britannica.com/question/Who-is-Stephen-Miller", "title": "Who is Stephen Miller? — Britannica" },
+        { "url": "https://www.mtpr.org/2024-11-11/stephen-miller-will-be-trumps-homeland-security-advisor-in-new-white-house-role", "title": "Stephen Miller will be Trump's homeland security advisor in new White House role — NPR (via MTPR)" },
+        { "url": "https://www.pbs.org/newshour/politics/trump-names-stephen-miller-his-next-chief-of-staff-after-major-republican-midterm-losses", "title": "Trump names Stephen Miller his next chief of staff after major Republican midterm losses — PBS NewsHour (AP)" }
+      ]
+    },
+    {
+      "name": "Jeff Sessions",
+      "slug": "jeff-sessions",
+      "relationship_type": "employee",
+      "description": "Trump appointed Sessions attorney general in 2017 and asked for his resignation the day after the 2018 midterms; Sessions's letter said he resigned \"at your request.\"",
+      "start_year": 2017,
+      "end_year": 2018,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.justice.gov/ag/bio/attorney-general-jeff-sessions", "title": "Attorney General Jeff Sessions — U.S. Department of Justice" },
+        { "url": "https://law.com/nationallawjournal/2018/11/07/read-jeff-sessionss-resignation-letter", "title": "READ: Jeff Sessions's Resignation Letter — The National Law Journal" }
+      ]
+    },
+    {
+      "name": "Jeff Sessions",
+      "slug": "jeff-sessions",
+      "relationship_type": "ally",
+      "description": "Sessions was the first U.S. senator to endorse Trump, at a February 28, 2016 rally in Madison, Alabama, and became an early campaign adviser on foreign policy and immigration.",
+      "start_year": 2016,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://rollcall.com/2016/02/28/sessions-first-senator-to-endorse-trump/", "title": "Sessions First Senator to Endorse Trump — Roll Call" },
+        { "url": "https://www.foxnews.com/us/in-trump-alabama-senator-finds-political-kindred-spirit", "title": "In Trump, Alabama senator finds political kindred spirit — Fox News (AP)" }
+      ]
+    },
+    {
+      "name": "Jeff Sessions",
+      "slug": "jeff-sessions",
+      "relationship_type": "rival",
+      "description": "After Sessions recused himself from the Russia investigation, Trump repeatedly attacked him publicly, said he would not have nominated him had he known, forced his resignation in 2018, and endorsed Tommy Tuberville against him in the 2020 Alabama Senate race.",
+      "start_year": 2017,
+      "end_year": 2020,
+      "confidence": 0.92,
+      "sources": [
+        { "url": "https://www.ktvu.com/news/jeff-sessions-submits-resignation-to-president-trump-at-your-request", "title": "Jeff Sessions submits resignation to President Trump 'at your request' — KTVU (Fox)" },
+        { "url": "https://www.npr.org/2020/07/15/891290828/former-attorney-general-jeff-sessions-loses-alabama-runoff-election", "title": "Former Attorney General Jeff Sessions Loses Alabama Runoff Election — NPR" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "ally",
+      "description": "Ellison let Trump's reelection campaign hold a February 2020 fundraiser at his California estate, joined Trump at the White House in January 2025 to launch the Stargate AI venture, and in December 2025 Oracle led the investor group that took over TikTok's U.S. business under a deal Trump backed. NPR and others describe Ellison as a Trump friend.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://fortune.com/2020/02/14/oracle-amazon-larry-ellison-hosts-fundraiser-trump/", "title": "Oracle's Larry Ellison hosts fundraiser for Trump — Fortune" },
+        { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
+        { "url": "https://www.npr.org/2025/12/18/nx-s1-5648844/tiktok-deal-oracle-trump", "title": "TikTok signs deal to give U.S. operations to Oracle-led investor group — NPR" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "donor",
+      "description": "The Wall Street Journal reported in June 2026, citing people familiar with the fundraising, that Ellison gave about $45 million to a nonprofit backing Trump's 2024 campaign. The gift was not subject to disclosure; FEC filings show no direct donations from Ellison to the campaign or its PACs.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/", "title": "Larry Ellison quietly gave $45 million to a pro-Trump group — Fortune" },
+        { "url": "https://electionlawblog.org/2026/how-a-45-million-donation-brought-larry-ellison-deeper-into-trumps-circle/", "title": "How a $45 Million Donation Brought Larry Ellison Deeper Into Trump's Circle — Election Law Blog" }
+      ]
+    },
+    {
+      "name": "David Horowitz",
+      "slug": "david-horowitz",
+      "relationship_type": "ally",
+      "description": "Horowitz was a prominent Trump supporter: he endorsed Trump and published Big Agenda: President Trump's Plan to Save America (2017). Critics have called him an intellectual godfather of the Trump administration, partly through his protégé Stephen Miller. No source found documents a direct working relationship between the two men.",
+      "start_year": 2016,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Horowitz", "title": "David Horowitz — Wikipedia" },
+        { "url": "https://www.yahoo.com/news/david-horowitz-intellectual-godfather-trump-100254288.html", "title": "David Horowitz, intellectual godfather of the Trump administration — Yahoo News" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "A former Trump critic turned loyal ally, Vance was chosen as Trump's running mate on July 15, 2024 and became vice president in January 2025.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/trump-picks-sen-jd-vance-of-ohio-as-his-republican-running-mate", "title": "Trump picks Sen. JD Vance of Ohio, a critic turned loyal ally, as his Republican running mate — PBS NewsHour" },
+        { "url": "https://www.npr.org/2024/07/15/nx-s1-5040482/former-president-trump-has-chosen-ohio-sen-j-d-vance-as-his-running-mate", "title": "Former President Trump has chosen Ohio Sen. J.D. Vance as his running mate — NPR" }
+      ]
+    },
+    {
+      "name": "Mike Pence",
+      "slug": "mike-pence",
+      "relationship_type": "ally",
+      "description": "Trump's running mate in 2016 and vice president for his first term.",
+      "start_year": 2016,
+      "end_year": 2021,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" },
+        { "url": "https://www.npr.org/2024/07/15/nx-s1-5040482/former-president-trump-has-chosen-ohio-sen-j-d-vance-as-his-running-mate", "title": "Former President Trump has chosen Ohio Sen. J.D. Vance as his running mate — NPR" }
+      ]
+    },
+    {
+      "name": "Mike Pence",
+      "slug": "mike-pence",
+      "relationship_type": "rival",
+      "description": "Trump has condemned Pence for refusing to stop the certification of the 2020 election on January 6, 2021; coverage of Vance's selection framed it as Trump choosing someone who would not break with him as Pence did.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.npr.org/2024/07/15/nx-s1-5040482/former-president-trump-has-chosen-ohio-sen-j-d-vance-as-his-running-mate", "title": "Former President Trump has chosen Ohio Sen. J.D. Vance as his running mate — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/fact-checking-j-d-vances-past-statements-and-relationship-with-trump", "title": "Fact-checking JD Vance's past statements and relationship with Trump — PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Susie Wiles",
+      "slug": "susie-wiles",
+      "relationship_type": "employee",
+      "description": "Wiles worked on Trump's 2016 and 2020 campaigns and served 21 months as his second-term White House chief of staff, the first woman in the job. She resigned on November 6, 2026, after the midterm losses, and is moving to Trump's political operation; Stephen Miller replaces her.",
+      "start_year": 2015,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.npr.org/2026/11/06/nx-s1-6032810/stephen-miller-replaces-susie-wiles-as-white-house-chief-of-staff", "title": "Stephen Miller replaces Susie Wiles as White House chief of staff — NPR" },
+        { "url": "https://www.axios.com/2026/11/06/susie-wiles-trump-stephen-miller-chief-of-staff", "title": "Trump replaces chief of staff Susie Wiles with Stephen Miller — Axios" }
+      ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "employee",
+      "description": "Bannon left Breitbart to become chief executive of Trump's campaign in August 2016 and was White House chief strategist until August 18, 2017. The White House called his exit a mutual decision; other reports said he was pushed out, and Bannon said he had already offered his resignation.",
+      "start_year": 2016,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.npr.org/2017/08/18/544523309/chief-white-house-strategist-steve-bannon-removed-from-white-house-job", "title": "Chief White House Strategist Steve Bannon Removed From White House Job — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/steve-bannon-leave-white-house", "title": "Steve Bannon to leave White House — PBS NewsHour" },
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "family",
+      "description": "Son-in-law (married to Ivanka Trump).",
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.npr.org/2017/01/09/508990297/trump-to-reportedly-name-son-in-law-jared-kushner-as-senior-advisor", "title": "Jared Kushner, Donald Trump's Son-In-Law, Named Senior Adviser To Incoming President — NPR" },
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "employee",
+      "description": "Senior adviser to the president throughout Trump's first term, leading Middle East work including the 2020 Abraham Accords; the appointment drew nepotism and conflict-of-interest criticism.",
+      "start_year": 2017,
+      "end_year": 2021,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/jared-kushner-named-top-white-house-adviser-donald-trump", "title": "Jared Kushner named senior White House adviser to Donald Trump — PBS NewsHour" },
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ivanka Trump",
+      "slug": "ivanka-trump",
+      "relationship_type": "family",
+      "description": "Daughter. She was an unpaid Advisor to the President from March 2017 to January 2021.",
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "family",
+      "description": "Son. An executive vice president of the Trump Organization, which he and his brother Eric took over when their father became president in 2017.",
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump-Jr", "title": "Donald Trump, Jr. — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Donald_Trump_Jr.", "title": "Donald Trump Jr. — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Melania Trump",
+      "slug": "melania-trump",
+      "relationship_type": "family",
+      "description": "Wife since January 2005; First Lady.",
+      "start_year": 2005,
+      "end_year": null,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Melania-Trump", "title": "Melania Trump — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Melania_Trump", "title": "Melania Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "donor",
+      "description": "Musk spent at least $250 million backing Trump in 2024, mainly through America PAC (other counts run higher), then led DOGE in 2025. Axios reported in July 2026 that he planned heavy spending for Republicans in the midterms.",
+      "start_year": 2024,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
+        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "rival",
+      "description": "In June 2025, after Musk left DOGE, a public feud over Trump's tax-and-spending bill led Trump to threaten Musk's government contracts and Musk to claim Trump would have lost without him. Musk later returned to funding Republicans.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2025/06/05/trump-musk-bromance-dispute", "title": "How Trump and Musk went from bromance to bitter dispute — Axios" },
+        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" }
+      ]
+    },
+    {
+      "name": "Tommy Tuberville",
+      "slug": "tommy-tuberville",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Tuberville over Jeff Sessions in the 2020 Alabama Senate primary; Tuberville made his allegiance to Trump his central message and won the runoff.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2020/07/15/891290828/former-attorney-general-jeff-sessions-loses-alabama-runoff-election", "title": "Former Attorney General Jeff Sessions Loses Alabama Runoff Election — NPR" }
+      ]
+    },
+    {
+      "name": "Matthew Whitaker",
+      "slug": "matthew-whitaker",
+      "relationship_type": "employee",
+      "description": "Trump named Whitaker acting attorney general after forcing out Jeff Sessions (November 2018 to February 2019), then nominated him ambassador to NATO; the Senate confirmed him 52–45 on April 1, 2025.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/former-acting-attorney-general-matt-whitaker-is-trumps-pick-for-nato-ambassador", "title": "Former acting Attorney General Matt Whitaker is Trump's pick for NATO ambassador — PBS NewsHour" },
+        { "url": "https://en.wikipedia.org/wiki/Matthew_Whitaker", "title": "Matthew Whitaker — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "rival",
+      "description": "Biden defeated Trump in the 2020 presidential election, 306–232 in the Electoral College; Trump refused to concede.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.britannica.com/event/United-States-presidential-election-of-2020", "title": "U.S. presidential election of 2020 — Britannica" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "rival",
+      "description": "Trump defeated Harris, the Democratic nominee after Biden withdrew, in the November 5, 2024 presidential election.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Kamala Harris — Britannica" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "When Trump took over the family business",
+      "details": "Wikipedia says he became president of the family real estate business in 1971 and renamed it the Trump Organization; Britannica says he became president of the Trump-owned companies in 1974.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Donald_Trump", "title": "Donald Trump — Wikipedia" },
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Records for Miller, Sessions and Ellison mirror the records already in their files. Some midterm races were still being counted when the cited results were published.",
+  "last_researched": "2026-11-07"
+}
