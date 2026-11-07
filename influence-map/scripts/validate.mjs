@@ -50,6 +50,7 @@ export const GROUPS = [
   'media',
   'critics',
   '2028-race',
+  'natcon',
 ];
 
 // Keep in sync with RECIPIENT_KINDS and GIVING_SIDES in src/lib/schema.ts (a unit test checks this).

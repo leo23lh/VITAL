@@ -134,6 +134,7 @@ export const GROUPS = [
   { id: 'media', label: 'Media & platforms' },
   { id: 'critics', label: 'Critics & opponents' },
   { id: '2028-race', label: '2028 race' },
+  { id: 'natcon', label: 'National conservatism' },
 ] as const;
 
 export type GroupId = (typeof GROUPS)[number]['id'];

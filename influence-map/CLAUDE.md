@@ -149,6 +149,7 @@ connections show. The validator rejects names not listed here; keep the lists in
 | `media` | Media & platforms | Owners or leaders of news outlets, social platforms and major podcasts |
 | `critics` | Critics & opponents | Prominent opponents of Trump or his administration |
 | `2028-race` | 2028 race | Likely 2028 presidential contenders and their camps (see "2028 race" below) |
+| `natcon` | National conservatism | Founders, organizers and leading thinkers of the National Conservatism movement (the Edmund Burke Foundation's NatCon conferences), its main funders, and politicians who have spoken at NatCon or are documented allies of it |
 
 ## Political lean
 
