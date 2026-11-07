@@ -1,6 +1,8 @@
 {
   "name": "Stephen Miller",
-  "aliases": ["Stephen Miller (political advisor)"],
+  "aliases": [
+    "Stephen Miller (political advisor)"
+  ],
   "public_figure": true,
   "current_role": "White House Chief of Staff (named November 6, 2026, starting November 9, 2026); Deputy Chief of Staff for Policy and Homeland Security Advisor since January 2025",
   "summary": "Stephen Miller is a Republican political aide and longtime adviser to Donald Trump, best known for shaping immigration policy. After working as a congressional press aide and for Sen. Jeff Sessions from 2009 to 2016, he was a senior White House policy adviser in Trump's first term, founded the conservative legal group America First Legal in 2021, and returned in 2025 as deputy chief of staff for policy. On November 6, 2026, Trump named him White House chief of staff, replacing Susie Wiles.",
@@ -268,6 +270,32 @@
       "sources": [
         { "url": "https://www.motherjones.com/politics/2016/12/trumps-newest-senior-adviser-seen-ally-white-nationalists/", "title": "Trump's Newest Senior Adviser Seen as a White Nationalist Ally — Mother Jones" },
         { "url": "https://www.splcenter.org/hatewatch/2018/06/21/stephen-miller-driving-force-behind-muslim-ban-and-family-separation-policy", "title": "Stephen Miller: driving force behind Muslim ban and family separation policy — SPLC Hatewatch" }
+      ]
+    },
+    {
+      "name": "Susie Wiles",
+      "slug": "susie-wiles",
+      "relationship_type": "colleague",
+      "description": "Miller was deputy chief of staff for policy under Wiles from January 2025 and succeeded her as White House chief of staff in November 2026.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2026/11/06/nx-s1-6032810/stephen-miller-replaces-susie-wiles-as-white-house-chief-of-staff", "title": "Stephen Miller replaces Susie Wiles as White House chief of staff — NPR" },
+        { "url": "https://www.axios.com/2026/11/06/susie-wiles-trump-stephen-miller-chief-of-staff", "title": "Trump replaces chief of staff Susie Wiles with Stephen Miller — Axios" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "rival",
+      "description": "As Sessions's aide Miller worked against Rubio's Gang of Eight immigration bill, and leaked emails show he fed anti-Rubio stories to Breitbart during the 2016 campaign.",
+      "start_year": 2013,
+      "end_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/politics-news/stephen-miller-planted-anti-rubio-stories-breitbart-during-2016-campaign-n1085451", "title": "Stephen Miller planted anti-Rubio stories in Breitbart during 2016 campaign — NBC News" },
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)", "title": "Stephen Miller (political advisor) — Wikipedia" }
       ]
     }
   ],

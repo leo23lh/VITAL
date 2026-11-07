@@ -1,0 +1,170 @@
+{
+  "name": "Susie Wiles",
+  "aliases": [],
+  "public_figure": true,
+  "current_role": "Political adviser to Donald Trump; White House chief of staff from January 2025 until she resigned on November 6, 2026",
+  "summary": "Susie Wiles is a Florida Republican strategist who ran Rick Scott's 2010 campaign for governor, led Trump's Florida operation in 2016, rescued Ron DeSantis's 2018 campaign before falling out with him, and co-managed Trump's 2024 campaign. She served 21 months as White House chief of staff, the first woman in the job and Trump's longest-serving chief of staff, before resigning after the 2026 midterm losses; Trump said she would move to his political operation.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Susie_Wiles", "title": "Susie Wiles — Wikipedia" },
+    { "url": "https://www.cbsnews.com/news/trump-susie-wiles-chief-of-staff/", "title": "What to know about Susie Wiles, Donald Trump's White House chief of staff — CBS News" },
+    { "url": "https://www.npr.org/2026/11/06/nx-s1-6032810/stephen-miller-replaces-susie-wiles-as-white-house-chief-of-staff", "title": "Stephen Miller replaces Susie Wiles as White House chief of staff — NPR" }
+  ],
+  "timeline": [
+    {
+      "year": 1980,
+      "role": "Scheduler on Ronald Reagan's presidential campaign, then in the Reagan White House",
+      "org": "Reagan campaign / The White House",
+      "sources": [
+        { "url": "https://ballotpedia.org/Susie_Wiles", "title": "Susie Wiles — Ballotpedia" }
+      ]
+    },
+    {
+      "year": 2010,
+      "end_year": 2010,
+      "role": "Campaign manager",
+      "org": "Rick Scott for Governor (Florida)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rick_Scott", "title": "Rick Scott — Wikipedia" },
+        { "url": "https://ballotpedia.org/Susie_Wiles", "title": "Susie Wiles — Ballotpedia" }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": 2016,
+      "role": "Florida co-chair, then Florida campaign manager",
+      "org": "Donald J. Trump for President campaign",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Susie_Wiles", "title": "Susie Wiles — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2018,
+      "end_year": 2018,
+      "role": "Brought in to run the closing months of Ron DeSantis's campaign for governor",
+      "org": "DeSantis for Governor (Florida)",
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/275872-susie-wiles-chair-desantis/", "title": "The takeover: Susie Wiles now in charge of Ron DeSantis campaign — Florida Politics" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": 2024,
+      "role": "Co-campaign manager",
+      "org": "Trump 2024 presidential campaign",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/trump-names-campaign-manager-susie-wiles-as-next-white-house-chief-of-staff", "title": "Trump names campaign manager Susie Wiles as next White House chief of staff — PBS NewsHour" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "White House chief of staff (first woman in the role); resigned November 6, 2026",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.npr.org/2026/11/06/nx-s1-6032810/stephen-miller-replaces-susie-wiles-as-white-house-chief-of-staff", "title": "Stephen Miller replaces Susie Wiles as White House chief of staff — NPR" },
+        { "url": "https://www.axios.com/2026/11/06/susie-wiles-trump-stephen-miller-chief-of-staff", "title": "Trump replaces chief of staff Susie Wiles with Stephen Miller — Axios" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Mercury Public Affairs",
+      "role": "Lobbyist (co-chair of its Florida practice)",
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/493952-personnel-note-susie-wiles-joins-mercury-public-affairs/", "title": "Personnel note: Susie Wiles joins Mercury Public Affairs — Florida Politics" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Wiles has worked for Trump since 2015: Florida co-chair and manager in 2016, help on the 2020 campaign, co-manager of the 2024 campaign, and White House chief of staff from January 2025 until November 6, 2026, when she resigned after the midterm losses. Trump said she would move to his political operation.",
+      "start_year": 2015,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.npr.org/2026/11/06/nx-s1-6032810/stephen-miller-replaces-susie-wiles-as-white-house-chief-of-staff", "title": "Stephen Miller replaces Susie Wiles as White House chief of staff — NPR" },
+        { "url": "https://www.axios.com/2026/11/06/susie-wiles-trump-stephen-miller-chief-of-staff", "title": "Trump replaces chief of staff Susie Wiles with Stephen Miller — Axios" }
+      ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "colleague",
+      "description": "Miller was deputy chief of staff for policy under Wiles from January 2025 and succeeded her as White House chief of staff in November 2026.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2026/11/06/nx-s1-6032810/stephen-miller-replaces-susie-wiles-as-white-house-chief-of-staff", "title": "Stephen Miller replaces Susie Wiles as White House chief of staff — NPR" },
+        { "url": "https://www.axios.com/2026/11/06/susie-wiles-trump-stephen-miller-chief-of-staff", "title": "Trump replaces chief of staff Susie Wiles with Stephen Miller — Axios" }
+      ]
+    },
+    {
+      "name": "Rick Scott",
+      "slug": "rick-scott",
+      "relationship_type": "employer",
+      "description": "Wiles managed Scott's successful 2010 campaign for Florida governor, joining a week after he entered the race.",
+      "start_year": 2010,
+      "end_year": 2010,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rick_Scott", "title": "Rick Scott — Wikipedia" },
+        { "url": "https://www.pbs.org/newshour/show/who-is-susie-wiles-the-woman-behind-trumps-historic-return-to-the-oval-office", "title": "Who is Susie Wiles, the woman behind Trump's historic return to the Oval Office? — PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "employer",
+      "description": "Wiles took over DeSantis's faltering 2018 campaign for governor in its final months and helped him win.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/275872-susie-wiles-chair-desantis/", "title": "The takeover: Susie Wiles now in charge of Ron DeSantis campaign — Florida Politics" },
+        { "url": "https://en.wikipedia.org/wiki/Susie_Wiles", "title": "Susie Wiles — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "rival",
+      "description": "After the 2018 win DeSantis shut Wiles out, his allies pushed her associates out of the state party, and he discouraged Trump from hiring her for 2020. Wiles has called working for him the biggest mistake of her career, and she helped run Trump's 2024 primary campaign against him.",
+      "start_year": 2019,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Susie_Wiles", "title": "Susie Wiles — Wikipedia" },
+        { "url": "https://www.axios.com/2024/11/08/susie-wiles-trump-2024-white-house", "title": "Susie Wiles' journey to be Trump's gatekeeper — Axios" }
+      ]
+    },
+    {
+      "name": "Ronald Reagan",
+      "slug": "ronald-reagan",
+      "relationship_type": "employer",
+      "description": "Wiles was a scheduler on Reagan's 1980 campaign and then in his White House.",
+      "start_year": 1980,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://ballotpedia.org/Susie_Wiles", "title": "Susie Wiles — Ballotpedia" }
+      ]
+    },
+    {
+      "name": "Pat Summerall",
+      "slug": "pat-summerall",
+      "relationship_type": "family",
+      "description": "Father. Summerall was a former NFL kicker and longtime network football broadcaster.",
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.foxnews.com/sports/trump-chief-staff-susie-wiles-once-helped-nfl-broadcast-legend-father-pat-summerall-beat-alcoholism", "title": "Trump chief of staff Susie Wiles and her father, NFL broadcast legend Pat Summerall — Fox News" },
+        { "url": "https://www.cbsnews.com/news/trump-susie-wiles-chief-of-staff/", "title": "What to know about Susie Wiles, Donald Trump's White House chief of staff — CBS News" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Health details reported in the press were left out under the research rules.",
+  "last_researched": "2026-11-07"
+}

@@ -1,0 +1,163 @@
+{
+  "name": "Reid Hoffman",
+  "aliases": [],
+  "public_figure": true,
+  "current_role": "Co-founder of LinkedIn; venture partner at Greylock; Microsoft board member until the end of 2026",
+  "summary": "Reid Hoffman was a senior PayPal executive before co-founding LinkedIn in 2002, which Microsoft bought in 2016. He joined Greylock Partners in 2009, co-founded Inflection AI with Mustafa Suleyman, and was an early OpenAI donor and board member. A major Democratic donor and Trump critic, he backed E. Jean Carroll's legal fight against Trump, has been accused by Elon Musk of ties to Jeffrey Epstein, and in 2025 was named in a Trump-ordered Justice Department inquiry.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+    { "url": "https://www.cnbc.com/2026/06/05/linkedin-co-founder-reid-hoffman-leaving-microsoft-board-after-decade.html", "title": "LinkedIn co-founder Reid Hoffman is leaving Microsoft's board after almost a decade — CNBC" }
+  ],
+  "timeline": [
+    {
+      "year": 2000,
+      "end_year": 2002,
+      "role": "Senior executive (sources give COO, executive vice president, or senior vice president of business development)",
+      "org": "PayPal",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://www.cnbc.com/2017/08/27/linkedins-reid-hoffman-talks-going-from-investor-to-entrepreneur.html", "title": "How a master of scale climbed to the top: Reid Hoffman — CNBC" }
+      ]
+    },
+    {
+      "year": 2002,
+      "end_year": 2016,
+      "role": "Co-founder (company sold to Microsoft in 2016)",
+      "org": "LinkedIn",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://www.cnbc.com/2017/08/27/linkedins-reid-hoffman-talks-going-from-investor-to-entrepreneur.html", "title": "How a master of scale climbed to the top: Reid Hoffman — CNBC" }
+      ]
+    },
+    {
+      "year": 2009,
+      "end_year": null,
+      "role": "Partner, later venture partner",
+      "org": "Greylock Partners",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2026,
+      "role": "Board member (leaving at the end-of-2026 annual meeting)",
+      "org": "Microsoft",
+      "sources": [
+        { "url": "https://fortune.com/2017/03/14/linkedin-reid-hoffman-microsoft/", "title": "LinkedIn Co-founder Reid Hoffman Just Joined Microsoft's Board — Fortune" },
+        { "url": "https://www.cnbc.com/2026/06/05/linkedin-co-founder-reid-hoffman-leaving-microsoft-board-after-decade.html", "title": "LinkedIn co-founder Reid Hoffman is leaving Microsoft's board after almost a decade — CNBC" }
+      ]
+    },
+    {
+      "year": 2022,
+      "role": "Co-founder (with Mustafa Suleyman)",
+      "org": "Inflection AI",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://fortune.com/2023/12/12/reid-hoffman-greylock-inflection-ai-risks-fumble-future-brainstorm/", "title": "LinkedIn cofounder Reid Hoffman on AI risk — Fortune" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "PayPal Mafia",
+      "role": "Member; in Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "role": "Early donor; board member until March 2023",
+      "end_year": 2023,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "colleague",
+      "description": "PayPal colleagues under Thiel as CEO. Hoffman arranged the first meeting between Mark Zuckerberg and Thiel that led to Thiel's 2004 Facebook investment. They have since taken opposite sides politically.",
+      "start_year": 2000,
+      "end_year": 2002,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "Thiel invested in Hoffman's LinkedIn.",
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "rival",
+      "description": "In 2024 Musk publicly accused Hoffman of being close to Jeffrey Epstein; Hoffman called it \"a conviction with no evidence\" and said he needed added security. Later-released documents showed Hoffman had an established relationship with Epstein, which he says he regrets; he denies being an Epstein client.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2024/12/17/reid-hoffman-elon-musk-security-jeffrey-epstein/", "title": "Reid Hoffman says he needed security after Elon Musk formed a 'conviction with no evidence' — Fortune" },
+        { "url": "https://fortune.com/2025/11/18/reid-hoffman-epstein-files/", "title": "Newly released emails and a Trump-ordered investigation have thrust Reid Hoffman into the Epstein firestorm — Fortune" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "Hoffman is a major Democratic donor who backed E. Jean Carroll's lawsuits against Trump; the Justice Department has investigated a group tied to him over those contributions, and in November 2025 Trump pushed for a DOJ probe of Hoffman's Epstein ties.",
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://fortune.com/2025/11/14/epstein-reid-hoffman-larry-summers-jpmorgan-trump-bill-clinton-investigation/", "title": "Trump responds to appearance in new Epstein emails by pushing DOJ probe of Clinton, Larry Summers, Reid Hoffman — Fortune" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "employee",
+      "description": "Rabois, a fellow PayPal executive, later held an operating role at Hoffman's LinkedIn.",
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://fortune.com/2013/02/26/ex-square-executive-keith-rabois-joining-khosla-ventures/", "title": "Ex-Square executive Keith Rabois joining Khosla Ventures — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Mustafa Suleyman",
+      "slug": "mustafa-suleyman",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Inflection AI together; Suleyman is described as a longtime friend and Greylock colleague.",
+      "start_year": 2022,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Hoffman's PayPal title and LinkedIn's sale price",
+      "details": "Wikipedia says he joined PayPal as COO and later became senior vice president of business development; CNBC calls him executive vice president. CNBC puts Microsoft's LinkedIn purchase at $27 billion; Wikipedia cites a $26.2 billion cash offer.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://www.cnbc.com/2017/08/27/linkedins-reid-hoffman-talks-going-from-investor-to-entrepreneur.html", "title": "How a master of scale climbed to the top: Reid Hoffman — CNBC" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

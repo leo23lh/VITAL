@@ -1,0 +1,148 @@
+{
+  "name": "Max Levchin",
+  "aliases": [],
+  "public_figure": true,
+  "current_role": "Co-founder, chairman and CEO of Affirm",
+  "summary": "Max Levchin co-founded Confinity, the company that became PayPal, with Peter Thiel in 1998 and was its chief technology officer until eBay bought it in 2002. He then founded the media-sharing company Slide, sold to Google in 2010, was an early backer and longtime chairman of Yelp, and co-founded the buy-now-pay-later lender Affirm, which he has led as CEO since 2014.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" },
+    { "url": "https://www.cnbc.com/2021/01/05/affirm-ceo-max-levchin-to-become-next-billionaire-from-paypal-mafia.html", "title": "Affirm founder Max Levchin poised to become next billionaire from 'PayPal mafia' — CNBC" }
+  ],
+  "timeline": [
+    {
+      "year": 1998,
+      "end_year": 2002,
+      "role": "Co-founder and chief technology officer",
+      "org": "Confinity / PayPal",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" },
+        { "url": "https://www.britannica.com/money/PayPal", "title": "PayPal — Britannica" }
+      ]
+    },
+    {
+      "year": 2004,
+      "end_year": 2011,
+      "role": "Founder of Slide; vice president of engineering at Google after it bought Slide in 2010",
+      "org": "Slide / Google",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2012,
+      "end_year": null,
+      "role": "Co-founder; CEO since 2014",
+      "org": "Affirm",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Affirm_Holdings", "title": "Affirm Holdings — Wikipedia" },
+        { "url": "https://www.cnbc.com/2021/01/05/affirm-ceo-max-levchin-to-become-next-billionaire-from-paypal-mafia.html", "title": "Affirm founder Max Levchin poised to become next billionaire from 'PayPal mafia' — CNBC" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Yelp",
+      "role": "Early backer and chairman",
+      "sources": [
+        { "url": "https://www.cnbc.com/2014/10/06/max-levchin.html", "title": "Max Levchin — CNBC Disruptor profile" }
+      ]
+    },
+    {
+      "name": "PayPal Mafia",
+      "role": "Member; in Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity (originally Fieldlink) together in 1998; Levchin was CTO and Thiel CEO of what became PayPal.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.97,
+      "sources": [
+        { "url": "https://www.britannica.com/money/PayPal", "title": "PayPal — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Luke Nosek",
+      "slug": "luke-nosek",
+      "relationship_type": "co-founder",
+      "description": "Fellow co-founder of Confinity in December 1998.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ken Howery",
+      "slug": "ken-howery",
+      "relationship_type": "co-founder",
+      "description": "Fellow co-founder of Confinity in December 1998; Howery was its first CFO.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "colleague",
+      "description": "Worked together at PayPal after X.com and Confinity merged in March 2000, with Levchin as CTO, until Musk was replaced as CEO later that year.",
+      "start_year": 2000,
+      "end_year": 2000,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "employee",
+      "description": "Rabois held an operating role at Slide, the company Levchin founded after PayPal.",
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://fortune.com/2013/02/26/ex-square-executive-keith-rabois-joining-khosla-ventures/", "title": "Ex-Square executive Keith Rabois joining Khosla Ventures — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jeremy Stoppelman",
+      "slug": "jeremy-stoppelman",
+      "relationship_type": "funded_by",
+      "description": "Levchin, their former PayPal colleague, founded the MRL Ventures incubator where Yelp started and provided $1 million in angel funding; he later chaired Yelp's board.",
+      "start_year": 2004,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yelp", "title": "Yelp — Wikipedia" },
+        { "url": "https://www.cnbc.com/2014/10/06/max-levchin.html", "title": "Max Levchin — CNBC Disruptor profile" }
+      ]
+    },
+    {
+      "name": "Russel Simmons",
+      "slug": "russel-simmons",
+      "relationship_type": "funded_by",
+      "description": "Levchin, their former PayPal colleague, founded the MRL Ventures incubator where Yelp started and provided $1 million in angel funding.",
+      "start_year": 2004,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yelp", "title": "Yelp — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Links to Yelp's founders are added in their files.",
+  "last_researched": "2026-11-07"
+}

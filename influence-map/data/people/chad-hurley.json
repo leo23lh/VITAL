@@ -1,0 +1,102 @@
+{
+  "name": "Chad Hurley",
+  "aliases": [],
+  "public_figure": true,
+  "current_role": "YouTube co-founder; investor and minority owner of the Golden State Warriors and Los Angeles FC",
+  "summary": "Chad Hurley, a former PayPal employee, co-founded YouTube in 2005 with Steve Chen and Jawed Karim and was its CEO until 2010, after selling it to Google for $1.65 billion in stock in 2006. He later co-founded AVOS Systems, which bought Delicious, and launched the video app MixBit; he is a minority owner of the Golden State Warriors and Los Angeles FC.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Chad_Hurley", "title": "Chad Hurley — Wikipedia" },
+    { "url": "https://www.britannica.com/topic/YouTube", "title": "YouTube — Britannica" }
+  ],
+  "timeline": [
+    {
+      "year": 2005,
+      "end_year": 2010,
+      "role": "Co-founder and CEO (sold to Google in 2006; adviser from 2010)",
+      "org": "YouTube",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chad_Hurley", "title": "Chad Hurley — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/History_of_YouTube", "title": "History of YouTube — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2011,
+      "end_year": 2014,
+      "role": "Co-founder of AVOS Systems (owner of Delicious, 2011–2014)",
+      "org": "AVOS Systems",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Delicious_(website)", "title": "Delicious (website) — Wikipedia" },
+        { "url": "https://fortune.com/2013/08/08/youtube-founders-try-for-their-next-big-thing/", "title": "YouTube founders try for their next big thing — Fortune" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": 2018,
+      "role": "Launched the video-editing app MixBit",
+      "org": "MixBit",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/MixBit", "title": "MixBit — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Golden State Warriors and Los Angeles FC",
+      "role": "Minority owner",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chad_Hurley", "title": "Chad Hurley — Wikipedia" }
+      ]
+    },
+    {
+      "name": "PayPal Mafia",
+      "role": "Member (skipped Fortune's 2007 photo after Google objected to the gangster theme)",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Steve Chen",
+      "slug": "steve-chen",
+      "relationship_type": "co-founder",
+      "description": "Co-founded YouTube in 2005 after meeting at PayPal, and later AVOS Systems together.",
+      "start_year": 2005,
+      "end_year": 2014,
+      "confidence": 0.97,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/History_of_YouTube", "title": "History of YouTube — Wikipedia" },
+        { "url": "https://fortune.com/2013/08/08/youtube-founders-try-for-their-next-big-thing/", "title": "YouTube founders try for their next big thing — Fortune" }
+      ]
+    },
+    {
+      "name": "Jawed Karim",
+      "slug": "jawed-karim",
+      "relationship_type": "co-founder",
+      "description": "Co-founded YouTube together in 2005; Karim stayed an informal adviser rather than an employee and took a smaller stake.",
+      "start_year": 2005,
+      "end_year": 2006,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/History_of_YouTube", "title": "History of YouTube — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Jawed_Karim", "title": "Jawed Karim — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Roelof Botha",
+      "slug": "roelof-botha",
+      "relationship_type": "donor",
+      "description": "Sequoia Capital, where Botha oversaw the investment, put $3.5 million into YouTube in November 2005, and Botha joined its board; Sequoia added more in April 2006 before Google bought YouTube.",
+      "start_year": 2005,
+      "end_year": 2006,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/History_of_YouTube", "title": "History of YouTube — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

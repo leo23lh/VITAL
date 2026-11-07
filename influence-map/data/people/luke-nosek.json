@@ -1,0 +1,117 @@
+{
+  "name": "Luke Nosek",
+  "aliases": [],
+  "public_figure": true,
+  "current_role": "Co-founder of Gigafund; SpaceX board member",
+  "summary": "Luke Nosek co-founded Confinity/PayPal in 1998, where he was vice president of marketing and strategy and is credited with its instant-transfer product. He co-founded Founders Fund with Peter Thiel and Ken Howery in 2005, led its 2008 investment in SpaceX and has sat on SpaceX's board since, and left in 2017 to start the space-focused fund Gigafund.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Luke_Nosek", "title": "Luke Nosek — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 1998,
+      "end_year": 2002,
+      "role": "Co-founder; vice president of marketing and strategy",
+      "org": "Confinity / PayPal",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Luke_Nosek", "title": "Luke Nosek — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2005,
+      "end_year": 2017,
+      "role": "Co-founder and partner",
+      "org": "Founders Fund",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Luke_Nosek", "title": "Luke Nosek — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2008,
+      "end_year": null,
+      "role": "Board member (led Founders Fund's investment)",
+      "org": "SpaceX",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Luke_Nosek", "title": "Luke Nosek — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": null,
+      "role": "Co-founder (with Stephen Oskoui)",
+      "org": "Gigafund",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Luke_Nosek", "title": "Luke Nosek — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "PayPal Mafia",
+      "role": "Member; in Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity/PayPal in 1998 and Founders Fund in 2005 together; Nosek left Founders Fund in 2017.",
+      "start_year": 1998,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ken Howery",
+      "slug": "ken-howery",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity/PayPal in 1998 and Founders Fund in 2005 together.",
+      "start_year": 1998,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Max Levchin",
+      "slug": "max-levchin",
+      "relationship_type": "co-founder",
+      "description": "Fellow co-founder of Confinity in December 1998.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "funded_by",
+      "description": "Nosek led Founders Fund's 2008 investment in SpaceX and has sat on SpaceX's board since.",
+      "start_year": 2008,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Luke_Nosek", "title": "Luke Nosek — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor, and the biggest VC winners from SpaceX's IPO — Fortune" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

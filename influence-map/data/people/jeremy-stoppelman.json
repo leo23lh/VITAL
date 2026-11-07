@@ -1,0 +1,72 @@
+{
+  "name": "Jeremy Stoppelman",
+  "aliases": [],
+  "public_figure": true,
+  "current_role": "Co-founder and CEO of Yelp (since 2004)",
+  "summary": "Jeremy Stoppelman was PayPal's vice president of engineering from 2000 to 2003. In 2004, while at Max Levchin's incubator MRL Ventures, he co-founded Yelp with fellow PayPal alumnus Russel Simmons, with $1 million in angel funding from Levchin, and has been its CEO since. He appeared in Fortune's 2007 PayPal Mafia photo.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Jeremy_Stoppelman", "title": "Jeremy Stoppelman — Wikipedia" },
+    { "url": "https://www.sec.gov/Archives/edgar/data/0001345016/000119312511315562/d245328ds1.htm", "title": "Yelp Form S-1 (2011) — SEC" }
+  ],
+  "timeline": [
+    {
+      "year": 2000,
+      "end_year": 2003,
+      "role": "Vice president of engineering",
+      "org": "PayPal",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001345016/000119312511315562/d245328ds1.htm", "title": "Yelp Form S-1 (2011) — SEC" }
+      ]
+    },
+    {
+      "year": 2004,
+      "end_year": null,
+      "role": "Co-founder and CEO",
+      "org": "Yelp",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001345016/000119312511315562/d245328ds1.htm", "title": "Yelp Form S-1 (2011) — SEC" },
+        { "url": "https://en.wikipedia.org/wiki/Yelp", "title": "Yelp — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "PayPal Mafia",
+      "role": "Member; in Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Russel Simmons",
+      "slug": "russel-simmons",
+      "relationship_type": "co-founder",
+      "description": "Former PayPal colleagues who co-founded Yelp at MRL Ventures in 2004; Simmons was CTO until 2010.",
+      "start_year": 2004,
+      "end_year": 2010,
+      "confidence": 0.97,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yelp", "title": "Yelp — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Jeremy_Stoppelman", "title": "Jeremy Stoppelman — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Max Levchin",
+      "slug": "max-levchin",
+      "relationship_type": "donor",
+      "description": "Levchin, their former PayPal colleague, founded the MRL Ventures incubator where Yelp started and provided $1 million in angel funding; he later chaired Yelp's board.",
+      "start_year": 2004,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yelp", "title": "Yelp — Wikipedia" },
+        { "url": "https://www.cnbc.com/2014/10/06/max-levchin.html", "title": "Max Levchin — CNBC Disruptor profile" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

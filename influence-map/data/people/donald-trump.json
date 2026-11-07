@@ -1,6 +1,8 @@
 {
   "name": "Donald Trump",
-  "aliases": ["Donald J. Trump"],
+  "aliases": [
+    "Donald J. Trump"
+  ],
   "public_figure": true,
   "current_role": "47th President of the United States (since January 20, 2025)",
   "summary": "Donald Trump (born 1946) is the 47th president of the United States, in office since January 20, 2025, and was also the 45th president (2017–2021), the second president to serve non-consecutive terms. A New York real estate developer who ran his family's business, renamed the Trump Organization, and hosted NBC's The Apprentice from 2004, he was impeached twice in his first term and acquitted both times. In May 2024 a New York jury convicted him on 34 felony counts of falsifying business records; he was sentenced to an unconditional discharge. Democrats won control of both chambers of Congress in the November 3, 2026 midterms, after which he named Stephen Miller White House chief of staff.",
@@ -382,6 +384,96 @@
       "confidence": 0.98,
       "sources": [
         { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Kamala Harris — Britannica" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employee",
+      "description": "Trump made Rubio secretary of state in January 2025 (confirmed 99–0), added national security adviser in May 2025, and made that second role permanent in September 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.state.gov/biographies/marco-rubio/", "title": "Marco Rubio — U.S. Department of State" },
+        { "url": "https://www.coloradopolitics.com/2026/09/22/rubio-named-nsa-after-16-months-as-acting/", "title": "Rubio named NSA after 16 months as acting — Colorado Politics" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "rival",
+      "description": "Rivals in the 2016 Republican presidential primary, when Trump branded him \"Little Marco\"; Rubio later became a trusted ally.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/senators-are-preparing-to-vote-on-marco-rubio-as-secretary-of-state-a-first-in-trumps-cabinet", "title": "Senate confirms Marco Rubio as secretary of state — PBS NewsHour (AP)" },
+        { "url": "https://www.timesofisrael.com/now-a-trusted-ally-little-marco-gets-trumps-big-jobs/", "title": "Now a trusted ally, 'Little Marco' gets Trump's big jobs — The Times of Israel" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "Thiel backed Trump's long-shot 2016 campaign with $1.25 million, and in 2021 introduced his protégé JD Vance to Trump.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/08/29/trump-jd-vance-peter-thiel.html", "title": "JD Vance urges billionaire Peter Thiel to back Trump campaign — CNBC" },
+        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" }
+      ]
+    },
+    {
+      "name": "Ken Howery",
+      "slug": "ken-howery",
+      "relationship_type": "employee",
+      "description": "Trump appointed the PayPal and Founders Fund co-founder ambassador to Sweden (2019–2021) and, in his second term, ambassador to Denmark amid his push for control of Greenland.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://2017-2021.state.gov/howery-kenneth-a-kingdom-of-sweden-february-2019/", "title": "Howery, Kenneth A. — Kingdom of Sweden — U.S. Department of State" },
+        { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Ken Howery — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "rival",
+      "description": "Hoffman is a major Democratic donor who backed E. Jean Carroll's lawsuits against Trump; the Justice Department has investigated a group tied to him over those contributions, and in November 2025 Trump pushed for a DOJ probe of Hoffman's Epstein ties.",
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://fortune.com/2025/11/14/epstein-reid-hoffman-larry-summers-jpmorgan-trump-bill-clinton-investigation/", "title": "Trump responds to appearance in new Epstein emails by pushing DOJ probe of Clinton, Larry Summers, Reid Hoffman — Fortune" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "employee",
+      "description": "Trump named Sacks White House AI and crypto czar in December 2024; he served as a special government employee from January 2025 until March 26, 2026, then became co-chair of PCAST.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/12/05/trump-david-sacks-billionaire-ai-crypto.html", "title": "Trump says venture capitalist David Sacks will be AI and crypto 'czar' — CNBC" },
+        { "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html", "title": "David Sacks says his time as Trump's crypto and AI czar has ended — CNBC" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "ally",
+      "description": "Sacks co-hosted a June 6, 2024 Trump fundraiser in San Francisco with Chamath Palihapitiya (tickets from $50,000; about $12 million reportedly raised) and spoke at the 2024 Republican convention.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2024/05/24/trump-jd-vance-tech-fundraiser-david-sacks", "title": "Scoop: J.D. Vance courts Silicon Valley for Trump — Axios" },
+        { "url": "https://www.cnbc.com/2024/07/16/cnbc-daily-open-trump-attends-rnc-dow-record-close-bitcoin-digital-gold.html", "title": "CNBC Daily Open: Trump attends RNC — CNBC" }
       ]
     }
   ],

@@ -1,0 +1,64 @@
+{
+  "name": "Jawed Karim",
+  "aliases": [],
+  "public_figure": true,
+  "current_role": "YouTube co-founder",
+  "summary": "Jawed Karim, a former PayPal engineer, co-founded YouTube in 2005 with Chad Hurley and Steve Chen and uploaded its first video, \"Me at the zoo,\" on April 23, 2005. He chose to be an informal adviser rather than an employee, so he took a smaller stake when Google bought the company in 2006. He appeared in Fortune's 2007 PayPal Mafia photo.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Jawed_Karim", "title": "Jawed Karim — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Me_at_the_zoo", "title": "Me at the zoo — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2005,
+      "end_year": 2006,
+      "role": "Co-founder and informal adviser; uploaded the site's first video",
+      "org": "YouTube",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jawed_Karim", "title": "Jawed Karim — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Me_at_the_zoo", "title": "Me at the zoo — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "PayPal Mafia",
+      "role": "Member; in Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Chad Hurley",
+      "slug": "chad-hurley",
+      "relationship_type": "co-founder",
+      "description": "Co-founded YouTube together in 2005; Karim stayed an informal adviser rather than an employee and took a smaller stake.",
+      "start_year": 2005,
+      "end_year": 2006,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/History_of_YouTube", "title": "History of YouTube — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Jawed_Karim", "title": "Jawed Karim — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Steve Chen",
+      "slug": "steve-chen",
+      "relationship_type": "co-founder",
+      "description": "Co-founded YouTube together in 2005; Chen and Karim had studied computer science together at the University of Illinois.",
+      "start_year": 2005,
+      "end_year": 2006,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/History_of_YouTube", "title": "History of YouTube — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Jawed_Karim", "title": "Jawed Karim — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

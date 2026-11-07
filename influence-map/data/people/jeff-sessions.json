@@ -1,6 +1,8 @@
 {
   "name": "Jeff Sessions",
-  "aliases": ["Jefferson Beauregard Sessions III"],
+  "aliases": [
+    "Jefferson Beauregard Sessions III"
+  ],
   "public_figure": true,
   "current_role": "Former U.S. Attorney General (2017–2018) and former U.S. Senator from Alabama (1997–2017)",
   "summary": "Jeff Sessions is an Alabama Republican who served as U.S. Attorney for the Southern District of Alabama, Alabama attorney general, U.S. senator from 1997 to 2017, and the 84th U.S. Attorney General from 2017 to 2018. He was the first senator to endorse Donald Trump in 2016, but his recusal from the Russia investigation led to a public rift; he resigned at Trump's request in November 2018 and lost the 2020 Alabama Senate Republican runoff to the Trump-endorsed Tommy Tuberville. A 1986 nomination to the federal bench was rejected by the Senate Judiciary Committee.",
@@ -246,6 +248,19 @@
         { "url": "https://forward.com/fast-forward/359624/for-jeff-sessions-david-horowitz-award-a-stumbling-block/", "title": "For Jeff Sessions, David Horowitz Award a Stumbling Block — The Forward" },
         { "url": "https://www.thedailybeast.com/jeff-sessions-said-secularists-are-unfit-for-government", "title": "Jeff Sessions Said Secularists Are Unfit for Government — The Daily Beast" },
         { "url": "https://forward.com/fast-forward/378013/david-horowitz-isnt-happy-with-trumps-attack-on-sessions/", "title": "David Horowitz Isn't Happy With Trump's Attack On Sessions — The Forward" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "rival",
+      "description": "Sessions led Senate opposition to Rubio's 2013 Gang of Eight immigration bill and, during the 2016 primaries, accused Rubio of rewriting his role in it.",
+      "start_year": 2013,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/rubio-takes-the-lead-in-selling-immigration-reform", "title": "Rubio takes the lead in selling immigration reform — PBS NewsHour" },
+        { "url": "https://www.breitbart.com/politics/2016/02/16/jeff-sessions-rubio-rewriting-history-gang-eight-bill-nearly-became-law-cantor-lost-race/", "title": "Jeff Sessions: Rubio rewriting history of Gang of Eight bill — Breitbart" }
       ]
     }
   ],

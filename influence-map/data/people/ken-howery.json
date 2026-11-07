@@ -1,0 +1,116 @@
+{
+  "name": "Ken Howery",
+  "aliases": ["Kenneth A. Howery"],
+  "public_figure": true,
+  "current_role": "U.S. Ambassador to Denmark (since November 2025)",
+  "summary": "Ken Howery co-founded Confinity/PayPal in 1998 and was its first chief financial officer, then co-founded Founders Fund with Peter Thiel and Luke Nosek in 2005. Trump appointed him ambassador to Sweden (2019–2021) and, in his second term, ambassador to Denmark, where he has been involved in talks over Greenland.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Ken Howery — Wikipedia" },
+    { "url": "https://2017-2021.state.gov/howery-kenneth-a-kingdom-of-sweden-february-2019/", "title": "Howery, Kenneth A. — Kingdom of Sweden — U.S. Department of State" }
+  ],
+  "timeline": [
+    {
+      "year": 1998,
+      "end_year": 2002,
+      "role": "Co-founder and first chief financial officer",
+      "org": "Confinity / PayPal",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Ken Howery — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2005,
+      "role": "Co-founder and partner",
+      "org": "Founders Fund",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2021,
+      "role": "U.S. Ambassador to Sweden",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://2017-2021.state.gov/howery-kenneth-a-kingdom-of-sweden-february-2019/", "title": "Howery, Kenneth A. — Kingdom of Sweden — U.S. Department of State" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "U.S. Ambassador to Denmark (nominated December 2024, confirmed October 7, 2025); took part in 2026 U.S.–Denmark–Greenland talks",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Ken Howery — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/2026_US%E2%80%93Denmark%E2%80%93Greenland_agreement", "title": "2026 US–Denmark–Greenland agreement — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "PayPal Mafia",
+      "role": "Member; in Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity/PayPal in 1998 (Howery was its first CFO) and Founders Fund in 2005 together.",
+      "start_year": 1998,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Luke Nosek",
+      "slug": "luke-nosek",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity/PayPal in 1998 and Founders Fund in 2005 together.",
+      "start_year": 1998,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Max Levchin",
+      "slug": "max-levchin",
+      "relationship_type": "co-founder",
+      "description": "Fellow co-founder of Confinity in December 1998; Levchin was its CTO.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump appointed Howery ambassador to Sweden (2019–2021) and, in his second term, ambassador to Denmark; the nomination came the same day Trump posted that U.S. control of Greenland was \"an absolute necessity.\"",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://2017-2021.state.gov/howery-kenneth-a-kingdom-of-sweden-february-2019/", "title": "Howery, Kenneth A. — Kingdom of Sweden — U.S. Department of State" },
+        { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Ken Howery — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

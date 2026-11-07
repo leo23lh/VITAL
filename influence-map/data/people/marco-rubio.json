@@ -1,0 +1,167 @@
+{
+  "name": "Marco Rubio",
+  "aliases": [],
+  "public_figure": true,
+  "current_role": "U.S. Secretary of State (since January 2025) and National Security Adviser (acting from May 2025, made permanent September 22, 2026)",
+  "summary": "Marco Rubio is a Florida Republican who was Speaker of the Florida House (2006–2008) and a U.S. senator (2011–2025). He co-wrote the 2013 bipartisan Gang of Eight immigration bill, which Jeff Sessions led the fight against, and ran for president in 2016 against Donald Trump. Confirmed 99–0 as secretary of state on Trump's first day back in office, he also took over as national security adviser in May 2025, the first person to hold both jobs since Henry Kissinger.",
+  "sources": [
+    { "url": "https://www.state.gov/biographies/marco-rubio/", "title": "Marco Rubio — U.S. Department of State" },
+    { "url": "https://www.pbs.org/newshour/politics/senators-are-preparing-to-vote-on-marco-rubio-as-secretary-of-state-a-first-in-trumps-cabinet", "title": "Senate confirms Marco Rubio as secretary of state — PBS NewsHour (AP)" },
+    { "url": "https://www.coloradopolitics.com/2026/09/22/rubio-named-nsa-after-16-months-as-acting/", "title": "Rubio named NSA after 16 months as acting — Colorado Politics" }
+  ],
+  "timeline": [
+    {
+      "year": 2006,
+      "end_year": 2008,
+      "role": "Speaker",
+      "org": "Florida House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Marco_Rubio", "title": "Marco Rubio — Wikipedia" },
+        { "url": "https://www.state.gov/biographies/marco-rubio/", "title": "Marco Rubio — U.S. Department of State" }
+      ]
+    },
+    {
+      "year": 2011,
+      "end_year": 2025,
+      "role": "U.S. Senator from Florida (elected 2010)",
+      "org": "United States Senate",
+      "sources": [
+        { "url": "https://www.state.gov/biographies/marco-rubio/", "title": "Marco Rubio — U.S. Department of State" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": 2013,
+      "role": "Co-author of the Gang of Eight immigration bill, which passed the Senate on June 27, 2013",
+      "org": "United States Senate",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/rubio-takes-the-lead-in-selling-immigration-reform", "title": "Rubio takes the lead in selling immigration reform — PBS NewsHour" }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": 2016,
+      "role": "Candidate for the Republican presidential nomination",
+      "org": "Marco Rubio for President",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/senators-are-preparing-to-vote-on-marco-rubio-as-secretary-of-state-a-first-in-trumps-cabinet", "title": "Senate confirms Marco Rubio as secretary of state — PBS NewsHour (AP)" },
+        { "url": "https://www.cnbc.com/2016/02/20/larry-ellison-keeps-bet-on-marco-rubio-donates-1-million-to-super-pac.html", "title": "Larry Ellison keeps bet on Marco Rubio, donates $1 million to super PAC — CNBC" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "72nd Secretary of State (confirmed 99–0 on January 20, 2025; also acting USAID administrator during its dismantling)",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/senators-are-preparing-to-vote-on-marco-rubio-as-secretary-of-state-a-first-in-trumps-cabinet", "title": "Senate confirms Marco Rubio as secretary of state — PBS NewsHour (AP)" },
+        { "url": "https://www.axios.com/2025/02/06/trump-deep-state-usaid-elon-musk", "title": "Trump's gut-it-all plan for D.C.'s \"Deep State\" — Axios" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "National Security Adviser (acting from May 1, 2025; made permanent September 22, 2026)",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.inquirer.com/politics/nation/secretary-of-state-marco-rubio-national-security-adviser-trump-20250502.html", "title": "Secretary of State Marco Rubio becomes national security adviser — The Philadelphia Inquirer (AP)" },
+        { "url": "https://www.coloradopolitics.com/2026/09/22/rubio-named-nsa-after-16-months-as-acting/", "title": "Rubio named NSA after 16 months as acting — Colorado Politics" },
+        { "url": "https://foxnews.com/politics/rubios-meme-worthy-job-collection-takes-new-turn-permanent-trump-upgrade", "title": "Rubio's job collection takes new turn with permanent Trump upgrade — Fox News" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Gang of Eight (Senate immigration group, 2013)",
+      "role": "Member and lead Republican salesman of the bill",
+      "start_year": 2013,
+      "end_year": 2013,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/rubio-takes-the-lead-in-selling-immigration-reform", "title": "Rubio takes the lead in selling immigration reform — PBS NewsHour" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump made Rubio secretary of state in January 2025, added national security adviser in May 2025, and made that second role permanent in September 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.state.gov/biographies/marco-rubio/", "title": "Marco Rubio — U.S. Department of State" },
+        { "url": "https://www.coloradopolitics.com/2026/09/22/rubio-named-nsa-after-16-months-as-acting/", "title": "Rubio named NSA after 16 months as acting — Colorado Politics" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "Rivals in the 2016 Republican presidential primary, when Trump branded him \"Little Marco\"; Rubio later embraced Trump's agenda.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/senators-are-preparing-to-vote-on-marco-rubio-as-secretary-of-state-a-first-in-trumps-cabinet", "title": "Senate confirms Marco Rubio as secretary of state — PBS NewsHour (AP)" },
+        { "url": "https://www.timesofisrael.com/now-a-trusted-ally-little-marco-gets-trumps-big-jobs/", "title": "Now a trusted ally, 'Little Marco' gets Trump's big jobs — The Times of Israel" }
+      ]
+    },
+    {
+      "name": "Jeff Sessions",
+      "slug": "jeff-sessions",
+      "relationship_type": "rival",
+      "description": "Sessions led Senate opposition to Rubio's 2013 Gang of Eight immigration bill and, during the 2016 primaries, accused Rubio of rewriting his role in it.",
+      "start_year": 2013,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/rubio-takes-the-lead-in-selling-immigration-reform", "title": "Rubio takes the lead in selling immigration reform — PBS NewsHour" },
+        { "url": "https://www.breitbart.com/politics/2016/02/16/jeff-sessions-rubio-rewriting-history-gang-eight-bill-nearly-became-law-cantor-lost-race/", "title": "Jeff Sessions: Rubio rewriting history of Gang of Eight bill — Breitbart" }
+      ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "rival",
+      "description": "As Sessions's aide, Miller worked against the Gang of Eight bill, and leaked emails show he fed anti-Rubio stories to Breitbart during the 2016 campaign.",
+      "start_year": 2013,
+      "end_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/politics-news/stephen-miller-planted-anti-rubio-stories-breitbart-during-2016-campaign-n1085451", "title": "Stephen Miller planted anti-Rubio stories in Breitbart during 2016 campaign — NBC News" },
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)", "title": "Stephen Miller (political advisor) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "donor",
+      "description": "Ellison gave at least $4 million in 2015–2016 to Conservative Solutions PAC, the super PAC backing Rubio's presidential run.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2016/02/20/larry-ellison-keeps-bet-on-marco-rubio-donates-1-million-to-super-pac.html", "title": "Larry Ellison keeps bet on Marco Rubio, donates $1 million to super PAC — CNBC" },
+        { "url": "https://digital-release.thehill.com/policy/technology/249966-oracles-ellison-donates-3-million-to-group-backing-rubio", "title": "Oracle's Ellison donates $3 million to group backing Rubio — The Hill" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "colleague",
+      "description": "Worked in parallel on dismantling USAID in early 2025: Musk's DOGE drove the cuts while Rubio, as acting administrator, canceled most of its contracts. The AP reported contradictory orders fueled talk of a power struggle, which both men denied.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://www.npr.org/sections/goats-and-soda/2025/03/10/g-s1-52964/rubio-announces-that-83-of-usaid-contracts-will-be-canceled", "title": "Rubio announces that 83% of USAID contracts will be canceled — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/doge-official-taking-leadership-role-at-usaid-email-obtained-by-ap-says", "title": "DOGE official taking leadership role at USAID, email obtained by AP says — PBS NewsHour" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. The September 2026 permanent national security adviser appointment is reported by Colorado Politics and Fox News.",
+  "last_researched": "2026-11-07"
+}

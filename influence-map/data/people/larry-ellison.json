@@ -294,6 +294,19 @@
         { "url": "https://www.haaretz.com/israel-news/2021-09-16/ty-article/.highlight/larry-ellison-netanyahu-trial-witness-offers-ex-pm-seat-on-oracle-board/0000017f-dbd9-d3a5-af7f-fbff9ae80000", "title": "Larry Ellison Offers Netanyahu Lucrative Oracle Post — Haaretz" },
         { "url": "https://www.jpost.com/israel-news/netanyahu-dines-with-states-witness-against-him-in-hawaii-678055", "title": "Benjamin Netanyahu dines with state's witness against him in Hawaii — The Jerusalem Post" }
       ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "funded_by",
+      "description": "Ellison gave at least $4 million in 2015–2016 to Conservative Solutions PAC, the super PAC backing Rubio's presidential run.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2016/02/20/larry-ellison-keeps-bet-on-marco-rubio-donates-1-million-to-super-pac.html", "title": "Larry Ellison keeps bet on Marco Rubio, donates $1 million to super PAC — CNBC" },
+        { "url": "https://digital-release.thehill.com/policy/technology/249966-oracles-ellison-donates-3-million-to-group-backing-rubio", "title": "Oracle's Ellison donates $3 million to group backing Rubio — The Hill" }
+      ]
     }
   ],
   "source_conflicts": [

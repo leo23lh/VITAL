@@ -1,0 +1,245 @@
+{
+  "name": "Elon Musk",
+  "aliases": [],
+  "public_figure": true,
+  "current_role": "CEO of Tesla and of SpaceX (which absorbed xAI in February 2026 and went public in June 2026)",
+  "summary": "Elon Musk co-founded X.com in 1999, which merged with Confinity to form PayPal; he was replaced as CEO in 2000 but was its largest shareholder when eBay bought it. He founded SpaceX in 2002, became Tesla's chairman in 2004 and CEO in 2008, bought Twitter in 2022 (renamed X), and merged his AI company xAI into SpaceX in 2026 ahead of a record IPO. He spent at least $250 million backing Trump in 2024, led DOGE in 2025, then feuded publicly with Trump before returning to fund Republicans in the 2026 midterms.",
+  "sources": [
+    { "url": "https://www.britannica.com/money/Elon-Musk", "title": "Elon Musk — Britannica" },
+    { "url": "https://en.wikipedia.org/wiki/Elon_Musk", "title": "Elon Musk — Wikipedia" },
+    { "url": "https://www.cnbc.com/2026/02/02/elon-musk-spacex-xai-ipo.html", "title": "Elon Musk's SpaceX acquiring AI startup xAI ahead of potential IPO — CNBC" }
+  ],
+  "timeline": [
+    {
+      "year": 1999,
+      "end_year": 2000,
+      "role": "Co-founder and CEO of X.com; replaced as CEO by Peter Thiel in late 2000 after the merger with Confinity",
+      "org": "X.com / PayPal",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/X.com_(bank)", "title": "X.com (bank) — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2002,
+      "end_year": null,
+      "role": "Founder, CEO and chief designer",
+      "org": "SpaceX",
+      "sources": [
+        { "url": "https://www.britannica.com/money/Elon-Musk", "title": "Elon Musk — Britannica" }
+      ]
+    },
+    {
+      "year": 2004,
+      "end_year": null,
+      "role": "Major early funder and chairman (2004); CEO since 2008",
+      "org": "Tesla",
+      "sources": [
+        { "url": "https://www.britannica.com/money/Elon-Musk", "title": "Elon Musk — Britannica" }
+      ]
+    },
+    {
+      "year": 2022,
+      "end_year": null,
+      "role": "Bought Twitter (renamed X in 2023)",
+      "org": "X Corp.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/X_Corp.", "title": "X Corp. — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2025,
+      "role": "Led the Department of Government Efficiency (DOGE) for about four months",
+      "org": "DOGE / Trump administration",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": 2026,
+      "role": "Merged xAI into SpaceX (February) and took the combined company public (June 12)",
+      "org": "SpaceX",
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html", "title": "Musk's xAI, SpaceX combo is the biggest merger of all time — CNBC" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor, and the biggest VC winners from SpaceX's IPO — Fortune" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "America PAC",
+      "role": "Main funder",
+      "start_year": 2024,
+      "end_year": null,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
+        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" }
+      ]
+    },
+    {
+      "name": "PayPal Mafia",
+      "role": "Member (skipped Fortune's 2007 photo shoot)",
+      "sources": [
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "rival",
+      "description": "After Musk's X.com merged with Thiel's Confinity in 2000, the board replaced Musk as CEO with Thiel in late 2000 while Musk was away on his honeymoon. Fortune later reported Musk had made up with the \"mutineers.\"",
+      "start_year": 2000,
+      "end_year": 2000,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/X.com_(bank)", "title": "X.com (bank) — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "Thiel's Founders Fund invested $20 million in SpaceX in 2008, its first institutional backer, a stake that paid off in SpaceX's June 2026 IPO; Thiel had declined to invest in Tesla. Founders Fund also backed the Boring Company and Neuralink.",
+      "start_year": 2008,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor, and the biggest VC winners from SpaceX's IPO — Fortune" }
+      ]
+    },
+    {
+      "name": "Luke Nosek",
+      "slug": "luke-nosek",
+      "relationship_type": "donor",
+      "description": "Nosek led Founders Fund's 2008 investment in SpaceX and has sat on SpaceX's board since.",
+      "start_year": 2008,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Luke_Nosek", "title": "Luke Nosek — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor, and the biggest VC winners from SpaceX's IPO — Fortune" }
+      ]
+    },
+    {
+      "name": "Max Levchin",
+      "slug": "max-levchin",
+      "relationship_type": "colleague",
+      "description": "Worked together at PayPal after X.com and Confinity merged in March 2000, with Levchin as CTO, until Musk was replaced as CEO later that year.",
+      "start_year": 2000,
+      "end_year": 2000,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Musk spent at least $250 million backing Trump in 2024, mainly through America PAC (other counts run higher), then led DOGE in 2025. Axios reported in July 2026 that he planned heavy spending for Republicans in the midterms.",
+      "start_year": 2024,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
+        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "In June 2025, after Musk left DOGE, a public feud over Trump's tax-and-spending bill led Trump to threaten Musk's government contracts and Musk to claim Trump would have lost without him. Musk later returned to funding Republicans.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2025/06/05/trump-musk-bromance-dispute", "title": "How Trump and Musk went from bromance to bitter dispute — Axios" },
+        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "ally",
+      "description": "Ellison calls Musk a \"very close\" friend. He held about $1 billion of Tesla stock, sat on Tesla's board from December 2018 to 2022 under the company's SEC settlement, and committed $1 billion to Musk's 2022 Twitter takeover.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2018/12/28/tesla-names-new-board-members-after-sec-settlement.html", "title": "Tesla names Larry Ellison and Kathleen Wilson-Thompson to board after SEC settlement — CNBC" },
+        { "url": "https://fortune.com/2018/12/28/tesla-larry-ellison-board-of-directors-elon-musk/", "title": "Tesla Taps Oracle's Larry Ellison for Its Board of Directors — Fortune" },
+        { "url": "https://www.channelfutures.com/business-models/oracle-co-founder-larry-ellison-biggest-backer-of-elon-musks-twitter-takeover", "title": "Oracle Co-Founder Larry Ellison Biggest Backer of Elon Musk's Twitter Takeover — Channel Futures" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "colleague",
+      "description": "Worked in parallel on dismantling USAID in early 2025: Musk's DOGE drove the cuts while Rubio, as acting administrator, canceled most of its contracts. The AP reported contradictory orders fueled talk of a power struggle, which both men denied.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://www.npr.org/sections/goats-and-soda/2025/03/10/g-s1-52964/rubio-announces-that-83-of-usaid-contracts-will-be-canceled", "title": "Rubio announces that 83% of USAID contracts will be canceled — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/doge-official-taking-leadership-role-at-usaid-email-obtained-by-ap-says", "title": "DOGE official taking leadership role at USAID, email obtained by AP says — PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "rival",
+      "description": "In 2024 Musk publicly accused Hoffman of being close to Jeffrey Epstein; Hoffman called it \"a conviction with no evidence\" and said he needed added security. Later-released documents showed Hoffman had an established relationship with Epstein, which he says he regrets; he denies being an Epstein client.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2024/12/17/reid-hoffman-elon-musk-security-jeffrey-epstein/", "title": "Reid Hoffman says he needed security after Elon Musk formed a 'conviction with no evidence' — Fortune" },
+        { "url": "https://fortune.com/2025/11/18/reid-hoffman-epstein-files/", "title": "Newly released emails and a Trump-ordered investigation have thrust Reid Hoffman into the Epstein firestorm — Fortune" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "ally",
+      "description": "Friends since working together at PayPal. Sacks was part of Musk's \"war room\" during the 2022 Twitter takeover, helping decide which staff stayed and assisting with the Twitter Files release.",
+      "start_year": 2000,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis — CNBC" },
+        { "url": "https://fortune.com/2024/01/19/behind-elon-musks-chaotic-twitter-takeover-yes-men-zoe-schiffer/", "title": "Behind Elon Musk's chaotic Twitter takeover, look for the 'yes men' — Fortune" }
+      ]
+    },
+    {
+      "name": "Roelof Botha",
+      "slug": "roelof-botha",
+      "relationship_type": "colleague",
+      "description": "PayPal colleagues in 2000; Botha joined SpaceX's board in 2026, which Fortune described as a reunion after decades.",
+      "start_year": 2000,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2026/06/17/paypal-mafia-member-and-ex-sequoia-steward-roelof-botha-joins-spacex-board-reuniting-with-elon-musk-after-decades/", "title": "PayPal mafia member and ex-Sequoia steward Roelof Botha joins SpaceX board — Fortune" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Why Musk was replaced as PayPal CEO",
+      "details": "Accounts cite mismanagement, and a dispute over moving PayPal's software to Microsoft rather than Unix-based systems.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/X.com_(bank)", "title": "X.com (bank) — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Personal and family details were left out under the research rules.",
+  "last_researched": "2026-11-07"
+}

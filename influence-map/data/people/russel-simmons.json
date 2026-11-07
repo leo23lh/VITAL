@@ -1,0 +1,79 @@
+{
+  "name": "Russel Simmons",
+  "aliases": [],
+  "public_figure": true,
+  "current_role": "Co-founder and former CTO of Yelp",
+  "summary": "Russel Simmons was an early PayPal software architect. In 2004 he co-founded Yelp with Jeremy Stoppelman at Max Levchin's incubator MRL Ventures and was its chief technology officer until June 2010.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Russel_Simmons", "title": "Russel Simmons — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Yelp", "title": "Yelp — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "role": "Lead software architect (some sources call him a co-founder)",
+      "org": "PayPal",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russel_Simmons", "title": "Russel Simmons — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2004,
+      "end_year": 2010,
+      "role": "Co-founder and chief technology officer",
+      "org": "Yelp",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russel_Simmons", "title": "Russel Simmons — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Yelp", "title": "Yelp — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "PayPal Mafia",
+      "role": "Member",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/PayPal_Mafia", "title": "PayPal Mafia — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Jeremy Stoppelman",
+      "slug": "jeremy-stoppelman",
+      "relationship_type": "co-founder",
+      "description": "Former PayPal colleagues who co-founded Yelp at MRL Ventures in 2004; Simmons was CTO until 2010.",
+      "start_year": 2004,
+      "end_year": 2010,
+      "confidence": 0.97,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yelp", "title": "Yelp — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Jeremy_Stoppelman", "title": "Jeremy Stoppelman — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Max Levchin",
+      "slug": "max-levchin",
+      "relationship_type": "donor",
+      "description": "Levchin, their former PayPal colleague, founded the MRL Ventures incubator where Yelp started and provided $1 million in angel funding.",
+      "start_year": 2004,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yelp", "title": "Yelp — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Simmons's role at PayPal",
+      "details": "His Wikipedia entry calls him a PayPal co-founder and lead software architect; the PayPal Mafia article lists him as a former PayPal engineer.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russel_Simmons", "title": "Russel Simmons — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/PayPal_Mafia", "title": "PayPal Mafia — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

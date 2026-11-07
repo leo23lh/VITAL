@@ -1,0 +1,68 @@
+{
+  "name": "Premal Shah",
+  "aliases": [],
+  "public_figure": true,
+  "current_role": "Co-founder and former president of Kiva",
+  "summary": "Premal Shah joined PayPal in 2000 as one of its first 50 employees and worked there as a product manager before leaving to help build Kiva, the microlending nonprofit, which he led as president. He appeared in Fortune's 2007 PayPal Mafia photo.",
+  "sources": [
+    { "url": "https://carnegie.org/great-immigrants/premal-shah/", "title": "Premal Shah — Carnegie Corporation Great Immigrants" },
+    { "url": "https://weforum.org/people/premal-shah", "title": "Premal Shah — World Economic Forum" }
+  ],
+  "timeline": [
+    {
+      "year": 2000,
+      "end_year": 2006,
+      "role": "Product manager (one of the first 50 employees)",
+      "org": "PayPal",
+      "sources": [
+        { "url": "https://carnegie.org/great-immigrants/premal-shah/", "title": "Premal Shah — Carnegie Corporation Great Immigrants" }
+      ]
+    },
+    {
+      "year": null,
+      "role": "Co-founder and president",
+      "org": "Kiva",
+      "sources": [
+        { "url": "https://carnegie.org/great-immigrants/premal-shah/", "title": "Premal Shah — Carnegie Corporation Great Immigrants" },
+        { "url": "https://weforum.org/people/premal-shah", "title": "Premal Shah — World Economic Forum" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "PayPal Mafia",
+      "role": "Member; in Fortune's 2007 group photo (then president of Kiva)",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "colleague",
+      "description": "Shah worked at PayPal from 2000 while Thiel was CEO, and both posed in Fortune's 2007 PayPal Mafia photo. No source found documents direct work together; this link is based on the shared employer.",
+      "start_year": 2000,
+      "end_year": 2002,
+      "confidence": 0.4,
+      "sources": [
+        { "url": "https://carnegie.org/great-immigrants/premal-shah/", "title": "Premal Shah — Carnegie Corporation Great Immigrants" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Shah's current role at Kiva",
+      "details": "A CB Insights profile lists him as Kiva's current president; a 2019 interview describes him as its former president.",
+      "sources": [
+        { "url": "https://www.cbinsights.com/company/kivaorg/people", "title": "Kiva people — CB Insights" },
+        { "url": "https://carnegie.org/great-immigrants/premal-shah/", "title": "Premal Shah — Carnegie Corporation Great Immigrants" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Kiva's founding year and Shah's exact start there were not confirmed.",
+  "last_researched": "2026-11-07"
+}

@@ -1,0 +1,324 @@
+{
+  "name": "Peter Thiel",
+  "aliases": [],
+  "public_figure": true,
+  "current_role": "Chairman of Palantir Technologies; co-founder of Founders Fund",
+  "summary": "Peter Thiel is a venture capitalist and the central figure of the PayPal Mafia. He co-founded Confinity in 1998, became CEO of PayPal after its merger with Elon Musk's X.com, co-founded Palantir in 2003 and Founders Fund in 2005, and was Facebook's first outside investor and a board member from 2005 to 2022. A major Republican donor, he gave $1.25 million to Trump's 2016 campaign and $15 million to a super PAC backing his former employee and protégé JD Vance's 2022 Senate run.",
+  "sources": [
+    { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" },
+    { "url": "https://en.wikipedia.org/wiki/Peter_Thiel", "title": "Peter Thiel — Wikipedia" },
+    { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" }
+  ],
+  "timeline": [
+    {
+      "year": 1998,
+      "end_year": 2002,
+      "role": "Co-founder of Confinity; CEO and chairman of PayPal after the 2000 merger with X.com, until eBay bought it in 2002",
+      "org": "Confinity / PayPal",
+      "sources": [
+        { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2003,
+      "end_year": null,
+      "role": "Co-founder and chairman of the board",
+      "org": "Palantir Technologies",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" }
+      ]
+    },
+    {
+      "year": 2004,
+      "end_year": 2022,
+      "role": "First outside investor (10.2% for $500,000 in 2004); board member 2005–2022",
+      "org": "Facebook / Meta Platforms",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Peter_Thiel", "title": "Peter Thiel — Wikipedia" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" }
+      ]
+    },
+    {
+      "year": 2005,
+      "end_year": null,
+      "role": "Co-founder (with Ken Howery and Luke Nosek); first institutional investor in SpaceX and Palantir",
+      "org": "Founders Fund",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Palantir Technologies",
+      "role": "Co-founder and chairman",
+      "start_year": 2003,
+      "end_year": null,
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" }
+      ]
+    },
+    {
+      "name": "Founders Fund",
+      "role": "Co-founder and partner",
+      "start_year": 2005,
+      "end_year": null,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://www.cnbc.com/2025/04/11/peter-thiels-founders-fund-closes-4point6-billion-growth-fund.html", "title": "Peter Thiel's Founders Fund closes $4.6 billion growth fund — CNBC" }
+      ]
+    },
+    {
+      "name": "PayPal Mafia",
+      "role": "Its best-known member; posed for Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/PayPal_Mafia", "title": "PayPal Mafia — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Max Levchin",
+      "slug": "max-levchin",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity (originally Fieldlink) together in 1998; Levchin was CTO and Thiel CEO of what became PayPal.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.97,
+      "sources": [
+        { "url": "https://www.britannica.com/money/PayPal", "title": "PayPal — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Luke Nosek",
+      "slug": "luke-nosek",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity/PayPal in 1998 and Founders Fund in 2005 together; Nosek left Founders Fund in 2017.",
+      "start_year": 1998,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ken Howery",
+      "slug": "ken-howery",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity/PayPal in 1998 (Howery was its first CFO) and Founders Fund in 2005 together.",
+      "start_year": 1998,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "rival",
+      "description": "After Confinity merged with Musk's X.com in 2000, the board replaced Musk as CEO with Thiel in late 2000 while Musk was away on his honeymoon. Fortune later reported Musk had made up with the \"mutineers.\"",
+      "start_year": 2000,
+      "end_year": 2000,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/X.com_(bank)", "title": "X.com (bank) — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "funded_by",
+      "description": "Thiel's Founders Fund invested $20 million in SpaceX in 2008, its first institutional backer, a stake that paid off in SpaceX's June 2026 IPO; Thiel had declined to invest in Tesla. Founders Fund also backed the Boring Company and Neuralink.",
+      "start_year": 2008,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor, and the biggest VC winners from SpaceX's IPO — Fortune" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Thiel backed Trump's long-shot 2016 campaign with $1.25 million, and in 2021 introduced his protégé JD Vance to Trump.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/08/29/trump-jd-vance-peter-thiel.html", "title": "JD Vance urges billionaire Peter Thiel to back Trump campaign — CNBC" },
+        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "protégé",
+      "description": "Vance worked at Mithril Capital, a firm Thiel co-founded, and is widely described as Thiel's protégé; Thiel introduced him to Trump in 2021.",
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2024/07/17/g-s1-11654/five-things-to-know-about-jd-vances-connections-to-tech-billionaires", "title": "Five things to know about J.D. Vance's ties to tech billionaires — NPR" },
+        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "funded_by",
+      "description": "Thiel gave $15 million to Protect Ohio Values, a super PAC backing Vance in the 2022 Ohio Senate primary, but did not fund him in the general election.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cnbc.com/2022/10/03/peter-thiel-signals-he-is-done-helping-jd-vance-will-fundraise-for-blake-masters.html", "title": "GOP megadonor Peter Thiel signals he is done helping Ohio Senate hopeful J.D. Vance — CNBC" },
+        { "url": "https://www.cnbc.com/2022/11/12/midterm-results-peter-thiel-picks-masters-vance-see-mixed-results-in-arizona-ohio.html", "title": "Peter Thiel's picks Masters, Vance split key Senate races — CNBC" }
+      ]
+    },
+    {
+      "name": "Alex Karp",
+      "slug": "alex-karp",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir in 2003; Karp has been CEO since 2005 and Thiel chairman since 2003.",
+      "start_year": 2003,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "slug": "mark-zuckerberg",
+      "relationship_type": "funded_by",
+      "description": "Thiel became Facebook's first outside investor in August 2004, buying 10.2% for $500,000, and sat on its board from 2005 to 2022.",
+      "start_year": 2004,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Peter_Thiel", "title": "Peter Thiel — Wikipedia" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "colleague",
+      "description": "PayPal colleagues under Thiel as CEO. Hoffman arranged the first meeting between Mark Zuckerberg and Thiel that led to Thiel's 2004 Facebook investment. They have since taken opposite sides politically.",
+      "start_year": 2000,
+      "end_year": 2002,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "funded_by",
+      "description": "Thiel invested in Hoffman's LinkedIn.",
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "ally",
+      "description": "Co-wrote The Diversity Myth (1995), a critique of multiculturalism at Stanford, and worked together at PayPal, where Sacks was COO under Thiel as CEO. Fortune counts Sacks in Thiel's network inside the Trump White House.",
+      "start_year": 1995,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.independent.org/store/book/the-diversity-myth/", "title": "The Diversity Myth — Independent Institute" },
+        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "colleague",
+      "description": "Rabois was a PayPal executive under Thiel as CEO and a general partner at Thiel's Founders Fund from 2019 to 2024. One account traces their connection to Rabois's time on The Stanford Review under Thiel.",
+      "start_year": 2000,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Roelof Botha",
+      "slug": "roelof-botha",
+      "relationship_type": "colleague",
+      "description": "Botha was PayPal's CFO while Thiel was CEO, taking the company public together in 2002.",
+      "start_year": 2000,
+      "end_year": 2002,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Roelof_Botha", "title": "Roelof Botha — Wikipedia" },
+        { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" }
+      ]
+    },
+    {
+      "name": "Premal Shah",
+      "slug": "premal-shah",
+      "relationship_type": "colleague",
+      "description": "Shah worked at PayPal from 2000 while Thiel was CEO, and both posed in Fortune's 2007 PayPal Mafia photo. No source found documents direct work together; this link is based on the shared employer.",
+      "start_year": 2000,
+      "end_year": 2002,
+      "confidence": 0.4,
+      "sources": [
+        { "url": "https://carnegie.org/great-immigrants/premal-shah/", "title": "Premal Shah — Carnegie Corporation Great Immigrants" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Andrew McCormack",
+      "slug": "andrew-mccormack",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Valar Ventures with Thiel and James Fitzgerald in 2010; Thiel remains a close adviser but has largely left the firm to McCormack and Fitzgerald.",
+      "start_year": 2010,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Valar_Ventures", "title": "Valar Ventures — Wikipedia" },
+        { "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management", "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor" }
+      ]
+    },
+    {
+      "name": "Andrew McCormack",
+      "slug": "andrew-mccormack",
+      "relationship_type": "employee",
+      "description": "McCormack worked closely with Thiel at PayPal from 2001, then at Thiel's Clarium Capital and Thiel Capital.",
+      "start_year": 2001,
+      "end_year": 2010,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management", "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Palantir founding year",
+      "details": "Palantir's SEC filings and Wikipedia say 2003; Britannica gives 2004.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Thiel's reported role on Trump's 2016 transition was not confirmed and is left out.",
+  "last_researched": "2026-11-07"
+}

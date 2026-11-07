@@ -1,0 +1,179 @@
+{
+  "name": "David Sacks",
+  "aliases": ["David O. Sacks"],
+  "public_figure": true,
+  "current_role": "Co-chair of the President's Council of Advisors on Science and Technology (PCAST); co-founder of Craft Ventures; All-In podcast co-host",
+  "summary": "David Sacks was PayPal's chief operating officer, co-wrote The Diversity Myth with Peter Thiel, founded Geni and Yammer (sold to Microsoft in 2012), and co-founded Craft Ventures in 2017. A longtime friend of Elon Musk who helped run his 2022 Twitter takeover, he co-hosted a June 2024 Trump fundraiser, spoke at the Republican convention, and served as Trump's White House AI and crypto czar from January 2025 until March 2026, when he moved to co-chair PCAST.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/David_Sacks", "title": "David Sacks — Wikipedia" },
+    { "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html", "title": "David Sacks says his time as Trump's crypto and AI czar has ended — CNBC" }
+  ],
+  "timeline": [
+    {
+      "year": 1999,
+      "end_year": 2002,
+      "role": "Chief operating officer and product leader",
+      "org": "PayPal",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Sacks", "title": "David Sacks — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2008,
+      "end_year": 2014,
+      "role": "Founder and CEO of Yammer (spun out of his genealogy site Geni; sold to Microsoft for $1.2 billion in 2012)",
+      "org": "Yammer / Microsoft",
+      "sources": [
+        { "url": "https://www.cnbc.com/2012/06/25/microsoft-buys-internet-startup-yammer-for-12-billion.html", "title": "Microsoft Buys Internet Startup Yammer for $1.2 Billion — CNBC" },
+        { "url": "https://en.wikipedia.org/wiki/David_Sacks", "title": "David Sacks — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": null,
+      "role": "Co-founder",
+      "org": "Craft Ventures",
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html", "title": "David Sacks says his time as Trump's crypto and AI czar has ended — CNBC" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "White House Special Advisor for AI and Crypto (\"AI and crypto czar\"), until March 26, 2026",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/12/05/trump-david-sacks-billionaire-ai-crypto.html", "title": "Trump says venture capitalist David Sacks will be AI and crypto 'czar' — CNBC" },
+        { "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html", "title": "David Sacks says his time as Trump's crypto and AI czar has ended — CNBC" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Co-chair",
+      "org": "President's Council of Advisors on Science and Technology",
+      "sources": [
+        { "url": "https://www.axios.com/2026/03/26/trump-white-house-david-sacks-ai-czar-policy-influence", "title": "David Sacks drops \"AI czar\" label, not policy influence — Axios" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "All-In podcast",
+      "role": "Co-host",
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html", "title": "David Sacks says his time as Trump's crypto and AI czar has ended — CNBC" }
+      ]
+    },
+    {
+      "name": "PayPal Mafia",
+      "role": "Member; in Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "ally",
+      "description": "Co-wrote The Diversity Myth (1995), a critique of multiculturalism at Stanford, and worked together at PayPal, where Sacks was COO under Thiel as CEO. Fortune counts Sacks in Thiel's network inside the Trump White House.",
+      "start_year": 1995,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.independent.org/store/book/the-diversity-myth/", "title": "The Diversity Myth — Independent Institute" },
+        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "ally",
+      "description": "Friends since working together at PayPal. Sacks was part of Musk's \"war room\" during the 2022 Twitter takeover, helping decide which staff stayed and assisting with the Twitter Files release.",
+      "start_year": 2000,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis — CNBC" },
+        { "url": "https://fortune.com/2024/01/19/behind-elon-musks-chaotic-twitter-takeover-yes-men-zoe-schiffer/", "title": "Behind Elon Musk's chaotic Twitter takeover, look for the 'yes men' — Fortune" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump named Sacks White House AI and crypto czar in December 2024; he served as a special government employee from January 2025 until March 26, 2026, then became co-chair of PCAST.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/12/05/trump-david-sacks-billionaire-ai-crypto.html", "title": "Trump says venture capitalist David Sacks will be AI and crypto 'czar' — CNBC" },
+        { "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html", "title": "David Sacks says his time as Trump's crypto and AI czar has ended — CNBC" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Sacks co-hosted a June 6, 2024 Trump fundraiser in San Francisco with Chamath Palihapitiya (tickets from $50,000; about $12 million reportedly raised) and spoke at the 2024 Republican convention.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2024/05/24/trump-jd-vance-tech-fundraiser-david-sacks", "title": "Scoop: J.D. Vance courts Silicon Valley for Trump — Axios" },
+        { "url": "https://www.cnbc.com/2024/07/16/cnbc-daily-open-trump-attends-rnc-dow-record-close-bitcoin-digital-gold.html", "title": "CNBC Daily Open: Trump attends RNC — CNBC" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Vance introduced Sacks to Donald Trump Jr. in March 2024, and Sacks credited Vance with making his June 2024 Trump fundraiser happen; Vance later appeared at Sacks's All-In AI event in 2025.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2024/05/24/trump-jd-vance-tech-fundraiser-david-sacks", "title": "Scoop: J.D. Vance courts Silicon Valley for Trump — Axios" },
+        { "url": "https://fortune.com/2025/07/23/all-in-podcast-trump-ai-action-plan-david-sacks-jd-vance-jensen-huang/", "title": "Silicon Valley's elite descend on D.C. to celebrate Trump's AI Action Plan — Fortune" }
+      ]
+    },
+    {
+      "name": "Chamath Palihapitiya",
+      "slug": "chamath-palihapitiya",
+      "relationship_type": "colleague",
+      "description": "Fellow All-In podcast co-host; co-hosted the June 2024 Trump fundraiser with Sacks.",
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2024/05/24/trump-jd-vance-tech-fundraiser-david-sacks", "title": "Scoop: J.D. Vance courts Silicon Valley for Trump — Axios" }
+      ]
+    },
+    {
+      "name": "Adam Pisoni",
+      "slug": "adam-pisoni",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Yammer with Sacks in 2008.",
+      "start_year": 2008,
+      "end_year": 2014,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Sacks", "title": "David Sacks — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Publication year of The Diversity Myth",
+      "details": "The Independent Institute lists 1995; The Daily Telegraph says it was first published in 1996.",
+      "sources": [
+        { "url": "https://www.independent.org/store/book/the-diversity-myth/", "title": "The Diversity Myth — Independent Institute" },
+        { "url": "https://www.pressreader.com/uk/the-daily-telegraph/20221125/282291029242067", "title": "The Daily Telegraph (via PressReader), November 25, 2022" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

@@ -1,0 +1,144 @@
+{
+  "name": "Keith Rabois",
+  "aliases": [],
+  "public_figure": true,
+  "current_role": "Managing director at Khosla Ventures; chairman of Opendoor",
+  "summary": "Keith Rabois was a PayPal executive vice president (2000–2002), then held operating roles at LinkedIn and Slide and was Square's chief operating officer until 2013, when he resigned amid a harassment accusation Square said it had not substantiated. He became a venture capitalist at Khosla Ventures, moved to Peter Thiel's Founders Fund as a general partner in 2019, and returned to Khosla in 2024. He co-founded and chairs Opendoor.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+    { "url": "https://fortune.com/2025/09/16/opendoor-chairman-keith-rabois-layoffs-opendoor/", "title": "Opendoor Chairman Keith Rabois says the company doesn't need 1,400 employees — Fortune" }
+  ],
+  "timeline": [
+    {
+      "year": 2000,
+      "end_year": 2002,
+      "role": "Executive vice president, business development, public affairs and policy",
+      "org": "PayPal",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2010,
+      "end_year": 2013,
+      "role": "Chief operating officer; resigned in January 2013 amid a sexual harassment accusation that Square said it had not substantiated",
+      "org": "Square",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://fortune.com/2013/01/25/square-loses-no-2-exec-amid-sexual-harassment-accusations/", "title": "Square loses No. 2 exec amid sexual harassment accusations — Fortune" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": 2019,
+      "role": "Partner",
+      "org": "Khosla Ventures",
+      "sources": [
+        { "url": "https://fortune.com/2013/02/26/ex-square-executive-keith-rabois-joining-khosla-ventures/", "title": "Ex-Square executive Keith Rabois joining Khosla Ventures — Fortune" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2024,
+      "role": "General partner",
+      "org": "Founders Fund",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": null,
+      "role": "Managing director",
+      "org": "Khosla Ventures",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://fortune.com/2025/09/16/opendoor-chairman-keith-rabois-layoffs-opendoor/", "title": "Opendoor Chairman Keith Rabois says the company doesn't need 1,400 employees — Fortune" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Opendoor",
+      "role": "Co-founder and chairman",
+      "sources": [
+        { "url": "https://fortune.com/2025/09/16/opendoor-chairman-keith-rabois-layoffs-opendoor/", "title": "Opendoor Chairman Keith Rabois says the company doesn't need 1,400 employees — Fortune" }
+      ]
+    },
+    {
+      "name": "PayPal Mafia",
+      "role": "Member; in Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "colleague",
+      "description": "Rabois was a PayPal executive under Thiel as CEO and a general partner at Thiel's Founders Fund from 2019 to 2024. One account traces their connection to Rabois's time on The Stanford Review under Thiel.",
+      "start_year": 2000,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "employer",
+      "description": "Rabois, a fellow PayPal executive, later held an operating role at Hoffman's LinkedIn.",
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://fortune.com/2013/02/26/ex-square-executive-keith-rabois-joining-khosla-ventures/", "title": "Ex-Square executive Keith Rabois joining Khosla Ventures — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Max Levchin",
+      "slug": "max-levchin",
+      "relationship_type": "employer",
+      "description": "Rabois held an operating role at Slide, the company Levchin founded after PayPal.",
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://fortune.com/2013/02/26/ex-square-executive-keith-rabois-joining-khosla-ventures/", "title": "Ex-Square executive Keith Rabois joining Khosla Ventures — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jack Dorsey",
+      "slug": "jack-dorsey",
+      "relationship_type": "employer",
+      "description": "Rabois was chief operating officer of Square, co-founded and led by Dorsey, from 2010 to 2013.",
+      "start_year": 2010,
+      "end_year": 2013,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://fortune.com/2013/01/25/square-loses-no-2-exec-amid-sexual-harassment-accusations/", "title": "Square loses No. 2 exec amid sexual harassment accusations — Fortune" }
+      ]
+    },
+    {
+      "name": "Vinod Khosla",
+      "slug": "vinod-khosla",
+      "relationship_type": "employer",
+      "description": "Rabois has twice worked at Khosla's firm, Khosla Ventures: 2013–2019 and again since January 2024, now as one of five managing directors.",
+      "start_year": 2013,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://fortune.com/2013/02/26/ex-square-executive-keith-rabois-joining-khosla-ventures/", "title": "Ex-Square executive Keith Rabois joining Khosla Ventures — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. The Stanford Review link to Thiel rests on a single source.",
+  "last_researched": "2026-11-07"
+}
