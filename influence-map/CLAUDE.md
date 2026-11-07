@@ -58,6 +58,8 @@ patterns). Passing it does not mean the rules are met; it only catches slips.
   "name": "Stephen Miller",
   "aliases": [],
   "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
   "current_role": "White House Deputy Chief of Staff for Policy",
   "summary": "Two or three neutral sentences on who they are and why they matter.",
   "sources": [{ "url": "https://…", "title": "Page title" }],
@@ -96,8 +98,42 @@ patterns). Passing it does not mean the rules are met; it only catches slips.
   `start_year: null` (or leaving it out) means the start isn't known.
 - **sources**: objects `{ "url", "title" }` (a bare URL string also works).
 - **affiliations**: objects, not strings, so each can carry sources.
+- **sector** and **groups**: see "Sectors and groups" below.
 - **last_researched**: date the person was last researched (YYYY-MM-DD). Don't
   change it when you only add a reciprocal link to their file.
+
+## Sectors and groups
+
+These are classifications for the viewer, not facts, so they carry no sources of
+their own. Choose them from what the file's own sourced role, timeline and
+connections show. The validator rejects names not listed here; keep the lists in
+`src/lib/schema.ts` and `scripts/validate.mjs` in sync (a test checks this).
+
+**`sector`** (one per person; tints their dot): pick by the person's main public role today.
+
+| Value | Who |
+| --- | --- |
+| `politics` | Elected and appointed officials, their staff, diplomats, party figures, activists and commentators (US or foreign) |
+| `tech` | Tech founders and executives, venture capitalists |
+| `ai-defense` | Leaders of AI labs and defense-technology companies |
+| `business` | Other business owners and megadonors whose influence is mainly money |
+
+**`groups`** (any number, may be empty; drives the preset views):
+
+| Value | View | Who belongs |
+| --- | --- | --- |
+| `trump-circle` | Trump's inner circle | Trump, his senior White House staff and cabinet, and close advisers with a formal role |
+| `paypal-mafia` | PayPal Mafia | The 13 in Fortune's 2007 photo plus Musk, Hurley and Chen (has the "PayPal Mafia" affiliation) |
+| `tech-right` | The Tech Right | Tech figures who publicly backed or funded Trump, or serve in his administration |
+| `ai-race` | AI race | Leaders of frontier AI labs and the people shaping AI policy and money |
+| `defense-tech` | New defense primes | Founders, leaders and main backers of the new defense-tech companies |
+| `middle-east` | Middle East dealmakers | People with a documented role in Israel / Gaza / Gulf diplomacy or funding |
+| `media` | Media & platforms | Owners or leaders of news outlets, social platforms and major podcasts |
+| `critics` | Critics & opponents | Prominent opponents of Trump or his administration |
+
+The viewer also has three views that need no tagging: **Follow the money**
+(donor links only), **Feuds** (rival links only), and **[Person]'s world**
+(anyone plus everyone within one or two links).
 
 ## Relationship types
 
@@ -169,5 +205,12 @@ on a phone. Its link is in `artifact.json`.
 - The dev server serves the data folder at `/api/people` and pushes a reload
   event when a file changes (`vite-plugin-people.ts`). There is no backend
   beyond that and no network access from the app.
+- **Colors.** Relationship lines are grey until a person is selected (or "Color
+  all lines" is on), then colored by family (Work, Money, Alliance, Rivalry,
+  Personal). Dots are tinted by sector. Both color sets were checked for
+  color-blind separation against the dark background; the viewer always pairs
+  color with text (legend, tooltips, details), so keep it that way.
+- If you add a sector or group, update `src/lib/schema.ts`, `scripts/validate.mjs`,
+  the "Sectors and groups" table above, and both commands.
 - If you add a relationship type, update `src/lib/schema.ts`,
   `scripts/validate.mjs` (a test checks they match), this file, and both commands.

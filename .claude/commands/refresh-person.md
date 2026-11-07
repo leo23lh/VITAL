@@ -55,6 +55,7 @@ optionally followed by context about what to focus on.
 
 6. **Write the files.**
    - Update `DATA_DIR/<slug>.json` and set `last_researched` to today.
+     Re-check `sector` and `groups` against the CLAUDE.md tables (roles change).
    - For each connection to someone with a file: add or update the inverse
      record in their file (inverse type, same years, sources and confidence).
    - For each connection you removed: remove the matching inverse record from the

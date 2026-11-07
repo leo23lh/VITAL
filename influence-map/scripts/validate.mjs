@@ -38,6 +38,19 @@ export const INVERSE_TYPE = {
   family: 'family',
 };
 
+// Keep in sync with SECTORS and GROUPS in src/lib/schema.ts (a unit test checks this).
+export const SECTORS = ['politics', 'tech', 'ai-defense', 'business'];
+export const GROUPS = [
+  'trump-circle',
+  'paypal-mafia',
+  'tech-right',
+  'ai-race',
+  'defense-tech',
+  'middle-east',
+  'media',
+  'critics',
+];
+
 const PRIVACY_PATTERNS = [
   { what: 'an email address', re: /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i },
   { what: 'a phone number', re: /(?:\+?1[\s.-]?)?\(?\b\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}\b/ },
@@ -93,6 +106,14 @@ export function validatePeople(records) {
     if (typeof p.public_figure !== 'boolean') err(file, '"public_figure" must be true or false');
     if (typeof p.last_researched !== 'string' || !DATE_RE.test(p.last_researched))
       err(file, '"last_researched" must be a YYYY-MM-DD date');
+    if (p.sector === undefined) warn(file, `No "sector"; the dot shows untinted (one of ${SECTORS.join(', ')})`);
+    else if (!SECTORS.includes(p.sector)) err(file, `"sector" must be one of ${SECTORS.join(', ')}`);
+    if (p.groups !== undefined) {
+      if (!Array.isArray(p.groups)) err(file, '"groups" must be an array');
+      else
+        for (const g of p.groups)
+          if (!GROUPS.includes(g)) err(file, `groups: "${g}" must be one of ${GROUPS.join(', ')}`);
+    }
     for (const key of ['aliases', 'timeline', 'affiliations', 'connections']) {
       if (p[key] !== undefined && !Array.isArray(p[key])) err(file, `"${key}" must be an array`);
     }

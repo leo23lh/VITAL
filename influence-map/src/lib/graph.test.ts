@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import * as validator from '../../scripts/validate.mjs';
 import { buildGraph, describeLink, roleOfOther } from './graph';
-import { INVERSE_TYPE, RELATIONSHIP_TYPES, type Person, type PersonFile } from './schema';
+import { GROUPS, INVERSE_TYPE, RELATIONSHIP_TYPES, SECTORS, type Person, type PersonFile } from './schema';
 
 const src = (n: number) => [{ url: `https://example.com/${n}`, title: `Source ${n}` }];
 
@@ -95,6 +95,15 @@ describe('validatePeople', () => {
   it('uses the same relationship types as the app', () => {
     expect(validator.RELATIONSHIP_TYPES).toEqual([...RELATIONSHIP_TYPES]);
     expect(validator.INVERSE_TYPE).toEqual(INVERSE_TYPE);
+    expect(validator.SECTORS).toEqual(SECTORS.map((s) => s.id));
+    expect(validator.GROUPS).toEqual(GROUPS.map((g) => g.id));
+  });
+
+  it('checks sector and group names', () => {
+    const p = person('a', 'A', [], { sector: 'sports' as never, groups: ['paypal-mafia', 'nope'] as never });
+    const { errors } = validator.validatePeople([p]);
+    expect(errors.map((e) => e.message).join('\n')).toMatch(/sector/);
+    expect(errors.map((e) => e.message).join('\n')).toMatch(/nope/);
   });
 
   it('accepts a clean reciprocal pair', () => {

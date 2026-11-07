@@ -47,27 +47,91 @@ export type EdgeGroup =
   | 'co-founder'
   | 'family';
 
+/** Relationship families: the colors and filters in the viewer. Fine types stay in the details. */
+export type EdgeFamily = 'work' | 'money' | 'alliance' | 'rivalry' | 'personal';
+
+export interface EdgeFamilyInfo {
+  id: EdgeFamily;
+  label: string;
+  /** Validated as a set against the dark background; see CLAUDE.md "Colors". */
+  color: string;
+  hint: string;
+}
+
+export const EDGE_FAMILIES: EdgeFamilyInfo[] = [
+  { id: 'work', label: 'Work', color: '#8b95a8', hint: 'employer, colleague, co-founder' },
+  { id: 'money', label: 'Money', color: '#008300', hint: 'donor → recipient' },
+  { id: 'alliance', label: 'Alliance', color: '#9085e9', hint: 'ally' },
+  { id: 'rivalry', label: 'Rivalry', color: '#d55181', hint: 'rival' },
+  { id: 'personal', label: 'Personal', color: '#c98500', hint: 'mentor, family' },
+];
+
+export const EDGE_FAMILY_BY_ID: Record<EdgeFamily, EdgeFamilyInfo> = Object.fromEntries(
+  EDGE_FAMILIES.map((f) => [f.id, f]),
+) as Record<EdgeFamily, EdgeFamilyInfo>;
+
 export interface EdgeGroupInfo {
   id: EdgeGroup;
   label: string;
+  family: EdgeFamily;
   color: string;
   directed: boolean;
 }
 
+const G = (id: EdgeGroup, label: string, family: EdgeFamily, directed: boolean): EdgeGroupInfo => ({
+  id,
+  label,
+  family,
+  color: EDGE_FAMILY_BY_ID[family].color,
+  directed,
+});
+
 export const EDGE_GROUPS: EdgeGroupInfo[] = [
-  { id: 'mentorship', label: 'Mentor → protégé', color: '#f5c542', directed: true },
-  { id: 'employment', label: 'Employer → employee', color: '#4ea1ff', directed: true },
-  { id: 'funding', label: 'Donor → recipient', color: '#34d399', directed: true },
-  { id: 'co-founder', label: 'Co-founder', color: '#fb923c', directed: false },
-  { id: 'colleague', label: 'Colleague', color: '#94a3b8', directed: false },
-  { id: 'ally', label: 'Ally', color: '#a78bfa', directed: false },
-  { id: 'rival', label: 'Rival', color: '#f87171', directed: false },
-  { id: 'family', label: 'Family', color: '#f472b6', directed: false },
+  G('employment', 'Employer → employee', 'work', true),
+  G('colleague', 'Colleague', 'work', false),
+  G('co-founder', 'Co-founder', 'work', false),
+  G('funding', 'Donor → recipient', 'money', true),
+  G('ally', 'Ally', 'alliance', false),
+  G('rival', 'Rival', 'rivalry', false),
+  G('mentorship', 'Mentor → protégé', 'personal', true),
+  G('family', 'Family', 'personal', false),
 ];
 
 export const EDGE_GROUP_BY_ID: Record<EdgeGroup, EdgeGroupInfo> = Object.fromEntries(
   EDGE_GROUPS.map((g) => [g.id, g]),
 ) as Record<EdgeGroup, EdgeGroupInfo>;
+
+/** Which line wins the color when two people share several kinds of link. */
+export const FAMILY_PRIORITY: EdgeFamily[] = ['rivalry', 'money', 'personal', 'alliance', 'work'];
+
+/** Sector: one per person, tints their dot. Keep in sync with scripts/validate.mjs. */
+export const SECTORS = [
+  { id: 'politics', label: 'Government & politics', color: '#3987e5' },
+  { id: 'tech', label: 'Tech & VC', color: '#e6e9ef' },
+  { id: 'ai-defense', label: 'AI & defense', color: '#d95926' },
+  { id: 'business', label: 'Business & donors', color: '#199e70' },
+] as const;
+
+export type Sector = (typeof SECTORS)[number]['id'];
+
+export const SECTOR_BY_ID = Object.fromEntries(SECTORS.map((s) => [s.id, s])) as Record<
+  Sector,
+  (typeof SECTORS)[number]
+>;
+
+/** Preset-view groups. A person can be in several. Keep in sync with scripts/validate.mjs. */
+export const GROUPS = [
+  { id: 'trump-circle', label: "Trump's inner circle" },
+  { id: 'paypal-mafia', label: 'PayPal Mafia' },
+  { id: 'tech-right', label: 'The Tech Right' },
+  { id: 'ai-race', label: 'AI race' },
+  { id: 'defense-tech', label: 'New defense primes' },
+  { id: 'middle-east', label: 'Middle East dealmakers' },
+  { id: 'media', label: 'Media & platforms' },
+  { id: 'critics', label: 'Critics & opponents' },
+] as const;
+
+export type GroupId = (typeof GROUPS)[number]['id'];
 
 /**
  * How a record in subject S's file about other person O maps to a graph edge.
@@ -132,6 +196,10 @@ export interface Person {
   name: string;
   aliases?: string[];
   public_figure: boolean;
+  /** One of SECTORS; tints the person's dot. */
+  sector?: Sector;
+  /** Any of GROUPS; drives the preset views. */
+  groups?: GroupId[];
   current_role?: string;
   summary?: string;
   /** Sources backing summary and current_role. */
