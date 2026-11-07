@@ -27,6 +27,18 @@ It opens http://127.0.0.1:5173. The server only listens on your own machine.
 - **Export PNG** saves the current view with a legend.
 - Node size = number of connections. Arrows run from mentor, employer or donor. Dashed lines are under 50% confidence.
 
+## On your phone
+
+The same viewer is published as a private claude.ai page (link in
+[`artifact.json`](./artifact.json)). Open it in the Claude app or any browser where
+you're signed in to claude.ai. Tap a person or a line for details, pinch to zoom,
+drag to move around.
+
+The page reads its own copy of the data. `/add-person` and `/refresh-person`
+update it as they run, so you can research from a Claude Code session on your
+phone and watch the graph change. `/sync-map` re-copies everything if the page
+ever falls out of step with the files.
+
 ## Add people
 
 Open Claude Code at the repo root and run:

@@ -1,9 +1,9 @@
-import { useCallback, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import GraphView, { BACKGROUND, type GraphHandle } from './components/GraphView';
 import Legend from './components/Legend';
 import SidePanel from './components/SidePanel';
 import Toolbar from './components/Toolbar';
-import { exportGraphPng } from './lib/exportPng';
+import { canExport, exportGraphPng } from './lib/exportPng';
 import { buildGraph, linkEndId, type GraphNode } from './lib/graph';
 import { EDGE_GROUPS, type EdgeGroup } from './lib/schema';
 import { usePeople } from './lib/usePeople';
@@ -19,6 +19,11 @@ export default function App() {
   const fgRef = useRef<GraphHandle>(undefined);
   const graphWrapRef = useRef<HTMLDivElement>(null);
   const positions = useRef(new Map<string, GraphNode>());
+  const [exportable, setExportable] = useState(false);
+
+  useEffect(() => {
+    void canExport().then(setExportable);
+  }, []);
 
   // Rebuild when files change, keeping existing nodes where they were.
   const graph = useMemo(() => {
@@ -62,9 +67,15 @@ export default function App() {
     (id: string) => {
       setSelection({ kind: 'node', id });
       const n = visible.byId.get(id);
-      if (n && n.x != null && n.y != null) {
-        fgRef.current?.centerAt(n.x, n.y, 600);
-        fgRef.current?.zoom(Math.max(fgRef.current.zoom(), 2), 600);
+      const fg = fgRef.current;
+      if (fg && n && n.x != null && n.y != null) {
+        const k = Math.max(fg.zoom(), 2);
+        // On narrow screens the panel covers the lower 60% of the graph, so aim for the space above it.
+        const narrow = window.matchMedia('(max-width: 820px)').matches;
+        const height = graphWrapRef.current?.clientHeight ?? 0;
+        const shift = narrow ? (height * 0.3) / k : 0;
+        fg.centerAt(n.x, n.y + shift, 600);
+        fg.zoom(k, 600);
       }
     },
     [visible.byId],
@@ -91,7 +102,11 @@ export default function App() {
         showSuggested={showSuggested}
         onToggleSuggested={setShowSuggested}
         onFit={() => fgRef.current?.zoomToFit(500, 60)}
-        onExport={() => graphWrapRef.current && exportGraphPng(graphWrapRef.current, { background: BACKGROUND, hidden, counts })}
+        onExport={
+          exportable
+            ? () => graphWrapRef.current && void exportGraphPng(graphWrapRef.current, { background: BACKGROUND, hidden, counts })
+            : undefined
+        }
         stats={stats}
         live={live}
         lastUpdated={lastUpdated}
@@ -115,12 +130,16 @@ export default function App() {
 
       <main className="main">
         <div className="graph" ref={graphWrapRef}>
-          {empty ? (
+          {!loaded ? (
+            <div className="empty">
+              <p>Loading the network…</p>
+            </div>
+          ) : empty ? (
             <div className="empty">
               <h2>No people yet</h2>
               <p>
-                In Claude Code, run <code>/add-person &lt;name&gt; [context]</code>. Files land in{' '}
-                <code>influence-map/data/people/</code> and appear here automatically.
+                In Claude Code, run <code>/add-person &lt;name&gt; [context]</code>. New people appear here
+                automatically.
               </p>
             </div>
           ) : (
@@ -133,7 +152,7 @@ export default function App() {
               onSelect={setSelection}
             />
           )}
-          {!empty && (
+          {loaded && !empty && (
             <Legend
               counts={counts}
               hidden={hidden}

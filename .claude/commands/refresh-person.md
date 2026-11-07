@@ -65,10 +65,17 @@ optionally followed by context about what to focus on.
 7. **Validate:** run `node influence-map/scripts/validate.mjs` (or
    `node scripts/validate.mjs` from inside `influence-map/`) and fix every error.
 
-8. **Report** what changed:
+8. **Update the phone page.** If `influence-map/artifact.json` exists, copy every
+   file you changed into that page's database: ArtifactData `list` (its `url`,
+   collection `people`) for the current versions, then one `batch` of `set`
+   writes with `doc_id` = slug, `file_path` = the JSON file and `if_version` =
+   the listed version. If this fails, say so and suggest `/sync-map` later.
+
+9. **Report** what changed:
    - **Profile changes** — new or corrected roles, timeline entries, affiliations.
    - **Connections added / updated / removed** — a table with person,
      relationship, years, old → new confidence, and the main source. Mark which
      links are to people already in the map (both files updated).
    - **Sources disagree** — one line each, or "none".
-   - One line: if `npm run dev` is running, the viewer has already updated.
+   - One line: whether the phone page was updated, and that a running
+     `npm run dev` viewer has already updated.

@@ -6,6 +6,7 @@ two slash commands in the repo root's `.claude/commands/`:
 
 - `/add-person <name> [context]` — research someone new and link them into the network
 - `/refresh-person <name>` — re-research someone already in the network
+- `/sync-map` — copy every file to the phone page (see "Phone page" below)
 
 ## Layout
 
@@ -138,6 +139,28 @@ both files, with inverse types. `/add-person` writes the new file and then adds
 the inverse records to the existing files. The validator fails if a back-link is
 missing or uses the wrong type. Connections to people without a file show in
 the viewer as faint "suggested" nodes.
+
+## Phone page
+
+The viewer is also published as a private claude.ai Artifact so it can be opened
+on a phone. Its link is in `artifact.json`.
+
+- **Data:** the page reads its Artifact database, collection `people`: one
+  document per person, `doc_id` = slug, body = the file's JSON, unchanged.
+  `/add-person` and `/refresh-person` copy the files they change; `/sync-map`
+  copies everything and removes people whose file is gone. The files stay the
+  source of truth; never edit the database by hand.
+- **Access:** only the owner can write the database; anyone the owner shares
+  the page with can read it. Sharing is done from the page's Share menu.
+- **Viewer code changes:** run `npm run build:artifact` (writes
+  `dist-artifact/page.html` and `dist-artifact/app.js`), then republish: Artifact
+  `read` the URL from `artifact.json` first, then `publish` with that `url`,
+  `file_path: influence-map/dist-artifact/page.html` and
+  `files: {"app.js": "influence-map/dist-artifact/app.js"}`. Leave out
+  `capabilities` and `icon` so the page keeps its stored settings (the
+  database rule above, and `downloads` for PNG export).
+- The same source builds both versions; `src/lib/platform.ts` switches data
+  loading and PNG saving on `import.meta.env.MODE === 'artifact'`.
 
 ## Working on the viewer
 

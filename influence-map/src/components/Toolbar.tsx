@@ -9,7 +9,8 @@ interface Props {
   showSuggested: boolean;
   onToggleSuggested: (v: boolean) => void;
   onFit: () => void;
-  onExport: () => void;
+  /** Omitted when this view can't save files. */
+  onExport?: () => void;
   stats: { researched: number; suggested: number; links: number };
   live: boolean;
   lastUpdated: Date | null;
@@ -109,7 +110,7 @@ export default function Toolbar(props: Props) {
 
       <div className="toolbar-actions">
         <button onClick={props.onFit}>Fit</button>
-        <button onClick={props.onExport}>Export PNG</button>
+        {props.onExport && <button onClick={props.onExport}>Export PNG</button>}
       </div>
 
       <div className="stats muted">

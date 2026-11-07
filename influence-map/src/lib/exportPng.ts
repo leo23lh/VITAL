@@ -1,17 +1,48 @@
+import { IS_ARTIFACT, capability, type ArtifactDownloads } from './platform';
 import { EDGE_GROUPS, type EdgeGroup } from './schema';
 
 /** Saves the graph canvas as a PNG with the legend drawn in the top-left corner. */
-export function exportGraphPng(
+export async function exportGraphPng(
   container: HTMLElement,
   opts: { background: string; hidden: Set<EdgeGroup>; counts: Record<EdgeGroup, number> },
-) {
+): Promise<void> {
+  const blob = await renderPng(container, opts);
+  if (!blob) return;
+  const filename = `influence-map-${new Date().toISOString().slice(0, 10)}.png`;
+
+  if (IS_ARTIFACT) {
+    // Artifact pages can't start downloads themselves; the viewer confirms the save.
+    const downloads = await capability<ArtifactDownloads>('downloads');
+    await downloads?.save({ filename, data: blob }).catch(() => undefined);
+    return;
+  }
+
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  window.setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+/** Whether this view can save files (always locally; via the downloads capability as an Artifact). */
+export async function canExport(): Promise<boolean> {
+  if (!IS_ARTIFACT) return true;
+  return (await capability<ArtifactDownloads>('downloads')) !== null;
+}
+
+function renderPng(
+  container: HTMLElement,
+  opts: { background: string; hidden: Set<EdgeGroup>; counts: Record<EdgeGroup, number> },
+): Promise<Blob | null> {
   const src = container.querySelector('canvas');
-  if (!src) return;
+  if (!src) return Promise.resolve(null);
   const out = document.createElement('canvas');
   out.width = src.width;
   out.height = src.height;
   const ctx = out.getContext('2d');
-  if (!ctx) return;
+  if (!ctx) return Promise.resolve(null);
   ctx.fillStyle = opts.background;
   ctx.fillRect(0, 0, out.width, out.height);
   ctx.drawImage(src, 0, 0);
@@ -47,16 +78,7 @@ export function exportGraphPng(
     ctx.fillText(g.label, 54, y);
   });
 
-  out.toBlob((blob) => {
-    if (!blob) return;
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = `influence-map-${new Date().toISOString().slice(0, 10)}.png`;
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    window.setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-  }, 'image/png');
+  return new Promise((resolve) => out.toBlob(resolve, 'image/png'));
 }
 
 function roundRect(ctx: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, r: number) {

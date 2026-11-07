@@ -62,7 +62,9 @@ code {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px 16px;
-  padding: 10px 16px;
+  padding-block: 10px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
   border-bottom: 1px solid var(--border);
   background: var(--panel);
   position: relative;

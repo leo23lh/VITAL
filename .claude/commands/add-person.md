@@ -125,7 +125,23 @@ Run `node influence-map/scripts/validate.mjs` (or `node scripts/validate.mjs`
 from inside `influence-map/`). Fix every error and run it again until it passes.
 Read the warnings and fix what applies.
 
-### 8. Report
+### 8. Update the phone page
+
+If `influence-map/artifact.json` exists, copy every file you created or changed
+in this run (the new person and everyone who got a back-link) into that page's
+database, so the graph on the user's phone updates:
+
+1. ArtifactData `list` with the `url` from artifact.json and collection
+   `people`, to get each stored person's `version`.
+2. One ArtifactData `batch` of `set` writes (up to 50 per batch): collection
+   `people`, `doc_id` = the slug, `file_path` = the person's JSON file, and
+   `if_version` = the version from step 1 (leave it out for someone not stored yet).
+
+If this fails (for example, ArtifactData isn't available in this session), say
+so in the report and suggest running `/sync-map` later. The files stay the
+source of truth.
+
+### 9. Report
 
 Reply with:
 
@@ -137,5 +153,5 @@ Reply with:
 4. **Dropped** — anything you found but left out (unsourced, private, or failed
    the rules), and why. Say "none" if none.
 5. **Sources disagree** — each conflict in one line. Say "none" if none.
-6. One line: if `npm run dev` is running in `influence-map/`, the viewer has
-   already updated.
+6. One line: whether the phone page was updated (with its link from
+   artifact.json), and that a running `npm run dev` viewer has already updated.

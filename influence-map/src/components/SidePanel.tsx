@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import {
   describeLink,
   linkEndId,
@@ -307,18 +307,33 @@ function Confidence({ value }: { value: number }) {
 
 function CopyCommand({ text }: { text: string }) {
   const [copied, setCopied] = useState(false);
+  const codeRef = useRef<HTMLElement>(null);
+  // Some app views refuse clipboard writes; fall back to selecting the text.
+  const selectText = () => {
+    const el = codeRef.current;
+    const sel = window.getSelection();
+    if (!el || !sel) return;
+    const range = document.createRange();
+    range.selectNodeContents(el);
+    sel.removeAllRanges();
+    sel.addRange(range);
+  };
   return (
     <button
       className="copy-command"
       onClick={() => {
-        void navigator.clipboard?.writeText(text).then(() => {
-          setCopied(true);
-          window.setTimeout(() => setCopied(false), 1200);
-        });
+        if (!navigator.clipboard) return selectText();
+        navigator.clipboard.writeText(text).then(
+          () => {
+            setCopied(true);
+            window.setTimeout(() => setCopied(false), 1200);
+          },
+          selectText,
+        );
       }}
       title="Copy to clipboard"
     >
-      <code>{text}</code>
+      <code ref={codeRef}>{text}</code>
       <span className="muted">{copied ? 'copied' : 'copy'}</span>
     </button>
   );
