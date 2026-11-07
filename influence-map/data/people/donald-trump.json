@@ -1,8 +1,6 @@
 {
   "name": "Donald Trump",
-  "aliases": [
-    "Donald J. Trump"
-  ],
+  "aliases": ["Donald J. Trump"],
   "public_figure": true,
   "sector": "politics",
   "groups": ["trump-circle", "middle-east"],
@@ -12,6 +10,27 @@
     "license": "Public domain",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg", "title": "File:Official Presidential Portrait of President Donald J. Trump (2025).jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": 0,
+      "start_year": null,
+      "end_year": 2011,
+      "basis": "Switched parties several times: Republican (1987), Independence Party (1999), Democrat (2001–2009), Republican (2009), unaffiliated (December 2011), per New York City election records.",
+      "sources": [
+        { "url": "https://www.politifact.com/factchecks/2015/aug/24/jeb-bush/bush-says-trump-was-democrat-longer-republican-las/", "title": "PolitiFact: Bush says Trump was a Democrat longer than a Republican" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2012,
+      "end_year": null,
+      "basis": "Republican since April 2012; Republican presidential nominee in 2016, 2020 and 2024, and president 2017–2021 and since 2025.",
+      "sources": [
+        { "url": "https://www.politifact.com/factchecks/2015/aug/24/jeb-bush/bush-says-trump-was-democrat-longer-republican-las/", "title": "PolitiFact: Bush says Trump was a Democrat longer than a Republican" },
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Britannica: Donald Trump" }
+      ]
+    }
+  ],
   "current_role": "47th President of the United States (since January 20, 2025)",
   "summary": "Donald Trump (born 1946) is the 47th president of the United States, in office since January 20, 2025, and was also the 45th president (2017–2021), the second president to serve non-consecutive terms. A New York real estate developer who ran his family's business, renamed the Trump Organization, and hosted NBC's The Apprentice from 2004, he was impeached twice in his first term and acquitted both times. In May 2024 a New York jury convicted him on 34 felony counts of falsifying business records; he was sentenced to an unconditional discharge. Democrats won control of both chambers of Congress in the November 3, 2026 midterms, after which he named Stephen Miller White House chief of staff.",
   "sources": [
@@ -786,6 +805,6 @@
       ]
     }
   ],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Records for Miller, Sessions and Ellison mirror the records already in their files. Some midterm races were still being counted when the cited results were published.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Records for Miller, Sessions and Ellison mirror the records already in their files. Some midterm races were still being counted when the cited results were published. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

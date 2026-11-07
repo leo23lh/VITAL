@@ -10,6 +10,18 @@
     "license": "CC BY 4.0",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Tony_Blair_(2010).jpg", "title": "File:Tony Blair (2010).jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Led the Labour Party (1994–2007) and remade it as centre-left \"New Labour\" (the Third Way); prime minister 1997–2007.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tony_Blair", "title": "Wikipedia: Tony Blair" },
+        { "url": "https://en.wikipedia.org/wiki/New_Labour", "title": "Wikipedia: New Labour" }
+      ]
+    }
+  ],
   "current_role": "Executive chairman of the Tony Blair Institute for Global Change; member of the Executive Board of Trump's Board of Peace for Gaza (since January 2026)",
   "summary": "Tony Blair led the Labour Party from 1994 and was UK prime minister from 1997 to 2007, then served as the Middle East Quartet's envoy until 2015. His Tony Blair Institute for Global Change, founded in 2016, advises governments on technology and AI and has been funded heavily by Larry Ellison's foundation. In January 2026 the White House named him to the founding Executive Board of Trump's Board of Peace overseeing postwar Gaza.",
   "sources": [
@@ -171,6 +183,6 @@
     }
   ],
   "source_conflicts": [],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. The Ellison record mirrors the one in Ellison's file. Claims that Blair is a mentor to Musk or partner of Altman come from a single secondary account and are not recorded.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. The Ellison record mirrors the one in Ellison's file. Claims that Blair is a mentor to Musk or partner of Altman come from a single secondary account and are not recorded. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

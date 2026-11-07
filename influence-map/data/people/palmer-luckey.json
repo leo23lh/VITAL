@@ -10,6 +10,18 @@
     "license": "CC BY-SA 4.0",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:CES_2026_-_Palmer_Luckey_01_(cropped).jpg", "title": "File:CES 2026 - Palmer Luckey 01 (cropped).jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": 2016,
+      "end_year": null,
+      "basis": "Funded the pro-Trump group Nimble America in 2016 and gave $100,000 to Trump's 2017 inauguration; a prominent Trump supporter in defense tech since.",
+      "sources": [
+        { "url": "https://fortune.com/2016/09/23/palmer-luckey-trump/", "title": "Fortune: Palmer Luckey and Trump" },
+        { "url": "https://fortune.com/2017/04/23/palmer-luckey-trump-contributions/", "title": "Fortune: Palmer Luckey's Trump contributions" }
+      ]
+    }
+  ],
   "current_role": "Founder of Anduril Industries",
   "summary": "Palmer Luckey founded the virtual-reality company Oculus VR in 2012 and sold it to Facebook in 2014; he left Facebook in 2017 after controversy over his funding of a pro-Trump group, which he says got him fired and Facebook denies. He then co-founded the defense company Anduril, backed by Peter Thiel's Founders Fund and valued at $30.5 billion in 2025, and is an outspoken Trump supporter.",
   "sources": [
@@ -182,6 +194,6 @@
       ]
     }
   ],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Not recorded: a reported $100,000 2017 inaugural donation through an LLC (single unverified report) and claims of a 2024 fundraiser co-hosting from a dossier site.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Not recorded: a reported $100,000 2017 inaugural donation through an LLC (single unverified report) and claims of a 2024 fundraiser co-hosting from a dossier site. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

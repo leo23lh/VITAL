@@ -13,8 +13,8 @@ const coreRadius = (n: number) => 30 + 22 * Math.sqrt(n);
 const LEAN_STEP = 110;
 const ROW_STEP = 120;
 /** How hard people are pulled to their compass spot. Low enough that links still shape the web. */
-const COMPASS_PULL_X = 0.07;
-const COMPASS_PULL_Y = 0.05;
+const COMPASS_PULL_X = 0.1;
+const COMPASS_PULL_Y = 0.12;
 
 export type GraphHandle = ForceGraphMethods<GraphNode, PairLink> | undefined;
 
@@ -59,6 +59,8 @@ export default function GraphView({
   const [hoverId, setHoverId] = useState<string | null>(null);
   const [hoverPairId, setHoverPairId] = useState<string | null>(null);
   const needsFit = useRef(true);
+  // The default centering force, kept so it can come back when leaving the compass view.
+  const centerForce = useRef<unknown>(undefined);
   // Bumped when a portrait finishes loading, so the canvas repaints with it.
   const [photoTick, setPhotoTick] = useState(0);
   const photo = useCallback(
@@ -103,6 +105,9 @@ export default function GraphView({
     fg.d3Force('tidy', tidyForce(!radial && !compass, radial ? 40 : 26));
     fg.d3Force('radial', radial ? radialForce(radial) : null);
     fg.d3Force('compass', compass ? compassForce(compass) : null);
+    // The compass has fixed spots, so the usual re-centering would drag everyone toward the middle.
+    if (centerForce.current === undefined) centerForce.current = fg.d3Force('center') ?? null;
+    fg.d3Force('center', compass ? null : (centerForce.current as never));
     fg.d3ReheatSimulation();
   }, [fgRef, nodes, pairs, radial, compass]);
 
@@ -400,8 +405,9 @@ function radialForce({ core, rings }: RadialLayout) {
 
 /**
  * Pulls each person toward their compass spot: lean sets x, money vs politics sets y.
- * People with no lean (or suggested people) keep only a faint pull to the middle on
- * that axis, so their links decide where they sit.
+ * Inferred leans (from linked people) pull half as hard. Anyone with no lean at all
+ * is drawn toward the center line rather than drifting to an edge that would
+ * suggest a side.
  */
 function compassForce(compass: Compass) {
   let nodes: GraphNode[] = [];
@@ -410,7 +416,8 @@ function compassForce(compass: Compass) {
       const c = compass.get(n.id);
       const x = n.x ?? 0;
       const y = n.y ?? 0;
-      n.vx = (n.vx ?? 0) + (c?.x != null ? (c.x * LEAN_STEP - x) * COMPASS_PULL_X : -x * 0.01) * alpha;
+      const kx = c?.inferred ? COMPASS_PULL_X * 0.5 : COMPASS_PULL_X;
+      n.vx = (n.vx ?? 0) + (c?.x != null ? (c.x * LEAN_STEP - x) * kx : -x * 0.05) * alpha;
       n.vy = (n.vy ?? 0) + (c?.y != null ? (c.y * ROW_STEP - y) * COMPASS_PULL_Y : -y * 0.01) * alpha;
     }
   };
@@ -420,33 +427,35 @@ function compassForce(compass: Compass) {
   return force;
 }
 
-/** Faint crosshair behind the main view: Left ↔ Right, Money ↕ Politics. */
+/** Faint crosshair behind the main view: Left ↔ Right, Money ↕ Politics, labeled at the screen edges. */
 function drawCompass(ctx: CanvasRenderingContext2D, scale: number) {
-  const w = LEAN_STEP * 3.6;
-  const h = ROW_STEP * 2.6;
+  // Visible area in graph coordinates (the canvas is already transformed to them).
+  const inv = ctx.getTransform().inverse();
+  const tl = inv.transformPoint(new DOMPoint(0, 0));
+  const br = inv.transformPoint(new DOMPoint(ctx.canvas.width, ctx.canvas.height));
+  const pad = 8 / scale;
   ctx.save();
   ctx.lineWidth = 1 / scale;
   ctx.setLineDash([3 / scale, 6 / scale]);
   ctx.strokeStyle = 'rgba(148, 163, 184, 0.14)';
   ctx.beginPath();
-  ctx.moveTo(-w, 0);
-  ctx.lineTo(w, 0);
-  ctx.moveTo(0, -h);
-  ctx.lineTo(0, h);
+  ctx.moveTo(tl.x, 0);
+  ctx.lineTo(br.x, 0);
+  ctx.moveTo(0, tl.y);
+  ctx.lineTo(0, br.y);
   ctx.stroke();
-  ctx.fillStyle = 'rgba(148, 163, 184, 0.5)';
+  ctx.fillStyle = 'rgba(148, 163, 184, 0.55)';
   ctx.font = `600 ${11 / scale}px system-ui, -apple-system, Segoe UI, sans-serif`;
-  const pad = 6 / scale;
-  ctx.textBaseline = 'middle';
-  ctx.textAlign = 'right';
-  ctx.fillText('LEFT', -w - pad, 0);
-  ctx.textAlign = 'left';
-  ctx.fillText('RIGHT', w + pad, 0);
-  ctx.textAlign = 'center';
   ctx.textBaseline = 'bottom';
-  ctx.fillText('MONEY', 0, -h - pad);
+  ctx.textAlign = 'left';
+  ctx.fillText('← LEFT', tl.x + pad, -pad / 2);
+  ctx.textAlign = 'right';
+  ctx.fillText('RIGHT →', br.x - pad, -pad / 2);
+  ctx.textAlign = 'left';
   ctx.textBaseline = 'top';
-  ctx.fillText('POLITICS', 0, h + pad);
+  ctx.fillText('↑ MONEY', pad / 2, tl.y + pad);
+  ctx.textBaseline = 'bottom';
+  ctx.fillText('↓ POLITICS', pad / 2, br.y - pad);
   ctx.restore();
 }
 

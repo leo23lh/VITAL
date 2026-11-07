@@ -1,8 +1,6 @@
 {
   "name": "Stephen Miller",
-  "aliases": [
-    "Stephen Miller (political advisor)"
-  ],
+  "aliases": ["Stephen Miller (political advisor)"],
   "public_figure": true,
   "sector": "politics",
   "groups": ["trump-circle"],
@@ -12,6 +10,19 @@
     "license": "Public domain",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Stephen_Miller_July_2025.jpg", "title": "File:Stephen Miller July 2025.jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican aide (Sessions's Senate office, then Trump's White House) known for hard-line immigration policy. The SPLC says leaked 2015–2016 emails show an affinity for white nationalist material; the White House called that a smear (see \"Sources disagree\"), so the value stays at Right rather than Far right.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)", "title": "Wikipedia: Stephen Miller" },
+        { "url": "https://splcenter.org/presscenter/splc-leaked-emails-expose-key-white-house-aide-stephen-millers-affinity-white", "title": "SPLC: Leaked emails expose Stephen Miller's affinity for white nationalism" },
+        { "url": "https://www.nbcnews.com/news/amp/ncna1081941", "title": "NBC News: Democrats call for Stephen Miller to resign after leak of emails" }
+      ]
+    }
+  ],
   "current_role": "White House Chief of Staff (named November 6, 2026, starting November 9, 2026); Deputy Chief of Staff for Policy and Homeland Security Advisor since January 2025",
   "summary": "Stephen Miller is a Republican political aide and longtime adviser to Donald Trump, best known for shaping immigration policy. After working as a congressional press aide and for Sen. Jeff Sessions from 2009 to 2016, he was a senior White House policy adviser in Trump's first term, founded the conservative legal group America First Legal in 2021, and returned in 2025 as deputy chief of staff for policy. On November 6, 2026, Trump named him White House chief of staff, replacing Susie Wiles.",
   "sources": [
@@ -335,8 +346,16 @@
         { "url": "https://www.motherjones.com/politics/2016/12/trumps-newest-senior-adviser-seen-ally-white-nationalists/", "title": "Trump's Newest Senior Adviser Seen as a White Nationalist Ally — Mother Jones" },
         { "url": "https://www.splcenter.org/hatewatch/2018/06/21/stephen-miller-driving-force-behind-muslim-ban-and-family-separation-policy", "title": "Stephen Miller: driving force behind Muslim ban and family separation policy — SPLC Hatewatch" }
       ]
+    },
+    {
+      "topic": "White nationalism",
+      "details": "The SPLC says Miller's leaked 2015–2016 emails to Breitbart editors show an affinity for white nationalist material; the White House called the SPLC a discredited far-left organization and the report a smear.",
+      "sources": [
+        { "url": "https://splcenter.org/presscenter/splc-leaked-emails-expose-key-white-house-aide-stephen-millers-affinity-white", "title": "SPLC" },
+        { "url": "https://www.nbcnews.com/news/amp/ncna1081941", "title": "NBC News" }
+      ]
     }
   ],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Re-run /refresh-person on a machine with full web access to re-check sources.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Re-run /refresh-person on a machine with full web access to re-check sources. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

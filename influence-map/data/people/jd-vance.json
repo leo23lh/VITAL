@@ -10,6 +10,27 @@
     "license": "Public domain",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_(medium_crop)_(2).jpg", "title": "File:March 2026 Official Vice Presidential Portrait of JD Vance (medium crop) (2).jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": 1,
+      "start_year": null,
+      "end_year": 2020,
+      "basis": "Conservative Republican who called himself a \"Never Trump guy\" in 2016, wrote that Trump was \"cultural heroin\", and said he would vote for independent Evan McMullin.",
+      "sources": [
+        { "url": "https://www.axios.com/2024/07/16/jd-vance-trump-statements", "title": "Axios: J.D. Vance's journey from \"Never Trump\" to VP nominee" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2021,
+      "end_year": null,
+      "basis": "Embraced Trump and won Ohio's 2022 Republican Senate race with his endorsement; Trump's running mate in 2024 and vice president since 2025.",
+      "sources": [
+        { "url": "https://www.axios.com/2024/07/16/jd-vance-trump-statements", "title": "Axios: J.D. Vance's journey from \"Never Trump\" to VP nominee" },
+        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "Wikipedia: JD Vance" }
+      ]
+    }
+  ],
   "current_role": "50th Vice President of the United States (since January 20, 2025)",
   "summary": "JD Vance, a Marine veteran and Yale Law graduate, became known for his 2016 memoir Hillbilly Elegy, worked for Peter Thiel's Mithril Capital, and won Ohio's Senate seat in 2022 with $15 million in super PAC backing from Thiel. Trump chose him as his 2024 running mate; he took office as vice president in January 2025. Rubio has said he would back Vance for the 2028 nomination, though the Republicans' November 2026 midterm losses raised doubts about his standing.",
   "sources": [
@@ -248,6 +269,6 @@
     }
   ],
   "source_conflicts": [],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Records for Thiel, Trump and Sacks mirror the records already in their files.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Records for Thiel, Trump and Sacks mirror the records already in their files. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

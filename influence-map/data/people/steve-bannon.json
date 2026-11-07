@@ -10,6 +10,18 @@
     "license": "CC BY-SA 4.0",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Steve_Bannon_in_2025_(3x4_cropped).jpg", "title": "File:Steve Bannon in 2025 (3x4 cropped).jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": 3,
+      "start_year": 2012,
+      "end_year": null,
+      "basis": "Ran Breitbart News from 2012 and in 2016 called it \"the platform for the alt-right\"; Trump's 2016 campaign chief and White House chief strategist, now host of War Room. Widely described as a far-right figure; Bannon denies being a white nationalist or antisemitic.",
+      "sources": [
+        { "url": "https://www.mprnews.org/story/2016/11/16/npr-steve-bannon-alt-right-ties", "title": "NPR via MPR News: Ex-Breitbart executive brings alt-right ties to the White House" },
+        { "url": "https://www.pbs.org/newshour/politics/critics-bannon-white-house-empower-fringe-voices", "title": "PBS NewsHour: Critics say Bannon in White House would empower fringe voices" }
+      ]
+    }
+  ],
   "current_role": "Host of the War Room podcast; former White House chief strategist (2017)",
   "summary": "Steve Bannon, a former Navy officer and Goldman Sachs banker, helped found Breitbart News and was a vice president of Cambridge Analytica before running Trump's 2016 campaign and serving as White House chief strategist for seven months in 2017. Since 2019 he has hosted the War Room podcast, a hub of the populist right; he has feuded with Elon Musk and the tech right and promotes an unconstitutional third Trump term. Trump pardoned him on federal fraud charges in 2021; he served four months in 2024 for contempt of Congress and pleaded guilty to a New York fraud charge in 2025.",
   "sources": [
@@ -229,6 +241,6 @@
     }
   ],
   "source_conflicts": [],
-  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Records for Trump (employer), Sessions and Miller mirror the records already in their files. Not recorded as connections: Bannon's media advice to Jeffrey Epstein in 2019 and their messages released in 2025–2026 (documented in the cited Wikipedia article), and a 1996 domestic case (private matter). The Mercer link's 2012 start is approximate (the Mercers invested in Breitbart around then).",
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Records for Trump (employer), Sessions and Miller mirror the records already in their files. Not recorded as connections: Bannon's media advice to Jeffrey Epstein in 2019 and their messages released in 2025–2026 (documented in the cited Wikipedia article), and a 1996 domestic case (private matter). The Mercer link's 2012 start is approximate (the Mercers invested in Breitbart around then). Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

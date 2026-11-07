@@ -10,6 +10,18 @@
     "license": "CC BY 2.0",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Larry_Ellison_2016.png", "title": "File:Larry Ellison 2016.png — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": 2015,
+      "end_year": null,
+      "basis": "Major Republican donor: at least $4 million to the pro-Rubio super PAC (2015–2016), more than $25 million to a Tim Scott super PAC, and a reported $45 million to a group backing Trump in 2024.",
+      "sources": [
+        { "url": "https://www.cnbc.com/2016/02/20/larry-ellison-keeps-bet-on-marco-rubio-donates-1-million-to-super-pac.html", "title": "CNBC: Larry Ellison keeps bet on Marco Rubio" },
+        { "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/", "title": "Fortune: Larry Ellison's $45 million for Trump" }
+      ]
+    }
+  ],
   "current_role": "Executive chairman and chief technology officer of Oracle (since 2014)",
   "summary": "Larry Ellison (born 1944) co-founded the software company Oracle in 1977 and was its CEO until 2014; he has since been its executive chairman and chief technology officer, steering it toward cloud infrastructure for AI. One of the world's richest people, he is a major Republican donor and an ally of Donald Trump, a partner in the Stargate AI project and the Oracle-led TikTok U.S. venture, and the financial backer of his son David Ellison's Skydance, which acquired Paramount in 2025 and Warner Bros. Discovery in October 2026. His foundation is the largest known funder of the Tony Blair Institute.",
   "sources": [
@@ -361,6 +373,6 @@
       ]
     }
   ],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Targeted searches found no documented connection to Stephen Miller, Jeff Sessions or David Horowitz.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Targeted searches found no documented connection to Stephen Miller, Jeff Sessions or David Horowitz. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

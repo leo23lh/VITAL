@@ -10,6 +10,18 @@
     "license": "Public domain",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:United_States_Ambassador_to_Denmark_Kenneth_Alan_Howery.jpg", "title": "File:United States Ambassador to Denmark Kenneth Alan Howery.jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": 1,
+      "start_year": 2019,
+      "end_year": null,
+      "basis": "Appointed U.S. ambassador by Trump twice (Sweden 2019–2021, Denmark since 2025). No party office or other partisan record found, so Center-right rather than Right.",
+      "sources": [
+        { "url": "https://2017-2021.state.gov/howery-kenneth-a-kingdom-of-sweden-february-2019/", "title": "U.S. State Department: Kenneth A. Howery" },
+        { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Wikipedia: Ken Howery" }
+      ]
+    }
+  ],
   "current_role": "U.S. Ambassador to Denmark (since November 2025)",
   "summary": "Ken Howery co-founded Confinity/PayPal in 1998 and was its first chief financial officer, then co-founded Founders Fund with Peter Thiel and Luke Nosek in 2005. Trump appointed him ambassador to Sweden (2019–2021) and, in his second term, ambassador to Denmark, where he has been involved in talks over Greenland.",
   "sources": [
@@ -119,6 +131,6 @@
     }
   ],
   "source_conflicts": [],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

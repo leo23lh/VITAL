@@ -4,6 +4,18 @@
   "public_figure": true,
   "sector": "politics",
   "groups": [],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Turning Point USA alumnus and top aide to Kari Lake's 2022 Republican campaign for governor; political appointee in Trump's Labor Department since 2025.",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "U.S. Department of Labor news release, March 13, 2025" },
+        { "url": "https://www.yahoo.com/news/trump-administration-hires-strategist-posted-174642684.html", "title": "Yahoo News: Trump administration hires strategist" }
+      ]
+    }
+  ],
   "current_role": "White House liaison, U.S. Department of Labor (since March 2025)",
   "summary": "Colton Duncan, a political strategist and digital media entrepreneur from Lubbock, Texas, and a Turning Point USA alumnus, was president and CEO of Ninja Digital and a top aide to Kari Lake's 2022 Arizona governor campaign. The Labor Department named him its White House liaison in March 2025. In October 2022 he drew criticism, and calls from tribal leaders for Lake to fire him, for an Indigenous Peoples' Day post showing an image of human sacrifice; he made his account private, and the campaign and later the department did not respond to requests for comment.",
   "sources": [
@@ -129,6 +141,6 @@
       ]
     }
   ],
-  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Upgraded from a non-public, user-provided entry at Leo Halperin's request after confirming a public record (Labor Department announcement, HuffPost, Arizona Mirror). The Leo Halperin link remains user-provided. No Wikipedia article or free photo found.",
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Upgraded from a non-public, user-provided entry at Leo Halperin's request after confirming a public record (Labor Department announcement, HuffPost, Arizona Mirror). The Leo Halperin link remains user-provided. No Wikipedia article or free photo found. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

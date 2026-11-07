@@ -10,6 +10,18 @@
     "license": "CC BY-SA 2.0",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Miriam_Adelson_2023.jpg", "title": "File:Miriam Adelson 2023.jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "One of the largest Republican donors: gave about $100 million to the pro-Trump super PAC Preserve America in 2024 and funds Republican congressional super PACs.",
+      "sources": [
+        { "url": "https://forward.com/fast-forward/665095/miriam-adelson-donates-100m-to-trump-campaign-making-good-on-reported-promise/", "title": "Forward: Miriam Adelson donates $100M to Trump campaign" },
+        { "url": "https://en.wikipedia.org/wiki/Miriam_Adelson", "title": "Wikipedia: Miriam Adelson" }
+      ]
+    }
+  ],
   "current_role": "Majority owner of Las Vegas Sands and of the Dallas Mavericks; publisher of Israel Hayom; Republican megadonor",
   "summary": "Miriam Adelson is an Israeli-American physician specializing in addiction treatment and the widow of casino magnate Sheldon Adelson (died 2021); she controls Las Vegas Sands, bought a majority of the Dallas Mavericks with her family in 2023 and publishes the Israeli daily Israel Hayom. One of the largest Republican donors, she gave about $100 million to the pro-Trump super PAC Preserve America in 2024, and Trump awarded her the Presidential Medal of Freedom in 2018.",
   "sources": [
@@ -209,6 +221,6 @@
       ]
     }
   ],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Marco Rubio: no direct link recorded. In 2016 Sheldon Adelson leaned toward Rubio while Miriam favored Cruz; claims that she influenced Rubio's appointment as secretary of state come only from advocacy sites. Targeted searches found no documented link to Musk, Ellison, Thiel, Miller, Wiles, Sessions or David Horowitz.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Marco Rubio: no direct link recorded. In 2016 Sheldon Adelson leaned toward Rubio while Miriam favored Cruz; claims that she influenced Rubio's appointment as secretary of state come only from advocacy sites. Targeted searches found no documented link to Musk, Ellison, Thiel, Miller, Wiles, Sessions or David Horowitz. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

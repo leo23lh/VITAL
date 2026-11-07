@@ -11,11 +11,13 @@ import {
   compassRow,
   familyOf,
   leanAt,
+  linkEndId,
   mergePairs,
   neighborhood,
   ringDistances,
   yearSpan,
   type GraphNode,
+  type PairLink,
 } from './lib/graph';
 import { EDGE_FAMILIES, GROUPS, type EdgeFamily, type GroupId } from './lib/schema';
 import { usePeople } from './lib/usePeople';
@@ -37,7 +39,41 @@ export type Layout = 'wide' | 'card' | 'sheet';
  * in the selected year, `y` = money (negative, north) to politics (positive, south).
  * Missing values leave that axis to the links.
  */
-export type Compass = Map<string, { x?: number; y?: number }>;
+export type Compass = Map<string, { x?: number; y?: number; inferred?: boolean }>;
+
+/**
+ * Researched lean sets x. People without one (no political record, or suggested)
+ * get the closeness-weighted average lean of the people they're linked to, marked
+ * `inferred` so it pulls more gently; with no leaned neighbours, links alone decide.
+ */
+function compassSpots(nodes: GraphNode[], pairs: PairLink[], year: number | null): Compass {
+  const compass: Compass = new Map();
+  for (const n of nodes) compass.set(n.id, { x: leanAt(n.person?.lean, year)?.value, y: compassRow(n) });
+  // Spread inferred leans a few steps out, so clusters with no researched lean still find a side.
+  for (let pass = 0; pass < 3; pass++) {
+    const sums = new Map<string, { w: number; x: number }>();
+    for (const p of pairs) {
+      const a = linkEndId(p.source);
+      const b = linkEndId(p.target);
+      for (const [self, other] of [
+        [a, b],
+        [b, a],
+      ]) {
+        const me = compass.get(self);
+        const them = compass.get(other);
+        if (!me || (me.x != null && !me.inferred) || them?.x == null || p.closeness <= 0) continue;
+        // Researched neighbours count fully; inferred ones count half.
+        const w = p.closeness * (them.inferred ? 0.5 : 1);
+        const s = sums.get(self) ?? { w: 0, x: 0 };
+        s.w += w;
+        s.x += them.x * w;
+        sums.set(self, s);
+      }
+    }
+    for (const [id, s] of sums) compass.set(id, { ...compass.get(id), x: s.x / s.w, inferred: true });
+  }
+  return compass;
+}
 
 /** For a view: who sits in the middle, how many steps out everyone else is, which lines to stress. */
 export interface RadialLayout {
@@ -148,15 +184,9 @@ export default function App() {
       }
       if (core.size) radial = { core, ...ringDistances(core, links, ids), emphasis: lens };
     }
-    let compass: Compass | null = null;
-    if (view.kind === 'all') {
-      compass = new Map();
-      for (const n of nodes) {
-        if (!n.researched) continue;
-        compass.set(n.id, { x: leanAt(n.person?.lean, year)?.value, y: compassRow(n) });
-      }
-    }
-    return { nodes, links, pairs: mergePairs(links), radial, compass };
+    const pairs = mergePairs(links);
+    const compass = view.kind === 'all' ? compassSpots(nodes, pairs, year) : null;
+    return { nodes, links, pairs, radial, compass };
   }, [graph, byId, filteredLinks, view, showSuggested, selectedNodeId, year]);
 
   const counts = useMemo(() => {

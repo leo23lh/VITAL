@@ -10,6 +10,18 @@
     "license": "Public domain",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Pete_Hegseth_Official_Portrait.jpg", "title": "File:Pete Hegseth Official Portrait.jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Sought the 2012 Republican Senate nomination in Minnesota, led conservative veterans' groups, hosted on Fox News, and became Trump's defense secretary in 2025.",
+      "sources": [
+        { "url": "https://www.mprnews.org/story/2012/03/01/pete-hegseth-challenge-amy-klobuchar", "title": "MPR News: Pete Hegseth challenges Amy Klobuchar" },
+        { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "Department of War: Pete Hegseth biography" }
+      ]
+    }
+  ],
   "current_role": "U.S. Secretary of Defense, styled Secretary of War (since January 25, 2025)",
   "summary": "Pete Hegseth, a Princeton graduate and Army National Guard officer who served at Guantánamo Bay, in Iraq and in Afghanistan, led the advocacy groups Vets for Freedom and Concerned Veterans for America and became a Fox News host. Trump chose him as defense secretary; the Senate confirmed him 51–50 on January 24, 2025, with JD Vance breaking the tie. Under a September 2025 executive order he also uses the title Secretary of War, and in 2026 he designated Anthropic a supply-chain risk after it refused to drop limits on military uses of its AI.",
   "sources": [
@@ -152,6 +164,6 @@
       ]
     }
   ],
-  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Wikipedia's Hegseth article could not be read directly (rate limit); facts were confirmed through searches. The record for Amodei mirrors the one in his file. Not recorded: allegations about his personal conduct raised at his confirmation (private matters he disputes), and his 2025 Signal group-chat controversy (sources could not be confirmed in this session).",
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Wikipedia's Hegseth article could not be read directly (rate limit); facts were confirmed through searches. The record for Amodei mirrors the one in his file. Not recorded: allegations about his personal conduct raised at his confirmation (private matters he disputes), and his 2025 Signal group-chat controversy (sources could not be confirmed in this session). Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

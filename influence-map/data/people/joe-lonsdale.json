@@ -10,6 +10,18 @@
     "license": "CC BY 2.0",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Joe_Lonsdale.jpg", "title": "File:Joe Lonsdale.jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Active Republican donor and fundraiser: helped lead Musk's pro-Trump America PAC in 2024 and hosted a Republican fundraiser for Vance in 2026.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Wikipedia: Joe Lonsdale" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Hawaii Tribune-Herald: America PAC" }
+      ]
+    }
+  ],
   "current_role": "Co-founder and managing partner of 8VC",
   "summary": "Joe Lonsdale, a Peter Thiel protégé, co-founded Palantir in 2004, then Addepar and OpenGov, and the venture firms Formation 8 and 8VC, which he moved to Austin in 2020. An active Republican donor and fundraiser, he helped lead Elon Musk's pro-Trump America PAC in 2024, backs the pro-AI super PAC Leading the Future, invested in Palmer Luckey's Erebor bank, and hosted a JD Vance fundraiser in Austin in 2026. He also founded the Cicero Institute and co-founded the University of Austin.",
   "sources": [
@@ -297,6 +309,6 @@
       ]
     }
   ],
-  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Not recorded: a 2015 lawsuit involving Lonsdale (private matter, settled). No documented role in DOGE was found.",
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Not recorded: a 2015 lawsuit involving Lonsdale (private matter, settled). No documented role in DOGE was found. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

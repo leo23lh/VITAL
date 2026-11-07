@@ -1,8 +1,6 @@
 {
   "name": "Jeff Sessions",
-  "aliases": [
-    "Jefferson Beauregard Sessions III"
-  ],
+  "aliases": ["Jefferson Beauregard Sessions III"],
   "public_figure": true,
   "sector": "politics",
   "groups": ["trump-circle"],
@@ -12,6 +10,18 @@
     "license": "Public domain",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Jeff_Sessions,_official_portrait.jpg", "title": "File:Jeff Sessions, official portrait.jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Alabama Republican senator 1997–2017, first senator to endorse Trump, attorney general 2017–2018, and 2020 Republican Senate candidate.",
+      "sources": [
+        { "url": "https://rollcall.com/2016/02/28/sessions-first-senator-to-endorse-trump/", "title": "Roll Call: Sessions first senator to endorse Trump" },
+        { "url": "https://www.npr.org/2020/07/15/891290828/former-attorney-general-jeff-sessions-loses-alabama-runoff-election", "title": "NPR: Sessions loses Alabama runoff" }
+      ]
+    }
+  ],
   "current_role": "Former U.S. Attorney General (2017–2018) and former U.S. Senator from Alabama (1997–2017)",
   "summary": "Jeff Sessions is an Alabama Republican who served as U.S. Attorney for the Southern District of Alabama, Alabama attorney general, U.S. senator from 1997 to 2017, and the 84th U.S. Attorney General from 2017 to 2018. He was the first senator to endorse Donald Trump in 2016, but his recusal from the Russia investigation led to a public rift; he resigned at Trump's request in November 2018 and lost the 2020 Alabama Senate Republican runoff to the Trump-endorsed Tommy Tuberville. A 1986 nomination to the federal bench was rejected by the Senate Judiciary Committee.",
   "sources": [
@@ -282,6 +292,6 @@
       ]
     }
   ],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. No reliable source found for Sessions's activities after 2020.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. No reliable source found for Sessions's activities after 2020. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

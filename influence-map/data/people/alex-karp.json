@@ -10,6 +10,27 @@
     "license": "CC BY 2.0",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Alex_Karp_attends_AI_Summit_(53302457013)_4-5_ratio.jpg", "title": "File:Alex Karp attends AI Summit (53302457013) 4-5 ratio.jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": 2024,
+      "basis": "Called himself a socialist and progressive (\"but not woke\") in 2018, said he voted for Hillary Clinton, and was described by the Financial Times in 2024 as a major Biden donor.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Wikipedia: Alex Karp" }
+      ]
+    },
+    {
+      "value": 0,
+      "start_year": 2025,
+      "end_year": null,
+      "basis": "Still calls himself a \"progressive warrior\" but has defended Palantir's work for the Trump administration and drawn criticism from Democrats for switching sides. Mixed record, so Centrist.",
+      "sources": [
+        { "url": "https://www.aol.com/articles/palantir-courts-major-federal-contracts-170000722.html", "title": "AOL: Palantir courts major federal contracts in Trump era" },
+        { "url": "https://www.mprnews.org/story/2025/05/01/npr-palantir-tech-contracts-trump", "title": "NPR: How Palantir is rising in the Trump era" }
+      ]
+    }
+  ],
   "current_role": "Co-founder and CEO of Palantir Technologies",
   "summary": "Alex Karp co-founded the data-analytics and defense software company Palantir with Peter Thiel and others and has been its CEO since the company's early years. Raised in a left-leaning household and once a Trump critic, he gave $1 million to Trump's 2025 inaugural committee and has publicly praised Trump's border and national-security policies while Palantir's U.S. government business, including immigration-enforcement work for ICE, has grown sharply.",
   "sources": [
@@ -150,8 +171,16 @@
         { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" },
         { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
       ]
+    },
+    {
+      "topic": "Political lean",
+      "details": "Karp describes himself as a progressive and has backed Democrats, while reporting describes him as having switched sides to support Trump.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Wikipedia: Alex Karp" },
+        { "url": "https://www.aol.com/articles/palantir-courts-major-federal-contracts-170000722.html", "title": "AOL" }
+      ]
     }
   ],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. No documented personal link found to Musk, Altman, Amodei, Vance, Miller or the other PayPal co-founders beyond Thiel.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. No documented personal link found to Musk, Altman, Amodei, Vance, Miller or the other PayPal co-founders beyond Thiel. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

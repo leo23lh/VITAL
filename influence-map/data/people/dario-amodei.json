@@ -10,6 +10,18 @@
     "license": "CC BY 2.0",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_01_(cropped).jpg", "title": "File:Dario Amodei at TechCrunch Disrupt 2023 01 (cropped).jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Endorsed Kamala Harris in 2024 and has given to Democratic candidates (reported totals range from about $100,000 to $214,000); in 2026 gave $1 million to a bipartisan AI-safety super PAC while Anthropic clashed with the Trump administration.",
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/tech-and-telecom-law/dario-amodei-anthropic-employees-give-millions-to-regulate-ai", "title": "Bloomberg Law: Dario Amodei, Anthropic employees give millions to regulate AI" },
+        { "url": "https://www.washingtonexaminer.com/?p=3795645", "title": "Washington Examiner: Anthropic backers gave to Democrats" }
+      ]
+    }
+  ],
   "current_role": "Co-founder and CEO of Anthropic",
   "summary": "Dario Amodei, a Princeton-trained biophysicist, worked at Baidu and Google Brain and was OpenAI's vice president of research before leaving to co-found Anthropic with his sister Daniela and other former OpenAI staff in 2021. In 2025 Trump's AI czar David Sacks accused Anthropic of \"regulatory capture\"; in February 2026, after Anthropic refused to drop limits on military uses such as mass surveillance and autonomous weapons, Trump ordered agencies to stop using its technology and the Pentagon labeled it a supply-chain risk, which Anthropic is challenging in court.",
   "sources": [
@@ -156,6 +168,6 @@
       ]
     }
   ],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Sources disagree on how many OpenAI staff left to found Anthropic (seven to eleven or more); the count is not recorded.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Sources disagree on how many OpenAI staff left to found Anthropic (seven to eleven or more); the count is not recorded. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

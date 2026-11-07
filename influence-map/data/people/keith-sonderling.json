@@ -10,6 +10,18 @@
     "license": "Public domain",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Deputy_Secretary_Sonderling.jpg", "title": "File:Deputy Secretary Sonderling.jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Served as a Republican commissioner of the EEOC (2020–2024) on Trump's nomination, and in Trump's Labor Department in both terms, becoming Secretary of Labor in 2026.",
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/employee-benefits/republican-eeoc-commissioner-sonderling-to-leave-as-term-ends", "title": "Bloomberg Law: Republican EEOC commissioner Sonderling to leave as term ends" },
+        { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "U.S. Department of Labor: Keith Sonderling" }
+      ]
+    }
+  ],
   "current_role": "U.S. Secretary of Labor (acting from April 2026; confirmed September 30, 2026)",
   "summary": "Keith Sonderling, a Florida labor and employment lawyer, joined Trump's Labor Department in 2017 and led its Wage and Hour Division, then served as an EEOC commissioner (2020–2024), where he focused on AI in hiring. Confirmed as Deputy Secretary of Labor in March 2025, he became acting secretary when Lori Chavez-DeRemer resigned in April 2026 and was confirmed as the 31st Secretary of Labor on September 30, 2026, by a 47–41 vote.",
   "sources": [
@@ -142,6 +154,6 @@
       ]
     }
   ],
-  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. A Labor Department page also says he was designated acting director of the Office of Government Ethics in June 2026; not recorded pending a second source.",
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. A Labor Department page also says he was designated acting director of the Office of Government Ethics in June 2026; not recorded pending a second source. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

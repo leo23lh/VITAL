@@ -10,6 +10,27 @@
     "license": "Public domain",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Jared_Kushner_2025.jpg", "title": "File:Jared Kushner 2025.jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": 2015,
+      "basis": "Political donations made in his name before 2016 went almost entirely to Democrats (including Hillary Clinton, Chuck Schumer and Cory Booker); reporting says much of the money came from his father, Charles Kushner.",
+      "sources": [
+        { "url": "https://therealdeal.com/2016/03/10/the-son-in-law-also-rises-for-jared-kushner-championing-trump-marks-break-with-democratic-past", "title": "The Real Deal: Championing Trump marks break with Kushner's Democratic past" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2016,
+      "end_year": null,
+      "basis": "Ran key parts of Trump's 2016 campaign and was a senior White House adviser 2017–2021; Trump's Middle East envoy in the second term.",
+      "sources": [
+        { "url": "https://www.npr.org/2016/11/18/502539418/the-rise-of-jared-kushner-donald-trumps-son-in-law", "title": "NPR: The rise of Jared Kushner" },
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Wikipedia: Jared Kushner" }
+      ]
+    }
+  ],
   "current_role": "Founder of Affinity Partners; Trump's informal peace envoy (Gaza, Ukraine, Iran talks) and member of the Board of Peace Executive Board",
   "summary": "Jared Kushner, Donald Trump's son-in-law, ran his family's real-estate firm and owned The New York Observer before serving as Trump's senior adviser from 2017 to 2021, when he led the First Step Act and the talks behind the 2020 Abraham Accords. He then founded Affinity Partners, funded mostly by Saudi Arabia's Public Investment Fund. Since 2025 he has worked informally with envoy Steve Witkoff on Gaza, Ukraine and Iran negotiations, and in January 2026 he was named to the Board of Peace overseeing Gaza.",
   "sources": [
@@ -245,6 +266,6 @@
       ]
     }
   ],
-  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Records for Trump (family, employer) and Blair mirror the records already in their files. Not recorded: Kushner's father, Charles Kushner, and links to other people in the map without a documented relationship.",
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Records for Trump (family, employer) and Blair mirror the records already in their files. Not recorded: Kushner's father, Charles Kushner, and links to other people in the map without a documented relationship. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

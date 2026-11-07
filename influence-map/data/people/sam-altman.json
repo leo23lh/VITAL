@@ -10,6 +10,28 @@
     "license": "CC BY 4.0",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Meeting_with_Masayoshi_Son_and_Sam_Altman_(February_3,_2025)_(3x4_cropped_on_Altman).jpg", "title": "File:Meeting with Masayoshi Son and Sam Altman (February 3, 2025) (3x4 cropped on Altman).jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": 2024,
+      "basis": "A prominent Democratic donor: gave more than $1 million, almost all to Democrats, including six-figure sums for Biden in 2020 and 2023.",
+      "sources": [
+        { "url": "https://www.brennancenter.org/our-work/research-reports/money-politics-roundup-october-2025", "title": "Brennan Center: Money in politics roundup, October 2025" },
+        { "url": "https://www.foxbusiness.com/politics/openai-ceo-sam-altman-donated-200000-biden-campaign", "title": "Fox Business: Sam Altman donated $200,000 to Biden campaign" }
+      ]
+    },
+    {
+      "value": 0,
+      "start_year": 2025,
+      "end_year": null,
+      "basis": "Gave $1 million to Trump's inauguration (December 2024) and in July 2025 called himself \"politically homeless\", saying the Democratic Party had lost the plot.",
+      "sources": [
+        { "url": "https://www.npr.org/2024/12/13/nx-s1-5227874/trump-bezos-zuckerberg-amazon-facebook-open-ai-meta-inauguration-fund", "title": "NPR: Tech moguls donate to Trump's inauguration fund" },
+        { "url": "https://fortune.com/2025/07/08/sam-altman-democratic-party-politically-homeless-silicon-valley-politics-openai/", "title": "Fortune: Sam Altman says he is politically homeless" }
+      ]
+    }
+  ],
   "current_role": "CEO of OpenAI",
   "summary": "Sam Altman co-founded Loopt, ran the startup accelerator Y Combinator from 2014 to 2019 and co-founded OpenAI in 2015 with Elon Musk and others, becoming its CEO in 2019. Briefly ousted by OpenAI's board in November 2023 and reinstated days later, he gave $1 million to Trump's 2025 inauguration and launched the $500 billion Stargate AI infrastructure venture with Trump, Larry Ellison and Masayoshi Son. In May 2026 a jury rejected Musk's lawsuit against him and OpenAI.",
   "sources": [
@@ -254,6 +276,6 @@
       ]
     }
   ],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Not recorded: a reported friendship with Alexandr Wang (not confirmed by any source found).",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Not recorded: a reported friendship with Alexandr Wang (not confirmed by any source found). Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

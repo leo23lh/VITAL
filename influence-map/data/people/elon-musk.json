@@ -10,6 +10,36 @@
     "license": "CC BY-SA 4.0",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Elon_Musk_-_54820081119_(3x4_cropped,_Rule_of_thirds).jpg", "title": "File:Elon Musk - 54820081119 (3x4 cropped, Rule of thirds).jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": 2021,
+      "basis": "Said in 2022 that he had \"voted overwhelmingly for Democrats, historically\", including for Biden in 2020.",
+      "sources": [
+        { "url": "https://www.cnbc.com/2022/05/18/elon-musk-says-hell-vote-republican-bashes-democrats.html", "title": "CNBC: Elon Musk says he'll vote Republican" }
+      ]
+    },
+    {
+      "value": 1,
+      "start_year": 2022,
+      "end_year": 2023,
+      "basis": "Announced in May 2022 that he could no longer support Democrats and would vote Republican.",
+      "sources": [
+        { "url": "https://www.cnbc.com/2022/05/18/elon-musk-says-hell-vote-republican-bashes-democrats.html", "title": "CNBC: Elon Musk says he'll vote Republican" },
+        { "url": "https://fortune.com/2022/05/18/elon-musk-says-hell-vote-republican-and-that-democrats-are-no-longer-the-kindness-party/", "title": "Fortune: Musk says he'll vote Republican" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2024,
+      "end_year": null,
+      "basis": "Spent at least $250 million backing Trump in 2024, led DOGE in 2025, and after a 2025 feud with Trump returned to funding Republicans.",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "PBS NewsHour: Musk paid at least $250M backing Trump in 2024" }
+      ]
+    }
+  ],
   "current_role": "CEO of Tesla and of SpaceX (which absorbed xAI in February 2026 and went public in June 2026)",
   "summary": "Elon Musk co-founded X.com in 1999, which merged with Confinity to form PayPal; he was replaced as CEO in 2000 but was its largest shareholder when eBay bought it. He founded SpaceX in 2002, became Tesla's chairman in 2004 and CEO in 2008, bought Twitter in 2022 (renamed X), and merged his AI company xAI into SpaceX in 2026 ahead of a record IPO. He spent at least $250 million backing Trump in 2024, led DOGE in 2025, then feuded publicly with Trump before returning to fund Republicans in the 2026 midterms.",
   "sources": [
@@ -332,6 +362,6 @@
       ]
     }
   ],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Personal and family details were left out under the research rules.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Personal and family details were left out under the research rules. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

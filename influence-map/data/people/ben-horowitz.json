@@ -10,6 +10,27 @@
     "license": "CC BY 2.0",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:TechCrunch_Disrupt_San_Francisco_2018_-_day_2_(42713740520)_(cropped).jpg", "title": "File:TechCrunch Disrupt San Francisco 2018 - day 2 (42713740520) (cropped).jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": 2021,
+      "basis": "Federal filings show he gave only to Democrats, including Obama's campaign, until 2022.",
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=3126217", "title": "Washington Examiner: Ben and Felicia Horowitz's political pivot" }
+      ]
+    },
+    {
+      "value": 1,
+      "start_year": 2022,
+      "end_year": null,
+      "basis": "Most of his donations since 2022 went to Republicans; endorsed Trump in July 2024, then in October 2024 pledged a \"significant\" donation to groups backing Harris. Mixed record, so Center-right.",
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=3126217", "title": "Washington Examiner: Ben and Felicia Horowitz's political pivot" },
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Axios: Ben Horowitz plans significant donation to Kamala Harris" }
+      ]
+    }
+  ],
   "current_role": "Co-founder and general partner of Andreessen Horowitz (a16z)",
   "summary": "Ben Horowitz worked with Marc Andreessen at Netscape, co-founded Loudcloud (later Opsware, sold to Hewlett-Packard in 2007) and in 2009 co-founded the venture capital firm Andreessen Horowitz; he wrote The Hard Thing About Hard Things (2014). Son of conservative activist David Horowitz, he endorsed and funded Donald Trump in July 2024 alongside Andreessen, then in October 2024 pledged a significant donation to groups backing Kamala Harris. He and Andreessen are major funders of the pro-AI super PAC Leading the Future.",
   "sources": [
@@ -175,8 +196,16 @@
         { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" },
         { "url": "https://en.wikipedia.org/wiki/Opsware", "title": "Opsware — Wikipedia" }
       ]
+    },
+    {
+      "topic": "2024 presidential support",
+      "details": "Horowitz endorsed Trump in July 2024 and gave to a pro-Trump super PAC, then in October 2024 pledged a significant donation to groups backing Kamala Harris without endorsing her policies.",
+      "sources": [
+        { "url": "https://www.axios.com/2024/07/16/marc-andreeessen-ben-horowitz-trump", "title": "Axios" },
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Axios" }
+      ]
     }
   ],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Targeted searches found no documented personal link to Musk, Sacks, Thiel or the other PayPal co-founders beyond his firm's investments, so none is recorded.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Targeted searches found no documented personal link to Musk, Sacks, Thiel or the other PayPal co-founders beyond his firm's investments, so none is recorded. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

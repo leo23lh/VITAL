@@ -10,6 +10,28 @@
     "license": "CC BY 2.0",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Marc_Andreessen-9_(cropped).jpg", "title": "File:Marc Andreessen-9 (cropped).jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": 2023,
+      "basis": "Says he was a Democrat most of his life and voted for Bill Clinton, Gore, Kerry, Obama and Hillary Clinton (whom he backed in 2016).",
+      "sources": [
+        { "url": "https://www.thefp.com/p/marc-andreessen-on-ai-tech-censorship-trump-democrats", "title": "The Free Press: Marc Andreessen on AI, tech, censorship and Trump" },
+        { "url": "https://fortune.com/2024/07/27/silicon-valley-divided-us-president-elections-trump-harris-andreessen-musk/", "title": "Fortune: Silicon Valley divided" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2024,
+      "end_year": null,
+      "basis": "Endorsed Trump in July 2024 and gave millions to pro-Trump super PACs; advised the Trump transition.",
+      "sources": [
+        { "url": "https://www.axios.com/2024/07/16/andreesen-horowitz-musk-trump", "title": "Axios: Tech leaders line up behind Trump" },
+        { "url": "https://www.thefp.com/p/marc-andreessen-on-ai-tech-censorship-trump-democrats", "title": "The Free Press: Marc Andreessen on AI, tech, censorship and Trump" }
+      ]
+    }
+  ],
   "current_role": "Co-founder and general partner of Andreessen Horowitz (a16z); member of the President's Council of Advisors on Science and Technology (since March 2026); Meta board member",
   "summary": "Marc Andreessen co-created the Mosaic web browser, co-founded Netscape, Loudcloud/Opsware and, in 2009, the venture capital firm Andreessen Horowitz with Ben Horowitz. With Horowitz he published the firm's \"Little Tech Agenda\" in July 2024 and endorsed Donald Trump; he then helped recruit staff for the Trump transition and DOGE, and Trump named him to PCAST in March 2026. He and Horowitz are among the largest funders of pro-AI and pro-crypto super PACs in the 2026 midterms.",
   "sources": [
@@ -318,6 +340,6 @@
       ]
     }
   ],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Not recorded: a seat on Hewlett-Packard's board (start year could not be confirmed) and Reid Hoffman (no direct exchange with Andreessen found). Targeted searches found no documented link to the PayPal co-founders beyond Thiel and Musk, or to Miller, Sessions, Wiles or Rubio.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Not recorded: a seat on Hewlett-Packard's board (start year could not be confirmed) and Reid Hoffman (no direct exchange with Andreessen found). Targeted searches found no documented link to the PayPal co-founders beyond Thiel and Musk, or to Miller, Sessions, Wiles or Rubio. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

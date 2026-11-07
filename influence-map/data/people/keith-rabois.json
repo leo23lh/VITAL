@@ -10,6 +10,18 @@
     "license": "CC BY 2.0",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Keith_Rabois_-_2011_TechCrunch_Disrupt.jpg", "title": "File:Keith Rabois - 2011 TechCrunch Disrupt.jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Longtime conservative and major donor to Republican congressional candidates; said in 2024 it was \"impossible to support Biden\" while saying he was not a fan of Trump.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Wikipedia: Keith Rabois" },
+        { "url": "https://www.goodmorningamerica.com/news/story/nikki-haley-nabs-fundraiser-gop-donor-previously-supported-104046855", "title": "ABC News: Nikki Haley nabs fundraiser from GOP donor" }
+      ]
+    }
+  ],
   "current_role": "Managing director at Khosla Ventures; chairman of Opendoor",
   "summary": "Keith Rabois was a PayPal executive vice president (2000–2002), then held operating roles at LinkedIn and Slide and was Square's chief operating officer until 2013, when he resigned amid a harassment accusation Square said it had not substantiated. He became a venture capitalist at Khosla Ventures, moved to Peter Thiel's Founders Fund as a general partner in 2019, and returned to Khosla in 2024. He co-founded and chairs Opendoor.",
   "sources": [
@@ -147,6 +159,6 @@
     }
   ],
   "source_conflicts": [],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. The Stanford Review link to Thiel rests on a single source.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. The Stanford Review link to Thiel rests on a single source. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

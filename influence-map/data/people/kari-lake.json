@@ -10,6 +10,54 @@
     "license": "CC BY-SA 3.0",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Kari_Lake_by_Gage_Skidmore_4.jpg", "title": "File:Kari Lake by Gage Skidmore 4.jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": 1,
+      "start_year": null,
+      "end_year": 2005,
+      "basis": "Registered Republican until November 2006 (while a TV news anchor).",
+      "sources": [
+        { "url": "https://12news.com/article/news/politics/kari-lake-is-running-for-governor-as-a-republican-but-has-also-been-a-registered-democrat/75-550469a9-0665-404c-84b0-7548d5681a41", "title": "12News: Kari Lake has also been a registered Democrat" }
+      ]
+    },
+    {
+      "value": 0,
+      "start_year": 2006,
+      "end_year": 2007,
+      "basis": "Left the Republican Party in November 2006 and registered as an independent; she has said the Iraq and Afghanistan wars drove the change.",
+      "sources": [
+        { "url": "https://12news.com/article/news/politics/kari-lake-is-running-for-governor-as-a-republican-but-has-also-been-a-registered-democrat/75-550469a9-0665-404c-84b0-7548d5681a41", "title": "12News: Kari Lake has also been a registered Democrat" },
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Wikipedia: Kari Lake" }
+      ]
+    },
+    {
+      "value": -1,
+      "start_year": 2008,
+      "end_year": 2011,
+      "basis": "Registered as a Democrat in January 2008.",
+      "sources": [
+        { "url": "https://12news.com/article/news/politics/kari-lake-is-running-for-governor-as-a-republican-but-has-also-been-a-registered-democrat/75-550469a9-0665-404c-84b0-7548d5681a41", "title": "12News: Kari Lake has also been a registered Democrat" }
+      ]
+    },
+    {
+      "value": 1,
+      "start_year": 2012,
+      "end_year": 2020,
+      "basis": "Re-registered as a Republican in January 2012.",
+      "sources": [
+        { "url": "https://12news.com/article/news/politics/kari-lake-is-running-for-governor-as-a-republican-but-has-also-been-a-registered-democrat/75-550469a9-0665-404c-84b0-7548d5681a41", "title": "12News: Kari Lake has also been a registered Democrat" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2021,
+      "end_year": null,
+      "basis": "Trump-endorsed Republican nominee for Arizona governor (2022) and U.S. Senate (2024), then a Trump administration appointee.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Wikipedia: Kari Lake" }
+      ]
+    }
+  ],
   "current_role": "Senior adviser to the U.S. Agency for Global Media (since March 2025); Trump's nominee for U.S. Ambassador to Jamaica (May 2026)",
   "summary": "Kari Lake was a Phoenix TV news anchor at KSAZ (Fox 10) from 1999 to 2021, then a Trump-endorsed Republican nominee who lost the 2022 Arizona governor's race to Katie Hobbs, refused to concede and lost a two-year court challenge, and lost the 2024 Senate race to Ruben Gallego. Trump picked her to lead Voice of America; as a USAGM adviser and, from July to November 2025, its acting CEO she drove mass layoffs, and in March 2026 a federal judge ruled her acting tenure unlawful and voided those actions. In May 2026 Trump nominated her ambassador to Jamaica.",
   "sources": [
@@ -179,7 +227,7 @@
       "slug": "leo-halperin",
       "relationship_type": "family",
       "description": "Son. Added by Leo Halperin himself, who chose to share this link.",
-      "confidence": 1.0,
+      "confidence": 1,
       "sources": ["user-provided"]
     },
     {
@@ -206,6 +254,6 @@
       ]
     }
   ],
-  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Her husband and her other child are private individuals and are not recorded; her son Leo Halperin added himself to the map (see his file).",
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Her husband and her other child are private individuals and are not recorded; her son Leo Halperin added himself to the map (see his file). Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

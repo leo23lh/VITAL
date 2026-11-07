@@ -10,6 +10,27 @@
     "license": "CC BY-SA 3.0",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:David_Horowitz_by_Gage_Skidmore.jpg", "title": "File:David Horowitz by Gage Skidmore.jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": -3,
+      "start_year": null,
+      "end_year": 1983,
+      "basis": "A leading New Left radical: co-editor of Ramparts from 1968, with close ties to the Black Panthers.",
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/politics/3397480/david-horowitz-obituary/", "title": "Washington Examiner: David Horowitz, 1939–2025" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 1984,
+      "end_year": 2025,
+      "basis": "Cast his first Republican vote, for Reagan, in 1984 and went public with \"Lefties for Reagan\" in 1985; founded the conservative Freedom Center and was a prominent Trump supporter until his death in 2025.",
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/politics/3397480/david-horowitz-obituary/", "title": "Washington Examiner: David Horowitz, 1939–2025" },
+        { "url": "https://www.yahoo.com/news/david-horowitz-intellectual-godfather-trump-100254288.html", "title": "Telegraph via Yahoo: David Horowitz, intellectual godfather of the Trump administration" }
+      ]
+    }
+  ],
   "current_role": "Founder of the David Horowitz Freedom Center (died April 29, 2025)",
   "summary": "David Horowitz (1939–2025) was an American writer and activist who moved from the New Left, where he co-edited Ramparts magazine and worked with the Black Panther Party, to the conservative movement. In 1988 he and Peter Collier founded the Center for the Study of Popular Culture, later renamed the David Horowitz Freedom Center, which published FrontPage Magazine and campaigned on campus politics and against what it called Islamist radicalism; critics, including the Southern Poverty Law Center, accused it of anti-Muslim bigotry. He was a longtime mentor to Stephen Miller. He died on April 29, 2025, at 86.",
   "sources": [
@@ -163,6 +184,6 @@
     }
   ],
   "source_conflicts": [],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Not found: the year Horowitz left Ramparts. One search result dated the Freedom Center's founding to 1998 rather than 1988, but its source could not be identified, so it is not recorded as a conflict.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Not found: the year Horowitz left Ramparts. One search result dated the Freedom Center's founding to 1998 rather than 1988, but its source could not be identified, so it is not recorded as a conflict. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }

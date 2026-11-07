@@ -10,6 +10,18 @@
     "license": "Public domain",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Susie_Wiles_2025_(edited_crop).jpg", "title": "File:Susie Wiles 2025 (edited crop).jpg — Wikimedia Commons" }
   },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Career Republican strategist: Reagan campaign and White House staff, Rick Scott's 2010 campaign, Trump's Florida campaigns, co-manager of Trump's 2024 campaign and White House chief of staff.",
+      "sources": [
+        { "url": "https://ballotpedia.org/Susie_Wiles", "title": "Ballotpedia: Susie Wiles" },
+        { "url": "https://en.wikipedia.org/wiki/Susie_Wiles", "title": "Wikipedia: Susie Wiles" }
+      ]
+    }
+  ],
   "current_role": "Political adviser to Donald Trump; White House chief of staff from January 2025 until she resigned on November 6, 2026",
   "summary": "Susie Wiles is a Florida Republican strategist who ran Rick Scott's 2010 campaign for governor, led Trump's Florida operation in 2016, rescued Ron DeSantis's 2018 campaign before falling out with him, and co-managed Trump's 2024 campaign. She served 21 months as White House chief of staff, the first woman in the job and Trump's longest-serving chief of staff, before resigning after the 2026 midterm losses; Trump said she would move to his political operation.",
   "sources": [
@@ -186,6 +198,6 @@
     }
   ],
   "source_conflicts": [],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Health details reported in the press were left out under the research rules.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Health details reported in the press were left out under the research rules. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
   "last_researched": "2026-11-07"
 }
