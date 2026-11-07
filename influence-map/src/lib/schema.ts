@@ -8,6 +8,7 @@ export const RELATIONSHIP_TYPES = [
   'colleague',
   'ally',
   'rival',
+  'enemy',
   'donor',
   'funded_by',
   'co-founder',
@@ -32,6 +33,7 @@ export const INVERSE_TYPE: Record<RelationshipType, RelationshipType> = {
   colleague: 'colleague',
   ally: 'ally',
   rival: 'rival',
+  enemy: 'enemy',
   'co-founder': 'co-founder',
   family: 'family',
 };
@@ -44,11 +46,20 @@ export type EdgeGroup =
   | 'colleague'
   | 'ally'
   | 'rival'
+  | 'enemy'
   | 'co-founder'
   | 'family';
 
 /** Relationship families: the colors and filters in the viewer. Fine types stay in the details. */
-export type EdgeFamily = 'work' | 'money' | 'alliance' | 'rivalry' | 'past-rivalry' | 'personal';
+export type EdgeFamily =
+  | 'work'
+  | 'money'
+  | 'alliance'
+  | 'rivalry'
+  | 'past-rivalry'
+  | 'enmity'
+  | 'past-enmity'
+  | 'personal';
 
 export interface EdgeFamilyInfo {
   id: EdgeFamily;
@@ -56,7 +67,7 @@ export interface EdgeFamilyInfo {
   /** Validated as a set against the dark background; see CLAUDE.md "Colors". */
   color: string;
   hint: string;
-  /** Dotted lines tell past rivalries from current ones without relying on color. */
+  /** Dotted lines tell past rivalries and enmities from current ones without relying on color. */
   dotted?: boolean;
 }
 
@@ -64,8 +75,10 @@ export const EDGE_FAMILIES: EdgeFamilyInfo[] = [
   { id: 'work', label: 'Work', color: '#8b95a8', hint: 'employer, colleague, co-founder' },
   { id: 'money', label: 'Money', color: '#008300', hint: 'donor → recipient' },
   { id: 'alliance', label: 'Alliance', color: '#9085e9', hint: 'ally' },
-  { id: 'rivalry', label: 'Current rivalry', color: '#d55181', hint: 'rival, ongoing' },
-  { id: 'past-rivalry', label: 'Past rivalry', color: '#d55181', hint: 'rival, ended', dotted: true },
+  { id: 'rivalry', label: 'Current rivalry', color: '#f0e442', hint: 'rivals: peers competing, ongoing' },
+  { id: 'past-rivalry', label: 'Past rivalry', color: '#f0e442', hint: 'rivals, ended', dotted: true },
+  { id: 'enmity', label: 'Current enemy', color: '#d55181', hint: 'enemy: one opposes the other, ongoing' },
+  { id: 'past-enmity', label: 'Past enemy', color: '#d55181', hint: 'enemies, ended', dotted: true },
   { id: 'personal', label: 'Personal', color: '#c98500', hint: 'mentor, family' },
 ];
 
@@ -96,6 +109,7 @@ export const EDGE_GROUPS: EdgeGroupInfo[] = [
   G('funding', 'Donor → recipient', 'money', true),
   G('ally', 'Ally', 'alliance', false),
   G('rival', 'Rival', 'rivalry', false),
+  G('enemy', 'Enemy', 'enmity', false),
   G('mentorship', 'Mentor → protégé', 'personal', true),
   G('family', 'Family', 'personal', false),
 ];
@@ -105,8 +119,17 @@ export const EDGE_GROUP_BY_ID: Record<EdgeGroup, EdgeGroupInfo> = Object.fromEnt
 ) as Record<EdgeGroup, EdgeGroupInfo>;
 
 /** Which line wins the color when two people share several kinds of link. */
-// A past rivalry only colors the line when nothing current links the pair.
-export const FAMILY_PRIORITY: EdgeFamily[] = ['rivalry', 'money', 'personal', 'alliance', 'work', 'past-rivalry'];
+// A past rivalry or enmity only colors the line when nothing current links the pair.
+export const FAMILY_PRIORITY: EdgeFamily[] = [
+  'enmity',
+  'rivalry',
+  'money',
+  'personal',
+  'alliance',
+  'work',
+  'past-enmity',
+  'past-rivalry',
+];
 
 /** Sector: one per person, tints their dot. Keep in sync with scripts/validate.mjs. */
 export const SECTORS = [
@@ -153,6 +176,7 @@ export const TYPE_TO_EDGE: Record<RelationshipType, { group: EdgeGroup; otherIsS
   colleague: { group: 'colleague', otherIsSource: false },
   ally: { group: 'ally', otherIsSource: false },
   rival: { group: 'rival', otherIsSource: false },
+  enemy: { group: 'enemy', otherIsSource: false },
   'co-founder': { group: 'co-founder', otherIsSource: false },
   family: { group: 'family', otherIsSource: false },
 };

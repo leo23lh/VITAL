@@ -165,7 +165,7 @@
     {
       "name": "Donald Trump",
       "slug": "donald-trump",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "After Sessions recused himself from the Russia investigation, Trump repeatedly attacked him publicly, said he would not have nominated him had he known, forced his resignation in 2018, and endorsed Tommy Tuberville against him in the 2020 Senate race.",
       "start_year": 2017,
       "end_year": 2020,
@@ -271,7 +271,7 @@
     {
       "name": "Marco Rubio",
       "slug": "marco-rubio",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "Sessions led Senate opposition to Rubio's 2013 Gang of Eight immigration bill and, during the 2016 primaries, accused Rubio of rewriting his role in it.",
       "start_year": 2013,
       "end_year": 2016,

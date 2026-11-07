@@ -178,7 +178,7 @@
     {
       "name": "Donald Trump",
       "slug": "donald-trump",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "After Bannon's comments about Trump's children appeared in Michael Wolff's Fire and Fury in January 2018, Trump disavowed him and the two were estranged until Bannon praised him again in 2019.",
       "start_year": 2018,
       "end_year": 2019,
@@ -204,7 +204,7 @@
     {
       "name": "Elon Musk",
       "slug": "elon-musk",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "From December 2024 Bannon led the MAGA attack on Musk over H-1B visas, calling him \"a truly evil guy\" and vowing to run him out of the White House; he went on to attack Musk's criticism of the Stargate project and DOGE's results.",
       "start_year": 2024,
       "end_year": null,

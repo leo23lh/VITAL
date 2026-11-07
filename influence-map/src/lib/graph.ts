@@ -272,6 +272,8 @@ export function describeLink(link: GraphLink, nameOf: (id: string) => string): s
       return `${a} and ${b} are allies`;
     case 'rival':
       return isPastRivalry(link) ? `${a} and ${b} were rivals` : `${a} and ${b} are rivals`;
+    case 'enemy':
+      return isPastRivalry(link) ? `${a} and ${b} were enemies` : `${a} and ${b} are enemies`;
     case 'family':
       return `${a} and ${b} are family`;
   }
@@ -289,6 +291,8 @@ export function roleOfOther(link: GraphLink, selfId: string): string {
       return otherIsSource ? 'donor' : 'funded by them';
     case 'rival':
       return isPastRivalry(link) ? 'past rival' : 'rival';
+    case 'enemy':
+      return isPastRivalry(link) ? 'past enemy' : 'enemy';
     default:
       return link.group;
   }
@@ -317,13 +321,17 @@ function fold(s: string): string {
     .toLowerCase();
 }
 
-/** A rivalry is past once a file records the year it ended; ongoing or undated ones count as current. */
+/**
+ * A rivalry or enmity is past once a file records the year it ended; ongoing or
+ * undated ones count as current.
+ */
 export function isPastRivalry(link: GraphLink): boolean {
-  return link.group === 'rival' && typeof link.endYear === 'number';
+  return (link.group === 'rival' || link.group === 'enemy') && typeof link.endYear === 'number';
 }
 
 export function familyOf(link: GraphLink): EdgeFamily {
-  return isPastRivalry(link) ? 'past-rivalry' : EDGE_GROUP_BY_ID[link.group].family;
+  if (isPastRivalry(link)) return link.group === 'enemy' ? 'past-enmity' : 'past-rivalry';
+  return EDGE_GROUP_BY_ID[link.group].family;
 }
 
 /** All the links between one pair of people, drawn as a single line. */
@@ -469,9 +477,10 @@ export const CLOSENESS: Record<EdgeGroup, number> = {
   ally: 0.6,
   colleague: 0.45,
   rival: 0.05,
+  enemy: 0.03,
 };
 
-/** The closest link between a pair, weighted by confidence. Rivals barely pull. */
+/** The closest link between a pair, weighted by confidence. Rivals and enemies barely pull. */
 export function pairCloseness(links: GraphLink[]): number {
   return Math.max(0, ...links.map((l) => CLOSENESS[l.group] * l.confidence * (isPastRivalry(l) ? 0.5 : 1)));
 }

@@ -299,7 +299,11 @@ export default function GraphView({
         nodeCanvasObjectMode={() => 'replace'}
         linkColor={linkColor}
         linkWidth={linkWidth}
-        linkLineDash={(p) => (lineFamily(p, radial) === 'past-rivalry' ? [1.5, 3] : p.confidence < 0.5 ? [4, 3] : null)}
+        linkLineDash={(p) => {
+          const fam = lineFamily(p, radial);
+          if (fam === 'past-rivalry' || fam === 'past-enmity') return [1.5, 3];
+          return p.confidence < 0.5 ? [4, 3] : null;
+        }}
         linkDirectionalArrowLength={(p) => (p.directed && colored(p) ? 6 : 0)}
         linkDirectionalArrowRelPos={1}
         linkDirectionalArrowColor={linkColor}

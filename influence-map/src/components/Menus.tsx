@@ -98,7 +98,7 @@ function ViewsMenu({ view, onView, groupCounts, camps, selectedNode, onWorld }: 
       </button>
       <button className={`menu-item${is({ kind: 'feuds' })}`} onClick={() => onView({ kind: 'feuds' })}>
         <span>Feuds</span>
-        <span className="muted">rival links</span>
+        <span className="muted">rival and enemy links</span>
       </button>
       {selectedNode ? (
         <button

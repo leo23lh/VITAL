@@ -193,7 +193,7 @@
     {
       "name": "Donald Trump",
       "slug": "donald-trump",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "In June 2025, after Musk left DOGE, a public feud over Trump's tax-and-spending bill led Trump to threaten Musk's government contracts and Musk to claim Trump would have lost without him. Musk later returned to funding Republicans.",
       "start_year": 2025,
       "end_year": 2025,
@@ -233,7 +233,7 @@
     {
       "name": "Reid Hoffman",
       "slug": "reid-hoffman",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "In 2024 Musk publicly accused Hoffman of being close to Jeffrey Epstein; Hoffman called it \"a conviction with no evidence\" and said he needed added security. Later-released documents showed Hoffman had an established relationship with Epstein, which he says he regrets; he denies being an Epstein client.",
       "start_year": 2024,
       "end_year": null,
@@ -327,7 +327,7 @@
     {
       "name": "Steve Bannon",
       "slug": "steve-bannon",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "From December 2024 Bannon led the MAGA attack on Musk over H-1B visas, calling him \"a truly evil guy\" and vowing to run him out of the White House; he went on to attack Musk's criticism of the Stargate project and DOGE's results.",
       "start_year": 2024,
       "end_year": null,
@@ -379,7 +379,7 @@
     {
       "name": "Sean Duffy",
       "slug": "sean-duffy",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "In October 2025, after Duffy said SpaceX was behind schedule and moved to reopen its lunar-lander contract, Musk called him \"Sean Dummy\" and said he was trying to kill NASA.",
       "start_year": 2025,
       "confidence": 0.9,
@@ -443,7 +443,7 @@
     {
       "name": "George Soros",
       "slug": "george-soros",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "In May 2023 Musk compared Soros to the X-Men villain Magneto and said he \"hates humanity\"; the ADL said the attacks would embolden extremists. In 2025 Musk backed Trump's call for RICO charges against the Soroses.",
       "start_year": 2023,
       "end_year": null,
@@ -467,7 +467,7 @@
     {
       "name": "Nigel Farage",
       "slug": "nigel-farage",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "In January 2025 Musk, who had been expected to donate to Reform, said \"Farage doesn't have what it takes\" over Farage's refusal to back Tommy Robinson; Farage said days later they were on \"very good terms\".",
       "start_year": 2025,
       "end_year": 2025,

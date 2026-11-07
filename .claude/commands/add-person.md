@@ -104,7 +104,7 @@ d. Record a connection only if a source documents it. Shared employer at the
 
 Also record the most significant connections to people not yet in the network
 (typically 5–15: bosses, mentors, protégés, co-founders, major funders, notable
-allies and rivals). They appear in the viewer as "suggested" nodes. Apply the
+allies, rivals and enemies). They appear in the viewer as "suggested" nodes. Apply the
 same sourcing rules. Check the type table: the type is what the *other* person is
 to this person (their boss is `employer`, their staffer is `employee`).
 
@@ -113,8 +113,10 @@ to this person (their boss is `employer`, their staffer is `employee`).
 a. Write `DATA_DIR/<slug>.json` in the CLAUDE.md format, with `last_researched`
    set to today's date. Set `sector` and `groups` from the "Sectors and groups"
    tables in CLAUDE.md, based on what the file's sourced facts show. For every
-   `rival` record, set `end_year: null` if the feud is ongoing or the year it ended
-   (the viewer draws ended rivalries as dotted "past rivalry" lines).
+   `rival` or `enemy` record, set `end_year: null` if it is ongoing or the year it ended
+   (the viewer draws ended ones as dotted lines). Use `rival` only for peers
+   competing for the same thing as equals; use `enemy` when one side is opposing
+   or attacking the other (see CLAUDE.md "Relationship types").
    Research and set `lean` as CLAUDE.md "Political lean" describes: one period
    per documented shift, each with a `basis` and sources. Leave it out if the
    person has no public political record.

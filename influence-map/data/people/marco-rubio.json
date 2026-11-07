@@ -139,7 +139,7 @@
     {
       "name": "Jeff Sessions",
       "slug": "jeff-sessions",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "Sessions led Senate opposition to Rubio's 2013 Gang of Eight immigration bill and, during the 2016 primaries, accused Rubio of rewriting his role in it.",
       "start_year": 2013,
       "end_year": 2016,
@@ -152,7 +152,7 @@
     {
       "name": "Stephen Miller",
       "slug": "stephen-miller",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "As Sessions's aide, Miller worked against the Gang of Eight bill, and leaked emails show he fed anti-Rubio stories to Breitbart during the 2016 campaign.",
       "start_year": 2013,
       "end_year": 2016,
@@ -245,7 +245,7 @@
     {
       "name": "Tucker Carlson",
       "slug": "tucker-carlson",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "In a May 2026 New York Times interview Carlson accused Rubio's backers of \"nonstop treachery\" against Vance and criticized Rubio over the Iran war.",
       "start_year": 2026,
       "end_year": null,

@@ -170,7 +170,7 @@ export default function App() {
     if (view.kind !== 'all') {
       const core = new Set<string>();
       const lens: EdgeFamily[] | null =
-        view.kind === 'money' ? ['money'] : view.kind === 'feuds' ? ['rivalry', 'past-rivalry'] : null;
+        view.kind === 'money' ? ['money'] : view.kind === 'feuds' ? ['rivalry', 'past-rivalry', 'enmity', 'past-enmity'] : null;
       if (view.kind === 'world') {
         core.add(view.id);
       } else if (view.kind === 'group') {

@@ -164,7 +164,7 @@
     {
       "name": "Jeff Sessions",
       "slug": "jeff-sessions",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "After Sessions recused himself from the Russia investigation, Trump repeatedly attacked him publicly, said he would not have nominated him had he known, forced his resignation in 2018, and endorsed Tommy Tuberville against him in the 2020 Alabama Senate race.",
       "start_year": 2017,
       "end_year": 2020,
@@ -243,7 +243,7 @@
     {
       "name": "Mike Pence",
       "slug": "mike-pence",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "Trump has condemned Pence for refusing to stop the certification of the 2020 election on January 6, 2021; coverage of Vance's selection framed it as Trump choosing someone who would not break with him as Pence did.",
       "start_year": 2021,
       "end_year": null,
@@ -354,7 +354,7 @@
     {
       "name": "Elon Musk",
       "slug": "elon-musk",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "In June 2025, after Musk left DOGE, a public feud over Trump's tax-and-spending bill led Trump to threaten Musk's government contracts and Musk to claim Trump would have lost without him. Musk later returned to funding Republicans.",
       "start_year": 2025,
       "end_year": 2025,
@@ -468,7 +468,7 @@
     {
       "name": "Reid Hoffman",
       "slug": "reid-hoffman",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "Hoffman is a major Democratic donor who backed E. Jean Carroll's lawsuits against Trump; the Justice Department has investigated a group tied to him over those contributions, and in November 2025 Trump pushed for a DOJ probe of Hoffman's Epstein ties.",
       "end_year": null,
       "confidence": 0.9,
@@ -620,7 +620,7 @@
     {
       "name": "Dario Amodei",
       "slug": "dario-amodei",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "On February 27, 2026 Trump ordered every federal agency to stop using Anthropic's technology, calling it a \"radical Left AI company\", after Anthropic refused to lift limits on uses such as mass surveillance of Americans and autonomous weapons. Amodei challenged the resulting Pentagon designation in court and apologized for a leaked internal memo criticizing the administration.",
       "start_year": 2026,
       "end_year": null,
@@ -688,7 +688,7 @@
     {
       "name": "Steve Bannon",
       "slug": "steve-bannon",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "After Bannon's comments about Trump's children appeared in Michael Wolff's Fire and Fury in January 2018, Trump disavowed him and the two were estranged until Bannon praised him again in 2019.",
       "start_year": 2018,
       "end_year": 2019,
@@ -782,7 +782,7 @@
     {
       "name": "Nick Fuentes",
       "slug": "nick-fuentes",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "Fuentes backed Trump through the 2020 \"Stop the Steal\" campaign and dined with him and Ye at Mar-a-Lago in November 2022 (Trump said he did not know who Fuentes was). He later turned on Trump: in 2026 he attacked Trump as a liar, said he would not vote in the midterms and would back a Democrat over Vance or Rubio. Trump has largely not responded, and in November 2025 he defended Tucker Carlson's interview with Fuentes.",
       "start_year": 2025,
       "end_year": null,
@@ -1026,7 +1026,7 @@
     {
       "name": "Tucker Carlson",
       "slug": "tucker-carlson",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "Carlson accused Trump of complicity in Israel's June 2025 strikes on Iran and Trump called him \"kooky\". In 2026 Carlson said Trump should be removed from office over the Iran war; Trump called him \"a low IQ person\" and said he no longer takes his calls.",
       "start_year": 2025,
       "end_year": null,
@@ -1053,7 +1053,7 @@
     {
       "name": "Marjorie Taylor Greene",
       "slug": "marjorie-taylor-greene",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "Once a leading Trump ally, Greene broke with him over the Iran war and called for his removal; Trump attacked her and Carlson as \"LOSERS ALL\".",
       "start_year": 2026,
       "end_year": null,
@@ -1066,7 +1066,7 @@
     {
       "name": "Thomas Massie",
       "slug": "thomas-massie",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "Trump endorsed Ed Gallrein against Massie in October 2025 and rallied for him; Massie lost the May 2026 primary.",
       "start_year": 2025,
       "end_year": null,
@@ -1090,7 +1090,7 @@
     {
       "name": "Joe Kent",
       "slug": "joe-kent",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "Kent resigned in March 2026 saying Iran posed no imminent threat; Trump called him \"weak on security\".",
       "start_year": 2026,
       "end_year": null,
@@ -1189,7 +1189,7 @@
     {
       "name": "Gavin Newsom",
       "slug": "gavin-newsom",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "Newsom sued Trump over the 2025 federalization of the California National Guard in Los Angeles and won rulings ordering its return; he has positioned himself as a leading Trump opponent.",
       "start_year": 2025,
       "end_year": null,
@@ -1202,7 +1202,7 @@
     {
       "name": "Nancy Pelosi",
       "slug": "nancy-pelosi",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "As speaker, Pelosi oversaw both of Trump's impeachments (2019, 2021).",
       "start_year": 2019,
       "end_year": null,
@@ -1214,7 +1214,7 @@
     {
       "name": "Alexandria Ocasio-Cortez",
       "slug": "alexandria-ocasio-cortez",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "One of the leading Democratic opponents of Trump and his administration.",
       "start_year": 2019,
       "end_year": null,
@@ -1226,7 +1226,7 @@
     {
       "name": "Pete Buttigieg",
       "slug": "pete-buttigieg",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "A prominent Democratic counterweight to Trump; Trump has blamed him for the Newark air-traffic crisis.",
       "start_year": 2025,
       "end_year": null,
@@ -1278,7 +1278,7 @@
     {
       "name": "Ken Griffin",
       "slug": "ken-griffin",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "An establishment critic rather than a foe: Griffin called Trump's 2018 attacks on the Fed chair \"completely inappropriate\", Trump criticized him for skipping the 2020 China trade-deal signing, and Griffin did not fund Trump's 2024 campaign and calls his tariffs a \"slippery slope to crony capitalism\". He did meet Trump about donating in 2024.",
       "start_year": 2018,
       "end_year": null,
@@ -1292,7 +1292,7 @@
     {
       "name": "George Soros",
       "slug": "george-soros",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "Soros called Trump a \"con man\" in 2017. In August 2025 Trump said George and Alex Soros should be charged under the RICO racketeering law over \"violent protests\", without evidence; no charges followed.",
       "start_year": 2017,
       "end_year": null,

@@ -106,7 +106,7 @@
     {
       "name": "Donald Trump",
       "slug": "donald-trump",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "On February 27, 2026 Trump ordered every federal agency to stop using Anthropic's technology, calling it a \"radical Left AI company\", after Anthropic refused to lift limits on uses such as mass surveillance of Americans and autonomous weapons. Amodei challenged the resulting Pentagon designation in court and apologized for a leaked internal memo criticizing the administration.",
       "start_year": 2026,
       "end_year": null,
@@ -120,7 +120,7 @@
     {
       "name": "David Sacks",
       "slug": "david-sacks",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "In October 2025 Sacks, then Trump's AI czar, accused Anthropic of a \"sophisticated regulatory capture strategy based on fear-mongering\"; Amodei answered with a statement correcting what he called inaccurate claims about Anthropic's policy positions.",
       "start_year": 2025,
       "end_year": null,
@@ -133,7 +133,7 @@
     {
       "name": "Pete Hegseth",
       "slug": "pete-hegseth",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "Defense Secretary Hegseth designated Anthropic a supply-chain risk to national security in February–March 2026; Anthropic sued, and Amodei said the ban was narrower than Hegseth had threatened.",
       "start_year": 2026,
       "end_year": null,

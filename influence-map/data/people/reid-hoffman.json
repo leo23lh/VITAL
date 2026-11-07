@@ -123,7 +123,7 @@
     {
       "name": "Elon Musk",
       "slug": "elon-musk",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "In 2024 Musk publicly accused Hoffman of being close to Jeffrey Epstein; Hoffman called it \"a conviction with no evidence\" and said he needed added security. Later-released documents showed Hoffman had an established relationship with Epstein, which he says he regrets; he denies being an Epstein client.",
       "start_year": 2024,
       "end_year": null,
@@ -136,7 +136,7 @@
     {
       "name": "Donald Trump",
       "slug": "donald-trump",
-      "relationship_type": "rival",
+      "relationship_type": "enemy",
       "description": "Hoffman is a major Democratic donor who backed E. Jean Carroll's lawsuits against Trump; the Justice Department has investigated a group tied to him over those contributions, and in November 2025 Trump pushed for a DOJ probe of Hoffman's Epstein ties.",
       "end_year": null,
       "confidence": 0.9,

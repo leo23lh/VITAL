@@ -56,7 +56,8 @@ optionally followed by context about what to focus on.
 6. **Write the files.**
    - Update `DATA_DIR/<slug>.json` and set `last_researched` to today.
      Re-check `sector` and `groups` against the CLAUDE.md tables (roles change),
-     and whether each `rival` record is still ongoing (`end_year: null`) or has ended.
+     and whether each `rival` or `enemy` record is still ongoing (`end_year: null`) or has ended,
+     and still the right type (rival = equals competing; enemy = one opposing the other).
      Re-check `lean` (CLAUDE.md "Political lean"): add a new period if their
      politics shifted since `last_researched`, closing the previous one.
      For donors, update `giving` (CLAUDE.md "Giving"): add the latest cycle's

@@ -222,7 +222,7 @@ People in the 2028 presidential race carry a `race_2028` field and the
 - Update these as candidates declare or drop out (`/refresh-person`).
 
 The viewer also has three views that need no tagging: **Follow the money**
-(people with donor links), **Feuds** (people with rival links), and
+(people with donor links), **Feuds** (people with rival or enemy links), and
 **[Person]'s world** (anyone plus everyone within one or two links).
 
 Group and lens views use a radial layout: the view's people sit in the middle,
@@ -296,11 +296,13 @@ means "Jeff Sessions employed Stephen Miller".
 | `funded_by` | O was funded by S | `donor` |
 | `colleague` | worked alongside each other | `colleague` |
 | `ally` | publicly documented political or professional alliance | `ally` |
-| `rival` | publicly documented opposition or feud (set `end_year: null` if ongoing, the year it ended if it's over) | `rival` |
+| `rival` | peers at the same level competing for the same prize: rival candidates in an election or primary, rivals for the same post, competing companies or founders, a power struggle between equals (set `end_year: null` if ongoing, the year it ended if it's over) | `rival` |
+| `enemy` | publicly documented opposition where one side works against or attacks the other rather than competing with them as an equal: critics, campaigns to defeat or prosecute someone, a boss turning on a subordinate, a feud between people in different arenas (`end_year` as for `rival`) | `enemy` |
 | `co-founder` | founded something together | `co-founder` |
 | `family` | relatives — only if documented and both are public figures | `family` |
 
-Two people can have more than one record (e.g. `employer` and later `rival`).
+Two people can have more than one record (e.g. `employer` and later `enemy`).
+Rival or enemy? Ask whether they are competing for the same thing as equals (rival) or whether one is simply opposing the other (enemy). Trump vs Biden in 2020 is a rivalry; Trump vs Soros is enmity.
 Use one record per type per pair; put the whole story in its description.
 
 ## Confidence
@@ -358,10 +360,11 @@ on a phone. Its link is in `artifact.json`.
   beyond that and no network access from the app.
 - **Colors.** Relationship lines are colored by family from the start ("Color
   all lines" is on by default; turned off, lines stay grey until a person is
-  selected). Families: Work, Money, Alliance, Current
-  rivalry, Past rivalry, Personal. A rivalry is past when its `end_year` is a
-  year; ongoing or undated rivalries count as current. Past rivalries share the
-  rivalry color but are drawn dotted (dashed still means confidence under 50%). Dots are tinted by sector. Both color sets were checked for
+  selected). Families: Work, Money, Alliance, Current rivalry (yellow), Past
+  rivalry, Current enemy (pink), Past enemy, Personal. A rivalry or enmity is
+  past when its `end_year` is a year; ongoing or undated ones count as current.
+  Past ones share their family's color but are drawn dotted (dashed still means
+  confidence under 50%). Dots are tinted by sector. Both color sets were checked for
   color-blind separation against the dark background; the viewer always pairs
   color with text (legend, tooltips, details), so keep it that way.
 - If you add a sector or group, update `src/lib/schema.ts`, `scripts/validate.mjs`,

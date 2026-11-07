@@ -18,6 +18,7 @@ export const RELATIONSHIP_TYPES = [
   'colleague',
   'ally',
   'rival',
+  'enemy',
   'donor',
   'funded_by',
   'co-founder',
@@ -34,6 +35,7 @@ export const INVERSE_TYPE = {
   colleague: 'colleague',
   ally: 'ally',
   rival: 'rival',
+  enemy: 'enemy',
   'co-founder': 'co-founder',
   family: 'family',
 };
