@@ -34,16 +34,25 @@
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Chris_Larsen_on_When_Shift_Happens_(2025).jpg", "title": "File:Chris Larsen on When Shift Happens (2025).jpg — Wikimedia Commons" }
   },
   "current_role": "Co-founder and executive chairman of Ripple",
-  "summary": "Chris Larsen co-founded the online lender Prosper and, in 2012 with Jed McCaleb, the crypto firm that became Ripple, which he led as CEO before becoming executive chairman. The SEC sued Ripple and him in 2020 and dropped its remaining claims against him in 2023. With his partner Lyna Lam he is a leading Democratic-leaning donor, while Ripple is one of the biggest funders of the crypto super PAC Fairshake.",
+  "summary": "Chris Larsen co-founded the online lenders E-Loan (1996) and Prosper (2005) and, in 2012 with Jed McCaleb, the crypto firm that became Ripple, which he led as CEO before becoming executive chairman. The SEC sued Ripple and him in 2020 and dropped its remaining claims against him in 2023. With his partner Lyna Lam he is a leading Democratic-leaning donor, while Ripple is one of the biggest funders of the crypto super PAC Fairshake.",
   "sources": [
     { "url": "https://en.wikipedia.org/wiki/Chris_Larsen", "title": "Chris Larsen — Wikipedia" },
     { "url": "https://en.wikipedia.org/wiki/Ripple_Labs", "title": "Ripple Labs — Wikipedia" }
   ],
   "timeline": [
     {
-      "year": 2006,
-      "end_year": 2012,
-      "role": "Co-founder and CEO",
+      "year": 1996,
+      "end_year": 2005,
+      "role": "Co-founder and CEO; chairman until its 2005 sale to Banco Popular",
+      "org": "E-Loan",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Larsen", "title": "Chris Larsen — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2005,
+      "end_year": 2011,
+      "role": "Co-founder (with John Witchel) and CEO",
       "org": "Prosper Marketplace",
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Chris_Larsen", "title": "Chris Larsen — Wikipedia" }
@@ -123,7 +132,7 @@
       "name": "Alex Bores",
       "slug": "alex-bores",
       "relationship_type": "funded_by",
-      "description": "Larsen committed $3.5 million (the San Francisco Chronicle counts $4.5 million) to back Bores's 2026 House run as a \"counterweight\" to attack ads from the pro-AI super PAC Leading the Future.",
+      "description": "Larsen committed $3.5 million (the San Francisco Chronicle counts $4.5 million) to back Bores's 2026 House run as a \"counterweight\" to attack ads from the pro-AI super PAC Leading the Future. Bores lost the primary.",
       "start_year": 2026,
       "end_year": 2026,
       "confidence": 0.85,
@@ -163,7 +172,7 @@
       ]
     }
   ],
-  "notes": "Researched in a sandbox where news pages could not be opened, OpenSecrets was blocked and Wikipedia was rate-limiting; facts were confirmed with web searches tied to each cited URL. Lyna Lam (partner and co-donor) is a suggested connection only.",
+  "notes": "Researched in a sandbox where news pages could not be opened, OpenSecrets was blocked and Wikipedia was rate-limiting at first (the article was read later via its API); facts were confirmed with web searches tied to each cited URL. Lyna Lam (partner and co-donor) is a suggested connection only.",
   "last_researched": "2026-11-07",
   "giving": {
     "cycles": [
@@ -216,7 +225,7 @@
             "kind": "super-pac",
             "side": "D",
             "amount_usd": 4500000,
-            "description": "Backed the New York assemblyman's House run against attacks from the pro-AI super PAC Leading the Future.",
+            "description": "Backed the New York assemblyman's House run, a proxy fight between AI groups aligned with OpenAI and Anthropic; Bores lost the primary.",
             "sources": [
               { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" },
               { "url": "https://en.wikipedia.org/wiki/Alex_Bores", "title": "Alex Bores — Wikipedia" }
