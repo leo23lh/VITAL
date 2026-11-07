@@ -387,6 +387,18 @@
         { "url": "https://www.axios.com/2025/10/21/elon-musk-trump-nasa-spacex-duffy", "title": "Axios: Musk rages at Transportation head Duffy" },
         { "url": "https://www.space.com/space-exploration/sean-dummy-why-is-elon-musk-attacking-the-acting-nasa-chief", "title": "Space.com: 'Sean Dummy'" }
       ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "Musk backed Carlson's show on X after Fox dropped him in 2023; Musk told Carlson in an October 2024 interview that he had gone \"all in\" on Trump, and both lobbied Trump to pick Vance.",
+      "start_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://fortune.com/2024/10/08/elon-musk-donald-trump-tucker-carlson/", "title": "Fortune: Musk tells Tucker Carlson he has gone all in on Trump" },
+        { "url": "https://businessinsider.nl/elon-musk-tucker-carlson-and-david-sacks-personally-lobbied-trump-to-pick-vance-report", "title": "Business Insider: Musk, Carlson and Sacks personally lobbied Trump to pick Vance" }
+      ]
     }
   ],
   "source_conflicts": [

@@ -266,6 +266,20 @@
         { "url": "https://thegrio.com/2025/12/22/vice-president-jd-vance-issues-expletive-response-to-racist-attacks-on-his-wife", "title": "Vice President JD Vance issues expletive response to racist attacks on his wife — TheGrio" },
         { "url": "https://www.yahoo.com/news/articles/jd-vance-responds-nick-fuentes-004420613.html", "title": "JD Vance responds to Nick Fuentes' use of racial slur against wife Usha — USA Today via Yahoo" }
       ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "Close friends: Carlson lobbied Trump to choose Vance as his 2024 running mate, defended him in a May 2026 New York Times interview, and Vance defended their friendship in September 2026.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.thedailybeast.com/elon-musk-and-tucker-carlson-secretly-lobbied-trump-to-pick-jd-vance", "title": "Daily Beast: Musk and Carlson lobbied Trump to pick Vance" },
+        { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" },
+        { "url": "https://jewishinsider.com/2026/09/jd-vance-defends-friendship-tucker-carlson/", "title": "Jewish Insider: Vance defends friendship with Tucker Carlson" }
+      ]
     }
   ],
   "source_conflicts": [],

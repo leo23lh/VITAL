@@ -232,6 +232,18 @@
       "sources": [
         { "url": "https://www.thedailybeast.com/kari-lake-gets-new-state-dept-gig-in-bid-to-obliterate-voice-of-america", "title": "Kari Lake gets new State Dept gig in bid to obliterate Voice of America — Daily Beast" }
       ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "rival",
+      "description": "In a May 2026 New York Times interview Carlson accused Rubio's backers of \"nonstop treachery\" against Vance and criticized Rubio over the Iran war.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" }
+      ]
     }
   ],
   "source_conflicts": [],

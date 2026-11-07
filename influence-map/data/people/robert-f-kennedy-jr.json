@@ -130,6 +130,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.", "title": "Wikipedia: Robert F. Kennedy Jr." }
       ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "NBC reported that Carlson, Donald Trump Jr. and donor Omeed Malik held meetings and calls to negotiate Kennedy's August 2024 exit and Trump endorsement; Carlson said he \"definitely didn't broker anything\".",
+      "start_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" },
+        { "url": "https://www.megynkelly.com/2024/08/22/tucker-carlson-on-whether-rfk-jr-endorsement-will-help-trump/", "title": "Megyn Kelly Show: Carlson on an RFK Jr. endorsement" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

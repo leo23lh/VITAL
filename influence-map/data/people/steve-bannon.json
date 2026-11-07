@@ -238,6 +238,17 @@
       "sources": [
         { "url": "https://www.mediamatters.org/steve-bannon/steve-bannon-promotes-republican-big-lie-candidates-ahead-contested-arizona-primaries", "title": "Steve Bannon promotes Republican 'Big Lie' candidates ahead of contested Arizona primaries — Media Matters" }
       ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "Carlson and Bannon were the leading MAGA voices against U.S. involvement in the Israel-Iran war in June 2025; Carlson made the case on Bannon's show.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.npr.org/2025/06/18/nx-s1-5438122/trump-iran-israel-conflict-tucker-carlson", "title": "NPR: Pro-Trump media figures split over the Israel-Iran conflict" }
+      ]
     }
   ],
   "source_conflicts": [],

@@ -1008,6 +1008,34 @@
       "sources": [
         { "url": "https://www.coloradopolitics.com/2025/03/13/markwayne-mullin-finds-his-coalition-of-power-in-trumps-washington-15967267-2bfc-5d41-a723-3a4f9f6f8063/", "title": "Colorado Politics: Markwayne Mullin finds his coalition of power in Trump's Washington" }
       ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "Carlson spoke for Trump at the 2024 Republican convention and the Madison Square Garden rally, lobbied him to pick Vance, and helped bring RFK Jr. on board.",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://abcnews.go.com/US/wireStory/15-months-after-firing-tucker-carlson-returns-fox-112086921", "title": "AP via ABC News: Carlson returns to Fox airwaves with GOP convention speech" },
+        { "url": "https://m.washingtontimes.com/news/2024/oct/27/tucker-carlson-says-trump-liberated-americans-madi/", "title": "Washington Times: Carlson says Trump liberated Americans at Madison Square Garden" },
+        { "url": "https://www.thedailybeast.com/elon-musk-and-tucker-carlson-secretly-lobbied-trump-to-pick-jd-vance", "title": "Daily Beast: Musk and Carlson lobbied Trump to pick Vance" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "rival",
+      "description": "Carlson accused Trump of complicity in Israel's June 2025 strikes on Iran and Trump called him \"kooky\". In 2026 Carlson said Trump should be removed from office over the Iran war; Trump called him \"a low IQ person\" and said he no longer takes his calls.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2025/06/18/nx-s1-5438122/trump-iran-israel-conflict-tucker-carlson", "title": "NPR: Pro-Trump media figures split over the Israel-Iran conflict" },
+        { "url": "https://www.jns.org/news/u-s-news/tucker-a-low-iq-person-with-absolutely-no-idea-whats-going-on-trump-says", "title": "JNS: Trump says Tucker is 'a low IQ person'" },
+        { "url": "https://newsweek.com/tucker-carlson-says-trump-should-be-removed-from-office-immediately-12383179", "title": "Newsweek: Tucker Carlson says Trump should be removed from office" }
+      ]
     }
   ],
   "source_conflicts": [

@@ -243,6 +243,18 @@
         { "url": "https://www.axios.com/2023/06/08/robert-f-kennedy-jr-tech-2024-campaign", "title": "Axios: Tech figures back RFK Jr.'s campaign" },
         { "url": "https://www.nbcphiladelphia.com/news/business/money-report/investor-bill-ackman-david-sacks-pac-donated-to-rfk-jr-s-presidential-campaign/3604639/", "title": "CNBC: Ackman, David Sacks PAC donated to RFK Jr.'s campaign" }
       ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "Carlson, Sacks and Musk personally lobbied Trump to pick Vance as his running mate in July 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://businessinsider.nl/elon-musk-tucker-carlson-and-david-sacks-personally-lobbied-trump-to-pick-vance-report", "title": "Business Insider: Musk, Carlson and Sacks personally lobbied Trump to pick Vance" }
+      ]
     }
   ],
   "source_conflicts": [
