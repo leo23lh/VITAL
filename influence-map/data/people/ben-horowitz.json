@@ -1,0 +1,162 @@
+{
+  "name": "Ben Horowitz",
+  "aliases": ["Benjamin Horowitz", "Benjamin A. Horowitz"],
+  "public_figure": true,
+  "current_role": "Co-founder and general partner of Andreessen Horowitz (a16z)",
+  "summary": "Ben Horowitz worked with Marc Andreessen at Netscape, co-founded Loudcloud (later Opsware, sold to Hewlett-Packard in 2007) and in 2009 co-founded the venture capital firm Andreessen Horowitz; he wrote The Hard Thing About Hard Things (2014). Son of conservative activist David Horowitz, he endorsed and funded Donald Trump in July 2024 alongside Andreessen, then in October 2024 pledged a significant donation to groups backing Kamala Harris. He and Andreessen are major funders of the pro-AI super PAC Leading the Future.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" },
+    { "url": "https://fortune.com/2024/07/16/andreessen-horowitz-founders-the-latest-to-stake-trump/", "title": "Andreessen Horowitz founders the latest to stake Trump — Fortune" },
+    { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" }
+  ],
+  "timeline": [
+    {
+      "year": 1995,
+      "end_year": 1998,
+      "role": "Product manager, then vice president for the Directory and Security product line",
+      "org": "Netscape Communications",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1999,
+      "end_year": 2007,
+      "role": "Co-founder and CEO",
+      "org": "Loudcloud / Opsware",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Opsware", "title": "Opsware — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2009,
+      "end_year": null,
+      "role": "Co-founder and general partner",
+      "org": "Andreessen Horowitz",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2014,
+      "role": "Published The Hard Thing About Hard Things (Harper Business)",
+      "org": "Author",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Andreessen Horowitz",
+      "role": "Co-founder and general partner",
+      "start_year": 2009,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Leading the Future (pro-AI super PAC)",
+      "role": "Donor; gave $12.5 million per FEC filings reported in January 2026",
+      "start_year": 2025,
+      "sources": [
+        { "url": "https://www.notus.org/money/ai-super-pac-fundraising-midterms-democrats-republicans", "title": "AI super PAC fundraising — NOTUS" },
+        { "url": "https://news.bgov.com/private-equity/andreessen-horowitz-fuel-ai-industrys-51-million-midterm-haul", "title": "Andreessen, Horowitz Fuel AI Industry's $51 Million Midterm Haul — Bloomberg Government" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "co-founder",
+      "description": "Horowitz joined Andreessen at Netscape in 1995; they co-founded Loudcloud (later Opsware) in 1999 and the venture firm Andreessen Horowitz in 2009, and published its \"Little Tech Agenda\" and endorsed Trump together in July 2024.",
+      "start_year": 1999,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Opsware", "title": "Opsware — Wikipedia" },
+        { "url": "https://fortune.com/2024/07/16/andreessen-horowitz-founders-the-latest-to-stake-trump/", "title": "Andreessen Horowitz founders the latest to stake Trump — Fortune" }
+      ]
+    },
+    {
+      "name": "David Horowitz",
+      "slug": "david-horowitz",
+      "relationship_type": "family",
+      "description": "Father: the conservative activist and Freedom Center founder, who died in April 2025. Reporting describes the family's political split after David's turn to the right in the 1980s, and Ben's later, separate shift toward Republicans.",
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/David_Horowitz", "title": "David Horowitz — Wikipedia" },
+        { "url": "https://www.coloradopolitics.com/2024/08/19/ben-and-felicia-horowitzs-political-pivot-from-liberal-darlings-to-trump-backers/", "title": "Ben and Felicia Horowitz's political pivot from liberal darlings to Trump backers — Colorado Politics" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Horowitz endorsed Trump in July 2024 (\"for little tech, we think Donald Trump is actually the right choice\") and gave $2.5 million to the pro-Trump super PAC Right for America, per FEC filings. In October 2024 he told staff he and his wife would also make a significant donation to groups supporting Kamala Harris, citing friendship with her, while the firm stayed neutral.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://fortune.com/2024/07/16/andreessen-horowitz-founders-the-latest-to-stake-trump/", "title": "Andreessen Horowitz founders the latest to stake Trump — Fortune" },
+        { "url": "https://www.business-standard.com/world-news/silicon-valley-s-andreessen-horowitz-give-millions-to-pro-trump-pac-124101600146_1.html", "title": "Silicon Valley's Andreessen, Horowitz give millions to pro-Trump PAC — Business Standard (Bloomberg)" },
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "funded_by",
+      "description": "In October 2024 Horowitz said he and his wife Felicia would make \"a significant donation to entities who support the Harris Walz campaign\", citing their friendship with Harris, months after endorsing Trump.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" }
+      ]
+    },
+    {
+      "name": "Scott Kupor",
+      "slug": "scott-kupor",
+      "relationship_type": "employee",
+      "description": "Kupor was Andreessen Horowitz's first hire and its managing partner for about 16 years before becoming director of the Office of Personnel Management in July 2025.",
+      "start_year": 2009,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.opm.gov/news/scott-kupor-sworn-in-as-opm-director", "title": "Scott Kupor sworn in as OPM director — U.S. Office of Personnel Management" },
+        { "url": "https://fortune.com/2025/04/03/trump-appointee-scott-kupor-resigns-some-a16z-funds-boards-opm-confirmation/", "title": "Trump appointee Scott Kupor resigns from some a16z funds, boards — Fortune" }
+      ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "ally",
+      "description": "Co-funders of the pro-AI super PAC Leading the Future: FEC filings reported in January 2026 showed Horowitz, Andreessen and Brockman each giving $12.5 million.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.notus.org/money/ai-super-pac-fundraising-midterms-democrats-republicans", "title": "AI super PAC fundraising — NOTUS" },
+        { "url": "https://news.bgov.com/private-equity/andreessen-horowitz-fuel-ai-industrys-51-million-midterm-haul", "title": "Andreessen, Horowitz Fuel AI Industry's $51 Million Midterm Haul — Bloomberg Government" },
+        { "url": "https://fortune.com/2025/08/26/openai-president-greg-brockman-andreessen-horowitz-super-pac-ai-pro-innovation/", "title": "OpenAI president Greg Brockman and Andreessen Horowitz back AI super PAC — Fortune" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Opsware sale price",
+      "details": "Wikipedia's Ben Horowitz article gives $1.6 billion; its Opsware article gives $1.65 billion.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Opsware", "title": "Opsware — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Targeted searches found no documented personal link to Musk, Sacks, Thiel or the other PayPal co-founders beyond his firm's investments, so none is recorded.",
+  "last_researched": "2026-11-07"
+}

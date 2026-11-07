@@ -1,0 +1,303 @@
+{
+  "name": "Marc Andreessen",
+  "aliases": ["Marc Lowell Andreessen", "pmarca"],
+  "public_figure": true,
+  "current_role": "Co-founder and general partner of Andreessen Horowitz (a16z); member of the President's Council of Advisors on Science and Technology (since March 2026); Meta board member",
+  "summary": "Marc Andreessen co-created the Mosaic web browser, co-founded Netscape, Loudcloud/Opsware and, in 2009, the venture capital firm Andreessen Horowitz with Ben Horowitz. With Horowitz he published the firm's \"Little Tech Agenda\" in July 2024 and endorsed Donald Trump; he then helped recruit staff for the Trump transition and DOGE, and Trump named him to PCAST in March 2026. He and Horowitz are among the largest funders of pro-AI and pro-crypto super PACs in the 2026 midterms.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Marc_Andreessen", "title": "Marc Andreessen — Wikipedia" },
+    { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" },
+    { "url": "https://fortune.com/2024/07/16/andreessen-horowitz-founders-the-latest-to-stake-trump/", "title": "Andreessen Horowitz founders the latest to stake Trump — Fortune" }
+  ],
+  "timeline": [
+    {
+      "year": 1993,
+      "role": "Co-creator of the Mosaic web browser",
+      "org": "National Center for Supercomputing Applications (University of Illinois)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/NCSA_Mosaic", "title": "NCSA Mosaic — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Marc_Andreessen", "title": "Marc Andreessen — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1994,
+      "end_year": 1999,
+      "role": "Co-founder (with Jim Clark) and later chief technology officer",
+      "org": "Mosaic Communications / Netscape Communications",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/NCSA_Mosaic", "title": "NCSA Mosaic — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Netscape", "title": "Netscape — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1999,
+      "end_year": 2007,
+      "role": "Co-founder",
+      "org": "Loudcloud / Opsware (sold to Hewlett-Packard in 2007)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Opsware", "title": "Opsware — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2008,
+      "end_year": null,
+      "role": "Board member",
+      "org": "Facebook / Meta Platforms",
+      "sources": [
+        { "url": "https://about.fb.com/news/2008/06/marc-andreessen-joins-facebook-board-of-directors/", "title": "Marc Andreessen Joins Facebook Board of Directors — Meta" }
+      ]
+    },
+    {
+      "year": 2009,
+      "end_year": null,
+      "role": "Co-founder and general partner",
+      "org": "Andreessen Horowitz",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Marc_Andreessen", "title": "Marc Andreessen — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2023,
+      "role": "Published \"The Techno-Optimist Manifesto\" (October 16, 2023)",
+      "org": "Andreessen Horowitz",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Techno-Optimist_Manifesto", "title": "Techno-Optimist Manifesto — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": 2025,
+      "role": "Informal adviser and recruiter for the Trump transition and DOGE; said he spent about half his time at Mar-a-Lago and described himself as an unpaid volunteer for DOGE",
+      "org": "Trump transition / Department of Government Efficiency",
+      "sources": [
+        { "url": "https://thenightly.com.au/politics/us-politics/the-washington-post-elon-musk-isnt-the-only-tech-leader-helping-shape-the-donald-trump-administration-c-17384346", "title": "Elon Musk isn't the only tech leader helping shape the Donald Trump administration — The Washington Post (via The Nightly)" },
+        { "url": "https://fortune.com/2024/12/05/marc-andreessen-department-of-government-efficiency-trump-musk-bezos-recruiter-staff/", "title": "Marc Andreessen is recruiting for DOGE — Fortune" },
+        { "url": "https://fortune.com/2024/12/11/marc-andreessen-half-time-florida-trump-business-policies/", "title": "Marc Andreessen says he's spending half his time at Mar-a-Lago — Fortune" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Member",
+      "org": "President's Council of Advisors on Science and Technology (PCAST)",
+      "sources": [
+        { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" },
+        { "url": "https://www.deseret.com/politics/2026/03/25/donald-trump-president-council-advisors-science-technology-zuckerberg", "title": "Trump names tech leaders to science and technology council — Deseret News" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Andreessen Horowitz",
+      "role": "Co-founder and general partner",
+      "start_year": 2009,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Marc_Andreessen", "title": "Marc Andreessen — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Meta Platforms (Facebook)",
+      "role": "Board member",
+      "start_year": 2008,
+      "sources": [
+        { "url": "https://about.fb.com/news/2008/06/marc-andreessen-joins-facebook-board-of-directors/", "title": "Marc Andreessen Joins Facebook Board of Directors — Meta" }
+      ]
+    },
+    {
+      "name": "Leading the Future (pro-AI super PAC)",
+      "role": "Donor; gave $12.5 million per FEC filings reported in January 2026",
+      "start_year": 2025,
+      "sources": [
+        { "url": "https://fortune.com/2025/08/26/openai-president-greg-brockman-andreessen-horowitz-super-pac-ai-pro-innovation/", "title": "OpenAI president Greg Brockman and Andreessen Horowitz back AI super PAC — Fortune" },
+        { "url": "https://www.notus.org/money/ai-super-pac-fundraising-midterms-democrats-republicans", "title": "AI super PAC fundraising — NOTUS" },
+        { "url": "https://news.bgov.com/private-equity/andreessen-horowitz-fuel-ai-industrys-51-million-midterm-haul", "title": "Andreessen, Horowitz Fuel AI Industry's $51 Million Midterm Haul — Bloomberg Government" }
+      ]
+    },
+    {
+      "name": "President's Council of Advisors on Science and Technology",
+      "role": "Member",
+      "start_year": 2026,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "co-founder",
+      "description": "Horowitz joined Andreessen at Netscape in 1995; they co-founded Loudcloud (later Opsware) in 1999 and the venture firm Andreessen Horowitz in 2009, and published its \"Little Tech Agenda\" and endorsed Trump together in July 2024.",
+      "start_year": 1999,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Opsware", "title": "Opsware — Wikipedia" },
+        { "url": "https://fortune.com/2024/07/16/andreessen-horowitz-founders-the-latest-to-stake-trump/", "title": "Andreessen Horowitz founders the latest to stake Trump — Fortune" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "colleague",
+      "description": "Served together on Facebook's (Meta's) board from Andreessen's arrival in June 2008 until Thiel left at the 2022 annual meeting; a 2016 filing showed Andreessen receiving Facebook shares from Thiel-run vehicles Founders Fund and Lembas.",
+      "start_year": 2008,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://about.fb.com/news/2008/06/marc-andreessen-joins-facebook-board-of-directors/", "title": "Marc Andreessen Joins Facebook Board of Directors — Meta" },
+        { "url": "https://prnewswire.com/news-releases/peter-thiel-to-retire-from-meta-board-of-directors-at-2022-annual-shareholder-meeting-301476881.html", "title": "Peter Thiel to Retire from Meta Board of Directors at 2022 Annual Shareholder Meeting — PR Newswire" },
+        { "url": "https://csmonitor.com/Technology/2016/0621/Why-Facebook-s-board-members-are-no-strangers-to-controversy", "title": "Why Facebook's board members are no strangers to controversy — Christian Science Monitor" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "ally",
+      "description": "In April 2022 Andreessen messaged Musk on Signal offering to co-invest in the Twitter buyout, and Andreessen Horowitz committed about $400 million; after the 2024 election Andreessen helped recruit staff for Musk's DOGE, which he called unpaid volunteer work. Andreessen's firm has also invested in xAI and SpaceX.",
+      "start_year": 2022,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.businessinsider.in/tech/news/elon-musks-private-signal-chats-with-famed-investor-marc-andreessen-show-how-short-and-sweet-deal-making-can-be-if-youre-a-big-fish/articleshow/94542099.cms", "title": "Elon Musk's private Signal chats with Marc Andreessen — Business Insider" },
+        { "url": "https://fortune.com/2024/12/05/marc-andreessen-department-of-government-efficiency-trump-musk-bezos-recruiter-staff/", "title": "Marc Andreessen is recruiting for DOGE — Fortune" },
+        { "url": "https://thenightly.com.au/politics/us-politics/the-washington-post-elon-musk-isnt-the-only-tech-leader-helping-shape-the-donald-trump-administration-c-17384346", "title": "Elon Musk isn't the only tech leader helping shape the Donald Trump administration — The Washington Post (via The Nightly)" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "colleague",
+      "description": "Both sit on Trump's PCAST, Sacks as co-chair and Andreessen as a member, since March 2026. Sacks, then White House AI and crypto czar, also appeared on the a16z podcast with Andreessen and Horowitz to discuss AI and crypto policy.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" },
+        { "url": "https://a16z.com/podcast/david-sacks-ai-crypto-china-dems-and-sf/", "title": "David Sacks: AI, Crypto, China, Dems, and SF — a16z podcast" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "colleague",
+      "description": "Both were appointed to PCAST in March 2026. That shared council seat is the only basis found; no source documents them working together directly.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" },
+        { "url": "https://www.deseret.com/politics/2026/03/25/donald-trump-president-council-advisors-science-technology-zuckerberg", "title": "Trump names tech leaders to science and technology council — Deseret News" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Andreessen endorsed Trump in July 2024, citing the \"Little Tech Agenda\", and gave $2.5 million to the pro-Trump super PAC Right for America, per FEC filings reported by Bloomberg (Bloomberg also counted more than $24 million in wider political giving by each founder or their firm).",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2024/07/16/andreesen-horowitz-musk-trump", "title": "Tech leaders line up behind Trump — Axios" },
+        { "url": "https://www.business-standard.com/world-news/silicon-valley-s-andreessen-horowitz-give-millions-to-pro-trump-pac-124101600146_1.html", "title": "Silicon Valley's Andreessen, Horowitz give millions to pro-Trump PAC — Business Standard (Bloomberg)" },
+        { "url": "https://www.bloomberg.com/news/articles/2024-10-16/silicon-valley-s-andreessen-horowitz-give-millions-to-trump-pac", "title": "Silicon Valley's Andreessen, Horowitz Give Millions to Trump — Bloomberg" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "After the 2024 election Andreessen spent much of the transition at Mar-a-Lago helping staff the administration; the Washington Post reported at least 10 senior picks had ties to Andreessen, Musk or Thiel. Trump appointed him to PCAST in March 2026.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://thenightly.com.au/politics/us-politics/the-washington-post-elon-musk-isnt-the-only-tech-leader-helping-shape-the-donald-trump-administration-c-17384346", "title": "Elon Musk isn't the only tech leader helping shape the Donald Trump administration — The Washington Post (via The Nightly)" },
+        { "url": "https://fortune.com/2024/12/11/marc-andreessen-half-time-florida-trump-business-policies/", "title": "Marc Andreessen says he's spending half his time at Mar-a-Lago — Fortune" },
+        { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" }
+      ]
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "slug": "mark-zuckerberg",
+      "relationship_type": "colleague",
+      "description": "Andreessen has sat on the board of Zuckerberg's Facebook (now Meta) since June 2008; both were also named to PCAST in March 2026.",
+      "start_year": 2008,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://about.fb.com/news/2008/06/marc-andreessen-joins-facebook-board-of-directors/", "title": "Marc Andreessen Joins Facebook Board of Directors — Meta" },
+        { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" }
+      ]
+    },
+    {
+      "name": "Jim Clark",
+      "slug": "jim-clark",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Mosaic Communications (renamed Netscape) together in 1994.",
+      "start_year": 1994,
+      "end_year": 1999,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/NCSA_Mosaic", "title": "NCSA Mosaic — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Netscape", "title": "Netscape — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Scott Kupor",
+      "slug": "scott-kupor",
+      "relationship_type": "employee",
+      "description": "Kupor was Andreessen Horowitz's first hire and its managing partner for about 16 years before Trump picked him to lead the Office of Personnel Management; he was sworn in in July 2025.",
+      "start_year": 2009,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.opm.gov/news/scott-kupor-sworn-in-as-opm-director", "title": "Scott Kupor sworn in as OPM director — U.S. Office of Personnel Management" },
+        { "url": "https://fortune.com/2025/04/03/trump-appointee-scott-kupor-resigns-some-a16z-funds-boards-opm-confirmation/", "title": "Trump appointee Scott Kupor resigns from some a16z funds, boards — Fortune" },
+        { "url": "https://thenightly.com.au/politics/us-politics/the-washington-post-elon-musk-isnt-the-only-tech-leader-helping-shape-the-donald-trump-administration-c-17384346", "title": "Elon Musk isn't the only tech leader helping shape the Donald Trump administration — The Washington Post (via The Nightly)" }
+      ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "ally",
+      "description": "Andreessen Horowitz and OpenAI president Brockman were lead backers of the pro-AI super PAC Leading the Future, launched August 2025; FEC filings showed Andreessen and Brockman each giving $12.5 million.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2025/08/26/openai-president-greg-brockman-andreessen-horowitz-super-pac-ai-pro-innovation/", "title": "OpenAI president Greg Brockman and Andreessen Horowitz back AI super PAC — Fortune" },
+        { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" },
+        { "url": "https://www.notus.org/money/ai-super-pac-fundraising-midterms-democrats-republicans", "title": "AI super PAC fundraising — NOTUS" }
+      ]
+    },
+    {
+      "name": "Michael Kratsios",
+      "slug": "michael-kratsios",
+      "relationship_type": "colleague",
+      "description": "Kratsios, director of the White House Office of Science and Technology Policy, co-chairs PCAST, to which Andreessen was appointed in March 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "2024 giving to Trump",
+      "details": "FEC filings show $2.5 million each from Andreessen and Horowitz to the Right for America super PAC; Bloomberg separately reported more than $24 million each given through themselves or their firm, a broader measure.",
+      "sources": [
+        { "url": "https://www.business-standard.com/world-news/silicon-valley-s-andreessen-horowitz-give-millions-to-pro-trump-pac-124101600146_1.html", "title": "Silicon Valley's Andreessen, Horowitz give millions to pro-Trump PAC — Business Standard (Bloomberg)" },
+        { "url": "https://www.bloomberg.com/news/articles/2024-10-16/silicon-valley-s-andreessen-horowitz-give-millions-to-trump-pac", "title": "Silicon Valley's Andreessen, Horowitz Give Millions to Trump — Bloomberg" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Not recorded: a seat on Hewlett-Packard's board (start year could not be confirmed) and Reid Hoffman (no direct exchange with Andreessen found). Targeted searches found no documented link to the PayPal co-founders beyond Thiel and Musk, or to Miller, Sessions, Wiles or Rubio.",
+  "last_researched": "2026-11-07"
+}

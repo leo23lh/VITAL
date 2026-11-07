@@ -307,6 +307,20 @@
       "sources": [
         { "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management", "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor" }
       ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "colleague",
+      "description": "Served together on Facebook's (Meta's) board from Andreessen's arrival in June 2008 until Thiel left at the 2022 annual meeting; a 2016 filing showed Andreessen receiving Facebook shares from Thiel-run vehicles Founders Fund and Lembas.",
+      "start_year": 2008,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://about.fb.com/news/2008/06/marc-andreessen-joins-facebook-board-of-directors/", "title": "Marc Andreessen Joins Facebook Board of Directors — Meta" },
+        { "url": "https://prnewswire.com/news-releases/peter-thiel-to-retire-from-meta-board-of-directors-at-2022-annual-shareholder-meeting-301476881.html", "title": "Peter Thiel to Retire from Meta Board of Directors at 2022 Annual Shareholder Meeting — PR Newswire" },
+        { "url": "https://csmonitor.com/Technology/2016/0621/Why-Facebook-s-board-members-are-no-strangers-to-controversy", "title": "Why Facebook's board members are no strangers to controversy — Christian Science Monitor" }
+      ]
     }
   ],
   "source_conflicts": [

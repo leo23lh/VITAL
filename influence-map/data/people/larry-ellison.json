@@ -307,6 +307,19 @@
         { "url": "https://www.cnbc.com/2016/02/20/larry-ellison-keeps-bet-on-marco-rubio-donates-1-million-to-super-pac.html", "title": "Larry Ellison keeps bet on Marco Rubio, donates $1 million to super PAC — CNBC" },
         { "url": "https://digital-release.thehill.com/policy/technology/249966-oracles-ellison-donates-3-million-to-group-backing-rubio", "title": "Oracle's Ellison donates $3 million to group backing Rubio — The Hill" }
       ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "colleague",
+      "description": "Both were appointed to PCAST in March 2026. That shared council seat is the only basis found; no source documents them working together directly.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" },
+        { "url": "https://www.deseret.com/politics/2026/03/25/donald-trump-president-council-advisors-science-technology-zuckerberg", "title": "Trump names tech leaders to science and technology council — Deseret News" }
+      ]
     }
   ],
   "source_conflicts": [

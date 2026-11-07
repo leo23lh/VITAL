@@ -475,6 +475,66 @@
         { "url": "https://www.axios.com/2024/05/24/trump-jd-vance-tech-fundraiser-david-sacks", "title": "Scoop: J.D. Vance courts Silicon Valley for Trump — Axios" },
         { "url": "https://www.cnbc.com/2024/07/16/cnbc-daily-open-trump-attends-rnc-dow-record-close-bitcoin-digital-gold.html", "title": "CNBC Daily Open: Trump attends RNC — CNBC" }
       ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "donor",
+      "description": "Andreessen endorsed Trump in July 2024, citing the \"Little Tech Agenda\", and gave $2.5 million to the pro-Trump super PAC Right for America, per FEC filings reported by Bloomberg (Bloomberg also counted more than $24 million in wider political giving by each founder or their firm).",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2024/07/16/andreesen-horowitz-musk-trump", "title": "Tech leaders line up behind Trump — Axios" },
+        { "url": "https://www.business-standard.com/world-news/silicon-valley-s-andreessen-horowitz-give-millions-to-pro-trump-pac-124101600146_1.html", "title": "Silicon Valley's Andreessen, Horowitz give millions to pro-Trump PAC — Business Standard (Bloomberg)" },
+        { "url": "https://www.bloomberg.com/news/articles/2024-10-16/silicon-valley-s-andreessen-horowitz-give-millions-to-trump-pac", "title": "Silicon Valley's Andreessen, Horowitz Give Millions to Trump — Bloomberg" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "ally",
+      "description": "After the 2024 election Andreessen spent much of the transition at Mar-a-Lago helping staff the administration; the Washington Post reported at least 10 senior picks had ties to Andreessen, Musk or Thiel. Trump appointed him to PCAST in March 2026.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://thenightly.com.au/politics/us-politics/the-washington-post-elon-musk-isnt-the-only-tech-leader-helping-shape-the-donald-trump-administration-c-17384346", "title": "Elon Musk isn't the only tech leader helping shape the Donald Trump administration — The Washington Post (via The Nightly)" },
+        { "url": "https://fortune.com/2024/12/11/marc-andreessen-half-time-florida-trump-business-policies/", "title": "Marc Andreessen says he's spending half his time at Mar-a-Lago — Fortune" },
+        { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "donor",
+      "description": "Horowitz endorsed Trump in July 2024 (\"for little tech, we think Donald Trump is actually the right choice\") and gave $2.5 million to the pro-Trump super PAC Right for America, per FEC filings. In October 2024 he told staff he and his wife would also make a significant donation to groups supporting Kamala Harris, citing friendship with her, while the firm stayed neutral.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://fortune.com/2024/07/16/andreessen-horowitz-founders-the-latest-to-stake-trump/", "title": "Andreessen Horowitz founders the latest to stake Trump — Fortune" },
+        { "url": "https://www.business-standard.com/world-news/silicon-valley-s-andreessen-horowitz-give-millions-to-pro-trump-pac-124101600146_1.html", "title": "Silicon Valley's Andreessen, Horowitz give millions to pro-Trump PAC — Business Standard (Bloomberg)" },
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" }
+      ]
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "donor",
+      "description": "Adelson is one of Trump's biggest backers: she and Sheldon Adelson gave about $90 million to the pro-Trump Preserve America PAC in 2020, and she gave about $100 million in 2024. Trump awarded her the Presidential Medal of Freedom in 2018; she co-hosted a 2025 inaugural ball; her family foundation gave $25 million toward his White House ballroom; he hailed her in his October 2025 Knesset speech; and in December 2025 she urged him to seek an unconstitutional third term, which he said came with an offer of \"another $250 million\".",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://forward.com/fast-forward/665095/miriam-adelson-donates-100m-to-trump-campaign-making-good-on-reported-promise/", "title": "Miriam Adelson donates $100M to Trump campaign, making good on reported promise — The Forward" },
+        { "url": "https://nbcconnecticut.com/news/business/money-report/gop-megadonor-miriam-adelson-plans-to-do-whatever-it-takes-to-help-trump-win-with-100-million-dollar-pac/3364915", "title": "GOP megadonor Miriam Adelson plans to do 'whatever it takes' to help Trump win — CNBC via NBC Connecticut" },
+        { "url": "https://trumpwhitehouse.archives.gov/briefings-statements/remarks-president-trump-presentation-presidential-medal-freedom/", "title": "Remarks by President Trump at Presentation of the Presidential Medal of Freedom — The White House (archived)" },
+        { "url": "https://forward.com/fast-forward/690280/pro-israel-megadonor-miriam-adelson-takes-center-stage-at-donald-trumps-2025-inauguration/", "title": "Pro-Israel megadonor Miriam Adelson takes center stage at Donald Trump's 2025 inauguration — The Forward" },
+        { "url": "https://www.bostonglobe.com/2026/10/16/business/adelson-trump-ballroom-donor/", "title": "Adelson Trump ballroom donor — Boston Globe" },
+        { "url": "https://www.timesofisrael.com/liveblog_entry/hailing-adelson-and-her-60-billion-in-the-bank-trump-quips-that-she-likes-israel-more-than-us/", "title": "Hailing Adelson and her '$60 billion in the bank,' Trump quips that she likes Israel more than US — Times of Israel" },
+        { "url": "https://www.nbcdfw.com/news/sports/dallas-mavericks/dallas-mavericks-owner-miriam-adelson-urges-trump-to-run-for-third-term/3958248/", "title": "Dallas Mavericks owner Miriam Adelson urges Trump to run for third term — NBC DFW" }
+      ]
     }
   ],
   "source_conflicts": [

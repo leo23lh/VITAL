@@ -229,6 +229,20 @@
       "sources": [
         { "url": "https://fortune.com/2026/06/17/paypal-mafia-member-and-ex-sequoia-steward-roelof-botha-joins-spacex-board-reuniting-with-elon-musk-after-decades/", "title": "PayPal mafia member and ex-Sequoia steward Roelof Botha joins SpaceX board — Fortune" }
       ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "ally",
+      "description": "In April 2022 Andreessen messaged Musk on Signal offering to co-invest in the Twitter buyout, and Andreessen Horowitz committed about $400 million; after the 2024 election Andreessen helped recruit staff for Musk's DOGE, which he called unpaid volunteer work. Andreessen's firm has also invested in xAI and SpaceX.",
+      "start_year": 2022,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.businessinsider.in/tech/news/elon-musks-private-signal-chats-with-famed-investor-marc-andreessen-show-how-short-and-sweet-deal-making-can-be-if-youre-a-big-fish/articleshow/94542099.cms", "title": "Elon Musk's private Signal chats with Marc Andreessen — Business Insider" },
+        { "url": "https://fortune.com/2024/12/05/marc-andreessen-department-of-government-efficiency-trump-musk-bezos-recruiter-staff/", "title": "Marc Andreessen is recruiting for DOGE — Fortune" },
+        { "url": "https://thenightly.com.au/politics/us-politics/the-washington-post-elon-musk-isnt-the-only-tech-leader-helping-shape-the-donald-trump-administration-c-17384346", "title": "Elon Musk isn't the only tech leader helping shape the Donald Trump administration — The Washington Post (via The Nightly)" }
+      ]
     }
   ],
   "source_conflicts": [

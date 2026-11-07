@@ -162,6 +162,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/David_Sacks", "title": "David Sacks — Wikipedia" }
       ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "colleague",
+      "description": "Both sit on Trump's PCAST, Sacks as co-chair and Andreessen as a member, since March 2026. Sacks, then White House AI and crypto czar, also appeared on the a16z podcast with Andreessen and Horowitz to discuss AI and crypto policy.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" },
+        { "url": "https://a16z.com/podcast/david-sacks-ai-crypto-china-dems-and-sf/", "title": "David Sacks: AI, Crypto, China, Dems, and SF — a16z podcast" }
+      ]
     }
   ],
   "source_conflicts": [
