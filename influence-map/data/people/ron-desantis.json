@@ -151,6 +151,19 @@
         { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "CNBC: Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis" },
         { "url": "https://sfist.com/2022/10/20/wealthy-sf-recall-backer-pumping-millions-to-desantis-and-j-d-vance-hyping-that-ukraine-needs-to-surrender/", "title": "SFist: Sacks pumping millions to DeSantis and Vance" }
       ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "donor",
+      "description": "Griffin gave $5 million to DeSantis in 2021 and praised him, but declined to fund his 2024 presidential run, citing his fight with Disney and other positions.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+        { "url": "https://fortune.com/2024/02/26/ken-griffin-koch-brothers-republican-billionaire-megadonors-trump-haley-desantis/", "title": "Ken Griffin, the Koch brothers and the Republican megadonors — Fortune" }
+      ]
     }
   ],
   "affiliations": [],

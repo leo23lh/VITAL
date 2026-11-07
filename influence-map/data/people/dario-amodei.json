@@ -156,6 +156,17 @@
         { "url": "https://en.wikipedia.org/wiki/Daniela_Amodei", "title": "Daniela Amodei — Wikipedia" },
         { "url": "https://en.wikipedia.org/wiki/Anthropic", "title": "Anthropic — Wikipedia" }
       ]
+    },
+    {
+      "name": "Dustin Moskovitz",
+      "slug": "dustin-moskovitz",
+      "relationship_type": "donor",
+      "description": "Moskovitz invested in Anthropic's first major funding round in 2021 and later moved the stake into a nonprofit vehicle.",
+      "start_year": 2021,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/06/24/asanas-dustin-moskovitz-is-bullish-on-ai-but-concerned-about-risks.html", "title": "Asana's Dustin Moskovitz is bullish on AI but concerned about risks — CNBC" }
+      ]
     }
   ],
   "source_conflicts": [

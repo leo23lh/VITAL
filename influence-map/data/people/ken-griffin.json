@@ -1,0 +1,295 @@
+{
+  "name": "Ken Griffin",
+  "aliases": ["Kenneth C. Griffin", "Kenneth Cordele Griffin"],
+  "public_figure": true,
+  "sector": "business",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Calls himself a \"Ronald Reagan Republican\"; has given hundreds of millions to Republican candidates and committees (about $100M in 2024, mainly to the Senate and House Republican super PACs). An establishment Republican: backed Rubio in 2016 and Haley in 2024, did not fund Trump's 2016 or 2024 campaigns, and criticizes his tariffs.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+        { "url": "https://www.cbsnews.com/news/trump-megadonors-2024-election/", "title": "The megadonors who fueled Trump and the Republican Party — CBS News" },
+        { "url": "https://fortune.com/2026/03/31/ken-griffin-citadel-securities-hedge-fund-miami-wall-street-trump-republican-politics/", "title": "Ken Griffin, Citadel and Republican politics — Fortune" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["marco-rubio"],
+    "basis": "Told Axios in July 2026 he would back Marco Rubio over JD Vance for the 2028 nomination; he also backed Rubio in 2016.",
+    "sources": [
+      { "url": "https://www.axios.com/2026/07/08/ken-griffin-gop-rubio-vance-2028", "title": "Scoop: GOP megadonor Ken Griffin says he'd back Rubio over Vance in 2028 — Axios" },
+      { "url": "https://thehill.com/homenews/campaign/5961185-ken-griffin-2028-presidential-election-potential-race-marco-rubio-jd-vance/", "title": "Ken Griffin says he would back Marco Rubio for 2028 nomination over JD Vance — The Hill" }
+    ]
+  },
+  "current_role": "Founder and CEO of Citadel; founder of Citadel Securities",
+  "summary": "Ken Griffin founded the hedge fund Citadel in 1990 and the market maker Citadel Securities, and moved both headquarters from Chicago to Miami in 2022. One of the largest Republican donors, he funds establishment Senate and House super PACs and candidates rather than Trump, whose tariffs he has called a step toward \"crony capitalism\". He has said he would back Marco Rubio in 2028.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+    { "url": "https://fortune.com/2026/03/31/ken-griffin-citadel-securities-hedge-fund-miami-wall-street-trump-republican-politics/", "title": "Ken Griffin, Citadel and Republican politics — Fortune" },
+    { "url": "https://www.axios.com/2026/07/08/ken-griffin-gop-rubio-vance-2028", "title": "Scoop: GOP megadonor Ken Griffin says he'd back Rubio over Vance in 2028 — Axios" }
+  ],
+  "timeline": [
+    {
+      "year": 1990,
+      "end_year": null,
+      "role": "Founder and CEO",
+      "org": "Citadel LLC",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2002,
+      "end_year": null,
+      "role": "Founder",
+      "org": "Citadel Securities",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "The Business Council",
+      "role": "Member",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Griffin Catalyst",
+      "role": "Founder (philanthropy)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "funded_by",
+      "description": "Griffin endorsed Rubio in December 2015 and gave $5 million to the pro-Rubio super PAC; in July 2026 he told Axios he would back Rubio over Vance for 2028.",
+      "start_year": 2015,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+        { "url": "https://www.bloomberg.com/news/articles/2016-01-31/singer-griffin-give-combined-5-million-to-super-pac-backing-rubio", "title": "Singer, Griffin give combined $5 million to super PAC backing Rubio — Bloomberg" },
+        { "url": "https://www.axios.com/2026/07/08/ken-griffin-gop-rubio-vance-2028", "title": "Scoop: GOP megadonor Ken Griffin says he'd back Rubio over Vance in 2028 — Axios" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "ally",
+      "description": "Fellow hedge-fund megadonors who jointly bankrolled the pro-Rubio super PAC in 2016 and met Trump together about donating in 2024; both fund the Republican congressional super PACs.",
+      "start_year": 2015,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2016-01-31/singer-griffin-give-combined-5-million-to-super-pac-backing-rubio", "title": "Singer, Griffin give combined $5 million to super PAC backing Rubio — Bloomberg" },
+        { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Griffin and Singer meet Trump about donating — Fortune" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "funded_by",
+      "description": "Griffin gave $5 million to DeSantis in 2021 and praised him, but declined to fund his 2024 presidential run, citing his fight with Disney and other positions.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+        { "url": "https://fortune.com/2024/02/26/ken-griffin-koch-brothers-republican-billionaire-megadonors-trump-haley-desantis/", "title": "Ken Griffin, the Koch brothers and the Republican megadonors — Fortune" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "An establishment critic rather than a foe: Griffin called Trump's 2018 attacks on the Fed chair \"completely inappropriate\", Trump criticized him for skipping the 2020 China trade-deal signing, and Griffin did not fund Trump's 2024 campaign and calls his tariffs a \"slippery slope to crony capitalism\". He did meet Trump about donating in 2024.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+        { "url": "https://fortune.com/2026/03/31/ken-griffin-citadel-securities-hedge-fund-miami-wall-street-trump-republican-politics/", "title": "Ken Griffin, Citadel and Republican politics — Fortune" },
+        { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Griffin and Singer meet Trump about donating — Fortune" }
+      ]
+    },
+    {
+      "name": "Zohran Mamdani",
+      "slug": "zohran-mamdani",
+      "relationship_type": "rival",
+      "description": "In April 2026 Mamdani singled out Griffin in a video announcing a New York wealth tax; Griffin threatened to halt Citadel's planned Park Avenue headquarters tower, then in August said it would go ahead.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Byron Donalds",
+      "slug": "byron-donalds",
+      "relationship_type": "funded_by",
+      "description": "Griffin gave $10 million to boost Donalds' 2026 run for Florida governor.",
+      "start_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2026-election/republican-ken-griffin-byron-donalds-florida-governor-rcna588984", "title": "Ken Griffin gives $10 million to boost Byron Donalds' bid for Florida governor — NBC News" }
+      ]
+    },
+    {
+      "name": "Nikki Haley",
+      "slug": "nikki-haley",
+      "relationship_type": "funded_by",
+      "description": "Griffin backed Haley in the 2024 primary with $5 million to a super PAC supporting her.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/01/30/ken-griffin-donated-5-million-to-nikki-haley-super-pac.html", "title": "Ken Griffin donated $5 million to Nikki Haley super PAC — CNBC" },
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where news pages could not be opened and OpenSecrets was blocked; facts were confirmed with web searches tied to each cited URL and with the Wikipedia article via its API.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 32600000,
+        "rank": 22,
+        "ranking": "Washington Post 2026 tracker, individual donors only (FEC data); not in the top 15 counting groups",
+        "description": "Well below his 2024 level. Wikipedia counts $32.4M to Republicans as of August 2026.",
+        "sources": [
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+          { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+        ],
+        "recipients": [
+          {
+            "name": "Byron Donalds (Florida governor)",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 10000000,
+            "sources": [
+              { "url": "https://www.nbcnews.com/politics/2026-election/republican-ken-griffin-byron-donalds-florida-governor-rcna588984", "title": "Ken Griffin gives $10 million to boost Byron Donalds' bid for Florida governor — NBC News" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 108400000,
+        "rank": 5,
+        "ranking": "OpenSecrets 2024 top donors (via Newser)",
+        "description": "Mostly to the establishment Senate and House Republican super PACs; he did not give to Trump's campaign. The Washington Post counts $103.7M, CBS about $100M.",
+        "sources": [
+          { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
+          { "url": "https://www.washingtonpost.com/elections/interactive/2024/biggest-campaign-donors-election-2024/", "title": "Meet the top 50 campaign donors pumping millions into the 2024 election — Washington Post" },
+          { "url": "https://www.cbsnews.com/news/trump-megadonors-2024-election/", "title": "The megadonors who fueled Trump and the Republican Party — CBS News" }
+        ],
+        "recipients": [
+          {
+            "name": "Congressional Leadership Fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 16000000,
+            "description": "As of late October 2024.",
+            "sources": [
+              { "url": "https://edition.cnn.com/2024/10/25/politics/campaign-fundraising-house-senate", "title": "In race for Congress, Democrats burn through cash while outraising Republicans — CNN" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "kind": "super-pac",
+            "side": "R",
+            "description": "Named among its main 2024 funders.",
+            "sources": [
+              { "url": "https://www.nbcnews.com/politics/2024-election/democrats-flooded-cash-fight-congress-gop-stretch-money-rcna175636", "title": "Democrats flooded with cash in fight for Congress — NBC News" },
+              { "url": "https://www.cbsnews.com/news/trump-megadonors-2024-election/", "title": "The megadonors who fueled Trump and the Republican Party — CBS News" }
+            ]
+          },
+          {
+            "name": "Dave McCormick (Pennsylvania Senate)",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 10000000,
+            "sources": [
+              { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+            ]
+          },
+          {
+            "name": "Florida campaign against legal recreational cannabis",
+            "kind": "ballot-measure",
+            "side": "R",
+            "amount_usd": 12000000,
+            "sources": [
+              { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+            ]
+          },
+          {
+            "name": "Nikki Haley (super PAC)",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 5000000,
+            "sources": [
+              { "url": "https://www.cnbc.com/2024/01/30/ken-griffin-donated-5-million-to-nikki-haley-super-pac.html", "title": "Ken Griffin donated $5 million to Nikki Haley super PAC — CNBC" },
+              { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+            ]
+          },
+          {
+            "name": "Tim Sheehy (Montana Senate)",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5000000,
+            "sources": [
+              { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "Griffin has said he would back Marco Rubio over JD Vance for the 2028 nomination, and funds the establishment congressional super PACs every cycle.",
+      "sources": [
+        { "url": "https://www.axios.com/2026/07/08/ken-griffin-gop-rubio-vance-2028", "title": "Scoop: GOP megadonor Ken Griffin says he'd back Rubio over Vance in 2028 — Axios" },
+        { "url": "https://thehill.com/homenews/campaign/5961185-ken-griffin-2028-presidential-election-potential-race-marco-rubio-jd-vance/", "title": "Ken Griffin says he would back Marco Rubio for 2028 nomination over JD Vance — The Hill" }
+      ],
+      "likely": [
+        {
+          "name": "Marco Rubio",
+          "slug": "marco-rubio",
+          "kind": "candidate",
+          "side": "R",
+          "basis": "Told Axios (July 2026) he would back Rubio over Vance; backed Rubio in 2016. Rubio has said he would defer to Vance, so a race is not certain.",
+          "confidence": 0.8,
+          "sources": [
+            { "url": "https://www.axios.com/2026/07/08/ken-griffin-gop-rubio-vance-2028", "title": "Scoop: GOP megadonor Ken Griffin says he'd back Rubio over Vance in 2028 — Axios" },
+            { "url": "https://thehill.com/homenews/campaign/5961185-ken-griffin-2028-presidential-election-potential-race-marco-rubio-jd-vance/", "title": "Ken Griffin says he would back Marco Rubio for 2028 nomination over JD Vance — The Hill" },
+            { "url": "https://thehill.com/homenews/administration/5786733-gop-donor-rubio-vance-2028/", "title": "JD Vance-Marco Rubio rivalry put into sharp contrast by Iran war — The Hill" }
+          ]
+        },
+        {
+          "name": "Senate Leadership Fund / Congressional Leadership Fund",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "Major gifts in 2022 ($10M CLF, $5M Senate) and 2024 ($16M+ CLF).",
+          "confidence": 0.75,
+          "sources": [
+            { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+            { "url": "https://edition.cnn.com/2024/10/25/politics/campaign-fundraising-house-senate", "title": "In race for Congress, Democrats burn through cash while outraising Republicans — CNN" }
+          ]
+        }
+      ]
+    }
+  }
+}

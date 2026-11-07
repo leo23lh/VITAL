@@ -265,6 +265,18 @@
       "sources": [
         { "url": "https://www.foxbusiness.com/politics/openai-reaches-pentagon-agreement-trump-orders-anthropic-off-federal-systems", "title": "OpenAI reaches Pentagon agreement as Trump orders Anthropic off federal systems — Fox Business" }
       ]
+    },
+    {
+      "name": "Dustin Moskovitz",
+      "slug": "dustin-moskovitz",
+      "relationship_type": "donor",
+      "description": "Through Open Philanthropy, Moskovitz and Tuna's Good Ventures granted $30 million to OpenAI over three years from 2017, and Open Philanthropy's head joined OpenAI's board.",
+      "start_year": 2017,
+      "end_year": 2020,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.openphilanthropy.org/grants/openai-general-support", "title": "OpenAI — General Support (grant) — Open Philanthropy" }
+      ]
     }
   ],
   "source_conflicts": [

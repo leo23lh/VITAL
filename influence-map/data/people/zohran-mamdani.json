@@ -82,6 +82,18 @@
       "sources": [
         { "url": "https://www.yahoo.com/news/articles/bloomberg-pumped-5m-anti-mamdani-164000539.html", "title": "Yahoo News: Bloomberg pumped $5M into anti-Mamdani super PACs" }
       ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "rival",
+      "description": "In April 2026 Mamdani singled out Griffin in a video announcing a New York wealth tax; Griffin threatened to halt Citadel's planned Park Avenue headquarters tower, then in August said it would go ahead.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

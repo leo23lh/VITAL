@@ -293,6 +293,19 @@
         { "url": "https://floridapolitics.com/archives/261574-marco-rubio-hires-new-chief-of-staff-away-from-heritage-action", "title": "Florida Politics" },
         { "url": "https://whbl.com/2026/05/26/rubio-aide-mike-needham-promoted-to-top-white-house-national-security-post-source-says/", "title": "Reuters via WHBL: Rubio aide Mike Needham promoted to top White House national security post" }
       ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "donor",
+      "description": "Griffin endorsed Rubio in December 2015 and gave $5 million to the pro-Rubio super PAC; in July 2026 he told Axios he would back Rubio over Vance for 2028.",
+      "start_year": 2015,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+        { "url": "https://www.bloomberg.com/news/articles/2016-01-31/singer-griffin-give-combined-5-million-to-super-pac-backing-rubio", "title": "Singer, Griffin give combined $5 million to super PAC backing Rubio — Bloomberg" },
+        { "url": "https://www.axios.com/2026/07/08/ken-griffin-gop-rubio-vance-2028", "title": "Scoop: GOP megadonor Ken Griffin says he'd back Rubio over Vance in 2028 — Axios" }
+      ]
     }
   ],
   "source_conflicts": [],

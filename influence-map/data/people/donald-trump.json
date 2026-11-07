@@ -1274,6 +1274,20 @@
         { "url": "https://www.nbcnews.com/politics/2024-election/timothy-mellon-leads-huge-month-trump-megadonors-pouring-cash-into-election-rcna158204", "title": "Timothy Mellon leads huge month for Trump megadonors — NBC News" },
         { "url": "https://www.cnn.com/2024/08/21/politics/cash-advantage-harris-trump-rfk-filings/index.html", "title": "Harris erases Trump's cash edge while RFK Jr. faces dwindling resources — CNN" }
       ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "rival",
+      "description": "An establishment critic rather than a foe: Griffin called Trump's 2018 attacks on the Fed chair \"completely inappropriate\", Trump criticized him for skipping the 2020 China trade-deal signing, and Griffin did not fund Trump's 2024 campaign and calls his tariffs a \"slippery slope to crony capitalism\". He did meet Trump about donating in 2024.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+        { "url": "https://fortune.com/2026/03/31/ken-griffin-citadel-securities-hedge-fund-miami-wall-street-trump-republican-politics/", "title": "Ken Griffin, Citadel and Republican politics — Fortune" },
+        { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Griffin and Singer meet Trump about donating — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [

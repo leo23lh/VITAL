@@ -181,6 +181,20 @@
         { "url": "https://www.axios.com/local/san-francisco/2026/09/16/gavin-newsom-kamala-harris-2028-democratic-primary", "title": "Axios San Francisco: Newsom's 2028 plans could hinge on Harris' decision" },
         { "url": "https://kmph.com/news/nation-world/why-experts-see-newsoms-pledge-to-avoid-running-against-harris-as-strategic-move-gavin-newsom-kamala-harris-democrats-2028-presidential-race", "title": "Why experts see Newsom's pledge to avoid running against Harris as strategic" }
       ]
+    },
+    {
+      "name": "Dustin Moskovitz",
+      "slug": "dustin-moskovitz",
+      "relationship_type": "donor",
+      "description": "Moskovitz gave about $50 million to Future Forward, the main pro-Harris super PAC, plus $929,600 to the Harris Victory Fund.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },
+        { "url": "https://www.cnn.com/2024/10/30/politics/democratic-digital-advertising-future-forward/index.html", "title": "If you've been seeing more pro-Harris ads online lately, here's why — CNN" },
+        { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

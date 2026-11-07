@@ -74,6 +74,18 @@
         { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Fortune: Griffin and Singer meet Trump about donating" },
         { "url": "https://www.influencewatch.org/person/paul-e-singer/", "title": "InfluenceWatch" }
       ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "ally",
+      "description": "Fellow hedge-fund megadonors who jointly bankrolled the pro-Rubio super PAC in 2016 and met Trump together about donating in 2024; both fund the Republican congressional super PACs.",
+      "start_year": 2015,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2016-01-31/singer-griffin-give-combined-5-million-to-super-pac-backing-rubio", "title": "Singer, Griffin give combined $5 million to super PAC backing Rubio — Bloomberg" },
+        { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Griffin and Singer meet Trump about donating — Fortune" }
+      ]
     }
   ],
   "affiliations": [],
