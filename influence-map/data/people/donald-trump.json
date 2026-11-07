@@ -1036,6 +1036,69 @@
         { "url": "https://www.jns.org/news/u-s-news/tucker-a-low-iq-person-with-absolutely-no-idea-whats-going-on-trump-says", "title": "JNS: Trump says Tucker is 'a low IQ person'" },
         { "url": "https://newsweek.com/tucker-carlson-says-trump-should-be-removed-from-office-immediately-12383179", "title": "Newsweek: Tucker Carlson says Trump should be removed from office" }
       ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "After meeting Trump in 2024, Singer gave $5 million to the pro-Trump MAGA Inc., per a compilation of FEC data.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Fortune: Griffin and Singer meet Trump about donating" },
+        { "url": "https://www.influencewatch.org/person/paul-e-singer/", "title": "InfluenceWatch" }
+      ]
+    },
+    {
+      "name": "Marjorie Taylor Greene",
+      "slug": "marjorie-taylor-greene",
+      "relationship_type": "rival",
+      "description": "Once a leading Trump ally, Greene broke with him over the Iran war and called for his removal; Trump attacked her and Carlson as \"LOSERS ALL\".",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.npr.org/2026/04/09/nx-s1-5778195/some-of-trumps-biggest-supporters-become-his-loudest-critics-over-iran-war", "title": "NPR: Some of Trump's biggest supporters become his loudest critics over Iran war" },
+        { "url": "https://salon.com/2026/08/22/i-wish-i-had-never-supported-him-mtg-fires-back-after-trumps-attack-on-maga-losers", "title": "Salon: 'I wish I had never supported him': MTG fires back" }
+      ]
+    },
+    {
+      "name": "Thomas Massie",
+      "slug": "thomas-massie",
+      "relationship_type": "rival",
+      "description": "Trump endorsed Ed Gallrein against Massie in October 2025 and rallied for him; Massie lost the May 2026 primary.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.adn.com/nation-world/2026/05/19/rep-thomas-massie-loses-gop-primary-in-kentucky-to-challenger-endorsed-by-trump/", "title": "AP via ADN: Rep. Thomas Massie loses GOP primary to Trump-endorsed challenger" }
+      ]
+    },
+    {
+      "name": "Joe Kent",
+      "slug": "joe-kent",
+      "relationship_type": "employee",
+      "description": "Trump appointed Kent to lead the National Counterterrorism Center.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.notus.org/trump-white-house/joe-kent-national-counterterrorism-center-director-resigns-iran-war", "title": "NOTUS: Joe Kent, Trump's National Counterterrorism Center director, resigns over Iran war" }
+      ]
+    },
+    {
+      "name": "Joe Kent",
+      "slug": "joe-kent",
+      "relationship_type": "rival",
+      "description": "Kent resigned in March 2026 saying Iran posed no imminent threat; Trump called him \"weak on security\".",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.notus.org/trump-white-house/joe-kent-national-counterterrorism-center-director-resigns-iran-war", "title": "NOTUS: Joe Kent, Trump's National Counterterrorism Center director, resigns over Iran war" },
+        { "url": "https://www.aljazeera.com/news/2026/3/17/us-national-counterterrorism-center-director-joe-kent-resigns-over-iran-war", "title": "Al Jazeera" }
+      ]
     }
   ],
   "source_conflicts": [

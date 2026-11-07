@@ -3,7 +3,7 @@
   "aliases": [],
   "public_figure": true,
   "sector": "politics",
-  "groups": ["trump-circle", "middle-east"],
+  "groups": ["trump-circle", "middle-east", "2028-race"],
   "photo": {
     "file": "marco-rubio.jpg",
     "credit": "U.S. Department of State",
@@ -21,6 +21,15 @@
       ]
     }
   ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Second in most 2028 Republican polls, and donors have discussed a \"draft Rubio\" effort, though he says he has \"no plans at this time\" to run and would back Vance.",
+    "sources": [
+      { "url": "https://www.denvergazette.com/2026/10/27/vance-leads-rubio-by-double-digits-in-early-2028-republican-poll/", "title": "Denver Gazette: Vance leads Rubio by double digits in early 2028 Republican poll" },
+      { "url": "https://abcnews.com/Politics/gop-donors-plot-shadow-draft-rubio-2028-effort/story?id=131013014", "title": "ABC News: Some GOP donors plot shadow 'draft Rubio' 2028 effort" },
+      { "url": "https://www.ms.now/news/marco-rubio-president-2028-jd-vance", "title": "MS NOW: Will Marco Rubio run for president in 2028?" }
+    ]
+  },
   "current_role": "U.S. Secretary of State (since January 2025) and National Security Adviser (acting from May 2025, made permanent September 22, 2026)",
   "summary": "Marco Rubio is a Florida Republican who was Speaker of the Florida House (2006–2008) and a U.S. senator (2011–2025). He co-wrote the 2013 bipartisan Gang of Eight immigration bill, which Jeff Sessions led the fight against, and ran for president in 2016 against Donald Trump. Confirmed 99–0 as secretary of state on Trump's first day back in office, he also took over as national security adviser in May 2025, the first person to hold both jobs since Henry Kissinger.",
   "sources": [
@@ -243,6 +252,46 @@
       "confidence": 0.75,
       "sources": [
         { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" }
+      ]
+    },
+    {
+      "name": "Norman Braman",
+      "slug": "norman-braman",
+      "relationship_type": "donor",
+      "description": "Braman is described as Rubio's political patron: he employed Rubio as a lawyer, backed his career, and gave about $6 million to the pro-Rubio super PAC in 2015–2016.",
+      "start_year": null,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.rollingstone.com/politics/politics-news/meet-the-gop-mega-donors-of-the-2016-election-223992/2/", "title": "Rolling Stone: Meet the GOP mega-donors of the 2016 election" },
+        { "url": "https://forward.com/articles/218769/norman-braman-the-money-man-behind-marco-rubios-ca", "title": "Forward: Norman Braman, the money man behind Marco Rubio's campaign" },
+        { "url": "https://www.thenation.com/article/archive/meet-marco-rubios-far-right-neocon-donors/", "title": "The Nation: Meet Marco Rubio's donors" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "Singer was one of Rubio's early top money men and endorsed him in October 2015; with Ken Griffin he gave to the pro-Rubio super PAC.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Fortune: Griffin and Singer meet Trump about donating" },
+        { "url": "https://www.bloomberg.com/news/articles/2016-01-31/singer-griffin-give-combined-5-million-to-super-pac-backing-rubio", "title": "Bloomberg" }
+      ]
+    },
+    {
+      "name": "Michael Needham",
+      "slug": "michael-needham",
+      "relationship_type": "employee",
+      "description": "Needham has worked for Rubio since 2018: Senate chief of staff, then counselor, chief of staff and policy planning director at State.",
+      "start_year": 2018,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/261574-marco-rubio-hires-new-chief-of-staff-away-from-heritage-action", "title": "Florida Politics" },
+        { "url": "https://whbl.com/2026/05/26/rubio-aide-mike-needham-promoted-to-top-white-house-national-security-post-source-says/", "title": "Reuters via WHBL: Rubio aide Mike Needham promoted to top White House national security post" }
       ]
     }
   ],

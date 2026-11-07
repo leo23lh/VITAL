@@ -3,7 +3,7 @@
   "aliases": [],
   "public_figure": true,
   "sector": "tech",
-  "groups": ["paypal-mafia", "tech-right", "defense-tech"],
+  "groups": ["paypal-mafia", "tech-right", "defense-tech", "2028-race"],
   "photo": {
     "file": "peter-thiel.jpg",
     "credit": "Gage Skidmore",
@@ -32,6 +32,15 @@
       ]
     }
   ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["jd-vance"],
+    "basis": "Vance's mentor and former employer, who funded his 2022 Senate race; among the billionaires reported as backing his rise.",
+    "sources": [
+      { "url": "https://www.cnbc.com/2022/10/03/peter-thiel-signals-he-is-done-helping-jd-vance-will-fundraise-for-blake-masters.html", "title": "CNBC: Thiel and Vance" },
+      { "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/", "title": "Forbes: The billionaires cozying up to JD Vance" }
+    ]
+  },
   "current_role": "Chairman of Palantir Technologies; co-founder of Founders Fund",
   "summary": "Peter Thiel is a venture capitalist and the central figure of the PayPal Mafia. He co-founded Confinity in 1998, became CEO of PayPal after its merger with Elon Musk's X.com, co-founded Palantir in 2003 and Founders Fund in 2005, and was Facebook's first outside investor and a board member from 2005 to 2022. A major Republican donor, he gave $1.25 million to Trump's 2016 campaign and $15 million to a super PAC backing his former employee and protégé JD Vance's 2022 Senate run.",
   "sources": [

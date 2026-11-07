@@ -1,0 +1,64 @@
+{
+  "name": "Norman Braman",
+  "public_figure": true,
+  "sector": "business",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican megadonor; gave about $6 million to the pro-Rubio super PAC in the 2016 cycle.",
+      "sources": [
+        { "url": "https://ballotpedia.org/Norman_Braman", "title": "Ballotpedia: Norman Braman" },
+        { "url": "https://www.rollingstone.com/politics/politics-news/meet-the-gop-mega-donors-of-the-2016-election-223992/2/", "title": "Rolling Stone: Meet the GOP mega-donors of the 2016 election" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["marco-rubio"],
+    "basis": "Rubio's longtime political patron and largest 2016 backer; no 2028 role reported yet.",
+    "sources": [
+      { "url": "https://www.rollingstone.com/politics/politics-news/meet-the-gop-mega-donors-of-the-2016-election-223992/2/", "title": "Rolling Stone: Meet the GOP mega-donors of the 2016 election" },
+      { "url": "https://forward.com/articles/218769/norman-braman-the-money-man-behind-marco-rubios-ca", "title": "Forward: Norman Braman, the money man behind Marco Rubio's campaign" }
+    ]
+  },
+  "current_role": "Miami auto dealer and philanthropist",
+  "summary": "Norman Braman is a Miami auto dealer and former owner of the Philadelphia Eagles. Described as Marco Rubio's political patron, he employed Rubio as a lawyer, backed his early career, and gave about $6 million to the pro-Rubio super PAC in Rubio's 2016 presidential run.",
+  "sources": [
+    { "url": "https://ballotpedia.org/Norman_Braman", "title": "Ballotpedia: Norman Braman" },
+    { "url": "https://forward.com/articles/218769/norman-braman-the-money-man-behind-marco-rubios-ca", "title": "Forward: Norman Braman, the money man behind Marco Rubio's campaign" }
+  ],
+  "timeline": [
+    {
+      "year": 2015,
+      "end_year": 2016,
+      "role": "Largest donor to Conservative Solutions PAC, backing Rubio (about $6 million)",
+      "org": "Conservative Solutions PAC",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2016-01-31/singer-griffin-give-combined-5-million-to-super-pac-backing-rubio", "title": "Bloomberg: Singer, Griffin give $5 million to super PAC backing Rubio" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "funded_by",
+      "description": "Braman is described as Rubio's political patron: he employed Rubio as a lawyer, backed his career, and gave about $6 million to the pro-Rubio super PAC in 2015–2016.",
+      "start_year": null,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.rollingstone.com/politics/politics-news/meet-the-gop-mega-donors-of-the-2016-election-223992/2/", "title": "Rolling Stone: Meet the GOP mega-donors of the 2016 election" },
+        { "url": "https://forward.com/articles/218769/norman-braman-the-money-man-behind-marco-rubios-ca", "title": "Forward: Norman Braman, the money man behind Marco Rubio's campaign" },
+        { "url": "https://www.thenation.com/article/archive/meet-marco-rubios-far-right-neocon-donors/", "title": "The Nation: Meet Marco Rubio's donors" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

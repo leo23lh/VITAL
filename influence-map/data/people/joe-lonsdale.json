@@ -3,7 +3,7 @@
   "aliases": ["Joseph Lonsdale"],
   "public_figure": true,
   "sector": "tech",
-  "groups": ["tech-right", "ai-race"],
+  "groups": ["tech-right", "ai-race", "2028-race"],
   "photo": {
     "file": "joe-lonsdale.jpg",
     "credit": "TechCrunch",
@@ -22,6 +22,15 @@
       ]
     }
   ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["jd-vance"],
+    "basis": "Hosted a $50,000-a-head fundraiser for Vance in March 2026 and has said Vance could be the party's 2028 pick; named among Vance's donor network.",
+    "sources": [
+      { "url": "https://www.fox7austin.com/news/vice-president-jd-vance-visits-austin-fundraising-event", "title": "Fox 7 Austin: Vance visits Austin fundraising event" },
+      { "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/", "title": "Forbes: The billionaires cozying up to JD Vance" }
+    ]
+  },
   "current_role": "Co-founder and managing partner of 8VC",
   "summary": "Joe Lonsdale, a Peter Thiel protégé, co-founded Palantir in 2004, then Addepar and OpenGov, and the venture firms Formation 8 and 8VC, which he moved to Austin in 2020. An active Republican donor and fundraiser, he helped lead Elon Musk's pro-Trump America PAC in 2024, backs the pro-AI super PAC Leading the Future, invested in Palmer Luckey's Erebor bank, and hosted a JD Vance fundraiser in Austin in 2026. He also founded the Cicero Institute and co-founded the University of Austin.",
   "sources": [

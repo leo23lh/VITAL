@@ -3,7 +3,7 @@
   "aliases": ["James David Vance", "J. D. Vance", "James Donald Bowman"],
   "public_figure": true,
   "sector": "politics",
-  "groups": ["trump-circle", "tech-right"],
+  "groups": ["trump-circle", "tech-right", "2028-race"],
   "photo": {
     "file": "jd-vance.jpg",
     "credit": "Emily J. Higgins",
@@ -31,6 +31,14 @@
       ]
     }
   ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Front-runner for the 2028 Republican nomination: led the October 2026 NYT-Siena poll with 33% to Rubio's 23%; as RNC finance chair he courts the party's top donors.",
+    "sources": [
+      { "url": "https://www.denvergazette.com/2026/10/27/vance-leads-rubio-by-double-digits-in-early-2028-republican-poll/", "title": "Denver Gazette: Vance leads Rubio by double digits in early 2028 Republican poll" },
+      { "url": "https://thedispatch.com/article/vance-rnc-finance-chair/", "title": "The Dispatch: J.D. Vance secures an inside lane to 2028" }
+    ]
+  },
   "current_role": "50th Vice President of the United States (since January 20, 2025)",
   "summary": "JD Vance, a Marine veteran and Yale Law graduate, became known for his 2016 memoir Hillbilly Elegy, worked for Peter Thiel's Mithril Capital, and won Ohio's Senate seat in 2022 with $15 million in super PAC backing from Thiel. Trump chose him as his 2024 running mate; he took office as vice president in January 2025. Rubio has said he would back Vance for the 2028 nomination, though the Republicans' November 2026 midterm losses raised doubts about his standing.",
   "sources": [
@@ -279,6 +287,18 @@
         { "url": "https://www.thedailybeast.com/elon-musk-and-tucker-carlson-secretly-lobbied-trump-to-pick-jd-vance", "title": "Daily Beast: Musk and Carlson lobbied Trump to pick Vance" },
         { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" },
         { "url": "https://jewishinsider.com/2026/09/jd-vance-defends-friendship-tucker-carlson/", "title": "Jewish Insider: Vance defends friendship with Tucker Carlson" }
+      ]
+    },
+    {
+      "name": "Andy Surabian",
+      "slug": "andy-surabian",
+      "relationship_type": "employee",
+      "description": "Surabian was a senior adviser on Vance's 2022 Senate run and ran his 2024 vice-presidential operation; Axios called him perhaps Vance's closest political adviser.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios: Vice President-elect JD Vance's inner circle" }
       ]
     }
   ],

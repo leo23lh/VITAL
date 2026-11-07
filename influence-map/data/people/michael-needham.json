@@ -1,0 +1,90 @@
+{
+  "name": "Michael Needham",
+  "aliases": ["Mike Needham"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Conservative operative: co-founded and ran Heritage Action, then served as Rubio's chief of staff in the Senate and at State.",
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/261574-marco-rubio-hires-new-chief-of-staff-away-from-heritage-action", "title": "Florida Politics: Rubio hires Heritage Action chief as chief of staff" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["marco-rubio"],
+    "basis": "Rubio's closest aide since 2018 (Senate chief of staff, then counselor, chief of staff and policy planning director at State).",
+    "sources": [
+      { "url": "https://whbl.com/2026/05/26/rubio-aide-mike-needham-promoted-to-top-white-house-national-security-post-source-says/", "title": "Reuters via WHBL: Rubio aide Mike Needham promoted to top White House national security post" },
+      { "url": "https://www.latintimes.com/who-marco-rubio-confidant-taking-top-white-house-national-security-role-597617", "title": "Latin Times: Who is the Marco Rubio confidant taking a top White House role" }
+    ]
+  },
+  "current_role": "Assistant to the President and Deputy National Security Adviser (since May 2026)",
+  "summary": "Michael Needham co-founded Heritage Action for America and ran it for about eight years before becoming Marco Rubio's Senate chief of staff in 2018. He followed Rubio to the State Department in 2025 as counselor, chief of staff and director of policy planning, and in May 2026 was reported promoted to deputy national security adviser at the White House.",
+  "sources": [
+    { "url": "https://whbl.com/2026/05/26/rubio-aide-mike-needham-promoted-to-top-white-house-national-security-post-source-says/", "title": "Reuters via WHBL: Rubio aide Mike Needham promoted to top White House national security post" },
+    { "url": "https://floridapolitics.com/archives/261574-marco-rubio-hires-new-chief-of-staff-away-from-heritage-action", "title": "Florida Politics" }
+  ],
+  "timeline": [
+    {
+      "year": 2010,
+      "end_year": 2018,
+      "role": "Co-founder and CEO",
+      "org": "Heritage Action for America",
+      "sources": [
+        { "url": "https://heritageaction.com/press/mike-needham-to-be-marco-rubios-chief-of-staff", "title": "Heritage Action: Mike Needham to be Marco Rubio's chief of staff" }
+      ]
+    },
+    {
+      "year": 2018,
+      "end_year": 2023,
+      "role": "Chief of staff to Sen. Marco Rubio",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/261574-marco-rubio-hires-new-chief-of-staff-away-from-heritage-action", "title": "Florida Politics" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Counselor, chief of staff, then director of policy planning",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://m.washingtontimes.com/news/2024/dec/9/trump-names-state-department-picks-personal-lawyer/", "title": "Washington Times: Trump names State Department picks" },
+        { "url": "https://whbl.com/2026/05/26/rubio-aide-mike-needham-promoted-to-top-white-house-national-security-post-source-says/", "title": "Reuters via WHBL: Rubio aide Mike Needham promoted to top White House national security post" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Deputy national security adviser (reported May 26, 2026)",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://whbl.com/2026/05/26/rubio-aide-mike-needham-promoted-to-top-white-house-national-security-post-source-says/", "title": "Reuters via WHBL: Rubio aide Mike Needham promoted to top White House national security post" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Needham has worked for Rubio since 2018: Senate chief of staff, then counselor, chief of staff and policy planning director at State.",
+      "start_year": 2018,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/261574-marco-rubio-hires-new-chief-of-staff-away-from-heritage-action", "title": "Florida Politics" },
+        { "url": "https://whbl.com/2026/05/26/rubio-aide-mike-needham-promoted-to-top-white-house-national-security-post-source-says/", "title": "Reuters via WHBL: Rubio aide Mike Needham promoted to top White House national security post" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

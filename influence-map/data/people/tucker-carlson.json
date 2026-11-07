@@ -3,7 +3,7 @@
   "aliases": ["Tucker Swanson McNear Carlson"],
   "public_figure": true,
   "sector": "politics",
-  "groups": ["media"],
+  "groups": ["media", "2028-race"],
   "lean": [
     {
       "value": 2,
@@ -26,6 +26,14 @@
       ]
     }
   ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Seen as the leader of an anti-Trump MAGA lane; Joe Kent, Marjorie Taylor Greene and Thomas Massie urged him to run, but he says he will not.",
+    "sources": [
+      { "url": "https://www.washingtonexaminer.com/?p=4678584", "title": "Washington Examiner: Could Tucker Carlson run in 2028? Allies see 'clearly a constituency'" },
+      { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+    ]
+  },
   "photo": {
     "file": "tucker-carlson.jpg",
     "credit": "Gage Skidmore from Surprise, AZ, United States of America",
@@ -248,6 +256,43 @@
       "confidence": 0.85,
       "sources": [
         { "url": "https://www.theguardian.com/media/2023/apr/24/tucker-carlson-leaving-fox-news", "title": "Guardian: Tucker Carlson leaves Fox News, reportedly fired by Rupert Murdoch" }
+      ]
+    },
+    {
+      "name": "Marjorie Taylor Greene",
+      "slug": "marjorie-taylor-greene",
+      "relationship_type": "ally",
+      "description": "Greene joined Carlson, Massie and Kent at his Maine home in August 2026 and urged him to run for president; she and Carlson both said they were done with the GOP.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=371383", "title": "AP via Hawaii Tribune-Herald: Tucker Carlson and Marjorie Taylor Greene say they are done with the GOP" }
+      ]
+    },
+    {
+      "name": "Thomas Massie",
+      "slug": "thomas-massie",
+      "relationship_type": "ally",
+      "description": "Massie joined Carlson's August 2026 gathering and urged him to run for president.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+      ]
+    },
+    {
+      "name": "Joe Kent",
+      "slug": "joe-kent",
+      "relationship_type": "ally",
+      "description": "Kent attended Carlson's August 2026 gathering and said the group urged Carlson to run for president.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
       ]
     }
   ],

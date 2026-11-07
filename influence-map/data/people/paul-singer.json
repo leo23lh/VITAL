@@ -1,0 +1,76 @@
+{
+  "name": "Paul Singer",
+  "aliases": ["Paul Elliott Singer"],
+  "public_figure": true,
+  "sector": "business",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Major Republican donor: backed Rubio in 2016 and Nikki Haley in 2024, then gave to the Senate Leadership Fund, Congressional Leadership Fund and the pro-Trump MAGA Inc.",
+      "sources": [
+        { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Fortune: Griffin and Singer meet Trump about donating" },
+        { "url": "https://www.influencewatch.org/person/paul-e-singer/", "title": "InfluenceWatch: Paul E. Singer" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["marco-rubio"],
+    "basis": "One of Rubio's top 2016 money men; no 2028 role reported yet.",
+    "sources": [
+      { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Fortune: Griffin and Singer meet Trump about donating" },
+      { "url": "https://www.thenation.com/article/archive/meet-marco-rubios-far-right-neocon-donors/", "title": "The Nation" }
+    ]
+  },
+  "current_role": "Founder and co-CEO of Elliott Management",
+  "summary": "Paul Singer founded the activist hedge fund Elliott Management in 1977 and is one of the largest Republican donors. He was among Marco Rubio's top backers in the 2016 primary, supported Nikki Haley early in 2024, and later gave to Republican congressional super PACs and Trump's MAGA Inc.",
+  "sources": [
+    { "url": "https://ballotpedia.org/Paul_Singer", "title": "Ballotpedia: Paul Singer" },
+    { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Fortune: Griffin and Singer meet Trump about donating" }
+  ],
+  "timeline": [
+    {
+      "year": 1977,
+      "end_year": null,
+      "role": "Founder",
+      "org": "Elliott Management",
+      "sources": [
+        { "url": "https://ballotpedia.org/Paul_Singer", "title": "Ballotpedia: Paul Singer" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "funded_by",
+      "description": "Singer was one of Rubio's early top money men and endorsed him in October 2015; with Ken Griffin he gave to the pro-Rubio super PAC.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Fortune: Griffin and Singer meet Trump about donating" },
+        { "url": "https://www.bloomberg.com/news/articles/2016-01-31/singer-griffin-give-combined-5-million-to-super-pac-backing-rubio", "title": "Bloomberg" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "After meeting Trump in 2024, Singer gave $5 million to the pro-Trump MAGA Inc., per a compilation of FEC data.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Fortune: Griffin and Singer meet Trump about donating" },
+        { "url": "https://www.influencewatch.org/person/paul-e-singer/", "title": "InfluenceWatch" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

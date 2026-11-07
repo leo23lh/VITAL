@@ -249,6 +249,18 @@
       "sources": [
         { "url": "https://www.npr.org/2025/06/18/nx-s1-5438122/trump-iran-israel-conflict-tucker-carlson", "title": "NPR: Pro-Trump media figures split over the Israel-Iran conflict" }
       ]
+    },
+    {
+      "name": "Andy Surabian",
+      "slug": "andy-surabian",
+      "relationship_type": "employee",
+      "description": "Surabian was Bannon's political adviser in the White House in 2017.",
+      "start_year": 2017,
+      "end_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/bannons-political-adviser-leaving-white-house-to-join-pro-trump-group-1513305315-dab5eb87-701b-4f01-a34a-4f93ad4d5dbe.html", "title": "Axios" }
+      ]
     }
   ],
   "source_conflicts": [],
