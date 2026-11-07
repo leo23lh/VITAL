@@ -1288,6 +1288,20 @@
         { "url": "https://fortune.com/2026/03/31/ken-griffin-citadel-securities-hedge-fund-miami-wall-street-trump-republican-politics/", "title": "Ken Griffin, Citadel and Republican politics — Fortune" },
         { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Griffin and Singer meet Trump about donating — Fortune" }
       ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "rival",
+      "description": "Soros called Trump a \"con man\" in 2017. In August 2025 Trump said George and Alex Soros should be charged under the RICO racketeering law over \"violent protests\", without evidence; no charges followed.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/George_Soros", "title": "George Soros — Wikipedia" },
+        { "url": "https://www.washingtontimes.com/news/2025/aug/27/trump-says-leftist-megadonors-george-alex-soros-face-racketeering/", "title": "Trump says leftist megadonors George, Alex Soros should face racketeering charges — Washington Times" },
+        { "url": "https://www.cnn.com/2025/09/28/business/george-soros-trump-doj-explained", "title": "Who is George Soros, the famed philanthropist under attack? — CNN" }
+      ]
     }
   ],
   "source_conflicts": [

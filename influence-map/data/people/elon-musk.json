@@ -439,6 +439,19 @@
         { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" },
         { "url": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/", "title": "How Elon Musk left OpenAI, according to Greg Brockman — TechCrunch" }
       ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "rival",
+      "description": "In May 2023 Musk compared Soros to the X-Men villain Magneto and said he \"hates humanity\"; the ADL said the attacks would embolden extremists. In 2025 Musk backed Trump's call for RICO charges against the Soroses.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnn.com/2023/05/16/business/elon-musk-george-soros/index.html", "title": "Elon Musk claims George Soros 'hates humanity.' The ADL says Musk's attacks 'will embolden extremists' — CNN" },
+        { "url": "https://www.cnbc.com/2023/05/16/elon-musk-defends-inflammatory-tweets-ill-say-what-i-want.html", "title": "Elon Musk defends Soros tweets: 'I'll say what I want' — CNBC" }
+      ]
     }
   ],
   "source_conflicts": [

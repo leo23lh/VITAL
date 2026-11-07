@@ -138,6 +138,18 @@
       "sources": [
         { "url": "https://www.axios.com/local/san-francisco/2026/09/16/gavin-newsom-kamala-harris-2028-democratic-primary", "title": "Axios San Francisco: Newsom's 2028 plans could hinge on Harris' decision" }
       ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "donor",
+      "description": "Soros gave $10 million to Newsom's 2025 campaign to redraw California's congressional map (Prop. 50).",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.washingtonpost.com/politics/2025/09/19/george-soros-gavin-newsom-california-redistricting/", "title": "George Soros gives $10 million to help Democrats redistrict in California — Washington Post" }
+      ]
     }
   ],
   "affiliations": [],

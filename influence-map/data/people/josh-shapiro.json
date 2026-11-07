@@ -80,6 +80,17 @@
       "sources": [
         { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" }
       ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "donor",
+      "description": "Fox News reports that Soros family political committees supported Shapiro's reelection campaign in 2025; no amount given.",
+      "start_year": 2025,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.foxnews.com/politics/soros-political-machine-putting-millions-work-before-election-day-zeroing-key-races", "title": "Soros family pours $40M through Democracy PAC to Democratic allies — Fox News" }
+      ]
     }
   ],
   "affiliations": [],
