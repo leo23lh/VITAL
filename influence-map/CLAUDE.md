@@ -132,8 +132,12 @@ connections show. The validator rejects names not listed here; keep the lists in
 | `critics` | Critics & opponents | Prominent opponents of Trump or his administration |
 
 The viewer also has three views that need no tagging: **Follow the money**
-(donor links only), **Feuds** (rival links only), and **[Person]'s world**
-(anyone plus everyone within one or two links).
+(people with donor links), **Feuds** (people with rival links), and
+**[Person]'s world** (anyone plus everyone within one or two links).
+
+Group and lens views use a radial layout: the view's people sit in the middle,
+and everyone else sits on faint rings by how many links away they are
+("1 step out", "2 steps out", "not linked"). The whole network stays visible.
 
 ## Relationship types
 

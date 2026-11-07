@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import * as validator from '../../scripts/validate.mjs';
-import { activeInYear, buildGraph, describeLink, mergePairs, neighborhood, roleOfOther } from './graph';
+import { activeInYear, buildGraph, describeLink, mergePairs, neighborhood, ringDistances, roleOfOther } from './graph';
 import { GROUPS, INVERSE_TYPE, RELATIONSHIP_TYPES, SECTORS, type Person, type PersonFile } from './schema';
 
 const src = (n: number) => [{ url: `https://example.com/${n}`, title: `Source ${n}` }];
@@ -117,6 +117,12 @@ describe('views', () => {
     expect(activeInYear(funding, 2010)).toBe(true);
     expect([...neighborhood('a', g.links, 1)].sort()).toEqual(['a', 'b']);
     expect([...neighborhood('a', g.links, 2)].sort()).toEqual(['a', 'b', 'c']);
+  });
+
+  it('puts the core in the middle and everyone else on rings by distance', () => {
+    const { rings, unlinked } = ringDistances(new Set(['a']), g.links, ['a', 'b', 'c', 'z']);
+    expect(Object.fromEntries(rings)).toEqual({ a: 0, b: 1, c: 2, z: 3 });
+    expect(unlinked).toBe(3);
   });
 });
 

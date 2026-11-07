@@ -11,6 +11,7 @@ import {
   familyOf,
   mergePairs,
   neighborhood,
+  ringDistances,
   yearSpan,
   type GraphNode,
 } from './lib/graph';
@@ -28,6 +29,16 @@ export type View =
   | { kind: 'world'; id: string; depth: 1 | 2 };
 
 export type Layout = 'wide' | 'card' | 'sheet';
+
+/** For a view: who sits in the middle, how many steps out everyone else is, which lines to stress. */
+export interface RadialLayout {
+  core: Set<string>;
+  rings: Map<string, number>;
+  /** The outer ring for people with no path to the core, if any. */
+  unlinked: number | null;
+  /** Lens family whose lines stay colored (Follow the money, Feuds); null = core-to-core lines. */
+  emphasis: EdgeFamily | null;
+}
 
 function currentLayout(): Layout {
   if (window.matchMedia('(min-width: 1100px)').matches) return 'wide';
@@ -78,12 +89,10 @@ export default function App() {
       graph.links.filter((l) => {
         const fam = familyOf(l);
         if (hidden.has(fam)) return false;
-        if (view.kind === 'money' && fam !== 'money') return false;
-        if (view.kind === 'feuds' && fam !== 'rivalry') return false;
         if (year != null && !activeInYear(l, year)) return false;
         return true;
       }),
-    [graph, hidden, view.kind, year],
+    [graph, hidden, year],
   );
 
   const selectedNodeId = selection?.kind === 'node' ? selection.id : null;
@@ -95,15 +104,10 @@ export default function App() {
       touched.add(l.sourceId);
       touched.add(l.targetId);
     }
-    const okSuggested = (id: string) => byId.get(id)?.researched || showSuggested;
-
     if (view.kind === 'world') {
       for (const id of neighborhood(view.id, filteredLinks, view.depth)) ids.add(id);
-    } else if (view.kind === 'group') {
-      for (const n of graph.nodes) if (n.groups.includes(view.id)) ids.add(n.id);
-    } else if (view.kind === 'money' || view.kind === 'feuds') {
-      for (const id of touched) if (okSuggested(id)) ids.add(id);
     } else {
+      // Groups and lenses keep everyone on the map; the view's core people go in the middle.
       for (const n of graph.nodes) if (n.researched || (showSuggested && touched.has(n.id))) ids.add(n.id);
     }
     // The selected person always brings their own connections along, suggested ones included.
@@ -114,7 +118,26 @@ export default function App() {
 
     const links = filteredLinks.filter((l) => ids.has(l.sourceId) && ids.has(l.targetId));
     const nodes = graph.nodes.filter((n) => ids.has(n.id));
-    return { nodes, links, pairs: mergePairs(links) };
+
+    // Radial layout: who sits in the middle for this view, and how many steps out everyone else is.
+    let radial: RadialLayout | null = null;
+    if (view.kind !== 'all') {
+      const core = new Set<string>();
+      const lens = view.kind === 'money' ? 'money' : view.kind === 'feuds' ? 'rivalry' : null;
+      if (view.kind === 'world') {
+        core.add(view.id);
+      } else if (view.kind === 'group') {
+        for (const n of nodes) if (n.groups.includes(view.id)) core.add(n.id);
+      } else {
+        for (const l of links) {
+          if (familyOf(l) !== lens) continue;
+          core.add(l.sourceId);
+          core.add(l.targetId);
+        }
+      }
+      if (core.size) radial = { core, ...ringDistances(core, links, ids), emphasis: lens };
+    }
+    return { nodes, links, pairs: mergePairs(links), radial };
   }, [graph, byId, filteredLinks, view, showSuggested, selectedNodeId]);
 
   const counts = useMemo(() => {
@@ -217,7 +240,8 @@ export default function App() {
               pairs={visible.pairs}
               selection={selection}
               query={query}
-              colorAll={colorAll || view.kind === 'money' || view.kind === 'feuds'}
+              colorAll={colorAll}
+              radial={visible.radial}
               fitKey={fitKey}
               fgRef={fgRef}
               onSelect={setSelection}

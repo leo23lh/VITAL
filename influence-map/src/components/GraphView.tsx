@@ -2,10 +2,13 @@ import { useCallback, useEffect, useMemo, useRef, useState, type RefObject } fro
 import ForceGraph2D, { type ForceGraphMethods } from 'react-force-graph-2d';
 import { describeLink, familyOf, linkEndId, matchesQuery, type GraphNode, type PairLink } from '../lib/graph';
 import { EDGE_FAMILY_BY_ID, SECTOR_BY_ID } from '../lib/schema';
-import type { Selection } from '../App';
+import type { RadialLayout, Selection } from '../App';
 
 export const BACKGROUND = '#0f1117';
 const GREY = '#94a3b8';
+/** Radial views: distance between rings, and how much room the core gets per person. */
+const RING_GAP = 130;
+const coreRadius = (n: number) => 30 + 22 * Math.sqrt(n);
 
 export type GraphHandle = ForceGraphMethods<GraphNode, PairLink> | undefined;
 
@@ -16,6 +19,8 @@ interface Props {
   query: string;
   /** Color every line by family, not only the selected person's. */
   colorAll: boolean;
+  /** Set in group and lens views: core people in the middle, everyone else on rings. */
+  radial: RadialLayout | null;
   /** Changes when the view changes; the map re-fits once it settles. */
   fitKey: string;
   fgRef: RefObject<GraphHandle>;
@@ -26,7 +31,7 @@ export function nodeRadius(n: GraphNode): number {
   return n.researched ? 5 + 2.6 * Math.sqrt(n.degree) : 2.5 + 1.4 * Math.sqrt(n.degree);
 }
 
-export default function GraphView({ nodes, pairs, selection, query, colorAll, fitKey, fgRef, onSelect }: Props) {
+export default function GraphView({ nodes, pairs, selection, query, colorAll, radial, fitKey, fgRef, onSelect }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState({ width: 800, height: 600 });
   const [hoverId, setHoverId] = useState<string | null>(null);
@@ -52,11 +57,24 @@ export default function GraphView({ nodes, pairs, selection, query, colorAll, fi
   useEffect(() => {
     const fg = fgRef.current;
     if (!fg) return;
-    fg.d3Force('charge')?.strength?.(-280);
-    fg.d3Force('link')?.distance?.((l: PairLink) => (l.touchesSuggested ? 55 : 100));
-    fg.d3Force('tidy', tidyForce());
+    fg.d3Force('charge')?.strength?.(radial ? -180 : -280);
+    const link = fg.d3Force('link');
+    link?.distance?.((l: PairLink) => (l.touchesSuggested ? 55 : 100));
+    // In radial views, lines out of the core barely pull, so the rings decide where people sit.
+    const deg = new Map<string, number>();
+    for (const p of pairs)
+      for (const e of [p.source, p.target]) deg.set(linkEndId(e), (deg.get(linkEndId(e)) ?? 0) + 1);
+    link?.strength?.((l: PairLink) => {
+      const s = linkEndId(l.source);
+      const t = linkEndId(l.target);
+      const base = 1 / Math.min(deg.get(s) ?? 1, deg.get(t) ?? 1);
+      if (!radial) return base;
+      return radial.core.has(s) && radial.core.has(t) ? base : base * 0.15;
+    });
+    fg.d3Force('tidy', tidyForce(!radial, radial ? 40 : 26));
+    fg.d3Force('radial', radial ? radialForce(radial) : null);
     fg.d3ReheatSimulation();
-  }, [fgRef, nodes, pairs]);
+  }, [fgRef, nodes, pairs, radial]);
 
   const graphData = useMemo(() => ({ nodes, links: pairs }), [nodes, pairs]);
 
@@ -101,9 +119,11 @@ export default function GraphView({ nodes, pairs, selection, query, colorAll, fi
       const r = nodeRadius(node);
       const matched = query ? matchesQuery(node, query) : false;
       const inFocus = focus?.ids.has(node.id) ?? false;
+      const inCore = radial ? radial.core.has(node.id) : true;
       let alpha = 1;
       if (query && !matched) alpha = 0.15;
       else if (focus && !inFocus) alpha = 0.18;
+      else if (!focus && !inCore) alpha = 0.5;
 
       ctx.save();
       ctx.globalAlpha = alpha;
@@ -142,7 +162,13 @@ export default function GraphView({ nodes, pairs, selection, query, colorAll, fi
         node.id === hoverId ||
         node.id === selectedNodeId ||
         matched ||
-        (focus ? inFocus : node.researched ? labeled.has(node.id) || scale > 1.5 : scale > 2.4);
+        (focus
+          ? inFocus
+          : radial
+            ? inCore || (labeled.has(node.id) && radial.rings.get(node.id) === 1) || (node.researched && scale > 1.5)
+            : node.researched
+              ? labeled.has(node.id) || scale > 1.5
+              : scale > 2.4);
       if (showLabel) {
         const fontSize = (node.researched ? 12 : 10.5) / scale;
         ctx.font = `${node.researched ? 600 : 400} ${fontSize}px system-ui, -apple-system, Segoe UI, sans-serif`;
@@ -157,7 +183,7 @@ export default function GraphView({ nodes, pairs, selection, query, colorAll, fi
       }
       ctx.restore();
     },
-    [focus, hoverId, labeled, query, selectedNodeId],
+    [focus, hoverId, labeled, query, radial, selectedNodeId],
   );
 
   // Lines are quiet grey until they matter: the selected person's lines, a hovered or
@@ -168,10 +194,20 @@ export default function GraphView({ nodes, pairs, selection, query, colorAll, fi
       if (p.id === selectedPairId || p.id === hoverPairId) return withAlpha(fam, 1);
       if (focus) return focus.pairIds.has(p.id) ? withAlpha(fam, 0.95) : withAlpha(GREY, 0.05);
       if (query) return withAlpha(GREY, 0.12);
+      if (radial) {
+        const s = radial.core.has(linkEndId(p.source));
+        const t = radial.core.has(linkEndId(p.target));
+        if (radial.emphasis) {
+          if (p.links.some((l) => familyOf(l) === radial.emphasis))
+            return withAlpha(EDGE_FAMILY_BY_ID[radial.emphasis].color, 0.9);
+        } else if (s && t) return withAlpha(fam, 0.85);
+        if (colorAll) return withAlpha(fam, s || t ? 0.45 : 0.25);
+        return withAlpha(GREY, s && t ? 0.3 : s || t ? 0.16 : 0.07);
+      }
       if (colorAll) return withAlpha(fam, p.touchesSuggested ? 0.4 : 0.8);
       return withAlpha(GREY, p.touchesSuggested ? 0.14 : 0.3);
     },
-    [colorAll, focus, hoverPairId, query, selectedPairId],
+    [colorAll, focus, hoverPairId, query, radial, selectedPairId],
   );
 
   const colored = useCallback(
@@ -219,9 +255,11 @@ export default function GraphView({ nodes, pairs, selection, query, colorAll, fi
         onEngineStop={() => {
           if (!needsFit.current) return;
           needsFit.current = false;
-          fgRef.current?.zoomToFit(400, 40);
+          // Radial views fit the middle and the first ring; the outer rings stay just off-screen.
+          fgRef.current?.zoomToFit(400, 40, radial ? (n: GraphNode) => (radial.rings.get(n.id) ?? 9) <= 1 : undefined);
         }}
-        cooldownTicks={160}
+        onRenderFramePre={radial ? (ctx, scale) => drawRings(ctx, scale, radial) : undefined}
+        cooldownTicks={200}
         minZoom={0.2}
         maxZoom={8}
       />
@@ -234,10 +272,11 @@ export default function GraphView({ nodes, pairs, selection, query, colorAll, fi
  * with no visible links don't drift off-screen in filtered views) and a simple
  * collision that leaves room for each name under its dot.
  */
-function tidyForce() {
+/** `gap`: extra room between two researched people (more in radial views, for the names). */
+function tidyForce(centerPull: boolean, gap = 26) {
   let nodes: GraphNode[] = [];
   const force = (alpha: number) => {
-    for (const n of nodes) {
+    if (centerPull) for (const n of nodes) {
       n.vx = (n.vx ?? 0) - (n.x ?? 0) * 0.02 * alpha;
       n.vy = (n.vy ?? 0) - (n.y ?? 0) * 0.02 * alpha;
     }
@@ -247,7 +286,7 @@ function tidyForce() {
         const b = nodes[j];
         const dx = (b.x ?? 0) - (a.x ?? 0);
         const dy = (b.y ?? 0) - (a.y ?? 0);
-        const min = nodeRadius(a) + nodeRadius(b) + (a.researched && b.researched ? 26 : 10);
+        const min = nodeRadius(a) + nodeRadius(b) + (a.researched && b.researched ? gap : 10);
         const d2 = dx * dx + dy * dy;
         if (d2 >= min * min || d2 === 0) continue;
         const d = Math.sqrt(d2);
@@ -263,6 +302,54 @@ function tidyForce() {
     nodes = ns;
   };
   return force;
+}
+
+/** Pulls core people into the middle and everyone else onto the ring for their distance. */
+function radialForce({ core, rings }: RadialLayout) {
+  let nodes: GraphNode[] = [];
+  const inner = coreRadius(core.size);
+  const force = (alpha: number) => {
+    for (const n of nodes) {
+      const x = n.x ?? 0;
+      const y = n.y ?? 0;
+      const ring = rings.get(n.id) ?? 1;
+      if (ring === 0) {
+        n.vx = (n.vx ?? 0) - x * 0.12 * alpha;
+        n.vy = (n.vy ?? 0) - y * 0.12 * alpha;
+        continue;
+      }
+      const d = Math.hypot(x, y) || 1;
+      const k = ((inner + ring * RING_GAP - d) / d) * 0.35 * alpha;
+      n.vx = (n.vx ?? 0) + x * k;
+      n.vy = (n.vy ?? 0) + y * k;
+    }
+  };
+  force.initialize = (ns: GraphNode[]) => {
+    nodes = ns;
+  };
+  return force;
+}
+
+/** Faint guide circles with "1 step", "2 steps"… labels behind the radial views. */
+function drawRings(ctx: CanvasRenderingContext2D, scale: number, { core, rings, unlinked }: RadialLayout) {
+  const inner = coreRadius(core.size);
+  const used = new Set(rings.values());
+  ctx.save();
+  ctx.setLineDash([3 / scale, 5 / scale]);
+  ctx.lineWidth = 1 / scale;
+  ctx.font = `500 ${11 / scale}px system-ui, -apple-system, Segoe UI, sans-serif`;
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'bottom';
+  for (const r of [...used].filter((r) => r > 0).sort((a, b) => a - b)) {
+    const R = inner + r * RING_GAP;
+    ctx.strokeStyle = 'rgba(148, 163, 184, 0.16)';
+    ctx.beginPath();
+    ctx.arc(0, 0, R, 0, 2 * Math.PI);
+    ctx.stroke();
+    ctx.fillStyle = 'rgba(148, 163, 184, 0.55)';
+    ctx.fillText(r === unlinked ? 'not linked' : `${r} step${r === 1 ? '' : 's'} out`, 0, -R - 4 / scale);
+  }
+  ctx.restore();
 }
 
 function nodeTooltip(n: GraphNode): string {

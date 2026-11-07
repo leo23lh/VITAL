@@ -391,3 +391,41 @@ export function yearSpan(links: GraphLink[], now = new Date().getFullYear()): [n
   const years = links.flatMap((l) => [l.startYear, typeof l.endYear === 'number' ? l.endYear : null]).filter(isYear);
   return years.length ? [Math.min(...years), Math.max(now, ...years)] : [now, now];
 }
+
+/**
+ * Steps from the nearest `core` person to everyone in `ids`, following `links`.
+ * Core people are 0. People with no path go on one extra ring past the farthest
+ * reachable one; `unlinked` is that ring's number (null when everyone is reachable).
+ */
+export function ringDistances(
+  core: Set<string>,
+  links: GraphLink[],
+  ids: Iterable<string>,
+): { rings: Map<string, number>; unlinked: number | null } {
+  const adj = new Map<string, string[]>();
+  for (const l of links) {
+    (adj.get(l.sourceId) ?? adj.set(l.sourceId, []).get(l.sourceId)!).push(l.targetId);
+    (adj.get(l.targetId) ?? adj.set(l.targetId, []).get(l.targetId)!).push(l.sourceId);
+  }
+  const rings = new Map<string, number>();
+  let frontier = [...core];
+  for (const id of frontier) rings.set(id, 0);
+  for (let d = 1; frontier.length; d++) {
+    const next: string[] = [];
+    for (const n of frontier)
+      for (const m of adj.get(n) ?? [])
+        if (!rings.has(m)) {
+          rings.set(m, d);
+          next.push(m);
+        }
+    frontier = next;
+  }
+  const outer = Math.max(0, ...rings.values()) + 1;
+  let unlinked: number | null = null;
+  for (const id of ids)
+    if (!rings.has(id)) {
+      rings.set(id, outer);
+      unlinked = outer;
+    }
+  return { rings, unlinked };
+}
