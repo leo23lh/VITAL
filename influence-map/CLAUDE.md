@@ -116,6 +116,7 @@ patterns). Passing it does not mean the rules are met; it only catches slips.
   no photos of people with `"public_figure": false`. The script needs network
   access to en.wikipedia.org and upload.wikimedia.org (the "VITAL" cloud
   environment allows them); if they're blocked, skip the photo and say so.
+- **lean** (public figures): political lean by period. See "Political lean" below.
 - **last_researched**: date the person was last researched (YYYY-MM-DD). Don't
   change it when you only add a reciprocal link to their file.
 
@@ -147,6 +148,52 @@ connections show. The validator rejects names not listed here; keep the lists in
 | `middle-east` | Middle East dealmakers | People with a documented role in Israel / Gaza / Gulf diplomacy or funding |
 | `media` | Media & platforms | Owners or leaders of news outlets, social platforms and major podcasts |
 | `critics` | Critics & opponents | Prominent opponents of Trump or his administration |
+
+## Political lean
+
+The main view is a compass: **left–right is political lean, north–south is
+money vs politics.** North–south comes from `sector` and `groups` (business at
+the top, then tech, then AI & defense; tech people serving in government sit in
+the middle; politics at the bottom). Left–right comes from `lean`:
+
+```json
+"lean": [
+  { "value": -1, "start_year": null, "end_year": 2016,
+    "basis": "Gave mainly to Democrats; endorsed Hillary Clinton in 2016.",
+    "sources": [{ "url": "https://…", "title": "…" }] },
+  { "value": 2, "start_year": 2017, "end_year": null,
+    "basis": "Republican since 2017; campaigned for Trump in 2024.",
+    "sources": [{ "url": "https://…", "title": "…" }] }
+]
+```
+
+| Value | Label | Use when the documented record shows |
+| --- | --- | --- |
+| -3 | Far left | Reliable outlets widely describe them as far left (socialist/communist movements, etc.) |
+| -2 | Left | Democratic or left-party officials and operatives; consistent, major Democratic funding or campaigning |
+| -1 | Center-left | Leans Democratic or center-left (Third Way, mostly-Democratic giving, Democratic endorsements with a centrist record) |
+| 0 | Centrist / nonpartisan | Gives to both sides, or publicly says they are nonpartisan or apolitical, with sources |
+| 1 | Center-right | Leans Republican or center-right, libertarian-leaning, or recently moved right without a party role |
+| 2 | Right | Republican or right-party officials and operatives; consistent, major Republican funding or campaigning |
+| 3 | Far right | Reliable outlets widely describe them as far right, white nationalist or similar |
+
+- Periods are in order and don't overlap; only the last may be open-ended
+  (`end_year: null`). The year slider moves people to their lean for that year
+  (before the first period, the first applies; after the last, the last).
+- `basis` names the documented record: party, offices held, campaign donations
+  (FEC filings), endorsements, and self-description. Every period needs sources.
+- The value is a classification, but it must rest on that sourced record, plus
+  who the person works with and funds. If sources disagree (they call
+  themselves a Democrat but fund Republicans), pick the value the record
+  supports, say so in `basis`, and add a `source_conflicts` entry.
+- Leave `lean` out when there is no public political record. The person is then
+  placed left–right only by their links. No lean for `"public_figure": false`.
+- Links also pull people together: the closer the relationship (family,
+  co-founder, mentor, employer, then donor and ally, then colleague), and the
+  higher its confidence, the harder it pulls. Rivals barely pull. The compass
+  pull is gentle, so the web still shapes the map.
+- Group and lens views keep their radial layout; the compass is only for the
+  main view.
 
 The viewer also has three views that need no tagging: **Follow the money**
 (people with donor links), **Feuds** (people with rival links), and

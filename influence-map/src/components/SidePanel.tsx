@@ -14,6 +14,7 @@ import {
   EDGE_GROUP_BY_ID,
   GROUPS,
   SECTOR_BY_ID,
+  leanLabel,
   sourceLabel,
   sourceUrl,
   type Affiliation,
@@ -177,6 +178,27 @@ function NodePanel({
           <h3>Summary</h3>
           <p>{p.summary}</p>
           <SourceList sources={p.sources} />
+        </section>
+      )}
+
+      {p?.lean && p.lean.length > 0 && (
+        <section>
+          <h3>Political lean</h3>
+          <ol className="timeline">
+            {[...p.lean].reverse().map((l, i) => (
+              <li key={i}>
+                <span className="t-year">{yearRange(l.start_year, l.end_year ?? null) || 'all years'}</span>
+                <div>
+                  <div>
+                    <strong>{leanLabel(l.value)}</strong>
+                    <span className="muted"> ({l.value > 0 ? `+${l.value}` : l.value})</span>
+                  </div>
+                  <p className="small">{l.basis}</p>
+                  <SourceList sources={l.sources} compact />
+                </div>
+              </li>
+            ))}
+          </ol>
         </section>
       )}
 

@@ -201,6 +201,35 @@ export interface Photo {
   source: Source;
 }
 
+/**
+ * Political lean over one period: -3 far left … 0 centrist … +3 far right.
+ * A person can have several periods (leans change); see CLAUDE.md "Political lean".
+ */
+export interface LeanPeriod {
+  value: number;
+  /** First year of this period; null or left out = since the start of their public record. */
+  start_year?: number | null;
+  /** Last year; null or left out = still current. */
+  end_year?: number | null;
+  /** The documented record behind the value: party, offices, donations, endorsements, self-description. */
+  basis: string;
+  sources: SourceRef[];
+}
+
+export const LEAN_LABELS: Record<number, string> = {
+  [-3]: 'Far left',
+  [-2]: 'Left',
+  [-1]: 'Center-left',
+  0: 'Centrist / nonpartisan',
+  1: 'Center-right',
+  2: 'Right',
+  3: 'Far right',
+};
+
+export function leanLabel(value: number): string {
+  return LEAN_LABELS[value] ?? `${value}`;
+}
+
 export interface SourceConflict {
   topic: string;
   details: string;
@@ -218,6 +247,8 @@ export interface Person {
   /** Any of GROUPS; drives the preset views. */
   groups?: GroupId[];
   photo?: Photo;
+  /** Political lean by period; places the person left–right on the main map. */
+  lean?: LeanPeriod[];
   current_role?: string;
   summary?: string;
   /** Sources backing summary and current_role. */

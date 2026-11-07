@@ -57,6 +57,8 @@ optionally followed by context about what to focus on.
    - Update `DATA_DIR/<slug>.json` and set `last_researched` to today.
      Re-check `sector` and `groups` against the CLAUDE.md tables (roles change),
      and whether each `rival` record is still ongoing (`end_year: null`) or has ended.
+     Re-check `lean` (CLAUDE.md "Political lean"): add a new period if their
+     politics shifted since `last_researched`, closing the previous one.
    - For each connection to someone with a file: add or update the inverse
      record in their file (inverse type, same years, sources and confidence).
    - For each connection you removed: remove the matching inverse record from the

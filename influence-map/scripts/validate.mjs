@@ -129,7 +129,7 @@ export function validatePeople(records, opts = {}) {
         for (const g of p.groups)
           if (!GROUPS.includes(g)) err(file, `groups: "${g}" must be one of ${GROUPS.join(', ')}`);
     }
-    for (const key of ['aliases', 'timeline', 'affiliations', 'connections']) {
+    for (const key of ['aliases', 'timeline', 'affiliations', 'connections', 'lean']) {
       if (p[key] !== undefined && !Array.isArray(p[key])) err(file, `"${key}" must be an array`);
     }
 
@@ -170,6 +170,31 @@ export function validatePeople(records, opts = {}) {
       }
       checkSources(a?.sources, `affiliations[${i}] (${a?.name ?? '?'})`);
     });
+
+    // Political lean: integer periods from -3 (far left) to +3 (far right), in order, not overlapping.
+    if (Array.isArray(p.lean)) {
+      if (p.lean.length && !researched) err(file, '"lean" is researched, so only public figures may have one');
+      let prevEnd;
+      p.lean.forEach((l, i) => {
+        const where = `lean[${i}]`;
+        if (!l || typeof l !== 'object') return err(file, `${where} is not an object`);
+        if (!Number.isInteger(l.value) || l.value < -3 || l.value > 3) err(file, `${where}: "value" must be a whole number from -3 to 3`);
+        if (!isYear(l.start_year) || !isYear(l.end_year)) err(file, `${where}: start_year/end_year must be years or null`);
+        if (Number.isInteger(l.start_year) && Number.isInteger(l.end_year) && l.end_year < l.start_year)
+          err(file, `${where}: end_year is before start_year`);
+        if (i > 0) {
+          if (prevEnd == null) err(file, `${where}: the period before it has no end_year (only the last period may be open-ended)`);
+          else if (!Number.isInteger(l.start_year) || l.start_year <= prevEnd)
+            err(file, `${where}: start_year must come after the previous period's end_year (${prevEnd})`);
+        }
+        if (i < p.lean.length - 1 && l.end_year == null) err(file, `${where}: only the last period may be open-ended`);
+        prevEnd = l.end_year;
+        if (typeof l.basis !== 'string' || !l.basis.trim()) err(file, `${where}: "basis" must say what the value rests on`);
+        checkSources(l.sources, where);
+      });
+    } else if (researched && p.lean === undefined) {
+      warn(file, 'No "lean"; on the main map the person is placed left–right by their links only');
+    }
 
     (p.source_conflicts ?? []).forEach((c, i) => {
       if (!c?.topic || !c?.details) err(file, `source_conflicts[${i}]: needs "topic" and "details"`);

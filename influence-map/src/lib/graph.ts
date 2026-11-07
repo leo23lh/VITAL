@@ -5,6 +5,7 @@ import {
   type EdgeFamily,
   type EdgeGroup,
   type GroupId,
+  type LeanPeriod,
   type Person,
   type PersonFile,
   type RelationshipType,
@@ -339,6 +340,8 @@ export interface PairLink {
   /** Arrow only when the pair has a single, directed link. */
   directed: boolean;
   touchesSuggested: boolean;
+  /** 0–1: how close the pair's closest link is (see CLOSENESS). Closer pairs pull harder. */
+  closeness: number;
 }
 
 export function pairKey(a: string, b: string): string {
@@ -365,6 +368,7 @@ export function mergePairs(links: GraphLink[]): PairLink[] {
       confidence: Math.max(...ls.map((l) => l.confidence)),
       directed: !!single?.directed,
       touchesSuggested: ls.some((l) => l.touchesSuggested),
+      closeness: pairCloseness(ls),
     };
   });
 }
@@ -438,4 +442,53 @@ export function ringDistances(
       unlinked = outer;
     }
   return { rings, unlinked };
+}
+
+/**
+ * The person's lean in `year` (null = today): the period that covers the year.
+ * Before their first recorded period, the earliest one applies; after the last
+ * closed one, the latest one. Undefined when nothing is recorded.
+ */
+export function leanAt(lean: LeanPeriod[] | undefined, year: number | null): LeanPeriod | undefined {
+  const ps = (lean ?? []).filter((p) => typeof p?.value === 'number');
+  if (!ps.length) return undefined;
+  const sorted = [...ps].sort((a, b) => (a.start_year ?? -Infinity) - (b.start_year ?? -Infinity));
+  if (year == null) return sorted.find((p) => p.end_year == null) ?? sorted[sorted.length - 1];
+  const hit = sorted.find((p) => (p.start_year ?? -Infinity) <= year && (p.end_year ?? Infinity) >= year);
+  if (hit) return hit;
+  return (sorted[0].start_year ?? -Infinity) > year ? sorted[0] : sorted[sorted.length - 1];
+}
+
+/** How strongly a kind of link pulls two people together (0–1), before confidence. */
+export const CLOSENESS: Record<EdgeGroup, number> = {
+  family: 1,
+  'co-founder': 0.9,
+  mentorship: 0.85,
+  employment: 0.8,
+  funding: 0.6,
+  ally: 0.6,
+  colleague: 0.45,
+  rival: 0.05,
+};
+
+/** The closest link between a pair, weighted by confidence. Rivals barely pull. */
+export function pairCloseness(links: GraphLink[]): number {
+  return Math.max(0, ...links.map((l) => CLOSENESS[l.group] * l.confidence * (isPastRivalry(l) ? 0.5 : 1)));
+}
+
+/** Main-map row (north = money, south = politics) for a person, in steps from the middle. */
+export function compassRow(node: Pick<GraphNode, 'sector' | 'groups'>): number | undefined {
+  const inGov = node.groups.includes('trump-circle');
+  switch (node.sector) {
+    case 'business':
+      return inGov ? -0.6 : -2;
+    case 'tech':
+      return inGov ? 0 : -1.3;
+    case 'ai-defense':
+      return inGov ? 0 : -0.7;
+    case 'politics':
+      return node.groups.includes('tech-right') ? 0.7 : 1.4;
+    default:
+      return undefined;
+  }
 }

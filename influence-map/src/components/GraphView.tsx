@@ -2,13 +2,19 @@ import { useCallback, useEffect, useMemo, useRef, useState, type RefObject } fro
 import ForceGraph2D, { type ForceGraphMethods } from 'react-force-graph-2d';
 import { describeLink, familyOf, linkEndId, matchesQuery, type GraphNode, type PairLink } from '../lib/graph';
 import { EDGE_FAMILY_BY_ID, SECTOR_BY_ID } from '../lib/schema';
-import type { RadialLayout, Selection } from '../App';
+import type { Compass, RadialLayout, Selection } from '../App';
 
 export const BACKGROUND = '#0f1117';
 const GREY = '#94a3b8';
 /** Radial views: distance between rings, and how much room the core gets per person. */
 const RING_GAP = 130;
 const coreRadius = (n: number) => 30 + 22 * Math.sqrt(n);
+/** Main view: distance per lean step (left–right) and per money/politics row (north–south). */
+const LEAN_STEP = 110;
+const ROW_STEP = 120;
+/** How hard people are pulled to their compass spot. Low enough that links still shape the web. */
+const COMPASS_PULL_X = 0.07;
+const COMPASS_PULL_Y = 0.05;
 
 export type GraphHandle = ForceGraphMethods<GraphNode, PairLink> | undefined;
 
@@ -23,6 +29,8 @@ interface Props {
   showPhotos: boolean;
   /** Set in group and lens views: core people in the middle, everyone else on rings. */
   radial: RadialLayout | null;
+  /** Set in the main view: left–right by lean, north–south by money vs politics. */
+  compass: Compass | null;
   /** Changes when the view changes; the map re-fits once it settles. */
   fitKey: string;
   fgRef: RefObject<GraphHandle>;
@@ -41,6 +49,7 @@ export default function GraphView({
   colorAll,
   showPhotos,
   radial,
+  compass,
   fitKey,
   fgRef,
   onSelect,
@@ -78,7 +87,8 @@ export default function GraphView({
     if (!fg) return;
     fg.d3Force('charge')?.strength?.(radial ? -180 : -280);
     const link = fg.d3Force('link');
-    link?.distance?.((l: PairLink) => (l.touchesSuggested ? 55 : 100));
+    // Closer relationships (family, co-founders, bosses) sit nearer and pull harder; rivals barely pull.
+    link?.distance?.((l: PairLink) => (l.touchesSuggested ? 45 : 60) + (1 - l.closeness) * (l.touchesSuggested ? 30 : 90));
     // In radial views, lines out of the core barely pull, so the rings decide where people sit.
     const deg = new Map<string, number>();
     for (const p of pairs)
@@ -86,14 +96,15 @@ export default function GraphView({
     link?.strength?.((l: PairLink) => {
       const s = linkEndId(l.source);
       const t = linkEndId(l.target);
-      const base = 1 / Math.min(deg.get(s) ?? 1, deg.get(t) ?? 1);
-      if (!radial) return base;
-      return radial.core.has(s) && radial.core.has(t) ? base : base * 0.15;
+      const base = (0.3 + 1.1 * l.closeness) / Math.min(deg.get(s) ?? 1, deg.get(t) ?? 1);
+      if (!radial) return Math.min(1, base);
+      return radial.core.has(s) && radial.core.has(t) ? Math.min(1, base) : base * 0.15;
     });
-    fg.d3Force('tidy', tidyForce(!radial, radial ? 40 : 26));
+    fg.d3Force('tidy', tidyForce(!radial && !compass, radial ? 40 : 26));
     fg.d3Force('radial', radial ? radialForce(radial) : null);
+    fg.d3Force('compass', compass ? compassForce(compass) : null);
     fg.d3ReheatSimulation();
-  }, [fgRef, nodes, pairs, radial]);
+  }, [fgRef, nodes, pairs, radial, compass]);
 
   const graphData = useMemo(() => ({ nodes, links: pairs }), [nodes, pairs]);
 
@@ -295,7 +306,13 @@ export default function GraphView({
           // Radial views fit the middle and the first ring; the outer rings stay just off-screen.
           fgRef.current?.zoomToFit(400, 40, radial ? (n: GraphNode) => (radial.rings.get(n.id) ?? 9) <= 1 : undefined);
         }}
-        onRenderFramePre={radial ? (ctx, scale) => drawRings(ctx, scale, radial) : undefined}
+        onRenderFramePre={
+          radial
+            ? (ctx, scale) => drawRings(ctx, scale, radial)
+            : compass
+              ? (ctx, scale) => drawCompass(ctx, scale)
+              : undefined
+        }
         cooldownTicks={200}
         minZoom={0.2}
         maxZoom={8}
@@ -379,6 +396,58 @@ function radialForce({ core, rings }: RadialLayout) {
     nodes = ns;
   };
   return force;
+}
+
+/**
+ * Pulls each person toward their compass spot: lean sets x, money vs politics sets y.
+ * People with no lean (or suggested people) keep only a faint pull to the middle on
+ * that axis, so their links decide where they sit.
+ */
+function compassForce(compass: Compass) {
+  let nodes: GraphNode[] = [];
+  const force = (alpha: number) => {
+    for (const n of nodes) {
+      const c = compass.get(n.id);
+      const x = n.x ?? 0;
+      const y = n.y ?? 0;
+      n.vx = (n.vx ?? 0) + (c?.x != null ? (c.x * LEAN_STEP - x) * COMPASS_PULL_X : -x * 0.01) * alpha;
+      n.vy = (n.vy ?? 0) + (c?.y != null ? (c.y * ROW_STEP - y) * COMPASS_PULL_Y : -y * 0.01) * alpha;
+    }
+  };
+  force.initialize = (ns: GraphNode[]) => {
+    nodes = ns;
+  };
+  return force;
+}
+
+/** Faint crosshair behind the main view: Left ↔ Right, Money ↕ Politics. */
+function drawCompass(ctx: CanvasRenderingContext2D, scale: number) {
+  const w = LEAN_STEP * 3.6;
+  const h = ROW_STEP * 2.6;
+  ctx.save();
+  ctx.lineWidth = 1 / scale;
+  ctx.setLineDash([3 / scale, 6 / scale]);
+  ctx.strokeStyle = 'rgba(148, 163, 184, 0.14)';
+  ctx.beginPath();
+  ctx.moveTo(-w, 0);
+  ctx.lineTo(w, 0);
+  ctx.moveTo(0, -h);
+  ctx.lineTo(0, h);
+  ctx.stroke();
+  ctx.fillStyle = 'rgba(148, 163, 184, 0.5)';
+  ctx.font = `600 ${11 / scale}px system-ui, -apple-system, Segoe UI, sans-serif`;
+  const pad = 6 / scale;
+  ctx.textBaseline = 'middle';
+  ctx.textAlign = 'right';
+  ctx.fillText('LEFT', -w - pad, 0);
+  ctx.textAlign = 'left';
+  ctx.fillText('RIGHT', w + pad, 0);
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'bottom';
+  ctx.fillText('MONEY', 0, -h - pad);
+  ctx.textBaseline = 'top';
+  ctx.fillText('POLITICS', 0, h + pad);
+  ctx.restore();
 }
 
 /** Faint guide circles with "1 step", "2 steps"… labels behind the radial views. */

@@ -8,7 +8,9 @@ import { canExport, exportGraphPng } from './lib/exportPng';
 import {
   activeInYear,
   buildGraph,
+  compassRow,
   familyOf,
+  leanAt,
   mergePairs,
   neighborhood,
   ringDistances,
@@ -29,6 +31,13 @@ export type View =
   | { kind: 'world'; id: string; depth: 1 | 2 };
 
 export type Layout = 'wide' | 'card' | 'sheet';
+
+/**
+ * Main view only: each person's home spot. `x` = political lean (-3 far left … +3 far right)
+ * in the selected year, `y` = money (negative, north) to politics (positive, south).
+ * Missing values leave that axis to the links.
+ */
+export type Compass = Map<string, { x?: number; y?: number }>;
 
 /** For a view: who sits in the middle, how many steps out everyone else is, which lines to stress. */
 export interface RadialLayout {
@@ -139,8 +148,16 @@ export default function App() {
       }
       if (core.size) radial = { core, ...ringDistances(core, links, ids), emphasis: lens };
     }
-    return { nodes, links, pairs: mergePairs(links), radial };
-  }, [graph, byId, filteredLinks, view, showSuggested, selectedNodeId]);
+    let compass: Compass | null = null;
+    if (view.kind === 'all') {
+      compass = new Map();
+      for (const n of nodes) {
+        if (!n.researched) continue;
+        compass.set(n.id, { x: leanAt(n.person?.lean, year)?.value, y: compassRow(n) });
+      }
+    }
+    return { nodes, links, pairs: mergePairs(links), radial, compass };
+  }, [graph, byId, filteredLinks, view, showSuggested, selectedNodeId, year]);
 
   const counts = useMemo(() => {
     const c = Object.fromEntries(EDGE_FAMILIES.map((f) => [f.id, 0])) as Record<EdgeFamily, number>;
@@ -245,6 +262,7 @@ export default function App() {
               colorAll={colorAll}
               showPhotos={showPhotos}
               radial={visible.radial}
+              compass={visible.compass}
               fitKey={fitKey}
               fgRef={fgRef}
               onSelect={setSelection}

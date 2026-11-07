@@ -1,6 +1,17 @@
 import { describe, expect, it } from 'vitest';
 import * as validator from '../../scripts/validate.mjs';
-import { activeInYear, buildGraph, describeLink, familyOf, mergePairs, neighborhood, ringDistances, roleOfOther } from './graph';
+import {
+  activeInYear,
+  buildGraph,
+  compassRow,
+  describeLink,
+  familyOf,
+  leanAt,
+  mergePairs,
+  neighborhood,
+  ringDistances,
+  roleOfOther,
+} from './graph';
 import { GROUPS, INVERSE_TYPE, RELATIONSHIP_TYPES, SECTORS, type Person, type PersonFile } from './schema';
 
 const src = (n: number) => [{ url: `https://example.com/${n}`, title: `Source ${n}` }];
@@ -214,5 +225,61 @@ describe('validatePeople', () => {
     ]);
     expect(errors).toHaveLength(1);
     expect(errors[0].message).toMatch(/use slug "jeff-sessions"/);
+  });
+});
+
+describe('political lean', () => {
+  const lean = [
+    { value: -1, end_year: 2016, basis: 'Democratic donor', sources: src(1) },
+    { value: 2, start_year: 2017, end_year: null, basis: 'Republican official', sources: src(2) },
+  ];
+
+  it('picks the period that covers the year, and the current one by default', () => {
+    expect(leanAt(lean, 2010)?.value).toBe(-1);
+    expect(leanAt(lean, 2016)?.value).toBe(-1);
+    expect(leanAt(lean, 2017)?.value).toBe(2);
+    expect(leanAt(lean, null)?.value).toBe(2);
+    expect(leanAt([], 2020)).toBeUndefined();
+  });
+
+  it('uses the nearest period outside the recorded ones', () => {
+    const later = [{ value: 1, start_year: 2015, end_year: 2018, basis: 'b', sources: src(1) }];
+    expect(leanAt(later, 2000)?.value).toBe(1);
+    expect(leanAt(later, 2024)?.value).toBe(1);
+  });
+
+  it('validates values, order and sources', () => {
+    expect(validator.validatePeople([person('a', 'A', [], { lean })]).errors).toEqual([]);
+    const bad = person('a', 'A', [], {
+      lean: [
+        { value: 5, basis: 'x', sources: src(1) },
+        { value: 1, start_year: 2010, basis: '', sources: [] },
+      ],
+    });
+    const text = validator.validatePeople([bad]).errors.map((e: { message: string }) => e.message).join('\n');
+    expect(text).toMatch(/-3 to 3/);
+    expect(text).toMatch(/only the last period may be open-ended/);
+    expect(text).toMatch(/basis/);
+    expect(text).toMatch(/no sources/);
+    const priv = person('me', 'Me', [], { public_figure: false, lean: [{ value: 0, basis: 'b', sources: ['user-provided'] }] });
+    expect(validator.validatePeople([priv]).errors[0].message).toMatch(/only public figures/);
+  });
+
+  it('places money north and politics south', () => {
+    expect(compassRow({ sector: 'business', groups: [] })!).toBeLessThan(compassRow({ sector: 'tech', groups: [] })!);
+    expect(compassRow({ sector: 'tech', groups: [] })!).toBeLessThan(compassRow({ sector: 'politics', groups: [] })!);
+    expect(compassRow({ sector: undefined, groups: [] })).toBeUndefined();
+  });
+
+  it('pulls close relationships harder than rivalries', () => {
+    const g = buildGraph([
+      person('a', 'A', [conn('b', 'B', 'family'), conn('c', 'C', 'rival', 0.9, { end_year: null })]),
+      person('b', 'B', [conn('a', 'A', 'family')]),
+      person('c', 'C', [conn('a', 'A', 'rival', 0.9, { end_year: null })]),
+    ]);
+    const pairs = mergePairs(g.links);
+    const fam = pairs.find((p) => p.id === 'a|b')!;
+    const riv = pairs.find((p) => p.id === 'a|c')!;
+    expect(fam.closeness).toBeGreaterThan(riv.closeness);
   });
 });

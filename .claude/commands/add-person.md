@@ -68,6 +68,8 @@ the page that actually states each fact. Cover:
 - career timeline: positions with organization and years
 - affiliations: boards, organizations, think tanks, campaigns, publications
 - documented relationships: who hired, mentored, funded, allied with or opposed them
+- political record: party, offices, campaign donations (FEC), endorsements,
+  self-description, and when any of it changed (for `lean`)
 - anything where reliable sources disagree (dates, titles, nature of a relationship)
 
 Prefer primary/official sources, then major news outlets. Wikipedia is a fine
@@ -113,6 +115,9 @@ a. Write `DATA_DIR/<slug>.json` in the CLAUDE.md format, with `last_researched`
    tables in CLAUDE.md, based on what the file's sourced facts show. For every
    `rival` record, set `end_year: null` if the feud is ongoing or the year it ended
    (the viewer draws ended rivalries as dotted "past rivalry" lines).
+   Research and set `lean` as CLAUDE.md "Political lean" describes: one period
+   per documented shift, each with a `basis` and sources. Leave it out if the
+   person has no public political record.
 
 b. **Reciprocal links.** For every connection whose `slug` has a file in DATA_DIR,
    open that file and add the inverse record to its `connections` (inverse type
