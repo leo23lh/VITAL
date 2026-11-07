@@ -1,0 +1,157 @@
+{
+  "name": "Pete Hegseth",
+  "aliases": ["Peter Hegseth", "Peter Brian Hegseth"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "photo": {
+    "file": "pete-hegseth.jpg",
+    "credit": "U.S. Department of Defense",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Pete_Hegseth_Official_Portrait.jpg", "title": "File:Pete Hegseth Official Portrait.jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. Secretary of Defense, styled Secretary of War (since January 25, 2025)",
+  "summary": "Pete Hegseth, a Princeton graduate and Army National Guard officer who served at Guantánamo Bay, in Iraq and in Afghanistan, led the advocacy groups Vets for Freedom and Concerned Veterans for America and became a Fox News host. Trump chose him as defense secretary; the Senate confirmed him 51–50 on January 24, 2025, with JD Vance breaking the tie. Under a September 2025 executive order he also uses the title Secretary of War, and in 2026 he designated Anthropic a supply-chain risk after it refused to drop limits on military uses of its AI.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Pete_Hegseth", "title": "Pete Hegseth — Wikipedia" },
+    { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" },
+    { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" }
+  ],
+  "timeline": [
+    {
+      "year": 2003,
+      "role": "Commissioned as an Army National Guard officer; served at Guantánamo Bay, in Iraq and later as an instructor in Kabul, Afghanistan",
+      "org": "U.S. Army National Guard",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Hegseth", "title": "Pete Hegseth — Wikipedia" },
+        { "url": "https://ballotpedia.org/Pete_Hegseth", "title": "Pete Hegseth — Ballotpedia" }
+      ]
+    },
+    {
+      "year": 2007,
+      "role": "President / executive director",
+      "org": "Vets for Freedom",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Hegseth", "title": "Pete Hegseth — Wikipedia" },
+        { "url": "https://ballotpedia.org/Pete_Hegseth", "title": "Pete Hegseth — Ballotpedia" }
+      ]
+    },
+    {
+      "year": 2012,
+      "end_year": 2016,
+      "role": "Chief executive",
+      "org": "Concerned Veterans for America",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Hegseth", "title": "Pete Hegseth — Wikipedia" },
+        { "url": "https://ballotpedia.org/Pete_Hegseth", "title": "Pete Hegseth — Ballotpedia" }
+      ]
+    },
+    {
+      "year": 2014,
+      "role": "Contributor, then Fox & Friends Weekend co-host",
+      "org": "Fox News",
+      "sources": [
+        { "url": "https://millercenter.org/pete-hegseth-2025", "title": "Pete Hegseth (2025– ) — Miller Center" },
+        { "url": "https://en.wikipedia.org/wiki/Pete_Hegseth", "title": "Pete Hegseth — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Secretary of Defense (confirmed 51–50 with Vance's tie-breaking vote); also styled Secretary of War from September 2025",
+      "org": "U.S. Department of Defense / Department of War",
+      "sources": [
+        { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" },
+        { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" },
+        { "url": "https://www.defenseone.com/policy/2025/09/trump-signs-order-change-name-department-defense-department-war/407962/", "title": "Trump signs order to change name of Department of Defense to Department of War — Defense One" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "U.S. Department of Defense (Department of War)",
+      "role": "Secretary",
+      "start_year": 2025,
+      "sources": [
+        { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" },
+        { "url": "https://www.defenseone.com/policy/2025/09/trump-signs-order-change-name-department-defense-department-war/407962/", "title": "Trump signs order to change name of Department of Defense to Department of War — Defense One" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Dario Amodei",
+      "slug": "dario-amodei",
+      "relationship_type": "rival",
+      "description": "Defense Secretary Hegseth designated Anthropic a supply-chain risk to national security in February–March 2026; Anthropic sued, and Amodei said the ban was narrower than Hegseth had threatened.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk", "title": "Pentagon labels AI company Anthropic a supply chain risk — NPR" },
+        { "url": "https://www.npr.org/2026/03/09/nx-s1-5742548/anthropic-pentagon-lawsuit-amodai-hegseth", "title": "Anthropic sues the Trump administration over 'supply chain risk' label — NPR" },
+        { "url": "https://www.cnbc.com/2026/03/05/anthropic-ceo-says-no-choice-but-to-challenge-trump-admins-supply-chain-risk-designation-in-court.html", "title": "Anthropic CEO says 'no choice' but to challenge supply chain risk designation in court — CNBC" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump nominated Hegseth, then a Fox News host, as defense secretary; he was sworn in on January 25, 2025, and in September 2025 Trump's executive order let him use the title Secretary of War.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" },
+        { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" },
+        { "url": "https://www.defenseone.com/policy/2025/09/trump-signs-order-change-name-department-defense-department-war/407962/", "title": "Trump signs order to change name of Department of Defense to Department of War — Defense One" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "colleague",
+      "description": "Vance cast the tie-breaking vote that confirmed Hegseth 51–50 on January 24, 2025, only the second time a vice president has broken a tie on a cabinet nominee, and swore him in the next day; both serve in Trump's second administration.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/pete-hegseth-faces-close-senate-210506301.html", "title": "Vance's tiebreaker vote confirms Pete Hegseth as Defense secretary — Yahoo News" },
+        { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" },
+        { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "colleague",
+      "description": "Hours after Hegseth's department moved against Anthropic on February 27, 2026, Altman announced an agreement to put OpenAI's models on the Pentagon's classified networks, with limits on domestic surveillance and autonomous weapons. A company-level deal; no source describes the two working together directly.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.foxbusiness.com/politics/openai-reaches-pentagon-agreement-trump-orders-anthropic-off-federal-systems", "title": "OpenAI reaches Pentagon agreement as Trump orders Anthropic off federal systems — Fox Business" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Years at Vets for Freedom and Concerned Veterans for America",
+      "details": "Ballotpedia gives 2007–2010 (and elsewhere 2007–2012) for Vets for Freedom and 2012–2015 for CVA; Wikipedia says he left Vets for Freedom in 2012 and CVA in January 2016.",
+      "sources": [
+        { "url": "https://ballotpedia.org/Pete_Hegseth", "title": "Pete Hegseth — Ballotpedia" },
+        { "url": "https://en.wikipedia.org/wiki/Pete_Hegseth", "title": "Pete Hegseth — Wikipedia" }
+      ]
+    },
+    {
+      "topic": "Guantánamo dates",
+      "details": "Wikipedia says he was commissioned in 2003 and then guarded detainees at Guantánamo; Ballotpedia places that service in 2004–2005.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Hegseth", "title": "Pete Hegseth — Wikipedia" },
+        { "url": "https://ballotpedia.org/Pete_Hegseth", "title": "Pete Hegseth — Ballotpedia" }
+      ]
+    }
+  ],
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Wikipedia's Hegseth article could not be read directly (rate limit); facts were confirmed through searches. The record for Amodei mirrors the one in his file. Not recorded: allegations about his personal conduct raised at his confirmation (private matters he disputes), and his 2025 Signal group-chat controversy (sources could not be confirmed in this session).",
+  "last_researched": "2026-11-07"
+}

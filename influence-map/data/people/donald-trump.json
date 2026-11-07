@@ -637,6 +637,74 @@
         { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" },
         { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" }
       ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "ally",
+      "description": "Back in an informal advisory role in Trump's second term, Kushner has acted with envoy Steve Witkoff as a key intermediary on Gaza, Russia–Ukraine and Iran; in January 2026 Trump named him to the Board of Peace, and in February 2026 Trump said he would make Kushner a special envoy for peace (the White House later said the role would not be official).",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" },
+        { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" },
+        { "url": "https://www.aol.com/articles/trump-says-son-law-kushner-152430541.html", "title": "Trump says son-in-law Kushner promoted to 'peace envoy' — NewsNation via AOL" }
+      ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "ally",
+      "description": "After a 2018 break, Bannon returned to championing Trump: Trump pardoned him in January 2021, and from 2025 Bannon has promoted a third Trump term, saying in October 2025 that \"there's a plan\" for Trump to be president in 2028; constitutional scholars say a third term is barred.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" },
+        { "url": "https://www.yahoo.com/news/articles/trump-gonna-president-2028-maga-220101155.html", "title": "Trump is 'gonna be president' in 2028, MAGA leader bluntly declares: 'There's a plan' — Yahoo News" },
+        { "url": "https://www.axios.com/2026/01/10/steve-bannon-2028-campaign-maga", "title": "Scoop: Bannon quietly making moves toward 2028 run — Axios" }
+      ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "rival",
+      "description": "After Bannon's comments about Trump's children appeared in Michael Wolff's Fire and Fury in January 2018, Trump disavowed him and the two were estranged until Bannon praised him again in 2019.",
+      "start_year": 2018,
+      "end_year": 2019,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "donor",
+      "description": "Lonsdale helped lead and raise money for America PAC, the super PAC backing Trump's 2024 campaign; his company gave it $1 million.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
+        { "url": "https://hn.jakechampion.name/reader/https://www.theverge.com/2024/7/16/24199700/elon-musk-joe-lonsdale-america-pac-donald-trump", "title": "Elon Musk and tech elite back a pro-Trump super PAC — The Verge" },
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "employee",
+      "description": "Trump nominated Hegseth, then a Fox News host, as defense secretary; he was sworn in on January 25, 2025, and in September 2025 Trump's executive order let him use the title Secretary of War.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" },
+        { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" },
+        { "url": "https://www.defenseone.com/policy/2025/09/trump-signs-order-change-name-department-defense-department-war/407962/", "title": "Trump signs order to change name of Department of Defense to Department of War — Defense One" }
+      ]
     }
   ],
   "source_conflicts": [

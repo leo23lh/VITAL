@@ -328,6 +328,19 @@
         { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" },
         { "url": "https://www.deseret.com/politics/2026/03/25/donald-trump-president-council-advisors-science-technology-zuckerberg", "title": "Trump names tech leaders to science and technology council — Deseret News" }
       ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "colleague",
+      "description": "Kushner's Affinity Partners was named in December 2025 as a financing partner, with about $200 million, in Paramount Skydance's hostile bid for Warner Bros. Discovery, whose equity the Ellison family trust backstopped; Affinity withdrew on December 16, 2025. No source describes Kushner and Larry Ellison working together directly.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://fortune.com/2025/12/08/jared-kushner-paramount-warner-netflix-trump-ellison-saudi-antitrust/", "title": "Jared Kushner, Paramount, Warner and the Ellisons — Fortune" },
+        { "url": "https://www.cbsnews.com/news/jared-kushner-affinity-partners-backs-out-paramount-skydance-bid-warner-bros-discovery/", "title": "Jared Kushner's Affinity Partners backs out of Paramount Skydance bid for Warner Bros. Discovery — CBS News" }
+      ]
     }
   ],
   "source_conflicts": [

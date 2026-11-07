@@ -196,6 +196,18 @@
         { "url": "https://www.axios.com/2025/10/16/anthropic-david-sacks-ai-white-house", "title": "New AI battle: White House vs. Anthropic — Axios" },
         { "url": "https://www.nextgov.com/artificial-intelligence/2025/10/anthropic-ceo-defends-support-ai-regulations-alignment-trump-policies/408959", "title": "Anthropic CEO defends support for AI regulations, alignment with Trump policies — Nextgov" }
       ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "ally",
+      "description": "Sacks was an early investor in Lonsdale's Addepar, and both backed Musk's pro-Trump America PAC in 2024.",
+      "start_year": 2009,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

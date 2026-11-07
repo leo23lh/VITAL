@@ -195,6 +195,20 @@
         { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" },
         { "url": "https://www.cbsnews.com/news/tony-blair-rubio-kushner-witkoff-help-oversee-gaza-reconstruction", "title": "Tony Blair, Rubio, Kushner and Witkoff to help oversee Gaza reconstruction — CBS News" }
       ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "colleague",
+      "description": "Both sit on the founding Executive Board of Trump's Board of Peace, named in January 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/", "title": "Statement on President Trump's Comprehensive Plan to End the Gaza Conflict — The White House" },
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" },
+        { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" }
+      ]
     }
   ],
   "source_conflicts": [],

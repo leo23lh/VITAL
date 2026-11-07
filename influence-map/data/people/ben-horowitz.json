@@ -153,6 +153,18 @@
         { "url": "https://news.bgov.com/private-equity/andreessen-horowitz-fuel-ai-industrys-51-million-midterm-haul", "title": "Andreessen, Horowitz Fuel AI Industry's $51 Million Midterm Haul — Bloomberg Government" },
         { "url": "https://fortune.com/2025/08/26/openai-president-greg-brockman-andreessen-horowitz-super-pac-ai-pro-innovation/", "title": "OpenAI president Greg Brockman and Andreessen Horowitz back AI super PAC — Fortune" }
       ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "ally",
+      "description": "Co-backers of the pro-AI super PAC network Leading the Future, launched in August 2025 with Andreessen Horowitz, Greg Brockman and Ron Conway.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
+      ]
     }
   ],
   "source_conflicts": [

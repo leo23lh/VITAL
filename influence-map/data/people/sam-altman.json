@@ -230,6 +230,18 @@
         { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
         { "url": "https://www.aljazeera.com/news/2025/1/22/trump-announces-500bn-stargate-venture-to-build-up-ai-infrastucture", "title": "Trump announces $500bn 'Stargate' venture to build up AI infrastructure — Al Jazeera" }
       ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "colleague",
+      "description": "Hours after Hegseth's department moved against Anthropic on February 27, 2026, Altman announced an agreement to put OpenAI's models on the Pentagon's classified networks, with limits on domestic surveillance and autonomous weapons. A company-level deal; no source describes the two working together directly.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.foxbusiness.com/politics/openai-reaches-pentagon-agreement-trump-orders-anthropic-off-federal-systems", "title": "OpenAI reaches Pentagon agreement as Trump orders Anthropic off federal systems — Fox Business" }
+      ]
     }
   ],
   "source_conflicts": [

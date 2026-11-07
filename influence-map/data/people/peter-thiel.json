@@ -367,6 +367,31 @@
         { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
         { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
       ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "protégé",
+      "description": "Thiel, who co-founded The Stanford Review that Lonsdale later edited, became his mentor; Lonsdale worked as an early executive at Thiel's hedge fund Clarium Capital.",
+      "start_year": 2004,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir together in 2004 with Alex Karp, Stephen Cohen and Nathan Gettings; Lonsdale left in 2009 but kept an advisory role and a stake. Thiel was also an early investor in Lonsdale's Addepar.",
+      "start_year": 2004,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

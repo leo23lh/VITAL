@@ -1,0 +1,250 @@
+{
+  "name": "Jared Kushner",
+  "aliases": ["Jared Corey Kushner"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle", "middle-east"],
+  "photo": {
+    "file": "jared-kushner.jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Jared_Kushner_2025.jpg", "title": "File:Jared Kushner 2025.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Founder of Affinity Partners; Trump's informal peace envoy (Gaza, Ukraine, Iran talks) and member of the Board of Peace Executive Board",
+  "summary": "Jared Kushner, Donald Trump's son-in-law, ran his family's real-estate firm and owned The New York Observer before serving as Trump's senior adviser from 2017 to 2021, when he led the First Step Act and the talks behind the 2020 Abraham Accords. He then founded Affinity Partners, funded mostly by Saudi Arabia's Public Investment Fund. Since 2025 he has worked informally with envoy Steve Witkoff on Gaza, Ukraine and Iran negotiations, and in January 2026 he was named to the Board of Peace overseeing Gaza.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" },
+    { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" },
+    { "url": "https://www.aol.com/articles/trump-says-son-law-kushner-152430541.html", "title": "Trump says son-in-law Kushner promoted to 'peace envoy' — NewsNation via AOL" }
+  ],
+  "timeline": [
+    {
+      "year": 2005,
+      "end_year": 2017,
+      "role": "Ran the family firm after his father's conviction; CEO from 2008",
+      "org": "Kushner Companies",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2006,
+      "end_year": 2017,
+      "role": "Owner and publisher",
+      "org": "The New York Observer",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2016,
+      "role": "Senior figure in Trump's presidential campaign, at times seen as its de facto manager",
+      "org": "Trump 2016 campaign",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2021,
+      "role": "Senior Advisor to the President and director of the Office of American Innovation; led the First Step Act (2018), the Middle East peace plan and the Abraham Accords (2020)",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": null,
+      "role": "Founder",
+      "org": "Affinity Partners (private equity; mostly Saudi Public Investment Fund money)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Informal envoy alongside Steve Witkoff in Gaza, Russia–Ukraine and Iran negotiations",
+      "org": "Second Trump administration",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" },
+        { "url": "https://www.aol.com/articles/trump-says-son-law-kushner-152430541.html", "title": "Trump says son-in-law Kushner promoted to 'peace envoy' — NewsNation via AOL" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Member of the founding Executive Board and the Gaza Executive Board",
+      "org": "Board of Peace (chaired by Donald Trump)",
+      "sources": [
+        { "url": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/", "title": "Statement on President Trump's Comprehensive Plan to End the Gaza Conflict — The White House" },
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" },
+        { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Affinity Partners",
+      "role": "Founder",
+      "start_year": 2021,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Board of Peace",
+      "role": "Executive Board member",
+      "start_year": 2026,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/", "title": "Statement on President Trump's Comprehensive Plan to End the Gaza Conflict — The White House" },
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Tony Blair",
+      "slug": "tony-blair",
+      "relationship_type": "colleague",
+      "description": "Both sit on the Board of Peace's founding Executive Board and its Gaza Executive Board, named in January 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" },
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Senior adviser to the president throughout Trump's first term, leading Middle East work including the 2020 Abraham Accords; the appointment drew nepotism and conflict-of-interest criticism.",
+      "start_year": 2017,
+      "end_year": 2021,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/jared-kushner-named-top-white-house-adviser-donald-trump", "title": "Jared Kushner named senior White House adviser to Donald Trump — PBS NewsHour" },
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "family",
+      "description": "Son-in-law (married to Ivanka Trump).",
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.npr.org/2017/01/09/508990297/trump-to-reportedly-name-son-in-law-jared-kushner-as-senior-advisor", "title": "Jared Kushner, Donald Trump's Son-In-Law, Named Senior Adviser To Incoming President — NPR" },
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Back in an informal advisory role in Trump's second term, Kushner has acted with envoy Steve Witkoff as a key intermediary on Gaza, Russia–Ukraine and Iran; in January 2026 Trump named him to the Board of Peace, and in February 2026 Trump said he would make Kushner a special envoy for peace (the White House later said the role would not be official).",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" },
+        { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" },
+        { "url": "https://www.aol.com/articles/trump-says-son-law-kushner-152430541.html", "title": "Trump says son-in-law Kushner promoted to 'peace envoy' — NewsNation via AOL" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "colleague",
+      "description": "Both sit on the founding Executive Board of Trump's Board of Peace, named in January 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/", "title": "Statement on President Trump's Comprehensive Plan to End the Gaza Conflict — The White House" },
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" },
+        { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" }
+      ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "rival",
+      "description": "Kushner and Bannon clashed constantly in the 2017 White House; in his 2022 memoir Kushner says Bannon, accusing him of leaking, told him \"I will break you in half\". Bannon was fired that August. Bannon's response to the book was not found.",
+      "start_year": 2017,
+      "end_year": 2017,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" },
+        { "url": "https://kvia.com/politics/cnn-us-politics/2022/07/29/first-on-cnn-jared-kushner-details-west-wing-war-with-toxic-steve-bannon-in-new-book/", "title": "Jared Kushner details West Wing war with 'toxic' Steve Bannon in new book — CNN via KVIA" },
+        { "url": "https://www.mediaite.com/politics/kushner-book-details-war-with-bannon-in-trump-white-house-i-will-break-you-in-half-dont-fck-with-me", "title": "Kushner book details 'war' with Bannon in Trump White House — Mediaite" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "colleague",
+      "description": "Kushner's Affinity Partners was named in December 2025 as a financing partner, with about $200 million, in Paramount Skydance's hostile bid for Warner Bros. Discovery, whose equity the Ellison family trust backstopped; Affinity withdrew on December 16, 2025. No source describes Kushner and Larry Ellison working together directly.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://fortune.com/2025/12/08/jared-kushner-paramount-warner-netflix-trump-ellison-saudi-antitrust/", "title": "Jared Kushner, Paramount, Warner and the Ellisons — Fortune" },
+        { "url": "https://www.cbsnews.com/news/jared-kushner-affinity-partners-backs-out-paramount-skydance-bid-warner-bros-discovery/", "title": "Jared Kushner's Affinity Partners backs out of Paramount Skydance bid for Warner Bros. Discovery — CBS News" }
+      ]
+    },
+    {
+      "name": "Steve Witkoff",
+      "slug": "steve-witkoff",
+      "relationship_type": "colleague",
+      "description": "Partners in Trump's second-term diplomacy: together they negotiated over Gaza, met Vladimir Putin in Moscow in December 2025, led 2026 nuclear talks with Iran, and sit on the Board of Peace's executive boards.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" },
+        { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" },
+        { "url": "https://www.aol.com/articles/trump-says-son-law-kushner-152430541.html", "title": "Trump says son-in-law Kushner promoted to 'peace envoy' — NewsNation via AOL" }
+      ]
+    },
+    {
+      "name": "Ivanka Trump",
+      "slug": "ivanka-trump",
+      "relationship_type": "family",
+      "description": "Wife; they married in 2009. Ivanka Trump was a senior White House adviser in Trump's first term.",
+      "start_year": 2009,
+      "end_year": null,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Chris Christie",
+      "slug": "chris-christie",
+      "relationship_type": "rival",
+      "description": "Kushner was reported to be an influential factor in Christie's removal as head of Trump's 2016 transition team (Christie had prosecuted Kushner's father); in 2023 Christie attacked the Saudi investment in Kushner's fund.",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Special envoy title",
+      "details": "Wikipedia says Kushner was officially appointed special envoy for peace in 2026; NewsNation reported that after Trump announced it on February 19, 2026, the White House said the role would not be official.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" },
+        { "url": "https://www.aol.com/articles/trump-says-son-law-kushner-152430541.html", "title": "Trump says son-in-law Kushner promoted to 'peace envoy' — NewsNation via AOL" }
+      ]
+    }
+  ],
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Records for Trump (family, employer) and Blair mirror the records already in their files. Not recorded: Kushner's father, Charles Kushner, and links to other people in the map without a documented relationship.",
+  "last_researched": "2026-11-07"
+}

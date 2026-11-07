@@ -190,6 +190,34 @@
         { "url": "https://www.whitehouse.gov/administration/usha-vance/", "title": "Second Lady Usha Vance — The White House" },
         { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" }
       ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "ally",
+      "description": "Lonsdale hosted a $50,000-a-head Republican fundraiser for Vance in Austin in March 2026 and has said Vance could be the party's 2028 pick.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.fox7austin.com/news/vice-president-jd-vance-visits-austin-fundraising-event", "title": "Vice President JD Vance visits Austin for fundraising event — FOX 7 Austin" },
+        { "url": "https://www.kxan.com/news/texas-politics/vance-visits-austin-for-fundraiser-with-50000-cover-charge/amp/", "title": "Vance visits Austin for fundraiser with $50,000 cover charge — KXAN" },
+        { "url": "https://www.bloomberg.com/news/articles/2024-11-01/joe-lonsdale-like-peter-thiel-plows-his-tech-fortune-into-conservative-causes", "title": "Joe Lonsdale Is Seed Funding Young Conservative Minds — Bloomberg" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "colleague",
+      "description": "Vance cast the tie-breaking vote that confirmed Hegseth 51–50 on January 24, 2025, only the second time a vice president has broken a tie on a cabinet nominee, and swore him in the next day; both serve in Trump's second administration.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/pete-hegseth-faces-close-senate-210506301.html", "title": "Vance's tiebreaker vote confirms Pete Hegseth as Defense secretary — Yahoo News" },
+        { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" },
+        { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" }
+      ]
     }
   ],
   "source_conflicts": [],

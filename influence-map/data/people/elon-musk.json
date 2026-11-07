@@ -293,6 +293,34 @@
         { "url": "https://www.pbs.org/newshour/politics/vance-says-musk-making-a-huge-mistake-for-attacking-trump-on-social-media", "title": "Vance says Musk making a 'huge mistake' for attacking Trump on social media — PBS NewsHour" },
         { "url": "https://www.washingtonexaminer.com/?p=3439357", "title": "Vance and Wiles emerge as key figures in arranging Trump-Musk thaw-out — Washington Examiner" }
       ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "rival",
+      "description": "From December 2024 Bannon led the MAGA attack on Musk over H-1B visas, calling him \"a truly evil guy\" and vowing to run him out of the White House; he went on to attack Musk's criticism of the Stargate project and DOGE's results.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.aljazeera.com/economy/2025/1/16/bannon-vs-musk-how-trumps-u-turn-on-h-1b-visas-has-split-maga", "title": "Bannon vs Musk: How Trump's U-turn on H-1B visas has split MAGA — Al Jazeera" },
+        { "url": "https://fortune.com/2025/01/13/steve-bannon-elon-musk-political-influence-personal-mission-trump/", "title": "Steve Bannon's personal mission against Elon Musk — Fortune" },
+        { "url": "https://www.foxnews.com/politics/trump-ally-steve-bannon-pledges-take-down-elon-musk", "title": "Trump ally Steve Bannon pledges to take down Elon Musk — Fox News" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "ally",
+      "description": "Described by The New York Times as a friend and \"political confidant\" of Musk, Lonsdale was among the leaders and fundraisers of Musk's pro-Trump America PAC in 2024.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
+        { "url": "https://hn.jakechampion.name/reader/https://www.theverge.com/2024/7/16/24199700/elon-musk-joe-lonsdale-america-pac-donald-trump", "title": "Elon Musk and tech elite back a pro-Trump super PAC — The Verge" }
+      ]
     }
   ],
   "source_conflicts": [

@@ -1,0 +1,302 @@
+{
+  "name": "Joe Lonsdale",
+  "aliases": ["Joseph Lonsdale"],
+  "public_figure": true,
+  "sector": "tech",
+  "groups": ["tech-right", "ai-race"],
+  "photo": {
+    "file": "joe-lonsdale.jpg",
+    "credit": "TechCrunch",
+    "license": "CC BY 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Joe_Lonsdale.jpg", "title": "File:Joe Lonsdale.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Co-founder and managing partner of 8VC",
+  "summary": "Joe Lonsdale, a Peter Thiel protégé, co-founded Palantir in 2004, then Addepar and OpenGov, and the venture firms Formation 8 and 8VC, which he moved to Austin in 2020. An active Republican donor and fundraiser, he helped lead Elon Musk's pro-Trump America PAC in 2024, backs the pro-AI super PAC Leading the Future, invested in Palmer Luckey's Erebor bank, and hosted a JD Vance fundraiser in Austin in 2026. He also founded the Cicero Institute and co-founded the University of Austin.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+    { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
+    { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
+  ],
+  "timeline": [
+    {
+      "year": 2002,
+      "end_year": 2003,
+      "role": "Editor-in-chief",
+      "org": "The Stanford Review",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2004,
+      "end_year": 2009,
+      "role": "Co-founder (after working at Thiel's hedge fund Clarium Capital)",
+      "org": "Palantir Technologies",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2009,
+      "role": "Co-founder; CEO, then chairman from 2013",
+      "org": "Addepar",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2011,
+      "end_year": 2015,
+      "role": "Co-founder",
+      "org": "Formation 8",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2012,
+      "end_year": 2024,
+      "role": "Co-founder and chairman",
+      "org": "OpenGov",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": null,
+      "role": "Co-founder and managing partner (investor in Anduril among others)",
+      "org": "8VC",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "role": "Helped lead and fund America PAC, Elon Musk's pro-Trump super PAC",
+      "org": "America PAC",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
+        { "url": "https://hn.jakechampion.name/reader/https://www.theverge.com/2024/7/16/24199700/elon-musk-joe-lonsdale-america-pac-donald-trump", "title": "Elon Musk and tech elite back a pro-Trump super PAC — The Verge" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "8VC",
+      "role": "Co-founder and managing partner",
+      "start_year": 2015,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Cicero Institute",
+      "role": "Founder",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "name": "University of Austin",
+      "role": "Co-founder",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Leading the Future (pro-AI super PAC)",
+      "role": "Backer",
+      "start_year": 2025,
+      "sources": [
+        { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
+      ]
+    },
+    {
+      "name": "Erebor (bank)",
+      "role": "Investor",
+      "start_year": 2025,
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/tech-billionaires-led-palmer-luckey-124008946.html", "title": "Palmer Luckey, backed by Palantir's Lonsdale, to launch crypto-focused bank — Reuters via Yahoo Finance" },
+        { "url": "https://finance.yahoo.com/news/palmer-luckey-backed-erebor-receives-225304165.html", "title": "Palmer Luckey-backed Erebor receives US national banking charter — Reuters via Yahoo Finance" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Alex Karp",
+      "slug": "alex-karp",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir together in 2003–2004 with Peter Thiel, Stephen Cohen and Nathan Gettings.",
+      "start_year": 2003,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "mentor",
+      "description": "Thiel, who co-founded The Stanford Review that Lonsdale later edited, became his mentor; Lonsdale worked as an early executive at Thiel's hedge fund Clarium Capital.",
+      "start_year": 2004,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir together in 2004 with Alex Karp, Stephen Cohen and Nathan Gettings; Lonsdale left in 2009 but kept an advisory role and a stake. Thiel was also an early investor in Lonsdale's Addepar.",
+      "start_year": 2004,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "ally",
+      "description": "Described by The New York Times as a friend and \"political confidant\" of Musk, Lonsdale was among the leaders and fundraisers of Musk's pro-Trump America PAC in 2024.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
+        { "url": "https://hn.jakechampion.name/reader/https://www.theverge.com/2024/7/16/24199700/elon-musk-joe-lonsdale-america-pac-donald-trump", "title": "Elon Musk and tech elite back a pro-Trump super PAC — The Verge" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Lonsdale helped lead and raise money for America PAC, the super PAC backing Trump's 2024 campaign; his company gave it $1 million.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
+        { "url": "https://hn.jakechampion.name/reader/https://www.theverge.com/2024/7/16/24199700/elon-musk-joe-lonsdale-america-pac-donald-trump", "title": "Elon Musk and tech elite back a pro-Trump super PAC — The Verge" },
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Lonsdale hosted a $50,000-a-head Republican fundraiser for Vance in Austin in March 2026 and has said Vance could be the party's 2028 pick.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.fox7austin.com/news/vice-president-jd-vance-visits-austin-fundraising-event", "title": "Vice President JD Vance visits Austin for fundraising event — FOX 7 Austin" },
+        { "url": "https://www.kxan.com/news/texas-politics/vance-visits-austin-for-fundraiser-with-50000-cover-charge/amp/", "title": "Vance visits Austin for fundraiser with $50,000 cover charge — KXAN" },
+        { "url": "https://www.bloomberg.com/news/articles/2024-11-01/joe-lonsdale-like-peter-thiel-plows-his-tech-fortune-into-conservative-causes", "title": "Joe Lonsdale Is Seed Funding Young Conservative Minds — Bloomberg" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "ally",
+      "description": "Lonsdale backed Erebor, the crypto- and defense-focused bank Luckey launched in 2025 (it won a national charter in 2025–2026), and his firm 8VC invested in Luckey's Anduril.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/tech-billionaires-led-palmer-luckey-124008946.html", "title": "Palmer Luckey, backed by Palantir's Lonsdale, to launch crypto-focused bank — Reuters via Yahoo Finance" },
+        { "url": "https://finance.yahoo.com/news/palmer-luckey-backed-erebor-receives-225304165.html", "title": "Palmer Luckey-backed Erebor receives US national banking charter — Reuters via Yahoo Finance" },
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "ally",
+      "description": "Sacks was an early investor in Lonsdale's Addepar, and both backed Musk's pro-Trump America PAC in 2024.",
+      "start_year": 2009,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "ally",
+      "description": "Co-backers of the pro-AI super PAC network Leading the Future, launched in August 2025 with Andreessen Horowitz, Greg Brockman and Ron Conway.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "ally",
+      "description": "Co-backers of the pro-AI super PAC network Leading the Future, launched in August 2025 with Andreessen Horowitz, Greg Brockman and Ron Conway.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
+      ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "ally",
+      "description": "Co-backers of the pro-AI super PAC network Leading the Future, launched in August 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
+      ]
+    },
+    {
+      "name": "Stephen Cohen",
+      "slug": "stephen-cohen",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir together in 2004.",
+      "start_year": 2004,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Role at Erebor",
+      "details": "Some reports call Lonsdale a co-founder of Erebor with Palmer Luckey; most describe him as a backer or investor.",
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/tech-billionaires-led-palmer-luckey-124008946.html", "title": "Palmer Luckey, backed by Palantir's Lonsdale, to launch crypto-focused bank — Reuters via Yahoo Finance" },
+        { "url": "https://finance.yahoo.com/news/palmer-luckey-backed-erebor-receives-225304165.html", "title": "Palmer Luckey-backed Erebor receives US national banking charter — Reuters via Yahoo Finance" }
+      ]
+    },
+    {
+      "topic": "Palantir founding year",
+      "details": "Lonsdale's Wikipedia article gives 2004; this map's Karp record and other sources date Palantir's incorporation to 2003.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Not recorded: a 2015 lawsuit involving Lonsdale (private matter, settled). No documented role in DOGE was found.",
+  "last_researched": "2026-11-07"
+}

@@ -149,6 +149,20 @@
         { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
         { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" }
       ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "ally",
+      "description": "Lonsdale backed Erebor, the crypto- and defense-focused bank Luckey launched in 2025 (it won a national charter in 2025–2026), and his firm 8VC invested in Luckey's Anduril.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/tech-billionaires-led-palmer-luckey-124008946.html", "title": "Palmer Luckey, backed by Palantir's Lonsdale, to launch crypto-focused bank — Reuters via Yahoo Finance" },
+        { "url": "https://finance.yahoo.com/news/palmer-luckey-backed-erebor-receives-225304165.html", "title": "Palmer Luckey-backed Erebor receives US national banking charter — Reuters via Yahoo Finance" },
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [
