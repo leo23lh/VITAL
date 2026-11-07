@@ -1,0 +1,147 @@
+{
+  "name": "Oren Cass",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Domestic policy director of Mitt Romney's 2012 campaign; Manhattan Institute senior fellow; founded American Compass in 2020 with encouragement from Republican senators Marco Rubio, Josh Hawley and JD Vance, to push the GOP toward pro-worker economics, tariffs and industrial policy.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Oren_Cass", "title": "Oren Cass — Wikipedia" },
+        { "url": "https://americancompass.org/oren-cass/", "title": "Oren Cass — American Compass" },
+        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" }
+      ]
+    }
+  ],
+  "current_role": "Founder and chief economist, American Compass",
+  "summary": "Oren Cass was domestic policy director for Mitt Romney's 2012 presidential campaign and a Manhattan Institute senior fellow (2015–2019). His book The Once and Future Worker (2018) argued for putting workers before consumers; in 2020 he founded the think tank American Compass, whose main political allies are JD Vance, Marco Rubio and Josh Hawley. Vance and Rubio both spoke at its fifth-anniversary gala in June 2025.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Oren_Cass", "title": "Oren Cass — Wikipedia" },
+    { "url": "https://americancompass.org/oren-cass/", "title": "Oren Cass — American Compass" },
+    { "url": "https://manhattan.institute/person/oren-cass", "title": "Oren Cass — Manhattan Institute" },
+    { "url": "https://americancompass.org/transcript-vice-president-vance-speaks-to-oren-cass-at-the-new-world-gala/", "title": "Transcript: Vice President Vance speaks to Oren Cass at the New World Gala — American Compass" }
+  ],
+  "timeline": [
+    {
+      "year": 2011,
+      "end_year": 2012,
+      "role": "Domestic policy director, Romney presidential campaign",
+      "org": "Romney for President",
+      "sources": [
+        { "url": "https://americancompass.org/oren-cass/", "title": "Oren Cass — American Compass" },
+        { "url": "https://en.wikipedia.org/wiki/Oren_Cass", "title": "Oren Cass — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": 2019,
+      "role": "Senior fellow",
+      "org": "Manhattan Institute",
+      "sources": [
+        { "url": "https://manhattan.institute/person/oren-cass", "title": "Oren Cass — Manhattan Institute" },
+        { "url": "https://americancompass.org/oren-cass/", "title": "Oren Cass — American Compass" }
+      ]
+    },
+    {
+      "year": 2020,
+      "end_year": null,
+      "role": "Founder; executive director, now chief economist",
+      "org": "American Compass",
+      "sources": [
+        { "url": "https://americancompass.org/oren-cass/", "title": "Oren Cass — American Compass" },
+        { "url": "https://en.wikipedia.org/wiki/Oren_Cass", "title": "Oren Cass — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "National Conservatism Conference",
+      "role": "Speaker (2019, 2021: \"Why National Conservatism Needs Worker Power\")",
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/", "title": "Presenters — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/presenters/oren-cass/", "title": "Oren Cass — National Conservatism Conference 2021" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Cass calls Vance a longtime friend; Vance encouraged him to found American Compass, has praised The Once and Future Worker, and appeared with him at its June 2025 gala.",
+      "start_year": 2018,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://americancompass.org/transcript-vice-president-vance-speaks-to-oren-cass-at-the-new-world-gala/", "title": "Transcript: Vice President Vance speaks to Oren Cass at the New World Gala — American Compass" },
+        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" },
+        { "url": "https://americancompass.org/oren-cass/", "title": "Oren Cass — American Compass" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "ally",
+      "description": "Rubio encouraged the founding of American Compass and is one of its main political allies; he spoke at its June 2025 gala on geopolitics and economic strength.",
+      "start_year": 2020,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" },
+        { "url": "https://americancompass.org/2025-annual-report/", "title": "2025 Annual Report — American Compass" }
+      ]
+    },
+    {
+      "name": "Josh Hawley",
+      "slug": "josh-hawley",
+      "relationship_type": "ally",
+      "description": "Hawley was among the senators who encouraged Cass to found American Compass and has been part of its Senate bloc.",
+      "start_year": 2020,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" }
+      ]
+    },
+    {
+      "name": "Julius Krein",
+      "slug": "julius-krein",
+      "relationship_type": "ally",
+      "description": "Fellow industrial-policy advocates: Krein appears on the American Compass podcast and contributed to the 2025 Techno-Industrial Policy Playbook co-published by American Compass.",
+      "start_year": 2025,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.buzzsprout.com/1080440/episodes/17751286-an-american-sovereign-wealth-fund-with-julius-krein", "title": "An American Sovereign Wealth Fund with Julius Krein — The American Compass Podcast" },
+        { "url": "https://www.rebuilding.tech/pdf/The-Techno-Industrial-Policy-Playbook-2025.pdf", "title": "The Techno-Industrial Policy Playbook 2025" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Cass spoke at Hazony's NatCon in 2019 and 2021.",
+      "start_year": 2019,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/", "title": "Presenters — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/presenters/oren-cass/", "title": "Oren Cass — National Conservatism Conference 2021" }
+      ]
+    },
+    {
+      "name": "Mitt Romney",
+      "slug": "mitt-romney",
+      "relationship_type": "employer",
+      "description": "Cass was domestic policy director of Romney's 2012 presidential campaign.",
+      "start_year": 2011,
+      "end_year": 2012,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://americancompass.org/oren-cass/", "title": "Oren Cass — American Compass" },
+        { "url": "https://en.wikipedia.org/wiki/Oren_Cass", "title": "Oren Cass — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened and Wikipedia was rate-limiting; facts were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

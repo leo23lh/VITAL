@@ -116,6 +116,17 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
       ]
+    },
+    {
+      "name": "R. R. Reno",
+      "slug": "r-r-reno",
+      "relationship_type": "employer",
+      "description": "Ahmari is a First Things columnist; his 2019 essay \"Against David French-ism\" ran in Reno's magazine.",
+      "start_year": 2019,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

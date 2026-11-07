@@ -346,6 +346,68 @@
       "sources": [
         { "url": "https://www.influencewatch.org/person/thomas-d-klingenstein/", "title": "Thomas D. Klingenstein — InfluenceWatch" }
       ]
+    },
+    {
+      "name": "Patrick Deneen",
+      "slug": "patrick-deneen",
+      "relationship_type": "ally",
+      "description": "Deneen has spoken at Hazony's NatCon in 2019, 2021 and as a 2025 plenary speaker.",
+      "start_year": 2019,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/patrick-deneen/", "title": "Patrick Deneen — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/presenters/patrick-deneen/", "title": "Patrick Deneen — National Conservatism Conference 2021" },
+        { "url": "https://nationalconservatism.org/natcon-5-2025/confirmed-speakers/", "title": "Confirmed Speakers — NatCon Washington 2025" }
+      ]
+    },
+    {
+      "name": "R. R. Reno",
+      "slug": "r-r-reno",
+      "relationship_type": "colleague",
+      "description": "Reno co-authored the National Conservatism statement of principles with Hazony and others and has spoken at nearly every NatCon, including Jerusalem in 2026.",
+      "start_year": 2019,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.theamericanconservative.com/?p=306317", "title": "National Conservatism: A Statement of Principles — The American Conservative" },
+        { "url": "https://en.wikipedia.org/wiki/R._R._Reno", "title": "R. R. Reno — Wikipedia" },
+        { "url": "https://nationalconservatism.org/natcon-jerusalem-2026/en/presenters/rusty-reno/", "title": "Rusty Reno — National Conservatism Conference, Jerusalem 2026" }
+      ]
+    },
+    {
+      "name": "Oren Cass",
+      "slug": "oren-cass",
+      "relationship_type": "ally",
+      "description": "Cass spoke at Hazony's NatCon in 2019 and 2021.",
+      "start_year": 2019,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/", "title": "Presenters — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/presenters/oren-cass/", "title": "Oren Cass — National Conservatism Conference 2021" }
+      ]
+    },
+    {
+      "name": "Michael Anton",
+      "slug": "michael-anton",
+      "relationship_type": "ally",
+      "description": "Anton spoke at Hazony's NatCon in 2019 and 2021.",
+      "start_year": 2019,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/", "title": "Presenters — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" }
+      ]
+    },
+    {
+      "name": "Suella Braverman",
+      "slug": "suella-braverman",
+      "relationship_type": "ally",
+      "description": "Braverman spoke at Hazony's NatCon in London (2023), warning about immigration and Britain's \"national character\", and in Brussels (2024).",
+      "start_year": 2023,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" },
+        { "url": "https://lbc.co.uk/news/farage-nigel-braverman-suella-brussels-conference-natcon-police", "title": "Chaos as authorities close down 'right-wing' conference with Farage and Braverman as speakers — LBC" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and, where available, with Wikipedia via its API. The Edmund Burke Foundation's funders are organizations, not people, so they are listed under affiliations; figures come from grant trackers (InfluenceWatch, Cause IQ, Monitoring Influence), not the foundation's own filings.",

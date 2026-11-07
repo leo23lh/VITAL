@@ -108,6 +108,18 @@
       "sources": [
         { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" }
       ]
+    },
+    {
+      "name": "Michael Anton",
+      "slug": "michael-anton",
+      "relationship_type": "colleague",
+      "description": "Anton is a senior fellow at the Claremont Institute, which Klingenstein chairs and funds.",
+      "start_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://www.claremont.org/expert/michael-anton/", "title": "Michael Anton — Claremont Institute" },
+        { "url": "https://en.wikipedia.org/wiki/Thomas_Klingenstein", "title": "Thomas Klingenstein — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

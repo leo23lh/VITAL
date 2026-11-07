@@ -1410,6 +1410,19 @@
       "sources": [
         { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" }
       ]
+    },
+    {
+      "name": "Michael Anton",
+      "slug": "michael-anton",
+      "relationship_type": "employee",
+      "description": "Anton served Trump as National Security Council communications chief (2017–2018) and, in the second term, as State Department policy planning director (2025); his 2016 \"Flight 93 Election\" essay made the intellectual case for Trump.",
+      "start_year": 2017,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Michael_Anton", "title": "Michael Anton — Wikipedia" },
+        { "url": "https://www.state.gov/biographies/michael-anton", "title": "Michael Anton — US Department of State" }
+      ]
     }
   ],
   "source_conflicts": [

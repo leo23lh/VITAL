@@ -85,6 +85,18 @@
         { "url": "https://www.chathamhouse.org/publications/twt/julius-krein-trumps-wunderkind", "title": "Julius Krein, Trump's wunderkind — Chatham House" },
         { "url": "https://en.wikipedia.org/wiki/Julius_Krein", "title": "Julius Krein — Wikipedia" }
       ]
+    },
+    {
+      "name": "Oren Cass",
+      "slug": "oren-cass",
+      "relationship_type": "ally",
+      "description": "Fellow industrial-policy advocates: Krein appears on the American Compass podcast and contributed to the 2025 Techno-Industrial Policy Playbook co-published by American Compass.",
+      "start_year": 2025,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.buzzsprout.com/1080440/episodes/17751286-an-american-sovereign-wealth-fund-with-julius-krein", "title": "An American Sovereign Wealth Fund with Julius Krein — The American Compass Podcast" },
+        { "url": "https://www.rebuilding.tech/pdf/The-Techno-Industrial-Policy-Playbook-2025.pdf", "title": "The Techno-Industrial Policy Playbook 2025" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

@@ -1,0 +1,94 @@
+{
+  "name": "Patrick Deneen",
+  "aliases": ["Patrick J. Deneen"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Leading \"post-liberal\" conservative theorist; his 2023 book Regime Change calls for replacing the bipartisan establishment with a new elite serving the common good; launched it with JD Vance and Heritage president Kevin Roberts; regular NatCon speaker.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Patrick_Deneen_(author)", "title": "Patrick Deneen (political theorist) — Wikipedia" },
+        { "url": "https://isi.org/events/regime-change-and-the-future-of-liberalism/", "title": "Modern Age Panel: Regime Change and the Future of Liberalism — ISI" },
+        { "url": "https://www.rollingstone.com/politics/political-commentary/jd-vance-extremist-christian-vp-mike-pence-1235069117/", "title": "JD Vance and the post-liberal right — Rolling Stone" }
+      ]
+    }
+  ],
+  "current_role": "Professor of political science, University of Notre Dame",
+  "summary": "Patrick Deneen is a Notre Dame political theorist whose Why Liberalism Failed (2018), recommended by Barack Obama, argued that liberalism erodes community and meaning. His follow-up Regime Change: Toward a Postliberal Future (2023) was launched at a panel with JD Vance and Kevin Roberts, and Vance has borrowed its \"anti-regime\" language. He has spoken at NatCon in 2019, 2021 and 2025.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Patrick_Deneen_(author)", "title": "Patrick Deneen (political theorist) — Wikipedia" },
+    { "url": "https://politicalscience.nd.edu/people/faculty/patrick-deneen/", "title": "Patrick J. Deneen — Notre Dame Political Science" },
+    { "url": "https://isi.org/events/regime-change-and-the-future-of-liberalism/", "title": "Modern Age Panel: Regime Change and the Future of Liberalism — ISI" },
+    { "url": "https://www.ncregister.com/news/j-d-vance-is-a-catholic-post-liberal", "title": "JD Vance Is a Catholic 'Post-Liberal': Here's What That Means — National Catholic Register" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Professor of political science",
+      "org": "University of Notre Dame",
+      "sources": [
+        { "url": "https://politicalscience.nd.edu/people/faculty/patrick-deneen/", "title": "Patrick J. Deneen — Notre Dame Political Science" },
+        { "url": "https://en.wikipedia.org/wiki/Patrick_Deneen_(author)", "title": "Patrick Deneen (political theorist) — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "National Conservatism Conference",
+      "role": "Speaker (2019, 2021, 2025 plenary)",
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/patrick-deneen/", "title": "Patrick Deneen — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/presenters/patrick-deneen/", "title": "Patrick Deneen — National Conservatism Conference 2021" },
+        { "url": "https://nationalconservatism.org/natcon-5-2025/confirmed-speakers/", "title": "Confirmed Speakers — NatCon Washington 2025" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Vance joined Deneen and Kevin Roberts on the May 2023 launch panel for Regime Change, has promoted the book and later adopted its \"anti-regime\" language.",
+      "start_year": 2023,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://isi.org/events/regime-change-and-the-future-of-liberalism/", "title": "Modern Age Panel: Regime Change and the Future of Liberalism — ISI" },
+        { "url": "https://constudies.nd.edu/events-news/news/modern-age-panel-regime-change-and-the-future-of-liberalism", "title": "Regime Change and the Future of Liberalism (panel) — Notre Dame Center for Citizenship & Constitutional Government" },
+        { "url": "https://www.rollingstone.com/politics/political-commentary/jd-vance-extremist-christian-vp-mike-pence-1235069117/", "title": "JD Vance and the post-liberal right — Rolling Stone" },
+        { "url": "https://www.ncregister.com/news/j-d-vance-is-a-catholic-post-liberal", "title": "JD Vance Is a Catholic 'Post-Liberal': Here's What That Means — National Catholic Register" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Deneen has spoken at Hazony's NatCon in 2019, 2021 and as a 2025 plenary speaker.",
+      "start_year": 2019,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/patrick-deneen/", "title": "Patrick Deneen — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/presenters/patrick-deneen/", "title": "Patrick Deneen — National Conservatism Conference 2021" },
+        { "url": "https://nationalconservatism.org/natcon-5-2025/confirmed-speakers/", "title": "Confirmed Speakers — NatCon Washington 2025" }
+      ]
+    },
+    {
+      "name": "Kevin Roberts",
+      "slug": "kevin-roberts",
+      "relationship_type": "ally",
+      "description": "The Heritage Foundation president joined Deneen and Vance on the 2023 Regime Change launch panel.",
+      "start_year": 2023,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://isi.org/events/regime-change-and-the-future-of-liberalism/", "title": "Modern Age Panel: Regime Change and the Future of Liberalism — ISI" },
+        { "url": "https://www.rollingstone.com/politics/political-commentary/jd-vance-extremist-christian-vp-mike-pence-1235069117/", "title": "JD Vance and the post-liberal right — Rolling Stone" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened and Wikipedia was rate-limiting; facts were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

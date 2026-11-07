@@ -1,0 +1,135 @@
+{
+  "name": "Michael Anton",
+  "aliases": ["Publius Decius Mus"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Author of the pro-Trump essay \"The Flight 93 Election\" (2016); served in both Trump administrations (National Security Council spokesman 2017–2018; State Department policy planning director 2025); senior fellow at the Claremont Institute.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Michael_Anton", "title": "Michael Anton — Wikipedia" },
+        { "url": "https://www.state.gov/biographies/michael-anton", "title": "Michael Anton — US Department of State" },
+        { "url": "https://www.claremont.org/expert/michael-anton/", "title": "Michael Anton — Claremont Institute" }
+      ]
+    }
+  ],
+  "current_role": "Jack Roth Senior Fellow in American Politics, Claremont Institute (former State Department policy planning director)",
+  "summary": "Michael Anton wrote \"The Flight 93 Election\" (2016) under the pen name Publius Decius Mus, a defining case for Trump among conservative intellectuals. He was the National Security Council's communications chief in 2017–2018 and, under Secretary Marco Rubio, the State Department's director of policy planning from January to September 2025, when he led expert-level talks with Iran. Politico reported he left frustrated with Sergio Gor; the State Department denied any friction.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Michael_Anton", "title": "Michael Anton — Wikipedia" },
+    { "url": "https://www.state.gov/biographies/michael-anton", "title": "Michael Anton — US Department of State" },
+    { "url": "https://www.theamericanconservative.com/michael-anton-to-leave-state-department/", "title": "Michael Anton to leave State Department — The American Conservative" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2018,
+      "role": "Deputy assistant to the president for strategic communications, National Security Council",
+      "org": "White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Michael_Anton", "title": "Michael Anton — Wikipedia" },
+        { "url": "https://www.state.gov/biographies/michael-anton", "title": "Michael Anton — US Department of State" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2025,
+      "role": "33rd Director of Policy Planning (Jan. 20 – Sept. 15)",
+      "org": "US Department of State",
+      "sources": [
+        { "url": "https://www.state.gov/biographies/michael-anton", "title": "Michael Anton — US Department of State" },
+        { "url": "https://en.wikipedia.org/wiki/Michael_Anton", "title": "Michael Anton — Wikipedia" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Jack Roth Senior Fellow in American Politics",
+      "org": "Claremont Institute",
+      "sources": [
+        { "url": "https://www.claremont.org/expert/michael-anton/", "title": "Michael Anton — Claremont Institute" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "National Conservatism Conference",
+      "role": "Speaker (2019, 2021)",
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/", "title": "Presenters — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Anton served Trump as National Security Council communications chief (2017–2018) and, in the second term, as State Department policy planning director (2025); his 2016 \"Flight 93 Election\" essay made the intellectual case for Trump.",
+      "start_year": 2017,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Michael_Anton", "title": "Michael Anton — Wikipedia" },
+        { "url": "https://www.state.gov/biographies/michael-anton", "title": "Michael Anton — US Department of State" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Anton was Secretary Rubio's director of policy planning from January to September 2025 and led expert-level talks with Iran.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.state.gov/biographies/michael-anton", "title": "Michael Anton — US Department of State" },
+        { "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations", "title": "2025–2026 Iran–United States negotiations — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Sergio Gor",
+      "slug": "sergio-gor",
+      "relationship_type": "rival",
+      "description": "Politico reported Anton left State frustrated with Gor and the administration's foreign-policy process; the State Department called any suggestion of friction \"simply untrue\".",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.4,
+      "sources": [
+        { "url": "https://www.theamericanconservative.com/michael-anton-to-leave-state-department/", "title": "Michael Anton to leave State Department — The American Conservative" },
+        { "url": "https://justthenews.com/government/diplomacy/state-departments-michael-anton-leave-post-fall-report", "title": "State Department's Michael Anton to leave post in the fall — Just the News" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "colleague",
+      "description": "Anton is a senior fellow at the Claremont Institute, which Klingenstein chairs and funds.",
+      "start_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://www.claremont.org/expert/michael-anton/", "title": "Michael Anton — Claremont Institute" },
+        { "url": "https://en.wikipedia.org/wiki/Thomas_Klingenstein", "title": "Thomas Klingenstein — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Anton spoke at Hazony's NatCon in 2019 and 2021.",
+      "start_year": 2019,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/", "title": "Presenters — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened and Wikipedia was rate-limiting; facts were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

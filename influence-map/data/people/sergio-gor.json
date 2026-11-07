@@ -86,6 +86,19 @@
         { "url": "https://en.wikipedia.org/wiki/Sergio_Gor", "title": "Wikipedia: Sergio Gor" },
         { "url": "https://m.washingtontimes.com/news/2025/nov/10/sergio-gor-sworn-us-ambassador-india/", "title": "Washington Times: Sergio Gor sworn in as U.S. ambassador to India" }
       ]
+    },
+    {
+      "name": "Michael Anton",
+      "slug": "michael-anton",
+      "relationship_type": "rival",
+      "description": "Politico reported Anton left State frustrated with Gor and the administration's foreign-policy process; the State Department called any suggestion of friction \"simply untrue\".",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.4,
+      "sources": [
+        { "url": "https://www.theamericanconservative.com/michael-anton-to-leave-state-department/", "title": "Michael Anton to leave State Department — The American Conservative" },
+        { "url": "https://justthenews.com/government/diplomacy/state-departments-michael-anton-leave-post-fall-report", "title": "State Department's Michael Anton to leave post in the fall — Just the News" }
+      ]
     }
   ],
   "aliases": [],

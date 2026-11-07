@@ -132,6 +132,18 @@
         { "url": "https://aljazeera.com/news/2026/9/4/reform-uk-officials-step-down-as-new-funding-scandal-hits-far-right-party", "title": "Reform UK officials step down as new funding scandal hits party — Al Jazeera" },
         { "url": "https://www.lbc.co.uk/politics/uk-politics/two-reform-uk-officials-step-down-after-undercover-sting-over-foreign-donations/", "title": "Two Reform UK officials step down after undercover sting over foreign donations — LBC" }
       ]
+    },
+    {
+      "name": "Suella Braverman",
+      "slug": "suella-braverman",
+      "relationship_type": "ally",
+      "description": "Braverman defected to Farage's Reform UK on January 26, 2026, unveiled by Farage as its eighth MP; she called him the only figure in British politics who had been \"courageously consistent\".",
+      "start_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.irishtimes.com/world/uk/2026/01/26/suella-braverman-defects-to-nigel-farages-reform-and-slams-tory-lies/", "title": "Suella Braverman defects to Nigel Farage's Reform and slams Tory 'lies' — Irish Times" },
+        { "url": "https://www.newstatesman.com/politics/uk-politics/2026/01/suella-braverman-defects-to-reform", "title": "Suella Braverman defects to Reform — New Statesman" }
+      ]
     }
   ],
   "source_conflicts": [

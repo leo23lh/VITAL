@@ -409,6 +409,33 @@
       "sources": [
         { "url": "https://vice.com/en/article/claremont-institute-thomas-klingenstein-super-pac", "title": "Claremont Institute chairman Thomas Klingenstein super PAC — Vice" }
       ]
+    },
+    {
+      "name": "Patrick Deneen",
+      "slug": "patrick-deneen",
+      "relationship_type": "ally",
+      "description": "Vance joined Deneen and Kevin Roberts on the May 2023 launch panel for Regime Change, has promoted the book and later adopted its \"anti-regime\" language.",
+      "start_year": 2023,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://isi.org/events/regime-change-and-the-future-of-liberalism/", "title": "Modern Age Panel: Regime Change and the Future of Liberalism — ISI" },
+        { "url": "https://constudies.nd.edu/events-news/news/modern-age-panel-regime-change-and-the-future-of-liberalism", "title": "Regime Change and the Future of Liberalism (panel) — Notre Dame Center for Citizenship & Constitutional Government" },
+        { "url": "https://www.rollingstone.com/politics/political-commentary/jd-vance-extremist-christian-vp-mike-pence-1235069117/", "title": "JD Vance and the post-liberal right — Rolling Stone" },
+        { "url": "https://www.ncregister.com/news/j-d-vance-is-a-catholic-post-liberal", "title": "JD Vance Is a Catholic 'Post-Liberal': Here's What That Means — National Catholic Register" }
+      ]
+    },
+    {
+      "name": "Oren Cass",
+      "slug": "oren-cass",
+      "relationship_type": "ally",
+      "description": "Cass calls Vance a longtime friend; Vance encouraged him to found American Compass, has praised The Once and Future Worker, and appeared with him at its June 2025 gala.",
+      "start_year": 2018,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://americancompass.org/transcript-vice-president-vance-speaks-to-oren-cass-at-the-new-world-gala/", "title": "Transcript: Vice President Vance speaks to Oren Cass at the New World Gala — American Compass" },
+        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" },
+        { "url": "https://americancompass.org/oren-cass/", "title": "Oren Cass — American Compass" }
+      ]
     }
   ],
   "source_conflicts": [],
