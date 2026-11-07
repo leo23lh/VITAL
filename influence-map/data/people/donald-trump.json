@@ -705,6 +705,33 @@
         { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" },
         { "url": "https://www.defenseone.com/policy/2025/09/trump-signs-order-change-name-department-defense-department-war/407962/", "title": "Trump signs order to change name of Department of Defense to Department of War — Defense One" }
       ]
+    },
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Lake for Arizona governor in September 2021 and for the Senate in 2023, and she centered her campaigns on his false claim that the 2020 election was stolen.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
+        { "url": "https://www.newsfromthestates.com/article/kari-lake-who-insists-she-won-2022-enters-us-senate-race-donald-trumps-endorsement", "title": "Kari Lake, who insists she won in 2022, enters the U.S. Senate race with Donald Trump's endorsement — States Newsroom" }
+      ]
+    },
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "employee",
+      "description": "Trump named Lake his choice to run Voice of America in December 2024; she became a USAGM senior adviser in March 2025, carried out his push to shrink the agency, and in May 2026 he nominated her ambassador to Jamaica.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
+        { "url": "https://www.axios.com/local/phoenix/2025/03/28/kari-lake-trump-usagm-voa", "title": "Former journalist Kari Lake helps Trump gut global news agency — Axios Phoenix" },
+        { "url": "https://www.deseret.com/politics/2026/05/11/kari-lake-ambassador-jamaica/", "title": "Kari Lake nominated as ambassador to Jamaica — Deseret News" }
+      ]
     }
   ],
   "source_conflicts": [

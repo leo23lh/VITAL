@@ -214,6 +214,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" }
       ]
+    },
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "ally",
+      "description": "Lake appeared repeatedly on Bannon's War Room, including the day before Arizona's 2022 primaries, where she promoted false claims about the 2020 election. Source is an advocacy watchdog.",
+      "start_year": 2022,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://www.mediamatters.org/steve-bannon/steve-bannon-promotes-republican-big-lie-candidates-ahead-contested-arizona-primaries", "title": "Steve Bannon promotes Republican 'Big Lie' candidates ahead of contested Arizona primaries — Media Matters" }
+      ]
     }
   ],
   "source_conflicts": [],

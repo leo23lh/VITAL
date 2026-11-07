@@ -151,7 +151,12 @@ async function main() {
   }
   for (let i = 0; i < people.length; i += 40) {
     const batch = people.slice(i, i + 40);
-    await lookup(batch);
+    try {
+      await lookup(batch);
+    } catch (e) {
+      console.log(`lookup failed (${String(e.stderr ?? e.message ?? e).split('\n')[0]}); try again later`);
+      continue;
+    }
     for (const p of batch) {
       await sleep(800);
       try {

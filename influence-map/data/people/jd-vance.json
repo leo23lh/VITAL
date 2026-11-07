@@ -218,6 +218,19 @@
         { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" },
         { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" }
       ]
+    },
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "ally",
+      "description": "Then-Senator Vance endorsed Lake's 2024 Senate bid in February 2024, calling her a battle-tested warrior.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=2892300", "title": "JD Vance endorses Kari Lake for Senate — Washington Examiner" },
+        { "url": "https://www.breitbart.com/2024-election/2024/02/28/sens-marsha-blackburn-j-d-vance-back-arizona-republican-kari-lake-for-senate", "title": "Sens. Marsha Blackburn, J.D. Vance back Arizona Republican Kari Lake for Senate — Breitbart" }
+      ]
     }
   ],
   "source_conflicts": [],

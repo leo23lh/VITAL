@@ -1,0 +1,184 @@
+{
+  "name": "Kari Lake",
+  "aliases": ["Kari Lake Halperin"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["media"],
+  "current_role": "Senior adviser to the U.S. Agency for Global Media (since March 2025); Trump's nominee for U.S. Ambassador to Jamaica (May 2026)",
+  "summary": "Kari Lake was a Phoenix TV news anchor at KSAZ (Fox 10) from 1999 to 2021, then a Trump-endorsed Republican nominee who lost the 2022 Arizona governor's race to Katie Hobbs, refused to concede and lost a two-year court challenge, and lost the 2024 Senate race to Ruben Gallego. Trump picked her to lead Voice of America; as a USAGM adviser and, from July to November 2025, its acting CEO she drove mass layoffs, and in March 2026 a federal judge ruled her acting tenure unlawful and voided those actions. In May 2026 Trump nominated her ambassador to Jamaica.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
+    { "url": "https://www.deseret.com/politics/2026/03/09/judge-rules-agaisnt-kari-lake-tensure-as-ceo-of-us-agency-for-global-media-voice-of-america", "title": "Judge rules against Kari Lake's tenure as CEO of U.S. Agency for Global Media — Deseret News" },
+    { "url": "https://www.deseret.com/politics/2026/05/11/kari-lake-ambassador-jamaica/", "title": "Kari Lake nominated as ambassador to Jamaica — Deseret News" }
+  ],
+  "timeline": [
+    {
+      "year": 1999,
+      "end_year": 2021,
+      "role": "Evening news anchor",
+      "org": "KSAZ-TV (Fox 10 Phoenix)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2022,
+      "role": "Republican nominee for governor of Arizona; lost to Katie Hobbs and challenged the result in court until her appeals failed",
+      "org": "Arizona gubernatorial election",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "role": "Republican nominee for U.S. Senate in Arizona; lost to Ruben Gallego",
+      "org": "Arizona Senate election",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
+        { "url": "https://wfdd.org/story/kari-lake-wins-arizonas-gop-senate-primary-shell-face-democratic-rep-ruben-gallego", "title": "Kari Lake wins Arizona's GOP Senate primary; she'll face Democratic Rep. Ruben Gallego — NPR via WFDD" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Senior adviser; deputy and acting CEO July 31–November 19, 2025 (ruled unlawful and voided by Judge Royce Lamberth in March 2026)",
+      "org": "U.S. Agency for Global Media (Voice of America's parent)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
+        { "url": "https://www.axios.com/local/phoenix/2025/03/28/kari-lake-trump-usagm-voa", "title": "Former journalist Kari Lake helps Trump gut global news agency — Axios Phoenix" },
+        { "url": "https://www.deseret.com/politics/2026/03/09/judge-rules-agaisnt-kari-lake-tensure-as-ceo-of-us-agency-for-global-media-voice-of-america", "title": "Judge rules against Kari Lake's tenure as CEO of U.S. Agency for Global Media — Deseret News" },
+        { "url": "https://news.bloomberglaw.com/litigation/lakes-stint-as-agency-for-global-media-acting-ceo-ruled-illegal", "title": "Kari Lake's Term as Global Media Agency Acting CEO Ruled Illegal — Bloomberg Law" }
+      ]
+    },
+    {
+      "year": 2026,
+      "role": "Nominated U.S. Ambassador to Jamaica (May 11, 2026)",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
+        { "url": "https://www.deseret.com/politics/2026/05/11/kari-lake-ambassador-jamaica/", "title": "Kari Lake nominated as ambassador to Jamaica — Deseret News" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Republican Party",
+      "role": "Member; nominee for governor (2022) and Senate (2024)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" }
+      ]
+    },
+    {
+      "name": "U.S. Agency for Global Media",
+      "role": "Senior adviser",
+      "start_year": 2025,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
+        { "url": "https://www.axios.com/local/phoenix/2025/03/28/kari-lake-trump-usagm-voa", "title": "Former journalist Kari Lake helps Trump gut global news agency — Axios Phoenix" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Lake for Arizona governor in September 2021 and for the Senate in 2023, and she centered her campaigns on his false claim that the 2020 election was stolen.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
+        { "url": "https://www.newsfromthestates.com/article/kari-lake-who-insists-she-won-2022-enters-us-senate-race-donald-trumps-endorsement", "title": "Kari Lake, who insists she won in 2022, enters the U.S. Senate race with Donald Trump's endorsement — States Newsroom" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump named Lake his choice to run Voice of America in December 2024; she became a USAGM senior adviser in March 2025, carried out his push to shrink the agency, and in May 2026 he nominated her ambassador to Jamaica.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
+        { "url": "https://www.axios.com/local/phoenix/2025/03/28/kari-lake-trump-usagm-voa", "title": "Former journalist Kari Lake helps Trump gut global news agency — Axios Phoenix" },
+        { "url": "https://www.deseret.com/politics/2026/05/11/kari-lake-ambassador-jamaica/", "title": "Kari Lake nominated as ambassador to Jamaica — Deseret News" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Then-Senator Vance endorsed Lake's 2024 Senate bid in February 2024, calling her a battle-tested warrior.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=2892300", "title": "JD Vance endorses Kari Lake for Senate — Washington Examiner" },
+        { "url": "https://www.breitbart.com/2024-election/2024/02/28/sens-marsha-blackburn-j-d-vance-back-arizona-republican-kari-lake-for-senate", "title": "Sens. Marsha Blackburn, J.D. Vance back Arizona Republican Kari Lake for Senate — Breitbart" }
+      ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "ally",
+      "description": "Lake appeared repeatedly on Bannon's War Room, including the day before Arizona's 2022 primaries, where she promoted false claims about the 2020 election. Source is an advocacy watchdog.",
+      "start_year": 2022,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://www.mediamatters.org/steve-bannon/steve-bannon-promotes-republican-big-lie-candidates-ahead-contested-arizona-primaries", "title": "Steve Bannon promotes Republican 'Big Lie' candidates ahead of contested Arizona primaries — Media Matters" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "colleague",
+      "description": "In 2025 Lake took a State Department role coordinating with USAGM to scale back Voice of America, citing Secretary of State Rubio's leadership.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.thedailybeast.com/kari-lake-gets-new-state-dept-gig-in-bid-to-obliterate-voice-of-america", "title": "Kari Lake gets new State Dept gig in bid to obliterate Voice of America — Daily Beast" }
+      ]
+    },
+    {
+      "name": "Katie Hobbs",
+      "slug": "katie-hobbs",
+      "relationship_type": "rival",
+      "description": "Hobbs beat Lake by about 17,000 votes in the 2022 Arizona governor's race; Lake refused to concede and pursued court challenges that state courts rejected over nearly two years.",
+      "start_year": 2022,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ruben Gallego",
+      "slug": "ruben-gallego",
+      "relationship_type": "rival",
+      "description": "Gallego beat Lake in the November 2024 Arizona Senate race by about 80,000 votes.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
+        { "url": "https://wfdd.org/story/kari-lake-wins-arizonas-gop-senate-primary-shell-face-democratic-rep-ruben-gallego", "title": "Kari Lake wins Arizona's GOP Senate primary; she'll face Democratic Rep. Ruben Gallego — NPR via WFDD" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "End of her acting-CEO period",
+      "details": "Wikipedia and some reports give November 19, 2025; others give November 18.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
+        { "url": "https://www.deseret.com/politics/2026/03/09/judge-rules-agaisnt-kari-lake-tensure-as-ceo-of-us-agency-for-global-media-voice-of-america", "title": "Judge rules against Kari Lake's tenure as CEO of U.S. Agency for Global Media — Deseret News" }
+      ]
+    }
+  ],
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Her husband and children are private individuals and are not recorded.",
+  "last_researched": "2026-11-07"
+}
