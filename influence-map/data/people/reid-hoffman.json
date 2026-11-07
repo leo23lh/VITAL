@@ -179,6 +179,19 @@
         { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
         { "url": "https://theprint.in/tech/openais-long-time-backer-reid-hoffman-leaves-board/1417019/", "title": "OpenAI's long-time backer Reid Hoffman leaves board — Reuters via ThePrint" }
       ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "funded_by",
+      "description": "Hoffman gave at least $7–11 million to elect Harris in 2024; in 2026 he said she would face \"a very challenging path\" in 2028.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2024/07/26/reid-hoffman-angers-democrats-republicans-trump-harris-lina-khan/", "title": "Fortune: Reid Hoffman angers Democrats and Republicans" },
+        { "url": "https://www.axios.com/2026/09/20/kamala-harris-ex-aides-2028-campaign", "title": "Axios: Many ex-aides to Harris betting against a 2028 run" }
+      ]
     }
   ],
   "source_conflicts": [

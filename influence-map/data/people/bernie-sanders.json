@@ -1,0 +1,107 @@
+{
+  "name": "Bernie Sanders",
+  "aliases": ["Bernard Sanders"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics", "2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Independent U.S. senator from Vermont who caucuses with Democrats and calls himself a democratic socialist; ran for the Democratic nomination in 2016 and 2020.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Bernie_Sanders", "title": "Wikipedia: Bernie Sanders" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["alexandria-ocasio-cortez"],
+    "basis": "Has praised Ocasio-Cortez and toured with her, but has not endorsed a 2028 successor.",
+    "sources": [
+      { "url": "https://www.nbcnews.com/politics/2028-election/bernie-sanders-lane-2028-aoc-ro-khanna-rcna343290", "title": "NBC News: The front-runners to lead Bernie Sanders' movement in 2028" },
+      { "url": "https://en.wikipedia.org/wiki/Fighting_Oligarchy_tour", "title": "Wikipedia: Fighting Oligarchy tour" }
+    ]
+  },
+  "current_role": "U.S. senator from Vermont (since 2007)",
+  "summary": "Bernie Sanders, a self-described democratic socialist, has represented Vermont in Congress since 1991 and in the Senate since 2007, and ran for the Democratic presidential nomination in 2016 and 2020. His 2025 Fighting Oligarchy tour with Alexandria Ocasio-Cortez drew huge crowds, and he administered Zohran Mamdani's public oath as New York mayor.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Bernie_Sanders", "title": "Wikipedia: Bernie Sanders" },
+    { "url": "https://en.wikipedia.org/wiki/Fighting_Oligarchy_tour", "title": "Wikipedia: Fighting Oligarchy tour" }
+  ],
+  "timeline": [
+    {
+      "year": 2007,
+      "end_year": null,
+      "role": "U.S. senator from Vermont",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Bernie_Sanders", "title": "Wikipedia: Bernie Sanders" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2025,
+      "role": "Fighting Oligarchy tour",
+      "org": "Fighting Oligarchy tour",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Fighting_Oligarchy_tour", "title": "Wikipedia: Fighting Oligarchy tour" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "slug": "alexandria-ocasio-cortez",
+      "relationship_type": "protégé",
+      "description": "She toured with Sanders on the 2025 Fighting Oligarchy tour; he has praised her as a possible successor but not endorsed anyone.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2028-election/bernie-sanders-lane-2028-aoc-ro-khanna-rcna343290", "title": "NBC News: The front-runners to lead Bernie Sanders' movement in 2028" },
+        { "url": "https://en.wikipedia.org/wiki/Fighting_Oligarchy_tour", "title": "Wikipedia: Fighting Oligarchy tour" }
+      ]
+    },
+    {
+      "name": "Faiz Shakir",
+      "slug": "faiz-shakir",
+      "relationship_type": "employee",
+      "description": "Shakir managed Sanders's 2020 presidential campaign and is his chief political adviser.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2026/08/13/nx-s1-5928205/democratic-political-advisor-discusses-the-partys-wins-this-week", "title": "NPR: Faiz Shakir interview" }
+      ]
+    },
+    {
+      "name": "Mike Casca",
+      "slug": "mike-casca",
+      "relationship_type": "employee",
+      "description": "Casca was a senior communications adviser on Sanders's 2020 campaign and deputy chief of staff in his Senate office.",
+      "start_year": 2019,
+      "end_year": 2023,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2026/08/28/aoc-staff-changes-2028-decision", "title": "Axios: AOC shakes up team ahead of 2028 decision" }
+      ]
+    },
+    {
+      "name": "Zohran Mamdani",
+      "slug": "zohran-mamdani",
+      "relationship_type": "ally",
+      "description": "Sanders administered Mamdani's public oath as New York mayor in January 2026; Mamdani counts Sanders among his political heroes.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://abc11.com/post/zohran-mamdani-sworn-new-york-city-mayor-historic-subway-station/18338381/", "title": "AP via ABC11: Zohran Mamdani sworn in as New York City mayor" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

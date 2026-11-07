@@ -1,0 +1,140 @@
+{
+  "name": "Gavin Newsom",
+  "aliases": ["Gavin Christopher Newsom"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics", "2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic mayor of San Francisco, lieutenant governor and governor of California.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gavin_Newsom", "title": "Wikipedia: Gavin Newsom" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Second in most national 2028 Democratic polls; said he would decide after the 2026 midterms and is building national infrastructure, though he has said he would not run if Harris did.",
+    "sources": [
+      { "url": "https://www.thewrap.com/gavin-newsom-admits-hell-decide-on-a-2028-presidential-bid-after-midterms-id-be-lying-if-i-said-otherwise-video/", "title": "TheWrap: Newsom will decide on a 2028 bid after the midterms" },
+      { "url": "https://www.axios.com/local/san-francisco/2026/09/16/gavin-newsom-kamala-harris-2028-democratic-primary", "title": "Axios San Francisco: Newsom's 2028 plans could hinge on Harris' decision" },
+      { "url": "https://en.wikipedia.org/wiki/Statewide_opinion_polling_for_the_2028_Democratic_Party_presidential_primaries", "title": "Wikipedia: Opinion polling for the 2028 Democratic primaries" }
+    ]
+  },
+  "current_role": "Governor of California (since January 2019; term ends January 2027)",
+  "summary": "Gavin Newsom was mayor of San Francisco (2004–2011) and lieutenant governor before becoming governor of California in 2019. He has been one of Trump's most combative opponents, suing over the 2025 federalization of the California National Guard and backing the Proposition 50 redistricting measure. He polls second for the 2028 Democratic nomination and said he would decide after the midterms.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Gavin_Newsom", "title": "Wikipedia: Gavin Newsom" },
+    { "url": "https://www.thewrap.com/gavin-newsom-admits-hell-decide-on-a-2028-presidential-bid-after-midterms-id-be-lying-if-i-said-otherwise-video/", "title": "TheWrap: Newsom will decide on a 2028 bid after the midterms" }
+  ],
+  "timeline": [
+    {
+      "year": 2004,
+      "end_year": 2011,
+      "role": "Mayor of San Francisco",
+      "org": "City and County of San Francisco",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gavin_Newsom", "title": "Wikipedia: Gavin Newsom" }
+      ]
+    },
+    {
+      "year": 2011,
+      "end_year": 2019,
+      "role": "Lieutenant Governor of California",
+      "org": "State of California",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gavin_Newsom", "title": "Wikipedia: Gavin Newsom" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "Governor of California (term ends January 2027)",
+      "org": "State of California",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gavin_Newsom", "title": "Wikipedia: Gavin Newsom" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "Newsom sued Trump over the 2025 federalization of the California National Guard in Los Angeles and won rulings ordering its return; he has positioned himself as a leading Trump opponent.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.gov.ca.gov/2025/12/10/federal-court-to-trump-keeping-a-standing-army-is-illegal-the-federalization-of-californias-national-guard-must-end", "title": "Office of the Governor: Federal court orders end to federalization of California National Guard" },
+        { "url": "https://www.gov.ca.gov/2025/06/12/governor-newsom-prevails-in-blocking-trumps-militarization-of-los-angeles/", "title": "Office of the Governor: Newsom prevails in blocking Trump's militarization of Los Angeles" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "ally",
+      "description": "Pelosi has made boosting Newsom for 2028 one of her post-Congress causes, saying \"He'd make a great president.\"",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028", "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028" }
+      ]
+    },
+    {
+      "name": "Ace Smith",
+      "slug": "ace-smith",
+      "relationship_type": "employee",
+      "description": "Smith and his Bearstar partners ran Newsom's races for lieutenant governor and governor.",
+      "start_year": 2010,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    },
+    {
+      "name": "Sean Clegg",
+      "slug": "sean-clegg",
+      "relationship_type": "employee",
+      "description": "Clegg, a Bearstar founding partner, continues to advise Newsom.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    },
+    {
+      "name": "Jennifer Siebel Newsom",
+      "slug": "jennifer-siebel-newsom",
+      "relationship_type": "family",
+      "description": "His wife; first partner of California since 2019.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.99,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jennifer_Siebel_Newsom", "title": "Wikipedia: Jennifer Siebel Newsom" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "Fellow San Francisco Democrats who share consultants, donors and networks; Newsom has said he would not run for president if Harris ran.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.axios.com/local/san-francisco/2026/09/16/gavin-newsom-kamala-harris-2028-democratic-primary", "title": "Axios San Francisco: Newsom's 2028 plans could hinge on Harris' decision" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

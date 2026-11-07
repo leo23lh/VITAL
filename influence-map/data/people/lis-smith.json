@@ -1,0 +1,62 @@
+{
+  "name": "Lis Smith",
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic communications strategist.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Lis_Smith", "title": "Wikipedia: Lis Smith" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["pete-buttigieg"],
+    "basis": "His 2020 senior adviser, who says publicly he is gaining traction and has said she wants to see him become president.",
+    "sources": [
+      { "url": "https://thehill.com/homenews/campaign/5910837-buttigieg-democratic-party-counterweight-trump/", "title": "The Hill: Buttigieg, untethered, acts as Trump counterweight" },
+      { "url": "https://en.wikipedia.org/wiki/Lis_Smith", "title": "Wikipedia: Lis Smith" }
+    ]
+  },
+  "current_role": "Democratic strategist",
+  "summary": "Lis Smith is a Democratic strategist who was Pete Buttigieg's senior adviser on his 2020 presidential campaign and remains one of his most visible champions for 2028.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Lis_Smith", "title": "Wikipedia: Lis Smith" },
+    { "url": "https://thehill.com/homenews/campaign/5910837-buttigieg-democratic-party-counterweight-trump/", "title": "The Hill: Buttigieg, untethered, acts as Trump counterweight" }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "end_year": 2020,
+      "role": "Senior adviser",
+      "org": "Pete for America",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Lis_Smith", "title": "Wikipedia: Lis Smith" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Pete Buttigieg",
+      "slug": "pete-buttigieg",
+      "relationship_type": "employer",
+      "description": "Senior adviser on his 2020 campaign and a public champion of a 2028 run.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Lis_Smith", "title": "Wikipedia: Lis Smith" },
+        { "url": "https://thehill.com/homenews/campaign/5910837-buttigieg-democratic-party-counterweight-trump/", "title": "The Hill: Buttigieg, untethered, acts as Trump counterweight" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

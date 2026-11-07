@@ -1,0 +1,81 @@
+{
+  "name": "Nancy Pelosi",
+  "aliases": ["Nancy Patricia Pelosi"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics", "2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic congresswoman from San Francisco since 1987 and Democratic leader, including two stints as House speaker.",
+      "sources": [
+        { "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/", "title": "Roll Call: Pelosi announces retirement" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["gavin-newsom"],
+    "basis": "Former aides say boosting Newsom for 2028 is one of her next campaigns; she has called him a potential great president.",
+    "sources": [
+      { "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028", "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028" }
+    ]
+  },
+  "current_role": "U.S. representative from California (retiring January 2027); Speaker Emerita",
+  "summary": "Nancy Pelosi has represented San Francisco in the House since 1987 and was the first woman to serve as speaker (2007–2011, 2019–2023), overseeing both impeachments of Donald Trump. She announced in November 2025 that she would not seek reelection, and has made promoting Gavin Newsom for 2028 one of her causes.",
+  "sources": [
+    { "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/", "title": "Roll Call" },
+    { "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028", "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028" }
+  ],
+  "timeline": [
+    {
+      "year": 1987,
+      "end_year": null,
+      "role": "U.S. representative from San Francisco (not seeking reelection in 2026)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/", "title": "Roll Call" }
+      ]
+    },
+    {
+      "year": 2007,
+      "end_year": 2023,
+      "role": "Speaker of the House (2007–2011, 2019–2023)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nancy_Pelosi", "title": "Wikipedia: Nancy Pelosi" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Gavin Newsom",
+      "slug": "gavin-newsom",
+      "relationship_type": "ally",
+      "description": "Pelosi has made boosting Newsom for 2028 one of her post-Congress causes.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028", "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "As speaker, Pelosi oversaw both of Trump's impeachments (2019, 2021).",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nancy_Pelosi", "title": "Wikipedia: Nancy Pelosi" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Jennifer Siebel Newsom",
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["gavin-newsom"],
+    "basis": "His wife and First Partner of California.",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Jennifer_Siebel_Newsom", "title": "Wikipedia: Jennifer Siebel Newsom" }
+    ]
+  },
+  "current_role": "First Partner of California (since 2019); documentary filmmaker",
+  "summary": "Jennifer Siebel Newsom is a documentary filmmaker (The Mask You Live In) who has been First Partner of California since 2019, after serving as second lady of California and first lady of San Francisco.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Jennifer_Siebel_Newsom", "title": "Wikipedia: Jennifer Siebel Newsom" }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "First Partner of California",
+      "org": "State of California",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jennifer_Siebel_Newsom", "title": "Wikipedia: Jennifer Siebel Newsom" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Gavin Newsom",
+      "slug": "gavin-newsom",
+      "relationship_type": "family",
+      "description": "Her husband.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.99,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jennifer_Siebel_Newsom", "title": "Wikipedia: Jennifer Siebel Newsom" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

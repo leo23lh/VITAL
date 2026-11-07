@@ -103,6 +103,19 @@
         { "url": "https://www.axios.com/2025/10/21/elon-musk-trump-nasa-spacex-duffy", "title": "Axios: Musk rages at Transportation head Duffy" },
         { "url": "https://www.notus.org/trump-white-house/sean-duffy-elon-musk-feud", "title": "NOTUS: Duffy on thin ice after Musk feud" }
       ]
+    },
+    {
+      "name": "Pete Buttigieg",
+      "slug": "pete-buttigieg",
+      "relationship_type": "rival",
+      "description": "Duffy, his successor at Transportation, has repeatedly blamed Buttigieg for air-traffic-control failures; Buttigieg accused Duffy of a blame game.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.foxnews.com/politics/duffy-blasts-buttigieg-accusing-biden-era-official-mismanagement-mayor-pete-failed-four-years", "title": "Fox News: Duffy blasts Buttigieg over Biden-era mismanagement" },
+        { "url": "https://www.flyingmag.com/?p=265717", "title": "Flying: Duffy blames Biden, Buttigieg for 'bungled' Newark tech" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

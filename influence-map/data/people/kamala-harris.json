@@ -1,0 +1,183 @@
+{
+  "name": "Kamala Harris",
+  "aliases": ["Kamala Devi Harris"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics", "2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic district attorney, California attorney general, senator, vice president (2021–2025) and 2024 presidential nominee.",
+      "sources": [
+        { "url": "https://ballotpedia.org/Kamala_Harris", "title": "Ballotpedia: Kamala Harris" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Has led most national 2028 Democratic primary polls since spring 2026 and has hired staff, met donors and traveled to battleground states, though she says she is undecided and many former aides doubt she will run.",
+    "sources": [
+      { "url": "https://abcnews.com/Politics/kamala-harris-eyes-2028-comeback-former-allies-fresh/story?id=133522340", "title": "ABC News: Kamala Harris eyes possible 2028 comeback" },
+      { "url": "https://www.axios.com/2026/09/20/kamala-harris-ex-aides-2028-campaign", "title": "Axios: Many ex-aides to Harris betting against a 2028 run" },
+      { "url": "https://en.wikipedia.org/wiki/Statewide_opinion_polling_for_the_2028_Democratic_Party_presidential_primaries", "title": "Wikipedia: Opinion polling for the 2028 Democratic primaries" }
+    ]
+  },
+  "current_role": "Former Vice President of the United States (2021–2025); head of the Fight for the People PAC",
+  "summary": "Kamala Harris was San Francisco district attorney, California attorney general and a U.S. senator before serving as vice president under Joe Biden from 2021 to 2025. She became the Democratic nominee after Biden withdrew in 2024 and lost to Donald Trump. She leads many 2028 primary polls and has kept a political operation through her Fight for the People PAC, but has not decided whether to run.",
+  "sources": [
+    { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" },
+    { "url": "https://ballotpedia.org/Kamala_Harris", "title": "Ballotpedia: Kamala Harris" },
+    { "url": "https://abcnews.com/Politics/kamala-harris-eyes-2028-comeback-former-allies-fresh/story?id=133522340", "title": "ABC News: Kamala Harris eyes possible 2028 comeback" }
+  ],
+  "timeline": [
+    {
+      "year": 2004,
+      "end_year": 2011,
+      "role": "District Attorney of San Francisco",
+      "org": "City and County of San Francisco",
+      "sources": [
+        { "url": "https://ballotpedia.org/Kamala_Harris", "title": "Ballotpedia: Kamala Harris" }
+      ]
+    },
+    {
+      "year": 2011,
+      "end_year": 2017,
+      "role": "Attorney General of California",
+      "org": "State of California",
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2021,
+      "role": "U.S. senator from California",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://ballotpedia.org/Kamala_Harris", "title": "Ballotpedia: Kamala Harris" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2025,
+      "role": "Vice President of the United States",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://ballotpedia.org/Kamala_Harris", "title": "Ballotpedia: Kamala Harris" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": 2024,
+      "role": "Democratic presidential nominee (lost to Donald Trump)",
+      "org": "Harris for President",
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "Trump defeated Harris, the Democratic nominee after Biden withdrew, in the November 5, 2024 presidential election.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "donor",
+      "description": "In October 2024 Horowitz said he and his wife Felicia would make \"a significant donation to entities who support the Harris Walz campaign\", citing their friendship with Harris, months after endorsing Trump.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Axios: Ben Horowitz plans significant donation to Kamala Harris" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "donor",
+      "description": "Hoffman gave at least $7–11 million to elect Harris in 2024; in 2026 he said she would face \"a very challenging path\" in 2028.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2024/07/26/reid-hoffman-angers-democrats-republicans-trump-harris-lina-khan/", "title": "Fortune: Reid Hoffman angers Democrats and Republicans" },
+        { "url": "https://www.axios.com/2026/09/20/kamala-harris-ex-aides-2028-campaign", "title": "Axios: Many ex-aides to Harris betting against a 2028 run" }
+      ]
+    },
+    {
+      "name": "Doug Emhoff",
+      "slug": "doug-emhoff",
+      "relationship_type": "family",
+      "description": "Married in 2014; he was second gentleman from 2021 to 2025.",
+      "start_year": 2014,
+      "end_year": null,
+      "confidence": 0.99,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" }
+      ]
+    },
+    {
+      "name": "Brian Fallon",
+      "slug": "brian-fallon",
+      "relationship_type": "employee",
+      "description": "Fallon was her campaign communications director (2023–2024) and is reported to run her Fight for the People PAC.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://thedonorclass.substack.com/p/exclusive-the-team-kamala-harris", "title": "The Donor Class: The team Kamala Harris is building" },
+        { "url": "https://wikiwand.com/en/Brian_Fallon_(press_secretary)", "title": "Wikipedia: Brian Fallon" }
+      ]
+    },
+    {
+      "name": "Ace Smith",
+      "slug": "ace-smith",
+      "relationship_type": "employee",
+      "description": "Smith and his Bearstar partners ran the races that elected Harris California attorney general and senator.",
+      "start_year": 2010,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    },
+    {
+      "name": "Sean Clegg",
+      "slug": "sean-clegg",
+      "relationship_type": "employee",
+      "description": "Clegg, a Bearstar founding partner, counts Harris among his clients.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    },
+    {
+      "name": "Gavin Newsom",
+      "slug": "gavin-newsom",
+      "relationship_type": "ally",
+      "description": "Fellow San Francisco Democrats who share consultants, donors and networks; Newsom has said he would not run for president if Harris ran.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.axios.com/local/san-francisco/2026/09/16/gavin-newsom-kamala-harris-2028-democratic-primary", "title": "Axios San Francisco: Newsom's 2028 plans could hinge on Harris' decision" },
+        { "url": "https://kmph.com/news/nation-world/why-experts-see-newsoms-pledge-to-avoid-running-against-harris-as-strategic-move-gavin-newsom-kamala-harris-democrats-2028-presidential-race", "title": "Why experts see Newsom's pledge to avoid running against Harris as strategic" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Zohran Mamdani",
+  "aliases": ["Zohran Kwame Mamdani"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics", "2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic socialist mayor of New York City and former member of the New York State Assembly.",
+      "sources": [
+        { "url": "https://abc11.com/post/zohran-mamdani-sworn-new-york-city-mayor-historic-subway-station/18338381/", "title": "AP via ABC11: Zohran Mamdani sworn in as New York City mayor" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["alexandria-ocasio-cortez"],
+    "basis": "A close political ally; she endorsed him, raised money for him and introduced him at his inauguration.",
+    "sources": [
+      { "url": "https://abc11.com/post/zohran-mamdani-sworn-new-york-city-mayor-historic-subway-station/18338381/", "title": "AP via ABC11: Zohran Mamdani sworn in as New York City mayor" }
+    ]
+  },
+  "current_role": "Mayor of New York City (since January 1, 2026)",
+  "summary": "Zohran Mamdani, a democratic socialist state assemblyman, won New York City's 2025 mayoral race with the backing of Alexandria Ocasio-Cortez and Bernie Sanders, and was sworn in on January 1, 2026, as the city's first Muslim mayor. Michael Bloomberg spent heavily against him.",
+  "sources": [
+    { "url": "https://abc11.com/post/zohran-mamdani-sworn-new-york-city-mayor-historic-subway-station/18338381/", "title": "AP via ABC11: Zohran Mamdani sworn in as New York City mayor" },
+    { "url": "https://en.wikipedia.org/wiki/Zohran_Mamdani", "title": "Wikipedia: Zohran Mamdani" }
+  ],
+  "timeline": [
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Mayor of New York City",
+      "org": "City of New York",
+      "sources": [
+        { "url": "https://abc11.com/post/zohran-mamdani-sworn-new-york-city-mayor-historic-subway-station/18338381/", "title": "AP via ABC11: Zohran Mamdani sworn in as New York City mayor" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "slug": "alexandria-ocasio-cortez",
+      "relationship_type": "ally",
+      "description": "She endorsed and raised money for Mamdani and introduced him at his January 2026 inauguration.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://abc11.com/post/zohran-mamdani-sworn-new-york-city-mayor-historic-subway-station/18338381/", "title": "AP via ABC11: Zohran Mamdani sworn in as New York City mayor" }
+      ]
+    },
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "ally",
+      "description": "Sanders administered Mamdani's public oath as mayor; Mamdani counts him among his political heroes.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://abc11.com/post/zohran-mamdani-sworn-new-york-city-mayor-historic-subway-station/18338381/", "title": "AP via ABC11: Zohran Mamdani sworn in as New York City mayor" }
+      ]
+    },
+    {
+      "name": "Michael Bloomberg",
+      "slug": "michael-bloomberg",
+      "relationship_type": "rival",
+      "description": "Bloomberg put $5 million into anti-Mamdani super PACs in 2025, making him the cycle's largest donor.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/articles/bloomberg-pumped-5m-anti-mamdani-164000539.html", "title": "Yahoo News: Bloomberg pumped $5M into anti-Mamdani super PACs" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

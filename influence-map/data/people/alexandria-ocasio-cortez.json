@@ -1,0 +1,123 @@
+{
+  "name": "Alexandria Ocasio-Cortez",
+  "aliases": ["AOC"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics", "2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic congresswoman from New York since 2019 and member of the Democratic Socialists of America; the leading voice of the party's progressive wing.",
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2028-election/bernie-sanders-lane-2028-aoc-ro-khanna-rcna343290", "title": "NBC News: The front-runners to lead Bernie Sanders' movement in 2028" },
+        { "url": "https://www.foxnews.com/politics/speculation-swirls-aoc-rumored-harbor-2028-aspirations-savvy-politician", "title": "Fox News: AOC 2028 rumors" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Leads some 2028 polls and prediction markets for the Democratic nomination; reshaped her team in 2026 ahead of a decision between a presidential run and a Senate run.",
+    "sources": [
+      { "url": "https://www.axios.com/2026/08/28/aoc-staff-changes-2028-decision", "title": "Axios: AOC shakes up team ahead of 2028 decision" },
+      { "url": "https://www.cnn.com/2026/06/11/politics/alexandria-ocasio-cortez-2028-strategy", "title": "CNN: Inside Alexandria Ocasio-Cortez's strategy ahead of a potential 2028 campaign" },
+      { "url": "https://www.newsweek.com/aoc-surges-lead-2028-primary-first-time-poll-11941529", "title": "Newsweek: AOC surges to lead in 2028 primary" }
+    ]
+  },
+  "current_role": "U.S. representative for New York's 14th district (since 2019)",
+  "summary": "Alexandria Ocasio-Cortez has represented parts of the Bronx and Queens in Congress since 2019 and is the most prominent progressive of her generation. She toured with Bernie Sanders on the 2025 Fighting Oligarchy tour, helped elect Zohran Mamdani as New York mayor, and is weighing a 2028 presidential or Senate run, with an operation staffed largely by Sanders alumni.",
+  "sources": [
+    { "url": "https://www.nbcnews.com/politics/2028-election/bernie-sanders-lane-2028-aoc-ro-khanna-rcna343290", "title": "NBC News: The front-runners to lead Bernie Sanders' movement in 2028" },
+    { "url": "https://www.axios.com/2026/08/28/aoc-staff-changes-2028-decision", "title": "Axios: AOC shakes up team ahead of 2028 decision" },
+    { "url": "https://www.cnn.com/2026/06/11/politics/alexandria-ocasio-cortez-2028-strategy", "title": "CNN: Inside Alexandria Ocasio-Cortez's strategy ahead of a potential 2028 campaign" }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "U.S. representative for New York's 14th district",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alexandria_Ocasio-Cortez", "title": "Wikipedia: Alexandria Ocasio-Cortez" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2025,
+      "role": "Co-headliner of the Fighting Oligarchy tour with Bernie Sanders",
+      "org": "Fighting Oligarchy tour",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Fighting_Oligarchy_tour", "title": "Wikipedia: Fighting Oligarchy tour" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "mentor",
+      "description": "She toured with Sanders on the 2025 Fighting Oligarchy tour; he has praised her as a possible successor but not endorsed anyone.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2028-election/bernie-sanders-lane-2028-aoc-ro-khanna-rcna343290", "title": "NBC News: The front-runners to lead Bernie Sanders' movement in 2028" },
+        { "url": "https://en.wikipedia.org/wiki/Fighting_Oligarchy_tour", "title": "Wikipedia: Fighting Oligarchy tour" }
+      ]
+    },
+    {
+      "name": "Faiz Shakir",
+      "slug": "faiz-shakir",
+      "relationship_type": "ally",
+      "description": "Former Sanders campaign manager who is an outside adviser to Ocasio-Cortez and part of her kitchen cabinet.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2028-election/bernie-sanders-lane-2028-aoc-ro-khanna-rcna343290", "title": "NBC News: The front-runners to lead Bernie Sanders' movement in 2028" },
+        { "url": "https://www.cnn.com/2026/06/11/politics/alexandria-ocasio-cortez-2028-strategy", "title": "CNN: Inside Alexandria Ocasio-Cortez's strategy ahead of a potential 2028 campaign" }
+      ]
+    },
+    {
+      "name": "Zohran Mamdani",
+      "slug": "zohran-mamdani",
+      "relationship_type": "ally",
+      "description": "She endorsed and raised money for Mamdani and introduced him at his January 2026 inauguration as mayor.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://abc11.com/post/zohran-mamdani-sworn-new-york-city-mayor-historic-subway-station/18338381/", "title": "AP via ABC11: Zohran Mamdani sworn in as New York City mayor" }
+      ]
+    },
+    {
+      "name": "Mike Casca",
+      "slug": "mike-casca",
+      "relationship_type": "employee",
+      "description": "Her chief of staff since late 2023, with an expanded portfolio from 2026.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2026/08/28/aoc-staff-changes-2028-decision", "title": "Axios: AOC shakes up team ahead of 2028 decision" },
+        { "url": "https://punchbowl.news/article/washington/alexandria-ocasio-cortez-gets-new-chief-of-staff-mike-casca", "title": "Punchbowl News: AOC gets new chief of staff Mike Casca" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "One of the leading Democratic opponents of Trump and his administration.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2028-election/bernie-sanders-lane-2028-aoc-ro-khanna-rcna343290", "title": "NBC News: The front-runners to lead Bernie Sanders' movement in 2028" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

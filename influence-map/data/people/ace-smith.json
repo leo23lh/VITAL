@@ -1,0 +1,83 @@
+{
+  "name": "Ace Smith",
+  "aliases": ["Averell Smith"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic political consultant for California Democrats including Harris and Newsom.",
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["gavin-newsom", "kamala-harris"],
+    "basis": "Longtime strategist to both Newsom and Harris through Bearstar Strategies.",
+    "sources": [
+      { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+    ]
+  },
+  "current_role": "Partner, Bearstar Strategies",
+  "summary": "Ace Smith is a founding partner of the California consulting firm Bearstar Strategies, whose campaigns elected Kamala Harris attorney general and senator and Gavin Newsom lieutenant governor and governor; the firm also ran paid media for Newsom's Proposition 50.",
+  "sources": [
+    { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" },
+    { "url": "https://en.wikipedia.org/wiki/Averell_Smith", "title": "Wikipedia: Averell Smith" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Founding partner",
+      "org": "Bearstar Strategies",
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Gavin Newsom",
+      "slug": "gavin-newsom",
+      "relationship_type": "employer",
+      "description": "Smith and his Bearstar partners ran Newsom's races for lieutenant governor and governor.",
+      "start_year": 2010,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "employer",
+      "description": "Smith and his Bearstar partners ran the races that elected Harris California attorney general and senator.",
+      "start_year": 2010,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    },
+    {
+      "name": "Sean Clegg",
+      "slug": "sean-clegg",
+      "relationship_type": "colleague",
+      "description": "Partners at the California political consulting firm Bearstar Strategies.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

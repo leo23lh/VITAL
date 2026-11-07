@@ -1,0 +1,94 @@
+{
+  "name": "Michael Bloomberg",
+  "aliases": ["Michael Rubens Bloomberg"],
+  "public_figure": true,
+  "sector": "business",
+  "groups": ["media", "2028-race"],
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic megadonor and 2020 Democratic presidential candidate; earlier elected New York mayor as a Republican and governed as an independent.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Michael_Bloomberg", "title": "Wikipedia: Michael Bloomberg" },
+        { "url": "https://semafor.com/article/10/20/2026/bloombergs-80-million-for-democrats-bookends-donor-dominated-midterm", "title": "Semafor: Bloomberg's $80 million for Democrats" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["josh-shapiro"],
+    "basis": "Shapiro's biggest backer: $2.5 million in 2025, his largest direct gift to a potential 2028 candidate.",
+    "sources": [
+      { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" }
+    ]
+  },
+  "current_role": "Founder of Bloomberg L.P.; philanthropist and Democratic megadonor",
+  "summary": "Michael Bloomberg founded the financial data and media company Bloomberg L.P., was mayor of New York City from 2002 to 2013, and ran for the 2020 Democratic nomination. A leading Democratic donor, he gave about $80 million in the 2026 midterms, is Josh Shapiro's biggest backer, and spent millions against Zohran Mamdani in 2025.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Michael_Bloomberg", "title": "Wikipedia: Michael Bloomberg" },
+    { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" }
+  ],
+  "timeline": [
+    {
+      "year": 1981,
+      "end_year": null,
+      "role": "Founder",
+      "org": "Bloomberg L.P.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Michael_Bloomberg", "title": "Wikipedia: Michael Bloomberg" }
+      ]
+    },
+    {
+      "year": 2002,
+      "end_year": 2013,
+      "role": "Mayor of New York City",
+      "org": "City of New York",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Michael_Bloomberg", "title": "Wikipedia: Michael Bloomberg" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Josh Shapiro",
+      "slug": "josh-shapiro",
+      "relationship_type": "funded_by",
+      "description": "Bloomberg gave $2.5 million to Shapiro's reelection effort in October 2025 and at least $5.25 million since 2016.",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" }
+      ]
+    },
+    {
+      "name": "Howard Wolfson",
+      "slug": "howard-wolfson",
+      "relationship_type": "employee",
+      "description": "Wolfson is Bloomberg's longtime political adviser.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" }
+      ]
+    },
+    {
+      "name": "Zohran Mamdani",
+      "slug": "zohran-mamdani",
+      "relationship_type": "rival",
+      "description": "Bloomberg put $5 million into anti-Mamdani super PACs in 2025.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/articles/bloomberg-pumped-5m-anti-mamdani-164000539.html", "title": "Yahoo News" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

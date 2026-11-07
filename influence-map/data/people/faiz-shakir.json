@@ -1,0 +1,83 @@
+{
+  "name": "Faiz Shakir",
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Progressive strategist: Sanders's 2020 campaign manager and co-founder of the progressive outlet More Perfect Union.",
+      "sources": [
+        { "url": "https://www.npr.org/2026/08/13/nx-s1-5928205/democratic-political-advisor-discusses-the-partys-wins-this-week", "title": "NPR" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["alexandria-ocasio-cortez"],
+    "basis": "An outside adviser to Ocasio-Cortez; CNN says his role gives her the inside track to Sanders's backing.",
+    "sources": [
+      { "url": "https://www.nbcnews.com/politics/2028-election/bernie-sanders-lane-2028-aoc-ro-khanna-rcna343290", "title": "NBC News: The front-runners to lead Bernie Sanders' movement in 2028" },
+      { "url": "https://www.cnn.com/2026/06/11/politics/alexandria-ocasio-cortez-2028-strategy", "title": "CNN: Inside Alexandria Ocasio-Cortez's strategy ahead of a potential 2028 campaign" }
+    ]
+  },
+  "current_role": "Co-founder and executive director of More Perfect Union; chief political adviser to Bernie Sanders",
+  "summary": "Faiz Shakir managed Bernie Sanders's 2020 presidential campaign, co-founded the progressive media outlet More Perfect Union in 2021, ran for DNC chair in 2025, and advises Alexandria Ocasio-Cortez from outside her office.",
+  "sources": [
+    { "url": "https://www.npr.org/2026/08/13/nx-s1-5928205/democratic-political-advisor-discusses-the-partys-wins-this-week", "title": "NPR" },
+    { "url": "https://www.influencewatch.org/person/faiz-shakir/", "title": "InfluenceWatch: Faiz Shakir" }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "end_year": 2020,
+      "role": "Campaign manager",
+      "org": "Bernie Sanders 2020",
+      "sources": [
+        { "url": "https://www.influencewatch.org/person/faiz-shakir/", "title": "InfluenceWatch" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": null,
+      "role": "Co-founder and executive director",
+      "org": "More Perfect Union",
+      "sources": [
+        { "url": "https://www.npr.org/2026/08/13/nx-s1-5928205/democratic-political-advisor-discusses-the-partys-wins-this-week", "title": "NPR" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "employer",
+      "description": "Shakir managed Sanders's 2020 presidential campaign and is his chief political adviser.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2026/08/13/nx-s1-5928205/democratic-political-advisor-discusses-the-partys-wins-this-week", "title": "NPR" }
+      ]
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "slug": "alexandria-ocasio-cortez",
+      "relationship_type": "ally",
+      "description": "Outside adviser to Ocasio-Cortez and part of her kitchen cabinet.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2028-election/bernie-sanders-lane-2028-aoc-ro-khanna-rcna343290", "title": "NBC News: The front-runners to lead Bernie Sanders' movement in 2028" },
+        { "url": "https://www.cnn.com/2026/06/11/politics/alexandria-ocasio-cortez-2028-strategy", "title": "CNN: Inside Alexandria Ocasio-Cortez's strategy ahead of a potential 2028 campaign" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

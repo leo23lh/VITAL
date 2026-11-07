@@ -1,0 +1,71 @@
+{
+  "name": "Howard Wolfson",
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Longtime Democratic strategist and adviser to Michael Bloomberg.",
+      "sources": [
+        { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["josh-shapiro"],
+    "basis": "Bloomberg's longtime adviser, who has praised Shapiro's leadership.",
+    "sources": [
+      { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" }
+    ]
+  },
+  "current_role": "Adviser to Michael Bloomberg",
+  "summary": "Howard Wolfson is Michael Bloomberg's longtime political adviser and a veteran Democratic strategist; he has praised Josh Shapiro, whom Bloomberg backs heavily.",
+  "sources": [
+    { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Longtime adviser",
+      "org": "Michael Bloomberg / Bloomberg Philanthropies",
+      "sources": [
+        { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Michael Bloomberg",
+      "slug": "michael-bloomberg",
+      "relationship_type": "employer",
+      "description": "Wolfson is Bloomberg's longtime adviser.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" }
+      ]
+    },
+    {
+      "name": "Josh Shapiro",
+      "slug": "josh-shapiro",
+      "relationship_type": "ally",
+      "description": "Wolfson has praised Shapiro's leadership and described Bloomberg as a fan.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}
