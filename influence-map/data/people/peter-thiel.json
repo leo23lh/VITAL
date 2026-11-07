@@ -423,6 +423,19 @@
         { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
         { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
       ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Thiel gave a keynote at Hazony's first National Conservatism conference in July 2019.",
+      "start_year": 2019,
+      "end_year": 2019,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.nationalreview.com/2019/07/national-conservatism-conference-intellectual-trumpist-movement/amp/", "title": "At the National Conservatism Conference, an \"Intellectual Trumpist\" Movement Begins to Take Shape — National Review" },
+        { "url": "https://www.dailysignal.com/2019/07/28/national-conservatives-set-out-to-define-future-of-politics-on-right/", "title": "\"National Conservatives\" Set Out to Define Future of Politics on Right — Daily Signal" }
+      ]
     }
   ],
   "source_conflicts": [

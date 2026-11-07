@@ -176,6 +176,18 @@
       "sources": [
         { "url": "https://www.cnn.com/2023/07/31/politics/fec-filings-2024-pacs-donors", "title": "Takeaways from presidential super PACs' mid-year financial disclosures — CNN" }
       ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "DeSantis was a billed speaker at Hazony's NatCon in Florida in 2022.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

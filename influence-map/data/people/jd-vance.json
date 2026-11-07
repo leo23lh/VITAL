@@ -3,7 +3,7 @@
   "aliases": ["James David Vance", "J. D. Vance", "James Donald Bowman"],
   "public_figure": true,
   "sector": "politics",
-  "groups": ["trump-circle", "tech-right", "2028-race"],
+  "groups": ["trump-circle", "tech-right", "2028-race", "natcon"],
   "photo": {
     "file": "jd-vance.jpg",
     "credit": "Emily J. Higgins",
@@ -348,6 +348,31 @@
       "confidence": 0.6,
       "sources": [
         { "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/", "title": "Forbes: The billionaires cozying up to JD Vance" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Hazony invited Vance to the first NatCon in 2019 (\"Getting Beyond Libertarianism\"); Hazony says Vance \"appears at almost every conference\" and \"personifies the concept of national conservatism\". Vance's 2024 NatCon line \"America is not just an idea\" echoes Hazony's core argument.",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.globes.co.il/en/article-1001487027", "title": "The Israeli behind a global conservative movement — Globes" },
+        { "url": "https://www.thebulwark.com/p/understanding-jd-vances-national", "title": "Understanding J.D. Vance's 'National Conservatism' Convention Speech — The Bulwark" }
+      ]
+    },
+    {
+      "name": "James Orr",
+      "slug": "james-orr",
+      "relationship_type": "ally",
+      "description": "Friends since 2019, after Vance's conversion to Catholicism; Vance has called Orr his \"British sherpa\".",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.desmog.com/2026/04/02/seven-things-you-should-know-reform-policy-chief-james-orr/", "title": "Eight Things You Should Know About Reform's Policy Chief James Orr — DeSmog" },
+        { "url": "https://www.thedailybeast.com/vances-british-sherpa-steps-down-after-undercover-sting/", "title": "Vance's 'British sherpa' steps down after undercover sting — Daily Beast" },
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" }
       ]
     }
   ],

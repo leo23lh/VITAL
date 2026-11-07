@@ -3,7 +3,7 @@
   "aliases": [],
   "public_figure": true,
   "sector": "politics",
-  "groups": ["trump-circle", "middle-east", "2028-race"],
+  "groups": ["trump-circle", "middle-east", "2028-race", "natcon"],
   "photo": {
     "file": "marco-rubio.jpg",
     "credit": "U.S. Department of State",
@@ -305,6 +305,18 @@
         { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
         { "url": "https://www.bloomberg.com/news/articles/2016-01-31/singer-griffin-give-combined-5-million-to-super-pac-backing-rubio", "title": "Singer, Griffin give combined $5 million to super PAC backing Rubio — Bloomberg" },
         { "url": "https://www.axios.com/2026/07/08/ken-griffin-gop-rubio-vance-2028", "title": "Scoop: GOP megadonor Ken Griffin says he'd back Rubio over Vance in 2028 — Axios" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Rubio keynoted Hazony's NatCon in 2021 (calling for \"corporate patriotism\") and spoke again in 2022.",
+      "start_year": 2021,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/555498-we-know-better-marco-rubio-warns-of-internal-marxist-threat-globalism-in-natcon-keynote", "title": "Marco Rubio warns of internal Marxist threat, globalism in NatCon keynote — Florida Politics" },
+        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" }
       ]
     }
   ],

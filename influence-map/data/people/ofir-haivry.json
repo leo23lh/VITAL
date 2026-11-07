@@ -1,0 +1,91 @@
+{
+  "name": "Ofir Haivry",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "National-conservative thinker: vice president of the Edmund Burke Foundation and co-author with Yoram Hazony of the movement's founding essays; sits on the Working Group for Conservatism in Europe.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ofir_Haivry", "title": "Ofir Haivry — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" },
+        { "url": "https://www.tabletmag.com/author/ofir-haivry-yoram-hazony/", "title": "Ofir Haivry and Yoram Hazony — Tablet" }
+      ]
+    }
+  ],
+  "current_role": "Vice president of the Herzl Institute, Jerusalem; vice president and director of the Edmund Burke Foundation",
+  "summary": "Ofir Haivry is an Israeli political philosopher and historian (born 1964), author of John Selden and the Western Political Tradition (2017). He co-founded the Shalem Center (1994), was founding editor of the magazine Azure, and co-founded the Herzl Institute with Yoram Hazony in 2012. He is on the board of the Edmund Burke Foundation, which runs the NatCon conferences.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Ofir_Haivry", "title": "Ofir Haivry — Wikipedia" },
+    { "url": "https://danubeinstitute.hu/en/authors/dr-ofir-haivry", "title": "Dr. Ofir Haivry — Danube Institute" }
+  ],
+  "timeline": [
+    {
+      "year": 1994,
+      "role": "Co-founder",
+      "org": "Shalem Center, Jerusalem",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ofir_Haivry", "title": "Ofir Haivry — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1996,
+      "end_year": 2012,
+      "role": "Founding editor-in-chief",
+      "org": "Azure: Ideas for the Jewish Nation",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ofir_Haivry", "title": "Ofir Haivry — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2012,
+      "end_year": null,
+      "role": "Vice president",
+      "org": "Herzl Institute, Jerusalem",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ofir_Haivry", "title": "Ofir Haivry — Wikipedia" },
+        { "url": "https://danubeinstitute.hu/en/authors/dr-ofir-haivry", "title": "Dr. Ofir Haivry — Danube Institute" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "Co-founder; vice president and director",
+      "org": "Edmund Burke Foundation",
+      "sources": [
+        { "url": "https://danubeinstitute.hu/en/authors/dr-ofir-haivry", "title": "Dr. Ofir Haivry — Danube Institute" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Israel's Council for Higher Education",
+      "role": "Member",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ofir_Haivry", "title": "Ofir Haivry — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "co-founder",
+      "description": "Co-founders of the Shalem Center (1994) and the Herzl Institute (2012), co-authors of national-conservative essays, and fellow officers of the Edmund Burke Foundation.",
+      "start_year": 1994,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ofir_Haivry", "title": "Ofir Haivry — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and, where available, with Wikipedia via its API.",
+  "last_researched": "2026-11-07"
+}

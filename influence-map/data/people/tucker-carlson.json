@@ -319,6 +319,18 @@
       "sources": [
         { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" }
       ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Carlson spoke at Hazony's first National Conservatism conference in July 2019.",
+      "start_year": 2019,
+      "end_year": 2019,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://www.dailysignal.com/2019/07/28/national-conservatives-set-out-to-define-future-of-politics-on-right/", "title": "\"National Conservatives\" Set Out to Define Future of Politics on Right — Daily Signal" }
+      ]
     }
   ],
   "source_conflicts": [

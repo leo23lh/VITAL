@@ -1,0 +1,95 @@
+{
+  "name": "Rachel Bovard",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Former legislative director to Sen. Rand Paul and executive director of the Senate Steering Committee; now a senior official at the Conservative Partnership Institute; regular NatCon speaker.",
+      "sources": [
+        { "url": "https://www.defensepriorities.org/people/rachel-bovard", "title": "Rachel Bovard — Defense Priorities" },
+        { "url": "https://www.dailysignal.com/2025/09/05/6-takeaways-national-conservatism-conference/", "title": "6 Takeaways From the National Conservatism Conference — Daily Signal" },
+        { "url": "https://www.breitbart.com/politics/2026/04/26/exclusive-rachel-bovard-senate-republicans-waiting-led-pass-save-america-act/", "title": "Rachel Bovard: Senate Republicans \"Waiting to Be Led\" to Pass SAVE America Act — Breitbart" }
+      ]
+    }
+  ],
+  "current_role": "Vice president of programs, Conservative Partnership Institute; board member, Edmund Burke Foundation",
+  "summary": "Rachel Bovard is a conservative policy strategist. She was legislative director to Sen. Rand Paul and executive director of the Senate Steering Committee, and is now vice president of programs at the Conservative Partnership Institute (earlier its senior director of policy). A board member of the Edmund Burke Foundation and a regular NatCon speaker, she gave a main-stage address at NatCon 4 and in 2025 warned about \"Silicon Valley disrupters\" in the movement.",
+  "sources": [
+    { "url": "https://www.defensepriorities.org/people/rachel-bovard", "title": "Rachel Bovard — Defense Priorities" },
+    { "url": "https://www.dailysignal.com/2025/09/05/6-takeaways-national-conservatism-conference/", "title": "6 Takeaways From the National Conservatism Conference — Daily Signal" },
+    { "url": "https://www.dailysignal.com/2025/08/31/national-conservatism-conference-promises-debate-amid-unity/", "title": "National Conservatism Conference Promises Debate Amid Unity — Daily Signal" },
+    { "url": "https://www.breitbart.com/politics/2026/04/26/exclusive-rachel-bovard-senate-republicans-waiting-led-pass-save-america-act/", "title": "Rachel Bovard: Senate Republicans \"Waiting to Be Led\" to Pass SAVE America Act — Breitbart" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "role": "Legislative director to Sen. Rand Paul; executive director, Senate Steering Committee",
+      "org": "US Senate",
+      "sources": [
+        { "url": "https://www.defensepriorities.org/people/rachel-bovard", "title": "Rachel Bovard — Defense Priorities" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Senior director of policy, then vice president of programs",
+      "org": "Conservative Partnership Institute",
+      "sources": [
+        { "url": "https://cpi.org/2024/02/cpi-announces-new-hires/", "title": "CPI Announces New Hires — Conservative Partnership Institute" },
+        { "url": "https://www.breitbart.com/politics/2026/04/26/exclusive-rachel-bovard-senate-republicans-waiting-led-pass-save-america-act/", "title": "Rachel Bovard: Senate Republicans \"Waiting to Be Led\" to Pass SAVE America Act — Breitbart" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Edmund Burke Foundation",
+      "role": "Board member; NatCon speaker",
+      "sources": [
+        { "url": "https://www.dailysignal.com/2025/09/05/6-takeaways-national-conservatism-conference/", "title": "6 Takeaways From the National Conservatism Conference — Daily Signal" },
+        { "url": "https://www.dailysignal.com/2025/08/31/national-conservatism-conference-promises-debate-amid-unity/", "title": "National Conservatism Conference Promises Debate Amid Unity — Daily Signal" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "colleague",
+      "description": "Bovard sits on the Edmund Burke Foundation's board and speaks regularly at its NatCon conferences.",
+      "start_year": 2019,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.dailysignal.com/2025/09/05/6-takeaways-national-conservatism-conference/", "title": "6 Takeaways From the National Conservatism Conference — Daily Signal" },
+        { "url": "https://www.dailysignal.com/2025/08/31/national-conservatism-conference-promises-debate-amid-unity/", "title": "National Conservatism Conference Promises Debate Amid Unity — Daily Signal" }
+      ]
+    },
+    {
+      "name": "Rand Paul",
+      "slug": "rand-paul",
+      "relationship_type": "employer",
+      "description": "Bovard was Paul's legislative director.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.defensepriorities.org/people/rachel-bovard", "title": "Rachel Bovard — Defense Priorities" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "CPI title",
+      "details": "Some 2025 coverage calls her senior director of policy; Daily Signal (2025) and Breitbart (2026) say vice president of programs, suggesting a promotion.",
+      "sources": [
+        { "url": "https://www.dailysignal.com/2025/09/05/6-takeaways-national-conservatism-conference/", "title": "6 Takeaways From the National Conservatism Conference — Daily Signal" },
+        { "url": "https://www.breitbart.com/politics/2026/04/26/exclusive-rachel-bovard-senate-republicans-waiting-led-pass-save-america-act/", "title": "Rachel Bovard: Senate Republicans \"Waiting to Be Led\" to Pass SAVE America Act — Breitbart" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and, where available, with Wikipedia via its API.",
+  "last_researched": "2026-11-07"
+}

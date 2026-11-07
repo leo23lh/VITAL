@@ -241,6 +241,17 @@
       "sources": [
         { "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/", "title": "Forbes: The billionaires cozying up to JD Vance" }
       ]
+    },
+    {
+      "name": "David Brog",
+      "slug": "david-brog",
+      "relationship_type": "employee",
+      "description": "Brog is often described as a protégé of Miriam and Sheldon Adelson; in 2015 he was picked to run the Maccabee Task Force, the anti-BDS group they formed with Haim Saban.",
+      "start_year": 2015,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [
