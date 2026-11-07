@@ -113,6 +113,9 @@ async function save(p) {
   if (!p.pageimage) return `${slug}: no lead image on Wikipedia ("${p.title}")`;
   const ii = info?.imageinfo?.[0];
   if (!ii) return `${slug}: no image info for ${p.pageimage}`;
+  // A lead image that is a seal, logo, flag or signature is not a portrait (e.g. a page that redirects elsewhere).
+  if (/seal|logo|flag|emblem|coat[_ ]of[_ ]arms|signature|insignia/i.test(p.pageimage) || /\.svg$/i.test(p.pageimage))
+    return `${slug}: skipped ${p.pageimage} (not a portrait)`;
   if (info.imagerepository !== 'shared') return `${slug}: skipped ${p.pageimage} (not on Wikimedia Commons, likely non-free)`;
   const license = stripHtml(ii.extmetadata?.LicenseShortName?.value);
   if (!FREE.test(license)) return `${slug}: skipped ${p.pageimage} (license "${license || 'unknown'}" is not free)`;

@@ -212,7 +212,12 @@ People in the 2028 presidential race carry a `race_2028` field and the
   candidate (declared, exploring, or consistently polled near the top).
 - **Camp:** a close adviser, strategist, major donor, family member who is a
   public figure, or key ally of one or more contenders. The validator requires
-  a connection to each listed contender and that contender's own `race_2028`.
+  a connection to each listed contender (or to someone already in that camp)
+  and that contender's own `race_2028`. If the owner places someone in a camp
+  that the sources don't show, say so in `basis` and cite what the sources do say.
+- **Views:** besides the "2028 race" group, Views lists one "2028 camps" entry
+  per contender (built from `race_2028`, no extra tagging), which puts the
+  contender and their camp in the middle.
 - Update these as candidates declare or drop out (`/refresh-person`).
 
 The viewer also has three views that need no tagging: **Follow the money**

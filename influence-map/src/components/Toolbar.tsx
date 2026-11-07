@@ -25,6 +25,8 @@ export function viewLabel(view: View, nameOf: (id: string) => string): string {
       return 'Whole network';
     case 'group':
       return GROUPS.find((g) => g.id === view.id)?.label ?? view.id;
+    case 'camp':
+      return `${nameOf(view.id)}'s 2028 camp`;
     case 'money':
       return 'Follow the money';
     case 'feuds':

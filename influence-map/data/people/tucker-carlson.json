@@ -27,11 +27,13 @@
     }
   ],
   "race_2028": {
-    "role": "contender",
-    "basis": "Seen as the leader of an anti-Trump MAGA lane; Joe Kent, Marjorie Taylor Greene and Thomas Massie urged him to run, but he says he will not.",
+    "role": "camp",
+    "contenders": ["jd-vance"],
+    "basis": "Vance's close friend and defender: he lobbied Trump to pick Vance in 2024 and defended him in a May 2026 New York Times interview, and Vance defended their friendship in September 2026. Carlson says he will not run himself, though allies have urged him to.",
     "sources": [
-      { "url": "https://www.washingtonexaminer.com/?p=4678584", "title": "Washington Examiner: Could Tucker Carlson run in 2028? Allies see 'clearly a constituency'" },
-      { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+      { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" },
+      { "url": "https://jewishinsider.com/2026/09/jd-vance-defends-friendship-tucker-carlson/", "title": "Jewish Insider: Vance defends friendship with Tucker Carlson" },
+      { "url": "https://www.washingtonexaminer.com/?p=4678584", "title": "Washington Examiner: Could Tucker Carlson run in 2028?" }
     ]
   },
   "photo": {

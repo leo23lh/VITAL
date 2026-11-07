@@ -11,6 +11,8 @@ interface Props {
   view: View;
   onView: (v: View) => void;
   groupCounts: Record<GroupId, number>;
+  /** 2028 contenders and how many people are in each camp. */
+  camps: { id: string; name: string; count: number }[];
   selectedNode: GraphNode | null;
   onWorld: (id: string) => void;
   counts: Record<EdgeFamily, number>;
@@ -52,7 +54,7 @@ export default function Menus(props: Props) {
   );
 }
 
-function ViewsMenu({ view, onView, groupCounts, selectedNode, onWorld }: Props) {
+function ViewsMenu({ view, onView, groupCounts, camps, selectedNode, onWorld }: Props) {
   const is = (v: View) =>
     v.kind === view.kind && (!('id' in v) || ('id' in view && v.id === view.id)) ? ' current' : '';
   return (
@@ -72,6 +74,22 @@ function ViewsMenu({ view, onView, groupCounts, selectedNode, onWorld }: Props) 
           <span className="muted">{groupCounts[g.id]}</span>
         </button>
       ))}
+
+      {camps.length > 0 && (
+        <>
+          <h4>2028 camps</h4>
+          {camps.map((c) => (
+            <button
+              key={c.id}
+              className={`menu-item${is({ kind: 'camp', id: c.id })}`}
+              onClick={() => onView({ kind: 'camp', id: c.id })}
+            >
+              <span>{c.name}</span>
+              <span className="muted">{c.count === 0 ? 'no camp yet' : `+${c.count}`}</span>
+            </button>
+          ))}
+        </>
+      )}
 
       <h4>Lenses</h4>
       <button className={`menu-item${is({ kind: 'money' })}`} onClick={() => onView({ kind: 'money' })}>

@@ -27,6 +27,8 @@ export type Selection = { kind: 'node'; id: string } | { kind: 'link'; id: strin
 export type View =
   | { kind: 'all' }
   | { kind: 'group'; id: GroupId }
+  /** A 2028 contender and everyone in their camp (from each file's race_2028). */
+  | { kind: 'camp'; id: string }
   | { kind: 'money' }
   | { kind: 'feuds' }
   | { kind: 'world'; id: string; depth: 1 | 2 };
@@ -173,6 +175,9 @@ export default function App() {
         core.add(view.id);
       } else if (view.kind === 'group') {
         for (const n of nodes) if (n.groups.includes(view.id)) core.add(n.id);
+      } else if (view.kind === 'camp') {
+        core.add(view.id);
+        for (const n of nodes) if (n.person?.race_2028?.contenders?.includes(view.id)) core.add(n.id);
       } else {
         for (const l of links) {
           if (!lens?.includes(familyOf(l))) continue;
@@ -192,6 +197,19 @@ export default function App() {
     for (const l of graph.links) c[familyOf(l)]++;
     return c;
   }, [graph]);
+
+  // 2028 contenders with the size of their camps, biggest first.
+  const camps = useMemo(() => {
+    const size = new Map<string, number>();
+    for (const n of graph.nodes) {
+      if (n.person?.race_2028?.role === 'contender') size.set(n.id, size.get(n.id) ?? 0);
+    }
+    for (const n of graph.nodes)
+      for (const c of n.person?.race_2028?.contenders ?? []) if (size.has(c)) size.set(c, size.get(c)! + 1);
+    return [...size.entries()]
+      .map(([id, count]) => ({ id, name: byId.get(id)?.name ?? id, count }))
+      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+  }, [graph, byId]);
 
   const groupCounts = useMemo(() => {
     const c = Object.fromEntries(GROUPS.map((g) => [g.id, 0])) as Record<GroupId, number>;
@@ -321,6 +339,7 @@ export default function App() {
                 setMenu(null);
               }}
               groupCounts={groupCounts}
+              camps={camps}
               selectedNode={selectedNodeId ? (byId.get(selectedNodeId) ?? null) : null}
               onWorld={openWorld}
               counts={counts}

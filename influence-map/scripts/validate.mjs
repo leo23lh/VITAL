@@ -206,8 +206,11 @@ export function validatePeople(records, opts = {}) {
           if (!Array.isArray(r.contenders) || !r.contenders.length) err(file, 'race_2028.contenders must list the contenders\' slugs');
           else
             for (const s of r.contenders) {
-              if (!(p.connections ?? []).some((c) => c?.slug === s))
-                err(file, `race_2028: in ${s}'s camp but has no connection to ${s}`);
+              // Linked to the contender, or to someone else in the same camp.
+              const linked = (p.connections ?? []).some(
+                (c) => c?.slug === s || bySlug.get(c?.slug)?.data?.race_2028?.contenders?.includes(s),
+              );
+              if (!linked) err(file, `race_2028: in ${s}'s camp but linked neither to ${s} nor to anyone in that camp`);
               const target = bySlug.get(s);
               if (target && target.data?.race_2028?.role !== 'contender')
                 err(file, `race_2028: ${s}.json is not marked as a 2028 contender`);
