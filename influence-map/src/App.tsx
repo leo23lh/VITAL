@@ -8,7 +8,6 @@ import { canExport, exportGraphPng } from './lib/exportPng';
 import {
   activeInYear,
   buildGraph,
-  compassRow,
   familyOf,
   leanAt,
   linkEndId,
@@ -35,11 +34,10 @@ export type View =
 export type Layout = 'wide' | 'card' | 'sheet';
 
 /**
- * Main view only: each person's home spot. `x` = political lean (-3 far left … +3 far right)
- * in the selected year, `y` = money (negative, north) to politics (positive, south).
- * Missing values leave that axis to the links.
+ * Main view only: each person's left–right spot, from their political lean
+ * (-3 far left … +3 far right) in the selected year. Up–down is left to the links.
  */
-export type Compass = Map<string, { x?: number; y?: number; inferred?: boolean }>;
+export type Compass = Map<string, { x?: number; inferred?: boolean }>;
 
 /**
  * Researched lean sets x. People without one (no political record, or suggested)
@@ -48,7 +46,7 @@ export type Compass = Map<string, { x?: number; y?: number; inferred?: boolean }
  */
 function compassSpots(nodes: GraphNode[], pairs: PairLink[], year: number | null): Compass {
   const compass: Compass = new Map();
-  for (const n of nodes) compass.set(n.id, { x: leanAt(n.person?.lean, year)?.value, y: compassRow(n) });
+  for (const n of nodes) compass.set(n.id, { x: leanAt(n.person?.lean, year)?.value });
   // Spread inferred leans a few steps out, so clusters with no researched lean still find a side.
   for (let pass = 0; pass < 3; pass++) {
     const sums = new Map<string, { w: number; x: number }>();

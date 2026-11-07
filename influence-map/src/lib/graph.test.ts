@@ -3,7 +3,6 @@ import * as validator from '../../scripts/validate.mjs';
 import {
   activeInYear,
   buildGraph,
-  compassRow,
   describeLink,
   familyOf,
   leanAt,
@@ -263,12 +262,6 @@ describe('political lean', () => {
     expect(text).toMatch(/no sources/);
     const priv = person('me', 'Me', [], { public_figure: false, lean: [{ value: 0, basis: 'b', sources: ['user-provided'] }] });
     expect(validator.validatePeople([priv]).errors[0].message).toMatch(/only public figures/);
-  });
-
-  it('places money north and politics south', () => {
-    expect(compassRow({ sector: 'business', groups: [] })!).toBeLessThan(compassRow({ sector: 'tech', groups: [] })!);
-    expect(compassRow({ sector: 'tech', groups: [] })!).toBeLessThan(compassRow({ sector: 'politics', groups: [] })!);
-    expect(compassRow({ sector: undefined, groups: [] })).toBeUndefined();
   });
 
   it('pulls close relationships harder than rivalries', () => {

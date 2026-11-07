@@ -475,20 +475,3 @@ export const CLOSENESS: Record<EdgeGroup, number> = {
 export function pairCloseness(links: GraphLink[]): number {
   return Math.max(0, ...links.map((l) => CLOSENESS[l.group] * l.confidence * (isPastRivalry(l) ? 0.5 : 1)));
 }
-
-/** Main-map row (north = money, south = politics) for a person, in steps from the middle. */
-export function compassRow(node: Pick<GraphNode, 'sector' | 'groups'>): number | undefined {
-  const inGov = node.groups.includes('trump-circle');
-  switch (node.sector) {
-    case 'business':
-      return inGov ? -0.6 : -2;
-    case 'tech':
-      return inGov ? 0 : -1.3;
-    case 'ai-defense':
-      return inGov ? 0 : -0.7;
-    case 'politics':
-      return node.groups.includes('tech-right') ? 0.7 : 1.4;
-    default:
-      return undefined;
-  }
-}

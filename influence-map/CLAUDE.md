@@ -151,10 +151,8 @@ connections show. The validator rejects names not listed here; keep the lists in
 
 ## Political lean
 
-The main view is a compass: **left–right is political lean, north–south is
-money vs politics.** North–south comes from `sector` and `groups` (business at
-the top, then tech, then AI & defense; tech people serving in government sit in
-the middle; politics at the bottom). Left–right comes from `lean`:
+In the main view, **left–right is political lean**; up–down is left to the
+links. Left–right comes from `lean`:
 
 ```json
 "lean": [
@@ -191,9 +189,10 @@ the middle; politics at the bottom). Left–right comes from `lean`:
 - Links also pull people together: the closer the relationship (family,
   co-founder, mentor, employer, then donor and ally, then colleague), and the
   higher its confidence, the harder it pulls. Rivals barely pull. The compass
-  pull is gentle, so the web still shapes the map.
-- Group and lens views keep their radial layout; the compass is only for the
-  main view.
+  pull is gentle, so the web still shapes the map. People without a lean sit
+  at the closeness-weighted average lean of the people they're linked to.
+- Group and lens views keep their radial layout; the left–right pull is only
+  for the main view.
 
 The viewer also has three views that need no tagging: **Follow the money**
 (people with donor links), **Feuds** (people with rival links), and

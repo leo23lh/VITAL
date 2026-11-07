@@ -9,12 +9,10 @@ const GREY = '#94a3b8';
 /** Radial views: distance between rings, and how much room the core gets per person. */
 const RING_GAP = 130;
 const coreRadius = (n: number) => 30 + 22 * Math.sqrt(n);
-/** Main view: distance per lean step (left–right) and per money/politics row (north–south). */
-const LEAN_STEP = 110;
-const ROW_STEP = 120;
+/** Main view: distance per lean step (left–right). */
+const LEAN_STEP = 170;
 /** How hard people are pulled to their compass spot. Low enough that links still shape the web. */
 const COMPASS_PULL_X = 0.1;
-const COMPASS_PULL_Y = 0.12;
 
 export type GraphHandle = ForceGraphMethods<GraphNode, PairLink> | undefined;
 
@@ -404,7 +402,7 @@ function radialForce({ core, rings }: RadialLayout) {
 }
 
 /**
- * Pulls each person toward their compass spot: lean sets x, money vs politics sets y.
+ * Pulls each person toward their left–right spot from their lean.
  * Inferred leans (from linked people) pull half as hard. Anyone with no lean at all
  * is drawn toward the center line rather than drifting to an edge that would
  * suggest a side.
@@ -418,7 +416,8 @@ function compassForce(compass: Compass) {
       const y = n.y ?? 0;
       const kx = c?.inferred ? COMPASS_PULL_X * 0.5 : COMPASS_PULL_X;
       n.vx = (n.vx ?? 0) + (c?.x != null ? (c.x * LEAN_STEP - x) * kx : -x * 0.05) * alpha;
-      n.vy = (n.vy ?? 0) + (c?.y != null ? (c.y * ROW_STEP - y) * COMPASS_PULL_Y : -y * 0.01) * alpha;
+      // Up–down only gets the usual gentle pull to the middle; links do the rest.
+      n.vy = (n.vy ?? 0) - y * 0.05 * alpha;
     }
   };
   force.initialize = (ns: GraphNode[]) => {
@@ -427,7 +426,7 @@ function compassForce(compass: Compass) {
   return force;
 }
 
-/** Faint crosshair behind the main view: Left ↔ Right, Money ↕ Politics, labeled at the screen edges. */
+/** Faint center line behind the main view, with Left / Right labels at the screen edges. */
 function drawCompass(ctx: CanvasRenderingContext2D, scale: number) {
   // Visible area in graph coordinates (the canvas is already transformed to them).
   const inv = ctx.getTransform().inverse();
@@ -439,8 +438,6 @@ function drawCompass(ctx: CanvasRenderingContext2D, scale: number) {
   ctx.setLineDash([3 / scale, 6 / scale]);
   ctx.strokeStyle = 'rgba(148, 163, 184, 0.14)';
   ctx.beginPath();
-  ctx.moveTo(tl.x, 0);
-  ctx.lineTo(br.x, 0);
   ctx.moveTo(0, tl.y);
   ctx.lineTo(0, br.y);
   ctx.stroke();
@@ -448,14 +445,10 @@ function drawCompass(ctx: CanvasRenderingContext2D, scale: number) {
   ctx.font = `600 ${11 / scale}px system-ui, -apple-system, Segoe UI, sans-serif`;
   ctx.textBaseline = 'bottom';
   ctx.textAlign = 'left';
-  ctx.fillText('← LEFT', tl.x + pad, -pad / 2);
+  const labelY = br.y - pad;
+  ctx.fillText('← LEFT', tl.x + pad, labelY);
   ctx.textAlign = 'right';
-  ctx.fillText('RIGHT →', br.x - pad, -pad / 2);
-  ctx.textAlign = 'left';
-  ctx.textBaseline = 'top';
-  ctx.fillText('↑ MONEY', pad / 2, tl.y + pad);
-  ctx.textBaseline = 'bottom';
-  ctx.fillText('↓ POLITICS', pad / 2, br.y - pad);
+  ctx.fillText('RIGHT →', br.x - pad, labelY);
   ctx.restore();
 }
 
