@@ -1,0 +1,105 @@
+{
+  "name": "Doug Burgum",
+  "aliases": ["Douglas James Burgum"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican governor of North Dakota (2016–2024) and 2024 Republican presidential candidate; Trump energy adviser and interior secretary.",
+      "sources": [
+        { "url": "https://www.cbsnews.com/minnesota/news/doug-burgum-2024-presidential-campaign-north-dakota-governor/", "title": "CBS: North Dakota Republican Gov. Doug Burgum launches 2024 run" },
+        { "url": "https://abcnews4.com/news/nation-world/trump-names-interior-designee-north-dakota-gov-doug-burgum-to-head-new-white-house-council-on-energy", "title": "AP: Trump names Burgum to head new White House council on energy" }
+      ]
+    }
+  ],
+  "current_role": "U.S. Secretary of the Interior and chair of the National Energy Dominance Council (since 2025)",
+  "summary": "Doug Burgum built Great Plains Software, sold it to Microsoft in 2001 for $1.1 billion and stayed on as a Microsoft senior vice president until 2007. He was governor of North Dakota from 2016 to 2024, ran briefly for the 2024 Republican presidential nomination, then advised Trump on energy. He is interior secretary and chairs the National Energy Dominance Council, with Energy Secretary Chris Wright as vice chair.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Doug_Burgum", "title": "Wikipedia: Doug Burgum" },
+    { "url": "https://abcnews4.com/news/nation-world/trump-names-interior-designee-north-dakota-gov-doug-burgum-to-head-new-white-house-council-on-energy", "title": "AP: Trump names Burgum to head new White House council on energy" },
+    { "url": "https://www.accountingtoday.com/articles/nd-gov-and-former-accounting-software-exec-bets-hes-the-mainstream-republican-pick-in-2024-bid", "title": "Accounting Today: Burgum bets he is the mainstream GOP pick" }
+  ],
+  "timeline": [
+    {
+      "year": 1984,
+      "end_year": 2001,
+      "role": "Led the purchase of and ran Great Plains Software, sold to Microsoft in 2001",
+      "org": "Great Plains Software",
+      "sources": [
+        { "url": "https://www.accountingtoday.com/articles/nd-gov-and-former-accounting-software-exec-bets-hes-the-mainstream-republican-pick-in-2024-bid", "title": "Accounting Today" }
+      ]
+    },
+    {
+      "year": 2001,
+      "end_year": 2007,
+      "role": "Senior vice president",
+      "org": "Microsoft",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Doug_Burgum", "title": "Wikipedia: Doug Burgum" }
+      ]
+    },
+    {
+      "year": 2016,
+      "end_year": 2024,
+      "role": "Governor of North Dakota",
+      "org": "State of North Dakota",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Doug_Burgum", "title": "Wikipedia: Doug Burgum" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": 2023,
+      "role": "Candidate for the Republican presidential nomination (June–December 2023)",
+      "org": "Burgum for America",
+      "sources": [
+        { "url": "https://www.cbsnews.com/minnesota/news/doug-burgum-2024-presidential-campaign-north-dakota-governor/", "title": "CBS News" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Secretary of the Interior; chair of the National Energy Dominance Council",
+      "org": "U.S. Department of the Interior",
+      "sources": [
+        { "url": "https://abcnews4.com/news/nation-world/trump-names-interior-designee-north-dakota-gov-doug-burgum-to-head-new-white-house-council-on-energy", "title": "AP: Trump names Burgum to head new White House council on energy" },
+        { "url": "https://www.breitbart.com/politics/2025/02/14/trump-establishes-national-energy-dominance-council-led-by-secretaries-burgum-wright", "title": "Breitbart: Trump establishes National Energy Dominance Council led by Burgum and Wright" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "After leaving the 2024 primary Burgum advised Trump on energy policy; Trump named him interior secretary and chair of a new energy council in November 2024.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://abcnews4.com/news/nation-world/trump-names-interior-designee-north-dakota-gov-doug-burgum-to-head-new-white-house-council-on-energy", "title": "AP: Trump names Burgum to head new White House council on energy" },
+        { "url": "https://en.wikipedia.org/wiki/Doug_Burgum", "title": "Wikipedia: Doug Burgum" }
+      ]
+    },
+    {
+      "name": "Chris Wright",
+      "slug": "chris-wright",
+      "relationship_type": "colleague",
+      "description": "Burgum chairs the National Energy Dominance Council, created in February 2025, and Energy Secretary Wright is its vice chair.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.breitbart.com/politics/2025/02/14/trump-establishes-national-energy-dominance-council-led-by-secretaries-burgum-wright", "title": "Breitbart: Trump establishes National Energy Dominance Council led by Burgum and Wright" },
+        { "url": "https://www.eenews.net/articles/black-box-what-exactly-is-trumps-energy-council-doing/", "title": "E&E News: What exactly is Trump's energy council doing?" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

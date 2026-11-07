@@ -230,6 +230,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
       ]
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "funded_by",
+      "description": "Sacks co-hosted a fundraiser for Kennedy's campaign at his home in June 2023 (about $500,000 raised), and a PAC largely funded by Sacks gave the campaign $6,600.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2023/06/08/robert-f-kennedy-jr-tech-2024-campaign", "title": "Axios: Tech figures back RFK Jr.'s campaign" },
+        { "url": "https://www.nbcphiladelphia.com/news/business/money-report/investor-bill-ackman-david-sacks-pac-donated-to-rfk-jr-s-presidential-campaign/3604639/", "title": "CNBC: Ackman, David Sacks PAC donated to RFK Jr.'s campaign" }
+      ]
     }
   ],
   "source_conflicts": [

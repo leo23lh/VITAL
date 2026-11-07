@@ -1,0 +1,117 @@
+{
+  "name": "Todd Blanche",
+  "aliases": ["Todd Wallace Blanche"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": 2023,
+      "basis": "A registered Democrat in New York before he began representing Trump.",
+      "sources": [
+        { "url": "https://dallasexpress.com/national/who-is-todd-blanche-democrat-turned-republican-now-acting-attorney-general/", "title": "Dallas Express: Who is Todd Blanche, Democrat turned Republican" },
+        { "url": "https://www.axios.com/2026/04/02/trump-todd-blanche-acting-attorney-general", "title": "Axios: What to know about Todd Blanche, Trump's new acting attorney general" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2024,
+      "end_year": null,
+      "basis": "Switched his registration to Republican in 2024; Trump's criminal defense lawyer, then deputy attorney general and attorney general.",
+      "sources": [
+        { "url": "https://dallasexpress.com/national/who-is-todd-blanche-democrat-turned-republican-now-acting-attorney-general/", "title": "Dallas Express: Who is Todd Blanche, Democrat turned Republican" },
+        { "url": "https://www.opb.org/article/2026/08/08/senate-votes-to-confirm-todd-blanche-as-attorney-general/", "title": "NPR via OPB: Senate votes to confirm Todd Blanche as attorney general" }
+      ]
+    }
+  ],
+  "current_role": "U.S. Attorney General (acting from April 2026; confirmed August 2026)",
+  "summary": "Todd Blanche, a former federal prosecutor in the Southern District of New York, led Donald Trump's defense in the 2024 New York hush-money trial and in his federal cases. Confirmed as deputy attorney general in March 2025, he became acting attorney general when Trump fired Pam Bondi in April 2026 and was confirmed 50–49 in August 2026.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Todd_Blanche", "title": "Wikipedia: Todd Blanche" },
+    { "url": "https://www.axios.com/2026/04/02/trump-todd-blanche-acting-attorney-general", "title": "Axios: What to know about Todd Blanche, Trump's new acting attorney general" },
+    { "url": "https://www.opb.org/article/2026/08/08/senate-votes-to-confirm-todd-blanche-as-attorney-general/", "title": "NPR via OPB: Senate votes to confirm Todd Blanche as attorney general" }
+  ],
+  "timeline": [
+    {
+      "year": 2006,
+      "end_year": 2014,
+      "role": "Assistant U.S. attorney",
+      "org": "U.S. Attorney's Office for the Southern District of New York",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Todd_Blanche", "title": "Wikipedia: Todd Blanche" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2023,
+      "role": "Partner (represented Paul Manafort, Igor Fruman and Boris Epshteyn)",
+      "org": "Cadwalader, Wickersham & Taft",
+      "sources": [
+        { "url": "https://www.nytimes.com/2023/04/03/nyregion/trump-indictment-lawyer-blanche.html", "title": "New York Times: Todd Blanche joins Trump's defense" },
+        { "url": "https://www.nytimes.com/2019/06/17/nyregion/manafort-rikers.html", "title": "New York Times: Manafort case" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": 2024,
+      "role": "Lead defense lawyer in Trump's New York hush-money trial and in his federal cases",
+      "org": "Blanche Law",
+      "sources": [
+        { "url": "https://www.nytimes.com/2023/04/03/nyregion/trump-indictment-lawyer-blanche.html", "title": "New York Times: Todd Blanche joins Trump's defense" },
+        { "url": "https://en.wikipedia.org/wiki/Todd_Blanche", "title": "Wikipedia: Todd Blanche" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Deputy Attorney General (confirmed March 2025)",
+      "org": "U.S. Department of Justice",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Todd_Blanche", "title": "Wikipedia: Todd Blanche" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Attorney General (acting from April 2; confirmed 50–49 on August 8, 2026)",
+      "org": "U.S. Department of Justice",
+      "sources": [
+        { "url": "https://www.opb.org/article/2026/08/08/senate-votes-to-confirm-todd-blanche-as-attorney-general/", "title": "NPR via OPB: Senate votes to confirm Todd Blanche as attorney general" },
+        { "url": "https://news.bloomberglaw.com/us-law-week/todd-blanche-confirmed-by-senate-as-trumps-attorney-general", "title": "Bloomberg Law: Todd Blanche confirmed as Trump's attorney general" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump hired Blanche as his criminal defense lawyer in April 2023, then made him deputy attorney general (2025) and attorney general (2026).",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.nytimes.com/2023/04/03/nyregion/trump-indictment-lawyer-blanche.html", "title": "New York Times: Todd Blanche joins Trump's defense" },
+        { "url": "https://www.opb.org/article/2026/08/08/senate-votes-to-confirm-todd-blanche-as-attorney-general/", "title": "NPR via OPB: Senate votes to confirm Todd Blanche as attorney general" }
+      ]
+    },
+    {
+      "name": "Pam Bondi",
+      "slug": "pam-bondi",
+      "relationship_type": "employer",
+      "description": "Blanche was deputy attorney general under Bondi from March 2025 until Trump fired her in April 2026, when he succeeded her.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2026/04/02/trump-todd-blanche-acting-attorney-general", "title": "Axios: What to know about Todd Blanche, Trump's new acting attorney general" },
+        { "url": "https://en.wikipedia.org/wiki/Todd_Blanche", "title": "Wikipedia: Todd Blanche" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

@@ -1,0 +1,158 @@
+{
+  "name": "Linda McMahon",
+  "aliases": ["Linda Edwards McMahon"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican nominee for U.S. Senate in Connecticut in 2010 and 2012, major Republican donor, and Trump cabinet member in both terms.",
+      "sources": [
+        { "url": "https://ballotpedia.org/United_States_Senate_elections_in_Connecticut,_2012", "title": "Ballotpedia: Connecticut Senate elections, 2012" },
+        { "url": "https://www.edweek.org/policy-politics/trumps-education-secretary-pick-is-linda-mcmahon-former-wwe-ceo/2024/11", "title": "Education Week: Trump picks Linda McMahon" }
+      ]
+    }
+  ],
+  "current_role": "U.S. Secretary of Education (since March 2025)",
+  "summary": "Linda McMahon built World Wrestling Entertainment with her husband Vince McMahon and served as its CEO, then spent more than $100 million of her own money on two losing Republican Senate campaigns in Connecticut (2010, 2012). She ran the Small Business Administration in Trump's first term (2017–2019), chaired the America First Policy Institute, co-chaired Trump's 2024 transition with Howard Lutnick, and has been education secretary since March 2025.",
+  "sources": [
+    { "url": "https://www.ed.gov/about/ed-organization/meet-secretary-of-education/linda-e-mcmahon", "title": "U.S. Department of Education: Linda E. McMahon" },
+    { "url": "https://www.axios.com/2024/11/20/trump-linda-mcmahon-education-secretary", "title": "Axios: Trump selects Linda McMahon for Education secretary" },
+    { "url": "https://bnnbloomberg.ca/business/company-news/2024/08/16/howard-lutnick-linda-mcmahon-to-chair-trump-transition-team", "title": "Bloomberg: Howard Lutnick, Linda McMahon to chair Trump transition team" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2009,
+      "role": "Co-founder (with Vince McMahon) and CEO",
+      "org": "World Wrestling Entertainment",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Linda_McMahon", "title": "Wikipedia: Linda McMahon" }
+      ]
+    },
+    {
+      "year": 2010,
+      "end_year": 2012,
+      "role": "Republican nominee for U.S. Senate in Connecticut (lost 2010 to Richard Blumenthal and 2012 to Chris Murphy)",
+      "org": "McMahon for Senate",
+      "sources": [
+        { "url": "https://ballotpedia.org/United_States_Senate_elections_in_Connecticut,_2012", "title": "Ballotpedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2019,
+      "role": "Administrator (confirmed 81–19)",
+      "org": "U.S. Small Business Administration",
+      "sources": [
+        { "url": "https://www.ed.gov/about/ed-organization/meet-secretary-of-education/linda-e-mcmahon", "title": "U.S. Department of Education: Linda E. McMahon" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2024,
+      "role": "Board chair",
+      "org": "America First Policy Institute",
+      "sources": [
+        { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": 2025,
+      "role": "Co-chair of the Trump–Vance transition",
+      "org": "Trump–Vance transition",
+      "sources": [
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/08/16/howard-lutnick-linda-mcmahon-to-chair-trump-transition-team", "title": "Bloomberg: Howard Lutnick, Linda McMahon to chair Trump transition team" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Secretary of Education (sworn in March 3, 2025)",
+      "org": "U.S. Department of Education",
+      "sources": [
+        { "url": "https://www.ed.gov/about/ed-organization/meet-secretary-of-education/linda-e-mcmahon", "title": "U.S. Department of Education: Linda E. McMahon" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "America First Policy Institute",
+      "role": "Board chair",
+      "start_year": 2021,
+      "end_year": 2024,
+      "sources": [
+        { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump appointed McMahon SBA administrator (2017–2019) and education secretary (since 2025); she also co-chaired his 2024 transition.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.ed.gov/about/ed-organization/meet-secretary-of-education/linda-e-mcmahon", "title": "U.S. Department of Education: Linda E. McMahon" },
+        { "url": "https://www.axios.com/2024/11/20/trump-linda-mcmahon-education-secretary", "title": "Axios: Trump selects Linda McMahon for Education secretary" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "McMahon was among the largest donors to Trump's 2024 campaign and to his transition, which she co-chaired.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/08/16/howard-lutnick-linda-mcmahon-to-chair-trump-transition-team", "title": "Bloomberg: Howard Lutnick, Linda McMahon to chair Trump transition team" },
+        { "url": "https://www.nbcnews.com/politics/white-house/trump-transition-team-discloses-donors-one-year-pledged-release-rcna246131", "title": "NBC News: Trump transition team discloses donors" }
+      ]
+    },
+    {
+      "name": "Howard Lutnick",
+      "slug": "howard-lutnick",
+      "relationship_type": "colleague",
+      "description": "McMahon and Lutnick co-chaired Trump's 2024 transition; both had been major donors to his campaign.",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/08/16/howard-lutnick-linda-mcmahon-to-chair-trump-transition-team", "title": "Bloomberg: Howard Lutnick, Linda McMahon to chair Trump transition team" }
+      ]
+    },
+    {
+      "name": "Brooke Rollins",
+      "slug": "brooke-rollins",
+      "relationship_type": "co-founder",
+      "description": "McMahon, Rollins and Larry Kudlow launched the America First Policy Institute in 2021; McMahon chaired its board while Rollins was CEO.",
+      "start_year": 2021,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" }
+      ]
+    },
+    {
+      "name": "Vince McMahon",
+      "slug": "vince-mcmahon",
+      "relationship_type": "family",
+      "description": "Her husband; together they built World Wrestling Entertainment.",
+      "start_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Linda_McMahon", "title": "Wikipedia: Linda McMahon" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

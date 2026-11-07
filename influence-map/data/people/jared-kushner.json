@@ -254,6 +254,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
       ]
+    },
+    {
+      "name": "Brooke Rollins",
+      "slug": "brooke-rollins",
+      "relationship_type": "colleague",
+      "description": "Rollins joined the White House in 2018 to lead the Office of American Innovation, which Kushner oversaw (sources differ on whether she was its director or co-director with him); Kushner praised her hiring.",
+      "start_year": 2018,
+      "end_year": 2021,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" },
+        { "url": "https://en.wikipedia.org/wiki/Brooke_Rollins", "title": "Wikipedia: Brooke Rollins" }
+      ]
     }
   ],
   "source_conflicts": [

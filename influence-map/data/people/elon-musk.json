@@ -351,6 +351,42 @@
         { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
         { "url": "https://hn.jakechampion.name/reader/https://www.theverge.com/2024/7/16/24199700/elon-musk-joe-lonsdale-america-pac-donald-trump", "title": "Elon Musk and tech elite back a pro-Trump super PAC — The Verge" }
       ]
+    },
+    {
+      "name": "Scott Bessent",
+      "slug": "scott-bessent",
+      "relationship_type": "rival",
+      "description": "Musk called Bessent the \"business-as-usual\" Treasury pick and backed Lutnick in November 2024; in April 2025 the two had a West Wing shouting match over who should run the IRS, which Bessent won.",
+      "start_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2024/11/16/elon-musk-cantor-fitzgerald-howard-lutnick-treasury-secretary-bitcoin-scott-bessent-trump-cabinet/", "title": "Fortune: Musk backs Lutnick over Bessent for Treasury" },
+        { "url": "https://www.axios.com/2025/04/23/musk-bessent-trump-white-house-irs", "title": "Axios: Musk vs. Bessent dispute erupted into West Wing shouting match" }
+      ]
+    },
+    {
+      "name": "Howard Lutnick",
+      "slug": "howard-lutnick",
+      "relationship_type": "ally",
+      "description": "Musk publicly backed Lutnick for Treasury in November 2024, saying he would \"actually enact change\".",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://fortune.com/2024/11/16/elon-musk-cantor-fitzgerald-howard-lutnick-treasury-secretary-bitcoin-scott-bessent-trump-cabinet/", "title": "Fortune: Musk backs Lutnick over Bessent for Treasury" }
+      ]
+    },
+    {
+      "name": "Sean Duffy",
+      "slug": "sean-duffy",
+      "relationship_type": "rival",
+      "description": "In October 2025, after Duffy said SpaceX was behind schedule and moved to reopen its lunar-lander contract, Musk called him \"Sean Dummy\" and said he was trying to kill NASA.",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2025/10/21/elon-musk-trump-nasa-spacex-duffy", "title": "Axios: Musk rages at Transportation head Duffy" },
+        { "url": "https://www.space.com/space-exploration/sean-dummy-why-is-elon-musk-attacking-the-acting-nasa-chief", "title": "Space.com: 'Sean Dummy'" }
+      ]
     }
   ],
   "source_conflicts": [

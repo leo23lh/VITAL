@@ -1,0 +1,86 @@
+{
+  "name": "Doug Collins",
+  "aliases": ["Douglas Allen Collins"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican congressman from Georgia (2013–2021) and ranking Republican on House Judiciary during the first Trump impeachment; Trump's veterans affairs secretary.",
+      "sources": [
+        { "url": "https://millercenter.org/node/100766", "title": "Miller Center: Doug Collins" },
+        { "url": "https://www.axios.com/2019/12/18/trump-impeachment-doug-collins-opening-statement", "title": "Axios: Doug Collins opening statement on impeachment" }
+      ]
+    }
+  ],
+  "current_role": "U.S. Secretary of Veterans Affairs (since February 2025)",
+  "summary": "Doug Collins, an Air Force Reserve chaplain, represented Georgia in the House from 2013 to 2021 and, as the top Republican on the Judiciary Committee, led Trump's defense in the 2019 impeachment. He finished third in Georgia's 2020 Senate special election. The Senate confirmed him as veterans affairs secretary 77–23 in February 2025.",
+  "sources": [
+    { "url": "https://www.cbsnews.com/news/doug-collins-confirmed-veterans-affairs-secretary", "title": "CBS News: Doug Collins confirmed as veterans affairs secretary" },
+    { "url": "https://millercenter.org/node/100766", "title": "Miller Center: Doug Collins" },
+    { "url": "https://en.wikipedia.org/wiki/Doug_Collins_(politician)", "title": "Wikipedia: Doug Collins (politician)" }
+  ],
+  "timeline": [
+    {
+      "year": 2013,
+      "end_year": 2021,
+      "role": "U.S. representative for Georgia's 9th district; ranking member of the House Judiciary Committee (2019–2020)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://millercenter.org/node/100766", "title": "Miller Center" },
+        { "url": "https://www.npr.org/2019/12/05/785103454/rep-doug-collins-says-white-house-should-participate-in-impeachment-inquiry", "title": "NPR" }
+      ]
+    },
+    {
+      "year": 2020,
+      "end_year": 2020,
+      "role": "Candidate in the Georgia U.S. Senate special election (finished third)",
+      "org": "Collins for Senate",
+      "sources": [
+        { "url": "https://www.yahoo.com/news/us-senate-confirms-former-ga-181209318.html", "title": "Yahoo News: US Senate confirms former GA Rep. Doug Collins" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Secretary of Veterans Affairs (confirmed 77–23 on February 4, 2025)",
+      "org": "U.S. Department of Veterans Affairs",
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/doug-collins-confirmed-veterans-affairs-secretary", "title": "CBS News: Doug Collins confirmed as veterans affairs secretary" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump nominated Collins as veterans affairs secretary in November 2024; confirmed February 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/doug-collins-confirmed-veterans-affairs-secretary", "title": "CBS News: Doug Collins confirmed as veterans affairs secretary" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "As ranking Republican on House Judiciary, Collins led Trump's defense in the 2019 impeachment, calling it a \"sham\".",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2019/12/18/trump-impeachment-doug-collins-opening-statement", "title": "Axios: Doug Collins opening statement on impeachment" },
+        { "url": "https://www.npr.org/2019/12/05/785103454/rep-doug-collins-says-white-house-should-participate-in-impeachment-inquiry", "title": "NPR: Top Judiciary Republican on impeachment inquiry" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

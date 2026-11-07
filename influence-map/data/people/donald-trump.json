@@ -793,6 +793,221 @@
         { "url": "https://www.startribune.com/far-right-provocateur-nick-fuentes-is-triggering-a-maga-civil-war/601521097", "title": "Far-right provocateur Nick Fuentes is triggering a MAGA civil war — Star Tribune" },
         { "url": "https://www.pbs.org/newshour/politics/trump-defends-tucker-carlson-after-interview-with-nick-fuentes-far-right-activist-known-for-his-antisemitic-views", "title": "Trump defends Tucker Carlson after interview with Nick Fuentes — PBS NewsHour" }
       ]
+    },
+    {
+      "name": "Scott Bessent",
+      "slug": "scott-bessent",
+      "relationship_type": "employee",
+      "description": "Trump nominated Bessent, a 2024 campaign economic adviser and fundraiser, as treasury secretary in November 2024; he has served since January 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.npr.org/2024/11/22/nx-s1-5189652/trump-scott-bessent-treasury-secretary-cabinet-pick", "title": "NPR: Trump nominates Wall Street investor Scott Bessent as treasury secretary" },
+        { "url": "https://www.usatoday.com/story/news/politics/2025/01/27/senate-confirms-trump-treasury-secretary-scott-bessent/77967067007/", "title": "USA Today: Senate confirms Scott Bessent" }
+      ]
+    },
+    {
+      "name": "Todd Blanche",
+      "slug": "todd-blanche",
+      "relationship_type": "employee",
+      "description": "Trump hired Blanche as his criminal defense lawyer in April 2023, then made him deputy attorney general (2025) and attorney general (2026).",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.nytimes.com/2023/04/03/nyregion/trump-indictment-lawyer-blanche.html", "title": "New York Times: Todd Blanche joins Trump's defense" },
+        { "url": "https://www.opb.org/article/2026/08/08/senate-votes-to-confirm-todd-blanche-as-attorney-general/", "title": "NPR via OPB: Senate votes to confirm Todd Blanche as attorney general" }
+      ]
+    },
+    {
+      "name": "Doug Burgum",
+      "slug": "doug-burgum",
+      "relationship_type": "employee",
+      "description": "After leaving the 2024 primary Burgum advised Trump on energy policy; Trump named him interior secretary and chair of a new energy council in November 2024.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://abcnews4.com/news/nation-world/trump-names-interior-designee-north-dakota-gov-doug-burgum-to-head-new-white-house-council-on-energy", "title": "AP: Trump names Burgum to head new White House council on energy" },
+        { "url": "https://en.wikipedia.org/wiki/Doug_Burgum", "title": "Wikipedia: Doug Burgum" }
+      ]
+    },
+    {
+      "name": "Chris Wright",
+      "slug": "chris-wright",
+      "relationship_type": "employee",
+      "description": "Trump named Wright energy secretary in November 2024; he has served since February 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://chemicalprocessing.com/utilities-energy/news/55243714/trump-names-liberty-energy-ceo-chris-wright-as-next-energy-secretary", "title": "Chemical Processing: Trump names Liberty Energy CEO Chris Wright as energy secretary" },
+        { "url": "https://abcnews4.com/news/nation-world/senate-confirms-fossil-fuel-executive-chris-wright-as-energy-secretary-denver-based-president-donald-trump-united-states-energy-dominance-drill-baby-drill-liberty-energy-fossil-fuel-climate-change", "title": "AP: Senate confirms fossil fuel executive Chris Wright as energy secretary" }
+      ]
+    },
+    {
+      "name": "Brooke Rollins",
+      "slug": "brooke-rollins",
+      "relationship_type": "employee",
+      "description": "Rollins worked in Trump's first White House (2018–2021) and became his agriculture secretary in 2025.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" },
+        { "url": "https://m.washingtontimes.com/news/2024/nov/23/trump-taps-brooke-rollins-former-white-house-advis/", "title": "Washington Times: Trump taps Brooke Rollins for Agriculture" }
+      ]
+    },
+    {
+      "name": "Linda McMahon",
+      "slug": "linda-mcmahon",
+      "relationship_type": "employee",
+      "description": "Trump appointed McMahon SBA administrator (2017–2019) and education secretary (since 2025); she also co-chaired his 2024 transition.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.ed.gov/about/ed-organization/meet-secretary-of-education/linda-e-mcmahon", "title": "U.S. Department of Education: Linda E. McMahon" },
+        { "url": "https://www.axios.com/2024/11/20/trump-linda-mcmahon-education-secretary", "title": "Axios: Trump selects Linda McMahon for Education secretary" }
+      ]
+    },
+    {
+      "name": "Linda McMahon",
+      "slug": "linda-mcmahon",
+      "relationship_type": "donor",
+      "description": "McMahon was among the largest donors to Trump's 2024 campaign and to his transition, which she co-chaired.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/08/16/howard-lutnick-linda-mcmahon-to-chair-trump-transition-team", "title": "Bloomberg: Howard Lutnick, Linda McMahon to chair Trump transition team" },
+        { "url": "https://www.nbcnews.com/politics/white-house/trump-transition-team-discloses-donors-one-year-pledged-release-rcna246131", "title": "NBC News: Trump transition team discloses donors" }
+      ]
+    },
+    {
+      "name": "Howard Lutnick",
+      "slug": "howard-lutnick",
+      "relationship_type": "employee",
+      "description": "Trump named Lutnick commerce secretary; he was confirmed in February 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.ibj.com/articles/u-s-senate-confirms-financier-howard-lutnick-as-commerce-secretary", "title": "AP via IBJ: Senate confirms Howard Lutnick as commerce secretary" }
+      ]
+    },
+    {
+      "name": "Howard Lutnick",
+      "slug": "howard-lutnick",
+      "relationship_type": "donor",
+      "description": "Lutnick was a major donor to Trump's 2024 campaign and among the largest donors to his transition, which he co-chaired.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/08/16/howard-lutnick-linda-mcmahon-to-chair-trump-transition-team", "title": "Bloomberg: Howard Lutnick, Linda McMahon to chair Trump transition team" },
+        { "url": "https://www.nbcnews.com/politics/white-house/trump-transition-team-discloses-donors-one-year-pledged-release-rcna246131", "title": "NBC News: Trump transition team discloses donors" }
+      ]
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "employee",
+      "description": "Trump nominated Kennedy as HHS secretary after the 2024 election; confirmed in February 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/senate-confirms-rfk-jr-health-164450683.html", "title": "AP via Yahoo: Senate confirms RFK Jr. as HHS secretary" }
+      ]
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "ally",
+      "description": "Kennedy suspended his independent campaign and endorsed Trump on August 23, 2024, then joined him on stage at a rally.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.voanews.com/a/independent-presidential-candidate-rfk-jr-suspends-campaign-endorses-trump-/7754899.html", "title": "VOA: RFK Jr. suspends campaign, endorses Trump" }
+      ]
+    },
+    {
+      "name": "Scott Turner",
+      "slug": "scott-turner",
+      "relationship_type": "employee",
+      "description": "Trump appointed Turner to lead the White House Opportunity and Revitalization Council in 2019 and made him HUD secretary in 2025.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://dallasnews.com/news/2024/11/22/trump-picks-former-nfl-player-white-house-aide-scott-turner-for-hud-secretary", "title": "Dallas Morning News: Trump picks Scott Turner for HUD" },
+        { "url": "https://www.scotsmanguide.com/news/turner-confirmed-as-trumps-hud-secretary/", "title": "Scotsman Guide: Turner confirmed as Trump's HUD secretary" }
+      ]
+    },
+    {
+      "name": "Sean Duffy",
+      "slug": "sean-duffy",
+      "relationship_type": "employee",
+      "description": "Trump appointed Duffy transportation secretary in January 2025 and acting NASA administrator in July 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.space.com/space-exploration/trump-names-transportation-secretary-sean-duffy-as-interim-nasa-administrator", "title": "Space.com: Trump names Sean Duffy interim NASA administrator" }
+      ]
+    },
+    {
+      "name": "Doug Collins",
+      "slug": "doug-collins",
+      "relationship_type": "employee",
+      "description": "Trump nominated Collins as veterans affairs secretary in November 2024; confirmed February 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/doug-collins-confirmed-veterans-affairs-secretary", "title": "CBS News: Doug Collins confirmed as veterans affairs secretary" }
+      ]
+    },
+    {
+      "name": "Doug Collins",
+      "slug": "doug-collins",
+      "relationship_type": "ally",
+      "description": "As ranking Republican on House Judiciary, Collins led Trump's defense in the 2019 impeachment, calling it a \"sham\".",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2019/12/18/trump-impeachment-doug-collins-opening-statement", "title": "Axios: Doug Collins opening statement on impeachment" },
+        { "url": "https://www.npr.org/2019/12/05/785103454/rep-doug-collins-says-white-house-should-participate-in-impeachment-inquiry", "title": "NPR: Top Judiciary Republican on impeachment inquiry" }
+      ]
+    },
+    {
+      "name": "Markwayne Mullin",
+      "slug": "markwayne-mullin",
+      "relationship_type": "employee",
+      "description": "Trump nominated Mullin to replace Kristi Noem at Homeland Security in March 2026; confirmed March 23, 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.kgou.org/markwayne-mullin-dhs-confirmed", "title": "KGOU: Markwayne Mullin confirmed as DHS secretary" },
+        { "url": "https://ballotpedia.org/Donald_Trump%27s_Cabinet,_2025-2026", "title": "Ballotpedia: Donald Trump's Cabinet, 2025–2026" }
+      ]
+    },
+    {
+      "name": "Markwayne Mullin",
+      "slug": "markwayne-mullin",
+      "relationship_type": "ally",
+      "description": "As a senator, Mullin built his influence as a close ally of Trump in Washington.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.coloradopolitics.com/2025/03/13/markwayne-mullin-finds-his-coalition-of-power-in-trumps-washington-15967267-2bfc-5d41-a723-3a4f9f6f8063/", "title": "Colorado Politics: Markwayne Mullin finds his coalition of power in Trump's Washington" }
+      ]
     }
   ],
   "source_conflicts": [

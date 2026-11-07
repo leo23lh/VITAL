@@ -1,0 +1,141 @@
+{
+  "name": "Brooke Rollins",
+  "aliases": ["Brooke Leslie Rollins"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Led the conservative Texas Public Policy Foundation, served in Trump's first White House, founded the America First Policy Institute, and is his agriculture secretary.",
+      "sources": [
+        { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" },
+        { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" },
+        { "url": "https://m.washingtontimes.com/news/2024/nov/23/trump-taps-brooke-rollins-former-white-house-advis/", "title": "Washington Times: Trump taps Brooke Rollins for Agriculture" }
+      ]
+    }
+  ],
+  "current_role": "U.S. Secretary of Agriculture (since 2025)",
+  "summary": "Brooke Rollins ran the conservative Texas Public Policy Foundation before joining Trump's White House in 2018 to lead the Office of American Innovation, which Jared Kushner oversaw, and served as acting director of the Domestic Policy Council in 2020–2021. In 2021 she co-founded the America First Policy Institute with Linda McMahon and Larry Kudlow and led it until becoming agriculture secretary in 2025.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Brooke_Rollins", "title": "Wikipedia: Brooke Rollins" },
+    { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" },
+    { "url": "https://m.washingtontimes.com/news/2024/nov/23/trump-taps-brooke-rollins-former-white-house-advis/", "title": "Washington Times: Trump taps Brooke Rollins for Agriculture" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2018,
+      "role": "President and CEO",
+      "org": "Texas Public Policy Foundation",
+      "sources": [
+        { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" }
+      ]
+    },
+    {
+      "year": 2018,
+      "end_year": 2020,
+      "role": "Director of the Office of American Innovation (titles in sources vary)",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" },
+        { "url": "https://en.wikipedia.org/wiki/Brooke_Rollins", "title": "Wikipedia: Brooke Rollins" }
+      ]
+    },
+    {
+      "year": 2020,
+      "end_year": 2021,
+      "role": "Acting director of the Domestic Policy Council",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Brooke_Rollins", "title": "Wikipedia: Brooke Rollins" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2025,
+      "role": "Co-founder, president and CEO",
+      "org": "America First Policy Institute",
+      "sources": [
+        { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" },
+        { "url": "https://www.foxnews.com/politics/biden-trump-america-first-policy-institute-brooke-rollins", "title": "Fox News: Trump alumni launch 'America First Policy Institute'" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Secretary of Agriculture",
+      "org": "U.S. Department of Agriculture",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Brooke_Rollins", "title": "Wikipedia: Brooke Rollins" },
+        { "url": "https://m.washingtontimes.com/news/2024/nov/23/trump-taps-brooke-rollins-former-white-house-advis/", "title": "Washington Times: Trump taps Brooke Rollins for Agriculture" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "America First Policy Institute",
+      "role": "Co-founder; president and CEO",
+      "start_year": 2021,
+      "end_year": 2025,
+      "sources": [
+        { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Rollins worked in Trump's first White House (2018–2021) and became his agriculture secretary in 2025.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" },
+        { "url": "https://m.washingtontimes.com/news/2024/nov/23/trump-taps-brooke-rollins-former-white-house-advis/", "title": "Washington Times: Trump taps Brooke Rollins for Agriculture" }
+      ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "colleague",
+      "description": "Rollins joined the White House in 2018 to lead the Office of American Innovation, which Kushner oversaw (sources differ on whether she was its director or co-director with him); Kushner praised her hiring.",
+      "start_year": 2018,
+      "end_year": 2021,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" },
+        { "url": "https://en.wikipedia.org/wiki/Brooke_Rollins", "title": "Wikipedia: Brooke Rollins" }
+      ]
+    },
+    {
+      "name": "Linda McMahon",
+      "slug": "linda-mcmahon",
+      "relationship_type": "co-founder",
+      "description": "Rollins, McMahon and Larry Kudlow launched the America First Policy Institute in 2021; Rollins ran it as CEO and McMahon chaired its board.",
+      "start_year": 2021,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" }
+      ]
+    },
+    {
+      "name": "Larry Kudlow",
+      "slug": "larry-kudlow",
+      "relationship_type": "co-founder",
+      "description": "Co-founders of the America First Policy Institute in 2021.",
+      "start_year": 2021,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

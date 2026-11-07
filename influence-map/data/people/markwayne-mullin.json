@@ -1,0 +1,94 @@
+{
+  "name": "Markwayne Mullin",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican congressman (2013–2023) and senator (2023–2026) from Oklahoma; Trump's homeland security secretary.",
+      "sources": [
+        { "url": "https://history.house.gov/People/Listing/M/MULLIN,-Markwayne-(M001190)/", "title": "History, Art & Archives, U.S. House: Markwayne Mullin" },
+        { "url": "https://www.kgou.org/markwayne-mullin-dhs-confirmed", "title": "KGOU: Markwayne Mullin confirmed as DHS secretary" }
+      ]
+    }
+  ],
+  "current_role": "U.S. Secretary of Homeland Security (since March 2026)",
+  "summary": "Markwayne Mullin, a plumbing-business owner and former mixed martial arts fighter, represented Oklahoma in the House from 2013 to 2023 and in the Senate from 2023, where he became a close Trump ally. After Trump fired Kristi Noem in March 2026, the Senate confirmed Mullin as homeland security secretary 54–45 on March 23, 2026, during a DHS funding standoff.",
+  "sources": [
+    { "url": "https://www.mullin.senate.gov/wp-content/uploads/Senator_Markwayne_Mullin_Biography.pdf", "title": "Senator Markwayne Mullin biography" },
+    { "url": "https://www.kgou.org/markwayne-mullin-dhs-confirmed", "title": "KGOU: Markwayne Mullin confirmed as DHS secretary" },
+    { "url": "https://m.washingtontimes.com/news/2026/mar/23/markwayne-mullin-confirmed-lead-homeland-security/", "title": "Washington Times: Mullin confirmed to lead Homeland Security" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2012,
+      "role": "Owner and CEO",
+      "org": "Mullin Plumbing",
+      "sources": [
+        { "url": "https://www.mullin.senate.gov/wp-content/uploads/Senator_Markwayne_Mullin_Biography.pdf", "title": "Senator Markwayne Mullin biography" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": 2023,
+      "role": "U.S. representative for Oklahoma's 2nd district",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://history.house.gov/People/Listing/M/MULLIN,-Markwayne-(M001190)/", "title": "History, Art & Archives, U.S. House" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": 2026,
+      "role": "U.S. senator from Oklahoma",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://www.mullin.senate.gov/wp-content/uploads/Senator_Markwayne_Mullin_Biography.pdf", "title": "Senator Markwayne Mullin biography" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Secretary of Homeland Security (confirmed 54–45 on March 23, 2026)",
+      "org": "U.S. Department of Homeland Security",
+      "sources": [
+        { "url": "https://www.kgou.org/markwayne-mullin-dhs-confirmed", "title": "KGOU: Markwayne Mullin confirmed as DHS secretary" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump nominated Mullin to replace Kristi Noem at Homeland Security in March 2026; confirmed March 23, 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.kgou.org/markwayne-mullin-dhs-confirmed", "title": "KGOU: Markwayne Mullin confirmed as DHS secretary" },
+        { "url": "https://ballotpedia.org/Donald_Trump%27s_Cabinet,_2025-2026", "title": "Ballotpedia: Donald Trump's Cabinet, 2025–2026" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "As a senator, Mullin built his influence as a close ally of Trump in Washington.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.coloradopolitics.com/2025/03/13/markwayne-mullin-finds-his-coalition-of-power-in-trumps-washington-15967267-2bfc-5d41-a723-3a4f9f6f8063/", "title": "Colorado Politics: Markwayne Mullin finds his coalition of power in Trump's Washington" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

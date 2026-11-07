@@ -1,0 +1,78 @@
+{
+  "name": "Chris Wright",
+  "aliases": ["Christopher Wright"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 1,
+      "start_year": 2025,
+      "end_year": null,
+      "basis": "Serves in Trump's cabinet and champions fossil-fuel \"energy dominance\"; no party office or other partisan record found, so Center-right rather than Right.",
+      "sources": [
+        { "url": "https://abcnews4.com/news/nation-world/senate-confirms-fossil-fuel-executive-chris-wright-as-energy-secretary-denver-based-president-donald-trump-united-states-energy-dominance-drill-baby-drill-liberty-energy-fossil-fuel-climate-change", "title": "AP: Senate confirms fossil fuel executive Chris Wright as energy secretary" },
+        { "url": "https://www.breitbart.com/politics/2025/02/14/trump-establishes-national-energy-dominance-council-led-by-secretaries-burgum-wright", "title": "Breitbart: Trump establishes National Energy Dominance Council led by Burgum and Wright" }
+      ]
+    }
+  ],
+  "current_role": "U.S. Secretary of Energy (since February 2025); vice chair of the National Energy Dominance Council",
+  "summary": "Chris Wright founded the Denver fracking-services company Liberty Oilfield Services (now Liberty Energy) in 2011 and ran it as CEO until Trump picked him to lead the Energy Department. The Senate confirmed him 59–38 on February 3, 2025. He is vice chair of the National Energy Dominance Council, chaired by Interior Secretary Doug Burgum.",
+  "sources": [
+    { "url": "https://abcnews4.com/news/nation-world/senate-confirms-fossil-fuel-executive-chris-wright-as-energy-secretary-denver-based-president-donald-trump-united-states-energy-dominance-drill-baby-drill-liberty-energy-fossil-fuel-climate-change", "title": "AP: Senate confirms fossil fuel executive Chris Wright as energy secretary" },
+    { "url": "https://chemicalprocessing.com/utilities-energy/news/55243714/trump-names-liberty-energy-ceo-chris-wright-as-next-energy-secretary", "title": "Chemical Processing: Trump names Liberty Energy CEO Chris Wright as energy secretary" },
+    { "url": "https://www.ttnews.com/articles/senate-confirm-wright-energy", "title": "Transport Topics: Senate confirms Wright" }
+  ],
+  "timeline": [
+    {
+      "year": 2011,
+      "end_year": 2025,
+      "role": "Founder and CEO",
+      "org": "Liberty Energy (formerly Liberty Oilfield Services)",
+      "sources": [
+        { "url": "https://chemicalprocessing.com/utilities-energy/news/55243714/trump-names-liberty-energy-ceo-chris-wright-as-next-energy-secretary", "title": "Chemical Processing: Trump names Liberty Energy CEO Chris Wright as energy secretary" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Secretary of Energy (confirmed 59–38 on February 3, 2025); vice chair of the National Energy Dominance Council",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://abcnews4.com/news/nation-world/senate-confirms-fossil-fuel-executive-chris-wright-as-energy-secretary-denver-based-president-donald-trump-united-states-energy-dominance-drill-baby-drill-liberty-energy-fossil-fuel-climate-change", "title": "AP: Senate confirms fossil fuel executive Chris Wright as energy secretary" },
+        { "url": "https://www.breitbart.com/politics/2025/02/14/trump-establishes-national-energy-dominance-council-led-by-secretaries-burgum-wright", "title": "Breitbart: Trump establishes National Energy Dominance Council led by Burgum and Wright" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump named Wright energy secretary in November 2024; he has served since February 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://chemicalprocessing.com/utilities-energy/news/55243714/trump-names-liberty-energy-ceo-chris-wright-as-next-energy-secretary", "title": "Chemical Processing: Trump names Liberty Energy CEO Chris Wright as energy secretary" },
+        { "url": "https://abcnews4.com/news/nation-world/senate-confirms-fossil-fuel-executive-chris-wright-as-energy-secretary-denver-based-president-donald-trump-united-states-energy-dominance-drill-baby-drill-liberty-energy-fossil-fuel-climate-change", "title": "AP: Senate confirms fossil fuel executive Chris Wright as energy secretary" }
+      ]
+    },
+    {
+      "name": "Doug Burgum",
+      "slug": "doug-burgum",
+      "relationship_type": "colleague",
+      "description": "Wright is vice chair of the National Energy Dominance Council, which Interior Secretary Burgum chairs.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.breitbart.com/politics/2025/02/14/trump-establishes-national-energy-dominance-council-led-by-secretaries-burgum-wright", "title": "Breitbart: Trump establishes National Energy Dominance Council led by Burgum and Wright" },
+        { "url": "https://www.eenews.net/articles/black-box-what-exactly-is-trumps-energy-council-doing/", "title": "E&E News: What exactly is Trump's energy council doing?" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}
