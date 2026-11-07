@@ -188,9 +188,10 @@ links. Left–right comes from `lean`:
   placed left–right only by their links. No lean for `"public_figure": false`.
 - Links also pull people together: the closer the relationship (family,
   co-founder, mentor, employer, then donor and ally, then colleague), and the
-  higher its confidence, the harder it pulls. Rivals barely pull. The compass
-  pull is gentle, so the web still shapes the map. People without a lean sit
-  at the closeness-weighted average lean of the people they're linked to.
+  higher its confidence, the harder it pulls. Rivals barely pull.
+- A researched lean holds firm: links never move that person left or right,
+  only up or down. People without a lean are placed left–right by their links,
+  near the closeness-weighted average lean of the people they're linked to.
 - Group and lens views keep their radial layout; the left–right pull is only
   for the main view.
 

@@ -12,7 +12,9 @@ const coreRadius = (n: number) => 30 + 22 * Math.sqrt(n);
 /** Main view: distance per lean step (left–right). */
 const LEAN_STEP = 170;
 /** How hard people are pulled to their compass spot. Low enough that links still shape the web. */
-const COMPASS_PULL_X = 0.1;
+const COMPASS_PULL_X = 0.35;
+/** Pull toward a lean estimated from linked people (no researched lean). */
+const INFERRED_PULL_X = 0.06;
 
 export type GraphHandle = ForceGraphMethods<GraphNode, PairLink> | undefined;
 
@@ -93,13 +95,18 @@ export default function GraphView({
     const deg = new Map<string, number>();
     for (const p of pairs)
       for (const e of [p.source, p.target]) deg.set(linkEndId(e), (deg.get(linkEndId(e)) ?? 0) + 1);
-    link?.strength?.((l: PairLink) => {
+    const strength = (l: PairLink) => {
       const s = linkEndId(l.source);
       const t = linkEndId(l.target);
       const base = (0.3 + 1.1 * l.closeness) / Math.min(deg.get(s) ?? 1, deg.get(t) ?? 1);
       if (!radial) return Math.min(1, base);
       return radial.core.has(s) && radial.core.has(t) ? Math.min(1, base) : base * 0.15;
-    });
+    };
+    // Main view: the built-in link force is replaced by leanLinkForce, which lets lines move
+    // people left–right only when their lean isn't researched. (The built-in force stays
+    // registered at zero strength because the graph uses it to wire up line ends.)
+    link?.strength?.(compass ? 0 : strength);
+    fg.d3Force('leanLinks', compass ? leanLinkForce(pairs, compass, strength, link?.distance?.()) : null);
     fg.d3Force('tidy', tidyForce(!radial && !compass, radial ? 40 : 26));
     fg.d3Force('radial', radial ? radialForce(radial) : null);
     fg.d3Force('compass', compass ? compassForce(compass) : null);
@@ -402,6 +409,42 @@ function radialForce({ core, rings }: RadialLayout) {
 }
 
 /**
+ * Line springs for the main view. Up–down they work as usual. Left–right they only
+ * move people whose lean isn't researched (unknown or estimated from links), so a
+ * researched lean is never dragged off by who someone is linked to.
+ */
+function leanLinkForce(
+  pairs: PairLink[],
+  compass: Compass,
+  strength: (l: PairLink) => number,
+  distance: ((l: PairLink) => number) | undefined,
+) {
+  const known = (id: string) => {
+    const c = compass.get(id);
+    return c?.x != null && !c.inferred;
+  };
+  const force = (alpha: number) => {
+    for (const p of pairs) {
+      const a = p.source;
+      const b = p.target;
+      if (typeof a !== 'object' || typeof b !== 'object') continue;
+      const dx = (b.x ?? 0) + (b.vx ?? 0) - (a.x ?? 0) - (a.vx ?? 0) || 1e-6;
+      const dy = (b.y ?? 0) + (b.vy ?? 0) - (a.y ?? 0) - (a.vy ?? 0) || 1e-6;
+      const len = Math.sqrt(dx * dx + dy * dy);
+      const k = ((len - (distance ? distance(p) : 80)) / len) * alpha * strength(p) * 0.5;
+      const fx = dx * k;
+      const fy = dy * k;
+      if (!known(a.id)) a.vx = (a.vx ?? 0) + fx;
+      if (!known(b.id)) b.vx = (b.vx ?? 0) - fx;
+      a.vy = (a.vy ?? 0) + fy;
+      b.vy = (b.vy ?? 0) - fy;
+    }
+  };
+  force.initialize = () => {};
+  return force;
+}
+
+/**
  * Pulls each person toward their left–right spot from their lean.
  * Inferred leans (from linked people) pull half as hard. Anyone with no lean at all
  * is drawn toward the center line rather than drifting to an edge that would
@@ -414,7 +457,7 @@ function compassForce(compass: Compass) {
       const c = compass.get(n.id);
       const x = n.x ?? 0;
       const y = n.y ?? 0;
-      const kx = c?.inferred ? COMPASS_PULL_X * 0.5 : COMPASS_PULL_X;
+      const kx = c?.inferred ? INFERRED_PULL_X : COMPASS_PULL_X;
       n.vx = (n.vx ?? 0) + (c?.x != null ? (c.x * LEAN_STEP - x) * kx : -x * 0.05) * alpha;
       // Up–down only gets the usual gentle pull to the middle; links do the rest.
       n.vy = (n.vy ?? 0) - y * 0.05 * alpha;
