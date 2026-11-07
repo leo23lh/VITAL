@@ -1,0 +1,263 @@
+{
+  "name": "Richard Uihlein",
+  "aliases": ["Dick Uihlein", "Richard E. Uihlein"],
+  "public_figure": true,
+  "sector": "business",
+  "groups": [],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Gives almost only to Republicans and conservative groups, often the insurgent hard right: Ted Cruz and Scott Walker in 2016, then Trump; Club for Growth; Restoration PAC, his own super PAC, which ran over $34M of ads against Kamala Harris in 2024. The Washington Post says the couple have helped push the party further right.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+        { "url": "https://www.washingtonpost.com/politics/interactive/2025/top-20-billionaires-american-elections/", "title": "Top 20 billionaires influencing American politics — Washington Post" }
+      ]
+    }
+  ],
+  "current_role": "Co-founder and chairman of Uline; Republican megadonor and main funder of Restoration of America PAC",
+  "summary": "Richard \"Dick\" Uihlein co-founded the shipping-supplies company Uline with his wife Elizabeth in 1980; she is its CEO and he is chairman. The couple were the fourth-largest donors of 2024 and second only to Elon Musk in 2026, mostly through Restoration of America PAC, which he almost single-handedly funds, and Wisconsin Republican causes.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Uline", "title": "Uline — Wikipedia" },
+    { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+  ],
+  "timeline": [
+    {
+      "year": 1980,
+      "end_year": null,
+      "role": "Co-founder; chairman",
+      "org": "Uline",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Uline", "title": "Uline — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Restoration of America PAC (formerly Restoration PAC)",
+      "role": "Main funder; more than $80M in the 2024 cycle",
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" }
+      ]
+    },
+    {
+      "name": "Liberty Principles PAC (Illinois)",
+      "role": "Major donor",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Club for Growth",
+      "role": "Donor",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "After Cruz and Walker dropped out in 2016 Uihlein backed Trump, giving to the pro-Trump Great America PAC and $500,000 to his inauguration; in 2024 his Restoration PAC, described as a leading pro-Trump super PAC, spent over $34M against Kamala Harris.",
+      "start_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "funded_by",
+      "description": "The Uihleins were multimillion-dollar donors to groups backing Cruz's 2016 presidential bid.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "funded_by",
+      "description": "Richard and Elizabeth Uihlein each gave at least $1 million to the pro-DeSantis super PAC in 2023.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnn.com/2023/07/31/politics/fec-filings-2024-pacs-donors", "title": "Takeaways from presidential super PACs' mid-year financial disclosures — CNN" }
+      ]
+    },
+    {
+      "name": "Elizabeth Uihlein",
+      "slug": "elizabeth-uihlein",
+      "relationship_type": "family",
+      "description": "Wife; co-founder and CEO of Uline and co-donor; she focuses on the main Republican Party committees.",
+      "start_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Scott Walker",
+      "slug": "scott-walker",
+      "relationship_type": "funded_by",
+      "description": "Major donor to the former Wisconsin governor, including groups backing his 2016 presidential bid.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Tom Tiffany",
+      "slug": "tom-tiffany",
+      "relationship_type": "funded_by",
+      "description": "Money from the Uihleins went through the Wisconsin GOP to Tiffany's 2026 governor run, per a tally by his Democratic opponent's campaign.",
+      "start_year": 2026,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.wispolitics.com/2026/crowley-campaign-three-billionaires-have-dropped-another-24-million-to-buy-wisconsins-governors-office-for-congressman-tiffany/", "title": "Crowley campaign: Three billionaires have dropped another $24 million for Tiffany — WisPolitics (campaign press release)" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "2026 total",
+      "details": "The Washington Post and Al Jazeera count about $150M for the couple; OpenSecrets via Newsweek $142M for Richard; AFP over $135M (Oct. 21); Wikipedia $69.5M to Republican candidates as of August 2026; the map owner's ranking lists $146M.",
+      "sources": [
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+        { "url": "https://www.aljazeera.com/news/2026/10/27/tracking-the-money-the-biggest-donors-in-the-2026-us-midterm-elections", "title": "Tracking the money: The biggest donors in the 2026 US midterm elections — Al Jazeera" },
+        { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" },
+        { "url": "https://www.france24.com/en/live-news/20261023-from-tech-giants-to-anonymous-nonprofits-the-biggest-donors-in-us-midterms", "title": "From tech giants to anonymous nonprofits, the biggest donors in US midterms — AFP via France 24" },
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where news pages could not be opened and OpenSecrets was blocked; facts were confirmed with web searches tied to each cited URL. Elizabeth Uihlein is a suggested connection only (main donor per family, at the owner's request); the rankings count the couple together.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 150000000,
+        "rank": 2,
+        "ranking": "Rank among all 2026 donors, groups included (FEC data, per Al Jazeera and the Washington Post); total as cited: about $150M for the couple per the Washington Post and Al Jazeera",
+        "description": "With Elizabeth Uihlein. Mostly through Restoration of America PAC and into Wisconsin, including the governor's race.",
+        "sources": [
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+          { "url": "https://www.aljazeera.com/news/2026/10/27/tracking-the-money-the-biggest-donors-in-the-2026-us-midterm-elections", "title": "Tracking the money: The biggest donors in the 2026 US midterm elections — Al Jazeera" },
+          { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" }
+        ],
+        "recipients": [
+          {
+            "name": "Restoration of America PAC",
+            "kind": "super-pac",
+            "side": "R",
+            "description": "His main vehicle; the Washington Post's table shows about $136.7M linked to it.",
+            "sources": [
+              { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" },
+              { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+            ]
+          },
+          {
+            "name": "Republican Party of Wisconsin (for Tom Tiffany, governor)",
+            "kind": "party",
+            "side": "R",
+            "description": "The Democratic campaign of Tiffany's opponent counted $34.4M from the Uihleins and Diane Hendricks; a partisan tally.",
+            "sources": [
+              { "url": "https://www.wispolitics.com/2026/crowley-campaign-three-billionaires-have-dropped-another-24-million-to-buy-wisconsins-governors-office-for-congressman-tiffany/", "title": "Crowley campaign: Three billionaires have dropped another $24 million for Tiffany — WisPolitics (campaign press release)" }
+            ]
+          },
+          {
+            "name": "Wisconsin College Republicans",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 1000000,
+            "description": "Essentially all of the group's 2025 fundraising.",
+            "sources": [
+              { "url": "https://www.wpr.org/news/wisconsin-college-republicans-raised-1m-2025-richard-elizabeth-uihlein", "title": "Wisconsin College Republicans raised $1M in 2025. It came from 2 people. — WPR" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 143500000,
+        "rank": 4,
+        "ranking": "OpenSecrets 2024 top donors (via Newser), with Elizabeth Uihlein",
+        "sources": [
+          { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
+          { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+        ],
+        "recipients": [
+          {
+            "name": "Restoration PAC",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 80000000,
+            "description": "More than $80M per FEC records; the PAC spent over $34M against Kamala Harris and also played in the Wisconsin Senate race.",
+            "sources": [
+              { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+              { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No 2028 pick reported. Uihlein funds Restoration of America PAC and Wisconsin Republicans every cycle; in the last open primary (2024) he backed Ron DeSantis's super PAC.",
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+        { "url": "https://www.cnn.com/2023/07/31/politics/fec-filings-2024-pacs-donors", "title": "Takeaways from presidential super PACs' mid-year financial disclosures — CNN" }
+      ],
+      "likely": [
+        {
+          "name": "Restoration of America PAC",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "His own vehicle; main recipient in 2022, 2024 and 2026.",
+          "confidence": 0.85,
+          "sources": [
+            { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+            { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" }
+          ]
+        },
+        {
+          "name": "Wisconsin Republicans",
+          "kind": "party",
+          "side": "R",
+          "basis": "Heavy giving to the state Supreme Court race in 2025, the College Republicans and the governor race in 2026.",
+          "confidence": 0.7,
+          "sources": [
+            { "url": "https://www.wpr.org/news/billionaires-wisconsin-supreme-court-election-crawford-schimel-musk-soros-pritzker-uihlein", "title": "Out-of-state billionaires fuel Wisconsin Supreme Court election — WPR" },
+            { "url": "https://www.wpr.org/news/wisconsin-college-republicans-raised-1m-2025-richard-elizabeth-uihlein", "title": "Wisconsin College Republicans raised $1M in 2025. It came from 2 people. — WPR" },
+            { "url": "https://www.wispolitics.com/2026/crowley-campaign-three-billionaires-have-dropped-another-24-million-to-buy-wisconsins-governors-office-for-congressman-tiffany/", "title": "Crowley campaign: Three billionaires have dropped another $24 million for Tiffany — WisPolitics (campaign press release)" }
+          ]
+        },
+        {
+          "name": "Ron DeSantis",
+          "slug": "ron-desantis",
+          "kind": "candidate",
+          "side": "R",
+          "basis": "He and Elizabeth each gave $1M+ to DeSantis's 2024 super PAC; nothing reported for 2028.",
+          "confidence": 0.35,
+          "sources": [
+            { "url": "https://www.cnn.com/2023/07/31/politics/fec-filings-2024-pacs-donors", "title": "Takeaways from presidential super PACs' mid-year financial disclosures — CNN" }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1302,6 +1302,44 @@
         { "url": "https://www.washingtontimes.com/news/2025/aug/27/trump-says-leftist-megadonors-george-alex-soros-face-racketeering/", "title": "Trump says leftist megadonors George, Alex Soros should face racketeering charges — Washington Times" },
         { "url": "https://www.cnn.com/2025/09/28/business/george-soros-trump-doj-explained", "title": "Who is George Soros, the famed philanthropist under attack? — CNN" }
       ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "After Cruz and Walker dropped out in 2016 Uihlein backed Trump, giving to the pro-Trump Great America PAC and $500,000 to his inauguration; in 2024 his Restoration PAC, described as a leading pro-Trump super PAC, spent over $34M against Kamala Harris.",
+      "start_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "ally",
+      "description": "Schwarzman chaired Trump's President's Strategic and Policy Forum from its creation in December 2016 until it disbanded after Charlottesville in August 2017. In May 2024 he endorsed Trump and said he would raise money for him.",
+      "start_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.blackstone.com/news/press/president-elect-trump-establishes-the-president-s-strategic-and-policy-forum/", "title": "President-elect Trump Establishes the President's Strategic and Policy Forum — Blackstone" },
+        { "url": "https://yaledailynews.com/blog/2016/12/05/schwarzman-69-to-advise-trump/", "title": "Schwarzman '69 to advise Trump — Yale Daily News" },
+        { "url": "https://www.axios.com/2024/05/24/trump-2024-stephen-schwarzman-blackstone", "title": "Blackstone CEO Steve Schwarzman backs Trump, will raise money for him — Axios" },
+        { "url": "https://www.cnn.com/2024/05/25/politics/stephen-schwarzman-trump-vote-election/index.html", "title": "Billionaire GOP donor Stephen Schwarzman backs Trump in 'vote for change' — CNN" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "Schwarzman raised money for Trump in 2024 and gave $5 million to the pro-Trump MAGA Inc. in September 2026.",
+      "start_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2024/05/24/trump-2024-stephen-schwarzman-blackstone", "title": "Blackstone CEO Steve Schwarzman backs Trump, will raise money for him — Axios" },
+        { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" }
+      ]
     }
   ],
   "source_conflicts": [

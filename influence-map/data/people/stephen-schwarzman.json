@@ -1,0 +1,223 @@
+{
+  "name": "Stephen Schwarzman",
+  "aliases": ["Stephen A. Schwarzman", "Steve Schwarzman"],
+  "public_figure": true,
+  "sector": "business",
+  "groups": [],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "A longtime Republican donor, above all to the Senate Leadership Fund ($10M in 2020, $10M in 2022, $9M+ in 2024, $20M in 2026); chaired Trump's business advisory forum in 2017 and endorsed and raised money for Trump in 2024.",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2020-08-21/senate-leadership-fund-gets-10-million-boost-from-schwarzman", "title": "Senate Leadership Fund Gets $10 Million Boost From Schwarzman — Bloomberg" },
+        { "url": "https://thehill.com/lobbying/3720141-here-are-the-biggest-donors-in-the-midterm-elections/", "title": "Here are the 10 biggest donors in the midterm elections — The Hill" },
+        { "url": "https://www.cnn.com/2024/10/16/politics/fundraising-takeaways-elon-musk-billionaires-trump", "title": "Elon Musk and other billionaires invest staggering sums into electing Trump — CNN" },
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+        { "url": "https://www.axios.com/2024/05/24/trump-2024-stephen-schwarzman-blackstone", "title": "Blackstone CEO Steve Schwarzman backs Trump, will raise money for him — Axios" }
+      ]
+    }
+  ],
+  "current_role": "Co-founder, chairman and CEO of Blackstone",
+  "summary": "Stephen Schwarzman co-founded the investment firm Blackstone in 1985 with his former Lehman Brothers colleague Peter G. Peterson and has led it since; it manages about $1.4 trillion. A major Republican donor, he chaired Trump's President's Strategic and Policy Forum until it disbanded in August 2017, and in May 2024 said he would back Trump as a \"vote for change\".",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Stephen_A._Schwarzman", "title": "Stephen A. Schwarzman — Wikipedia" },
+    { "url": "https://www.blackstone.com/the-firm/our-people/", "title": "Our People — Blackstone" },
+    { "url": "https://www.blackstone.com/news/press/president-elect-trump-establishes-the-president-s-strategic-and-policy-forum/", "title": "President-elect Trump Establishes the President's Strategic and Policy Forum — Blackstone" },
+    { "url": "https://www.cnn.com/2024/05/25/politics/stephen-schwarzman-trump-vote-election/index.html", "title": "Billionaire GOP donor Stephen Schwarzman backs Trump in 'vote for change' — CNN" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 1985,
+      "role": "Head of global mergers and acquisitions; managing director",
+      "org": "Lehman Brothers",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Stephen_A._Schwarzman", "title": "Stephen A. Schwarzman — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1985,
+      "end_year": null,
+      "role": "Co-founder; chairman and CEO",
+      "org": "Blackstone",
+      "sources": [
+        { "url": "https://www.blackstone.com/the-firm/our-people/", "title": "Our People — Blackstone" },
+        { "url": "https://en.wikipedia.org/wiki/Stephen_A._Schwarzman", "title": "Stephen A. Schwarzman — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2017,
+      "role": "Chairman, President's Strategic and Policy Forum (disbanded August 2017)",
+      "org": "Trump White House advisory council",
+      "sources": [
+        { "url": "https://www.blackstone.com/news/press/president-elect-trump-establishes-the-president-s-strategic-and-policy-forum/", "title": "President-elect Trump Establishes the President's Strategic and Policy Forum — Blackstone" },
+        { "url": "https://yaledailynews.com/blog/2016/12/05/schwarzman-69-to-advise-trump/", "title": "Schwarzman '69 to advise Trump — Yale Daily News" },
+        { "url": "https://en.wikipedia.org/wiki/Stephen_A._Schwarzman", "title": "Stephen A. Schwarzman — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Schwarzman Scholars",
+      "role": "Founder",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Stephen_A._Schwarzman", "title": "Stephen A. Schwarzman — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Schwarzman chaired Trump's President's Strategic and Policy Forum from its creation in December 2016 until it disbanded after Charlottesville in August 2017. In May 2024 he endorsed Trump and said he would raise money for him.",
+      "start_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.blackstone.com/news/press/president-elect-trump-establishes-the-president-s-strategic-and-policy-forum/", "title": "President-elect Trump Establishes the President's Strategic and Policy Forum — Blackstone" },
+        { "url": "https://yaledailynews.com/blog/2016/12/05/schwarzman-69-to-advise-trump/", "title": "Schwarzman '69 to advise Trump — Yale Daily News" },
+        { "url": "https://www.axios.com/2024/05/24/trump-2024-stephen-schwarzman-blackstone", "title": "Blackstone CEO Steve Schwarzman backs Trump, will raise money for him — Axios" },
+        { "url": "https://www.cnn.com/2024/05/25/politics/stephen-schwarzman-trump-vote-election/index.html", "title": "Billionaire GOP donor Stephen Schwarzman backs Trump in 'vote for change' — CNN" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Schwarzman raised money for Trump in 2024 and gave $5 million to the pro-Trump MAGA Inc. in September 2026.",
+      "start_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2024/05/24/trump-2024-stephen-schwarzman-blackstone", "title": "Blackstone CEO Steve Schwarzman backs Trump, will raise money for him — Axios" },
+        { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" }
+      ]
+    },
+    {
+      "name": "Peter G. Peterson",
+      "slug": "peter-g-peterson",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Blackstone in 1985 with Peterson, his former boss at Lehman Brothers.",
+      "start_year": 1985,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Stephen_A._Schwarzman", "title": "Stephen A. Schwarzman — Wikipedia" },
+        { "url": "https://www.blackstone.com/the-firm/our-people/", "title": "Our People — Blackstone" }
+      ]
+    },
+    {
+      "name": "Christine Schwarzman",
+      "slug": "christine-schwarzman",
+      "relationship_type": "family",
+      "description": "Wife; co-donor listed with him in the 2026 donor rankings.",
+      "start_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where news pages could not be opened and OpenSecrets was blocked; facts were confirmed with web searches tied to each cited URL. Christine Schwarzman (co-donor) and Peter G. Peterson are suggested connections only.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 36100000,
+        "rank": 20,
+        "ranking": "Washington Post 2026 tracker, individual donors only (FEC data), with Christine Schwarzman",
+        "sources": [
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 20000000,
+            "sources": [
+              { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+              { "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html", "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million — CNBC" }
+            ]
+          },
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 5000000,
+            "description": "September 2026; one of three donors behind three-quarters of MAGA Inc.'s $24M that month.",
+            "sources": [
+              { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "description": "Over $40M (GoLocalProv, from OpenSecrets data); just outside the top ten. Endorsed Trump in May 2024 and raised money for him.",
+        "sources": [
+          { "url": "https://www.golocalprov.com/politics/elon-musk-tops-list-of-2024-political-donors-one-rhode-islander-gave-40m", "title": "Elon Musk Tops List of 2024 Political Donors — GoLocalProv" },
+          { "url": "https://www.axios.com/2024/05/24/trump-2024-stephen-schwarzman-blackstone", "title": "Blackstone CEO Steve Schwarzman backs Trump, will raise money for him — Axios" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 9000000,
+            "description": "Third-quarter 2024 filings.",
+            "sources": [
+              { "url": "https://www.cnn.com/2024/10/16/politics/fundraising-takeaways-elon-musk-billionaires-trump", "title": "Elon Musk and other billionaires invest staggering sums into electing Trump — CNN" }
+            ]
+          },
+          {
+            "name": "Buckeye Values PAC (for Bernie Moreno, Ohio Senate)",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 375000,
+            "sources": [
+              { "url": "https://www.axios.com/2024/05/24/trump-2024-stephen-schwarzman-blackstone", "title": "Blackstone CEO Steve Schwarzman backs Trump, will raise money for him — Axios" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No 2028 pick reported. His steadiest pattern is the Senate Leadership Fund, which he has funded every cycle since at least 2016, plus Trump's super PAC since 2024.",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2020-08-21/senate-leadership-fund-gets-10-million-boost-from-schwarzman", "title": "Senate Leadership Fund Gets $10 Million Boost From Schwarzman — Bloomberg" },
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+      ],
+      "likely": [
+        {
+          "name": "Senate Leadership Fund",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "$10M in 2020, $10M in 2022, $9M+ in 2024, $20M in 2026.",
+          "confidence": 0.8,
+          "sources": [
+            { "url": "https://www.bloomberg.com/news/articles/2020-08-21/senate-leadership-fund-gets-10-million-boost-from-schwarzman", "title": "Senate Leadership Fund Gets $10 Million Boost From Schwarzman — Bloomberg" },
+            { "url": "https://thehill.com/lobbying/3720141-here-are-the-biggest-donors-in-the-midterm-elections/", "title": "Here are the 10 biggest donors in the midterm elections — The Hill" },
+            { "url": "https://www.cnn.com/2024/10/16/politics/fundraising-takeaways-elon-musk-billionaires-trump", "title": "Elon Musk and other billionaires invest staggering sums into electing Trump — CNN" },
+            { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+          ]
+        },
+        {
+          "name": "MAGA Inc.",
+          "slug": "donald-trump",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "$5M in September 2026; Trump plans to keep fundraising.",
+          "confidence": 0.5,
+          "sources": [
+            { "url": "https://www.axios.com/2026/11/06/scoop-trump-to-keep-fundraising-hoping-to-retain-political-muscle", "title": "Scoop: Trump to keep fundraising, hoping to retain political muscle — Axios" }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -164,6 +164,18 @@
         { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
         { "url": "https://fortune.com/2024/02/26/ken-griffin-koch-brothers-republican-billionaire-megadonors-trump-haley-desantis/", "title": "Ken Griffin, the Koch brothers and the Republican megadonors — Fortune" }
       ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "Richard and Elizabeth Uihlein each gave at least $1 million to the pro-DeSantis super PAC in 2023.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnn.com/2023/07/31/politics/fec-filings-2024-pacs-donors", "title": "Takeaways from presidential super PACs' mid-year financial disclosures — CNN" }
+      ]
     }
   ],
   "affiliations": [],

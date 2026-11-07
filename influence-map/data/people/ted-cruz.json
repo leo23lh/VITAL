@@ -152,6 +152,18 @@
       "sources": [
         { "url": "https://news.yahoo.com/millions-at-stake-the-adelson-primary-is-neck-125553624.html", "title": "Millions at stake, the 'Adelson primary' is neck and neck — Yahoo News" }
       ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "The Uihleins were multimillion-dollar donors to groups backing Cruz's 2016 presidential bid.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],
