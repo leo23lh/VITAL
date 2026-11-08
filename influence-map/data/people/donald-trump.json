@@ -1321,9 +1321,12 @@
       "start_year": 2016,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+        { "url": "https://ballotpedia.org/Richard_Uihlein", "title": "Richard Uihlein — Ballotpedia (2016 super PAC gifts incl. Great America PAC)" },
+        { "url": "https://www.influencewatch.org/political-party/great-america-pac/", "title": "Great America PAC — InfluenceWatch" }
       ],
-      "end_year": 2017
+      "end_year": 2017,
+      "notes": "Sources differ on the 2016 Great America PAC gift: Ballotpedia lists $100,000 (October 5, 2016); a Daily Herald report gives $200,000."
     },
     {
       "name": "Stephen Schwarzman",
@@ -1348,7 +1351,9 @@
       "confidence": 0.85,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
-        { "url": "https://kvia.com/politics/2021/01/04/the-trump-ally-in-the-senate-leading-the-presidents-futile-effort-to-challenge-the-electoral-college-votes/", "title": "The Trump ally in the Senate leading the president's futile effort to challenge the electoral college votes — CNN via KVIA" }
+        { "url": "https://kvia.com/politics/2021/01/04/the-trump-ally-in-the-senate-leading-the-presidents-futile-effort-to-challenge-the-electoral-college-votes/", "title": "The Trump ally in the Senate leading the president's futile effort to challenge the electoral college votes — CNN via KVIA" },
+        { "url": "https://www.npr.org/sections/biden-transition-updates/2020/12/30/951430323/gop-sen-hawley-will-object-to-electoral-college-certification", "title": "GOP Sen. Hawley will object to Electoral College certification — NPR" },
+        { "url": "https://m.washingtontimes.com/news/2020/dec/30/josh-hawley-becomes-first-senator-declare-hell-obj/", "title": "Josh Hawley becomes first senator to declare he’ll object — The Washington Times" }
       ]
     },
     {
@@ -1633,7 +1638,9 @@
       "confidence": 0.95,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" },
-        { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" }
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" },
+        { "url": "https://forward.com/fast-forward/665095/miriam-adelson-donates-100m-to-trump-campaign-making-good-on-reported-promise/", "title": "Miriam Adelson donates $100M to Trump campaign — The Forward" },
+        { "url": "https://lasvegassun.com/news/2024/sep/24/las-vegas-miriam-adelsons-super-pac-fuels-swing-st", "title": "Miriam Adelson’s super PAC fuels swing-state ads — Las Vegas Sun" }
       ]
     },
     {

@@ -258,8 +258,12 @@
       "end_year": null,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
-      ]
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" },
+        { "url": "https://www.cbsnews.com/philadelphia/news/jared-kushner-chris-christie/", "title": "Trump’s son-in-law helped oust Christie because governor sent his father to prison — CBS News" },
+        { "url": "https://www.washingtonexaminer.com/?p=1499773", "title": "Chris Christie reveals who pushed him off Trump transition team — Washington Examiner" },
+        { "url": "https://news.yahoo.com/how-christie-lost-his-spot-on-the-trump-transition-team-011904121.html", "title": "How Christie lost his spot on the Trump transition team — Yahoo News" }
+      ],
+      "notes": "Disputed: Christie blamed Kushner for a \"hit job\"; Trump campaign sources told Yahoo News the cause was Christie’s handling of the transition and Bridgegate."
     },
     {
       "name": "Brooke Rollins",

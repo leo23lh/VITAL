@@ -69,7 +69,9 @@
       "start_year": 2016,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+        { "url": "https://ballotpedia.org/Richard_Uihlein", "title": "Richard Uihlein — Ballotpedia (2016 super PAC gifts incl. Great America PAC)" },
+        { "url": "https://www.influencewatch.org/political-party/great-america-pac/", "title": "Great America PAC — InfluenceWatch" }
       ],
       "end_year": 2017
     },

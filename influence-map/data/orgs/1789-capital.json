@@ -33,7 +33,8 @@
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Chris_Buskirk", "title": "Wikipedia: Chris Buskirk" }
+        { "url": "https://en.wikipedia.org/wiki/Chris_Buskirk", "title": "Wikipedia: Chris Buskirk" },
+        { "url": "https://www.bnnbloomberg.ca/business/2025/09/08/trump-linked-venture-fund-1789-capital-tops-us1-billion-in-assets/", "title": "Trump-linked venture fund 1789 Capital tops US$1 billion in assets — Reuters via BNN Bloomberg" }
       ]
     },
     {
@@ -65,11 +66,12 @@
       "name": "Peter Thiel",
       "slug": "peter-thiel",
       "relationship_type": "ally",
-      "description": "Reuters called Thiel an instrumental force behind its creation: Buskirk is a Thiel confidant, and it invests in Thiel-backed companies such as Anduril.",
+      "description": "Reuters described Thiel as a central figure in the network behind it: he helped finance co-founder Chris Buskirk’s early political activism, and the fund invests in Thiel-backed companies such as Anduril.",
       "start_year": 2022,
       "confidence": 0.55,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" },
+        { "url": "https://www.bnnbloomberg.ca/business/2025/09/08/trump-linked-venture-fund-1789-capital-tops-us1-billion-in-assets/", "title": "Trump-linked venture fund 1789 Capital tops US$1 billion in assets — Reuters via BNN Bloomberg" }
       ]
     },
     {
@@ -82,7 +84,8 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" },
         { "url": "https://fortune.com/2023/10/17/tucker-carlson-media-company-funding-1789-15-million-seed-capital/", "title": "Tucker Carlson's media company raises $15 million led by 1789 Capital — Fortune" },
-        { "url": "https://axios.com/2023/10/17/tucker-carlson-new-media-company-15-million", "title": "Tucker Carlson's new media company raises $15 million — Axios" }
+        { "url": "https://axios.com/2023/10/17/tucker-carlson-new-media-company-15-million", "title": "Tucker Carlson's new media company raises $15 million — Axios" },
+        { "url": "https://www.axios.com/2025/06/13/tucker-carlson-investors", "title": "Tucker Carlson buys out investors in his media company — Axios" }
       ]
     }
   ],

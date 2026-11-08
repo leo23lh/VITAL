@@ -430,7 +430,8 @@
         { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
         { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
         { "url": "https://generalist.com/briefing/palantir-ipo", "title": "Palantir in one minute — The Generalist" },
-        { "url": "https://stanforddaily.com/2014/03/16/palantir-co-founder-talks-technology-transformations/", "title": "Palantir co-founder talks technology transformations — Stanford Daily" }
+        { "url": "https://stanforddaily.com/2014/03/16/palantir-co-founder-talks-technology-transformations/", "title": "Palantir co-founder talks technology transformations — Stanford Daily" },
+        { "url": "https://techcrunch.com/2017/01/16/joe-lonsdale-moves-forward-with-8vcs-new-fund-and-more/", "title": "Joe Lonsdale moves forward with 8VC’s new fund — TechCrunch" }
       ]
     },
     {
@@ -498,12 +499,14 @@
       "name": "1789 Capital",
       "slug": "1789-capital",
       "relationship_type": "ally",
-      "description": "Reuters called Thiel an instrumental force behind its creation: Buskirk is a Thiel confidant, and it invests in Thiel-backed companies such as Anduril.",
+      "description": "Reuters described Thiel as a central figure in the network behind it: he helped finance co-founder Chris Buskirk’s early political activism, and the fund invests in Thiel-backed companies such as Anduril.",
       "start_year": 2022,
       "confidence": 0.55,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" }
-      ]
+        { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" },
+        { "url": "https://www.bnnbloomberg.ca/business/2025/09/08/trump-linked-venture-fund-1789-capital-tops-us1-billion-in-assets/", "title": "Trump-linked venture fund 1789 Capital tops US$1 billion in assets — Reuters via BNN Bloomberg" }
+      ],
+      "notes": "The \"instrumental force\" wording seen in secondary summaries could not be found in a Reuters original, so it was dropped."
     },
     {
       "name": "Founders Fund",
