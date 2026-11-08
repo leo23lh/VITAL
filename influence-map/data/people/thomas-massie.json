@@ -105,6 +105,18 @@
       "sources": [
         { "url": "https://nkytribune.com/?p=479890", "title": "Thomas Massie, facing opposition from Trump, gets a hand from billionaire megadonor Jeff Yass — NKyTribune" }
       ]
+    },
+    {
+      "name": "AIPAC",
+      "slug": "aipac",
+      "relationship_type": "enemy",
+      "description": "Its super PAC spent more than $3 million against Massie in Kentucky's 2026 Republican primary and nearly $500,000 backing his challenger Ed Gallrein, one of the most expensive House primaries.",
+      "start_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/United_Democracy_Project", "title": "United Democracy Project — Wikipedia" }
+      ]
     }
   ],
   "aliases": [],

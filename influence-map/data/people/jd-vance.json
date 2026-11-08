@@ -512,6 +512,17 @@
         { "url": "https://www.nbcnews.com/politics/rcna157069", "title": "Trump's VP search: two top finalists emerge — NBC News" },
         { "url": "https://semafor.com/article/07/13/2024/breaking-down-donald-trumps-top-three-vp-finalists", "title": "Breaking down Donald Trump's top three VP finalists — Semafor" }
       ]
+    },
+    {
+      "name": "Heritage Foundation",
+      "slug": "heritage-foundation",
+      "relationship_type": "ally",
+      "description": "Vance wrote the foreword to president Kevin Roberts's 2024 book, praising Roberts and calling Heritage \"the most influential engine of ideas for Republicans from Ronald Reagan to Donald Trump\".",
+      "start_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.axios.com/2024/07/25/vance-project-2025-book-trump-heritage-foundation", "title": "J.D. Vance wrote foreword of upcoming book from Project 2025 architect — Axios" }
+      ]
     }
   ],
   "source_conflicts": [],

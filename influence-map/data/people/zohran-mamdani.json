@@ -96,6 +96,17 @@
         { "url": "https://fortune.com/2026/04/16/nyc-mayor-zohran-mamdani-ken-griffins-penthouse-pied-a-terre-tax/", "title": "NYC mayor Zohran Mamdani's video on Ken Griffin's penthouse — Fortune" },
         { "url": "https://www.cbsnews.com/newyork/news/mayor-zohran-mamdani-citadel-ken-griffin-pied-a-terre-tax/", "title": "Mamdani, Citadel and Ken Griffin clash over pied-à-terre tax — CBS New York" }
       ]
+    },
+    {
+      "name": "AIPAC",
+      "slug": "aipac",
+      "relationship_type": "enemy",
+      "description": "The National Black Empowerment Action Fund, founded by an AIPAC veteran with AIPAC funding, spent $1.3 million on messaging against Mamdani in 2025.",
+      "start_year": 2025,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

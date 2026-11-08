@@ -95,6 +95,17 @@
         { "url": "https://en.wikipedia.org/wiki/Christopher_DeMuth", "title": "Christopher DeMuth — Wikipedia" },
         { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
       ]
+    },
+    {
+      "name": "Heritage Foundation",
+      "slug": "heritage-foundation",
+      "relationship_type": "employer",
+      "description": "Distinguished fellow at its Simon Center for American Studies since 2023.",
+      "start_year": 2023,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.heritage.org/node/25156056", "title": "Chris DeMuth — Heritage Foundation" }
+      ]
     }
   ],
   "source_conflicts": [

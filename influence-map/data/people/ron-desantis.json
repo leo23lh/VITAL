@@ -213,6 +213,17 @@
       "sources": [
         { "url": "https://www.factcheck.org/2026/10/maga-inc-3/", "title": "MAGA Inc. — FactCheck.org" }
       ]
+    },
+    {
+      "name": "Turning Point USA",
+      "slug": "turning-point-usa",
+      "relationship_type": "ally",
+      "description": "In October 2025 DeSantis announced a partnership to bring its Club America chapters to high schools across Florida.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

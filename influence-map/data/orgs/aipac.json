@@ -1,0 +1,103 @@
+{
+  "name": "AIPAC",
+  "aliases": ["American Israel Public Affairs Committee", "United Democracy Project", "UDP"],
+  "kind": "advocacy",
+  "side": "both",
+  "founded": 1954,
+  "groups": ["middle-east"],
+  "summary": "The American Israel Public Affairs Committee, a pro-Israel lobby founded in 1954 and long counted among the most influential in Washington. Since 2022 it has spent on elections through its own PAC and its super PAC, the United Democracy Project, mostly against candidates (largely Democrats, but also Republican Thomas Massie) it considers insufficiently supportive of Israel. Critics say it aligns closely with right-wing Israeli governments; it calls itself bipartisan.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/United_Democracy_Project", "title": "United Democracy Project — Wikipedia" }
+  ],
+  "finances": [
+    {
+      "cycle": 2022,
+      "raised_usd": 35900000,
+      "spent_usd": 32900000,
+      "description": "United Democracy Project; $26.1M on independent expenditures in Democratic House races.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/United_Democracy_Project", "title": "United Democracy Project — Wikipedia" }
+      ]
+    },
+    {
+      "cycle": 2024,
+      "raised_usd": 87100000,
+      "spent_usd": 61400000,
+      "description": "United Democracy Project; $34.8M on independent expenditures.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/United_Democracy_Project", "title": "United Democracy Project — Wikipedia" }
+      ]
+    },
+    {
+      "cycle": 2026,
+      "raised_usd": 104000000,
+      "spent_usd": 52500000,
+      "description": "United Democracy Project, through June 30, 2026.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/United_Democracy_Project", "title": "United Democracy Project — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "Gave $5.6 million to its super PAC, the United Democracy Project, from 2022 to 2026, including $2.6 million in the 2026 cycle.",
+      "start_year": 2022,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" },
+        { "url": "https://truthout.org/articles/aipacs-network-has-already-spent-67-2-million-to-shape-the-midterm-elections/", "title": "AIPAC's network has already spent $67.2 million to shape the midterm elections — Truthout" }
+      ]
+    },
+    {
+      "name": "Thomas Massie",
+      "slug": "thomas-massie",
+      "relationship_type": "enemy",
+      "description": "Its super PAC spent more than $3 million against Massie in Kentucky's 2026 Republican primary and nearly $500,000 backing his challenger Ed Gallrein, one of the most expensive House primaries.",
+      "start_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/United_Democracy_Project", "title": "United Democracy Project — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "enemy",
+      "description": "In 2020 Sanders said AIPAC provides a platform for bigotry and opposition to Palestinian rights, and refused to attend its conference.",
+      "start_year": 2020,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Zohran Mamdani",
+      "slug": "zohran-mamdani",
+      "relationship_type": "enemy",
+      "description": "The National Black Empowerment Action Fund, founded by an AIPAC veteran with AIPAC funding, spent $1.3 million on messaging against Mamdani in 2025.",
+      "start_year": 2025,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "slug": "benjamin-netanyahu",
+      "relationship_type": "ally",
+      "description": "Netanyahu has addressed its policy conferences in person and by satellite.",
+      "start_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and news reporting. Most news pages could not be opened in the research sandbox, so facts were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

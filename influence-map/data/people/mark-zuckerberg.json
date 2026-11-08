@@ -101,6 +101,17 @@
       "sources": [
         { "url": "https://fortune.com/2024/12/18/tech-giants-wall-street-millions-donald-trump-inauguration-meta-amazon-openai/", "title": "Tech giants and Wall Street give millions to Trump's inauguration — Fortune" }
       ]
+    },
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "donor",
+      "description": "An early investor in Facebook.",
+      "start_year": 2005,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

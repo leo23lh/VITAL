@@ -117,6 +117,18 @@
         { "url": "https://en.wikipedia.org/wiki/Luke_Nosek", "title": "Luke Nosek — Wikipedia" },
         { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor, and the biggest VC winners from SpaceX's IPO — Fortune" }
       ]
+    },
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "co-founder",
+      "description": "Co-founder; left in 2017 to start Gigafund.",
+      "start_year": 2005,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [],

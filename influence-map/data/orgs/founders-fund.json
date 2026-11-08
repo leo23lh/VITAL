@@ -1,0 +1,131 @@
+{
+  "name": "Founders Fund",
+  "aliases": [],
+  "kind": "investment-firm",
+  "founded": 2005,
+  "groups": ["paypal-mafia"],
+  "summary": "A San Francisco venture firm founded in 2005 by Peter Thiel, Ken Howery and Luke Nosek, with about $17 billion under management by 2025. It was the first institutional investor in SpaceX and Palantir, an early Facebook investor, and the lead backer of Anduril; it and Andreessen Horowitz are often described as the dominant forces in new defense tech.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+    { "url": "https://www.cnbc.com/2025/04/11/peter-thiels-founders-fund-closes-4point6-billion-growth-fund.html", "title": "Peter Thiel's Founders Fund closes $4.6 billion growth fund — CNBC" }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and partner.",
+      "start_year": 2005,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ken Howery",
+      "slug": "ken-howery",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and former partner.",
+      "start_year": 2005,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Luke Nosek",
+      "slug": "luke-nosek",
+      "relationship_type": "co-founder",
+      "description": "Co-founder; left in 2017 to start Gigafund.",
+      "start_year": 2005,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "employee",
+      "description": "General partner from 2019 to 2024.",
+      "start_year": 2019,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Wikipedia: Keith Rabois" }
+      ]
+    },
+    {
+      "name": "Trae Stephens",
+      "slug": "trae-stephens",
+      "relationship_type": "employee",
+      "description": "Partner; co-founder and executive chairman of Anduril.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "funded_by",
+      "description": "Invested $20 million in SpaceX in 2008 as its first institutional backer, a stake that paid off in SpaceX's June 2026 IPO; it also backed the Boring Company and Neuralink. Luke Nosek led the deal and joined SpaceX's board.",
+      "start_year": 2008,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor, and the biggest VC winners from SpaceX's IPO — Fortune" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "funded_by",
+      "description": "An early Oculus investor; it seeded Anduril in 2017, led its 2018 Series A and put $1 billion, its largest-ever check, into the 2025 round.",
+      "start_year": 2017,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2025/06/05/anduril-palmer-luckey-funding-30-billion-valuation-founders-fund/", "title": "Anduril raises at $30.5 billion valuation, led by Founders Fund — Fortune" }
+      ]
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "slug": "mark-zuckerberg",
+      "relationship_type": "funded_by",
+      "description": "An early investor in Facebook.",
+      "start_year": 2005,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Alex Karp",
+      "slug": "alex-karp",
+      "relationship_type": "funded_by",
+      "description": "The first institutional investor in Palantir, which Karp runs as CEO.",
+      "start_year": 2005,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Max Levchin",
+      "slug": "max-levchin",
+      "relationship_type": "funded_by",
+      "description": "Led the $100 million Series D in 2016 of Affirm, Levchin's company, and joined later rounds.",
+      "start_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and news reporting. Most news pages could not be opened in the research sandbox, so facts were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

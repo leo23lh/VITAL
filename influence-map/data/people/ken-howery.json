@@ -140,6 +140,17 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" }
       ]
+    },
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and former partner.",
+      "start_year": 2005,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [],

@@ -65,13 +65,13 @@
       "name": "Donald Trump",
       "slug": "donald-trump",
       "relationship_type": "funded_by",
-      "description": "After Cruz and Walker dropped out in 2016 Uihlein backed Trump, giving to the pro-Trump Great America PAC and $500,000 to his inauguration; in 2024 his Restoration PAC, described as a leading pro-Trump super PAC, spent over $34M against Kamala Harris.",
+      "description": "After Cruz and Walker dropped out in 2016 Uihlein backed Trump, giving to the pro-Trump Great America PAC and $500,000 to his inauguration. His 2024 money went through Restoration PAC.",
       "start_year": 2016,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
-        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" }
-      ]
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ],
+      "end_year": 2017
     },
     {
       "name": "Ted Cruz",
@@ -129,6 +129,29 @@
       "sources": [
         { "url": "https://www.wispolitics.com/2026/crowley-campaign-three-billionaires-have-dropped-another-24-million-to-buy-wisconsins-governors-office-for-congressman-tiffany/", "title": "Crowley campaign: Three billionaires have dropped another $24 million for Tiffany — WisPolitics (campaign press release)" }
       ]
+    },
+    {
+      "name": "Turning Point USA",
+      "slug": "turning-point-usa",
+      "relationship_type": "funded_by",
+      "description": "Named among its donors, including through the Ed Uihlein Family Foundation.",
+      "start_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Restoration of America PAC",
+      "slug": "restoration-pac",
+      "relationship_type": "funded_by",
+      "description": "Its main funder: more than $80 million in the 2024 cycle and more than $57 million from January 2025 to June 2026.",
+      "start_year": 2022,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -162,6 +185,7 @@
         "recipients": [
           {
             "name": "Restoration of America PAC",
+            "org": "restoration-pac",
             "kind": "super-pac",
             "side": "R",
             "description": "His main vehicle; the Washington Post's table shows about $136.7M linked to it.",
@@ -203,6 +227,7 @@
         "recipients": [
           {
             "name": "Restoration PAC",
+            "org": "restoration-pac",
             "kind": "super-pac",
             "side": "R",
             "amount_usd": 80000000,
@@ -225,6 +250,7 @@
       "likely": [
         {
           "name": "Restoration of America PAC",
+          "org": "restoration-pac",
           "kind": "super-pac",
           "side": "R",
           "basis": "His own vehicle; main recipient in 2022, 2024 and 2026.",

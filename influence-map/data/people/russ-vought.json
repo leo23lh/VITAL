@@ -160,6 +160,17 @@
         { "url": "https://cpi.org/2024/02/cpi-announces-new-hires/", "title": "CPI Announces New Hires — CPI" },
         { "url": "https://www.thenation.com/article/politics/the-rights-partners-in-weaponized-policymaking/", "title": "The Right's Partners in Weaponized Policymaking — The Nation" }
       ]
+    },
+    {
+      "name": "Heritage Foundation",
+      "slug": "heritage-foundation",
+      "relationship_type": "ally",
+      "description": "One of the main architects of Project 2025, Heritage's blueprint for a second Trump administration, before he returned to lead the budget office.",
+      "start_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

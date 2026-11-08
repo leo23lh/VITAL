@@ -172,19 +172,6 @@
       ]
     },
     {
-      "name": "Elon Musk",
-      "slug": "elon-musk",
-      "relationship_type": "funded_by",
-      "description": "Thiel's Founders Fund invested $20 million in SpaceX in 2008, its first institutional backer, a stake that paid off in SpaceX's June 2026 IPO; Thiel had declined to invest in Tesla. Founders Fund also backed the Boring Company and Neuralink.",
-      "start_year": 2008,
-      "end_year": null,
-      "confidence": 0.9,
-      "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
-        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor, and the biggest VC winners from SpaceX's IPO — Fortune" }
-      ]
-    },
-    {
       "name": "Donald Trump",
       "slug": "donald-trump",
       "relationship_type": "funded_by",
@@ -494,6 +481,17 @@
       "confidence": 0.55,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and partner.",
+      "start_year": 2005,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
       ]
     }
   ],

@@ -51,6 +51,17 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu", "title": "Benjamin Netanyahu — Wikipedia" }
       ]
+    },
+    {
+      "name": "AIPAC",
+      "slug": "aipac",
+      "relationship_type": "ally",
+      "description": "Netanyahu has addressed its policy conferences in person and by satellite.",
+      "start_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

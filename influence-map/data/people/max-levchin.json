@@ -148,6 +148,17 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Yelp", "title": "Yelp — Wikipedia" }
       ]
+    },
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "donor",
+      "description": "Led the $100 million Series D in 2016 of Affirm, Levchin's company, and joined later rounds.",
+      "start_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [],

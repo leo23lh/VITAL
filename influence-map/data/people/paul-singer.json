@@ -134,6 +134,18 @@
         { "url": "https://www.nbcnews.com/politics/2026-election/republican-super-pacs-bank-millions-ahead-midterm-battles-rcna222115", "title": "Republican super PACs bank millions ahead of midterm battles — NBC News" },
         { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
       ]
+    },
+    {
+      "name": "AIPAC",
+      "slug": "aipac",
+      "relationship_type": "funded_by",
+      "description": "Gave $5.6 million to its super PAC, the United Democracy Project, from 2022 to 2026, including $2.6 million in the 2026 cycle.",
+      "start_year": 2022,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" },
+        { "url": "https://truthout.org/articles/aipacs-network-has-already-spent-67-2-million-to-shape-the-midterm-elections/", "title": "AIPAC's network has already spent $67.2 million to shape the midterm elections — Truthout" }
+      ]
     }
   ],
   "affiliations": [],

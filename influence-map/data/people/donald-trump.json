@@ -536,13 +536,11 @@
       "name": "Miriam Adelson",
       "slug": "miriam-adelson",
       "relationship_type": "donor",
-      "description": "Adelson is one of Trump's biggest backers: she and Sheldon Adelson gave about $90 million to the pro-Trump Preserve America PAC in 2020, and she gave about $100 million in 2024. Trump awarded her the Presidential Medal of Freedom in 2018; she co-hosted a 2025 inaugural ball; her family foundation gave $25 million toward his White House ballroom; he hailed her in his October 2025 Knesset speech; and in December 2025 she urged him to seek an unconstitutional third term, which he said came with an offer of \"another $250 million\".",
+      "description": "One of Trump's biggest backers; her campaign money went through Preserve America PAC (about $90 million with Sheldon Adelson in 2020, about $100 million in 2024). Trump awarded her the Presidential Medal of Freedom in 2018; she co-hosted a 2025 inaugural ball; her family foundation gave $25 million toward his White House ballroom; he hailed her in his October 2025 Knesset speech; and in December 2025 she urged him to seek an unconstitutional third term, which he said came with an offer of \"another $250 million\".",
       "start_year": 2016,
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://forward.com/fast-forward/665095/miriam-adelson-donates-100m-to-trump-campaign-making-good-on-reported-promise/", "title": "Miriam Adelson donates $100M to Trump campaign, making good on reported promise — The Forward" },
-        { "url": "https://nbcconnecticut.com/news/business/money-report/gop-megadonor-miriam-adelson-plans-to-do-whatever-it-takes-to-help-trump-win-with-100-million-dollar-pac/3364915", "title": "GOP megadonor Miriam Adelson plans to do 'whatever it takes' to help Trump win — CNBC via NBC Connecticut" },
         { "url": "https://trumpwhitehouse.archives.gov/briefings-statements/remarks-president-trump-presentation-presidential-medal-freedom/", "title": "Remarks by President Trump at Presentation of the Presidential Medal of Freedom — The White House (archived)" },
         { "url": "https://forward.com/fast-forward/690280/pro-israel-megadonor-miriam-adelson-takes-center-stage-at-donald-trumps-2025-inauguration/", "title": "Pro-Israel megadonor Miriam Adelson takes center stage at Donald Trump's 2025 inauguration — The Forward" },
         { "url": "https://www.bostonglobe.com/2026/10/16/business/adelson-trump-ballroom-donor/", "title": "Adelson Trump ballroom donor — Boston Globe" },
@@ -1253,13 +1251,13 @@
       "name": "Richard Uihlein",
       "slug": "richard-uihlein",
       "relationship_type": "donor",
-      "description": "After Cruz and Walker dropped out in 2016 Uihlein backed Trump, giving to the pro-Trump Great America PAC and $500,000 to his inauguration; in 2024 his Restoration PAC, described as a leading pro-Trump super PAC, spent over $34M against Kamala Harris.",
+      "description": "After Cruz and Walker dropped out in 2016 Uihlein backed Trump, giving to the pro-Trump Great America PAC and $500,000 to his inauguration. His 2024 money went through Restoration PAC.",
       "start_year": 2016,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
-        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" }
-      ]
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ],
+      "end_year": 2017
     },
     {
       "name": "Stephen Schwarzman",
@@ -1529,6 +1527,31 @@
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Restoration of America PAC",
+      "slug": "restoration-pac",
+      "relationship_type": "donor",
+      "description": "Uihlein's Restoration PAC, described as a leading pro-Trump super PAC, spent over $34 million against Kamala Harris in 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Preserve America PAC",
+      "slug": "preserve-america-pac",
+      "relationship_type": "donor",
+      "description": "Preserve America PAC, funded mainly by the Adelsons, spent more than $100 million backing him in each of the 2020 and 2024 elections.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" }
       ]
     }
   ],

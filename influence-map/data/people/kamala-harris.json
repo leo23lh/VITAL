@@ -233,6 +233,31 @@
       "sources": [
         { "url": "https://www.factcheck.org/2026/10/maga-inc-3/", "title": "MAGA Inc. — FactCheck.org" }
       ]
+    },
+    {
+      "name": "Restoration of America PAC",
+      "slug": "restoration-pac",
+      "relationship_type": "enemy",
+      "description": "Spent over $34 million against Harris in 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" }
+      ]
+    },
+    {
+      "name": "Preserve America PAC",
+      "slug": "preserve-america-pac",
+      "relationship_type": "enemy",
+      "description": "Ran attack ads against Harris in Michigan, Pennsylvania and Wisconsin from the 2024 Olympics to Election Day.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" },
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" }
+      ]
     }
   ],
   "affiliations": [],

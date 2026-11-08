@@ -118,6 +118,17 @@
         { "url": "https://kvia.com/politics/2020/03/04/the-end-of-bloomberg-how-the-most-expensive-primary-campaign-in-history-failed-to-launch/", "title": "The end of Bloomberg: how the most expensive primary campaign in history failed to launch — CNN via KVIA" },
         { "url": "https://weartv.com/news/nation-world/bloomberg-might-not-spend-to-help-sanders-if-hes-nominee", "title": "Bloomberg might not spend to help Sanders if he's nominee — WEAR" }
       ]
+    },
+    {
+      "name": "AIPAC",
+      "slug": "aipac",
+      "relationship_type": "enemy",
+      "description": "In 2020 Sanders said AIPAC provides a platform for bigotry and opposition to Palestinian rights, and refused to attend its conference.",
+      "start_year": 2020,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

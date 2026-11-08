@@ -356,6 +356,29 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" }
       ]
+    },
+    {
+      "name": "Heritage Foundation",
+      "slug": "heritage-foundation",
+      "relationship_type": "ally",
+      "description": "In October 2025 Heritage president Kevin Roberts publicly defended Carlson over his interview with Nick Fuentes, calling his critics a \"venomous coalition\"; after staff protests he apologized for the wording but said Heritage was not distancing itself from Carlson.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/heritage-foundation-kevin-roberts-tucker-carlson-interview-nick-fuentes/", "title": "Heritage Foundation head defends Tucker Carlson for hosting Nick Fuentes — CBS News" },
+        { "url": "https://www.ksat.com/news/politics/2025/10/31/heritage-foundation-head-defends-tucker-carlson-for-hosting-white-nationalist-with-antisemitic-views/", "title": "Heritage Foundation head defends Tucker Carlson for hosting white nationalist with antisemitic views — AP via KSAT" }
+      ]
+    },
+    {
+      "name": "Turning Point USA",
+      "slug": "turning-point-usa",
+      "relationship_type": "ally",
+      "description": "A keynote speaker at its AmericaFest conferences (2023 and 2025, when his clash with Ben Shapiro over Israel split the event).",
+      "start_year": 2023,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

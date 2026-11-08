@@ -175,6 +175,18 @@
         { "url": "https://finance.yahoo.com/news/palmer-luckey-backed-erebor-receives-225304165.html", "title": "Palmer Luckey-backed Erebor receives US national banking charter — Reuters via Yahoo Finance" },
         { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
       ]
+    },
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "donor",
+      "description": "An early Oculus investor; it seeded Anduril in 2017, led its 2018 Series A and put $1 billion, its largest-ever check, into the 2025 round.",
+      "start_year": 2017,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2025/06/05/anduril-palmer-luckey-funding-30-billion-valuation-founders-fund/", "title": "Anduril raises at $30.5 billion valuation, led by Founders Fund — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [

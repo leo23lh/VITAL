@@ -289,6 +289,18 @@
         { "url": "https://www.axios.com/2026/08/13/1789-capital-real-estate-fund", "title": "1789 Capital closes $1.2B real estate fund — Axios" },
         { "url": "https://www.washingtonpost.com/technology/interactive/2026/07/13/trumps-sons-invest-heavily-defense-fathers-administration-pours-money/", "title": "Trump's sons invest heavily in defense tech — Washington Post" }
       ]
+    },
+    {
+      "name": "Heritage Foundation",
+      "slug": "heritage-foundation",
+      "relationship_type": "employer",
+      "description": "Trustee since 2014 per Wikipedia; InfluenceWatch lists her as emeritus, so her current status is unclear.",
+      "start_year": 2014,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rebekah_Mercer", "title": "Rebekah Mercer — Wikipedia" },
+        { "url": "https://www.influencewatch.org/person/rebekah-mercer/", "title": "Rebekah Mercer — InfluenceWatch" }
+      ]
     }
   ],
   "source_conflicts": [

@@ -128,13 +128,11 @@
       "name": "Donald Trump",
       "slug": "donald-trump",
       "relationship_type": "funded_by",
-      "description": "Adelson is one of Trump's biggest backers: she and Sheldon Adelson gave about $90 million to the pro-Trump Preserve America PAC in 2020, and she gave about $100 million in 2024. Trump awarded her the Presidential Medal of Freedom in 2018; she co-hosted a 2025 inaugural ball; her family foundation gave $25 million toward his White House ballroom; he hailed her in his October 2025 Knesset speech; and in December 2025 she urged him to seek an unconstitutional third term, which he said came with an offer of \"another $250 million\".",
+      "description": "One of Trump's biggest backers; her campaign money went through Preserve America PAC (about $90 million with Sheldon Adelson in 2020, about $100 million in 2024). Trump awarded her the Presidential Medal of Freedom in 2018; she co-hosted a 2025 inaugural ball; her family foundation gave $25 million toward his White House ballroom; he hailed her in his October 2025 Knesset speech; and in December 2025 she urged him to seek an unconstitutional third term, which he said came with an offer of \"another $250 million\".",
       "start_year": 2016,
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://forward.com/fast-forward/665095/miriam-adelson-donates-100m-to-trump-campaign-making-good-on-reported-promise/", "title": "Miriam Adelson donates $100M to Trump campaign, making good on reported promise — The Forward" },
-        { "url": "https://nbcconnecticut.com/news/business/money-report/gop-megadonor-miriam-adelson-plans-to-do-whatever-it-takes-to-help-trump-win-with-100-million-dollar-pac/3364915", "title": "GOP megadonor Miriam Adelson plans to do 'whatever it takes' to help Trump win — CNBC via NBC Connecticut" },
         { "url": "https://trumpwhitehouse.archives.gov/briefings-statements/remarks-president-trump-presentation-presidential-medal-freedom/", "title": "Remarks by President Trump at Presentation of the Presidential Medal of Freedom — The White House (archived)" },
         { "url": "https://forward.com/fast-forward/690280/pro-israel-megadonor-miriam-adelson-takes-center-stage-at-donald-trumps-2025-inauguration/", "title": "Pro-Israel megadonor Miriam Adelson takes center stage at Donald Trump's 2025 inauguration — The Forward" },
         { "url": "https://www.bostonglobe.com/2026/10/16/business/adelson-trump-ballroom-donor/", "title": "Adelson Trump ballroom donor — Boston Globe" },
@@ -292,6 +290,20 @@
         { "url": "https://thehill.com/homenews/campaign/5834966-campaign-finance-reports-midterm-dynamics/", "title": "Democrats' fundraising dominates key midterm races: What we learned from the latest campaign filings — The Hill" },
         { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" }
       ]
+    },
+    {
+      "name": "Preserve America PAC",
+      "slug": "preserve-america-pac",
+      "relationship_type": "funded_by",
+      "description": "Its main funder: about $90 million with Sheldon Adelson in 2020 and about $100 million in 2024 (InfluenceWatch counts $106 million).",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" },
+        { "url": "https://forward.com/fast-forward/665095/miriam-adelson-donates-100m-to-trump-campaign-making-good-on-reported-promise/", "title": "Miriam Adelson donates $100M to Trump campaign, making good on reported promise — The Forward" },
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -370,6 +382,7 @@
           {
             "name": "Preserve America PAC",
             "slug": "donald-trump",
+            "org": "preserve-america-pac",
             "kind": "super-pac",
             "side": "R",
             "amount_usd": 100000000,
@@ -413,6 +426,7 @@
         },
         {
           "name": "Preserve America PAC (for the Republican nominee)",
+          "org": "preserve-america-pac",
           "kind": "super-pac",
           "side": "R",
           "basis": "Her presidential vehicle in 2020 and 2024.",

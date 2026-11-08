@@ -173,6 +173,19 @@
         { "url": "https://www.splcenter.org/resources/extremist-files/nick-fuentes/", "title": "Nick Fuentes — SPLC Extremist Files" },
         { "url": "https://en.wikipedia.org/wiki/Groypers", "title": "Groypers — Wikipedia" }
       ]
+    },
+    {
+      "name": "Turning Point USA",
+      "slug": "turning-point-usa",
+      "relationship_type": "enemy",
+      "description": "In late 2019 Fuentes's \"Groypers\" disrupted its campus events in the so-called Groyper War against Kirk's organization.",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" },
+        { "url": "https://www.splcenter.org/resources/extremist-files/nick-fuentes/", "title": "Nick Fuentes — SPLC Extremist Files" },
+        { "url": "https://en.wikipedia.org/wiki/Groypers", "title": "Groypers — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

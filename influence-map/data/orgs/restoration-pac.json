@@ -1,0 +1,62 @@
+{
+  "name": "Restoration of America PAC",
+  "aliases": ["Restoration PAC"],
+  "kind": "super-pac",
+  "side": "R",
+  "groups": [],
+  "summary": "A conservative super PAC founded by Doug Truax and funded overwhelmingly by Richard Uihlein: more than $80 million from him in the 2024 cycle, when it spent over $34 million against Kamala Harris, and more than $57 million from January 2025 to June 2026. In the 2026 cycle most of its money went on to other conservative groups.",
+  "sources": [
+    { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+    { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" }
+  ],
+  "finances": [
+    {
+      "cycle": 2026,
+      "description": "Uihlein gave it more than $57M from January 2025 to June 2026; most of its spending went to other conservative groups.",
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "Its main funder: more than $80 million in the 2024 cycle and more than $57 million from January 2025 to June 2026.",
+      "start_year": 2022,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "enemy",
+      "description": "Spent over $34 million against Harris in 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Described as a leading pro-Trump super PAC in 2024; its spending went mainly against Harris rather than on ads for Trump.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and news reporting. Most news pages could not be opened in the research sandbox, so facts were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

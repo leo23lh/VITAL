@@ -139,19 +139,6 @@
       ]
     },
     {
-      "name": "Peter Thiel",
-      "slug": "peter-thiel",
-      "relationship_type": "donor",
-      "description": "Thiel's Founders Fund invested $20 million in SpaceX in 2008, its first institutional backer, a stake that paid off in SpaceX's June 2026 IPO; Thiel had declined to invest in Tesla. Founders Fund also backed the Boring Company and Neuralink.",
-      "start_year": 2008,
-      "end_year": null,
-      "confidence": 0.9,
-      "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
-        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor, and the biggest VC winners from SpaceX's IPO — Fortune" }
-      ]
-    },
-    {
       "name": "Luke Nosek",
       "slug": "luke-nosek",
       "relationship_type": "donor",
@@ -563,6 +550,18 @@
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "donor",
+      "description": "Founders Fund invested $20 million in SpaceX in 2008 as its first institutional backer and later backed the Boring Company and Neuralink.",
+      "start_year": 2008,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor, and the biggest VC winners from SpaceX's IPO — Fortune" }
       ]
     }
   ],
