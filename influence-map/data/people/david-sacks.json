@@ -232,12 +232,13 @@
       "name": "Joe Lonsdale",
       "slug": "joe-lonsdale",
       "relationship_type": "ally",
-      "description": "Sacks was an early investor in Lonsdale's Addepar, and both backed Musk's pro-Trump America PAC in 2024.",
+      "description": "Sacks led the $50 million Series C in 2014 of Addepar, which Lonsdale co-founded. Wikipedia says both backed Musk's America PAC in 2024; filings reported in July 2024 list Lonsdale's company as a donor but not Sacks.",
       "start_year": 2009,
       "end_year": null,
-      "confidence": 0.75,
+      "confidence": 0.7,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://blumbergcapital.com/news-insights/addepar-seeks-funding-pre-money-valuation/", "title": "Addepar funding — Blumberg Capital" }
       ]
     },
     {

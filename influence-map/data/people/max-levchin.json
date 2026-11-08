@@ -87,7 +87,9 @@
       "end_year": 2002,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://www.scaruffi.com/svhistory/silicon/thiel.html", "title": "A History of Silicon Valley: PayPal — Piero Scaruffi" }
       ]
     },
     {
@@ -99,7 +101,9 @@
       "end_year": 2002,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://www.scaruffi.com/svhistory/silicon/thiel.html", "title": "A History of Silicon Valley: PayPal — Piero Scaruffi" }
       ]
     },
     {
@@ -159,7 +163,9 @@
       "start_year": 2016,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://techcrunch.com/2016/04/13/affirm-secures-100m-in-series-d-funding-to-expand-beyond-loans", "title": "Affirm secures $100M in Series D funding — TechCrunch" },
+        { "url": "https://www.inc.com/maria-aspan/max-levchin-affirm-raises-100-million.html", "title": "How to raise $100 million over dinner — Inc." }
       ]
     }
   ],

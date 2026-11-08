@@ -39,7 +39,9 @@
       "start_year": 2024,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://westhawaiitoday.com/?p=269629", "title": "Elon Musk allies help start pro-Trump super PAC — West Hawaii Today" },
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
       ]
     },
     {
@@ -75,12 +77,14 @@
       "name": "Ken Howery",
       "slug": "ken-howery",
       "relationship_type": "donor",
-      "description": "Named among the backers who launched America PAC in 2024.",
+      "description": "Among its launch backers in 2024: Howery gave $1 million in four donations of $250,000, per its first FEC report.",
       "start_year": 2024,
       "end_year": 2024,
-      "confidence": 0.7,
+      "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://westhawaiitoday.com/?p=269629", "title": "Elon Musk allies help start pro-Trump super PAC — West Hawaii Today" },
+        { "url": "https://decrypt.co/239952/trump-super-pac-gets-millions-from-crypto-backers", "title": "New Trump super PAC gets millions in donations from crypto backers — Decrypt" }
       ]
     },
     {
@@ -92,19 +96,21 @@
       "end_year": 2024,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
       ]
     },
     {
       "name": "Joe Kent",
       "slug": "joe-kent",
       "relationship_type": "funded_by",
-      "description": "Funded Kent among Republican candidates in key 2024 House races.",
+      "description": "Spent about $1 million on canvassing in Kent's 2024 House race, the largest outside spending line there by mid-October; Kent lost to Marie Gluesenkamp Pérez.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.7,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://projects.propublica.org/itemizer/races/2024/states/wa/house/3", "title": "Washington's 3rd District House race, 2024 — ProPublica Itemizer" }
       ]
     },
     {

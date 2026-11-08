@@ -37,11 +37,13 @@
       "name": "Richard Uihlein",
       "slug": "richard-uihlein",
       "relationship_type": "donor",
-      "description": "Named among its donors, including through the Ed Uihlein Family Foundation.",
+      "description": "Through the Ed Uihlein Family Foundation, which Richard Uihlein heads and mainly funds: $50,000 in 2014 and $250,000 in 2022 per its IRS filings; tallies of the total range from $275,000 to more than $2 million.",
       "start_year": null,
-      "confidence": 0.75,
+      "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" },
+        { "url": "https://foxbusiness.com/politics/business-related-organizations-financially-supported-charlie-kirks-turning-point-usa-years", "title": "Business-related organizations financially supported Charlie Kirk's Turning Point USA for years — Fox Business" },
+        { "url": "https://sourcewatch.org/index.php/Contributions_of_the_Ed_Uihlein_Family_Foundation", "title": "Contributions of the Ed Uihlein Family Foundation — SourceWatch" }
       ]
     },
     {
@@ -52,7 +54,9 @@
       "start_year": 2025,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" },
+        { "url": "https://kmph.com/news/nation-world/florida-to-award-charlie-kirk-prize-to-high-school-debate-winner-partners-with-tpusa-north-florida-news-october-27-2025", "title": "Florida to award Charlie Kirk Prize, partners with TPUSA — KMPH" },
+        { "url": "https://www.foxnews.com/media/ron-desantis-honor-charlie-kirk-renaming-debate-trophy-after-him.amp", "title": "Ron DeSantis names debate trophy after Charlie Kirk and announces TPUSA partnership — Fox News" }
       ]
     },
     {
@@ -63,7 +67,9 @@
       "start_year": 2016,
       "confidence": 0.7,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" },
+        { "url": "https://kvia.com/politics/cnn-us-politics/2025/09/10/how-charlie-kirk-came-to-earn-trumps-admiration/", "title": "How Charlie Kirk came to earn Trump's admiration — CNN via KVIA" },
+        { "url": "https://www.dailysignal.com/2025/09/11/how-charlie-kirk-powered-rise-trump/", "title": "'Donald Trump wouldn't be in the White House without Charlie Kirk' — Daily Signal" }
       ]
     },
     {
@@ -74,7 +80,9 @@
       "start_year": 2023,
       "confidence": 0.7,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" },
+        { "url": "https://jewishinsider.com/2025/12/ben-shapiro-tucker-carlson-turning-point-usa-americafest/", "title": "At AmericaFest, Shapiro, Carlson clash over the future of the conservative movement — Jewish Insider" },
+        { "url": "https://fortune.com/2025/12/19/maga-civil-war-turning-point-conference-shapiro-carlson-antisemitism/", "title": "MAGA civil war at Turning Point conference — Fortune" }
       ]
     },
     {
@@ -98,7 +106,9 @@
       "start_year": 2019,
       "confidence": 0.6,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" },
+        { "url": "https://www.washingtonexaminer.com/?p=181739", "title": "Hang onto your hats: Nigel Farage wants to take Turning Point USA to the UK — Washington Examiner" },
+        { "url": "https://hopenothate.org.uk/2019/02/05/everything-need-know-launch-turning-point-uk/", "title": "Everything you need to know about the launch of Turning Point UK — Hope not Hate" }
       ]
     }
   ],

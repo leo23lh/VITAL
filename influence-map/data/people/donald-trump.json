@@ -311,7 +311,8 @@
       "description": "Daughter. She was an unpaid Advisor to the President from March 2017 to January 2021.",
       "confidence": 0.98,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" },
+        { "url": "https://www.cbsnews.com/pictures/crash-course-ivanka-trump", "title": "Crash course on Ivanka Trump — CBS News" }
       ]
     },
     {
@@ -1286,7 +1287,8 @@
       "start_year": 2017,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
+        { "url": "https://kvia.com/politics/2021/01/04/the-trump-ally-in-the-senate-leading-the-presidents-futile-effort-to-challenge-the-electoral-college-votes/", "title": "The Trump ally in the Senate leading the president's futile effort to challenge the electoral college votes — CNN via KVIA" }
       ]
     },
     {
@@ -1297,7 +1299,9 @@
       "start_year": 2020,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+        { "url": "https://www.axios.com/2022/08/03/missouri-primary-eric-schmitt-trump-greitens", "title": "Missouri Attorney General Eric Schmitt wins GOP Senate primary — Axios" },
+        { "url": "https://www.nbcnews.com/politics/2022-election/trump-baffles-gop-endorsing-eric-missouri-senate-primary-race-three-er-rcna41049", "title": "Trump baffles GOP by endorsing 'Eric' in Missouri Senate primary — NBC News" }
       ]
     },
     {
@@ -1448,7 +1452,9 @@
       "start_year": 2016,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu", "title": "Benjamin Netanyahu — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu", "title": "Benjamin Netanyahu — Wikipedia" },
+        { "url": "https://www.timesofisrael.com/netanyahu-plays-a-trump-card-as-elections-near/", "title": "Netanyahu plays his 'Trump card' as elections near — Times of Israel" },
+        { "url": "https://www.npr.org/2019/04/01/708206468/netanyahus-tough-election-campaign-approach-appears-to-channel-trump", "title": "Netanyahu's tough election campaign approach appears to channel Trump — NPR" }
       ]
     },
     {
@@ -1511,7 +1517,8 @@
       "end_year": 2024,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
       ]
     },
     {
@@ -1522,7 +1529,9 @@
       "start_year": 2016,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Claremont_Institute", "title": "Claremont Institute — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Claremont_Institute", "title": "Claremont Institute — Wikipedia" },
+        { "url": "https://www.neh.gov/news/claremont-awarded-national-humanities-medal", "title": "Claremont awarded National Humanities Medal — National Endowment for the Humanities" },
+        { "url": "https://trumpwhitehouse.archives.gov/briefings-statements/remarks-president-trump-presentation-national-medal-arts-national-humanities-medal", "title": "Remarks by President Trump at presentation of the National Medal of Arts and National Humanities Medal — White House archives" }
       ]
     },
     {
@@ -1559,7 +1568,8 @@
       "end_year": 2024,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" },
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" }
       ]
     }
   ],

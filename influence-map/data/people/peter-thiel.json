@@ -142,7 +142,10 @@
       "confidence": 0.95,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" },
+        { "url": "https://techcrunch.com/2017/07/28/paypal-co-founder-luke-nosek-leaving-founders-fund-reportedly-for-spacex-focused-fund/", "title": "PayPal co-founder Luke Nosek leaving Founders Fund — TechCrunch" }
       ]
     },
     {
@@ -155,7 +158,9 @@
       "confidence": 0.95,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" }
       ]
     },
     {
@@ -282,7 +287,9 @@
       "confidence": 0.85,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund", "title": "Keith Rabois is leaving Khosla Ventures for Founders Fund — TechCrunch" },
+        { "url": "https://techcrunch.com/2024/01/09/keith-rabois-dishes-on-his-surprising-return-to-khosla-ventures-after-leaving-the-firm-in-2019-for-founders-fund", "title": "Keith Rabois dishes on his surprising return to Khosla Ventures — TechCrunch" }
       ]
     },
     {
@@ -397,7 +404,9 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://stanforddaily.com/2013/02/18/QA-JOE-LONSDALE-04-FOUNDER-OF-PALANTIR-ADDEPAR-TALKS-ABOUT-STANFORD-ROOTS/", "title": "Joe Lonsdale, Palantir and Addepar co-founder, talks about Stanford roots — Stanford Daily" },
+        { "url": "https://www.bloomberg.com/news/articles/2024-11-01/joe-lonsdale-like-peter-thiel-plows-his-tech-fortune-into-conservative-causes", "title": "Joe Lonsdale is seed funding young conservative minds — Bloomberg" }
       ]
     },
     {
@@ -410,7 +419,9 @@
       "confidence": 0.95,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://generalist.com/briefing/palantir-ipo", "title": "Palantir in one minute — The Generalist" },
+        { "url": "https://stanforddaily.com/2014/03/16/palantir-co-founder-talks-technology-transformations/", "title": "Palantir co-founder talks technology transformations — Stanford Daily" }
       ]
     },
     {
@@ -493,7 +504,9 @@
       "start_year": 2005,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" },
+        { "url": "https://www.forbes.com/profile/peter-thiel/", "title": "Peter Thiel — Forbes" }
       ]
     }
   ],

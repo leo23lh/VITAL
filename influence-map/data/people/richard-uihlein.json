@@ -136,11 +136,13 @@
       "name": "Turning Point USA",
       "slug": "turning-point-usa",
       "relationship_type": "funded_by",
-      "description": "Named among its donors, including through the Ed Uihlein Family Foundation.",
+      "description": "Through the Ed Uihlein Family Foundation, which Richard Uihlein heads and mainly funds: $50,000 in 2014 and $250,000 in 2022 per its IRS filings; tallies of the total range from $275,000 to more than $2 million.",
       "start_year": null,
-      "confidence": 0.75,
+      "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" },
+        { "url": "https://foxbusiness.com/politics/business-related-organizations-financially-supported-charlie-kirks-turning-point-usa-years", "title": "Business-related organizations financially supported Charlie Kirk's Turning Point USA for years — Fox Business" },
+        { "url": "https://sourcewatch.org/index.php/Contributions_of_the_Ed_Uihlein_Family_Foundation", "title": "Contributions of the Ed Uihlein Family Foundation — SourceWatch" }
       ]
     },
     {

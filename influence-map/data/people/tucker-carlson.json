@@ -350,11 +350,13 @@
       "name": "1789 Capital",
       "slug": "1789-capital",
       "relationship_type": "donor",
-      "description": "1789 Capital's first investment, in 2023, went into his new media company.",
+      "description": "Its first investment: in October 2023 it led a $15 million seed round in Last Country, the company behind the Tucker Carlson Network, which Carlson co-founded with Neil Patel; they bought out their investors in 2025.",
       "start_year": 2023,
-      "confidence": 0.75,
+      "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" },
+        { "url": "https://fortune.com/2023/10/17/tucker-carlson-media-company-funding-1789-15-million-seed-capital/", "title": "Tucker Carlson's media company raises $15 million led by 1789 Capital — Fortune" },
+        { "url": "https://axios.com/2023/10/17/tucker-carlson-new-media-company-15-million", "title": "Tucker Carlson's new media company raises $15 million — Axios" }
       ]
     },
     {
@@ -377,7 +379,9 @@
       "start_year": 2023,
       "confidence": 0.7,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" },
+        { "url": "https://jewishinsider.com/2025/12/ben-shapiro-tucker-carlson-turning-point-usa-americafest/", "title": "At AmericaFest, Shapiro, Carlson clash over the future of the conservative movement — Jewish Insider" },
+        { "url": "https://fortune.com/2025/12/19/maga-civil-war-turning-point-conference-shapiro-carlson-antisemitism/", "title": "MAGA civil war at Turning Point conference — Fortune" }
       ]
     }
   ],

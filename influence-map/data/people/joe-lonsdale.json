@@ -155,7 +155,8 @@
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" },
+        { "url": "https://generalist.com/briefing/palantir-ipo", "title": "Palantir in one minute — The Generalist" }
       ]
     },
     {
@@ -167,7 +168,9 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://stanforddaily.com/2013/02/18/QA-JOE-LONSDALE-04-FOUNDER-OF-PALANTIR-ADDEPAR-TALKS-ABOUT-STANFORD-ROOTS/", "title": "Joe Lonsdale, Palantir and Addepar co-founder, talks about Stanford roots — Stanford Daily" },
+        { "url": "https://www.bloomberg.com/news/articles/2024-11-01/joe-lonsdale-like-peter-thiel-plows-his-tech-fortune-into-conservative-causes", "title": "Joe Lonsdale is seed funding young conservative minds — Bloomberg" }
       ]
     },
     {
@@ -180,7 +183,9 @@
       "confidence": 0.95,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://generalist.com/briefing/palantir-ipo", "title": "Palantir in one minute — The Generalist" },
+        { "url": "https://stanforddaily.com/2014/03/16/palantir-co-founder-talks-technology-transformations/", "title": "Palantir co-founder talks technology transformations — Stanford Daily" }
       ]
     },
     {
@@ -229,12 +234,13 @@
       "name": "David Sacks",
       "slug": "david-sacks",
       "relationship_type": "ally",
-      "description": "Sacks was an early investor in Lonsdale's Addepar, and both backed Musk's pro-Trump America PAC in 2024.",
+      "description": "Sacks led the $50 million Series C in 2014 of Addepar, which Lonsdale co-founded. Wikipedia says both backed Musk's America PAC in 2024; filings reported in July 2024 list Lonsdale's company as a donor but not Sacks.",
       "start_year": 2009,
       "end_year": null,
-      "confidence": 0.75,
+      "confidence": 0.7,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://blumbergcapital.com/news-insights/addepar-seeks-funding-pre-money-valuation/", "title": "Addepar funding — Blumberg Capital" }
       ]
     },
     {

@@ -156,7 +156,9 @@
       "start_year": 2021,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Sergio_Gor", "title": "Wikipedia: Sergio Gor" }
+        { "url": "https://en.wikipedia.org/wiki/Sergio_Gor", "title": "Wikipedia: Sergio Gor" },
+        { "url": "https://m.washingtontimes.com/news/2024/nov/15/trump-fills-white-house-positions-steven-cheung-se/", "title": "Trump fills White House positions — Washington Times" },
+        { "url": "https://45books.com/pages/about-us", "title": "About us — Winning Team Publishing" }
       ]
     },
     {
@@ -191,7 +193,8 @@
       "start_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" },
+        { "url": "https://www.cbsnews.com/pictures/crash-course-ivanka-trump", "title": "Crash course on Ivanka Trump — CBS News" }
       ]
     },
     {
@@ -214,7 +217,9 @@
       "start_year": 2016,
       "confidence": 0.7,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" },
+        { "url": "https://kvia.com/politics/cnn-us-politics/2025/09/10/how-charlie-kirk-came-to-earn-trumps-admiration/", "title": "How Charlie Kirk came to earn Trump's admiration — CNN via KVIA" },
+        { "url": "https://www.dailysignal.com/2025/09/11/how-charlie-kirk-powered-rise-trump/", "title": "'Donald Trump wouldn't be in the White House without Charlie Kirk' — Daily Signal" }
       ]
     },
     {

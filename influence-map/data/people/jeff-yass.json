@@ -162,12 +162,14 @@
       "name": "MAGA Inc.",
       "slug": "maga-inc",
       "relationship_type": "funded_by",
-      "description": "Gave $16 million in the first half of 2025, the largest gift that period.",
+      "description": "Gave $16 million in the first half of 2025 ($1 million on January 17 and $15 million on March 6), its top donor that period, per FEC filings.",
       "start_year": 2025,
       "end_year": 2025,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/trump-administration/trumps-super-pac-raises-massive-177-million-bolstering-political-influ-rcna222400", "title": "Trump's super PAC raises a massive $177 million — NBC News" },
+        { "url": "https://readsludge.com/2025/08/01/tiktok-billionaire-donates-millions-to-trump-as-he-repeatedly-delays-ban/", "title": "TikTok billionaire donates millions to Trump as he repeatedly delays ban — Sludge" }
       ]
     },
     {

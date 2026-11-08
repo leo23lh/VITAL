@@ -142,9 +142,11 @@
       "description": "Witkoff led the US side of the 2025 Iran nuclear talks; Anton led the expert-level track.",
       "start_year": 2025,
       "end_year": 2025,
-      "confidence": 0.6,
+      "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations", "title": "2025–2026 Iran–United States negotiations — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations", "title": "2025–2026 Iran–United States negotiations — Wikipedia" },
+        { "url": "https://www.dailysignal.com/2025/04/24/heres-trumps-team-negotiating-iran/", "title": "Anton to lead Trump team negotiating with Iran — Daily Signal" },
+        { "url": "https://digital-release.thehill.com/?p=5265909", "title": "Trump taps Michael Anton to lead technical talks with Iran — The Hill" }
       ]
     },
     {

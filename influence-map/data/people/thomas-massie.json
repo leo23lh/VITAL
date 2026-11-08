@@ -110,12 +110,14 @@
       "name": "AIPAC",
       "slug": "aipac",
       "relationship_type": "enemy",
-      "description": "Its super PAC spent more than $3 million against Massie in Kentucky's 2026 Republican primary and nearly $500,000 backing his challenger Ed Gallrein, one of the most expensive House primaries.",
+      "description": "Its super PAC, the United Democracy Project, spent about $4.1 million (estimates range from $2.6 million to $5 million) mostly on attack ads against Massie in Kentucky's May 2026 Republican primary, the most expensive House primary on record; Massie lost to Trump-backed Ed Gallrein.",
       "start_year": 2026,
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/United_Democracy_Project", "title": "United Democracy Project — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/United_Democracy_Project", "title": "United Democracy Project — Wikipedia" },
+        { "url": "https://www.wkms.org/2026-07-17/a-record-shattering-37m-was-spent-on-kentuckys-massie-gallrein-race-heres-who-funded-it", "title": "A record-shattering $37M was spent on Kentucky's Massie-Gallrein race — WKMS" },
+        { "url": "https://www.aljazeera.com/news/2026/5/18/massie-race-breaks-spending-record-as-pro-israel-groups-target-trump-critic", "title": "Massie race breaks spending record as pro-Israel groups target Trump critic — Al Jazeera" }
       ]
     },
     {

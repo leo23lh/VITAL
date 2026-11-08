@@ -160,7 +160,8 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
         { "url": "https://www.cnbc.com/2019/12/02/mercer-spent-millions-on-conservative-causes-as-they-distanced-from-trump.html", "title": "Mercer family spent millions on conservative causes in 2018 — CNBC" },
-        { "url": "https://en.wikipedia.org/wiki/Rebekah_Mercer", "title": "Rebekah Mercer — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Rebekah_Mercer", "title": "Rebekah Mercer — Wikipedia" },
+        { "url": "https://ballotpedia.org/Rebekah_Mercer", "title": "Rebekah Mercer — Ballotpedia" }
       ]
     },
     {
@@ -184,7 +185,9 @@
       "end_year": 2016,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://ballotpedia.org/Make_America_Number_1", "title": "Make America Number 1 — Ballotpedia" },
+        { "url": "https://www.factcheck.org/2016/11/make-america-number-1/", "title": "Make America Number 1 — FactCheck.org" }
       ]
     },
     {

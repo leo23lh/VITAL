@@ -183,12 +183,14 @@
       "name": "Yoram Hazony",
       "slug": "yoram-hazony",
       "relationship_type": "ally",
-      "description": "DeSantis was a billed speaker at Hazony's NatCon in Florida in 2022.",
+      "description": "DeSantis gave the opening-night keynote at Hazony's third US National Conservatism Conference, near Miami, on September 11, 2022.",
       "start_year": 2022,
       "end_year": 2022,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" },
+        { "url": "https://floridapolitics.com/archives/555339-ron-desantis-plays-greatest-hits-and-then-some-in-keynote-speech-to-enthusiastic-natcon-crowd", "title": "Ron DeSantis plays greatest hits in keynote speech to enthusiastic NatCon crowd — Florida Politics" },
+        { "url": "https://www.dailysignal.com/2022/09/12/desantis-touts-floridas-successes-paints-stark-contrast-with-blue-states/", "title": "DeSantis touts Florida's successes — Daily Signal" }
       ]
     },
     {
@@ -224,7 +226,9 @@
       "start_year": 2025,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" },
+        { "url": "https://kmph.com/news/nation-world/florida-to-award-charlie-kirk-prize-to-high-school-debate-winner-partners-with-tpusa-north-florida-news-october-27-2025", "title": "Florida to award Charlie Kirk Prize, partners with TPUSA — KMPH" },
+        { "url": "https://www.foxnews.com/media/ron-desantis-honor-charlie-kirk-renaming-debate-trophy-after-him.amp", "title": "Ron DeSantis names debate trophy after Charlie Kirk and announces TPUSA partnership — Fox News" }
       ]
     }
   ],

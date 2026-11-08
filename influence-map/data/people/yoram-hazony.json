@@ -169,7 +169,9 @@
       "start_year": null,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" },
+        { "url": "https://www.dailysignal.com/2023/05/22/why-national-conservatism-could-herald-future-of-uk-politics/", "title": "4 major themes from the National Conservatism Conference — Daily Signal" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation — DeSmog" }
       ]
     },
     {
@@ -225,12 +227,14 @@
       "name": "Ron DeSantis",
       "slug": "ron-desantis",
       "relationship_type": "ally",
-      "description": "DeSantis was a billed speaker at Hazony's NatCon in Florida in 2022.",
+      "description": "DeSantis gave the opening-night keynote at Hazony's third US National Conservatism Conference, near Miami, on September 11, 2022.",
       "start_year": 2022,
       "end_year": 2022,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" },
+        { "url": "https://floridapolitics.com/archives/555339-ron-desantis-plays-greatest-hits-and-then-some-in-keynote-speech-to-enthusiastic-natcon-crowd", "title": "Ron DeSantis plays greatest hits in keynote speech to enthusiastic NatCon crowd — Florida Politics" },
+        { "url": "https://www.dailysignal.com/2022/09/12/desantis-touts-floridas-successes-paints-stark-contrast-with-blue-states/", "title": "DeSantis touts Florida's successes — Daily Signal" }
       ]
     },
     {

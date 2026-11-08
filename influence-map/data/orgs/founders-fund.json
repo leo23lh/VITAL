@@ -18,7 +18,9 @@
       "start_year": 2005,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" },
+        { "url": "https://www.forbes.com/profile/peter-thiel/", "title": "Peter Thiel — Forbes" }
       ]
     },
     {
@@ -29,7 +31,8 @@
       "start_year": 2005,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" }
       ]
     },
     {
@@ -41,7 +44,10 @@
       "end_year": 2017,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" },
+        { "url": "https://techcrunch.com/2017/07/28/paypal-co-founder-luke-nosek-leaving-founders-fund-reportedly-for-spacex-focused-fund/", "title": "PayPal co-founder Luke Nosek leaving Founders Fund — TechCrunch" },
+        { "url": "https://www.axios.com/2017/12/15/founders-fund-partner-leaves-to-launch-spacex-focused-fund-1513304489", "title": "Founders Fund partner leaves to launch SpaceX-focused fund — Axios" }
       ]
     },
     {
@@ -54,7 +60,9 @@
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Wikipedia: Keith Rabois" }
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Wikipedia: Keith Rabois" },
+        { "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund", "title": "Keith Rabois is leaving Khosla Ventures for Founders Fund — TechCrunch" },
+        { "url": "https://techcrunch.com/2024/01/09/keith-rabois-dishes-on-his-surprising-return-to-khosla-ventures-after-leaving-the-firm-in-2019-for-founders-fund", "title": "Keith Rabois dishes on his surprising return to Khosla Ventures — TechCrunch" }
       ]
     },
     {
@@ -122,7 +130,9 @@
       "start_year": 2016,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://techcrunch.com/2016/04/13/affirm-secures-100m-in-series-d-funding-to-expand-beyond-loans", "title": "Affirm secures $100M in Series D funding — TechCrunch" },
+        { "url": "https://www.inc.com/maria-aspan/max-levchin-affirm-raises-100-million.html", "title": "How to raise $100 million over dinner — Inc." }
       ]
     }
   ],

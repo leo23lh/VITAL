@@ -77,7 +77,10 @@
       "confidence": 0.95,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" },
+        { "url": "https://techcrunch.com/2017/07/28/paypal-co-founder-luke-nosek-leaving-founders-fund-reportedly-for-spacex-focused-fund/", "title": "PayPal co-founder Luke Nosek leaving Founders Fund — TechCrunch" }
       ]
     },
     {
@@ -90,7 +93,9 @@
       "confidence": 0.95,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" }
       ]
     },
     {
@@ -102,7 +107,9 @@
       "end_year": 2002,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://www.scaruffi.com/svhistory/silicon/thiel.html", "title": "A History of Silicon Valley: PayPal — Piero Scaruffi" }
       ]
     },
     {
@@ -127,7 +134,10 @@
       "end_year": 2017,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" },
+        { "url": "https://techcrunch.com/2017/07/28/paypal-co-founder-luke-nosek-leaving-founders-fund-reportedly-for-spacex-focused-fund/", "title": "PayPal co-founder Luke Nosek leaving Founders Fund — TechCrunch" },
+        { "url": "https://www.axios.com/2017/12/15/founders-fund-partner-leaves-to-launch-spacex-focused-fund-1513304489", "title": "Founders Fund partner leaves to launch SpaceX-focused fund — Axios" }
       ]
     }
   ],

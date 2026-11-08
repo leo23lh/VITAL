@@ -247,12 +247,14 @@
       "name": "Fairshake",
       "slug": "fairshake",
       "relationship_type": "enemy",
-      "description": "Spent $10 million backing Democrat Ruben Gallego against Lake in Arizona's 2024 Senate race.",
+      "description": "Fairshake's Democratic affiliate, Protect Progress, spent about $10 million backing Ruben Gallego, who beat Lake in Arizona's 2024 Senate race. No crypto PAC spent against Lake directly, and the industry's Stand With Crypto rated her A.",
       "start_year": 2024,
       "end_year": 2024,
-      "confidence": 0.85,
+      "confidence": 0.6,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" },
+        { "url": "https://www.axios.com/local/phoenix/2024/08/16/crypto-pac-protect-progress-ruben-gallego", "title": "Crypto PAC Protect Progress backs Ruben Gallego — Axios Phoenix" },
+        { "url": "https://followthecrypto.org/elections/AZ-S", "title": "Arizona Senate 2024 — Follow the Crypto" }
       ]
     },
     {

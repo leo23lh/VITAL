@@ -120,12 +120,13 @@
       "name": "America PAC",
       "slug": "america-pac",
       "relationship_type": "donor",
-      "description": "Funded Kent among Republican candidates in key 2024 House races.",
+      "description": "Spent about $1 million on canvassing in Kent's 2024 House race, the largest outside spending line there by mid-October; Kent lost to Marie Gluesenkamp Pérez.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.7,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://projects.propublica.org/itemizer/races/2024/states/wa/house/3", "title": "Washington's 3rd District House race, 2024 — ProPublica Itemizer" }
       ]
     }
   ],

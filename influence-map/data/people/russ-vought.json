@@ -107,12 +107,14 @@
     {
       "name": "Michael Needham",
       "slug": "michael-needham",
-      "relationship_type": "co-founder",
-      "description": "Vought left the House Republican Conference in 2010 to establish Heritage Action for America with Needham.",
+      "relationship_type": "colleague",
+      "description": "Heritage Action for America launched in April 2010 with Needham as its founding CEO; Vought left the House Republican Conference that July to become its political director and later ran its grassroots outreach. Wikipedia describes Vought as a co-founder, which the reporting reviewed doesn't support.",
       "start_year": 2010,
-      "confidence": 0.85,
+      "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" },
+        { "url": "https://rollcall.com/2010/08/02/former-gop-leadership-aide-pans-party-agenda/", "title": "Former GOP leadership aide pans party agenda — Roll Call" },
+        { "url": "https://ballotpedia.org/Heritage_Action", "title": "Heritage Action for America — Ballotpedia" }
       ]
     },
     {
@@ -173,7 +175,8 @@
       "start_year": 2023,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" },
+        { "url": "https://www.bostonglobe.com/2024/08/05/nation/russell-vought-project-2025-architect-is-ready-shock-washington-if-trump-wins-second-term/", "title": "Russell Vought, Project 2025 architect, is ready to shock Washington — Boston Globe" }
       ]
     }
   ],

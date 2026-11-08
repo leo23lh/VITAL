@@ -127,7 +127,9 @@
       "start_year": 2020,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" },
+        { "url": "https://www.aljazeera.com/news/2020/2/24/sanders-accuses-pro-israel-group-of-giving-platform-to-bigotry", "title": "Sanders accuses pro-Israel group of giving platform to 'bigotry' — Al Jazeera" },
+        { "url": "https://digital-release.thehill.com/?p=484294", "title": "Sanders won't attend AIPAC conference — The Hill" }
       ]
     }
   ],
