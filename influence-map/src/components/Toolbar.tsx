@@ -17,6 +17,21 @@ interface Props {
   filtersActive: number;
   live: boolean;
   lastUpdated: Date | null;
+  /** Unread entries in the Updates feed. */
+  unseen: number;
+}
+
+export function UpdatesIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+      <g fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round">
+        <rect x="2.5" y="2.5" width="11" height="11" rx="1.5" />
+        <line x1="5" y1="6" x2="11" y2="6" />
+        <line x1="5" y1="8.5" x2="11" y2="8.5" />
+        <line x1="5" y1="11" x2="8.5" y2="11" />
+      </g>
+    </svg>
+  );
 }
 
 export function viewLabel(view: View, nameOf: (id: string) => string): string {
@@ -156,6 +171,16 @@ export default function Toolbar(props: Props) {
         </svg>
         <span className="tool-label">Filters</span>
         {props.filtersActive > 0 && <span className="badge-count">{props.filtersActive}</span>}
+      </button>
+      <button
+        className={`tool-button${menu === 'updates' ? ' on' : ''}`}
+        onClick={() => toggle('updates')}
+        aria-expanded={menu === 'updates'}
+        title="What changed on the map"
+      >
+        <UpdatesIcon />
+        <span className="tool-label">Updates</span>
+        {props.unseen > 0 && <span className="badge-count">{props.unseen}</span>}
       </button>
     </header>
   );

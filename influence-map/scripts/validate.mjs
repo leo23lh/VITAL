@@ -484,6 +484,37 @@ export function loadDir(dir) {
   return { records, parseErrors };
 }
 
+/** data/updates.json: [{ id: "YYYY-MM-DD-label", date, text, people: [slug, …] }], every slug a file in the map. */
+export function validateUpdates(file, slugs) {
+  const errs = [];
+  const err = (message) => errs.push({ file: 'updates.json', message });
+  let list;
+  try {
+    list = JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch (e) {
+    err(`does not parse: ${e.message}`);
+    return errs;
+  }
+  if (!Array.isArray(list)) {
+    err('must be an array');
+    return errs;
+  }
+  const ids = new Set();
+  list.forEach((u, i) => {
+    const where = `entry ${i + 1}`;
+    if (!u || typeof u !== 'object') return err(`${where} is not an object`);
+    if (!/^\d{4}-\d{2}-\d{2}-[a-z0-9-]+$/.test(u.id ?? '')) err(`${where}: "id" must be the date plus a short lowercase label, e.g. 2026-11-08-hegseth-refresh`);
+    else if (ids.has(u.id)) err(`${where}: duplicate id "${u.id}"`);
+    else if (!u.id.startsWith(u.date ?? '')) err(`${where}: "id" must start with its date`);
+    ids.add(u.id);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(u.date ?? '')) err(`${where}: "date" must be YYYY-MM-DD`);
+    if (typeof u.text !== 'string' || !u.text.trim()) err(`${where}: missing "text"`);
+    if (!Array.isArray(u.people) || !u.people.length) err(`${where}: "people" must list at least one slug`);
+    for (const s of u.people ?? []) if (!slugs.has(s)) err(`${where}: "${s}" has no file in data/people or data/orgs`);
+  });
+  return errs;
+}
+
 function main() {
   const here = path.dirname(fileURLToPath(import.meta.url));
   const dir = path.resolve(process.argv[2] ?? path.join(here, '..', 'data', 'people'));
@@ -499,6 +530,11 @@ function main() {
     orgs: orgLoad.records,
   });
   const all = [...parseErrors, ...orgLoad.parseErrors.map((e) => ({ ...e, file: `orgs/${e.file}` })), ...errors];
+  const updatesFile = path.join(dir, '..', 'updates.json');
+  if (fs.existsSync(updatesFile)) {
+    const slugs = new Set([...records, ...orgLoad.records].map((r) => r.file.replace(/\.json$/, '')));
+    all.push(...validateUpdates(updatesFile, slugs));
+  }
 
   for (const w of warnings) console.log(`warning  ${w.file}: ${w.message}`);
   for (const e of all) console.log(`ERROR    ${e.file}: ${e.message}`);

@@ -22,8 +22,12 @@ the page.
      if it isn't stored yet);
    - for every stored document with no matching file: `delete` with its
      `if_version`.
-5. Photos: Artifact `list` with `scope: "files"` and the page `url`. If any file in
+5. Updates feed: ArtifactData `list` the `updates` collection. For every entry in
+   `influence-map/data/updates.json`, `set` it with `doc_id` = its `id` and `data` =
+   the entry (with `if_version` when already stored); `delete` stored documents
+   whose id is no longer in the file.
+6. Photos: Artifact `list` with `scope: "files"` and the page `url`. If any file in
    `influence-map/public/photos/` isn't published as `photos/<file>`, publish the
    missing ones as CLAUDE.md "Phone page → Photos" describes.
-6. Report how many people and organizations were added, updated and removed, how many photos were
+7. Report how many people, organizations and updates were added, updated and removed, how many photos were
    published, and give the page link.

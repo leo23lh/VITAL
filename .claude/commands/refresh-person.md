@@ -85,6 +85,13 @@ optionally followed by context about what to focus on.
    `doc_id` = slug, `file_path` = the JSON file and `if_version` = the listed
    version. If this fails, say so and suggest `/sync-map` later.
 
+**Updates feed.** Add one entry at the top of `influence-map/data/updates.json`:
+`{ "id": "<today>-<short-label>", "date": "<today>", "text": "<one or two plain
+sentences on what changed>", "people": ["<slug>", …] }`. The text only
+summarizes what the files now say (no new facts), and `people` lists the slugs it
+is about (each must have a file). On the phone page, also `set` it in collection
+`updates` with `doc_id` = its `id` and `data` = the entry.
+
 9. **Report** what changed:
    - **Profile changes** — new or corrected roles, timeline entries, affiliations.
    - **Connections added / updated / removed** — a table with person,

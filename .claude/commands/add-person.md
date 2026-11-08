@@ -174,6 +174,13 @@ If this fails (for example, ArtifactData isn't available in this session), say
 so in the report and suggest running `/sync-map` later. The files stay the
 source of truth.
 
+**Updates feed.** Add one entry at the top of `influence-map/data/updates.json`:
+`{ "id": "<today>-<short-label>", "date": "<today>", "text": "<one or two plain
+sentences on what changed>", "people": ["<slug>", …] }`. The text only
+summarizes what the files now say (no new facts), and `people` lists the slugs it
+is about (each must have a file). On the phone page, also `set` it in collection
+`updates` with `doc_id` = its `id` and `data` = the entry.
+
 ### 9. Report
 
 Reply with:

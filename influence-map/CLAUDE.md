@@ -15,6 +15,7 @@ the slash commands in the repo root's `.claude/commands/`:
 | --- | --- |
 | `data/people/<slug>.json` | One file per person. The only source of truth. |
 | `data/orgs/<slug>.json` | One file per organization (see "Organizations" below). |
+| `data/updates.json` | The Updates feed: dated one-line summaries of what changed, newest first (see "Updates feed"). |
 | `public/photos/<slug>.jpg` | Portraits shown in the dots (freely licensed, from Wikimedia Commons). |
 | `scripts/fetch-photos.mjs` | Downloads a person's Wikipedia lead photo if its license is free and records the credit. |
 | `scripts/validate.mjs` | Checks every file against the rules below. No install needed: `node influence-map/scripts/validate.mjs` from the repo root. |
@@ -450,6 +451,23 @@ the inverse records to the existing files. The validator fails if a back-link is
 missing or uses the wrong type. Connections to people without a file show in
 the viewer as faint "suggested" nodes.
 
+## Updates feed
+
+`data/updates.json` lists what changed on the map, newest first, and the viewer
+shows it under **Updates** (header button; on a folded phone, the bottom tab
+bar), with a badge for entries this device hasn't seen. Each entry:
+
+```json
+{ "id": "2026-11-08-hegseth-refresh", "date": "2026-11-08",
+  "text": "Pete Hegseth refreshed: Massie's impeachment articles, …",
+  "people": ["pete-hegseth", "thomas-massie"] }
+```
+
+`/add-person`, `/refresh-person` and `/add-org` add an entry for each run. The
+text only summarizes what the files say (no new facts, so no sources of its
+own); `people` must be slugs with files, and the chips jump to them. The
+validator checks ids (date plus a short label, unique), dates and slugs.
+
 ## Phone page
 
 The viewer is also published as a private claude.ai Artifact so it can be opened
@@ -457,7 +475,8 @@ on a phone. Its link is in `artifact.json`.
 
 - **Data:** the page reads its Artifact database, collection `people`: one
   document per person, `doc_id` = slug, body = the file's JSON, unchanged.
-  Organizations go in collection `orgs` the same way. `/add-person`,
+  Organizations go in collection `orgs` the same way, and the Updates feed in
+  collection `updates` (`doc_id` = the entry's `id`). `/add-person`,
   `/refresh-person` and `/add-org` copy the files they change; `/sync-map`
   copies everything and removes documents whose file is gone. The files stay the
   source of truth; never edit the database by hand.
@@ -491,6 +510,8 @@ on a phone. Its link is in `artifact.json`.
   off the map until searched for. **All time** shows every tie. A date range
   (below) overrides the switch. Line thickness follows each pair's Bond score
   (deeper bond, thicker line); feud-only lines follow their confidence.
+- **Phone tab bar.** On a folded phone (narrow screens), Map, Views, Filters and
+  Updates sit in a bottom tab bar instead of the header.
 - **Person panel.** Tabs: **Overview** (summary and the five closest ties by
   Bond score), **Ties** (everyone, strongest bond first), **Money** (giving or
   an organization's finances; only when there is some) and **Record** (lean,

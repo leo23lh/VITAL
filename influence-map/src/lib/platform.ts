@@ -48,3 +48,6 @@ export const PEOPLE_COLLECTION = 'people';
 
 /** The database collection that mirrors data/orgs/ (one document per slug). */
 export const ORGS_COLLECTION = 'orgs';
+
+/** The Updates feed: one document per entry (date, text, people). */
+export const UPDATES_COLLECTION = 'updates';

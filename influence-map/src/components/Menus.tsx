@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import { DEFAULT_FORCES, type Forces, type View } from '../App';
 import type { GraphNode, YearRange } from '../lib/graph';
-import { EDGE_FAMILIES, GROUPS, SECTORS, type EdgeFamily, type GroupId } from '../lib/schema';
+import { EDGE_FAMILIES, GROUPS, SECTORS, type EdgeFamily, type GroupId, type MapUpdate } from '../lib/schema';
 
-export type MenuName = 'views' | 'filters';
+export type MenuName = 'views' | 'filters' | 'updates';
 
 interface Props {
   menu: MenuName;
@@ -40,6 +40,14 @@ interface Props {
   onFit: () => void;
   /** Omitted when this view can't save files. */
   onExport?: () => void;
+  /** The Updates feed, newest first. */
+  updates: MapUpdate[];
+  /** How many of the newest updates are unread (marked with a dot). */
+  unseen: number;
+  nameOf: (id: string) => string;
+  /** Whether a slug is on the map (people and organizations with files). */
+  hasNode: (id: string) => boolean;
+  onPickPerson: (id: string) => void;
 }
 
 export default function Menus(props: Props) {
@@ -53,8 +61,18 @@ export default function Menus(props: Props) {
   return (
     <>
       <div className="menu-scrim" onClick={onClose} />
-      <div className={`menu menu-${menu}`} role="dialog" aria-label={menu === 'views' ? 'Preset views' : 'Filters'}>
-        {menu === 'views' ? <ViewsMenu {...props} /> : <FiltersMenu {...props} />}
+      <div
+        className={`menu menu-${menu}`}
+        role="dialog"
+        aria-label={menu === 'views' ? 'Preset views' : menu === 'updates' ? 'Updates' : 'Filters'}
+      >
+        {menu === 'views' ? (
+          <ViewsMenu {...props} />
+        ) : menu === 'updates' ? (
+          <UpdatesMenu {...props} />
+        ) : (
+          <FiltersMenu {...props} />
+        )}
       </div>
     </>
   );
@@ -117,6 +135,45 @@ function ViewsMenu({ view, onView, groupCounts, camps, selectedNode, onWorld }: 
       ) : (
         <p className="menu-hint muted">Tap a person, then Focus, to see just their world.</p>
       )}
+    </>
+  );
+}
+
+/** What changed on the map, newest first, grouped by day. Tapping a name jumps to them. */
+function UpdatesMenu({ updates, unseen, nameOf, hasNode, onPickPerson }: Props) {
+  const byDay: [string, { u: MapUpdate; i: number }[]][] = [];
+  updates.forEach((u, i) => {
+    const last = byDay[byDay.length - 1];
+    if (last && last[0] === u.date) last[1].push({ u, i });
+    else byDay.push([u.date, [{ u, i }]]);
+  });
+  const dayLabel = (d: string) =>
+    new Date(`${d}T12:00:00`).toLocaleDateString(undefined, { weekday: 'short', month: 'long', day: 'numeric', year: 'numeric' });
+  return (
+    <>
+      <div className="menu-head">
+        <h4>Updates</h4>
+      </div>
+      {updates.length === 0 && <p className="menu-hint muted">Nothing yet.</p>}
+      {byDay.map(([day, items]) => (
+        <section key={day} className="updates-day">
+          <h4>{dayLabel(day)}</h4>
+          <ul className="updates-list">
+            {items.map(({ u, i }) => (
+              <li key={i} className={i < unseen ? 'unseen' : ''}>
+                <p>{u.text}</p>
+                <div className="updates-people">
+                  {u.people.filter(hasNode).map((id) => (
+                    <button key={id} className="update-chip" onClick={() => onPickPerson(id)}>
+                      {nameOf(id)}
+                    </button>
+                  ))}
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
     </>
   );
 }

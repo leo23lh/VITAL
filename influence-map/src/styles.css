@@ -1887,3 +1887,124 @@ a.source-chip:hover {
 .panel-tabs {
   padding-right: 52px;
 }
+
+/* Updates feed */
+.menu-updates {
+  width: min(420px, calc(100% - 20px));
+}
+
+.updates-day h4 {
+  margin-top: 16px;
+}
+
+.updates-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.updates-list li {
+  position: relative;
+  padding: 10px 4px 10px 14px;
+  border-bottom: 1px solid rgba(36, 49, 74, 0.6);
+}
+
+.updates-list li.unseen::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 16px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--red-text);
+}
+
+.updates-list p {
+  margin: 0 0 6px;
+  line-height: 1.45;
+}
+
+.updates-people {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.update-chip {
+  padding: 2px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  background: var(--navy-3);
+  border-color: var(--hairline);
+  color: var(--cream);
+}
+
+/* Folded phone: controls move to a bottom tab bar */
+.app-sheet .toolbar .tool-button {
+  display: none;
+}
+
+.tabbar {
+  display: flex;
+  flex: none;
+  background: var(--navy);
+  border-top: 1px solid var(--hairline);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  position: relative;
+  z-index: 8;
+}
+
+.tabbar button {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 8px 4px 7px;
+  border: none;
+  border-radius: 0;
+  background: none;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.tabbar button.on {
+  color: var(--cream);
+  box-shadow: inset 0 2px 0 var(--red);
+}
+
+.tab-badge,
+.tab-dot {
+  position: absolute;
+  top: 5px;
+  left: calc(50% + 7px);
+  font-style: normal;
+}
+
+.tab-badge {
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: 2px;
+  background: var(--red);
+  color: #fff;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0;
+}
+
+.tab-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--red-text);
+}
+
+.app-sheet .panel-sheet {
+  padding-bottom: 0;
+}

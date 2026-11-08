@@ -482,10 +482,23 @@ export interface LoadError {
   message: string;
 }
 
+/** One entry in the Updates feed (data/updates.json): what changed on the map, and who it's about. */
+export interface MapUpdate {
+  /** Stable: the date plus a short label ("2026-11-08-hegseth-refresh"); the phone page's doc id. */
+  id?: string;
+  /** YYYY-MM-DD */
+  date: string;
+  text: string;
+  /** Slugs of the people or organizations it's about. */
+  people: string[];
+}
+
 export interface PeoplePayload {
   people: PersonFile[];
   orgs: OrgFile[];
   errors: LoadError[];
+  /** Newest first. */
+  updates?: MapUpdate[];
 }
 
 /** Accepts "protege"/"Protégé"/"funded by" etc. Returns null for unknown types. */

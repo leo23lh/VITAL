@@ -75,3 +75,10 @@ people it links to.
    links (name, relationship, years, amount if any, confidence, main source),
    marking which go to people already in the map; anything dropped as
    unsourced; "Sources disagree" items; and whether the phone page was updated.
+
+**Updates feed.** Add one entry at the top of `influence-map/data/updates.json`:
+`{ "id": "<today>-<short-label>", "date": "<today>", "text": "<one or two plain
+sentences on what changed>", "people": ["<slug>", …] }`. The text only
+summarizes what the files now say (no new facts), and `people` lists the slugs it
+is about (each must have a file). On the phone page, also `set` it in collection
+`updates` with `doc_id` = its `id` and `data` = the entry.

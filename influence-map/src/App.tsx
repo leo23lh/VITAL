@@ -4,6 +4,7 @@ import Menus, { type MenuName } from './components/Menus';
 import SidePanel from './components/SidePanel';
 import Toolbar from './components/Toolbar';
 import SpotlightBar from './components/SpotlightBar';
+import TabBar from './components/TabBar';
 import ViewChips from './components/ViewChips';
 import { canExport, exportGraphPng } from './lib/exportPng';
 import {
@@ -116,6 +117,8 @@ export interface RadialLayout {
   emphasis: EdgeFamily[] | null;
 }
 
+const SEEN_UPDATES_KEY = 'influence-map:updates-seen';
+
 function currentLayout(): Layout {
   if (window.matchMedia('(min-width: 1100px)').matches) return 'wide';
   if (window.matchMedia('(min-width: 600px)').matches) return 'card';
@@ -123,7 +126,7 @@ function currentLayout(): Layout {
 }
 
 export default function App() {
-  const { people, orgs, errors, loaded, fetchError, lastUpdated, live } = usePeople();
+  const { people, orgs, errors, loaded, fetchError, lastUpdated, live, updates = [] } = usePeople();
   const [selection, setSelection] = useState<Selection>(null);
   const [query, setQuery] = useState('');
   const [hidden, setHidden] = useState<Set<EdgeFamily>>(new Set());
@@ -144,6 +147,32 @@ export default function App() {
   // Without a date range: 'now' hides ties that have ended (old jobs, past donations, finished feuds).
   const [timeMode, setTimeMode] = useState<'now' | 'all'>('now');
   const [menu, setMenu] = useState<MenuName | null>(null);
+  // Updates feed: how many entries this device has already seen (entries are only ever added).
+  const [seenUpdates, setSeenUpdates] = useState(() => {
+    try {
+      return Number(localStorage.getItem(SEEN_UPDATES_KEY)) || 0;
+    } catch {
+      return 0;
+    }
+  });
+  const unseen = Math.max(0, updates.length - seenUpdates);
+  // Kept while the Updates menu is open, so the unread dots stay until it closes.
+  const [unseenAtOpen, setUnseenAtOpen] = useState(0);
+  const openMenu = useCallback(
+    (m: MenuName | null) => {
+      if (m === 'updates') {
+        setUnseenAtOpen(unseen);
+        setSeenUpdates(updates.length);
+        try {
+          localStorage.setItem(SEEN_UPDATES_KEY, String(updates.length));
+        } catch {
+          // Private browsing: the badge just comes back next visit.
+        }
+      }
+      setMenu(m);
+    },
+    [unseen, updates.length],
+  );
   const [layout, setLayout] = useState<Layout>(currentLayout);
   const fgRef = useRef<GraphHandle>(undefined);
   const graphWrapRef = useRef<HTMLDivElement>(null);
@@ -370,7 +399,7 @@ export default function App() {
   };
 
   return (
-    <div className="app">
+    <div className={`app app-${layout}`}>
       <Toolbar
         nodes={graph.nodes}
         query={query}
@@ -382,7 +411,8 @@ export default function App() {
         view={view}
         nameOf={(id) => byId.get(id)?.name ?? id}
         menu={menu}
-        onMenu={setMenu}
+        onMenu={openMenu}
+        unseen={unseen}
         filtersActive={hidden.size + (years ? 1 : 0) + (showSuggested ? 1 : 0) + (colorAll ? 0 : 1) + (showOrgs ? 0 : 1) + (leanMode ? 1 : 0)}
         live={live}
         lastUpdated={lastUpdated}
@@ -515,6 +545,14 @@ export default function App() {
                 fgRef.current?.zoomToFit(500, 50);
                 setMenu(null);
               }}
+              updates={updates}
+              unseen={unseenAtOpen}
+              nameOf={(id) => byId.get(id)?.name ?? id}
+              hasNode={(id) => byId.has(id)}
+              onPickPerson={(id) => {
+                setMenu(null);
+                focusNode(id);
+              }}
               onExport={
                 exportable
                   ? () =>
@@ -539,6 +577,20 @@ export default function App() {
           onClose={() => (selection ? setSelection(null) : setView({ kind: 'all' }))}
         />
       </main>
+
+      {layout === 'sheet' && (
+        <TabBar
+          menu={menu}
+          onMenu={openMenu}
+          onMap={() => {
+            setMenu(null);
+            setSelection(null);
+          }}
+          viewActive={view.kind !== 'all'}
+          filtersActive={hidden.size + (years ? 1 : 0) + (showSuggested ? 1 : 0) + (colorAll ? 0 : 1) + (showOrgs ? 0 : 1) + (leanMode ? 1 : 0)}
+          unseen={unseen}
+        />
+      )}
     </div>
   );
 }
