@@ -6,7 +6,7 @@ import Toolbar from './components/Toolbar';
 import ViewChips from './components/ViewChips';
 import { canExport, exportGraphPng } from './lib/exportPng';
 import {
-  activeInYear,
+  activeInRange,
   buildGraph,
   familyOf,
   findClusters,
@@ -18,6 +18,7 @@ import {
   yearSpan,
   type GraphNode,
   type PairLink,
+  type YearRange,
 } from './lib/graph';
 import { EDGE_FAMILIES, GROUPS, type EdgeFamily, type GroupId } from './lib/schema';
 import { usePeople } from './lib/usePeople';
@@ -52,7 +53,7 @@ export const DEFAULT_FORCES: Forces = { repel: 1, distance: 1, cluster: 1, cente
 
 /**
  * Main view only: each person's left–right spot, from their political lean
- * (-3 far left … +3 far right) in the selected year. Up–down is left to the links.
+ * (-3 far left … +3 far right) at the end of the selected date range (today when none). Up–down is left to the links.
  */
 export type Compass = Map<string, { x?: number; inferred?: boolean }>;
 
@@ -126,7 +127,8 @@ export default function App() {
   const [leanMode, setLeanMode] = useState(false);
   const [forces, setForces] = useState<Forces>(DEFAULT_FORCES);
   const [view, setView] = useState<View>({ kind: 'all' });
-  const [year, setYear] = useState<number | null>(null);
+  // Date range filter: only links active at some point in it. null = all years.
+  const [years, setYears] = useState<YearRange | null>(null);
   const [menu, setMenu] = useState<MenuName | null>(null);
   const [layout, setLayout] = useState<Layout>(currentLayout);
   const fgRef = useRef<GraphHandle>(undefined);
@@ -161,11 +163,11 @@ export default function App() {
       graph.links.filter((l) => {
         const fam = familyOf(l);
         if (hidden.has(fam)) return false;
-        if (year != null && !activeInYear(l, year)) return false;
+        if (years && !activeInRange(l, years)) return false;
         if (!showOrgs && (byId.get(l.sourceId)?.isOrg || byId.get(l.targetId)?.isOrg)) return false;
         return true;
       }),
-    [graph, byId, hidden, year, showOrgs],
+    [graph, byId, hidden, years, showOrgs],
   );
 
   const selectedNodeId = selection?.kind === 'node' ? selection.id : null;
@@ -216,7 +218,7 @@ export default function App() {
       if (core.size) radial = { core, ...ringDistances(core, links, ids), emphasis: lens };
     }
     const pairs = mergePairs(links);
-    const compass = view.kind === 'all' && leanMode ? compassSpots(nodes, pairs, year) : null;
+    const compass = view.kind === 'all' && leanMode ? compassSpots(nodes, pairs, years?.to ?? null) : null;
     // Free layout: find clusters so each can get its own patch of the map.
     const clusters =
       view.kind === 'all' && !leanMode
@@ -226,7 +228,7 @@ export default function App() {
           )
         : null;
     return { nodes, links, pairs, radial, compass, clusters };
-  }, [graph, byId, filteredLinks, view, showSuggested, showOrgs, selectedNodeId, year, leanMode]);
+  }, [graph, byId, filteredLinks, view, showSuggested, showOrgs, selectedNodeId, years, leanMode]);
 
   const counts = useMemo(() => {
     const c = Object.fromEntries(EDGE_FAMILIES.map((f) => [f.id, 0])) as Record<EdgeFamily, number>;
@@ -277,7 +279,7 @@ export default function App() {
     setSelection({ kind: 'node', id });
   }, []);
 
-  const fitKey = `${leanMode}:${view.kind}:${'id' in view ? view.id : ''}:${'depth' in view ? view.depth : ''}:${year ?? ''}:${loaded}`;
+  const fitKey = `${leanMode}:${view.kind}:${'id' in view ? view.id : ''}:${'depth' in view ? view.depth : ''}:${years ? `${years.from}-${years.to}` : ''}:${loaded}`;
   const empty = loaded && people.length === 0;
 
   const stats = {
@@ -301,7 +303,7 @@ export default function App() {
         nameOf={(id) => byId.get(id)?.name ?? id}
         menu={menu}
         onMenu={setMenu}
-        filtersActive={hidden.size + (year != null ? 1 : 0) + (showSuggested ? 1 : 0) + (colorAll ? 0 : 1) + (showOrgs ? 0 : 1) + (leanMode ? 1 : 0)}
+        filtersActive={hidden.size + (years ? 1 : 0) + (showSuggested ? 1 : 0) + (colorAll ? 0 : 1) + (showOrgs ? 0 : 1) + (leanMode ? 1 : 0)}
         live={live}
         lastUpdated={lastUpdated}
       />
@@ -357,13 +359,13 @@ export default function App() {
           {loaded && !empty && (
             <ViewChips
               view={view}
-              year={year}
+              years={years}
               nameOf={(id) => byId.get(id)?.name ?? id}
               onView={(v) => {
                 if (v.kind !== 'world') setSelection(null);
                 setView(v);
               }}
-              onYear={setYear}
+              onYears={setYears}
             />
           )}
 
@@ -404,9 +406,9 @@ export default function App() {
               onLeanMode={setLeanMode}
               forces={forces}
               onForces={setForces}
-              year={year}
+              years={years}
               span={span}
-              onYear={setYear}
+              onYears={setYears}
               stats={stats}
               live={live}
               lastUpdated={lastUpdated}

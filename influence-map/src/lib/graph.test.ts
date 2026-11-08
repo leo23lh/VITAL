@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import * as validator from '../../scripts/validate.mjs';
 import {
+  activeInRange,
   activeInYear,
   buildGraph,
   describeLink,
@@ -140,6 +141,10 @@ describe('views', () => {
     expect(activeInYear(rival, 2026)).toBe(true);
     expect(activeInYear(funding, 2017)).toBe(false);
     expect(activeInYear(funding, 2010)).toBe(true);
+    // A range shows a link if any part of it overlaps.
+    expect(activeInRange(funding, { from: 2016, to: 2018 })).toBe(true);
+    expect(activeInRange(rival, { from: 2017, to: 2019 })).toBe(false);
+    expect(activeInRange(rival, { from: 2017, to: 2030 })).toBe(true);
     expect([...neighborhood('a', g.links, 1)].sort()).toEqual(['a', 'b']);
     expect([...neighborhood('a', g.links, 2)].sort()).toEqual(['a', 'b', 'c']);
   });

@@ -412,14 +412,25 @@ export function mergePairs(links: GraphLink[]): PairLink[] {
   });
 }
 
+/** A span of years, both ends included. */
+export interface YearRange {
+  from: number;
+  to: number;
+}
+
 /**
- * Whether a link was active in `year`. Undated links always count; a link with a
- * start but no recorded end counts from its start onward.
+ * Whether a link was active at any point in `range`. Undated links always count;
+ * a link with a start but no recorded end counts from its start onward.
  */
-export function activeInYear(link: GraphLink, year: number): boolean {
-  if (link.startYear != null && link.startYear > year) return false;
-  if (typeof link.endYear === 'number' && link.endYear < year) return false;
+export function activeInRange(link: GraphLink, range: YearRange): boolean {
+  if (link.startYear != null && link.startYear > range.to) return false;
+  if (typeof link.endYear === 'number' && link.endYear < range.from) return false;
   return true;
+}
+
+/** Whether a link was active in `year`. */
+export function activeInYear(link: GraphLink, year: number): boolean {
+  return activeInRange(link, { from: year, to: year });
 }
 
 /** `id` plus everyone within `depth` links of them. */

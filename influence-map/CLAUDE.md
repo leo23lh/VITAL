@@ -193,8 +193,9 @@ comes from `lean`:
 | 3 | Far right | Reliable outlets widely describe them as far right, white nationalist or similar |
 
 - Periods are in order and don't overlap; only the last may be open-ended
-  (`end_year: null`). The year slider moves people to their lean for that year
-  (before the first period, the first applies; after the last, the last).
+  (`end_year: null`). With a date range set (Filters → Timeline), people move
+  to their lean in the range's last year (before the first period, the first
+  applies; after the last, the last).
 - `basis` names the documented record: party, offices held, campaign donations
   (FEC filings), endorsements, and self-description. Every period needs sources.
 - The value is a classification, but it must rest on that sourced record, plus
@@ -436,6 +437,10 @@ on a phone. Its link is in `artifact.json`.
 - The dev server serves the data folders at `/api/people` (people and orgs) and
   pushes a reload event when a file changes (`vite-plugin-people.ts`). There is no backend
   beyond that and no network access from the app.
+- **Timeline.** Filters → Timeline → "Show links active in a date range" has
+  From and To sliders; a link shows if any part of it falls inside the range
+  (undated links always show; a link with no recorded end counts from its start
+  onward).
 - **Colors.** Relationship lines are colored by family from the start ("Color
   all lines" is on by default; turned off, lines stay grey until a person is
   selected). Families: Work, Money, Alliance, Current rivalry (yellow), Past

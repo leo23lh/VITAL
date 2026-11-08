@@ -382,6 +382,11 @@ code {
   accent-color: var(--accent);
 }
 
+.year-label {
+  min-width: 3.2em;
+  font-size: 12px;
+}
+
 .year-value {
   font-weight: 650;
   font-variant-numeric: tabular-nums;

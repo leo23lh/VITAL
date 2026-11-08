@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { DEFAULT_FORCES, type Forces, type View } from '../App';
-import type { GraphNode } from '../lib/graph';
+import type { GraphNode, YearRange } from '../lib/graph';
 import { EDGE_FAMILIES, GROUPS, SECTORS, type EdgeFamily, type GroupId } from '../lib/schema';
 
 export type MenuName = 'views' | 'filters';
@@ -31,9 +31,9 @@ interface Props {
   onLeanMode: (v: boolean) => void;
   forces: Forces;
   onForces: (f: Forces) => void;
-  year: number | null;
+  years: YearRange | null;
   span: [number, number];
-  onYear: (y: number | null) => void;
+  onYears: (r: YearRange | null) => void;
   stats: { researched: number; orgs: number; suggested: number; links: number };
   live: boolean;
   lastUpdated: Date | null;
@@ -122,7 +122,7 @@ function ViewsMenu({ view, onView, groupCounts, camps, selectedNode, onWorld }: 
 }
 
 function FiltersMenu(props: Props) {
-  const { counts, hidden, year, span } = props;
+  const { counts, hidden, years, span } = props;
   return (
     <>
       <div className="menu-head">
@@ -145,21 +145,49 @@ function FiltersMenu(props: Props) {
 
       <h4>Timeline</h4>
       <label className="check-row">
-        <input type="checkbox" checked={year != null} onChange={(e) => props.onYear(e.target.checked ? span[1] : null)} />
-        <span className="check-label">Show links active in one year</span>
+        <input
+          type="checkbox"
+          checked={!!years}
+          // Start with the last five years, a useful window that's easy to widen.
+          onChange={(e) => props.onYears(e.target.checked ? { from: Math.max(span[0], span[1] - 5), to: span[1] } : null)}
+        />
+        <span className="check-label">
+          Show links active in a date range <span className="muted">· any overlap with the range counts</span>
+        </span>
       </label>
-      {year != null && (
-        <div className="year-row">
-          <input
-            type="range"
-            min={span[0]}
-            max={span[1]}
-            value={year}
-            onChange={(e) => props.onYear(Number(e.target.value))}
-            aria-label="Year"
-          />
-          <span className="year-value">{year}</span>
-        </div>
+      {years && (
+        <>
+          <div className="year-row">
+            <span className="year-label muted">From</span>
+            <input
+              type="range"
+              min={span[0]}
+              max={span[1]}
+              value={years.from}
+              onChange={(e) => {
+                const from = Number(e.target.value);
+                props.onYears({ from, to: Math.max(from, years.to) });
+              }}
+              aria-label="From year"
+            />
+            <span className="year-value">{years.from}</span>
+          </div>
+          <div className="year-row">
+            <span className="year-label muted">To</span>
+            <input
+              type="range"
+              min={span[0]}
+              max={span[1]}
+              value={years.to}
+              onChange={(e) => {
+                const to = Number(e.target.value);
+                props.onYears({ from: Math.min(years.from, to), to });
+              }}
+              aria-label="To year"
+            />
+            <span className="year-value">{years.to}</span>
+          </div>
+        </>
       )}
 
       <h4>Display</h4>

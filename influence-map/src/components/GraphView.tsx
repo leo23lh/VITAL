@@ -613,7 +613,13 @@ function drawHalos(ctx: CanvasRenderingContext2D, scale: number, halos: Halo[], 
     ctx.font = font;
     const text = h.name.toUpperCase();
     const half = ctx.measureText(text).width / 2;
-    const y = cy - r * 0.85;
+    // Bigger clusters name first; a smaller one's name moves up a line if it would
+    // land on one already placed, and is left off if it still collides.
+    const clashes = (y: number) =>
+      names.some((n) => cx - half < n.box.x1 && cx + half > n.box.x0 && y - size * 1.2 < n.box.y1 && y > n.box.y0);
+    let y = cy - r * 0.85;
+    if (clashes(y)) y -= size * 1.4;
+    if (clashes(y)) continue;
     names.push({
       text,
       x: cx,
