@@ -133,6 +133,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
       ]
+    },
+    {
+      "name": "Patrick Deneen",
+      "slug": "patrick-deneen",
+      "relationship_type": "ally",
+      "description": "Leading figures of the \"post-liberal\" right, routinely reviewed and named together; Deneen's Regime Change and Ahmari's Tyranny, Inc. (both 2023) were read as companion books.",
+      "start_year": 2019,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://lareviewofbooks.org/article/the-enemy-of-my-enemy-is-not-my-friend-on-sohrab-ahmaris-tyranny-inc-and-patrick-j-deneens-regime-change", "title": "On Sohrab Ahmari's Tyranny, Inc. and Patrick J. Deneen's Regime Change — LA Review of Books" },
+        { "url": "https://www.liberalcurrents.com/the-book-of-post-liberalism/", "title": "The Book of Post-Liberalism — Liberal Currents" }
+      ]
     }
   ],
   "source_conflicts": [

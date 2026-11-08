@@ -119,6 +119,19 @@
       "sources": [
         { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" }
       ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "Thiel gave $100,000 to Hawley's 2016 attorney-general run in 2015 and two more $100,000 gifts in 2016, then the maximum $5,400 to his 2018 Senate campaign.",
+      "start_year": 2015,
+      "end_year": 2018,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.bloombergquint.com/technology/2017/11/15/peter-thiel-gave-money-to-attorney-general-going-after-google", "title": "Peter Thiel gave money to attorney general going after Google — Bloomberg" },
+        { "url": "https://electionlawblog.org/?p=107525", "title": "Silicon Valley billionaire Thiel invests in Kobach, Hawley and rise of nationalism — Election Law Blog" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

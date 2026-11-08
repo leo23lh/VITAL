@@ -131,6 +131,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
       ]
+    },
+    {
+      "name": "Josh Shapiro",
+      "slug": "josh-shapiro",
+      "relationship_type": "enemy",
+      "description": "Shapiro backed school vouchers in 2023, which a GOP operative credited to Yass's \"long arm and pocketbook\", then vetoed them; Yass accused him in the Wall Street Journal of flip-flopping, and Yass-linked groups ran ads saying Shapiro was \"choosing special interests over kids\".",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.spotlightpa.org/news/2023/07/pennsylvania-private-school-voucher-josh-shapiro-matt-bradford-dark-money-ads", "title": "Dark money group puts pressure on Pa. lawmakers after Shapiro vows voucher veto — Spotlight PA" },
+        { "url": "https://whyy.org/articles/pennsylvanias-governor-josh-shapiro-school-choice/", "title": "Pennsylvania's Democratic Gov. Josh Shapiro crosses partisan school choice divide — AP via WHYY" }
+      ]
     }
   ],
   "source_conflicts": [

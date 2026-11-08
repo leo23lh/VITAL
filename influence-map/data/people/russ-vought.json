@@ -136,6 +136,30 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
       ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "ally",
+      "description": "Fellow architects of Trump's second-term agenda: Miller, now deputy chief of staff, called Vought a \"transformative pick\" for OMB; Vought's Center for Renewing America and Miller's America First Legal worked in tandem before 2025.",
+      "start_year": 2017,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.theregreview.org/2025/05/08/steinzor-the-man-behind-the-trump-deregulatory-throne/", "title": "The Man Behind the Trump Deregulatory Throne — The Regulatory Review" },
+        { "url": "https://littlesis.org/org/415773-Citizens_for_Renewing_America", "title": "Citizens for Renewing America — LittleSis" }
+      ]
+    },
+    {
+      "name": "Rachel Bovard",
+      "slug": "rachel-bovard",
+      "relationship_type": "colleague",
+      "description": "Same institutional home: the Conservative Partnership Institute, where Bovard is a senior official, incubated Vought's Center for Renewing America, which shared CPI's headquarters; no source describes them working together directly.",
+      "start_year": 2021,
+      "confidence": 0.45,
+      "sources": [
+        { "url": "https://cpi.org/2024/02/cpi-announces-new-hires/", "title": "CPI Announces New Hires — CPI" },
+        { "url": "https://www.thenation.com/article/politics/the-rights-partners-in-weaponized-policymaking/", "title": "The Right's Partners in Weaponized Policymaking — The Nation" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

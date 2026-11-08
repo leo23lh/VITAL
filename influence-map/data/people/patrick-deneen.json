@@ -87,6 +87,18 @@
         { "url": "https://isi.org/events/regime-change-and-the-future-of-liberalism/", "title": "Modern Age Panel: Regime Change and the Future of Liberalism — ISI" },
         { "url": "https://www.rollingstone.com/politics/political-commentary/jd-vance-extremist-christian-vp-mike-pence-1235069117/", "title": "JD Vance and the post-liberal right — Rolling Stone" }
       ]
+    },
+    {
+      "name": "Sohrab Ahmari",
+      "slug": "sohrab-ahmari",
+      "relationship_type": "ally",
+      "description": "Leading figures of the \"post-liberal\" right, routinely reviewed and named together; Deneen's Regime Change and Ahmari's Tyranny, Inc. (both 2023) were read as companion books.",
+      "start_year": 2019,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://lareviewofbooks.org/article/the-enemy-of-my-enemy-is-not-my-friend-on-sohrab-ahmaris-tyranny-inc-and-patrick-j-deneens-regime-change", "title": "On Sohrab Ahmari's Tyranny, Inc. and Patrick J. Deneen's Regime Change — LA Review of Books" },
+        { "url": "https://www.liberalcurrents.com/the-book-of-post-liberalism/", "title": "The Book of Post-Liberalism — Liberal Currents" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened and Wikipedia was rate-limiting; facts were confirmed with web searches tied to each cited URL.",

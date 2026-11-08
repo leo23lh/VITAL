@@ -184,6 +184,17 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" }
       ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "ally",
+      "description": "The Wall Street Journal reported that Brockman's pro-AI super PAC Leading the Future mostly aligns with the agenda of Sacks, the White House AI and crypto czar.",
+      "start_year": 2025,
+      "confidence": 0.45,
+      "sources": [
+        { "url": "https://axios.com/2026/03/29/ai-pac-midterms-trump", "title": "New pro-AI group preps $100M midterm blitz to boost Trump's agenda — Axios" }
+      ]
     }
   ],
   "source_conflicts": [

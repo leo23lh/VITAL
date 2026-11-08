@@ -3,7 +3,7 @@
   "aliases": ["Eric Stephen Schmitt"],
   "public_figure": true,
   "sector": "politics",
-  "groups": ["natcon"],
+  "groups": ["natcon", "2028-race"],
   "lean": [
     {
       "value": 2,
@@ -124,8 +124,42 @@
       "sources": [
         { "url": "https://vice.com/en/article/claremont-institute-thomas-klingenstein-super-pac", "title": "Claremont Institute chairman Thomas Klingenstein super PAC — Vice" }
       ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "Thiel put $250,000 into Save Missouri Values, the super PAC backing Schmitt's 2022 Senate bid; the Intercept tied it to Thiel's closeness to Hawley.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://clips.cato.org/sites/default/files/Cato_intercept_koch.pdf", "title": "How the leading Republican candidate for Missouri Senate lost Koch support — The Intercept (Cato clip)" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Described as arguably Vance's closest friend in the Senate; Vance calls Schmitt one of the administration's most valuable allies on the Hill, and Axios reported in 2026 that Vance saw him as a possible 2028 running mate.",
+      "start_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://kvia.com/politics/cnn-us-politics/2024/08/02/jd-vances-republican-colleagues-defend-trumps-running-mate-saying-ohio-senator-is-a-voice-for-next-generation-of-gop-voters/", "title": "JD Vance's Republican colleagues defend Trump's running mate — CNN via KVIA" },
+        { "url": "https://www.semafor.com/article/08/05/2025/why-a-first-term-senator-passed-up-trumps-cabinet", "title": "Why a first-term senator passed up Trump's Cabinet — Semafor" },
+        { "url": "https://www.thedailybeast.com/vance-veep-eric-schmitt-buzz-backfires-almost-immediately/", "title": "Vance veep Eric Schmitt buzz backfires almost immediately — Daily Beast" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["jd-vance"],
+    "basis": "One of Vance's closest Senate allies; Axios reported in September 2026 that Vance viewed him as a possible 2028 running mate.",
+    "sources": [
+      { "url": "https://www.thedailybeast.com/vance-veep-eric-schmitt-buzz-backfires-almost-immediately/", "title": "Vance veep Eric Schmitt buzz backfires almost immediately — Daily Beast" },
+      { "url": "https://www.semafor.com/article/08/05/2025/why-a-first-term-senator-passed-up-trumps-cabinet", "title": "Why a first-term senator passed up Trump's Cabinet — Semafor" }
+    ]
+  }
 }

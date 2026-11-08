@@ -78,6 +78,18 @@
       "sources": [
         { "url": "https://www.defensepriorities.org/people/rachel-bovard", "title": "Rachel Bovard — Defense Priorities" }
       ]
+    },
+    {
+      "name": "Russ Vought",
+      "slug": "russ-vought",
+      "relationship_type": "colleague",
+      "description": "Same institutional home: the Conservative Partnership Institute, where Bovard is a senior official, incubated Vought's Center for Renewing America, which shared CPI's headquarters; no source describes them working together directly.",
+      "start_year": 2021,
+      "confidence": 0.45,
+      "sources": [
+        { "url": "https://cpi.org/2024/02/cpi-announces-new-hires/", "title": "CPI Announces New Hires — CPI" },
+        { "url": "https://www.thenation.com/article/politics/the-rights-partners-in-weaponized-policymaking/", "title": "The Right's Partners in Weaponized Policymaking — The Nation" }
+      ]
     }
   ],
   "source_conflicts": [

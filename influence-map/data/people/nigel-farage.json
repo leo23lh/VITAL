@@ -162,6 +162,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
       ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "ally",
+      "description": "Close allies since 2016: a Farage ally said they spoke or texted daily; Bannon called Farage his \"Brexiteer friend\" and tipped him for prime minister, and Farage is a regular guest on Bannon's War Room.",
+      "start_year": 2016,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://huffingtonpost.co.uk/entry/nigel-farage-donald-steve-bannon_uk_5829ed96e4b09ac74c535c5f", "title": "Nigel Farage thinks Steve Bannon is 'my kind of chap' — HuffPost UK" },
+        { "url": "https://www.scmp.com/news/world/europe/article/3012067/steve-bannon-says-brexiteer-friend-nigel-farage-running-be-uk", "title": "Steve Bannon says Brexiteer friend Nigel Farage running to be UK PM — SCMP" }
+      ]
     }
   ],
   "source_conflicts": [

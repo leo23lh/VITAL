@@ -102,6 +102,19 @@
       "sources": [
         { "url": "https://www.cityandstatepa.com/politics/2026/04/shapiro-raises-10m-and-other-takeaways-pennsylvanias-newest-campaign-finance-reports/412715/", "title": "Shapiro raises $10M and other takeaways from Pennsylvania's newest campaign finance reports — City & State PA" }
       ]
+    },
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "enemy",
+      "description": "Shapiro backed school vouchers in 2023, which a GOP operative credited to Yass's \"long arm and pocketbook\", then vetoed them; Yass accused him in the Wall Street Journal of flip-flopping, and Yass-linked groups ran ads saying Shapiro was \"choosing special interests over kids\".",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.spotlightpa.org/news/2023/07/pennsylvania-private-school-voucher-josh-shapiro-matt-bradford-dark-money-ads", "title": "Dark money group puts pressure on Pa. lawmakers after Shapiro vows voucher veto — Spotlight PA" },
+        { "url": "https://whyy.org/articles/pennsylvanias-governor-josh-shapiro-school-choice/", "title": "Pennsylvania's Democratic Gov. Josh Shapiro crosses partisan school choice divide — AP via WHYY" }
+      ]
     }
   ],
   "affiliations": [],

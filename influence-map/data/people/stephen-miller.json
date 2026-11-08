@@ -328,6 +328,18 @@
       "sources": [
         { "url": "https://www.breitbart.com/immigration/2026/11/06/vance-immigration-hawks-applaud-stephen-millers-promotion-to-white-house-house-chief-of-staff/", "title": "JD Vance, immigration hawks applaud Stephen Miller's promotion to WH chief of staff — Breitbart" }
       ]
+    },
+    {
+      "name": "Russ Vought",
+      "slug": "russ-vought",
+      "relationship_type": "ally",
+      "description": "Fellow architects of Trump's second-term agenda: Miller, now deputy chief of staff, called Vought a \"transformative pick\" for OMB; Vought's Center for Renewing America and Miller's America First Legal worked in tandem before 2025.",
+      "start_year": 2017,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.theregreview.org/2025/05/08/steinzor-the-man-behind-the-trump-deregulatory-throne/", "title": "The Man Behind the Trump Deregulatory Throne — The Regulatory Review" },
+        { "url": "https://littlesis.org/org/415773-Citizens_for_Renewing_America", "title": "Citizens for Renewing America — LittleSis" }
+      ]
     }
   ],
   "source_conflicts": [

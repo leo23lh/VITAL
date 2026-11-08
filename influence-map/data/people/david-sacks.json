@@ -277,6 +277,17 @@
         { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "CNBC: Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis" },
         { "url": "https://sfist.com/2022/10/20/wealthy-sf-recall-backer-pumping-millions-to-desantis-and-j-d-vance-hyping-that-ukraine-needs-to-surrender/", "title": "SFist: Sacks pumping millions to DeSantis and Vance" }
       ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "ally",
+      "description": "The Wall Street Journal reported that Brockman's pro-AI super PAC Leading the Future mostly aligns with the agenda of Sacks, the White House AI and crypto czar.",
+      "start_year": 2025,
+      "confidence": 0.45,
+      "sources": [
+        { "url": "https://axios.com/2026/03/29/ai-pac-midterms-trump", "title": "New pro-AI group preps $100M midterm blitz to boost Trump's agenda — Axios" }
+      ]
     }
   ],
   "source_conflicts": [

@@ -459,6 +459,31 @@
       "sources": [
         { "url": "https://www.nbcnews.com/politics/2024-election/secretive-conservative-donor-group-meets-draw-2024-plans-call-trump-rcna148899", "title": "Secretive conservative donor group meets to draw up 2024 plans — NBC News" }
       ]
+    },
+    {
+      "name": "Josh Hawley",
+      "slug": "josh-hawley",
+      "relationship_type": "funded_by",
+      "description": "Thiel gave $100,000 to Hawley's 2016 attorney-general run in 2015 and two more $100,000 gifts in 2016, then the maximum $5,400 to his 2018 Senate campaign.",
+      "start_year": 2015,
+      "end_year": 2018,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.bloombergquint.com/technology/2017/11/15/peter-thiel-gave-money-to-attorney-general-going-after-google", "title": "Peter Thiel gave money to attorney general going after Google — Bloomberg" },
+        { "url": "https://electionlawblog.org/?p=107525", "title": "Silicon Valley billionaire Thiel invests in Kobach, Hawley and rise of nationalism — Election Law Blog" }
+      ]
+    },
+    {
+      "name": "Eric Schmitt",
+      "slug": "eric-schmitt",
+      "relationship_type": "funded_by",
+      "description": "Thiel put $250,000 into Save Missouri Values, the super PAC backing Schmitt's 2022 Senate bid; the Intercept tied it to Thiel's closeness to Hawley.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://clips.cato.org/sites/default/files/Cato_intercept_koch.pdf", "title": "How the leading Republican candidate for Missouri Senate lost Koch support — The Intercept (Cato clip)" }
+      ]
     }
   ],
   "source_conflicts": [
