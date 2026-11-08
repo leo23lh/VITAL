@@ -264,6 +264,18 @@
         { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
         { "url": "https://thehill.com/homenews/campaign/291772-billionaire-father-and-daughter-linked-to-trump-shakeup/", "title": "Billionaire father and daughter linked to Trump shake-up — The Hill" }
       ]
+    },
+    {
+      "name": "Chris Buskirk",
+      "slug": "chris-buskirk",
+      "relationship_type": "ally",
+      "description": "Mercer is a member of the Rockbridge donor network that Buskirk co-founded and runs.",
+      "start_year": null,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://www.inc.com/reuters/vances-tech-donor-network-wants-to-push-us-to-right.html", "title": "Vance's tech donor network wants to push US to the right — Reuters via Inc." },
+        { "url": "https://www.nbcnews.com/politics/2024-election/secretive-conservative-donor-group-meets-draw-2024-plans-call-trump-rcna148899", "title": "Secretive conservative donor group meets to draw up 2024 plans — NBC News" }
+      ]
     }
   ],
   "source_conflicts": [

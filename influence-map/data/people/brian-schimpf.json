@@ -94,5 +94,17 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Business Insider described him in 2019 as left-leaning. No documented link found to Trump, Vance, Thiel or others in the map beyond those recorded.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Described as Anduril's \"left-leaning\" co-founder; FEC records reported by the press show his donations going to Democratic committees and candidates, while co-founder Palmer Luckey funds Republicans.",
+      "sources": [
+        { "url": "https://businessinsider.in/tech/news/the-left-leaning-cofounder-of-a-1-billion-defense-startup-building-drone-destroyers-and-a-virtual-border-wall-says-if-they-dont-do-the-work-the-united-states-military-loses/articleshow/71775020.cms", "title": "The left-leaning cofounder of a $1 billion defense startup — Business Insider" },
+        { "url": "https://laist.com/news/politics/anduril-executives-election-campaign-spending", "title": "Anduril executives election campaign spending — LAist" }
+      ]
+    }
+  ]
 }

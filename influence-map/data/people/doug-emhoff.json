@@ -51,5 +51,17 @@
   ],
   "affiliations": [],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "lean": [
+    {
+      "value": -2,
+      "start_year": 2019,
+      "end_year": null,
+      "basis": "Campaigned for Kamala Harris's Democratic campaigns and served as second gentleman in the Biden administration (2021–2025).",
+      "sources": [
+        { "url": "https://ballotpedia.org/Douglas_Emhoff", "title": "Ballotpedia: Douglas Emhoff" },
+        { "url": "https://bidenwhitehouse.archives.gov/wp-content/uploads/2025/01/The-Official-Biography-for-Second-Gentleman-Douglas-Emhoff1.pdf", "title": "Biden White House: Official biography of Second Gentleman Douglas Emhoff" }
+      ]
+    }
+  ]
 }

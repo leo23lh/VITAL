@@ -50,5 +50,16 @@
   ],
   "affiliations": [],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "lean": [
+    {
+      "value": -2,
+      "start_year": 2019,
+      "end_year": null,
+      "basis": "Spokesperson and adviser on Pete Buttigieg's 2020 Democratic presidential campaign; later joined a Democratic communications firm.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chasten_Buttigieg", "title": "Wikipedia: Chasten Buttigieg" }
+      ]
+    }
+  ]
 }

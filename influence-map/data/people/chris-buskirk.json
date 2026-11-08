@@ -105,9 +105,41 @@
         { "url": "https://www.axios.com/2026/08/13/1789-capital-real-estate-fund", "title": "1789 Capital closes $1.2B real estate fund — Axios" },
         { "url": "https://www.washingtonpost.com/technology/interactive/2026/07/13/trumps-sons-invest-heavily-defense-fathers-administration-pours-money/", "title": "Trump's sons invest heavily in defense tech — Washington Post" }
       ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "co-founder",
+      "description": "Co-founded the Rockbridge Network, a centrally run network of right-wing groups backed by tech investors, in 2019.",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.inc.com/reuters/vances-tech-donor-network-wants-to-push-us-to-right.html", "title": "Vance's tech donor network wants to push US to the right — Reuters via Inc." }
+      ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "ally",
+      "description": "Mercer is a member of the Rockbridge donor network that Buskirk co-founded and runs.",
+      "start_year": null,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://www.inc.com/reuters/vances-tech-donor-network-wants-to-push-us-to-right.html", "title": "Vance's tech donor network wants to push US to the right — Reuters via Inc." },
+        { "url": "https://www.nbcnews.com/politics/2024-election/secretive-conservative-donor-group-meets-draw-2024-plans-call-trump-rcna148899", "title": "Secretive conservative donor group meets to draw up 2024 plans — NBC News" }
+      ]
     }
   ],
-  "affiliations": [],
+  "affiliations": [
+    {
+      "name": "Rockbridge Network",
+      "role": "Co-founder (2019, with JD Vance); leads its main super PAC, Turnout for America, which spent about $34M in 2024",
+      "start_year": 2019,
+      "sources": [
+        { "url": "https://www.inc.com/reuters/vances-tech-donor-network-wants-to-push-us-to-right.html", "title": "Vance's tech donor network wants to push US to the right — Reuters via Inc." }
+      ]
+    }
+  ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
   "last_researched": "2026-11-07"
 }

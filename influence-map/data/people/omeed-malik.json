@@ -5,8 +5,17 @@
   "groups": ["2028-race"],
   "lean": [
     {
-      "value": 2,
+      "value": -1,
       "start_year": null,
+      "end_year": 2020,
+      "basis": "Described as a New York Democrat when he bought a minority stake in the Daily Caller in 2020.",
+      "sources": [
+        { "url": "https://thehill.com/homenews/media/512421-ny-democrat-omeed-malik-joins-daily-caller-as-minority-investor-contributing/", "title": "NY Democrat Omeed Malik joins Daily Caller as minority investor — The Hill" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2021,
       "end_year": null,
       "basis": "Trump donor and financier of conservative \"patriotic capitalism\" ventures.",
       "sources": [
@@ -91,10 +100,88 @@
         { "url": "https://www.axios.com/2026/08/13/1789-capital-real-estate-fund", "title": "1789 Capital closes $1.2B real estate fund — Axios" },
         { "url": "https://www.washingtonpost.com/technology/interactive/2026/07/13/trumps-sons-invest-heavily-defense-fathers-administration-pours-money/", "title": "Trump's sons invest heavily in defense tech — Washington Post" }
       ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "funded_by",
+      "description": "Malik maxed out to DeSantis's 2024 campaign and was a Wall Street fundraiser for him before switching to Trump in February 2024.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.axios.com/2023/07/12/big-money-backing-desantis-rfk", "title": "The big-money donors backing both DeSantis and RFK Jr. — Axios" },
+        { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Gave $25,000 to Trump Victory in 2020 and in 2024 pledged to raise $3M+ and give at least $100,000 to Trump's campaign.",
+      "start_year": 2020,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" }
+      ]
     }
   ],
   "aliases": [],
   "affiliations": [],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2024,
+        "description": "A fundraiser more than a big personal donor: maxed out ($6,600) to both Ron DeSantis and Robert F. Kennedy Jr. in 2023, hosted a Kennedy fundraiser that raised about $500,000, then switched to Trump, pledging to raise $3M+ and give at least $100,000 to a Trump committee.",
+        "sources": [
+          { "url": "https://www.axios.com/2023/07/12/big-money-backing-desantis-rfk", "title": "The big-money donors backing both DeSantis and RFK Jr. — Axios" },
+          { "url": "https://www.cnbc.com/2023/06/21/robert-f-kennedy-jr-gets-boost-wall-street-veteran.html", "title": "Robert F. Kennedy Jr.'s presidential run gets support from Wall Street veteran Omeed Malik — CNBC" },
+          { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" }
+        ],
+        "recipients": [
+          {
+            "name": "Trump fundraising committee",
+            "slug": "donald-trump",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 100000,
+            "description": "Pledged (at least $100,000), February 2024; he gave $25,000 to Trump Victory in 2020.",
+            "sources": [
+              { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" }
+            ]
+          },
+          {
+            "name": "Ron DeSantis (presidential campaign)",
+            "slug": "ron-desantis",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "sources": [
+              { "url": "https://www.axios.com/2023/07/12/big-money-backing-desantis-rfk", "title": "The big-money donors backing both DeSantis and RFK Jr. — Axios" }
+            ]
+          },
+          {
+            "name": "Robert F. Kennedy Jr. (presidential campaign)",
+            "slug": "robert-f-kennedy-jr",
+            "kind": "candidate",
+            "side": "nonpartisan",
+            "amount_usd": 6600,
+            "sources": [
+              { "url": "https://www.axios.com/2023/07/12/big-money-backing-desantis-rfk", "title": "The big-money donors backing both DeSantis and RFK Jr. — Axios" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No 2028 pick reported. His business partners Chris Buskirk and Donald Trump Jr. are close to JD Vance's operation.",
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" }
+      ],
+      "likely": []
+    }
+  }
 }

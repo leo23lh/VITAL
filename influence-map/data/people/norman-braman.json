@@ -60,5 +60,60 @@
   "aliases": [],
   "affiliations": [],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2016,
+        "description": "Rubio's most generous backer; he had pledged up to $10M before Rubio entered the race.",
+        "sources": [
+          { "url": "https://www.pressreader.com/canada/bloomberg-businessweek-north-america/20160314/282754880802251", "title": "Bloomberg Businessweek (March 14, 2016)" },
+          { "url": "https://forward.com/news/breaking-news/218769/norman-braman-the-money-man-behind-marco-rubios-ca/?amp=1", "title": "Norman Braman, the Money Man Behind Marco Rubio's Campaign — The Forward" }
+        ],
+        "recipients": [
+          {
+            "name": "Pro-Rubio super PAC",
+            "slug": "marco-rubio",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 6000000,
+            "sources": [
+              { "url": "https://www.pressreader.com/canada/bloomberg-businessweek-north-america/20160314/282754880802251", "title": "Bloomberg Businessweek (March 14, 2016)" },
+              { "url": "https://forward.com/news/breaking-news/218769/norman-braman-the-money-man-behind-marco-rubios-ca/?amp=1", "title": "Norman Braman, the Money Man Behind Marco Rubio's Campaign — The Forward" }
+            ]
+          },
+          {
+            "name": "Pro-Lopez-Cantera super PAC (Florida Senate)",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 200000,
+            "sources": [
+              { "url": "https://floridabulldog.org/2015/08/billionaire-car-dealer-braman-also-gives-big-to-lopez-canteras-senate-run", "title": "Billionaire car dealer Braman also gives big to Lopez-Cantera's Senate run — Florida Bulldog" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No recent giving found after 2016. He has been Rubio's main financial patron since Rubio's Florida days.",
+      "sources": [
+        { "url": "https://forward.com/news/breaking-news/218769/norman-braman-the-money-man-behind-marco-rubios-ca/?amp=1", "title": "Norman Braman, the Money Man Behind Marco Rubio's Campaign — The Forward" }
+      ],
+      "likely": [
+        {
+          "name": "Marco Rubio",
+          "slug": "marco-rubio",
+          "kind": "candidate",
+          "side": "R",
+          "basis": "His biggest benefactor in 2016; nothing reported about 2028, and Rubio may not run against Vance.",
+          "confidence": 0.45,
+          "sources": [
+            { "url": "https://www.pressreader.com/canada/bloomberg-businessweek-north-america/20160314/282754880802251", "title": "Bloomberg Businessweek (March 14, 2016)" },
+            { "url": "https://forward.com/news/breaking-news/218769/norman-braman-the-money-man-behind-marco-rubios-ca/?amp=1", "title": "Norman Braman, the Money Man Behind Marco Rubio's Campaign — The Forward" }
+          ]
+        }
+      ]
+    }
+  }
 }

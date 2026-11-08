@@ -51,5 +51,17 @@
   "notes": "Researched in a sandbox that could run web searches but not open most pages. Whether she entered the 2026 governor's race could not be confirmed from the sources found, so it is left out.",
   "aliases": [],
   "affiliations": [],
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "lean": [
+    {
+      "value": 2,
+      "start_year": 2019,
+      "end_year": null,
+      "basis": "Republican first lady of Florida, described as Ron DeSantis's most influential adviser; weighed a 2026 Republican run for governor with donor encouragement.",
+      "sources": [
+        { "url": "https://www.yahoo.com/entertainment/meet-ron-desantis-inner-circle-093000673.html", "title": "Yahoo News: Meet Ron DeSantis' inner circle" },
+        { "url": "https://www.yahoo.com/news/casey-desantis-considers-running-florida-032348519.html", "title": "NBC News via Yahoo: Casey DeSantis considers running for Florida governor" }
+      ]
+    }
+  ]
 }

@@ -1450,6 +1450,17 @@
         { "url": "https://thehill.com/homenews/campaign/291772-billionaire-father-and-daughter-linked-to-trump-shakeup/", "title": "Billionaire father and daughter linked to Trump shake-up — The Hill" },
         { "url": "https://www.cnbc.com/2023/11/21/mercers-weigh-backing-trump-with-massive-war-chest.html", "title": "Mercer family weighs backing Trump as they maintain massive war chest — CNBC" }
       ]
+    },
+    {
+      "name": "Omeed Malik",
+      "slug": "omeed-malik",
+      "relationship_type": "donor",
+      "description": "Gave $25,000 to Trump Victory in 2020 and in 2024 pledged to raise $3M+ and give at least $100,000 to Trump's campaign.",
+      "start_year": 2020,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" }
+      ]
     }
   ],
   "source_conflicts": [
