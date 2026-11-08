@@ -1749,6 +1749,83 @@
         { "url": "https://www.aljazeera.com/news/2025/7/18/how-well-did-trump-and-epstein-really-know-each-other-a-timeline", "title": "Al Jazeera: How well did Trump and Epstein really know each other? A timeline" },
         { "url": "https://www.axios.com/2025/07/18/wall-street-journal-trump-epstein-letter", "title": "Axios: Trump sues Wall Street Journal for libel over Epstein letter" }
       ]
+    },
+    {
+      "name": "Dan Scavino",
+      "slug": "dan-scavino",
+      "relationship_type": "employee",
+      "description": "Has worked for Trump since caddying for him in 1990: golf-club manager, social media director in the first term, and deputy chief of staff and personnel chief in the second.",
+      "start_year": 1990,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dan_Scavino", "title": "Dan Scavino — Wikipedia" },
+        { "url": "https://www.notus.org/trump-white-house/trump-dan-scavino-white-house-personnel-office", "title": "Trump taps longtime loyalist to lead White House personnel office — NOTUS" }
+      ]
+    },
+    {
+      "name": "Will Scharf",
+      "slug": "will-scharf",
+      "relationship_type": "employee",
+      "description": "One of Trump’s personal lawyers in his criminal cases, then his staff secretary from 2025 and White House counsel from September 2026.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Will_Scharf", "title": "Will Scharf — Wikipedia" },
+        { "url": "https://abcnews.com/Politics/wireStory/trump-announces-staff-secretary-scharf-new-white-house-135505179", "title": "Trump announces staff secretary Will Scharf will be his new White House counsel — ABC News (AP)" }
+      ]
+    },
+    {
+      "name": "Kevin Hassett",
+      "slug": "kevin-hassett",
+      "relationship_type": "employee",
+      "description": "Chaired Trump’s Council of Economic Advisers (2017–2019) and has directed his National Economic Council since 2025.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.britannica.com/money/Kevin-Hassett", "title": "Kevin Hassett — Britannica" }
+      ]
+    },
+    {
+      "name": "Vince Haley",
+      "slug": "vince-haley",
+      "relationship_type": "employee",
+      "description": "Trump’s speechwriter in the first term and the 2024 campaign; his domestic policy chief since 2025.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.aol.com/trump-names-speechwriter-vince-haley-021527103.html", "title": "Trump names speechwriter Vince Haley as Domestic Policy Council chief — Reuters via AOL" },
+        { "url": "https://en.wikipedia.org/wiki/Vince_Haley", "title": "Vince Haley — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Tom Homan",
+      "slug": "tom-homan",
+      "relationship_type": "employee",
+      "description": "Ran ICE as acting director in Trump’s first term; his border czar since 2025.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://wbhm.org/npr-story/what-to-know-about-tom-homan-the-former-ice-head-returning-as-trumps-border-czar", "title": "What to know about Tom Homan, the former ICE head returning as Trump’s ‘border czar’ — NPR via WBHM" },
+        { "url": "https://en.wikipedia.org/wiki/Tom_Homan", "title": "Tom Homan — Wikipedia" }
+      ]
+    },
+    {
+      "name": "James Blair",
+      "slug": "james-blair",
+      "relationship_type": "employee",
+      "description": "Political director of Trump’s 2024 campaign, deputy chief of staff from 2025, and head of his 2026 midterm operation.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" },
+        { "url": "https://www.bloomberg.com/news/articles/2026-04-10/top-white-house-aide-weighing-temporary-exit-for-midterms-role", "title": "Top Trump aide takes up temporary role to boost GOP in midterms — Bloomberg" }
+      ]
     }
   ],
   "source_conflicts": [

@@ -1,0 +1,92 @@
+{
+  "name": "Jonathan Berry",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Solicitor of Labor (since November 2025)",
+  "summary": "Jonathan Berry is the Labor Department’s chief legal officer. Confirmed by the Senate on October 7, 2025, and sworn in on November 5, he had been managing partner of the law firm Boyden Gray PLLC, and wrote the Labor Department chapter of the Heritage Foundation’s Project 2025. In the first Trump administration he was principal deputy assistant secretary for policy at Labor, heading its regulatory office, after serving in the Justice Department’s Office of Legal Policy.",
+  "sources": [
+    { "url": "https://www.dol.gov/agencies/sol/about/solicitor", "title": "Jonathan Berry, Solicitor of Labor — U.S. Department of Labor" },
+    { "url": "https://www.epi.org/policywatch/nominating-jonathan-berry-as-solicitor-of-labor/", "title": "Jonathan Berry confirmed as Solicitor of Labor — Economic Policy Institute" },
+    { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "role": "Office of Legal Policy",
+      "org": "U.S. Department of Justice",
+      "sources": [
+        { "url": "https://fedsoc.org/bio/jonathan-berry", "title": "Jonathan Berry — The Federalist Society" }
+      ]
+    },
+    {
+      "year": 2018,
+      "role": "Principal Deputy Assistant Secretary for Policy",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://fedsoc.org/bio/jonathan-berry", "title": "Jonathan Berry — The Federalist Society" },
+        { "url": "https://sessionplanner.shrm.org/node/26811", "title": "Jonathan Berry — SHRM" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": 2025,
+      "role": "Managing Partner",
+      "org": "Boyden Gray PLLC",
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/sol/about/solicitor", "title": "Jonathan Berry, Solicitor of Labor — U.S. Department of Labor" },
+        { "url": "https://fedsoc.org/bio/jonathan-berry", "title": "Jonathan Berry — The Federalist Society" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Solicitor of Labor",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/sol/about/solicitor", "title": "Jonathan Berry, Solicitor of Labor — U.S. Department of Labor" },
+        { "url": "https://www.epi.org/policywatch/nominating-jonathan-berry-as-solicitor-of-labor/", "title": "Jonathan Berry confirmed as Solicitor of Labor — Economic Policy Institute" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Project 2025 (Heritage Foundation)",
+      "role": "Author of the Department of Labor chapter",
+      "start_year": 2023,
+      "end_year": 2023,
+      "sources": [
+        { "url": "https://www.epi.org/policywatch/nominating-jonathan-berry-as-solicitor-of-labor/", "title": "Jonathan Berry confirmed as Solicitor of Labor — Economic Policy Institute" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Serves in Sonderling’s department as Solicitor of Labor, the department’s chief legal officer; confirmed in fall 2025 while Sonderling was deputy secretary, and has reported to him as secretary since April 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Solicitor of Labor",
+    "unit": "labor",
+    "rank": 3,
+    "reports_to": "keith-sonderling",
+    "since": "2025-11",
+    "sources": [
+      { "url": "https://www.dol.gov/agencies/sol/about/solicitor", "title": "Jonathan Berry, Solicitor of Labor — U.S. Department of Labor" },
+      { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

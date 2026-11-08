@@ -370,6 +370,43 @@
         { "url": "https://www.pbs.org/wgbh/frontline/article/last-man-standing-stephen-miller-white-house/", "title": "Stephen Miller, the Firebrand Who Has Survived the White House — PBS FRONTLINE" },
         { "url": "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)", "title": "Stephen Miller (political advisor) — Wikipedia" }
       ]
+    },
+    {
+      "name": "Dan Scavino",
+      "slug": "dan-scavino",
+      "relationship_type": "colleague",
+      "description": "Named deputy chiefs of staff together in November 2024; Miller becomes his boss as chief of staff in November 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.foxnews.com/politics/trump-names-stephen-miller-dan-scavino-senior-white-house-staff", "title": "Trump names Stephen Miller, Dan Scavino to senior White House staff — Fox News" },
+        { "url": "https://www.npr.org/2026/11/06/nx-s1-6032795/stephen-miller-replace-susie-wiles-trumps-chief-of-staff", "title": "Stephen Miller replaces Susie Wiles as Trump’s chief of staff — NPR" }
+      ]
+    },
+    {
+      "name": "Vince Haley",
+      "slug": "vince-haley",
+      "relationship_type": "colleague",
+      "description": "Haley’s Domestic Policy Council sits on the White House policy team that Miller oversaw as deputy chief of staff for policy.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Vince_Haley", "title": "Vince Haley — Wikipedia" }
+      ]
+    },
+    {
+      "name": "James Blair",
+      "slug": "james-blair",
+      "relationship_type": "colleague",
+      "description": "Named deputy chiefs of staff together in November 2024.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" }
+      ]
     }
   ],
   "source_conflicts": [

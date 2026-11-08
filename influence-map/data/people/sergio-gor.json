@@ -127,6 +127,18 @@
         { "url": "https://www.freepressjournal.in/world/sergio-gors-unconventional-journey-from-rand-paul-aide-to-donald-trumps-trusted-enforcer-highlights-both-loyalty-and-controversy", "title": "Sergio Gor's journey from Rand Paul aide to Trump's trusted enforcer — Free Press Journal" },
         { "url": "https://www.semafor.com/article/08/28/2025/ambassador-gor-trumps-hiring-chief-on-fast-track-to-india", "title": "Ambassador Gor: Trump's hiring chief on fast track to India — Semafor" }
       ]
+    },
+    {
+      "name": "Dan Scavino",
+      "slug": "dan-scavino",
+      "relationship_type": "colleague",
+      "description": "Scavino took over the Presidential Personnel Office from Gor in October 2025 when Gor became ambassador to India.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://wlos.com/news/nation-world/trump-announces-dan-scavino-will-lead-the-white-house-presidential-personnel-office-sergio-gor-government-shutdown-democrats-republicans", "title": "Trump announces Dan Scavino will lead the White House Presidential Personnel Office — WLOS" }
+      ]
     }
   ],
   "aliases": [],

@@ -94,6 +94,18 @@
         { "url": "https://www.heritage.org/press/vice-president-mike-pence-joins-heritage-foundation-distinguished-visiting-fellow", "title": "Vice President Mike Pence joins Heritage Foundation as distinguished visiting fellow — Heritage Foundation" },
         { "url": "https://www.washingtonian.com/2021/02/04/mike-pence-is-joining-the-heritage-foundation-and-writing-a-column/", "title": "Mike Pence is joining the Heritage Foundation and writing a column — Washingtonian" }
       ]
+    },
+    {
+      "name": "Tom Homan",
+      "slug": "tom-homan",
+      "relationship_type": "employee",
+      "description": "Visiting fellow from 2022 and a contributor to Project 2025.",
+      "start_year": 2022,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Homan", "title": "Tom Homan — Wikipedia" }
+      ]
     }
   ],
   "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and news reporting. Most news pages could not be opened in the research sandbox, so facts were confirmed with web searches tied to each cited URL.",

@@ -1,0 +1,89 @@
+{
+  "name": "Cynthia McKnight",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Deputy Chief of Staff, U.S. Department of Labor (since May 2026)",
+  "summary": "Cynthia McKnight is a deputy chief of staff in the Labor Department’s Office of the Secretary, named on May 1, 2026. She was previously chief of staff and senior counselor to Keith Sonderling while he was deputy secretary of labor, and moved up with him when he became acting secretary.",
+  "sources": [
+    { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" },
+    { "url": "https://www.dol.gov/agencies/osec/deputychiefofstaff", "title": "Cynthia McKnight, Deputy Chief of Staff — U.S. Department of Labor" },
+    { "url": "https://news.bloomberglaw.com/daily-labor-report/acting-labor-secretary-sonderling-appoints-seasoned-dol-aides", "title": "Acting Labor Secretary Sonderling appoints seasoned DOL aides — Bloomberg Law" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Chief of Staff and Senior Counselor to the Deputy Secretary",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/osec/deputychiefofstaff", "title": "Cynthia McKnight, Deputy Chief of Staff — U.S. Department of Labor" },
+        { "url": "https://news.bloomberglaw.com/daily-labor-report/acting-labor-secretary-sonderling-appoints-seasoned-dol-aides", "title": "Acting Labor Secretary Sonderling appoints seasoned DOL aides — Bloomberg Law" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Deputy Chief of Staff",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" },
+        { "url": "https://www.dol.gov/agencies/osec/deputychiefofstaff", "title": "Cynthia McKnight, Deputy Chief of Staff — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "McKnight was chief of staff to Sonderling as deputy secretary of labor, and became a deputy chief of staff when he moved up to run the department in 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/osec/deputychiefofstaff", "title": "Cynthia McKnight, Deputy Chief of Staff — U.S. Department of Labor" },
+        { "url": "https://news.bloomberglaw.com/daily-labor-report/acting-labor-secretary-sonderling-appoints-seasoned-dol-aides", "title": "Acting Labor Secretary Sonderling appoints seasoned DOL aides — Bloomberg Law" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    },
+    {
+      "name": "Courtney Walter",
+      "slug": "courtney-walter",
+      "relationship_type": "colleague",
+      "description": "Both named to the Office of the Secretary’s senior team on May 1, 2026: Walter as chief of staff, McKnight as a deputy chief of staff.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    },
+    {
+      "name": "Garrett Buttrey",
+      "slug": "garrett-buttrey",
+      "relationship_type": "colleague",
+      "description": "Fellow deputy chiefs of staff in the Office of the Secretary since May 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Deputy Chief of Staff",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "keith-sonderling",
+    "since": "2026-05",
+    "sources": [
+      { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" },
+      { "url": "https://www.dol.gov/agencies/osec/deputychiefofstaff", "title": "Cynthia McKnight, Deputy Chief of Staff — U.S. Department of Labor" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

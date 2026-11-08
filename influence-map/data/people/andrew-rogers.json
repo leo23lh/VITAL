@@ -1,0 +1,73 @@
+{
+  "name": "Andrew Rogers",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Administrator of the Wage and Hour Division, U.S. Department of Labor (since October 2025)",
+  "summary": "Andrew Rogers runs the Labor Department’s Wage and Hour Division, which enforces minimum-wage, overtime and child-labor law. Confirmed 51–47 on October 7, 2025, it is his second stint at the division, where he was a senior adviser in the first Trump administration. He came from the Equal Employment Opportunity Commission, where he was acting general counsel and earlier chief counsel to Acting Chair Andrea Lucas, after about 12 years of wage-and-hour practice.",
+  "sources": [
+    { "url": "https://www.dol.gov/agencies/whd/about/leadership/Andrew-rogers", "title": "Andrew Rogers, Administrator — Wage and Hour Division" },
+    { "url": "https://ogletree.com/insights-resources/blog-posts/senate-confirms-new-administrator-to-lead-dols-wage-and-hour-division/", "title": "Senate confirms new administrator to lead DOL’s Wage and Hour Division — Ogletree Deakins" },
+    { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "role": "Senior Advisor, Wage and Hour Division",
+      "org": "U.S. Department of Labor (first Trump administration)",
+      "sources": [
+        { "url": "https://ogletree.com/insights-resources/blog-posts/senate-confirms-new-administrator-to-lead-dols-wage-and-hour-division/", "title": "Senate confirms new administrator to lead DOL’s Wage and Hour Division — Ogletree Deakins" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": 2025,
+      "role": "Chief Counsel to the Acting Chair, then Acting General Counsel",
+      "org": "U.S. Equal Employment Opportunity Commission",
+      "sources": [
+        { "url": "https://ogletree.com/insights-resources/blog-posts/senate-confirms-new-administrator-to-lead-dols-wage-and-hour-division/", "title": "Senate confirms new administrator to lead DOL’s Wage and Hour Division — Ogletree Deakins" },
+        { "url": "https://www.dol.gov/agencies/whd/about/leadership/Andrew-rogers", "title": "Andrew Rogers, Administrator — Wage and Hour Division" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Administrator, Wage and Hour Division",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/whd/about/leadership/Andrew-rogers", "title": "Andrew Rogers, Administrator — Wage and Hour Division" },
+        { "url": "https://ogletree.com/insights-resources/blog-posts/senate-confirms-new-administrator-to-lead-dols-wage-and-hour-division/", "title": "Senate confirms new administrator to lead DOL’s Wage and Hour Division — Ogletree Deakins" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Serves in Sonderling’s department as head of the Wage and Hour Division; confirmed in fall 2025 while Sonderling was deputy secretary, and has reported to him as secretary since April 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Administrator, Wage and Hour Division",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "keith-sonderling",
+    "since": "2025-10",
+    "sources": [
+      { "url": "https://www.dol.gov/agencies/whd/about/leadership/Andrew-rogers", "title": "Andrew Rogers, Administrator — Wage and Hour Division" },
+      { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

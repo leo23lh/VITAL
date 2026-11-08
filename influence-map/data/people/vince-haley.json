@@ -1,0 +1,83 @@
+{
+  "name": "Vince Haley",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "current_role": "Director of the Domestic Policy Council (since January 2025)",
+  "summary": "Vince Haley directs the White House Domestic Policy Council. Trump’s campaign speechwriter, he helped lead speechwriting in the first term, and was named domestic policy chief in November 2024, working on the policy team under Stephen Miller.",
+  "sources": [
+    { "url": "https://www.aol.com/trump-names-speechwriter-vince-haley-021527103.html", "title": "Trump names speechwriter Vince Haley as Domestic Policy Council chief — Reuters via AOL" },
+    { "url": "https://en.wikipedia.org/wiki/Vince_Haley", "title": "Vince Haley — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2021,
+      "role": "Speechwriting (first Trump administration)",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Vince_Haley", "title": "Vince Haley — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": 2024,
+      "role": "Speechwriter",
+      "org": "Trump 2024 campaign",
+      "sources": [
+        { "url": "https://www.aol.com/trump-names-speechwriter-vince-haley-021527103.html", "title": "Trump names speechwriter Vince Haley as Domestic Policy Council chief — Reuters via AOL" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Director, Domestic Policy Council",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.aol.com/trump-names-speechwriter-vince-haley-021527103.html", "title": "Trump names speechwriter Vince Haley as Domestic Policy Council chief — Reuters via AOL" },
+        { "url": "https://en.wikipedia.org/wiki/Vince_Haley", "title": "Vince Haley — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump’s speechwriter in the first term and the 2024 campaign; his domestic policy chief since 2025.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.aol.com/trump-names-speechwriter-vince-haley-021527103.html", "title": "Trump names speechwriter Vince Haley as Domestic Policy Council chief — Reuters via AOL" },
+        { "url": "https://en.wikipedia.org/wiki/Vince_Haley", "title": "Vince Haley — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "colleague",
+      "description": "Haley’s Domestic Policy Council sits on the White House policy team that Miller oversaw as deputy chief of staff for policy.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Vince_Haley", "title": "Vince Haley — Wikipedia" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Director, Domestic Policy Council",
+    "unit": "white-house",
+    "rank": 3,
+    "reports_to": "stephen-miller",
+    "since": "2025-01-20",
+    "sources": [
+      { "url": "https://www.aol.com/trump-names-speechwriter-vince-haley-021527103.html", "title": "Trump names speechwriter Vince Haley as Domestic Policy Council chief — Reuters via AOL" },
+      { "url": "https://en.wikipedia.org/wiki/Vince_Haley", "title": "Vince Haley — Wikipedia" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

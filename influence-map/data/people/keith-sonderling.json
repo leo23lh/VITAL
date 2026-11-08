@@ -142,6 +142,98 @@
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" },
         { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "Secretary of Labor Keith Sonderling — U.S. Department of Labor" }
       ]
+    },
+    {
+      "name": "Courtney Walter",
+      "slug": "courtney-walter",
+      "relationship_type": "employee",
+      "description": "Sonderling named Walter his chief of staff on May 1, 2026, when he was acting secretary.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" },
+        { "url": "https://news.bloomberglaw.com/daily-labor-report/acting-labor-secretary-sonderling-appoints-seasoned-dol-aides", "title": "Acting Labor Secretary Sonderling appoints seasoned DOL aides — Bloomberg Law" }
+      ]
+    },
+    {
+      "name": "Cynthia McKnight",
+      "slug": "cynthia-mcknight",
+      "relationship_type": "employee",
+      "description": "McKnight was chief of staff to Sonderling as deputy secretary of labor, and became a deputy chief of staff when he moved up to run the department in 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/osec/deputychiefofstaff", "title": "Cynthia McKnight, Deputy Chief of Staff — U.S. Department of Labor" },
+        { "url": "https://news.bloomberglaw.com/daily-labor-report/acting-labor-secretary-sonderling-appoints-seasoned-dol-aides", "title": "Acting Labor Secretary Sonderling appoints seasoned DOL aides — Bloomberg Law" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    },
+    {
+      "name": "Garrett Buttrey",
+      "slug": "garrett-buttrey",
+      "relationship_type": "employee",
+      "description": "Sonderling named Buttrey a deputy chief of staff on May 1, 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" },
+        { "url": "https://news.bloomberglaw.com/daily-labor-report/acting-labor-secretary-sonderling-appoints-seasoned-dol-aides", "title": "Acting Labor Secretary Sonderling appoints seasoned DOL aides — Bloomberg Law" }
+      ]
+    },
+    {
+      "name": "Jonathan Berry",
+      "slug": "jonathan-berry",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as Solicitor of Labor, the department’s chief legal officer; confirmed in fall 2025 while Sonderling was deputy secretary, and has reported to him as secretary since April 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    },
+    {
+      "name": "Daniel Aronowitz",
+      "slug": "daniel-aronowitz",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as head of the Employee Benefits Security Administration; confirmed in fall 2025 while Sonderling was deputy secretary, and has reported to him as secretary since April 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    },
+    {
+      "name": "David Keeling",
+      "slug": "david-keeling",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as head of OSHA; confirmed in fall 2025 while Sonderling was deputy secretary, and has reported to him as secretary since April 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    },
+    {
+      "name": "Andrew Rogers",
+      "slug": "andrew-rogers",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as head of the Wage and Hour Division; confirmed in fall 2025 while Sonderling was deputy secretary, and has reported to him as secretary since April 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
     }
   ],
   "source_conflicts": [

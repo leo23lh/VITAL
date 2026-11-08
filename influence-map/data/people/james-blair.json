@@ -1,0 +1,98 @@
+{
+  "name": "James Blair",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "current_role": "White House Deputy Chief of Staff for Legislative, Political and Public Affairs (on leave since April 2026 to run Trump’s midterm political operation)",
+  "summary": "James Blair, the 2024 Trump campaign’s political director, became deputy chief of staff for legislative, political and public affairs in January 2025, one of Susie Wiles’s deputies, and kept the party’s narrow congressional majorities in line on Trump’s agenda. In April 2026 Trump sent him to run his midterm political operation, saying he would return afterward; the party lost both chambers in November.",
+  "sources": [
+    { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" },
+    { "url": "https://www.bloomberg.com/news/articles/2026-04-10/top-white-house-aide-weighing-temporary-exit-for-midterms-role", "title": "Top Trump aide takes up temporary role to boost GOP in midterms — Bloomberg" },
+    { "url": "https://krdo.com/news/2026/05/17/why-trump-put-his-bad-cop-in-charge-of-rescuing-the-gop-in-the-midterms/", "title": "Why Trump put his ‘bad cop’ in charge of rescuing the GOP in the midterms — CNN via KRDO" }
+  ],
+  "timeline": [
+    {
+      "year": 2024,
+      "end_year": 2024,
+      "role": "Political Director",
+      "org": "Trump 2024 campaign",
+      "sources": [
+        { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Deputy Chief of Staff for Legislative, Political and Public Affairs",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" },
+        { "url": "https://www.breitbart.com/politics/2026/02/28/exclusive-deputy-chief-of-staff-james-blair-gop-can-defy-history-hold-majorities-in-midterms/amp/", "title": "Deputy Chief of Staff James Blair: GOP can defy history — Breitbart" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": 2026,
+      "role": "Head of the midterm political operation (on leave from the White House)",
+      "org": "Trump political operation",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2026-04-10/top-white-house-aide-weighing-temporary-exit-for-midterms-role", "title": "Top Trump aide takes up temporary role to boost GOP in midterms — Bloomberg" },
+        { "url": "https://krdo.com/news/2026/05/17/why-trump-put-his-bad-cop-in-charge-of-rescuing-the-gop-in-the-midterms/", "title": "Why Trump put his ‘bad cop’ in charge of rescuing the GOP in the midterms — CNN via KRDO" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Political director of Trump’s 2024 campaign, deputy chief of staff from 2025, and head of his 2026 midterm operation.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" },
+        { "url": "https://www.bloomberg.com/news/articles/2026-04-10/top-white-house-aide-weighing-temporary-exit-for-midterms-role", "title": "Top Trump aide takes up temporary role to boost GOP in midterms — Bloomberg" }
+      ]
+    },
+    {
+      "name": "Susie Wiles",
+      "slug": "susie-wiles",
+      "relationship_type": "employer",
+      "description": "One of Wiles’s deputies as chief of staff, and seen inside the White House as a potential successor to her.",
+      "start_year": 2024,
+      "end_year": 2026,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://krdo.com/news/2026/05/17/why-trump-put-his-bad-cop-in-charge-of-rescuing-the-gop-in-the-midterms/", "title": "Why Trump put his ‘bad cop’ in charge of rescuing the GOP in the midterms — CNN via KRDO" },
+        { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" }
+      ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "colleague",
+      "description": "Named deputy chiefs of staff together in November 2024.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Deputy Chief of Staff for Legislative, Political and Public Affairs (on leave for the midterms)",
+    "unit": "white-house",
+    "rank": 3,
+    "reports_to": "stephen-miller",
+    "since": "2025-01",
+    "sources": [
+      { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" },
+      { "url": "https://www.bloomberg.com/news/articles/2026-04-10/top-white-house-aide-weighing-temporary-exit-for-midterms-role", "title": "Top Trump aide takes up temporary role to boost GOP in midterms — Bloomberg" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

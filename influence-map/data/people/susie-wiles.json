@@ -215,6 +215,19 @@
         { "url": "https://ajc.com/news/white-house-inner-circle-discussed-secret-military-plans-in-extraordinary-breach/4HS5BQMHRVBRVMKZK3IY3LMK44", "title": "AJC: White House inner circle discussed secret military plans in extraordinary breach" },
         { "url": "https://www.timesofisrael.com/us-cabinet-officials-accidentally-add-journalist-to-group-chat-share-war-plans/", "title": "Times of Israel: US cabinet officials accidentally add journalist to group chat, share war plans" }
       ]
+    },
+    {
+      "name": "James Blair",
+      "slug": "james-blair",
+      "relationship_type": "employee",
+      "description": "One of Wiles’s deputies as chief of staff, and seen inside the White House as a potential successor to her.",
+      "start_year": 2024,
+      "end_year": 2026,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://krdo.com/news/2026/05/17/why-trump-put-his-bad-cop-in-charge-of-rescuing-the-gop-in-the-midterms/", "title": "Why Trump put his ‘bad cop’ in charge of rescuing the GOP in the midterms — CNN via KRDO" },
+        { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" }
+      ]
     }
   ],
   "source_conflicts": [],
