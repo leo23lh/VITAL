@@ -95,6 +95,19 @@
         { "url": "https://rollcall.com/2010/08/02/former-gop-leadership-aide-pans-party-agenda/", "title": "Former GOP leadership aide pans party agenda — Roll Call" },
         { "url": "https://ballotpedia.org/Heritage_Action", "title": "Heritage Action for America — Ballotpedia" }
       ]
+    },
+    {
+      "name": "Dan Holler",
+      "slug": "dan-holler",
+      "relationship_type": "colleague",
+      "description": "Both came up through Heritage Action and Rubio’s office; Holler succeeded Needham as State Department counselor in May 2026.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Daniel_Holler", "title": "Daniel Holler — Wikipedia" },
+        { "url": "https://udn.com/news/story/6813/9528217", "title": "State Department staff changes after Needham’s move to the NSC — United Daily News (Taiwan)" }
+      ]
     }
   ],
   "affiliations": [],

@@ -67,6 +67,18 @@
         { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" },
         { "url": "https://mexiconewsdaily.com/news/trump-landau-ambassador-to-mexico-deputy-secretary-of-state/", "title": "Trump picks former ambassador to Mexico Landau as deputy secretary of state — Mexico News Daily" }
       ]
+    },
+    {
+      "name": "Michael Rigas",
+      "slug": "michael-rigas",
+      "relationship_type": "colleague",
+      "description": "The State Department’s two deputy secretaries.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/05/public-schedule-june-1-2026", "title": "Public Schedule, June 1, 2026 — U.S. Department of State" }
+      ]
     }
   ],
   "org_chart_only": true,

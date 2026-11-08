@@ -1,0 +1,85 @@
+{
+  "name": "Dan Holler",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Counselor of the Department of State (since May 2026)",
+  "summary": "Dan Holler became counselor of the State Department on May 26, 2026, succeeding Michael Needham when Needham moved to the White House as deputy national security adviser; he was also acting director of policy planning until August. He had been Rubio’s chief of staff since September 2025, and earlier worked at Heritage Action for America and in Rubio’s Senate office.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Daniel_Holler", "title": "Daniel Holler — Wikipedia" },
+    { "url": "https://udn.com/news/story/6813/9528217", "title": "State Department staff changes after Needham’s move to the NSC — United Daily News (Taiwan)" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "role": "Staff",
+      "org": "Heritage Action for America",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Daniel_Holler", "title": "Daniel Holler — Wikipedia" },
+        { "url": "https://udn.com/news/story/6813/9528217", "title": "State Department staff changes after Needham’s move to the NSC — United Daily News (Taiwan)" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Chief of Staff to the Secretary of State",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Daniel_Holler", "title": "Daniel Holler — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Counselor (acting Director of Policy Planning until August 2026)",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Daniel_Holler", "title": "Daniel Holler — Wikipedia" },
+        { "url": "https://udn.com/news/story/6813/9528217", "title": "State Department staff changes after Needham’s move to the NSC — United Daily News (Taiwan)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Worked in Rubio’s Senate office, then was his State Department chief of staff from September 2025 and counselor from May 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Daniel_Holler", "title": "Daniel Holler — Wikipedia" },
+        { "url": "https://udn.com/news/story/6813/9528217", "title": "State Department staff changes after Needham’s move to the NSC — United Daily News (Taiwan)" }
+      ]
+    },
+    {
+      "name": "Michael Needham",
+      "slug": "michael-needham",
+      "relationship_type": "colleague",
+      "description": "Both came up through Heritage Action and Rubio’s office; Holler succeeded Needham as State Department counselor in May 2026.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Daniel_Holler", "title": "Daniel Holler — Wikipedia" },
+        { "url": "https://udn.com/news/story/6813/9528217", "title": "State Department staff changes after Needham’s move to the NSC — United Daily News (Taiwan)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Counselor of the Department",
+    "unit": "state",
+    "rank": 3,
+    "reports_to": "marco-rubio",
+    "since": "2026-05-26",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Daniel_Holler", "title": "Daniel Holler — Wikipedia" },
+      { "url": "https://udn.com/news/story/6813/9528217", "title": "State Department staff changes after Needham’s move to the NSC — United Daily News (Taiwan)" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

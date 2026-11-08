@@ -1,0 +1,52 @@
+{
+  "name": "Thomas DiNanno",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Under Secretary of State for Arms Control and International Security",
+  "summary": "Thomas DiNanno is the State Department’s under secretary for arms control and international security, its top official on nonproliferation, arms control and security assistance; the department’s November 2026 schedule shows him traveling to Colombia and Peru.",
+  "sources": [
+    { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/public-schedule-november-5-2026", "title": "Public Schedule, November 5, 2026 — U.S. Department of State" },
+    { "url": "https://en.wikipedia.org/wiki/Thomas_DiNanno", "title": "Thomas DiNanno — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Under Secretary for Arms Control and International Security",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/public-schedule-november-5-2026", "title": "Public Schedule, November 5, 2026 — U.S. Department of State" },
+        { "url": "https://en.wikipedia.org/wiki/Thomas_DiNanno", "title": "Thomas DiNanno — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Rubio’s under secretary for arms control and international security.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/public-schedule-november-5-2026", "title": "Public Schedule, November 5, 2026 — U.S. Department of State" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Under Secretary for Arms Control and International Security",
+    "unit": "state",
+    "rank": 3,
+    "reports_to": "marco-rubio",
+    "sources": [
+      { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/public-schedule-november-5-2026", "title": "Public Schedule, November 5, 2026 — U.S. Department of State" },
+      { "url": "https://en.wikipedia.org/wiki/Thomas_DiNanno", "title": "Thomas DiNanno — Wikipedia" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

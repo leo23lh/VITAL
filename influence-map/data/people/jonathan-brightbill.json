@@ -1,0 +1,63 @@
+{
+  "name": "Jonathan Brightbill",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "General Counsel, U.S. Department of Energy (since fall 2025)",
+  "summary": "Jonathan Brightbill is the Energy Department’s general counsel, confirmed in a September 2025 Senate vote with the department’s under secretary for science.",
+  "sources": [
+    { "url": "https://www.exchangemonitor.com/white-house-nominees-for-science-legal-among-doe-group-confirmed/", "title": "White House nominees for science, legal among DOE group confirmed — Exchange Monitor (September 2025)" },
+    { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "General Counsel",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://www.exchangemonitor.com/white-house-nominees-for-science-legal-among-doe-group-confirmed/", "title": "White House nominees for science, legal among DOE group confirmed — Exchange Monitor (September 2025)" },
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Chris Wright",
+      "slug": "chris-wright",
+      "relationship_type": "employer",
+      "description": "Wright’s general counsel since fall 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.exchangemonitor.com/white-house-nominees-for-science-legal-among-doe-group-confirmed/", "title": "White House nominees for science, legal among DOE group confirmed — Exchange Monitor (September 2025)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "General Counsel",
+    "unit": "energy",
+    "rank": 4,
+    "reports_to": "chris-wright",
+    "since": "2025-10",
+    "sources": [
+      { "url": "https://www.exchangemonitor.com/white-house-nominees-for-science-legal-among-doe-group-confirmed/", "title": "White House nominees for science, legal among DOE group confirmed — Exchange Monitor (September 2025)" },
+      { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+    ]
+  },
+  "source_conflicts": [
+    {
+      "topic": "Start date",
+      "details": "Exchange Monitor reports his confirmation in a September 2025 floor vote; Wikipedia’s appointments list gives October 3, 2025 as his start.",
+      "sources": [
+        { "url": "https://www.exchangemonitor.com/white-house-nominees-for-science-legal-among-doe-group-confirmed/", "title": "White House nominees for science, legal among DOE group confirmed — Exchange Monitor (September 2025)" },
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "last_researched": "2026-11-08"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Sarah B. Rogers",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Under Secretary of State for Public Diplomacy (since October 2025); nominee for CEO of the U.S. Agency for Global Media",
+  "summary": "Sarah B. Rogers, a New York lawyer, was confirmed 51–47 in October 2025 as under secretary of state for public diplomacy. In March 2026 Trump nominated her to run the U.S. Agency for Global Media, Voice of America’s parent, after a federal judge ruled Kari Lake had been running it unlawfully as acting CEO; Lake said she would stay on as deputy CEO. The Senate Foreign Relations Committee held her hearing on July 30, 2026.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Sarah_B._Rogers", "title": "Sarah B. Rogers — Wikipedia" },
+    { "url": "https://www.congress.gov/nomination/119th-congress/25/49", "title": "PN25-49: Nomination of Sarah Rogers — Congress.gov" },
+    { "url": "https://www.thewrap.com/media-platforms/journalism/trump-nominates-sarah-b-rogers-usagm/", "title": "Trump nominates State Department official to lead Voice of America’s parent agency — TheWrap" },
+    { "url": "https://www.notus.org/trump-white-house/trump-picks-replacement-for-kari-lake-voice-of-america-global-media-judge", "title": "Trump picks replacement for Kari Lake at Voice of America parent — NOTUS" },
+    { "url": "https://foreign.senate.gov/hearings/nominations-07-30-2026", "title": "Nominations hearing, July 30, 2026 — Senate Foreign Relations Committee" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Under Secretary for Public Diplomacy and Public Affairs",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://www.congress.gov/nomination/119th-congress/25/49", "title": "PN25-49: Nomination of Sarah Rogers — Congress.gov" },
+        { "url": "https://en.wikipedia.org/wiki/Sarah_B._Rogers", "title": "Sarah B. Rogers — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Nominee, Chief Executive Officer",
+      "org": "U.S. Agency for Global Media",
+      "sources": [
+        { "url": "https://www.thewrap.com/media-platforms/journalism/trump-nominates-sarah-b-rogers-usagm/", "title": "Trump nominates State Department official to lead Voice of America’s parent agency — TheWrap" },
+        { "url": "https://foreign.senate.gov/hearings/nominations-07-30-2026", "title": "Nominations hearing, July 30, 2026 — Senate Foreign Relations Committee" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Rubio’s under secretary for public diplomacy since October 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.congress.gov/nomination/119th-congress/25/49", "title": "PN25-49: Nomination of Sarah Rogers — Congress.gov" }
+      ]
+    },
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "colleague",
+      "description": "Trump nominated Rogers in March 2026 to run the U.S. Agency for Global Media in Lake’s place, after a judge ruled Lake had led it unlawfully as acting CEO; Lake said she would stay on as deputy CEO.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.thewrap.com/media-platforms/journalism/trump-nominates-sarah-b-rogers-usagm/", "title": "Trump nominates State Department official to lead Voice of America’s parent agency — TheWrap" },
+        { "url": "https://www.notus.org/trump-white-house/trump-picks-replacement-for-kari-lake-voice-of-america-global-media-judge", "title": "Trump picks replacement for Kari Lake at Voice of America parent — NOTUS" },
+        { "url": "https://theprint.in/world/trump-nominates-state-dept-official-to-lead-diminished-us-global-media-agency/2877603", "title": "Trump nominates State Dept official to lead diminished US global media agency — Reuters via ThePrint" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Under Secretary for Public Diplomacy (nominee, CEO of USAGM)",
+    "unit": "state",
+    "rank": 3,
+    "reports_to": "marco-rubio",
+    "since": "2025-10",
+    "sources": [
+      { "url": "https://www.congress.gov/nomination/119th-congress/25/49", "title": "PN25-49: Nomination of Sarah Rogers — Congress.gov" },
+      { "url": "https://www.thewrap.com/media-platforms/journalism/trump-nominates-sarah-b-rogers-usagm/", "title": "Trump nominates State Department official to lead Voice of America’s parent agency — TheWrap" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

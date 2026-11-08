@@ -1,0 +1,84 @@
+{
+  "name": "Tommy Pigott",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "State Department Spokesperson (since April 2026)",
+  "summary": "Tommy Pigott is the State Department’s spokesperson, named by Rubio in April 2026 after Tammy Bruce moved to the U.S. mission to the U.N.; he had been principal deputy spokesperson since January 2025. Before that he was strategic communications director at the Republican National Committee and worked on communications for Trump’s 2024 campaign.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Tommy_Pigott", "title": "Tommy Pigott — Wikipedia" },
+    { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" },
+    { "url": "https://www.kunc.org/2026-06-26/state-department-spokesman-on-venezuela-response-iran-negotiations", "title": "State Department spokesman on Venezuela response, Iran negotiations — NPR via KUNC" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2024,
+      "role": "Strategic Communications Director",
+      "org": "Republican National Committee",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tommy_Pigott", "title": "Tommy Pigott — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Principal Deputy Spokesperson",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tommy_Pigott", "title": "Tommy Pigott — Wikipedia" },
+        { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Spokesperson",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tommy_Pigott", "title": "Tommy Pigott — Wikipedia" },
+        { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Rubio’s principal deputy spokesperson from 2025 and his chosen spokesperson from April 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" },
+        { "url": "https://en.wikipedia.org/wiki/Tommy_Pigott", "title": "Tommy Pigott — Wikipedia" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Spokesperson",
+    "unit": "state",
+    "rank": 4,
+    "reports_to": "marco-rubio",
+    "since": "2026-04",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Tommy_Pigott", "title": "Tommy Pigott — Wikipedia" },
+      { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" }
+    ]
+  },
+  "source_conflicts": [
+    {
+      "topic": "Start date as spokesperson",
+      "details": "News reports in April 2026 describe the appointment as immediate; Wikipedia gives May 11, 2026 as the formal start.",
+      "sources": [
+        { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" },
+        { "url": "https://en.wikipedia.org/wiki/Tommy_Pigott", "title": "Tommy Pigott — Wikipedia" }
+      ]
+    }
+  ],
+  "last_researched": "2026-11-08"
+}

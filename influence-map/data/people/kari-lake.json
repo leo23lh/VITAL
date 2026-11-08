@@ -279,6 +279,33 @@
         { "url": "https://www.nbcnews.com/politics/2022-election/pence-endorses-robson-arizona-governor-split-trump-rcna38675", "title": "Pence endorses Robson for Arizona governor, splitting with Trump — NBC News" },
         { "url": "https://www.axios.com/local/phoenix/2022/07/18/trump-endorses-robson-pitting-him-against-trump-arizona-governors-race", "title": "Pence endorses Robson, pitting him against Trump in Arizona's governor's race — Axios Phoenix" }
       ]
+    },
+    {
+      "name": "Sarah B. Rogers",
+      "slug": "sarah-b-rogers",
+      "relationship_type": "colleague",
+      "description": "Trump nominated Rogers in March 2026 to run the U.S. Agency for Global Media in Lake’s place, after a judge ruled Lake had led it unlawfully as acting CEO; Lake said she would stay on as deputy CEO.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.thewrap.com/media-platforms/journalism/trump-nominates-sarah-b-rogers-usagm/", "title": "Trump nominates State Department official to lead Voice of America’s parent agency — TheWrap" },
+        { "url": "https://www.notus.org/trump-white-house/trump-picks-replacement-for-kari-lake-voice-of-america-global-media-judge", "title": "Trump picks replacement for Kari Lake at Voice of America parent — NOTUS" },
+        { "url": "https://theprint.in/world/trump-nominates-state-dept-official-to-lead-diminished-us-global-media-agency/2877603", "title": "Trump nominates State Dept official to lead diminished US global media agency — Reuters via ThePrint" }
+      ]
+    },
+    {
+      "name": "Michael Rigas",
+      "slug": "michael-rigas",
+      "relationship_type": "colleague",
+      "description": "Has performed the CEO duties of the U.S. Agency for Global Media since March 2026, with Lake staying on as deputy CEO.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://theprint.in/world/trump-nominates-state-dept-official-to-lead-diminished-us-global-media-agency/2877603", "title": "Trump nominates State Dept official to lead diminished US global media agency — Reuters via ThePrint" },
+        { "url": "https://www.notus.org/trump-white-house/trump-picks-replacement-for-kari-lake-voice-of-america-global-media-judge", "title": "Trump picks replacement for Kari Lake at Voice of America parent — NOTUS" }
+      ]
     }
   ],
   "source_conflicts": [

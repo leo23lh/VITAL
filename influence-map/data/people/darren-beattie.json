@@ -1,0 +1,83 @@
+{
+  "name": "Darren Beattie",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Senior official, Bureau of Educational and Cultural Affairs, U.S. Department of State; named senior adviser for Brazil policy in 2026",
+  "summary": "Darren Beattie, a former Trump speechwriter fired in 2018 after it emerged he had spoken at a conference attended by white nationalists, returned in 2025 as a senior State Department official over educational and cultural affairs. In July 2025 the U.S. Institute of Peace board made him its acting president while he kept his State post, drawing bipartisan criticism; in early 2026 he was named senior adviser for Brazil policy.",
+  "sources": [
+    { "url": "https://wtop.com/national/2025/07/official-fired-during-trumps-first-term-appointed-president-of-embattled-us-institute-of-peace/", "title": "Official fired during Trump’s first term appointed president of embattled US Institute of Peace — AP via WTOP" },
+    { "url": "https://forward.com/fast-forward/758338/trump-darren-beattie-white-nationalist-us-institute-of-peace/", "title": "Trump taps Darren Beattie to lead US Institute of Peace — The Forward" },
+    { "url": "https://en.wikipedia.org/wiki/Darren_Beattie", "title": "Darren Beattie — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2018,
+      "role": "Speechwriter",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://wtop.com/national/2025/07/official-fired-during-trumps-first-term-appointed-president-of-embattled-us-institute-of-peace/", "title": "Official fired during Trump’s first term appointed president of embattled US Institute of Peace — AP via WTOP" },
+        { "url": "https://en.wikipedia.org/wiki/Darren_Beattie", "title": "Darren Beattie — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Acting Assistant Secretary / Senior Bureau Official, Educational and Cultural Affairs",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Darren_Beattie", "title": "Darren Beattie — Wikipedia" },
+        { "url": "https://wtop.com/national/2025/07/official-fired-during-trumps-first-term-appointed-president-of-embattled-us-institute-of-peace/", "title": "Official fired during Trump’s first term appointed president of embattled US Institute of Peace — AP via WTOP" }
+      ]
+    },
+    {
+      "year": 2025,
+      "role": "Acting President",
+      "org": "U.S. Institute of Peace",
+      "sources": [
+        { "url": "https://wtop.com/national/2025/07/official-fired-during-trumps-first-term-appointed-president-of-embattled-us-institute-of-peace/", "title": "Official fired during Trump’s first term appointed president of embattled US Institute of Peace — AP via WTOP" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "A Trump White House speechwriter until he was fired in 2018; brought back as a State Department appointee in 2025.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://wtop.com/national/2025/07/official-fired-during-trumps-first-term-appointed-president-of-embattled-us-institute-of-peace/", "title": "Official fired during Trump’s first term appointed president of embattled US Institute of Peace — AP via WTOP" },
+        { "url": "https://en.wikipedia.org/wiki/Darren_Beattie", "title": "Darren Beattie — Wikipedia" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Senior Bureau Official, Educational and Cultural Affairs",
+    "unit": "state",
+    "rank": 4,
+    "reports_to": "marco-rubio",
+    "since": "2025",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Darren_Beattie", "title": "Darren Beattie — Wikipedia" },
+      { "url": "https://wtop.com/national/2025/07/official-fired-during-trumps-first-term-appointed-president-of-embattled-us-institute-of-peace/", "title": "Official fired during Trump’s first term appointed president of embattled US Institute of Peace — AP via WTOP" }
+    ]
+  },
+  "source_conflicts": [
+    {
+      "topic": "Current title",
+      "details": "Reports in 2026 call him acting assistant secretary for educational and cultural affairs; Wikipedia lists him as senior bureau official there since October 2025. Whether he still leads USIP in late 2026 was not found.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Darren_Beattie", "title": "Darren Beattie — Wikipedia" },
+        { "url": "https://wtop.com/national/2025/07/official-fired-during-trumps-first-term-appointed-president-of-embattled-us-institute-of-peace/", "title": "Official fired during Trump’s first term appointed president of embattled US Institute of Peace — AP via WTOP" }
+      ]
+    }
+  ],
+  "last_researched": "2026-11-08"
+}

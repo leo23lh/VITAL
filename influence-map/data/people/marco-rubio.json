@@ -404,6 +404,81 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" }
       ]
+    },
+    {
+      "name": "Allison Hooker",
+      "slug": "allison-hooker",
+      "relationship_type": "employee",
+      "description": "Rubio’s under secretary for political affairs since June 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.congress.gov/nomination/119th-congress/25/19", "title": "PN25-19: Nomination of Allison Hooker — Congress.gov" },
+        { "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/under-secretary-hookers-travel-to-the-republic-of-korea/", "title": "Under Secretary Hooker’s travel to the Republic of Korea — U.S. Department of State (May 2026)" }
+      ]
+    },
+    {
+      "name": "Thomas DiNanno",
+      "slug": "thomas-dinanno",
+      "relationship_type": "employee",
+      "description": "Rubio’s under secretary for arms control and international security.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/public-schedule-november-5-2026", "title": "Public Schedule, November 5, 2026 — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "Sarah B. Rogers",
+      "slug": "sarah-b-rogers",
+      "relationship_type": "employee",
+      "description": "Rubio’s under secretary for public diplomacy since October 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.congress.gov/nomination/119th-congress/25/49", "title": "PN25-49: Nomination of Sarah Rogers — Congress.gov" }
+      ]
+    },
+    {
+      "name": "Michael Rigas",
+      "slug": "michael-rigas",
+      "relationship_type": "employee",
+      "description": "Rubio’s deputy secretary for management and resources.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/05/public-schedule-june-1-2026", "title": "Public Schedule, June 1, 2026 — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "Dan Holler",
+      "slug": "dan-holler",
+      "relationship_type": "employee",
+      "description": "Worked in Rubio’s Senate office, then was his State Department chief of staff from September 2025 and counselor from May 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Daniel_Holler", "title": "Daniel Holler — Wikipedia" },
+        { "url": "https://udn.com/news/story/6813/9528217", "title": "State Department staff changes after Needham’s move to the NSC — United Daily News (Taiwan)" }
+      ]
+    },
+    {
+      "name": "Tommy Pigott",
+      "slug": "tommy-pigott",
+      "relationship_type": "employee",
+      "description": "Rubio’s principal deputy spokesperson from 2025 and his chosen spokesperson from April 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" },
+        { "url": "https://en.wikipedia.org/wiki/Tommy_Pigott", "title": "Tommy Pigott — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [],

@@ -91,6 +91,142 @@
         { "url": "https://www.nucnet.org/news/sam-altman-steps-down-chair-of-nuclear-startup-oklo-clearing-way-for-supply-talks-with-ai-companies-4-3-2025", "title": "Sam Altman steps down as chair of nuclear startup Oklo — NucNet" },
         { "url": "https://www.businesswire.com/news/home/20250206004616/en/Oklo-Announces-Board-Transition-Following-Chris-Wright%E2%80%99s-Confirmation-as-Secretary-of-Energy", "title": "Oklo: Board transition following Chris Wright’s confirmation as Secretary of Energy" }
       ]
+    },
+    {
+      "name": "James Danly",
+      "slug": "james-danly",
+      "relationship_type": "employee",
+      "description": "Wright’s deputy at the Energy Department since May 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/environment-and-energy/senate-confirms-james-danly-for-deputy-energy-secretary-role", "title": "Senate confirms James Danly for deputy energy secretary role — Bloomberg Law" }
+      ]
+    },
+    {
+      "name": "Charlie Dankert",
+      "slug": "charlie-dankert",
+      "relationship_type": "employee",
+      "description": "Wright’s deputy chief of staff for policy, then his chief of staff from August 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.energy.gov/node/4859594", "title": "Secretary Wright announces leadership transition in the Office of the Secretary — U.S. Department of Energy (July 2026)" },
+        { "url": "https://www.eenews.net/articles/coe-out-as-doe-chief-of-staff/", "title": "Coe out as DOE chief of staff — E&E News" }
+      ]
+    },
+    {
+      "name": "Kyle Haustveit",
+      "slug": "kyle-haustveit",
+      "relationship_type": "employee",
+      "description": "Wright’s fossil energy chief from 2025 and under secretary from May 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.energy.gov/person/kyle-haustveit", "title": "Kyle Haustveit — U.S. Department of Energy" },
+        { "url": "https://www.tdworld.com/policy/news/55381266/doe-leadership-changes-highlight-shift-in-domestic-energy-priorities-toward-hydrocarbons", "title": "DOE leadership changes highlight shift toward hydrocarbons — T&D World" }
+      ]
+    },
+    {
+      "name": "Alex Fitzsimmons",
+      "slug": "alex-fitzsimmons",
+      "relationship_type": "employee",
+      "description": "Wright named him acting under secretary in October 2025 and his senior adviser in 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.energy.gov/node/4853461", "title": "Secretary Wright names Alex Fitzsimmons new acting under secretary of energy — U.S. Department of Energy" },
+        { "url": "https://www.energy.gov/articles/secretary-wright-announces-leadership-changes-deliver-affordable-reliable-and-secure", "title": "Secretary Wright announces leadership changes — U.S. Department of Energy" }
+      ]
+    },
+    {
+      "name": "Darío Gil",
+      "slug": "dario-gil",
+      "relationship_type": "employee",
+      "description": "Wright’s under secretary for science since September 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.exchangemonitor.com/white-house-nominees-for-science-legal-among-doe-group-confirmed/", "title": "White House nominees for science, legal among DOE group confirmed — Exchange Monitor (September 2025)" },
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Brandon Williams",
+      "slug": "brandon-williams",
+      "relationship_type": "employee",
+      "description": "Runs the nuclear weapons agency inside Wright’s department since September 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jonathan Brightbill",
+      "slug": "jonathan-brightbill",
+      "relationship_type": "employee",
+      "description": "Wright’s general counsel since fall 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.exchangemonitor.com/white-house-nominees-for-science-legal-among-doe-group-confirmed/", "title": "White House nominees for science, legal among DOE group confirmed — Exchange Monitor (September 2025)" }
+      ]
+    },
+    {
+      "name": "Ted Garrish",
+      "slug": "ted-garrish",
+      "relationship_type": "employee",
+      "description": "Wright’s nuclear energy chief since September 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://content.govdelivery.com/accounts/USDOEONE/bulletins/3f3575b", "title": "U.S. Senate confirms Ted Garrish as Assistant Secretary for Nuclear Energy — DOE Office of Nuclear Energy" }
+      ]
+    },
+    {
+      "name": "Audrey Robertson",
+      "slug": "audrey-robertson",
+      "relationship_type": "employee",
+      "description": "Wright’s assistant secretary for critical minerals and energy innovation since October 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.energy.gov/cmei/person/audrey-robertson", "title": "Audrey Robertson — U.S. Department of Energy" }
+      ]
+    },
+    {
+      "name": "Catherine Jereza",
+      "slug": "catherine-jereza",
+      "relationship_type": "employee",
+      "description": "Wright’s electricity chief since October 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Greg Beard",
+      "slug": "greg-beard",
+      "relationship_type": "employee",
+      "description": "Runs the department’s financing office under Wright since January 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.energy.gov/edf/articles/letter-leadership-edf-2025-year-review-and-looking-forward-2026", "title": "Letter from leadership: EDF 2025 year in review — U.S. Department of Energy" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
