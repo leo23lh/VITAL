@@ -499,6 +499,19 @@
       "sources": [
         { "url": "https://www.inc.com/reuters/vances-tech-donor-network-wants-to-push-us-to-right.html", "title": "Vance's tech donor network wants to push US to the right — Reuters via Inc." }
       ]
+    },
+    {
+      "name": "Doug Burgum",
+      "slug": "doug-burgum",
+      "relationship_type": "rival",
+      "description": "Burgum and Vance were the two top finalists to be Trump's 2024 running mate (with Rubio); Trump picked Vance in July 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/rcna157069", "title": "Trump's VP search: two top finalists emerge — NBC News" },
+        { "url": "https://semafor.com/article/07/13/2024/breaking-down-donald-trumps-top-three-vp-finalists", "title": "Breaking down Donald Trump's top three VP finalists — Semafor" }
+      ]
     }
   ],
   "source_conflicts": [],

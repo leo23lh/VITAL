@@ -105,6 +105,19 @@
       "sources": [
         { "url": "https://abc11.com/post/zohran-mamdani-sworn-new-york-city-mayor-historic-subway-station/18338381/", "title": "AP via ABC11: Zohran Mamdani sworn in as New York City mayor" }
       ]
+    },
+    {
+      "name": "Michael Bloomberg",
+      "slug": "michael-bloomberg",
+      "relationship_type": "rival",
+      "description": "Rivals in the 2020 Democratic primary: Bloomberg ran ads and debate attacks against Sanders and urged others to drop out to stop him; Sanders accused him of trying to buy the presidency, and his campaign called Bloomberg's general-election help \"a hard no\". Bloomberg quit in March 2020 after spending over $1 billion.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://kvia.com/politics/2020/03/04/the-end-of-bloomberg-how-the-most-expensive-primary-campaign-in-history-failed-to-launch/", "title": "The end of Bloomberg: how the most expensive primary campaign in history failed to launch — CNN via KVIA" },
+        { "url": "https://weartv.com/news/nation-world/bloomberg-might-not-spend-to-help-sanders-if-hes-nominee", "title": "Bloomberg might not spend to help Sanders if he's nominee — WEAR" }
+      ]
     }
   ],
   "affiliations": [],

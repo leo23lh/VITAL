@@ -79,6 +79,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Nancy_Pelosi", "title": "Wikipedia: Nancy Pelosi" }
       ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "Pelosi, who pushed Biden to step aside, endorsed Harris on July 22, 2024, a day after Biden withdrew, with \"enthusiastic support\", though coverage noted her backing had been tepid at times.",
+      "start_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.semafor.com/article/07/22/2024/nancy-pelosi-endorses-kamala-harris-democrat-president-nominee", "title": "Nancy Pelosi endorses Kamala Harris as Democratic presidential nominee — Semafor" },
+        { "url": "https://abcnews.go.com/US/wireStory/former-house-speaker-nancy-pelosi-endorses-vice-president-112170203", "title": "Former House Speaker Nancy Pelosi endorses Vice President Kamala Harris — AP via ABC News" }
+      ]
     }
   ],
   "affiliations": [],

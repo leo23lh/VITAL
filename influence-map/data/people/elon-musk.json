@@ -476,6 +476,19 @@
         { "url": "https://fortune.com/2025/01/05/elon-musk-vs-nigel-farage-reform-uk-new-leader-right-wing-populist", "title": "Elon Musk vs Nigel Farage — Fortune" },
         { "url": "https://shropshirestar.com/uk-news/2025/01/11/farage-says-he-is-on-very-good-terms-with-elon-musk", "title": "Farage says he is on 'very good terms' with Elon Musk — Shropshire Star" }
       ]
+    },
+    {
+      "name": "Sergio Gor",
+      "slug": "sergio-gor",
+      "relationship_type": "enemy",
+      "description": "In June 2025 Musk called Gor, then Trump's personnel chief, \"a snake\" and accused him of lying on federal forms, after Gor helped sink Musk ally Jared Isaacman's NASA nomination; the White House defended Gor.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=3447884", "title": "Who is Sergio Gor, the White House adviser Elon Musk called a 'snake'? — Washington Examiner" },
+        { "url": "https://www.thedailybeast.com/elon-musk-savages-snake-trump-aide-sergio-gor-as-their-white-house-feud-erupts", "title": "Elon Musk savages 'snake' Trump aide Sergio Gor — Daily Beast" }
+      ]
     }
   ],
   "source_conflicts": [

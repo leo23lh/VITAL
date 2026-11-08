@@ -1461,6 +1461,19 @@
       "sources": [
         { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" }
       ]
+    },
+    {
+      "name": "Doug Burgum",
+      "slug": "doug-burgum",
+      "relationship_type": "rival",
+      "description": "Burgum ran against Trump for the 2024 Republican nomination, gained little traction, dropped out and quickly endorsed him.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://semafor.com/article/07/13/2024/breaking-down-donald-trumps-top-three-vp-finalists", "title": "Breaking down Donald Trump's top three VP finalists — Semafor" },
+        { "url": "https://www.valleynewslive.com/2024/06/06/what-does-burgum-top-three-trumps-vp-shortlist-say-about-his-chances/", "title": "What does Burgum in top three for Trump's VP shortlist say about his chances? — Valley News Live" }
+      ]
     }
   ],
   "source_conflicts": [

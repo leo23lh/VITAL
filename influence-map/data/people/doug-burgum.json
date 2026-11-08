@@ -104,6 +104,44 @@
         { "url": "https://www.breitbart.com/politics/2025/02/14/trump-establishes-national-energy-dominance-council-led-by-secretaries-burgum-wright", "title": "Breitbart: Trump establishes National Energy Dominance Council led by Burgum and Wright" },
         { "url": "https://www.eenews.net/articles/black-box-what-exactly-is-trumps-energy-council-doing/", "title": "E&E News: What exactly is Trump's energy council doing?" }
       ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "rival",
+      "description": "Burgum and Vance were the two top finalists to be Trump's 2024 running mate (with Rubio); Trump picked Vance in July 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/rcna157069", "title": "Trump's VP search: two top finalists emerge — NBC News" },
+        { "url": "https://semafor.com/article/07/13/2024/breaking-down-donald-trumps-top-three-vp-finalists", "title": "Breaking down Donald Trump's top three VP finalists — Semafor" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "rival",
+      "description": "Rivals on Trump's three-person 2024 vice-presidential shortlist, which Vance won.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://semafor.com/article/07/13/2024/breaking-down-donald-trumps-top-three-vp-finalists", "title": "Breaking down Donald Trump's top three VP finalists — Semafor" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "Burgum ran against Trump for the 2024 Republican nomination, gained little traction, dropped out and quickly endorsed him.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://semafor.com/article/07/13/2024/breaking-down-donald-trumps-top-three-vp-finalists", "title": "Breaking down Donald Trump's top three VP finalists — Semafor" },
+        { "url": "https://www.valleynewslive.com/2024/06/06/what-does-burgum-top-three-trumps-vp-shortlist-say-about-his-chances/", "title": "What does Burgum in top three for Trump's VP shortlist say about his chances? — Valley News Live" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

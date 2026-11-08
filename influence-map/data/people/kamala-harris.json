@@ -209,6 +209,18 @@
         { "url": "https://www.theblock.co/post/320785/ripple-co-founder-chris-larsen-donates-1-million-in-crypto-to-pac-supporting-kamala-harris-campaign", "title": "Ripple co-founder Chris Larsen donates $1 million in crypto to PAC supporting Kamala Harris — The Block" },
         { "url": "https://decrypt.co/287549/ripple-founder-10-million-xrp-kamala-harris", "title": "Ripple founder donates another $10 million in XRP to support Kamala Harris — Decrypt" }
       ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "ally",
+      "description": "Pelosi, who pushed Biden to step aside, endorsed Harris on July 22, 2024, a day after Biden withdrew, with \"enthusiastic support\", though coverage noted her backing had been tepid at times.",
+      "start_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.semafor.com/article/07/22/2024/nancy-pelosi-endorses-kamala-harris-democrat-president-nominee", "title": "Nancy Pelosi endorses Kamala Harris as Democratic presidential nominee — Semafor" },
+        { "url": "https://abcnews.go.com/US/wireStory/former-house-speaker-nancy-pelosi-endorses-vice-president-112170203", "title": "Former House Speaker Nancy Pelosi endorses Vice President Kamala Harris — AP via ABC News" }
+      ]
     }
   ],
   "affiliations": [],

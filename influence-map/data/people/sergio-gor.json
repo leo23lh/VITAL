@@ -99,6 +99,32 @@
         { "url": "https://www.theamericanconservative.com/michael-anton-to-leave-state-department/", "title": "Michael Anton to leave State Department — The American Conservative" },
         { "url": "https://justthenews.com/government/diplomacy/state-departments-michael-anton-leave-post-fall-report", "title": "State Department's Michael Anton to leave post in the fall — Just the News" }
       ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "enemy",
+      "description": "In June 2025 Musk called Gor, then Trump's personnel chief, \"a snake\" and accused him of lying on federal forms, after Gor helped sink Musk ally Jared Isaacman's NASA nomination; the White House defended Gor.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=3447884", "title": "Who is Sergio Gor, the White House adviser Elon Musk called a 'snake'? — Washington Examiner" },
+        { "url": "https://www.thedailybeast.com/elon-musk-savages-snake-trump-aide-sergio-gor-as-their-white-house-feud-erupts", "title": "Elon Musk savages 'snake' Trump aide Sergio Gor — Daily Beast" }
+      ]
+    },
+    {
+      "name": "Rand Paul",
+      "slug": "rand-paul",
+      "relationship_type": "employer",
+      "description": "Gor worked for Paul from 2013, at his PAC and then as spokesman, communications director and deputy chief of staff, before leaving in 2020 for Trump's campaign finance committee.",
+      "start_year": 2013,
+      "end_year": 2020,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.freepressjournal.in/world/sergio-gors-unconventional-journey-from-rand-paul-aide-to-donald-trumps-trusted-enforcer-highlights-both-loyalty-and-controversy", "title": "Sergio Gor's journey from Rand Paul aide to Trump's trusted enforcer — Free Press Journal" },
+        { "url": "https://www.semafor.com/article/08/28/2025/ambassador-gor-trumps-hiring-chief-on-fast-track-to-india", "title": "Ambassador Gor: Trump's hiring chief on fast track to India — Semafor" }
+      ]
     }
   ],
   "aliases": [],
