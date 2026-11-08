@@ -152,13 +152,15 @@
       "name": "Ron DeSantis",
       "slug": "ron-desantis",
       "relationship_type": "enemy",
-      "description": "After the 2018 win DeSantis shut Wiles out, his allies pushed her associates out of the state party, and he discouraged Trump from hiring her for 2020. Wiles has called working for him the biggest mistake of her career, and she helped run Trump's 2024 primary campaign against him.",
+      "description": "After the 2018 win DeSantis shut Wiles out and reportedly pressed Trump's campaign to drop her, which it did in September 2019 before bringing her back in 2020; she later helped run Trump's 2024 primary campaign against DeSantis.",
       "start_year": 2019,
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Susie_Wiles", "title": "Susie Wiles — Wikipedia" },
-        { "url": "https://www.axios.com/2024/11/08/susie-wiles-trump-2024-white-house", "title": "Susie Wiles' journey to be Trump's gatekeeper — Axios" }
+        { "url": "https://www.axios.com/2024/11/08/susie-wiles-trump-2024-white-house", "title": "Susie Wiles' journey to be Trump's gatekeeper — Axios" },
+        { "url": "https://digital-release.thehill.com/?p=461765", "title": "Trump parts ways with key Florida adviser — The Hill" },
+        { "url": "https://floridapolitics.com/archives/306512-ron-desantis-susie-wiles", "title": "Ron DeSantis and Susie Wiles — Florida Politics" }
       ]
     },
     {

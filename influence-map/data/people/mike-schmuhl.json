@@ -48,7 +48,9 @@
       "end_year": 2020,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Pete_Buttigieg_2020_presidential_campaign", "title": "Wikipedia: Pete Buttigieg 2020 presidential campaign" }
+        { "url": "https://en.wikipedia.org/wiki/Pete_Buttigieg_2020_presidential_campaign", "title": "Wikipedia: Pete Buttigieg 2020 presidential campaign" },
+        { "url": "https://www.pbs.org/newshour/politics/buttigieg-scrambles-to-turn-2020-buzz-into-momentum", "title": "Buttigieg scrambles to turn 2020 buzz into momentum — AP via PBS NewsHour" },
+        { "url": "https://ballotpedia.org/Mike_Schmuhl", "title": "Mike Schmuhl — Ballotpedia" }
       ]
     }
   ],

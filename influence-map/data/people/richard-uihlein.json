@@ -77,12 +77,14 @@
       "name": "Ted Cruz",
       "slug": "ted-cruz",
       "relationship_type": "funded_by",
-      "description": "The Uihleins were multimillion-dollar donors to groups backing Cruz's 2016 presidential bid.",
+      "description": "Gave seven-figure sums to the pro-Cruz super PAC network in 2016, including $1 million to Keep the Promise PAC in January and $1 million to Trusted Leadership PAC in March.",
       "start_year": 2015,
       "end_year": 2016,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+        { "url": "https://www.washingtonexaminer.com/?p=365080", "title": "GOP donor bets big on Cruz — Washington Examiner" },
+        { "url": "https://publicintegrity.org/politics/pro-ted-cruz-super-pacs-mull-options-for-their-millions/", "title": "Pro-Ted Cruz super PACs mull options for their millions — Center for Public Integrity" }
       ]
     },
     {

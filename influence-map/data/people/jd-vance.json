@@ -378,12 +378,15 @@
     {
       "name": "Sohrab Ahmari",
       "slug": "sohrab-ahmari",
-      "relationship_type": "employee",
-      "description": "Wikipedia describes Ahmari as an adviser to Vice President Vance in Trump's second term; in June 2026 he flew with Vance on Air Force Two to Switzerland for talks with Iran, without a security clearance.",
+      "relationship_type": "ally",
+      "description": "A long-time Vance ally, per Yahoo News; as UnHerd's US editor he interviewed Vance in December 2025 and June 2026, and in March 2026 criticized him for siding with foreign-policy hawks. Wikipedia describes him as a Vance adviser who flew with him to Iran talks in June 2026; news reports reviewed don't confirm a formal role.",
       "start_year": 2025,
-      "confidence": 0.75,
+      "confidence": 0.7,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+        { "url": "https://www.yahoo.com/news/articles/pretty-bad-vance-vp-silence-013923015.html", "title": "'Pretty bad for Vance': the VP's silence on Iran peeves allies — Yahoo News" },
+        { "url": "https://unherd.com/2025/12/full-transcript-jd-vance-on-american-identity/", "title": "Full transcript: JD Vance on American identity — UnHerd" },
+        { "url": "https://unherd.com/2026/03/how-jd-vance-lost-the-foreign-policy-war/", "title": "How JD Vance lost the foreign policy war — UnHerd" }
       ]
     },
     {

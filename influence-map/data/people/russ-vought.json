@@ -99,7 +99,9 @@
       "start_year": 2017,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" },
+        { "url": "https://trumpwhitehouse.archives.gov/people/russell-vought", "title": "Russell Vought — Trump White House archives" },
+        { "url": "https://fedscoop.com/russell-vought-confirmed-omb-director-senate/", "title": "Russell Vought confirmed as OMB director — FedScoop" }
       ]
     },
     {
@@ -129,12 +131,14 @@
       "name": "Mike Pence",
       "slug": "mike-pence",
       "relationship_type": "employer",
-      "description": "Pence, as House Republican Conference chairman, named Vought its policy director in December 2008.",
-      "start_year": 2008,
+      "description": "Pence, as House Republican Conference chairman, made Vought its policy director at the start of the 111th Congress (Wikipedia says December 2008); Vought left in July 2010 for Heritage Action. Pence later helped bring him into the Trump administration.",
+      "start_year": 2009,
       "end_year": 2010,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" },
+        { "url": "https://www.govinfo.gov/content/pkg/CREC-2010-07-29/html/CREC-2010-07-29-pt1-PgE1465-2.htm", "title": "Pence's tribute to Russ Vought — Congressional Record, July 29, 2010" },
+        { "url": "https://rollcall.com/2010/08/02/former-gop-leadership-aide-pans-party-agenda/", "title": "Former GOP leadership aide pans party agenda — Roll Call" }
       ]
     },
     {

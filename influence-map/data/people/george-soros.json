@@ -149,11 +149,12 @@
       "name": "Sohrab Ahmari",
       "slug": "sohrab-ahmari",
       "relationship_type": "donor",
-      "description": "Vanity Fair reported that Compact received extensive funding from the Soros family's Open Society Foundations; contested, since Salon earlier said Peter Thiel was behind it.",
+      "description": "Vanity Fair reported in October 2024 that Compact, the magazine Ahmari co-founded, received extensive funding from the Soros family's Open Society Foundations (a $200,000 grant in 2023, per Wikipedia's summary); Salon had earlier linked Peter Thiel to its funding, and Compact names other funders.",
       "start_year": 2022,
       "confidence": 0.4,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+        { "url": "https://shot.allsides.com/news/2024-10-24-0225/media-industry-why-progressive-mega-donor-funding-right-wing-ideas", "title": "Why is a progressive mega-donor funding right-wing ideas? — Vanity Fair, via AllSides" }
       ]
     }
   ],

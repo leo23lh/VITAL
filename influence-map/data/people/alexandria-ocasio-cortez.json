@@ -126,12 +126,14 @@
       "name": "Timothy Mellon",
       "slug": "timothy-mellon",
       "relationship_type": "donor",
-      "description": "Mellon donated to Ocasio-Cortez's 2018 campaign, one of only two Democrats he has funded; he said he did it to disrupt the Democratic Party.",
+      "description": "Mellon gave $2,700 to Ocasio-Cortez's 2018 campaign, one of only two Democrats he has funded; he said he did it to disrupt the Democratic Party, and her campaign tried to refund it.",
       "start_year": 2018,
       "end_year": 2018,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+        { "url": "https://www.bloombergquint.com/businessweek/top-gop-donor-timothy-mellon-is-former-liberal-now-trump-backer", "title": "Mellon leads 2020 GOP donors — Bloomberg Businessweek" },
+        { "url": "https://popular.info/p/the-reclusive-plutocrat-who-became", "title": "The reclusive plutocrat who became the biggest political donor of 2024 — Popular Information" }
       ]
     }
   ],

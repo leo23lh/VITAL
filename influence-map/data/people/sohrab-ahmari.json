@@ -81,12 +81,15 @@
     {
       "name": "JD Vance",
       "slug": "jd-vance",
-      "relationship_type": "employer",
-      "description": "Wikipedia describes Ahmari as an adviser to Vice President Vance in Trump's second term; in June 2026 he flew with Vance on Air Force Two to Switzerland for talks with Iran, without a security clearance.",
+      "relationship_type": "ally",
+      "description": "A long-time Vance ally, per Yahoo News; as UnHerd's US editor he interviewed Vance in December 2025 and June 2026, and in March 2026 criticized him for siding with foreign-policy hawks. Wikipedia describes him as a Vance adviser who flew with him to Iran talks in June 2026; news reports reviewed don't confirm a formal role.",
       "start_year": 2025,
-      "confidence": 0.75,
+      "confidence": 0.7,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+        { "url": "https://www.yahoo.com/news/articles/pretty-bad-vance-vp-silence-013923015.html", "title": "'Pretty bad for Vance': the VP's silence on Iran peeves allies — Yahoo News" },
+        { "url": "https://unherd.com/2025/12/full-transcript-jd-vance-on-american-identity/", "title": "Full transcript: JD Vance on American identity — UnHerd" },
+        { "url": "https://unherd.com/2026/03/how-jd-vance-lost-the-foreign-policy-war/", "title": "How JD Vance lost the foreign policy war — UnHerd" }
       ]
     },
     {
@@ -104,11 +107,12 @@
       "name": "George Soros",
       "slug": "george-soros",
       "relationship_type": "funded_by",
-      "description": "Vanity Fair reported that Compact received extensive funding from the Soros family's Open Society Foundations; contested, since Salon earlier said Peter Thiel was behind it.",
+      "description": "Vanity Fair reported in October 2024 that Compact, the magazine Ahmari co-founded, received extensive funding from the Soros family's Open Society Foundations (a $200,000 grant in 2023, per Wikipedia's summary); Salon had earlier linked Peter Thiel to its funding, and Compact names other funders.",
       "start_year": 2022,
       "confidence": 0.4,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+        { "url": "https://shot.allsides.com/news/2024-10-24-0225/media-industry-why-progressive-mega-donor-funding-right-wing-ideas", "title": "Why is a progressive mega-donor funding right-wing ideas? — Vanity Fair, via AllSides" }
       ]
     },
     {
@@ -133,7 +137,9 @@
       "start_year": 2019,
       "confidence": 0.6,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+        { "url": "https://firstthings.com/blogs/firstthoughts/2019/06/sohrabs-conservatism", "title": "Sohrab's conservatism — First Things" },
+        { "url": "https://quillette.com/2019/06/11/the-rise-of-the-illiberal-right/", "title": "The rise of the illiberal right — Quillette" }
       ]
     },
     {

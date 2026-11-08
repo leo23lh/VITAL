@@ -155,12 +155,14 @@
       "name": "Robert Mercer",
       "slug": "robert-mercer",
       "relationship_type": "donor",
-      "description": "Leave.EU's communications director said Mercer donated Cambridge Analytica's data services to Farage's Brexit campaign; the donation was never reported and is contested.",
+      "description": "Leave.EU's communications director Andy Wigmore said Mercer donated Cambridge Analytica's data services to Farage's Brexit campaign; Cambridge Analytica said it did no paid or unpaid work for Leave.EU, Wigmore later said it did no formal work, and no donation was declared to the Electoral Commission.",
       "start_year": 2016,
       "end_year": 2016,
       "confidence": 0.4,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://uk.news.yahoo.com/revealed-us-billionaire-helped-back-000415306.html", "title": "Revealed: how US billionaire helped to back Brexit — The Observer via Yahoo" },
+        { "url": "https://uk.news.yahoo.com/leave-eu-used-creepy-facebook-171458675.html", "title": "Leave.EU used 'creepy' Facebook profiling technology — Yahoo News UK" }
       ]
     },
     {
