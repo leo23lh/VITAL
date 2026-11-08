@@ -144,6 +144,42 @@
         { "url": "https://www.govconwire.com/articles/troy-edgar-dhs-2026-homeland-security-summit-keynote-govcon", "title": "DHS Deputy Secretary Troy Edgar lays out operational priorities at 2026 Homeland Security Summit — GovCon Wire" },
         { "url": "https://www.congress.gov/nomination/119th-congress/12/14", "title": "PN12-14: Nomination of Troy Edgar — Congress.gov" }
       ]
+    },
+    {
+      "name": "Rodney Scott",
+      "slug": "rodney-scott",
+      "relationship_type": "employee",
+      "description": "Runs Customs and Border Protection inside the department Mullin leads.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" }
+      ]
+    },
+    {
+      "name": "Joseph Edlow",
+      "slug": "joseph-edlow",
+      "relationship_type": "employee",
+      "description": "Runs Citizenship and Immigration Services inside the department Mullin leads.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" }
+      ]
+    },
+    {
+      "name": "Sean Curran",
+      "slug": "sean-curran",
+      "relationship_type": "employee",
+      "description": "Runs the Secret Service inside the department Mullin leads.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

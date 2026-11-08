@@ -374,6 +374,18 @@
         { "url": "https://www.congress.gov/nomination/119th-congress/12/9", "title": "PN12-9: Nomination of Elbridge Colby — Congress.gov" },
         { "url": "https://www.war.gov/News/Transcripts/Transcript/Article/4567089/remarks-by-under-secretary-of-war-for-policy-elbridge-colby-at-the-2026-united/", "title": "Remarks by Under Secretary of War for Policy Elbridge Colby, 2026 Deterrence Symposium — U.S. Department of War" }
       ]
+    },
+    {
+      "name": "Dan Caine",
+      "slug": "dan-caine",
+      "relationship_type": "colleague",
+      "description": "The top military officer alongside Hegseth, the civilian secretary.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.jcs.mil/Leadership/Article-View/Article/1974872/gen-dan-caine/", "title": "Gen. Dan Caine — Joint Chiefs of Staff" }
+      ]
     }
   ],
   "source_conflicts": [

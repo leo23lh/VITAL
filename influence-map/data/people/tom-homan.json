@@ -68,6 +68,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Tom_Homan", "title": "Tom Homan — Wikipedia" }
       ]
+    },
+    {
+      "name": "Rodney Scott",
+      "slug": "rodney-scott",
+      "relationship_type": "colleague",
+      "description": "Both central to the administration’s border and deportation operations.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://time.com/7377432/ice-cbp-congress-hearing-testimony-minneapolis-lyons-scott/", "title": "Five key takeaways from ICE and CBP leaders’ first testimony before Congress — TIME" },
+        { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" }
+      ]
     }
   ],
   "office": {

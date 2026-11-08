@@ -1,0 +1,65 @@
+{
+  "name": "Dan Caine",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "current_role": "Chairman of the Joint Chiefs of Staff (since April 2025)",
+  "summary": "Air Force Gen. Dan Caine became the 22nd chairman of the Joint Chiefs of Staff on April 11, 2025, the nation’s top military officer and principal military adviser to the President and the secretary of war.",
+  "sources": [
+    { "url": "https://www.jcs.mil/Leadership/Article-View/Article/1974872/gen-dan-caine/", "title": "Gen. Dan Caine — Joint Chiefs of Staff" },
+    { "url": "https://defensescoop.com/2025/04/11/dan-caine-chairman-joint-chiefs-trump-military-adviser/", "title": "Caine confirmed as chairman of the Joint Chiefs of Staff — DefenseScoop" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Chairman of the Joint Chiefs of Staff",
+      "org": "U.S. Department of Defense (War)",
+      "sources": [
+        { "url": "https://www.jcs.mil/Leadership/Article-View/Article/1974872/gen-dan-caine/", "title": "Gen. Dan Caine — Joint Chiefs of Staff" },
+        { "url": "https://defensescoop.com/2025/04/11/dan-caine-chairman-joint-chiefs-trump-military-adviser/", "title": "Caine confirmed as chairman of the Joint Chiefs of Staff — DefenseScoop" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump chose him as the top military officer in 2025; he is the President’s principal military adviser.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://defensescoop.com/2025/04/11/dan-caine-chairman-joint-chiefs-trump-military-adviser/", "title": "Caine confirmed as chairman of the Joint Chiefs of Staff — DefenseScoop" },
+        { "url": "https://www.jcs.mil/Leadership/Article-View/Article/1974872/gen-dan-caine/", "title": "Gen. Dan Caine — Joint Chiefs of Staff" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "colleague",
+      "description": "The top military officer alongside Hegseth, the civilian secretary.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.jcs.mil/Leadership/Article-View/Article/1974872/gen-dan-caine/", "title": "Gen. Dan Caine — Joint Chiefs of Staff" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Chairman of the Joint Chiefs of Staff",
+    "unit": "war",
+    "rank": 3,
+    "reports_to": "pete-hegseth",
+    "since": "2025-04-11",
+    "sources": [
+      { "url": "https://www.jcs.mil/Leadership/Article-View/Article/1974872/gen-dan-caine/", "title": "Gen. Dan Caine — Joint Chiefs of Staff" },
+      { "url": "https://defensescoop.com/2025/04/11/dan-caine-chairman-joint-chiefs-trump-military-adviser/", "title": "Caine confirmed as chairman of the Joint Chiefs of Staff — DefenseScoop" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

@@ -1944,6 +1944,56 @@
         { "url": "https://wtop.com/national/2025/07/official-fired-during-trumps-first-term-appointed-president-of-embattled-us-institute-of-peace/", "title": "Official fired during Trump’s first term appointed president of embattled US Institute of Peace — AP via WTOP" },
         { "url": "https://en.wikipedia.org/wiki/Darren_Beattie", "title": "Darren Beattie — Wikipedia" }
       ]
+    },
+    {
+      "name": "Dan Caine",
+      "slug": "dan-caine",
+      "relationship_type": "employee",
+      "description": "Trump chose him as the top military officer in 2025; he is the President’s principal military adviser.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://defensescoop.com/2025/04/11/dan-caine-chairman-joint-chiefs-trump-military-adviser/", "title": "Caine confirmed as chairman of the Joint Chiefs of Staff — DefenseScoop" },
+        { "url": "https://www.jcs.mil/Leadership/Article-View/Article/1974872/gen-dan-caine/", "title": "Gen. Dan Caine — Joint Chiefs of Staff" }
+      ]
+    },
+    {
+      "name": "Sean Curran",
+      "slug": "sean-curran",
+      "relationship_type": "colleague",
+      "description": "Led Trump’s protective detail, including at the 2024 Butler assassination attempt, before Trump made him Secret Service director.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sean_Curran_(Secret_Service)", "title": "Sean Curran (Secret Service) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "D. John Sauer",
+      "slug": "john-sauer",
+      "relationship_type": "employee",
+      "description": "Argued Trump’s immunity case at the Supreme Court in 2024; his solicitor general since 2025.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/us-law-week/trump-lawyer-john-sauer-confirmed-as-us-solicitor-general", "title": "Trump lawyer John Sauer confirmed as US solicitor general — Bloomberg Law" },
+        { "url": "https://en.wikipedia.org/wiki/D._John_Sauer", "title": "D. John Sauer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Mehmet Oz",
+      "slug": "mehmet-oz",
+      "relationship_type": "ally",
+      "description": "Trump endorsed his 2022 Senate run and appointed him to run Medicare and Medicaid.",
+      "start_year": 2022,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mehmet_Oz", "title": "Mehmet Oz — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

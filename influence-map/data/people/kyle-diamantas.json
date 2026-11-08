@@ -1,0 +1,63 @@
+{
+  "name": "Kyle Diamantas",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Acting Commissioner of Food and Drugs (since mid-2026)",
+  "summary": "Kyle Diamantas, formerly the FDA’s deputy commissioner for human foods, became acting commissioner when Marty Makary left in mid-2026; Trump nominated Heidi Overton for the permanent post in August 2026.",
+  "sources": [
+    { "url": "https://www.astho.org/communications/blog/2026/more-recent-shifts-in-hhs-leadership-june-2026/", "title": "(More) recent shifts in HHS leadership: June 2026 — ASTHO" },
+    { "url": "https://www.aha.org/topics/government-appointments", "title": "Government appointments — American Hospital Association" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Deputy Commissioner for Human Foods",
+      "org": "U.S. Food and Drug Administration",
+      "sources": [
+        { "url": "https://www.astho.org/communications/blog/2026/more-recent-shifts-in-hhs-leadership-june-2026/", "title": "(More) recent shifts in HHS leadership: June 2026 — ASTHO" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Acting Commissioner",
+      "org": "U.S. Food and Drug Administration",
+      "sources": [
+        { "url": "https://www.astho.org/communications/blog/2026/more-recent-shifts-in-hhs-leadership-june-2026/", "title": "(More) recent shifts in HHS leadership: June 2026 — ASTHO" },
+        { "url": "https://www.aha.org/topics/government-appointments", "title": "Government appointments — American Hospital Association" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "employer",
+      "description": "Runs the FDA as acting commissioner under Kennedy.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.astho.org/communications/blog/2026/more-recent-shifts-in-hhs-leadership-june-2026/", "title": "(More) recent shifts in HHS leadership: June 2026 — ASTHO" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Commissioner of Food and Drugs",
+    "acting": true,
+    "unit": "hhs",
+    "rank": 3,
+    "reports_to": "robert-f-kennedy-jr",
+    "since": "2026",
+    "sources": [
+      { "url": "https://www.astho.org/communications/blog/2026/more-recent-shifts-in-hhs-leadership-june-2026/", "title": "(More) recent shifts in HHS leadership: June 2026 — ASTHO" },
+      { "url": "https://www.aha.org/topics/government-appointments", "title": "Government appointments — American Hospital Association" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

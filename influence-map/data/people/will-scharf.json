@@ -68,6 +68,18 @@
         { "url": "https://en.wikipedia.org/wiki/Will_Scharf", "title": "Will Scharf — Wikipedia" },
         { "url": "https://abcnews.com/Politics/wireStory/trump-announces-staff-secretary-scharf-new-white-house-135505179", "title": "Trump announces staff secretary Will Scharf will be his new White House counsel — ABC News (AP)" }
       ]
+    },
+    {
+      "name": "D. John Sauer",
+      "slug": "john-sauer",
+      "relationship_type": "colleague",
+      "description": "Built the presidential-immunity legal strategy for Trump together; both are former Missouri state lawyers.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Will_Scharf", "title": "Will Scharf — Wikipedia" }
+      ]
     }
   ],
   "office": {

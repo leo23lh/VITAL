@@ -1,0 +1,97 @@
+{
+  "name": "D. John Sauer",
+  "aliases": ["John Sauer", "Dean John Sauer"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Solicitor General of the United States (since April 2025)",
+  "summary": "D. John Sauer, a former Missouri solicitor general, argued Trump’s presidential-immunity case at the Supreme Court in 2024, winning a 6–3 ruling, and has been U.S. solicitor general, the government’s top Supreme Court lawyer, since April 2025 after a 52–45 confirmation.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/D._John_Sauer", "title": "D. John Sauer — Wikipedia" },
+    { "url": "https://news.bloomberglaw.com/us-law-week/trump-lawyer-john-sauer-confirmed-as-us-solicitor-general", "title": "Trump lawyer John Sauer confirmed as US solicitor general — Bloomberg Law" },
+    { "url": "https://www.hstoday.us/industry/people-on-the-move/dean-john-sauer-confirmed-as-u-s-solicitor-general-in-52-45-senate-vote/", "title": "Dean John Sauer confirmed as U.S. Solicitor General in 52–45 Senate vote — HSToday" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2023,
+      "role": "Solicitor General of Missouri",
+      "org": "Missouri Attorney General’s Office",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/D._John_Sauer", "title": "D. John Sauer — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": 2024,
+      "role": "Lawyer for Donald Trump (presidential immunity case)",
+      "org": "Trump legal team",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/D._John_Sauer", "title": "D. John Sauer — Wikipedia" },
+        { "url": "https://news.bloomberglaw.com/us-law-week/trump-lawyer-john-sauer-confirmed-as-us-solicitor-general", "title": "Trump lawyer John Sauer confirmed as US solicitor general — Bloomberg Law" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Solicitor General of the United States",
+      "org": "U.S. Department of Justice",
+      "sources": [
+        { "url": "https://www.hstoday.us/industry/people-on-the-move/dean-john-sauer-confirmed-as-u-s-solicitor-general-in-52-45-senate-vote/", "title": "Dean John Sauer confirmed as U.S. Solicitor General in 52–45 Senate vote — HSToday" },
+        { "url": "https://en.wikipedia.org/wiki/D._John_Sauer", "title": "D. John Sauer — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Argued Trump’s immunity case at the Supreme Court in 2024; his solicitor general since 2025.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/us-law-week/trump-lawyer-john-sauer-confirmed-as-us-solicitor-general", "title": "Trump lawyer John Sauer confirmed as US solicitor general — Bloomberg Law" },
+        { "url": "https://en.wikipedia.org/wiki/D._John_Sauer", "title": "D. John Sauer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Todd Blanche",
+      "slug": "todd-blanche",
+      "relationship_type": "employer",
+      "description": "The Justice Department’s Supreme Court advocate, under the attorney general.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.hstoday.us/industry/people-on-the-move/dean-john-sauer-confirmed-as-u-s-solicitor-general-in-52-45-senate-vote/", "title": "Dean John Sauer confirmed as U.S. Solicitor General in 52–45 Senate vote — HSToday" }
+      ]
+    },
+    {
+      "name": "Will Scharf",
+      "slug": "will-scharf",
+      "relationship_type": "colleague",
+      "description": "Built the presidential-immunity legal strategy for Trump together; both are former Missouri state lawyers.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Will_Scharf", "title": "Will Scharf — Wikipedia" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Solicitor General",
+    "unit": "justice",
+    "rank": 3,
+    "reports_to": "todd-blanche",
+    "since": "2025-04-04",
+    "sources": [
+      { "url": "https://www.hstoday.us/industry/people-on-the-move/dean-john-sauer-confirmed-as-u-s-solicitor-general-in-52-45-senate-vote/", "title": "Dean John Sauer confirmed as U.S. Solicitor General in 52–45 Senate vote — HSToday" },
+      { "url": "https://en.wikipedia.org/wiki/D._John_Sauer", "title": "D. John Sauer — Wikipedia" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

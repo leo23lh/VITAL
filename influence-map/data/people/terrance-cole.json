@@ -1,0 +1,53 @@
+{
+  "name": "Terrance Cole",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Administrator of the Drug Enforcement Administration (since July 2025)",
+  "summary": "Terrance Cole has led the Drug Enforcement Administration since his Senate confirmation in July 2025.",
+  "sources": [
+    { "url": "https://www.senate.gov/pagelayout/legislative/one_item_and_teasers/nom_confc.htm", "title": "Nominations confirmed (civilian) — U.S. Senate" },
+    { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Justice_appointments_by_Donald_Trump", "title": "List of Department of Justice appointments by Donald Trump — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Administrator",
+      "org": "Drug Enforcement Administration",
+      "sources": [
+        { "url": "https://www.senate.gov/pagelayout/legislative/one_item_and_teasers/nom_confc.htm", "title": "Nominations confirmed (civilian) — U.S. Senate" },
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Justice_appointments_by_Donald_Trump", "title": "List of Department of Justice appointments by Donald Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Todd Blanche",
+      "slug": "todd-blanche",
+      "relationship_type": "employer",
+      "description": "Runs the DEA inside the Justice Department.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Justice_appointments_by_Donald_Trump", "title": "List of Department of Justice appointments by Donald Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Administrator, DEA",
+    "unit": "justice",
+    "rank": 3,
+    "reports_to": "todd-blanche",
+    "since": "2025-07",
+    "sources": [
+      { "url": "https://www.senate.gov/pagelayout/legislative/one_item_and_teasers/nom_confc.htm", "title": "Nominations confirmed (civilian) — U.S. Senate" },
+      { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Justice_appointments_by_Donald_Trump", "title": "List of Department of Justice appointments by Donald Trump — Wikipedia" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

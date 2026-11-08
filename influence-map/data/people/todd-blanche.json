@@ -142,6 +142,42 @@
         { "url": "https://www.nbcnews.com/politics/justice-department/fbi-director-kash-patel-clashes-democrats-oversight-hearing-rcna597915", "title": "FBI Director Kash Patel clashes with Democrats at oversight hearing — NBC News (September 2026)" },
         { "url": "https://en.wikipedia.org/wiki/Kash_Patel", "title": "Kash Patel — Wikipedia" }
       ]
+    },
+    {
+      "name": "D. John Sauer",
+      "slug": "john-sauer",
+      "relationship_type": "employee",
+      "description": "The Justice Department’s Supreme Court advocate, under the attorney general.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.hstoday.us/industry/people-on-the-move/dean-john-sauer-confirmed-as-u-s-solicitor-general-in-52-45-senate-vote/", "title": "Dean John Sauer confirmed as U.S. Solicitor General in 52–45 Senate vote — HSToday" }
+      ]
+    },
+    {
+      "name": "Robert Cekada",
+      "slug": "robert-cekada",
+      "relationship_type": "employee",
+      "description": "Confirmed to run ATF in April 2026 and announced its rule changes alongside Blanche.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://rollcall.com/2026/04/29/senate-confirms-atf-director-who-announces-new-rules/", "title": "Senate confirms ATF director, who announces new rules — Roll Call" }
+      ]
+    },
+    {
+      "name": "Terrance Cole",
+      "slug": "terrance-cole",
+      "relationship_type": "employee",
+      "description": "Runs the DEA inside the Justice Department.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Justice_appointments_by_Donald_Trump", "title": "List of Department of Justice appointments by Donald Trump — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

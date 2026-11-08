@@ -191,6 +191,56 @@
         { "url": "https://www.hhs.gov/about/leadership/courtney-parella-spencer.html", "title": "Courtney Parella Spencer — U.S. Department of Health and Human Services" },
         { "url": "https://subscriber.politicopro.com/article/2026/05/rfk-jr-taps-labor-official-as-top-spokesperson-00940497", "title": "RFK Jr. taps Labor official as top spokesperson — POLITICO Pro (May 2026)" }
       ]
+    },
+    {
+      "name": "Erica Schwartz",
+      "slug": "erica-schwartz",
+      "relationship_type": "employee",
+      "description": "Kennedy’s CDC director since August 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.aha.org/topics/government-appointments", "title": "Government appointments — American Hospital Association" }
+      ]
+    },
+    {
+      "name": "Mehmet Oz",
+      "slug": "mehmet-oz",
+      "relationship_type": "employee",
+      "description": "Runs Medicare and Medicaid under Kennedy since April 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.aacom.org/news-reports/news/2025/04/07/senate-confirms-nih-and-fda-directors--cms-administrator", "title": "Senate confirms NIH and FDA directors, CMS administrator — AACOM" },
+        { "url": "https://www.ajc.com/news/2026/02/nih-director-will-temporarily-run-cdc-in-leadership-shake-up", "title": "NIH director will temporarily run CDC in leadership shake-up — Atlanta Journal-Constitution (February 2026)" }
+      ]
+    },
+    {
+      "name": "Jay Bhattacharya",
+      "slug": "jay-bhattacharya",
+      "relationship_type": "employee",
+      "description": "Kennedy’s NIH director, who also ran the CDC as acting director in 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.healthcare-brew.com/stories/2025/03/27/nih-fda-heads-confirmed", "title": "NIH, FDA heads confirmed — Healthcare Brew" },
+        { "url": "https://www.ajc.com/news/2026/02/nih-director-will-temporarily-run-cdc-in-leadership-shake-up", "title": "NIH director will temporarily run CDC in leadership shake-up — Atlanta Journal-Constitution (February 2026)" }
+      ]
+    },
+    {
+      "name": "Kyle Diamantas",
+      "slug": "kyle-diamantas",
+      "relationship_type": "employee",
+      "description": "Runs the FDA as acting commissioner under Kennedy.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.astho.org/communications/blog/2026/more-recent-shifts-in-hhs-leadership-june-2026/", "title": "(More) recent shifts in HHS leadership: June 2026 — ASTHO" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

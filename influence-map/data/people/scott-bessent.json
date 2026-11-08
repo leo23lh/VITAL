@@ -159,6 +159,19 @@
         { "url": "https://home.treasury.gov/news/press-releases/sb0479", "title": "Treasury Department announces new appointments — U.S. Department of the Treasury (April 2026)" },
         { "url": "https://www.freemalaysiatoday.com/category/business/2026/10/10/us-treasury-chief-to-skip-imf-annual-meetings-in-bangkok", "title": "US Treasury chief to skip IMF annual meetings in Bangkok — Reuters via Free Malaysia Today" }
       ]
+    },
+    {
+      "name": "Frank Bisignano",
+      "slug": "frank-bisignano",
+      "relationship_type": "employee",
+      "description": "Bessent made him the IRS’s first CEO in October 2025; he reports to Bessent, who stays acting commissioner.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.taxnotes.com/featured-news/bessent-taps-social-security-chief-first-ever-ceo-irs/2025/10/06/7t2mq", "title": "Bessent taps Social Security chief as first-ever CEO of IRS — Tax Notes" },
+        { "url": "https://www.taxnotes.com/featured-news/bisignano-expected-stay-helm-irs/2026/01/06/7tf5p", "title": "Bisignano expected to stay at the helm of IRS — Tax Notes (January 2026)" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
