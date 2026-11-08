@@ -254,6 +254,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" }
       ]
+    },
+    {
+      "name": "Mike Pence",
+      "slug": "mike-pence",
+      "relationship_type": "enemy",
+      "description": "Pence endorsed Karrin Taylor Robson over Trump's pick Lake in Arizona's 2022 Republican primary for governor, a proxy fight with Trump; Lake won the primary.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2022-election/pence-endorses-robson-arizona-governor-split-trump-rcna38675", "title": "Pence endorses Robson for Arizona governor, splitting with Trump — NBC News" },
+        { "url": "https://www.axios.com/local/phoenix/2022/07/18/trump-endorses-robson-pitting-him-against-trump-arizona-governors-race", "title": "Pence endorses Robson, pitting him against Trump in Arizona's governor's race — Axios Phoenix" }
+      ]
     }
   ],
   "source_conflicts": [

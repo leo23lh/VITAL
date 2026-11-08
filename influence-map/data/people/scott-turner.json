@@ -82,6 +82,32 @@
         { "url": "https://dallasnews.com/news/2024/11/22/trump-picks-former-nfl-player-white-house-aide-scott-turner-for-hud-secretary", "title": "Dallas Morning News: Trump picks Scott Turner for HUD" },
         { "url": "https://www.scotsmanguide.com/news/turner-confirmed-as-trumps-hud-secretary/", "title": "Scotsman Guide: Turner confirmed as Trump's HUD secretary" }
       ]
+    },
+    {
+      "name": "Brooke Rollins",
+      "slug": "brooke-rollins",
+      "relationship_type": "colleague",
+      "description": "At the America First Policy Institute, Turner chaired its Center for Education Opportunity while Rollins was its president and CEO; both joined Trump's Cabinet in 2025.",
+      "start_year": 2021,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://americafirstpolicy.com/team/scottturner", "title": "Scott Turner — America First Policy Institute" },
+        { "url": "https://www.dailysignal.com/2025/03/13/america-first-policy-institute-announces-new-leadership-after-trump-taps-founders-for-cabinet/", "title": "AFPI announces new leadership after Trump taps founders for Cabinet — Daily Signal" }
+      ]
+    },
+    {
+      "name": "Linda McMahon",
+      "slug": "linda-mcmahon",
+      "relationship_type": "colleague",
+      "description": "Overlapped at the America First Policy Institute, which McMahon co-founded and chaired, while Turner chaired its education center; no source describes them working together directly.",
+      "start_year": 2021,
+      "end_year": 2024,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://americafirstpolicy.com/team/scottturner", "title": "Scott Turner — America First Policy Institute" },
+        { "url": "https://www.dailysignal.com/2025/03/13/america-first-policy-institute-announces-new-leadership-after-trump-taps-founders-for-cabinet/", "title": "AFPI announces new leadership after Trump taps founders for Cabinet — Daily Signal" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

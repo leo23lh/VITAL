@@ -328,6 +328,18 @@
       "sources": [
         { "url": "https://forward.com/fast-forward/386396/steve-bannon-war-paul-singer-funding-of-anti-trump-research", "title": "Paul Singer faces 'off the chain' wrath of Steve Bannon over Trump dossier — The Forward" }
       ]
+    },
+    {
+      "name": "Ivanka Trump",
+      "slug": "ivanka-trump",
+      "relationship_type": "enemy",
+      "description": "Rival White House factions in 2017: Bannon's populists against \"Javanka\"; they traded accusations of leaking, and after leaving Bannon called the couple \"the railhead of all bad decisions\".",
+      "start_year": 2017,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.scmp.com/news/world/united-states-canada/article/2125569/railhead-all-bad-decisions-steve-bannon-blames", "title": "'The railhead of all bad decisions': Steve Bannon blames 'Javanka' — South China Morning Post" },
+        { "url": "https://forward.com/fast-forward/390671/steve-bannon-blames-javanka-for-every-bad-decision-trump-has-made/", "title": "Steve Bannon blames \"Javanka\" for every bad decision Trump has made — The Forward" }
+      ]
     }
   ],
   "source_conflicts": [],

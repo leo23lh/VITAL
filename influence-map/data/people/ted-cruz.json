@@ -205,6 +205,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Kellyanne_Conway", "title": "Kellyanne Conway — Wikipedia" }
       ]
+    },
+    {
+      "name": "Mike Pence",
+      "slug": "mike-pence",
+      "relationship_type": "ally",
+      "description": "As Indiana governor, Pence endorsed Cruz four days before the state's May 2016 primary, calling him a principled conservative, while praising Trump; Trump won the primary and then picked Pence as his running mate.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.npr.org/2016/04/29/476171657/cruz-lands-indiana-governor-mike-pences-endorsement", "title": "Cruz lands Indiana Governor Mike Pence's endorsement — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/ted-cruz-to-be-endorsed-by-indiana-governor", "title": "Ted Cruz to be endorsed by Indiana governor — AP via PBS NewsHour" }
+      ]
     }
   ],
   "affiliations": [],

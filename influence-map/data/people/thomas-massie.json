@@ -117,6 +117,19 @@
         { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" },
         { "url": "https://en.wikipedia.org/wiki/United_Democracy_Project", "title": "United Democracy Project — Wikipedia" }
       ]
+    },
+    {
+      "name": "Rand Paul",
+      "slug": "rand-paul",
+      "relationship_type": "ally",
+      "description": "Kentucky's libertarian-leaning pair: Paul was the only Kentucky Republican in Congress to back Massie against Trump's 2026 primary challenge, pledging to be with him \"every step of the way\"; Trump called Massie \"Rand Paul, Jr.\"",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://digital-release.thehill.com/homenews/campaign/5572122-rand-paul-backs-thomas-massie", "title": "Paul vows to support Massie against Trump-backed primary challenger — The Hill" },
+        { "url": "https://spectrumnews1.com/ky/louisville/news/2026/03/31/paul-backs-massie-campaign", "title": "Paul backs Massie campaign — Spectrum News 1" },
+        { "url": "https://kvia.com/politics/cnn-us-politics/2026/02/07/a-defiant-thomas-massie-takes-on-the-maga-machine-in-heated-kentucky-primary/", "title": "A defiant Thomas Massie takes on the MAGA machine in heated Kentucky primary — CNN via KVIA" }
+      ]
     }
   ],
   "aliases": [],

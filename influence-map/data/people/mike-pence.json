@@ -41,6 +41,70 @@
         { "url": "https://rollcall.com/2010/08/02/former-gop-leadership-aide-pans-party-agenda/", "title": "Former GOP leadership aide pans party agenda — Roll Call" }
       ],
       "end_year": 2010
+    },
+    {
+      "name": "Heritage Foundation",
+      "slug": "heritage-foundation",
+      "relationship_type": "employer",
+      "description": "Joined Heritage as a distinguished visiting fellow two weeks after leaving office in February 2021, advising its experts and writing a monthly Daily Signal column; the fellowship ended in 2022.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.heritage.org/press/vice-president-mike-pence-joins-heritage-foundation-distinguished-visiting-fellow", "title": "Vice President Mike Pence joins Heritage Foundation as distinguished visiting fellow — Heritage Foundation" },
+        { "url": "https://www.washingtonian.com/2021/02/04/mike-pence-is-joining-the-heritage-foundation-and-writing-a-column/", "title": "Mike Pence is joining the Heritage Foundation and writing a column — Washingtonian" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "ally",
+      "description": "As Indiana governor, Pence endorsed Cruz four days before the state's May 2016 primary, calling him a principled conservative, while praising Trump; Trump won the primary and then picked Pence as his running mate.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.npr.org/2016/04/29/476171657/cruz-lands-indiana-governor-mike-pences-endorsement", "title": "Cruz lands Indiana Governor Mike Pence's endorsement — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/ted-cruz-to-be-endorsed-by-indiana-governor", "title": "Ted Cruz to be endorsed by Indiana governor — AP via PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "rival",
+      "description": "Opposing vice-presidential nominees in 2020; they debated in Salt Lake City on October 7, 2020, and the Biden–Harris ticket won.",
+      "start_year": 2020,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Pence", "title": "Mike Pence — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "enemy",
+      "description": "Pence endorsed Karrin Taylor Robson over Trump's pick Lake in Arizona's 2022 Republican primary for governor, a proxy fight with Trump; Lake won the primary.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2022-election/pence-endorses-robson-arizona-governor-split-trump-rcna38675", "title": "Pence endorses Robson for Arizona governor, splitting with Trump — NBC News" },
+        { "url": "https://www.axios.com/local/phoenix/2022/07/18/trump-endorses-robson-pitting-him-against-trump-arizona-governors-race", "title": "Pence endorses Robson, pitting him against Trump in Arizona's governor's race — Axios Phoenix" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "enemy",
+      "description": "After January 6, 2021, Pelosi demanded that Pence invoke the 25th Amendment to remove Trump within 24 hours, or the House would impeach; Pence refused in a letter to her on January 12.",
+      "start_year": 2021,
+      "end_year": 2021,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/pence-tells-pelosi-he-wont-invoke-the-25th-amendment", "title": "Pence tells Pelosi he won't invoke the 25th Amendment — PBS NewsHour" },
+        { "url": "https://www.npr.org/sections/trump-impeachment-effort-live-updates/2021/01/12/955750169/house-to-vote-on-25th-amendment-resolution-against-trump", "title": "House approves 25th Amendment resolution against Trump; Pence says he won't invoke — NPR" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

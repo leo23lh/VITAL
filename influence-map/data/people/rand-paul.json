@@ -39,6 +39,43 @@
         { "url": "https://www.semafor.com/article/08/28/2025/ambassador-gor-trumps-hiring-chief-on-fast-track-to-india", "title": "Ambassador Gor: Trump's hiring chief on fast track to India — Semafor" }
       ],
       "end_year": 2020
+    },
+    {
+      "name": "Thomas Massie",
+      "slug": "thomas-massie",
+      "relationship_type": "ally",
+      "description": "Kentucky's libertarian-leaning pair: Paul was the only Kentucky Republican in Congress to back Massie against Trump's 2026 primary challenge, pledging to be with him \"every step of the way\"; Trump called Massie \"Rand Paul, Jr.\"",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://digital-release.thehill.com/homenews/campaign/5572122-rand-paul-backs-thomas-massie", "title": "Paul vows to support Massie against Trump-backed primary challenger — The Hill" },
+        { "url": "https://spectrumnews1.com/ky/louisville/news/2026/03/31/paul-backs-massie-campaign", "title": "Paul backs Massie campaign — Spectrum News 1" },
+        { "url": "https://kvia.com/politics/cnn-us-politics/2026/02/07/a-defiant-thomas-massie-takes-on-the-maga-machine-in-heated-kentucky-primary/", "title": "A defiant Thomas Massie takes on the MAGA machine in heated Kentucky primary — CNN via KVIA" }
+      ]
+    },
+    {
+      "name": "Markwayne Mullin",
+      "slug": "markwayne-mullin",
+      "relationship_type": "enemy",
+      "description": "As chairman of the Senate Homeland Security Committee, Paul challenged Mullin's fitness to lead DHS at his March 2026 hearing and was the only Republican to vote against him; Democrat John Fetterman's vote carried the nomination 8–7.",
+      "start_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/markwayne-mullin-nomination-homeland-security-secretary-rand-paul", "title": "Markwayne Mullin nomination for Homeland Security secretary — CBS News" },
+        { "url": "https://abc7news.com/post/markwayne-mullin-nomination-dhs-secretary-narrowly-clears-senate-committee-support-democrat-fetterman/18735272/", "title": "Markwayne Mullin nomination to be DHS secretary narrowly clears Senate committee — ABC News" }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "ally",
+      "description": "Paul publicly opposed the Senate Intelligence Committee's May 2019 subpoena of Trump Jr., saying it could not have happened \"without Republicans being complicit\"; Wikipedia calls Trump Jr. a close friend of Paul's, which news reports reviewed do not state.",
+      "start_year": 2019,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.axios.com/2019/05/09/donald-trump-jr-subpoena-republican-reaction", "title": "Donald Trump Jr.'s Senate Intel subpoena faces GOP backlash — Axios" },
+        { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

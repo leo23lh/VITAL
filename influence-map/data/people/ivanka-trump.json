@@ -35,6 +35,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" }
       ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "enemy",
+      "description": "Rival White House factions in 2017: Bannon's populists against \"Javanka\"; they traded accusations of leaking, and after leaving Bannon called the couple \"the railhead of all bad decisions\".",
+      "start_year": 2017,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.scmp.com/news/world/united-states-canada/article/2125569/railhead-all-bad-decisions-steve-bannon-blames", "title": "'The railhead of all bad decisions': Steve Bannon blames 'Javanka' — South China Morning Post" },
+        { "url": "https://forward.com/fast-forward/390671/steve-bannon-blames-javanka-for-every-bad-decision-trump-has-made/", "title": "Steve Bannon blames \"Javanka\" for every bad decision Trump has made — The Forward" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

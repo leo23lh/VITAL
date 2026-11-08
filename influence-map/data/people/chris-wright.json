@@ -77,6 +77,19 @@
         { "url": "https://www.breitbart.com/politics/2025/02/14/trump-establishes-national-energy-dominance-council-led-by-secretaries-burgum-wright", "title": "Breitbart: Trump establishes National Energy Dominance Council led by Burgum and Wright" },
         { "url": "https://www.eenews.net/articles/black-box-what-exactly-is-trumps-energy-council-doing/", "title": "E&E News: What exactly is Trump's energy council doing?" }
       ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "colleague",
+      "description": "Fellow board members of the nuclear startup Oklo, which Altman chaired: Wright resigned from its board on becoming energy secretary in February 2025, and Altman stepped down as chairman that April.",
+      "start_year": null,
+      "end_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.businesswire.com/news/home/20250206004616/en/Oklo-Announces-Board-Transition-Following-Chris-Wrights-Confirmation-as-Secretary-of-Energy", "title": "Oklo announces board transition following Chris Wright's confirmation as Secretary of Energy — Business Wire" },
+        { "url": "https://www.nucnet.org/news/sam-altman-steps-down-chair-of-nuclear-startup-oklo-clearing-way-for-supply-talks-with-ai-companies-4-3-2025", "title": "Sam Altman steps down as chair of nuclear startup Oklo — NucNet" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

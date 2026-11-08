@@ -140,6 +140,19 @@
       "sources": [
         { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" }
       ]
+    },
+    {
+      "name": "Scott Turner",
+      "slug": "scott-turner",
+      "relationship_type": "colleague",
+      "description": "At the America First Policy Institute, Turner chaired its Center for Education Opportunity while Rollins was its president and CEO; both joined Trump's Cabinet in 2025.",
+      "start_year": 2021,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://americafirstpolicy.com/team/scottturner", "title": "Scott Turner — America First Policy Institute" },
+        { "url": "https://www.dailysignal.com/2025/03/13/america-first-policy-institute-announces-new-leadership-after-trump-taps-founders-for-cabinet/", "title": "AFPI announces new leadership after Trump taps founders for Cabinet — Daily Signal" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

@@ -258,6 +258,18 @@
         { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" },
         { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" }
       ]
+    },
+    {
+      "name": "Mike Pence",
+      "slug": "mike-pence",
+      "relationship_type": "rival",
+      "description": "Opposing vice-presidential nominees in 2020; they debated in Salt Lake City on October 7, 2020, and the Biden–Harris ticket won.",
+      "start_year": 2020,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Pence", "title": "Mike Pence — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

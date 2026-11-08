@@ -216,6 +216,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" }
       ]
+    },
+    {
+      "name": "Rand Paul",
+      "slug": "rand-paul",
+      "relationship_type": "ally",
+      "description": "Paul publicly opposed the Senate Intelligence Committee's May 2019 subpoena of Trump Jr., saying it could not have happened \"without Republicans being complicit\"; Wikipedia calls Trump Jr. a close friend of Paul's, which news reports reviewed do not state.",
+      "start_year": 2019,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.axios.com/2019/05/09/donald-trump-jr-subpoena-republican-reaction", "title": "Donald Trump Jr.'s Senate Intel subpoena faces GOP backlash — Axios" },
+        { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

@@ -93,6 +93,19 @@
         { "url": "https://www.semafor.com/article/07/22/2024/nancy-pelosi-endorses-kamala-harris-democrat-president-nominee", "title": "Nancy Pelosi endorses Kamala Harris as Democratic presidential nominee — Semafor" },
         { "url": "https://abcnews.go.com/US/wireStory/former-house-speaker-nancy-pelosi-endorses-vice-president-112170203", "title": "Former House Speaker Nancy Pelosi endorses Vice President Kamala Harris — AP via ABC News" }
       ]
+    },
+    {
+      "name": "Mike Pence",
+      "slug": "mike-pence",
+      "relationship_type": "enemy",
+      "description": "After January 6, 2021, Pelosi demanded that Pence invoke the 25th Amendment to remove Trump within 24 hours, or the House would impeach; Pence refused in a letter to her on January 12.",
+      "start_year": 2021,
+      "end_year": 2021,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/pence-tells-pelosi-he-wont-invoke-the-25th-amendment", "title": "Pence tells Pelosi he won't invoke the 25th Amendment — PBS NewsHour" },
+        { "url": "https://www.npr.org/sections/trump-impeachment-effort-live-updates/2021/01/12/955750169/house-to-vote-on-25th-amendment-resolution-against-trump", "title": "House approves 25th Amendment resolution against Trump; Pence says he won't invoke — NPR" }
+      ]
     }
   ],
   "affiliations": [],

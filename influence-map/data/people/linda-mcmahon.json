@@ -157,6 +157,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Linda_McMahon", "title": "Wikipedia: Linda McMahon" }
       ]
+    },
+    {
+      "name": "Scott Turner",
+      "slug": "scott-turner",
+      "relationship_type": "colleague",
+      "description": "Overlapped at the America First Policy Institute, which McMahon co-founded and chaired, while Turner chaired its education center; no source describes them working together directly.",
+      "start_year": 2021,
+      "end_year": 2024,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://americafirstpolicy.com/team/scottturner", "title": "Scott Turner — America First Policy Institute" },
+        { "url": "https://www.dailysignal.com/2025/03/13/america-first-policy-institute-announces-new-leadership-after-trump-taps-founders-for-cabinet/", "title": "AFPI announces new leadership after Trump taps founders for Cabinet — Daily Signal" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
