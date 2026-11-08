@@ -57,14 +57,13 @@
       "name": "Donald Trump",
       "slug": "donald-trump",
       "relationship_type": "funded_by",
-      "description": "Mellon gave $10 million to the pro-Trump America First Action in 2020 and about $150 million to MAGA Inc. in the 2024 cycle, Trump's largest donor; $2 million more in 2025.",
+      "description": "Gave $10 million to the pro-Trump super PAC America First Action in 2020. His much larger 2024–25 giving (about $152 million) went to MAGA Inc.",
       "start_year": 2020,
-      "confidence": 0.95,
+      "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
-        { "url": "https://www.nbcnews.com/politics/2024-election/timothy-mellon-leads-huge-month-trump-megadonors-pouring-cash-into-election-rcna158204", "title": "Timothy Mellon leads huge month for Trump megadonors — NBC News" },
-        { "url": "https://www.cnn.com/2024/08/21/politics/cash-advantage-harris-trump-rfk-filings/index.html", "title": "Harris erases Trump's cash edge while RFK Jr. faces dwindling resources — CNN" }
-      ]
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+      ],
+      "end_year": 2020
     },
     {
       "name": "Robert F. Kennedy Jr.",

@@ -75,11 +75,10 @@
       "name": "Donald Trump",
       "slug": "donald-trump",
       "relationship_type": "funded_by",
-      "description": "Yass gave $16 million to the pro-Trump MAGA Inc. in the first half of 2025 (the largest gift that period) and at least $2.5 million toward Trump's White House ballroom. After they met at a Club for Growth event in March 2024, Trump went from backing a TikTok ban to opposing one; Yass's firm is a major ByteDance investor.",
+      "description": "Gave at least $2.5 million toward Trump's White House ballroom (his $16 million in 2025 went to MAGA Inc.). After they met at a Club for Growth event in March 2024, Trump went from backing a TikTok ban to opposing one; Yass's firm is a major ByteDance investor.",
       "start_year": 2024,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
         { "url": "https://www.inquirer.com/politics/nation/jeffrey-yass-trump-ballroom-billionaire-donations-20251103.html", "title": "Pennsylvania's richest man has donated at least $2.5 million to Trump's ballroom — Philadelphia Inquirer" },
         { "url": "https://www.nbcnews.com/tech/tech-news/jeff-yass-billionaire-donor-investments-tiktoks-parent-company-rcna142531", "title": "Who is Jeff Yass? The billionaire donor with investments in TikTok's parent company — NBC News" }
       ]

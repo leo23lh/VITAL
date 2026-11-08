@@ -90,18 +90,6 @@
       ]
     },
     {
-      "name": "Donald Trump",
-      "slug": "donald-trump",
-      "relationship_type": "funded_by",
-      "description": "Schwarzman raised money for Trump in 2024 and gave $5 million to the pro-Trump MAGA Inc. in September 2026.",
-      "start_year": 2024,
-      "confidence": 0.85,
-      "sources": [
-        { "url": "https://www.axios.com/2024/05/24/trump-2024-stephen-schwarzman-blackstone", "title": "Blackstone CEO Steve Schwarzman backs Trump, will raise money for him — Axios" },
-        { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" }
-      ]
-    },
-    {
       "name": "Peter G. Peterson",
       "slug": "peter-g-peterson",
       "relationship_type": "co-founder",

@@ -46,13 +46,15 @@
       "name": "Elon Musk",
       "slug": "elon-musk",
       "relationship_type": "donor",
-      "description": "More than $118 million by October 2024 (91% of its money), then $216 million in the 2026 cycle.",
+      "description": "More than $118 million by October 2024 (91% of its money), then $216 million in the 2026 cycle. In all he spent at least $250 million backing Trump in 2024, mostly through America PAC (other counts run higher).",
       "start_year": 2024,
       "confidence": 0.95,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
         { "url": "https://www.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans", "title": "Here's what Elon Musk's $445 million is getting Republicans — CNN" },
-        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" }
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" },
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
+        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" }
       ]
     },
     {

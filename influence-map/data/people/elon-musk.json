@@ -180,19 +180,6 @@
     {
       "name": "Donald Trump",
       "slug": "donald-trump",
-      "relationship_type": "funded_by",
-      "description": "Musk spent at least $250 million backing Trump in 2024, mainly through America PAC (other counts run higher), then led DOGE in 2025. Axios reported in July 2026 that he planned heavy spending for Republicans in the midterms.",
-      "start_year": 2024,
-      "end_year": 2026,
-      "confidence": 0.9,
-      "sources": [
-        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
-        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" }
-      ]
-    },
-    {
-      "name": "Donald Trump",
-      "slug": "donald-trump",
       "relationship_type": "enemy",
       "description": "In June 2025, after Musk left DOGE, a public feud over Trump's tax-and-spending bill led Trump to threaten Musk's government contracts and Musk to claim Trump would have lost without him. Musk later returned to funding Republicans.",
       "start_year": 2025,
@@ -404,7 +391,7 @@
       "name": "Ken Paxton",
       "slug": "ken-paxton",
       "relationship_type": "funded_by",
-      "description": "Musk gave $10 million to Lone Star Liberty PAC, which backed Paxton's 2026 Texas Senate run, and $158 million to the Senate Leadership Fund, which passed the same amount to Texas PAC, Paxton's largest outside backer. Paxton lost to Democrat James Talarico.",
+      "description": "Musk gave $10 million to Lone Star Liberty PAC, which backed Paxton's 2026 Texas Senate run (his $158 million to the Senate Leadership Fund, passed on to Texas PAC, is recorded there). Paxton lost to Democrat James Talarico.",
       "start_year": 2026,
       "confidence": 0.85,
       "sources": [
@@ -555,13 +542,27 @@
       "name": "America PAC",
       "slug": "america-pac",
       "relationship_type": "funded_by",
-      "description": "More than $118 million by October 2024 (91% of its money), then $216 million in the 2026 cycle.",
+      "description": "More than $118 million by October 2024 (91% of its money), then $216 million in the 2026 cycle. In all he spent at least $250 million backing Trump in 2024, mostly through America PAC (other counts run higher).",
       "start_year": 2024,
       "confidence": 0.95,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
         { "url": "https://www.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans", "title": "Here's what Elon Musk's $445 million is getting Republicans — CNN" },
-        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" }
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" },
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
+        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump put Musk in charge of the Department of Government Efficiency (DOGE) in 2025; he led it for about four months.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
       ]
     }
   ],

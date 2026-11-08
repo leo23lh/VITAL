@@ -64,17 +64,6 @@
   ],
   "connections": [
     {
-      "name": "Yoram Hazony",
-      "slug": "yoram-hazony",
-      "relationship_type": "donor",
-      "description": "The Thomas D. Klingenstein Fund gave Hazony's Edmund Burke Foundation $100,058 in December 2019 and $201,258 in 2024.",
-      "start_year": 2019,
-      "confidence": 0.8,
-      "sources": [
-        { "url": "https://www.influencewatch.org/person/thomas-d-klingenstein/", "title": "Thomas D. Klingenstein — InfluenceWatch" }
-      ]
-    },
-    {
       "name": "JD Vance",
       "slug": "jd-vance",
       "relationship_type": "donor",
@@ -96,17 +85,6 @@
       "confidence": 0.75,
       "sources": [
         { "url": "https://vice.com/en/article/claremont-institute-thomas-klingenstein-super-pac", "title": "Claremont Institute chairman Thomas Klingenstein super PAC — Vice" }
-      ]
-    },
-    {
-      "name": "Donald Trump",
-      "slug": "donald-trump",
-      "relationship_type": "donor",
-      "description": "Klingenstein gave $1 million to the pro-Trump MAGA Inc. in July 2024, part of more than $10 million in 2024-cycle giving.",
-      "start_year": 2024,
-      "confidence": 0.8,
-      "sources": [
-        { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" }
       ]
     },
     {

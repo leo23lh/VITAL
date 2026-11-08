@@ -63,19 +63,6 @@
       ]
     },
     {
-      "name": "Donald Trump",
-      "slug": "donald-trump",
-      "relationship_type": "funded_by",
-      "description": "After meeting Trump in 2024, Singer gave $5 million to the pro-Trump MAGA Inc., per a compilation of FEC data.",
-      "start_year": 2024,
-      "end_year": 2024,
-      "confidence": 0.7,
-      "sources": [
-        { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Fortune: Griffin and Singer meet Trump about donating" },
-        { "url": "https://www.influencewatch.org/person/paul-e-singer/", "title": "InfluenceWatch" }
-      ]
-    },
-    {
       "name": "Ken Griffin",
       "slug": "ken-griffin",
       "relationship_type": "ally",

@@ -198,20 +198,6 @@
       ]
     },
     {
-      "name": "Donald Trump",
-      "slug": "donald-trump",
-      "relationship_type": "funded_by",
-      "description": "Lonsdale helped lead and raise money for America PAC, the super PAC backing Trump's 2024 campaign; his company gave it $1 million.",
-      "start_year": 2024,
-      "end_year": 2024,
-      "confidence": 0.8,
-      "sources": [
-        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
-        { "url": "https://hn.jakechampion.name/reader/https://www.theverge.com/2024/7/16/24199700/elon-musk-joe-lonsdale-america-pac-donald-trump", "title": "Elon Musk and tech elite back a pro-Trump super PAC — The Verge" },
-        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
-      ]
-    },
-    {
       "name": "JD Vance",
       "slug": "jd-vance",
       "relationship_type": "ally",

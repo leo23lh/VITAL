@@ -341,19 +341,6 @@
     {
       "name": "Elon Musk",
       "slug": "elon-musk",
-      "relationship_type": "donor",
-      "description": "Musk spent at least $250 million backing Trump in 2024, mainly through America PAC (other counts run higher), then led DOGE in 2025. Axios reported in July 2026 that he planned heavy spending for Republicans in the midterms.",
-      "start_year": 2024,
-      "end_year": 2026,
-      "confidence": 0.9,
-      "sources": [
-        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
-        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" }
-      ]
-    },
-    {
-      "name": "Elon Musk",
-      "slug": "elon-musk",
       "relationship_type": "enemy",
       "description": "In June 2025, after Musk left DOGE, a public feud over Trump's tax-and-spending bill led Trump to threaten Musk's government contracts and Musk to claim Trump would have lost without him. Musk later returned to funding Republicans.",
       "start_year": 2025,
@@ -698,20 +685,6 @@
       ]
     },
     {
-      "name": "Joe Lonsdale",
-      "slug": "joe-lonsdale",
-      "relationship_type": "donor",
-      "description": "Lonsdale helped lead and raise money for America PAC, the super PAC backing Trump's 2024 campaign; his company gave it $1 million.",
-      "start_year": 2024,
-      "end_year": 2024,
-      "confidence": 0.8,
-      "sources": [
-        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
-        { "url": "https://hn.jakechampion.name/reader/https://www.theverge.com/2024/7/16/24199700/elon-musk-joe-lonsdale-america-pac-donald-trump", "title": "Elon Musk and tech elite back a pro-Trump super PAC — The Verge" },
-        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
-      ]
-    },
-    {
       "name": "Pete Hegseth",
       "slug": "pete-hegseth",
       "relationship_type": "employee",
@@ -1038,19 +1011,6 @@
       ]
     },
     {
-      "name": "Paul Singer",
-      "slug": "paul-singer",
-      "relationship_type": "donor",
-      "description": "After meeting Trump in 2024, Singer gave $5 million to the pro-Trump MAGA Inc., per a compilation of FEC data.",
-      "start_year": 2024,
-      "end_year": 2024,
-      "confidence": 0.7,
-      "sources": [
-        { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Fortune: Griffin and Singer meet Trump about donating" },
-        { "url": "https://www.influencewatch.org/person/paul-e-singer/", "title": "InfluenceWatch" }
-      ]
-    },
-    {
       "name": "Marjorie Taylor Greene",
       "slug": "marjorie-taylor-greene",
       "relationship_type": "enemy",
@@ -1241,40 +1201,25 @@
       "name": "Jeff Yass",
       "slug": "jeff-yass",
       "relationship_type": "donor",
-      "description": "Yass gave $16 million to the pro-Trump MAGA Inc. in the first half of 2025 (the largest gift that period) and at least $2.5 million toward Trump's White House ballroom. After they met at a Club for Growth event in March 2024, Trump went from backing a TikTok ban to opposing one; Yass's firm is a major ByteDance investor.",
+      "description": "Gave at least $2.5 million toward Trump's White House ballroom (his $16 million in 2025 went to MAGA Inc.). After they met at a Club for Growth event in March 2024, Trump went from backing a TikTok ban to opposing one; Yass's firm is a major ByteDance investor.",
       "start_year": 2024,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
         { "url": "https://www.inquirer.com/politics/nation/jeffrey-yass-trump-ballroom-billionaire-donations-20251103.html", "title": "Pennsylvania's richest man has donated at least $2.5 million to Trump's ballroom — Philadelphia Inquirer" },
         { "url": "https://www.nbcnews.com/tech/tech-news/jeff-yass-billionaire-donor-investments-tiktoks-parent-company-rcna142531", "title": "Who is Jeff Yass? The billionaire donor with investments in TikTok's parent company — NBC News" }
-      ]
-    },
-    {
-      "name": "Greg Brockman",
-      "slug": "greg-brockman",
-      "relationship_type": "donor",
-      "description": "Brockman and his wife gave $25 million to the pro-Trump MAGA Inc. in 2025, making them its biggest donors that year; he praised Trump's willingness to engage the AI community.",
-      "start_year": 2025,
-      "confidence": 0.9,
-      "sources": [
-        { "url": "https://www.cnn.com/2026/01/02/politics/trump-super-pac-maga-inc-fundraising", "title": "Trump's super PAC builds $300 million cash stockpile — CNN" },
-        { "url": "https://fortune.com/2026/08/04/jackie-bald-eagle-greg-brockman-openai-5-5-million-donation-fundraiser-philanthropy/", "title": "OpenAI's Greg Brockman gave $5.5 million to protect the home of a bald eagle — Fortune" },
-        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" }
       ]
     },
     {
       "name": "Timothy Mellon",
       "slug": "timothy-mellon",
       "relationship_type": "donor",
-      "description": "Mellon gave $10 million to the pro-Trump America First Action in 2020 and about $150 million to MAGA Inc. in the 2024 cycle, Trump's largest donor; $2 million more in 2025.",
+      "description": "Gave $10 million to the pro-Trump super PAC America First Action in 2020. His much larger 2024–25 giving (about $152 million) went to MAGA Inc.",
       "start_year": 2020,
-      "confidence": 0.95,
+      "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
-        { "url": "https://www.nbcnews.com/politics/2024-election/timothy-mellon-leads-huge-month-trump-megadonors-pouring-cash-into-election-rcna158204", "title": "Timothy Mellon leads huge month for Trump megadonors — NBC News" },
-        { "url": "https://www.cnn.com/2024/08/21/politics/cash-advantage-harris-trump-rfk-filings/index.html", "title": "Harris erases Trump's cash edge while RFK Jr. faces dwindling resources — CNN" }
-      ]
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+      ],
+      "end_year": 2020
     },
     {
       "name": "Ken Griffin",
@@ -1328,18 +1273,6 @@
         { "url": "https://yaledailynews.com/blog/2016/12/05/schwarzman-69-to-advise-trump/", "title": "Schwarzman '69 to advise Trump — Yale Daily News" },
         { "url": "https://www.axios.com/2024/05/24/trump-2024-stephen-schwarzman-blackstone", "title": "Blackstone CEO Steve Schwarzman backs Trump, will raise money for him — Axios" },
         { "url": "https://www.cnn.com/2024/05/25/politics/stephen-schwarzman-trump-vote-election/index.html", "title": "Billionaire GOP donor Stephen Schwarzman backs Trump in 'vote for change' — CNN" }
-      ]
-    },
-    {
-      "name": "Stephen Schwarzman",
-      "slug": "stephen-schwarzman",
-      "relationship_type": "donor",
-      "description": "Schwarzman raised money for Trump in 2024 and gave $5 million to the pro-Trump MAGA Inc. in September 2026.",
-      "start_year": 2024,
-      "confidence": 0.85,
-      "sources": [
-        { "url": "https://www.axios.com/2024/05/24/trump-2024-stephen-schwarzman-blackstone", "title": "Blackstone CEO Steve Schwarzman backs Trump, will raise money for him — Axios" },
-        { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" }
       ]
     },
     {
@@ -1399,17 +1332,6 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Nigel_Farage", "title": "Nigel Farage — Wikipedia" },
         { "url": "https://www.gbnews.com/politics/nigel-farage-donald-trump-problem-polls", "title": "How Nigel Farage's 'Donald Trump problem' risks narrowing Reform's path to power — GB News" }
-      ]
-    },
-    {
-      "name": "Thomas Klingenstein",
-      "slug": "thomas-klingenstein",
-      "relationship_type": "funded_by",
-      "description": "Klingenstein gave $1 million to the pro-Trump MAGA Inc. in July 2024, part of more than $10 million in 2024-cycle giving.",
-      "start_year": 2024,
-      "confidence": 0.8,
-      "sources": [
-        { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" }
       ]
     },
     {
@@ -1595,6 +1517,18 @@
       "confidence": 0.75,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Claremont_Institute", "title": "Claremont Institute — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "employee",
+      "description": "Trump put Musk in charge of the Department of Government Efficiency (DOGE) in 2025; Musk led it for about four months.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
       ]
     }
   ],
