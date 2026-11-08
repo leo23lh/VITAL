@@ -131,6 +131,19 @@
         { "url": "https://www.washingtontimes.com/news/2024/dec/8/markwayne-mullin-defends-pete-hegseth-drinking-all/", "title": "Washington Times: Markwayne Mullin defends Pete Hegseth" },
         { "url": "https://www.foxnews.com/politics/gop-senators-rally-behind-defense-secretary-pete-hegseth-say-calls-his-firing-hot-garbage", "title": "Fox News: GOP senators rally behind Hegseth after Signal chat leak" }
       ]
+    },
+    {
+      "name": "Troy Edgar",
+      "slug": "troy-edgar",
+      "relationship_type": "employee",
+      "description": "The No. 2 at Homeland Security, under Mullin since March 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.govconwire.com/articles/troy-edgar-dhs-2026-homeland-security-summit-keynote-govcon", "title": "DHS Deputy Secretary Troy Edgar lays out operational priorities at 2026 Homeland Security Summit — GovCon Wire" },
+        { "url": "https://www.congress.gov/nomination/119th-congress/12/14", "title": "PN12-14: Nomination of Troy Edgar — Congress.gov" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

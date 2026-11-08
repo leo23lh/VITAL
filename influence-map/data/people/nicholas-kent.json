@@ -1,0 +1,50 @@
+{
+  "name": "Nicholas Kent",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Deputy Secretary of Education (since February 2026)",
+  "summary": "Nicholas Kent became deputy secretary of education on February 5, 2026, succeeding Richard Smith, as Linda McMahon works to wind down the department.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Deputy Secretary of Education",
+      "org": "U.S. Department of Education",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Linda McMahon",
+      "slug": "linda-mcmahon",
+      "relationship_type": "employer",
+      "description": "McMahon’s deputy at Education since February 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Secretary of Education",
+    "unit": "education",
+    "rank": 2,
+    "reports_to": "linda-mcmahon",
+    "since": "2026-02-05",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

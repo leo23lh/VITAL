@@ -134,6 +134,19 @@
       "sources": [
         { "url": "https://www.foxbusiness.com/politics/how-howard-lutnick-lost-his-epic-battle-trumps-treasury-lot-more", "title": "Fox Business: How Howard Lutnick lost his battle for Treasury" }
       ]
+    },
+    {
+      "name": "Paul Dabbar",
+      "slug": "paul-dabbar",
+      "relationship_type": "employee",
+      "description": "Lutnick’s deputy at Commerce since June 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.commerce.gov/about/leadership/paul-m-dabbar", "title": "Paul M. Dabbar — U.S. Department of Commerce" },
+        { "url": "https://www.upi.com/Top_News/US/2025/06/25/paul-dabbar-commerce-deputy-secretary/2971750894180/", "title": "Senate confirms Dabbar as Commerce Department deputy secretary — UPI" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

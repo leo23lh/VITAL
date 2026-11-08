@@ -1,0 +1,74 @@
+{
+  "name": "Steven Bradbury",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Deputy Secretary of Transportation (since March 2025)",
+  "summary": "Steven Bradbury, confirmed 51–46 in March 2025, is Sean Duffy’s deputy at Transportation. He was the department’s general counsel in Trump’s first term, and earlier headed the Justice Department’s Office of Legal Counsel under George W. Bush.",
+  "sources": [
+    { "url": "https://www.congress.gov/nomination/119th-congress/13/2", "title": "PN13-2: Nomination of Steven Bradbury — Congress.gov" },
+    { "url": "https://landline.media/bradbury-confirmed-as-department-of-transportation-deputy-secretary/", "title": "Bradbury confirmed as Transportation deputy secretary — Land Line" },
+    { "url": "https://www.nextgov.com/artificial-intelligence/2026/07/transportation-looks-ai-accelerate-its-modernization-initiatives/414885/", "title": "Transportation looks to AI to accelerate its modernization initiatives — Nextgov/FCW (July 2026)" },
+    { "url": "https://en.wikipedia.org/wiki/Steven_G._Bradbury", "title": "Steven G. Bradbury — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2005,
+      "end_year": 2009,
+      "role": "Head, Office of Legal Counsel",
+      "org": "U.S. Department of Justice",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steven_G._Bradbury", "title": "Steven G. Bradbury — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2021,
+      "role": "General Counsel",
+      "org": "U.S. Department of Transportation",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steven_G._Bradbury", "title": "Steven G. Bradbury — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Deputy Secretary of Transportation",
+      "org": "U.S. Department of Transportation",
+      "sources": [
+        { "url": "https://landline.media/bradbury-confirmed-as-department-of-transportation-deputy-secretary/", "title": "Bradbury confirmed as Transportation deputy secretary — Land Line" },
+        { "url": "https://www.nextgov.com/artificial-intelligence/2026/07/transportation-looks-ai-accelerate-its-modernization-initiatives/414885/", "title": "Transportation looks to AI to accelerate its modernization initiatives — Nextgov/FCW (July 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Sean Duffy",
+      "slug": "sean-duffy",
+      "relationship_type": "employer",
+      "description": "Duffy’s deputy at Transportation since March 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://landline.media/bradbury-confirmed-as-department-of-transportation-deputy-secretary/", "title": "Bradbury confirmed as Transportation deputy secretary — Land Line" },
+        { "url": "https://www.nextgov.com/artificial-intelligence/2026/07/transportation-looks-ai-accelerate-its-modernization-initiatives/414885/", "title": "Transportation looks to AI to accelerate its modernization initiatives — Nextgov/FCW (July 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Secretary of Transportation",
+    "unit": "transportation",
+    "rank": 2,
+    "reports_to": "sean-duffy",
+    "since": "2025-03",
+    "sources": [
+      { "url": "https://landline.media/bradbury-confirmed-as-department-of-transportation-deputy-secretary/", "title": "Bradbury confirmed as Transportation deputy secretary — Land Line" },
+      { "url": "https://www.nextgov.com/artificial-intelligence/2026/07/transportation-looks-ai-accelerate-its-modernization-initiatives/414885/", "title": "Transportation looks to AI to accelerate its modernization initiatives — Nextgov/FCW (July 2026)" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

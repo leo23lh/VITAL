@@ -1,0 +1,65 @@
+{
+  "name": "Paul Dabbar",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Deputy Secretary of Commerce (since June 2025)",
+  "summary": "Paul Dabbar, a former Navy submarine officer and J.P. Morgan banker who was under secretary of energy for science in Trump’s first term, was confirmed as Howard Lutnick’s deputy at Commerce on June 25, 2025.",
+  "sources": [
+    { "url": "https://www.commerce.gov/about/leadership/paul-m-dabbar", "title": "Paul M. Dabbar — U.S. Department of Commerce" },
+    { "url": "https://www.upi.com/Top_News/US/2025/06/25/paul-dabbar-commerce-deputy-secretary/2971750894180/", "title": "Senate confirms Dabbar as Commerce Department deputy secretary — UPI" },
+    { "url": "https://en.wikipedia.org/wiki/Paul_Dabbar", "title": "Paul Dabbar — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2021,
+      "role": "Under Secretary for Science",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Paul_Dabbar", "title": "Paul Dabbar — Wikipedia" },
+        { "url": "https://www.commerce.gov/about/leadership/paul-m-dabbar", "title": "Paul M. Dabbar — U.S. Department of Commerce" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Deputy Secretary of Commerce",
+      "org": "U.S. Department of Commerce",
+      "sources": [
+        { "url": "https://www.commerce.gov/about/leadership/paul-m-dabbar", "title": "Paul M. Dabbar — U.S. Department of Commerce" },
+        { "url": "https://www.upi.com/Top_News/US/2025/06/25/paul-dabbar-commerce-deputy-secretary/2971750894180/", "title": "Senate confirms Dabbar as Commerce Department deputy secretary — UPI" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Howard Lutnick",
+      "slug": "howard-lutnick",
+      "relationship_type": "employer",
+      "description": "Lutnick’s deputy at Commerce since June 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.commerce.gov/about/leadership/paul-m-dabbar", "title": "Paul M. Dabbar — U.S. Department of Commerce" },
+        { "url": "https://www.upi.com/Top_News/US/2025/06/25/paul-dabbar-commerce-deputy-secretary/2971750894180/", "title": "Senate confirms Dabbar as Commerce Department deputy secretary — UPI" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Secretary of Commerce",
+    "unit": "commerce",
+    "rank": 2,
+    "reports_to": "howard-lutnick",
+    "since": "2025-06-25",
+    "sources": [
+      { "url": "https://www.commerce.gov/about/leadership/paul-m-dabbar", "title": "Paul M. Dabbar — U.S. Department of Commerce" },
+      { "url": "https://www.upi.com/Top_News/US/2025/06/25/paul-dabbar-commerce-deputy-secretary/2971750894180/", "title": "Senate confirms Dabbar as Commerce Department deputy secretary — UPI" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

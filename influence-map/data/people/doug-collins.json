@@ -85,6 +85,19 @@
         { "url": "https://www.axios.com/2019/12/18/trump-impeachment-doug-collins-opening-statement", "title": "Axios: Doug Collins opening statement on impeachment" },
         { "url": "https://www.npr.org/2019/12/05/785103454/rep-doug-collins-says-white-house-should-participate-in-impeachment-inquiry", "title": "NPR: Top Judiciary Republican on impeachment inquiry" }
       ]
+    },
+    {
+      "name": "Paul Lawrence",
+      "slug": "paul-lawrence",
+      "relationship_type": "employee",
+      "description": "Collins’s deputy at Veterans Affairs since March 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.executivegov.com/articles/va-paul-lawrence-deputy-secretary-senate-confirmation", "title": "Senate confirms former Army captain Paul Lawrence as VA deputy secretary — ExecutiveGov" },
+        { "url": "https://www.kiro7.com/news/local/deputy-secretary-veterans-affairs-visits-seattle-tout-new-medical-records-system/WXXDSHW6JFCIRHDO6MG6ZCUQ44/", "title": "Deputy secretary for Veterans Affairs visits Seattle to tout new medical records system — KIRO 7 (October 2026)" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
