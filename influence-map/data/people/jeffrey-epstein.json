@@ -98,20 +98,28 @@
       "confidence": 0.95,
       "sources": [
         { "url": "https://www.pbs.org/newshour/politics/ghislaine-maxwell-sentenced-to-20-years-in-prison", "title": "PBS NewsHour: Ghislaine Maxwell sentenced to 20 years in prison" },
-        { "url": "https://www.nbcnews.com/news/us-news/sex-trafficker-ghislaine-maxwell-sentenced-20-years-prison-rcna35064", "title": "NBC News: Sex trafficker Ghislaine Maxwell sentenced to 20 years in prison" }
-      ]
+        { "url": "https://www.nbcnews.com/news/us-news/sex-trafficker-ghislaine-maxwell-sentenced-20-years-prison-rcna35064", "title": "NBC News: Sex trafficker Ghislaine Maxwell sentenced to 20 years in prison" },
+        { "url": "https://en.wikipedia.org/wiki/Ghislaine_Maxwell", "title": "Ghislaine Maxwell — Wikipedia" }
+      ],
+      "start_year": null,
+      "end_year": 2019
     },
     {
       "name": "Les Wexner",
       "slug": "les-wexner",
       "relationship_type": "employer",
-      "description": "Wexner, founder of L Brands, was Epstein’s main money-management client and gave him power of attorney over his affairs in July 1991; reports say the relationship later soured over allegations that Epstein misappropriated Wexner’s money.",
+      "description": "Wexner, founder of L Brands, was Epstein’s main client and gave him power of attorney in 1991; Wexner says he revoked it and cut Epstein off in September 2007, accusing him of taking vast sums.",
       "start_year": 1991,
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.tbsnews.net/explainer/how-jeffrey-epstein-built-fortune-through-deception-and-influence-1354636", "title": "TBS News: How Jeffrey Epstein built a fortune through deception and influence" },
-        { "url": "https://www.britannica.com/print/article/2157537", "title": "Britannica: Jeffrey Epstein" }
-      ]
+        { "url": "https://www.britannica.com/print/article/2157537", "title": "Britannica: Jeffrey Epstein" },
+        { "url": "https://www.wexnerfoundation.org/wp-content/uploads/Statement-of-Leslie-H.-Wexner.pdf", "title": "Statement of Leslie H. Wexner to the House Oversight Committee (February 2026)" },
+        { "url": "https://www.courthousenews.com/billionaire-les-wexner-says-he-was-duped-by-adviser-jeffrey-epstein-a-world-class-con-man/", "title": "Courthouse News: Wexner says he was duped by adviser Jeffrey Epstein" },
+        { "url": "https://www.cbsnews.com/news/les-wexner-jeffrey-epstein-house-testimony/", "title": "CBS News: Les Wexner tells Congress he was \"duped by a world-class con man\"" },
+        { "url": "https://www.axios.com/local/columbus/2026/02/18/les-wexner-jeffrey-epstein-ties-testimony", "title": "Axios Columbus: Les Wexner’s ties to Jeffrey Epstein, explained" }
+      ],
+      "end_year": 2007
     },
     {
       "name": "Andrew Mountbatten-Windsor",
