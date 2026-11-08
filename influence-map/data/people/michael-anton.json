@@ -116,11 +116,13 @@
       "slug": "thomas-klingenstein",
       "relationship_type": "colleague",
       "description": "Anton is a senior fellow at the Claremont Institute, which Klingenstein chairs and funds.",
-      "start_year": null,
+      "start_year": 2018,
+      "end_year": null,
       "confidence": 0.65,
       "sources": [
         { "url": "https://www.claremont.org/expert/michael-anton/", "title": "Michael Anton — Claremont Institute" },
-        { "url": "https://en.wikipedia.org/wiki/Thomas_Klingenstein", "title": "Thomas Klingenstein — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Thomas_Klingenstein", "title": "Thomas Klingenstein — Wikipedia" },
+        { "url": "https://www.aol.com/immigration-hardliner-state-department-meet-101136501.html", "title": "AOL: An immigration skeptic at the State Department: meet Michael Anton" }
       ]
     },
     {

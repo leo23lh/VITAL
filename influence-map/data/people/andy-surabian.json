@@ -75,11 +75,12 @@
       "slug": "donald-trump-jr",
       "relationship_type": "employer",
       "description": "A close political adviser and spokesman for Donald Trump Jr.",
-      "start_year": null,
+      "start_year": 2019,
       "end_year": null,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios: Vice President-elect JD Vance's inner circle" }
+        { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios: Vice President-elect JD Vance's inner circle" },
+        { "url": "https://www.washingtonexaminer.com/?p=553795", "title": "Washington Examiner: Trump Jr. spokesman Andrew Surabian on the Senate subpoena (2019)" }
       ]
     },
     {

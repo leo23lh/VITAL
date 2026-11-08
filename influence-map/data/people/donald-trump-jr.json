@@ -168,11 +168,12 @@
       "slug": "andy-surabian",
       "relationship_type": "employee",
       "description": "Surabian is a close political adviser and spokesman for Trump Jr.",
-      "start_year": null,
+      "start_year": 2019,
       "end_year": null,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios" }
+        { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios" },
+        { "url": "https://www.washingtonexaminer.com/?p=553795", "title": "Washington Examiner: Trump Jr. spokesman Andrew Surabian on the Senate subpoena (2019)" }
       ]
     },
     {

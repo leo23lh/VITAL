@@ -44,11 +44,13 @@
       "slug": "michael-bloomberg",
       "relationship_type": "employer",
       "description": "Wolfson is Bloomberg's longtime adviser.",
-      "start_year": null,
+      "start_year": 2009,
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" }
+        { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" },
+        { "url": "https://en.wikipedia.org/wiki/Howard_Wolfson", "title": "Howard Wolfson — Wikipedia" },
+        { "url": "https://www.dnainfo.com/new-york/20100126/manhattan/howard-wolfson-exclinton-advisor-will-join-mayor-michael-bloombergs-campaign", "title": "DNAinfo: Ex-Clinton adviser Howard Wolfson joins Bloomberg’s team (2010)" }
       ]
     },
     {

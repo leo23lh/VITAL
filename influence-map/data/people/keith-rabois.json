@@ -116,6 +116,8 @@
       "slug": "reid-hoffman",
       "relationship_type": "employer",
       "description": "Rabois, a fellow PayPal executive, later held an operating role at Hoffman's LinkedIn.",
+      "start_year": 2005,
+      "end_year": 2007,
       "confidence": 0.75,
       "sources": [
         { "url": "https://fortune.com/2013/02/26/ex-square-executive-keith-rabois-joining-khosla-ventures/", "title": "Ex-Square executive Keith Rabois joining Khosla Ventures — Fortune" },
@@ -127,10 +129,13 @@
       "slug": "max-levchin",
       "relationship_type": "employer",
       "description": "Rabois held an operating role at Slide, the company Levchin founded after PayPal.",
+      "start_year": 2007,
+      "end_year": 2010,
       "confidence": 0.75,
       "sources": [
         { "url": "https://fortune.com/2013/02/26/ex-square-executive-keith-rabois-joining-khosla-ventures/", "title": "Ex-Square executive Keith Rabois joining Khosla Ventures — Fortune" },
-        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" }
       ]
     },
     {
