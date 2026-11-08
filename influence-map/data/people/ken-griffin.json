@@ -132,12 +132,14 @@
       "name": "Zohran Mamdani",
       "slug": "zohran-mamdani",
       "relationship_type": "enemy",
-      "description": "In April 2026 Mamdani singled out Griffin in a video announcing a New York wealth tax; Griffin threatened to halt Citadel's planned Park Avenue headquarters tower, then in August said it would go ahead.",
+      "description": "On April 15, 2026 Mamdani posted a video naming Griffin's $238 million penthouse to promote a new pied-à-terre tax; Griffin called it a \"personal attack\" that put him \"in harm's way\", and Citadel said it was reassessing its planned $6 billion Park Avenue headquarters tower. Mamdani refused to apologize.",
       "start_year": 2026,
       "end_year": null,
-      "confidence": 0.8,
+      "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+        { "url": "https://fortune.com/2026/04/16/nyc-mayor-zohran-mamdani-ken-griffins-penthouse-pied-a-terre-tax/", "title": "NYC mayor Zohran Mamdani's video on Ken Griffin's penthouse — Fortune" },
+        { "url": "https://www.cbsnews.com/newyork/news/mayor-zohran-mamdani-citadel-ken-griffin-pied-a-terre-tax/", "title": "Mamdani, Citadel and Ken Griffin clash over pied-à-terre tax — CBS New York" }
       ]
     },
     {

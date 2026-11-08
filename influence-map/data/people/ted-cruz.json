@@ -169,12 +169,14 @@
       "name": "Robert Mercer",
       "slug": "robert-mercer",
       "relationship_type": "donor",
-      "description": "Mercer gave $11 million to Keep the Promise I, the main super PAC backing Cruz's 2016 presidential run.",
+      "description": "Mercer's initial $11 million (per FEC filings) founded Keep the Promise I, almost the sole funder of one of four super PACs backing Cruz's 2016 run; it was renamed Make America Number 1 and turned pro-Trump in June 2016.",
       "start_year": 2015,
       "end_year": 2016,
-      "confidence": 0.9,
+      "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://ballotpedia.org/Make_America_Number_1", "title": "Make America Number 1 — Ballotpedia" },
+        { "url": "https://www.texastribune.org/2015/08/04/pro-cruz-super-pac-ramps-7-figure-media-blitz", "title": "Pro-Cruz super PAC ramps up with 7-figure media blitz — Texas Tribune" }
       ]
     },
     {

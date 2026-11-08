@@ -115,12 +115,14 @@
       "name": "Tucker Carlson",
       "slug": "tucker-carlson",
       "relationship_type": "enemy",
-      "description": "Ahmari has attacked the \"woke right\", including right-wing historical revisionists platformed by Carlson.",
-      "start_year": 2025,
+      "description": "After Carlson's September 2024 interview with Darryl Cooper, who cast Churchill as WWII's \"chief villain\", Ahmari called Cooper's claims \"the same old Hitler apologetic\" and warned that such views were moving from the fringe to the mainstream.",
+      "start_year": 2024,
       "end_year": null,
-      "confidence": 0.45,
+      "confidence": 0.65,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+        { "url": "https://theweek.com/politics/tucker-carlson-interview-darryl-cooper-holocaust", "title": "Tucker Carlson's WWII interview fractures conservatives — The Week" },
+        { "url": "https://thefp.com/p/world-war-ii-and-the-rise-of-anti-798/comments", "title": "World War II and the rise of anti-history — The Free Press" }
       ]
     },
     {

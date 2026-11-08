@@ -246,11 +246,13 @@
       "name": "David Brog",
       "slug": "david-brog",
       "relationship_type": "employee",
-      "description": "Brog is often described as a protégé of Miriam and Sheldon Adelson; in 2015 he was picked to run the Maccabee Task Force, the anti-BDS group they formed with Haim Saban.",
+      "description": "In July 2015 Brog was named to head the Campus Maccabees (Maccabee Task Force), the anti-BDS group Sheldon and Miriam Adelson launched with Haim Saban; Brog is often described as an Adelson protégé.",
       "start_year": 2015,
-      "confidence": 0.75,
+      "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" },
+        { "url": "https://forward.com/news/311662/leader-of-christian-zionists-named-head-of-adelson-campus-anti-bds-group/?amp=1", "title": "Leader of Christian Zionists named head of Adelson campus anti-BDS group — The Forward" },
+        { "url": "https://www.timesofisrael.com/how-sheldon-adelson-just-might-be-turning-the-tide-against-bds-on-us-campuses/", "title": "How Sheldon Adelson just might be turning the tide against BDS on US campuses — Times of Israel" }
       ]
     }
   ],

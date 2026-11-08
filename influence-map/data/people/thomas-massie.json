@@ -93,6 +93,18 @@
       "sources": [
         { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
       ]
+    },
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "donor",
+      "description": "Yass backed Massie in his 2026 primary as Trump worked to defeat him; Massie lost in May 2026.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://nkytribune.com/?p=479890", "title": "Thomas Massie, facing opposition from Trump, gets a hand from billionaire megadonor Jeff Yass — NKyTribune" }
+      ]
     }
   ],
   "aliases": [],

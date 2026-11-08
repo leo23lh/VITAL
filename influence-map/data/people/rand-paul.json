@@ -6,11 +6,13 @@
       "name": "Jeff Yass",
       "slug": "jeff-yass",
       "relationship_type": "donor",
-      "description": "Yass gave $2.3 million to a super PAC backing Paul's 2016 presidential run.",
+      "description": "Yass put about $2.25–2.3 million of his own money into three super PACs backing Paul's 2016 presidential run.",
       "start_year": 2015,
-      "confidence": 0.85,
+      "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+        { "url": "https://whyy.org/articles/susquehanna-groups-yass-donates-23-million-to-support-rand-paul-campaign", "title": "Susquehanna Group's Yass donates $2.3 million to support Rand Paul campaign — WHYY" },
+        { "url": "https://www.phillymag.com/news/2015/08/04/rand-paul-jeff-yass/", "title": "Rand Paul has a (very) rich friend in Philadelphia — Philadelphia Magazine" }
       ],
       "end_year": 2016
     },
