@@ -1,0 +1,69 @@
+{
+  "name": "David O'Brien",
+  "aliases": ["David OBrien"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Assistant Secretary for Public Affairs (acting), U.S. Department of Labor",
+  "summary": "David O'Brien runs the Labor Department’s Office of Public Affairs, which directs the department’s press, public and employee communications. The office’s leadership page lists him as acting assistant secretary, with Mike Trupo as his deputy, and he is the media contact on the department’s fall 2026 announcements, including Keith Sonderling’s swearing-in as secretary.",
+  "sources": [
+    { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" },
+    { "url": "https://www.dol.gov/index.php/newsroom/releases/osec/osec20261009", "title": "U.S. Department of Labor news release, October 9, 2026 (media contact: David O’Brien)" },
+    { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260908", "title": "US Department of Labor unveils agency-wide initiatives — U.S. Department of Labor (September 8, 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Assistant Secretary for Public Affairs (acting)",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/index.php/newsroom/releases/osec/osec20261009", "title": "U.S. Department of Labor news release, October 9, 2026 (media contact: David O’Brien)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Heads public affairs for Sonderling’s department and is the media contact on its announcements, including Sonderling’s swearing-in as secretary in October 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/index.php/newsroom/releases/osec/osec20261009", "title": "U.S. Department of Labor news release, October 9, 2026 (media contact: David O’Brien)" }
+      ]
+    },
+    {
+      "name": "Courtney Parella",
+      "slug": "courtney-parella",
+      "relationship_type": "colleague",
+      "description": "Both in the Labor Department’s Office of Public Affairs, which O’Brien leads.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary for Public Affairs",
+    "acting": true,
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "keith-sonderling",
+    "sources": [
+      { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" },
+      { "url": "https://www.dol.gov/index.php/newsroom/releases/osec/osec20261009", "title": "U.S. Department of Labor news release, October 9, 2026 (media contact: David O’Brien)" }
+    ]
+  },
+  "notes": "The map owner, who works in the department, identified O’Brien as the head of Public Affairs.",
+  "last_researched": "2026-11-08"
+}

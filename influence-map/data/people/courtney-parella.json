@@ -4,8 +4,8 @@
   "public_figure": true,
   "sector": "politics",
   "groups": [],
-  "current_role": "Head of public affairs, U.S. Department of Labor (deputy assistant secretary from March 2025)",
-  "summary": "Courtney Parella runs press for the Labor Department and is the media contact on its 2026 announcements. The department named her deputy assistant secretary in the Office of Public Affairs in March 2025; later federal appointee listings give her as assistant secretary.",
+  "current_role": "Deputy Assistant Secretary for Public Affairs, U.S. Department of Labor (since March 2025)",
+  "summary": "Courtney Parella is a deputy assistant secretary in the Labor Department’s Office of Public Affairs, named in March 2025, and has been a media contact on the department’s announcements. The office is led by David O’Brien.",
   "sources": [
     { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
     { "url": "https://ohsonline.com/articles/2025/03/18/us-department-of-labor-announces-senior-trump-administration-appointees.aspx", "title": "US Department of Labor announces senior Trump Administration appointees — OH&S (March 18, 2025)" },
@@ -16,7 +16,7 @@
     {
       "year": 2025,
       "end_year": null,
-      "role": "Deputy Assistant Secretary, later Assistant Secretary, Office of Public Affairs",
+      "role": "Deputy Assistant Secretary, Office of Public Affairs",
       "org": "U.S. Department of Labor",
       "sources": [
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
@@ -52,27 +52,40 @@
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
         { "url": "https://ohsonline.com/articles/2025/03/18/us-department-of-labor-announces-senior-trump-administration-appointees.aspx", "title": "US Department of Labor announces senior Trump Administration appointees — OH&S (March 18, 2025)" }
       ]
+    },
+    {
+      "name": "David O'Brien",
+      "slug": "david-obrien",
+      "relationship_type": "colleague",
+      "description": "Both in the Labor Department’s Office of Public Affairs, which O’Brien leads.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" }
+      ]
     }
   ],
   "org_chart_only": true,
   "office": {
-    "title": "Public Affairs (assistant secretary per later listings)",
+    "title": "Deputy Assistant Secretary for Public Affairs",
     "unit": "labor",
     "rank": 4,
-    "reports_to": "keith-sonderling",
+    "reports_to": "david-obrien",
     "since": "2025-03",
     "sources": [
       { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
-      { "url": "https://www.dol.gov/general/contact/contact-phonekeypersonnel", "title": "Key personnel, Office of the Secretary — U.S. Department of Labor" }
+      { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" }
     ]
   },
   "source_conflicts": [
     {
       "topic": "Title",
-      "details": "The March 2025 announcement names her deputy assistant secretary for public affairs; the department’s key-personnel page and federal appointee records list her as an assistant secretary. Dean Heyl, named assistant secretary for public affairs in February 2025, does not appear in 2026 sources.",
+      "details": "The March 2025 announcement names her deputy assistant secretary for public affairs, and the office’s leadership page lists David O’Brien as its head; some federal appointee listings give her an assistant secretary title.",
       "sources": [
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
-        { "url": "https://www.dol.gov/general/contact/contact-phonekeypersonnel", "title": "Key personnel, Office of the Secretary — U.S. Department of Labor" }
+        { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" }
       ]
     }
   ],

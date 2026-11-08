@@ -321,6 +321,19 @@
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
         { "url": "https://www.dol.gov/general/contact/contact-phonekeypersonnel", "title": "Key personnel, Office of the Secretary — U.S. Department of Labor" }
       ]
+    },
+    {
+      "name": "David O'Brien",
+      "slug": "david-obrien",
+      "relationship_type": "employee",
+      "description": "Heads public affairs for Sonderling’s department and is the media contact on its announcements, including Sonderling’s swearing-in as secretary in October 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/index.php/newsroom/releases/osec/osec20261009", "title": "U.S. Department of Labor news release, October 9, 2026 (media contact: David O’Brien)" }
+      ]
     }
   ],
   "source_conflicts": [
