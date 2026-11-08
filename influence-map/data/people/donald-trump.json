@@ -1488,6 +1488,79 @@
         { "url": "https://www.cnbc.com/2017/10/28/washington-free-beacon-first-commissioned-trump-russia-dossier.html", "title": "Washington Free Beacon first commissioned Trump-Russia dossier research — CNBC" },
         { "url": "https://forward.com/fast-forward/386349/website-backed-by-paul-singer-funded-research-that-led-to-trump-russia-doss/", "title": "Website backed by Paul Singer funded research that led to Trump-Russia dossier — The Forward" }
       ]
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "slug": "mark-zuckerberg",
+      "relationship_type": "donor",
+      "description": "Weeks after Zuckerberg dined with Trump at Mar-a-Lago in November 2024, Meta gave $1 million to Trump's inaugural fund; neither he nor Meta had given to Trump's 2017 or Biden's 2021 funds.",
+      "start_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.axios.com/2024/12/12/meta-trump-donation-inaugural-fund-zuckerberg", "title": "Meta gave $1 million to Trump's inaugural fund — Axios" },
+        { "url": "https://digital-release.thehill.com/?p=5036760", "title": "Meta donated $1M to Trump inaugural fund after Zuckerberg met with president-elect — The Hill" }
+      ]
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "slug": "mark-zuckerberg",
+      "relationship_type": "enemy",
+      "description": "Trump attacked Zuckerberg for years before their post-election rapprochement in late 2024.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://digital-release.thehill.com/?p=5036760", "title": "Meta donated $1M to Trump inaugural fund after Zuckerberg met with president-elect — The Hill" }
+      ]
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "slug": "benjamin-netanyahu",
+      "relationship_type": "ally",
+      "description": "Netanyahu made his closeness to Trump central to his political appeal.",
+      "start_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu", "title": "Benjamin Netanyahu — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Steve Witkoff",
+      "slug": "steve-witkoff",
+      "relationship_type": "employee",
+      "description": "Friends since a 1986 real estate deal and golf partners (Witkoff was on the course during the September 2024 assassination attempt); Witkoff has given millions to Trump's causes and Trump made him special envoy in 2025.",
+      "start_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.ksat.com/news/world/2025/03/13/steve-witkoff-has-gone-from-spotting-trump-cash-at-a-deli-to-helping-him-navigate-ukraine-and-gaza/", "title": "Steve Witkoff has gone from spotting Trump cash at a deli to helping him navigate Ukraine and Gaza — AP" },
+        { "url": "https://www.nbcnews.com/news/world/witkoff-trump-gaza-hamas-israel-ceasefire-envoy-rcna187954", "title": "How an NYC real estate tycoon became Trump's man in the room for Gaza negotiations — NBC News" },
+        { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Kellyanne Conway",
+      "slug": "kellyanne-conway",
+      "relationship_type": "employee",
+      "description": "Trump made Conway his campaign manager in August 2016 and counselor to the president from 2017 to 2020.",
+      "start_year": 2016,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kellyanne_Conway", "title": "Kellyanne Conway — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Gene Hamilton",
+      "slug": "gene-hamilton",
+      "relationship_type": "employee",
+      "description": "Hamilton served in Trump's first-term Justice and Homeland Security departments and as deputy White House counsel from January to June 2025.",
+      "start_year": 2017,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://projects.propublica.org/trump-team-financial-disclosures/appointees/hamilton-gene", "title": "Gene Hamilton — ProPublica Trump Team financial disclosures" },
+        { "url": "https://fedsoc.org/bio/gene-hamilton", "title": "Gene Hamilton — Federalist Society" }
+      ]
     }
   ],
   "source_conflicts": [

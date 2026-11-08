@@ -1,0 +1,75 @@
+{
+  "aliases": ["Randal Howard Paul"],
+  "public_figure": true,
+  "connections": [
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "donor",
+      "description": "Yass gave $2.3 million to a super PAC backing Paul's 2016 presidential run.",
+      "start_year": 2015,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+      ],
+      "end_year": 2016
+    },
+    {
+      "name": "Rachel Bovard",
+      "slug": "rachel-bovard",
+      "relationship_type": "employee",
+      "description": "Bovard was Paul's legislative director.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.defensepriorities.org/people/rachel-bovard", "title": "Rachel Bovard — Defense Priorities" }
+      ]
+    },
+    {
+      "name": "Sergio Gor",
+      "slug": "sergio-gor",
+      "relationship_type": "employee",
+      "description": "Gor worked for Paul from 2013, at his PAC and then as spokesman, communications director and deputy chief of staff, before leaving in 2020 for Trump's campaign finance committee.",
+      "start_year": 2013,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.freepressjournal.in/world/sergio-gors-unconventional-journey-from-rand-paul-aide-to-donald-trumps-trusted-enforcer-highlights-both-loyalty-and-controversy", "title": "Sergio Gor's journey from Rand Paul aide to Trump's trusted enforcer — Free Press Journal" },
+        { "url": "https://www.semafor.com/article/08/28/2025/ambassador-gor-trumps-hiring-chief-on-fast-track-to-india", "title": "Ambassador Gor: Trump's hiring chief on fast track to India — Semafor" }
+      ],
+      "end_year": 2020
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-08",
+  "name": "Rand Paul",
+  "sector": "politics",
+  "groups": [],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican senator from Kentucky since 2011; describes himself as a constitutional conservative and Tea Party supporter with libertarian views.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "US senator from Kentucky (Republican); chair of the Senate Homeland Security Committee",
+  "summary": "Rand Paul, an ophthalmologist and son of Ron Paul, has been a Republican senator from Kentucky since 2011 and ran for president in 2016. A libertarian-leaning conservative, he chairs the Homeland Security Committee; his former staff include Sergio Gor and Rachel Bovard, and Jeff Yass funded his 2016 run.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2011,
+      "end_year": null,
+      "role": "US senator from Kentucky",
+      "org": "US Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": []
+}

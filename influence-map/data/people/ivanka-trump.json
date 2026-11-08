@@ -1,0 +1,82 @@
+{
+  "aliases": ["Ivana Marie Trump"],
+  "public_figure": true,
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "family",
+      "description": "Daughter. She was an unpaid Advisor to the President from March 2017 to January 2021.",
+      "start_year": null,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "family",
+      "description": "Wife; they married in 2009. Ivanka Trump was a senior White House adviser in Trump's first term.",
+      "start_year": 2009,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
+      ],
+      "end_year": null
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "family",
+      "description": "Siblings: both are children of Donald and Ivana Trump.",
+      "start_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-08",
+  "name": "Ivanka Trump",
+  "sector": "business",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": 2017,
+      "end_year": 2021,
+      "basis": "Senior adviser in her father's first Republican administration.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "Businesswoman; former adviser to the president (2017–2021)",
+  "summary": "Ivanka Trump, Donald Trump's eldest daughter, was an executive vice president of the Trump Organization and a judge on The Apprentice before serving as an adviser in her father's first administration alongside her husband, Jared Kushner, amid conflict-of-interest concerns over her businesses.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2017,
+      "role": "Executive vice president",
+      "org": "Trump Organization",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2021,
+      "role": "Adviser to the President",
+      "org": "White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": []
+}

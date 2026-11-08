@@ -1,0 +1,137 @@
+{
+  "aliases": ["Mark Elliot Zuckerberg"],
+  "public_figure": true,
+  "connections": [
+    {
+      "name": "Alexandr Wang",
+      "slug": "alexandr-wang",
+      "relationship_type": "employee",
+      "description": "Zuckerberg recruited Wang in June 2025, when Meta bought 49% of Scale AI for about $14.3 billion; Wang leads Meta Superintelligence Labs, which reports directly to Zuckerberg.",
+      "start_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://fortune.com/2025/06/30/mark-zuckerberg-overhauled-meta-ai-org-superintelligence-alexandr-wang/", "title": "Mark Zuckerberg overhauled Meta's AI org around superintelligence and Alexandr Wang — Fortune" }
+      ],
+      "end_year": null
+    },
+    {
+      "name": "Dustin Moskovitz",
+      "slug": "dustin-moskovitz",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Facebook with Zuckerberg in their Harvard dorm in 2004.",
+      "start_year": 2004,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" }
+      ],
+      "end_year": 2008
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "colleague",
+      "description": "Andreessen has sat on the board of Zuckerberg's Facebook (now Meta) since June 2008; both were also named to PCAST in March 2026.",
+      "start_year": 2008,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://about.fb.com/news/2008/06/marc-andreessen-joins-facebook-board-of-directors/", "title": "Marc Andreessen Joins Facebook Board of Directors — Meta" },
+        { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" }
+      ],
+      "end_year": null
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "employee",
+      "description": "Facebook bought Luckey's Oculus in 2014 and he worked there until March 2017, leaving amid controversy over his pro-Trump donation (Facebook says his politics were not the reason). In May 2025 Anduril and Meta announced a partnership on military XR headsets.",
+      "start_year": 2014,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Palmer_Luckey", "title": "Palmer Luckey — Wikipedia" },
+        { "url": "https://siliconangle.com/2017/03/30/controversial-oculus-founder-palmer-luckey-leaves-facebook/", "title": "Controversial Oculus founder Palmer Luckey leaves Facebook — SiliconANGLE" },
+        { "url": "https://fortune.com/2025/05/29/palmer-luckey-mark-zuckerberg-anduril-meta-rivalry-silicon-valley-military-market/", "title": "Palmer Luckey and Mark Zuckerberg team up on military tech — Fortune" }
+      ],
+      "end_year": 2017
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "Thiel became Facebook's first outside investor in August 2004, buying 10.2% for $500,000, and sat on its board from 2005 to 2022.",
+      "start_year": 2004,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Peter_Thiel", "title": "Peter Thiel — Wikipedia" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" }
+      ],
+      "end_year": 2022
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Weeks after Zuckerberg dined with Trump at Mar-a-Lago in November 2024, Meta gave $1 million to Trump's inaugural fund; neither he nor Meta had given to Trump's 2017 or Biden's 2021 funds.",
+      "start_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.axios.com/2024/12/12/meta-trump-donation-inaugural-fund-zuckerberg", "title": "Meta gave $1 million to Trump's inaugural fund — Axios" },
+        { "url": "https://digital-release.thehill.com/?p=5036760", "title": "Meta donated $1M to Trump inaugural fund after Zuckerberg met with president-elect — The Hill" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Trump attacked Zuckerberg for years before their post-election rapprochement in late 2024.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://digital-release.thehill.com/?p=5036760", "title": "Meta donated $1M to Trump inaugural fund after Zuckerberg met with president-elect — The Hill" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "rival",
+      "description": "Rival social-media and AI moguls who in 2023 tentatively agreed to a cage fight that never happened.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/2024/12/18/tech-giants-wall-street-millions-donald-trump-inauguration-meta-amazon-openai/", "title": "Tech giants and Wall Street give millions to Trump's inauguration — Fortune" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-08",
+  "name": "Mark Zuckerberg",
+  "sector": "tech",
+  "groups": ["ai-race", "media"],
+  "current_role": "Co-founder, chairman, CEO and controlling shareholder of Meta Platforms",
+  "summary": "Mark Zuckerberg co-founded Facebook at Harvard in 2004 with Dustin Moskovitz and others, took it public in 2012 and controls its parent Meta, now a leading AI spender (Meta Superintelligence Labs, led by Alexandr Wang). Once attacked by Trump, he dined with him at Mar-a-Lago after the 2024 election, and Meta gave $1 million to Trump's inaugural fund.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg", "title": "Mark Zuckerberg — Wikipedia" },
+    { "url": "https://www.axios.com/2024/12/12/meta-trump-donation-inaugural-fund-zuckerberg", "title": "Meta gave $1 million to Trump's inaugural fund — Axios" }
+  ],
+  "timeline": [
+    {
+      "year": 2004,
+      "end_year": null,
+      "role": "Co-founder; chairman and CEO",
+      "org": "Facebook / Meta Platforms",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg", "title": "Mark Zuckerberg — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Chan Zuckerberg Initiative",
+      "role": "Co-founder (with Priscilla Chan)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg", "title": "Mark Zuckerberg — Wikipedia" }
+      ]
+    }
+  ]
+}

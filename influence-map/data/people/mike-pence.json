@@ -1,0 +1,95 @@
+{
+  "aliases": ["Michael Richard Pence"],
+  "public_figure": true,
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Trump's running mate in 2016 and vice president for his first term.",
+      "start_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" },
+        { "url": "https://www.npr.org/2024/07/15/nx-s1-5040482/former-president-trump-has-chosen-ohio-sen-j-d-vance-as-his-running-mate", "title": "Former President Trump has chosen Ohio Sen. J.D. Vance as his running mate — NPR" }
+      ],
+      "end_year": 2021
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Trump has condemned Pence for refusing to stop the certification of the 2020 election on January 6, 2021; coverage of Vance's selection framed it as Trump choosing someone who would not break with him as Pence did.",
+      "start_year": 2021,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.npr.org/2024/07/15/nx-s1-5040482/former-president-trump-has-chosen-ohio-sen-j-d-vance-as-his-running-mate", "title": "Former President Trump has chosen Ohio Sen. J.D. Vance as his running mate — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/fact-checking-j-d-vances-past-statements-and-relationship-with-trump", "title": "Fact-checking JD Vance's past statements and relationship with Trump — PBS NewsHour" }
+      ],
+      "end_year": null
+    },
+    {
+      "name": "Russ Vought",
+      "slug": "russ-vought",
+      "relationship_type": "employee",
+      "description": "Pence, as House Republican Conference chairman, named Vought its policy director in December 2008.",
+      "start_year": 2008,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
+      ],
+      "end_year": 2010
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-08",
+  "name": "Mike Pence",
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican congressman (2001–2013), chair of the Republican Study Committee and House Republican Conference, governor of Indiana and Trump's vice president (2017–2021).",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Pence", "title": "Mike Pence — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "Former Vice President of the United States (2017–2021)",
+  "summary": "Mike Pence, a former talk-radio host, served six terms in the House, where he chaired the Republican Conference, then as governor of Indiana before becoming Trump's vice president in 2017. His refusal to block certification of the 2020 election on January 6, 2021 led to a lasting break with Trump.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Mike_Pence", "title": "Mike Pence — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2001,
+      "end_year": 2013,
+      "role": "US representative from Indiana; House Republican Conference chair (2009–2011)",
+      "org": "US House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Pence", "title": "Mike Pence — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": 2017,
+      "role": "Governor",
+      "org": "Indiana",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Pence", "title": "Mike Pence — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2021,
+      "role": "Vice President",
+      "org": "United States",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Pence", "title": "Mike Pence — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": []
+}

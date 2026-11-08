@@ -182,6 +182,17 @@
         { "url": "https://www.washingtonpost.com/technology/interactive/2026/07/13/trumps-sons-invest-heavily-defense-fathers-administration-pours-money/", "title": "Trump's sons invest heavily in defense tech — Washington Post" },
         { "url": "https://www.axios.com/2026/08/13/1789-capital-real-estate-fund", "title": "1789 Capital closes $1.2B real estate fund — Axios" }
       ]
+    },
+    {
+      "name": "Ivanka Trump",
+      "slug": "ivanka-trump",
+      "relationship_type": "family",
+      "description": "Siblings: both are children of Donald and Ivana Trump.",
+      "start_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

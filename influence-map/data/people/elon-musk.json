@@ -489,6 +489,18 @@
         { "url": "https://www.washingtonexaminer.com/?p=3447884", "title": "Who is Sergio Gor, the White House adviser Elon Musk called a 'snake'? — Washington Examiner" },
         { "url": "https://www.thedailybeast.com/elon-musk-savages-snake-trump-aide-sergio-gor-as-their-white-house-feud-erupts", "title": "Elon Musk savages 'snake' Trump aide Sergio Gor — Daily Beast" }
       ]
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "slug": "mark-zuckerberg",
+      "relationship_type": "rival",
+      "description": "Rival social-media and AI moguls who in 2023 tentatively agreed to a cage fight that never happened.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/2024/12/18/tech-giants-wall-street-millions-donald-trump-inauguration-meta-amazon-openai/", "title": "Tech giants and Wall Street give millions to Trump's inauguration — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [

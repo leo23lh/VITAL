@@ -134,6 +134,18 @@
         { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/", "title": "Presenters — National Conservatism Conference 2019" },
         { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" }
       ]
+    },
+    {
+      "name": "Steve Witkoff",
+      "slug": "steve-witkoff",
+      "relationship_type": "colleague",
+      "description": "Witkoff led the US side of the 2025 Iran nuclear talks; Anton led the expert-level track.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations", "title": "2025–2026 Iran–United States negotiations — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened and Wikipedia was rate-limiting; facts were confirmed with web searches tied to each cited URL.",

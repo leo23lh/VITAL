@@ -189,6 +189,18 @@
         { "url": "https://en.wikipedia.org/wiki/Rebekah_Mercer", "title": "Rebekah Mercer — Wikipedia" },
         { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
       ]
+    },
+    {
+      "name": "Kellyanne Conway",
+      "slug": "kellyanne-conway",
+      "relationship_type": "ally",
+      "description": "Conway endorsed Cruz in 2016 and chaired a pro-Cruz super PAC until he dropped out.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kellyanne_Conway", "title": "Kellyanne Conway — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

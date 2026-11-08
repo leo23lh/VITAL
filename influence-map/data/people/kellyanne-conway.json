@@ -1,0 +1,105 @@
+{
+  "aliases": ["Kellyanne Elizabeth Conway"],
+  "public_figure": true,
+  "connections": [
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "ally",
+      "description": "Conway worked with her on the pro-Cruz super PAC; Mercer then helped place her as Trump's campaign manager in 2016.",
+      "start_year": 2015,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://thehill.com/homenews/campaign/291772-billionaire-father-and-daughter-linked-to-trump-shakeup/", "title": "Billionaire father and daughter linked to Trump shake-up — The Hill" }
+      ],
+      "end_year": 2016
+    },
+    {
+      "name": "Robert Mercer",
+      "slug": "robert-mercer",
+      "relationship_type": "ally",
+      "description": "Conway ran the Mercer-funded pro-Cruz super PAC with Rebekah Mercer; the Mercers helped place her at the top of Trump's 2016 campaign.",
+      "start_year": 2015,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+      ],
+      "end_year": 2016
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump made Conway his campaign manager in August 2016 and counselor to the president from 2017 to 2020.",
+      "start_year": 2016,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kellyanne_Conway", "title": "Kellyanne Conway — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "ally",
+      "description": "Conway endorsed Cruz in 2016 and chaired a pro-Cruz super PAC until he dropped out.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kellyanne_Conway", "title": "Kellyanne Conway — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-08",
+  "name": "Kellyanne Conway",
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican pollster and strategist; chaired a pro-Cruz super PAC in 2016, then managed Trump's 2016 campaign and served as his counselor.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kellyanne_Conway", "title": "Kellyanne Conway — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "Political consultant and pollster; former counselor to the president (2017–2020)",
+  "summary": "Kellyanne Conway, a Republican pollster, chaired the Mercer-funded pro-Cruz super PAC in the 2016 primaries, then became Trump's campaign manager in August 2016, the first woman to run a winning presidential campaign. As counselor to the president (2017–2020) she coined \"alternative facts\" and was cited for repeated Hatch Act violations.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Kellyanne_Conway", "title": "Kellyanne Conway — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2016,
+      "end_year": 2016,
+      "role": "Campaign manager",
+      "org": "Trump 2016 campaign",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kellyanne_Conway", "title": "Kellyanne Conway — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2020,
+      "role": "Counselor to the President",
+      "org": "White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kellyanne_Conway", "title": "Kellyanne Conway — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "The Polling Company / WomanTrend",
+      "role": "Former president and CEO",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kellyanne_Conway", "title": "Kellyanne Conway — Wikipedia" }
+      ]
+    }
+  ]
+}
