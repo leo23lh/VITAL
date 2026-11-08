@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import {
+  bond,
   describeLink,
   familyOf,
   isPastRivalry,
@@ -7,6 +8,7 @@ import {
   matchesQuery,
   type Comparison,
   type PairLink,
+  type WorkplaceIndex,
   pairKey,
   roleOfOther,
   yearRange,
@@ -43,6 +45,8 @@ interface Props {
   /** Set in the compare view; shown when nothing is selected. */
   comparison: Comparison | null;
   onCompare: (a: string, b: string) => void;
+  /** Who worked where (from timelines), for the bond meter. */
+  workplaces: WorkplaceIndex;
   onClose: () => void;
 }
 
@@ -55,6 +59,7 @@ export default function SidePanel({
   onWorld,
   comparison,
   onCompare,
+  workplaces,
   onClose,
 }: Props) {
   // Bottom sheet (folded phone): starts as a short peek, drag or tap the handle to expand.
@@ -74,7 +79,24 @@ export default function SidePanel({
 
   let body: React.ReactNode = null;
   if (!selection) {
-    body = <ComparePanel c={comparison!} nameOf={nameOf} isOrg={isOrg} onSelect={onSelect} />;
+    body = (
+      <ComparePanel
+        c={comparison!}
+        nameOf={nameOf}
+        isOrg={isOrg}
+        onSelect={onSelect}
+        meter={
+          comparison!.direct.length > 0 ? (
+            <BondMeter
+              a={nodeById.get(comparison!.a)}
+              b={nodeById.get(comparison!.b)}
+              links={comparison!.direct}
+              workplaces={workplaces}
+            />
+          ) : null
+        }
+      />
+    );
   } else if (selection.kind === 'node') {
     const node = nodeById.get(selection.id);
     if (node)
@@ -94,7 +116,23 @@ export default function SidePanel({
   } else {
     const pair = links.filter((l) => pairKey(l.sourceId, l.targetId) === selection.id);
     if (pair.length)
-      body = <PairPanel links={pair} nameOf={nameOf} isOrg={isOrg} onSelect={onSelect} onCompare={onCompare} />;
+      body = (
+        <PairPanel
+          links={pair}
+          nameOf={nameOf}
+          isOrg={isOrg}
+          onSelect={onSelect}
+          onCompare={onCompare}
+          meter={
+            <BondMeter
+              a={nodeById.get(pair[0].sourceId)}
+              b={nodeById.get(pair[0].targetId)}
+              links={pair}
+              workplaces={workplaces}
+            />
+          }
+        />
+      );
   }
   if (!body) return null;
 
@@ -553,12 +591,14 @@ function PairPanel({
   isOrg,
   onSelect,
   onCompare,
+  meter,
 }: {
   links: GraphLink[];
   nameOf: (id: string) => string;
   isOrg: (id: string) => boolean;
   onSelect: (s: Selection) => void;
   onCompare: (a: string, b: string) => void;
+  meter: React.ReactNode;
 }) {
   const [a, b] = [links[0].sourceId, links[0].targetId].sort((x, y) => nameOf(x).localeCompare(nameOf(y)));
   return (
@@ -580,6 +620,8 @@ function PairPanel({
           </span>
         </div>
       </header>
+
+      {meter}
 
       {links.map((link) => {
         const g = EDGE_GROUP_BY_ID[link.group];
@@ -738,11 +780,14 @@ function ComparePanel({
   nameOf,
   isOrg,
   onSelect,
+  meter,
 }: {
   c: Comparison;
   nameOf: (id: string) => string;
   isOrg: (id: string) => boolean;
   onSelect: (s: Selection) => void;
+  /** The bond meter, when the two are directly tied. */
+  meter: React.ReactNode;
 }) {
   const [showAll, setShowAll] = useState(false);
   const person = (id: string) => (
@@ -783,6 +828,8 @@ function ComparePanel({
           <p className="small">{why.join(' · ').replace(/^./, (x) => x.toUpperCase())}.</p>
         </div>
       </header>
+
+      {meter}
 
       {c.direct.length > 0 && (
         <section>
@@ -858,6 +905,85 @@ function ComparePanel({
         the score. With a date range set, only links active in that range count.
       </footer>
     </div>
+  );
+}
+
+/** Friend / loyalty meter: how deep the pair's own relationship runs. */
+function BondMeter({
+  a,
+  b,
+  links,
+  workplaces,
+}: {
+  a: GraphNode | undefined;
+  b: GraphNode | undefined;
+  links: GraphLink[];
+  workplaces: WorkplaceIndex;
+}) {
+  // Orgs have no timelines; the meter is for people and orgs alike, from their links.
+  const x = bond(a, b, links, workplaces);
+  const now = new Date().getFullYear();
+  const spanText = x.span ? (x.span[1] >= now && x.status !== 'ended' ? `${x.span[0]}–present` : `${x.span[0]}–${x.span[1]}`) : '';
+  const rows: { label: string; value: number; text: string }[] = [
+    {
+      label: 'Depth',
+      value: x.depth,
+      text: x.kinds.length
+        ? x.kinds.map((k) => EDGE_GROUP_BY_ID[k.group].label).join(' · ')
+        : 'No friendly tie on record',
+    },
+    {
+      label: 'Years together',
+      value: x.years,
+      text: x.family
+        ? 'Family: lifelong'
+        : `${x.yearsTogether} year${x.yearsTogether === 1 ? '' : 's'}${spanText ? ` (${spanText})` : ''}${
+            x.undated ? ` · ${x.undated} tie${x.undated === 1 ? ' has' : 's have'} no dates` : ''
+          }`,
+    },
+    {
+      label: 'On the record',
+      value: x.record,
+      text: [
+        `${x.sources} source${x.sources === 1 ? '' : 's'}`,
+        ...x.workplaces.map((w) => `both at ${w.org} ${w.from === w.to ? w.from : `${w.from}–${w.to}`}`),
+      ].join(' · '),
+    },
+  ];
+  return (
+    <section className={`bond bond-${x.status}`}>
+      <h3>Bond</h3>
+      <div className="closeness-top">
+        <strong className="closeness-score">{x.score}</strong>
+        <span>
+          <strong>{x.label}</strong>
+          <span className="muted small"> · out of 100</span>
+        </span>
+      </div>
+      <div className="closeness-bar" aria-hidden="true">
+        <span style={{ width: `${x.score}%` }} />
+      </div>
+      <p className="bond-status small">{x.statusNote}</p>
+      <dl className="bond-rows">
+        {rows.map((r) => (
+          <div key={r.label} className="bond-row">
+            <dt>
+              {r.label}
+              <span className="bond-mini" aria-hidden="true">
+                <span style={{ width: `${Math.round(r.value * 100)}%` }} />
+              </span>
+            </dt>
+            <dd className="small">{r.text}</dd>
+          </div>
+        ))}
+      </dl>
+      <p className="muted small bond-note">
+        Based only on what ties these two: the kinds of tie (family and co-founders count most, then mentors,
+        employers, donors and allies, then colleagues), their confidence, the years they cover, shared workplaces and
+        how well documented it is. How many connections either has doesn't count. A rivalry or enmity now marks the
+        bond broken.
+      </p>
+    </section>
   );
 }
 

@@ -1,14 +1,26 @@
 {
   "name": "JD Vance",
-  "aliases": ["James David Vance", "J. D. Vance", "James Donald Bowman"],
+  "aliases": [
+    "James David Vance",
+    "J. D. Vance",
+    "James Donald Bowman"
+  ],
   "public_figure": true,
   "sector": "politics",
-  "groups": ["trump-circle", "tech-right", "2028-race", "natcon"],
+  "groups": [
+    "trump-circle",
+    "tech-right",
+    "2028-race",
+    "natcon"
+  ],
   "photo": {
     "file": "jd-vance.jpg",
     "credit": "Emily J. Higgins",
     "license": "Public domain",
-    "source": { "url": "https://commons.wikimedia.org/wiki/File:March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_(medium_crop)_(2).jpg", "title": "File:March 2026 Official Vice Presidential Portrait of JD Vance (medium crop) (2).jpg — Wikimedia Commons" }
+    "source": {
+      "url": "https://commons.wikimedia.org/wiki/File:March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_(medium_crop)_(2).jpg",
+      "title": "File:March 2026 Official Vice Presidential Portrait of JD Vance (medium crop) (2).jpg — Wikimedia Commons"
+    }
   },
   "lean": [
     {
@@ -17,7 +29,10 @@
       "end_year": 2020,
       "basis": "Conservative Republican who called himself a \"Never Trump guy\" in 2016, wrote that Trump was \"cultural heroin\", and said he would vote for independent Evan McMullin.",
       "sources": [
-        { "url": "https://www.axios.com/2024/07/16/jd-vance-trump-statements", "title": "Axios: J.D. Vance's journey from \"Never Trump\" to VP nominee" }
+        {
+          "url": "https://www.axios.com/2024/07/16/jd-vance-trump-statements",
+          "title": "Axios: J.D. Vance's journey from \"Never Trump\" to VP nominee"
+        }
       ]
     },
     {
@@ -26,8 +41,14 @@
       "end_year": null,
       "basis": "Embraced Trump and won Ohio's 2022 Republican Senate race with his endorsement; Trump's running mate in 2024 and vice president since 2025.",
       "sources": [
-        { "url": "https://www.axios.com/2024/07/16/jd-vance-trump-statements", "title": "Axios: J.D. Vance's journey from \"Never Trump\" to VP nominee" },
-        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "Wikipedia: JD Vance" }
+        {
+          "url": "https://www.axios.com/2024/07/16/jd-vance-trump-statements",
+          "title": "Axios: J.D. Vance's journey from \"Never Trump\" to VP nominee"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/JD_Vance",
+          "title": "Wikipedia: JD Vance"
+        }
       ]
     }
   ],
@@ -35,16 +56,31 @@
     "role": "contender",
     "basis": "Front-runner for the 2028 Republican nomination: led the October 2026 NYT-Siena poll with 33% to Rubio's 23%; as RNC finance chair he courts the party's top donors.",
     "sources": [
-      { "url": "https://www.denvergazette.com/2026/10/27/vance-leads-rubio-by-double-digits-in-early-2028-republican-poll/", "title": "Denver Gazette: Vance leads Rubio by double digits in early 2028 Republican poll" },
-      { "url": "https://thedispatch.com/article/vance-rnc-finance-chair/", "title": "The Dispatch: J.D. Vance secures an inside lane to 2028" }
+      {
+        "url": "https://www.denvergazette.com/2026/10/27/vance-leads-rubio-by-double-digits-in-early-2028-republican-poll/",
+        "title": "Denver Gazette: Vance leads Rubio by double digits in early 2028 Republican poll"
+      },
+      {
+        "url": "https://thedispatch.com/article/vance-rnc-finance-chair/",
+        "title": "The Dispatch: J.D. Vance secures an inside lane to 2028"
+      }
     ]
   },
   "current_role": "50th Vice President of the United States (since January 20, 2025)",
   "summary": "JD Vance, a Marine veteran and Yale Law graduate, became known for his 2016 memoir Hillbilly Elegy, worked for Peter Thiel's Mithril Capital, and won Ohio's Senate seat in 2022 with $15 million in super PAC backing from Thiel. Trump chose him as his 2024 running mate; he took office as vice president in January 2025. Rubio has said he would back Vance for the 2028 nomination, though the Republicans' November 2026 midterm losses raised doubts about his standing.",
   "sources": [
-    { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" },
-    { "url": "https://www.whitehouse.gov/administration/jd-vance/", "title": "Vice President JD Vance — The White House" },
-    { "url": "https://politicalwire.com/2025/11/07/marco-rubio-would-defer-to-jd-vance-in-2028/", "title": "Marco Rubio would defer to JD Vance in 2028 — Political Wire (Politico)" }
+    {
+      "url": "https://en.wikipedia.org/wiki/JD_Vance",
+      "title": "JD Vance — Wikipedia"
+    },
+    {
+      "url": "https://www.whitehouse.gov/administration/jd-vance/",
+      "title": "Vice President JD Vance — The White House"
+    },
+    {
+      "url": "https://politicalwire.com/2025/11/07/marco-rubio-would-defer-to-jd-vance-in-2028/",
+      "title": "Marco Rubio would defer to JD Vance in 2028 — Political Wire (Politico)"
+    }
   ],
   "timeline": [
     {
@@ -52,7 +88,10 @@
       "role": "Published the memoir Hillbilly Elegy",
       "org": "Author",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Hillbilly_Elegy", "title": "Hillbilly Elegy — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Hillbilly_Elegy",
+          "title": "Hillbilly Elegy — Wikipedia"
+        }
       ]
     },
     {
@@ -60,7 +99,10 @@
       "role": "Worked at Peter Thiel's venture firm after a brief stint in corporate law",
       "org": "Mithril Capital",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/JD_Vance",
+          "title": "JD Vance — Wikipedia"
+        }
       ]
     },
     {
@@ -69,7 +111,10 @@
       "role": "U.S. Senator from Ohio",
       "org": "U.S. Senate",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/JD_Vance",
+          "title": "JD Vance — Wikipedia"
+        }
       ]
     },
     {
@@ -78,8 +123,14 @@
       "role": "Vice President of the United States",
       "org": "Trump administration",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" },
-        { "url": "https://www.whitehouse.gov/administration/jd-vance/", "title": "Vice President JD Vance — The White House" }
+        {
+          "url": "https://en.wikipedia.org/wiki/JD_Vance",
+          "title": "JD Vance — Wikipedia"
+        },
+        {
+          "url": "https://www.whitehouse.gov/administration/jd-vance/",
+          "title": "Vice President JD Vance — The White House"
+        }
       ]
     }
   ],
@@ -89,7 +140,10 @@
       "role": "Member; 2024 vice-presidential nominee",
       "start_year": 2024,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/JD_Vance",
+          "title": "JD Vance — Wikipedia"
+        }
       ]
     }
   ],
@@ -103,19 +157,41 @@
       "end_year": 2022,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://www.cnbc.com/2022/10/03/peter-thiel-signals-he-is-done-helping-jd-vance-will-fundraise-for-blake-masters.html", "title": "GOP megadonor Peter Thiel signals he is done helping Ohio Senate hopeful J.D. Vance — CNBC" },
-        { "url": "https://www.cnbc.com/2022/11/12/midterm-results-peter-thiel-picks-masters-vance-see-mixed-results-in-arizona-ohio.html", "title": "Peter Thiel's picks Masters, Vance split key Senate races — CNBC" }
+        {
+          "url": "https://www.cnbc.com/2022/10/03/peter-thiel-signals-he-is-done-helping-jd-vance-will-fundraise-for-blake-masters.html",
+          "title": "GOP megadonor Peter Thiel signals he is done helping Ohio Senate hopeful J.D. Vance — CNBC"
+        },
+        {
+          "url": "https://www.cnbc.com/2022/11/12/midterm-results-peter-thiel-picks-masters-vance-see-mixed-results-in-arizona-ohio.html",
+          "title": "Peter Thiel's picks Masters, Vance split key Senate races — CNBC"
+        }
       ]
     },
     {
       "name": "Peter Thiel",
       "slug": "peter-thiel",
       "relationship_type": "mentor",
-      "description": "Vance worked at Mithril Capital, a firm Thiel co-founded, and is widely described as Thiel's protégé; Thiel introduced him to Trump in 2021.",
+      "description": "Vance met Thiel after Thiel spoke at Yale Law School in 2011, a moment Vance called the most significant of his time there. He later worked at Mithril Capital, a firm Thiel co-founded (from 2015 per Politico, 2016 per other accounts, until 2017), and is widely described as Thiel's protégé; Thiel introduced him to Trump in 2021.",
+      "start_year": 2011,
+      "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://www.npr.org/2024/07/17/g-s1-11654/five-things-to-know-about-jd-vances-connections-to-tech-billionaires", "title": "Five things to know about J.D. Vance's ties to tech billionaires — NPR" },
-        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" }
+        {
+          "url": "https://www.npr.org/2024/07/17/g-s1-11654/five-things-to-know-about-jd-vances-connections-to-tech-billionaires",
+          "title": "Five things to know about J.D. Vance's ties to tech billionaires — NPR"
+        },
+        {
+          "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/",
+          "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune"
+        },
+        {
+          "url": "https://www.forbes.com.au/news/billionaires/jd-vance-and-peter-thiel-what-to-know/",
+          "title": "Forbes Australia: JD Vance and Peter Thiel, inside the relationship"
+        },
+        {
+          "url": "https://salon.com/2024/07/22/jd-vance-owes-almost-everything-to-peter-thiel-a-pro-billionaire-and-new-right-ideologue",
+          "title": "Salon: JD Vance owes almost everything to Peter Thiel"
+        }
       ]
     },
     {
@@ -127,8 +203,14 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://www.pbs.org/newshour/politics/trump-picks-sen-jd-vance-of-ohio-as-his-republican-running-mate", "title": "Trump picks Sen. JD Vance of Ohio, a critic turned loyal ally, as his Republican running mate — PBS NewsHour" },
-        { "url": "https://www.npr.org/2024/07/15/nx-s1-5040482/former-president-trump-has-chosen-ohio-sen-j-d-vance-as-his-running-mate", "title": "Former President Trump has chosen Ohio Sen. J.D. Vance as his running mate — NPR" }
+        {
+          "url": "https://www.pbs.org/newshour/politics/trump-picks-sen-jd-vance-of-ohio-as-his-republican-running-mate",
+          "title": "Trump picks Sen. JD Vance of Ohio, a critic turned loyal ally, as his Republican running mate — PBS NewsHour"
+        },
+        {
+          "url": "https://www.npr.org/2024/07/15/nx-s1-5040482/former-president-trump-has-chosen-ohio-sen-j-d-vance-as-his-running-mate",
+          "title": "Former President Trump has chosen Ohio Sen. J.D. Vance as his running mate — NPR"
+        }
       ]
     },
     {
@@ -140,8 +222,14 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.axios.com/2024/05/24/trump-jd-vance-tech-fundraiser-david-sacks", "title": "Scoop: J.D. Vance courts Silicon Valley for Trump — Axios" },
-        { "url": "https://fortune.com/2025/07/23/all-in-podcast-trump-ai-action-plan-david-sacks-jd-vance-jensen-huang/", "title": "Silicon Valley's elite descend on D.C. to celebrate Trump's AI Action Plan — Fortune" }
+        {
+          "url": "https://www.axios.com/2024/05/24/trump-jd-vance-tech-fundraiser-david-sacks",
+          "title": "Scoop: J.D. Vance courts Silicon Valley for Trump — Axios"
+        },
+        {
+          "url": "https://fortune.com/2025/07/23/all-in-podcast-trump-ai-action-plan-david-sacks-jd-vance-jensen-huang/",
+          "title": "Silicon Valley's elite descend on D.C. to celebrate Trump's AI Action Plan — Fortune"
+        }
       ]
     },
     {
@@ -153,9 +241,18 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2025/06/07/trump-encouraged-vance-to-respond-diplomatically-when-asked-about-musk-heres-how-it-played-in-real-time/", "title": "Trump encouraged Vance to respond diplomatically when asked about Musk — CNN via ABC17" },
-        { "url": "https://www.pbs.org/newshour/politics/vance-says-musk-making-a-huge-mistake-for-attacking-trump-on-social-media", "title": "Vance says Musk making a 'huge mistake' for attacking Trump on social media — PBS NewsHour" },
-        { "url": "https://www.washingtonexaminer.com/?p=3439357", "title": "Vance and Wiles emerge as key figures in arranging Trump-Musk thaw-out — Washington Examiner" }
+        {
+          "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2025/06/07/trump-encouraged-vance-to-respond-diplomatically-when-asked-about-musk-heres-how-it-played-in-real-time/",
+          "title": "Trump encouraged Vance to respond diplomatically when asked about Musk — CNN via ABC17"
+        },
+        {
+          "url": "https://www.pbs.org/newshour/politics/vance-says-musk-making-a-huge-mistake-for-attacking-trump-on-social-media",
+          "title": "Vance says Musk making a 'huge mistake' for attacking Trump on social media — PBS NewsHour"
+        },
+        {
+          "url": "https://www.washingtonexaminer.com/?p=3439357",
+          "title": "Vance and Wiles emerge as key figures in arranging Trump-Musk thaw-out — Washington Examiner"
+        }
       ]
     },
     {
@@ -167,9 +264,18 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://politicalwire.com/2025/11/07/marco-rubio-would-defer-to-jd-vance-in-2028/", "title": "Marco Rubio would defer to JD Vance in 2028 — Political Wire (Politico)" },
-        { "url": "https://gvwire.com/2026/06/03/trump-floats-a-vance-rubio-ticket-for-2028/", "title": "Trump floats a Vance-Rubio ticket for 2028 — GV Wire" },
-        { "url": "https://thehill.com/homenews/campaign/6200720-newt-gingrich-jd-vance-gop-election-defeat/", "title": "Newt Gingrich says JD Vance no longer leads 2028 GOP primary field — The Hill" }
+        {
+          "url": "https://politicalwire.com/2025/11/07/marco-rubio-would-defer-to-jd-vance-in-2028/",
+          "title": "Marco Rubio would defer to JD Vance in 2028 — Political Wire (Politico)"
+        },
+        {
+          "url": "https://gvwire.com/2026/06/03/trump-floats-a-vance-rubio-ticket-for-2028/",
+          "title": "Trump floats a Vance-Rubio ticket for 2028 — GV Wire"
+        },
+        {
+          "url": "https://thehill.com/homenews/campaign/6200720-newt-gingrich-jd-vance-gop-election-defeat/",
+          "title": "Newt Gingrich says JD Vance no longer leads 2028 GOP primary field — The Hill"
+        }
       ]
     },
     {
@@ -181,7 +287,10 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.breitbart.com/immigration/2026/11/06/vance-immigration-hawks-applaud-stephen-millers-promotion-to-white-house-house-chief-of-staff/", "title": "JD Vance, immigration hawks applaud Stephen Miller's promotion to WH chief of staff — Breitbart" }
+        {
+          "url": "https://www.breitbart.com/immigration/2026/11/06/vance-immigration-hawks-applaud-stephen-millers-promotion-to-white-house-house-chief-of-staff/",
+          "title": "JD Vance, immigration hawks applaud Stephen Miller's promotion to WH chief of staff — Breitbart"
+        }
       ]
     },
     {
@@ -193,8 +302,14 @@
       "end_year": 2026,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://www.washingtonexaminer.com/?p=3439357", "title": "Vance and Wiles emerge as key figures in arranging Trump-Musk thaw-out — Washington Examiner" },
-        { "url": "https://www.breitbart.com/immigration/2026/11/06/vance-immigration-hawks-applaud-stephen-millers-promotion-to-white-house-house-chief-of-staff/", "title": "JD Vance, immigration hawks applaud Stephen Miller's promotion to WH chief of staff — Breitbart" }
+        {
+          "url": "https://www.washingtonexaminer.com/?p=3439357",
+          "title": "Vance and Wiles emerge as key figures in arranging Trump-Musk thaw-out — Washington Examiner"
+        },
+        {
+          "url": "https://www.breitbart.com/immigration/2026/11/06/vance-immigration-hawks-applaud-stephen-millers-promotion-to-white-house-house-chief-of-staff/",
+          "title": "JD Vance, immigration hawks applaud Stephen Miller's promotion to WH chief of staff — Breitbart"
+        }
       ]
     },
     {
@@ -205,7 +320,10 @@
       "start_year": 2017,
       "confidence": 0.55,
       "sources": [
-        { "url": "https://fortune.com/2024/11/16/anduril-chairman-trae-stephens-donald-trump-us-military-reform-defense-spending/", "title": "Anduril chairman Trae Stephens on Trump and military reform — Fortune (Bloomberg)" }
+        {
+          "url": "https://fortune.com/2024/11/16/anduril-chairman-trae-stephens-donald-trump-us-military-reform-defense-spending/",
+          "title": "Anduril chairman Trae Stephens on Trump and military reform — Fortune (Bloomberg)"
+        }
       ]
     },
     {
@@ -216,8 +334,14 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://www.whitehouse.gov/administration/usha-vance/", "title": "Second Lady Usha Vance — The White House" },
-        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" }
+        {
+          "url": "https://www.whitehouse.gov/administration/usha-vance/",
+          "title": "Second Lady Usha Vance — The White House"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/JD_Vance",
+          "title": "JD Vance — Wikipedia"
+        }
       ]
     },
     {
@@ -229,9 +353,18 @@
       "end_year": null,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://www.fox7austin.com/news/vice-president-jd-vance-visits-austin-fundraising-event", "title": "Vice President JD Vance visits Austin for fundraising event — FOX 7 Austin" },
-        { "url": "https://www.kxan.com/news/texas-politics/vance-visits-austin-for-fundraiser-with-50000-cover-charge/amp/", "title": "Vance visits Austin for fundraiser with $50,000 cover charge — KXAN" },
-        { "url": "https://www.bloomberg.com/news/articles/2024-11-01/joe-lonsdale-like-peter-thiel-plows-his-tech-fortune-into-conservative-causes", "title": "Joe Lonsdale Is Seed Funding Young Conservative Minds — Bloomberg" }
+        {
+          "url": "https://www.fox7austin.com/news/vice-president-jd-vance-visits-austin-fundraising-event",
+          "title": "Vice President JD Vance visits Austin for fundraising event — FOX 7 Austin"
+        },
+        {
+          "url": "https://www.kxan.com/news/texas-politics/vance-visits-austin-for-fundraiser-with-50000-cover-charge/amp/",
+          "title": "Vance visits Austin for fundraiser with $50,000 cover charge — KXAN"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2024-11-01/joe-lonsdale-like-peter-thiel-plows-his-tech-fortune-into-conservative-causes",
+          "title": "Joe Lonsdale Is Seed Funding Young Conservative Minds — Bloomberg"
+        }
       ]
     },
     {
@@ -243,9 +376,18 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://www.yahoo.com/news/pete-hegseth-faces-close-senate-210506301.html", "title": "Vance's tiebreaker vote confirms Pete Hegseth as Defense secretary — Yahoo News" },
-        { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" },
-        { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" }
+        {
+          "url": "https://www.yahoo.com/news/pete-hegseth-faces-close-senate-210506301.html",
+          "title": "Vance's tiebreaker vote confirms Pete Hegseth as Defense secretary — Yahoo News"
+        },
+        {
+          "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/",
+          "title": "Hegseth confirmed as secretary of defense — Task & Purpose"
+        },
+        {
+          "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/",
+          "title": "HON Pete Hegseth — U.S. Department of War biography"
+        }
       ]
     },
     {
@@ -257,8 +399,14 @@
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.washingtonexaminer.com/?p=2892300", "title": "JD Vance endorses Kari Lake for Senate — Washington Examiner" },
-        { "url": "https://www.breitbart.com/2024-election/2024/02/28/sens-marsha-blackburn-j-d-vance-back-arizona-republican-kari-lake-for-senate", "title": "Sens. Marsha Blackburn, J.D. Vance back Arizona Republican Kari Lake for Senate — Breitbart" }
+        {
+          "url": "https://www.washingtonexaminer.com/?p=2892300",
+          "title": "JD Vance endorses Kari Lake for Senate — Washington Examiner"
+        },
+        {
+          "url": "https://www.breitbart.com/2024-election/2024/02/28/sens-marsha-blackburn-j-d-vance-back-arizona-republican-kari-lake-for-senate",
+          "title": "Sens. Marsha Blackburn, J.D. Vance back Arizona Republican Kari Lake for Senate — Breitbart"
+        }
       ]
     },
     {
@@ -270,9 +418,18 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://digital-release.thehill.com/?p=4822598", "title": "Vance says he 'disavows' Nick Fuentes: 'A total loser' — The Hill" },
-        { "url": "https://thegrio.com/2025/12/22/vice-president-jd-vance-issues-expletive-response-to-racist-attacks-on-his-wife", "title": "Vice President JD Vance issues expletive response to racist attacks on his wife — TheGrio" },
-        { "url": "https://www.yahoo.com/news/articles/jd-vance-responds-nick-fuentes-004420613.html", "title": "JD Vance responds to Nick Fuentes' use of racial slur against wife Usha — USA Today via Yahoo" }
+        {
+          "url": "https://digital-release.thehill.com/?p=4822598",
+          "title": "Vance says he 'disavows' Nick Fuentes: 'A total loser' — The Hill"
+        },
+        {
+          "url": "https://thegrio.com/2025/12/22/vice-president-jd-vance-issues-expletive-response-to-racist-attacks-on-his-wife",
+          "title": "Vice President JD Vance issues expletive response to racist attacks on his wife — TheGrio"
+        },
+        {
+          "url": "https://www.yahoo.com/news/articles/jd-vance-responds-nick-fuentes-004420613.html",
+          "title": "JD Vance responds to Nick Fuentes' use of racial slur against wife Usha — USA Today via Yahoo"
+        }
       ]
     },
     {
@@ -284,9 +441,18 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://www.thedailybeast.com/elon-musk-and-tucker-carlson-secretly-lobbied-trump-to-pick-jd-vance", "title": "Daily Beast: Musk and Carlson lobbied Trump to pick Vance" },
-        { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" },
-        { "url": "https://jewishinsider.com/2026/09/jd-vance-defends-friendship-tucker-carlson/", "title": "Jewish Insider: Vance defends friendship with Tucker Carlson" }
+        {
+          "url": "https://www.thedailybeast.com/elon-musk-and-tucker-carlson-secretly-lobbied-trump-to-pick-jd-vance",
+          "title": "Daily Beast: Musk and Carlson lobbied Trump to pick Vance"
+        },
+        {
+          "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/",
+          "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview"
+        },
+        {
+          "url": "https://jewishinsider.com/2026/09/jd-vance-defends-friendship-tucker-carlson/",
+          "title": "Jewish Insider: Vance defends friendship with Tucker Carlson"
+        }
       ]
     },
     {
@@ -298,7 +464,10 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios: Vice President-elect JD Vance's inner circle" }
+        {
+          "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff",
+          "title": "Axios: Vice President-elect JD Vance's inner circle"
+        }
       ]
     },
     {
@@ -310,8 +479,14 @@
       "end_year": null,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://www.axios.com/2026/01/25/cruz-trump-vance-secret-tapes", "title": "Axios: In secret recordings, Cruz trashes Trump tariffs, Vance" },
-        { "url": "https://www.cnn.com/2026/06/25/politics/ted-cruz-2028-republican-nomination-jd-vance-trump-maga", "title": "CNN: Ted Cruz's not-so-secret White House dreams have gotten JD Vance's attention" }
+        {
+          "url": "https://www.axios.com/2026/01/25/cruz-trump-vance-secret-tapes",
+          "title": "Axios: In secret recordings, Cruz trashes Trump tariffs, Vance"
+        },
+        {
+          "url": "https://www.cnn.com/2026/06/25/politics/ted-cruz-2028-republican-nomination-jd-vance-trump-maga",
+          "title": "CNN: Ted Cruz's not-so-secret White House dreams have gotten JD Vance's attention"
+        }
       ]
     },
     {
@@ -323,7 +498,10 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://kvia.com/politics/cnn-us-politics/2024/07/15/how-donald-trump-landed-on-jd-vance-as-his-vice-presidential-pick/", "title": "CNN via KVIA: How Donald Trump landed on JD Vance as his VP pick" }
+        {
+          "url": "https://kvia.com/politics/cnn-us-politics/2024/07/15/how-donald-trump-landed-on-jd-vance-as-his-vice-presidential-pick/",
+          "title": "CNN via KVIA: How Donald Trump landed on JD Vance as his VP pick"
+        }
       ]
     },
     {
@@ -335,7 +513,10 @@
       "end_year": null,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" }
+        {
+          "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs",
+          "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding"
+        }
       ]
     },
     {
@@ -347,7 +528,10 @@
       "end_year": null,
       "confidence": 0.6,
       "sources": [
-        { "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/", "title": "Forbes: The billionaires cozying up to JD Vance" }
+        {
+          "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/",
+          "title": "Forbes: The billionaires cozying up to JD Vance"
+        }
       ]
     },
     {
@@ -358,8 +542,14 @@
       "start_year": 2019,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.globes.co.il/en/article-1001487027", "title": "The Israeli behind a global conservative movement — Globes" },
-        { "url": "https://www.thebulwark.com/p/understanding-jd-vances-national", "title": "Understanding J.D. Vance's 'National Conservatism' Convention Speech — The Bulwark" }
+        {
+          "url": "https://en.globes.co.il/en/article-1001487027",
+          "title": "The Israeli behind a global conservative movement — Globes"
+        },
+        {
+          "url": "https://www.thebulwark.com/p/understanding-jd-vances-national",
+          "title": "Understanding J.D. Vance's 'National Conservatism' Convention Speech — The Bulwark"
+        }
       ]
     },
     {
@@ -370,9 +560,18 @@
       "start_year": 2019,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.desmog.com/2026/04/02/seven-things-you-should-know-reform-policy-chief-james-orr/", "title": "Eight Things You Should Know About Reform's Policy Chief James Orr — DeSmog" },
-        { "url": "https://www.thedailybeast.com/vances-british-sherpa-steps-down-after-undercover-sting/", "title": "Vance's 'British sherpa' steps down after undercover sting — Daily Beast" },
-        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" }
+        {
+          "url": "https://www.desmog.com/2026/04/02/seven-things-you-should-know-reform-policy-chief-james-orr/",
+          "title": "Eight Things You Should Know About Reform's Policy Chief James Orr — DeSmog"
+        },
+        {
+          "url": "https://www.thedailybeast.com/vances-british-sherpa-steps-down-after-undercover-sting/",
+          "title": "Vance's 'British sherpa' steps down after undercover sting — Daily Beast"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)",
+          "title": "James Orr (philosopher) — Wikipedia"
+        }
       ]
     },
     {
@@ -383,10 +582,22 @@
       "start_year": 2025,
       "confidence": 0.7,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
-        { "url": "https://www.yahoo.com/news/articles/pretty-bad-vance-vp-silence-013923015.html", "title": "'Pretty bad for Vance': the VP's silence on Iran peeves allies — Yahoo News" },
-        { "url": "https://unherd.com/2025/12/full-transcript-jd-vance-on-american-identity/", "title": "Full transcript: JD Vance on American identity — UnHerd" },
-        { "url": "https://unherd.com/2026/03/how-jd-vance-lost-the-foreign-policy-war/", "title": "How JD Vance lost the foreign policy war — UnHerd" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari",
+          "title": "Sohrab Ahmari — Wikipedia"
+        },
+        {
+          "url": "https://www.yahoo.com/news/articles/pretty-bad-vance-vp-silence-013923015.html",
+          "title": "'Pretty bad for Vance': the VP's silence on Iran peeves allies — Yahoo News"
+        },
+        {
+          "url": "https://unherd.com/2025/12/full-transcript-jd-vance-on-american-identity/",
+          "title": "Full transcript: JD Vance on American identity — UnHerd"
+        },
+        {
+          "url": "https://unherd.com/2026/03/how-jd-vance-lost-the-foreign-policy-war/",
+          "title": "How JD Vance lost the foreign policy war — UnHerd"
+        }
       ]
     },
     {
@@ -398,7 +609,10 @@
       "end_year": 2025,
       "confidence": 0.55,
       "sources": [
-        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" }
+        {
+          "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html",
+          "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News"
+        }
       ]
     },
     {
@@ -410,7 +624,10 @@
       "end_year": 2022,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://vice.com/en/article/claremont-institute-thomas-klingenstein-super-pac", "title": "Claremont Institute chairman Thomas Klingenstein super PAC — Vice" }
+        {
+          "url": "https://vice.com/en/article/claremont-institute-thomas-klingenstein-super-pac",
+          "title": "Claremont Institute chairman Thomas Klingenstein super PAC — Vice"
+        }
       ]
     },
     {
@@ -421,10 +638,22 @@
       "start_year": 2023,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://isi.org/events/regime-change-and-the-future-of-liberalism/", "title": "Modern Age Panel: Regime Change and the Future of Liberalism — ISI" },
-        { "url": "https://constudies.nd.edu/events-news/news/modern-age-panel-regime-change-and-the-future-of-liberalism", "title": "Regime Change and the Future of Liberalism (panel) — Notre Dame Center for Citizenship & Constitutional Government" },
-        { "url": "https://www.rollingstone.com/politics/political-commentary/jd-vance-extremist-christian-vp-mike-pence-1235069117/", "title": "JD Vance and the post-liberal right — Rolling Stone" },
-        { "url": "https://www.ncregister.com/news/j-d-vance-is-a-catholic-post-liberal", "title": "JD Vance Is a Catholic 'Post-Liberal': Here's What That Means — National Catholic Register" }
+        {
+          "url": "https://isi.org/events/regime-change-and-the-future-of-liberalism/",
+          "title": "Modern Age Panel: Regime Change and the Future of Liberalism — ISI"
+        },
+        {
+          "url": "https://constudies.nd.edu/events-news/news/modern-age-panel-regime-change-and-the-future-of-liberalism",
+          "title": "Regime Change and the Future of Liberalism (panel) — Notre Dame Center for Citizenship & Constitutional Government"
+        },
+        {
+          "url": "https://www.rollingstone.com/politics/political-commentary/jd-vance-extremist-christian-vp-mike-pence-1235069117/",
+          "title": "JD Vance and the post-liberal right — Rolling Stone"
+        },
+        {
+          "url": "https://www.ncregister.com/news/j-d-vance-is-a-catholic-post-liberal",
+          "title": "JD Vance Is a Catholic 'Post-Liberal': Here's What That Means — National Catholic Register"
+        }
       ]
     },
     {
@@ -435,9 +664,18 @@
       "start_year": 2018,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://americancompass.org/transcript-vice-president-vance-speaks-to-oren-cass-at-the-new-world-gala/", "title": "Transcript: Vice President Vance speaks to Oren Cass at the New World Gala — American Compass" },
-        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" },
-        { "url": "https://americancompass.org/oren-cass/", "title": "Oren Cass — American Compass" }
+        {
+          "url": "https://americancompass.org/transcript-vice-president-vance-speaks-to-oren-cass-at-the-new-world-gala/",
+          "title": "Transcript: Vice President Vance speaks to Oren Cass at the New World Gala — American Compass"
+        },
+        {
+          "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html",
+          "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News"
+        },
+        {
+          "url": "https://americancompass.org/oren-cass/",
+          "title": "Oren Cass — American Compass"
+        }
       ]
     },
     {
@@ -449,9 +687,18 @@
       "end_year": 2022,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.cnn.com/2021/03/15/politics/hillbilly-elegy-author-vance-pac-donation-senate/index.html", "title": "'Hillbilly Elegy' author J.D. Vance gets $10 million boost for potential Senate bid — CNN" },
-        { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" },
-        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+        {
+          "url": "https://www.cnn.com/2021/03/15/politics/hillbilly-elegy-author-vance-pac-donation-senate/index.html",
+          "title": "'Hillbilly Elegy' author J.D. Vance gets $10 million boost for potential Senate bid — CNN"
+        },
+        {
+          "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html",
+          "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Robert_Mercer",
+          "title": "Robert Mercer — Wikipedia"
+        }
       ]
     },
     {
@@ -463,8 +710,14 @@
       "end_year": 2022,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" },
-        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+        {
+          "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html",
+          "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Robert_Mercer",
+          "title": "Robert Mercer — Wikipedia"
+        }
       ]
     },
     {
@@ -475,8 +728,14 @@
       "start_year": 2025,
       "confidence": 0.6,
       "sources": [
-        { "url": "https://thepeninsulaqatar.com/article/18/04/2025/vance-meets-italys-meloni-before-easter-at-the-vatican", "title": "Vance meets Italy's Meloni before Easter at the Vatican — AFP via The Peninsula" },
-        { "url": "https://www.thestar.com.my/news/world/2025/04/18/melodic-italian-bolsters-meloni-in-talks-with-trump-and-vance", "title": "Melodic Italian bolsters Meloni in talks with Trump and Vance — Reuters via The Star" }
+        {
+          "url": "https://thepeninsulaqatar.com/article/18/04/2025/vance-meets-italys-meloni-before-easter-at-the-vatican",
+          "title": "Vance meets Italy's Meloni before Easter at the Vatican — AFP via The Peninsula"
+        },
+        {
+          "url": "https://www.thestar.com.my/news/world/2025/04/18/melodic-italian-bolsters-meloni-in-talks-with-trump-and-vance",
+          "title": "Melodic Italian bolsters Meloni in talks with Trump and Vance — Reuters via The Star"
+        }
       ]
     },
     {
@@ -487,9 +746,18 @@
       "start_year": 2023,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://kvia.com/politics/cnn-us-politics/2024/08/02/jd-vances-republican-colleagues-defend-trumps-running-mate-saying-ohio-senator-is-a-voice-for-next-generation-of-gop-voters/", "title": "JD Vance's Republican colleagues defend Trump's running mate — CNN via KVIA" },
-        { "url": "https://www.semafor.com/article/08/05/2025/why-a-first-term-senator-passed-up-trumps-cabinet", "title": "Why a first-term senator passed up Trump's Cabinet — Semafor" },
-        { "url": "https://www.thedailybeast.com/vance-veep-eric-schmitt-buzz-backfires-almost-immediately/", "title": "Vance veep Eric Schmitt buzz backfires almost immediately — Daily Beast" }
+        {
+          "url": "https://kvia.com/politics/cnn-us-politics/2024/08/02/jd-vances-republican-colleagues-defend-trumps-running-mate-saying-ohio-senator-is-a-voice-for-next-generation-of-gop-voters/",
+          "title": "JD Vance's Republican colleagues defend Trump's running mate — CNN via KVIA"
+        },
+        {
+          "url": "https://www.semafor.com/article/08/05/2025/why-a-first-term-senator-passed-up-trumps-cabinet",
+          "title": "Why a first-term senator passed up Trump's Cabinet — Semafor"
+        },
+        {
+          "url": "https://www.thedailybeast.com/vance-veep-eric-schmitt-buzz-backfires-almost-immediately/",
+          "title": "Vance veep Eric Schmitt buzz backfires almost immediately — Daily Beast"
+        }
       ]
     },
     {
@@ -500,7 +768,10 @@
       "start_year": 2019,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.inc.com/reuters/vances-tech-donor-network-wants-to-push-us-to-right.html", "title": "Vance's tech donor network wants to push US to the right — Reuters via Inc." }
+        {
+          "url": "https://www.inc.com/reuters/vances-tech-donor-network-wants-to-push-us-to-right.html",
+          "title": "Vance's tech donor network wants to push US to the right — Reuters via Inc."
+        }
       ]
     },
     {
@@ -512,8 +783,14 @@
       "end_year": 2024,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://www.nbcnews.com/politics/rcna157069", "title": "Trump's VP search: two top finalists emerge — NBC News" },
-        { "url": "https://semafor.com/article/07/13/2024/breaking-down-donald-trumps-top-three-vp-finalists", "title": "Breaking down Donald Trump's top three VP finalists — Semafor" }
+        {
+          "url": "https://www.nbcnews.com/politics/rcna157069",
+          "title": "Trump's VP search: two top finalists emerge — NBC News"
+        },
+        {
+          "url": "https://semafor.com/article/07/13/2024/breaking-down-donald-trumps-top-three-vp-finalists",
+          "title": "Breaking down Donald Trump's top three VP finalists — Semafor"
+        }
       ]
     },
     {
@@ -524,7 +801,10 @@
       "start_year": 2024,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://www.axios.com/2024/07/25/vance-project-2025-book-trump-heritage-foundation", "title": "J.D. Vance wrote foreword of upcoming book from Project 2025 architect — Axios" }
+        {
+          "url": "https://www.axios.com/2024/07/25/vance-project-2025-book-trump-heritage-foundation",
+          "title": "J.D. Vance wrote foreword of upcoming book from Project 2025 architect — Axios"
+        }
       ]
     }
   ],

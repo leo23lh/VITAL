@@ -3,6 +3,7 @@ import * as validator from '../../scripts/validate.mjs';
 import {
   activeInRange,
   activeInYear,
+  bond,
   buildGraph,
   compare,
   describeLink,
@@ -11,8 +12,10 @@ import {
   leanAt,
   mergePairs,
   neighborhood,
+  pairKey,
   ringDistances,
   roleOfOther,
+  workplaceIndex,
 } from './graph';
 import {
   GIVING_SIDES,
@@ -481,5 +484,46 @@ describe('compare', () => {
     const none = compare('a', 'far', friendly.pairs, friendly.byId);
     expect(none.chain).toBeNull();
     expect(none.score).toBe(0);
+  });
+});
+
+describe('bond', () => {
+  const pairOf = (files: ReturnType<typeof person>[], a: string, b: string) => {
+    const g = buildGraph(files);
+    const byId = new Map(g.nodes.map((n) => [n.id, n]));
+    const links = g.links.filter((l) => pairKey(l.sourceId, l.targetId) === pairKey(a, b));
+    return bond(byId.get(a), byId.get(b), links, workplaceIndex(g.nodes), 2026);
+  };
+
+  it('grows with deeper kinds of tie and more years, not with other connections', () => {
+    const short = pairOf(
+      [person('a', 'A', [conn('b', 'B', 'colleague', 0.9, { start_year: 2024, end_year: null })]), person('b', 'B', [conn('a', 'A', 'colleague', 0.9, { start_year: 2024, end_year: null })])],
+      'a',
+      'b',
+    );
+    const deep = pairOf(
+      [
+        person('a', 'A', [conn('b', 'B', 'co-founder', 0.9, { start_year: 2006, end_year: null }), conn('c', 'C', 'ally')]),
+        person('b', 'B', [conn('a', 'A', 'co-founder', 0.9, { start_year: 2006, end_year: null })]),
+        person('c', 'C', [conn('a', 'A', 'ally')]),
+      ],
+      'a',
+      'b',
+    );
+    expect(deep.score).toBeGreaterThan(short.score);
+    expect(deep.yearsTogether).toBe(21);
+    expect(deep.status).toBe('ongoing');
+  });
+
+  it('marks a friendship that turned into a feud as broken, and a pure feud as no bond', () => {
+    const files = [
+      person('a', 'A', [conn('b', 'B', 'ally', 0.9, { start_year: 2016, end_year: 2020 }), conn('b', 'B', 'enemy', 0.9, { start_year: 2021, end_year: null })]),
+      person('b', 'B', [conn('a', 'A', 'ally', 0.9, { start_year: 2016, end_year: 2020 }), conn('a', 'A', 'enemy', 0.9, { start_year: 2021, end_year: null })]),
+    ];
+    expect(pairOf(files, 'a', 'b').status).toBe('broken');
+    const feud = [person('a', 'A', [conn('b', 'B', 'rival', 0.9, { end_year: null })]), person('b', 'B', [conn('a', 'A', 'rival', 0.9, { end_year: null })])];
+    const x = pairOf(feud, 'a', 'b');
+    expect(x.status).toBe('hostile');
+    expect(x.score).toBe(0);
   });
 });

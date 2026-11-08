@@ -766,3 +766,196 @@ export function closenessLabel(score: number): string {
   if (score >= 15) return 'Loosely connected';
   return 'Far apart';
 }
+
+// ---------------------------------------------------------------------------
+// Bond: how deep one pair's own relationship runs (a friend / loyalty meter).
+// Only their own ties and shared work count, never how many connections either has.
+// ---------------------------------------------------------------------------
+
+/** People per workplace (from timelines), so huge shared workplaces like "White House" don't count as working together. */
+export type WorkplaceIndex = Map<string, Set<string>>;
+
+/** Workplaces with more than this many people in the map are too big to mean two people worked together. */
+const SMALL_WORKPLACE = 5;
+
+export function workplaceKey(org: string | undefined): string {
+  return (org ?? '')
+    .toLowerCase()
+    .replace(/^the /, '')
+    .replace(/[^a-z0-9 ]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+export function workplaceIndex(nodes: GraphNode[]): WorkplaceIndex {
+  const idx: WorkplaceIndex = new Map();
+  for (const n of nodes)
+    for (const t of n.person?.timeline ?? []) {
+      const k = workplaceKey(t.org);
+      if (k) (idx.get(k) ?? idx.set(k, new Set()).get(k)!).add(n.id);
+    }
+  return idx;
+}
+
+export interface SharedWorkplace {
+  org: string;
+  from: number;
+  to: number;
+}
+
+export type BondStatus = 'ongoing' | 'ended' | 'mended' | 'broken' | 'hostile' | 'none';
+
+export interface Bond {
+  /** 0–100. */
+  score: number;
+  label: string;
+  status: BondStatus;
+  /** One line on the status, e.g. "Allies once, enemies now". */
+  statusNote: string;
+  /** 0–1 parts of the score. */
+  depth: number;
+  years: number;
+  record: number;
+  /** Kinds of friendly tie, closest first, with their confidence. */
+  kinds: { group: EdgeGroup; confidence: number }[];
+  yearsTogether: number;
+  span: [number, number] | null;
+  sources: number;
+  workplaces: SharedWorkplace[];
+  /** Friendly ties with no start year, which add no years. */
+  undated: number;
+  family: boolean;
+}
+
+const BOND_LABELS: [number, string][] = [
+  [80, 'Inner circle'],
+  [60, 'Strong bond'],
+  [40, 'Solid'],
+  [20, 'Working tie'],
+  [1, 'Thin'],
+];
+
+/** Years a dated record covers: an open end runs to `now`; an unrecorded end counts the start year only. */
+function span(start: number | null | undefined, end: number | null | undefined, now: number): [number, number] | null {
+  if (start == null) return null;
+  const e = end === null ? now : (end ?? start);
+  return [start, Math.max(start, e)];
+}
+
+function countYears(intervals: [number, number][]): { count: number; span: [number, number] | null } {
+  const years = new Set<number>();
+  for (const [a, b] of intervals) for (let y = a; y <= b; y++) years.add(y);
+  if (!years.size) return { count: 0, span: null };
+  return { count: years.size, span: [Math.min(...years), Math.max(...years)] };
+}
+
+/**
+ * How deep the relationship between a and b runs, from the links between them
+ * (`links`, every kind) and the workplaces they shared at the same time.
+ * Depth: the kinds of tie (family > co-founder > mentor > employer > donor/ally > colleague),
+ * each weighted by confidence. Years: the years their ties and shared small workplaces cover.
+ * Record: how many distinct sources and shared workplaces document it. A current
+ * rivalry or enmity after a friendly tie marks the bond broken.
+ */
+export function bond(
+  a: GraphNode | undefined,
+  b: GraphNode | undefined,
+  links: GraphLink[],
+  workplaces: WorkplaceIndex,
+  now = new Date().getFullYear(),
+): Bond {
+  const friendly = links.filter((l) => l.group !== 'rival' && l.group !== 'enemy');
+  const feuds = links.filter((l) => l.group === 'rival' || l.group === 'enemy');
+  const currentFeud = feuds.find((l) => !isPastRivalry(l));
+
+  // Depth: the strongest record of each kind, combined so a second kind adds less than the first.
+  const best = new Map<EdgeGroup, number>();
+  for (const l of friendly) best.set(l.group, Math.max(best.get(l.group) ?? 0, l.confidence));
+  const kinds = [...best.entries()]
+    .map(([group, confidence]) => ({ group, confidence }))
+    .sort((x, y) => CLOSENESS[y.group] * y.confidence - CLOSENESS[x.group] * x.confidence);
+  const depth = 1 - kinds.reduce((p, k) => p * (1 - CLOSENESS[k.group] * k.confidence), 1);
+
+  // Shared workplaces at the same time (small ones only).
+  const shared: SharedWorkplace[] = [];
+  for (const ta of a?.person?.timeline ?? []) {
+    const k = workplaceKey(ta.org);
+    if (!k || (workplaces.get(k)?.size ?? 0) > SMALL_WORKPLACE) continue;
+    const sa = span(ta.year, ta.end_year, now);
+    for (const tb of b?.person?.timeline ?? []) {
+      if (workplaceKey(tb.org) !== k) continue;
+      const sb = span(tb.year, tb.end_year, now);
+      if (!sa || !sb) continue;
+      const from = Math.max(sa[0], sb[0]);
+      const to = Math.min(sa[1], sb[1]);
+      if (from <= to && !shared.some((w) => workplaceKey(w.org) === k && w.from === from)) shared.push({ org: ta.org!, from, to });
+    }
+  }
+
+  // A tie with no recorded end counts as continuing (as in the date filter); a donation counts for its year only.
+  const linkSpan = (l: GraphLink) =>
+    span(l.startYear, l.endYear === undefined && l.group !== 'funding' ? null : l.endYear, now);
+  const intervals = [
+    ...friendly.map(linkSpan).filter((x): x is [number, number] => !!x),
+    ...shared.map((w): [number, number] => [w.from, w.to]),
+  ];
+  const { count: yearsTogether, span: yearSpan } = countYears(intervals);
+
+  const sources = new Set(friendly.flatMap((l) => l.sources.map(sourceUrl)).filter((u) => /^https?:/i.test(u))).size;
+
+  const family = friendly.some((l) => l.group === 'family');
+  const undated = friendly.filter((l) => l.startYear == null && l.group !== 'family').length;
+  const depthPart = depth;
+  // Family is lifelong, dates or not.
+  const yearsPart = Math.max(1 - Math.exp(-yearsTogether / 6), family ? 0.9 : 0);
+  const recordPart = 1 - Math.exp(-(sources + shared.length) / 6);
+  let raw = friendly.length || shared.length ? 0.5 * depthPart + 0.3 * yearsPart + 0.2 * recordPart : 0;
+
+  // Status: is the bond still standing?
+  const ongoing = friendly.some((l) => l.endYear === null || l.endYear === undefined || l.endYear >= now);
+  const pastFeud = feuds.find((l) => isPastRivalry(l));
+  let status: BondStatus;
+  let statusNote: string;
+  const feudWord = (l: GraphLink) => (l.group === 'enemy' ? 'enemies' : 'rivals');
+  if (currentFeud && friendly.length) {
+    status = 'broken';
+    statusNote = `Once close, ${feudWord(currentFeud)} now`;
+    raw *= 0.3;
+  } else if (currentFeud) {
+    status = 'hostile';
+    statusNote = `No bond: ${feudWord(currentFeud)}`;
+    raw = 0;
+  } else if (!friendly.length && !shared.length) {
+    status = 'none';
+    statusNote = pastFeud ? `Former ${feudWord(pastFeud)}, no friendly tie on record` : 'No direct tie on record';
+  } else if (pastFeud && ongoing) {
+    status = 'mended';
+    statusNote = `Mended: ${feudWord(pastFeud)} once, on good terms now`;
+    raw *= 0.85;
+  } else if (!ongoing) {
+    status = 'ended';
+    statusNote = yearSpan ? `Ended; last recorded together in ${yearSpan[1]}` : 'Ended';
+    raw *= 0.7;
+  } else {
+    status = 'ongoing';
+    statusNote = 'Still standing';
+  }
+
+  const score = Math.round(100 * raw);
+  return {
+    score,
+    label: BOND_LABELS.find(([min]) => score >= min)?.[1] ?? 'No bond',
+    status,
+    statusNote,
+    depth: depthPart,
+    years: yearsPart,
+    record: recordPart,
+    kinds,
+    yearsTogether,
+    span: yearSpan,
+    sources,
+    workplaces: shared,
+    undated,
+    family,
+  };
+}

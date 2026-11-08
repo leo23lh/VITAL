@@ -261,6 +261,25 @@ of separation (everyone is one or two steps apart). It shows:
 - The map shows just the two, the chain and the shared circle. Logic:
   `compare()` in `src/lib/graph.ts`.
 
+**Bond** (tap a line, or Compare two people who are directly tied) is a
+friend / loyalty meter, 0–100, for the pair's own relationship only. How many
+connections either person has never counts. It has three parts (`bond()` in
+`src/lib/graph.ts`):
+
+- **Depth (half):** the kinds of friendly tie between them, each weighted by
+  `CLOSENESS` × confidence and combined so a second kind adds less than the first.
+- **Years together (30%):** the years their dated ties cover, plus years both
+  worked at the same small workplace (from timelines; workplaces with more than
+  five people in the map, like the White House or Senate, don't count). A tie
+  with a start but no end counts as continuing; a donation counts for its year
+  only; family counts as lifelong. Ties with no start year add no years, and the
+  meter says so: give links a `start_year` whenever a source has one.
+- **On the record (20%):** distinct sources plus shared workplaces.
+- **Status:** ongoing; ended (×0.7); mended, an old feud with friendly ties now
+  (×0.85); broken, friendly ties plus a current rivalry or enmity (×0.3); or
+  hostile, only a current feud (0). Labels: 80+ inner circle, 60+ strong bond,
+  40+ solid, 20+ working tie, else thin.
+
 Group and lens views use a radial layout: the view's people sit in the middle,
 and everyone else sits on faint rings by how many links away they are
 ("1 step out", "2 steps out", "not linked"). The whole network stays visible.

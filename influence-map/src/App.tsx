@@ -20,6 +20,7 @@ import {
   type GraphNode,
   type PairLink,
   type YearRange,
+  workplaceIndex,
 } from './lib/graph';
 import { EDGE_FAMILIES, GROUPS, type EdgeFamily, type GroupId } from './lib/schema';
 import { usePeople } from './lib/usePeople';
@@ -158,6 +159,7 @@ export default function App() {
   }, [people, orgs]);
 
   const span = useMemo(() => yearSpan(graph.links), [graph]);
+  const workplaces = useMemo(() => workplaceIndex(graph.nodes), [graph]);
   const byId = useMemo(() => new Map(graph.nodes.map((n) => [n.id, n])), [graph]);
 
   // Links that pass the family, year and view filters (before choosing which people show).
@@ -456,6 +458,7 @@ export default function App() {
           onWorld={openWorld}
           comparison={comparison}
           onCompare={openCompare}
+          workplaces={workplaces}
           onClose={() => (selection ? setSelection(null) : setView({ kind: 'all' }))}
         />
       </main>

@@ -1633,3 +1633,79 @@ a.source-chip:hover {
 .banner {
   border-radius: 0;
 }
+
+/* Bond meter (a pair's own relationship) */
+.bond {
+  margin-top: 16px;
+  padding: 12px 14px 10px;
+  background: var(--navy-2);
+  border: 1px solid var(--hairline);
+  border-left: 3px solid var(--cream-dim);
+}
+
+.bond-broken,
+.bond-hostile {
+  border-left-color: var(--red);
+}
+
+.bond .closeness-score {
+  font-size: 44px;
+}
+
+.bond-status {
+  margin: 0 0 8px;
+  font-style: italic;
+  color: var(--cream);
+}
+
+.bond-broken .bond-status,
+.bond-hostile .bond-status {
+  color: var(--red-text);
+}
+
+.bond-ended .bond-status,
+.bond-none .bond-status {
+  color: var(--muted);
+}
+
+.bond-rows {
+  margin: 0;
+}
+
+.bond-row {
+  padding: 6px 0;
+  border-top: 1px solid rgba(36, 49, 74, 0.7);
+}
+
+.bond-row dt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--cream-dim);
+}
+
+.bond-row dd {
+  margin: 3px 0 0;
+}
+
+.bond-mini {
+  width: 90px;
+  height: 3px;
+  background: var(--navy-3);
+  flex: none;
+}
+
+.bond-mini span {
+  display: block;
+  height: 100%;
+  background: var(--cream);
+}
+
+.bond-note {
+  margin: 8px 0 0;
+}
