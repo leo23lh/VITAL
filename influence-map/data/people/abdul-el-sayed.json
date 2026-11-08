@@ -105,6 +105,19 @@
       "sources": [
         { "url": "https://www.semafor.com/article/10/14/2026/top-democratic-super-pac-spends-more-in-michigan-maine", "title": "Top Democratic super PAC spends more in Michigan, Maine — Semafor" }
       ]
+    },
+    {
+      "name": "Chuck Schumer",
+      "slug": "chuck-schumer",
+      "relationship_type": "enemy",
+      "description": "Senator-elect El-Sayed is one of five incoming Democrats who say they will vote against Schumer for leader; he backs Chris Van Hollen.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.foxnews.com/politics/schumer-faces-mutiny-from-newly-elected-senate-dems-party-prepares-seize-power", "title": "Chuck Schumer faces leadership rebellion from incoming Democrats — Fox News" },
+        { "url": "https://www.democracynow.org/2026/11/6/headlines/incoming_freshman_senators_call_for_new_leadership_to_replace_top_democrat_chuck_schumer", "title": "Incoming freshman senators call for new leadership to replace Chuck Schumer — Democracy Now!" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where Wikipedia was rate-limiting and most news pages could not be opened; Wikipedia facts were confirmed with web searches restricted to en.wikipedia.org, and news facts with searches tied to each cited URL.",

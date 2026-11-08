@@ -1826,6 +1826,111 @@
         { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" },
         { "url": "https://www.bloomberg.com/news/articles/2026-04-10/top-white-house-aide-weighing-temporary-exit-for-midterms-role", "title": "Top Trump aide takes up temporary role to boost GOP in midterms — Bloomberg" }
       ]
+    },
+    {
+      "name": "Christopher Landau",
+      "slug": "christopher-landau",
+      "relationship_type": "employee",
+      "description": "Trump’s ambassador to Mexico (2019–2021) and deputy secretary of state since 2025.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" },
+        { "url": "https://mexiconewsdaily.com/news/trump-landau-ambassador-to-mexico-deputy-secretary-of-state/", "title": "Trump picks former ambassador to Mexico Landau as deputy secretary of state — Mexico News Daily" }
+      ]
+    },
+    {
+      "name": "Kash Patel",
+      "slug": "kash-patel",
+      "relationship_type": "employee",
+      "description": "Held national-security posts in Trump’s first term and was his pick to run the FBI in the second.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kash_Patel", "title": "Kash Patel — Wikipedia" },
+        { "url": "https://www.tribuneindia.com/news/world/indian-origin-kash-patel-confirmed-as-fbi-director-by-us-senate", "title": "Kash Patel confirmed as FBI director by US Senate — The Tribune" }
+      ]
+    },
+    {
+      "name": "John Ratcliffe",
+      "slug": "john-ratcliffe",
+      "relationship_type": "employee",
+      "description": "Trump’s director of national intelligence (2020–2021) and CIA director since 2025.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/John_Ratcliffe", "title": "John Ratcliffe — Wikipedia" },
+        { "url": "https://www.pbs.org/newshour/politics/senate-confirms-john-ratcliffe-as-cia-director-giving-trump-his-2nd-cabinet-member", "title": "Senate confirms John Ratcliffe as CIA director — PBS NewsHour (AP)" }
+      ]
+    },
+    {
+      "name": "Jay Clayton",
+      "slug": "jay-clayton",
+      "relationship_type": "employee",
+      "description": "Trump’s SEC chairman (2017–2020), then his U.S. attorney in Manhattan and, from 2026, director of national intelligence.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jay_Clayton_(attorney)", "title": "Jay Clayton (attorney) — Wikipedia" },
+        { "url": "https://www.npr.org/2026/07/29/nx-s1-5910749/senate-confirms-jay-clayton-as-director-of-national-intelligence", "title": "Senate confirms Jay Clayton as director of national intelligence — NPR" }
+      ]
+    },
+    {
+      "name": "Mike Johnson",
+      "slug": "mike-johnson",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Johnson for Speaker and Johnson ran the House closely in step with him, talking to him more often than Senate leader Thune and leaning on him to end revolts; NOTUS reported he ceded some of the Speaker’s powers to Trump.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=4603630", "title": "FISA spat puts Johnson’s alliance with Trump to the test — Washington Examiner" },
+        { "url": "https://www.notus.org/congress/mike-johnson-speaker-of-the-house", "title": "It’s Johnson’s gavel but Trump’s House — NOTUS" }
+      ]
+    },
+    {
+      "name": "John Thune",
+      "slug": "john-thune",
+      "relationship_type": "ally",
+      "description": "Led Trump’s agenda through the Senate as majority leader from 2025, though he spoke with Trump less often than Speaker Johnson did.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/John_Thune", "title": "John Thune — Wikipedia" },
+        { "url": "https://www.washingtonexaminer.com/?p=4603630", "title": "FISA spat puts Johnson’s alliance with Trump to the test — Washington Examiner" }
+      ]
+    },
+    {
+      "name": "Hakeem Jeffries",
+      "slug": "hakeem-jeffries",
+      "relationship_type": "enemy",
+      "description": "Leads the House Democratic opposition to Trump; said after the 2026 midterms that he had not spoken with Trump since the results.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house", "title": "House Democratic Leader Hakeem Jeffries declares “America is back” — NPR" },
+        { "url": "https://thehill.com/homenews/6198897-jeffries-ribs-johnson-midterms/", "title": "Jeffries taunts Speaker Johnson for saying polls were wrong — The Hill" }
+      ]
+    },
+    {
+      "name": "Chuck Schumer",
+      "slug": "chuck-schumer",
+      "relationship_type": "enemy",
+      "description": "Long-time fellow New Yorkers and leading antagonists: in 2026 they traded attacks over the Gateway tunnel, ICE funding and elections, though they held a rare one-on-one White House meeting in January and Axios called the relationship “complicated.”",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2026/02/13/trump-schumer-new-york-witkoff-lutnick", "title": "Inside the “complicated” Trump–Schumer relationship — Axios" },
+        { "url": "https://www.semafor.com/article/02/03/2026/trump-and-schumer-find-themselves-forced-to-work-together-again", "title": "Trump and Schumer forced to work together, again — Semafor" },
+        { "url": "https://rollcall.com/2026/02/10/trumps-jabs-at-top-democrat-could-complicate-immigration-enforcement-deal/", "title": "Trump’s jabs at top Democrat could complicate immigration enforcement deal — Roll Call" }
+      ]
     }
   ],
   "source_conflicts": [

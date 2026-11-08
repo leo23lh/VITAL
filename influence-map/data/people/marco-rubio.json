@@ -392,6 +392,18 @@
         { "url": "https://x.com/jacobhelberg/status/1975687421024215309", "title": "Jacob Helberg on X: Senate confirmation announcement" },
         { "url": "https://www.indiandefensenews.in/2026/08/rubio-and-helberg-highlight-pax-silica.html", "title": "Indian Defence News: Rubio and Helberg highlight Pax Silica" }
       ]
+    },
+    {
+      "name": "Christopher Landau",
+      "slug": "christopher-landau",
+      "relationship_type": "employee",
+      "description": "Rubio’s deputy at the State Department since March 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [],

@@ -117,6 +117,18 @@
       "sources": [
         { "url": "https://thehill.com/homenews/campaign/3705040-michael-bloomberg-gives-pelosi-aligned-super-pac-another-10m-as-midterms-near/", "title": "Michael Bloomberg gives Pelosi-aligned super PAC another $10M as midterms near — The Hill" }
       ]
+    },
+    {
+      "name": "Hakeem Jeffries",
+      "slug": "hakeem-jeffries",
+      "relationship_type": "ally",
+      "description": "Succeeded Pelosi as House Democratic leader in January 2023.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries", "title": "Hakeem Jeffries — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

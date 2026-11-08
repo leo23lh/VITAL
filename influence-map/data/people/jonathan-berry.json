@@ -75,6 +75,19 @@
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
       ]
+    },
+    {
+      "name": "Trent McCotter",
+      "slug": "trent-mccotter",
+      "relationship_type": "colleague",
+      "description": "Both were partners at the small Washington firm Boyden Gray PLLC (Berry as managing partner) before joining the administration.",
+      "start_year": null,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fedsoc.org/bio/trent-mccotter", "title": "Trent McCotter — The Federalist Society" },
+        { "url": "https://www.dol.gov/agencies/sol/about/solicitor", "title": "Jonathan Berry, Solicitor of Labor — U.S. Department of Labor" }
+      ]
     }
   ],
   "office": {

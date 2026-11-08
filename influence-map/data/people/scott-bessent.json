@@ -146,6 +146,19 @@
         { "url": "https://ajc.com/news/white-house-inner-circle-discussed-secret-military-plans-in-extraordinary-breach/4HS5BQMHRVBRVMKZK3IY3LMK44", "title": "AJC: White House inner circle discussed secret military plans in extraordinary breach" },
         { "url": "https://www.timesofisrael.com/us-cabinet-officials-accidentally-add-journalist-to-group-chat-share-war-plans/", "title": "Times of Israel: US cabinet officials accidentally add journalist to group chat, share war plans" }
       ]
+    },
+    {
+      "name": "Francis Brooke",
+      "slug": "francis-brooke",
+      "relationship_type": "employee",
+      "description": "Bessent picked Brooke to perform the deputy secretary’s duties in April 2026 and sent him to lead the IMF delegation in his place that October.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://home.treasury.gov/news/press-releases/sb0479", "title": "Treasury Department announces new appointments — U.S. Department of the Treasury (April 2026)" },
+        { "url": "https://www.freemalaysiatoday.com/category/business/2026/10/10/us-treasury-chief-to-skip-imf-annual-meetings-in-bangkok", "title": "US Treasury chief to skip IMF annual meetings in Bangkok — Reuters via Free Malaysia Today" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

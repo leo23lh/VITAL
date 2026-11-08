@@ -307,6 +307,36 @@ them to the map, tapping again removes them. Tapping a person still shows all
 of their own lines. "[Person]'s world" and Compare keep the ring layout
 ("1 step out", "2 steps out").
 
+## Office (org chart)
+
+Current government officials carry an `office` field, which places them in
+**Views → Org chart** (a hierarchy instead of the web):
+
+```json
+"office": { "title": "Deputy Secretary of State", "unit": "state", "rank": 2,
+            "reports_to": "marco-rubio", "since": "2025-03-25", "acting": false,
+            "sources": [{ "url": "https://…", "title": "…" }] }
+```
+
+- **unit**: `white-house`, `eop`, `state`, `treasury`, `war`, `justice`,
+  `interior`, `agriculture`, `commerce`, `labor`, `hhs`, `hud`,
+  `transportation`, `energy`, `education`, `va`, `dhs`, `agencies` (CIA, DNI,
+  USAGM…), `envoys` (ambassadors and special envoys), `senate`, `house`.
+  Keep the list in `src/lib/schema.ts` and `scripts/validate.mjs` in sync.
+- **rank**: 1 head, 2 deputy, 3 senior (under secretary, chief of staff,
+  committee chair), 4 other appointee or member. Sorts people within a unit.
+- **reports_to**: the boss's slug (must have a file). The chart nests people
+  under their boss within a unit and shows "Reports to …" when the boss is in
+  another unit (secretaries → the President). It also shows each person's Bond
+  score with their boss, or "no tie on record" when the map has no link
+  between them, so give officials a sourced link to their boss.
+- One office per person: the main current post. Remove it when they leave
+  (and move the post into `timeline`). Only current officeholders; note
+  pending changes in the title ("until January 2027").
+- Senior staff of officials (chiefs of staff, deputy chiefs, agency heads)
+  count as public figures for their public role (research rule 1); record only
+  their posts and public record.
+
 ## Giving
 
 Donors (anyone whose political giving is publicly reported) can carry a `giving`

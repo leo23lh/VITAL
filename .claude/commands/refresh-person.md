@@ -62,6 +62,9 @@ optionally followed by context about what to focus on.
      politics shifted since `last_researched`, closing the previous one.
      For donors, update `giving` (CLAUDE.md "Giving"): add the latest cycle's
      totals and recipients and refresh the `outlook`.
+     Re-check `office` (CLAUDE.md "Office"): update the title, boss and
+     `since` if their post changed, or remove it (moving the post into
+     `timeline`) if they left government.
    - For each connection to someone with a file (a person in DATA_DIR or an
      organization in `influence-map/data/orgs/`): add or update the inverse
      record in their file (inverse type, same years, sources and confidence).

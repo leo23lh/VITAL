@@ -1,0 +1,111 @@
+{
+  "name": "Hakeem Jeffries",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": 2013,
+      "end_year": null,
+      "basis": "Democratic congressman since 2013 and House Democratic leader since 2023.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries", "title": "Hakeem Jeffries — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "House Democratic Leader (since January 2023); running for Speaker in January 2027",
+  "summary": "Hakeem Jeffries, a Brooklyn congressman since 2013, succeeded Nancy Pelosi as House Democratic leader in January 2023. After Democrats won the House in November 2026 he launched his bid to become Speaker in January, when he would be the first Black Speaker.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries", "title": "Hakeem Jeffries — Wikipedia" },
+    { "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house", "title": "House Democratic Leader Hakeem Jeffries declares “America is back” — NPR" },
+    { "url": "https://thehill.com/homenews/6198897-jeffries-ribs-johnson-midterms/", "title": "Jeffries taunts Speaker Johnson for saying polls were wrong — The Hill" }
+  ],
+  "timeline": [
+    {
+      "year": 2013,
+      "end_year": null,
+      "role": "U.S. Representative (D-NY)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries", "title": "Hakeem Jeffries — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": null,
+      "role": "House Democratic Leader",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries", "title": "Hakeem Jeffries — Wikipedia" },
+        { "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house", "title": "House Democratic Leader Hakeem Jeffries declares “America is back” — NPR" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Mike Johnson",
+      "slug": "mike-johnson",
+      "relationship_type": "rival",
+      "description": "Opposing House leaders since 2023; after the 2026 midterms Jeffries mocked Johnson for saying the polls were wrong.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://thehill.com/homenews/6198897-jeffries-ribs-johnson-midterms/", "title": "Jeffries taunts Speaker Johnson for saying polls were wrong — The Hill" },
+        { "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house", "title": "House Democratic Leader Hakeem Jeffries declares “America is back” — NPR" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Leads the House Democratic opposition to Trump; said after the 2026 midterms that he had not spoken with Trump since the results.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house", "title": "House Democratic Leader Hakeem Jeffries declares “America is back” — NPR" },
+        { "url": "https://thehill.com/homenews/6198897-jeffries-ribs-johnson-midterms/", "title": "Jeffries taunts Speaker Johnson for saying polls were wrong — The Hill" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "ally",
+      "description": "Succeeded Pelosi as House Democratic leader in January 2023.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries", "title": "Hakeem Jeffries — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Chuck Schumer",
+      "slug": "chuck-schumer",
+      "relationship_type": "ally",
+      "description": "The two Democratic congressional leaders, both from New York, who led their party to majorities in 2026.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house", "title": "House Democratic Leader Hakeem Jeffries declares “America is back” — NPR" },
+        { "url": "https://rollcall.com/2026/11/04/will-be-reelected-as-majority-leader-schumer-says/", "title": "‘I’ll be reelected as majority leader,’ Schumer says — Roll Call" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "House Minority Leader (Speaker candidate for January 2027)",
+    "unit": "house",
+    "rank": 2,
+    "since": "2023-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries", "title": "Hakeem Jeffries — Wikipedia" },
+      { "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house", "title": "House Democratic Leader Hakeem Jeffries declares “America is back” — NPR" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

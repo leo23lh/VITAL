@@ -1,0 +1,86 @@
+{
+  "name": "Jay Clayton",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Director of National Intelligence (since August 2026)",
+  "summary": "Jay Clayton became director of national intelligence after the Senate confirmed him 51–47 on a party-line vote in late July 2026, succeeding Tulsi Gabbard, who resigned in June. A Wall Street lawyer, he chaired the Securities and Exchange Commission in Trump’s first term and was U.S. attorney for the Southern District of New York from 2025. At his hearing he declined to say outright that Joe Biden won the 2020 election.",
+  "sources": [
+    { "url": "https://www.npr.org/2026/07/29/nx-s1-5910749/senate-confirms-jay-clayton-as-director-of-national-intelligence", "title": "Senate confirms Jay Clayton as director of national intelligence — NPR" },
+    { "url": "https://www.cbsnews.com/news/senate-confirms-jay-clayton-trump-intelligence-chief-dni-bill-pulte/", "title": "Senate confirms Jay Clayton as Trump’s next intelligence chief — CBS News" },
+    { "url": "https://en.wikipedia.org/wiki/Jay_Clayton_(attorney)", "title": "Jay Clayton (attorney) — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2020,
+      "role": "Chairman",
+      "org": "U.S. Securities and Exchange Commission",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jay_Clayton_(attorney)", "title": "Jay Clayton (attorney) — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "U.S. Attorney for the Southern District of New York",
+      "org": "U.S. Department of Justice",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jay_Clayton_(attorney)", "title": "Jay Clayton (attorney) — Wikipedia" },
+        { "url": "https://www.npr.org/2026/07/29/nx-s1-5910749/senate-confirms-jay-clayton-as-director-of-national-intelligence", "title": "Senate confirms Jay Clayton as director of national intelligence — NPR" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Director of National Intelligence",
+      "org": "Office of the Director of National Intelligence",
+      "sources": [
+        { "url": "https://www.npr.org/2026/07/29/nx-s1-5910749/senate-confirms-jay-clayton-as-director-of-national-intelligence", "title": "Senate confirms Jay Clayton as director of national intelligence — NPR" },
+        { "url": "https://www.cbsnews.com/news/senate-confirms-jay-clayton-trump-intelligence-chief-dni-bill-pulte/", "title": "Senate confirms Jay Clayton as Trump’s next intelligence chief — CBS News" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump’s SEC chairman (2017–2020), then his U.S. attorney in Manhattan and, from 2026, director of national intelligence.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jay_Clayton_(attorney)", "title": "Jay Clayton (attorney) — Wikipedia" },
+        { "url": "https://www.npr.org/2026/07/29/nx-s1-5910749/senate-confirms-jay-clayton-as-director-of-national-intelligence", "title": "Senate confirms Jay Clayton as director of national intelligence — NPR" }
+      ]
+    },
+    {
+      "name": "John Ratcliffe",
+      "slug": "john-ratcliffe",
+      "relationship_type": "colleague",
+      "description": "The two top intelligence chiefs since August 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.npr.org/2026/07/29/nx-s1-5910749/senate-confirms-jay-clayton-as-director-of-national-intelligence", "title": "Senate confirms Jay Clayton as director of national intelligence — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/senate-confirms-john-ratcliffe-as-cia-director-giving-trump-his-2nd-cabinet-member", "title": "Senate confirms John Ratcliffe as CIA director — PBS NewsHour (AP)" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Director of National Intelligence",
+    "unit": "agencies",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2026-08",
+    "sources": [
+      { "url": "https://www.npr.org/2026/07/29/nx-s1-5910749/senate-confirms-jay-clayton-as-director-of-national-intelligence", "title": "Senate confirms Jay Clayton as director of national intelligence — NPR" },
+      { "url": "https://en.wikipedia.org/wiki/Jay_Clayton_(attorney)", "title": "Jay Clayton (attorney) — Wikipedia" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

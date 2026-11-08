@@ -1,0 +1,114 @@
+{
+  "name": "Chuck Schumer",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": 1999,
+      "end_year": null,
+      "basis": "Democratic senator since 1999 and Senate Democratic leader since 2017.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chuck_Schumer", "title": "Chuck Schumer — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "Senate Democratic Leader (since 2017); expected to become majority leader in January 2027",
+  "summary": "Chuck Schumer, a New York senator since 1999, has led Senate Democrats since 2017 and was majority leader from 2021 to 2025. After Democrats won the Senate in November 2026 he said he would be re-elected majority leader, but five incoming senators, including Michigan’s Abdul El-Sayed, said they would oppose him; the closed-door leadership vote is expected in early December, and no one has formally challenged him.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Chuck_Schumer", "title": "Chuck Schumer — Wikipedia" },
+    { "url": "https://rollcall.com/2026/11/04/will-be-reelected-as-majority-leader-schumer-says/", "title": "‘I’ll be reelected as majority leader,’ Schumer says — Roll Call" },
+    { "url": "https://www.foxnews.com/politics/schumer-faces-mutiny-from-newly-elected-senate-dems-party-prepares-seize-power", "title": "Chuck Schumer faces leadership rebellion from incoming Democrats — Fox News" },
+    { "url": "https://edition.cnn.com/2026/11/07/politics/senate-democrats-new-majority-leader", "title": "Schumer faces skepticism among some Democrats over majority leader role — CNN" }
+  ],
+  "timeline": [
+    {
+      "year": 1999,
+      "end_year": null,
+      "role": "U.S. Senator (D-NY)",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chuck_Schumer", "title": "Chuck Schumer — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": null,
+      "role": "Senate Democratic Leader (majority leader 2021–2025)",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chuck_Schumer", "title": "Chuck Schumer — Wikipedia" },
+        { "url": "https://rollcall.com/2026/11/04/will-be-reelected-as-majority-leader-schumer-says/", "title": "‘I’ll be reelected as majority leader,’ Schumer says — Roll Call" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Long-time fellow New Yorkers and leading antagonists: in 2026 they traded attacks over the Gateway tunnel, ICE funding and elections, though they held a rare one-on-one White House meeting in January and Axios called the relationship “complicated.”",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2026/02/13/trump-schumer-new-york-witkoff-lutnick", "title": "Inside the “complicated” Trump–Schumer relationship — Axios" },
+        { "url": "https://www.semafor.com/article/02/03/2026/trump-and-schumer-find-themselves-forced-to-work-together-again", "title": "Trump and Schumer forced to work together, again — Semafor" },
+        { "url": "https://rollcall.com/2026/02/10/trumps-jabs-at-top-democrat-could-complicate-immigration-enforcement-deal/", "title": "Trump’s jabs at top Democrat could complicate immigration enforcement deal — Roll Call" }
+      ]
+    },
+    {
+      "name": "John Thune",
+      "slug": "john-thune",
+      "relationship_type": "rival",
+      "description": "Opposing Senate leaders; they swap majority and minority roles in January 2027.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.sdpb.org/elections/2026-11-04/thune-says-senate-republicans-wont-stand-idly-by-in-face-of-democrats-new-majority", "title": "Thune says Senate Republicans won’t ‘stand idly by’ in face of Democrats’ new majority — SDPB" },
+        { "url": "https://rollcall.com/2026/11/04/will-be-reelected-as-majority-leader-schumer-says/", "title": "‘I’ll be reelected as majority leader,’ Schumer says — Roll Call" }
+      ]
+    },
+    {
+      "name": "Hakeem Jeffries",
+      "slug": "hakeem-jeffries",
+      "relationship_type": "ally",
+      "description": "The two Democratic congressional leaders, both from New York, who led their party to majorities in 2026.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house", "title": "House Democratic Leader Hakeem Jeffries declares “America is back” — NPR" },
+        { "url": "https://rollcall.com/2026/11/04/will-be-reelected-as-majority-leader-schumer-says/", "title": "‘I’ll be reelected as majority leader,’ Schumer says — Roll Call" }
+      ]
+    },
+    {
+      "name": "Abdul El-Sayed",
+      "slug": "abdul-el-sayed",
+      "relationship_type": "enemy",
+      "description": "Senator-elect El-Sayed is one of five incoming Democrats who say they will vote against Schumer for leader; he backs Chris Van Hollen.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.foxnews.com/politics/schumer-faces-mutiny-from-newly-elected-senate-dems-party-prepares-seize-power", "title": "Chuck Schumer faces leadership rebellion from incoming Democrats — Fox News" },
+        { "url": "https://www.democracynow.org/2026/11/6/headlines/incoming_freshman_senators_call_for_new_leadership_to_replace_top_democrat_chuck_schumer", "title": "Incoming freshman senators call for new leadership to replace Chuck Schumer — Democracy Now!" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Senate Minority Leader (expected majority leader from January 2027)",
+    "unit": "senate",
+    "rank": 2,
+    "since": "2017-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Chuck_Schumer", "title": "Chuck Schumer — Wikipedia" },
+      { "url": "https://rollcall.com/2026/11/04/will-be-reelected-as-majority-leader-schumer-says/", "title": "‘I’ll be reelected as majority leader,’ Schumer says — Roll Call" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

@@ -129,6 +129,9 @@ a. Write `DATA_DIR/<slug>.json` in the CLAUDE.md format, with `last_researched`
    If they are a political donor, add `giving` as CLAUDE.md "Giving" describes:
    totals and main recipients per cycle (latest two cycles at least), and an
    `outlook` for the next cycle that rests only on reporting.
+   If they hold a current government post, add `office` as CLAUDE.md "Office"
+   describes (unit, rank, `reports_to` their boss's slug when the boss has a
+   file) and a sourced link to that boss, so they appear in the org chart.
 
 b. **Reciprocal links.** For every connection whose `slug` has a file in DATA_DIR
    (or in `influence-map/data/orgs/` for an organization),

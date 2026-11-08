@@ -1,0 +1,85 @@
+{
+  "name": "Kash Patel",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "current_role": "Director of the FBI (since February 2025)",
+  "summary": "Kash Patel has led the FBI since the Senate confirmed him 51–47 in February 2025. A former federal prosecutor and House Intelligence Committee aide who wrote the 2018 Nunes memo, he held national-security posts late in Trump’s first term. In September 2026 Senate Democrats pressed him at an oversight hearing over bureau hiring policy and his lawsuit against a magazine that reported on his drinking, which he denies.",
+  "sources": [
+    { "url": "https://www.tribuneindia.com/news/world/indian-origin-kash-patel-confirmed-as-fbi-director-by-us-senate", "title": "Kash Patel confirmed as FBI director by US Senate — The Tribune" },
+    { "url": "https://www.nbcnews.com/politics/justice-department/fbi-director-kash-patel-clashes-democrats-oversight-hearing-rcna597915", "title": "FBI Director Kash Patel clashes with Democrats at oversight hearing — NBC News (September 2026)" },
+    { "url": "https://en.wikipedia.org/wiki/Kash_Patel", "title": "Kash Patel — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2019,
+      "role": "Senior aide",
+      "org": "House Permanent Select Committee on Intelligence",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kash_Patel", "title": "Kash Patel — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2021,
+      "role": "National security posts (NSC staff; chief of staff to the acting defense secretary)",
+      "org": "Trump administration",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kash_Patel", "title": "Kash Patel — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Director",
+      "org": "Federal Bureau of Investigation",
+      "sources": [
+        { "url": "https://www.tribuneindia.com/news/world/indian-origin-kash-patel-confirmed-as-fbi-director-by-us-senate", "title": "Kash Patel confirmed as FBI director by US Senate — The Tribune" },
+        { "url": "https://www.liberty.edu/news/2026/10/14/fbi-director-kash-patel-engages-with-liberty-university-students-during-law-enforcement-roundtable/", "title": "FBI Director Kash Patel engages with Liberty University students — Liberty University (October 14, 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Held national-security posts in Trump’s first term and was his pick to run the FBI in the second.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kash_Patel", "title": "Kash Patel — Wikipedia" },
+        { "url": "https://www.tribuneindia.com/news/world/indian-origin-kash-patel-confirmed-as-fbi-director-by-us-senate", "title": "Kash Patel confirmed as FBI director by US Senate — The Tribune" }
+      ]
+    },
+    {
+      "name": "Todd Blanche",
+      "slug": "todd-blanche",
+      "relationship_type": "employer",
+      "description": "The FBI sits under the attorney general; Blanche has been Patel’s boss since April 2026 (acting) and August 2026 (confirmed).",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/justice-department/fbi-director-kash-patel-clashes-democrats-oversight-hearing-rcna597915", "title": "FBI Director Kash Patel clashes with Democrats at oversight hearing — NBC News (September 2026)" },
+        { "url": "https://en.wikipedia.org/wiki/Kash_Patel", "title": "Kash Patel — Wikipedia" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Director, FBI",
+    "unit": "justice",
+    "rank": 3,
+    "reports_to": "todd-blanche",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://www.tribuneindia.com/news/world/indian-origin-kash-patel-confirmed-as-fbi-director-by-us-senate", "title": "Kash Patel confirmed as FBI director by US Senate — The Tribune" },
+      { "url": "https://www.liberty.edu/news/2026/10/14/fbi-director-kash-patel-engages-with-liberty-university-students-during-law-enforcement-roundtable/", "title": "FBI Director Kash Patel engages with Liberty University students — Liberty University (October 14, 2026)" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

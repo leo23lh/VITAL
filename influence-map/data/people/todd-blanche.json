@@ -116,6 +116,32 @@
         { "url": "https://www.axios.com/2026/04/02/trump-todd-blanche-acting-attorney-general", "title": "Axios: What to know about Todd Blanche, Trump's new acting attorney general" },
         { "url": "https://en.wikipedia.org/wiki/Todd_Blanche", "title": "Wikipedia: Todd Blanche" }
       ]
+    },
+    {
+      "name": "Trent McCotter",
+      "slug": "trent-mccotter",
+      "relationship_type": "employee",
+      "description": "Blanche made McCotter his principal associate deputy in April 2026, and he has been acting deputy attorney general since Blanche moved up in August.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/us-law-week/blanche-fills-doj-leadership-position-in-first-post-bondi-move", "title": "Blanche fills DOJ leadership position in first post-Bondi move — Bloomberg Law" },
+        { "url": "https://news.bloomberglaw.com/us-law-week/blanches-doj-deputy-options-risk-renewed-settlement-fund-fight", "title": "Blanche’s DOJ deputy options risk renewed settlement fund fight — Bloomberg Law" }
+      ]
+    },
+    {
+      "name": "Kash Patel",
+      "slug": "kash-patel",
+      "relationship_type": "employee",
+      "description": "The FBI sits under the attorney general; Blanche has been Patel’s boss since April 2026 (acting) and August 2026 (confirmed).",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/justice-department/fbi-director-kash-patel-clashes-democrats-oversight-hearing-rcna597915", "title": "FBI Director Kash Patel clashes with Democrats at oversight hearing — NBC News (September 2026)" },
+        { "url": "https://en.wikipedia.org/wiki/Kash_Patel", "title": "Kash Patel — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

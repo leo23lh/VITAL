@@ -1,0 +1,83 @@
+{
+  "name": "Christopher Landau",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Deputy Secretary of State (since March 2025)",
+  "summary": "Christopher Landau is the State Department’s No. 2, sworn in on March 25, 2025, after a 60–31 confirmation vote. A Supreme Court litigator with a long Big Law career, he was Trump’s ambassador to Mexico from 2019 to 2021.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" },
+    { "url": "https://news.bloomberglaw.com/business-and-practice/trumps-deputy-secretary-of-state-pick-has-lengthy-big-law-past", "title": "Trump’s deputy secretary of state pick has lengthy Big Law past — Bloomberg Law" },
+    { "url": "https://mexiconewsdaily.com/news/trump-landau-ambassador-to-mexico-deputy-secretary-of-state/", "title": "Trump picks former ambassador to Mexico Landau as deputy secretary of state — Mexico News Daily" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2019,
+      "role": "Appellate lawyer (Kirkland & Ellis, Quinn Emanuel)",
+      "org": "Private practice",
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/business-and-practice/trumps-deputy-secretary-of-state-pick-has-lengthy-big-law-past", "title": "Trump’s deputy secretary of state pick has lengthy Big Law past — Bloomberg Law" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2021,
+      "role": "U.S. Ambassador to Mexico",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" },
+        { "url": "https://mexiconewsdaily.com/news/trump-landau-ambassador-to-mexico-deputy-secretary-of-state/", "title": "Trump picks former ambassador to Mexico Landau as deputy secretary of state — Mexico News Daily" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Deputy Secretary of State",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Rubio’s deputy at the State Department since March 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump’s ambassador to Mexico (2019–2021) and deputy secretary of state since 2025.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" },
+        { "url": "https://mexiconewsdaily.com/news/trump-landau-ambassador-to-mexico-deputy-secretary-of-state/", "title": "Trump picks former ambassador to Mexico Landau as deputy secretary of state — Mexico News Daily" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Deputy Secretary of State",
+    "unit": "state",
+    "rank": 2,
+    "reports_to": "marco-rubio",
+    "since": "2025-03-25",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}
