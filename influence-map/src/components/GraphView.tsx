@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState, type RefObject } fro
 import ForceGraph2D, { type ForceGraphMethods } from 'react-force-graph-2d';
 import { describeLink, familyOf, linkEndId, matchesQuery, type GraphNode, type PairLink } from '../lib/graph';
 import { EDGE_FAMILY_BY_ID, ORG_KIND_LABEL, SECTOR_BY_ID, orgSideColor } from '../lib/schema';
-import type { Compass, RadialLayout, Selection } from '../App';
+import type { Compass, Forces, RadialLayout, Selection } from '../App';
 
 export const BACKGROUND = '#0f1117';
 const GREY = '#94a3b8';
@@ -29,8 +29,12 @@ interface Props {
   showPhotos: boolean;
   /** Set in group and lens views: core people in the middle, everyone else on rings. */
   radial: RadialLayout | null;
-  /** Set in the main view: left–right by lean, north–south by money vs politics. */
+  /** Set in the main view's lean mode: left–right by political lean. */
   compass: Compass | null;
+  /** Set in the main view's free layout: cluster number per person; each cluster gets its own patch. */
+  clusters: Map<string, number> | null;
+  /** Layout sliders, as multipliers on the defaults. */
+  forces: Forces;
   /** Changes when the view changes; the map re-fits once it settles. */
   fitKey: string;
   fgRef: RefObject<GraphHandle>;
@@ -50,6 +54,8 @@ export default function GraphView({
   showPhotos,
   radial,
   compass,
+  clusters,
+  forces,
   fitKey,
   fgRef,
   onSelect,
@@ -87,10 +93,20 @@ export default function GraphView({
   useEffect(() => {
     const fg = fgRef.current;
     if (!fg) return;
-    fg.d3Force('charge')?.strength?.(radial ? -180 : -280);
+    const free = !radial && !compass;
+    const sameCluster = (l: PairLink) =>
+      !clusters || clusters.get(linkEndId(l.source)) === clusters.get(linkEndId(l.target));
+    fg.d3Force('charge')?.strength?.((radial ? -180 : compass ? -280 : -380) * forces.repel);
     const link = fg.d3Force('link');
     // Closer relationships (family, co-founders, bosses) sit nearer and pull harder; rivals barely pull.
-    link?.distance?.((l: PairLink) => (l.touchesSuggested ? 45 : 60) + (1 - l.closeness) * (l.touchesSuggested ? 30 : 90));
+    // In the free layout, lines between clusters are longer so the clusters stay apart.
+    link?.distance?.(
+      (l: PairLink) =>
+        ((l.touchesSuggested ? 45 : 60) +
+          (1 - l.closeness) * (l.touchesSuggested ? 30 : 90) +
+          (free && !sameCluster(l) ? 90 : 0)) *
+        forces.distance,
+    );
     // In radial views, lines out of the core barely pull, so the rings decide where people sit.
     const deg = new Map<string, number>();
     for (const p of pairs)
@@ -99,7 +115,8 @@ export default function GraphView({
       const s = linkEndId(l.source);
       const t = linkEndId(l.target);
       const base = (0.3 + 1.1 * l.closeness) / Math.min(deg.get(s) ?? 1, deg.get(t) ?? 1);
-      if (!radial) return Math.min(1, base);
+      // Free layout: lines between clusters barely pull, so hubs don't drag every cluster into one knot.
+      if (!radial) return Math.min(1, free && !sameCluster(l) ? base * 0.06 : base);
       return radial.core.has(s) && radial.core.has(t) ? Math.min(1, base) : base * 0.15;
     };
     // Main view: the built-in link force is replaced by leanLinkForce, which lets lines move
@@ -107,16 +124,25 @@ export default function GraphView({
     // registered at zero strength because the graph uses it to wire up line ends.)
     link?.strength?.(compass ? 0 : strength);
     fg.d3Force('leanLinks', compass ? leanLinkForce(pairs, compass, strength, link?.distance?.()) : null);
-    fg.d3Force('tidy', tidyForce(!radial && !compass, radial ? 40 : 26));
+    fg.d3Force('tidy', tidyForce(free ? 0.012 * forces.center : 0, radial ? 40 : free ? 34 : 26));
+    fg.d3Force('cluster', free && clusters ? clusterForce(clusters, forces) : null);
     fg.d3Force('radial', radial ? radialForce(radial) : null);
     fg.d3Force('compass', compass ? compassForce(compass) : null);
     // The compass has fixed spots, so the usual re-centering would drag everyone toward the middle.
     if (centerForce.current === undefined) centerForce.current = fg.d3Force('center') ?? null;
     fg.d3Force('center', compass ? null : (centerForce.current as never));
     fg.d3ReheatSimulation();
-  }, [fgRef, nodes, pairs, radial, compass]);
+  }, [fgRef, nodes, pairs, radial, compass, clusters, forces]);
 
-  const graphData = useMemo(() => ({ nodes, links: pairs }), [nodes, pairs]);
+  // Best-connected first, so they claim their name's spot before smaller dots do (see drawNode).
+  const graphData = useMemo(
+    () => ({ nodes: [...nodes].sort((a, b) => Number(b.researched) - Number(a.researched) || b.degree - a.degree), links: pairs }),
+    [nodes, pairs],
+  );
+  // Name boxes drawn so far this frame; a name that would overlap one is skipped.
+  const labelBoxes = useRef<{ x0: number; y0: number; x1: number; y1: number }[]>([]);
+  // Names are drawn after every dot (onRenderFramePost), so no dot covers one.
+  const labelQueue = useRef<{ text: string; x: number; y: number; font: string; color: string; alpha: number; scale: number }[]>([]);
 
   const nameOf = useMemo(() => {
     const m = new Map(nodes.map((n) => [n.id, n.name]));
@@ -234,10 +260,9 @@ export default function GraphView({
         ctx.stroke();
       }
 
+      const mustLabel = node.id === hoverId || node.id === selectedNodeId || matched;
       const showLabel =
-        node.id === hoverId ||
-        node.id === selectedNodeId ||
-        matched ||
+        mustLabel ||
         (focus
           ? inFocus
           : radial
@@ -252,11 +277,27 @@ export default function GraphView({
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
         const ty = y + r + 3 / scale;
-        ctx.lineWidth = 3 / scale;
-        ctx.strokeStyle = BACKGROUND;
-        ctx.strokeText(node.name, x, ty);
-        ctx.fillStyle = node.researched ? '#e6e9ef' : 'rgba(170, 180, 198, 0.9)';
-        ctx.fillText(node.name, x, ty);
+        // Skip a name that would land on one already drawn (unless hovered, selected or searched).
+        const half = ctx.measureText(node.name).width / 2;
+        const box = { x0: x - half, y0: ty, x1: x + half, y1: ty + fontSize * 1.2 };
+        const pad = 2 / scale;
+        const clash = labelBoxes.current.some(
+          (b) => box.x0 < b.x1 + pad && box.x1 > b.x0 - pad && box.y0 < b.y1 + pad && box.y1 > b.y0 - pad,
+        );
+        if (clash && !mustLabel) {
+          ctx.restore();
+          return;
+        }
+        labelBoxes.current.push(box);
+        labelQueue.current.push({
+          text: node.name,
+          x,
+          y: ty,
+          font: ctx.font,
+          color: node.researched ? '#e6e9ef' : 'rgba(170, 180, 198, 0.9)',
+          alpha,
+          scale,
+        });
       }
       ctx.restore();
     },
@@ -297,9 +338,12 @@ export default function GraphView({
     (p: PairLink) => {
       const base = 0.5 + 1.6 * p.confidence;
       if (p.id === selectedPairId || p.id === hoverPairId) return base + 2;
-      return focus?.pairIds.has(p.id) ? base + 0.6 : base;
+      if (focus?.pairIds.has(p.id)) return base + 0.6;
+      // Free layout: lines between clusters are thinner, so each cluster's own lines stand out.
+      const across = clusters && clusters.get(linkEndId(p.source)) !== clusters.get(linkEndId(p.target));
+      return across ? base * 0.45 : base;
     },
-    [focus, hoverPairId, selectedPairId],
+    [clusters, focus, hoverPairId, selectedPairId],
   );
 
   return (
@@ -339,13 +383,27 @@ export default function GraphView({
           // Radial views fit the middle and the first ring; the outer rings stay just off-screen.
           fgRef.current?.zoomToFit(400, 40, radial ? (n: GraphNode) => (radial.rings.get(n.id) ?? 9) <= 1 : undefined);
         }}
-        onRenderFramePre={
-          radial
-            ? (ctx, scale) => drawRings(ctx, scale, radial)
-            : compass
-              ? (ctx, scale) => drawCompass(ctx, scale)
-              : undefined
-        }
+        onRenderFramePost={(ctx) => {
+          ctx.save();
+          ctx.textAlign = 'center';
+          ctx.textBaseline = 'top';
+          for (const l of labelQueue.current) {
+            ctx.globalAlpha = l.alpha;
+            ctx.font = l.font;
+            ctx.lineWidth = 3 / l.scale;
+            ctx.strokeStyle = BACKGROUND;
+            ctx.strokeText(l.text, l.x, l.y);
+            ctx.fillStyle = l.color;
+            ctx.fillText(l.text, l.x, l.y);
+          }
+          ctx.restore();
+        }}
+        onRenderFramePre={(ctx, scale) => {
+          labelBoxes.current = [];
+          labelQueue.current = [];
+          if (radial) drawRings(ctx, scale, radial);
+          else if (compass) drawCompass(ctx, scale);
+        }}
         cooldownTicks={200}
         minZoom={0.2}
         maxZoom={8}
@@ -359,13 +417,16 @@ export default function GraphView({
  * with no visible links don't drift off-screen in filtered views) and a simple
  * collision that leaves room for each name under its dot.
  */
-/** `gap`: extra room between two researched people (more in radial views, for the names). */
-function tidyForce(centerPull: boolean, gap = 26) {
+/**
+ * `centerPull`: strength of the pull to the middle (0 = none).
+ * `gap`: extra room between two researched people (more in radial views, for the names).
+ */
+function tidyForce(centerPull: number, gap = 26) {
   let nodes: GraphNode[] = [];
   const force = (alpha: number) => {
     if (centerPull) for (const n of nodes) {
-      n.vx = (n.vx ?? 0) - (n.x ?? 0) * 0.02 * alpha;
-      n.vy = (n.vy ?? 0) - (n.y ?? 0) * 0.02 * alpha;
+      n.vx = (n.vx ?? 0) - (n.x ?? 0) * centerPull * alpha;
+      n.vy = (n.vy ?? 0) - (n.y ?? 0) * centerPull * alpha;
     }
     for (let i = 0; i < nodes.length; i++) {
       const a = nodes[i];
@@ -403,6 +464,48 @@ function loadPhoto(url: string, onLoad: () => void): HTMLImageElement | null {
   img.onerror = () => photoCache.set(url, null);
   img.src = url;
   return null;
+}
+
+/**
+ * Free layout: gives each cluster its own spot, spiralling out from the middle
+ * (biggest cluster in the center, the next ones around it, sized by how many
+ * people they hold), and pulls each person gently toward their cluster's spot.
+ * People with no links (clusters of one) get no spot and float to the edge.
+ */
+function clusterForce(clusters: Map<string, number>, forces: Forces) {
+  let nodes: GraphNode[] = [];
+  const spots = new Map<number, { x: number; y: number }>();
+  const force = (alpha: number) => {
+    const k = 0.08 * forces.cluster * alpha;
+    if (!k) return;
+    for (const n of nodes) {
+      const spot = spots.get(clusters.get(n.id) ?? -1);
+      if (!spot) continue;
+      n.vx = (n.vx ?? 0) + (spot.x - (n.x ?? 0)) * k;
+      n.vy = (n.vy ?? 0) + (spot.y - (n.y ?? 0)) * k;
+    }
+  };
+  force.initialize = (ns: GraphNode[]) => {
+    nodes = ns;
+    const size = new Map<number, number>();
+    for (const n of ns) {
+      const c = clusters.get(n.id);
+      if (c != null) size.set(c, (size.get(c) ?? 0) + 1);
+    }
+    spots.clear();
+    let area = 0;
+    [...size.entries()]
+      .filter(([, count]) => count > 1)
+      .sort((a, b) => b[1] - a[1] || a[0] - b[0])
+      .forEach(([c, count], i) => {
+        // Sunflower spiral: radius grows with the room the clusters before it take up.
+        const r = i === 0 ? 0 : 62 * Math.sqrt(area + count / 2) * forces.distance;
+        const angle = i * 2.39996;
+        spots.set(c, { x: r * Math.cos(angle), y: r * Math.sin(angle) });
+        area += count;
+      });
+  };
+  return force;
 }
 
 /** Pulls core people into the middle and everyone else onto the ring for their distance. */

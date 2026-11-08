@@ -9,6 +9,7 @@ import {
   activeInYear,
   buildGraph,
   familyOf,
+  findClusters,
   leanAt,
   linkEndId,
   mergePairs,
@@ -34,6 +35,20 @@ export type View =
   | { kind: 'world'; id: string; depth: 1 | 2 };
 
 export type Layout = 'wide' | 'card' | 'sheet';
+
+/** Layout sliders (Filters → Forces). Each is a multiplier on the default, 1 = normal. */
+export interface Forces {
+  /** How hard dots push each other apart. */
+  repel: number;
+  /** Length of the lines. */
+  distance: number;
+  /** How hard each cluster gathers around its own spot. */
+  cluster: number;
+  /** Pull toward the middle, which keeps loose dots from drifting off. */
+  center: number;
+}
+
+export const DEFAULT_FORCES: Forces = { repel: 1, distance: 1, cluster: 1, center: 1 };
 
 /**
  * Main view only: each person's left–right spot, from their political lean
@@ -107,6 +122,9 @@ export default function App() {
   const [colorAll, setColorAll] = useState(true);
   const [showPhotos, setShowPhotos] = useState(true);
   const [showOrgs, setShowOrgs] = useState(true);
+  // Main view: arrange left–right by political lean (off = clusters spread out freely).
+  const [leanMode, setLeanMode] = useState(false);
+  const [forces, setForces] = useState<Forces>(DEFAULT_FORCES);
   const [view, setView] = useState<View>({ kind: 'all' });
   const [year, setYear] = useState<number | null>(null);
   const [menu, setMenu] = useState<MenuName | null>(null);
@@ -198,9 +216,17 @@ export default function App() {
       if (core.size) radial = { core, ...ringDistances(core, links, ids), emphasis: lens };
     }
     const pairs = mergePairs(links);
-    const compass = view.kind === 'all' ? compassSpots(nodes, pairs, year) : null;
-    return { nodes, links, pairs, radial, compass };
-  }, [graph, byId, filteredLinks, view, showSuggested, showOrgs, selectedNodeId, year]);
+    const compass = view.kind === 'all' && leanMode ? compassSpots(nodes, pairs, year) : null;
+    // Free layout: find clusters so each can get its own patch of the map.
+    const clusters =
+      view.kind === 'all' && !leanMode
+        ? findClusters(
+            nodes.map((n) => n.id),
+            pairs,
+          )
+        : null;
+    return { nodes, links, pairs, radial, compass, clusters };
+  }, [graph, byId, filteredLinks, view, showSuggested, showOrgs, selectedNodeId, year, leanMode]);
 
   const counts = useMemo(() => {
     const c = Object.fromEntries(EDGE_FAMILIES.map((f) => [f.id, 0])) as Record<EdgeFamily, number>;
@@ -251,7 +277,7 @@ export default function App() {
     setSelection({ kind: 'node', id });
   }, []);
 
-  const fitKey = `${view.kind}:${'id' in view ? view.id : ''}:${'depth' in view ? view.depth : ''}:${year ?? ''}:${loaded}`;
+  const fitKey = `${leanMode}:${view.kind}:${'id' in view ? view.id : ''}:${'depth' in view ? view.depth : ''}:${year ?? ''}:${loaded}`;
   const empty = loaded && people.length === 0;
 
   const stats = {
@@ -275,7 +301,7 @@ export default function App() {
         nameOf={(id) => byId.get(id)?.name ?? id}
         menu={menu}
         onMenu={setMenu}
-        filtersActive={hidden.size + (year != null ? 1 : 0) + (showSuggested ? 1 : 0) + (colorAll ? 0 : 1) + (showOrgs ? 0 : 1)}
+        filtersActive={hidden.size + (year != null ? 1 : 0) + (showSuggested ? 1 : 0) + (colorAll ? 0 : 1) + (showOrgs ? 0 : 1) + (leanMode ? 1 : 0)}
         live={live}
         lastUpdated={lastUpdated}
       />
@@ -320,6 +346,8 @@ export default function App() {
               showPhotos={showPhotos}
               radial={visible.radial}
               compass={visible.compass}
+              clusters={visible.clusters}
+              forces={forces}
               fitKey={fitKey}
               fgRef={fgRef}
               onSelect={setSelection}
@@ -372,6 +400,10 @@ export default function App() {
               onShowPhotos={setShowPhotos}
               showOrgs={showOrgs}
               onShowOrgs={setShowOrgs}
+              leanMode={leanMode}
+              onLeanMode={setLeanMode}
+              forces={forces}
+              onForces={setForces}
               year={year}
               span={span}
               onYear={setYear}

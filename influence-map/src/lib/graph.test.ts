@@ -5,6 +5,7 @@ import {
   buildGraph,
   describeLink,
   familyOf,
+  findClusters,
   leanAt,
   mergePairs,
   neighborhood,
@@ -413,5 +414,28 @@ describe('organizations', () => {
     expect(validator.validatePeople([p, candidate, founder], { orgs: [pac] }).errors).toEqual([]);
     const missing = validator.validatePeople([p, candidate, founder], { orgs: [] }).errors;
     expect(missing.map((e: { message: string }) => e.message).join('\n')).toMatch(/no file in data\/orgs/);
+  });
+});
+
+describe('findClusters', () => {
+  it('splits two tight groups joined by one weak link', () => {
+    const tri = (a: string, b: string, c: string) => [
+      person(a, a, [conn(b, b, 'colleague'), conn(c, c, 'colleague')]),
+      person(b, b, [conn(a, a, 'colleague'), conn(c, c, 'colleague')]),
+      person(c, c, [conn(a, a, 'colleague'), conn(b, b, 'colleague')]),
+    ];
+    const files = [...tri('a1', 'a2', 'a3'), ...tri('b1', 'b2', 'b3'), person('loner', 'Loner')];
+    files[0].data.connections!.push(conn('b1', 'b1', 'rival', 0.5));
+    files[3].data.connections!.push(conn('a1', 'a1', 'rival', 0.5));
+    const g = buildGraph(files);
+    const c = findClusters(
+      g.nodes.map((n) => n.id),
+      mergePairs(g.links),
+    );
+    expect(c.get('a1')).toBe(c.get('a3'));
+    expect(c.get('b1')).toBe(c.get('b2'));
+    expect(c.get('a1')).not.toBe(c.get('b1'));
+    expect(c.get('loner')).not.toBe(c.get('a1'));
+    expect(c.get('loner')).not.toBe(c.get('b1'));
   });
 });

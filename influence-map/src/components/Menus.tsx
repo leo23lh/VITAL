@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import type { View } from '../App';
+import { DEFAULT_FORCES, type Forces, type View } from '../App';
 import type { GraphNode } from '../lib/graph';
 import { EDGE_FAMILIES, GROUPS, SECTORS, type EdgeFamily, type GroupId } from '../lib/schema';
 
@@ -27,6 +27,10 @@ interface Props {
   onShowPhotos: (v: boolean) => void;
   showOrgs: boolean;
   onShowOrgs: (v: boolean) => void;
+  leanMode: boolean;
+  onLeanMode: (v: boolean) => void;
+  forces: Forces;
+  onForces: (f: Forces) => void;
   year: number | null;
   span: [number, number];
   onYear: (y: number | null) => void;
@@ -160,6 +164,12 @@ function FiltersMenu(props: Props) {
 
       <h4>Display</h4>
       <label className="check-row">
+        <input type="checkbox" checked={props.leanMode} onChange={(e) => props.onLeanMode(e.target.checked)} />
+        <span className="check-label">
+          Left–right by political lean <span className="muted">· main view only; off = clusters spread out</span>
+        </span>
+      </label>
+      <label className="check-row">
         <input type="checkbox" checked={props.showPhotos} onChange={(e) => props.onShowPhotos(e.target.checked)} />
         <span className="check-label">
           Show photos <span className="muted">· in each person's circle, ringed in their sector color</span>
@@ -183,6 +193,8 @@ function FiltersMenu(props: Props) {
           Color all lines <span className="muted">· otherwise only the tapped person's</span>
         </span>
       </label>
+
+      <ForcesPanel forces={props.forces} onForces={props.onForces} />
 
       <h4>Key</h4>
       <div className="key">
@@ -216,6 +228,46 @@ function FiltersMenu(props: Props) {
           {props.onExport && <button onClick={props.onExport}>Export PNG</button>}
         </span>
       </div>
+    </>
+  );
+}
+
+const FORCE_SLIDERS: { key: keyof Forces; label: string; hint: string }[] = [
+  { key: 'repel', label: 'Spread', hint: 'how hard dots push apart' },
+  { key: 'distance', label: 'Line length', hint: 'and room between clusters' },
+  { key: 'cluster', label: 'Clustering', hint: 'how tightly each cluster gathers' },
+  { key: 'center', label: 'Center pull', hint: 'keeps loose dots close' },
+];
+
+/** Layout sliders, like Obsidian's graph forces. */
+function ForcesPanel({ forces, onForces }: { forces: Forces; onForces: (f: Forces) => void }) {
+  const changed = FORCE_SLIDERS.some(({ key }) => forces[key] !== DEFAULT_FORCES[key]);
+  return (
+    <>
+      <div className="menu-head">
+        <h4>Forces</h4>
+        {changed && (
+          <span className="menu-head-actions">
+            <button onClick={() => onForces(DEFAULT_FORCES)}>reset</button>
+          </span>
+        )}
+      </div>
+      {FORCE_SLIDERS.map(({ key, label, hint }) => (
+        <label key={key} className="force-row">
+          <span className="check-label">
+            {label} <span className="muted">· {hint}</span>
+          </span>
+          <input
+            type="range"
+            min={0}
+            max={3}
+            step={0.1}
+            value={forces[key]}
+            onChange={(e) => onForces({ ...forces, [key]: Number(e.target.value) })}
+            aria-label={label}
+          />
+        </label>
+      ))}
     </>
   );
 }

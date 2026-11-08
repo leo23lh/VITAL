@@ -1039,3 +1039,5 @@ a.source-chip:hover {
 .key-square.side-D{border-color:#4f8fe8}
 .badge-org{display:inline-flex;align-items:center;gap:6px}
 .org-finance{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;align-items:baseline}
+.force-row{display:grid;grid-template-columns:1fr 120px;align-items:center;gap:10px;padding:4px 0}
+.force-row input[type=range]{width:100%}

@@ -155,8 +155,17 @@ connections show. The validator rejects names not listed here; keep the lists in
 
 ## Political lean
 
-In the main view, **left–right is political lean**; up–down is left to the
-links. Left–right comes from `lean`:
+The main view has two layouts. By default it is a **cluster map**: the viewer
+finds clusters of people who are linked more to each other than to everyone
+else (Louvain modularity, weighted by how close each link is), gives each
+cluster its own patch of the map, and draws the lines between clusters thinner
+so each cluster's own lines stand out. Filters → Forces has sliders for spread,
+line length, clustering and center pull. Names that would overlap a
+better-connected person's name are hidden until you zoom in or hover.
+
+Filters → Display → **Left–right by political lean** switches to the lean
+layout: left–right is political lean; up–down is left to the links. Left–right
+comes from `lean`:
 
 ```json
 "lean": [
@@ -197,7 +206,7 @@ links. Left–right comes from `lean`:
   only up or down. People without a lean are placed left–right by their links,
   near the closeness-weighted average lean of the people they're linked to.
 - Group and lens views keep their radial layout; the left–right pull is only
-  for the main view.
+  for the main view in lean mode.
 
 ## 2028 race
 

@@ -515,3 +515,97 @@ export const CLOSENESS: Record<EdgeGroup, number> = {
 export function pairCloseness(links: GraphLink[]): number {
   return Math.max(0, ...links.map((l) => CLOSENESS[l.group] * l.confidence * (isPastRivalry(l) ? 0.5 : 1)));
 }
+
+/**
+ * Clusters of people who are linked more to each other than to the rest
+ * (Louvain modularity, weighted by how close each pair is). Returns a cluster
+ * number per node; the biggest cluster is 0. People with no links each get
+ * their own cluster.
+ */
+export function findClusters(ids: string[], pairs: PairLink[], resolution = 1): Map<string, number> {
+  // Level 0: one node per person; edges weighted by closeness (floor so rivals still count a little).
+  let nodeOf = new Map(ids.map((id, i) => [id, i]));
+  let n = ids.length;
+  let edges: [number, number, number][] = [];
+  for (const p of pairs) {
+    const a = nodeOf.get(linkEndId(p.source));
+    const b = nodeOf.get(linkEndId(p.target));
+    if (a == null || b == null || a === b) continue;
+    edges.push([a, b, Math.max(0.05, p.closeness)]);
+  }
+  // membership[level0 node] = current community
+  let membership = ids.map((_, i) => i);
+
+  for (let level = 0; level < 10; level++) {
+    const adj: Map<number, number>[] = Array.from({ length: n }, () => new Map());
+    const self = new Array<number>(n).fill(0);
+    let m2 = 0;
+    for (const [a, b, w] of edges) {
+      if (a === b) {
+        self[a] += w;
+        m2 += 2 * w;
+        continue;
+      }
+      adj[a].set(b, (adj[a].get(b) ?? 0) + w);
+      adj[b].set(a, (adj[b].get(a) ?? 0) + w);
+      m2 += 2 * w;
+    }
+    if (m2 === 0) break;
+    const k = adj.map((m, i) => [...m.values()].reduce((s, w) => s + w, 0) + 2 * self[i]);
+    const comm = Array.from({ length: n }, (_, i) => i);
+    const tot = [...k];
+    let moved = false;
+    for (let pass = 0; pass < 20; pass++) {
+      let changed = false;
+      for (let i = 0; i < n; i++) {
+        if (k[i] === 0) continue;
+        const own = comm[i];
+        tot[own] -= k[i];
+        const toComm = new Map<number, number>();
+        for (const [j, w] of adj[i]) toComm.set(comm[j], (toComm.get(comm[j]) ?? 0) + w);
+        let best = own;
+        let bestGain = (toComm.get(own) ?? 0) - (resolution * tot[own] * k[i]) / m2;
+        for (const [c, w] of toComm) {
+          const gain = w - (resolution * tot[c] * k[i]) / m2;
+          if (gain > bestGain + 1e-12) {
+            best = c;
+            bestGain = gain;
+          }
+        }
+        comm[i] = best;
+        tot[best] += k[i];
+        if (best !== own) changed = moved = true;
+      }
+      if (!changed) break;
+    }
+    if (!moved) break;
+    // Aggregate: each community becomes one node at the next level.
+    const renum = new Map<number, number>();
+    for (const c of comm) if (!renum.has(c)) renum.set(c, renum.size);
+    membership = membership.map((m) => renum.get(comm[m])!);
+    const next = new Map<string, number>();
+    for (const [a, b, w] of edges) {
+      const ca = renum.get(comm[a])!;
+      const cb = renum.get(comm[b])!;
+      const key = ca < cb ? `${ca}|${cb}` : `${cb}|${ca}`;
+      next.set(key, (next.get(key) ?? 0) + w);
+    }
+    for (let i = 0; i < n; i++) if (self[i]) {
+      const c = renum.get(comm[i])!;
+      next.set(`${c}|${c}`, (next.get(`${c}|${c}`) ?? 0) + self[i]);
+    }
+    edges = [...next.entries()].map(([key, w]) => {
+      const [a, b] = key.split('|').map(Number);
+      return [a, b, w];
+    });
+    n = renum.size;
+    nodeOf = new Map();
+  }
+
+  // Number clusters by size, biggest first.
+  const size = new Map<number, number>();
+  for (const m of membership) size.set(m, (size.get(m) ?? 0) + 1);
+  const order = [...size.keys()].sort((a, b) => size.get(b)! - size.get(a)! || a - b);
+  const rank = new Map(order.map((c, i) => [c, i]));
+  return new Map(ids.map((id, i) => [id, rank.get(membership[i])!]));
+}
