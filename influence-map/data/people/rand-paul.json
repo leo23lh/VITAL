@@ -57,6 +57,12 @@
       ]
     }
   ],
+  "photo": {
+    "file": "rand-paul.jpg",
+    "credit": "US Senate Photography Office",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Rand_Paul_Portrait_(3x4_cropped).jpg", "title": "File:Rand Paul Portrait (3x4 cropped).jpg — Wikimedia Commons" }
+  },
   "current_role": "US senator from Kentucky (Republican); chair of the Senate Homeland Security Committee",
   "summary": "Rand Paul, an ophthalmologist and son of Ron Paul, has been a Republican senator from Kentucky since 2011 and ran for president in 2016. A libertarian-leaning conservative, he chairs the Homeland Security Committee; his former staff include Sergio Gor and Rachel Bovard, and Jeff Yass funded his 2016 run.",
   "sources": [

@@ -108,6 +108,12 @@
   "name": "Mark Zuckerberg",
   "sector": "tech",
   "groups": ["ai-race", "media"],
+  "photo": {
+    "file": "mark-zuckerberg.jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:P20260929DT-1655_(55561811540)_(cropped_2).jpg", "title": "File:P20260929DT-1655 (55561811540) (cropped 2).jpg — Wikimedia Commons" }
+  },
   "current_role": "Co-founder, chairman, CEO and controlling shareholder of Meta Platforms",
   "summary": "Mark Zuckerberg co-founded Facebook at Harvard in 2004 with Dustin Moskovitz and others, took it public in 2012 and controls its parent Meta, now a leading AI spender (Meta Superintelligence Labs, led by Alexandr Wang). Once attacked by Trump, he dined with him at Mar-a-Lago after the 2024 election, and Meta gave $1 million to Trump's inaugural fund.",
   "sources": [
