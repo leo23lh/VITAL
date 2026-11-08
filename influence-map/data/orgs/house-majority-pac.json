@@ -1,0 +1,86 @@
+{
+  "name": "House Majority PAC",
+  "aliases": ["HMP"],
+  "kind": "super-pac",
+  "side": "D",
+  "groups": [],
+  "summary": "House Democrats' main super PAC, aligned with the party's House leadership (The Hill called it Pelosi-aligned in 2022) and the counterpart to the Republican Congressional Leadership Fund. It took in $294 million in the 2026 cycle by October, $183 million from 31 donors giving $1 million or more; its nonprofit arm House Majority Forward supplied $21.7 million.",
+  "sources": [
+    { "url": "https://www.citizen.org/wp-content/uploads/1-Million-Super-PAC-Donors-1.pdf", "title": "$1 million super PAC donors in the 2026 cycle — Public Citizen" },
+    { "url": "https://issueone.org/press/new-data-illuminates-how-secret-money-fuels-2026-midterms/", "title": "New data illuminates how secret money fuels 2026 midterms — Issue One" },
+    { "url": "https://thehill.com/homenews/campaign/3705040-michael-bloomberg-gives-pelosi-aligned-super-pac-another-10m-as-midterms-near/", "title": "Michael Bloomberg gives Pelosi-aligned super PAC another $10M as midterms near — The Hill" }
+  ],
+  "finances": [
+    {
+      "cycle": 2026,
+      "raised_usd": 294000000,
+      "description": "Receipts reported by October 2026.",
+      "sources": [
+        { "url": "https://www.citizen.org/wp-content/uploads/1-Million-Super-PAC-Donors-1.pdf", "title": "$1 million super PAC donors in the 2026 cycle — Public Citizen" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Michael Bloomberg",
+      "slug": "michael-bloomberg",
+      "relationship_type": "donor",
+      "description": "Gave $10 million in 2022 and $16 million in October 2026 as part of a late spending blitz to help Democrats retake the House.",
+      "start_year": 2022,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://thehill.com/homenews/campaign/3705040-michael-bloomberg-gives-pelosi-aligned-super-pac-another-10m-as-midterms-near/", "title": "Michael Bloomberg gives Pelosi-aligned super PAC another $10M as midterms near — The Hill" },
+        { "url": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html", "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT — CNBC" }
+      ]
+    },
+    {
+      "name": "Chris Larsen",
+      "slug": "chris-larsen",
+      "relationship_type": "donor",
+      "description": "Gave $2.5 million in the 2026 cycle.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" }
+      ]
+    },
+    {
+      "name": "Democracy PAC",
+      "slug": "democracy-pac",
+      "relationship_type": "donor",
+      "description": "Soros's Democracy PAC funded it in the 2026 cycle; the amount was not reported.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.newsweek.com/the-midterm-billionaire-war-as-americas-oligarchs-pick-sides-musk-backlash-12643262", "title": "The Midterm Billionaire War as America's Oligarchs Pick Sides — Newsweek" },
+        { "url": "https://www.foxnews.com/politics/soros-political-machine-putting-millions-work-before-election-day-zeroing-key-races", "title": "Soros family pours $40M through Democracy PAC to Democratic allies — Fox News" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "ally",
+      "description": "Described by The Hill in 2022 as the Pelosi-aligned super PAC, when she was speaker.",
+      "start_year": 2022,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://thehill.com/homenews/campaign/3705040-michael-bloomberg-gives-pelosi-aligned-super-pac-another-10m-as-midterms-near/", "title": "Michael Bloomberg gives Pelosi-aligned super PAC another $10M as midterms near — The Hill" }
+      ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "rival",
+      "description": "The two parties' main House super PACs, spending against each other for control of the House.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://issueone.org/press/four-main-super-pacs-focused-on-control-of-congress-have-raised-nearly-120-million-from-allied-dark-money-groups-this-election-cycle/", "title": "Four main super PACs focused on control of Congress have raised nearly $120 million from allied dark-money groups — Issue One" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files plus campaign-finance reporting (Public Citizen, Issue One, FEC-based news coverage). Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

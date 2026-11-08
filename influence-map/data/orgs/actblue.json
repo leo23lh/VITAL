@@ -1,0 +1,29 @@
+{
+  "name": "ActBlue",
+  "aliases": [],
+  "kind": "other",
+  "side": "D",
+  "founded": 2004,
+  "groups": [],
+  "summary": "The main online fundraising platform for Democratic candidates and causes, which has processed nearly $17 billion in donations since 2004. In April 2025 Trump signed a memorandum directing the Justice Department to investigate online platforms, ActBlue by name, over alleged straw and foreign donations; ActBlue said it would challenge the order in court.",
+  "sources": [
+    { "url": "https://www.nbcnews.com/politics/trump-administration/trump-expected-sign-memo-targeting-act-blue-rcna202673", "title": "Trump expected to sign memo targeting ActBlue — NBC News" },
+    { "url": "https://readsludge.com/2025/04/25/trump-attacks-dem-fundraising-platform-actblue/", "title": "Trump attacks Democratic fundraising platform ActBlue — Sludge" }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "In April 2025 Trump ordered the Justice Department to investigate ActBlue over alleged straw and foreign donations, giving Attorney General Pam Bondi 180 days to report back; ActBlue called it an attack and vowed to fight it in court.",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/trump-administration/trump-expected-sign-memo-targeting-act-blue-rcna202673", "title": "Trump expected to sign memo targeting ActBlue — NBC News" },
+        { "url": "https://www.democracydocket.com/news-alerts/trump-orders-probe-against-democratic-fundraising-platform-actblue/", "title": "Trump orders probe against Democratic fundraising platform ActBlue — Democracy Docket" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files plus campaign-finance reporting (Public Citizen, Issue One, FEC-based news coverage). Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

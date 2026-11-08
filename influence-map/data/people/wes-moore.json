@@ -1,0 +1,72 @@
+{
+  "name": "Wes Moore",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "basis": "Democratic governor of Maryland since 2023; Democratic National Convention keynote speaker and Biden-Harris surrogate in 2024.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Wes_Moore", "title": "Wes Moore — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2028-election/maryland-governor-wes-moore-ruling-out-presidential-run-redistricting-rcna229615", "title": "Maryland Gov. Wes Moore rules out presidential run — NBC News" }
+      ]
+    }
+  ],
+  "current_role": "Governor of Maryland (since 2023)",
+  "summary": "Wes Moore (born 1978), an Army veteran, Rhodes Scholar, author of The Other Wes Moore and former CEO of the Robin Hood Foundation, became Maryland's first Black governor in 2023. A 2024 convention keynote speaker often named as a 2028 prospect, he ruled out a presidential run in September 2025 while feuding with Trump over sending the National Guard to Baltimore; Wikipedia reports he won a second term in November 2026.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Wes_Moore", "title": "Wes Moore — Wikipedia" },
+    { "url": "https://www.nbcnews.com/politics/2028-election/maryland-governor-wes-moore-ruling-out-presidential-run-redistricting-rcna229615", "title": "Maryland Gov. Wes Moore rules out presidential run — NBC News" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2021,
+      "role": "Chief executive",
+      "org": "Robin Hood Foundation",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Wes_Moore", "title": "Wes Moore — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": null,
+      "role": "Governor",
+      "org": "State of Maryland",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Wes_Moore", "title": "Wes Moore — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "In 2025 Trump threatened to send the National Guard into Baltimore to fight crime; Moore said homicides were at historic lows, the Guard was unnecessary, and he would accept FBI and ATF help instead.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2028-election/maryland-governor-wes-moore-ruling-out-presidential-run-redistricting-rcna229615", "title": "Maryland Gov. Wes Moore rules out presidential run — NBC News" },
+        { "url": "https://www.thebanner.com/politics-power/state-government/donald-trump-wes-moore-political-risk-CZFDWRORKNANVKB4DUE5HLWLBY/", "title": "Donald Trump and Wes Moore — The Baltimore Banner" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "He gave a keynote address at the 2024 Democratic National Convention and campaigned in early states as a surrogate for Biden and Harris.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2028-election/maryland-governor-wes-moore-ruling-out-presidential-run-redistricting-rcna229615", "title": "Maryland Gov. Wes Moore rules out presidential run — NBC News" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where Wikipedia was rate-limiting and most news pages could not be opened; Wikipedia facts were confirmed with web searches restricted to en.wikipedia.org, and news facts with searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

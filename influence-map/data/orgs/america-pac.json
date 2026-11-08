@@ -126,6 +126,18 @@
         { "url": "https://edition.cnn.com/2026/09/05/politics/musk-america-pac-texas-paxton", "title": "Musk has started spending money to help Ken Paxton — CNN" },
         { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" }
       ]
+    },
+    {
+      "name": "James Talarico",
+      "slug": "james-talarico",
+      "relationship_type": "enemy",
+      "description": "Musk's America PAC made Paxton's race its biggest 2026 investment and spent about $1.4 million directly against Talarico by September.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.texastribune.org/2026/09/04/elon-musk-ken-paxton-super-pac-spending-texas-senate-race/", "title": "Elon Musk's super PAC starts spending to boost Ken Paxton — Texas Tribune" }
+      ]
     }
   ],
   "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and campaign-finance reporting. Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",

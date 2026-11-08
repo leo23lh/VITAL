@@ -1,0 +1,94 @@
+{
+  "name": "Byron Donalds",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "lean": [
+    {
+      "value": 2,
+      "basis": "Republican in the MAGA wing of the party and a former Tea Party member; Trump-endorsed for governor.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Byron_Donalds", "title": "Byron Donalds — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "Governor-elect of Florida (won November 2026); U.S. representative for Florida's 19th district since 2021",
+  "summary": "Byron Donalds (born 1978) served in the Florida House from 2016 to 2020 and has represented Southwest Florida in Congress since 2021, in the MAGA wing of the Republican Party. Trump endorsed him for governor in February 2025, over Ron DeSantis's objections; he won the nomination in August 2026 and beat Democrat David Jolly in November to succeed DeSantis.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Byron_Donalds", "title": "Byron Donalds — Wikipedia" },
+    { "url": "https://www.wowt.com/2026/11/04/democrats-press-win-majority-governors-offices-midterms-after-power-struggles-with-trump/", "title": "Democrats press to win a majority of governors' offices in midterms — AP via WOWT" },
+    { "url": "https://www.axios.com/2025/03/12/trump-jr-donalds-florida-governor-maga", "title": "Trump Jr. backs Donalds for Florida governor in MAGA squeeze play — Axios" }
+  ],
+  "timeline": [
+    {
+      "year": 2016,
+      "end_year": 2020,
+      "role": "State representative",
+      "org": "Florida House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Byron_Donalds", "title": "Byron Donalds — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": null,
+      "role": "U.S. representative for Florida's 19th district",
+      "org": "U.S. House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Byron_Donalds", "title": "Byron Donalds — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Donalds endorsed Trump early for 2024 over DeSantis; Trump endorsed him for Florida governor in February 2025, before he had entered the race, and again in May 2026 (\"Complete and Total Endorsement\").",
+      "start_year": 2023,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://wusf.org/text/politics-issues/2025-02-26/byron-donalds-endorsed-trump-running-for-florida-governor", "title": "Byron Donalds, endorsed by Trump, says he's running for Florida governor — WUSF" },
+        { "url": "https://www.washingtonexaminer.com/?p=4583091", "title": "Trump gives Byron Donalds 'complete and total endorsement' — Washington Examiner" }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "ally",
+      "description": "Trump Jr. endorsed Donalds for Florida governor in March 2025.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2025/03/12/trump-jr-donalds-florida-governor-maga", "title": "Trump Jr. backs Donalds for Florida governor in MAGA squeeze play — Axios" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "enemy",
+      "description": "Tense since Donalds endorsed Trump over DeSantis for 2024; DeSantis publicly disparaged him while floating his wife Casey for governor, and did not back Donalds, who won anyway.",
+      "start_year": 2023,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://floridaphoenix.com/?p=229335", "title": "DeSantis disses Donalds, touts First Lady, when asked about 2026 governor race — Florida Phoenix" },
+        { "url": "https://www.wlrn.org/government-politics/2026-01-12/collins-announces-bid-for-governor-as-desantis-wavers-on-whether-to-endorse", "title": "Collins announces bid for governor as DeSantis wavers on whether to endorse — WLRN" }
+      ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "donor",
+      "description": "Griffin gave $10 million to boost Donalds' 2026 run for Florida governor.",
+      "start_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2026-election/republican-ken-griffin-byron-donalds-florida-governor-rcna588984", "title": "Ken Griffin gives $10 million to boost Byron Donalds' bid for Florida governor — NBC News" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where Wikipedia was rate-limiting and most news pages could not be opened; Wikipedia facts were confirmed with web searches restricted to en.wikipedia.org, and news facts with searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

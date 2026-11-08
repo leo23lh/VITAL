@@ -71,6 +71,17 @@
         { "url": "https://www.nbcnews.com/politics/2026-election/republican-super-pacs-bank-millions-ahead-midterm-battles-rcna222115", "title": "Republican super PACs bank millions ahead of midterm battles — NBC News" },
         { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
       ]
+    },
+    {
+      "name": "House Majority PAC",
+      "slug": "house-majority-pac",
+      "relationship_type": "rival",
+      "description": "The two parties' main House super PACs, spending against each other for control of the House.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://issueone.org/press/four-main-super-pacs-focused-on-control-of-congress-have-raised-nearly-120-million-from-allied-dark-money-groups-this-election-cycle/", "title": "Four main super PACs focused on control of Congress have raised nearly $120 million from allied dark-money groups — Issue One" }
+      ]
     }
   ],
   "source_conflicts": [

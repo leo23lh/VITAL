@@ -120,6 +120,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" }
       ]
+    },
+    {
+      "name": "Future Forward PAC",
+      "slug": "future-forward",
+      "relationship_type": "funded_by",
+      "description": "Gave about $50 million in 2024, its top disclosed individual donor in the final weeks.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },
+        { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where news pages could not be opened and OpenSecrets was blocked; facts were confirmed with web searches tied to each cited URL and with the Wikipedia article via its API. Cari Tuna is a suggested connection only.",
@@ -146,10 +159,11 @@
         "recipients": [
           {
             "name": "Future Forward PAC",
+            "slug": "kamala-harris",
+            "org": "future-forward",
             "kind": "super-pac",
             "side": "D",
             "amount_usd": 50000000,
-            "slug": "kamala-harris",
             "description": "The main pro-Harris super PAC; he was its top disclosed individual donor in the final weeks. Wikipedia splits it as $10M personally and $38M via Asana.",
             "sources": [
               { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },

@@ -1,0 +1,69 @@
+{
+  "name": "Andy Beshear",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -1,
+      "basis": "Moderate Democrat elected and re-elected governor of a Republican-leaning state, framing his politics around unity rather than \"us versus them\".",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Andy_Beshear", "title": "Andy Beshear — Wikipedia" },
+        { "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/4588683/beshear-southern-democrats-revival-midterms-2028/", "title": "Beshear touts Southern Democratic revival as party searches for 2028 message — Washington Examiner" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Says he is considering a 2028 run and has not ruled it out; chairs the Democratic Governors Association, a post past presidential hopefuls have used, and polled around 5% in state primary polls.",
+    "sources": [
+      { "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/4588683/beshear-southern-democrats-revival-midterms-2028/", "title": "Beshear touts Southern Democratic revival as party searches for 2028 message — Washington Examiner" },
+      { "url": "https://www.yahoo.com/news/beshear-says-d-consider-2028-193440399.html", "title": "Beshear says he'd 'consider' 2028 White House run — The Hill via Yahoo" }
+    ]
+  },
+  "current_role": "Governor of Kentucky (since 2019; term ends 2027); chair of the Democratic Governors Association",
+  "summary": "Andy Beshear (born 1977), son of former governor Steve Beshear, was Kentucky's attorney general and has been governor since 2019, winning re-election in 2023 in a Trump state. He was one of the six finalists Kamala Harris interviewed for running mate in 2024, chairs the Democratic Governors Association, and says he is considering a 2028 presidential run.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Andy_Beshear", "title": "Andy Beshear — Wikipedia" },
+    { "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/4588683/beshear-southern-democrats-revival-midterms-2028/", "title": "Beshear touts Southern Democratic revival as party searches for 2028 message — Washington Examiner" }
+  ],
+  "timeline": [
+    {
+      "year": 2016,
+      "end_year": 2019,
+      "role": "Attorney general",
+      "org": "Commonwealth of Kentucky",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Andy_Beshear", "title": "Andy Beshear — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "Governor",
+      "org": "Commonwealth of Kentucky",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Andy_Beshear", "title": "Andy Beshear — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "One of the six finalists Harris interviewed for her 2024 running mate, seen as a compromise between moderates and progressives; she chose Tim Walz.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/harris-campaign-met-6-potential-vp-picks-selection-process-nears-end-rcna164706", "title": "Harris campaign met 6 potential VP picks — NBC News" },
+        { "url": "https://www.stripes.com/theaters/us/2024-08-02/harris-narrows-vp-search-to-six-finalists,-plans-to-interview-them-this-weekend-14709978.html", "title": "Harris narrows VP search to six finalists — AP via Stars and Stripes" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where Wikipedia was rate-limiting and most news pages could not be opened; Wikipedia facts were confirmed with web searches restricted to en.wikipedia.org, and news facts with searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

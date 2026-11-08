@@ -233,6 +233,17 @@
         { "url": "https://www.axios.com/2019/05/09/donald-trump-jr-subpoena-republican-reaction", "title": "Donald Trump Jr.'s Senate Intel subpoena faces GOP backlash — Axios" },
         { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
       ]
+    },
+    {
+      "name": "Byron Donalds",
+      "slug": "byron-donalds",
+      "relationship_type": "ally",
+      "description": "Trump Jr. endorsed Donalds for Florida governor in March 2025.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2025/03/12/trump-jr-donalds-florida-governor-maga", "title": "Trump Jr. backs Donalds for Florida governor in MAGA squeeze play — Axios" }
+      ]
     }
   ],
   "affiliations": [],

@@ -156,6 +156,31 @@
         { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
         { "url": "https://shot.allsides.com/news/2024-10-24-0225/media-industry-why-progressive-mega-donor-funding-right-wing-ideas", "title": "Why is a progressive mega-donor funding right-wing ideas? — Vanity Fair, via AllSides" }
       ]
+    },
+    {
+      "name": "Democracy PAC",
+      "slug": "democracy-pac",
+      "relationship_type": "co-founder",
+      "description": "Soros set up Democracy PAC for the 2020 cycle and remains its main funder; his son Alex now runs it.",
+      "start_year": 2019,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/George_Soros", "title": "George Soros — Wikipedia" },
+        { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" }
+      ]
+    },
+    {
+      "name": "Democracy PAC",
+      "slug": "democracy-pac",
+      "relationship_type": "funded_by",
+      "description": "The Soros family put $102 million into Democracy PAC and Democracy PAC II in the 2026 cycle; Public Citizen counts $52 million from the family's Geosor Corporation to Democracy PAC.",
+      "start_year": 2019,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" },
+        { "url": "https://www.foxnews.com/politics/soros-political-machine-putting-millions-work-before-election-day-zeroing-key-races", "title": "Soros family pours $40M through Democracy PAC to Democratic allies — Fox News" },
+        { "url": "https://www.citizen.org/article/millionaires-and-billionaires-fuel-2026-super-pac-spending/", "title": "Millionaires and billionaires fuel 2026 super PAC spending — Public Citizen" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -186,6 +211,7 @@
         "recipients": [
           {
             "name": "Democracy PAC / Democracy PAC II",
+            "org": "democracy-pac",
             "kind": "super-pac",
             "side": "D",
             "amount_usd": 102000000,
@@ -208,6 +234,7 @@
           },
           {
             "name": "Senate Majority PAC (via Democracy PAC)",
+            "org": "senate-majority-pac",
             "kind": "super-pac",
             "side": "D",
             "amount_usd": 9000000,
@@ -217,6 +244,7 @@
           },
           {
             "name": "House Majority PAC (via Democracy PAC)",
+            "org": "house-majority-pac",
             "kind": "super-pac",
             "side": "D",
             "sources": [
@@ -254,6 +282,7 @@
       "likely": [
         {
           "name": "Democracy PAC",
+          "org": "democracy-pac",
           "kind": "super-pac",
           "side": "D",
           "basis": "Their main vehicle in 2020, 2022, 2024 and 2026.",
@@ -265,6 +294,7 @@
         },
         {
           "name": "Senate Majority PAC and House Majority PAC (via Democracy PAC)",
+          "org": "senate-majority-pac",
           "kind": "super-pac",
           "side": "D",
           "basis": "Funded through Democracy PAC in 2026.",

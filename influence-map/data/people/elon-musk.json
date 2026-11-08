@@ -565,6 +565,19 @@
         { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
         { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor, and the biggest VC winners from SpaceX's IPO — Fortune" }
       ]
+    },
+    {
+      "name": "James Talarico",
+      "slug": "james-talarico",
+      "relationship_type": "enemy",
+      "description": "Musk put at least $212 million behind Paxton in the Texas Senate race, mostly through the Senate Leadership Fund, and his America PAC spent directly against Talarico; Talarico won.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://aljazeera.com/news/2026/11/3/texans-vote-in-most-expensive-senate-race-in-us-history", "title": "Texans vote in most expensive Senate race in US history — Al Jazeera" },
+        { "url": "https://www.texastribune.org/2026/09/04/elon-musk-ken-paxton-super-pac-spending-texas-senate-race/", "title": "Elon Musk's super PAC starts spending to boost Ken Paxton — Texas Tribune" }
+      ]
     }
   ],
   "source_conflicts": [

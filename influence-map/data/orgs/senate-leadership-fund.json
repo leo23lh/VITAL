@@ -123,6 +123,44 @@
         { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
         { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" }
       ]
+    },
+    {
+      "name": "Senate Majority PAC",
+      "slug": "senate-majority-pac",
+      "relationship_type": "rival",
+      "description": "The two parties' main Senate super PACs, spending against each other in the same races; in Michigan in 2026 it put in nearly $35 million against the Leadership Fund's $51 million.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.semafor.com/article/10/14/2026/top-democratic-super-pac-spends-more-in-michigan-maine", "title": "Top Democratic super PAC spends more in Michigan, Maine — Semafor" },
+        { "url": "https://issueone.org/press/four-main-super-pacs-focused-on-control-of-congress-have-raised-nearly-120-million-from-allied-dark-money-groups-this-election-cycle/", "title": "Four main super PACs focused on control of Congress have raised nearly $120 million from allied dark-money groups — Issue One" }
+      ]
+    },
+    {
+      "name": "Jon Ossoff",
+      "slug": "jon-ossoff",
+      "relationship_type": "enemy",
+      "description": "The Senate Leadership Fund committed a record $44 million to defeat Ossoff in 2026; he won re-election.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.ajc.com/politics/2026/04/gop-super-pac-commits-record-44m-to-oust-ossoff-in-georgia", "title": "GOP super PAC commits record $44M to oust Ossoff in Georgia — Atlanta Journal-Constitution" },
+        { "url": "https://www.opb.org/article/2026/11/03/georgia-sen-jon-ossoff-wins-reelection-defeating-rep-mike-collins-to-hold-a-key-democratic-seat/", "title": "Georgia Sen. Jon Ossoff wins reelection, defeating Rep. Mike Collins — AP via OPB" }
+      ]
+    },
+    {
+      "name": "James Talarico",
+      "slug": "james-talarico",
+      "relationship_type": "enemy",
+      "description": "The Senate Leadership Fund passed Musk's money to Texas PAC, which spent about $70 million against Talarico.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://aljazeera.com/news/2026/11/3/texans-vote-in-most-expensive-senate-race-in-us-history", "title": "Texans vote in most expensive Senate race in US history — Al Jazeera" },
+        { "url": "https://legis1.com/news/outside-spending-2026-monday-october-12-900am", "title": "Outside spending in 2026 — Legis1" }
+      ]
     }
   ],
   "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and campaign-finance reporting. Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",

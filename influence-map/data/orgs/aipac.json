@@ -103,6 +103,19 @@
         { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" },
         { "url": "https://kmph.com/news/nation-world/pence-netanyahu-applaud-trump-for-support-of-israel-at-aipac", "title": "Pence, Netanyahu applaud Trump for support of Israel at AIPAC — AP via KMPH" }
       ]
+    },
+    {
+      "name": "Abdul El-Sayed",
+      "slug": "abdul-el-sayed",
+      "relationship_type": "enemy",
+      "description": "AIPAC and affiliated groups spent close to $30 million backing Rep. Haley Stevens against him in Michigan's 2026 Senate primary, their largest investment in a single race; he won narrowly.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.wsls.com/news/politics/2026/07/19/aipac-has-spent-a-record-amount-on-michigans-senate-primary-the-biggest-test-of-its-influence-yet/", "title": "AIPAC has spent a record amount on Michigan's Senate primary — AP via WSLS" },
+        { "url": "https://www.mediaite.com/politics/abdul-el-sayed-fends-off-30-million-aipac-ad-buy-to-win-michigan-primary-nbc-projects/", "title": "Abdul El-Sayed fends off $30 million AIPAC ad buy to win Michigan primary — Mediaite" }
+      ]
     }
   ],
   "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and news reporting. Most news pages could not be opened in the research sandbox, so facts were confirmed with web searches tied to each cited URL.",

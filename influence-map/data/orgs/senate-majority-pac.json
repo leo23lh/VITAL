@@ -1,0 +1,77 @@
+{
+  "name": "Senate Majority PAC",
+  "aliases": ["SMP"],
+  "kind": "super-pac",
+  "side": "D",
+  "groups": [],
+  "summary": "Senate Democrats' main super PAC, the counterpart to the Republican Senate Leadership Fund. It took in $305 million in the 2026 cycle by October, $244 million of it from 44 donors who gave $1 million or more; its nonprofit affiliate Majority Forward, which does not disclose donors, supplied about $61 million. It spent heavily to flip Michigan for Abdul El-Sayed.",
+  "sources": [
+    { "url": "https://www.citizen.org/wp-content/uploads/1-Million-Super-PAC-Donors-1.pdf", "title": "$1 million super PAC donors in the 2026 cycle — Public Citizen" },
+    { "url": "https://issueone.org/press/new-data-illuminates-how-secret-money-fuels-2026-midterms/", "title": "New data illuminates how secret money fuels 2026 midterms — Issue One" },
+    { "url": "https://www.semafor.com/article/10/14/2026/top-democratic-super-pac-spends-more-in-michigan-maine", "title": "Top Democratic super PAC spends more in Michigan, Maine — Semafor" }
+  ],
+  "finances": [
+    {
+      "cycle": 2026,
+      "raised_usd": 305000000,
+      "description": "Receipts reported by October 2026; about $61M came from Majority Forward.",
+      "sources": [
+        { "url": "https://www.citizen.org/wp-content/uploads/1-Million-Super-PAC-Donors-1.pdf", "title": "$1 million super PAC donors in the 2026 cycle — Public Citizen" },
+        { "url": "https://issueone.org/press/new-data-illuminates-how-secret-money-fuels-2026-midterms/", "title": "New data illuminates how secret money fuels 2026 midterms — Issue One" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Democracy PAC",
+      "slug": "democracy-pac",
+      "relationship_type": "donor",
+      "description": "Soros's Democracy PAC gave it $9 million in the 2026 cycle.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.newsweek.com/the-midterm-billionaire-war-as-americas-oligarchs-pick-sides-musk-backlash-12643262", "title": "The Midterm Billionaire War as America's Oligarchs Pick Sides — Newsweek" }
+      ]
+    },
+    {
+      "name": "Senate Leadership Fund",
+      "slug": "senate-leadership-fund",
+      "relationship_type": "rival",
+      "description": "The two parties' main Senate super PACs, spending against each other in the same races; in Michigan in 2026 it put in nearly $35 million against the Leadership Fund's $51 million.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.semafor.com/article/10/14/2026/top-democratic-super-pac-spends-more-in-michigan-maine", "title": "Top Democratic super PAC spends more in Michigan, Maine — Semafor" },
+        { "url": "https://issueone.org/press/four-main-super-pacs-focused-on-control-of-congress-have-raised-nearly-120-million-from-allied-dark-money-groups-this-election-cycle/", "title": "Four main super PACs focused on control of Congress have raised nearly $120 million from allied dark-money groups — Issue One" }
+      ]
+    },
+    {
+      "name": "Jon Ossoff",
+      "slug": "jon-ossoff",
+      "relationship_type": "funded_by",
+      "description": "Senate Majority PAC reserved $20 million of TV time in Georgia, then scaled back its ads in the fall as Republican spending slowed.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.newsfromthestates.com/article/top-democratic-us-senate-pac-commits-9-states-eyes-more-republican-targets", "title": "Top Democratic US Senate PAC commits to 9 states — States Newsroom" },
+        { "url": "https://bizpacreview.com/2026/10/14/democrats-ramp-up-spending-in-two-states-after-pulling-money-from-georgia-north-carolina-1663330", "title": "Democrats ramp up spending in two states after pulling money from Georgia, North Carolina — BizPac Review" }
+      ]
+    },
+    {
+      "name": "Abdul El-Sayed",
+      "slug": "abdul-el-sayed",
+      "relationship_type": "funded_by",
+      "description": "Senate Majority PAC put nearly $35 million into the Michigan race, attacking his opponent Mike Rogers.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.semafor.com/article/10/14/2026/top-democratic-super-pac-spends-more-in-michigan-maine", "title": "Top Democratic super PAC spends more in Michigan, Maine — Semafor" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files plus campaign-finance reporting (Public Citizen, Issue One, FEC-based news coverage). Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

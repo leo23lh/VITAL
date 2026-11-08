@@ -106,6 +106,17 @@
         { "url": "https://www.pbs.org/newshour/politics/pence-tells-pelosi-he-wont-invoke-the-25th-amendment", "title": "Pence tells Pelosi he won't invoke the 25th Amendment — PBS NewsHour" },
         { "url": "https://www.npr.org/sections/trump-impeachment-effort-live-updates/2021/01/12/955750169/house-to-vote-on-25th-amendment-resolution-against-trump", "title": "House approves 25th Amendment resolution against Trump; Pence says he won't invoke — NPR" }
       ]
+    },
+    {
+      "name": "House Majority PAC",
+      "slug": "house-majority-pac",
+      "relationship_type": "ally",
+      "description": "Described by The Hill in 2022 as the Pelosi-aligned super PAC, when she was speaker.",
+      "start_year": 2022,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://thehill.com/homenews/campaign/3705040-michael-bloomberg-gives-pelosi-aligned-super-pac-another-10m-as-midterms-near/", "title": "Michael Bloomberg gives Pelosi-aligned super PAC another $10M as midterms near — The Hill" }
+      ]
     }
   ],
   "affiliations": [],

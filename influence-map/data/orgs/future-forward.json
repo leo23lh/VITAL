@@ -1,0 +1,77 @@
+{
+  "name": "Future Forward PAC",
+  "aliases": ["Future Forward", "Future Forward USA Action"],
+  "kind": "super-pac",
+  "side": "D",
+  "groups": [],
+  "summary": "The main pro-Harris super PAC in 2024 and Democrats' largest outside spender in presidential races, known for testing ads at scale. With its nonprofit arm Future Forward USA Action, which does not disclose donors, it had raised about $700 million by mid-October 2024, and it supplied most of the outside money backing Harris. Dustin Moskovitz was its top disclosed individual donor.",
+  "sources": [
+    { "url": "https://gvwire.com/2024/10/17/inside-the-secretive-700-million-ad-testing-factory-for-kamala-harris", "title": "Inside the secretive $700 million ad-testing factory for Kamala Harris — New York Times via GV Wire" },
+    { "url": "https://www.brennancenter.org/our-work/analysis-opinion/megadonors-playing-larger-role-presidential-race-fec-data-shows", "title": "Megadonors playing larger role in presidential race, FEC data shows — Brennan Center" },
+    { "url": "https://readsludge.com/2025/05/07/harris-dark-money-group-spent-over-300-million-new-report-reveals/", "title": "Harris dark money group spent over $300 million, new report reveals — Sludge" }
+  ],
+  "finances": [
+    {
+      "cycle": 2024,
+      "description": "About $700M with its nonprofit arm by mid-October 2024 (New York Times); later tallies run higher. The nonprofit gave the super PAC $136M.",
+      "sources": [
+        { "url": "https://gvwire.com/2024/10/17/inside-the-secretive-700-million-ad-testing-factory-for-kamala-harris", "title": "Inside the secretive $700 million ad-testing factory for Kamala Harris — New York Times via GV Wire" },
+        { "url": "https://www.brennancenter.org/our-work/analysis-opinion/megadonors-playing-larger-role-presidential-race-fec-data-shows", "title": "Megadonors playing larger role in presidential race, FEC data shows — Brennan Center" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "funded_by",
+      "description": "Harris's main super PAC in 2024, responsible for most of the outside money backing her.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://gvwire.com/2024/10/17/inside-the-secretive-700-million-ad-testing-factory-for-kamala-harris", "title": "Inside the secretive $700 million ad-testing factory for Kamala Harris — New York Times via GV Wire" },
+        { "url": "https://www.brennancenter.org/our-work/analysis-opinion/megadonors-playing-larger-role-presidential-race-fec-data-shows", "title": "Megadonors playing larger role in presidential race, FEC data shows — Brennan Center" }
+      ]
+    },
+    {
+      "name": "Dustin Moskovitz",
+      "slug": "dustin-moskovitz",
+      "relationship_type": "donor",
+      "description": "Gave about $50 million in 2024, its top disclosed individual donor in the final weeks.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },
+        { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Chris Larsen",
+      "slug": "chris-larsen",
+      "relationship_type": "donor",
+      "description": "Gave $1 million in XRP in August 2024; Decrypt reported about $10 million more in September.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.theblock.co/post/320785/ripple-co-founder-chris-larsen-donates-1-million-in-crypto-to-pac-supporting-kamala-harris-campaign", "title": "Ripple co-founder Chris Larsen donates $1 million in crypto to PAC supporting Kamala Harris — The Block" }
+      ]
+    },
+    {
+      "name": "Michael Bloomberg",
+      "slug": "michael-bloomberg",
+      "relationship_type": "donor",
+      "description": "Reportedly gave $50 million in 2024, per Wikipedia citing the New York Times.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Future_Forward_PAC", "title": "Future Forward PAC — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files plus campaign-finance reporting (Public Citizen, Issue One, FEC-based news coverage). Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

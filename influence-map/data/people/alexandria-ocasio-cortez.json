@@ -135,6 +135,17 @@
         { "url": "https://www.bloombergquint.com/businessweek/top-gop-donor-timothy-mellon-is-former-liberal-now-trump-backer", "title": "Mellon leads 2020 GOP donors — Bloomberg Businessweek" },
         { "url": "https://popular.info/p/the-reclusive-plutocrat-who-became", "title": "The reclusive plutocrat who became the biggest political donor of 2024 — Popular Information" }
       ]
+    },
+    {
+      "name": "Abdul El-Sayed",
+      "slug": "abdul-el-sayed",
+      "relationship_type": "ally",
+      "description": "Ocasio-Cortez endorsed his 2026 Senate campaign.",
+      "start_year": 2026,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.wsls.com/news/politics/2026/07/19/aipac-has-spent-a-record-amount-on-michigans-senate-primary-the-biggest-test-of-its-influence-yet/", "title": "AIPAC has spent a record amount on Michigan's Senate primary — AP via WSLS" }
+      ]
     }
   ],
   "affiliations": [],

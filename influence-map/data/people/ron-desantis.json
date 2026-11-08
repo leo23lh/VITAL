@@ -230,6 +230,18 @@
         { "url": "https://kmph.com/news/nation-world/florida-to-award-charlie-kirk-prize-to-high-school-debate-winner-partners-with-tpusa-north-florida-news-october-27-2025", "title": "Florida to award Charlie Kirk Prize, partners with TPUSA — KMPH" },
         { "url": "https://www.foxnews.com/media/ron-desantis-honor-charlie-kirk-renaming-debate-trophy-after-him.amp", "title": "Ron DeSantis names debate trophy after Charlie Kirk and announces TPUSA partnership — Fox News" }
       ]
+    },
+    {
+      "name": "Byron Donalds",
+      "slug": "byron-donalds",
+      "relationship_type": "enemy",
+      "description": "Tense since Donalds endorsed Trump over DeSantis for 2024; DeSantis publicly disparaged him while floating his wife Casey for governor, and did not back Donalds, who won anyway.",
+      "start_year": 2023,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://floridaphoenix.com/?p=229335", "title": "DeSantis disses Donalds, touts First Lady, when asked about 2026 governor race — Florida Phoenix" },
+        { "url": "https://www.wlrn.org/government-politics/2026-01-12/collins-announces-bid-for-governor-as-desantis-wavers-on-whether-to-endorse", "title": "Collins announces bid for governor as DeSantis wavers on whether to endorse — WLRN" }
+      ]
     }
   ],
   "affiliations": [],

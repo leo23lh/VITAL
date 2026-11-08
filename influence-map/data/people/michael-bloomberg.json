@@ -105,6 +105,30 @@
         { "url": "https://kvia.com/politics/2020/03/04/the-end-of-bloomberg-how-the-most-expensive-primary-campaign-in-history-failed-to-launch/", "title": "The end of Bloomberg: how the most expensive primary campaign in history failed to launch — CNN via KVIA" },
         { "url": "https://weartv.com/news/nation-world/bloomberg-might-not-spend-to-help-sanders-if-hes-nominee", "title": "Bloomberg might not spend to help Sanders if he's nominee — WEAR" }
       ]
+    },
+    {
+      "name": "House Majority PAC",
+      "slug": "house-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "Gave $10 million in 2022 and $16 million in October 2026 as part of a late spending blitz to help Democrats retake the House.",
+      "start_year": 2022,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://thehill.com/homenews/campaign/3705040-michael-bloomberg-gives-pelosi-aligned-super-pac-another-10m-as-midterms-near/", "title": "Michael Bloomberg gives Pelosi-aligned super PAC another $10M as midterms near — The Hill" },
+        { "url": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html", "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT — CNBC" }
+      ]
+    },
+    {
+      "name": "Future Forward PAC",
+      "slug": "future-forward",
+      "relationship_type": "funded_by",
+      "description": "Reportedly gave $50 million in 2024, per Wikipedia citing the New York Times.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Future_Forward_PAC", "title": "Future Forward PAC — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],
@@ -137,6 +161,7 @@
           },
           {
             "name": "House Majority PAC",
+            "org": "house-majority-pac",
             "kind": "super-pac",
             "side": "D",
             "amount_usd": 16000000,
@@ -199,6 +224,7 @@
         },
         {
           "name": "House Majority PAC",
+          "org": "house-majority-pac",
           "kind": "super-pac",
           "side": "D",
           "basis": "Gave $10M+ in 2022 and $16M in 2026.",

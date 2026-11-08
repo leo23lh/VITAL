@@ -1,0 +1,100 @@
+{
+  "name": "James Talarico",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "lean": [
+    {
+      "value": -2,
+      "basis": "Democratic Texas state representative since 2019; won the 2026 Senate race as a Democrat.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/James_Talarico", "title": "James Talarico — Wikipedia" },
+        { "url": "https://www.axios.com/2026/11/04/texas-senate-results-talarico-paxton", "title": "Talarico flips Texas Senate seat, ending 38-year Democratic drought — Axios" }
+      ]
+    }
+  ],
+  "current_role": "U.S. senator-elect from Texas (won November 2026); Texas state representative since 2019",
+  "summary": "James Talarico (born 1989), a former middle-school teacher and Presbyterian seminarian, served in the Texas House from 2019. In November 2026 he beat Ken Paxton to flip a Texas Senate seat, the first Democratic Senate win there since 1988, in the most expensive Senate race in US history, outraising Paxton about $155 million to $40 million while Elon Musk put at least $212 million behind Paxton.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/James_Talarico", "title": "James Talarico — Wikipedia" },
+    { "url": "https://www.axios.com/2026/11/04/texas-senate-results-talarico-paxton", "title": "Talarico flips Texas Senate seat, ending 38-year Democratic drought — Axios" },
+    { "url": "https://aljazeera.com/news/2026/11/3/texans-vote-in-most-expensive-senate-race-in-us-history", "title": "Texans vote in most expensive Senate race in US history — Al Jazeera" }
+  ],
+  "timeline": [
+    {
+      "year": 2011,
+      "end_year": 2013,
+      "role": "Sixth-grade language arts teacher",
+      "org": "Rhodes Middle School, San Antonio",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/James_Talarico", "title": "James Talarico — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "State representative",
+      "org": "Texas House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/James_Talarico", "title": "James Talarico — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Ken Paxton",
+      "slug": "ken-paxton",
+      "relationship_type": "rival",
+      "description": "Opponents in Texas's 2026 Senate race; Talarico won, and Paxton conceded.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.axios.com/2026/11/04/texas-senate-results-talarico-paxton", "title": "Talarico flips Texas Senate seat, ending 38-year Democratic drought — Axios" },
+        { "url": "https://www.fox5dc.com/news/james-talarico-defeats-ken-paxton-become-next-us-senator-from-texas", "title": "James Talarico defeats Ken Paxton to become next US senator from Texas — Fox 5 DC" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "enemy",
+      "description": "Musk put at least $212 million behind Paxton in the Texas Senate race, mostly through the Senate Leadership Fund, and his America PAC spent directly against Talarico; Talarico won.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://aljazeera.com/news/2026/11/3/texans-vote-in-most-expensive-senate-race-in-us-history", "title": "Texans vote in most expensive Senate race in US history — Al Jazeera" },
+        { "url": "https://www.texastribune.org/2026/09/04/elon-musk-ken-paxton-super-pac-spending-texas-senate-race/", "title": "Elon Musk's super PAC starts spending to boost Ken Paxton — Texas Tribune" }
+      ]
+    },
+    {
+      "name": "Senate Leadership Fund",
+      "slug": "senate-leadership-fund",
+      "relationship_type": "enemy",
+      "description": "The Senate Leadership Fund passed Musk's money to Texas PAC, which spent about $70 million against Talarico.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://aljazeera.com/news/2026/11/3/texans-vote-in-most-expensive-senate-race-in-us-history", "title": "Texans vote in most expensive Senate race in US history — Al Jazeera" },
+        { "url": "https://legis1.com/news/outside-spending-2026-monday-october-12-900am", "title": "Outside spending in 2026 — Legis1" }
+      ]
+    },
+    {
+      "name": "America PAC",
+      "slug": "america-pac",
+      "relationship_type": "enemy",
+      "description": "Musk's America PAC made Paxton's race its biggest 2026 investment and spent about $1.4 million directly against Talarico by September.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.texastribune.org/2026/09/04/elon-musk-ken-paxton-super-pac-spending-texas-senate-race/", "title": "Elon Musk's super PAC starts spending to boost Ken Paxton — Texas Tribune" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where Wikipedia was rate-limiting and most news pages could not be opened; Wikipedia facts were confirmed with web searches restricted to en.wikipedia.org, and news facts with searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

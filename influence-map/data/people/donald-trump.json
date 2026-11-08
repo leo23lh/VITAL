@@ -1571,6 +1571,42 @@
         { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" },
         { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" }
       ]
+    },
+    {
+      "name": "ActBlue",
+      "slug": "actblue",
+      "relationship_type": "enemy",
+      "description": "In April 2025 Trump ordered the Justice Department to investigate ActBlue over alleged straw and foreign donations, giving Attorney General Pam Bondi 180 days to report back; ActBlue called it an attack and vowed to fight it in court.",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/trump-administration/trump-expected-sign-memo-targeting-act-blue-rcna202673", "title": "Trump expected to sign memo targeting ActBlue — NBC News" },
+        { "url": "https://www.democracydocket.com/news-alerts/trump-orders-probe-against-democratic-fundraising-platform-actblue/", "title": "Trump orders probe against Democratic fundraising platform ActBlue — Democracy Docket" }
+      ]
+    },
+    {
+      "name": "Wes Moore",
+      "slug": "wes-moore",
+      "relationship_type": "enemy",
+      "description": "In 2025 Trump threatened to send the National Guard into Baltimore to fight crime; Moore said homicides were at historic lows, the Guard was unnecessary, and he would accept FBI and ATF help instead.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2028-election/maryland-governor-wes-moore-ruling-out-presidential-run-redistricting-rcna229615", "title": "Maryland Gov. Wes Moore rules out presidential run — NBC News" },
+        { "url": "https://www.thebanner.com/politics-power/state-government/donald-trump-wes-moore-political-risk-CZFDWRORKNANVKB4DUE5HLWLBY/", "title": "Donald Trump and Wes Moore — The Baltimore Banner" }
+      ]
+    },
+    {
+      "name": "Byron Donalds",
+      "slug": "byron-donalds",
+      "relationship_type": "ally",
+      "description": "Donalds endorsed Trump early for 2024 over DeSantis; Trump endorsed him for Florida governor in February 2025, before he had entered the race, and again in May 2026 (\"Complete and Total Endorsement\").",
+      "start_year": 2023,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://wusf.org/text/politics-issues/2025-02-26/byron-donalds-endorsed-trump-running-for-florida-governor", "title": "Byron Donalds, endorsed by Trump, says he's running for Florida governor — WUSF" },
+        { "url": "https://www.washingtonexaminer.com/?p=4583091", "title": "Trump gives Byron Donalds 'complete and total endorsement' — Washington Examiner" }
+      ]
     }
   ],
   "source_conflicts": [

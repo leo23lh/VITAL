@@ -1,0 +1,81 @@
+{
+  "name": "Democracy PAC",
+  "aliases": ["Democracy PAC II"],
+  "kind": "super-pac",
+  "side": "D",
+  "founded": 2019,
+  "groups": [],
+  "summary": "George Soros's super PAC, launched for the 2020 cycle and now run by his son Alex Soros. With Democracy PAC II it received $102 million from the Soros family in the 2026 cycle and passed money on to other Democratic groups, including $9 million to Senate Majority PAC as well as House Majority PAC and J Street's super PAC.",
+  "sources": [
+    { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" },
+    { "url": "https://www.foxnews.com/politics/soros-political-machine-putting-millions-work-before-election-day-zeroing-key-races", "title": "Soros family pours $40M through Democracy PAC to Democratic allies — Fox News" },
+    { "url": "https://www.newsweek.com/the-midterm-billionaire-war-as-americas-oligarchs-pick-sides-musk-backlash-12643262", "title": "The Midterm Billionaire War as America's Oligarchs Pick Sides — Newsweek" },
+    { "url": "https://en.wikipedia.org/wiki/George_Soros", "title": "George Soros — Wikipedia" }
+  ],
+  "connections": [
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "co-founder",
+      "description": "Soros set up Democracy PAC for the 2020 cycle and remains its main funder; his son Alex now runs it.",
+      "start_year": 2019,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/George_Soros", "title": "George Soros — Wikipedia" },
+        { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" }
+      ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "donor",
+      "description": "The Soros family put $102 million into Democracy PAC and Democracy PAC II in the 2026 cycle; Public Citizen counts $52 million from the family's Geosor Corporation to Democracy PAC.",
+      "start_year": 2019,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" },
+        { "url": "https://www.foxnews.com/politics/soros-political-machine-putting-millions-work-before-election-day-zeroing-key-races", "title": "Soros family pours $40M through Democracy PAC to Democratic allies — Fox News" },
+        { "url": "https://www.citizen.org/article/millionaires-and-billionaires-fuel-2026-super-pac-spending/", "title": "Millionaires and billionaires fuel 2026 super PAC spending — Public Citizen" }
+      ]
+    },
+    {
+      "name": "Alex Soros",
+      "slug": "alex-soros",
+      "relationship_type": "employee",
+      "description": "George Soros's son, who now runs the family's political operation including Democracy PAC.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/George_Soros", "title": "George Soros — Wikipedia" },
+        { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" }
+      ]
+    },
+    {
+      "name": "Senate Majority PAC",
+      "slug": "senate-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "Gave Senate Majority PAC $9 million in the 2026 cycle.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.newsweek.com/the-midterm-billionaire-war-as-americas-oligarchs-pick-sides-musk-backlash-12643262", "title": "The Midterm Billionaire War as America's Oligarchs Pick Sides — Newsweek" }
+      ]
+    },
+    {
+      "name": "House Majority PAC",
+      "slug": "house-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "Funded House Majority PAC in the 2026 cycle; the amount was not reported.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.newsweek.com/the-midterm-billionaire-war-as-americas-oligarchs-pick-sides-musk-backlash-12643262", "title": "The Midterm Billionaire War as America's Oligarchs Pick Sides — Newsweek" },
+        { "url": "https://www.foxnews.com/politics/soros-political-machine-putting-millions-work-before-election-day-zeroing-key-races", "title": "Soros family pours $40M through Democracy PAC to Democratic allies — Fox News" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files plus campaign-finance reporting (Public Citizen, Issue One, FEC-based news coverage). Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

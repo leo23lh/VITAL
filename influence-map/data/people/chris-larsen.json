@@ -177,6 +177,30 @@
         { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" },
         { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" }
       ]
+    },
+    {
+      "name": "House Majority PAC",
+      "slug": "house-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "Gave $2.5 million in the 2026 cycle.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" }
+      ]
+    },
+    {
+      "name": "Future Forward PAC",
+      "slug": "future-forward",
+      "relationship_type": "funded_by",
+      "description": "Gave $1 million in XRP in August 2024; Decrypt reported about $10 million more in September.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.theblock.co/post/320785/ripple-co-founder-chris-larsen-donates-1-million-in-crypto-to-pac-supporting-kamala-harris-campaign", "title": "Ripple co-founder Chris Larsen donates $1 million in crypto to PAC supporting Kamala Harris — The Block" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -259,6 +283,7 @@
           },
           {
             "name": "House Majority PAC",
+            "org": "house-majority-pac",
             "kind": "super-pac",
             "side": "D",
             "amount_usd": 2500000,
@@ -290,6 +315,7 @@
           {
             "name": "Future Forward PAC (pro-Harris)",
             "slug": "kamala-harris",
+            "org": "future-forward",
             "kind": "super-pac",
             "side": "D",
             "amount_usd": 1000000,
