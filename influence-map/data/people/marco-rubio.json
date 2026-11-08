@@ -369,6 +369,20 @@
         { "url": "https://ajc.com/news/white-house-inner-circle-discussed-secret-military-plans-in-extraordinary-breach/4HS5BQMHRVBRVMKZK3IY3LMK44", "title": "AJC: White House inner circle discussed secret military plans in extraordinary breach" },
         { "url": "https://www.timesofisrael.com/us-cabinet-officials-accidentally-add-journalist-to-group-chat-share-war-plans/", "title": "Times of Israel: US cabinet officials accidentally add journalist to group chat, share war plans" }
       ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "employee",
+      "description": "Helberg serves under Rubio as Under Secretary of State for Economic Affairs from October 2025; Rubio credited him in August 2026 with designing Pax Silica.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.state.gov/biographies/jacob-helberg", "title": "U.S. Department of State: Jacob Helberg biography" },
+        { "url": "https://x.com/jacobhelberg/status/1975687421024215309", "title": "Jacob Helberg on X: Senate confirmation announcement" },
+        { "url": "https://www.indiandefensenews.in/2026/08/rubio-and-helberg-highlight-pax-silica.html", "title": "Indian Defence News: Rubio and Helberg highlight Pax Silica" }
+      ]
     }
   ],
   "source_conflicts": [],

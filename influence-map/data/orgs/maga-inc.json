@@ -169,6 +169,19 @@
         { "url": "https://www.axios.com/2026/11/06/scoop-trump-to-keep-fundraising-hoping-to-retain-political-muscle", "title": "Scoop: Trump to keep fundraising, hoping to retain political muscle — Axios" },
         { "url": "https://www.inquirer.com/politics/nation/trump-super-pac-midterm-elections-20261021.html", "title": "Trump super PAC and the midterm elections — Philadelphia Inquirer" }
       ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "donor",
+      "description": "Jacob Helberg gave $1 million in 2024, per the Revolving Door Project; other reports described it as a gift to the Trump campaign.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" },
+        { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" }
+      ]
     }
   ],
   "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and campaign-finance reporting. Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",

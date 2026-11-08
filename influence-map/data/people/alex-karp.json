@@ -173,6 +173,20 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
       ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "employee",
+      "description": "Jacob Helberg was Karp’s senior policy adviser at Palantir from about 2023 until he joined the State Department in 2025.",
+      "start_year": 2023,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://uscc.gov/commission-members/jacob-helberg", "title": "U.S.-China Economic and Security Review Commission: Jacob Helberg" },
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" },
+        { "url": "https://www.axios.com/2025/07/23/hill-valley-helberg-trump-ai", "title": "Axios: Why Hill and Valley is defense tech’s \"Rosetta Stone\"" }
+      ]
     }
   ],
   "source_conflicts": [

@@ -1609,6 +1609,34 @@
         { "url": "https://wusf.org/text/politics-issues/2025-02-26/byron-donalds-endorsed-trump-running-for-florida-governor", "title": "Byron Donalds, endorsed by Trump, says he's running for Florida governor — WUSF" },
         { "url": "https://www.washingtonexaminer.com/?p=4583091", "title": "Trump gives Byron Donalds 'complete and total endorsement' — Washington Examiner" }
       ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "employee",
+      "description": "Trump picked Helberg, a 2024 donor, as Under Secretary of State for economic affairs; he took office on October 16, 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.advocate.com/politics/trump-appoints-jacob-helberg-state", "title": "The Advocate: Trump appoints Jacob Helberg to State Department role" },
+        { "url": "https://www.jns.org/trump-nominee-for-economic-role-is-jewish-pro-israel-author-national-security-adviser/", "title": "JNS: Trump nominee for economic role is Jewish, pro-Israel author and national security adviser" },
+        { "url": "https://www.state.gov/biographies/jacob-helberg", "title": "U.S. Department of State: Jacob Helberg biography" }
+      ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "donor",
+      "description": "Jacob Helberg, a Democratic donor in 2020, gave $1 million to back Trump in May 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://jewishinsider.com/2024/05/silicon-valley-donor-jacob-helberg-biden-trump-anti-israel-left/", "title": "Jewish Insider: Silicon Valley donor Jacob Helberg cites anti-Israel left in shift from Biden to Trump" },
+        { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" },
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
+      ]
     }
   ],
   "source_conflicts": [

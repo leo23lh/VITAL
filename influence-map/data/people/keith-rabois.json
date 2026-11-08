@@ -173,6 +173,18 @@
         { "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund", "title": "Keith Rabois is leaving Khosla Ventures for Founders Fund — TechCrunch" },
         { "url": "https://techcrunch.com/2024/01/09/keith-rabois-dishes-on-his-surprising-return-to-khosla-ventures-after-leaving-the-firm-in-2019-for-founders-fund", "title": "Keith Rabois dishes on his surprising return to Khosla Ventures — TechCrunch" }
       ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "family",
+      "description": "Rabois married Jacob Helberg, now the State Department’s Under Secretary for Economic Affairs, in 2018; together they hosted fundraisers for Trump and Vance in 2024.",
+      "start_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Jacob_Helberg", "title": "Jacob Helberg — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [],

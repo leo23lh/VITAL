@@ -532,6 +532,19 @@
       "sources": [
         { "url": "https://www.axios.com/2024/07/25/vance-project-2025-book-trump-heritage-foundation", "title": "J.D. Vance wrote foreword of upcoming book from Project 2025 architect — Axios" }
       ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "ally",
+      "description": "Jacob Helberg and Keith Rabois hosted 2024 fundraisers for Vance, including a Jewish Leadership Coalition lunch in New York.",
+      "start_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/private-equity/david-sacks-palantirs-helberg-to-host-fundraisers-for-vance", "title": "Bloomberg Law: David Sacks, Palantir’s Helberg to host fundraisers for Vance" },
+        { "url": "https://www.jns.org/vance-appears-at-jewish-leadership-coalition-fundraiser-in-new-york-city", "title": "JNS: Vance appears at Jewish Leadership Coalition fundraiser in New York City" },
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
+      ]
     }
   ],
   "source_conflicts": [],

@@ -1,0 +1,300 @@
+{
+  "name": "Jacob Helberg",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["tech-right", "ai-race"],
+  "current_role": "U.S. Under Secretary of State for Economic Affairs (since October 16, 2025)",
+  "summary": "Jacob Helberg is the State Department’s Under Secretary for Economic Affairs, where he launched Pax Silica, a U.S.-led pact on AI and critical-mineral supply chains. Before that he led Google’s global policy work against foreign interference, served on the U.S.-China Economic and Security Review Commission (2022–2024), advised Palantir CEO Alex Karp, wrote The Wires of War (2021) and co-founded the Hill & Valley Forum. A Democratic donor in 2020, he gave $1 million to back Trump in 2024; he is married to investor Keith Rabois.",
+  "sources": [
+    { "url": "https://www.state.gov/biographies/jacob-helberg", "title": "U.S. Department of State: Jacob Helberg biography" },
+    { "url": "https://docs.house.gov/meetings/FA/FA00/20260224/118902/HHRG-119-FA00-Bio-HelbergJ-20260224.pdf", "title": "House Foreign Affairs Committee: Helberg biography (February 24, 2026 hearing)" },
+    { "url": "https://en.wikipedia.org/wiki/Jacob_Helberg", "title": "Jacob Helberg — Wikipedia" },
+    { "url": "https://uscc.gov/commission-members/jacob-helberg", "title": "U.S.-China Economic and Security Review Commission: Jacob Helberg" }
+  ],
+  "timeline": [
+    {
+      "year": 2016,
+      "end_year": 2020,
+      "role": "Global lead for product policy efforts against foreign interference (Search)",
+      "org": "Google",
+      "sources": [
+        { "url": "https://uscc.gov/commission-members/jacob-helberg", "title": "U.S.-China Economic and Security Review Commission: Jacob Helberg" },
+        { "url": "https://www.state.gov/biographies/jacob-helberg", "title": "U.S. Department of State: Jacob Helberg biography" }
+      ]
+    },
+    {
+      "year": 2021,
+      "role": "Author of The Wires of War: Technology and the Global Struggle for Power (Simon & Schuster)",
+      "org": "Simon & Schuster",
+      "sources": [
+        { "url": "https://uscc.gov/commission-members/jacob-helberg", "title": "U.S.-China Economic and Security Review Commission: Jacob Helberg" },
+        { "url": "https://en.wikipedia.org/wiki/Jacob_Helberg", "title": "Jacob Helberg — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2022,
+      "end_year": 2024,
+      "role": "Commissioner, appointed by House Speaker Kevin McCarthy (term to December 31, 2024)",
+      "org": "U.S.-China Economic and Security Review Commission",
+      "sources": [
+        { "url": "https://uscc.gov/commission-members/jacob-helberg", "title": "U.S.-China Economic and Security Review Commission: Jacob Helberg" },
+        { "url": "https://www.state.gov/biographies/jacob-helberg", "title": "U.S. Department of State: Jacob Helberg biography" }
+      ]
+    },
+    {
+      "year": 2023,
+      "role": "Co-founder, with Delian Asparouhov and Christian Garrett",
+      "org": "Hill & Valley Forum",
+      "sources": [
+        { "url": "https://www.axios.com/2025/07/23/hill-valley-helberg-trump-ai", "title": "Axios: Why Hill and Valley is defense tech’s \"Rosetta Stone\"" },
+        { "url": "https://newcomer.co/p/in-washington-silicon-valleys-iconoclasts", "title": "Newcomer: In Washington, Silicon Valley’s iconoclasts" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": 2025,
+      "role": "Senior policy adviser to CEO Alex Karp",
+      "org": "Palantir Technologies",
+      "sources": [
+        { "url": "https://uscc.gov/commission-members/jacob-helberg", "title": "U.S.-China Economic and Security Review Commission: Jacob Helberg" },
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Under Secretary of State for Economic Affairs (announced December 10, 2024; Senate Foreign Relations hearing June 10, 2025; in office from October 16, 2025); launched Pax Silica in December 2025",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://www.state.gov/biographies/jacob-helberg", "title": "U.S. Department of State: Jacob Helberg biography" },
+        { "url": "https://www.advocate.com/politics/trump-appoints-jacob-helberg-state", "title": "The Advocate: Trump appoints Jacob Helberg to State Department role" },
+        { "url": "https://www.foreign.senate.gov/download/06/11/2025/061025_helberg_testimonypdf", "title": "Senate Foreign Relations Committee: Helberg testimony, June 10, 2025" },
+        { "url": "https://x.com/jacobhelberg/status/1975687421024215309", "title": "Jacob Helberg on X: Senate confirmation announcement" },
+        { "url": "https://www.state.gov/pax-silica", "title": "U.S. Department of State: Pax Silica" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Hill & Valley Forum",
+      "role": "Co-founder",
+      "start_year": 2023,
+      "sources": [
+        { "url": "https://www.axios.com/2025/07/23/hill-valley-helberg-trump-ai", "title": "Axios: Why Hill and Valley is defense tech’s \"Rosetta Stone\"" },
+        { "url": "https://newcomer.co/p/in-washington-silicon-valleys-iconoclasts", "title": "Newcomer: In Washington, Silicon Valley’s iconoclasts" }
+      ]
+    },
+    {
+      "name": "Pax Silica",
+      "role": "Designed and leads the State Department initiative",
+      "start_year": 2025,
+      "sources": [
+        { "url": "https://www.state.gov/pax-silica", "title": "U.S. Department of State: Pax Silica" },
+        { "url": "https://www.indiandefensenews.in/2026/08/rubio-and-helberg-highlight-pax-silica.html", "title": "Indian Defence News: Rubio and Helberg highlight Pax Silica" }
+      ]
+    }
+  ],
+  "lean": [
+    {
+      "value": -1,
+      "start_year": 2020,
+      "end_year": 2023,
+      "basis": "Began major political giving in 2020 with donations to Democrats, including Biden.",
+      "sources": [
+        { "url": "https://jewishinsider.com/2024/05/silicon-valley-donor-jacob-helberg-biden-trump-anti-israel-left/", "title": "Jewish Insider: Silicon Valley donor Jacob Helberg cites anti-Israel left in shift from Biden to Trump" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2024,
+      "end_year": null,
+      "basis": "Gave $1 million to back Trump in 2024, citing the anti-Israel left; hosted fundraisers for Trump and Vance; Trump appointee at the State Department.",
+      "sources": [
+        { "url": "https://jewishinsider.com/2024/05/silicon-valley-donor-jacob-helberg-biden-trump-anti-israel-left/", "title": "Jewish Insider: Silicon Valley donor Jacob Helberg cites anti-Israel left in shift from Biden to Trump" },
+        { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" },
+        { "url": "https://news.bloomberglaw.com/private-equity/david-sacks-palantirs-helberg-to-host-fundraisers-for-vance", "title": "Bloomberg Law: David Sacks, Palantir’s Helberg to host fundraisers for Vance" },
+        { "url": "https://www.state.gov/biographies/jacob-helberg", "title": "U.S. Department of State: Jacob Helberg biography" }
+      ]
+    }
+  ],
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2024,
+        "description": "Switched from Democrats to Trump; also hosted fundraisers for Trump and Vance.",
+        "sources": [
+          { "url": "https://jewishinsider.com/2024/05/silicon-valley-donor-jacob-helberg-biden-trump-anti-israel-left/", "title": "Jewish Insider: Silicon Valley donor Jacob Helberg cites anti-Israel left in shift from Biden to Trump" },
+          { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
+        ],
+        "recipients": [
+          {
+            "name": "MAGA Inc.",
+            "org": "maga-inc",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1000000,
+            "description": "Reported in May 2024 as a $1 million gift to back Trump; the Revolving Door Project names MAGA Inc. as the recipient.",
+            "sources": [
+              { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" },
+              { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" }
+            ]
+          },
+          {
+            "name": "Trump 47 Committee",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 844600,
+            "description": "About $844,600, per the Revolving Door Project’s review of FEC filings.",
+            "sources": [
+              { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "connections": [
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "family",
+      "description": "Helberg married investor Keith Rabois in 2018; together they hosted fundraisers for Trump and Vance in 2024.",
+      "start_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Jacob_Helberg", "title": "Jacob Helberg — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Helberg serves under Secretary of State Rubio as Under Secretary for Economic Affairs from October 2025; Rubio credited him in August 2026 with designing Pax Silica, and hosted the February 2026 Critical Minerals Ministerial that Helberg briefed on.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.state.gov/biographies/jacob-helberg", "title": "U.S. Department of State: Jacob Helberg biography" },
+        { "url": "https://x.com/jacobhelberg/status/1975687421024215309", "title": "Jacob Helberg on X: Senate confirmation announcement" },
+        { "url": "https://www.indiandefensenews.in/2026/08/rubio-and-helberg-highlight-pax-silica.html", "title": "Indian Defence News: Rubio and Helberg highlight Pax Silica" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump announced Helberg on December 10, 2024 as his pick for Under Secretary of State, calling him a champion of America First foreign policy; he took office on October 16, 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.advocate.com/politics/trump-appoints-jacob-helberg-state", "title": "The Advocate: Trump appoints Jacob Helberg to State Department role" },
+        { "url": "https://www.jns.org/trump-nominee-for-economic-role-is-jewish-pro-israel-author-national-security-adviser/", "title": "JNS: Trump nominee for economic role is Jewish, pro-Israel author and national security adviser" },
+        { "url": "https://www.state.gov/biographies/jacob-helberg", "title": "U.S. Department of State: Jacob Helberg biography" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Helberg, a Democratic donor in 2020, gave $1 million to back Trump in May 2024 and co-hosted a Trump fundraiser during the Republican convention, per the Revolving Door Project.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://jewishinsider.com/2024/05/silicon-valley-donor-jacob-helberg-biden-trump-anti-israel-left/", "title": "Jewish Insider: Silicon Valley donor Jacob Helberg cites anti-Israel left in shift from Biden to Trump" },
+        { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" },
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
+      ]
+    },
+    {
+      "name": "Alex Karp",
+      "slug": "alex-karp",
+      "relationship_type": "employer",
+      "description": "Helberg was senior policy adviser to Palantir CEO Alex Karp from about 2023 until joining the State Department in 2025.",
+      "start_year": 2023,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://uscc.gov/commission-members/jacob-helberg", "title": "U.S.-China Economic and Security Review Commission: Jacob Helberg" },
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" },
+        { "url": "https://www.axios.com/2025/07/23/hill-valley-helberg-trump-ai", "title": "Axios: Why Hill and Valley is defense tech’s \"Rosetta Stone\"" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Helberg and Keith Rabois hosted 2024 fundraisers for Vance, including a Jewish Leadership Coalition lunch in New York where Helberg said Israel’s security was “on the ballot.”",
+      "start_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/private-equity/david-sacks-palantirs-helberg-to-host-fundraisers-for-vance", "title": "Bloomberg Law: David Sacks, Palantir’s Helberg to host fundraisers for Vance" },
+        { "url": "https://www.jns.org/vance-appears-at-jewish-leadership-coalition-fundraiser-in-new-york-city", "title": "JNS: Vance appears at Jewish Leadership Coalition fundraiser in New York City" },
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
+      ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "funded_by",
+      "description": "The Revolving Door Project says Helberg’s $1 million 2024 gift went to MAGA Inc.; other reports described it as a gift to the Trump campaign.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" },
+        { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" }
+      ]
+    },
+    {
+      "name": "Delian Asparouhov",
+      "slug": "delian-asparouhov",
+      "relationship_type": "co-founder",
+      "description": "Helberg co-founded the Hill & Valley Forum, which brings lawmakers and tech investors together against China’s tech influence, in 2023 with Delian Asparouhov, a Founders Fund partner.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2025/07/23/hill-valley-helberg-trump-ai", "title": "Axios: Why Hill and Valley is defense tech’s \"Rosetta Stone\"" },
+        { "url": "https://newcomer.co/p/in-washington-silicon-valleys-iconoclasts", "title": "Newcomer: In Washington, Silicon Valley’s iconoclasts" }
+      ]
+    },
+    {
+      "name": "Christian Garrett",
+      "slug": "christian-garrett",
+      "relationship_type": "co-founder",
+      "description": "Helberg co-founded the Hill & Valley Forum, which brings lawmakers and tech investors together against China’s tech influence, in 2023 with Christian Garrett, a 137 Ventures partner.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2025/07/23/hill-valley-helberg-trump-ai", "title": "Axios: Why Hill and Valley is defense tech’s \"Rosetta Stone\"" },
+        { "url": "https://newcomer.co/p/in-washington-silicon-valleys-iconoclasts", "title": "Newcomer: In Washington, Silicon Valley’s iconoclasts" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Recipient of his 2024 $1 million gift",
+      "details": "The Washington Post, as reported by the Daily Wire, described it as $1 million to the Trump campaign; the Revolving Door Project says it went to the pro-Trump super PAC MAGA Inc.",
+      "sources": [
+        { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" },
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
+      ]
+    },
+    {
+      "topic": "Title of his office",
+      "details": "Trump’s 2024 announcement and older pages call it Under Secretary for Economic Growth, Energy, and the Environment; the State Department now calls it Under Secretary for Economic Affairs.",
+      "sources": [
+        { "url": "https://www.advocate.com/politics/trump-appoints-jacob-helberg-state", "title": "The Advocate: Trump appoints Jacob Helberg to State Department role" },
+        { "url": "https://www.state.gov/biographies/jacob-helberg", "title": "U.S. Department of State: Jacob Helberg biography" }
+      ]
+    }
+  ],
+  "notes": "Researched with web searches; pages could not be opened, so facts were confirmed through search results tied to each cited URL. The Revolving Door Project is an advocacy group; amounts taken from it are attributed to it. Not recorded: that Sam Altman officiated his 2018 wedding (a personal tie with no fitting relationship type).",
+  "last_researched": "2026-11-08"
+}
