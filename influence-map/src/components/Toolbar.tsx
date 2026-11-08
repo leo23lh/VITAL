@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import type { View } from '../App';
+import type { View } from '../lib/view';
 import { matchesQuery, type GraphNode } from '../lib/graph';
 import { GROUPS } from '../lib/schema';
 import type { MenuName } from './Menus';

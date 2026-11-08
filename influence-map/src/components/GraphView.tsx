@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState, type RefObject } fro
 import ForceGraph2D, { type ForceGraphMethods } from 'react-force-graph-2d';
 import { describeLink, familyOf, linkEndId, matchesQuery, type GraphNode, type PairLink } from '../lib/graph';
 import { EDGE_FAMILY_BY_ID, GROUPS, ORG_KIND_LABEL, SECTOR_BY_ID, orgSideColor, type EdgeFamily } from '../lib/schema';
-import type { Compass, Forces, RadialLayout, Selection } from '../App';
+import type { Compass, Forces, RadialLayout, Selection } from '../lib/view';
 
 export const BACKGROUND = '#0f1117';
 const GREY = '#94a3b8';

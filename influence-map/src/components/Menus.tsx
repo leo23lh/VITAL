@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { DEFAULT_FORCES, type Forces, type View } from '../App';
+import { DEFAULT_FORCES, type Forces, type View } from '../lib/view';
 import type { GraphNode, YearRange } from '../lib/graph';
 import { EDGE_FAMILIES, GROUPS, SECTORS, type EdgeFamily, type GroupId, type MapUpdate } from '../lib/schema';
 

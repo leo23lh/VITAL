@@ -479,7 +479,10 @@ bar), with a badge for entries this device hasn't seen. Each entry:
   "people": ["pete-hegseth", "thomas-massie"] }
 ```
 
-`/add-person`, `/refresh-person` and `/add-org` add an entry for each run. The
+`/add-person`, `/refresh-person` and `/add-org` add an entry for each run.
+A scheduled task ("Influence Map weekly refresh", Sundays 5:34 PM Arizona time)
+starts a fresh cloud session each week that refreshes up to 8 people who made
+news, adds a `YYYY-MM-DD-weekly-refresh` entry, pushes and syncs the phone page. The
 text only summarizes what the files say (no new facts, so no sources of its
 own); `people` must be slugs with files, and the chips jump to them. The
 validator checks ids (date plus a short label, unique), dates and slugs.
@@ -518,6 +521,13 @@ on a phone. Its link is in `artifact.json`.
 
 - `npm install` once, then `npm run dev` (opens http://127.0.0.1:5173).
 - `npm test` runs unit tests; `npm run typecheck`; `npm run validate` checks data.
+- **Code layout.** `src/lib/graph.ts` turns files into nodes and links and
+  scores them (compare, bond, clusters). `src/lib/view.ts` decides what the map
+  shows for a view and filters (`filterLinks`, `spotlightFor`, `visibleGraph`),
+  as pure functions with tests in `view.test.ts`. `src/lib/useAppChrome.ts`
+  holds the screen-layout and Updates-badge hooks. `src/App.tsx` only wires
+  state to components. The details panel is `src/components/SidePanel.tsx`
+  plus `src/components/panel/` (NodePanel, PairPanel, ComparePanel, parts).
 - The dev server serves the data folders at `/api/people` (people and orgs) and
   pushes a reload event when a file changes (`vite-plugin-people.ts`). There is no backend
   beyond that and no network access from the app.

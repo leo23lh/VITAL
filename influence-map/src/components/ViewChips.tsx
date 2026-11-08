@@ -1,4 +1,4 @@
-import type { View } from '../App';
+import type { View } from '../lib/view';
 import type { YearRange } from '../lib/graph';
 import { viewLabel } from './Toolbar';
 
