@@ -37,7 +37,9 @@ moves people to their lean for that year). One-line header with Views and Filter
 lines grey until a person is tapped; line families Work, Money, Alliance, Current
 rivalry, Past rivalry (dotted), Personal; one line per pair; sector-tinted dots with
 photos; radial preset views (groups, a 2028 race view and one "2028 camps" view per
-contender, Follow the money, Feuds, "[Person]'s world"); side column / floating card
+contender, Follow the money, Feuds, "[Person]'s world"); Compare (two people's
+0–100 closeness score, strongest chain and shared circle; no degrees of
+separation); side column / floating card
 / bottom sheet layouts (I use an iPhone Duo: unfolded about iPad-mini size, folded
 is a normal phone).
 

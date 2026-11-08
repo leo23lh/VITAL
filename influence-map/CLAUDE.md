@@ -241,6 +241,26 @@ The viewer also has three views that need no tagging: **Follow the money**
 (people with donor links), **Feuds** (people with rival or enemy links), and
 **[Person]'s world** (anyone plus everyone within one or two links).
 
+**Compare** (a person's details → Compare, or "How close are they?" on a
+line) scores how closely two people are tied, 0–100, without counting degrees
+of separation (everyone is one or two steps apart). It shows:
+
+- **Strongest chain**: the path (at most 4 links) whose links' closeness,
+  multiplied together, is highest. Closeness is the `CLOSENESS` weight of the
+  link's kind times its confidence. Rivalries and enmities never count; a tie
+  that has ended counts 0.6; friendly ties between two people who are rivals
+  or enemies now count half.
+- **Shared circle**: people and organizations tied to both, each scored by the
+  weaker of the two ties.
+- **Score**: combines the chain, the shared circle and shared groups. Passing
+  through someone with a large network counts for less (×√(12 / their
+  connections) past 12, so everyone isn't close through Trump). A current
+  direct rivalry or enmity multiplies the score by 0.6 (0.85 if it's past).
+  Labels: 75+ very close, 55+ close, 35+ connected, 15+ loosely connected.
+  With a date range set, only links active in it count.
+- The map shows just the two, the chain and the shared circle. Logic:
+  `compare()` in `src/lib/graph.ts`.
+
 Group and lens views use a radial layout: the view's people sit in the middle,
 and everyone else sits on faint rings by how many links away they are
 ("1 step out", "2 steps out", "not linked"). The whole network stays visible.

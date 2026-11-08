@@ -397,6 +397,11 @@ export default function GraphView({
           needsFit.current = false;
           // Radial views fit the middle and the first ring; the outer rings stay just off-screen.
           fgRef.current?.zoomToFit(400, 40, radial ? (n: GraphNode) => (radial.rings.get(n.id) ?? 9) <= 1 : undefined);
+          // With only a few dots on screen, fitting zooms in too far; settle back to a readable size.
+          setTimeout(() => {
+            const fg = fgRef.current;
+            if (fg && fg.zoom() > MAX_FIT_ZOOM) fg.zoom(MAX_FIT_ZOOM, 300);
+          }, 420);
         }}
         onRenderFramePost={(ctx, scale) => {
           ctx.save();
@@ -773,6 +778,9 @@ function lineFamily(p: PairLink, radial: RadialLayout | null) {
   const lens = radial?.emphasis;
   return (lens && p.links.map(familyOf).find((f) => lens.includes(f))) || p.family;
 }
+
+/** The closest the automatic fit zooms in (people can still zoom further by hand). */
+const MAX_FIT_ZOOM = 2.6;
 
 /** Path for a rounded square centered on (x, y) with half-side h. */
 function roundedSquare(ctx: CanvasRenderingContext2D, x: number, y: number, h: number) {

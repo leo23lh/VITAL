@@ -4,6 +4,7 @@ import {
   activeInRange,
   activeInYear,
   buildGraph,
+  compare,
   describeLink,
   familyOf,
   findClusters,
@@ -442,5 +443,43 @@ describe('findClusters', () => {
     expect(c.get('a1')).not.toBe(c.get('b1'));
     expect(c.get('loner')).not.toBe(c.get('a1'));
     expect(c.get('loner')).not.toBe(c.get('b1'));
+  });
+});
+
+describe('compare', () => {
+  const build = (rivals: boolean) => {
+    const files = [
+      person('a', 'A', [conn('x', 'X', 'ally'), conn('y', 'Y', 'colleague')]),
+      person('b', 'B', [conn('x', 'X', 'ally'), conn('y', 'Y', 'colleague')]),
+      person('x', 'X', [conn('a', 'A', 'ally'), conn('b', 'B', 'ally')]),
+      person('y', 'Y', [conn('a', 'A', 'colleague'), conn('b', 'B', 'colleague')]),
+      person('far', 'Far'),
+    ];
+    if (rivals) {
+      files[0].data.connections!.push(conn('b', 'B', 'rival', 0.9, { end_year: null }));
+      files[1].data.connections!.push(conn('a', 'A', 'rival', 0.9, { end_year: null }));
+    }
+    const g = buildGraph(files);
+    return { pairs: mergePairs(g.links), byId: new Map(g.nodes.map((n) => [n.id, n])) };
+  };
+
+  it('finds the strongest chain and the shared circle, skipping rivalries', () => {
+    const { pairs, byId } = build(true);
+    const c = compare('a', 'b', pairs, byId);
+    expect(c.chain).toEqual(['a', 'x', 'b']);
+    expect(c.shared.map((t) => t.id)).toEqual(['x', 'y']);
+    expect(c.direct.map((l) => l.group)).toEqual(['rival']);
+    expect(c.tension?.group).toBe('rival');
+  });
+
+  it('scores a rivalry lower and strangers at zero', () => {
+    const friendly = build(false);
+    const rivals = build(true);
+    const plain = compare('a', 'b', friendly.pairs, friendly.byId).score;
+    expect(compare('a', 'b', rivals.pairs, rivals.byId).score).toBeLessThan(plain);
+    expect(plain).toBeGreaterThan(0);
+    const none = compare('a', 'far', friendly.pairs, friendly.byId);
+    expect(none.chain).toBeNull();
+    expect(none.score).toBe(0);
   });
 });

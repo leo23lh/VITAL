@@ -33,6 +33,8 @@ export function viewLabel(view: View, nameOf: (id: string) => string): string {
       return 'Feuds';
     case 'world':
       return `${nameOf(view.id)}'s world`;
+    case 'compare':
+      return `${nameOf(view.a)} & ${nameOf(view.b)}`;
   }
 }
 

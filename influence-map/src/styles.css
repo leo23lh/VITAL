@@ -1051,3 +1051,102 @@ a.source-chip:hover {
 .org-finance{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;align-items:baseline}
 .force-row{display:grid;grid-template-columns:1fr 120px;align-items:center;gap:10px;padding:4px 0}
 .force-row input[type=range]{width:100%}
+
+/* Compare view */
+.panel-actions button.on {
+  border-color: var(--accent);
+  background: #1d3354;
+}
+
+.compare-picker {
+  margin-top: 10px;
+}
+
+.compare-picker input {
+  width: 100%;
+  font: inherit;
+  font-size: 16px; /* stops iOS zooming in on focus */
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 7px 11px;
+}
+
+.compare-picker input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.compare-picker ul {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+}
+
+.compare-picker li {
+  padding: 6px 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+.closeness {
+  margin-top: 10px;
+}
+
+.closeness-top {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.closeness-score {
+  font-size: 34px;
+  line-height: 1;
+  color: #cfe3ff;
+}
+
+.closeness-bar {
+  height: 6px;
+  margin: 8px 0 6px;
+  border-radius: 999px;
+  background: #1b2131;
+  overflow: hidden;
+}
+
+.closeness-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #4f8fe8, #5cf08a);
+}
+
+.plain-list {
+  list-style: none;
+  margin: 0 0 6px;
+  padding: 0;
+}
+
+.plain-list li {
+  padding: 3px 0;
+}
+
+.chain {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+.chain > li {
+  font-weight: 600;
+}
+
+.chain-step {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 4px 0 6px 6px;
+  padding-left: 12px;
+  border-left: 2px solid var(--border);
+  font-weight: 400;
+}

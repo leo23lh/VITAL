@@ -620,3 +620,149 @@ export function findClusters(ids: string[], pairs: PairLink[], resolution = 1): 
   const rank = new Map(order.map((c, i) => [c, i]));
   return new Map(ids.map((id, i) => [id, rank.get(membership[i])!]));
 }
+
+/**
+ * How close one pair is as friends or partners: like `closeness`, but rivalries
+ * and enmities count for nothing. A tie that has ended counts a bit over half, and
+ * friendly ties between people who are rivals or enemies now count half again.
+ */
+export function friendlyCloseness(links: GraphLink[], now = new Date().getFullYear()): number {
+  const feuding = links.some((l) => (l.group === 'rival' || l.group === 'enemy') && !isPastRivalry(l));
+  const ties = links
+    .filter((l) => l.group !== 'rival' && l.group !== 'enemy')
+    .map((l) => CLOSENESS[l.group] * l.confidence * (typeof l.endYear === 'number' && l.endYear < now ? 0.6 : 1));
+  return Math.max(0, ...ties) * (feuding ? 0.5 : 1);
+}
+
+/** Someone both people are tied to, and how strong the weaker of the two ties is. */
+export interface SharedTie {
+  id: string;
+  strength: number;
+  /** The pair (person A ↔ them) and (them ↔ person B). */
+  viaA: PairLink;
+  viaB: PairLink;
+}
+
+export interface Comparison {
+  a: string;
+  b: string;
+  /** Every link directly between the two, rivalries included. */
+  direct: GraphLink[];
+  /** The strongest chain of friendly links from a to b (ids, a first), at most 4 links long; null if none. */
+  chain: string[] | null;
+  /** The pair for each link in the chain, in order. */
+  chainPairs: PairLink[];
+  /** 0–1: the chain's links' closeness multiplied together. */
+  chainStrength: number;
+  /** People and organizations both are tied to (friendly links only), strongest first. */
+  shared: SharedTie[];
+  sharedGroups: GroupId[];
+  /** A direct rivalry or enmity, current one first. */
+  tension: GraphLink | null;
+  /** 0–100. */
+  score: number;
+  label: string;
+}
+
+const MAX_CHAIN = 4;
+
+/**
+ * Ties that run through someone with a very large network say less (everyone is
+ * two steps apart through Trump). Up to HUB connections counts fully; past that,
+ * the tie is scaled by √(HUB / connections): 48 connections → ½, 108 → ⅓.
+ */
+const HUB = 12;
+export function hubFactor(degree: number): number {
+  return degree <= HUB ? 1 : Math.sqrt(HUB / degree);
+}
+
+/**
+ * How closely two people are tied: the strongest chain between them, the circle
+ * they share, and a 0–100 score from both. A direct rivalry or enmity lowers the score.
+ */
+export function compare(
+  a: string,
+  b: string,
+  pairs: PairLink[],
+  nodes: Map<string, GraphNode>,
+  now = new Date().getFullYear(),
+): Comparison {
+  const hub = (id: string) => hubFactor(nodes.get(id)?.degree ?? 0);
+  const adj = new Map<string, { other: string; pair: PairLink; w: number }[]>();
+  let direct: GraphLink[] = [];
+  for (const p of pairs) {
+    const s = linkEndId(p.source);
+    const t = linkEndId(p.target);
+    if (pairKey(s, t) === pairKey(a, b)) direct = p.links;
+    const w = friendlyCloseness(p.links, now);
+    if (w <= 0) continue;
+    (adj.get(s) ?? adj.set(s, []).get(s)!).push({ other: t, pair: p, w });
+    (adj.get(t) ?? adj.set(t, []).get(t)!).push({ other: s, pair: p, w });
+  }
+
+  // Strongest chain: best product of closeness over at most MAX_CHAIN links, no one visited twice.
+  let best: { strength: number; path: string[]; pairs: PairLink[] } | null = null;
+  let layer = new Map<string, { strength: number; path: string[]; pairs: PairLink[] }>([[a, { strength: 1, path: [a], pairs: [] }]]);
+  for (let hop = 0; hop < MAX_CHAIN && layer.size; hop++) {
+    const next = new Map<string, { strength: number; path: string[]; pairs: PairLink[] }>();
+    for (const [id, st] of layer)
+      for (const e of adj.get(id) ?? []) {
+        if (st.path.includes(e.other)) continue;
+        // Passing through someone: their network's size waters the tie down.
+        const strength = st.strength * e.w * (e.other === b ? 1 : hub(e.other));
+        if (best && strength <= best.strength) continue;
+        const cand = { strength, path: [...st.path, e.other], pairs: [...st.pairs, e.pair] };
+        if (e.other === b) {
+          best = cand;
+          continue;
+        }
+        if ((next.get(e.other)?.strength ?? 0) < strength) next.set(e.other, cand);
+      }
+    layer = next;
+  }
+
+  const ofA = new Map((adj.get(a) ?? []).map((e) => [e.other, e]));
+  const shared: SharedTie[] = [];
+  for (const e of adj.get(b) ?? []) {
+    const fromA = ofA.get(e.other);
+    if (fromA)
+      shared.push({ id: e.other, strength: Math.min(fromA.w, e.w) * hub(e.other), viaA: fromA.pair, viaB: e.pair });
+  }
+  shared.sort((x, y) => y.strength - x.strength);
+
+  const groupsB = new Set(nodes.get(b)?.groups ?? []);
+  const sharedGroups = (nodes.get(a)?.groups ?? []).filter((g) => groupsB.has(g));
+
+  const tensions = direct.filter((l) => l.group === 'rival' || l.group === 'enemy');
+  const tension = tensions.find((l) => !isPastRivalry(l)) ?? tensions[0] ?? null;
+
+  const chainStrength = best?.strength ?? 0;
+  const sharedSum = shared.reduce((s, t) => s + t.strength, 0);
+  const sharedScore = 1 - Math.exp(-sharedSum / 2);
+  const groupScore = Math.min(1, sharedGroups.length / 3);
+  let raw = 1 - (1 - chainStrength) * (1 - 0.55 * sharedScore) * (1 - 0.15 * groupScore);
+  if (tension) raw *= isPastRivalry(tension) ? 0.85 : 0.6;
+  const score = Math.round(100 * raw);
+
+  return {
+    a,
+    b,
+    direct,
+    chain: best?.path ?? null,
+    chainPairs: best?.pairs ?? [],
+    chainStrength,
+    shared,
+    sharedGroups,
+    tension,
+    score,
+    label: closenessLabel(score),
+  };
+}
+
+export function closenessLabel(score: number): string {
+  if (score >= 75) return 'Very close';
+  if (score >= 55) return 'Close';
+  if (score >= 35) return 'Connected';
+  if (score >= 15) return 'Loosely connected';
+  return 'Far apart';
+}

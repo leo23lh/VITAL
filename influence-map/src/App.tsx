@@ -8,6 +8,7 @@ import { canExport, exportGraphPng } from './lib/exportPng';
 import {
   activeInRange,
   buildGraph,
+  compare,
   familyOf,
   findClusters,
   leanAt,
@@ -33,7 +34,9 @@ export type View =
   | { kind: 'camp'; id: string }
   | { kind: 'money' }
   | { kind: 'feuds' }
-  | { kind: 'world'; id: string; depth: 1 | 2 };
+  | { kind: 'world'; id: string; depth: 1 | 2 }
+  /** How closely two people are tied: their strongest chain and shared circle. */
+  | { kind: 'compare'; a: string; b: string };
 
 export type Layout = 'wide' | 'card' | 'sheet';
 
@@ -172,6 +175,12 @@ export default function App() {
 
   const selectedNodeId = selection?.kind === 'node' ? selection.id : null;
 
+  // Compare view: scored on the links that pass the filters, so a date range compares that period.
+  const comparison = useMemo(
+    () => (view.kind === 'compare' ? compare(view.a, view.b, mergePairs(filteredLinks), byId) : null),
+    [view, filteredLinks, byId],
+  );
+
   const visible = useMemo(() => {
     const ids = new Set<string>();
     const touched = new Set<string>();
@@ -181,6 +190,10 @@ export default function App() {
     }
     if (view.kind === 'world') {
       for (const id of neighborhood(view.id, filteredLinks, view.depth)) ids.add(id);
+    } else if (comparison) {
+      // Just the two, their chain and the circle they share.
+      for (const id of [comparison.a, comparison.b, ...(comparison.chain ?? []), ...comparison.shared.map((t) => t.id)])
+        if (byId.has(id)) ids.add(id);
     } else {
       // Groups and lenses keep everyone on the map; the view's core people go in the middle.
       for (const n of graph.nodes)
@@ -203,6 +216,8 @@ export default function App() {
         view.kind === 'money' ? ['money'] : view.kind === 'feuds' ? ['rivalry', 'past-rivalry', 'enmity', 'past-enmity'] : null;
       if (view.kind === 'world') {
         core.add(view.id);
+      } else if (comparison) {
+        for (const id of comparison.chain ?? [comparison.a, comparison.b]) core.add(id);
       } else if (view.kind === 'group') {
         for (const n of nodes) if (n.groups.includes(view.id)) core.add(n.id);
       } else if (view.kind === 'camp') {
@@ -228,7 +243,7 @@ export default function App() {
           )
         : null;
     return { nodes, links, pairs, radial, compass, clusters };
-  }, [graph, byId, filteredLinks, view, showSuggested, showOrgs, selectedNodeId, years, leanMode]);
+  }, [graph, byId, filteredLinks, view, comparison, showSuggested, showOrgs, selectedNodeId, years, leanMode]);
 
   const counts = useMemo(() => {
     const c = Object.fromEntries(EDGE_FAMILIES.map((f) => [f.id, 0])) as Record<EdgeFamily, number>;
@@ -279,7 +294,12 @@ export default function App() {
     setSelection({ kind: 'node', id });
   }, []);
 
-  const fitKey = `${leanMode}:${view.kind}:${'id' in view ? view.id : ''}:${'depth' in view ? view.depth : ''}:${years ? `${years.from}-${years.to}` : ''}:${loaded}`;
+  const openCompare = useCallback((a: string, b: string) => {
+    setView({ kind: 'compare', a, b });
+    setSelection(null);
+  }, []);
+
+  const fitKey = `${leanMode}:${view.kind}:${'id' in view ? view.id : ''}:${'a' in view ? `${view.a}-${view.b}` : ''}:${'depth' in view ? view.depth : ''}:${years ? `${years.from}-${years.to}` : ''}:${loaded}`;
   const empty = loaded && people.length === 0;
 
   const stats = {
@@ -434,7 +454,9 @@ export default function App() {
           links={graph.links}
           onSelect={(s) => (s?.kind === 'node' ? focusNode(s.id) : setSelection(s))}
           onWorld={openWorld}
-          onClose={() => setSelection(null)}
+          comparison={comparison}
+          onCompare={openCompare}
+          onClose={() => (selection ? setSelection(null) : setView({ kind: 'all' }))}
         />
       </main>
     </div>
