@@ -1,14 +1,23 @@
 {
   "name": "Nick Fuentes",
-  "aliases": ["Nicholas Fuentes", "Nicholas J. Fuentes"],
+  "aliases": [
+    "Nicholas Fuentes",
+    "Nicholas J. Fuentes"
+  ],
   "public_figure": true,
   "sector": "politics",
-  "groups": ["media", "critics"],
+  "groups": [
+    "media",
+    "critics"
+  ],
   "photo": {
     "file": "nick-fuentes.png",
     "credit": "Modern-Day Debate",
     "license": "CC BY 3.0",
-    "source": { "url": "https://commons.wikimedia.org/wiki/File:Nick_Fuentes_virtual_debate,_August_2022.png", "title": "File:Nick Fuentes virtual debate, August 2022.png — Wikimedia Commons" }
+    "source": {
+      "url": "https://commons.wikimedia.org/wiki/File:Nick_Fuentes_virtual_debate,_August_2022.png",
+      "title": "File:Nick Fuentes virtual debate, August 2022.png — Wikimedia Commons"
+    }
   },
   "lean": [
     {
@@ -17,17 +26,32 @@
       "end_year": null,
       "basis": "Far-right commentator and leader of the Groyper movement; the ADL and SPLC describe him as a white supremacist. He backed Trump through 2020 and later attacked him from the right.",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Nick_Fuentes", "title": "Wikipedia: Nick Fuentes" },
-        { "url": "https://news.yahoo.com/nick-fuentes-white-supremacist-friend-180254046.html", "title": "Yahoo News: Nick Fuentes" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Nick_Fuentes",
+          "title": "Wikipedia: Nick Fuentes"
+        },
+        {
+          "url": "https://news.yahoo.com/nick-fuentes-white-supremacist-friend-180254046.html",
+          "title": "Yahoo News: Nick Fuentes"
+        }
       ]
     }
   ],
   "current_role": "Far-right streamer and host of America First; leader of the Groyper movement",
   "summary": "Nick Fuentes is a far-right commentator who hosts the America First show and leads the online Groyper movement; the ADL and SPLC describe him as a white supremacist, and he is widely described as antisemitic and a Holocaust denier. He founded the America First Political Action Conference in 2020, spoke near the Capitol on January 6, 2021, and dined with Donald Trump and Ye at Mar-a-Lago in November 2022. After an October 2025 Tucker Carlson interview widened his reach, he has feuded with JD Vance and turned against Trump.",
   "sources": [
-    { "url": "https://en.wikipedia.org/wiki/Nick_Fuentes", "title": "Nick Fuentes — Wikipedia" },
-    { "url": "https://www.adl.org/resources/article/nicholas-j-fuentes-five-things-know", "title": "Nicholas J. Fuentes: Five Things to Know — ADL" },
-    { "url": "https://www.splcenter.org/resources/extremist-files/nick-fuentes/", "title": "Nick Fuentes — SPLC Extremist Files" }
+    {
+      "url": "https://en.wikipedia.org/wiki/Nick_Fuentes",
+      "title": "Nick Fuentes — Wikipedia"
+    },
+    {
+      "url": "https://www.adl.org/resources/article/nicholas-j-fuentes-five-things-know",
+      "title": "Nicholas J. Fuentes: Five Things to Know — ADL"
+    },
+    {
+      "url": "https://www.splcenter.org/resources/extremist-files/nick-fuentes/",
+      "title": "Nick Fuentes — SPLC Extremist Files"
+    }
   ],
   "timeline": [
     {
@@ -36,8 +60,14 @@
       "role": "Student (left after attending the 2017 Unite the Right rally in Charlottesville)",
       "org": "Boston University",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Nick_Fuentes", "title": "Nick Fuentes — Wikipedia" },
-        { "url": "https://www.adl.org/resources/article/nicholas-j-fuentes-five-things-know", "title": "Nicholas J. Fuentes: Five Things to Know — ADL" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Nick_Fuentes",
+          "title": "Nick Fuentes — Wikipedia"
+        },
+        {
+          "url": "https://www.adl.org/resources/article/nicholas-j-fuentes-five-things-know",
+          "title": "Nicholas J. Fuentes: Five Things to Know — ADL"
+        }
       ]
     },
     {
@@ -46,7 +76,10 @@
       "role": "Host (launched on Right Side Broadcasting Network in February 2017)",
       "org": "America First (show)",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Nick_Fuentes", "title": "Nick Fuentes — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Nick_Fuentes",
+          "title": "Nick Fuentes — Wikipedia"
+        }
       ]
     },
     {
@@ -54,8 +87,14 @@
       "role": "Led the \"Groyper War\" disruptions of Turning Point USA campus events",
       "org": "Groypers",
       "sources": [
-        { "url": "https://www.splcenter.org/resources/extremist-files/nick-fuentes/", "title": "Nick Fuentes — SPLC Extremist Files" },
-        { "url": "https://en.wikipedia.org/wiki/Groypers", "title": "Groypers — Wikipedia" }
+        {
+          "url": "https://www.splcenter.org/resources/extremist-files/nick-fuentes/",
+          "title": "Nick Fuentes — SPLC Extremist Files"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Groypers",
+          "title": "Groypers — Wikipedia"
+        }
       ]
     },
     {
@@ -64,7 +103,10 @@
       "role": "Founder (discontinued in 2026, citing safety concerns, per The New York Times)",
       "org": "America First Political Action Conference (AFPAC)",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/America_First_Political_Action_Conference", "title": "America First Political Action Conference — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/America_First_Political_Action_Conference",
+          "title": "America First Political Action Conference — Wikipedia"
+        }
       ]
     },
     {
@@ -72,8 +114,14 @@
       "role": "Spoke near the Capitol on January 6, urging followers to keep moving toward it; not shown to have entered the building",
       "org": "January 6, 2021",
       "sources": [
-        { "url": "https://www.adl.org/sites/default/files/adl-testimony-house-jan-6-fuentes-groypers-2022-03-31.pdf", "title": "Congressional testimony: Nicholas Fuentes, the Groypers, and January 6, 2021 — ADL" },
-        { "url": "https://www.splcenter.org/resources/extremist-files/nick-fuentes/", "title": "Nick Fuentes — SPLC Extremist Files" }
+        {
+          "url": "https://www.adl.org/sites/default/files/adl-testimony-house-jan-6-fuentes-groypers-2022-03-31.pdf",
+          "title": "Congressional testimony: Nicholas Fuentes, the Groypers, and January 6, 2021 — ADL"
+        },
+        {
+          "url": "https://www.splcenter.org/resources/extremist-files/nick-fuentes/",
+          "title": "Nick Fuentes — SPLC Extremist Files"
+        }
       ]
     },
     {
@@ -81,8 +129,14 @@
       "role": "X account reinstated by Elon Musk in May 2024 after a ban since 2021",
       "org": "X (Twitter)",
       "sources": [
-        { "url": "https://www.axios.com/2024/05/03/elon-musk-nick-fuentes-x-account", "title": "Elon Musk to reinstate X account of white nationalist Nick Fuentes — Axios" },
-        { "url": "https://www.jta.org/2024/05/03/politics/elon-musk-says-hell-reinstate-antisemite-nick-fuentes-to-x-it-is-better-to-have-anti-whatever-out-in-the-open", "title": "Elon Musk says he'll reinstate antisemite Nick Fuentes to X — JTA" }
+        {
+          "url": "https://www.axios.com/2024/05/03/elon-musk-nick-fuentes-x-account",
+          "title": "Elon Musk to reinstate X account of white nationalist Nick Fuentes — Axios"
+        },
+        {
+          "url": "https://www.jta.org/2024/05/03/politics/elon-musk-says-hell-reinstate-antisemite-nick-fuentes-to-x-it-is-better-to-have-anti-whatever-out-in-the-open",
+          "title": "Elon Musk says he'll reinstate antisemite Nick Fuentes to X — JTA"
+        }
       ]
     }
   ],
@@ -92,7 +146,10 @@
       "role": "Host",
       "start_year": 2017,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Nick_Fuentes", "title": "Nick Fuentes — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Nick_Fuentes",
+          "title": "Nick Fuentes — Wikipedia"
+        }
       ]
     },
     {
@@ -101,7 +158,10 @@
       "start_year": 2020,
       "end_year": 2026,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/America_First_Political_Action_Conference", "title": "America First Political Action Conference — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/America_First_Political_Action_Conference",
+          "title": "America First Political Action Conference — Wikipedia"
+        }
       ]
     }
   ],
@@ -115,10 +175,22 @@
       "end_year": null,
       "confidence": 0.7,
       "sources": [
-        { "url": "https://news.yahoo.com/nick-fuentes-white-supremacist-friend-180254046.html", "title": "Who is Nick Fuentes? The white supremacist, friend of Kanye West and dinner guest Trump claims he never heard of — USA Today via Yahoo" },
-        { "url": "https://www.lalibre.be/international/amerique/2026/03/09/il-dejeunait-autrefois-avec-donald-trump-a-mar-a-lago-le-tres-controverse-nick-fuentes-reve-a-present-de-le-faire-tomber-WMJTSTUNCVB55HPIXMWFA5QYWA/", "title": "Nick Fuentes, once a Mar-a-Lago dinner guest, now wants to bring Trump down — La Libre Belgique" },
-        { "url": "https://www.startribune.com/far-right-provocateur-nick-fuentes-is-triggering-a-maga-civil-war/601521097", "title": "Far-right provocateur Nick Fuentes is triggering a MAGA civil war — Star Tribune" },
-        { "url": "https://www.pbs.org/newshour/politics/trump-defends-tucker-carlson-after-interview-with-nick-fuentes-far-right-activist-known-for-his-antisemitic-views", "title": "Trump defends Tucker Carlson after interview with Nick Fuentes — PBS NewsHour" }
+        {
+          "url": "https://news.yahoo.com/nick-fuentes-white-supremacist-friend-180254046.html",
+          "title": "Who is Nick Fuentes? The white supremacist, friend of Kanye West and dinner guest Trump claims he never heard of — USA Today via Yahoo"
+        },
+        {
+          "url": "https://www.lalibre.be/international/amerique/2026/03/09/il-dejeunait-autrefois-avec-donald-trump-a-mar-a-lago-le-tres-controverse-nick-fuentes-reve-a-present-de-le-faire-tomber-WMJTSTUNCVB55HPIXMWFA5QYWA/",
+          "title": "Nick Fuentes, once a Mar-a-Lago dinner guest, now wants to bring Trump down — La Libre Belgique"
+        },
+        {
+          "url": "https://www.startribune.com/far-right-provocateur-nick-fuentes-is-triggering-a-maga-civil-war/601521097",
+          "title": "Far-right provocateur Nick Fuentes is triggering a MAGA civil war — Star Tribune"
+        },
+        {
+          "url": "https://www.pbs.org/newshour/politics/trump-defends-tucker-carlson-after-interview-with-nick-fuentes-far-right-activist-known-for-his-antisemitic-views",
+          "title": "Trump defends Tucker Carlson after interview with Nick Fuentes — PBS NewsHour"
+        }
       ]
     },
     {
@@ -130,22 +202,53 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://digital-release.thehill.com/?p=4822598", "title": "Vance says he 'disavows' Nick Fuentes: 'A total loser' — The Hill" },
-        { "url": "https://thegrio.com/2025/12/22/vice-president-jd-vance-issues-expletive-response-to-racist-attacks-on-his-wife", "title": "Vice President JD Vance issues expletive response to racist attacks on his wife — TheGrio" },
-        { "url": "https://www.yahoo.com/news/articles/jd-vance-responds-nick-fuentes-004420613.html", "title": "JD Vance responds to Nick Fuentes' use of racial slur against wife Usha — USA Today via Yahoo" }
+        {
+          "url": "https://digital-release.thehill.com/?p=4822598",
+          "title": "Vance says he 'disavows' Nick Fuentes: 'A total loser' — The Hill"
+        },
+        {
+          "url": "https://thegrio.com/2025/12/22/vice-president-jd-vance-issues-expletive-response-to-racist-attacks-on-his-wife",
+          "title": "Vice President JD Vance issues expletive response to racist attacks on his wife — TheGrio"
+        },
+        {
+          "url": "https://www.yahoo.com/news/articles/jd-vance-responds-nick-fuentes-004420613.html",
+          "title": "JD Vance responds to Nick Fuentes' use of racial slur against wife Usha — USA Today via Yahoo"
+        }
       ]
     },
     {
       "name": "Tucker Carlson",
       "slug": "tucker-carlson",
-      "relationship_type": "ally",
-      "description": "Carlson gave Fuentes a friendly, unchallenged interview on October 28, 2025, which split conservatives and set off a crisis at the Heritage Foundation.",
+      "relationship_type": "rival",
+      "description": "Carlson gave Fuentes a friendly interview on October 28, 2025, but by December 2025 Fuentes had turned on him, calling him a liar and a \"faker\" and telling him to stay away. In late 2026 Fuentes kept attacking him, calling Carlson a \"true Jew hater\" and accusing him of fearmongering about Iran to boost JD Vance for 2028.",
       "start_year": 2025,
       "end_year": null,
-      "confidence": 0.75,
+      "confidence": 0.85,
       "sources": [
-        { "url": "https://www.deseret.com/politics/2025/11/05/tucker-carlson-interviews-antisemite-nick-fuentes-triggers-heritage-foundation-crisis", "title": "Tucker Carlson interviews antisemite Nick Fuentes, triggers Heritage Foundation crisis — Deseret News" },
-        { "url": "https://www.pbs.org/newshour/politics/trump-defends-tucker-carlson-after-interview-with-nick-fuentes-far-right-activist-known-for-his-antisemitic-views", "title": "Trump defends Tucker Carlson after interview with Nick Fuentes — PBS NewsHour" }
+        {
+          "url": "https://www.deseret.com/politics/2025/11/05/tucker-carlson-interviews-antisemite-nick-fuentes-triggers-heritage-foundation-crisis",
+          "title": "Tucker Carlson interviews antisemite Nick Fuentes, triggers Heritage Foundation crisis — Deseret News"
+        },
+        {
+          "url": "https://www.pbs.org/newshour/politics/trump-defends-tucker-carlson-after-interview-with-nick-fuentes-far-right-activist-known-for-his-antisemitic-views",
+          "title": "Trump defends Tucker Carlson after interview with Nick Fuentes — PBS NewsHour"
+        },
+        {
+          "url": "https://www.mediaite.com/media/news/i-have-never-met-a-faker-human-nick-fuentes-suggests-fcking-liar-tucker-carlson-might-have-him-killed/",
+          "title": "Mediaite: Fuentes calls Carlson a faker and a liar (December 2025)"
+        },
+        {
+          "url": "https://www.jpost.com/diaspora/antisemitism/article-912394",
+          "title": "Jerusalem Post: Fuentes calls Carlson a \"true Jew hater\" (2026)"
+        },
+        {
+          "url": "https://vinnews.com/2026/10/20/nick-fuentes-accuses-tucker-carlson-of-rabid-antisemitism-calls-him-a-true-jew-hater/",
+          "title": "VIN News: Fuentes accuses Carlson of rabid antisemitism (October 2026)"
+        },
+        {
+          "url": "https://www.primetimer.com/news/nick-fuentes-claims-the-only-reason-tucker-carlson-is-fearmongering-about-a-nuclear-strike-against-iran-is-to-boost-jd-vances-presidential-profile",
+          "title": "Primetimer: Fuentes says Carlson is fearmongering about Iran to boost Vance"
+        }
       ]
     },
     {
@@ -157,8 +260,14 @@
       "end_year": 2023,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://news.yahoo.com/nick-fuentes-white-supremacist-friend-180254046.html", "title": "Who is Nick Fuentes? The white supremacist, friend of Kanye West and dinner guest Trump claims he never heard of — USA Today via Yahoo" },
-        { "url": "https://religionnews.com/2022/11/27/who-is-trump-and-kanyes-dinner-companion-nick-fuentes/", "title": "Who is Trump and Kanye's dinner companion, Nick Fuentes? — Religion News Service" }
+        {
+          "url": "https://news.yahoo.com/nick-fuentes-white-supremacist-friend-180254046.html",
+          "title": "Who is Nick Fuentes? The white supremacist, friend of Kanye West and dinner guest Trump claims he never heard of — USA Today via Yahoo"
+        },
+        {
+          "url": "https://religionnews.com/2022/11/27/who-is-trump-and-kanyes-dinner-companion-nick-fuentes/",
+          "title": "Who is Trump and Kanye's dinner companion, Nick Fuentes? — Religion News Service"
+        }
       ]
     },
     {
@@ -170,8 +279,14 @@
       "end_year": 2019,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.splcenter.org/resources/extremist-files/nick-fuentes/", "title": "Nick Fuentes — SPLC Extremist Files" },
-        { "url": "https://en.wikipedia.org/wiki/Groypers", "title": "Groypers — Wikipedia" }
+        {
+          "url": "https://www.splcenter.org/resources/extremist-files/nick-fuentes/",
+          "title": "Nick Fuentes — SPLC Extremist Files"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Groypers",
+          "title": "Groypers — Wikipedia"
+        }
       ]
     },
     {
@@ -182,9 +297,18 @@
       "start_year": 2019,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" },
-        { "url": "https://www.splcenter.org/resources/extremist-files/nick-fuentes/", "title": "Nick Fuentes — SPLC Extremist Files" },
-        { "url": "https://en.wikipedia.org/wiki/Groypers", "title": "Groypers — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Turning_Point_USA",
+          "title": "Turning Point USA — Wikipedia"
+        },
+        {
+          "url": "https://www.splcenter.org/resources/extremist-files/nick-fuentes/",
+          "title": "Nick Fuentes — SPLC Extremist Files"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Groypers",
+          "title": "Groypers — Wikipedia"
+        }
       ]
     }
   ],
@@ -193,11 +317,17 @@
       "topic": "Date of the Mar-a-Lago dinner",
       "details": "The ADL and others give November 22, 2022; some accounts give November 26.",
       "sources": [
-        { "url": "https://news.yahoo.com/nick-fuentes-white-supremacist-friend-180254046.html", "title": "Who is Nick Fuentes? The white supremacist, friend of Kanye West and dinner guest Trump claims he never heard of — USA Today via Yahoo" },
-        { "url": "https://religionnews.com/2022/11/27/who-is-trump-and-kanyes-dinner-companion-nick-fuentes/", "title": "Who is Trump and Kanye's dinner companion, Nick Fuentes? — Religion News Service" }
+        {
+          "url": "https://news.yahoo.com/nick-fuentes-white-supremacist-friend-180254046.html",
+          "title": "Who is Nick Fuentes? The white supremacist, friend of Kanye West and dinner guest Trump claims he never heard of — USA Today via Yahoo"
+        },
+        {
+          "url": "https://religionnews.com/2022/11/27/who-is-trump-and-kanyes-dinner-companion-nick-fuentes/",
+          "title": "Who is Trump and Kanye's dinner companion, Nick Fuentes? — Religion News Service"
+        }
       ]
     }
   ],
   "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Characterizations of his views are attributed to the ADL, SPLC and Wikipedia's summary of sources. Musk's 2024 reinstatement of his X account is recorded in the timeline, not as a relationship. No documented link to Bannon or Kari Lake was found. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-08"
 }
