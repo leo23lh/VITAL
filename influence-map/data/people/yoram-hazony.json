@@ -414,6 +414,19 @@
         { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" },
         { "url": "https://lbc.co.uk/news/farage-nigel-braverman-suella-brussels-conference-natcon-police", "title": "Chaos as authorities close down 'right-wing' conference with Farage and Braverman as speakers — LBC" }
       ]
+    },
+    {
+      "name": "Edmund Burke Foundation",
+      "slug": "edmund-burke-foundation",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and chairman; organizer of every NatCon since 2019.",
+      "start_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" },
+        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and, where available, with Wikipedia via its API. The Edmund Burke Foundation's funders are organizations, not people, so they are listed under affiliations; figures come from grant trackers (InfluenceWatch, Cause IQ, Monitoring Influence), not the foundation's own filings.",

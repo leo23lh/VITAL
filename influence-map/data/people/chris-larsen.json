@@ -152,6 +152,31 @@
         { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
         { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" }
       ]
+    },
+    {
+      "name": "Leading the Future",
+      "slug": "leading-the-future",
+      "relationship_type": "enemy",
+      "description": "Larsen put millions behind Alex Bores's 2026 House run as a counterweight to the PAC's attack ads against Bores.",
+      "start_year": 2026,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Bores", "title": "Alex Bores — Wikipedia" },
+        { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" },
+        { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Fairshake",
+      "slug": "fairshake",
+      "relationship_type": "funded_by",
+      "description": "Through Ripple, which he co-founded and chairs: $45 million through 2024 and $48 million for 2026, 96% of Ripple's 2026 political spending.",
+      "start_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" },
+        { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -191,6 +216,7 @@
         "recipients": [
           {
             "name": "Fairshake (crypto super PAC, via Ripple)",
+            "org": "fairshake",
             "kind": "super-pac",
             "side": "both",
             "amount_usd": 48000000,
@@ -299,6 +325,7 @@
         },
         {
           "name": "Fairshake (crypto super PAC, via Ripple)",
+          "org": "fairshake",
           "kind": "super-pac",
           "side": "both",
           "basis": "Ripple's main political vehicle in 2024 and 2026.",

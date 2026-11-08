@@ -1032,3 +1032,10 @@ a.source-chip:hover {
 .side-R{color:#f08f8f;border-color:#8f3a3a}
 .side-both,.side-nonpartisan{color:var(--muted)}
 @media (max-width:520px){.giving-desc,.giving-list .sources.compact,.giving-outlook .giving-desc,.giving-outlook .giving-list .sources.compact{margin-left:0}}
+
+/* Organizations: squares with a border in the color of the side they help. */
+.key-square{display:inline-block;width:10px;height:10px;border-radius:2px;flex:none;background:#1d2433;border:2px solid #a0a8b8}
+.key-square.side-R{border-color:#e0605e}
+.key-square.side-D{border-color:#4f8fe8}
+.badge-org{display:inline-flex;align-items:center;gap:6px}
+.org-finance{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;align-items:baseline}

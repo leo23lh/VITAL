@@ -45,3 +45,6 @@ export function capability<T>(name: 'db' | 'downloads'): Promise<T | null> {
 
 /** The database collection that mirrors data/people/ (one document per slug). */
 export const PEOPLE_COLLECTION = 'people';
+
+/** The database collection that mirrors data/orgs/ (one document per slug). */
+export const ORGS_COLLECTION = 'orgs';

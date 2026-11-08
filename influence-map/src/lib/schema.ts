@@ -291,6 +291,8 @@ export interface GivingRecipient {
   name: string;
   /** When the recipient is (or is run by) someone in the map, their slug. */
   slug?: string;
+  /** When the recipient has its own file in data/orgs/, its slug. */
+  org?: string;
   kind: RecipientKind;
   side?: GivingSide;
   /** Whole dollars, as reported. Leave out when no source gives a figure. */
@@ -317,6 +319,7 @@ export interface GivingCycle {
 export interface GivingProspect {
   name: string;
   slug?: string;
+  org?: string;
   kind: RecipientKind;
   side?: GivingSide;
   basis: string;
@@ -393,6 +396,82 @@ export interface PersonFile {
   data: Person;
 }
 
+/**
+ * Organizations: committees, think tanks, firms and movements that money and people
+ * flow through. One file per organization in data/orgs/; see CLAUDE.md "Organizations".
+ * Keep ORG_KINDS in sync with scripts/validate.mjs (a test checks this).
+ */
+export const ORG_KINDS = [
+  { id: 'super-pac', label: 'Super PAC' },
+  { id: 'dark-money', label: 'Dark-money group' },
+  { id: 'pac', label: 'PAC' },
+  { id: 'party', label: 'Party committee' },
+  { id: 'think-tank', label: 'Think tank' },
+  { id: 'advocacy', label: 'Advocacy group' },
+  { id: 'foundation', label: 'Foundation' },
+  { id: 'investment-firm', label: 'Investment firm' },
+  { id: 'company', label: 'Company' },
+  { id: 'media', label: 'Media outlet' },
+  { id: 'other', label: 'Organization' },
+] as const;
+
+export type OrgKind = (typeof ORG_KINDS)[number]['id'];
+
+/** Border color of an organization's square, by the side it helps. */
+export function orgSideColor(side: GivingSide | undefined): string {
+  return side === 'R' ? '#e0605e' : side === 'D' ? '#4f8fe8' : '#a0a8b8';
+}
+
+export const ORG_KIND_LABEL = Object.fromEntries(ORG_KINDS.map((k) => [k.id, k.label])) as Record<OrgKind, string>;
+
+/** Money in and out over one election cycle, as reported (FEC filings or reporting on them). */
+export interface OrgFinance {
+  cycle: number;
+  raised_usd?: number;
+  spent_usd?: number;
+  description?: string;
+  sources: SourceRef[];
+}
+
+/** Relationship types an organization can take part in (no mentors or family). */
+export const ORG_RELATIONSHIP_TYPES: RelationshipType[] = [
+  'employer',
+  'employee',
+  'donor',
+  'funded_by',
+  'co-founder',
+  'colleague',
+  'ally',
+  'rival',
+  'enemy',
+];
+
+export interface Org {
+  name: string;
+  aliases?: string[];
+  kind: OrgKind;
+  /** Which side its money or work helps. */
+  side?: GivingSide;
+  founded?: number | null;
+  /** Year it closed or stopped operating; left out while active. */
+  dissolved?: number | null;
+  groups?: GroupId[];
+  summary?: string;
+  sources?: SourceRef[];
+  finances?: OrgFinance[];
+  /** Same format and rules as a person's connections; the types read the same way. */
+  connections?: Connection[];
+  source_conflicts?: SourceConflict[];
+  notes?: string;
+  last_researched?: string;
+}
+
+export interface OrgFile {
+  slug: string;
+  file: string;
+  data: Org;
+}
+
 export interface LoadError {
   file: string;
   message: string;
@@ -400,6 +479,7 @@ export interface LoadError {
 
 export interface PeoplePayload {
   people: PersonFile[];
+  orgs: OrgFile[];
   errors: LoadError[];
 }
 

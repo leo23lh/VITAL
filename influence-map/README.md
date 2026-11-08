@@ -1,11 +1,13 @@
 # Influence Map
 
 A local network graph of the public figures you research. Each person is a JSON
-file in `data/people/`; the viewer draws them and their documented relationships
-as a force-directed graph and updates live as files change.
+file in `data/people/`, and each organization that money and people flow
+through (super PACs, think tanks, firms) is one in `data/orgs/`; the viewer
+draws them (organizations as squares) and their documented relationships as a
+force-directed graph and updates live as files change.
 
 The app makes no AI or API calls. Research is done by Claude Code through the
-`/add-person` and `/refresh-person` slash commands (in `../.claude/commands/`),
+`/add-person`, `/refresh-person` and `/add-org` slash commands (in `../.claude/commands/`),
 which follow the research rules in [`CLAUDE.md`](./CLAUDE.md).
 
 ## Run the viewer
@@ -47,6 +49,7 @@ Open Claude Code at the repo root and run:
 /add-person Jeff Sessions
 /add-person Jane Doe, city council member in Springfield, OR
 /refresh-person Stephen Miller
+/add-org Senate Leadership Fund
 ```
 
 `/add-person` researches the person, looks for links to everyone already in the

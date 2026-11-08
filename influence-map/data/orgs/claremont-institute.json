@@ -1,0 +1,63 @@
+{
+  "name": "Claremont Institute",
+  "aliases": [],
+  "kind": "think-tank",
+  "side": "R",
+  "founded": 1979,
+  "groups": [],
+  "summary": "A conservative think tank in Upland, California, founded in 1979 by students of Harry Jaffa. It became an early and influential defender of Donald Trump, published Michael Anton's 2016 essay \"The Flight 93 Election\" and received a National Humanities Medal from Trump in 2019; senior fellow John Eastman later helped Trump try to overturn the 2020 election. Ryan Williams has been president since 2017 and Thomas Klingenstein chairs its board.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Claremont_Institute", "title": "Claremont Institute — Wikipedia" }
+  ],
+  "connections": [
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "employee",
+      "description": "Chairman of the board of trustees since about 2010.",
+      "start_year": 2010,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Claremont_Institute", "title": "Claremont Institute — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Thomas_Klingenstein", "title": "Thomas Klingenstein — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "donor",
+      "description": "His fund has given it more than $19 million since 2005.",
+      "start_year": 2005,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" },
+        { "url": "https://www.influencewatch.org/person/thomas-d-klingenstein/", "title": "Thomas D. Klingenstein — InfluenceWatch" }
+      ]
+    },
+    {
+      "name": "Michael Anton",
+      "slug": "michael-anton",
+      "relationship_type": "employee",
+      "description": "Senior fellow; its Claremont Review of Books published his pseudonymous 2016 essay \"The Flight 93 Election\".",
+      "start_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Claremont_Institute", "title": "Claremont Institute — Wikipedia" },
+        { "url": "https://www.claremont.org/expert/michael-anton/", "title": "Michael Anton — Claremont Institute" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "An early defender of Trump that supplied ideas and staff to his first administration; Trump gave it a National Humanities Medal in 2019, and senior fellow John Eastman helped his effort to overturn the 2020 result.",
+      "start_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Claremont_Institute", "title": "Claremont Institute — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and campaign-finance reporting. Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

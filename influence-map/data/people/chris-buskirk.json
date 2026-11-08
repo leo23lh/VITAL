@@ -128,6 +128,18 @@
         { "url": "https://www.inc.com/reuters/vances-tech-donor-network-wants-to-push-us-to-right.html", "title": "Vance's tech donor network wants to push US to the right — Reuters via Inc." },
         { "url": "https://www.nbcnews.com/politics/2024-election/secretive-conservative-donor-group-meets-draw-2024-plans-call-trump-rcna148899", "title": "Secretive conservative donor group meets to draw up 2024 plans — NBC News" }
       ]
+    },
+    {
+      "name": "1789 Capital",
+      "slug": "1789-capital",
+      "relationship_type": "co-founder",
+      "description": "Co-founder, president and chief investment officer.",
+      "start_year": 2022,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Chris_Buskirk", "title": "Wikipedia: Chris Buskirk" }
+      ]
     }
   ],
   "affiliations": [

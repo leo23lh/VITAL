@@ -90,6 +90,18 @@
         { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
         { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
       ]
+    },
+    {
+      "name": "Edmund Burke Foundation",
+      "slug": "edmund-burke-foundation",
+      "relationship_type": "co-founder",
+      "description": "Co-founder; vice president and director.",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://danubeinstitute.hu/en/authors/dr-ofir-haivry", "title": "Dr. Ofir Haivry — Danube Institute" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and, where available, with Wikipedia via its API.",

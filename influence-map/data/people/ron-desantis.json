@@ -201,6 +201,18 @@
         { "url": "https://www.axios.com/2023/07/12/big-money-backing-desantis-rfk", "title": "The big-money donors backing both DeSantis and RFK Jr. — Axios" },
         { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" }
       ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "enemy",
+      "description": "Spent against DeSantis in the 2024 Republican primary.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/10/maga-inc-3/", "title": "MAGA Inc. — FactCheck.org" }
+      ]
     }
   ],
   "affiliations": [],

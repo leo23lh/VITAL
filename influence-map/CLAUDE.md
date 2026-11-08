@@ -2,10 +2,11 @@
 
 A local network graph of public figures and their documented relationships.
 The app makes no AI or API calls. Claude Code is the research engine, through
-two slash commands in the repo root's `.claude/commands/`:
+the slash commands in the repo root's `.claude/commands/`:
 
 - `/add-person <name> [context]` — research someone new and link them into the network
 - `/refresh-person <name>` — re-research someone already in the network
+- `/add-org <name> [context]` — research an organization (super PAC, think tank, firm) and link it in
 - `/sync-map` — copy every file to the phone page (see "Phone page" below)
 
 ## Layout
@@ -13,6 +14,7 @@ two slash commands in the repo root's `.claude/commands/`:
 | Path | What it is |
 | --- | --- |
 | `data/people/<slug>.json` | One file per person. The only source of truth. |
+| `data/orgs/<slug>.json` | One file per organization (see "Organizations" below). |
 | `public/photos/<slug>.jpg` | Portraits shown in the dots (freely licensed, from Wikimedia Commons). |
 | `scripts/fetch-photos.mjs` | Downloads a person's Wikipedia lead photo if its license is free and records the credit. |
 | `scripts/validate.mjs` | Checks every file against the rules below. No install needed: `node influence-map/scripts/validate.mjs` from the repo root. |
@@ -20,7 +22,7 @@ two slash commands in the repo root's `.claude/commands/`:
 
 ## Research rules
 
-These apply to every command and every edit to `data/people/`. They are not optional.
+These apply to every command and every edit to `data/people/` and `data/orgs/`. They are not optional.
 
 1. **Public figures only.** A public figure has a substantial public record in a
    public role: elected or appointed officials and their senior staff, executives
@@ -272,6 +274,8 @@ as a `donor` / `funded_by` connection, so it shows as a Money line.
   `side`: `D`, `R`, `both` (gives to both parties, e.g. industry PACs) or `nonpartisan`.
 - `amount_usd`: whole dollars as reported. Leave it out when no source gives a figure.
 - `slug`: when the recipient is, or is run by, someone in the map (MAGA Inc. → `donald-trump`).
+- `org`: when the recipient has its own file in `data/orgs/` (MAGA Inc. → `maga-inc`).
+  The details panel then links to the organization. The validator checks the file exists.
 - **Outlook** is a forecast, so it rests only on reporting: a stated plan or
   preference ("would back Rubio"), a pledge, or a long documented pattern (gave to
   the same committees every cycle). Say which in `basis`. Confidence uses the
@@ -279,6 +283,66 @@ as a `donor` / `funded_by` connection, so it shows as a Money line.
   cycles, 0.4–0.55 for thin or denied reports. Nothing below 0.3; no guesses.
 - Spouses who give jointly are usually counted together by the rankings. Keep the
   main donor's file and say "with [spouse]" in the description.
+
+## Organizations
+
+Committees and groups that money and people flow through get their own file in
+`data/orgs/<slug>.json` and show on the map as **squares**, bordered red
+(Republican side), blue (Democratic side) or grey (both or neither). They make
+paths visible: Musk → Senate Leadership Fund → Ken Paxton. Add an organization
+when several people in the map give to it, run it or work for it; one-off
+recipients stay as `giving` entries. `/add-org` researches one.
+
+```json
+{
+  "name": "MAGA Inc.",
+  "aliases": [],
+  "kind": "super-pac",
+  "side": "R",
+  "founded": 2022,
+  "groups": [],
+  "summary": "Two or three neutral sentences: what it is, who runs and funds it, what it spends on.",
+  "sources": [{ "url": "https://…", "title": "…" }],
+  "finances": [
+    { "cycle": 2024, "raised_usd": 410500000, "spent_usd": 456800000,
+      "description": "Optional.", "sources": [{ "url": "https://…" }] }
+  ],
+  "connections": [
+    { "name": "Timothy Mellon", "slug": "timothy-mellon", "relationship_type": "donor",
+      "description": "About $150 million in the 2024 cycle.", "start_year": 2024, "end_year": 2025,
+      "confidence": 0.95, "sources": [{ "url": "https://…" }] }
+  ],
+  "source_conflicts": [],
+  "notes": "Optional.",
+  "last_researched": "2026-11-08"
+}
+```
+
+- **kind**: `super-pac`, `dark-money`, `pac`, `party`, `think-tank`, `advocacy`,
+  `foundation`, `investment-firm`, `company`, `media`, `other`.
+- **side** (optional): who its money or work helps: `R`, `D`, `both` (spends in
+  both parties, e.g. industry PACs) or `nonpartisan`. On the main map an R or D
+  side places the square gently right or left; links do the rest.
+- **founded** / **dissolved**: years. **groups**: same list as people (e.g.
+  `natcon`, `ai-race`), for the preset views.
+- **finances** (optional): money raised and spent per cycle, from FEC filings
+  or reporting on them. Leave a figure out when no source gives one.
+- **connections** use the person format and the same relationship types, read
+  the same way: the type is what the connected person (or organization) is *to
+  the file's subject*. In `maga-inc.json`, `donor` = they gave to MAGA Inc.;
+  `funded_by` = MAGA Inc. spent for them; `employee` = they lead, staff or sit
+  on the board of it (say which in the description); `co-founder` = they
+  founded it; `enemy` = it spent against them or they against it. `mentor`,
+  `protégé` and `family` don't apply to organizations.
+- **Two-way links** apply as for people: the person's file gets the inverse
+  record (`funded_by` MAGA Inc. for a donor, `donor` MAGA Inc. for a candidate it
+  backed, `employer` for its staff and board).
+- Organizations have no `public_figure`, `photo`, `lean`, `giving`, `sector` or
+  `race_2028`. The research rules apply in full: every fact and link sourced.
+- Money that passes through an organization can also stay as a direct
+  person-to-person `donor` link where reporting describes it that way
+  ("Mellon gave $150M to the pro-Trump MAGA Inc."); the organization's file is
+  where the amounts per donor live.
 
 ## Relationship types
 
@@ -330,8 +394,9 @@ on a phone. Its link is in `artifact.json`.
 
 - **Data:** the page reads its Artifact database, collection `people`: one
   document per person, `doc_id` = slug, body = the file's JSON, unchanged.
-  `/add-person` and `/refresh-person` copy the files they change; `/sync-map`
-  copies everything and removes people whose file is gone. The files stay the
+  Organizations go in collection `orgs` the same way. `/add-person`,
+  `/refresh-person` and `/add-org` copy the files they change; `/sync-map`
+  copies everything and removes documents whose file is gone. The files stay the
   source of truth; never edit the database by hand.
 - **Access:** only the owner can write the database; anyone the owner shares
   the page with can read it. Sharing is done from the page's Share menu.
@@ -355,8 +420,8 @@ on a phone. Its link is in `artifact.json`.
 
 - `npm install` once, then `npm run dev` (opens http://127.0.0.1:5173).
 - `npm test` runs unit tests; `npm run typecheck`; `npm run validate` checks data.
-- The dev server serves the data folder at `/api/people` and pushes a reload
-  event when a file changes (`vite-plugin-people.ts`). There is no backend
+- The dev server serves the data folders at `/api/people` (people and orgs) and
+  pushes a reload event when a file changes (`vite-plugin-people.ts`). There is no backend
   beyond that and no network access from the app.
 - **Colors.** Relationship lines are colored by family from the start ("Color
   all lines" is on by default; turned off, lines stay grey until a person is
@@ -364,10 +429,13 @@ on a phone. Its link is in `artifact.json`.
   rivalry, Current enemy (pink), Past enemy, Personal. A rivalry or enmity is
   past when its `end_year` is a year; ongoing or undated ones count as current.
   Past ones share their family's color but are drawn dotted (dashed still means
-  confidence under 50%). Dots are tinted by sector. Both color sets were checked for
+  confidence under 50%). Dots are tinted by sector; organizations are squares
+  bordered by side. Both color sets were checked for
   color-blind separation against the dark background; the viewer always pairs
   color with text (legend, tooltips, details), so keep it that way.
 - If you add a sector or group, update `src/lib/schema.ts`, `scripts/validate.mjs`,
   the "Sectors and groups" table above, and both commands.
+- If you add an organization kind, update `ORG_KINDS` in `src/lib/schema.ts` and
+  `scripts/validate.mjs` (a test checks they match) and the list above.
 - If you add a relationship type, update `src/lib/schema.ts`,
   `scripts/validate.mjs` (a test checks they match), this file, and both commands.

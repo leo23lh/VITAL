@@ -146,6 +146,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations", "title": "2025–2026 Iran–United States negotiations — Wikipedia" }
       ]
+    },
+    {
+      "name": "Claremont Institute",
+      "slug": "claremont-institute",
+      "relationship_type": "employer",
+      "description": "Senior fellow; its Claremont Review of Books published his pseudonymous 2016 essay \"The Flight 93 Election\".",
+      "start_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Claremont_Institute", "title": "Claremont Institute — Wikipedia" },
+        { "url": "https://www.claremont.org/expert/michael-anton/", "title": "Michael Anton — Claremont Institute" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened and Wikipedia was rate-limiting; facts were confirmed with web searches tied to each cited URL.",

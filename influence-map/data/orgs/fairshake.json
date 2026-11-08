@@ -1,0 +1,85 @@
+{
+  "name": "Fairshake",
+  "aliases": [],
+  "kind": "super-pac",
+  "side": "both",
+  "founded": 2023,
+  "groups": [],
+  "summary": "The crypto industry's super PAC, with two affiliates that spend in Republican (Defend American Jobs) and Democratic (Protect Progress) primaries. Funded mainly by Coinbase, Ripple and Andreessen Horowitz, it raised $260 million from March 2023 to December 2024 and spent more than $133 million on 2024 races, nearly twice as much on Republicans as on Democrats. It raised more than $193 million for 2026 by January 2026, and its biggest 2026 bets favored Republicans.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" },
+    { "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election", "title": "Crypto PACs spent $170 million, with most going to Republicans in final weeks — CoinDesk" }
+  ],
+  "finances": [
+    {
+      "cycle": 2024,
+      "raised_usd": 260000000,
+      "spent_usd": 133000000,
+      "description": "Raised from March 2023 to December 2024; spending is with its affiliates, on 2024 races.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" }
+      ]
+    },
+    {
+      "cycle": 2026,
+      "raised_usd": 193000000,
+      "description": "Raised by January 2026, including $52.46M from Coinbase, $48M from Ripple and $23.8M from Andreessen and Horowitz.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" },
+        { "url": "https://www.coindesk.com/policy/2026/01/28/crypto-s-political-power-supercharged-with-usd193-million-in-fairshake-thanks-to-new-cash", "title": "Crypto's political power supercharged with $193 million in Fairshake — CoinDesk" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "donor",
+      "description": "Gave $33.5 million through 2024 and, with Ben Horowitz, $23.8 million more for 2026 (a16z pledged its 2026 money right after the 2024 election).",
+      "start_year": 2023,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" },
+        { "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html", "title": "Coinbase, a16z and others pour more than $78 million into pro-crypto PAC for 2026 election — CNBC" }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "donor",
+      "description": "Gave $33.5 million through 2024 and, with Marc Andreessen, $23.8 million more for 2026.",
+      "start_year": 2023,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" },
+        { "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html", "title": "Coinbase, a16z and others pour more than $78 million into pro-crypto PAC for 2026 election — CNBC" }
+      ]
+    },
+    {
+      "name": "Chris Larsen",
+      "slug": "chris-larsen",
+      "relationship_type": "donor",
+      "description": "Through Ripple, which he co-founded and chairs: $45 million through 2024 and $48 million for 2026, 96% of Ripple's 2026 political spending.",
+      "start_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" },
+        { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" }
+      ]
+    },
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "enemy",
+      "description": "Spent $10 million backing Democrat Ruben Gallego against Lake in Arizona's 2024 Senate race.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and campaign-finance reporting. Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

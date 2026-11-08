@@ -3,15 +3,19 @@ import path from 'node:path';
 import type { Connect, Plugin, ViteDevServer } from 'vite';
 
 /**
- * Serves every data/people/*.json file at GET /api/people and tells the
- * browser to refetch whenever a file is added, changed or removed.
+ * Serves every data/people/*.json file (and data/orgs/*.json, the sibling folder)
+ * at GET /api/people and tells the browser to refetch whenever a file is added,
+ * changed or removed.
  */
 export function peopleData(dataDir: string): Plugin {
+  const orgsDir = path.join(dataDir, '..', 'orgs');
   const middleware: Connect.NextHandleFunction = (req, res, next) => {
     if (req.method !== 'GET') return next();
     res.setHeader('Content-Type', 'application/json; charset=utf-8');
     res.setHeader('Cache-Control', 'no-store');
-    res.end(JSON.stringify(loadPeople(dataDir)));
+    const people = loadPeople(dataDir);
+    const orgs = loadPeople(orgsDir);
+    res.end(JSON.stringify({ people: people.people, orgs: orgs.people, errors: [...people.errors, ...orgs.errors.map((e) => ({ ...e, file: `orgs/${e.file}` }))] }));
   };
 
   return {
@@ -19,8 +23,10 @@ export function peopleData(dataDir: string): Plugin {
     configureServer(server: ViteDevServer) {
       fs.mkdirSync(dataDir, { recursive: true });
       server.watcher.add(dataDir);
+      if (fs.existsSync(orgsDir)) server.watcher.add(orgsDir);
+      const watched = [path.resolve(dataDir), path.resolve(orgsDir)];
       const notify = (file: string) => {
-        if (path.dirname(path.resolve(file)) !== path.resolve(dataDir) || !file.endsWith('.json')) return;
+        if (!watched.includes(path.dirname(path.resolve(file))) || !file.endsWith('.json')) return;
         server.ws.send({ type: 'custom', event: 'people:changed', data: { file: path.basename(file) } });
       };
       server.watcher.on('add', notify);

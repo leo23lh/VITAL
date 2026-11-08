@@ -186,6 +186,30 @@
       "sources": [
         { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
       ]
+    },
+    {
+      "name": "Leading the Future",
+      "slug": "leading-the-future",
+      "relationship_type": "funded_by",
+      "description": "Lead backer with Marc Andreessen through Andreessen Horowitz; FEC filings showed $12.5 million each.",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" },
+        { "url": "https://www.axios.com/2026/01/30/openai-a16z-cash-ai-super-pac", "title": "Exclusive: OpenAI's Brockman and a16z funnel cash to pro-AI super PAC — Axios" }
+      ]
+    },
+    {
+      "name": "Fairshake",
+      "slug": "fairshake",
+      "relationship_type": "funded_by",
+      "description": "Gave $33.5 million through 2024 and, with Marc Andreessen, $23.8 million more for 2026.",
+      "start_year": 2023,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" },
+        { "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html", "title": "Coinbase, a16z and others pour more than $78 million into pro-crypto PAC for 2026 election — CNBC" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -224,6 +248,7 @@
         "recipients": [
           {
             "name": "Fairshake (crypto super PAC)",
+            "org": "fairshake",
             "kind": "super-pac",
             "side": "both",
             "amount_usd": 47000000,
@@ -236,6 +261,7 @@
           },
           {
             "name": "Leading the Future (pro-AI super PAC)",
+            "org": "leading-the-future",
             "kind": "super-pac",
             "side": "both",
             "amount_usd": 25000000,
@@ -279,6 +305,7 @@
           },
           {
             "name": "Fairshake (crypto super PAC, via a16z)",
+            "org": "fairshake",
             "kind": "super-pac",
             "side": "both",
             "sources": [
@@ -298,6 +325,7 @@
       "likely": [
         {
           "name": "Fairshake (crypto super PAC)",
+          "org": "fairshake",
           "kind": "super-pac",
           "side": "both",
           "basis": "a16z has been a lead funder in 2024 and 2026, and pledged its 2026 money right after the 2024 election.",
@@ -309,6 +337,7 @@
         },
         {
           "name": "Leading the Future (pro-AI super PAC)",
+          "org": "leading-the-future",
           "kind": "super-pac",
           "side": "both",
           "basis": "Founding funder in 2025–26; AI regulation stays a live fight (Semafor, after the election).",

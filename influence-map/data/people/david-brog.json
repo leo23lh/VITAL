@@ -140,6 +140,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" }
       ]
+    },
+    {
+      "name": "Edmund Burke Foundation",
+      "slug": "edmund-burke-foundation",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and president.",
+      "start_year": 2019,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and, where available, with Wikipedia via its API.",

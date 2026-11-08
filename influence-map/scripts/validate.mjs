@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Checks data/people/*.json against the research rules in CLAUDE.md.
+// Checks data/people/*.json and data/orgs/*.json against the research rules in CLAUDE.md.
 // No dependencies, so it runs with plain `node` even before `npm install`.
 //
 //   node scripts/validate.mjs            (from influence-map/)
@@ -59,6 +59,32 @@ export const GROUPS = [
 export const RECIPIENT_KINDS = ['super-pac', 'dark-money', 'candidate', 'party', 'pac', 'ballot-measure', 'other'];
 export const GIVING_SIDES = ['D', 'R', 'both', 'nonpartisan'];
 
+// Keep in sync with ORG_KINDS and ORG_RELATIONSHIP_TYPES in src/lib/schema.ts (a unit test checks this).
+export const ORG_KINDS = [
+  'super-pac',
+  'dark-money',
+  'pac',
+  'party',
+  'think-tank',
+  'advocacy',
+  'foundation',
+  'investment-firm',
+  'company',
+  'media',
+  'other',
+];
+export const ORG_RELATIONSHIP_TYPES = [
+  'employer',
+  'employee',
+  'donor',
+  'funded_by',
+  'co-founder',
+  'colleague',
+  'ally',
+  'rival',
+  'enemy',
+];
+
 const PRIVACY_PATTERNS = [
   { what: 'an email address', re: /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i },
   { what: 'a phone number', re: /(?:\+?1[\s.-]?)?\(?\b\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}\b/ },
@@ -87,8 +113,9 @@ const isHttp = (u) => typeof u === 'string' && /^https?:\/\/\S+$/i.test(u);
 const isYear = (y) => y === null || y === undefined || (Number.isInteger(y) && y > 1800 && y < 2200);
 
 /**
- * @param {{file: string, slug: string, data: any}[]} records
- * @param {{photosDir?: string}} [opts] when given, photo files must exist there
+ * @param {{file: string, slug: string, data: any}[]} records people
+ * @param {{photosDir?: string, orgs?: {file: string, slug: string, data: any}[]}} [opts]
+ *   photosDir: when given, photo files must exist there. orgs: the data/orgs/ files.
  * @returns {{errors: {file: string, message: string}[], warnings: {file: string, message: string}[]}}
  */
 export function validatePeople(records, opts = {}) {
@@ -97,9 +124,14 @@ export function validatePeople(records, opts = {}) {
   const err = (file, message) => errors.push({ file, message });
   const warn = (file, message) => warnings.push({ file, message });
 
+  const orgs = (opts.orgs ?? []).map((r) => ({ ...r, file: `orgs/${r.file}`, isOrg: true }));
   const bySlug = new Map(records.map((r) => [r.slug, r]));
+  for (const o of orgs) {
+    if (bySlug.has(o.slug)) err(o.file, `slug "${o.slug}" is also a person's file name — give the organization a distinct slug`);
+    else bySlug.set(o.slug, o);
+  }
   const byNameSlug = new Map();
-  for (const r of records) {
+  for (const r of [...records, ...orgs]) {
     for (const n of [r.data?.name, ...(r.data?.aliases ?? [])]) {
       if (typeof n === 'string' && n) byNameSlug.set(slugify(n), r.slug);
     }
@@ -291,6 +323,80 @@ export function validatePeople(records, opts = {}) {
       checkSources(c?.sources, `source_conflicts[${i}]`);
     });
 
+    checkConnections(file, slug, p, researched, checkSources);
+
+    for (const { path: at, value } of textValues(p)) {
+      for (const { what, re } of PRIVACY_PATTERNS) {
+        if (re.test(value)) err(file, `${at} looks like it contains ${what} — remove it (public-role information only)`);
+      }
+    }
+  }
+
+  // Organizations: same sourcing and two-way-link rules as people, plus their own fields.
+  for (const { file, slug, data: o } of orgs) {
+    if (!o || typeof o !== 'object') {
+      err(file, 'File is not a JSON object');
+      continue;
+    }
+    const checkSources = (sources, where, { required = true } = {}) => {
+      if (!Array.isArray(sources) || sources.length === 0) {
+        if (required) err(file, `${where}: no sources (drop it or add a source URL)`);
+        return;
+      }
+      for (const s of sources) if (!isHttp(urlOf(s))) err(file, `${where}: source ${JSON.stringify(s)} is not an http(s) URL`);
+    };
+    if (!SLUG_RE.test(slug)) err(file, `File name "${slug}" is not a lowercase-hyphenated slug`);
+    if (typeof o.name !== 'string' || !o.name.trim()) err(file, 'Missing "name"');
+    if (!ORG_KINDS.includes(o.kind)) err(file, `"kind" must be one of ${ORG_KINDS.join(', ')}`);
+    if (o.side !== undefined && !GIVING_SIDES.includes(o.side)) err(file, `"side" must be one of ${GIVING_SIDES.join(', ')}`);
+    if (!isYear(o.founded) || !isYear(o.dissolved)) err(file, '"founded"/"dissolved" must be years or null');
+    if (typeof o.last_researched !== 'string' || !DATE_RE.test(o.last_researched))
+      err(file, '"last_researched" must be a YYYY-MM-DD date');
+    for (const key of ['public_figure', 'photo', 'lean', 'giving', 'race_2028', 'sector', 'self_added'])
+      if (o[key] !== undefined) err(file, `"${key}" is a person field; organizations don't take it`);
+    if (o.groups !== undefined) {
+      if (!Array.isArray(o.groups)) err(file, '"groups" must be an array');
+      else for (const g of o.groups) if (!GROUPS.includes(g)) err(file, `groups: "${g}" must be one of ${GROUPS.join(', ')}`);
+    }
+    for (const key of ['aliases', 'connections', 'finances', 'source_conflicts'])
+      if (o[key] !== undefined && !Array.isArray(o[key])) err(file, `"${key}" must be an array`);
+    if (typeof o.summary !== 'string' || !o.summary.trim()) err(file, 'Missing "summary"');
+    checkSources(o.sources, 'summary');
+    (Array.isArray(o.finances) ? o.finances : []).forEach((f, i) => {
+      const where = `finances[${i}] (${f?.cycle ?? '?'})`;
+      if (!Number.isInteger(f?.cycle) || f.cycle % 2 !== 0) err(file, `${where}: "cycle" must be an even election year`);
+      for (const k of ['raised_usd', 'spent_usd'])
+        if (f?.[k] !== undefined && !(typeof f[k] === 'number' && f[k] >= 0)) err(file, `${where}: "${k}" must be a dollar amount`);
+      checkSources(f?.sources, where);
+    });
+    (Array.isArray(o.source_conflicts) ? o.source_conflicts : []).forEach((c, i) => {
+      if (!c?.topic || !c?.details) err(file, `source_conflicts[${i}]: needs "topic" and "details"`);
+      checkSources(c?.sources, `source_conflicts[${i}]`);
+    });
+    if (!(o.connections ?? []).length) warn(file, 'No connections; the organization shows as a lone square');
+    checkConnections(file, slug, o, true, checkSources, true);
+    for (const { path: at, value } of textValues(o)) {
+      for (const { what, re } of PRIVACY_PATTERNS) {
+        if (re.test(value)) err(file, `${at} looks like it contains ${what} — remove it (public-role information only)`);
+      }
+    }
+  }
+
+  // Giving entries may name an organization's file.
+  for (const { file, data: p } of records) {
+    const targets = [
+      ...(p?.giving?.cycles ?? []).flatMap((c) => c?.recipients ?? []),
+      ...(p?.giving?.outlook?.likely ?? []),
+    ];
+    for (const t of targets) {
+      if (t?.org === undefined) continue;
+      if (!bySlug.get(t.org)?.isOrg) err(file, `giving: "${t.name}" points to org "${t.org}", which has no file in data/orgs/`);
+    }
+  }
+
+  return { errors, warnings };
+
+  function checkConnections(file, slug, p, researched, checkSources, selfIsOrg = false) {
     const seen = new Set();
     (p.connections ?? []).forEach((c, i) => {
       const where = `connection to ${c?.name ?? `#${i}`}`;
@@ -300,6 +406,8 @@ export function validatePeople(records, opts = {}) {
       if (c.slug === slug) err(file, `${where}: connection to self`);
       if (!RELATIONSHIP_TYPES.includes(c.relationship_type))
         err(file, `${where}: relationship_type "${c.relationship_type}" must be one of ${RELATIONSHIP_TYPES.join(', ')}`);
+      else if ((selfIsOrg || bySlug.get(c.slug)?.isOrg) && !ORG_RELATIONSHIP_TYPES.includes(c.relationship_type))
+        err(file, `${where}: an organization can't be a "${c.relationship_type}" (use one of ${ORG_RELATIONSHIP_TYPES.join(', ')})`);
       if (typeof c.confidence !== 'number' || c.confidence < 0 || c.confidence > 1)
         err(file, `${where}: "confidence" must be a number from 0 to 1`);
       if (!isYear(c.start_year) || !isYear(c.end_year)) err(file, `${where}: start_year/end_year must be years or null`);
@@ -315,14 +423,14 @@ export function validatePeople(records, opts = {}) {
       if (!target) {
         const existing = byNameSlug.get(slugify(c.name ?? ''));
         if (existing && existing !== slug)
-          err(file, `${where}: slug "${c.slug}" has no file, but ${existing}.json is this person — use slug "${existing}"`);
+          err(file, `${where}: slug "${c.slug}" has no file, but ${bySlug.get(existing)?.file ?? `${existing}.json`} is this one — use slug "${existing}"`);
         if (c.relationship_type === 'family')
           warn(file, `${where}: family link to someone without a file — confirm the relative is a public figure`);
         return;
       }
 
       // Exception: the map owner may add themselves and share a family link (see CLAUDE.md rule 2).
-      if (c.relationship_type === 'family' && target.data?.public_figure === false && target.data?.self_added !== true)
+      if (c.relationship_type === 'family' && !target.isOrg && target.data?.public_figure === false && target.data?.self_added !== true)
         err(file, `${where}: family links are only allowed to relatives who are public figures`);
 
       // Reciprocity: the other person's file must point back with the inverse type.
@@ -339,14 +447,7 @@ export function validatePeople(records, opts = {}) {
       }
     });
 
-    for (const { path: at, value } of textValues(p)) {
-      for (const { what, re } of PRIVACY_PATTERNS) {
-        if (re.test(value)) err(file, `${at} looks like it contains ${what} — remove it (public-role information only)`);
-      }
-    }
   }
-
-  return { errors, warnings };
 }
 
 /** Every string in the file except URLs. */
@@ -384,16 +485,21 @@ function main() {
     process.exit(1);
   }
   const { records, parseErrors } = loadDir(dir);
-  const { errors, warnings } = validatePeople(records, { photosDir: path.join(dir, '..', '..', 'public', 'photos') });
-  const all = [...parseErrors, ...errors];
+  const orgDir = path.join(dir, '..', 'orgs');
+  const orgLoad = fs.existsSync(orgDir) ? loadDir(orgDir) : { records: [], parseErrors: [] };
+  const { errors, warnings } = validatePeople(records, {
+    photosDir: path.join(dir, '..', '..', 'public', 'photos'),
+    orgs: orgLoad.records,
+  });
+  const all = [...parseErrors, ...orgLoad.parseErrors.map((e) => ({ ...e, file: `orgs/${e.file}` })), ...errors];
 
   for (const w of warnings) console.log(`warning  ${w.file}: ${w.message}`);
   for (const e of all) console.log(`ERROR    ${e.file}: ${e.message}`);
 
   const people = records.length;
-  const links = records.reduce((n, r) => n + (r.data?.connections?.length ?? 0), 0);
+  const links = [...records, ...orgLoad.records].reduce((n, r) => n + (r.data?.connections?.length ?? 0), 0);
   console.log(
-    `\n${people} people, ${links} connection records — ${all.length} error(s), ${warnings.length} warning(s)`,
+    `\n${people} people, ${orgLoad.records.length} organizations, ${links} connection records — ${all.length} error(s), ${warnings.length} warning(s)`,
   );
   process.exit(all.length ? 1 : 0);
 }

@@ -6,6 +6,8 @@ import {
   type EdgeGroup,
   type GroupId,
   type LeanPeriod,
+  type Org,
+  type OrgFile,
   type Person,
   type PersonFile,
   type RelationshipType,
@@ -28,6 +30,9 @@ export interface GraphNode {
   /** URL of the person's portrait, relative to the page. */
   photoUrl?: string;
   person?: Person;
+  /** Set for organizations (data/orgs/), drawn as squares. */
+  isOrg?: boolean;
+  org?: Org;
   file?: string;
   /** Number of distinct people this node is linked to. Drives node size. */
   degree: number;
@@ -82,9 +87,24 @@ export function linkEndId(end: string | GraphNode): string {
   return typeof end === 'string' ? end : end.id;
 }
 
-export function buildGraph(files: PersonFile[]): GraphData {
+export function buildGraph(files: PersonFile[], orgFiles: OrgFile[] = []): GraphData {
   const nodes = new Map<string, GraphNode>();
   const skipped: GraphData['skipped'] = [];
+
+  for (const f of orgFiles) {
+    nodes.set(f.slug, {
+      id: f.slug,
+      name: f.data.name || f.slug,
+      researched: true,
+      publicFigure: true,
+      groups: Array.isArray(f.data.groups) ? f.data.groups : [],
+      isOrg: true,
+      org: f.data,
+      file: f.file,
+      degree: 0,
+      mentionedBy: [],
+    });
+  }
 
   for (const f of files) {
     nodes.set(f.slug, {
@@ -104,7 +124,8 @@ export function buildGraph(files: PersonFile[]): GraphData {
 
   const links = new Map<string, GraphLink>();
 
-  for (const f of files) {
+  const all: { slug: string; file: string; data: { name: string; connections?: Connection[] } }[] = [...files, ...orgFiles];
+  for (const f of all) {
     for (const c of f.data.connections ?? []) {
       const otherSlug = (c.slug && c.slug.trim()) || slugify(c.name ?? '');
       if (!otherSlug || otherSlug === f.slug) continue;
@@ -254,9 +275,17 @@ function uniq<T>(xs: T[]): T[] {
 }
 
 /** Plain-English sentence for a link, e.g. "David Horowitz mentored Stephen Miller". */
-export function describeLink(link: GraphLink, nameOf: (id: string) => string): string {
+export function describeLink(
+  link: GraphLink,
+  nameOf: (id: string) => string,
+  isOrg: (id: string) => boolean = () => false,
+): string {
   const a = nameOf(link.sourceId);
   const b = nameOf(link.targetId);
+  const oa = isOrg(link.sourceId);
+  const ob = isOrg(link.targetId);
+  if (link.group === 'co-founder' && oa !== ob) return oa ? `${b} founded ${a}` : `${a} founded ${b}`;
+  if (link.group === 'employment' && oa && !ob) return `${b} works or worked for ${a}`;
   switch (link.group) {
     case 'mentorship':
       return `${a} mentored ${b}`;
@@ -280,8 +309,10 @@ export function describeLink(link: GraphLink, nameOf: (id: string) => string): s
 }
 
 /** Short label for how `other` relates to `self` along this link, e.g. "mentor". */
-export function roleOfOther(link: GraphLink, selfId: string): string {
+export function roleOfOther(link: GraphLink, selfId: string, isOrg: (id: string) => boolean = () => false): string {
   const otherIsSource = link.sourceId !== selfId;
+  const otherId = otherIsSource ? link.sourceId : link.targetId;
+  if (link.group === 'co-founder' && isOrg(otherId) !== isOrg(selfId)) return isOrg(otherId) ? 'founded it' : 'founder';
   switch (link.group) {
     case 'mentorship':
       return otherIsSource ? 'mentor' : 'protégé';
@@ -311,7 +342,7 @@ export function matchesQuery(node: GraphNode, q: string): boolean {
   if (!q) return true;
   const needle = fold(q);
   if (fold(node.name).includes(needle)) return true;
-  return (node.person?.aliases ?? []).some((a) => fold(a).includes(needle));
+  return (node.person?.aliases ?? node.org?.aliases ?? []).some((a) => fold(a).includes(needle));
 }
 
 function fold(s: string): string {

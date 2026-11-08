@@ -13,15 +13,18 @@ import {
   EDGE_FAMILY_BY_ID,
   EDGE_GROUP_BY_ID,
   GROUPS,
+  ORG_KIND_LABEL,
   RECIPIENT_KIND_LABEL,
   SECTOR_BY_ID,
   formatUsd,
   leanLabel,
+  orgSideColor,
   sourceLabel,
   sourceUrl,
   type Affiliation,
   type Giving,
   type GivingSide,
+  type OrgFinance,
   type SourceRef,
 } from '../lib/schema';
 import type { Layout, Selection } from '../App';
@@ -60,6 +63,7 @@ export default function SidePanel({ layout, selection, nodes, links, onSelect, o
           node={node}
           links={links}
           nameOf={nameOf}
+          isOrg={(id) => !!nodeById.get(id)?.isOrg}
           hasFile={(id) => nodeById.has(id)}
           onSelect={onSelect}
           onWorld={onWorld}
@@ -67,7 +71,8 @@ export default function SidePanel({ layout, selection, nodes, links, onSelect, o
       );
   } else {
     const pair = links.filter((l) => pairKey(l.sourceId, l.targetId) === selection.id);
-    if (pair.length) body = <PairPanel links={pair} nameOf={nameOf} onSelect={onSelect} />;
+    if (pair.length)
+      body = <PairPanel links={pair} nameOf={nameOf} isOrg={(id) => !!nodeById.get(id)?.isOrg} onSelect={onSelect} />;
   }
   if (!body) return null;
 
@@ -106,6 +111,7 @@ function NodePanel({
   node,
   links,
   nameOf,
+  isOrg,
   hasFile,
   onSelect,
   onWorld,
@@ -113,12 +119,16 @@ function NodePanel({
   node: GraphNode;
   links: GraphLink[];
   nameOf: (id: string) => string;
+  isOrg: (id: string) => boolean;
   /** Whether a slug is a dot on the map (so it can be selected). */
   hasFile: (id: string) => boolean;
   onSelect: (s: Selection) => void;
   onWorld: (id: string) => void;
 }) {
   const p = node.person;
+  const o = node.org;
+  // Fields people and organizations share.
+  const d = p ?? o;
   // One row per connected person, with every kind of link between them.
   const byOther = new Map<string, GraphLink[]>();
   for (const l of links) {
@@ -151,12 +161,22 @@ function NodePanel({
         </div>
         <div className="badges">
           {!node.researched && <span className="badge badge-suggested">Suggested · no file yet</span>}
+          {o && (
+            <span className="badge badge-org">
+              <span className="key-square" style={{ borderColor: orgSideColor(o.side) }} />
+              {ORG_KIND_LABEL[o.kind] ?? 'Organization'}
+              {o.side && <SideTag side={o.side} />}
+            </span>
+          )}
+          {o && (o.founded || o.dissolved) && (
+            <span className="badge">{o.dissolved ? `${o.founded ?? '?'}–${o.dissolved}` : `Founded ${o.founded}`}</span>
+          )}
           {node.researched && sector && (
             <span className="badge badge-sector">
               <span className="key-dot" style={{ background: sector.color }} /> {sector.label}
             </span>
           )}
-          {node.researched && node.publicFigure && !sector && <span className="badge">Public figure</span>}
+          {node.researched && !o && node.publicFigure && !sector && <span className="badge">Public figure</span>}
           {node.researched && !node.publicFigure && (
             <span className="badge badge-private">Not a public figure · user-provided info only</span>
           )}
@@ -183,7 +203,7 @@ function NodePanel({
             <SourceList sources={p.race_2028.sources} compact />
           </div>
         )}
-        {p?.aliases && p.aliases.length > 0 && <div className="muted">Also: {p.aliases.join(', ')}</div>}
+        {d?.aliases && d.aliases.length > 0 && <div className="muted">Also: {d.aliases.join(', ')}</div>}
         {p?.current_role && <div className="role">{p.current_role}</div>}
         {p?.photo && (
           <div className="photo-credit muted">
@@ -212,13 +232,15 @@ function NodePanel({
         </section>
       )}
 
-      {p?.summary && (
+      {d?.summary && (
         <section>
           <h3>Summary</h3>
-          <p>{p.summary}</p>
-          <SourceList sources={p.sources} />
+          <p>{d.summary}</p>
+          <SourceList sources={d.sources} />
         </section>
       )}
+
+      {o?.finances && o.finances.length > 0 && <FinanceSection finances={o.finances} />}
 
       {p?.lean && p.lean.length > 0 && (
         <section>
@@ -243,10 +265,10 @@ function NodePanel({
 
       {p?.giving && <GivingSection giving={p.giving} hasFile={hasFile} onSelect={onSelect} />}
 
-      {p?.source_conflicts && p.source_conflicts.length > 0 && (
+      {d?.source_conflicts && d.source_conflicts.length > 0 && (
         <section className="conflicts">
           <h3>Sources disagree</h3>
-          {p.source_conflicts.map((c, i) => (
+          {d.source_conflicts.map((c, i) => (
             <div key={i} className="conflict">
               <strong>{c.topic}</strong>
               <p>{c.details}</p>
@@ -320,7 +342,7 @@ function NodePanel({
                   {ls.map((l) => (
                     <span key={l.id} className="type-chip">
                       <span className="swatch" style={{ background: EDGE_FAMILY_BY_ID[familyOf(l)].color }} />
-                      {roleOfOther(l, node.id)}
+                      {roleOfOther(l, node.id, isOrg)}
                       {yearRange(l.startYear, l.endYear) && (
                         <span className="muted"> · {yearRange(l.startYear, l.endYear)}</span>
                       )}
@@ -340,12 +362,16 @@ function NodePanel({
         </ul>
       </section>
 
-      {(p?.notes || p?.last_researched || node.file) && (
+      {(d?.notes || d?.last_researched || node.file) && (
         <footer className="panel-footer muted">
-          {p?.notes && <p>{p.notes}</p>}
-          {p?.last_researched && <div>Last researched: {p.last_researched}</div>}
-          {node.file && <div>File: data/people/{node.file}</div>}
-          {node.researched && <CopyCommand text={`/refresh-person ${node.name}`} />}
+          {d?.notes && <p>{d.notes}</p>}
+          {d?.last_researched && <div>Last researched: {d.last_researched}</div>}
+          {node.file && (
+            <div>
+              File: data/{o ? 'orgs' : 'people'}/{node.file}
+            </div>
+          )}
+          {node.researched && <CopyCommand text={`/${o ? 'add-org' : 'refresh-person'} ${node.name}`} />}
         </footer>
       )}
     </div>
@@ -370,14 +396,17 @@ function GivingSection({
   onSelect: (s: Selection) => void;
 }) {
   const cycles = [...(giving.cycles ?? [])].sort((a, b) => b.cycle - a.cycle);
-  const target = (name: string, slug?: string) =>
-    slug && hasFile(slug) ? (
-      <button className="link-button" onClick={() => onSelect({ kind: 'node', id: slug })}>
+  // An organization with its own file wins over the person who runs it.
+  const target = (name: string, slug?: string, org?: string) => {
+    const id = org && hasFile(org) ? org : slug && hasFile(slug) ? slug : null;
+    return id ? (
+      <button className="link-button" onClick={() => onSelect({ kind: 'node', id })}>
         {name}
       </button>
     ) : (
       <strong>{name}</strong>
     );
+  };
   return (
     <section className="giving">
       <h3>Giving</h3>
@@ -400,7 +429,7 @@ function GivingSection({
                     <div className="giving-row">
                       <span className="giving-amt">{typeof r.amount_usd === 'number' ? formatUsd(r.amount_usd) : '—'}</span>
                       <span>
-                        {target(r.name, r.slug)} <span className="muted small">{RECIPIENT_KIND_LABEL[r.kind] ?? r.kind}</span>{' '}
+                        {target(r.name, r.slug, r.org)} <span className="muted small">{RECIPIENT_KIND_LABEL[r.kind] ?? r.kind}</span>{' '}
                         <SideTag side={r.side} />
                       </span>
                     </div>
@@ -426,7 +455,7 @@ function GivingSection({
                     <div className="giving-row">
                       <Confidence value={l.confidence} />
                       <span>
-                        {target(l.name, l.slug)} <span className="muted small">{RECIPIENT_KIND_LABEL[l.kind] ?? l.kind}</span>{' '}
+                        {target(l.name, l.slug, l.org)} <span className="muted small">{RECIPIENT_KIND_LABEL[l.kind] ?? l.kind}</span>{' '}
                         <SideTag side={l.side} />
                       </span>
                     </div>
@@ -442,13 +471,49 @@ function GivingSection({
   );
 }
 
+/** Money raised and spent by cycle, newest first. */
+function FinanceSection({ finances }: { finances: OrgFinance[] }) {
+  return (
+    <section className="giving">
+      <h3>Money</h3>
+      {[...finances]
+        .sort((a, b) => b.cycle - a.cycle)
+        .map((f) => (
+          <div key={f.cycle} className="giving-cycle">
+            <div className="giving-head">
+              <span className="giving-year">{f.cycle} cycle</span>
+            </div>
+            <div className="org-finance">
+              {typeof f.raised_usd === 'number' && (
+                <>
+                  <span className="muted small">Raised</span>
+                  <strong>{formatUsd(f.raised_usd)}</strong>
+                </>
+              )}
+              {typeof f.spent_usd === 'number' && (
+                <>
+                  <span className="muted small">Spent</span>
+                  <strong>{formatUsd(f.spent_usd)}</strong>
+                </>
+              )}
+            </div>
+            {f.description && <p className="small">{f.description}</p>}
+            <SourceList sources={f.sources} compact />
+          </div>
+        ))}
+    </section>
+  );
+}
+
 function PairPanel({
   links,
   nameOf,
+  isOrg,
   onSelect,
 }: {
   links: GraphLink[];
   nameOf: (id: string) => string;
+  isOrg: (id: string) => boolean;
   onSelect: (s: Selection) => void;
 }) {
   const [a, b] = [links[0].sourceId, links[0].targetId].sort((x, y) => nameOf(x).localeCompare(nameOf(y)));
@@ -478,7 +543,7 @@ function PairPanel({
               <span className="swatch" style={{ background: f.color }} /> {g.label}
               <span className="muted"> · {f.label}</span>
             </div>
-            <h3 className="edge-sentence">{describeLink(link, nameOf)}</h3>
+            <h3 className="edge-sentence">{describeLink(link, nameOf, isOrg)}</h3>
             <div className="edge-facts">
               <div>
                 <span className="muted">Dates</span>

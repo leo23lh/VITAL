@@ -484,6 +484,17 @@
       "sources": [
         { "url": "https://clips.cato.org/sites/default/files/Cato_intercept_koch.pdf", "title": "How the leading Republican candidate for Missouri Senate lost Koch support — The Intercept (Cato clip)" }
       ]
+    },
+    {
+      "name": "1789 Capital",
+      "slug": "1789-capital",
+      "relationship_type": "ally",
+      "description": "Reuters called Thiel an instrumental force behind its creation: Buskirk is a Thiel confidant, and it invests in Thiel-backed companies such as Anduril.",
+      "start_year": 2022,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

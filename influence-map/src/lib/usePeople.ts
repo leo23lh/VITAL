@@ -1,14 +1,14 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { IS_ARTIFACT, PEOPLE_COLLECTION, capability, type ArtifactDb } from './platform';
-import type { LoadError, PeoplePayload, Person, PersonFile } from './schema';
+import { IS_ARTIFACT, ORGS_COLLECTION, PEOPLE_COLLECTION, capability, type ArtifactDb, type ArtifactQuerySnapshot } from './platform';
+import type { LoadError, Org, OrgFile, PeoplePayload, Person, PersonFile } from './schema';
 
 /**
- * Loads the people files and keeps them current.
+ * Loads the people and organization files and keeps them current.
  * Locally: fetches /api/people and refetches when the dev server reports a change.
- * As an Artifact: subscribes to the page's `people` collection.
+ * As an Artifact: subscribes to the page's `people` and `orgs` collections.
  */
 export function usePeople() {
-  const [payload, setPayload] = useState<PeoplePayload>({ people: [], errors: [] });
+  const [payload, setPayload] = useState<PeoplePayload>({ people: [], orgs: [], errors: [] });
   const [loaded, setLoaded] = useState(false);
   const [fetchError, setFetchError] = useState<string | null>(null);
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
@@ -20,7 +20,8 @@ export function usePeople() {
     try {
       const res = await fetch('/api/people', { cache: 'no-store' });
       if (!res.ok) throw new Error(`Server returned ${res.status}`);
-      setPayload((await res.json()) as PeoplePayload);
+      const data = (await res.json()) as Partial<PeoplePayload>;
+      setPayload({ people: data.people ?? [], orgs: data.orgs ?? [], errors: data.errors ?? [] });
       setFetchError(null);
       setLastUpdated(new Date());
     } catch (e) {
@@ -51,7 +52,30 @@ export function usePeople() {
 
   function subscribeArtifact() {
     let cancelled = false;
-    let unsubscribe: (() => void) | undefined;
+    const unsubscribers: (() => void)[] = [];
+    // Latest snapshot of each collection; the map shows once people have arrived.
+    let people: PersonFile[] | null = null;
+    let orgs: OrgFile[] = [];
+    let peopleErrors: LoadError[] = [];
+    let orgErrors: LoadError[] = [];
+    const publish = () => {
+      if (!people) return;
+      count.current = people.length;
+      setPayload({ people, orgs, errors: [...peopleErrors, ...orgErrors] });
+      setLastUpdated(new Date());
+      setLoaded(true);
+      setLive(true);
+    };
+    const read = <T,>(snap: ArtifactQuerySnapshot) => {
+      const files: { slug: string; file: string; data: T }[] = [];
+      const errors: LoadError[] = [];
+      for (const d of snap.docs) {
+        const data = d.data();
+        if (data && typeof data.name === 'string') files.push({ slug: d.id, file: `${d.id}.json`, data: data as unknown as T });
+        else errors.push({ file: `${d.id}.json`, message: 'Missing "name" field' });
+      }
+      return { files, errors };
+    };
     const slow = window.setTimeout(() => {
       setFetchError(
         count.current > 0
@@ -69,41 +93,40 @@ export function usePeople() {
         setLoaded(true);
         return;
       }
-      unsubscribe = db.collection(PEOPLE_COLLECTION).onSnapshot(
-        (snap) => {
+      const onError = (err: { code: string }) => {
+        window.clearTimeout(slow);
+        setFetchError(`Couldn't load the network (${err.code}). Reload the page to try again.`);
+        setLoaded(true);
+        setLive(false);
+      };
+      unsubscribers.push(
+        db.collection(PEOPLE_COLLECTION).onSnapshot((snap) => {
           if (!snap.metadata.fromCache) {
             window.clearTimeout(slow);
             setFetchError(null);
           }
-          const people: PersonFile[] = [];
-          const errors: LoadError[] = [];
-          for (const d of snap.docs) {
-            const data = d.data();
-            if (data && typeof data.name === 'string') {
-              people.push({ slug: d.id, file: `${d.id}.json`, data: data as unknown as Person });
-            } else {
-              errors.push({ file: `${d.id}.json`, message: 'Missing "name" field' });
-            }
-          }
-          count.current = people.length;
-          setPayload({ people, errors });
-          setLastUpdated(new Date());
-          setLoaded(true);
-          setLive(true);
-        },
-        (err) => {
-          window.clearTimeout(slow);
-          setFetchError(`Couldn't load the network (${err.code}). Reload the page to try again.`);
-          setLoaded(true);
-          setLive(false);
-        },
+          const r = read<Person>(snap);
+          people = r.files;
+          peopleErrors = r.errors;
+          publish();
+        }, onError),
+        // Organizations are optional: an empty or missing collection just means no org dots.
+        db.collection(ORGS_COLLECTION).onSnapshot(
+          (snap) => {
+            const r = read<Org>(snap);
+            orgs = r.files;
+            orgErrors = r.errors.map((e) => ({ ...e, file: `orgs/${e.file}` }));
+            publish();
+          },
+          () => {},
+        ),
       );
     });
 
     return () => {
       cancelled = true;
       window.clearTimeout(slow);
-      unsubscribe?.();
+      for (const u of unsubscribers) u();
     };
   }
 

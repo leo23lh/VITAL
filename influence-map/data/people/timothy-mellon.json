@@ -113,6 +113,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
       ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "funded_by",
+      "description": "Its largest donor: about $150 million in the 2024 cycle, including $50 million on May 31, 2024, and $2 million more in 2025.",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/timothy-mellon-leads-huge-month-trump-megadonors-pouring-cash-into-election-rcna158204", "title": "Timothy Mellon leads huge month for Trump megadonors — NBC News" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -141,6 +154,7 @@
           {
             "name": "MAGA Inc.",
             "slug": "donald-trump",
+            "org": "maga-inc",
             "kind": "super-pac",
             "side": "R",
             "amount_usd": 2000000,
@@ -165,6 +179,7 @@
           {
             "name": "MAGA Inc.",
             "slug": "donald-trump",
+            "org": "maga-inc",
             "kind": "super-pac",
             "side": "R",
             "amount_usd": 150000000,

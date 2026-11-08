@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type RefObject } from 'react';
 import ForceGraph2D, { type ForceGraphMethods } from 'react-force-graph-2d';
 import { describeLink, familyOf, linkEndId, matchesQuery, type GraphNode, type PairLink } from '../lib/graph';
-import { EDGE_FAMILY_BY_ID, SECTOR_BY_ID } from '../lib/schema';
+import { EDGE_FAMILY_BY_ID, ORG_KIND_LABEL, SECTOR_BY_ID, orgSideColor } from '../lib/schema';
 import type { Compass, RadialLayout, Selection } from '../App';
 
 export const BACKGROUND = '#0f1117';
@@ -122,6 +122,10 @@ export default function GraphView({
     const m = new Map(nodes.map((n) => [n.id, n.name]));
     return (id: string) => m.get(id) ?? id;
   }, [nodes]);
+  const isOrg = useMemo(() => {
+    const orgs = new Set(nodes.filter((n) => n.isOrg).map((n) => n.id));
+    return (id: string) => orgs.has(id);
+  }, [nodes]);
 
   // Names that always show: the best-connected researched people on screen.
   const labeled = useMemo(() => {
@@ -167,50 +171,64 @@ export default function GraphView({
 
       ctx.save();
       ctx.globalAlpha = alpha;
-      ctx.beginPath();
-      ctx.arc(x, y, r, 0, 2 * Math.PI);
-      const tint = node.publicFigure
-        ? node.sector
-          ? SECTOR_BY_ID[node.sector]?.color ?? '#e6e9ef'
-          : '#e6e9ef'
-        : '#d6b76a';
-      const img = showPhotos && node.photoUrl ? photo(node.photoUrl) : null;
-      if (node.researched && img) {
-        // Portrait cropped to the circle (faces sit high in most portraits), ringed in the sector color.
-        ctx.fillStyle = tint;
+      if (node.isOrg) {
+        // Organizations: a rounded square, dark inside, bordered in the color of the side it helps.
+        const h = r * 0.9;
+        roundedSquare(ctx, x, y, h);
+        ctx.fillStyle = '#1d2433';
         ctx.fill();
-        ctx.save();
-        ctx.clip();
-        const side = Math.min(img.naturalWidth, img.naturalHeight);
-        const sx = (img.naturalWidth - side) / 2;
-        const sy = Math.max(0, (img.naturalHeight - side) * 0.2);
-        ctx.drawImage(img, sx, sy, side, side, x - r, y - r, 2 * r, 2 * r);
-        ctx.restore();
-        ctx.beginPath();
-        ctx.arc(x, y, r, 0, 2 * Math.PI);
-        ctx.lineWidth = Math.max(1.5 / scale, r * 0.16);
-        ctx.strokeStyle = tint;
-        ctx.stroke();
-      } else if (node.researched) {
-        ctx.fillStyle = tint;
-        ctx.fill();
-        // A thin dark ring keeps neighbouring dots apart.
-        ctx.lineWidth = 1.5 / scale;
-        ctx.strokeStyle = BACKGROUND;
+        ctx.lineWidth = Math.max(2 / scale, r * 0.2);
+        ctx.strokeStyle = orgSideColor(node.org?.side);
         ctx.stroke();
       } else {
-        ctx.fillStyle = 'rgba(148, 163, 184, 0.16)';
-        ctx.fill();
-        ctx.setLineDash([2 / scale, 2 / scale]);
-        ctx.lineWidth = 1 / scale;
-        ctx.strokeStyle = 'rgba(148, 163, 184, 0.7)';
-        ctx.stroke();
-        ctx.setLineDash([]);
+        ctx.beginPath();
+        ctx.arc(x, y, r, 0, 2 * Math.PI);
+        const tint = node.publicFigure
+          ? node.sector
+            ? SECTOR_BY_ID[node.sector]?.color ?? '#e6e9ef'
+            : '#e6e9ef'
+          : '#d6b76a';
+        const img = showPhotos && node.photoUrl ? photo(node.photoUrl) : null;
+        if (node.researched && img) {
+          // Portrait cropped to the circle (faces sit high in most portraits), ringed in the sector color.
+          ctx.fillStyle = tint;
+          ctx.fill();
+          ctx.save();
+          ctx.clip();
+          const side = Math.min(img.naturalWidth, img.naturalHeight);
+          const sx = (img.naturalWidth - side) / 2;
+          const sy = Math.max(0, (img.naturalHeight - side) * 0.2);
+          ctx.drawImage(img, sx, sy, side, side, x - r, y - r, 2 * r, 2 * r);
+          ctx.restore();
+          ctx.beginPath();
+          ctx.arc(x, y, r, 0, 2 * Math.PI);
+          ctx.lineWidth = Math.max(1.5 / scale, r * 0.16);
+          ctx.strokeStyle = tint;
+          ctx.stroke();
+        } else if (node.researched) {
+          ctx.fillStyle = tint;
+          ctx.fill();
+          // A thin dark ring keeps neighbouring dots apart.
+          ctx.lineWidth = 1.5 / scale;
+          ctx.strokeStyle = BACKGROUND;
+          ctx.stroke();
+        } else {
+          ctx.fillStyle = 'rgba(148, 163, 184, 0.16)';
+          ctx.fill();
+          ctx.setLineDash([2 / scale, 2 / scale]);
+          ctx.lineWidth = 1 / scale;
+          ctx.strokeStyle = 'rgba(148, 163, 184, 0.7)';
+          ctx.stroke();
+          ctx.setLineDash([]);
+        }
       }
 
       if (node.id === selectedNodeId || matched) {
-        ctx.beginPath();
-        ctx.arc(x, y, r + 3 / scale, 0, 2 * Math.PI);
+        if (node.isOrg) roundedSquare(ctx, x, y, r * 0.9 + 3 / scale);
+        else {
+          ctx.beginPath();
+          ctx.arc(x, y, r + 3 / scale, 0, 2 * Math.PI);
+        }
         ctx.lineWidth = 2 / scale;
         ctx.strokeStyle = matched && node.id !== selectedNodeId ? '#f5c542' : '#4ea1ff';
         ctx.stroke();
@@ -229,7 +247,8 @@ export default function GraphView({
               : scale > 2.4);
       if (showLabel) {
         const fontSize = (node.researched ? 12 : 10.5) / scale;
-        ctx.font = `${node.researched ? 600 : 400} ${fontSize}px system-ui, -apple-system, Segoe UI, sans-serif`;
+        // Organization names are italic, so they read as groups rather than people.
+        ctx.font = `${node.isOrg ? 'italic ' : ''}${node.researched ? 600 : 400} ${fontSize}px system-ui, -apple-system, Segoe UI, sans-serif`;
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
         const ty = y + r + 3 / scale;
@@ -307,7 +326,7 @@ export default function GraphView({
         linkDirectionalArrowLength={(p) => (p.directed && colored(p) ? 6 : 0)}
         linkDirectionalArrowRelPos={1}
         linkDirectionalArrowColor={linkColor}
-        linkLabel={(p) => pairTooltip(p, nameOf)}
+        linkLabel={(p) => pairTooltip(p, nameOf, isOrg)}
         linkHoverPrecision={6}
         onNodeHover={(n) => setHoverId(n ? n.id : null)}
         onLinkHover={(p) => setHoverPairId(p ? p.id : null)}
@@ -527,17 +546,29 @@ function lineFamily(p: PairLink, radial: RadialLayout | null) {
   return (lens && p.links.map(familyOf).find((f) => lens.includes(f))) || p.family;
 }
 
+/** Path for a rounded square centered on (x, y) with half-side h. */
+function roundedSquare(ctx: CanvasRenderingContext2D, x: number, y: number, h: number) {
+  const k = h * 0.3;
+  ctx.beginPath();
+  ctx.moveTo(x - h + k, y - h);
+  ctx.arcTo(x + h, y - h, x + h, y + h, k);
+  ctx.arcTo(x + h, y + h, x - h, y + h, k);
+  ctx.arcTo(x - h, y + h, x - h, y - h, k);
+  ctx.arcTo(x - h, y - h, x + h, y - h, k);
+  ctx.closePath();
+}
+
 function nodeTooltip(n: GraphNode): string {
-  const role = n.person?.current_role;
+  const role = n.org ? ORG_KIND_LABEL[n.org.kind] ?? 'Organization' : n.person?.current_role;
   const tag = n.researched ? '' : '<div class="tt-muted">Suggested — no file yet</div>';
   return `<div class="tt"><strong>${esc(n.name)}</strong>${role ? `<div>${esc(role)}</div>` : ''}${tag}<div class="tt-muted">${n.degree} connection${n.degree === 1 ? '' : 's'}</div></div>`;
 }
 
-function pairTooltip(p: PairLink, nameOf: (id: string) => string): string {
+function pairTooltip(p: PairLink, nameOf: (id: string) => string, isOrg: (id: string) => boolean): string {
   const rows = p.links
     .map((l) => {
       const f = EDGE_FAMILY_BY_ID[familyOf(l)];
-      return `<div><span class="tt-swatch" style="background:${f.color}"></span>${esc(describeLink(l, nameOf))}</div>`;
+      return `<div><span class="tt-swatch" style="background:${f.color}"></span>${esc(describeLink(l, nameOf, isOrg))}</div>`;
     })
     .join('');
   return `<div class="tt">${rows}<div class="tt-muted">Confidence up to ${Math.round(p.confidence * 100)}% · tap for sources</div></div>`;

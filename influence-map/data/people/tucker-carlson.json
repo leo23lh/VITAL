@@ -345,6 +345,17 @@
         { "url": "https://theweek.com/politics/tucker-carlson-interview-darryl-cooper-holocaust", "title": "Tucker Carlson's WWII interview fractures conservatives — The Week" },
         { "url": "https://thefp.com/p/world-war-ii-and-the-rise-of-anti-798/comments", "title": "World War II and the rise of anti-history — The Free Press" }
       ]
+    },
+    {
+      "name": "1789 Capital",
+      "slug": "1789-capital",
+      "relationship_type": "donor",
+      "description": "1789 Capital's first investment, in 2023, went into his new media company.",
+      "start_year": 2023,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

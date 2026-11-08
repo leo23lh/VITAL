@@ -90,6 +90,18 @@
         { "url": "https://cpi.org/2024/02/cpi-announces-new-hires/", "title": "CPI Announces New Hires — CPI" },
         { "url": "https://www.thenation.com/article/politics/the-rights-partners-in-weaponized-policymaking/", "title": "The Right's Partners in Weaponized Policymaking — The Nation" }
       ]
+    },
+    {
+      "name": "Edmund Burke Foundation",
+      "slug": "edmund-burke-foundation",
+      "relationship_type": "employer",
+      "description": "Board member and regular NatCon speaker.",
+      "start_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.dailysignal.com/2025/09/05/6-takeaways-national-conservatism-conference/", "title": "6 Takeaways From the National Conservatism Conference — Daily Signal" },
+        { "url": "https://www.dailysignal.com/2025/08/31/national-conservatism-conference-promises-debate-amid-unity/", "title": "National Conservatism Conference Promises Debate Amid Unity — Daily Signal" }
+      ]
     }
   ],
   "source_conflicts": [

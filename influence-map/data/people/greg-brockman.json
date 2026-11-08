@@ -195,6 +195,31 @@
       "sources": [
         { "url": "https://axios.com/2026/03/29/ai-pac-midterms-trump", "title": "New pro-AI group preps $100M midterm blitz to boost Trump's agenda — Axios" }
       ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "funded_by",
+      "description": "Brockman and his wife gave $25 million in September 2025, nearly a quarter of what it raised in the second half of 2025.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/01/02/politics/trump-super-pac-maga-inc-fundraising", "title": "Trump's super PAC builds $300 million cash stockpile — CNN" },
+        { "url": "https://kvia.com/politics/cnn-us-politics/2026/01/02/trumps-super-pac-builds-a-nearly-300-million-cash-stockpile-fueling-unrivaled-fundraising-pace/", "title": "Trump's super PAC builds a nearly $300 million cash stockpile — CNN via KVIA" }
+      ]
+    },
+    {
+      "name": "Leading the Future",
+      "slug": "leading-the-future",
+      "relationship_type": "funded_by",
+      "description": "Founding backer: Brockman and his wife gave $25 million, then dropped a further $25 million in October 2026 after OpenAI employees pushed back.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" },
+        { "url": "https://www.semafor.com/article/10/02/2026/how-employees-forced-openais-president-to-back-down", "title": "Exclusive: How employees forced OpenAI's president to back down — Semafor" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -228,6 +253,7 @@
           {
             "name": "MAGA Inc.",
             "slug": "donald-trump",
+            "org": "maga-inc",
             "kind": "super-pac",
             "side": "R",
             "amount_usd": 25000000,
@@ -239,6 +265,7 @@
           },
           {
             "name": "Leading the Future (pro-AI super PAC)",
+            "org": "leading-the-future",
             "kind": "super-pac",
             "side": "both",
             "amount_usd": 25000000,
@@ -263,6 +290,7 @@
         {
           "name": "MAGA Inc.",
           "slug": "donald-trump",
+          "org": "maga-inc",
           "kind": "super-pac",
           "side": "R",
           "basis": "Its biggest 2025 donor; Trump plans to keep fundraising through his political operation.",
@@ -274,6 +302,7 @@
         },
         {
           "name": "Leading the Future (pro-AI super PAC)",
+          "org": "leading-the-future",
           "kind": "super-pac",
           "side": "both",
           "basis": "Founding backer, but he cancelled a further $25M after employee pushback.",

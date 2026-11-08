@@ -1,0 +1,100 @@
+{
+  "name": "Leading the Future",
+  "aliases": ["LTF"],
+  "kind": "super-pac",
+  "side": "both",
+  "founded": 2025,
+  "groups": ["ai-race"],
+  "summary": "A pro-AI-industry super PAC network launched in August 2025 with more than $140 million from Andreessen Horowitz, OpenAI president Greg Brockman, Joe Lonsdale and others, modeled on the crypto super PAC Fairshake. It backs candidates in both parties who favor light AI regulation and spent $8.16 million against New York Democrat Alex Bores; an affiliated dark-money group, Build American AI, runs issue campaigns. By late October 2026 it had spent about $35 million.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" },
+    { "url": "https://fortune.com/2025/08/26/openai-president-greg-brockman-andreessen-horowitz-super-pac-ai-pro-innovation/", "title": "OpenAI president Greg Brockman and Andreessen Horowitz back AI super PAC — Fortune" }
+  ],
+  "finances": [
+    {
+      "cycle": 2026,
+      "raised_usd": 140000000,
+      "spent_usd": 34780000,
+      "description": "More than $140M committed at launch; $27.38M spent in primaries and $7.4M in the general election as of October 26, 2026.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "donor",
+      "description": "Lead backer with Ben Horowitz through Andreessen Horowitz; FEC filings showed $12.5 million each from Andreessen and Horowitz.",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" },
+        { "url": "https://www.axios.com/2026/01/30/openai-a16z-cash-ai-super-pac", "title": "Exclusive: OpenAI's Brockman and a16z funnel cash to pro-AI super PAC — Axios" }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "donor",
+      "description": "Lead backer with Marc Andreessen through Andreessen Horowitz; FEC filings showed $12.5 million each.",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" },
+        { "url": "https://www.axios.com/2026/01/30/openai-a16z-cash-ai-super-pac", "title": "Exclusive: OpenAI's Brockman and a16z funnel cash to pro-AI super PAC — Axios" }
+      ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "donor",
+      "description": "Founding backer: Brockman and his wife gave $25 million, then dropped a further $25 million in October 2026 after OpenAI employees pushed back.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" },
+        { "url": "https://www.semafor.com/article/10/02/2026/how-employees-forced-openais-president-to-back-down", "title": "Exclusive: How employees forced OpenAI's president to back down — Semafor" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "donor",
+      "description": "Named among its founding backers in August 2025.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" },
+        { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "ally",
+      "description": "The Wall Street Journal reported that the PAC's agenda mostly aligns with that of Sacks, the White House AI and crypto czar.",
+      "start_year": 2025,
+      "confidence": 0.45,
+      "sources": [
+        { "url": "https://axios.com/2026/03/29/ai-pac-midterms-trump", "title": "New pro-AI group preps $100M midterm blitz to boost Trump's agenda — Axios" }
+      ]
+    },
+    {
+      "name": "Chris Larsen",
+      "slug": "chris-larsen",
+      "relationship_type": "enemy",
+      "description": "Larsen put millions behind Alex Bores's 2026 House run as a counterweight to the PAC's attack ads against Bores.",
+      "start_year": 2026,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Bores", "title": "Alex Bores — Wikipedia" },
+        { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" },
+        { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and campaign-finance reporting. Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

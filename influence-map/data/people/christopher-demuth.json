@@ -83,6 +83,18 @@
         { "url": "https://www.niskanencenter.org/is-there-a-benign-trumpian-nationalism/", "title": "Is there a benign Trumpian nationalism? — Niskanen Center" },
         { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
       ]
+    },
+    {
+      "name": "Edmund Burke Foundation",
+      "slug": "edmund-burke-foundation",
+      "relationship_type": "employer",
+      "description": "A director of the foundation and co-organizer of the NatCon conferences since 2019.",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_DeMuth", "title": "Christopher DeMuth — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
     }
   ],
   "source_conflicts": [

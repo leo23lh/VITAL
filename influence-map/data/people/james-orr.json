@@ -101,6 +101,17 @@
         { "url": "https://aljazeera.com/news/2026/9/4/reform-uk-officials-step-down-as-new-funding-scandal-hits-far-right-party", "title": "Reform UK officials step down as new funding scandal hits party — Al Jazeera" },
         { "url": "https://www.lbc.co.uk/politics/uk-politics/two-reform-uk-officials-step-down-after-undercover-sting-over-foreign-donations/", "title": "Two Reform UK officials step down after undercover sting over foreign donations — LBC" }
       ]
+    },
+    {
+      "name": "Edmund Burke Foundation",
+      "slug": "edmund-burke-foundation",
+      "relationship_type": "employer",
+      "description": "Chairman of its UK arm.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and, where available, with Wikipedia via its API. Cambridge was also reported to be investigating him after the sting.",

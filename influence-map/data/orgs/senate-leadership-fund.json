@@ -1,0 +1,129 @@
+{
+  "name": "Senate Leadership Fund",
+  "aliases": ["SLF"],
+  "kind": "super-pac",
+  "side": "R",
+  "founded": 2015,
+  "groups": [],
+  "summary": "Senate Republicans' main super PAC, founded in January 2015 by allies of Mitch McConnell and now aligned with Majority Leader John Thune. Its affiliated nonprofit One Nation, which does not disclose donors, has passed it tens of millions of dollars. It spent $296.6 million in the 2024 cycle. In the 2026 cycle Elon Musk became its biggest donor, giving $158 million that it passed on to Texas PAC, the main outside backer of Ken Paxton's losing Senate run.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+    { "url": "https://news.bgov.com/bloomberg-government-news/musk-powers-republican-pacs-to-367-million-fundraising-haul", "title": "Musk powers Republican PACs to $367 million fundraising haul — Bloomberg Government" },
+    { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
+    { "url": "https://www.cnn.com/2026/10/16/politics/musk-gop-support-texas-senate-race-hnk", "title": "Musk contributed more than $150 million to bolster GOP in Texas Senate race, filings show — CNN" }
+  ],
+  "finances": [
+    {
+      "cycle": 2024,
+      "spent_usd": 296600000,
+      "description": "About $211M of it on independent expenditures, the third-highest of any super PAC.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" }
+      ]
+    },
+    {
+      "cycle": 2026,
+      "description": "Raised $253.7M through June 30, 2026, then $273M in July–September alone, including Musk's $158M; it planned about $350M of ads across eight Senate races.",
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/senate-leadership-fund-5/", "title": "Senate Leadership Fund — FactCheck.org" },
+        { "url": "https://news.bgov.com/bloomberg-government-news/musk-powers-republican-pacs-to-367-million-fundraising-haul", "title": "Musk powers Republican PACs to $367 million fundraising haul — Bloomberg Government" },
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "donor",
+      "description": "Gave $10 million in 2023–24, then $158 million in the 2026 cycle (other tallies say $168 million), making him its biggest donor; it passed the same $158 million to Texas PAC, the main outside backer of Ken Paxton.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
+        { "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html", "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million — CNBC" },
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" }
+      ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "donor",
+      "description": "Gave $30 million in 2023–24, its largest individual donor that cycle, after $5 million in 2022.",
+      "start_year": 2022,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "Gave $27 million in 2023–24 and at least $1 million in the first half of 2025.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2026-election/republican-super-pacs-bank-millions-ahead-midterm-battles-rcna222115", "title": "Republican super PACs bank millions ahead of midterm battles — NBC News" }
+      ]
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "donor",
+      "description": "Gave $15 million in 2023–24 and $30 million in March 2026.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://thehill.com/homenews/campaign/5834966-campaign-finance-reports-midterm-dynamics/", "title": "Democrats' fundraising dominates key midterm races: What we learned from the latest campaign filings — The Hill" },
+        { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "A steady top donor: $10 million in 2020, $10 million in 2022, $9 million in 2024 and $20 million in the 2026 cycle.",
+      "start_year": 2020,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2020-08-21/senate-leadership-fund-gets-10-million-boost-from-schwarzman", "title": "Senate Leadership Fund Gets $10 Million Boost From Schwarzman — Bloomberg" },
+        { "url": "https://thehill.com/lobbying/3720141-here-are-the-biggest-donors-in-the-midterm-elections/", "title": "Here are the 10 biggest donors in the midterm elections — The Hill" },
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+      ]
+    },
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "donor",
+      "description": "Gave $1 million in 2023–24.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ken Paxton",
+      "slug": "ken-paxton",
+      "relationship_type": "funded_by",
+      "description": "Passed $158 million, the same amount Musk had given it, to Texas PAC, the largest outside backer of Paxton's 2026 Senate run, which he lost to Democrat James Talarico.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/10/16/politics/musk-gop-support-texas-senate-race-hnk", "title": "Musk contributed more than $150 million to bolster GOP in Texas Senate race, filings show — CNN" },
+        { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and campaign-finance reporting. Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

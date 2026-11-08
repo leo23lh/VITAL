@@ -158,6 +158,30 @@
       "sources": [
         { "url": "https://nkytribune.com/?p=479890", "title": "Thomas Massie, facing opposition from Trump, gets a hand from billionaire megadonor Jeff Yass — NKyTribune" }
       ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "funded_by",
+      "description": "Gave $16 million in the first half of 2025, the largest gift that period.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Senate Leadership Fund",
+      "slug": "senate-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "Gave $1 million in 2023–24.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -202,6 +226,7 @@
           {
             "name": "MAGA Inc.",
             "slug": "donald-trump",
+            "org": "maga-inc",
             "kind": "super-pac",
             "side": "R",
             "amount_usd": 16000000,
@@ -296,6 +321,7 @@
         {
           "name": "MAGA Inc.",
           "slug": "donald-trump",
+          "org": "maga-inc",
           "kind": "super-pac",
           "side": "R",
           "basis": "$16M in 2025; Trump says he will keep fundraising after the midterms.",

@@ -242,6 +242,18 @@
         { "url": "https://missoulacurrent.com/kari-lake-racist-tweet/", "title": "Kari Lake's campaign manager posted racist tweet — Arizona Mirror via Missoula Current" },
         { "url": "https://www.rawstory.com/colton-duncan", "title": "The 'most important person' on Kari Lake's campaign mocked Native Americans in a racist tweet — Raw Story" }
       ]
+    },
+    {
+      "name": "Fairshake",
+      "slug": "fairshake",
+      "relationship_type": "enemy",
+      "description": "Spent $10 million backing Democrat Ruben Gallego against Lake in Arizona's 2024 Senate race.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

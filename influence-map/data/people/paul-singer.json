@@ -111,6 +111,42 @@
       "sources": [
         { "url": "https://forward.com/fast-forward/386396/steve-bannon-war-paul-singer-funding-of-anti-trump-research", "title": "Paul Singer faces 'off the chain' wrath of Steve Bannon over Trump dossier — The Forward" }
       ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "funded_by",
+      "description": "Gave $5 million in August 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" }
+      ]
+    },
+    {
+      "name": "Senate Leadership Fund",
+      "slug": "senate-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "Gave $27 million in 2023–24 and at least $1 million in the first half of 2025.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2026-election/republican-super-pacs-bank-millions-ahead-midterm-battles-rcna222115", "title": "Republican super PACs bank millions ahead of midterm battles — NBC News" }
+      ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "One of his top recipients in 2024 and 2026, with at least $1 million in the first half of 2025.",
+      "start_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2026-election/republican-super-pacs-bank-millions-ahead-midterm-battles-rcna222115", "title": "Republican super PACs bank millions ahead of midterm battles — NBC News" },
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+      ]
     }
   ],
   "affiliations": [],
@@ -141,6 +177,7 @@
           },
           {
             "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
             "kind": "super-pac",
             "side": "R",
             "description": "At least $1M in the first half of 2025; among his top recipients.",
@@ -151,6 +188,7 @@
           },
           {
             "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
             "kind": "super-pac",
             "side": "R",
             "description": "At least $1M in the first half of 2025; among his top recipients.",
@@ -175,6 +213,7 @@
           {
             "name": "MAGA Inc.",
             "slug": "donald-trump",
+            "org": "maga-inc",
             "kind": "super-pac",
             "side": "R",
             "amount_usd": 5000000,

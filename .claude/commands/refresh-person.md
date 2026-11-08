@@ -62,8 +62,10 @@ optionally followed by context about what to focus on.
      politics shifted since `last_researched`, closing the previous one.
      For donors, update `giving` (CLAUDE.md "Giving"): add the latest cycle's
      totals and recipients and refresh the `outlook`.
-   - For each connection to someone with a file: add or update the inverse
+   - For each connection to someone with a file (a person in DATA_DIR or an
+     organization in `influence-map/data/orgs/`): add or update the inverse
      record in their file (inverse type, same years, sources and confidence).
+     Check the organizations as `/add-person` step 4d describes.
    - For each connection you removed: remove the matching inverse record from the
      other person's file, if there is one.
    - In other people's files, only touch `connections`; don't change their
@@ -78,9 +80,10 @@ optionally followed by context about what to focus on.
 
 8. **Update the phone page.** If `influence-map/artifact.json` exists, copy every
    file you changed into that page's database: ArtifactData `list` (its `url`,
-   collection `people`) for the current versions, then one `batch` of `set`
-   writes with `doc_id` = slug, `file_path` = the JSON file and `if_version` =
-   the listed version. If this fails, say so and suggest `/sync-map` later.
+   collection `people`, and `orgs` for organization files) for the current
+   versions, then one `batch` of `set` writes with the matching collection,
+   `doc_id` = slug, `file_path` = the JSON file and `if_version` = the listed
+   version. If this fails, say so and suggest `/sync-map` later.
 
 9. **Report** what changed:
    - **Profile changes** — new or corrected roles, timeline entries, affiliations.

@@ -165,6 +165,30 @@
         { "url": "https://www.cnbc.com/2024/01/30/ken-griffin-donated-5-million-to-nikki-haley-super-pac.html", "title": "Ken Griffin donated $5 million to Nikki Haley super PAC — CNBC" },
         { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
       ]
+    },
+    {
+      "name": "Senate Leadership Fund",
+      "slug": "senate-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "Gave $30 million in 2023–24, its largest individual donor that cycle, after $5 million in 2022.",
+      "start_year": 2022,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "Gave $10 million in 2022 and more than $16 million in the 2024 cycle.",
+      "start_year": 2022,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+        { "url": "https://edition.cnn.com/2024/10/25/politics/campaign-fundraising-house-senate", "title": "In race for Congress, Democrats burn through cash while outraising Republicans — CNN" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where news pages could not be opened and OpenSecrets was blocked; facts were confirmed with web searches tied to each cited URL and with the Wikipedia article via its API.",
@@ -207,6 +231,7 @@
         "recipients": [
           {
             "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
             "kind": "super-pac",
             "side": "R",
             "amount_usd": 16000000,
@@ -217,6 +242,7 @@
           },
           {
             "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
             "kind": "super-pac",
             "side": "R",
             "description": "Named among its main 2024 funders.",

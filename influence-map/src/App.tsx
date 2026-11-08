@@ -48,7 +48,13 @@ export type Compass = Map<string, { x?: number; inferred?: boolean }>;
  */
 function compassSpots(nodes: GraphNode[], pairs: PairLink[], year: number | null): Compass {
   const compass: Compass = new Map();
-  for (const n of nodes) compass.set(n.id, { x: leanAt(n.person?.lean, year)?.value });
+  for (const n of nodes) {
+    // An organization's side (R or D) places it gently, like a lean estimated from links.
+    const side = n.org?.side;
+    const seed = side === 'R' ? 2 : side === 'D' ? -2 : undefined;
+    compass.set(n.id, seed != null ? { x: seed, inferred: true } : { x: leanAt(n.person?.lean, year)?.value });
+  }
+  const sides = new Set(nodes.filter((n) => n.org?.side === 'R' || n.org?.side === 'D').map((n) => n.id));
   // Spread inferred leans a few steps out, so clusters with no researched lean still find a side.
   for (let pass = 0; pass < 3; pass++) {
     const sums = new Map<string, { w: number; x: number }>();
@@ -62,6 +68,7 @@ function compassSpots(nodes: GraphNode[], pairs: PairLink[], year: number | null
         const me = compass.get(self);
         const them = compass.get(other);
         if (!me || (me.x != null && !me.inferred) || them?.x == null || p.closeness <= 0) continue;
+        if (sides.has(self)) continue;
         // Researched neighbours count fully; inferred ones count half.
         const w = p.closeness * (them.inferred ? 0.5 : 1);
         const s = sums.get(self) ?? { w: 0, x: 0 };
@@ -92,13 +99,14 @@ function currentLayout(): Layout {
 }
 
 export default function App() {
-  const { people, errors, loaded, fetchError, lastUpdated, live } = usePeople();
+  const { people, orgs, errors, loaded, fetchError, lastUpdated, live } = usePeople();
   const [selection, setSelection] = useState<Selection>(null);
   const [query, setQuery] = useState('');
   const [hidden, setHidden] = useState<Set<EdgeFamily>>(new Set());
   const [showSuggested, setShowSuggested] = useState(false);
   const [colorAll, setColorAll] = useState(true);
   const [showPhotos, setShowPhotos] = useState(true);
+  const [showOrgs, setShowOrgs] = useState(true);
   const [view, setView] = useState<View>({ kind: 'all' });
   const [year, setYear] = useState<number | null>(null);
   const [menu, setMenu] = useState<MenuName | null>(null);
@@ -117,14 +125,14 @@ export default function App() {
 
   // Rebuild when files change, keeping existing nodes where they were.
   const graph = useMemo(() => {
-    const g = buildGraph(people);
+    const g = buildGraph(people, orgs);
     for (const n of g.nodes) {
       const prev = positions.current.get(n.id);
       if (prev) Object.assign(n, { x: prev.x, y: prev.y, vx: prev.vx, vy: prev.vy });
     }
     positions.current = new Map(g.nodes.map((n) => [n.id, n]));
     return g;
-  }, [people]);
+  }, [people, orgs]);
 
   const span = useMemo(() => yearSpan(graph.links), [graph]);
   const byId = useMemo(() => new Map(graph.nodes.map((n) => [n.id, n])), [graph]);
@@ -136,9 +144,10 @@ export default function App() {
         const fam = familyOf(l);
         if (hidden.has(fam)) return false;
         if (year != null && !activeInYear(l, year)) return false;
+        if (!showOrgs && (byId.get(l.sourceId)?.isOrg || byId.get(l.targetId)?.isOrg)) return false;
         return true;
       }),
-    [graph, hidden, year],
+    [graph, byId, hidden, year, showOrgs],
   );
 
   const selectedNodeId = selection?.kind === 'node' ? selection.id : null;
@@ -154,7 +163,8 @@ export default function App() {
       for (const id of neighborhood(view.id, filteredLinks, view.depth)) ids.add(id);
     } else {
       // Groups and lenses keep everyone on the map; the view's core people go in the middle.
-      for (const n of graph.nodes) if (n.researched || (showSuggested && touched.has(n.id))) ids.add(n.id);
+      for (const n of graph.nodes)
+        if ((n.researched && (showOrgs || !n.isOrg)) || (showSuggested && touched.has(n.id))) ids.add(n.id);
     }
     // The selected person always brings their own connections along, suggested ones included.
     if (selectedNodeId && byId.has(selectedNodeId)) {
@@ -190,7 +200,7 @@ export default function App() {
     const pairs = mergePairs(links);
     const compass = view.kind === 'all' ? compassSpots(nodes, pairs, year) : null;
     return { nodes, links, pairs, radial, compass };
-  }, [graph, byId, filteredLinks, view, showSuggested, selectedNodeId, year]);
+  }, [graph, byId, filteredLinks, view, showSuggested, showOrgs, selectedNodeId, year]);
 
   const counts = useMemo(() => {
     const c = Object.fromEntries(EDGE_FAMILIES.map((f) => [f.id, 0])) as Record<EdgeFamily, number>;
@@ -245,7 +255,8 @@ export default function App() {
   const empty = loaded && people.length === 0;
 
   const stats = {
-    researched: graph.nodes.filter((n) => n.researched).length,
+    researched: graph.nodes.filter((n) => n.researched && !n.isOrg).length,
+    orgs: graph.nodes.filter((n) => n.isOrg).length,
     suggested: graph.nodes.filter((n) => !n.researched).length,
     links: graph.links.length,
   };
@@ -264,7 +275,7 @@ export default function App() {
         nameOf={(id) => byId.get(id)?.name ?? id}
         menu={menu}
         onMenu={setMenu}
-        filtersActive={hidden.size + (year != null ? 1 : 0) + (showSuggested ? 1 : 0) + (colorAll ? 0 : 1)}
+        filtersActive={hidden.size + (year != null ? 1 : 0) + (showSuggested ? 1 : 0) + (colorAll ? 0 : 1) + (showOrgs ? 0 : 1)}
         live={live}
         lastUpdated={lastUpdated}
       />
@@ -274,7 +285,7 @@ export default function App() {
           {fetchError && <div>Could not load data: {fetchError}</div>}
           {errors.map((e) => (
             <div key={e.file}>
-              data/people/{e.file}: {e.message}
+              {e.file.startsWith('orgs/') ? `data/${e.file}` : `data/people/${e.file}`}: {e.message}
             </div>
           ))}
           {graph.skipped.map((s, i) => (
@@ -359,6 +370,8 @@ export default function App() {
               onColorAll={setColorAll}
               showPhotos={showPhotos}
               onShowPhotos={setShowPhotos}
+              showOrgs={showOrgs}
+              onShowOrgs={setShowOrgs}
               year={year}
               span={span}
               onYear={setYear}

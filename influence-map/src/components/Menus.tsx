@@ -25,10 +25,12 @@ interface Props {
   onColorAll: (v: boolean) => void;
   showPhotos: boolean;
   onShowPhotos: (v: boolean) => void;
+  showOrgs: boolean;
+  onShowOrgs: (v: boolean) => void;
   year: number | null;
   span: [number, number];
   onYear: (y: number | null) => void;
-  stats: { researched: number; suggested: number; links: number };
+  stats: { researched: number; orgs: number; suggested: number; links: number };
   live: boolean;
   lastUpdated: Date | null;
   onFit: () => void;
@@ -164,6 +166,12 @@ function FiltersMenu(props: Props) {
         </span>
       </label>
       <label className="check-row">
+        <input type="checkbox" checked={props.showOrgs} onChange={(e) => props.onShowOrgs(e.target.checked)} />
+        <span className="check-label">
+          Show organizations <span className="muted">· super PACs, think tanks and firms, drawn as squares</span>
+        </span>
+      </label>
+      <label className="check-row">
         <input type="checkbox" checked={props.showSuggested} onChange={(e) => props.onShowSuggested(e.target.checked)} />
         <span className="check-label">
           Show all suggested people <span className="muted">· otherwise only around the person you tap</span>
@@ -184,6 +192,15 @@ function FiltersMenu(props: Props) {
           </span>
         ))}
         <span className="key-item">
+          <span className="key-square side-R" /> Organization, Republican side
+        </span>
+        <span className="key-item">
+          <span className="key-square side-D" /> Organization, Democratic side
+        </span>
+        <span className="key-item">
+          <span className="key-square" /> Organization, other
+        </span>
+        <span className="key-item">
           <span className="key-dot suggested" /> Suggested (no file yet)
         </span>
       </div>
@@ -191,7 +208,7 @@ function FiltersMenu(props: Props) {
 
       <div className="menu-foot">
         <span className="muted small">
-          {props.stats.researched} researched · {props.stats.suggested} suggested · {props.stats.links} links
+          {props.stats.researched} people · {props.stats.orgs} organizations · {props.stats.suggested} suggested · {props.stats.links} links
           {props.live && props.lastUpdated && ` · updated ${props.lastUpdated.toLocaleTimeString()}`}
         </span>
         <span className="menu-foot-actions">

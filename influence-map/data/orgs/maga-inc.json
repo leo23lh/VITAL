@@ -1,0 +1,174 @@
+{
+  "name": "MAGA Inc.",
+  "aliases": [],
+  "kind": "super-pac",
+  "side": "R",
+  "founded": 2022,
+  "groups": [],
+  "summary": "The main pro-Trump super PAC, set up six weeks before the 2022 midterms. In the 2024 cycle it raised about $410.5 million and spent more than $456.8 million, mostly backing Trump and attacking Biden, Harris, and in the primary DeSantis and Haley. It kept raising from megadonors after the election, passed $400 million in cash in 2026, then spent about $277 million in the midterms, much of it through affiliated groups such as No Going Back PAC.",
+  "sources": [
+    { "url": "https://www.factcheck.org/2026/10/maga-inc-3/", "title": "MAGA Inc. — FactCheck.org" },
+    { "url": "https://www.factcheck.org/2024/01/maga-inc-2", "title": "MAGA Inc. — FactCheck.org (2024)" },
+    { "url": "https://www.brennancenter.org/our-work/analysis-opinion/pro-trump-super-pac-raises-record-breaking-305-million", "title": "Pro-Trump super PAC raises record-breaking $305 million — Brennan Center" },
+    { "url": "https://www.inquirer.com/politics/nation/trump-super-pac-midterm-elections-20261021.html", "title": "Trump super PAC and the midterm elections — Philadelphia Inquirer" }
+  ],
+  "finances": [
+    {
+      "cycle": 2024,
+      "raised_usd": 410500000,
+      "spent_usd": 456800000,
+      "description": "About $376.9M of the spending was independent expenditures.",
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/10/maga-inc-3/", "title": "MAGA Inc. — FactCheck.org" }
+      ]
+    },
+    {
+      "cycle": 2026,
+      "description": "Raised nearly $177M in the first half of 2025 and $102M in the second; held more than $400M by mid-2026, then spent about $277M for Republicans in the midterms, including $200M moved to No Going Back PAC.",
+      "sources": [
+        { "url": "https://www.notus.org/donald-trump/elon-musk-crypto-trump-super-pac-maga-inc", "title": "Elon Musk, crypto help boost Trump super PAC to new heights — NOTUS" },
+        { "url": "https://kvia.com/politics/cnn-us-politics/2026/01/02/trumps-super-pac-builds-a-nearly-300-million-cash-stockpile-fueling-unrivaled-fundraising-pace/", "title": "Trump's super PAC builds a nearly $300 million cash stockpile — CNN via KVIA" },
+        { "url": "https://news.bgov.com/bloomberg-government-news/maga-inc-war-chest-climbs-to-404-million-after-no-spending-1", "title": "MAGA Inc. war chest climbs to $404 million — Bloomberg Government" },
+        { "url": "https://www.inquirer.com/politics/nation/trump-super-pac-midterm-elections-20261021.html", "title": "Trump super PAC and the midterm elections — Philadelphia Inquirer" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "The main pro-Trump super PAC: about $376.9 million in independent expenditures in the 2024 cycle, mostly backing Trump; since 2025 it has spent for Trump-endorsed Republicans in the midterms.",
+      "start_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/10/maga-inc-3/", "title": "MAGA Inc. — FactCheck.org" },
+        { "url": "https://www.factcheck.org/2024/01/maga-inc-2", "title": "MAGA Inc. — FactCheck.org (2024)" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "enemy",
+      "description": "Much of its 2024 spending attacked Joe Biden and then Harris.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/10/maga-inc-3/", "title": "MAGA Inc. — FactCheck.org" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "enemy",
+      "description": "Spent against DeSantis in the 2024 Republican primary.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/10/maga-inc-3/", "title": "MAGA Inc. — FactCheck.org" }
+      ]
+    },
+    {
+      "name": "Timothy Mellon",
+      "slug": "timothy-mellon",
+      "relationship_type": "donor",
+      "description": "Its largest donor: about $150 million in the 2024 cycle, including $50 million on May 31, 2024, and $2 million more in 2025.",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/timothy-mellon-leads-huge-month-trump-megadonors-pouring-cash-into-election-rcna158204", "title": "Timothy Mellon leads huge month for Trump megadonors — NBC News" }
+      ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "donor",
+      "description": "Brockman and his wife gave $25 million in September 2025, nearly a quarter of what it raised in the second half of 2025.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/01/02/politics/trump-super-pac-maga-inc-fundraising", "title": "Trump's super PAC builds $300 million cash stockpile — CNN" },
+        { "url": "https://kvia.com/politics/cnn-us-politics/2026/01/02/trumps-super-pac-builds-a-nearly-300-million-cash-stockpile-fueling-unrivaled-fundraising-pace/", "title": "Trump's super PAC builds a nearly $300 million cash stockpile — CNN via KVIA" }
+      ]
+    },
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "donor",
+      "description": "Gave $16 million in the first half of 2025, the largest gift that period.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "donor",
+      "description": "Gave $5 million on June 27, 2025, weeks after his public split with Trump.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.notus.org/donald-trump/elon-musk-crypto-trump-super-pac-maga-inc", "title": "Elon Musk, crypto help boost Trump super PAC to new heights — NOTUS" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "Gave $5 million in August 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "Gave $5 million in September 2026, one of three donors behind three-quarters of its $24 million that month.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "donor",
+      "description": "Gave $1 million in July 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" }
+      ]
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "donor",
+      "description": "Named among its large 2026 donors; the amount was not reported.",
+      "start_year": 2026,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.axios.com/2026/11/06/scoop-trump-to-keep-fundraising-hoping-to-retain-political-muscle", "title": "Scoop: Trump to keep fundraising, hoping to retain political muscle — Axios" },
+        { "url": "https://www.inquirer.com/politics/nation/trump-super-pac-midterm-elections-20261021.html", "title": "Trump super PAC and the midterm elections — Philadelphia Inquirer" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and campaign-finance reporting. Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

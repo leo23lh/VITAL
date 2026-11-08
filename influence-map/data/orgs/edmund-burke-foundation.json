@@ -1,0 +1,122 @@
+{
+  "name": "Edmund Burke Foundation",
+  "aliases": ["NatCon", "National Conservatism Conference"],
+  "kind": "think-tank",
+  "side": "R",
+  "founded": 2019,
+  "groups": ["natcon"],
+  "summary": "A Washington-based foundation led by Yoram Hazony that runs the National Conservatism (NatCon) conferences, held since 2019 in Washington, London, Rome, Orlando, Miami, Brussels and elsewhere. Billed speakers have included JD Vance, Josh Hawley, Marco Rubio, Peter Thiel, Tucker Carlson, Giorgia Meloni, Ron DeSantis and Viktor Orbán.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" },
+    { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+  ],
+  "connections": [
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and chairman; organizer of every NatCon since 2019.",
+      "start_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" },
+        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" }
+      ]
+    },
+    {
+      "name": "David Brog",
+      "slug": "david-brog",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and president.",
+      "start_year": 2019,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    },
+    {
+      "name": "Ofir Haivry",
+      "slug": "ofir-haivry",
+      "relationship_type": "co-founder",
+      "description": "Co-founder; vice president and director.",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://danubeinstitute.hu/en/authors/dr-ofir-haivry", "title": "Dr. Ofir Haivry — Danube Institute" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    },
+    {
+      "name": "Christopher DeMuth",
+      "slug": "christopher-demuth",
+      "relationship_type": "employee",
+      "description": "A director of the foundation and co-organizer of the NatCon conferences since 2019.",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_DeMuth", "title": "Christopher DeMuth — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    },
+    {
+      "name": "James Lucier",
+      "slug": "james-lucier",
+      "relationship_type": "employee",
+      "description": "Treasurer and a director, per its 2022 filing.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    },
+    {
+      "name": "James Orr",
+      "slug": "james-orr",
+      "relationship_type": "employee",
+      "description": "Chairman of its UK arm.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Will Chamberlain",
+      "slug": "will-chamberlain",
+      "relationship_type": "employee",
+      "description": "Vice president for external affairs; co-drafted its statement of national conservative principles.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dailysignal.com/author/will-chamberlain/", "title": "Will Chamberlain — Daily Signal author page" }
+      ]
+    },
+    {
+      "name": "Rachel Bovard",
+      "slug": "rachel-bovard",
+      "relationship_type": "employee",
+      "description": "Board member and regular NatCon speaker.",
+      "start_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.dailysignal.com/2025/09/05/6-takeaways-national-conservatism-conference/", "title": "6 Takeaways From the National Conservatism Conference — Daily Signal" },
+        { "url": "https://www.dailysignal.com/2025/08/31/national-conservatism-conference-promises-debate-amid-unity/", "title": "National Conservatism Conference Promises Debate Amid Unity — Daily Signal" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "donor",
+      "description": "The Thomas D. Klingenstein Fund gave it $100,058 in December 2019 and $201,258 in 2024.",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.influencewatch.org/person/thomas-d-klingenstein/", "title": "Thomas D. Klingenstein — InfluenceWatch" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and campaign-finance reporting. Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

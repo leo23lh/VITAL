@@ -15,10 +15,14 @@ import {
   GIVING_SIDES,
   GROUPS,
   INVERSE_TYPE,
+  ORG_KINDS,
+  ORG_RELATIONSHIP_TYPES,
   RECIPIENT_KINDS,
   RELATIONSHIP_TYPES,
   SECTORS,
   formatUsd,
+  type Org,
+  type OrgFile,
   type Person,
   type PersonFile,
 } from './schema';
@@ -168,6 +172,8 @@ describe('validatePeople', () => {
     expect(validator.GROUPS).toEqual(GROUPS.map((g) => g.id));
     expect(validator.RECIPIENT_KINDS).toEqual(RECIPIENT_KINDS.map((k) => k.id));
     expect(validator.GIVING_SIDES).toEqual([...GIVING_SIDES]);
+    expect(validator.ORG_KINDS).toEqual(ORG_KINDS.map((k) => k.id));
+    expect(validator.ORG_RELATIONSHIP_TYPES).toEqual([...ORG_RELATIONSHIP_TYPES]);
   });
 
   it("allows a family link only to the owner's self-added file", () => {
@@ -343,5 +349,69 @@ describe('giving', () => {
     expect(formatUsd(16_000_000)).toBe('$16M');
     expect(formatUsd(1_200_000_000)).toBe('$1.2B');
     expect(formatUsd(500_000)).toBe('$500K');
+  });
+});
+
+function org(slug: string, name: string, connections: Org['connections'] = [], extra: Partial<Org> = {}): OrgFile {
+  return {
+    slug,
+    file: `${slug}.json`,
+    data: { name, kind: 'super-pac', side: 'R', summary: 'Summary', sources: src(0), connections, last_researched: '2026-11-08', ...extra },
+  };
+}
+
+describe('organizations', () => {
+  const donor = person('donor', 'Donor', [conn('pac', 'The PAC', 'funded_by')]);
+  const candidate = person('cand', 'Candidate', [conn('pac', 'The PAC', 'donor')]);
+  const founder = person('boss', 'Boss', [conn('pac', 'The PAC', 'co-founder')]);
+  const pac = org('pac', 'The PAC', [
+    conn('donor', 'Donor', 'donor'),
+    conn('cand', 'Candidate', 'funded_by'),
+    conn('boss', 'Boss', 'co-founder'),
+  ]);
+
+  it('become square nodes that money flows through', () => {
+    const g = buildGraph([donor, candidate, founder], [pac]);
+    const node = g.nodes.find((n) => n.id === 'pac')!;
+    expect(node.isOrg).toBe(true);
+    expect(node.researched).toBe(true);
+    expect(node.degree).toBe(3);
+    const isOrg = (id: string) => id === 'pac';
+    const money = g.links.filter((l) => l.group === 'funding').map((l) => `${l.sourceId}->${l.targetId}`).sort();
+    expect(money).toEqual(['donor->pac', 'pac->cand']);
+    const founded = g.links.find((l) => l.group === 'co-founder')!;
+    expect(describeLink(founded, (id) => id, isOrg)).toBe('boss founded pac');
+    expect(roleOfOther(founded, 'boss', isOrg)).toBe('founded it');
+    expect(roleOfOther(founded, 'pac', isOrg)).toBe('founder');
+  });
+
+  it('pass validation with two-way links', () => {
+    const { errors } = validator.validatePeople([donor, candidate, founder], { orgs: [pac] });
+    expect(errors).toEqual([]);
+  });
+
+  it('need back-links, allowed types and their own fields', () => {
+    const bad = org('pac', 'The PAC', [conn('donor', 'Donor', 'donor'), conn('boss', 'Boss', 'mentor')], {
+      kind: 'club' as never,
+      public_figure: true,
+    } as Partial<Org>);
+    const text = validator
+      .validatePeople([person('donor', 'Donor'), person('boss', 'Boss', [conn('pac', 'The PAC', 'protégé')])], { orgs: [bad] })
+      .errors.map((e: { message: string }) => e.message)
+      .join('\n');
+    expect(text).toMatch(/"kind" must be one of/);
+    expect(text).toMatch(/person field/);
+    expect(text).toMatch(/can't be a "mentor"/);
+    expect(text).toMatch(/no connection back to "pac"/);
+  });
+
+  it('can be named from a giving entry', () => {
+    const giving = {
+      cycles: [{ cycle: 2026, sources: src(2), recipients: [{ name: 'The PAC', org: 'pac', kind: 'super-pac', sources: src(3) }] }],
+    };
+    const p = person('donor', 'Donor', [conn('pac', 'The PAC', 'funded_by')], { giving } as Partial<Person>);
+    expect(validator.validatePeople([p, candidate, founder], { orgs: [pac] }).errors).toEqual([]);
+    const missing = validator.validatePeople([p, candidate, founder], { orgs: [] }).errors;
+    expect(missing.map((e: { message: string }) => e.message).join('\n')).toMatch(/no file in data\/orgs/);
   });
 });

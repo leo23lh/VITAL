@@ -21,7 +21,9 @@ WHAT EXISTS
   lead photo to public/photos/ and writes the photo field. Wikipedia often
   rate-limits this machine (429): run it in the background and retry later.
 - Slash commands in .claude/commands/: /add-person <name> [context],
-  /refresh-person <name>, /sync-map.
+  /refresh-person <name>, /add-org <name> [context], /sync-map.
+- Organizations: one file each in influence-map/data/orgs/ (squares on the map;
+  phone page collection "orgs"). See CLAUDE.md "Organizations".
 - Phone page: private claude.ai Artifact https://claude.ai/artifact/VgA6Dv6LnFyMYxgK4b267q
   (also in influence-map/artifact.json). It reads its database collection "people"
   (doc_id = slug, body = the file's JSON). After changing files: ArtifactData list

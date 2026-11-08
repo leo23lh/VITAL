@@ -96,7 +96,13 @@ c. For every existing person (or, in a network of more than about 25 people,
    who came up in step 3), run a targeted search for both names together. Check
    overlapping employers, offices, campaigns, organizations and years.
 
-d. Record a connection only if a source documents it. Shared employer at the
+d. Check the organizations in `influence-map/data/orgs/` too. If the person
+   gives to, founded, runs or works for one of them, or it spent for or against
+   them, link the person to the organization (types as CLAUDE.md
+   "Organizations" describes) and point any matching `giving` entry at it with
+   `org`.
+
+e. Record a connection only if a source documents it. Shared employer at the
    same time with no evidence of direct work together → `colleague` at
    confidence 0.5 or lower, and say that's the basis in the description.
 
@@ -124,7 +130,8 @@ a. Write `DATA_DIR/<slug>.json` in the CLAUDE.md format, with `last_researched`
    totals and main recipients per cycle (latest two cycles at least), and an
    `outlook` for the next cycle that rests only on reporting.
 
-b. **Reciprocal links.** For every connection whose `slug` has a file in DATA_DIR,
+b. **Reciprocal links.** For every connection whose `slug` has a file in DATA_DIR
+   (or in `influence-map/data/orgs/` for an organization),
    open that file and add the inverse record to its `connections` (inverse type
    from the table; same years, sources and confidence; description written from
    that person's side). If a record of that type for this pair already exists,
@@ -157,6 +164,8 @@ database, so the graph on the user's phone updates:
 2. One ArtifactData `batch` of `set` writes (up to 50 per batch): collection
    `people`, `doc_id` = the slug, `file_path` = the person's JSON file, and
    `if_version` = the version from step 1 (leave it out for someone not stored yet).
+   Organization files that got a back-link go to collection `orgs` the same way
+   (list that collection for their versions).
 
 3. If step 6c saved a photo, publish it next to the page as CLAUDE.md "Phone
    page → Photos" describes.

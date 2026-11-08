@@ -254,6 +254,44 @@
         { "url": "https://forward.com/news/311662/leader-of-christian-zionists-named-head-of-adelson-campus-anti-bds-group/?amp=1", "title": "Leader of Christian Zionists named head of Adelson campus anti-BDS group — The Forward" },
         { "url": "https://www.timesofisrael.com/how-sheldon-adelson-just-might-be-turning-the-tide-against-bds-on-us-campuses/", "title": "How Sheldon Adelson just might be turning the tide against BDS on US campuses — Times of Israel" }
       ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "funded_by",
+      "description": "Named among its large 2026 donors; the amount was not reported.",
+      "start_year": 2026,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.axios.com/2026/11/06/scoop-trump-to-keep-fundraising-hoping-to-retain-political-muscle", "title": "Scoop: Trump to keep fundraising, hoping to retain political muscle — Axios" },
+        { "url": "https://www.inquirer.com/politics/nation/trump-super-pac-midterm-elections-20261021.html", "title": "Trump super PAC and the midterm elections — Philadelphia Inquirer" }
+      ]
+    },
+    {
+      "name": "Senate Leadership Fund",
+      "slug": "senate-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "Gave $15 million in 2023–24 and $30 million in March 2026.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://thehill.com/homenews/campaign/5834966-campaign-finance-reports-midterm-dynamics/", "title": "Democrats' fundraising dominates key midterm races: What we learned from the latest campaign filings — The Hill" },
+        { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" }
+      ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "Gave $10 million in early 2026, part of a $40 million boost to Republican congressional super PACs.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://thehill.com/homenews/campaign/5834966-campaign-finance-reports-midterm-dynamics/", "title": "Democrats' fundraising dominates key midterm races: What we learned from the latest campaign filings — The Hill" },
+        { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -285,6 +323,7 @@
         "recipients": [
           {
             "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
             "kind": "super-pac",
             "side": "R",
             "amount_usd": 30000000,
@@ -296,6 +335,7 @@
           },
           {
             "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
             "kind": "super-pac",
             "side": "R",
             "amount_usd": 10000000,
@@ -307,6 +347,7 @@
           {
             "name": "MAGA Inc.",
             "slug": "donald-trump",
+            "org": "maga-inc",
             "kind": "super-pac",
             "side": "R",
             "description": "Named among its big 2025–26 donors; amount not reported.",

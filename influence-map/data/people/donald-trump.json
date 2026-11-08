@@ -1561,6 +1561,41 @@
         { "url": "https://projects.propublica.org/trump-team-financial-disclosures/appointees/hamilton-gene", "title": "Gene Hamilton — ProPublica Trump Team financial disclosures" },
         { "url": "https://fedsoc.org/bio/gene-hamilton", "title": "Gene Hamilton — Federalist Society" }
       ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "donor",
+      "description": "MAGA Inc., his main super PAC, spent about $376.9 million on independent expenditures in the 2024 cycle, mostly backing him.",
+      "start_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/10/maga-inc-3/", "title": "MAGA Inc. — FactCheck.org" },
+        { "url": "https://www.factcheck.org/2024/01/maga-inc-2", "title": "MAGA Inc. — FactCheck.org (2024)" }
+      ]
+    },
+    {
+      "name": "America PAC",
+      "slug": "america-pac",
+      "relationship_type": "donor",
+      "description": "Musk's America PAC ran much of his 2024 swing-state canvassing.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Claremont Institute",
+      "slug": "claremont-institute",
+      "relationship_type": "ally",
+      "description": "The Claremont Institute was an early intellectual defender of Trump, supplied ideas and staff to his first administration, and received a National Humanities Medal from him in 2019.",
+      "start_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Claremont_Institute", "title": "Claremont Institute — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [
