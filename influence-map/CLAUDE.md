@@ -37,7 +37,8 @@ These apply to every command and every edit to `data/people/` and `data/orgs/`. 
    personal email addresses, ID numbers (SSN, passport, driver's license, etc.),
    health information, or details about private relatives or minors. `family`
    connections are allowed only when the relationship is publicly documented and
-   the relative is a public figure in their own right. Never name children.
+   the relative is a public figure in their own right; the same goes for
+   `friend` connections. Never name children.
    **One exception:** the map's owner may add themselves. Their file has
    `"public_figure": false` and `"self_added": true`, holds only what they
    provide (sources `["user-provided"]`), gets no web research and no photo, and
@@ -205,7 +206,7 @@ comes from `lean`:
 - Leave `lean` out when there is no public political record. The person is then
   placed left–right only by their links. No lean for `"public_figure": false`.
 - Links also pull people together: the closer the relationship (family,
-  co-founder, mentor, employer, then donor and ally, then colleague), and the
+  co-founder, mentor, employer, friend, then donor and ally, then colleague), and the
   higher its confidence, the harder it pulls. Rivals barely pull.
 - A researched lean holds firm: links never move that person left or right,
   only up or down. People without a lean are placed left–right by their links,
@@ -391,7 +392,7 @@ recipients stay as `giving` entries. `/add-org` researches one.
   `funded_by` = MAGA Inc. spent for them; `employee` = they lead, staff or sit
   on the board of it (say which in the description); `co-founder` = they
   founded it; `enemy` = it spent against them or they against it. `mentor`,
-  `protégé` and `family` don't apply to organizations.
+  `protégé`, `family` and `friend` don't apply to organizations.
 - **Two-way links** apply as for people: the person's file gets the inverse
   record (`funded_by` MAGA Inc. for a donor, `donor` MAGA Inc. for a candidate it
   backed, `employer` for its staff and board).
@@ -422,6 +423,7 @@ means "Jeff Sessions employed Stephen Miller".
 | `enemy` | publicly documented opposition where one side works against or attacks the other rather than competing with them as an equal: critics, campaigns to defeat or prosecute someone, a boss turning on a subordinate, a feud between people in different arenas (`end_year` as for `rival`) | `enemy` |
 | `co-founder` | founded something together | `co-founder` |
 | `family` | relatives — only if documented and both are public figures | `family` |
+| `friend` | a publicly documented personal tie between two public figures: one officiated or was best man at the other's wedding, godparent, longtime friends by their own public account or reliable reporting, vacations or holidays together reported by major outlets. Record the tie itself, not private details (no locations, guests, children or health) | `friend` |
 
 Two people can have more than one record (e.g. `employer` and later `enemy`).
 Rival or enemy? Ask whether they are competing for the same thing as equals (rival) or whether one is simply opposing the other (enemy). Trump vs Biden in 2020 is a rivalry; Trump vs Soros is enmity.
@@ -488,7 +490,7 @@ on a phone. Its link is in `artifact.json`.
 - **Colors.** Relationship lines are colored by family from the start ("Color
   all lines" is on by default; turned off, lines stay grey until a person is
   selected). Families: Work, Money, Alliance, Current rivalry (yellow), Past
-  rivalry, Current enemy (pink), Past enemy, Personal. A rivalry or enmity is
+  rivalry, Current enemy (pink), Past enemy, Personal (mentor, family, friend). A rivalry or enmity is
   past when its `end_year` is a year; ongoing or undated ones count as current.
   Past ones share their family's color but are drawn dotted (dashed still means
   confidence under 50%). Dots are tinted by sector; organizations are squares

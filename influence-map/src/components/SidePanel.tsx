@@ -747,6 +747,8 @@ function tieLabel(link: GraphLink, anchor: string, isOrg: (id: string) => boolea
       return 'ally of';
     case 'family':
       return 'family of';
+    case 'friend':
+      return 'friend of';
     case 'rival':
       return 'rival of';
     case 'enemy':
@@ -979,7 +981,7 @@ function BondMeter({
       </dl>
       <p className="muted small bond-note">
         Based only on what ties these two: the kinds of tie (family and co-founders count most, then mentors,
-        employers, donors and allies, then colleagues), their confidence, the years they cover, shared workplaces and
+        employers and friends, then donors and allies, then colleagues), their confidence, the years they cover, shared workplaces and
         how well documented it is. How many connections either has doesn't count. A rivalry or enmity now marks the
         bond broken.
       </p>

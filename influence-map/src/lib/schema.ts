@@ -13,6 +13,7 @@ export const RELATIONSHIP_TYPES = [
   'funded_by',
   'co-founder',
   'family',
+  'friend',
 ] as const;
 
 export type RelationshipType = (typeof RELATIONSHIP_TYPES)[number];
@@ -36,6 +37,7 @@ export const INVERSE_TYPE: Record<RelationshipType, RelationshipType> = {
   enemy: 'enemy',
   'co-founder': 'co-founder',
   family: 'family',
+  friend: 'friend',
 };
 
 /** Edge groups drive color, the legend and filtering. Inverse pairs share a group. */
@@ -48,7 +50,8 @@ export type EdgeGroup =
   | 'rival'
   | 'enemy'
   | 'co-founder'
-  | 'family';
+  | 'family'
+  | 'friend';
 
 /** Relationship families: the colors and filters in the viewer. Fine types stay in the details. */
 export type EdgeFamily =
@@ -79,7 +82,7 @@ export const EDGE_FAMILIES: EdgeFamilyInfo[] = [
   { id: 'past-rivalry', label: 'Past rivalry', color: '#f0e442', hint: 'rivals, ended', dotted: true },
   { id: 'enmity', label: 'Current enemy', color: '#d55181', hint: 'enemy: one opposes the other, ongoing' },
   { id: 'past-enmity', label: 'Past enemy', color: '#d55181', hint: 'enemies, ended', dotted: true },
-  { id: 'personal', label: 'Personal', color: '#c98500', hint: 'mentor, family' },
+  { id: 'personal', label: 'Personal', color: '#c98500', hint: 'mentor, family, friend' },
 ];
 
 export const EDGE_FAMILY_BY_ID: Record<EdgeFamily, EdgeFamilyInfo> = Object.fromEntries(
@@ -112,6 +115,7 @@ export const EDGE_GROUPS: EdgeGroupInfo[] = [
   G('enemy', 'Enemy', 'enmity', false),
   G('mentorship', 'Mentor → protégé', 'personal', true),
   G('family', 'Family', 'personal', false),
+  G('friend', 'Friend', 'personal', false),
 ];
 
 export const EDGE_GROUP_BY_ID: Record<EdgeGroup, EdgeGroupInfo> = Object.fromEntries(
@@ -179,6 +183,7 @@ export const TYPE_TO_EDGE: Record<RelationshipType, { group: EdgeGroup; otherIsS
   enemy: { group: 'enemy', otherIsSource: false },
   'co-founder': { group: 'co-founder', otherIsSource: false },
   family: { group: 'family', otherIsSource: false },
+  friend: { group: 'friend', otherIsSource: false },
 };
 
 export interface Source {
@@ -433,7 +438,7 @@ export interface OrgFinance {
   sources: SourceRef[];
 }
 
-/** Relationship types an organization can take part in (no mentors or family). */
+/** Relationship types an organization can take part in (no mentors, family or friends). */
 export const ORG_RELATIONSHIP_TYPES: RelationshipType[] = [
   'employer',
   'employee',

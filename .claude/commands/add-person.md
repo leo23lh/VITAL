@@ -28,7 +28,7 @@ part that reads as a person's name and treat the rest as context.
    `["user-provided"]`), and do **no** web research — not even one search to check.
 2. **Public-role information only.** Never collect home addresses, phone numbers,
    personal emails, ID numbers, health information, or details about private
-   relatives or minors. `family` links only when publicly documented and the
+   relatives or minors. `family` and `friend` links only when publicly documented and the
    relative is a public figure in their own right.
 3. **Every fact and connection needs a source URL** for a page that states it.
    Drop anything unsourced. Don't fill gaps from memory.

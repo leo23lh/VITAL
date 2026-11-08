@@ -185,6 +185,19 @@
         { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
         { "url": "https://en.wikipedia.org/wiki/Jacob_Helberg", "title": "Jacob Helberg — Wikipedia" }
       ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "friend",
+      "description": "Sam Altman officiated Rabois’s 2018 wedding to Jacob Helberg.",
+      "start_year": 2018,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jacob_Helberg", "title": "Jacob Helberg — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://finance.yahoo.com/news/trump-appointee-jacob-helbergs-miami-151516830.html", "title": "Yahoo Finance (citing The Wall Street Journal): Trump appointee Jacob Helberg’s Miami home" }
+      ]
     }
   ],
   "source_conflicts": [],

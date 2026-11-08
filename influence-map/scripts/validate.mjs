@@ -23,6 +23,7 @@ export const RELATIONSHIP_TYPES = [
   'funded_by',
   'co-founder',
   'family',
+  'friend',
 ];
 
 export const INVERSE_TYPE = {
@@ -38,6 +39,7 @@ export const INVERSE_TYPE = {
   enemy: 'enemy',
   'co-founder': 'co-founder',
   family: 'family',
+  friend: 'friend',
 };
 
 // Keep in sync with SECTORS and GROUPS in src/lib/schema.ts (a unit test checks this).
@@ -404,6 +406,8 @@ export function validatePeople(records, opts = {}) {
       if (typeof c.name !== 'string' || !c.name) err(file, `connections[${i}]: missing "name"`);
       if (typeof c.slug !== 'string' || !SLUG_RE.test(c.slug)) err(file, `${where}: "slug" must be a lowercase-hyphenated slug`);
       if (c.slug === slug) err(file, `${where}: connection to self`);
+      if (c.relationship_type === 'friend' && p.public_figure === false)
+        err(file, `${where}: friend links are only allowed between public figures`);
       if (!RELATIONSHIP_TYPES.includes(c.relationship_type))
         err(file, `${where}: relationship_type "${c.relationship_type}" must be one of ${RELATIONSHIP_TYPES.join(', ')}`);
       else if ((selfIsOrg || bySlug.get(c.slug)?.isOrg) && !ORG_RELATIONSHIP_TYPES.includes(c.relationship_type))
@@ -424,14 +428,17 @@ export function validatePeople(records, opts = {}) {
         const existing = byNameSlug.get(slugify(c.name ?? ''));
         if (existing && existing !== slug)
           err(file, `${where}: slug "${c.slug}" has no file, but ${bySlug.get(existing)?.file ?? `${existing}.json`} is this one — use slug "${existing}"`);
-        if (c.relationship_type === 'family')
-          warn(file, `${where}: family link to someone without a file — confirm the relative is a public figure`);
+        if (c.relationship_type === 'family' || c.relationship_type === 'friend')
+          warn(file, `${where}: ${c.relationship_type} link to someone without a file — confirm they are a public figure`);
         return;
       }
 
       // Exception: the map owner may add themselves and share a family link (see CLAUDE.md rule 2).
       if (c.relationship_type === 'family' && !target.isOrg && target.data?.public_figure === false && target.data?.self_added !== true)
         err(file, `${where}: family links are only allowed to relatives who are public figures`);
+      // Friendships are personal ties: only between public figures, never with someone kept private.
+      if (c.relationship_type === 'friend' && !target.isOrg && target.data?.public_figure === false)
+        err(file, `${where}: friend links are only allowed between public figures`);
 
       // Reciprocity: the other person's file must point back with the inverse type.
       if (!researched || !RELATIONSHIP_TYPES.includes(c.relationship_type)) return;

@@ -305,6 +305,8 @@ export function describeLink(
       return isPastRivalry(link) ? `${a} and ${b} were enemies` : `${a} and ${b} are enemies`;
     case 'family':
       return `${a} and ${b} are family`;
+    case 'friend':
+      return `${a} and ${b} are friends`;
   }
 }
 
@@ -512,6 +514,7 @@ export function leanAt(lean: LeanPeriod[] | undefined, year: number | null): Lea
 /** How strongly a kind of link pulls two people together (0–1), before confidence. */
 export const CLOSENESS: Record<EdgeGroup, number> = {
   family: 1,
+  friend: 0.75,
   'co-founder': 0.9,
   mentorship: 0.85,
   employment: 0.8,
@@ -852,7 +855,7 @@ function countYears(intervals: [number, number][]): { count: number; span: [numb
 /**
  * How deep the relationship between a and b runs, from the links between them
  * (`links`, every kind) and the workplaces they shared at the same time.
- * Depth: the kinds of tie (family > co-founder > mentor > employer > donor/ally > colleague),
+ * Depth: the kinds of tie (family > co-founder > mentor > employer > friend > donor/ally > colleague),
  * each weighted by confidence. Years: the years their ties and shared small workplaces cover.
  * Record: how many distinct sources and shared workplaces document it. A current
  * rivalry or enmity after a friendly tie marks the bond broken.

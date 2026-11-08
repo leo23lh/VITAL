@@ -281,6 +281,19 @@
         { "url": "https://www.axios.com/2025/07/23/hill-valley-helberg-trump-ai", "title": "Axios: Why Hill and Valley is defense tech’s \"Rosetta Stone\"" },
         { "url": "https://newcomer.co/p/in-washington-silicon-valleys-iconoclasts", "title": "Newcomer: In Washington, Silicon Valley’s iconoclasts" }
       ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "friend",
+      "description": "Sam Altman officiated Helberg’s 2018 wedding to Keith Rabois.",
+      "start_year": 2018,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jacob_Helberg", "title": "Jacob Helberg — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://finance.yahoo.com/news/trump-appointee-jacob-helbergs-miami-151516830.html", "title": "Yahoo Finance (citing The Wall Street Journal): Trump appointee Jacob Helberg’s Miami home" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -301,6 +314,6 @@
       ]
     }
   ],
-  "notes": "Researched with web searches; pages could not be opened, so facts were confirmed through search results tied to each cited URL. The Revolving Door Project is an advocacy group; amounts taken from it are attributed to it. Not recorded: that Sam Altman officiated his 2018 wedding (a personal tie with no fitting relationship type).",
+  "notes": "Researched with web searches; pages could not be opened, so facts were confirmed through search results tied to each cited URL. The Revolving Door Project is an advocacy group; amounts taken from it are attributed to it. The Altman friend link rests on Wikipedia and on Yahoo Finance’s summary of Wall Street Journal reporting; one photo site dates the wedding to January 2019 and was not used.",
   "last_researched": "2026-11-08"
 }
