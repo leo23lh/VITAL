@@ -7,6 +7,8 @@
   --muted: #8b93a7;
   --accent: #4ea1ff;
   --warn: #f5c542;
+  /* The map keeps its own background; the theme below only restyles the chrome around it. */
+  --map-bg: #0f1117;
   color-scheme: dark;
 }
 
@@ -215,7 +217,7 @@ code {
   background:
     radial-gradient(ellipse 70% 60% at 50% 45%, rgba(78, 161, 255, 0.07), transparent 70%),
     radial-gradient(ellipse 40% 35% at 25% 75%, rgba(144, 133, 233, 0.05), transparent 70%),
-    var(--bg);
+    var(--map-bg);
 }
 
 .empty {
@@ -1149,4 +1151,485 @@ a.source-chip:hover {
   padding-left: 12px;
   border-left: 2px solid var(--border);
   font-weight: 400;
+}
+
+/* ------------------------------------------------------------------ */
+/* Theme: everything around the map (header, menus, chips, panel).     */
+/* Navy chrome, cream type, deep-red accents; Instrument Serif for      */
+/* titles and Instrument Sans for everything else.                      */
+/* ------------------------------------------------------------------ */
+:root {
+  --navy: #0b1322;
+  --navy-2: #111b2e;
+  --navy-3: #18243b;
+  --hairline: #24314a;
+  --cream: #f0e5c9;
+  --cream-dim: rgba(240, 229, 201, 0.62);
+  --red: #b50000;
+  --red-deep: #8b1a1a;
+  /* Red that is readable as text on navy. */
+  --red-text: #ff7a6e;
+  --serif: 'Instrument Serif', 'Times New Roman', Georgia, serif;
+  --sans: 'Instrument Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --bg: var(--navy);
+  --panel: var(--navy);
+  --panel-2: var(--navy-2);
+  --border: var(--hairline);
+  --text: #f4f1ea;
+  --muted: #9ba5b8;
+  --accent: var(--cream);
+}
+
+body {
+  font-family: var(--sans);
+  font-size: 14px;
+}
+
+button {
+  border-radius: 2px;
+  background: var(--navy-2);
+  border-color: var(--hairline);
+}
+
+button:hover {
+  border-color: var(--cream-dim);
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--cream);
+  outline-offset: 2px;
+}
+
+/* Header: a navy bar closed off by a thin red rule. */
+.toolbar {
+  background: var(--navy);
+  border-bottom: 1px solid var(--hairline);
+  box-shadow: inset 0 -2px 0 var(--red);
+}
+
+.brand-name {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 21px;
+  letter-spacing: 0.005em;
+  color: var(--cream);
+}
+
+.live-dot {
+  background: var(--red-text);
+  box-shadow: 0 0 6px var(--red);
+}
+
+.search input,
+.compare-picker input {
+  border-radius: 2px;
+  background: var(--navy-2);
+  border-color: var(--hairline);
+  font-family: var(--sans);
+}
+
+.search input::placeholder,
+.compare-picker input::placeholder {
+  color: var(--muted);
+}
+
+.search input:focus,
+.compare-picker input:focus {
+  border-color: var(--cream);
+}
+
+.search-results {
+  border-radius: 2px;
+  background: var(--navy-2);
+  border-color: var(--hairline);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+}
+
+.search-results li {
+  border-radius: 0;
+}
+
+.search-results li.active,
+.search-results li:hover {
+  background: var(--navy-3);
+  box-shadow: inset 2px 0 0 var(--red);
+}
+
+.tool-button {
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--cream);
+  background: transparent;
+  border-color: var(--hairline);
+}
+
+.tool-button.on,
+.tool-button.active {
+  color: var(--cream);
+  background: var(--navy-3);
+  border-color: var(--cream-dim);
+}
+
+.tool-button.on {
+  box-shadow: inset 0 -2px 0 var(--red);
+}
+
+.badge-count {
+  border-radius: 2px;
+  background: var(--red);
+  color: #fff;
+  letter-spacing: 0;
+}
+
+/* Section labels: small tracked capitals behind a short red rule. */
+.menu h4,
+.panel h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--sans);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--cream-dim);
+}
+
+.menu h4::before,
+.panel h3::before {
+  content: '';
+  width: 14px;
+  height: 2px;
+  background: var(--red);
+  flex: none;
+}
+
+.conflicts h3 {
+  color: var(--warn);
+}
+
+/* Dropdown menus */
+.menu {
+  background: rgba(11, 19, 34, 0.98);
+  border: 1px solid var(--hairline);
+  border-top: 2px solid var(--red);
+  border-radius: 2px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
+  padding: 12px 14px 14px;
+}
+
+.menu-head h4 {
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--cream);
+}
+
+.menu-head h4::before {
+  display: none;
+}
+
+.menu-head-actions button {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.menu-item {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid rgba(36, 49, 74, 0.6);
+  margin: 0;
+  padding: 11px 10px;
+}
+
+.menu-item:hover {
+  background: var(--navy-2);
+}
+
+.menu-item.current {
+  background: var(--navy-3);
+  color: var(--cream);
+  box-shadow: inset 3px 0 0 var(--red);
+}
+
+.menu-foot {
+  border-top-color: var(--hairline);
+}
+
+.check-row input,
+.year-row input,
+.force-row input {
+  accent-color: var(--red);
+}
+
+/* Chips over the map */
+.chip {
+  border-radius: 2px;
+  background: rgba(11, 19, 34, 0.94);
+  border: 1px solid var(--hairline);
+  border-left: 3px solid var(--red);
+  color: var(--cream);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.chip-seg {
+  border-radius: 2px;
+  border-color: var(--hairline);
+}
+
+.chip-seg button {
+  color: var(--muted);
+  letter-spacing: 0.06em;
+}
+
+.chip-seg button.on {
+  background: var(--cream);
+  color: var(--navy);
+}
+
+.chip-x {
+  border-radius: 2px;
+  background: transparent;
+  color: var(--cream);
+}
+
+.chip-x:hover {
+  background: var(--red);
+  color: #fff;
+}
+
+/* Tooltips */
+.float-tooltip-kap {
+  background: rgba(11, 19, 34, 0.97) !important;
+  border: 1px solid var(--hairline);
+  border-top: 2px solid var(--red);
+  border-radius: 2px !important;
+  font-family: var(--sans) !important;
+}
+
+/* Details panel */
+.panel {
+  background: var(--navy);
+}
+
+.panel-wide {
+  border-left: 1px solid var(--hairline);
+}
+
+.panel-card {
+  border-radius: 2px;
+  border-color: var(--hairline);
+  border-top: 2px solid var(--red);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
+}
+
+.panel-sheet {
+  border-radius: 4px 4px 0 0;
+  border-top: 2px solid var(--red);
+}
+
+.sheet-handle span {
+  background: var(--cream-dim);
+  border-radius: 0;
+  height: 3px;
+  width: 44px;
+}
+
+.panel-close {
+  border-radius: 2px;
+  background: transparent;
+  color: var(--cream);
+}
+
+.panel-close:hover {
+  background: var(--red);
+  border-color: var(--red);
+  color: #fff;
+}
+
+.panel-header h2,
+.panel-title h2 {
+  font-family: var(--serif);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: 0;
+  color: var(--cream);
+}
+
+.panel-header h2 .link-button.big {
+  font-weight: 400;
+  color: var(--cream);
+}
+
+.panel-photo {
+  width: 64px;
+  height: 64px;
+}
+
+.role {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.badge {
+  border-radius: 2px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: var(--navy-3);
+  color: var(--cream);
+  border: 1px solid var(--hairline);
+}
+
+.badge-sector {
+  background: var(--navy-2);
+  color: var(--text);
+}
+
+.badge-suggested {
+  color: var(--muted);
+}
+
+.badge-private {
+  background: #2a2112;
+  color: #e9cf8f;
+  border-color: #4d3d17;
+}
+
+/* Primary actions: solid red; the rest outlined in cream. */
+.panel-actions button {
+  border-radius: 2px;
+  padding: 7px 16px;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid var(--cream-dim);
+  color: var(--cream);
+}
+
+.panel-actions button:first-child {
+  background: var(--red);
+  border-color: var(--red);
+  color: #fff;
+}
+
+.panel-actions button:first-child:hover {
+  background: var(--red-deep);
+}
+
+.panel-actions button.on {
+  background: var(--cream);
+  border-color: var(--cream);
+  color: var(--navy);
+}
+
+.link-button {
+  color: var(--cream);
+}
+
+.link-button:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--red-text);
+  text-underline-offset: 3px;
+}
+
+.link-button.small {
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+.source-chip {
+  border-radius: 2px;
+  background: var(--navy-2);
+  border-color: var(--hairline);
+  color: var(--cream-dim);
+}
+
+a.source-chip:hover {
+  border-color: var(--cream);
+  color: var(--cream);
+}
+
+.type-chip {
+  border-radius: 2px;
+  background: var(--navy-2);
+  border-color: var(--hairline);
+}
+
+.timeline li,
+.connection {
+  border-bottom-color: rgba(36, 49, 74, 0.7);
+}
+
+.panel-footer {
+  border-top-color: var(--hairline);
+}
+
+.conflicts {
+  border-radius: 2px;
+}
+
+/* Compare */
+.closeness-score {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 56px;
+  color: var(--cream);
+}
+
+.closeness-top strong:not(.closeness-score) {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.closeness-bar {
+  height: 4px;
+  border-radius: 0;
+  background: var(--navy-3);
+}
+
+.closeness-bar span {
+  border-radius: 0;
+  background: linear-gradient(90deg, var(--red-deep), var(--red), var(--cream));
+}
+
+.chain-step {
+  border-left-color: var(--red);
+}
+
+.compare-picker li {
+  border-bottom-color: var(--hairline);
+}
+
+/* Empty and loading states */
+.empty h2 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 32px;
+  color: var(--cream);
+}
+
+.banner {
+  border-radius: 0;
 }

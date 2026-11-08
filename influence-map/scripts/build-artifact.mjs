@@ -17,6 +17,9 @@ await build({ root, mode: 'artifact', configFile: path.join(root, 'vite.config.t
 const css = fs.readFileSync(path.join(out, 'app.css'), 'utf8');
 // The Artifact host wraps this file in its own <html>/<head>/<body>, so no document tags here.
 const page = `<title>Influence Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap">
 <style>
 ${css}
 </style>

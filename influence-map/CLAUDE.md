@@ -471,6 +471,13 @@ on a phone. Its link is in `artifact.json`.
   bordered by side. Both color sets were checked for
   color-blind separation against the dark background; the viewer always pairs
   color with text (legend, tooltips, details), so keep it that way.
+- **Chrome theme.** Everything around the map (header, menus, chips, tooltips,
+  details panel) uses a navy, cream and deep-red palette with Instrument Serif
+  titles and Instrument Sans text, after the 2026 whitehouse.gov look. The
+  tokens are in the "Theme" block at the end of `src/styles.css`; the fonts load
+  from Google Fonts (`index.html` and `scripts/build-artifact.mjs`). It borrows
+  the look only: no seals, logos or official names. The map keeps its own colors
+  (`--map-bg`, sector and family colors).
 - If you add a sector or group, update `src/lib/schema.ts`, `scripts/validate.mjs`,
   the "Sectors and groups" table above, and both commands.
 - If you add an organization kind, update `ORG_KINDS` in `src/lib/schema.ts` and
