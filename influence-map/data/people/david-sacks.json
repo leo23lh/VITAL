@@ -300,6 +300,18 @@
       "sources": [
         { "url": "https://axios.com/2026/03/29/ai-pac-midterms-trump", "title": "New pro-AI group preps $100M midterm blitz to boost Trump's agenda — Axios" }
       ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "friend",
+      "description": "Sacks and Musk have been friends since they worked together at PayPal; Sacks was in Musk’s 2022 Twitter “war room.”",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis — CNBC" },
+        { "url": "https://fortune.com/2024/01/19/behind-elon-musks-chaotic-twitter-takeover-yes-men-zoe-schiffer/", "title": "Behind Elon Musk's chaotic Twitter takeover, look for the 'yes men' — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [

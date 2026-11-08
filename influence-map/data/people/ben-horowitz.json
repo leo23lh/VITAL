@@ -211,6 +211,17 @@
         { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" },
         { "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html", "title": "Coinbase, a16z and others pour more than $78 million into pro-crypto PAC for 2026 election — CNBC" }
       ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "friend",
+      "description": "In October 2024 Horowitz cited his and his wife’s friendship with Harris when announcing donations to groups backing her.",
+      "start_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" }
+      ]
     }
   ],
   "source_conflicts": [

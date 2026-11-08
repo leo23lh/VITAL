@@ -1637,6 +1637,31 @@
         { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" },
         { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
       ]
+    },
+    {
+      "name": "Nigel Farage",
+      "slug": "nigel-farage",
+      "relationship_type": "friend",
+      "description": "Trump and Farage have been friends since Farage campaigned for him in 2016, a friendship reporting says has continued into 2026.",
+      "start_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nigel_Farage", "title": "Nigel Farage — Wikipedia" },
+        { "url": "https://www.gbnews.com/politics/nigel-farage-donald-trump-problem-polls", "title": "How Nigel Farage's 'Donald Trump problem' risks narrowing Reform's path to power — GB News" }
+      ]
+    },
+    {
+      "name": "Steve Witkoff",
+      "slug": "steve-witkoff",
+      "relationship_type": "friend",
+      "description": "Friends since a 1986 real estate deal and regular golf partners; Witkoff was on the course with Trump during the September 2024 assassination attempt.",
+      "start_year": 1986,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.ksat.com/news/world/2025/03/13/steve-witkoff-has-gone-from-spotting-trump-cash-at-a-deli-to-helping-him-navigate-ukraine-and-gaza/", "title": "Steve Witkoff has gone from spotting Trump cash at a deli to helping him navigate Ukraine and Gaza — AP" },
+        { "url": "https://www.nbcnews.com/news/world/witkoff-trump-gaza-hamas-israel-ceasefire-envoy-rcna187954", "title": "How an NYC real estate tycoon became Trump's man in the room for Gaza negotiations — NBC News" },
+        { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

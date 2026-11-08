@@ -146,6 +146,19 @@
         { "url": "https://americancompass.org/oren-cass/", "title": "Oren Cass — American Compass" },
         { "url": "https://en.wikipedia.org/wiki/Oren_Cass", "title": "Oren Cass — Wikipedia" }
       ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "friend",
+      "description": "Cass calls Vance a longtime friend.",
+      "start_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://americancompass.org/transcript-vice-president-vance-speaks-to-oren-cass-at-the-new-world-gala/", "title": "Transcript: Vice President Vance speaks to Oren Cass at the New World Gala — American Compass" },
+        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" },
+        { "url": "https://americancompass.org/oren-cass/", "title": "Oren Cass — American Compass" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened and Wikipedia was rate-limiting; facts were confirmed with web searches tied to each cited URL.",

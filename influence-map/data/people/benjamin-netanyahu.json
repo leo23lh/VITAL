@@ -65,6 +65,43 @@
         { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" },
         { "url": "https://kmph.com/news/nation-world/pence-netanyahu-applaud-trump-for-support-of-israel-at-aipac", "title": "Pence, Netanyahu applaud Trump for support of Israel at AIPAC — AP via KMPH" }
       ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "friend",
+      "description": "Netanyahu has been a friend of the Kushner family, especially Charles Kushner, since Jared Kushner was young; Kushner has confirmed Netanyahu once stayed at the family home.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.jpost.com/american-politics/when-netanyahu-slept-at-the-kushners-and-other-media-tales-of-trumps-jewish-confidantes-481486", "title": "Jerusalem Post (JTA): When Netanyahu slept at the Kushners’" },
+        { "url": "https://www.i24news.tv/en/news/international/americas/137466-170212-nyt-report-reveals-netanyahu-and-kushner-have-long-history-of-friendship", "title": "i24NEWS: NYT report reveals Netanyahu and Kushner have long history of friendship" },
+        { "url": "https://www.jewishvirtuallibrary.org/jared-kushner", "title": "Jewish Virtual Library: Jared Kushner" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "friend",
+      "description": "Haaretz described Ellison as one of Netanyahu’s close friends: Netanyahu’s family vacationed at Ellison’s private Hawaiian island in August 2021, and Ellison reportedly offered him an Oracle board seat that year, which Netanyahu denied receiving; Ellison was also a prosecution witness in Netanyahu’s corruption trial.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.benzinga.com/news/21/09/22944530/former-israeli-prime-minister-benjamin-netanyahu-asked-to-join-oracle-board-by-co-founder-report", "title": "Benzinga (citing Haaretz): Netanyahu asked to join Oracle board by co-founder" },
+        { "url": "https://thejewishindependent.com.au/larry-ellison-netanyahu-trial-witness-offers-ex-pm-seat-on-oracles-board", "title": "The Jewish Independent: Larry Ellison offers ex-PM seat on Oracle’s board" }
+      ]
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "friend",
+      "description": "Miriam and Sheldon Adelson had an extraordinarily close relationship with Netanyahu, who persuaded them to start the newspaper Israel Hayom; the Forward reported the friendship soured in Sheldon’s final months, before his 2021 death.",
+      "start_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Miriam_Adelson", "title": "Miriam Adelson — Wikipedia" },
+        { "url": "https://forward.com/fast-forward/461930/sheldon-adelson-jewish-philanthropist-and-mega-donor-to-netanyahu-and/", "title": "The Forward: Before Sheldon Adelson’s death, his relationships soured with both Netanyahu and Trump" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

@@ -308,6 +308,17 @@
       "sources": [
         { "url": "https://www.nbcnews.com/politics/2028-election/maryland-governor-wes-moore-ruling-out-presidential-run-redistricting-rcna229615", "title": "Maryland Gov. Wes Moore rules out presidential run — NBC News" }
       ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "friend",
+      "description": "In October 2024 Horowitz cited his and his wife’s friendship with Harris when announcing donations to groups backing her.",
+      "start_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" }
+      ]
     }
   ],
   "affiliations": [],

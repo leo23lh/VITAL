@@ -256,6 +256,29 @@
         { "url": "https://www.pbs.org/newshour/politics/pressure-iowa-senator-shows-consequences-for-republicans-who-oppose-trump", "title": "PBS NewsHour (AP): Pressure on Iowa senator shows consequences for Republicans who oppose Trump" },
         { "url": "https://www.coloradopolitics.com/2024/12/11/trump-allies-drilled-down-on-joni-ernst-in-pressure-campaign-to-save-hegseth-39fbc98c-44ed-5db6-ba4e-7442ead57ca2/", "title": "Colorado Politics: Trump allies drilled down on Joni Ernst in pressure campaign to save Hegseth" }
       ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "friend",
+      "description": "Trump Jr. and Vance are close friends; Trump Jr. made a last-minute push for his father to pick Vance in July 2024.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://kvia.com/politics/cnn-us-politics/2024/07/15/how-donald-trump-landed-on-jd-vance-as-his-vice-presidential-pick/", "title": "CNN via KVIA: How Donald Trump landed on JD Vance as his VP pick" }
+      ]
+    },
+    {
+      "name": "Rand Paul",
+      "slug": "rand-paul",
+      "relationship_type": "friend",
+      "description": "Wikipedia describes Trump Jr. and Paul as close friends; news reporting shows Paul defending Trump Jr. in 2019 rather than describing the friendship.",
+      "start_year": null,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.axios.com/2019/05/09/donald-trump-jr-subpoena-republican-reaction", "title": "Donald Trump Jr.'s Senate Intel subpoena faces GOP backlash — Axios" },
+        { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

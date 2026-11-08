@@ -353,6 +353,45 @@
         { "url": "https://fortune.com/2025/12/08/jared-kushner-paramount-warner-netflix-trump-ellison-saudi-antitrust/", "title": "Jared Kushner, Paramount, Warner and the Ellisons — Fortune" },
         { "url": "https://www.cbsnews.com/news/jared-kushner-affinity-partners-backs-out-paramount-skydance-bid-warner-bros-discovery/", "title": "Jared Kushner's Affinity Partners backs out of Paramount Skydance bid for Warner Bros. Discovery — CBS News" }
       ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "friend",
+      "description": "Ellison calls Musk a “very close” friend.",
+      "start_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2018/12/28/tesla-names-new-board-members-after-sec-settlement.html", "title": "Tesla names Larry Ellison and Kathleen Wilson-Thompson to board after SEC settlement — CNBC" },
+        { "url": "https://fortune.com/2018/12/28/tesla-larry-ellison-board-of-directors-elon-musk/", "title": "Tesla Taps Oracle's Larry Ellison for Its Board of Directors — Fortune" },
+        { "url": "https://www.channelfutures.com/business-models/oracle-co-founder-larry-ellison-biggest-backer-of-elon-musks-twitter-takeover", "title": "Oracle Co-Founder Larry Ellison Biggest Backer of Elon Musk's Twitter Takeover — Channel Futures" }
+      ]
+    },
+    {
+      "name": "Steve Jobs",
+      "slug": "steve-jobs",
+      "relationship_type": "friend",
+      "description": "Ellison and Steve Jobs were close personal friends, widely described as best friends, until Jobs’s death in 2011; Ellison spoke at his memorial.",
+      "start_year": null,
+      "end_year": 2011,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cultofmac.com/news/today-in-apple-history-happy-birthday-to-jobs-best-friend-larry-ellison", "title": "Today in Apple history: Happy birthday to Steve Jobs' best friend, Larry Ellison — Cult of Mac" },
+        { "url": "https://www.cultofmac.com/news/larry-ellison-steve-jobs-shot-down-my-apple-takeover-plans", "title": "Larry Ellison: Steve Jobs shot down my Apple takeover plans — Cult of Mac" },
+        { "url": "https://en.wikipedia.org/wiki/Larry_Ellison", "title": "Larry Ellison — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "slug": "benjamin-netanyahu",
+      "relationship_type": "friend",
+      "description": "Haaretz described Ellison as one of Netanyahu’s close friends: Netanyahu’s family vacationed at Ellison’s private Hawaiian island in August 2021, and Ellison reportedly offered him an Oracle board seat that year, which Netanyahu denied receiving; Ellison was also a prosecution witness in Netanyahu’s corruption trial.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.benzinga.com/news/21/09/22944530/former-israeli-prime-minister-benjamin-netanyahu-asked-to-join-oracle-board-by-co-founder-report", "title": "Benzinga (citing Haaretz): Netanyahu asked to join Oracle board by co-founder" },
+        { "url": "https://thejewishindependent.com.au/larry-ellison-netanyahu-trial-witness-offers-ex-pm-seat-on-oracles-board", "title": "The Jewish Independent: Larry Ellison offers ex-PM seat on Oracle’s board" }
+      ]
     }
   ],
   "source_conflicts": [

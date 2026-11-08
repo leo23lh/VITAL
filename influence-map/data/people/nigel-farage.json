@@ -189,6 +189,30 @@
         { "url": "https://www.washingtonexaminer.com/?p=181739", "title": "Hang onto your hats: Nigel Farage wants to take Turning Point USA to the UK — Washington Examiner" },
         { "url": "https://hopenothate.org.uk/2019/02/05/everything-need-know-launch-turning-point-uk/", "title": "Everything you need to know about the launch of Turning Point UK — Hope not Hate" }
       ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "friend",
+      "description": "Trump and Farage have been friends since Farage campaigned for him in 2016, a friendship reporting says has continued into 2026.",
+      "start_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nigel_Farage", "title": "Nigel Farage — Wikipedia" },
+        { "url": "https://www.gbnews.com/politics/nigel-farage-donald-trump-problem-polls", "title": "How Nigel Farage's 'Donald Trump problem' risks narrowing Reform's path to power — GB News" }
+      ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "friend",
+      "description": "Bannon calls Farage his “Brexiteer friend”; a Farage ally said they spoke or texted daily.",
+      "start_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://huffingtonpost.co.uk/entry/nigel-farage-donald-steve-bannon_uk_5829ed96e4b09ac74c535c5f", "title": "Nigel Farage thinks Steve Bannon is 'my kind of chap' — HuffPost UK" },
+        { "url": "https://www.scmp.com/news/world/europe/article/3012067/steve-bannon-says-brexiteer-friend-nigel-farage-running-be-uk", "title": "Steve Bannon says Brexiteer friend Nigel Farage running to be UK PM — SCMP" }
+      ]
     }
   ],
   "source_conflicts": [

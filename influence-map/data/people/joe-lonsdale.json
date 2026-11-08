@@ -316,6 +316,19 @@
         { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" },
         { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
       ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "friend",
+      "description": "The New York Times described Lonsdale as a friend and “political confidant” of Musk.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
+        { "url": "https://hn.jakechampion.name/reader/https://www.theverge.com/2024/7/16/24199700/elon-musk-joe-lonsdale-america-pac-donald-trump", "title": "Elon Musk and tech elite back a pro-Trump super PAC — The Verge" }
+      ]
     }
   ],
   "source_conflicts": [

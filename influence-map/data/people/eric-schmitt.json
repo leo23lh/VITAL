@@ -152,6 +152,19 @@
         { "url": "https://www.semafor.com/article/08/05/2025/why-a-first-term-senator-passed-up-trumps-cabinet", "title": "Why a first-term senator passed up Trump's Cabinet — Semafor" },
         { "url": "https://www.thedailybeast.com/vance-veep-eric-schmitt-buzz-backfires-almost-immediately/", "title": "Vance veep Eric Schmitt buzz backfires almost immediately — Daily Beast" }
       ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "friend",
+      "description": "Schmitt has been described as arguably Vance’s closest friend in the Senate.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://kvia.com/politics/cnn-us-politics/2024/08/02/jd-vances-republican-colleagues-defend-trumps-running-mate-saying-ohio-senator-is-a-voice-for-next-generation-of-gop-voters/", "title": "JD Vance's Republican colleagues defend Trump's running mate — CNN via KVIA" },
+        { "url": "https://www.semafor.com/article/08/05/2025/why-a-first-term-senator-passed-up-trumps-cabinet", "title": "Why a first-term senator passed up Trump's Cabinet — Semafor" },
+        { "url": "https://www.thedailybeast.com/vance-veep-eric-schmitt-buzz-backfires-almost-immediately/", "title": "Vance veep Eric Schmitt buzz backfires almost immediately — Daily Beast" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

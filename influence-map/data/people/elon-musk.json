@@ -593,6 +593,55 @@
         { "url": "https://thehill.com/policy/defense/6121108-pete-hegseth-pentagon-project-meridian-warfare-future/", "title": "The Hill: Hegseth puts Musk, Luckey, Gingrich in charge of military future warfare review" },
         { "url": "https://www.military.com/hegseths-future-of-warfare-panel-is-stacked-with-contractors-who-stand-to-profit-lawsuit-says", "title": "Military.com: Watchdogs sue to shut down Hegseth’s Future of Warfare panel led by Musk, Luckey and Gingrich" }
       ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "friend",
+      "description": "Sacks and Musk have been friends since they worked together at PayPal; Sacks was in Musk’s 2022 Twitter “war room.”",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis — CNBC" },
+        { "url": "https://fortune.com/2024/01/19/behind-elon-musks-chaotic-twitter-takeover-yes-men-zoe-schiffer/", "title": "Behind Elon Musk's chaotic Twitter takeover, look for the 'yes men' — Fortune" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "friend",
+      "description": "Ellison calls Musk a “very close” friend.",
+      "start_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2018/12/28/tesla-names-new-board-members-after-sec-settlement.html", "title": "Tesla names Larry Ellison and Kathleen Wilson-Thompson to board after SEC settlement — CNBC" },
+        { "url": "https://fortune.com/2018/12/28/tesla-larry-ellison-board-of-directors-elon-musk/", "title": "Tesla Taps Oracle's Larry Ellison for Its Board of Directors — Fortune" },
+        { "url": "https://www.channelfutures.com/business-models/oracle-co-founder-larry-ellison-biggest-backer-of-elon-musks-twitter-takeover", "title": "Oracle Co-Founder Larry Ellison Biggest Backer of Elon Musk's Twitter Takeover — Channel Futures" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "friend",
+      "description": "The New York Times described Lonsdale as a friend and “political confidant” of Musk.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
+        { "url": "https://hn.jakechampion.name/reader/https://www.theverge.com/2024/7/16/24199700/elon-musk-joe-lonsdale-america-pac-donald-trump", "title": "Elon Musk and tech elite back a pro-Trump super PAC — The Verge" }
+      ]
+    },
+    {
+      "name": "Giorgia Meloni",
+      "slug": "giorgia-meloni",
+      "relationship_type": "friend",
+      "description": "Meloni has called Musk a personal “friend”; the tie is mostly reported through their public political alignment.",
+      "start_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://fortune.com/europe/2025/01/07/meloni-closeness-musk-trump-big-risk/", "title": "Meloni's closeness to Musk and Trump — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [

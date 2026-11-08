@@ -269,6 +269,19 @@
         { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" },
         { "url": "https://en.wikipedia.org/wiki/Brooke_Rollins", "title": "Wikipedia: Brooke Rollins" }
       ]
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "slug": "benjamin-netanyahu",
+      "relationship_type": "friend",
+      "description": "Netanyahu has been a friend of the Kushner family, especially Kushner’s father Charles, since Kushner was young; Kushner has confirmed Netanyahu once stayed at the family home, as the New York Times reported in 2017.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.jpost.com/american-politics/when-netanyahu-slept-at-the-kushners-and-other-media-tales-of-trumps-jewish-confidantes-481486", "title": "Jerusalem Post (JTA): When Netanyahu slept at the Kushners’" },
+        { "url": "https://www.i24news.tv/en/news/international/americas/137466-170212-nyt-report-reveals-netanyahu-and-kushner-have-long-history-of-friendship", "title": "i24NEWS: NYT report reveals Netanyahu and Kushner have long history of friendship" },
+        { "url": "https://www.jewishvirtuallibrary.org/jared-kushner", "title": "Jewish Virtual Library: Jared Kushner" }
+      ]
     }
   ],
   "source_conflicts": [

@@ -116,6 +116,19 @@
         { "url": "https://www.dailysignal.com/2023/05/22/why-national-conservatism-could-herald-future-of-uk-politics/", "title": "4 major themes from the National Conservatism Conference — Daily Signal" },
         { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation — DeSmog" }
       ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "friend",
+      "description": "Orr and Vance have been friends since 2019, after Vance’s conversion to Catholicism; Vance calls Orr his “British sherpa.”",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.desmog.com/2026/04/02/seven-things-you-should-know-reform-policy-chief-james-orr/", "title": "Eight Things You Should Know About Reform's Policy Chief James Orr — DeSmog" },
+        { "url": "https://www.thedailybeast.com/vances-british-sherpa-steps-down-after-undercover-sting/", "title": "Vance's 'British sherpa' steps down after undercover sting — Daily Beast" },
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and, where available, with Wikipedia via its API. Cambridge was also reported to be investigating him after the sting.",

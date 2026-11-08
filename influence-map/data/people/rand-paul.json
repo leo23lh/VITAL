@@ -89,6 +89,18 @@
         { "url": "https://reason.com/2025/12/03/rand-paul-bashes-pete-hegseth-over-boat-bombings-he-was-lying-or-hes-incompetent/", "title": "Reason: Rand Paul bashes Pete Hegseth over boat bombings" },
         { "url": "https://foreignpolicy.com/2025/12/02/republicans-criticize-hegseth-caribbean-strike/", "title": "Foreign Policy: Republicans criticize Hegseth for deadly Caribbean double strike" }
       ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "friend",
+      "description": "Wikipedia describes Trump Jr. and Paul as close friends; news reporting shows Paul defending Trump Jr. in 2019 rather than describing the friendship.",
+      "start_year": null,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.axios.com/2019/05/09/donald-trump-jr-subpoena-republican-reaction", "title": "Donald Trump Jr.'s Senate Intel subpoena faces GOP backlash — Axios" },
+        { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

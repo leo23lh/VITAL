@@ -389,6 +389,31 @@
         { "url": "https://jewishinsider.com/2025/12/ben-shapiro-tucker-carlson-turning-point-usa-americafest/", "title": "At AmericaFest, Shapiro, Carlson clash over the future of the conservative movement — Jewish Insider" },
         { "url": "https://fortune.com/2025/12/19/maga-civil-war-turning-point-conference-shapiro-carlson-antisemitism/", "title": "MAGA civil war at Turning Point conference — Fortune" }
       ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "friend",
+      "description": "Vance and Carlson are close friends; Vance publicly defended the friendship in September 2026.",
+      "start_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.thedailybeast.com/elon-musk-and-tucker-carlson-secretly-lobbied-trump-to-pick-jd-vance", "title": "Daily Beast: Musk and Carlson lobbied Trump to pick Vance" },
+        { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" },
+        { "url": "https://jewishinsider.com/2026/09/jd-vance-defends-friendship-tucker-carlson/", "title": "Jewish Insider: Vance defends friendship with Tucker Carlson" }
+      ]
+    },
+    {
+      "name": "Neil Patel",
+      "slug": "neil-patel",
+      "relationship_type": "friend",
+      "description": "Carlson and Patel were college roommates before co-founding the Daily Caller.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" },
+        { "url": "https://en.wikipedia.org/wiki/Neil_Patel_(political_advisor)", "title": "Wikipedia: Neil Patel (political advisor)" }
+      ]
     }
   ],
   "source_conflicts": [

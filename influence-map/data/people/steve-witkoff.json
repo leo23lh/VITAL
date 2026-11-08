@@ -69,6 +69,19 @@
         { "url": "https://ajc.com/news/white-house-inner-circle-discussed-secret-military-plans-in-extraordinary-breach/4HS5BQMHRVBRVMKZK3IY3LMK44", "title": "AJC: White House inner circle discussed secret military plans in extraordinary breach" },
         { "url": "https://www.timesofisrael.com/us-cabinet-officials-accidentally-add-journalist-to-group-chat-share-war-plans/", "title": "Times of Israel: US cabinet officials accidentally add journalist to group chat, share war plans" }
       ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "friend",
+      "description": "Friends since a 1986 real estate deal and regular golf partners; Witkoff was on the course with Trump during the September 2024 assassination attempt.",
+      "start_year": 1986,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.ksat.com/news/world/2025/03/13/steve-witkoff-has-gone-from-spotting-trump-cash-at-a-deli-to-helping-him-navigate-ukraine-and-gaza/", "title": "Steve Witkoff has gone from spotting Trump cash at a deli to helping him navigate Ukraine and Gaza — AP" },
+        { "url": "https://www.nbcnews.com/news/world/witkoff-trump-gaza-hamas-israel-ceasefire-envoy-rcna187954", "title": "How an NYC real estate tycoon became Trump's man in the room for Gaza negotiations — NBC News" },
+        { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

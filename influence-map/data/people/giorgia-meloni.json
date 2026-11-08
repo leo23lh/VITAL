@@ -146,6 +146,17 @@
         { "url": "https://thepeninsulaqatar.com/article/18/04/2025/vance-meets-italys-meloni-before-easter-at-the-vatican", "title": "Vance meets Italy's Meloni before Easter at the Vatican — AFP via The Peninsula" },
         { "url": "https://www.thestar.com.my/news/world/2025/04/18/melodic-italian-bolsters-meloni-in-talks-with-trump-and-vance", "title": "Melodic Italian bolsters Meloni in talks with Trump and Vance — Reuters via The Star" }
       ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "friend",
+      "description": "Meloni has called Musk a personal “friend”; the tie is mostly reported through their public political alignment.",
+      "start_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://fortune.com/europe/2025/01/07/meloni-closeness-musk-trump-big-risk/", "title": "Meloni's closeness to Musk and Trump — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [

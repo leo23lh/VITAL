@@ -340,6 +340,18 @@
         { "url": "https://www.scmp.com/news/world/united-states-canada/article/2125569/railhead-all-bad-decisions-steve-bannon-blames", "title": "'The railhead of all bad decisions': Steve Bannon blames 'Javanka' — South China Morning Post" },
         { "url": "https://forward.com/fast-forward/390671/steve-bannon-blames-javanka-for-every-bad-decision-trump-has-made/", "title": "Steve Bannon blames \"Javanka\" for every bad decision Trump has made — The Forward" }
       ]
+    },
+    {
+      "name": "Nigel Farage",
+      "slug": "nigel-farage",
+      "relationship_type": "friend",
+      "description": "Bannon calls Farage his “Brexiteer friend”; a Farage ally said they spoke or texted daily.",
+      "start_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://huffingtonpost.co.uk/entry/nigel-farage-donald-steve-bannon_uk_5829ed96e4b09ac74c535c5f", "title": "Nigel Farage thinks Steve Bannon is 'my kind of chap' — HuffPost UK" },
+        { "url": "https://www.scmp.com/news/world/europe/article/3012067/steve-bannon-says-brexiteer-friend-nigel-farage-running-be-uk", "title": "Steve Bannon says Brexiteer friend Nigel Farage running to be UK PM — SCMP" }
+      ]
     }
   ],
   "source_conflicts": [],

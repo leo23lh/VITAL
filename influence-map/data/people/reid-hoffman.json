@@ -194,6 +194,29 @@
         { "url": "https://fortune.com/2024/07/26/reid-hoffman-angers-democrats-republicans-trump-harris-lina-khan/", "title": "Fortune: Reid Hoffman angers Democrats and Republicans" },
         { "url": "https://www.axios.com/2026/09/20/kamala-harris-ex-aides-2028-campaign", "title": "Axios: Many ex-aides to Harris betting against a 2028 run" }
       ]
+    },
+    {
+      "name": "Mustafa Suleyman",
+      "slug": "mustafa-suleyman",
+      "relationship_type": "friend",
+      "description": "Suleyman is described as a longtime friend of Hoffman’s as well as his Inflection AI co-founder.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "friend",
+      "description": "Altman thanked Hoffman for years of “support, guidance, and friendship” when Hoffman left OpenAI’s board in 2023.",
+      "start_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://theprint.in/tech/openais-long-time-backer-reid-hoffman-leaves-board/1417019/", "title": "OpenAI's long-time backer Reid Hoffman leaves board — Reuters via ThePrint" }
+      ]
     }
   ],
   "source_conflicts": [

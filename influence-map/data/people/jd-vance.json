@@ -545,6 +545,69 @@
         { "url": "https://www.jns.org/vance-appears-at-jewish-leadership-coalition-fundraiser-in-new-york-city", "title": "JNS: Vance appears at Jewish Leadership Coalition fundraiser in New York City" },
         { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
       ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "friend",
+      "description": "Trump Jr. and Vance are close friends; Trump Jr. made a last-minute push for his father to pick Vance in July 2024.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://kvia.com/politics/cnn-us-politics/2024/07/15/how-donald-trump-landed-on-jd-vance-as-his-vice-presidential-pick/", "title": "CNN via KVIA: How Donald Trump landed on JD Vance as his VP pick" }
+      ]
+    },
+    {
+      "name": "Eric Schmitt",
+      "slug": "eric-schmitt",
+      "relationship_type": "friend",
+      "description": "Schmitt has been described as arguably Vance’s closest friend in the Senate.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://kvia.com/politics/cnn-us-politics/2024/08/02/jd-vances-republican-colleagues-defend-trumps-running-mate-saying-ohio-senator-is-a-voice-for-next-generation-of-gop-voters/", "title": "JD Vance's Republican colleagues defend Trump's running mate — CNN via KVIA" },
+        { "url": "https://www.semafor.com/article/08/05/2025/why-a-first-term-senator-passed-up-trumps-cabinet", "title": "Why a first-term senator passed up Trump's Cabinet — Semafor" },
+        { "url": "https://www.thedailybeast.com/vance-veep-eric-schmitt-buzz-backfires-almost-immediately/", "title": "Vance veep Eric Schmitt buzz backfires almost immediately — Daily Beast" }
+      ]
+    },
+    {
+      "name": "James Orr",
+      "slug": "james-orr",
+      "relationship_type": "friend",
+      "description": "Orr and Vance have been friends since 2019, after Vance’s conversion to Catholicism; Vance calls Orr his “British sherpa.”",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.desmog.com/2026/04/02/seven-things-you-should-know-reform-policy-chief-james-orr/", "title": "Eight Things You Should Know About Reform's Policy Chief James Orr — DeSmog" },
+        { "url": "https://www.thedailybeast.com/vances-british-sherpa-steps-down-after-undercover-sting/", "title": "Vance's 'British sherpa' steps down after undercover sting — Daily Beast" },
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "friend",
+      "description": "Vance and Carlson are close friends; Vance publicly defended the friendship in September 2026.",
+      "start_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.thedailybeast.com/elon-musk-and-tucker-carlson-secretly-lobbied-trump-to-pick-jd-vance", "title": "Daily Beast: Musk and Carlson lobbied Trump to pick Vance" },
+        { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" },
+        { "url": "https://jewishinsider.com/2026/09/jd-vance-defends-friendship-tucker-carlson/", "title": "Jewish Insider: Vance defends friendship with Tucker Carlson" }
+      ]
+    },
+    {
+      "name": "Oren Cass",
+      "slug": "oren-cass",
+      "relationship_type": "friend",
+      "description": "Cass calls Vance a longtime friend.",
+      "start_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://americancompass.org/transcript-vice-president-vance-speaks-to-oren-cass-at-the-new-world-gala/", "title": "Transcript: Vice President Vance speaks to Oren Cass at the New World Gala — American Compass" },
+        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" },
+        { "url": "https://americancompass.org/oren-cass/", "title": "Oren Cass — American Compass" }
+      ]
     }
   ],
   "source_conflicts": [],

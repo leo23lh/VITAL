@@ -352,6 +352,19 @@
         { "url": "https://www.npr.org/2026/03/23/g-s1-114813/markwayne-mullin-confirmed-homeland-security", "title": "Markwayne Mullin confirmed as the next secretary of Homeland Security — NPR" },
         { "url": "https://www.krmg.com/2026/03/18/mullin-makes-his-case-as-a-steady-hand-for-dhs-but-faces-senate-pushback-over-his-temperament", "title": "Mullin makes his case as a steady hand for DHS but faces Senate pushback — AP via KRMG" }
       ]
+    },
+    {
+      "name": "David Horowitz",
+      "slug": "david-horowitz",
+      "relationship_type": "friend",
+      "description": "Horowitz has called Miller his friend as well as his protégé.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.pbs.org/wgbh/frontline/interview/david-horowitz/", "title": "David Horowitz interview — PBS FRONTLINE" },
+        { "url": "https://www.pbs.org/wgbh/frontline/article/last-man-standing-stephen-miller-white-house/", "title": "Stephen Miller, the Firebrand Who Has Survived the White House — PBS FRONTLINE" },
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)", "title": "Stephen Miller (political advisor) — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

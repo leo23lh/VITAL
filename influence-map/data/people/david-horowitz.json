@@ -182,6 +182,19 @@
         { "url": "https://en.wikipedia.org/wiki/David_Horowitz", "title": "David Horowitz — Wikipedia" },
         { "url": "https://www.yahoo.com/news/david-horowitz-intellectual-godfather-trump-100254288.html", "title": "David Horowitz, intellectual godfather of the Trump administration — Yahoo News" }
       ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "friend",
+      "description": "Horowitz has called Miller his friend as well as his protégé.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.pbs.org/wgbh/frontline/interview/david-horowitz/", "title": "David Horowitz interview — PBS FRONTLINE" },
+        { "url": "https://www.pbs.org/wgbh/frontline/article/last-man-standing-stephen-miller-white-house/", "title": "Stephen Miller, the Firebrand Who Has Survived the White House — PBS FRONTLINE" },
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)", "title": "Stephen Miller (political advisor) — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [],
