@@ -150,6 +150,18 @@
         { "url": "https://www.irishtimes.com/world/uk/2026/01/26/suella-braverman-defects-to-nigel-farages-reform-and-slams-tory-lies/", "title": "Suella Braverman defects to Nigel Farage's Reform and slams Tory 'lies' — Irish Times" },
         { "url": "https://www.newstatesman.com/politics/uk-politics/2026/01/suella-braverman-defects-to-reform", "title": "Suella Braverman defects to Reform — New Statesman" }
       ]
+    },
+    {
+      "name": "Robert Mercer",
+      "slug": "robert-mercer",
+      "relationship_type": "donor",
+      "description": "Leave.EU's communications director said Mercer donated Cambridge Analytica's data services to Farage's Brexit campaign; the donation was never reported and is contested.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.4,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

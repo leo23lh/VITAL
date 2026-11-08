@@ -1423,6 +1423,20 @@
         { "url": "https://en.wikipedia.org/wiki/Michael_Anton", "title": "Michael Anton — Wikipedia" },
         { "url": "https://www.state.gov/biographies/michael-anton", "title": "Michael Anton — US Department of State" }
       ]
+    },
+    {
+      "name": "Robert Mercer",
+      "slug": "robert-mercer",
+      "relationship_type": "donor",
+      "description": "A top Trump backer in 2016 through the Make America Number 1 super PAC; a former colleague said Trump would not have won without him. He also helped pay Trump's legal bills in 2017, gave to Trump Victory in 2020, and co-chaired an April 2024 Trump fundraiser.",
+      "start_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://www.newsweek.com/trump-legal-fund-paid-billionaire-robert-mercer-day-comey-fired-676383", "title": "Billionaire Robert Mercer Is Helping Pay Donald Trump's Legal Bills — Newsweek" },
+        { "url": "https://www.cnbc.com/2020/04/15/robert-mercer-starts-big-money-effort-for-trump-campaign.html", "title": "Robert Mercer starts big money effort for Trump and RNC after cutting back support — CNBC" },
+        { "url": "https://edition.cnn.com/2024/03/19/politics/republican-billionaires-trump-fundraiser/index.html", "title": "Republican billionaires rally around Trump for April fundraiser — CNN" }
+      ]
     }
   ],
   "source_conflicts": [

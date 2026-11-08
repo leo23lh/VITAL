@@ -218,13 +218,17 @@
     {
       "name": "Robert Mercer",
       "slug": "robert-mercer",
-      "relationship_type": "funded_by",
-      "description": "The Mercer family co-owned Breitbart News, which Bannon chaired, and largely owned Cambridge Analytica, where Bannon was a board vice president.",
+      "relationship_type": "donor",
+      "description": "The Mercer family co-owned Breitbart News, which Bannon chaired, and largely owned Cambridge Analytica, where Bannon was a board vice president. Mercer funded and co-owned Breitbart News, which Bannon chaired, and backed Cambridge Analytica, where Bannon was a vice president; the Mercers helped install Bannon in Trump's 2016 campaign. In November 2017 Mercer wrote that they did not always see eye to eye; Bannon left Breitbart in January 2018 and the family cut off support.",
       "start_year": 2012,
       "end_year": 2018,
-      "confidence": 0.8,
+      "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" },
+        { "url": "https://www.washingtonpost.com/graphics/politics/mercer-bannon/", "title": "The Mercers and Stephen Bannon: How a populist power base was funded and built — Washington Post" },
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://thehill.com/homenews/media/358438-billionaire-trump-backer-cuts-ties-to-milo-yiannopoulos-distances-from-bannon/", "title": "Billionaire Trump backer cuts ties with Milo Yiannopoulos, distances from Bannon — The Hill" },
+        { "url": "https://www.npr.org/sections/thetwo-way/2018/01/09/576868468/bannon-out-at-breitbart-news", "title": "Steve Bannon Out At Breitbart News — NPR" }
       ]
     },
     {
