@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-11-08-cleanup-sources",
+    "date": "2026-11-08",
+    "text": "Cleanup: 10 links now have sourced start and end dates, and 20 links that rested only on Wikipedia gained news sources. Two corrections: the Kushner–Christie feud notes that the cause of Christie’s 2016 ouster is disputed, and Thiel’s role at 1789 Capital is reworded to what Reuters reported.",
+    "people": [
+      "jared-kushner",
+      "peter-thiel",
+      "kamala-harris",
+      "thomas-massie"
+    ]
+  },
+  {
     "id": "2026-11-08-right-sources-democrats",
     "date": "2026-11-08",
     "text": "Right-leaning sources added on the Democratic side too (Harris, Newsom, Hoffman, Soros, Talarico, Larsen), and the Anthropic feud now notes the August 2026 ruling that voided the Pentagon’s supply-chain-risk label.",
