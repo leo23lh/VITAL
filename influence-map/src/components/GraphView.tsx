@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type RefObject } from 'react';
 import ForceGraph2D, { type ForceGraphMethods } from 'react-force-graph-2d';
 import { describeLink, familyOf, linkEndId, matchesQuery, type GraphNode, type PairLink } from '../lib/graph';
-import { EDGE_FAMILY_BY_ID, ORG_KIND_LABEL, SECTOR_BY_ID, orgSideColor } from '../lib/schema';
+import { EDGE_FAMILY_BY_ID, GROUPS, ORG_KIND_LABEL, SECTOR_BY_ID, orgSideColor } from '../lib/schema';
 import type { Compass, Forces, RadialLayout, Selection } from '../App';
 
 export const BACKGROUND = '#0f1117';
@@ -142,6 +142,7 @@ export default function GraphView({
   // Name boxes drawn so far this frame; a name that would overlap one is skipped.
   const labelBoxes = useRef<{ x0: number; y0: number; x1: number; y1: number }[]>([]);
   // Names are drawn after every dot (onRenderFramePost), so no dot covers one.
+  const haloNames = useRef<HaloName[]>([]);
   const labelQueue = useRef<{ text: string; x: number; y: number; font: string; color: string; alpha: number; scale: number }[]>([]);
 
   const nameOf = useMemo(() => {
@@ -178,6 +179,9 @@ export default function GraphView({
     }
     return { ids, pairIds };
   }, [focusId, pairs]);
+
+  // Free layout: each cluster of three or more gets a soft halo and a name.
+  const halos = useMemo(() => (clusters && !radial && !compass ? clusterHalos(nodes, clusters) : []), [nodes, clusters, radial, compass]);
 
   const selectedPairId = selection?.kind === 'link' ? selection.id : null;
   const selectedNodeId = selection?.kind === 'node' ? selection.id : null;
@@ -353,7 +357,8 @@ export default function GraphView({
         width={size.width}
         height={size.height}
         graphData={graphData}
-        backgroundColor={BACKGROUND}
+        // Transparent, so the page's soft background glow (styles.css .graph-canvas) shows through.
+        backgroundColor="rgba(0,0,0,0)"
         nodeId="id"
         nodeRelSize={1}
         nodeVal={(n) => nodeRadius(n) ** 2}
@@ -370,6 +375,16 @@ export default function GraphView({
         linkDirectionalArrowLength={(p) => (p.directed && colored(p) ? 6 : 0)}
         linkDirectionalArrowRelPos={1}
         linkDirectionalArrowColor={linkColor}
+        // Money moving: pulses run from giver to receiver along the money lines of the
+        // tapped or hovered person (and every money line in Follow the money).
+        linkDirectionalParticles={(p) => {
+          if (!p.directed || p.links[0].group !== 'funding') return 0;
+          const lit = p.id === selectedPairId || p.id === hoverPairId || focus?.pairIds.has(p.id) || radial?.emphasis?.includes('money');
+          return lit ? 2 : 0;
+        }}
+        linkDirectionalParticleSpeed={(p) => 0.004 + 0.004 * p.confidence}
+        linkDirectionalParticleWidth={3}
+        linkDirectionalParticleColor={() => '#5cf08a'}
         linkLabel={(p) => pairTooltip(p, nameOf, isOrg)}
         linkHoverPrecision={6}
         onNodeHover={(n) => setHoverId(n ? n.id : null)}
@@ -383,9 +398,18 @@ export default function GraphView({
           // Radial views fit the middle and the first ring; the outer rings stay just off-screen.
           fgRef.current?.zoomToFit(400, 40, radial ? (n: GraphNode) => (radial.rings.get(n.id) ?? 9) <= 1 : undefined);
         }}
-        onRenderFramePost={(ctx) => {
+        onRenderFramePost={(ctx, scale) => {
           ctx.save();
           ctx.textAlign = 'center';
+          ctx.textBaseline = 'bottom';
+          for (const h of haloNames.current) {
+            ctx.font = h.font;
+            ctx.lineWidth = 4 / scale;
+            ctx.strokeStyle = BACKGROUND;
+            ctx.strokeText(h.text, h.x, h.y);
+            ctx.fillStyle = h.color;
+            ctx.fillText(h.text, h.x, h.y);
+          }
           ctx.textBaseline = 'top';
           for (const l of labelQueue.current) {
             ctx.globalAlpha = l.alpha;
@@ -401,6 +425,9 @@ export default function GraphView({
         onRenderFramePre={(ctx, scale) => {
           labelBoxes.current = [];
           labelQueue.current = [];
+          haloNames.current = halos.length ? drawHalos(ctx, scale, halos, hoverId ?? selectedNodeId) : [];
+          // Cluster names claim their spot first, so people's names steer around them.
+          for (const h of haloNames.current) labelBoxes.current.push(h.box);
           if (radial) drawRings(ctx, scale, radial);
           else if (compass) drawCompass(ctx, scale);
         }}
@@ -506,6 +533,98 @@ function clusterForce(clusters: Map<string, number>, forces: Forces) {
       });
   };
   return force;
+}
+
+/** Halo colors, one per cluster in size order; muted so the lines stay readable on top. */
+const HALO_COLORS = ['#4ea1ff', '#e0605e', '#9085e9', '#2fbf8f', '#f0a640', '#d55181', '#4fc3d9', '#c7cf4a', '#b07ce8', '#8b95a8'];
+
+interface Halo {
+  cluster: number;
+  name: string;
+  color: string;
+  members: GraphNode[];
+}
+
+/**
+ * Names each cluster of three or more: after the group most of its members share
+ * ("National conservatism"), or, when no group fits or the name is taken by a
+ * bigger cluster, after its best-connected member ("Around Donald Trump").
+ */
+function clusterHalos(nodes: GraphNode[], clusters: Map<string, number>): Halo[] {
+  const byCluster = new Map<number, GraphNode[]>();
+  for (const n of nodes) {
+    const c = clusters.get(n.id);
+    if (c == null) continue;
+    if (!byCluster.has(c)) byCluster.set(c, []);
+    byCluster.get(c)!.push(n);
+  }
+  const used = new Set<string>();
+  return [...byCluster.entries()]
+    .filter(([, ms]) => ms.length >= 3)
+    .sort((a, b) => b[1].length - a[1].length || a[0] - b[0])
+    .map(([cluster, members], i) => {
+      const count = new Map<string, number>();
+      for (const m of members) for (const g of m.groups) count.set(g, (count.get(g) ?? 0) + 1);
+      const [top, hits] = [...count.entries()].sort((a, b) => b[1] - a[1])[0] ?? [null, 0];
+      const label = top ? GROUPS.find((g) => g.id === top)?.label : undefined;
+      const hub = [...members].sort((a, b) => Number(b.researched) - Number(a.researched) || b.degree - a.degree)[0];
+      let name = label && hits >= Math.max(2, members.length * 0.35) && !used.has(label) ? label : `Around ${hub.name}`;
+      if (used.has(name)) name = `Around ${hub.name}`;
+      used.add(name);
+      return { cluster, name, color: HALO_COLORS[i % HALO_COLORS.length], members };
+    });
+}
+
+/**
+ * Soft glow behind each cluster, with its name above it. The hovered person's
+ * cluster glows a little brighter.
+ */
+interface HaloName {
+  text: string;
+  x: number;
+  y: number;
+  font: string;
+  color: string;
+  box: { x0: number; y0: number; x1: number; y1: number };
+}
+
+function drawHalos(ctx: CanvasRenderingContext2D, scale: number, halos: Halo[], hoverId: string | null): HaloName[] {
+  const names: HaloName[] = [];
+  ctx.save();
+  for (const h of halos) {
+    const pts = h.members.filter((m) => m.x != null && m.y != null);
+    if (pts.length < 3) continue;
+    const cx = pts.reduce((s, m) => s + m.x!, 0) / pts.length;
+    const cy = pts.reduce((s, m) => s + m.y!, 0) / pts.length;
+    const d = pts.map((m) => Math.hypot(m.x! - cx, m.y! - cy)).sort((a, b) => a - b);
+    // Most of the cluster, not its stragglers.
+    const r = Math.max(45, d[Math.floor(d.length * 0.8)] + 35);
+    const hot = hoverId != null && pts.some((m) => m.id === hoverId);
+    const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, r);
+    g.addColorStop(0, withAlpha(h.color, hot ? 0.2 : 0.11));
+    g.addColorStop(0.7, withAlpha(h.color, hot ? 0.1 : 0.05));
+    g.addColorStop(1, withAlpha(h.color, 0));
+    ctx.fillStyle = g;
+    ctx.beginPath();
+    ctx.arc(cx, cy, r, 0, 2 * Math.PI);
+    ctx.fill();
+    const size = Math.min(15, Math.max(11, 9 + pts.length / 6)) / scale;
+    const font = `700 ${size}px system-ui, -apple-system, Segoe UI, sans-serif`;
+    ctx.font = font;
+    const text = h.name.toUpperCase();
+    const half = ctx.measureText(text).width / 2;
+    const y = cy - r * 0.85;
+    names.push({
+      text,
+      x: cx,
+      y,
+      font,
+      color: withAlpha(h.color, hot ? 1 : 0.85),
+      box: { x0: cx - half, y0: y - size * 1.2, x1: cx + half, y1: y },
+    });
+  }
+  ctx.restore();
+  return names;
 }
 
 /** Pulls core people into the middle and everyone else onto the ring for their distance. */

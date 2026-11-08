@@ -216,7 +216,10 @@ function FiltersMenu(props: Props) {
           <span className="key-dot suggested" /> Suggested (no file yet)
         </span>
       </div>
-      <p className="muted small">Dot size = connections · dashed line = confidence under 50%</p>
+      <p className="muted small">
+        Dot size = connections · dashed line = confidence under 50% · glows = clusters, named after the group
+        most of their people share · green pulses = money moving, giver to receiver
+      </p>
 
       <div className="menu-foot">
         <span className="muted small">
