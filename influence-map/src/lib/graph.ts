@@ -369,6 +369,8 @@ export function familyOf(link: GraphLink): EdgeFamily {
 
 /** All the links between one pair of people, drawn as a single line. */
 export interface PairLink {
+  /** 0–100 bond score of the pair's own relationship (see bond()); set by the app for line thickness. */
+  bond?: number;
   /** "a|b" with the two slugs sorted. */
   id: string;
   /** For a pair with one directed link: its source (the mentor / employer / donor). */
@@ -428,6 +430,11 @@ export function activeInRange(link: GraphLink, range: YearRange): boolean {
   if (link.startYear != null && link.startYear > range.to) return false;
   if (typeof link.endYear === 'number' && link.endYear < range.from) return false;
   return true;
+}
+
+/** Whether a link is still standing: no recorded end, or an end this year or later. */
+export function isCurrent(link: GraphLink, now = new Date().getFullYear()): boolean {
+  return typeof link.endYear !== 'number' || link.endYear >= now;
 }
 
 /** Whether a link was active in `year`. */

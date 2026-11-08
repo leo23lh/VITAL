@@ -353,7 +353,8 @@ export default function GraphView({
 
   const linkWidth = useCallback(
     (p: PairLink) => {
-      const base = 0.5 + 1.6 * p.confidence;
+      // Thicker = deeper bond (kind of tie, years, record); feud-only lines follow their confidence.
+      const base = p.bond ? 0.35 + 2.6 * (p.bond / 100) : 0.4 + 1.2 * p.confidence;
       if (p.id === selectedPairId || p.id === hoverPairId) return base + 2;
       if (focus?.pairIds.has(p.id)) return base + 0.6;
       // Free layout: lines between clusters are thinner, so each cluster's own lines stand out.

@@ -102,6 +102,7 @@ export default function SidePanel({
     if (node)
       body = (
         <NodePanel
+          key={node.id}
           node={node}
           links={links}
           nameOf={nameOf}
@@ -111,6 +112,8 @@ export default function SidePanel({
           onWorld={onWorld}
           others={nodes}
           onCompare={onCompare}
+          nodeOf={(id) => nodeById.get(id)}
+          workplaces={workplaces}
         />
       );
   } else {
@@ -177,6 +180,8 @@ function NodePanel({
   onWorld,
   others,
   onCompare,
+  nodeOf,
+  workplaces,
 }: {
   node: GraphNode;
   links: GraphLink[];
@@ -189,8 +194,11 @@ function NodePanel({
   /** Everyone on the map, for the Compare picker. */
   others: GraphNode[];
   onCompare: (a: string, b: string) => void;
+  nodeOf: (id: string) => GraphNode | undefined;
+  workplaces: WorkplaceIndex;
 }) {
   const [picking, setPicking] = useState(false);
+  const [tab, setTab] = useState<'overview' | 'ties' | 'money' | 'record'>('overview');
   const p = node.person;
   const o = node.org;
   // Fields people and organizations share.
@@ -203,13 +211,23 @@ function NodePanel({
     if (!byOther.has(other)) byOther.set(other, []);
     byOther.get(other)!.push(l);
   }
+  // Strongest bonds first (see bond()), then by confidence.
   const people = [...byOther.entries()]
-    .map(([id, ls]) => ({ id, links: ls, confidence: Math.max(...ls.map((l) => l.confidence)) }))
-    .sort((a, b) => b.confidence - a.confidence || nameOf(a.id).localeCompare(nameOf(b.id)));
+    .map(([id, ls]) => ({
+      id,
+      links: ls,
+      confidence: Math.max(...ls.map((l) => l.confidence)),
+      bond: bond(node, nodeOf(id), ls, workplaces),
+    }))
+    .sort(
+      (a, b) =>
+        b.bond.score - a.bond.score || b.confidence - a.confidence || nameOf(a.id).localeCompare(nameOf(b.id)),
+    );
   const sector = node.sector ? SECTOR_BY_ID[node.sector] : null;
   const groupLabels = node.groups.map((g) => GROUPS.find((x) => x.id === g)?.label ?? g);
 
   const timeline = [...(p?.timeline ?? [])].sort((a, b) => (a.year ?? 0) - (b.year ?? 0));
+  const hasMoney = !!(p?.giving || (o?.finances && o.finances.length > 0));
 
   return (
     <div className="panel-body">
@@ -303,6 +321,29 @@ function NodePanel({
         )}
       </header>
 
+      <nav className="panel-tabs" role="tablist" aria-label="Sections">
+        {(
+          [
+            ['overview', 'Overview'],
+            ['ties', `Ties ${people.length}`],
+            ...(hasMoney ? ([['money', 'Money']] as const) : []),
+            ['record', 'Record'],
+          ] as const
+        ).map(([id, label]) => (
+          <button
+            key={id}
+            role="tab"
+            aria-selected={tab === id}
+            className={tab === id ? 'on' : ''}
+            onClick={() => setTab(id)}
+          >
+            {label}
+          </button>
+        ))}
+      </nav>
+
+      {tab === 'overview' && (
+        <>
       {!node.researched && (
         <section>
           <p className="muted">
@@ -320,8 +361,96 @@ function NodePanel({
         </section>
       )}
 
+      <section>
+        <h3>Closest ties</h3>
+        {people.length === 0 && <p className="muted">None recorded.</p>}
+        <ul className="closest">
+          {people.slice(0, 5).map(({ id: otherId, links: ls, bond: b }) => (
+            <li key={otherId}>
+              <button className="closest-row" onClick={() => onSelect({ kind: 'link', id: pairKey(node.id, otherId) })}>
+                <span className="closest-name">{nameOf(otherId)}</span>
+                <span className="closest-roles muted small">
+                  {[...new Set(ls.map((l) => roleOfOther(l, node.id, isOrg)))].join(' · ')}
+                </span>
+                <span className="closest-score" title={`Bond ${b.score}: ${b.label}`}>
+                  <span className="bond-mini" aria-hidden="true">
+                    <span style={{ width: `${b.score}%` }} />
+                  </span>
+                  <strong>{b.score}</strong>
+                </span>
+              </button>
+            </li>
+          ))}
+        </ul>
+        {people.length > 5 && (
+          <button className="link-button small" onClick={() => setTab('ties')}>
+            See all {people.length} ties
+          </button>
+        )}
+      </section>
+        </>
+      )}
+
+      {tab === 'ties' && (
+        <>
+      <section>
+        <h3>All ties ({people.length})</h3>
+        {people.length === 0 && <p className="muted">None recorded.</p>}
+        <ul className="connections">
+          {people.map(({ id: otherId, links: ls }) => {
+            const descriptions = [...new Set(ls.flatMap(uniqueDescriptions))];
+            const sources = dedupeSources(ls.flatMap((l) => l.sources));
+            return (
+              <li key={otherId} className="connection">
+                <div className="conn-head">
+                  <button className="link-button" onClick={() => onSelect({ kind: 'node', id: otherId })}>
+                    {nameOf(otherId)}
+                  </button>
+                  <button
+                    className="link-button small"
+                    onClick={() => onSelect({ kind: 'link', id: pairKey(node.id, otherId) })}
+                  >
+                    details
+                  </button>
+                </div>
+                <div className="conn-types">
+                  {ls.map((l) => (
+                    <span key={l.id} className="type-chip">
+                      <span className="swatch" style={{ background: EDGE_FAMILY_BY_ID[familyOf(l)].color }} />
+                      {roleOfOther(l, node.id, isOrg)}
+                      {yearRange(l.startYear, l.endYear) && (
+                        <span className="muted"> · {yearRange(l.startYear, l.endYear)}</span>
+                      )}
+                      <span className="muted"> · {Math.round(l.confidence * 100)}%</span>
+                    </span>
+                  ))}
+                </div>
+                {descriptions.map((d, i) => (
+                  <p key={i} className="conn-desc">
+                    {d}
+                  </p>
+                ))}
+                <SourceList sources={sources} compact />
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+
+        </>
+      )}
+
+      {tab === 'money' && (
+        <>
       {o?.finances && o.finances.length > 0 && <FinanceSection finances={o.finances} />}
 
+      {p?.giving && <GivingSection giving={p.giving} hasFile={hasFile} onSelect={onSelect} />}
+
+        </>
+      )}
+
+      {tab === 'record' && (
+        <>
       {p?.lean && p.lean.length > 0 && (
         <section>
           <h3>Political lean</h3>
@@ -340,21 +469,6 @@ function NodePanel({
               </li>
             ))}
           </ol>
-        </section>
-      )}
-
-      {p?.giving && <GivingSection giving={p.giving} hasFile={hasFile} onSelect={onSelect} />}
-
-      {d?.source_conflicts && d.source_conflicts.length > 0 && (
-        <section className="conflicts">
-          <h3>Sources disagree</h3>
-          {d.source_conflicts.map((c, i) => (
-            <div key={i} className="conflict">
-              <strong>{c.topic}</strong>
-              <p>{c.details}</p>
-              <SourceList sources={c.sources} />
-            </div>
-          ))}
         </section>
       )}
 
@@ -398,49 +512,18 @@ function NodePanel({
         </section>
       )}
 
-      <section>
-        <h3>Connections ({people.length})</h3>
-        {people.length === 0 && <p className="muted">None recorded.</p>}
-        <ul className="connections">
-          {people.map(({ id: otherId, links: ls }) => {
-            const descriptions = [...new Set(ls.flatMap(uniqueDescriptions))];
-            const sources = dedupeSources(ls.flatMap((l) => l.sources));
-            return (
-              <li key={otherId} className="connection">
-                <div className="conn-head">
-                  <button className="link-button" onClick={() => onSelect({ kind: 'node', id: otherId })}>
-                    {nameOf(otherId)}
-                  </button>
-                  <button
-                    className="link-button small"
-                    onClick={() => onSelect({ kind: 'link', id: pairKey(node.id, otherId) })}
-                  >
-                    details
-                  </button>
-                </div>
-                <div className="conn-types">
-                  {ls.map((l) => (
-                    <span key={l.id} className="type-chip">
-                      <span className="swatch" style={{ background: EDGE_FAMILY_BY_ID[familyOf(l)].color }} />
-                      {roleOfOther(l, node.id, isOrg)}
-                      {yearRange(l.startYear, l.endYear) && (
-                        <span className="muted"> · {yearRange(l.startYear, l.endYear)}</span>
-                      )}
-                      <span className="muted"> · {Math.round(l.confidence * 100)}%</span>
-                    </span>
-                  ))}
-                </div>
-                {descriptions.map((d, i) => (
-                  <p key={i} className="conn-desc">
-                    {d}
-                  </p>
-                ))}
-                <SourceList sources={sources} compact />
-              </li>
-            );
-          })}
-        </ul>
-      </section>
+      {d?.source_conflicts && d.source_conflicts.length > 0 && (
+        <section className="conflicts">
+          <h3>Sources disagree</h3>
+          {d.source_conflicts.map((c, i) => (
+            <div key={i} className="conflict">
+              <strong>{c.topic}</strong>
+              <p>{c.details}</p>
+              <SourceList sources={c.sources} />
+            </div>
+          ))}
+        </section>
+      )}
 
       {(d?.notes || d?.last_researched || node.file) && (
         <footer className="panel-footer muted">
@@ -453,6 +536,8 @@ function NodePanel({
           )}
           {node.researched && <CopyCommand text={`/${o ? 'add-org' : 'refresh-person'} ${node.name}`} />}
         </footer>
+      )}
+        </>
       )}
     </div>
   );

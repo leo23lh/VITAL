@@ -483,6 +483,15 @@ on a phone. Its link is in `artifact.json`.
 - The dev server serves the data folders at `/api/people` (people and orgs) and
   pushes a reload event when a file changes (`vite-plugin-people.ts`). There is no backend
   beyond that and no network access from the app.
+- **Now / All time.** A switch on the map (top left) defaults to **Now**: ties
+  whose `end_year` is a past year are hidden, and people with no tie left drop
+  off the map until searched for. **All time** shows every tie. A date range
+  (below) overrides the switch. Line thickness follows each pair's Bond score
+  (deeper bond, thicker line); feud-only lines follow their confidence.
+- **Person panel.** Tabs: **Overview** (summary and the five closest ties by
+  Bond score), **Ties** (everyone, strongest bond first), **Money** (giving or
+  an organization's finances; only when there is some) and **Record** (lean,
+  timeline, affiliations, disagreements, notes and file).
 - **Timeline.** Filters → Timeline → "Show links active in a date range" has
   From and To sliders; a link shows if any part of it falls inside the range
   (undated links always show; a link with no recorded end counts from its start

@@ -8,10 +8,12 @@ import ViewChips from './components/ViewChips';
 import { canExport, exportGraphPng } from './lib/exportPng';
 import {
   activeInRange,
+  bond,
   buildGraph,
   compare,
   familyOf,
   findClusters,
+  isCurrent,
   leanAt,
   linkEndId,
   mergePairs,
@@ -139,6 +141,8 @@ export default function App() {
   useEffect(() => setExtras(new Set()), [viewKey]);
   // Date range filter: only links active at some point in it. null = all years.
   const [years, setYears] = useState<YearRange | null>(null);
+  // Without a date range: 'now' hides ties that have ended (old jobs, past donations, finished feuds).
+  const [timeMode, setTimeMode] = useState<'now' | 'all'>('now');
   const [menu, setMenu] = useState<MenuName | null>(null);
   const [layout, setLayout] = useState<Layout>(currentLayout);
   const fgRef = useRef<GraphHandle>(undefined);
@@ -175,10 +179,11 @@ export default function App() {
         const fam = familyOf(l);
         if (hidden.has(fam)) return false;
         if (years && !activeInRange(l, years)) return false;
+        if (!years && timeMode === 'now' && !isCurrent(l)) return false;
         if (!showOrgs && (byId.get(l.sourceId)?.isOrg || byId.get(l.targetId)?.isOrg)) return false;
         return true;
       }),
-    [graph, byId, hidden, years, showOrgs],
+    [graph, byId, hidden, years, timeMode, showOrgs],
   );
 
   const selectedNodeId = selection?.kind === 'node' ? selection.id : null;
@@ -254,8 +259,9 @@ export default function App() {
       for (const id of spotlight.core) ids.add(id);
       for (const id of extras) if (byId.has(id)) ids.add(id);
     } else {
+      // People with no tie left after the filters (e.g. every tie ended, in Now) stay off the map until searched for.
       for (const n of graph.nodes)
-        if ((n.researched && (showOrgs || !n.isOrg)) || (showSuggested && touched.has(n.id))) ids.add(n.id);
+        if (touched.has(n.id) && ((n.researched && (showOrgs || !n.isOrg)) || showSuggested)) ids.add(n.id);
     }
     // The selected person always brings their own connections along, suggested ones included.
     if (selectedNodeId && byId.has(selectedNodeId)) {
@@ -282,6 +288,11 @@ export default function App() {
       if (core.size) radial = { core, ...ringDistances(core, links, ids), emphasis: null };
     }
     const pairs = mergePairs(links);
+    // Line thickness follows how deep each pair's own relationship runs.
+    for (const p of pairs) {
+      const [a, b] = p.id.split('|');
+      p.bond = bond(byId.get(a), byId.get(b), p.links, workplaces).score;
+    }
     const compass = view.kind === 'all' && leanMode ? compassSpots(nodes, pairs, years?.to ?? null) : null;
     // Free layout: find clusters so each can get its own patch of the map.
     const clusters =
@@ -292,7 +303,7 @@ export default function App() {
           )
         : null;
     return { nodes, links, pairs, radial, compass, clusters };
-  }, [graph, byId, filteredLinks, view, comparison, spotlight, extras, showSuggested, showOrgs, selectedNodeId, years, leanMode]);
+  }, [graph, byId, filteredLinks, view, comparison, spotlight, extras, showSuggested, showOrgs, selectedNodeId, years, leanMode, workplaces]);
 
   const counts = useMemo(() => {
     const c = Object.fromEntries(EDGE_FAMILIES.map((f) => [f.id, 0])) as Record<EdgeFamily, number>;
@@ -348,7 +359,7 @@ export default function App() {
     setSelection(null);
   }, []);
 
-  const fitKey = `${leanMode}:${view.kind}:${'id' in view ? view.id : ''}:${'a' in view ? `${view.a}-${view.b}` : ''}:${'depth' in view ? view.depth : ''}:${years ? `${years.from}-${years.to}` : ''}:${loaded}`;
+  const fitKey = `${leanMode}:${view.kind}:${'id' in view ? view.id : ''}:${'a' in view ? `${view.a}-${view.b}` : ''}:${'depth' in view ? view.depth : ''}:${years ? `${years.from}-${years.to}` : timeMode}:${loaded}`;
   const empty = loaded && people.length === 0;
 
   const stats = {
@@ -430,6 +441,8 @@ export default function App() {
             <ViewChips
               view={view}
               years={years}
+              timeMode={timeMode}
+              onTimeMode={setTimeMode}
               nameOf={(id) => byId.get(id)?.name ?? id}
               onView={(v) => {
                 if (v.kind !== 'world') setSelection(null);

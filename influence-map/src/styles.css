@@ -1781,3 +1781,109 @@ a.source-chip:hover {
   text-align: center;
   font-variant-numeric: tabular-nums;
 }
+
+/* Now / All time switch over the map */
+.time-seg {
+  pointer-events: auto;
+  background: rgba(11, 19, 34, 0.94);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.time-seg button {
+  padding: 5px 11px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Person panel tabs */
+.panel-tabs {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  gap: 2px;
+  margin: 14px -18px 0;
+  padding: 0 18px;
+  background: var(--navy);
+  border-bottom: 1px solid var(--hairline);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.panel-tabs button {
+  flex: none;
+  padding: 10px 12px 9px;
+  border: none;
+  border-radius: 0;
+  background: none;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  box-shadow: inset 0 -2px 0 transparent;
+}
+
+.panel-tabs button:hover {
+  color: var(--cream);
+}
+
+.panel-tabs button.on {
+  color: var(--cream);
+  box-shadow: inset 0 -2px 0 var(--red);
+}
+
+/* Closest ties (Overview tab) */
+.closest {
+  list-style: none;
+  margin: 0 0 8px;
+  padding: 0;
+}
+
+.closest-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: 'name score' 'roles score';
+  align-items: center;
+  gap: 1px 12px;
+  width: 100%;
+  padding: 9px 4px;
+  border: none;
+  border-bottom: 1px solid rgba(36, 49, 74, 0.7);
+  border-radius: 0;
+  background: none;
+  text-align: left;
+}
+
+.closest-row:hover {
+  background: var(--navy-2);
+}
+
+.closest-name {
+  grid-area: name;
+  font-weight: 600;
+  color: var(--cream);
+}
+
+.closest-roles {
+  grid-area: roles;
+}
+
+.closest-score {
+  grid-area: score;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-variant-numeric: tabular-nums;
+}
+
+.closest-score .bond-mini {
+  width: 54px;
+}
+
+/* Keep the close button clear of the sticky tab row */
+.panel-tabs {
+  padding-right: 52px;
+}
