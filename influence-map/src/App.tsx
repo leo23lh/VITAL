@@ -3,6 +3,7 @@ import GraphView, { BACKGROUND, type GraphHandle } from './components/GraphView'
 import Menus, { type MenuName } from './components/Menus';
 import SidePanel from './components/SidePanel';
 import Toolbar from './components/Toolbar';
+import SpotlightBar from './components/SpotlightBar';
 import ViewChips from './components/ViewChips';
 import { canExport, exportGraphPng } from './lib/exportPng';
 import {
@@ -17,6 +18,7 @@ import {
   neighborhood,
   ringDistances,
   yearSpan,
+  type GraphLink,
   type GraphNode,
   type PairLink,
   type YearRange,
@@ -131,6 +133,10 @@ export default function App() {
   const [leanMode, setLeanMode] = useState(false);
   const [forces, setForces] = useState<Forces>(DEFAULT_FORCES);
   const [view, setView] = useState<View>({ kind: 'all' });
+  // Spotlight views: outsiders the reader chose to bring onto the map.
+  const [extras, setExtras] = useState<Set<string>>(new Set());
+  const viewKey = `${view.kind}:${'id' in view ? view.id : ''}`;
+  useEffect(() => setExtras(new Set()), [viewKey]);
   // Date range filter: only links active at some point in it. null = all years.
   const [years, setYears] = useState<YearRange | null>(null);
   const [menu, setMenu] = useState<MenuName | null>(null);
@@ -183,6 +189,54 @@ export default function App() {
     [view, filteredLinks, byId],
   );
 
+  /**
+   * Spotlight views (groups, 2028 camps, Follow the money, Feuds) show only their own
+   * people, with only the lines between them; everyone else is offered in a short list.
+   */
+  const spotlight = useMemo(() => {
+    if (view.kind !== 'group' && view.kind !== 'camp' && view.kind !== 'money' && view.kind !== 'feuds') return null;
+    const lens: EdgeFamily[] | null =
+      view.kind === 'money' ? ['money'] : view.kind === 'feuds' ? ['rivalry', 'past-rivalry', 'enmity', 'past-enmity'] : null;
+    const shown = (n: GraphNode | undefined) => !!n && (showOrgs || !n.isOrg) && (n.researched || showSuggested);
+    const core = new Set<string>();
+    if (view.kind === 'group') {
+      for (const n of graph.nodes) if (n.groups.includes(view.id) && shown(n)) core.add(n.id);
+    } else if (view.kind === 'camp') {
+      core.add(view.id);
+      for (const n of graph.nodes) if (n.person?.race_2028?.contenders?.includes(view.id) && shown(n)) core.add(n.id);
+    } else {
+      for (const l of filteredLinks) {
+        if (!lens!.includes(familyOf(l))) continue;
+        if (shown(byId.get(l.sourceId)) && shown(byId.get(l.targetId))) {
+          core.add(l.sourceId);
+          core.add(l.targetId);
+        }
+      }
+    }
+    const inLens = (l: GraphLink) => !lens || lens.includes(familyOf(l));
+    // Outsiders tied to the most members (then by how close those ties are), for the list.
+    const ties = new Map<string, { members: Set<string>; strength: number }>();
+    for (const p of mergePairs(filteredLinks.filter(inLens))) {
+      const a = linkEndId(p.source);
+      const b = linkEndId(p.target);
+      if (core.has(a) === core.has(b)) continue;
+      const out = core.has(a) ? b : a;
+      if (!shown(byId.get(out))) continue;
+      const t = ties.get(out) ?? { members: new Set<string>(), strength: 0 };
+      t.members.add(core.has(a) ? a : b);
+      t.strength += p.closeness;
+      ties.set(out, t);
+    }
+    const outsiders = [...ties.entries()]
+      .map(([id, t]) => ({ id, name: byId.get(id)?.name ?? id, members: t.members.size, strength: t.strength }))
+      .sort((x, y) => y.members - x.members || y.strength - x.strength)
+      .slice(0, 10);
+    return { core, lens, inLens, outsiders };
+  }, [view, graph, byId, filteredLinks, showOrgs, showSuggested]);
+
+  // Kept stable between renders: the map restarts its layout when this changes.
+  const spotlightLens = useMemo(() => (spotlight ? { lens: spotlight.lens } : null), [spotlight]);
+
   const visible = useMemo(() => {
     const ids = new Set<string>();
     const touched = new Set<string>();
@@ -196,8 +250,10 @@ export default function App() {
       // Just the two, their chain and the circle they share.
       for (const id of [comparison.a, comparison.b, ...(comparison.chain ?? []), ...comparison.shared.map((t) => t.id)])
         if (byId.has(id)) ids.add(id);
+    } else if (spotlight) {
+      for (const id of spotlight.core) ids.add(id);
+      for (const id of extras) if (byId.has(id)) ids.add(id);
     } else {
-      // Groups and lenses keep everyone on the map; the view's core people go in the middle.
       for (const n of graph.nodes)
         if ((n.researched && (showOrgs || !n.isOrg)) || (showSuggested && touched.has(n.id))) ids.add(n.id);
     }
@@ -207,45 +263,36 @@ export default function App() {
       for (const id of neighborhood(selectedNodeId, filteredLinks, 1)) ids.add(id);
     }
 
-    const links = filteredLinks.filter((l) => ids.has(l.sourceId) && ids.has(l.targetId));
+    const links = filteredLinks.filter((l) => {
+      if (!ids.has(l.sourceId) || !ids.has(l.targetId)) return false;
+      if (!spotlight) return true;
+      // Spotlight: the selected person's own lines, plus lines among the view's people (in the lens, if any).
+      if (l.sourceId === selectedNodeId || l.targetId === selectedNodeId) return true;
+      const inView = (id: string) => spotlight.core.has(id) || extras.has(id);
+      return inView(l.sourceId) && inView(l.targetId) && spotlight.inLens(l);
+    });
     const nodes = graph.nodes.filter((n) => ids.has(n.id));
 
     // Radial layout: who sits in the middle for this view, and how many steps out everyone else is.
     let radial: RadialLayout | null = null;
-    if (view.kind !== 'all') {
+    if (view.kind === 'world' || view.kind === 'compare' || view.kind === 'camp') {
       const core = new Set<string>();
-      const lens: EdgeFamily[] | null =
-        view.kind === 'money' ? ['money'] : view.kind === 'feuds' ? ['rivalry', 'past-rivalry', 'enmity', 'past-enmity'] : null;
-      if (view.kind === 'world') {
-        core.add(view.id);
-      } else if (comparison) {
-        for (const id of comparison.chain ?? [comparison.a, comparison.b]) core.add(id);
-      } else if (view.kind === 'group') {
-        for (const n of nodes) if (n.groups.includes(view.id)) core.add(n.id);
-      } else if (view.kind === 'camp') {
-        core.add(view.id);
-        for (const n of nodes) if (n.person?.race_2028?.contenders?.includes(view.id)) core.add(n.id);
-      } else {
-        for (const l of links) {
-          if (!lens?.includes(familyOf(l))) continue;
-          core.add(l.sourceId);
-          core.add(l.targetId);
-        }
-      }
-      if (core.size) radial = { core, ...ringDistances(core, links, ids), emphasis: lens };
+      if (view.kind === 'world' || view.kind === 'camp') core.add(view.id);
+      else if (comparison) for (const id of comparison.chain ?? [comparison.a, comparison.b]) core.add(id);
+      if (core.size) radial = { core, ...ringDistances(core, links, ids), emphasis: null };
     }
     const pairs = mergePairs(links);
     const compass = view.kind === 'all' && leanMode ? compassSpots(nodes, pairs, years?.to ?? null) : null;
     // Free layout: find clusters so each can get its own patch of the map.
     const clusters =
-      view.kind === 'all' && !leanMode
+      (view.kind === 'all' && !leanMode) || (spotlight && view.kind !== 'camp')
         ? findClusters(
             nodes.map((n) => n.id),
             pairs,
           )
         : null;
     return { nodes, links, pairs, radial, compass, clusters };
-  }, [graph, byId, filteredLinks, view, comparison, showSuggested, showOrgs, selectedNodeId, years, leanMode]);
+  }, [graph, byId, filteredLinks, view, comparison, spotlight, extras, showSuggested, showOrgs, selectedNodeId, years, leanMode]);
 
   const counts = useMemo(() => {
     const c = Object.fromEntries(EDGE_FAMILIES.map((f) => [f.id, 0])) as Record<EdgeFamily, number>;
@@ -371,6 +418,7 @@ export default function App() {
               radial={visible.radial}
               compass={visible.compass}
               clusters={visible.clusters}
+              spotlight={spotlightLens}
               forces={forces}
               fitKey={fitKey}
               fgRef={fgRef}
@@ -388,6 +436,22 @@ export default function App() {
                 setView(v);
               }}
               onYears={setYears}
+            />
+          )}
+
+          {loaded && !empty && spotlight && (
+            <SpotlightBar
+              members={spotlight.core.size}
+              outsiders={spotlight.outsiders}
+              added={extras}
+              onToggle={(id) =>
+                setExtras((x) => {
+                  const next = new Set(x);
+                  if (next.has(id)) next.delete(id);
+                  else next.add(id);
+                  return next;
+                })
+              }
             />
           )}
 

@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type RefObject } from 'react';
 import ForceGraph2D, { type ForceGraphMethods } from 'react-force-graph-2d';
 import { describeLink, familyOf, linkEndId, matchesQuery, type GraphNode, type PairLink } from '../lib/graph';
-import { EDGE_FAMILY_BY_ID, GROUPS, ORG_KIND_LABEL, SECTOR_BY_ID, orgSideColor } from '../lib/schema';
+import { EDGE_FAMILY_BY_ID, GROUPS, ORG_KIND_LABEL, SECTOR_BY_ID, orgSideColor, type EdgeFamily } from '../lib/schema';
 import type { Compass, Forces, RadialLayout, Selection } from '../App';
 
 export const BACKGROUND = '#0f1117';
@@ -33,6 +33,8 @@ interface Props {
   compass: Compass | null;
   /** Set in the main view's free layout: cluster number per person; each cluster gets its own patch. */
   clusters: Map<string, number> | null;
+  /** Set in spotlight views (groups, Follow the money, Feuds): only the view's own people are on the map. */
+  spotlight: { lens: EdgeFamily[] | null } | null;
   /** Layout sliders, as multipliers on the defaults. */
   forces: Forces;
   /** Changes when the view changes; the map re-fits once it settles. */
@@ -55,6 +57,7 @@ export default function GraphView({
   radial,
   compass,
   clusters,
+  spotlight,
   forces,
   fitKey,
   fgRef,
@@ -96,7 +99,8 @@ export default function GraphView({
     const free = !radial && !compass;
     const sameCluster = (l: PairLink) =>
       !clusters || clusters.get(linkEndId(l.source)) === clusters.get(linkEndId(l.target));
-    fg.d3Force('charge')?.strength?.((radial ? -180 : compass ? -280 : -380) * forces.repel);
+    // Spotlight views have fewer people, so they push apart less.
+    fg.d3Force('charge')?.strength?.((radial ? -180 : compass ? -280 : spotlight ? -220 : -380) * forces.repel);
     const link = fg.d3Force('link');
     // Closer relationships (family, co-founders, bosses) sit nearer and pull harder; rivals barely pull.
     // In the free layout, lines between clusters are longer so the clusters stay apart.
@@ -104,7 +108,8 @@ export default function GraphView({
       (l: PairLink) =>
         ((l.touchesSuggested ? 45 : 60) +
           (1 - l.closeness) * (l.touchesSuggested ? 30 : 90) +
-          (free && !sameCluster(l) ? 90 : 0)) *
+          (free && !sameCluster(l) ? (spotlight ? 30 : 90) : 0)) *
+        (spotlight ? 0.85 : 1) *
         forces.distance,
     );
     // In radial views, lines out of the core barely pull, so the rings decide where people sit.
@@ -124,7 +129,8 @@ export default function GraphView({
     // registered at zero strength because the graph uses it to wire up line ends.)
     link?.strength?.(compass ? 0 : strength);
     fg.d3Force('leanLinks', compass ? leanLinkForce(pairs, compass, strength, link?.distance?.()) : null);
-    fg.d3Force('tidy', tidyForce(free ? 0.012 * forces.center : 0, radial ? 40 : free ? 34 : 26));
+    // Spotlight views pull harder to the middle, so small separate groups (a lone donor and recipient) don't drift off-screen.
+    fg.d3Force('tidy', tidyForce(free ? (spotlight ? 0.07 : 0.012) * forces.center : 0, radial ? 40 : free ? 34 : 26));
     fg.d3Force('cluster', free && clusters ? clusterForce(clusters, forces) : null);
     fg.d3Force('radial', radial ? radialForce(radial) : null);
     fg.d3Force('compass', compass ? compassForce(compass) : null);
@@ -132,7 +138,7 @@ export default function GraphView({
     if (centerForce.current === undefined) centerForce.current = fg.d3Force('center') ?? null;
     fg.d3Force('center', compass ? null : (centerForce.current as never));
     fg.d3ReheatSimulation();
-  }, [fgRef, nodes, pairs, radial, compass, clusters, forces]);
+  }, [fgRef, nodes, pairs, radial, compass, clusters, spotlight, forces]);
 
   // Best-connected first, so they claim their name's spot before smaller dots do (see drawNode).
   const graphData = useMemo(
@@ -158,9 +164,10 @@ export default function GraphView({
   const labeled = useMemo(() => {
     const ranked = nodes.filter((n) => n.researched).sort((a, b) => b.degree - a.degree);
     // How many keep their name when zoomed out: roughly one per 55px of width.
-    const count = Math.max(8, Math.round(size.width / 55));
+    // Spotlight views have few enough people to name them all (overlapping names still give way).
+    const count = spotlight ? ranked.length : Math.max(8, Math.round(size.width / 55));
     return new Set(ranked.slice(0, count).map((n) => n.id));
-  }, [nodes, size.width]);
+  }, [nodes, size.width, spotlight]);
 
   // Highlight the hovered (or selected) node and its neighbours; dim the rest.
   const focusId = hoverId ?? (selection?.kind === 'node' ? selection.id : null);
@@ -181,7 +188,11 @@ export default function GraphView({
   }, [focusId, pairs]);
 
   // Free layout: each cluster of three or more gets a soft halo and a name.
-  const halos = useMemo(() => (clusters && !radial && !compass ? clusterHalos(nodes, clusters) : []), [nodes, clusters, radial, compass]);
+  // (Not in spotlight views: everyone there shares the view's group, so the names would all match.)
+  const halos = useMemo(
+    () => (clusters && !radial && !compass && !spotlight ? clusterHalos(nodes, clusters) : []),
+    [nodes, clusters, radial, compass, spotlight],
+  );
 
   const selectedPairId = selection?.kind === 'link' ? selection.id : null;
   const selectedNodeId = selection?.kind === 'node' ? selection.id : null;
@@ -270,7 +281,9 @@ export default function GraphView({
         (focus
           ? inFocus
           : radial
-            ? inCore || (labeled.has(node.id) && radial.rings.get(node.id) === 1) || (node.researched && scale > 1.5)
+            ? inCore ||
+              (labeled.has(node.id) && (!!spotlight || radial.rings.get(node.id) === 1)) ||
+              (node.researched && scale > 1.5)
             : node.researched
               ? labeled.has(node.id) || scale > 1.5
               : scale > 2.4);
@@ -305,7 +318,7 @@ export default function GraphView({
       }
       ctx.restore();
     },
-    [focus, hoverId, labeled, query, radial, selectedNodeId, showPhotos, photo, photoTick],
+    [focus, hoverId, labeled, query, radial, spotlight, selectedNodeId, showPhotos, photo, photoTick],
   );
 
   // Lines are quiet grey until they matter: the selected person's lines, a hovered or
@@ -379,7 +392,7 @@ export default function GraphView({
         // tapped or hovered person (and every money line in Follow the money).
         linkDirectionalParticles={(p) => {
           if (!p.directed || p.links[0].group !== 'funding') return 0;
-          const lit = p.id === selectedPairId || p.id === hoverPairId || focus?.pairIds.has(p.id) || radial?.emphasis?.includes('money');
+          const lit = p.id === selectedPairId || p.id === hoverPairId || focus?.pairIds.has(p.id) || radial?.emphasis?.includes('money') || spotlight?.lens?.includes('money');
           return lit ? 2 : 0;
         }}
         linkDirectionalParticleSpeed={(p) => 0.004 + 0.004 * p.confidence}
@@ -396,7 +409,12 @@ export default function GraphView({
           if (!needsFit.current) return;
           needsFit.current = false;
           // Radial views fit the middle and the first ring; the outer rings stay just off-screen.
-          fgRef.current?.zoomToFit(400, 40, radial ? (n: GraphNode) => (radial.rings.get(n.id) ?? 9) <= 1 : undefined);
+          // Spotlight views fit everyone, with room for the names at the edges.
+          fgRef.current?.zoomToFit(
+            400,
+            spotlight ? 55 : 40,
+            radial && !spotlight ? (n: GraphNode) => (radial.rings.get(n.id) ?? 9) <= 1 : undefined,
+          );
           // With only a few dots on screen, fitting zooms in too far; settle back to a readable size.
           setTimeout(() => {
             const fg = fgRef.current;
@@ -437,7 +455,7 @@ export default function GraphView({
           else if (compass) drawCompass(ctx, scale);
         }}
         cooldownTicks={200}
-        minZoom={0.2}
+        minZoom={0.12}
         maxZoom={8}
       />
     </div>

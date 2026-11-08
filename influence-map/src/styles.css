@@ -1709,3 +1709,75 @@ a.source-chip:hover {
 .bond-note {
   margin: 8px 0 0;
 }
+
+/* Spotlight views: the row of outsiders under the view chip */
+.spotlight-bar {
+  position: absolute;
+  top: 50px;
+  left: max(10px, env(safe-area-inset-left, 0px));
+  right: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.spotlight-label {
+  display: inline-block;
+  margin: 0 0 5px 2px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--cream-dim);
+  text-shadow: 0 1px 6px var(--map-bg);
+}
+
+.spotlight-row {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding: 0 10px 6px 0;
+  scrollbar-width: none;
+  pointer-events: auto;
+}
+
+.spotlight-row::-webkit-scrollbar {
+  display: none;
+}
+
+.spotlight-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex: none;
+  padding: 4px 8px 4px 6px;
+  border-radius: 2px;
+  background: rgba(11, 19, 34, 0.92);
+  border: 1px solid var(--hairline);
+  color: var(--text);
+  font-size: 12.5px;
+  white-space: nowrap;
+}
+
+.spotlight-chip.on {
+  border-color: var(--cream-dim);
+  background: var(--navy-3);
+  color: var(--cream);
+}
+
+.spotlight-plus {
+  width: 14px;
+  text-align: center;
+  color: var(--red-text);
+  font-weight: 700;
+}
+
+.spotlight-count {
+  min-width: 18px;
+  padding: 0 4px;
+  border-radius: 2px;
+  background: var(--navy-3);
+  color: var(--cream-dim);
+  font-size: 11px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}

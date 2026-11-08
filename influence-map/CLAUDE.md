@@ -210,8 +210,7 @@ comes from `lean`:
 - A researched lean holds firm: links never move that person left or right,
   only up or down. People without a lean are placed left–right by their links,
   near the closeness-weighted average lean of the people they're linked to.
-- Group and lens views keep their radial layout; the left–right pull is only
-  for the main view in lean mode.
+- The left–right pull is only for the main view in lean mode.
 
 ## 2028 race
 
@@ -280,9 +279,15 @@ connections either person has never counts. It has three parts (`bond()` in
   hostile, only a current feud (0). Labels: 80+ inner circle, 60+ strong bond,
   40+ solid, 20+ working tie, else thin.
 
-Group and lens views use a radial layout: the view's people sit in the middle,
-and everyone else sits on faint rings by how many links away they are
-("1 step out", "2 steps out", "not linked"). The whole network stays visible.
+Group views, 2028 camps, Follow the money and Feuds are **spotlight** views:
+only the view's own people are on the map, every name shown, with only the
+lines between them (in Follow the money and Feuds, only money or feud lines).
+A 2028 camp puts the contender in the middle with the camp around them. A row
+of chips under the view's label lists the outsiders tied to the most of the
+view's people (most members first, then the closest ties); tapping one adds
+them to the map, tapping again removes them. Tapping a person still shows all
+of their own lines. "[Person]'s world" and Compare keep the ring layout
+("1 step out", "2 steps out").
 
 ## Giving
 
