@@ -132,6 +132,20 @@
         { "url": "https://en.wikipedia.org/wiki/Scott_Bessent", "title": "Wikipedia: Scott Bessent" },
         { "url": "https://www.reuters.com/article/business/soros-cio-to-start-own-hedge-fund-with-2-billion-idUSKCN0Q91Z1/", "title": "Reuters: Soros CIO to start own hedge fund" }
       ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "colleague",
+      "description": "Fellow member of Trump’s cabinet-level national security team; both were in the March 2025 Signal group chat on the Houthi strikes, to which a journalist was accidentally added and in which Hegseth posted the attack timeline.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/meet-19-members-houthi-attacks-180815116.html", "title": "Yahoo News: Meet the 19 members of the Houthi attacks group chat" },
+        { "url": "https://ajc.com/news/white-house-inner-circle-discussed-secret-military-plans-in-extraordinary-breach/4HS5BQMHRVBRVMKZK3IY3LMK44", "title": "AJC: White House inner circle discussed secret military plans in extraordinary breach" },
+        { "url": "https://www.timesofisrael.com/us-cabinet-officials-accidentally-add-journalist-to-group-chat-share-war-plans/", "title": "Times of Israel: US cabinet officials accidentally add journalist to group chat, share war plans" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

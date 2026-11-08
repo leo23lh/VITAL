@@ -578,6 +578,21 @@
         { "url": "https://aljazeera.com/news/2026/11/3/texans-vote-in-most-expensive-senate-race-in-us-history", "title": "Texans vote in most expensive Senate race in US history — Al Jazeera" },
         { "url": "https://www.texastribune.org/2026/09/04/elon-musk-ken-paxton-super-pac-spending-texas-senate-race/", "title": "Elon Musk's super PAC starts spending to boost Ken Paxton — Texas Tribune" }
       ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "colleague",
+      "description": "Hegseth hosted Musk for about 80 minutes at the Pentagon on March 21, 2025 (the report that Musk would see China war plans was denied), and in October 2026 named him a co-leader of Project Meridian, the Pentagon’s future-of-warfare review, which watchdog groups sued to stop.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cbsnews.com/amp/news/hegseth-meeting-elon-musk-innovation-efficiencies", "title": "CBS News: Hegseth says meeting with Elon Musk was about \"innovation, efficiencies\"" },
+        { "url": "https://www.nbcnews.com/politics/trump-administration/elon-musk-visit-pentagon-discuss-china-rcna197435", "title": "NBC News: Elon Musk to visit Pentagon" },
+        { "url": "https://thehill.com/policy/defense/6121108-pete-hegseth-pentagon-project-meridian-warfare-future/", "title": "The Hill: Hegseth puts Musk, Luckey, Gingrich in charge of military future warfare review" },
+        { "url": "https://www.military.com/hegseths-future-of-warfare-panel-is-stacked-with-contractors-who-stand-to-profit-lawsuit-says", "title": "Military.com: Watchdogs sue to shut down Hegseth’s Future of Warfare panel led by Musk, Luckey and Gingrich" }
+      ]
     }
   ],
   "source_conflicts": [

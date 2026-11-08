@@ -76,6 +76,19 @@
         { "url": "https://www.axios.com/2019/05/09/donald-trump-jr-subpoena-republican-reaction", "title": "Donald Trump Jr.'s Senate Intel subpoena faces GOP backlash — Axios" },
         { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
       ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "enemy",
+      "description": "Paul said in December 2025 that Hegseth was either lying or incompetent about the September 2, 2025 follow-up strike that killed survivors of a Caribbean boat strike, and called for him to testify under oath.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://reason.com/2025/12/03/rand-paul-bashes-pete-hegseth-over-boat-bombings-he-was-lying-or-hes-incompetent/", "title": "Reason: Rand Paul bashes Pete Hegseth over boat bombings" },
+        { "url": "https://foreignpolicy.com/2025/12/02/republicans-criticize-hegseth-caribbean-strike/", "title": "Foreign Policy: Republicans criticize Hegseth for deadly Caribbean double strike" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

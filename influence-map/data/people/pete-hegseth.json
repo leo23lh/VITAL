@@ -23,11 +23,14 @@
     }
   ],
   "current_role": "U.S. Secretary of Defense, styled Secretary of War (since January 25, 2025)",
-  "summary": "Pete Hegseth, a Princeton graduate and Army National Guard officer who served at Guantánamo Bay, in Iraq and in Afghanistan, led the advocacy groups Vets for Freedom and Concerned Veterans for America and became a Fox News host. Trump chose him as defense secretary; the Senate confirmed him 51–50 on January 24, 2025, with JD Vance breaking the tie. Under a September 2025 executive order he also uses the title Secretary of War, and in 2026 he designated Anthropic a supply-chain risk after it refused to drop limits on military uses of its AI.",
+  "summary": "Pete Hegseth, a Princeton graduate and Army National Guard officer who served at Guantánamo Bay, in Iraq and in Afghanistan, led the advocacy groups Vets for Freedom and Concerned Veterans for America and was a Fox News contributor and host from 2014 to 2024. Trump chose him as defense secretary; the Senate confirmed him 51–50 on January 24, 2025, with JD Vance breaking the tie, and since September 2025 he also uses the title Secretary of War. He has overseen strikes on alleged drug boats from September 2025, the war with Iran that began on February 28, 2026, and the 2026 designation of Anthropic as a supply-chain risk. Rep. Thomas Massie filed impeachment articles against him in September 2026, and after Republicans lost Congress in November 2026 Trump said Hegseth would stay while reports said he was weighing a replacement.",
   "sources": [
     { "url": "https://en.wikipedia.org/wiki/Pete_Hegseth", "title": "Pete Hegseth — Wikipedia" },
     { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" },
-    { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" }
+    { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" },
+    { "url": "https://www.defenseone.com/threats/2026/03/hegseth-leaves-iran-wars-timeline-trumps-hands/412007/", "title": "Defense One: SecDef leaves Iran war’s timeline in Trump’s hands" },
+    { "url": "https://time.com/article/2026/09/15/massie-hegseth-impeachment-iran/", "title": "TIME: Republican congressman introduces articles of impeachment against Defense Secretary Pete Hegseth" },
+    { "url": "https://abcnews.com/Politics/trump-dismisses-prospect-replacing-hegseth-amid-iran-war/story?id=137852219", "title": "ABC News: Trump dismisses prospect of replacing Hegseth amid Iran war fallout" }
   ],
   "timeline": [
     {
@@ -60,22 +63,28 @@
     },
     {
       "year": 2014,
-      "role": "Contributor, then Fox & Friends Weekend co-host",
+      "role": "Contributor from 2014; co-host of Fox & Friends Weekend from 2017 until his last show on November 10, 2024, two days before Trump named him for defense secretary",
       "org": "Fox News",
       "sources": [
         { "url": "https://millercenter.org/pete-hegseth-2025", "title": "Pete Hegseth (2025– ) — Miller Center" },
-        { "url": "https://en.wikipedia.org/wiki/Pete_Hegseth", "title": "Pete Hegseth — Wikipedia" }
-      ]
+        { "url": "https://en.wikipedia.org/wiki/Pete_Hegseth", "title": "Pete Hegseth — Wikipedia" },
+        { "url": "https://www.newscaststudio.com/2024/11/13/pete-hegseth-exits-fox-after-being-announced-as-trumps-pick-to-lead-dod/", "title": "NewscastStudio: Pete Hegseth exits Fox after being announced as Trump’s pick to lead DoD" },
+        { "url": "https://digital-release.thehill.com/policy/defense/4987358-pete-hegseth-defense-secretary", "title": "The Hill: Trump taps Fox News host Pete Hegseth for Defense secretary" }
+      ],
+      "end_year": 2024
     },
     {
       "year": 2025,
       "end_year": null,
-      "role": "Secretary of Defense (confirmed 51–50 with Vance's tie-breaking vote); also styled Secretary of War from September 2025",
+      "role": "Secretary of Defense (confirmed 51–50 with Vance’s tie-breaking vote); also styled Secretary of War from September 2025. Oversaw the Caribbean and Pacific boat strikes (from September 2025) and the Iran war (from February 28, 2026)",
       "org": "U.S. Department of Defense / Department of War",
       "sources": [
         { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" },
         { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" },
-        { "url": "https://www.defenseone.com/policy/2025/09/trump-signs-order-change-name-department-defense-department-war/407962/", "title": "Trump signs order to change name of Department of Defense to Department of War — Defense One" }
+        { "url": "https://www.defenseone.com/policy/2025/09/trump-signs-order-change-name-department-defense-department-war/407962/", "title": "Trump signs order to change name of Department of Defense to Department of War — Defense One" },
+        { "url": "https://foreignpolicy.com/2025/12/02/republicans-criticize-hegseth-caribbean-strike/", "title": "Foreign Policy: Republicans criticize Hegseth for deadly Caribbean double strike" },
+        { "url": "https://www.defenseone.com/threats/2026/03/hegseth-leaves-iran-wars-timeline-trumps-hands/412007/", "title": "Defense One: SecDef leaves Iran war’s timeline in Trump’s hands" },
+        { "url": "https://www.cnbc.com/2026/03/10/iran-war-trump-hegseth-oil.html", "title": "CNBC: Hegseth says Tuesday will be our most intense day of strikes" }
       ]
     }
   ],
@@ -109,28 +118,32 @@
       "name": "Donald Trump",
       "slug": "donald-trump",
       "relationship_type": "employer",
-      "description": "Trump nominated Hegseth, then a Fox News host, as defense secretary; he was sworn in on January 25, 2025, and in September 2025 Trump's executive order let him use the title Secretary of War.",
+      "description": "Trump nominated Hegseth, then a Fox News host, as defense secretary; he was sworn in on January 25, 2025, and in September 2025 Trump's executive order let him use the title Secretary of War. On November 4, 2026, after Republicans lost Congress, Trump said Hegseth would stay on; CBS reported he was privately weighing a replacement.",
       "start_year": 2025,
       "end_year": null,
       "confidence": 0.95,
       "sources": [
         { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" },
         { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" },
-        { "url": "https://www.defenseone.com/policy/2025/09/trump-signs-order-change-name-department-defense-department-war/407962/", "title": "Trump signs order to change name of Department of Defense to Department of War — Defense One" }
+        { "url": "https://www.defenseone.com/policy/2025/09/trump-signs-order-change-name-department-defense-department-war/407962/", "title": "Trump signs order to change name of Department of Defense to Department of War — Defense One" },
+        { "url": "https://abcnews.com/Politics/trump-dismisses-prospect-replacing-hegseth-amid-iran-war/story?id=137852219", "title": "ABC News: Trump dismisses prospect of replacing Hegseth amid Iran war fallout" },
+        { "url": "https://federalnewsnetwork.com/defense-main/2026/11/hegseth-vows-to-defend-pentagon-policies-as-democrats-flip-congress/", "title": "Federal News Network: Hegseth vows to defend Pentagon policies as Democrats flip Congress" }
       ]
     },
     {
       "name": "JD Vance",
       "slug": "jd-vance",
       "relationship_type": "colleague",
-      "description": "Vance cast the tie-breaking vote that confirmed Hegseth 51–50 on January 24, 2025, only the second time a vice president has broken a tie on a cabinet nominee, and swore him in the next day; both serve in Trump's second administration.",
+      "description": "Vance cast the tie-breaking vote that confirmed Hegseth 51–50 on January 24, 2025, only the second time a vice president has broken a tie on a cabinet nominee, and swore him in the next day; both serve in Trump's second administration. In the March 2025 Signal chat on the Houthi strikes, Vance argued for delaying them and Hegseth answered that he shared Vance’s view of European free-loading.",
       "start_year": 2025,
       "end_year": null,
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.yahoo.com/news/pete-hegseth-faces-close-senate-210506301.html", "title": "Vance's tiebreaker vote confirms Pete Hegseth as Defense secretary — Yahoo News" },
         { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" },
-        { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" }
+        { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" },
+        { "url": "https://www.timesofisrael.com/us-cabinet-officials-accidentally-add-journalist-to-group-chat-share-war-plans/", "title": "Times of Israel: US cabinet officials accidentally add journalist to group chat, share war plans" },
+        { "url": "https://www.business-standard.com/world-news/atlantic-signal-leak-yemen-attack-trump-vance-hegseth-125032700187_1.html", "title": "Business Standard: Atlantic drops full Signal chat on Yemen attack" }
       ]
     },
     {
@@ -149,13 +162,169 @@
       "name": "Tucker Carlson",
       "slug": "tucker-carlson",
       "relationship_type": "colleague",
-      "description": "Both were Fox News hosts until 2023 (Hegseth from 2014); based only on the shared employer, with no source on direct work together.",
+      "description": "Both were Fox News hosts until 2023 (Hegseth from 2014); based only on the shared employer, with no source on direct work together. In 2026 Carlson became a leading conservative critic of the Iran war Hegseth was running, and Hegseth was asked at a Pentagon briefing about Carlson’s criticism.",
       "start_year": 2014,
       "end_year": 2023,
       "confidence": 0.5,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" },
-        { "url": "https://millercenter.org/pete-hegseth-2025", "title": "Miller Center: Pete Hegseth" }
+        { "url": "https://millercenter.org/pete-hegseth-2025", "title": "Miller Center: Pete Hegseth" },
+        { "url": "https://www.mediaite.com/media/pete-hegseth-pressed-on-fellow-fox-news-alum-tucker-carlsons-unhinged-unconditional-surrender-rape-theory", "title": "Mediaite: Pete Hegseth pressed on fellow Fox News alum Tucker Carlson’s criticism" },
+        { "url": "https://wtop.com/national/2026/03/lock-step-no-more-iran-war-shows-cracks-in-trumps-conservative-media-support/", "title": "WTOP (AP): Iran war shows cracks in Trump’s conservative media support" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "colleague",
+      "description": "Fellow member of Trump’s cabinet-level national security team; both were in the March 2025 Signal group chat on the Houthi strikes, to which a journalist was accidentally added and in which Hegseth posted the attack timeline.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/meet-19-members-houthi-attacks-180815116.html", "title": "Yahoo News: Meet the 19 members of the Houthi attacks group chat" },
+        { "url": "https://ajc.com/news/white-house-inner-circle-discussed-secret-military-plans-in-extraordinary-breach/4HS5BQMHRVBRVMKZK3IY3LMK44", "title": "AJC: White House inner circle discussed secret military plans in extraordinary breach" },
+        { "url": "https://www.timesofisrael.com/us-cabinet-officials-accidentally-add-journalist-to-group-chat-share-war-plans/", "title": "Times of Israel: US cabinet officials accidentally add journalist to group chat, share war plans" }
+      ]
+    },
+    {
+      "name": "Susie Wiles",
+      "slug": "susie-wiles",
+      "relationship_type": "colleague",
+      "description": "Fellow member of Trump’s cabinet-level national security team; both were in the March 2025 Signal group chat on the Houthi strikes, to which a journalist was accidentally added and in which Hegseth posted the attack timeline.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/meet-19-members-houthi-attacks-180815116.html", "title": "Yahoo News: Meet the 19 members of the Houthi attacks group chat" },
+        { "url": "https://ajc.com/news/white-house-inner-circle-discussed-secret-military-plans-in-extraordinary-breach/4HS5BQMHRVBRVMKZK3IY3LMK44", "title": "AJC: White House inner circle discussed secret military plans in extraordinary breach" },
+        { "url": "https://www.timesofisrael.com/us-cabinet-officials-accidentally-add-journalist-to-group-chat-share-war-plans/", "title": "Times of Israel: US cabinet officials accidentally add journalist to group chat, share war plans" }
+      ]
+    },
+    {
+      "name": "Scott Bessent",
+      "slug": "scott-bessent",
+      "relationship_type": "colleague",
+      "description": "Fellow member of Trump’s cabinet-level national security team; both were in the March 2025 Signal group chat on the Houthi strikes, to which a journalist was accidentally added and in which Hegseth posted the attack timeline.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/meet-19-members-houthi-attacks-180815116.html", "title": "Yahoo News: Meet the 19 members of the Houthi attacks group chat" },
+        { "url": "https://ajc.com/news/white-house-inner-circle-discussed-secret-military-plans-in-extraordinary-breach/4HS5BQMHRVBRVMKZK3IY3LMK44", "title": "AJC: White House inner circle discussed secret military plans in extraordinary breach" },
+        { "url": "https://www.timesofisrael.com/us-cabinet-officials-accidentally-add-journalist-to-group-chat-share-war-plans/", "title": "Times of Israel: US cabinet officials accidentally add journalist to group chat, share war plans" }
+      ]
+    },
+    {
+      "name": "Steve Witkoff",
+      "slug": "steve-witkoff",
+      "relationship_type": "colleague",
+      "description": "Fellow member of Trump’s cabinet-level national security team; both were in the March 2025 Signal group chat on the Houthi strikes, to which a journalist was accidentally added and in which Hegseth posted the attack timeline.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/meet-19-members-houthi-attacks-180815116.html", "title": "Yahoo News: Meet the 19 members of the Houthi attacks group chat" },
+        { "url": "https://ajc.com/news/white-house-inner-circle-discussed-secret-military-plans-in-extraordinary-breach/4HS5BQMHRVBRVMKZK3IY3LMK44", "title": "AJC: White House inner circle discussed secret military plans in extraordinary breach" },
+        { "url": "https://www.timesofisrael.com/us-cabinet-officials-accidentally-add-journalist-to-group-chat-share-war-plans/", "title": "Times of Israel: US cabinet officials accidentally add journalist to group chat, share war plans" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "colleague",
+      "description": "Hegseth hosted Musk for about 80 minutes at the Pentagon on March 21, 2025 (the report that Musk would see China war plans was denied), and in October 2026 named him a co-leader of Project Meridian, the Pentagon’s future-of-warfare review, which watchdog groups sued to stop.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cbsnews.com/amp/news/hegseth-meeting-elon-musk-innovation-efficiencies", "title": "CBS News: Hegseth says meeting with Elon Musk was about \"innovation, efficiencies\"" },
+        { "url": "https://www.nbcnews.com/politics/trump-administration/elon-musk-visit-pentagon-discuss-china-rcna197435", "title": "NBC News: Elon Musk to visit Pentagon" },
+        { "url": "https://thehill.com/policy/defense/6121108-pete-hegseth-pentagon-project-meridian-warfare-future/", "title": "The Hill: Hegseth puts Musk, Luckey, Gingrich in charge of military future warfare review" },
+        { "url": "https://www.military.com/hegseths-future-of-warfare-panel-is-stacked-with-contractors-who-stand-to-profit-lawsuit-says", "title": "Military.com: Watchdogs sue to shut down Hegseth’s Future of Warfare panel led by Musk, Luckey and Gingrich" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "colleague",
+      "description": "Hegseth toured Anduril’s Costa Mesa campus with Luckey before the December 2025 Reagan National Defense Forum and its Quonset Point, Rhode Island factory in February 2026, and in October 2026 named Luckey a co-leader of Project Meridian, the Pentagon’s future-of-warfare review.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.theepochtimes.com/us/hegseth-lays-out-trumps-america-first-military-strategy-in-reagan-forum-visit-5954907", "title": "Epoch Times: Hegseth lays out Trump’s America First military strategy in Reagan Forum visit" },
+        { "url": "https://whatsupnewp.com/2026/02/hegseth-touts-speed-and-innovation-in-tour-of-quonset-point-facilities/", "title": "What’sUpNewp: Hegseth touts speed and innovation in tour of Quonset Point facilities" },
+        { "url": "https://thehill.com/policy/defense/6121108-pete-hegseth-pentagon-project-meridian-warfare-future/", "title": "The Hill: Hegseth puts Musk, Luckey, Gingrich in charge of military future warfare review" },
+        { "url": "https://asiatimes.com/2026/10/hegseth-taps-three-to-lead-future-of-warfare-project/", "title": "Asia Times: Hegseth taps three to lead Future of Warfare project" }
+      ]
+    },
+    {
+      "name": "Markwayne Mullin",
+      "slug": "markwayne-mullin",
+      "relationship_type": "ally",
+      "description": "Mullin was one of Hegseth’s most vocal defenders in the Senate, during the December 2024 nomination fight and the January 2025 hearing, and again after the March 2025 Signal chat leak, which he called a thoughtful conversation.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://newson6.com/story/67871bedf293c740252c8296/sen-mullin-defends-hegseths-nomination-calls-out-double-standards-in-senate", "title": "News On 6: Sen. Mullin defends Hegseth’s nomination, calls out double standards" },
+        { "url": "https://www.washingtontimes.com/news/2024/dec/8/markwayne-mullin-defends-pete-hegseth-drinking-all/", "title": "Washington Times: Markwayne Mullin defends Pete Hegseth" },
+        { "url": "https://www.foxnews.com/politics/gop-senators-rally-behind-defense-secretary-pete-hegseth-say-calls-his-firing-hot-garbage", "title": "Fox News: GOP senators rally behind Hegseth after Signal chat leak" }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "ally",
+      "description": "In December 2024 Trump Jr. pressed wavering Republican senators, especially Joni Ernst, to back Hegseth’s nomination, suggesting she could face a primary.",
+      "start_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/pressure-iowa-senator-shows-consequences-for-republicans-who-oppose-trump", "title": "PBS NewsHour (AP): Pressure on Iowa senator shows consequences for Republicans who oppose Trump" },
+        { "url": "https://www.coloradopolitics.com/2024/12/11/trump-allies-drilled-down-on-joni-ernst-in-pressure-campaign-to-save-hegseth-39fbc98c-44ed-5db6-ba4e-7442ead57ca2/", "title": "Colorado Politics: Trump allies drilled down on Joni Ernst in pressure campaign to save Hegseth" }
+      ]
+    },
+    {
+      "name": "Thomas Massie",
+      "slug": "thomas-massie",
+      "relationship_type": "enemy",
+      "description": "Massie filed eight articles of impeachment against Hegseth on September 15, 2026, chiefly over the Iran war and the War Powers Resolution; after the November 2026 midterms he said he would force a vote unless Hegseth resigned, and Hegseth called them sham articles from a “disgruntled, defeated congressman.”",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://time.com/article/2026/09/15/massie-hegseth-impeachment-iran/", "title": "TIME: Republican congressman introduces articles of impeachment against Defense Secretary Pete Hegseth" },
+        { "url": "https://www.cbsnews.com/news/pete-hegseth-iran-war-impeachment-thomas-massie/", "title": "CBS News: GOP Rep. Thomas Massie introduces impeachment articles against Hegseth over Iran war" },
+        { "url": "https://massie.house.gov/uploadedfiles/articles_of_impeachment_sec._hegseth.pdf", "title": "Rep. Thomas Massie: Articles of impeachment against Secretary Hegseth" },
+        { "url": "https://thehill.com/homenews/house/6172957-massie-hegseth-impeachment-midterms/", "title": "The Hill: Massie says he’ll move to impeach Hegseth if he’s not gone after midterms" },
+        { "url": "https://www.nbcnews.com/politics/trump-administration/secretary-pete-hegseth-defiant-tone-impeachment-threat-thomas-massie-rcna607788", "title": "NBC News: Hegseth strikes defiant tone in face of impeachment threat" }
+      ]
+    },
+    {
+      "name": "Rand Paul",
+      "slug": "rand-paul",
+      "relationship_type": "enemy",
+      "description": "Paul said in December 2025 that Hegseth was either lying or incompetent about the September 2, 2025 follow-up strike that killed survivors of a Caribbean boat strike, and called for him to testify under oath.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://reason.com/2025/12/03/rand-paul-bashes-pete-hegseth-over-boat-bombings-he-was-lying-or-hes-incompetent/", "title": "Reason: Rand Paul bashes Pete Hegseth over boat bombings" },
+        { "url": "https://foreignpolicy.com/2025/12/02/republicans-criticize-hegseth-caribbean-strike/", "title": "Foreign Policy: Republicans criticize Hegseth for deadly Caribbean double strike" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "rival",
+      "description": "Trump weighed DeSantis for the defense post twice: in December 2024 while Hegseth’s nomination was in trouble, and in November 2026 after the midterms, according to CBS News sources. Trump said publicly in 2026 that Hegseth would stay.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://cbsnews.com/news/trump-considering-replacing-hegseth-with-desantis-defense-secretary-sources", "title": "CBS News: Trump considering replacing Hegseth with DeSantis for defense secretary" },
+        { "url": "https://www.cbsnews.com/miami/news/report-trump-weighs-desantis-for-pentagon-role", "title": "CBS News Miami: Report, Trump weighs DeSantis for Pentagon role" }
       ]
     }
   ],
@@ -175,8 +344,24 @@
         { "url": "https://en.wikipedia.org/wiki/Pete_Hegseth", "title": "Pete Hegseth — Wikipedia" },
         { "url": "https://ballotpedia.org/Pete_Hegseth", "title": "Pete Hegseth — Ballotpedia" }
       ]
+    },
+    {
+      "topic": "Whether Musk was to be briefed on China war plans (March 2025)",
+      "details": "The New York Times and ABC News, citing officials, reported that Musk’s March 21, 2025 Pentagon visit was to include a briefing on China war plans; Hegseth, Trump and a Pentagon spokesperson called that fake news, and Hegseth said the meeting was about innovation and efficiencies.",
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/trump-administration/elon-musk-visit-pentagon-discuss-china-rcna197435", "title": "NBC News: Elon Musk to visit Pentagon" },
+        { "url": "https://www.cbsnews.com/amp/news/hegseth-meeting-elon-musk-innovation-efficiencies", "title": "CBS News: Hegseth says meeting with Elon Musk was about \"innovation, efficiencies\"" }
+      ]
+    },
+    {
+      "topic": "Whether Trump will replace him (November 2026)",
+      "details": "Trump said on November 4, 2026 that Hegseth would stay, and a White House spokeswoman said Trump has full confidence in him; CBS News reported the same week that Trump was privately weighing replacing him with Ron DeSantis.",
+      "sources": [
+        { "url": "https://abcnews.com/Politics/trump-dismisses-prospect-replacing-hegseth-amid-iran-war/story?id=137852219", "title": "ABC News: Trump dismisses prospect of replacing Hegseth amid Iran war fallout" },
+        { "url": "https://www.cbsnews.com/miami/news/report-trump-weighs-desantis-for-pentagon-role", "title": "CBS News Miami: Report, Trump weighs DeSantis for Pentagon role" }
+      ]
     }
   ],
-  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Wikipedia's Hegseth article could not be read directly (rate limit); facts were confirmed through searches. The record for Amodei mirrors the one in his file. Not recorded: allegations about his personal conduct raised at his confirmation (private matters he disputes), and his 2025 Signal group-chat controversy (sources could not be confirmed in this session). Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Wikipedia’s Hegseth article could not be read directly (rate limit); facts were confirmed through searches. The record for Amodei mirrors the one in his file. Not recorded: allegations about his personal conduct raised at his confirmation (private matters he disputes). Refreshed 2026-11-08: added the March 2025 Signal chat, the boat strikes, the Iran war, Project Meridian, the Massie impeachment articles and the November 2026 replacement reports, all confirmed through search results for the cited pages. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-08"
 }

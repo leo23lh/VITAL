@@ -1,14 +1,9 @@
 {
   "name": "Tucker Carlson",
-  "aliases": [
-    "Tucker Swanson McNear Carlson"
-  ],
+  "aliases": ["Tucker Swanson McNear Carlson"],
   "public_figure": true,
   "sector": "politics",
-  "groups": [
-    "media",
-    "2028-race"
-  ],
+  "groups": ["media", "2028-race"],
   "lean": [
     {
       "value": 2,
@@ -16,14 +11,8 @@
       "end_year": 2025,
       "basis": "Conservative commentator throughout his career (Weekly Standard, CNN, MSNBC, Fox News). He was registered as a Democrat until 2020, which he says was only to vote in D.C. primaries; Republican from 2020 and a prominent Trump backer, speaking at the 2024 Republican convention.",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tucker_Carlson",
-          "title": "Wikipedia: Tucker Carlson"
-        },
-        {
-          "url": "https://abcnews.go.com/US/wireStory/15-months-after-firing-tucker-carlson-returns-fox-112086921",
-          "title": "AP via ABC News: Carlson returns to Fox airwaves with GOP convention speech"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" },
+        { "url": "https://abcnews.go.com/US/wireStory/15-months-after-firing-tucker-carlson-returns-fox-112086921", "title": "AP via ABC News: Carlson returns to Fox airwaves with GOP convention speech" }
       ]
     },
     {
@@ -32,62 +21,33 @@
       "end_year": null,
       "basis": "Left the Republican Party in 2026 and broke with Trump over the Iran war, but remains a right-wing populist voice who champions JD Vance.",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tucker_Carlson",
-          "title": "Wikipedia: Tucker Carlson"
-        },
-        {
-          "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/",
-          "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" },
+        { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" }
       ]
     }
   ],
   "race_2028": {
     "role": "camp",
-    "contenders": [
-      "jd-vance"
-    ],
+    "contenders": ["jd-vance"],
     "basis": "Vance's close friend and defender: he lobbied Trump to pick Vance in 2024 and defended him in a May 2026 New York Times interview, and Vance defended their friendship in September 2026. Carlson says he will not run himself, though allies have urged him to.",
     "sources": [
-      {
-        "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/",
-        "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview"
-      },
-      {
-        "url": "https://jewishinsider.com/2026/09/jd-vance-defends-friendship-tucker-carlson/",
-        "title": "Jewish Insider: Vance defends friendship with Tucker Carlson"
-      },
-      {
-        "url": "https://www.washingtonexaminer.com/?p=4678584",
-        "title": "Washington Examiner: Could Tucker Carlson run in 2028?"
-      }
+      { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" },
+      { "url": "https://jewishinsider.com/2026/09/jd-vance-defends-friendship-tucker-carlson/", "title": "Jewish Insider: Vance defends friendship with Tucker Carlson" },
+      { "url": "https://www.washingtonexaminer.com/?p=4678584", "title": "Washington Examiner: Could Tucker Carlson run in 2028?" }
     ]
   },
   "photo": {
     "file": "tucker-carlson.jpg",
     "credit": "Gage Skidmore from Surprise, AZ, United States of America",
     "license": "CC BY-SA 4.0",
-    "source": {
-      "url": "https://commons.wikimedia.org/wiki/File:Tucker_Carlson_(54670577849)_(cropped_2).jpg",
-      "title": "File:Tucker Carlson (54670577849) (cropped 2).jpg — Wikimedia Commons"
-    }
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Tucker_Carlson_(54670577849)_(cropped_2).jpg", "title": "File:Tucker Carlson (54670577849) (cropped 2).jpg — Wikimedia Commons" }
   },
   "current_role": "Host of The Tucker Carlson Show and co-founder of the Tucker Carlson Network (since 2023)",
   "summary": "Tucker Carlson is a conservative commentator who co-hosted CNN's Crossfire, hosted shows on MSNBC, and from 2016 to 2023 hosted Tucker Carlson Tonight, Fox News's top-rated show, until Fox dropped him. He co-founded the Daily Caller in 2010 and launched his own network in 2023. A leading Trump backer who helped push JD Vance onto the 2024 ticket and connected Trump with Robert F. Kennedy Jr., he broke with Trump over the Iran war in 2025–2026 and said Trump should be removed from office.",
   "sources": [
-    {
-      "url": "https://en.wikipedia.org/wiki/Tucker_Carlson",
-      "title": "Wikipedia: Tucker Carlson"
-    },
-    {
-      "url": "https://www.theguardian.com/media/2023/apr/24/tucker-carlson-leaving-fox-news",
-      "title": "Guardian: Tucker Carlson leaves Fox News, reportedly fired by Rupert Murdoch"
-    },
-    {
-      "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/",
-      "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview"
-    }
+    { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" },
+    { "url": "https://www.theguardian.com/media/2023/apr/24/tucker-carlson-leaving-fox-news", "title": "Guardian: Tucker Carlson leaves Fox News, reportedly fired by Rupert Murdoch" },
+    { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" }
   ],
   "timeline": [
     {
@@ -95,10 +55,7 @@
       "role": "Writer",
       "org": "The Weekly Standard",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tucker_Carlson",
-          "title": "Wikipedia: Tucker Carlson"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" }
       ]
     },
     {
@@ -107,10 +64,7 @@
       "role": "Commentator; co-host of Crossfire (2001–2005)",
       "org": "CNN",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tucker_Carlson",
-          "title": "Wikipedia: Tucker Carlson"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" }
       ]
     },
     {
@@ -119,10 +73,7 @@
       "role": "Host of Tucker",
       "org": "MSNBC",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tucker_Carlson",
-          "title": "Wikipedia: Tucker Carlson"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" }
       ]
     },
     {
@@ -131,14 +82,8 @@
       "role": "Political analyst, then host of Tucker Carlson Tonight (2016–2023)",
       "org": "Fox News",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tucker_Carlson",
-          "title": "Wikipedia: Tucker Carlson"
-        },
-        {
-          "url": "https://www.theguardian.com/media/2023/apr/24/tucker-carlson-leaving-fox-news",
-          "title": "Guardian: Tucker Carlson leaves Fox News, reportedly fired by Rupert Murdoch"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" },
+        { "url": "https://www.theguardian.com/media/2023/apr/24/tucker-carlson-leaving-fox-news", "title": "Guardian: Tucker Carlson leaves Fox News, reportedly fired by Rupert Murdoch" }
       ]
     },
     {
@@ -147,14 +92,8 @@
       "role": "Co-founder and editor-in-chief (sold his stake in 2020)",
       "org": "The Daily Caller",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tucker_Carlson",
-          "title": "Wikipedia: Tucker Carlson"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/The_Daily_Caller",
-          "title": "Wikipedia: The Daily Caller"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" },
+        { "url": "https://en.wikipedia.org/wiki/The_Daily_Caller", "title": "Wikipedia: The Daily Caller" }
       ]
     },
     {
@@ -163,10 +102,7 @@
       "role": "Host of The Tucker Carlson Show; co-founder of the Tucker Carlson Network",
       "org": "Tucker Carlson Network",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tucker_Carlson",
-          "title": "Wikipedia: Tucker Carlson"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" }
       ]
     }
   ],
@@ -181,18 +117,9 @@
       "end_year": 2025,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://abcnews.go.com/US/wireStory/15-months-after-firing-tucker-carlson-returns-fox-112086921",
-          "title": "AP via ABC News: Carlson returns to Fox airwaves with GOP convention speech"
-        },
-        {
-          "url": "https://m.washingtontimes.com/news/2024/oct/27/tucker-carlson-says-trump-liberated-americans-madi/",
-          "title": "Washington Times: Carlson says Trump liberated Americans at Madison Square Garden"
-        },
-        {
-          "url": "https://www.thedailybeast.com/elon-musk-and-tucker-carlson-secretly-lobbied-trump-to-pick-jd-vance",
-          "title": "Daily Beast: Musk and Carlson lobbied Trump to pick Vance"
-        }
+        { "url": "https://abcnews.go.com/US/wireStory/15-months-after-firing-tucker-carlson-returns-fox-112086921", "title": "AP via ABC News: Carlson returns to Fox airwaves with GOP convention speech" },
+        { "url": "https://m.washingtontimes.com/news/2024/oct/27/tucker-carlson-says-trump-liberated-americans-madi/", "title": "Washington Times: Carlson says Trump liberated Americans at Madison Square Garden" },
+        { "url": "https://www.thedailybeast.com/elon-musk-and-tucker-carlson-secretly-lobbied-trump-to-pick-jd-vance", "title": "Daily Beast: Musk and Carlson lobbied Trump to pick Vance" }
       ]
     },
     {
@@ -204,18 +131,9 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://www.npr.org/2025/06/18/nx-s1-5438122/trump-iran-israel-conflict-tucker-carlson",
-          "title": "NPR: Pro-Trump media figures split over the Israel-Iran conflict"
-        },
-        {
-          "url": "https://www.jns.org/news/u-s-news/tucker-a-low-iq-person-with-absolutely-no-idea-whats-going-on-trump-says",
-          "title": "JNS: Trump says Tucker is 'a low IQ person'"
-        },
-        {
-          "url": "https://newsweek.com/tucker-carlson-says-trump-should-be-removed-from-office-immediately-12383179",
-          "title": "Newsweek: Tucker Carlson says Trump should be removed from office"
-        }
+        { "url": "https://www.npr.org/2025/06/18/nx-s1-5438122/trump-iran-israel-conflict-tucker-carlson", "title": "NPR: Pro-Trump media figures split over the Israel-Iran conflict" },
+        { "url": "https://www.jns.org/news/u-s-news/tucker-a-low-iq-person-with-absolutely-no-idea-whats-going-on-trump-says", "title": "JNS: Trump says Tucker is 'a low IQ person'" },
+        { "url": "https://newsweek.com/tucker-carlson-says-trump-should-be-removed-from-office-immediately-12383179", "title": "Newsweek: Tucker Carlson says Trump should be removed from office" }
       ]
     },
     {
@@ -227,18 +145,9 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://www.thedailybeast.com/elon-musk-and-tucker-carlson-secretly-lobbied-trump-to-pick-jd-vance",
-          "title": "Daily Beast: Musk and Carlson lobbied Trump to pick Vance"
-        },
-        {
-          "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/",
-          "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview"
-        },
-        {
-          "url": "https://jewishinsider.com/2026/09/jd-vance-defends-friendship-tucker-carlson/",
-          "title": "Jewish Insider: Vance defends friendship with Tucker Carlson"
-        }
+        { "url": "https://www.thedailybeast.com/elon-musk-and-tucker-carlson-secretly-lobbied-trump-to-pick-jd-vance", "title": "Daily Beast: Musk and Carlson lobbied Trump to pick Vance" },
+        { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" },
+        { "url": "https://jewishinsider.com/2026/09/jd-vance-defends-friendship-tucker-carlson/", "title": "Jewish Insider: Vance defends friendship with Tucker Carlson" }
       ]
     },
     {
@@ -249,14 +158,8 @@
       "start_year": 2023,
       "confidence": 0.8,
       "sources": [
-        {
-          "url": "https://fortune.com/2024/10/08/elon-musk-donald-trump-tucker-carlson/",
-          "title": "Fortune: Musk tells Tucker Carlson he has gone all in on Trump"
-        },
-        {
-          "url": "https://businessinsider.nl/elon-musk-tucker-carlson-and-david-sacks-personally-lobbied-trump-to-pick-vance-report",
-          "title": "Business Insider: Musk, Carlson and Sacks personally lobbied Trump to pick Vance"
-        }
+        { "url": "https://fortune.com/2024/10/08/elon-musk-donald-trump-tucker-carlson/", "title": "Fortune: Musk tells Tucker Carlson he has gone all in on Trump" },
+        { "url": "https://businessinsider.nl/elon-musk-tucker-carlson-and-david-sacks-personally-lobbied-trump-to-pick-vance-report", "title": "Business Insider: Musk, Carlson and Sacks personally lobbied Trump to pick Vance" }
       ]
     },
     {
@@ -268,10 +171,7 @@
       "end_year": 2024,
       "confidence": 0.7,
       "sources": [
-        {
-          "url": "https://businessinsider.nl/elon-musk-tucker-carlson-and-david-sacks-personally-lobbied-trump-to-pick-vance-report",
-          "title": "Business Insider: Musk, Carlson and Sacks personally lobbied Trump to pick Vance"
-        }
+        { "url": "https://businessinsider.nl/elon-musk-tucker-carlson-and-david-sacks-personally-lobbied-trump-to-pick-vance-report", "title": "Business Insider: Musk, Carlson and Sacks personally lobbied Trump to pick Vance" }
       ]
     },
     {
@@ -282,14 +182,8 @@
       "start_year": 2024,
       "confidence": 0.75,
       "sources": [
-        {
-          "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665",
-          "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump"
-        },
-        {
-          "url": "https://www.megynkelly.com/2024/08/22/tucker-carlson-on-whether-rfk-jr-endorsement-will-help-trump/",
-          "title": "Megyn Kelly Show: Carlson on an RFK Jr. endorsement"
-        }
+        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" },
+        { "url": "https://www.megynkelly.com/2024/08/22/tucker-carlson-on-whether-rfk-jr-endorsement-will-help-trump/", "title": "Megyn Kelly Show: Carlson on an RFK Jr. endorsement" }
       ]
     },
     {
@@ -301,30 +195,12 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://www.deseret.com/politics/2025/11/05/tucker-carlson-interviews-antisemite-nick-fuentes-triggers-heritage-foundation-crisis",
-          "title": "Deseret News: Carlson interviews Fuentes, triggering Heritage Foundation crisis"
-        },
-        {
-          "url": "https://www.pbs.org/newshour/politics/trump-defends-tucker-carlson-after-interview-with-nick-fuentes-far-right-activist-known-for-his-antisemitic-views",
-          "title": "PBS NewsHour: Trump defends Tucker Carlson after interview with Nick Fuentes"
-        },
-        {
-          "url": "https://www.mediaite.com/media/news/i-have-never-met-a-faker-human-nick-fuentes-suggests-fcking-liar-tucker-carlson-might-have-him-killed/",
-          "title": "Mediaite: Fuentes calls Carlson a faker and a liar (December 2025)"
-        },
-        {
-          "url": "https://www.jpost.com/diaspora/antisemitism/article-912394",
-          "title": "Jerusalem Post: Fuentes calls Carlson a \"true Jew hater\" (2026)"
-        },
-        {
-          "url": "https://vinnews.com/2026/10/20/nick-fuentes-accuses-tucker-carlson-of-rabid-antisemitism-calls-him-a-true-jew-hater/",
-          "title": "VIN News: Fuentes accuses Carlson of rabid antisemitism (October 2026)"
-        },
-        {
-          "url": "https://www.primetimer.com/news/nick-fuentes-claims-the-only-reason-tucker-carlson-is-fearmongering-about-a-nuclear-strike-against-iran-is-to-boost-jd-vances-presidential-profile",
-          "title": "Primetimer: Fuentes says Carlson is fearmongering about Iran to boost Vance"
-        }
+        { "url": "https://www.deseret.com/politics/2025/11/05/tucker-carlson-interviews-antisemite-nick-fuentes-triggers-heritage-foundation-crisis", "title": "Deseret News: Carlson interviews Fuentes, triggering Heritage Foundation crisis" },
+        { "url": "https://www.pbs.org/newshour/politics/trump-defends-tucker-carlson-after-interview-with-nick-fuentes-far-right-activist-known-for-his-antisemitic-views", "title": "PBS NewsHour: Trump defends Tucker Carlson after interview with Nick Fuentes" },
+        { "url": "https://www.mediaite.com/media/news/i-have-never-met-a-faker-human-nick-fuentes-suggests-fcking-liar-tucker-carlson-might-have-him-killed/", "title": "Mediaite: Fuentes calls Carlson a faker and a liar (December 2025)" },
+        { "url": "https://www.jpost.com/diaspora/antisemitism/article-912394", "title": "Jerusalem Post: Fuentes calls Carlson a \"true Jew hater\" (2026)" },
+        { "url": "https://vinnews.com/2026/10/20/nick-fuentes-accuses-tucker-carlson-of-rabid-antisemitism-calls-him-a-true-jew-hater/", "title": "VIN News: Fuentes accuses Carlson of rabid antisemitism (October 2026)" },
+        { "url": "https://www.primetimer.com/news/nick-fuentes-claims-the-only-reason-tucker-carlson-is-fearmongering-about-a-nuclear-strike-against-iran-is-to-boost-jd-vances-presidential-profile", "title": "Primetimer: Fuentes says Carlson is fearmongering about Iran to boost Vance" }
       ]
     },
     {
@@ -335,10 +211,7 @@
       "start_year": 2025,
       "confidence": 0.75,
       "sources": [
-        {
-          "url": "https://www.npr.org/2025/06/18/nx-s1-5438122/trump-iran-israel-conflict-tucker-carlson",
-          "title": "NPR: Pro-Trump media figures split over the Israel-Iran conflict"
-        }
+        { "url": "https://www.npr.org/2025/06/18/nx-s1-5438122/trump-iran-israel-conflict-tucker-carlson", "title": "NPR: Pro-Trump media figures split over the Israel-Iran conflict" }
       ]
     },
     {
@@ -350,29 +223,22 @@
       "end_year": null,
       "confidence": 0.75,
       "sources": [
-        {
-          "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/",
-          "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview"
-        }
+        { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" }
       ]
     },
     {
       "name": "Pete Hegseth",
       "slug": "pete-hegseth",
       "relationship_type": "colleague",
-      "description": "Both were Fox News hosts until 2023 (Hegseth from 2014); based only on the shared employer, with no source on direct work together.",
+      "description": "Both were Fox News hosts until 2023 (Hegseth from 2014); based only on the shared employer, with no source on direct work together. In 2026 Carlson became a leading conservative critic of the Iran war Hegseth was running, and Hegseth was asked at a Pentagon briefing about Carlson’s criticism.",
       "start_year": 2014,
       "end_year": 2023,
       "confidence": 0.5,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tucker_Carlson",
-          "title": "Wikipedia: Tucker Carlson"
-        },
-        {
-          "url": "https://millercenter.org/pete-hegseth-2025",
-          "title": "Miller Center: Pete Hegseth"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" },
+        { "url": "https://millercenter.org/pete-hegseth-2025", "title": "Miller Center: Pete Hegseth" },
+        { "url": "https://www.mediaite.com/media/pete-hegseth-pressed-on-fellow-fox-news-alum-tucker-carlsons-unhinged-unconditional-surrender-rape-theory", "title": "Mediaite: Pete Hegseth pressed on fellow Fox News alum Tucker Carlson’s criticism" },
+        { "url": "https://wtop.com/national/2026/03/lock-step-no-more-iran-war-shows-cracks-in-trumps-conservative-media-support/", "title": "WTOP (AP): Iran war shows cracks in Trump’s conservative media support" }
       ]
     },
     {
@@ -384,14 +250,8 @@
       "end_year": 2020,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tucker_Carlson",
-          "title": "Wikipedia: Tucker Carlson"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Neil_Patel_(political_advisor)",
-          "title": "Wikipedia: Neil Patel (political advisor)"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" },
+        { "url": "https://en.wikipedia.org/wiki/Neil_Patel_(political_advisor)", "title": "Wikipedia: Neil Patel (political advisor)" }
       ]
     },
     {
@@ -403,10 +263,7 @@
       "end_year": 2023,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://www.theguardian.com/media/2023/apr/24/tucker-carlson-leaving-fox-news",
-          "title": "Guardian: Tucker Carlson leaves Fox News, reportedly fired by Rupert Murdoch"
-        }
+        { "url": "https://www.theguardian.com/media/2023/apr/24/tucker-carlson-leaving-fox-news", "title": "Guardian: Tucker Carlson leaves Fox News, reportedly fired by Rupert Murdoch" }
       ]
     },
     {
@@ -418,14 +275,8 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel",
-          "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president"
-        },
-        {
-          "url": "https://www.hawaiitribune-herald.com/?p=371383",
-          "title": "AP via Hawaii Tribune-Herald: Tucker Carlson and Marjorie Taylor Greene say they are done with the GOP"
-        }
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=371383", "title": "AP via Hawaii Tribune-Herald: Tucker Carlson and Marjorie Taylor Greene say they are done with the GOP" }
       ]
     },
     {
@@ -437,10 +288,7 @@
       "end_year": null,
       "confidence": 0.8,
       "sources": [
-        {
-          "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel",
-          "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president"
-        }
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
       ]
     },
     {
@@ -452,10 +300,7 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel",
-          "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president"
-        }
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
       ]
     },
     {
@@ -467,10 +312,7 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://www.axios.com/2025/11/17/ted-cruz-tucker-carlson-president-2028",
-          "title": "Axios: Ted Cruz sets stage for 2028 run with Tucker jabs"
-        }
+        { "url": "https://www.axios.com/2025/11/17/ted-cruz-tucker-carlson-president-2028", "title": "Axios: Ted Cruz sets stage for 2028 run with Tucker jabs" }
       ]
     },
     {
@@ -481,10 +323,7 @@
       "start_year": 2024,
       "confidence": 0.8,
       "sources": [
-        {
-          "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665",
-          "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump"
-        }
+        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" }
       ]
     },
     {
@@ -496,10 +335,7 @@
       "end_year": 2019,
       "confidence": 0.5,
       "sources": [
-        {
-          "url": "https://www.dailysignal.com/2019/07/28/national-conservatives-set-out-to-define-future-of-politics-on-right/",
-          "title": "\"National Conservatives\" Set Out to Define Future of Politics on Right — Daily Signal"
-        }
+        { "url": "https://www.dailysignal.com/2019/07/28/national-conservatives-set-out-to-define-future-of-politics-on-right/", "title": "\"National Conservatives\" Set Out to Define Future of Politics on Right — Daily Signal" }
       ]
     },
     {
@@ -511,18 +347,9 @@
       "end_year": null,
       "confidence": 0.65,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari",
-          "title": "Sohrab Ahmari — Wikipedia"
-        },
-        {
-          "url": "https://theweek.com/politics/tucker-carlson-interview-darryl-cooper-holocaust",
-          "title": "Tucker Carlson's WWII interview fractures conservatives — The Week"
-        },
-        {
-          "url": "https://thefp.com/p/world-war-ii-and-the-rise-of-anti-798/comments",
-          "title": "World War II and the rise of anti-history — The Free Press"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+        { "url": "https://theweek.com/politics/tucker-carlson-interview-darryl-cooper-holocaust", "title": "Tucker Carlson's WWII interview fractures conservatives — The Week" },
+        { "url": "https://thefp.com/p/world-war-ii-and-the-rise-of-anti-798/comments", "title": "World War II and the rise of anti-history — The Free Press" }
       ]
     },
     {
@@ -533,18 +360,9 @@
       "start_year": 2023,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/1789_Capital",
-          "title": "1789 Capital — Wikipedia"
-        },
-        {
-          "url": "https://fortune.com/2023/10/17/tucker-carlson-media-company-funding-1789-15-million-seed-capital/",
-          "title": "Tucker Carlson's media company raises $15 million led by 1789 Capital — Fortune"
-        },
-        {
-          "url": "https://axios.com/2023/10/17/tucker-carlson-new-media-company-15-million",
-          "title": "Tucker Carlson's new media company raises $15 million — Axios"
-        }
+        { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" },
+        { "url": "https://fortune.com/2023/10/17/tucker-carlson-media-company-funding-1789-15-million-seed-capital/", "title": "Tucker Carlson's media company raises $15 million led by 1789 Capital — Fortune" },
+        { "url": "https://axios.com/2023/10/17/tucker-carlson-new-media-company-15-million", "title": "Tucker Carlson's new media company raises $15 million — Axios" }
       ]
     },
     {
@@ -555,14 +373,8 @@
       "start_year": 2025,
       "confidence": 0.75,
       "sources": [
-        {
-          "url": "https://www.cbsnews.com/news/heritage-foundation-kevin-roberts-tucker-carlson-interview-nick-fuentes/",
-          "title": "Heritage Foundation head defends Tucker Carlson for hosting Nick Fuentes — CBS News"
-        },
-        {
-          "url": "https://www.ksat.com/news/politics/2025/10/31/heritage-foundation-head-defends-tucker-carlson-for-hosting-white-nationalist-with-antisemitic-views/",
-          "title": "Heritage Foundation head defends Tucker Carlson for hosting white nationalist with antisemitic views — AP via KSAT"
-        }
+        { "url": "https://www.cbsnews.com/news/heritage-foundation-kevin-roberts-tucker-carlson-interview-nick-fuentes/", "title": "Heritage Foundation head defends Tucker Carlson for hosting Nick Fuentes — CBS News" },
+        { "url": "https://www.ksat.com/news/politics/2025/10/31/heritage-foundation-head-defends-tucker-carlson-for-hosting-white-nationalist-with-antisemitic-views/", "title": "Heritage Foundation head defends Tucker Carlson for hosting white nationalist with antisemitic views — AP via KSAT" }
       ]
     },
     {
@@ -573,18 +385,9 @@
       "start_year": 2023,
       "confidence": 0.7,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Turning_Point_USA",
-          "title": "Turning Point USA — Wikipedia"
-        },
-        {
-          "url": "https://jewishinsider.com/2025/12/ben-shapiro-tucker-carlson-turning-point-usa-americafest/",
-          "title": "At AmericaFest, Shapiro, Carlson clash over the future of the conservative movement — Jewish Insider"
-        },
-        {
-          "url": "https://fortune.com/2025/12/19/maga-civil-war-turning-point-conference-shapiro-carlson-antisemitism/",
-          "title": "MAGA civil war at Turning Point conference — Fortune"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" },
+        { "url": "https://jewishinsider.com/2025/12/ben-shapiro-tucker-carlson-turning-point-usa-americafest/", "title": "At AmericaFest, Shapiro, Carlson clash over the future of the conservative movement — Jewish Insider" },
+        { "url": "https://fortune.com/2025/12/19/maga-civil-war-turning-point-conference-shapiro-carlson-antisemitism/", "title": "MAGA civil war at Turning Point conference — Fortune" }
       ]
     }
   ],
@@ -593,14 +396,8 @@
       "topic": "Party registration",
       "details": "Wikipedia lists Carlson as a registered Democrat until 2020, Republican 2020–2026 and independent since 2026; Carlson says the Democratic registration was only to vote in D.C. primaries, while the National Interest describes him as a Democrat for years.",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tucker_Carlson",
-          "title": "Wikipedia: Tucker Carlson"
-        },
-        {
-          "url": "https://nationalinterest.org/node/209287",
-          "title": "National Interest: Tucker Carlson was a Democrat for years"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" },
+        { "url": "https://nationalinterest.org/node/209287", "title": "National Interest: Tucker Carlson was a Democrat for years" }
       ]
     }
   ],

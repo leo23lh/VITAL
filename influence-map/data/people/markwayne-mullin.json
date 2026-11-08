@@ -117,6 +117,20 @@
         { "url": "https://www.npr.org/2026/03/23/g-s1-114813/markwayne-mullin-confirmed-homeland-security", "title": "Markwayne Mullin confirmed as the next secretary of Homeland Security — NPR" },
         { "url": "https://www.krmg.com/2026/03/18/mullin-makes-his-case-as-a-steady-hand-for-dhs-but-faces-senate-pushback-over-his-temperament", "title": "Mullin makes his case as a steady hand for DHS but faces Senate pushback — AP via KRMG" }
       ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "ally",
+      "description": "Mullin was one of Hegseth’s most vocal defenders in the Senate, during the December 2024 nomination fight and the January 2025 hearing, and again after the March 2025 Signal chat leak, which he called a thoughtful conversation.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://newson6.com/story/67871bedf293c740252c8296/sen-mullin-defends-hegseths-nomination-calls-out-double-standards-in-senate", "title": "News On 6: Sen. Mullin defends Hegseth’s nomination, calls out double standards" },
+        { "url": "https://www.washingtontimes.com/news/2024/dec/8/markwayne-mullin-defends-pete-hegseth-drinking-all/", "title": "Washington Times: Markwayne Mullin defends Pete Hegseth" },
+        { "url": "https://www.foxnews.com/politics/gop-senators-rally-behind-defense-secretary-pete-hegseth-say-calls-his-firing-hot-garbage", "title": "Fox News: GOP senators rally behind Hegseth after Signal chat leak" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

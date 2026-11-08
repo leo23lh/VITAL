@@ -688,14 +688,16 @@
       "name": "Pete Hegseth",
       "slug": "pete-hegseth",
       "relationship_type": "employee",
-      "description": "Trump nominated Hegseth, then a Fox News host, as defense secretary; he was sworn in on January 25, 2025, and in September 2025 Trump's executive order let him use the title Secretary of War.",
+      "description": "Trump nominated Hegseth, then a Fox News host, as defense secretary; he was sworn in on January 25, 2025, and in September 2025 Trump's executive order let him use the title Secretary of War. On November 4, 2026, after Republicans lost Congress, Trump said Hegseth would stay on; CBS reported he was privately weighing a replacement.",
       "start_year": 2025,
       "end_year": null,
       "confidence": 0.95,
       "sources": [
         { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" },
         { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" },
-        { "url": "https://www.defenseone.com/policy/2025/09/trump-signs-order-change-name-department-defense-department-war/407962/", "title": "Trump signs order to change name of Department of Defense to Department of War — Defense One" }
+        { "url": "https://www.defenseone.com/policy/2025/09/trump-signs-order-change-name-department-defense-department-war/407962/", "title": "Trump signs order to change name of Department of Defense to Department of War — Defense One" },
+        { "url": "https://abcnews.com/Politics/trump-dismisses-prospect-replacing-hegseth-amid-iran-war/story?id=137852219", "title": "ABC News: Trump dismisses prospect of replacing Hegseth amid Iran war fallout" },
+        { "url": "https://federalnewsnetwork.com/defense-main/2026/11/hegseth-vows-to-defend-pentagon-policies-as-democrats-flip-congress/", "title": "Federal News Network: Hegseth vows to defend Pentagon policies as Democrats flip Congress" }
       ]
     },
     {

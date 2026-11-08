@@ -132,6 +132,22 @@
         { "url": "https://spectrumnews1.com/ky/louisville/news/2026/03/31/paul-backs-massie-campaign", "title": "Paul backs Massie campaign — Spectrum News 1" },
         { "url": "https://kvia.com/politics/cnn-us-politics/2026/02/07/a-defiant-thomas-massie-takes-on-the-maga-machine-in-heated-kentucky-primary/", "title": "A defiant Thomas Massie takes on the MAGA machine in heated Kentucky primary — CNN via KVIA" }
       ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "enemy",
+      "description": "Massie filed eight articles of impeachment against Hegseth on September 15, 2026, chiefly over the Iran war and the War Powers Resolution; after the November 2026 midterms he said he would force a vote unless Hegseth resigned, and Hegseth called them sham articles from a “disgruntled, defeated congressman.”",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://time.com/article/2026/09/15/massie-hegseth-impeachment-iran/", "title": "TIME: Republican congressman introduces articles of impeachment against Defense Secretary Pete Hegseth" },
+        { "url": "https://www.cbsnews.com/news/pete-hegseth-iran-war-impeachment-thomas-massie/", "title": "CBS News: GOP Rep. Thomas Massie introduces impeachment articles against Hegseth over Iran war" },
+        { "url": "https://massie.house.gov/uploadedfiles/articles_of_impeachment_sec._hegseth.pdf", "title": "Rep. Thomas Massie: Articles of impeachment against Secretary Hegseth" },
+        { "url": "https://thehill.com/homenews/house/6172957-massie-hegseth-impeachment-midterms/", "title": "The Hill: Massie says he’ll move to impeach Hegseth if he’s not gone after midterms" },
+        { "url": "https://www.nbcnews.com/politics/trump-administration/secretary-pete-hegseth-defiant-tone-impeachment-threat-thomas-massie-rcna607788", "title": "NBC News: Hegseth strikes defiant tone in face of impeachment threat" }
+      ]
     }
   ],
   "aliases": [],

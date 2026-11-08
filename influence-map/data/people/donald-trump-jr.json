@@ -244,6 +244,18 @@
       "sources": [
         { "url": "https://www.axios.com/2025/03/12/trump-jr-donalds-florida-governor-maga", "title": "Trump Jr. backs Donalds for Florida governor in MAGA squeeze play — Axios" }
       ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "ally",
+      "description": "In December 2024 Trump Jr. pressed wavering Republican senators, especially Joni Ernst, to back Hegseth’s nomination, suggesting she could face a primary.",
+      "start_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/pressure-iowa-senator-shows-consequences-for-republicans-who-oppose-trump", "title": "PBS NewsHour (AP): Pressure on Iowa senator shows consequences for Republicans who oppose Trump" },
+        { "url": "https://www.coloradopolitics.com/2024/12/11/trump-allies-drilled-down-on-joni-ernst-in-pressure-campaign-to-save-hegseth-39fbc98c-44ed-5db6-ba4e-7442ead57ca2/", "title": "Colorado Politics: Trump allies drilled down on Joni Ernst in pressure campaign to save Hegseth" }
+      ]
     }
   ],
   "affiliations": [],

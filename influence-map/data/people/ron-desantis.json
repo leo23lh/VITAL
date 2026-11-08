@@ -242,6 +242,19 @@
         { "url": "https://floridaphoenix.com/?p=229335", "title": "DeSantis disses Donalds, touts First Lady, when asked about 2026 governor race — Florida Phoenix" },
         { "url": "https://www.wlrn.org/government-politics/2026-01-12/collins-announces-bid-for-governor-as-desantis-wavers-on-whether-to-endorse", "title": "Collins announces bid for governor as DeSantis wavers on whether to endorse — WLRN" }
       ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "rival",
+      "description": "Trump weighed DeSantis for the defense post twice: in December 2024 while Hegseth’s nomination was in trouble, and in November 2026 after the midterms, according to CBS News sources. Trump said publicly in 2026 that Hegseth would stay.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://cbsnews.com/news/trump-considering-replacing-hegseth-with-desantis-defense-secretary-sources", "title": "CBS News: Trump considering replacing Hegseth with DeSantis for defense secretary" },
+        { "url": "https://www.cbsnews.com/miami/news/report-trump-weighs-desantis-for-pentagon-role", "title": "CBS News Miami: Report, Trump weighs DeSantis for Pentagon role" }
+      ]
     }
   ],
   "affiliations": [],

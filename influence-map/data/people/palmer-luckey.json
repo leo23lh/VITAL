@@ -187,6 +187,21 @@
         { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
         { "url": "https://fortune.com/2025/06/05/anduril-palmer-luckey-funding-30-billion-valuation-founders-fund/", "title": "Anduril raises at $30.5 billion valuation, led by Founders Fund — Fortune" }
       ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "colleague",
+      "description": "Hegseth toured Anduril’s Costa Mesa campus with Luckey before the December 2025 Reagan National Defense Forum and its Quonset Point, Rhode Island factory in February 2026, and in October 2026 named Luckey a co-leader of Project Meridian, the Pentagon’s future-of-warfare review.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.theepochtimes.com/us/hegseth-lays-out-trumps-america-first-military-strategy-in-reagan-forum-visit-5954907", "title": "Epoch Times: Hegseth lays out Trump’s America First military strategy in Reagan Forum visit" },
+        { "url": "https://whatsupnewp.com/2026/02/hegseth-touts-speed-and-innovation-in-tour-of-quonset-point-facilities/", "title": "What’sUpNewp: Hegseth touts speed and innovation in tour of Quonset Point facilities" },
+        { "url": "https://thehill.com/policy/defense/6121108-pete-hegseth-pentagon-project-meridian-warfare-future/", "title": "The Hill: Hegseth puts Musk, Luckey, Gingrich in charge of military future warfare review" },
+        { "url": "https://asiatimes.com/2026/10/hegseth-taps-three-to-lead-future-of-warfare-project/", "title": "Asia Times: Hegseth taps three to lead Future of Warfare project" }
+      ]
     }
   ],
   "source_conflicts": [
