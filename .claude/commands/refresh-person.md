@@ -62,6 +62,8 @@ optionally followed by context about what to focus on.
      politics shifted since `last_researched`, closing the previous one.
      For donors, update `giving` (CLAUDE.md "Giving"): add the latest cycle's
      totals and recipients and refresh the `outlook`.
+     Re-check `leverage` and add new `access` events from the last year (CLAUDE.md
+     "Pull"); never record setbacks as a Pull penalty.
      Re-check `office` (CLAUDE.md "Office"): update the title, boss and
      `since` if their post changed, or remove it (moving the post into
      `timeline`) if they left government.

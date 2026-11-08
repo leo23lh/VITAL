@@ -62,7 +62,7 @@ export default function PullView({ nodes, bonds, of, onOf, selectedId, onSelect 
       <p className="org-key muted small">
         {of
           ? `Everyone with a recorded tie to ${name(of)}, strongest bond first.`
-          : 'How close each person is to people in power: their bond with each official, weighted by the post (the President counts most, then the White House senior staff, the cabinet, congressional leaders and deputies). The strongest tie counts in full, each further one half as much; ties to people junior to them count a quarter.'}
+          : 'How close each person is to people in power, plus what they control that power needs. Access: their bond with each official, weighted by the post (the President counts most), with recent documented meetings and deals strengthening a tie. Leverage: companies, contracts, media and money the White House needs (sourced, rated notable, major or systemic). Setbacks don’t lower anyone’s score.'}
       </p>
 
       <div className="pull-controls">
@@ -105,6 +105,7 @@ export default function PullView({ nodes, bonds, of, onOf, selectedId, onSelect 
                   <span className="org-name">{name(r.id)}</span>
                   <span className="org-title">{roleOf(byId.get(r.id))}</span>
                   <span className="org-boss">
+                    {r.leverage > 0 && <span className="lev-chip">{['', 'notable', 'major', 'systemic'][r.leverage]} leverage</span>}
                     via {r.via
                       .slice(0, 3)
                       .map((v) => `${name(v.id)} ${v.bond}`)

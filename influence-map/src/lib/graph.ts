@@ -38,6 +38,10 @@ export interface GraphNode {
   degree: number;
   /** Names of researched people whose files mention this node. */
   mentionedBy: string[];
+  /** Reporting line from the org chart (`office.reports_to`), nearest boss first. */
+  chain?: string[];
+  /** Reported giving to people in the map: total dollars and the cycles given in. */
+  givenTo?: Map<string, { usd: number; cycles: number[] }>;
   x?: number;
   y?: number;
   vx?: number;
@@ -206,6 +210,24 @@ export function buildGraph(files: PersonFile[], orgFiles: OrgFile[] = []): Graph
   }
 
   assignCurvature([...links.values()]);
+
+  // Reporting lines and giving totals, used to weigh jobs and donations in bond().
+  for (const n of nodes.values()) {
+    const chain: string[] = [];
+    for (let s = n.person?.office?.reports_to; s && !chain.includes(s) && chain.length < 8; s = nodes.get(s)?.person?.office?.reports_to)
+      chain.push(s);
+    if (chain.length) n.chain = chain;
+    const given = new Map<string, { usd: number; cycles: number[] }>();
+    for (const c of n.person?.giving?.cycles ?? [])
+      for (const r of c.recipients ?? []) {
+        if (!r.slug) continue;
+        const g = given.get(r.slug) ?? { usd: 0, cycles: [] };
+        g.usd += r.amount_usd ?? 0;
+        if (!g.cycles.includes(c.cycle)) g.cycles.push(c.cycle);
+        given.set(r.slug, g);
+      }
+    if (given.size) n.givenTo = given;
+  }
 
   return { nodes: [...nodes.values()], links: [...links.values()], skipped };
 }
@@ -859,6 +881,32 @@ function countYears(intervals: [number, number][]): { count: number; span: [numb
   return { count: years.size, span: [Math.min(...years), Math.max(...years)] };
 }
 
+/** Distinct sources past this add nothing to a bond's "on the record" part. */
+export const RECORD_CAP = 5;
+
+/**
+ * A current government job between two officials counts by how far apart they sit in the
+ * org chart: a direct report in full, two levels 0.85, three 0.7, further (or no recorded
+ * reporting line, e.g. an agency appointee "employed" by the President) 0.6. Outside
+ * government (no office on one side) a job counts in full.
+ */
+export function orgDistanceFactor(a: GraphNode | undefined, b: GraphNode | undefined): number {
+  if (!a?.person?.office || !b?.person?.office) return 1;
+  const up = a.chain?.indexOf(b.id) ?? -1;
+  const down = b.chain?.indexOf(a.id) ?? -1;
+  const d = up >= 0 ? up + 1 : down >= 0 ? down + 1 : Infinity;
+  return d === 1 ? 1 : d === 2 ? 0.85 : d === 3 ? 0.7 : 0.6;
+}
+
+/**
+ * A donation counts by its reported size: about 0.55 at $100k, 0.65 at $1M, 0.75 at $10M,
+ * 0.85 at $100M, up to 1. With no reported amount it counts as about $1M (0.65).
+ */
+export function moneyFactor(usd: number | undefined): number {
+  if (!usd) return 0.65;
+  return Math.min(1, Math.max(0.55, 0.55 + 0.1 * Math.log10(usd / 1e5)));
+}
+
 /**
  * How deep the relationship between a and b runs, from the links between them
  * (`links`, every kind) and the workplaces they shared at the same time.
@@ -877,10 +925,18 @@ export function bond(
   const friendly = links.filter((l) => l.group !== 'rival' && l.group !== 'enemy');
   const feuds = links.filter((l) => l.group === 'rival' || l.group === 'enemy');
   const currentFeud = feuds.find((l) => !isPastRivalry(l));
+  const gift = a && b ? (a.givenTo?.get(b.id) ?? b.givenTo?.get(a.id)) : undefined;
 
   // Depth: the strongest record of each kind, combined so a second kind adds less than the first.
+  // A current government job counts by how close the two sit in the org chart; money by how much.
+  const weight = (l: GraphLink) => {
+    const ongoing = l.endYear === null || l.endYear === undefined || l.endYear >= now;
+    if (l.group === 'employment' && ongoing) return l.confidence * orgDistanceFactor(a, b);
+    if (l.group === 'funding') return l.confidence * moneyFactor(gift?.usd);
+    return l.confidence;
+  };
   const best = new Map<EdgeGroup, number>();
-  for (const l of friendly) best.set(l.group, Math.max(best.get(l.group) ?? 0, l.confidence));
+  for (const l of friendly) best.set(l.group, Math.max(best.get(l.group) ?? 0, weight(l)));
   const kinds = [...best.entries()]
     .map(([group, confidence]) => ({ group, confidence }))
     .sort((x, y) => CLOSENESS[y.group] * y.confidence - CLOSENESS[x.group] * x.confidence);
@@ -902,9 +958,14 @@ export function bond(
     }
   }
 
-  // A tie with no recorded end counts as continuing (as in the date filter); a donation counts for its year only.
+  // A tie with no recorded end counts as continuing (as in the date filter); a donation counts for its
+  // year only, unless the donor gave in two or more cycles, which counts as steady from the first to the last.
+  const giftSpan: [number, number] | null =
+    gift && gift.cycles.length >= 2 ? [Math.min(...gift.cycles) - 1, Math.max(...gift.cycles)] : null;
   const linkSpan = (l: GraphLink) =>
-    span(l.startYear, l.endYear === undefined && l.group !== 'funding' ? null : l.endYear, now);
+    l.group === 'funding' && giftSpan
+      ? giftSpan
+      : span(l.startYear, l.endYear === undefined && l.group !== 'funding' ? null : l.endYear, now);
   const intervals = [
     ...friendly.map(linkSpan).filter((x): x is [number, number] => !!x),
     ...shared.map((w): [number, number] => [w.from, w.to]),
@@ -918,7 +979,8 @@ export function bond(
   const depthPart = depth;
   // Family is lifelong, dates or not.
   const yearsPart = Math.max(1 - Math.exp(-yearsTogether / 6), family ? 0.9 : 0);
-  const recordPart = 1 - Math.exp(-(sources + shared.length) / 6);
+  // Capped, so a heavily researched file doesn't outscore a lightly researched one on volume alone.
+  const recordPart = 1 - Math.exp(-(Math.min(sources, RECORD_CAP) + shared.length) / 6);
   let raw = friendly.length || shared.length ? 0.5 * depthPart + 0.3 * yearsPart + 0.2 * recordPart : 0;
 
   // Status: is the bond still standing?

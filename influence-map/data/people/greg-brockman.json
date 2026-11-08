@@ -314,5 +314,15 @@
         }
       ]
     }
-  }
+  },
+  "access": [
+    {
+      "date": "2026-09-29",
+      "with": ["donald-trump"],
+      "what": "Represented OpenAI at Trump’s White House AI lunch.",
+      "sources": [
+        { "url": "https://www.news4jax.com/business/2026/09/29/trump-vows-to-never-stifle-ai-as-leading-executives-urge-caution/", "title": "Trump vows to never stifle AI as leading executives urge caution — AP via News4JAX (September 29, 2026)" }
+      ]
+    }
+  ]
 }

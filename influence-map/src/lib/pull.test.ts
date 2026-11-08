@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { buildGraph, workplaceIndex } from './graph';
+import { moneyFactor, orgDistanceFactor } from './graph';
 import { bondIndex, earOf, power, pullOf, rankPull } from './pull';
 import type { Person, PersonFile } from './schema';
 
@@ -65,5 +66,46 @@ describe('pullOf', () => {
 
   it('lists who has an official’s ear', () => {
     expect(earOf('pres', g.nodes, idx).map((e) => e.id)).toEqual(expect.arrayContaining(['insider', 'friend', 'sec']));
+  });
+});
+
+describe('pull v2', () => {
+  const office = (title: string, unit: string, rank: number, reports_to?: string) =>
+    ({ office: { title, unit, rank, reports_to, sources: src } }) as never;
+  const g2 = buildGraph([
+    person('pres', [conn('direct', 'employee'), conn('far', 'employee'), conn('mogul', 'ally')], office('President', 'white-house', 1)),
+    person('direct', [conn('pres', 'employer')], office('Secretary', 'labor', 1, 'pres')),
+    person('far', [conn('pres', 'employer')], office('Adviser', 'agencies', 4)),
+    person('mogul', [conn('pres', 'ally')], {
+      leverage: { level: 3, basis: 'Owns a company the government needs.', sources: src },
+      access: [{ date: '2026-10-01', with: ['pres'], what: 'Met in the Oval Office.', sources: src }],
+    } as never),
+    person('nobody', [conn('pres', 'ally')]),
+  ]);
+  // The President's file needs the inverse ally record for nobody; buildGraph merges one-sided records anyway.
+  const idx2 = bondIndex(g2.nodes, g2.links, workplaceIndex(g2.nodes));
+  const now = new Date('2026-11-08');
+
+  it('weighs a government job by reporting distance', () => {
+    expect(orgDistanceFactor(g2.nodes.find((n) => n.id === 'direct'), g2.nodes.find((n) => n.id === 'pres'))).toBe(1);
+    expect(orgDistanceFactor(g2.nodes.find((n) => n.id === 'far'), g2.nodes.find((n) => n.id === 'pres'))).toBe(0.6);
+    expect(pullOf('direct', g2.nodes, idx2, now).score).toBeGreaterThan(pullOf('far', g2.nodes, idx2, now).score);
+  });
+
+  it('weighs money by amount', () => {
+    expect(moneyFactor(1e5)).toBeCloseTo(0.55);
+    expect(moneyFactor(1e7)).toBeCloseTo(0.75);
+    expect(moneyFactor(1e10)).toBe(1);
+    expect(moneyFactor(undefined)).toBe(0.65);
+  });
+
+  it('adds leverage and recent access', () => {
+    const m = pullOf('mogul', g2.nodes, idx2, now);
+    const plain = pullOf('nobody', g2.nodes, idx2, now);
+    expect(m.leverage).toBe(3);
+    expect(m.via[0].recent).toBe(1);
+    expect(m.score).toBeGreaterThan(plain.score);
+    // A meeting more than a year ago doesn't count.
+    expect(pullOf('mogul', g2.nodes, idx2, new Date('2028-01-01')).via[0].recent).toBe(0);
   });
 });

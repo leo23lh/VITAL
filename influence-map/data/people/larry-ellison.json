@@ -415,5 +415,37 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Targeted searches found no documented connection to Stephen Miller, Jeff Sessions or David Horowitz. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "leverage": {
+    "level": 3,
+    "basis": "Co-founder and chief technology officer of Oracle, which holds 15% of the TikTok U.S. joint venture created under Trump’s 2025 order and was named an anchor of the Stargate AI build-out; his son David’s Paramount–Warner Bros. Discovery owns CBS, CNN and HBO. Gave about $45 million to a nonprofit backing Trump’s 2024 campaign.",
+    "sources": [
+      { "url": "https://www.cnbc.com/2026/02/16/tiktok-us-joint-venture-user-data-no-mass-exodus-oracle-mgx-silver-lake-larry-ellison-trump.html", "title": "After a shaky start, TikTok’s U.S. joint venture lands on its feet — CNBC (February 2026)" },
+      { "url": "https://www.thewrap.com/industry-news/deals-ma/what-david-ellison-owns-paramount-warner-bros-cnn-tiktok/", "title": "David Ellison’s growing media empire: from CNN and HBO to Harry Potter — TheWrap" },
+      { "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/", "title": "Larry Ellison’s $45 million donation, Stargate, TikTok and Paramount — Fortune (June 2026)" }
+    ]
+  },
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2024,
+        "description": "About $45 million to a nonprofit backing Trump’s campaign, per the Wall Street Journal.",
+        "sources": [
+          { "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/", "title": "Larry Ellison’s $45 million donation, Stargate, TikTok and Paramount — Fortune (June 2026)" }
+        ],
+        "recipients": [
+          {
+            "name": "Nonprofit backing Donald Trump’s 2024 campaign",
+            "slug": "donald-trump",
+            "kind": "dark-money",
+            "side": "R",
+            "amount_usd": 45000000,
+            "sources": [
+              { "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/", "title": "Larry Ellison’s $45 million donation, Stargate, TikTok and Paramount — Fortune (June 2026)" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

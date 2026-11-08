@@ -151,5 +151,32 @@
         { "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg", "title": "Mark Zuckerberg — Wikipedia" }
       ]
     }
+  ],
+  "leverage": {
+    "level": 2,
+    "basis": "Controls Meta (Facebook, Instagram, WhatsApp), with a seat at Trump’s 2026 state dinner for Xi Jinping and his AI summit lunch.",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg", "title": "Mark Zuckerberg — Wikipedia" },
+      { "url": "https://thehill.com/homenews/administration/6110866-trump-xi-white-house-dinner/", "title": "President Trump hosts tech giants, political figures at White House state dinner with Xi Jinping — The Hill" },
+      { "url": "https://www.news4jax.com/business/2026/09/29/trump-vows-to-never-stifle-ai-as-leading-executives-urge-caution/", "title": "Trump vows to never stifle AI as leading executives urge caution — AP via News4JAX (September 29, 2026)" }
+    ]
+  },
+  "access": [
+    {
+      "date": "2026-09-29",
+      "with": ["donald-trump", "scott-bessent"],
+      "what": "Attended Trump’s White House AI lunch.",
+      "sources": [
+        { "url": "https://www.news4jax.com/business/2026/09/29/trump-vows-to-never-stifle-ai-as-leading-executives-urge-caution/", "title": "Trump vows to never stifle AI as leading executives urge caution — AP via News4JAX (September 29, 2026)" }
+      ]
+    },
+    {
+      "date": "2026-09",
+      "with": ["donald-trump"],
+      "what": "Guest at Trump’s White House state dinner for Xi Jinping.",
+      "sources": [
+        { "url": "https://thehill.com/homenews/administration/6110866-trump-xi-white-house-dinner/", "title": "President Trump hosts tech giants, political figures at White House state dinner with Xi Jinping — The Hill" }
+      ]
+    }
   ]
 }

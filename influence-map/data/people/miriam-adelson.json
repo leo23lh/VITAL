@@ -474,5 +474,23 @@
         }
       ]
     }
-  }
+  },
+  "leverage": {
+    "level": 2,
+    "basis": "One of the largest Republican donors: about $67.6 million in the 2026 cycle, including $25 million to MAGA Inc. and $30 million to Senate Leadership Fund, after her family put hundreds of millions behind Trump in 2020 and 2024 through Preserve America.",
+    "sources": [
+      { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post (June 2026)" },
+      { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" }
+    ]
+  },
+  "access": [
+    {
+      "date": "2026-10",
+      "with": ["donald-trump"],
+      "what": "Her family foundation was reported among the top donors to Trump’s White House ballroom.",
+      "sources": [
+        { "url": "https://www.bostonglobe.com/2026/10/16/business/adelson-trump-ballroom-donor/", "title": "Adelson foundation reportedly among top donors to Trump’s White House ballroom — Boston Globe (October 2026)" }
+      ]
+    }
+  ]
 }

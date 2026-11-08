@@ -234,5 +234,12 @@
         }
       ]
     }
+  },
+  "leverage": {
+    "level": 2,
+    "basis": "The largest individual political donor of the 2024 cycle, mostly to the pro-Trump MAGA Inc.",
+    "sources": [
+      { "url": "https://www.philanthropy.com/news/philanthropists-political-donations-2024-elections/", "title": "Philanthropists’ political donations in the 2024 elections — Chronicle of Philanthropy" }
+    ]
   }
 }

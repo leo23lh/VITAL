@@ -328,6 +328,26 @@ export interface Office {
   sources: SourceRef[];
 }
 
+/**
+ * What someone controls that people in power need: companies, deals, media, money,
+ * voters. 1 = notable, 2 = major, 3 = systemic. See CLAUDE.md "Pull".
+ */
+export interface Leverage {
+  level: 1 | 2 | 3;
+  basis: string;
+  sources: SourceRef[];
+}
+
+/** A documented meeting, call or deal with officials. Recent ones (last 12 months) raise pull. */
+export interface AccessEvent {
+  /** YYYY-MM-DD or YYYY-MM. */
+  date: string;
+  /** Slugs of the officials involved (must have files). */
+  with: string[];
+  what: string;
+  sources: SourceRef[];
+}
+
 /** Political giving: what a donor gave, cycle by cycle, and a sourced outlook. See CLAUDE.md "Giving". */
 export const RECIPIENT_KINDS = [
   { id: 'super-pac', label: 'Super PAC' },
@@ -439,6 +459,10 @@ export interface Person {
   office?: Office;
   /** Junior official: shown in the org chart and Pull, kept off the main web unless searched for. */
   org_chart_only?: boolean;
+  /** What they control that people in power need (raises Pull). */
+  leverage?: Leverage;
+  /** Documented meetings, calls and deals with officials (recent ones raise Pull). */
+  access?: AccessEvent[];
   current_role?: string;
   summary?: string;
   /** Sources backing summary and current_role. */

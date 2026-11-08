@@ -237,5 +237,13 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Not recorded: a reported $100,000 2017 inaugural donation through an LLC (single unverified report) and claims of a 2024 fundraiser co-hosting from a dossier site. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "leverage": {
+    "level": 2,
+    "basis": "Founder of Anduril, a fast-growing defense contractor (about $2.2 billion in 2025 revenue) that is part of the group building the Pentagon’s Golden Dome software with SpaceX and Palantir.",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+      { "url": "https://www.bloomberg.com/news/articles/2026-04-22/spacex-tapped-for-industry-group-developing-golden-dome-software", "title": "SpaceX joins group building Pentagon’s Golden Dome defense software — Bloomberg (April 2026)" }
+    ]
+  }
 }

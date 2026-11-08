@@ -2237,3 +2237,22 @@ a.source-chip:hover {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+.lev-chip {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 0 5px;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--cream);
+  border: 1px solid var(--cream-dim);
+}
+.access-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.access-list li {
+  padding: 4px 0;
+  border-bottom: 1px solid var(--hairline);
+}

@@ -285,13 +285,20 @@ connections either person has never counts. It has three parts (`bond()` in
 
 - **Depth (half):** the kinds of friendly tie between them, each weighted by
   `CLOSENESS` × confidence and combined so a second kind adds less than the first.
+  A current government job between two officials counts by how far apart they
+  sit in the org chart (`orgDistanceFactor`): a direct report in full, two
+  levels 0.85, three 0.7, further or no recorded reporting line 0.6. A donation
+  counts by its size from `giving` (`moneyFactor`: 0.55 at $100k up to 1 at
+  about $3B; 0.65 when no amount is reported).
 - **Years together (30%):** the years their dated ties cover, plus years both
   worked at the same small workplace (from timelines; workplaces with more than
   five people in the map, like the White House or Senate, don't count). A tie
   with a start but no end counts as continuing; a donation counts for its year
-  only; family counts as lifelong. Ties with no start year add no years, and the
+  only, unless `giving` shows money to the same person in two or more cycles,
+  which counts as steady from the first cycle to the last; family counts as lifelong. Ties with no start year add no years, and the
   meter says so: give links a `start_year` whenever a source has one.
-- **On the record (20%):** distinct sources plus shared workplaces.
+- **On the record (20%):** distinct sources (capped at five, so heavily
+  researched files don't win on volume) plus shared workplaces.
 - **Status:** ongoing; ended (×0.7); mended, an old feud with friendly ties now
   (×0.85); broken, friendly ties plus a current rivalry or enmity (×0.3); or
   hostile, only a current feud (0). Labels: 80+ inner circle, 60+ strong bond,
@@ -304,10 +311,30 @@ close someone is to people in power (`src/lib/pull.ts`):
   0.8; White House senior staff 0.5; cabinet secretaries 0.7, deputies 0.45,
   under secretaries and department chiefs of staff 0.3, others 0.2; agency
   heads 0.6; congressional leaders 0.6–0.65, chairs 0.4, members 0.25.
-- Each tie to an official adds post weight × Bond / 100; ties to people junior
-  to the person count a quarter. The strongest tie counts in full, the next
-  half, the next a quarter, combined so the score stays under 100. Labels: 75+
-  inner-circle access, 55+ strong, 35+ real, 15+ some, else little.
+- **Access:** each tie to an official adds post weight × Bond / 100; ties to
+  people junior to the person count a quarter. Each documented meeting, call or
+  deal with that official in the last 12 months (`access`) closes 15% of the gap
+  to a full bond (up to three). The strongest tie counts in full, the next
+  half, the next a quarter, combined so it stays under 100.
+- **Leverage** (`leverage`, level 1–3) then closes 15%, 30% or 45% of what's
+  left: what the person controls that people in power need (companies,
+  contracts, media, money, voters).
+- **No setbacks:** firings, court rulings, investigations and stalled
+  nominations never lower Pull; it counts documented access and leverage only.
+- Labels: 75+ inner-circle access, 55+ strong, 35+ real, 15+ some, else little.
+
+```json
+"leverage": { "level": 3, "basis": "Oracle holds 15% of the TikTok U.S. venture; son's Paramount owns CBS and CNN.",
+              "sources": [{ "url": "https://…", "title": "…" }] },
+"access": [ { "date": "2026-09-29", "with": ["donald-trump"], "what": "Attended the White House AI lunch.",
+              "sources": [{ "url": "https://…" }] } ]
+```
+
+  Leverage levels: 1 notable (a top donor, a sizable firm), 2 major (a leading
+  company, contractor or donor the administration depends on), 3 systemic
+  (several of these at national scale). `basis` names what they control, from
+  the sources. `access` events need a date, the officials' slugs and sources;
+  they are about contact, not opinions of it.
 - "Whose ear" ranks everyone by Bond with one official instead. The President
   is left out of the overall ranking (pull is measured against him).
 

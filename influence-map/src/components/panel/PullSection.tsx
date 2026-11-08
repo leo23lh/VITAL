@@ -2,6 +2,9 @@
 import { pairKey, type GraphNode } from '../../lib/graph';
 import { earOf, power, pullOf, type BondIndex } from '../../lib/pull';
 import type { Selection } from '../../lib/view';
+import { SourceList } from './parts';
+
+const LEVEL_LABEL = ['', 'notable', 'major', 'systemic'] as const;
 
 export interface PullTools {
   nodes: GraphNode[];
@@ -77,10 +80,35 @@ export function PullSection({
           <span style={{ width: `${pull.score}%` }} />
         </div>
         <p className="muted small bond-note">
-          Their bond with each official, weighted by the post. The strongest tie counts in full, each further one half
-          as much; ties to people junior to them count a quarter.
+          Access ({pull.access}): their bond with each official, weighted by the post; recent documented meetings or
+          deals strengthen a tie. The strongest tie counts in full, each further one half as much; ties to people junior
+          to them count a quarter. Leverage then adds to it. Setbacks don’t lower it.
         </p>
       </section>
+
+      {node.person?.leverage && (
+        <section>
+          <h3>Leverage · {LEVEL_LABEL[node.person.leverage.level]}</h3>
+          <p>{node.person.leverage.basis}</p>
+          <SourceList sources={node.person.leverage.sources} />
+        </section>
+      )}
+
+      {(node.person?.access?.length ?? 0) > 0 && (
+        <section>
+          <h3>Recent access</h3>
+          <ul className="access-list">
+            {[...node.person!.access!]
+              .sort((a, b) => b.date.localeCompare(a.date))
+              .map((e, i) => (
+                <li key={i}>
+                  <span className="muted small">{e.date}</span> {e.what}
+                  <SourceList sources={e.sources} compact />
+                </li>
+              ))}
+          </ul>
+        </section>
+      )}
 
       <section>
         <h3>Access to power</h3>

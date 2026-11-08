@@ -562,5 +562,14 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Thiel's reported role on Trump's 2016 transition was not confirmed and is left out. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "leverage": {
+    "level": 2,
+    "basis": "Chairman of Palantir, whose federal work includes a $10 billion, 10-year Army enterprise agreement (2025) and a $1 billion DHS contract supporting ICE (2026); co-founder of Founders Fund, an early Anduril backer. The Revolving Door Project, an advocacy group, describes a network of more than a dozen Thiel allies and former employees in the executive branch.",
+    "sources": [
+      { "url": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000048/pltr-20260930.htm", "title": "Palantir Technologies Form 10-Q, quarter ended September 30, 2026 — SEC" },
+      { "url": "https://therevolvingdoorproject.org/billionaires-and-the-trump-admin-peter-thiel/", "title": "Billionaires and the Trump administration: Peter Thiel — Revolving Door Project (advocacy group)" },
+      { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" }
+    ]
+  }
 }

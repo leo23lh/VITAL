@@ -303,6 +303,29 @@ export function validatePeople(records, opts = {}) {
       else if (p.org_chart_only && !p.office) err(file, '"org_chart_only" needs an "office" (it places the person in the org chart)');
     }
 
+    // Leverage and access: what raises Pull beyond ties (see CLAUDE.md "Pull").
+    if (p.leverage !== undefined) {
+      const l = p.leverage;
+      if (!l || typeof l !== 'object') err(file, '"leverage" must be an object');
+      else {
+        if (![1, 2, 3].includes(l.level)) err(file, 'leverage.level must be 1 (notable), 2 (major) or 3 (systemic)');
+        if (typeof l.basis !== 'string' || !l.basis.trim()) err(file, 'leverage.basis must say what they control');
+        checkSources(l.sources, 'leverage');
+      }
+    }
+    if (p.access !== undefined) {
+      if (!Array.isArray(p.access)) err(file, '"access" must be an array');
+      else
+        p.access.forEach((e, i) => {
+          const where = `access[${i}]`;
+          if (typeof e?.date !== 'string' || !/^\d{4}-\d{2}(-\d{2})?$/.test(e.date)) err(file, `${where}: date must be YYYY-MM or YYYY-MM-DD`);
+          if (!Array.isArray(e?.with) || !e.with.length) err(file, `${where}: "with" must list the officials' slugs`);
+          else for (const s of e.with) if (!bySlug.has(s)) err(file, `${where}: no file for "${s}"`);
+          if (typeof e?.what !== 'string' || !e.what.trim()) err(file, `${where}: "what" is required`);
+          checkSources(e?.sources, where);
+        });
+    }
+
     // Giving: cycles of reported donations, and a sourced outlook for the next cycle.
     if (p.giving !== undefined) {
       const g = p.giving;
@@ -393,7 +416,7 @@ export function validatePeople(records, opts = {}) {
     if (!isYear(o.founded) || !isYear(o.dissolved)) err(file, '"founded"/"dissolved" must be years or null');
     if (typeof o.last_researched !== 'string' || !DATE_RE.test(o.last_researched))
       err(file, '"last_researched" must be a YYYY-MM-DD date');
-    for (const key of ['public_figure', 'photo', 'lean', 'giving', 'race_2028', 'sector', 'self_added', 'office', 'org_chart_only'])
+    for (const key of ['public_figure', 'photo', 'lean', 'giving', 'race_2028', 'sector', 'self_added', 'office', 'org_chart_only', 'leverage', 'access'])
       if (o[key] !== undefined) err(file, `"${key}" is a person field; organizations don't take it`);
     if (o.groups !== undefined) {
       if (!Array.isArray(o.groups)) err(file, '"groups" must be an array');

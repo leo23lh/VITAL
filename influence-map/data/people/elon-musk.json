@@ -874,5 +874,42 @@
         }
       ]
     }
-  }
+  },
+  "leverage": {
+    "level": 3,
+    "basis": "SpaceX holds Pentagon Golden Dome contracts of $4.2 billion and $2.3 billion and is part of the group building its software; Starlink/Starshield service to Ukraine’s military became a point of negotiation with Trump in 2026; owns X. The biggest known donor of the 2026 midterms, at least $366 million to Republican groups.",
+    "sources": [
+      { "url": "https://time.com/article/2026/10/22/trump-elon-musk-ukraine-oligarchs-starlink/", "title": "The price of Faustian bargains with Trump — TIME (October 2026)" },
+      { "url": "https://www.bloomberg.com/news/articles/2026-04-22/spacex-tapped-for-industry-group-developing-golden-dome-software", "title": "SpaceX joins group building Pentagon’s Golden Dome defense software — Bloomberg (April 2026)" },
+      { "url": "https://www.cnbc.com/2026/10/22/trump-musk-starlink-ukraine.html", "title": "Trump asked Musk to lift Starlink slowdown, WSJ reports — CNBC (October 2026)" }
+    ]
+  },
+  "access": [
+    {
+      "date": "2026-09-29",
+      "with": ["donald-trump", "scott-bessent"],
+      "what": "Sat at Trump’s left at the White House AI lunch, where tech leaders signed a voluntary AI agreement.",
+      "sources": [
+        { "url": "https://www.news4jax.com/business/2026/09/29/trump-vows-to-never-stifle-ai-as-leading-executives-urge-caution/", "title": "Trump vows to never stifle AI as leading executives urge caution — AP via News4JAX (September 29, 2026)" },
+        { "url": "https://www.cnbc.com/2026/09/29/tech-white-house-ai-lunch-trump.html", "title": "Trump says he and tech leaders signed AI agreement that is “morally binding” — CNBC" }
+      ]
+    },
+    {
+      "date": "2026-10",
+      "with": ["donald-trump"],
+      "what": "Received the National Medal of Science from Trump.",
+      "sources": [
+        { "url": "https://time.com/article/2026/10/22/trump-elon-musk-ukraine-oligarchs-starlink/", "title": "The price of Faustian bargains with Trump — TIME (October 2026)" }
+      ]
+    },
+    {
+      "date": "2026-10",
+      "with": ["donald-trump"],
+      "what": "Discussed restrictions on Ukraine’s Starlink service with Trump, who later asked him to ease them, per the Wall Street Journal (Trump denied ordering them).",
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/10/22/trump-musk-starlink-ukraine.html", "title": "Trump asked Musk to lift Starlink slowdown, WSJ reports — CNBC (October 2026)" },
+        { "url": "https://time.com/article/2026/10/22/trump-elon-musk-ukraine-oligarchs-starlink/", "title": "The price of Faustian bargains with Trump — TIME (October 2026)" }
+      ]
+    }
+  ]
 }

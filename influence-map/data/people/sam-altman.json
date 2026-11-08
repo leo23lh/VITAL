@@ -364,5 +364,23 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Not recorded: a reported friendship with Alexandr Wang (not confirmed by any source found). Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "leverage": {
+    "level": 2,
+    "basis": "CEO of OpenAI, the leading U.S. AI lab, a guest at Trump’s 2026 state dinner for Xi Jinping.",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Sam_Altman", "title": "Sam Altman — Wikipedia" },
+      { "url": "https://thehill.com/homenews/administration/6110866-trump-xi-white-house-dinner/", "title": "President Trump hosts tech giants, political figures at White House state dinner with Xi Jinping — The Hill" }
+    ]
+  },
+  "access": [
+    {
+      "date": "2026-09",
+      "with": ["donald-trump"],
+      "what": "Guest at Trump’s White House state dinner for Xi Jinping.",
+      "sources": [
+        { "url": "https://thehill.com/homenews/administration/6110866-trump-xi-white-house-dinner/", "title": "President Trump hosts tech giants, political figures at White House state dinner with Xi Jinping — The Hill" }
+      ]
+    }
+  ]
 }

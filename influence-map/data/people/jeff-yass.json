@@ -334,5 +334,13 @@
         }
       ]
     }
+  },
+  "leverage": {
+    "level": 2,
+    "basis": "Among the top donors of the 2026 cycle (tens of millions, including $16 million to MAGA Inc.); an investor in TikTok’s parent ByteDance, whose stake drew scrutiny after Trump reversed his support for a TikTok ban following a 2024 meeting with Yass.",
+    "sources": [
+      { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post (June 2026)" },
+      { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+    ]
   }
 }

@@ -129,6 +129,9 @@ a. Write `DATA_DIR/<slug>.json` in the CLAUDE.md format, with `last_researched`
    If they are a political donor, add `giving` as CLAUDE.md "Giving" describes:
    totals and main recipients per cycle (latest two cycles at least), and an
    `outlook` for the next cycle that rests only on reporting.
+   If they control something people in power need (companies, contracts, media,
+   money), add `leverage`, and add `access` for documented meetings, calls or
+   deals with officials in the last year (CLAUDE.md "Pull").
    If they hold a current government post, add `office` as CLAUDE.md "Office"
    describes (unit, rank, `reports_to` their boss's slug when the boss has a
    file) and a sourced link to that boss, so they appear in the org chart.
