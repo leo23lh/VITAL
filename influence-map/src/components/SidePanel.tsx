@@ -6,8 +6,6 @@ import { NodePanel } from './panel/NodePanel';
 import { PairPanel } from './panel/PairPanel';
 import { ComparePanel } from './panel/ComparePanel';
 import type { PullTools } from './panel/PullSection';
-import { RoutePanel } from './panel/RoutePanel';
-import type { Route } from '../lib/pull';
 
 interface Props {
   layout: Layout;
@@ -22,8 +20,6 @@ interface Props {
   /** Who worked where (from timelines), for the bond meter. */
   workplaces: WorkplaceIndex;
   pullTools: PullTools;
-  /** Set in the route view; shown when nothing is selected. */
-  route: { from: string; to: string; routes: Route[] } | null;
   onClose: () => void;
 }
 
@@ -38,34 +34,25 @@ export default function SidePanel({
   onCompare,
   workplaces,
   pullTools,
-  route,
   onClose,
 }: Props) {
   // Bottom sheet (folded phone): starts as a short peek, drag or tap the handle to expand.
   const [expanded, setExpanded] = useState(false);
   const drag = useRef<{ y: number } | null>(null);
   const bodyRef = useRef<HTMLDivElement>(null);
-  const selKey = selection
-    ? `${selection.kind}:${selection.id}`
-    : comparison
-      ? `cmp:${comparison.a}|${comparison.b}`
-      : route
-        ? `route:${route.from}>${route.to}`
-        : '';
+  const selKey = selection ? `${selection.kind}:${selection.id}` : comparison ? `cmp:${comparison.a}|${comparison.b}` : '';
   useEffect(() => {
     setExpanded(false);
     bodyRef.current?.scrollTo({ top: 0 });
   }, [selKey]);
 
-  if (!selection && !comparison && !route) return null;
+  if (!selection && !comparison) return null;
   const nodeById = new Map(nodes.map((n) => [n.id, n]));
   const nameOf = (id: string) => nodeById.get(id)?.name ?? id;
   const isOrg = (id: string) => !!nodeById.get(id)?.isOrg;
 
   let body: React.ReactNode = null;
-  if (!selection && route) {
-    body = <RoutePanel from={route.from} to={route.to} routes={route.routes} nameOf={nameOf} onSelect={onSelect} />;
-  } else if (!selection) {
+  if (!selection) {
     body = (
       <ComparePanel
         c={comparison!}

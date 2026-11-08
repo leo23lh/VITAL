@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { buildGraph, workplaceIndex } from './graph';
-import { bondIndex, earOf, findRoutes, power, pullOf, rankPull } from './pull';
+import { bondIndex, earOf, power, pullOf, rankPull } from './pull';
 import type { Person, PersonFile } from './schema';
 
 const src = [{ url: 'https://example.com/1', title: 'Source' }];
@@ -24,7 +24,6 @@ const conn = (slug: string, relationship_type: string, confidence = 0.9) => ({
 });
 
 // pres ← ally: insider (ally of the President) and outsider (ally of a deputy only).
-// me → friend → pres; me → aide → sec (two routes to sec).
 const g = buildGraph([
   person('pres', [conn('insider', 'ally'), conn('friend', 'ally'), conn('sec', 'employee')], office('President', 'white-house', 1)),
   person('sec', [conn('pres', 'employer'), conn('aide', 'employee'), conn('dep', 'employee')], office('Secretary', 'labor', 1)),
@@ -66,27 +65,5 @@ describe('pullOf', () => {
 
   it('lists who has an official’s ear', () => {
     expect(earOf('pres', g.nodes, idx).map((e) => e.id)).toEqual(expect.arrayContaining(['insider', 'friend', 'sec']));
-  });
-});
-
-describe('findRoutes', () => {
-  it('finds introduction chains, best first, with each hop’s bond', () => {
-    const routes = findRoutes('me', 'sec', g.nodes, idx);
-    expect(routes.length).toBeGreaterThan(0);
-    for (const r of routes) {
-      expect(r.nodes[0]).toBe('me');
-      expect(r.nodes.at(-1)).toBe('sec');
-      expect(r.hops).toHaveLength(r.nodes.length - 1);
-    }
-    expect(routes.map((r) => r.score)).toEqual([...routes.map((r) => r.score)].sort((a, b) => b - a));
-  });
-
-  it('prefers going through a staffer to going through the President', () => {
-    const [best] = findRoutes('me', 'sec', g.nodes, idx);
-    expect(best.nodes).toEqual(['me', 'aide', 'sec']);
-  });
-
-  it('respects the hop limit', () => {
-    expect(findRoutes('me', 'outsider', g.nodes, idx, { maxHops: 2 })).toEqual([]);
   });
 });

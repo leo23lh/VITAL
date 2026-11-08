@@ -437,7 +437,7 @@ export interface Person {
   giving?: Giving;
   /** Current government post, for the org chart. */
   office?: Office;
-  /** Junior official: shown in the org chart and routes, kept off the main web unless searched for. */
+  /** Junior official: shown in the org chart and Pull, kept off the main web unless searched for. */
   org_chart_only?: boolean;
   current_role?: string;
   summary?: string;

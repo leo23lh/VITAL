@@ -45,7 +45,7 @@ export default function ViewChips({ view, years, timeMode, onTimeMode, nameOf, o
             ×
           </button>
         </span>
-      ) : view.kind === 'org' || view.kind === 'pull' || view.kind === 'route' ? null : (
+      ) : view.kind === 'org' || view.kind === 'pull' ? null : (
         <span className="chip-seg time-seg" role="group" aria-label="Which ties to show">
           {(
             [

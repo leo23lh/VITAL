@@ -13,7 +13,7 @@ import { buildGraph, yearSpan, workplaceIndex, type GraphNode, type YearRange } 
 import { EDGE_FAMILIES, type EdgeFamily } from './lib/schema';
 import { useLayout, useMenus, useToggleSet } from './lib/useAppChrome';
 import { buildOrgChart } from './lib/orgchart';
-import { bondIndex, findRoutes, selfNode } from './lib/pull';
+import { bondIndex } from './lib/pull';
 import { usePeople } from './lib/usePeople';
 import {
   DEFAULT_FORCES,
@@ -86,24 +86,11 @@ export default function App() {
   const counts = useMemo(() => familyCounts(graph.links), [graph]);
   const camps = useMemo(() => campSizes(graph.nodes, byId), [graph, byId]);
   const groups = useMemo(() => groupCounts(graph.nodes), [graph]);
-  // Bond for every linked pair (all-time ties), for Pull and routes.
+  // Bond for every linked pair (all-time ties), for Pull.
   const bonds = useMemo(() => bondIndex(graph.nodes, graph.links, workplaces), [graph, workplaces]);
-  const selfId = useMemo(() => selfNode(graph.nodes)?.id, [graph]);
-  const routes = useMemo(
-    () => (view.kind === 'route' ? findRoutes(view.from, view.to, graph.nodes, bonds) : null),
-    [view, graph, bonds],
-  );
-  const openRoute = useCallback(
-    (to: string) => {
-      if (!selfId) return;
-      setView({ kind: 'route', from: selfId, to });
-      setSelection(null);
-    },
-    [selfId],
-  );
   const pullTools = useMemo(
-    () => ({ nodes: graph.nodes, bonds, selfId, onRoute: openRoute, onPullOf: (id: string) => setView({ kind: 'pull', of: id }) }),
-    [graph, bonds, selfId, openRoute],
+    () => ({ nodes: graph.nodes, bonds, onPullOf: (id: string) => setView({ kind: 'pull', of: id }) }),
+    [graph, bonds],
   );
   const orgChart = useMemo(
     () => (view.kind === 'org' ? buildOrgChart(graph.nodes, graph.links, workplaces) : null),
@@ -134,10 +121,9 @@ export default function App() {
         extras,
         selectedNodeId,
         workplaces,
-        routes,
         filters: { showOrgs, showSuggested, leanMode, years },
       }),
-    [graph, byId, filteredLinks, view, comparison, spotlight, extras, selectedNodeId, workplaces, routes, showOrgs, showSuggested, leanMode, years],
+    [graph, byId, filteredLinks, view, comparison, spotlight, extras, selectedNodeId, workplaces, showOrgs, showSuggested, leanMode, years],
   );
 
   const focusNode = useCallback(
@@ -236,8 +222,6 @@ export default function App() {
               onOf={(of) => setView({ kind: 'pull', of })}
               selectedId={selectedNodeId}
               onSelect={(id) => setSelection({ kind: 'node', id })}
-              selfId={selfId}
-              onRoute={openRoute}
             />
           ) : orgChart ? (
             <OrgChart chart={orgChart} selectedId={selectedNodeId} onSelect={(id) => setSelection({ kind: 'node', id })} />
@@ -349,7 +333,6 @@ export default function App() {
           onCompare={openCompare}
           workplaces={workplaces}
           pullTools={pullTools}
-          route={view.kind === 'route' && routes ? { from: view.from, to: view.to, routes } : null}
           onClose={() => (selection ? setSelection(null) : setView({ kind: 'all' }))}
         />
       </main>

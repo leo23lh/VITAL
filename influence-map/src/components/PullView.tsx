@@ -1,7 +1,6 @@
-// Pull view: who has the most access to people in power, overall or with one person,
-// plus "Get me to…", which finds introduction routes from the map owner.
+// Pull view: who has the most access to people in power, overall or with one person.
 import { useMemo, useState } from 'react';
-import { matchesQuery, type GraphNode } from '../lib/graph';
+import type { GraphNode } from '../lib/graph';
 import { earOf, power, rankPull, type BondIndex } from '../lib/pull';
 
 interface Props {
@@ -12,9 +11,6 @@ interface Props {
   onOf: (id: string | undefined) => void;
   selectedId: string | null;
   onSelect: (id: string) => void;
-  /** The map owner's own node, if any (start of routes). */
-  selfId?: string;
-  onRoute: (to: string) => void;
 }
 
 type Scope = 'all' | 'inside' | 'outside';
@@ -39,9 +35,8 @@ function Avatar({ n }: { n?: GraphNode }) {
 
 const roleOf = (n?: GraphNode) => n?.person?.office?.title ?? n?.person?.current_role ?? '';
 
-export default function PullView({ nodes, bonds, of, onOf, selectedId, onSelect, selfId, onRoute }: Props) {
+export default function PullView({ nodes, bonds, of, onOf, selectedId, onSelect }: Props) {
   const [scope, setScope] = useState<Scope>('all');
-  const [q, setQ] = useState('');
   const byId = useMemo(() => new Map(nodes.map((n) => [n.id, n])), [nodes]);
   const name = (id: string) => byId.get(id)?.name ?? id;
 
@@ -61,42 +56,8 @@ export default function PullView({ nodes, bonds, of, onOf, selectedId, onSelect,
     const inside = !!byId.get(id)?.person?.office;
     return scope === 'inside' ? inside : !inside;
   };
-  const matches =
-    selfId && q.trim().length > 1
-      ? nodes.filter((n) => n.id !== selfId && !n.isOrg && n.researched && matchesQuery(n, q)).slice(0, 6)
-      : [];
-
   return (
     <div className="orgchart pullview">
-      {selfId && (
-        <section className="route-search">
-          <label htmlFor="route-q">Get me to…</label>
-          <input
-            id="route-q"
-            type="search"
-            placeholder="Anyone on the map"
-            value={q}
-            onChange={(e) => setQ(e.target.value)}
-            onKeyDown={(e) => e.key === 'Enter' && matches[0] && onRoute(matches[0].id)}
-          />
-          {matches.length > 0 && (
-            <ul className="route-matches">
-              {matches.map((n) => (
-                <li key={n.id}>
-                  <button onClick={() => onRoute(n.id)}>
-                    <Avatar n={n} />
-                    <span className="org-text">
-                      <span className="org-name">{n.name}</span>
-                      <span className="org-title">{roleOf(n)}</span>
-                    </span>
-                  </button>
-                </li>
-              ))}
-            </ul>
-          )}
-        </section>
-      )}
-
       <h2>{of ? `Who has ${name(of)}’s ear` : 'Pull'}</h2>
       <p className="org-key muted small">
         {of

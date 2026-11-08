@@ -92,7 +92,7 @@ function ViewsMenu({ view, onView, groupCounts, camps, selectedNode, onWorld }: 
       </button>
       <button className={`menu-item${view.kind === 'pull' ? ' current' : ''}`} onClick={() => onView({ kind: 'pull' })}>
         <span>Pull</span>
-        <span className="muted">access to power · get me to…</span>
+        <span className="muted">who has access to power</span>
       </button>
 
       <h4>Groups</h4>

@@ -18,9 +18,7 @@ import {
   type PairLink,
   type YearRange,
   type WorkplaceIndex,
-  pairKey,
 } from './graph';
-import type { Route } from './pull';
 import { EDGE_FAMILIES, GROUPS, type EdgeFamily, type GroupId } from './schema';
 
 /** `id` of a link selection is a pair id ("a|b"): every link between the two people. */
@@ -39,9 +37,7 @@ export type View =
   /** The government as a hierarchy (from each file's `office`), instead of the web. */
   | { kind: 'org' }
   /** People ranked by pull: overall (`of` unset) or with one person. */
-  | { kind: 'pull'; of?: string }
-  /** The best chains of introductions from one person to another. */
-  | { kind: 'route'; from: string; to: string };
+  | { kind: 'pull'; of?: string };
 
 export type Layout = 'wide' | 'card' | 'sheet';
 
@@ -237,16 +233,11 @@ export interface VisibleInput {
   extras: Set<string>;
   selectedNodeId: string | null;
   workplaces: WorkplaceIndex;
-  /** Route view: the routes to show (best first). */
-  routes?: Route[] | null;
   filters: Pick<Filters, 'showOrgs' | 'showSuggested' | 'leanMode' | 'years'>;
 }
 
 /** The people and lines on the map, plus how to lay them out. */
-export function visibleGraph({ graph, byId, links: filtered, view, comparison, spotlight, extras, selectedNodeId, workplaces, routes, filters: f }: VisibleInput): VisibleGraph {
-  // Route view: only the people on the routes, and only the hops between them.
-  const routePairs =
-    view.kind === 'route' && routes ? new Set(routes.flatMap((r) => r.nodes.slice(1).map((id, i) => pairKey(r.nodes[i], id)))) : null;
+export function visibleGraph({ graph, byId, links: filtered, view, comparison, spotlight, extras, selectedNodeId, workplaces, filters: f }: VisibleInput): VisibleGraph {
   const ids = new Set<string>();
   const touched = new Set<string>();
   for (const l of filtered) {
@@ -259,8 +250,6 @@ export function visibleGraph({ graph, byId, links: filtered, view, comparison, s
     // Just the two, their chain and the circle they share.
     for (const id of [comparison.a, comparison.b, ...(comparison.chain ?? []), ...comparison.shared.map((t) => t.id)])
       if (byId.has(id)) ids.add(id);
-  } else if (view.kind === 'route') {
-    for (const id of [view.from, view.to, ...(routes ?? []).flatMap((r) => r.nodes)]) if (byId.has(id)) ids.add(id);
   } else if (spotlight) {
     for (const id of spotlight.core) ids.add(id);
     for (const id of extras) if (byId.has(id)) ids.add(id);
@@ -279,7 +268,6 @@ export function visibleGraph({ graph, byId, links: filtered, view, comparison, s
 
   const links = filtered.filter((l) => {
     if (!ids.has(l.sourceId) || !ids.has(l.targetId)) return false;
-    if (routePairs) return routePairs.has(pairKey(l.sourceId, l.targetId));
     if (!spotlight) return true;
     // Spotlight: the selected person's own lines, plus lines among the view's people (in the lens, if any).
     if (l.sourceId === selectedNodeId || l.targetId === selectedNodeId) return true;
@@ -290,10 +278,9 @@ export function visibleGraph({ graph, byId, links: filtered, view, comparison, s
 
   // Radial layout: who sits in the middle for this view, and how many steps out everyone else is.
   let radial: RadialLayout | null = null;
-  if (view.kind === 'world' || view.kind === 'compare' || view.kind === 'camp' || view.kind === 'route') {
+  if (view.kind === 'world' || view.kind === 'compare' || view.kind === 'camp') {
     const core = new Set<string>();
     if (view.kind === 'world' || view.kind === 'camp') core.add(view.id);
-    else if (view.kind === 'route') for (const id of routes?.[0]?.nodes ?? [view.from, view.to]) core.add(id);
     else if (comparison) for (const id of comparison.chain ?? [comparison.a, comparison.b]) core.add(id);
     if (core.size) radial = { core, ...ringDistances(core, links, ids), emphasis: null };
   }
@@ -342,7 +329,7 @@ export function campSizes(nodes: GraphNode[], byId: NodeIndex): { id: string; na
 /** Changes whenever the map should zoom to fit again. */
 export function fitKey(view: View, f: Pick<Filters, 'leanMode' | 'years' | 'timeMode'>, loaded: boolean): string {
   const id = 'id' in view ? view.id : '';
-  const pair = view.kind === 'compare' ? `${view.a}-${view.b}` : view.kind === 'route' ? `${view.from}>${view.to}` : '';
+  const pair = view.kind === 'compare' ? `${view.a}-${view.b}` : '';
   const depth = view.kind === 'world' ? view.depth : '';
   const time = f.years ? `${f.years.from}-${f.years.to}` : f.timeMode;
   return `${f.leanMode}:${view.kind}:${id}:${pair}:${depth}:${time}:${loaded}`;

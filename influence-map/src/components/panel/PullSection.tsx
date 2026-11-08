@@ -1,5 +1,4 @@
-// Pull tab in the person panel: their access to people in power, who has their ear,
-// and a shortcut to the route from the map owner.
+// Pull tab in the person panel: their access to people in power and who has their ear.
 import { pairKey, type GraphNode } from '../../lib/graph';
 import { earOf, power, pullOf, type BondIndex } from '../../lib/pull';
 import type { Selection } from '../../lib/view';
@@ -7,9 +6,6 @@ import type { Selection } from '../../lib/view';
 export interface PullTools {
   nodes: GraphNode[];
   bonds: BondIndex;
-  /** The map owner's own node, if any. */
-  selfId?: string;
-  onRoute: (to: string) => void;
   onPullOf: (id: string) => void;
 }
 
@@ -57,7 +53,7 @@ export function PullSection({
   nameOf: (id: string) => string;
   onSelect: (s: Selection) => void;
 }) {
-  const { nodes, bonds, selfId, onRoute, onPullOf } = tools;
+  const { nodes, bonds, onPullOf } = tools;
   const byId = new Map(nodes.map((n) => [n.id, n]));
   const roleOf = (id: string) => byId.get(id)?.person?.office?.title ?? '';
   const pull = pullOf(node.id, nodes, bonds);
@@ -84,11 +80,6 @@ export function PullSection({
           Their bond with each official, weighted by the post. The strongest tie counts in full, each further one half
           as much; ties to people junior to them count a quarter.
         </p>
-        {selfId && selfId !== node.id && (
-          <div className="panel-actions">
-            <button onClick={() => onRoute(node.id)}>Get me to {node.name}</button>
-          </div>
-        )}
       </section>
 
       <section>
