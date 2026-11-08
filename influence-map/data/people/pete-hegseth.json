@@ -104,14 +104,16 @@
       "name": "Dario Amodei",
       "slug": "dario-amodei",
       "relationship_type": "enemy",
-      "description": "Defense Secretary Hegseth designated Anthropic a supply-chain risk to national security in February–March 2026; Anthropic sued, and Amodei said the ban was narrower than Hegseth had threatened.",
+      "description": "Defense Secretary Hegseth designated Anthropic a supply-chain risk to national security in February–March 2026; Anthropic sued, and Amodei said the ban was narrower than Hegseth had threatened. In August 2026 U.S. District Judge Rita Lin voided the Pentagon’s supply-chain-risk designation, per the Daily Caller; a separate challenge was still pending.",
       "start_year": 2026,
       "end_year": null,
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk", "title": "Pentagon labels AI company Anthropic a supply chain risk — NPR" },
         { "url": "https://www.npr.org/2026/03/09/nx-s1-5742548/anthropic-pentagon-lawsuit-amodai-hegseth", "title": "Anthropic sues the Trump administration over 'supply chain risk' label — NPR" },
-        { "url": "https://www.cnbc.com/2026/03/05/anthropic-ceo-says-no-choice-but-to-challenge-trump-admins-supply-chain-risk-designation-in-court.html", "title": "Anthropic CEO says 'no choice' but to challenge supply chain risk designation in court — CNBC" }
+        { "url": "https://www.cnbc.com/2026/03/05/anthropic-ceo-says-no-choice-but-to-challenge-trump-admins-supply-chain-risk-designation-in-court.html", "title": "Anthropic CEO says 'no choice' but to challenge supply chain risk designation in court — CNBC" },
+        { "url": "https://www.washingtonexaminer.com/policy/defense/4483109/anthropic-ceo-sue-pentagon-supply-chain-risk-designation/", "title": "Washington Examiner: Anthropic CEO to sue Pentagon over supply-chain risk designation" },
+        { "url": "https://dailycaller.com/2026/08/28/rita-lin-pentagon-anthropic-ban-lifted-after-clash-over-claude/", "title": "Daily Caller: Pentagon’s Anthropic ban lifted after clash over Claude" }
       ]
     },
     {

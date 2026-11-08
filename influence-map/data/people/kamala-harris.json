@@ -94,7 +94,9 @@
       "end_year": 2024,
       "confidence": 0.98,
       "sources": [
-        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" }
+        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" },
+        { "url": "https://www.washingtonexaminer.com/news/3210669/donald-trump-wins-2024-election-defeating-kamala-harris/", "title": "Washington Examiner: Donald Trump wins the 2024 election, defeating Kamala Harris" },
+        { "url": "https://www.foxnews.com/politics/fox-news-projects-donald-trump-defeats-kamala-harris-become-47th-president-united-states", "title": "Fox News projects Trump defeats Harris to become 47th president" }
       ]
     },
     {
@@ -113,13 +115,16 @@
       "name": "Reid Hoffman",
       "slug": "reid-hoffman",
       "relationship_type": "donor",
-      "description": "Hoffman gave at least $7–11 million to elect Harris in 2024; in 2026 he said she would face \"a very challenging path\" in 2028.",
+      "description": "Hoffman gave at least $7–11 million to elect Harris in 2024; in 2026 he said she would face \"a very challenging path\" in 2028. The Washington Examiner put his 2024 total at at least $11.6 million, and later at $17 million; totals differ by source.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
         { "url": "https://fortune.com/2024/07/26/reid-hoffman-angers-democrats-republicans-trump-harris-lina-khan/", "title": "Fortune: Reid Hoffman angers Democrats and Republicans" },
-        { "url": "https://www.axios.com/2026/09/20/kamala-harris-ex-aides-2028-campaign", "title": "Axios: Many ex-aides to Harris betting against a 2028 run" }
+        { "url": "https://www.axios.com/2026/09/20/kamala-harris-ex-aides-2028-campaign", "title": "Axios: Many ex-aides to Harris betting against a 2028 run" },
+        { "url": "https://www.washingtonexaminer.com/politics/3179215/kamala-harris-influential-megadonors/", "title": "Washington Examiner: Meet Kamala Harris’s influential megadonors" },
+        { "url": "https://www.washingtonexaminer.com/policy/finance/4729704/reid-hoffman-linkedin-cofounder-cool-kamala-harris-2028/", "title": "Washington Examiner: Hoffman cool on Harris’s chances in 2028" },
+        { "url": "https://freebeacon.com/democrats/awkward-top-dem-donor-tries-to-explain-hes-not-buying-influence-with-kamala/", "title": "Washington Free Beacon: Top Dem donor says he isn’t buying influence with Harris" }
       ]
     },
     {
@@ -200,14 +205,15 @@
       "name": "Chris Larsen",
       "slug": "chris-larsen",
       "relationship_type": "donor",
-      "description": "Larsen endorsed Harris and gave at least $1 million in XRP to the pro-Harris super PAC Future Forward in 2024 (Decrypt reported about $10 million more), saying she would bring \"clear rules\" for crypto.",
+      "description": "Larsen endorsed Harris and gave at least $1 million in XRP to the pro-Harris super PAC Future Forward in 2024 (Decrypt reported about $10 million more), saying she would bring \"clear rules\" for crypto. Fox News put his total for Harris at $5,444,975; figures differ by source.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.cnbc.com/2024/10/15/kamala-harris-got-1-million-from-ripples-chris-larsen-crypto-warms.html", "title": "Harris PAC's $1 million contribution from Ripple's Chris Larsen shows crypto industry warming to VP — CNBC" },
         { "url": "https://www.theblock.co/post/320785/ripple-co-founder-chris-larsen-donates-1-million-in-crypto-to-pac-supporting-kamala-harris-campaign", "title": "Ripple co-founder Chris Larsen donates $1 million in crypto to PAC supporting Kamala Harris — The Block" },
-        { "url": "https://decrypt.co/287549/ripple-founder-10-million-xrp-kamala-harris", "title": "Ripple founder donates another $10 million in XRP to support Kamala Harris — Decrypt" }
+        { "url": "https://decrypt.co/287549/ripple-founder-10-million-xrp-kamala-harris", "title": "Ripple founder donates another $10 million in XRP to support Kamala Harris — Decrypt" },
+        { "url": "https://www.foxnews.com/politics/top-trump-ally-warns-super-pac-bankrolled-dem-billionaire-meddling-gop-primary", "title": "Fox News: Larsen gave $5,444,975 to support Harris (in a report on his 2026 PAC)" }
       ]
     },
     {

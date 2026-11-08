@@ -414,7 +414,9 @@
       "end_year": 2024,
       "confidence": 0.98,
       "sources": [
-        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Kamala Harris — Britannica" }
+        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Kamala Harris — Britannica" },
+        { "url": "https://www.washingtonexaminer.com/news/3210669/donald-trump-wins-2024-election-defeating-kamala-harris/", "title": "Washington Examiner: Donald Trump wins the 2024 election, defeating Kamala Harris" },
+        { "url": "https://www.foxnews.com/politics/fox-news-projects-donald-trump-defeats-kamala-harris-become-47th-president-united-states", "title": "Fox News projects Trump defeats Harris to become 47th president" }
       ]
     },
     {
@@ -643,14 +645,17 @@
       "name": "Dario Amodei",
       "slug": "dario-amodei",
       "relationship_type": "enemy",
-      "description": "On February 27, 2026 Trump ordered every federal agency to stop using Anthropic's technology, calling it a \"radical Left AI company\", after Anthropic refused to lift limits on uses such as mass surveillance of Americans and autonomous weapons. Amodei challenged the resulting Pentagon designation in court and apologized for a leaked internal memo criticizing the administration.",
+      "description": "On February 27, 2026 Trump ordered every federal agency to stop using Anthropic's technology, calling it a \"radical Left AI company\", after Anthropic refused to lift limits on uses such as mass surveillance of Americans and autonomous weapons. Amodei challenged the resulting Pentagon designation in court and apologized for a leaked internal memo criticizing the administration. In August 2026 U.S. District Judge Rita Lin voided the Pentagon’s supply-chain-risk designation, per the Daily Caller; a separate challenge was still pending.",
       "start_year": 2026,
       "end_year": null,
       "confidence": 0.9,
       "sources": [
         { "url": "https://pbs.org/newshour/politics/trump-orders-federal-agencies-to-stop-using-anthropic-tech-over-ai-safety-dispute", "title": "Trump orders federal agencies to stop using Anthropic tech over AI safety dispute — PBS NewsHour" },
         { "url": "https://www.aljazeera.com/news/2026/2/27/trump-orders-federal-agencies-to-stop-using-anthropic-as-dispute-escalates", "title": "Trump orders federal agencies to stop using Anthropic as dispute escalates — Al Jazeera" },
-        { "url": "https://www.axios.com/2026/03/06/pentagon-anthropic-amodei-apology", "title": "Scoop: Anthropic CEO apologizes for leaked memo criticizing Trump — Axios" }
+        { "url": "https://www.axios.com/2026/03/06/pentagon-anthropic-amodei-apology", "title": "Scoop: Anthropic CEO apologizes for leaked memo criticizing Trump — Axios" },
+        { "url": "https://www.breitbart.com/politics/2026/02/27/trump-directs-federal-agencies-to-immediately-cease-use-of-anthropic-technology/", "title": "Breitbart: Trump directs federal agencies to cease use of Anthropic technology" },
+        { "url": "https://www.foxnews.com/politics/trump-says-he-plans-order-federal-ban-anthropic-ai-after-company-refuses-pentagon-demands", "title": "Fox News: Trump plans federal ban on Anthropic AI after company refuses Pentagon demands" },
+        { "url": "https://dailycaller.com/2026/08/28/rita-lin-pentagon-anthropic-ban-lifted-after-clash-over-claude/", "title": "Daily Caller: Pentagon’s Anthropic ban lifted after clash over Claude" }
       ]
     },
     {
@@ -676,7 +681,9 @@
       "sources": [
         { "url": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/", "title": "Statement on President Trump's Comprehensive Plan to End the Gaza Conflict — The White House" },
         { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" },
-        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" }
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" },
+        { "url": "https://www.breitbart.com/europe/2026/01/17/trump-taps-former-british-pm-tony-blair-for-key-role-in-gaza/", "title": "Breitbart: Trump taps Tony Blair for key role in Gaza" },
+        { "url": "https://www.washingtontimes.com/news/2026/jan/17/trump-confidants-forefront-us-gaza-plan-blair-rubio-kushner-rowan/", "title": "Washington Times: Trump confidants at forefront of U.S. Gaza plan: Blair, Rubio, Kushner" }
       ]
     },
     {
@@ -1207,7 +1214,10 @@
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.gov.ca.gov/2025/12/10/federal-court-to-trump-keeping-a-standing-army-is-illegal-the-federalization-of-californias-national-guard-must-end", "title": "Office of the Governor: Federal court orders end to federalization of California National Guard" },
-        { "url": "https://www.gov.ca.gov/2025/06/12/governor-newsom-prevails-in-blocking-trumps-militarization-of-los-angeles/", "title": "Office of the Governor: Newsom prevails in blocking Trump's militarization of Los Angeles" }
+        { "url": "https://www.gov.ca.gov/2025/06/12/governor-newsom-prevails-in-blocking-trumps-militarization-of-los-angeles/", "title": "Office of the Governor: Newsom prevails in blocking Trump's militarization of Los Angeles" },
+        { "url": "https://www.foxnews.com/politics/california-sue-trump-hegseth-over-national-guard-deployment-amid-anti-ice-riots", "title": "Fox News: Newsom announces lawsuit against Trump administration over National Guard use" },
+        { "url": "https://www.breitbart.com/politics/2025/06/09/california-gov-gavin-newsom-officially-files-lawsuit-trump-deploying-national-guard-los-angeles/", "title": "Breitbart: Newsom files lawsuit against Trump deploying National Guard to L.A." },
+        { "url": "https://www.washingtonexaminer.com/news/justice/4379536/trump-california-national-guard-newsom-appeals-court/", "title": "Washington Examiner: Trump must relinquish California National Guard to Newsom, court rules" }
       ]
     },
     {
@@ -1647,7 +1657,10 @@
       "confidence": 0.85,
       "sources": [
         { "url": "https://www.nbcnews.com/politics/2028-election/maryland-governor-wes-moore-ruling-out-presidential-run-redistricting-rcna229615", "title": "Maryland Gov. Wes Moore rules out presidential run — NBC News" },
-        { "url": "https://www.thebanner.com/politics-power/state-government/donald-trump-wes-moore-political-risk-CZFDWRORKNANVKB4DUE5HLWLBY/", "title": "Donald Trump and Wes Moore — The Baltimore Banner" }
+        { "url": "https://www.thebanner.com/politics-power/state-government/donald-trump-wes-moore-political-risk-CZFDWRORKNANVKB4DUE5HLWLBY/", "title": "Donald Trump and Wes Moore — The Baltimore Banner" },
+        { "url": "https://www.washingtonexaminer.com/news/white-house/3780476/trump-wes-moore-baltimore-crime-national-guard-deployment/", "title": "Washington Examiner: Trump and Wes Moore trade barbs about Baltimore crime and National Guard" },
+        { "url": "https://www.breitbart.com/politics/2025/08/24/trump-calls-for-gov-wes-moore-to-clean-up-crime-ridden-baltimore-stop-talking-and-get-to-work/", "title": "Breitbart: Trump calls for Wes Moore to clean up Baltimore" },
+        { "url": "https://www.washingtontimes.com/news/2025/aug/31/wes-moore-md-governor-trumps-use-national-guard-police-cities-serious/", "title": "Washington Times: Moore says Trump’s use of the Guard to police cities \"not a serious approach\"" }
       ]
     },
     {
