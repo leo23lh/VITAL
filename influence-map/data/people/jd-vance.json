@@ -652,6 +652,18 @@
         { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" },
         { "url": "https://americancompass.org/oren-cass/", "title": "Oren Cass — American Compass" }
       ]
+    },
+    {
+      "name": "Anthony D'Esposito",
+      "slug": "anthony-desposito",
+      "relationship_type": "colleague",
+      "description": "Joined the anti-fraud task force Vance leads in March 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.oig.dol.gov/public/Press%20Releases/Inspector%20General%20Anthony%20P.%20D'Esposito%20Joins%20President%20Trump's%20Task%20Force%20to%20Wage%20War%20on%20Fraud,%20Led%20By%20Vice%20President%20Vance%20_03272026.pdf", "title": "Inspector General D’Esposito joins President Trump’s Task Force to Wage War on Fraud, led by Vice President Vance — DOL OIG (March 27, 2026)" }
+      ]
     }
   ],
   "source_conflicts": [],

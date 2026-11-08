@@ -54,6 +54,19 @@
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
       ]
+    },
+    {
+      "name": "Amanda Wood Laihow",
+      "slug": "amanda-wood-laihow",
+      "relationship_type": "employee",
+      "description": "Ran OSHA as acting head until Keeling arrived in fall 2025, then became his deputy.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://osha.gov/aboutosha/biography/laihow", "title": "Amanda Wood Laihow — OSHA" },
+        { "url": "https://www.osha.gov/quicktakes/022726", "title": "OSHA QuickTakes, February 27, 2026" }
+      ]
     }
   ],
   "org_chart_only": true,

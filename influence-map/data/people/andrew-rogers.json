@@ -56,6 +56,18 @@
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
       ]
+    },
+    {
+      "name": "James Macy",
+      "slug": "james-macy",
+      "relationship_type": "colleague",
+      "description": "Macy was Wage and Hour’s principal deputy and acting administrator until Rogers was confirmed to run the division.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/whd/about/leadership/James-macy", "title": "James Macy, Wage and Hour Division Principal Deputy Administrator — U.S. Department of Labor" }
+      ]
     }
   ],
   "org_chart_only": true,

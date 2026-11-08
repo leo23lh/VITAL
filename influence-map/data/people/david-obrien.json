@@ -50,6 +50,18 @@
         { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" },
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" }
       ]
+    },
+    {
+      "name": "Mike Trupo",
+      "slug": "mike-trupo",
+      "relationship_type": "employee",
+      "description": "O’Brien’s deputy in the Office of Public Affairs.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" }
+      ]
     }
   ],
   "org_chart_only": true,

@@ -1,0 +1,53 @@
+{
+  "name": "Mike Trupo",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Deputy Assistant Secretary for Public Affairs, U.S. Department of Labor (career)",
+  "summary": "Mike Trupo is the career deputy assistant secretary in the Labor Department’s Office of Public Affairs, overseeing the department’s public and internal communications, including news-media response and digital media, under David O’Brien.",
+  "sources": [
+    { "url": "https://www.dol.gov/general/contact/leadership-team/opa/mike-trupo", "title": "Deputy Assistant Secretary Mike Trupo — U.S. Department of Labor" },
+    { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Deputy Assistant Secretary, Office of Public Affairs",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/general/contact/leadership-team/opa/mike-trupo", "title": "Deputy Assistant Secretary Mike Trupo — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "David O'Brien",
+      "slug": "david-obrien",
+      "relationship_type": "employer",
+      "description": "O’Brien’s deputy in the Office of Public Affairs.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Assistant Secretary for Public Affairs",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "david-obrien",
+    "sources": [
+      { "url": "https://www.dol.gov/general/contact/leadership-team/opa/mike-trupo", "title": "Deputy Assistant Secretary Mike Trupo — U.S. Department of Labor" },
+      { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" }
+    ]
+  },
+  "notes": "dol.gov pages could not be opened from this session (the site blocks automated readers); facts were confirmed with searches restricted to dol.gov and the cited outlets.",
+  "last_researched": "2026-11-08"
+}

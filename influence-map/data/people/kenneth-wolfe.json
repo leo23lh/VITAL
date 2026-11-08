@@ -1,0 +1,73 @@
+{
+  "name": "Kenneth J. Wolfe",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Director, Office of Federal Contract Compliance Programs (since May 2026); Director, Center for Faith",
+  "summary": "Kenneth J. Wolfe became director of the Labor Department’s much-reduced federal contractor watchdog, the Office of Federal Contract Compliance Programs, in early May 2026 after Ashley Romanias left, its second director to depart. He also directs the department’s Center for Faith, a post he has held since June 2025, after a career at HHS’s Administration for Children and Families.",
+  "sources": [
+    { "url": "https://directemployers.org/2026/05/08/leadership-shift-at-the-ofccp-kenneth-j-wolfe-named-director/", "title": "Leadership shift at the OFCCP: Kenneth J. Wolfe named director — DirectEmployers" },
+    { "url": "https://cwc.org/cwc/updates/2026/kenneth-wolfe-appointed-ofccp-director.aspx", "title": "Kenneth Wolfe appointed OFCCP director — Construction Writers Council" },
+    { "url": "https://news.bloomberglaw.com/daily-labor-report/dol-contractor-watchdog-loses-second-leader-as-romanias-leaves", "title": "Contractor watchdog loses second leader as Romanias leaves — Bloomberg Law (May 1, 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2025,
+      "role": "Career staff",
+      "org": "Administration for Children and Families, U.S. Department of Health and Human Services",
+      "sources": [
+        { "url": "https://directemployers.org/2026/05/08/leadership-shift-at-the-ofccp-kenneth-j-wolfe-named-director/", "title": "Leadership shift at the OFCCP: Kenneth J. Wolfe named director — DirectEmployers" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Director, Center for Faith",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://directemployers.org/2026/05/08/leadership-shift-at-the-ofccp-kenneth-j-wolfe-named-director/", "title": "Leadership shift at the OFCCP: Kenneth J. Wolfe named director — DirectEmployers" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Director, Office of Federal Contract Compliance Programs",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://directemployers.org/2026/05/08/leadership-shift-at-the-ofccp-kenneth-j-wolfe-named-director/", "title": "Leadership shift at the OFCCP: Kenneth J. Wolfe named director — DirectEmployers" },
+        { "url": "https://cwc.org/cwc/updates/2026/kenneth-wolfe-appointed-ofccp-director.aspx", "title": "Kenneth Wolfe appointed OFCCP director — Construction Writers Council" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Runs the contractor-compliance office and the Center for Faith in Sonderling’s department.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://directemployers.org/2026/05/08/leadership-shift-at-the-ofccp-kenneth-j-wolfe-named-director/", "title": "Leadership shift at the OFCCP: Kenneth J. Wolfe named director — DirectEmployers" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Director, Office of Federal Contract Compliance Programs; Director, Center for Faith",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "keith-sonderling",
+    "since": "2026-05",
+    "sources": [
+      { "url": "https://directemployers.org/2026/05/08/leadership-shift-at-the-ofccp-kenneth-j-wolfe-named-director/", "title": "Leadership shift at the OFCCP: Kenneth J. Wolfe named director — DirectEmployers" },
+      { "url": "https://cwc.org/cwc/updates/2026/kenneth-wolfe-appointed-ofccp-director.aspx", "title": "Kenneth Wolfe appointed OFCCP director — Construction Writers Council" }
+    ]
+  },
+  "notes": "dol.gov pages could not be opened from this session (the site blocks automated readers); facts were confirmed with searches restricted to dol.gov and the cited outlets.",
+  "last_researched": "2026-11-08"
+}

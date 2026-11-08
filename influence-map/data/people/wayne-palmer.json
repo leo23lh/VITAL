@@ -36,6 +36,18 @@
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
         { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Labor_appointments_by_Donald_Trump", "title": "List of Department of Labor appointments by Donald Trump — Wikipedia" }
       ]
+    },
+    {
+      "name": "Melanie Calhoun",
+      "slug": "melanie-calhoun",
+      "relationship_type": "employee",
+      "description": "Palmer’s deputy for operations at MSHA.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.msha.gov/sites/default/files/Organizational_Charts/OAS/July2026-OAS-External.pdf", "title": "MSHA Office of the Assistant Secretary organization chart (July 2026)" }
+      ]
     }
   ],
   "org_chart_only": true,
