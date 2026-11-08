@@ -1662,6 +1662,21 @@
         { "url": "https://www.nbcnews.com/news/world/witkoff-trump-gaza-hamas-israel-ceasefire-envoy-rcna187954", "title": "How an NYC real estate tycoon became Trump's man in the room for Gaza negotiations — NBC News" },
         { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" }
       ]
+    },
+    {
+      "name": "Jeffrey Epstein",
+      "slug": "jeffrey-epstein",
+      "relationship_type": "friend",
+      "description": "Trump and Epstein socialized from the late 1980s into the early 2000s; in a 2002 New York magazine profile Trump said he had known Epstein for 15 years and called him a “terrific guy,” and flight logs entered at Ghislaine Maxwell’s 2021 trial show Trump on Epstein’s plane several times between 1993 and 1997. Public sightings ended around 2004, when they bid against each other for a Palm Beach mansion; Trump has said they had a falling out, that he threw Epstein out of Mar-a-Lago and “wasn’t a fan.” In July 2025 Trump sued the Wall Street Journal over its report of a 2003 birthday letter it attributed to him, which he denies writing.",
+      "start_year": 1987,
+      "end_year": 2004,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.snopes.com/fact-check/trump-epstein-terrific-guy/", "title": "Snopes: Did Trump call Epstein a \"terrific guy\"?" },
+        { "url": "https://abcnews.com/Politics/timeline-trump-epsteins-relationship-trump-falling/story?id=124241038", "title": "ABC News: Timeline of Trump and Epstein’s relationship" },
+        { "url": "https://www.aljazeera.com/news/2025/7/18/how-well-did-trump-and-epstein-really-know-each-other-a-timeline", "title": "Al Jazeera: How well did Trump and Epstein really know each other? A timeline" },
+        { "url": "https://www.axios.com/2025/07/18/wall-street-journal-trump-epstein-letter", "title": "Axios: Trump sues Wall Street Journal for libel over Epstein letter" }
+      ]
     }
   ],
   "source_conflicts": [
