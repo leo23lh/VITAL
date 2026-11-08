@@ -31,7 +31,7 @@ part that reads as a person's name and treat the rest as context.
    relatives or minors. `family` and `friend` links only when publicly documented and the
    relative is a public figure in their own right.
 3. **Every fact and connection needs a source URL** for a page that states it.
-   Drop anything unsourced. Don't fill gaps from memory.
+   Drop anything unsourced. Balance the sourcing: right-of-center outlets (Fox News, Washington Examiner, National Review, The American Conservative, Daily Signal and others) are welcome for the facts they report; breaking-news feeds such as Rerum Novarum are leads to trace to the original report; don't cite The Unz Review (see CLAUDE.md rules 6–8). Don't fill gaps from memory.
 4. **Note when sources disagree:** `source_conflicts` for facts about the person;
    the connection's `description` plus a lower `confidence` for connections.
 

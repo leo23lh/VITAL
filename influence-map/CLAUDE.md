@@ -57,6 +57,22 @@ These apply to every command and every edit to `data/people/` and `data/orgs/`. 
    fine starting point; cite the underlying reporting where you can. Use neutral,
    factual language.
 
+6. **Balance the sourcing.** Right-of-center outlets are welcome sources for the
+   facts they report, alongside mainstream and left-leaning ones: Fox News, Fox
+   Business, Washington Examiner, Washington Times, New York Post, National
+   Review, The American Conservative, Daily Signal, Daily Wire, Daily Caller,
+   Washington Free Beacon, The Federalist, Breitbart, Compact, The American Mind
+   and the Wall Street Journal. When a claim is contested along partisan lines,
+   look for a right-leaning outlet's account as well as a mainstream one and
+   attribute both.
+7. **Breaking-news feeds are leads, not sources.** Aggregators such as Rerum
+   Novarum (Telegram and X) are good for spotting news fast. Follow each item to
+   the original report or document it relays and cite that; if no original can
+   be found, leave it out.
+8. **Not used as a source:** The Unz Review (deprecated by Wikipedia in 2021 for
+   antisemitic, racist and conspiracy content). Its articles may point to a lead,
+   which then needs an independent source like any other.
+
 `scripts/validate.mjs` enforces the mechanical parts (sources on everything,
 URL format, two-way links, valid types, no email/phone/ID/street-address
 patterns). Passing it does not mean the rules are met; it only catches slips.
