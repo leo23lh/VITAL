@@ -52,6 +52,10 @@ export function viewLabel(view: View, nameOf: (id: string) => string): string {
       return `${nameOf(view.a)} & ${nameOf(view.b)}`;
     case 'org':
       return 'Org chart';
+    case 'pull':
+      return view.of ? `Pull with ${nameOf(view.of)}` : 'Pull';
+    case 'route':
+      return `Getting to ${nameOf(view.to)}`;
   }
 }
 

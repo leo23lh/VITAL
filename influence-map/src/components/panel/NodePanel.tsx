@@ -4,6 +4,7 @@ import { bond, familyOf, linkEndId, matchesQuery, type WorkplaceIndex, pairKey, 
 import { EDGE_FAMILY_BY_ID, GROUPS, ORG_KIND_LABEL, RECIPIENT_KIND_LABEL, SECTOR_BY_ID, formatUsd, leanLabel, orgSideColor, sourceUrl, type Affiliation, type Giving, type GivingSide, type OrgFinance } from '../../lib/schema';
 import type { Selection } from '../../lib/view';
 import { Confidence, CopyCommand, SourceList, dedupeSources, otherEnd, uniqueDescriptions } from './parts';
+import { PullSection, type PullTools } from './PullSection';
 
 export function NodePanel({
   node,
@@ -17,6 +18,7 @@ export function NodePanel({
   onCompare,
   nodeOf,
   workplaces,
+  pullTools,
 }: {
   node: GraphNode;
   links: GraphLink[];
@@ -31,9 +33,10 @@ export function NodePanel({
   onCompare: (a: string, b: string) => void;
   nodeOf: (id: string) => GraphNode | undefined;
   workplaces: WorkplaceIndex;
+  pullTools: PullTools;
 }) {
   const [picking, setPicking] = useState(false);
-  const [tab, setTab] = useState<'overview' | 'ties' | 'money' | 'record'>('overview');
+  const [tab, setTab] = useState<'overview' | 'ties' | 'pull' | 'money' | 'record'>('overview');
   const p = node.person;
   const o = node.org;
   // Fields people and organizations share.
@@ -161,6 +164,7 @@ export function NodePanel({
           [
             ['overview', 'Overview'],
             ['ties', `Ties ${people.length}`],
+            ...(!node.isOrg && node.researched ? ([['pull', 'Pull']] as const) : []),
             ...(hasMoney ? ([['money', 'Money']] as const) : []),
             ['record', 'Record'],
           ] as const
@@ -283,6 +287,8 @@ export function NodePanel({
 
         </>
       )}
+
+      {tab === 'pull' && <PullSection node={node} tools={pullTools} nameOf={nameOf} onSelect={onSelect} />}
 
       {tab === 'record' && (
         <>

@@ -171,3 +171,36 @@ describe('buildOrgChart', () => {
     expect(sec.children[0].bond).toBeNull();
   });
 });
+
+describe('org_chart_only', () => {
+  const g2 = buildGraph([
+    person('boss', [conn('aide', 'employee'), conn('peer', 'ally')]),
+    person('aide', [conn('boss', 'employer')], { org_chart_only: true, office: { title: 'Aide', unit: 'labor', rank: 4, sources: src } } as never),
+    person('peer', [conn('boss', 'ally')]),
+  ]);
+  const ids2 = new Map(g2.nodes.map((n) => [n.id, n]));
+  const run = (selected: string | null) =>
+    visibleGraph({
+      graph: g2,
+      byId: ids2,
+      links: g2.links,
+      view: { kind: 'all' },
+      comparison: null,
+      spotlight: null,
+      extras: new Set(),
+      selectedNodeId: selected,
+      workplaces: workplaceIndex(g2.nodes),
+      filters: base,
+    })
+      .nodes.map((n) => n.id)
+      .sort();
+
+  it('keeps junior officials off the main web', () => {
+    expect(run(null)).toEqual(['boss', 'peer']);
+  });
+
+  it('shows them when they or their boss are selected', () => {
+    expect(run('aide')).toEqual(['aide', 'boss', 'peer']);
+    expect(run('boss')).toEqual(['aide', 'boss', 'peer']);
+  });
+});

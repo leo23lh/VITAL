@@ -297,6 +297,29 @@ connections either person has never counts. It has three parts (`bond()` in
   hostile, only a current feud (0). Labels: 80+ inner circle, 60+ strong bond,
   40+ solid, 20+ working tie, else thin.
 
+**Pull** (Views → Pull, and a Pull tab on each person) scores 0–100 how
+close someone is to people in power (`src/lib/pull.ts`):
+
+- Each post has a weight (`power()`): the President 1; VP and chief of staff
+  0.8; White House senior staff 0.5; cabinet secretaries 0.7, deputies 0.45,
+  under secretaries and department chiefs of staff 0.3, others 0.2; agency
+  heads 0.6; congressional leaders 0.6–0.65, chairs 0.4, members 0.25.
+- Each tie to an official adds post weight × Bond / 100; ties to people junior
+  to the person count a quarter. The strongest tie counts in full, the next
+  half, the next a quarter, combined so the score stays under 100. Labels: 75+
+  inner-circle access, 55+ strong, 35+ real, 15+ some, else little.
+- "Whose ear" ranks everyone by Bond with one official instead. The President
+  is left out of the overall ranking (pull is measured against him).
+
+**Get me to…** (Pull view, or "Get me to [name]" on the Pull tab) finds the
+three strongest chains of introductions, at most four links, from the owner's
+own file (`self_added`) to anyone. Each hop is the pair's Bond (ties under 15
+aren't used); a route's strength multiplies them, and going through someone
+senior counts for less (× 1 − 0.6 × their post weight; through the President a
+route keeps 40%), since they are harder to ask. The map shows only the routes.
+Routes can only start from the owner's links, so the owner's file decides what
+is reachable; it holds only what the owner provides.
+
 Group views, 2028 camps, Follow the money and Feuds are **spotlight** views:
 only the view's own people are on the map, every name shown, with only the
 lines between them (in Follow the money and Feuds, only money or feud lines).
@@ -336,6 +359,11 @@ Current government officials carry an `office` field, which places them in
 - Senior staff of officials (chiefs of staff, deputy chiefs, agency heads)
   count as public figures for their public role (research rule 1); record only
   their posts and public record.
+- **`org_chart_only: true`** (needs an `office`): junior officials (department
+  chiefs of staff, deputy chiefs, assistant secretaries, deputies) live in the
+  org chart, Pull and routes but stay off the main web and group views, unless
+  searched for or tapped (their boss's ties still bring them in when the boss
+  is selected).
 
 ## Giving
 

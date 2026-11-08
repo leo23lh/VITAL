@@ -298,6 +298,11 @@ export function validatePeople(records, opts = {}) {
       }
     }
 
+    if (p.org_chart_only !== undefined) {
+      if (typeof p.org_chart_only !== 'boolean') err(file, '"org_chart_only" must be true or false');
+      else if (p.org_chart_only && !p.office) err(file, '"org_chart_only" needs an "office" (it places the person in the org chart)');
+    }
+
     // Giving: cycles of reported donations, and a sourced outlook for the next cycle.
     if (p.giving !== undefined) {
       const g = p.giving;
@@ -388,7 +393,7 @@ export function validatePeople(records, opts = {}) {
     if (!isYear(o.founded) || !isYear(o.dissolved)) err(file, '"founded"/"dissolved" must be years or null');
     if (typeof o.last_researched !== 'string' || !DATE_RE.test(o.last_researched))
       err(file, '"last_researched" must be a YYYY-MM-DD date');
-    for (const key of ['public_figure', 'photo', 'lean', 'giving', 'race_2028', 'sector', 'self_added', 'office'])
+    for (const key of ['public_figure', 'photo', 'lean', 'giving', 'race_2028', 'sector', 'self_added', 'office', 'org_chart_only'])
       if (o[key] !== undefined) err(file, `"${key}" is a person field; organizations don't take it`);
     if (o.groups !== undefined) {
       if (!Array.isArray(o.groups)) err(file, '"groups" must be an array');
