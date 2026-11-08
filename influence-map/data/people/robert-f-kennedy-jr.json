@@ -178,6 +178,19 @@
         { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
         { "url": "https://www.newsweek.com/donald-trump-rfk-donations-timothy-mellon-fec-1872315", "title": "Donald Trump and RFK Jr Have the Same Largest Donor — Newsweek" }
       ]
+    },
+    {
+      "name": "Courtney Parella Spencer",
+      "slug": "courtney-parella",
+      "relationship_type": "employee",
+      "description": "Kennedy picked her as HHS’s top spokesperson in May 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.hhs.gov/about/leadership/courtney-parella-spencer.html", "title": "Courtney Parella Spencer — U.S. Department of Health and Human Services" },
+        { "url": "https://subscriber.politicopro.com/article/2026/05/rfk-jr-taps-labor-official-as-top-spokesperson-00940497", "title": "RFK Jr. taps Labor official as top spokesperson — POLITICO Pro (May 2026)" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
