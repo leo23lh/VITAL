@@ -170,6 +170,18 @@
       "sources": [
         { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios" }
       ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "colleague",
+      "description": "Trump Jr. joined 1789 Capital, which she co-founded, as a partner after the 2024 election.",
+      "start_year": 2024,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://www.washingtonpost.com/technology/interactive/2026/07/13/trumps-sons-invest-heavily-defense-fathers-administration-pours-money/", "title": "Trump's sons invest heavily in defense tech — Washington Post" },
+        { "url": "https://www.axios.com/2026/08/13/1789-capital-real-estate-fund", "title": "1789 Capital closes $1.2B real estate fund — Axios" }
+      ]
     }
   ],
   "affiliations": [],

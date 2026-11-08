@@ -176,6 +176,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
       ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "ally",
+      "description": "She ran Keep the Promise I, the main super PAC backing Cruz's 2016 presidential run, with Kellyanne Conway.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rebekah_Mercer", "title": "Rebekah Mercer — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

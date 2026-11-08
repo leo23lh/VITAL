@@ -93,6 +93,18 @@
       "sources": [
         { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" }
       ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "co-founder",
+      "description": "Reported co-founders, with Omeed Malik, of the venture firm 1789 Capital in 2022.",
+      "start_year": 2022,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.axios.com/2026/08/13/1789-capital-real-estate-fund", "title": "1789 Capital closes $1.2B real estate fund — Axios" },
+        { "url": "https://www.washingtonpost.com/technology/interactive/2026/07/13/trumps-sons-invest-heavily-defense-fathers-administration-pours-money/", "title": "Trump's sons invest heavily in defense tech — Washington Post" }
+      ]
     }
   ],
   "affiliations": [],

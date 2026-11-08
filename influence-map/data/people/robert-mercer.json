@@ -150,12 +150,13 @@
       "name": "Rebekah Mercer",
       "slug": "rebekah-mercer",
       "relationship_type": "family",
-      "description": "Daughter; runs the Mercer Family Foundation and the family's political giving, co-owner of Breitbart, and co-founder of 1789 Capital.",
+      "description": "Daughter; runs the Mercer Family Foundation and the family's political giving, co-owner of Breitbart, and co-founder of 1789 Capital. Daughter; runs the Mercer Family Foundation and the family's political giving.",
       "start_year": null,
       "confidence": 0.95,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
-        { "url": "https://www.cnbc.com/2019/12/02/mercer-spent-millions-on-conservative-causes-as-they-distanced-from-trump.html", "title": "Mercer family spent millions on conservative causes in 2018 — CNBC" }
+        { "url": "https://www.cnbc.com/2019/12/02/mercer-spent-millions-on-conservative-causes-as-they-distanced-from-trump.html", "title": "Mercer family spent millions on conservative causes in 2018 — CNBC" },
+        { "url": "https://en.wikipedia.org/wiki/Rebekah_Mercer", "title": "Rebekah Mercer — Wikipedia" }
       ]
     },
     {
@@ -214,7 +215,7 @@
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API. Rebekah Mercer, who runs the family's political operation, is a suggested connection.",
-  "last_researched": "2026-11-07",
+  "last_researched": "2026-11-08",
   "giving": {
     "cycles": [
       {

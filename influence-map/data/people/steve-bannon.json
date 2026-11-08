@@ -277,6 +277,32 @@
       "sources": [
         { "url": "https://nationalconservatism.org/natcon-5-2025/confirmed-speakers/", "title": "Confirmed Speakers — NatCon Washington 2025" }
       ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "donor",
+      "description": "The Mercers bankrolled and co-owned Breitbart, which Bannon ran, and helped put him at the top of Trump's 2016 campaign; she took over the family's Breitbart stake in 2017.",
+      "start_year": 2012,
+      "end_year": 2018,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.washingtonpost.com/graphics/politics/mercer-bannon/", "title": "The Mercers and Stephen Bannon — Washington Post" },
+        { "url": "https://www.npr.org/sections/thetwo-way/2018/01/09/576868468/bannon-out-at-breitbart-news", "title": "Steve Bannon Out At Breitbart News — NPR" }
+      ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "enemy",
+      "description": "In January 2018 she publicly broke with Bannon, saying the family had not spoken to him in months and gave no support to his political agenda; the Mercers cut funding for his security detail and he left Breitbart.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.npr.org/sections/thetwo-way/2018/01/09/576868468/bannon-out-at-breitbart-news", "title": "Steve Bannon Out At Breitbart News — NPR" },
+        { "url": "https://thehill.com/blogs/blog-briefing-room/367529-gop-megadonors-cut-off-funding-for-bannons-security-detail-report/", "title": "GOP mega-donors cut off funding for Bannon's security detail — The Hill" }
+      ]
     }
   ],
   "source_conflicts": [],

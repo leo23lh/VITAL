@@ -450,6 +450,19 @@
         { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" },
         { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
       ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "donor",
+      "description": "Gave $60,800 to two PACs backing Vance's 2022 Senate run and co-hosted a New York fundraiser for him; Vance reportedly advised her on Parler.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" },
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [],

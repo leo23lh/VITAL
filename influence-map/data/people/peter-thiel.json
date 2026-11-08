@@ -448,6 +448,17 @@
         { "url": "https://www.chathamhouse.org/publications/twt/julius-krein-trumps-wunderkind", "title": "Julius Krein, Trump's wunderkind — Chatham House" },
         { "url": "https://en.wikipedia.org/wiki/Julius_Krein", "title": "Julius Krein — Wikipedia" }
       ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "ally",
+      "description": "Fellow members of the Rockbridge Network of Republican donors, per The New York Times as reported by NBC News.",
+      "start_year": null,
+      "confidence": 0.45,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/secretive-conservative-donor-group-meets-draw-2024-plans-call-trump-rcna148899", "title": "Secretive conservative donor group meets to draw up 2024 plans — NBC News" }
+      ]
     }
   ],
   "source_conflicts": [
