@@ -137,5 +137,16 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Commerce",
+    "unit": "commerce",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Howard_Lutnick", "title": "Wikipedia: Howard Lutnick" },
+      { "url": "https://www.ibj.com/articles/u-s-senate-confirms-financier-howard-lutnick-as-commerce-secretary", "title": "AP via IBJ: Senate confirms Howard Lutnick as commerce secretary" }
+    ]
+  }
 }

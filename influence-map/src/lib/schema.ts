@@ -274,6 +274,60 @@ export interface Race2028 {
   sources: SourceRef[];
 }
 
+/**
+ * Government org chart: where a person sits. Units are listed in display order
+ * (executive departments in order of presidential succession). Keep in sync with
+ * scripts/validate.mjs (a test checks this). See CLAUDE.md "Office".
+ */
+export const OFFICE_UNITS = [
+  { id: 'white-house', label: 'White House', branch: 'executive' },
+  { id: 'eop', label: 'Executive Office of the President', branch: 'executive' },
+  { id: 'state', label: 'State', branch: 'executive' },
+  { id: 'treasury', label: 'Treasury', branch: 'executive' },
+  { id: 'war', label: 'War (Defense)', branch: 'executive' },
+  { id: 'justice', label: 'Justice', branch: 'executive' },
+  { id: 'interior', label: 'Interior', branch: 'executive' },
+  { id: 'agriculture', label: 'Agriculture', branch: 'executive' },
+  { id: 'commerce', label: 'Commerce', branch: 'executive' },
+  { id: 'labor', label: 'Labor', branch: 'executive' },
+  { id: 'hhs', label: 'Health and Human Services', branch: 'executive' },
+  { id: 'hud', label: 'Housing and Urban Development', branch: 'executive' },
+  { id: 'transportation', label: 'Transportation', branch: 'executive' },
+  { id: 'energy', label: 'Energy', branch: 'executive' },
+  { id: 'education', label: 'Education', branch: 'executive' },
+  { id: 'va', label: 'Veterans Affairs', branch: 'executive' },
+  { id: 'dhs', label: 'Homeland Security', branch: 'executive' },
+  { id: 'agencies', label: 'Agencies', branch: 'executive' },
+  { id: 'envoys', label: 'Ambassadors and envoys', branch: 'executive' },
+  { id: 'senate', label: 'Senate', branch: 'legislative' },
+  { id: 'house', label: 'House', branch: 'legislative' },
+] as const;
+export type OfficeUnit = (typeof OFFICE_UNITS)[number]['id'];
+export const OFFICE_UNIT_BY_ID = Object.fromEntries(OFFICE_UNITS.map((u) => [u.id, u])) as Record<
+  OfficeUnit,
+  (typeof OFFICE_UNITS)[number]
+>;
+
+/**
+ * Rank inside a unit: 1 = head (secretary, chief of staff, party leader), 2 = deputy
+ * (deputy secretary, whip), 3 = senior official (under secretary, department chief of
+ * staff, committee chair), 4 = other appointee (assistant secretary, adviser, member).
+ */
+export type OfficeRank = 1 | 2 | 3 | 4;
+
+/** A current government post (one per person: the main one). */
+export interface Office {
+  title: string;
+  unit: OfficeUnit;
+  rank: OfficeRank;
+  /** Slug of the person they report to (must have a file). Omit when not documented. */
+  reports_to?: string;
+  /** YYYY, YYYY-MM or YYYY-MM-DD. */
+  since?: string;
+  acting?: boolean;
+  sources: SourceRef[];
+}
+
 /** Political giving: what a donor gave, cycle by cycle, and a sourced outlook. See CLAUDE.md "Giving". */
 export const RECIPIENT_KINDS = [
   { id: 'super-pac', label: 'Super PAC' },
@@ -381,6 +435,8 @@ export interface Person {
   race_2028?: Race2028;
   /** Political giving by cycle, and who they are likely to fund next. */
   giving?: Giving;
+  /** Current government post, for the org chart. */
+  office?: Office;
   current_role?: string;
   summary?: string;
   /** Sources backing summary and current_role. */

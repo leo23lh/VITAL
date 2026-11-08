@@ -229,5 +229,14 @@
   ],
   "affiliations": [],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Senator (R-TX)",
+    "unit": "senate",
+    "rank": 4,
+    "sources": [
+      { "url": "https://www.cruz.senate.gov/imo/media/doc/about_ted_bio.pdf", "title": "Sen. Ted Cruz: official biography" },
+      { "url": "https://www.britannica.com/biography/Ted-Cruz", "title": "Britannica: Ted Cruz" }
+    ]
+  }
 }

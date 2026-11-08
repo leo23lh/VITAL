@@ -156,5 +156,16 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Agriculture",
+    "unit": "agriculture",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Brooke_Rollins", "title": "Wikipedia: Brooke Rollins" },
+      { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" }
+    ]
+  }
 }

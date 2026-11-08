@@ -88,5 +88,16 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Veterans Affairs",
+    "unit": "va",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://www.cbsnews.com/news/doug-collins-confirmed-veterans-affairs-secretary", "title": "CBS News: Doug Collins confirmed as veterans affairs secretary" },
+      { "url": "https://millercenter.org/node/100766", "title": "Miller Center: Doug Collins" }
+    ]
+  }
 }

@@ -146,5 +146,16 @@
         { "url": "https://www.ksat.com/news/world/2025/03/13/steve-witkoff-has-gone-from-spotting-trump-cash-at-a-deli-to-helping-him-navigate-ukraine-and-gaza/", "title": "Steve Witkoff has gone from spotting Trump cash at a deli to helping him navigate Ukraine and Gaza — AP" }
       ]
     }
-  ]
+  ],
+  "office": {
+    "title": "Special Envoy for Peace Missions",
+    "unit": "envoys",
+    "rank": 3,
+    "reports_to": "donald-trump",
+    "since": "2025-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" },
+      { "url": "https://www.ksat.com/news/world/2025/03/13/steve-witkoff-has-gone-from-spotting-trump-cash-at-a-deli-to-helping-him-navigate-ukraine-and-gaza/", "title": "Steve Witkoff has gone from spotting Trump cash at a deli to helping him navigate Ukraine and Gaza — AP" }
+    ]
+  }
 }

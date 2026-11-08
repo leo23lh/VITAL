@@ -132,5 +132,15 @@
   "aliases": [],
   "affiliations": [],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Ambassador to India; Special Envoy for South and Central Asia",
+    "unit": "envoys",
+    "rank": 4,
+    "reports_to": "marco-rubio",
+    "since": "2025-11",
+    "sources": [
+      { "url": "https://m.washingtontimes.com/news/2025/nov/10/sergio-gor-sworn-us-ambassador-india/", "title": "Washington Times: Sergio Gor sworn in as U.S. ambassador to India" }
+    ]
+  }
 }

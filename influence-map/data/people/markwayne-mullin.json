@@ -134,5 +134,16 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Homeland Security",
+    "unit": "dhs",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2026-03",
+    "sources": [
+      { "url": "https://www.kgou.org/markwayne-mullin-dhs-confirmed", "title": "KGOU: Markwayne Mullin confirmed as DHS secretary" },
+      { "url": "https://m.washingtontimes.com/news/2026/mar/23/markwayne-mullin-confirmed-lead-homeland-security/", "title": "Washington Times: Mullin confirmed to lead Homeland Security" }
+    ]
+  }
 }

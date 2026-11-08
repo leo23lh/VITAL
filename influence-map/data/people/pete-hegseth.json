@@ -385,5 +385,16 @@
     }
   ],
   "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Wikipedia’s Hegseth article could not be read directly (rate limit); facts were confirmed through searches. The record for Amodei mirrors the one in his file. Not recorded: allegations about his personal conduct raised at his confirmation (private matters he disputes). Refreshed 2026-11-08: added the March 2025 Signal chat, the boat strikes, the Iran war, Project Meridian, the Massie impeachment articles and the November 2026 replacement reports, all confirmed through search results for the cited pages. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "office": {
+    "title": "Secretary of War (Defense)",
+    "unit": "war",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-01-25",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Pete_Hegseth", "title": "Pete Hegseth — Wikipedia" },
+      { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" }
+    ]
+  }
 }

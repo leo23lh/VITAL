@@ -399,5 +399,16 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Re-run /refresh-person on a machine with full web access to re-check sources. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "White House Chief of Staff",
+    "unit": "white-house",
+    "rank": 2,
+    "reports_to": "donald-trump",
+    "since": "2026-11-09",
+    "sources": [
+      { "url": "https://www.pbs.org/newshour/politics/trump-names-stephen-miller-his-next-chief-of-staff-after-major-republican-midterm-losses", "title": "Trump names Stephen Miller his next chief of staff after major Republican midterm losses — PBS NewsHour (AP)" },
+      { "url": "https://www.washingtonpost.com/politics/2026/11/06/trump-names-stephen-miller-new-white-house-chief-staff/", "title": "Stephen Miller is named new White House chief of staff as Susie Wiles departs — The Washington Post" }
+    ]
+  }
 }

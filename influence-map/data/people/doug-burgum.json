@@ -147,5 +147,16 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of the Interior",
+    "unit": "interior",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Doug_Burgum", "title": "Wikipedia: Doug Burgum" },
+      { "url": "https://abcnews4.com/news/nation-world/trump-names-interior-designee-north-dakota-gov-doug-burgum-to-head-new-white-house-council-on-energy", "title": "AP: Trump names Burgum to head new White House council on energy" }
+    ]
+  }
 }

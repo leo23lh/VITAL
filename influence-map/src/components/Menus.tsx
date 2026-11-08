@@ -86,6 +86,10 @@ function ViewsMenu({ view, onView, groupCounts, camps, selectedNode, onWorld }: 
       <button className={`menu-item${is({ kind: 'all' })}`} onClick={() => onView({ kind: 'all' })}>
         <span>Whole network</span>
       </button>
+      <button className={`menu-item${is({ kind: 'org' })}`} onClick={() => onView({ kind: 'org' })}>
+        <span>Org chart</span>
+        <span className="muted">who reports to whom</span>
+      </button>
 
       <h4>Groups</h4>
       {GROUPS.map((g) => (

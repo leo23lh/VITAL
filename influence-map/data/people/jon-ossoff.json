@@ -89,5 +89,14 @@
     }
   ],
   "notes": "Researched in a sandbox where Wikipedia was rate-limiting and most news pages could not be opened; Wikipedia facts were confirmed with web searches restricted to en.wikipedia.org, and news facts with searches tied to each cited URL.",
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "office": {
+    "title": "Senator (D-GA)",
+    "unit": "senate",
+    "rank": 4,
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Jon_Ossoff", "title": "Jon Ossoff — Wikipedia" },
+      { "url": "https://www.opb.org/article/2026/11/03/georgia-sen-jon-ossoff-wins-reelection-defeating-rep-mike-collins-to-hold-a-key-democratic-seat/", "title": "Georgia Sen. Jon Ossoff wins reelection, defeating Rep. Mike Collins — AP via OPB" }
+    ]
+  }
 }

@@ -141,5 +141,13 @@
       ]
     }
   ],
-  "affiliations": []
+  "affiliations": [],
+  "office": {
+    "title": "Senator (R-KY); Chair, Homeland Security Committee",
+    "unit": "senate",
+    "rank": 3,
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
+    ]
+  }
 }

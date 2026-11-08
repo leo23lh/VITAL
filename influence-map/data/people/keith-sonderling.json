@@ -155,5 +155,16 @@
     }
   ],
   "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. A Labor Department page also says he was designated acting director of the Office of Government Ethics in June 2026; not recorded pending a second source. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Labor",
+    "unit": "labor",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2026-04",
+    "sources": [
+      { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "Secretary of Labor Keith Sonderling — U.S. Department of Labor" },
+      { "url": "https://www.shrm.org/topics-tools/employment-law-compliance/senate-confirms-sonderling-as-head-of-us-department-of-labor", "title": "Senate confirms Sonderling as head of US Department of Labor — SHRM" }
+    ]
+  }
 }

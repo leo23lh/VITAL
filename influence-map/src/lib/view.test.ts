@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { buildGraph, workplaceIndex } from './graph';
 import type { Person, PersonFile } from './schema';
+import { buildOrgChart } from './orgchart';
 import { activeFilterCount, campSizes, filterLinks, fitKey, spotlightFor, visibleGraph, type Filters, type View } from './view';
 
 const src = [{ url: 'https://example.com/1', title: 'Source' }];
@@ -133,5 +134,40 @@ describe('small helpers', () => {
       ['y', 1],
       ['x', 0],
     ]);
+  });
+});
+
+describe('buildOrgChart', () => {
+  const src2 = [{ url: 'https://example.com/2', title: 'Source' }];
+  const office = (title: string, unit: string, rank: number, reports_to?: string) =>
+    ({ office: { title, unit, rank, reports_to, sources: src2 } }) as never;
+  const g = buildGraph([
+    person('pres', [conn('sec', 'employee')], office('President', 'white-house', 1)),
+    person('sec', [conn('pres', 'employer')], office('Secretary of Labor', 'labor', 1, 'pres')),
+    person('dep', [], office('Deputy Secretary of Labor', 'labor', 2, 'sec')),
+    person('cos', [], office('Chief of Staff', 'labor', 3, 'sec')),
+    person('sen', [], office('Senator', 'senate', 4)),
+    person('donor'),
+  ]);
+  const chart = buildOrgChart(g.nodes, g.links, workplaceIndex(g.nodes));
+
+  it('groups people by unit, in the official order, executive before Congress', () => {
+    expect(chart.executive.map((u) => u.id)).toEqual(['white-house', 'labor']);
+    expect(chart.legislative.map((u) => u.id)).toEqual(['senate']);
+  });
+
+  it('nests reports under their boss inside a unit, by rank', () => {
+    const labor = chart.executive[1];
+    expect(labor.rows.map((r) => r.id)).toEqual(['sec']);
+    expect(labor.rows[0].children.map((r) => r.id)).toEqual(['dep', 'cos']);
+  });
+
+  it('notes a boss in another unit and the bond with them', () => {
+    const sec = chart.executive[1].rows[0];
+    expect(sec.bossElsewhere).toBe(true);
+    expect(sec.bossName).toBe('PRES');
+    expect(sec.bond).toBeGreaterThan(0);
+    // No recorded tie between the deputy and the secretary.
+    expect(sec.children[0].bond).toBeNull();
   });
 });

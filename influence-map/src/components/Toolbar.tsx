@@ -50,6 +50,8 @@ export function viewLabel(view: View, nameOf: (id: string) => string): string {
       return `${nameOf(view.id)}'s world`;
     case 'compare':
       return `${nameOf(view.a)} & ${nameOf(view.b)}`;
+    case 'org':
+      return 'Org chart';
   }
 }
 

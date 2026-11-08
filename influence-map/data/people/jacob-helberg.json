@@ -328,5 +328,15 @@
     }
   ],
   "notes": "Researched with web searches; pages could not be opened, so facts were confirmed through search results tied to each cited URL. The Revolving Door Project is an advocacy group; amounts taken from it are attributed to it. The Altman friend link rests on Wikipedia and on Yahoo Finance’s summary of Wall Street Journal reporting; one photo site dates the wedding to January 2019 and was not used.",
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "office": {
+    "title": "Under Secretary of State for Economic Affairs",
+    "unit": "state",
+    "rank": 3,
+    "reports_to": "marco-rubio",
+    "since": "2025-10-16",
+    "sources": [
+      { "url": "https://www.state.gov/biographies/jacob-helberg", "title": "U.S. Department of State: Jacob Helberg biography" }
+    ]
+  }
 }

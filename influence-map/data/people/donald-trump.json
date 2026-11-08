@@ -1762,5 +1762,14 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Records for Miller, Sessions and Ellison mirror the records already in their files. Some midterm races were still being counted when the cited results were published. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "President of the United States",
+    "unit": "white-house",
+    "rank": 1,
+    "since": "2025-01-20",
+    "sources": [
+      { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" }
+    ]
+  }
 }

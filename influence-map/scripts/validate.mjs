@@ -57,6 +57,12 @@ export const GROUPS = [
   'natcon',
 ];
 
+// Keep in sync with OFFICE_UNITS in src/lib/schema.ts (a unit test checks this).
+export const OFFICE_UNITS = [
+  'white-house', 'eop', 'state', 'treasury', 'war', 'justice', 'interior', 'agriculture', 'commerce', 'labor',
+  'hhs', 'hud', 'transportation', 'energy', 'education', 'va', 'dhs', 'agencies', 'envoys', 'senate', 'house',
+];
+
 // Keep in sync with RECIPIENT_KINDS and GIVING_SIDES in src/lib/schema.ts (a unit test checks this).
 export const RECIPIENT_KINDS = ['super-pac', 'dark-money', 'candidate', 'party', 'pac', 'ballot-measure', 'other'];
 export const GIVING_SIDES = ['D', 'R', 'both', 'nonpartisan'];
@@ -264,6 +270,34 @@ export function validatePeople(records, opts = {}) {
       }
     }
 
+    // Office: the person's current government post, for the org chart.
+    if (p.office !== undefined) {
+      const o = p.office;
+      if (!o || typeof o !== 'object') err(file, '"office" must be an object');
+      else {
+        if (typeof o.title !== 'string' || !o.title.trim()) err(file, 'office.title is required');
+        if (!OFFICE_UNITS.includes(o.unit)) err(file, `office.unit must be one of ${OFFICE_UNITS.join(', ')}`);
+        if (![1, 2, 3, 4].includes(o.rank)) err(file, 'office.rank must be 1 (head), 2 (deputy), 3 (senior) or 4 (other)');
+        if (o.reports_to !== undefined) {
+          if (o.reports_to === slug) err(file, 'office.reports_to cannot be the person themselves');
+          else if (!bySlug.has(o.reports_to)) err(file, `office.reports_to: no file for "${o.reports_to}"`);
+          else if (!bySlug.get(o.reports_to).data?.office) warn(file, `office.reports_to: ${o.reports_to}.json has no office, so the chart can't place the chain`);
+        }
+        if (o.since !== undefined && !/^\d{4}(-\d{2}(-\d{2})?)?$/.test(o.since)) err(file, 'office.since must be YYYY, YYYY-MM or YYYY-MM-DD');
+        if (o.acting !== undefined && typeof o.acting !== 'boolean') err(file, 'office.acting must be true or false');
+        checkSources(o.sources, 'office', { allowUser: !!p.self_added });
+        // No loops in the reporting chain.
+        const seen = new Set([slug]);
+        for (let s = o.reports_to; s; s = bySlug.get(s)?.data?.office?.reports_to) {
+          if (seen.has(s)) {
+            err(file, `office.reports_to: the reporting chain loops back through ${s}`);
+            break;
+          }
+          seen.add(s);
+        }
+      }
+    }
+
     // Giving: cycles of reported donations, and a sourced outlook for the next cycle.
     if (p.giving !== undefined) {
       const g = p.giving;
@@ -354,7 +388,7 @@ export function validatePeople(records, opts = {}) {
     if (!isYear(o.founded) || !isYear(o.dissolved)) err(file, '"founded"/"dissolved" must be years or null');
     if (typeof o.last_researched !== 'string' || !DATE_RE.test(o.last_researched))
       err(file, '"last_researched" must be a YYYY-MM-DD date');
-    for (const key of ['public_figure', 'photo', 'lean', 'giving', 'race_2028', 'sector', 'self_added'])
+    for (const key of ['public_figure', 'photo', 'lean', 'giving', 'race_2028', 'sector', 'self_added', 'office'])
       if (o[key] !== undefined) err(file, `"${key}" is a person field; organizations don't take it`);
     if (o.groups !== undefined) {
       if (!Array.isArray(o.groups)) err(file, '"groups" must be an array');

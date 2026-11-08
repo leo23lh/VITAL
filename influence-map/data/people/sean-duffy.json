@@ -21,12 +21,13 @@
     "license": "Public domain",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Secretary_of_Transportation_Sean_Duffy_Official_Portrait.jpg", "title": "File:Secretary of Transportation Sean Duffy Official Portrait.jpg — Wikimedia Commons" }
   },
-  "current_role": "U.S. Secretary of Transportation (since January 2025); acting NASA administrator from July 2025",
+  "current_role": "U.S. Secretary of Transportation (since January 2025); acting NASA administrator July–December 2025",
   "summary": "Sean Duffy, a former reality-TV personality and district attorney, represented Wisconsin in Congress as a Republican from 2011 to 2019 and later hosted on Fox Business. Confirmed as transportation secretary 77–22 in January 2025, he was also named acting NASA administrator in July 2025, which led to a public feud with Elon Musk over SpaceX's moon contract.",
   "sources": [
     { "url": "https://en.wikipedia.org/wiki/Sean_Duffy", "title": "Wikipedia: Sean Duffy" },
     { "url": "https://www.space.com/space-exploration/trump-names-transportation-secretary-sean-duffy-as-interim-nasa-administrator", "title": "Space.com: Trump names Sean Duffy interim NASA administrator" },
-    { "url": "https://techcrunch.com/2025/07/10/trump-taps-transportation-secretary-sean-duffy-as-acting-nasa-chief/", "title": "TechCrunch: Trump taps Duffy as acting NASA chief" }
+    { "url": "https://techcrunch.com/2025/07/10/trump-taps-transportation-secretary-sean-duffy-as-acting-nasa-chief/", "title": "TechCrunch: Trump taps Duffy as acting NASA chief" },
+    { "url": "https://www.space.com/space-exploration/us-senate-confirms-jared-isaacman-as-new-nasa-administrator", "title": "US Senate confirms Jared Isaacman as new NASA administrator — Space.com" }
   ],
   "timeline": [
     {
@@ -119,5 +120,16 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Transportation",
+    "unit": "transportation",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Sean_Duffy", "title": "Wikipedia: Sean Duffy" },
+      { "url": "https://www.space.com/space-exploration/trump-names-transportation-secretary-sean-duffy-as-interim-nasa-administrator", "title": "Space.com: Trump names Sean Duffy interim NASA administrator" }
+    ]
+  }
 }

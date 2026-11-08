@@ -656,5 +656,15 @@
   ],
   "source_conflicts": [],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Records for Thiel, Trump and Sacks mirror the records already in their files. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Vice President",
+    "unit": "white-house",
+    "rank": 2,
+    "reports_to": "donald-trump",
+    "since": "2025-01-20",
+    "sources": [
+      { "url": "https://www.whitehouse.gov/administration/jd-vance/", "title": "Vice President JD Vance — The White House" }
+    ]
+  }
 }

@@ -345,5 +345,14 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Co-chair, President's Council of Advisors on Science and Technology",
+    "unit": "eop",
+    "rank": 4,
+    "since": "2026-03",
+    "sources": [
+      { "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html", "title": "David Sacks says his time as Trump's crypto and AI czar has ended — CNBC" }
+    ]
+  }
 }

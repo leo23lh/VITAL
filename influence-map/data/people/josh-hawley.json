@@ -139,5 +139,14 @@
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Senator (R-MO)",
+    "unit": "senate",
+    "rank": 4,
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
+      { "url": "https://www.hawley.senate.gov/senator-josh-hawleys-speech-national-conservatism-conference", "title": "Senator Josh Hawley's Speech at the National Conservatism Conference (2019)" }
+    ]
+  }
 }

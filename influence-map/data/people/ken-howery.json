@@ -178,5 +178,16 @@
   ],
   "source_conflicts": [],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Ambassador to Denmark",
+    "unit": "envoys",
+    "rank": 4,
+    "reports_to": "marco-rubio",
+    "since": "2025-11",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Ken Howery — Wikipedia" },
+      { "url": "https://2017-2021.state.gov/howery-kenneth-a-kingdom-of-sweden-february-2019/", "title": "Howery, Kenneth A. — Kingdom of Sweden — U.S. Department of State" }
+    ]
+  }
 }

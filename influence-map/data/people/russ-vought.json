@@ -181,5 +181,16 @@
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Director, Office of Management and Budget",
+    "unit": "eop",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" },
+      { "url": "https://www.dailysignal.com/2025/09/03/omb-director-vought-deconstructing-the-administrative-state/", "title": "OMB Director: How President Trump Is Deconstructing the Administrative State — Daily Signal" }
+    ]
+  }
 }

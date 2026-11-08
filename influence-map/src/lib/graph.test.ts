@@ -21,6 +21,7 @@ import {
   GIVING_SIDES,
   GROUPS,
   INVERSE_TYPE,
+  OFFICE_UNITS,
   ORG_KINDS,
   ORG_RELATIONSHIP_TYPES,
   RECIPIENT_KINDS,
@@ -184,6 +185,7 @@ describe('validatePeople', () => {
     expect(validator.GIVING_SIDES).toEqual([...GIVING_SIDES]);
     expect(validator.ORG_KINDS).toEqual(ORG_KINDS.map((k) => k.id));
     expect(validator.ORG_RELATIONSHIP_TYPES).toEqual([...ORG_RELATIONSHIP_TYPES]);
+    expect(validator.OFFICE_UNITS).toEqual(OFFICE_UNITS.map((u) => u.id));
   });
 
   it("allows a family link only to the owner's self-added file", () => {

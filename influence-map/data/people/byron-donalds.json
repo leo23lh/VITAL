@@ -96,5 +96,14 @@
     }
   ],
   "notes": "Researched in a sandbox where Wikipedia was rate-limiting and most news pages could not be opened; Wikipedia facts were confirmed with web searches restricted to en.wikipedia.org, and news facts with searches tied to each cited URL.",
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "office": {
+    "title": "Representative (R-FL)",
+    "unit": "house",
+    "rank": 4,
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Byron_Donalds", "title": "Byron Donalds — Wikipedia" },
+      { "url": "https://www.wowt.com/2026/11/04/democrats-press-win-majority-governors-offices-midterms-after-power-struggles-with-trump/", "title": "Democrats press to win a majority of governors' offices in midterms — AP via WOWT" }
+    ]
+  }
 }

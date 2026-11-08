@@ -94,5 +94,16 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Energy",
+    "unit": "energy",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://abcnews4.com/news/nation-world/senate-confirms-fossil-fuel-executive-chris-wright-as-energy-secretary-denver-based-president-donald-trump-united-states-energy-dominance-drill-baby-drill-liberty-energy-fossil-fuel-climate-change", "title": "AP: Senate confirms fossil fuel executive Chris Wright as energy secretary" },
+      { "url": "https://chemicalprocessing.com/utilities-energy/news/55243714/trump-names-liberty-energy-ceo-chris-wright-as-next-energy-secretary", "title": "Chemical Processing: Trump names Liberty Energy CEO Chris Wright as energy secretary" }
+    ]
+  }
 }

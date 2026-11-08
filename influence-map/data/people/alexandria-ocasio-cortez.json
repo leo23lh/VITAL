@@ -150,5 +150,14 @@
   ],
   "affiliations": [],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Representative (D-NY)",
+    "unit": "house",
+    "rank": 4,
+    "sources": [
+      { "url": "https://www.nbcnews.com/politics/2028-election/bernie-sanders-lane-2028-aoc-ro-khanna-rcna343290", "title": "NBC News: The front-runners to lead Bernie Sanders' movement in 2028" },
+      { "url": "https://www.axios.com/2026/08/28/aoc-staff-changes-2028-decision", "title": "Axios: AOC shakes up team ahead of 2028 decision" }
+    ]
+  }
 }

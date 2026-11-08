@@ -33,7 +33,9 @@ export type View =
   | { kind: 'feuds' }
   | { kind: 'world'; id: string; depth: 1 | 2 }
   /** How closely two people are tied: their strongest chain and shared circle. */
-  | { kind: 'compare'; a: string; b: string };
+  | { kind: 'compare'; a: string; b: string }
+  /** The government as a hierarchy (from each file's `office`), instead of the web. */
+  | { kind: 'org' };
 
 export type Layout = 'wide' | 'card' | 'sheet';
 

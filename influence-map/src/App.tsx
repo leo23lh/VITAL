@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import GraphView, { BACKGROUND, type GraphHandle } from './components/GraphView';
+import OrgChart from './components/OrgChart';
 import Menus from './components/Menus';
 import SidePanel from './components/SidePanel';
 import Toolbar from './components/Toolbar';
@@ -10,6 +11,7 @@ import { canExport, exportGraphPng } from './lib/exportPng';
 import { buildGraph, yearSpan, workplaceIndex, type GraphNode, type YearRange } from './lib/graph';
 import { EDGE_FAMILIES, type EdgeFamily } from './lib/schema';
 import { useLayout, useMenus, useToggleSet } from './lib/useAppChrome';
+import { buildOrgChart } from './lib/orgchart';
 import { usePeople } from './lib/usePeople';
 import {
   DEFAULT_FORCES,
@@ -82,6 +84,10 @@ export default function App() {
   const counts = useMemo(() => familyCounts(graph.links), [graph]);
   const camps = useMemo(() => campSizes(graph.nodes, byId), [graph, byId]);
   const groups = useMemo(() => groupCounts(graph.nodes), [graph]);
+  const orgChart = useMemo(
+    () => (view.kind === 'org' ? buildOrgChart(graph.nodes, graph.links, workplaces) : null),
+    [view.kind, graph, workplaces],
+  );
 
   const filteredLinks = useMemo(
     () => filterLinks(graph.links, byId, { hidden, years, timeMode, showOrgs }),
@@ -200,6 +206,8 @@ export default function App() {
                 automatically.
               </p>
             </div>
+          ) : orgChart ? (
+            <OrgChart chart={orgChart} selectedId={selectedNodeId} onSelect={(id) => setSelection({ kind: 'node', id })} />
           ) : (
             <GraphView
               nodes={visible.nodes}

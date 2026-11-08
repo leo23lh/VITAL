@@ -121,5 +121,14 @@
   ],
   "affiliations": [],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Representative (D-CA)",
+    "unit": "house",
+    "rank": 4,
+    "sources": [
+      { "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/", "title": "Roll Call" },
+      { "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028", "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028" }
+    ]
+  }
 }

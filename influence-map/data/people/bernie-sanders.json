@@ -147,5 +147,14 @@
   ],
   "affiliations": [],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Senator (I-VT)",
+    "unit": "senate",
+    "rank": 4,
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Bernie_Sanders", "title": "Wikipedia: Bernie Sanders" },
+      { "url": "https://en.wikipedia.org/wiki/Fighting_Oligarchy_tour", "title": "Wikipedia: Fighting Oligarchy tour" }
+    ]
+  }
 }

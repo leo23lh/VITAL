@@ -119,5 +119,16 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Attorney General",
+    "unit": "justice",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2026-04",
+    "sources": [
+      { "url": "https://www.axios.com/2026/04/02/trump-todd-blanche-acting-attorney-general", "title": "Axios: What to know about Todd Blanche, Trump's new acting attorney general" },
+      { "url": "https://www.opb.org/article/2026/08/08/senate-votes-to-confirm-todd-blanche-as-attorney-general/", "title": "NPR via OPB: Senate votes to confirm Todd Blanche as attorney general" }
+    ]
+  }
 }

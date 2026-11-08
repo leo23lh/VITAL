@@ -173,5 +173,16 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Education",
+    "unit": "education",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-03",
+    "sources": [
+      { "url": "https://www.ed.gov/about/ed-organization/meet-secretary-of-education/linda-e-mcmahon", "title": "U.S. Department of Education: Linda E. McMahon" },
+      { "url": "https://www.axios.com/2024/11/20/trump-linda-mcmahon-education-secretary", "title": "Axios: Trump selects Linda McMahon for Education secretary" }
+    ]
+  }
 }

@@ -396,5 +396,16 @@
   ],
   "source_conflicts": [],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. The September 2026 permanent national security adviser appointment is reported by Colorado Politics and Fox News. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of State and National Security Adviser",
+    "unit": "state",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-01",
+    "sources": [
+      { "url": "https://www.state.gov/biographies/marco-rubio/", "title": "Marco Rubio — U.S. Department of State" },
+      { "url": "https://www.coloradopolitics.com/2026/09/22/rubio-named-nsa-after-16-months-as-acting/", "title": "Rubio named NSA after 16 months as acting — Colorado Politics" }
+    ]
+  }
 }

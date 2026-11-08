@@ -142,5 +142,14 @@
     }
   ],
   "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Upgraded from a non-public, user-provided entry at Leo Halperin's request after confirming a public record (Labor Department announcement, HuffPost, Arizona Mirror). The Leo Halperin link remains user-provided. No Wikipedia article or free photo found. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "White House Liaison, Department of Labor",
+    "unit": "labor",
+    "rank": 4,
+    "since": "2025-03",
+    "sources": [
+      { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" }
+    ]
+  }
 }

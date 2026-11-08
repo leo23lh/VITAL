@@ -154,5 +154,14 @@
   "aliases": [],
   "affiliations": [],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Representative (R-KY)",
+    "unit": "house",
+    "rank": 4,
+    "sources": [
+      { "url": "https://www.adn.com/nation-world/2026/05/19/rep-thomas-massie-loses-gop-primary-in-kentucky-to-challenger-endorsed-by-trump/", "title": "AP via ADN: Rep. Thomas Massie loses GOP primary to Trump-endorsed challenger" },
+      { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+    ]
+  }
 }

@@ -181,5 +181,16 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Health and Human Services",
+    "unit": "hhs",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.", "title": "Wikipedia: Robert F. Kennedy Jr." },
+      { "url": "https://www.voanews.com/a/independent-presidential-candidate-rfk-jr-suspends-campaign-endorses-trump-/7754899.html", "title": "VOA: RFK Jr. suspends campaign, endorses Trump" }
+    ]
+  }
 }
