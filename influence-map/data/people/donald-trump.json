@@ -1128,12 +1128,13 @@
       "name": "Ken Paxton",
       "slug": "ken-paxton",
       "relationship_type": "ally",
-      "description": "Trump endorsed Paxton a week before his May 2026 runoff win over Cornyn.",
+      "description": "Trump endorsed Paxton a week before his May 2026 runoff win over Cornyn. Trump endorsed Paxton over incumbent John Cornyn on May 19, 2026, calling him \"a true MAGA Warrior\".",
       "start_year": 2026,
       "end_year": 2026,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://abc7ny.com/post/texas-attorney-general-ken-paxton-wins-gop-runoff-us-senate-ousting-longtime-sen-john-cornyn-ap-projects/19177494/", "title": "AP via ABC7: Ken Paxton wins GOP runoff for US Senate, ousting John Cornyn" }
+        { "url": "https://abc7ny.com/post/texas-attorney-general-ken-paxton-wins-gop-runoff-us-senate-ousting-longtime-sen-john-cornyn-ap-projects/19177494/", "title": "AP via ABC7: Ken Paxton wins GOP runoff for US Senate, ousting John Cornyn" },
+        { "url": "https://www.kbtx.com/2026/05/19/trump-endorses-ken-paxton-senate-gop-runoff/", "title": "Trump endorses Ken Paxton in Senate GOP runoff — KBTX" }
       ]
     },
     {
@@ -1473,6 +1474,19 @@
       "sources": [
         { "url": "https://semafor.com/article/07/13/2024/breaking-down-donald-trumps-top-three-vp-finalists", "title": "Breaking down Donald Trump's top three VP finalists — Semafor" },
         { "url": "https://www.valleynewslive.com/2024/06/06/what-does-burgum-top-three-trumps-vp-shortlist-say-about-his-chances/", "title": "What does Burgum in top three for Trump's VP shortlist say about his chances? — Valley News Live" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "enemy",
+      "description": "Singer tried to stop Trump in the 2016 primaries: the Washington Free Beacon, which he backs, first hired Fusion GPS in October 2015 to research Trump and other Republicans (the Free Beacon says none of its work ended up in the later Steele dossier). They grew closer after the inauguration.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.cnbc.com/2017/10/28/washington-free-beacon-first-commissioned-trump-russia-dossier.html", "title": "Washington Free Beacon first commissioned Trump-Russia dossier research — CNBC" },
+        { "url": "https://forward.com/fast-forward/386349/website-backed-by-paul-singer-funded-research-that-led-to-trump-russia-doss/", "title": "Website backed by Paul Singer funded research that led to Trump-Russia dossier — The Forward" }
       ]
     }
   ],

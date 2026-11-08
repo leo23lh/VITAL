@@ -86,6 +86,31 @@
         { "url": "https://www.bloomberg.com/news/articles/2016-01-31/singer-griffin-give-combined-5-million-to-super-pac-backing-rubio", "title": "Singer, Griffin give combined $5 million to super PAC backing Rubio — Bloomberg" },
         { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Griffin and Singer meet Trump about donating — Fortune" }
       ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Singer tried to stop Trump in the 2016 primaries: the Washington Free Beacon, which he backs, first hired Fusion GPS in October 2015 to research Trump and other Republicans (the Free Beacon says none of its work ended up in the later Steele dossier). They grew closer after the inauguration.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.cnbc.com/2017/10/28/washington-free-beacon-first-commissioned-trump-russia-dossier.html", "title": "Washington Free Beacon first commissioned Trump-Russia dossier research — CNBC" },
+        { "url": "https://forward.com/fast-forward/386349/website-backed-by-paul-singer-funded-research-that-led-to-trump-russia-doss/", "title": "Website backed by Paul Singer funded research that led to Trump-Russia dossier — The Forward" }
+      ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "enemy",
+      "description": "In October 2017 Bannon vowed war on Singer after it emerged that the Singer-backed Free Beacon had first commissioned Fusion GPS's Trump research.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://forward.com/fast-forward/386396/steve-bannon-war-paul-singer-funding-of-anti-trump-research", "title": "Paul Singer faces 'off the chain' wrath of Steve Bannon over Trump dossier — The Forward" }
+      ]
     }
   ],
   "affiliations": [],

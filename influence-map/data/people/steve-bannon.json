@@ -315,6 +315,18 @@
         { "url": "https://huffingtonpost.co.uk/entry/nigel-farage-donald-steve-bannon_uk_5829ed96e4b09ac74c535c5f", "title": "Nigel Farage thinks Steve Bannon is 'my kind of chap' — HuffPost UK" },
         { "url": "https://www.scmp.com/news/world/europe/article/3012067/steve-bannon-says-brexiteer-friend-nigel-farage-running-be-uk", "title": "Steve Bannon says Brexiteer friend Nigel Farage running to be UK PM — SCMP" }
       ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "enemy",
+      "description": "In October 2017 Bannon vowed war on Singer after it emerged that the Singer-backed Free Beacon had first commissioned Fusion GPS's Trump research.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://forward.com/fast-forward/386396/steve-bannon-war-paul-singer-funding-of-anti-trump-research", "title": "Paul Singer faces 'off the chain' wrath of Steve Bannon over Trump dossier — The Forward" }
+      ]
     }
   ],
   "source_conflicts": [],
