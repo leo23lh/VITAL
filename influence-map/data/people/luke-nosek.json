@@ -139,6 +139,20 @@
         { "url": "https://techcrunch.com/2017/07/28/paypal-co-founder-luke-nosek-leaving-founders-fund-reportedly-for-spacex-focused-fund/", "title": "PayPal co-founder Luke Nosek leaving Founders Fund — TechCrunch" },
         { "url": "https://www.axios.com/2017/12/15/founders-fund-partner-leaves-to-launch-spacex-focused-fund-1513304489", "title": "Founders Fund partner leaves to launch SpaceX-focused fund — Axios" }
       ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity in 1998; vice president of marketing and strategy until 2002.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Luke_Nosek", "title": "Luke Nosek — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [],

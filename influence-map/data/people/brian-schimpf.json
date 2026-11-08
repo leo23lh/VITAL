@@ -81,6 +81,33 @@
         { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
         { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" }
       ]
+    },
+    {
+      "name": "Palantir Technologies",
+      "slug": "palantir-technologies",
+      "relationship_type": "employer",
+      "description": "Schimpf was a Palantir engineer, later director of engineering, before co-founding Anduril.",
+      "start_year": 2007,
+      "end_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://news.cornell.edu/index%2Ephp/node/331982", "title": "Brian Schimpf '07 and Anduril — Cornell Chronicle" },
+        { "url": "https://businessinsider.in/tech/news/the-left-leaning-cofounder-of-a-1-billion-defense-startup-building-drone-destroyers-and-a-virtual-border-wall-says-if-they-dont-do-the-work-the-united-states-military-loses/articleshow/71775020.cms", "title": "The left-leaning cofounder of a $1 billion defense startup — Business Insider" }
+      ]
+    },
+    {
+      "name": "Anduril Industries",
+      "slug": "anduril-industries",
+      "relationship_type": "co-founder",
+      "description": "Schimpf co-founded Anduril in 2017 and is its CEO.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+        { "url": "https://fortune.com/2026/05/08/anduril-brian-schimpf-term-sheet/", "title": "Anduril's Brian Schimpf — Fortune Term Sheet" },
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

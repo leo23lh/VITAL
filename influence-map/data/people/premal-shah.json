@@ -59,6 +59,19 @@
         { "url": "https://carnegie.org/great-immigrants/premal-shah/", "title": "Premal Shah — Carnegie Corporation Great Immigrants" },
         { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
       ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "employer",
+      "description": "At PayPal: Product manager, one of the first 50 employees.",
+      "start_year": 2000,
+      "end_year": 2006,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://carnegie.org/great-immigrants/premal-shah/", "title": "Premal Shah — Carnegie Corporation Great Immigrants" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [

@@ -312,6 +312,19 @@
         { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis — CNBC" },
         { "url": "https://fortune.com/2024/01/19/behind-elon-musks-chaotic-twitter-takeover-yes-men-zoe-schiffer/", "title": "Behind Elon Musk's chaotic Twitter takeover, look for the 'yes men' — Fortune" }
       ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "employer",
+      "description": "At PayPal: Chief operating officer and product leader.",
+      "start_year": 1999,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Sacks", "title": "David Sacks — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [

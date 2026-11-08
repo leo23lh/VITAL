@@ -77,6 +77,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Valar_Ventures", "title": "Valar Ventures — Wikipedia" }
       ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "employer",
+      "description": "At PayPal: Worked closely with Peter Thiel.",
+      "start_year": 2001,
+      "end_year": 2002,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management", "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [

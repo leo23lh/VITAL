@@ -3,20 +3,12 @@
   "aliases": [],
   "public_figure": true,
   "sector": "tech",
-  "groups": [
-    "paypal-mafia",
-    "tech-right",
-    "defense-tech",
-    "2028-race"
-  ],
+  "groups": ["paypal-mafia", "tech-right", "defense-tech", "2028-race"],
   "photo": {
     "file": "peter-thiel.jpg",
     "credit": "Gage Skidmore",
     "license": "CC BY-SA 3.0",
-    "source": {
-      "url": "https://commons.wikimedia.org/wiki/File:Peter_Thiel_by_Gage_Skidmore.jpg",
-      "title": "File:Peter Thiel by Gage Skidmore.jpg — Wikimedia Commons"
-    }
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Peter_Thiel_by_Gage_Skidmore.jpg", "title": "File:Peter Thiel by Gage Skidmore.jpg — Wikimedia Commons" }
   },
   "lean": [
     {
@@ -25,14 +17,8 @@
       "end_year": 2015,
       "basis": "Self-described conservative libertarian; the largest donor to Endorse Liberty, the super PAC backing Ron Paul's 2012 Republican campaign, after backing Paul in 2008 too.",
       "sources": [
-        {
-          "url": "https://publicintegrity.org/politics/donor-profile-peter-thiel/",
-          "title": "Center for Public Integrity: Donor profile, Peter Thiel"
-        },
-        {
-          "url": "https://www.wgbh.org/news/2012-05-19/with-eye-on-future-billionaire-investor-bets-on-paul",
-          "title": "GBH/AP: Billionaire investor bets on Paul"
-        }
+        { "url": "https://publicintegrity.org/politics/donor-profile-peter-thiel/", "title": "Center for Public Integrity: Donor profile, Peter Thiel" },
+        { "url": "https://www.wgbh.org/news/2012-05-19/with-eye-on-future-billionaire-investor-bets-on-paul", "title": "GBH/AP: Billionaire investor bets on Paul" }
       ]
     },
     {
@@ -41,49 +27,26 @@
       "end_year": null,
       "basis": "Spoke for Trump at the 2016 Republican convention and funded Republican candidates including JD Vance (2022).",
       "sources": [
-        {
-          "url": "https://www.npr.org/2016/07/21/486966882/i-am-proud-to-be-gay-tech-investor-peter-thiel-tells-gop-convention",
-          "title": "NPR: Peter Thiel tells GOP convention he is proud to be gay"
-        },
-        {
-          "url": "https://www.cnbc.com/2022/10/03/peter-thiel-signals-he-is-done-helping-jd-vance-will-fundraise-for-blake-masters.html",
-          "title": "CNBC: Thiel and Vance"
-        }
+        { "url": "https://www.npr.org/2016/07/21/486966882/i-am-proud-to-be-gay-tech-investor-peter-thiel-tells-gop-convention", "title": "NPR: Peter Thiel tells GOP convention he is proud to be gay" },
+        { "url": "https://www.cnbc.com/2022/10/03/peter-thiel-signals-he-is-done-helping-jd-vance-will-fundraise-for-blake-masters.html", "title": "CNBC: Thiel and Vance" }
       ]
     }
   ],
   "race_2028": {
     "role": "camp",
-    "contenders": [
-      "jd-vance"
-    ],
+    "contenders": ["jd-vance"],
     "basis": "Vance's mentor and former employer, who funded his 2022 Senate race; among the billionaires reported as backing his rise.",
     "sources": [
-      {
-        "url": "https://www.cnbc.com/2022/10/03/peter-thiel-signals-he-is-done-helping-jd-vance-will-fundraise-for-blake-masters.html",
-        "title": "CNBC: Thiel and Vance"
-      },
-      {
-        "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/",
-        "title": "Forbes: The billionaires cozying up to JD Vance"
-      }
+      { "url": "https://www.cnbc.com/2022/10/03/peter-thiel-signals-he-is-done-helping-jd-vance-will-fundraise-for-blake-masters.html", "title": "CNBC: Thiel and Vance" },
+      { "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/", "title": "Forbes: The billionaires cozying up to JD Vance" }
     ]
   },
   "current_role": "Chairman of Palantir Technologies; co-founder of Founders Fund",
   "summary": "Peter Thiel is a venture capitalist and the central figure of the PayPal Mafia. He co-founded Confinity in 1998, became CEO of PayPal after its merger with Elon Musk's X.com, co-founded Palantir in 2003 and Founders Fund in 2005, and was Facebook's first outside investor and a board member from 2005 to 2022. A major Republican donor, he gave $1.25 million to Trump's 2016 campaign and $15 million to a super PAC backing his former employee and protégé JD Vance's 2022 Senate run.",
   "sources": [
-    {
-      "url": "https://www.britannica.com/money/Peter-Thiel",
-      "title": "Peter Thiel — Britannica"
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Peter_Thiel",
-      "title": "Peter Thiel — Wikipedia"
-    },
-    {
-      "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/",
-      "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune"
-    }
+    { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" },
+    { "url": "https://en.wikipedia.org/wiki/Peter_Thiel", "title": "Peter Thiel — Wikipedia" },
+    { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" }
   ],
   "timeline": [
     {
@@ -92,14 +55,8 @@
       "role": "Co-founder of Confinity; CEO and chairman of PayPal after the 2000 merger with X.com, until eBay bought it in 2002",
       "org": "Confinity / PayPal",
       "sources": [
-        {
-          "url": "https://www.britannica.com/money/Peter-Thiel",
-          "title": "Peter Thiel — Britannica"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Confinity",
-          "title": "Confinity — Wikipedia"
-        }
+        { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
       ]
     },
     {
@@ -108,10 +65,7 @@
       "role": "Co-founder and chairman of the board",
       "org": "Palantir Technologies",
       "sources": [
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm",
-          "title": "Palantir 2025 proxy statement — SEC"
-        }
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" }
       ]
     },
     {
@@ -120,14 +74,8 @@
       "role": "First outside investor (10.2% for $500,000 in 2004); board member 2005–2022",
       "org": "Facebook / Meta Platforms",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Peter_Thiel",
-          "title": "Peter Thiel — Wikipedia"
-        },
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm",
-          "title": "Palantir 2025 proxy statement — SEC"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Peter_Thiel", "title": "Peter Thiel — Wikipedia" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" }
       ]
     },
     {
@@ -136,10 +84,7 @@
       "role": "Co-founder (with Ken Howery and Luke Nosek); first institutional investor in SpaceX and Palantir",
       "org": "Founders Fund",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Founders_Fund",
-          "title": "Founders Fund — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
       ]
     }
   ],
@@ -150,10 +95,7 @@
       "start_year": 2003,
       "end_year": null,
       "sources": [
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm",
-          "title": "Palantir 2025 proxy statement — SEC"
-        }
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" }
       ]
     },
     {
@@ -162,14 +104,8 @@
       "start_year": 2005,
       "end_year": null,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Founders_Fund",
-          "title": "Founders Fund — Wikipedia"
-        },
-        {
-          "url": "https://www.cnbc.com/2025/04/11/peter-thiels-founders-fund-closes-4point6-billion-growth-fund.html",
-          "title": "Peter Thiel's Founders Fund closes $4.6 billion growth fund — CNBC"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://www.cnbc.com/2025/04/11/peter-thiels-founders-fund-closes-4point6-billion-growth-fund.html", "title": "Peter Thiel's Founders Fund closes $4.6 billion growth fund — CNBC" }
       ]
     },
     {
@@ -177,14 +113,8 @@
       "role": "Its best-known member; posed for Fortune's 2007 group photo",
       "start_year": 2007,
       "sources": [
-        {
-          "url": "https://fortune.com/article/paypal-mafia/",
-          "title": "The PayPal Mafia — Fortune"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/PayPal_Mafia",
-          "title": "PayPal Mafia — Wikipedia"
-        }
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/PayPal_Mafia", "title": "PayPal Mafia — Wikipedia" }
       ]
     }
   ],
@@ -198,14 +128,8 @@
       "end_year": 2002,
       "confidence": 0.97,
       "sources": [
-        {
-          "url": "https://www.britannica.com/money/PayPal",
-          "title": "PayPal — Britannica"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Confinity",
-          "title": "Confinity — Wikipedia"
-        }
+        { "url": "https://www.britannica.com/money/PayPal", "title": "PayPal — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
       ]
     },
     {
@@ -217,26 +141,11 @@
       "end_year": 2017,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Confinity",
-          "title": "Confinity — Wikipedia"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Founders_Fund",
-          "title": "Founders Fund — Wikipedia"
-        },
-        {
-          "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley",
-          "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space"
-        },
-        {
-          "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/",
-          "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune"
-        },
-        {
-          "url": "https://techcrunch.com/2017/07/28/paypal-co-founder-luke-nosek-leaving-founders-fund-reportedly-for-spacex-focused-fund/",
-          "title": "PayPal co-founder Luke Nosek leaving Founders Fund — TechCrunch"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" },
+        { "url": "https://techcrunch.com/2017/07/28/paypal-co-founder-luke-nosek-leaving-founders-fund-reportedly-for-spacex-focused-fund/", "title": "PayPal co-founder Luke Nosek leaving Founders Fund — TechCrunch" }
       ]
     },
     {
@@ -248,22 +157,10 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Confinity",
-          "title": "Confinity — Wikipedia"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Founders_Fund",
-          "title": "Founders Fund — Wikipedia"
-        },
-        {
-          "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley",
-          "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space"
-        },
-        {
-          "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/",
-          "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" }
       ]
     },
     {
@@ -275,14 +172,8 @@
       "end_year": 2000,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/X.com_(bank)",
-          "title": "X.com (bank) — Wikipedia"
-        },
-        {
-          "url": "https://fortune.com/article/paypal-mafia/",
-          "title": "The PayPal Mafia — Fortune"
-        }
+        { "url": "https://en.wikipedia.org/wiki/X.com_(bank)", "title": "X.com (bank) — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
       ]
     },
     {
@@ -294,14 +185,8 @@
       "end_year": 2016,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://www.cnbc.com/2024/08/29/trump-jd-vance-peter-thiel.html",
-          "title": "JD Vance urges billionaire Peter Thiel to back Trump campaign — CNBC"
-        },
-        {
-          "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/",
-          "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune"
-        }
+        { "url": "https://www.cnbc.com/2024/08/29/trump-jd-vance-peter-thiel.html", "title": "JD Vance urges billionaire Peter Thiel to back Trump campaign — CNBC" },
+        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" }
       ]
     },
     {
@@ -313,22 +198,10 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://www.npr.org/2024/07/17/g-s1-11654/five-things-to-know-about-jd-vances-connections-to-tech-billionaires",
-          "title": "Five things to know about J.D. Vance's ties to tech billionaires — NPR"
-        },
-        {
-          "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/",
-          "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune"
-        },
-        {
-          "url": "https://www.forbes.com.au/news/billionaires/jd-vance-and-peter-thiel-what-to-know/",
-          "title": "Forbes Australia: JD Vance and Peter Thiel, inside the relationship"
-        },
-        {
-          "url": "https://salon.com/2024/07/22/jd-vance-owes-almost-everything-to-peter-thiel-a-pro-billionaire-and-new-right-ideologue",
-          "title": "Salon: JD Vance owes almost everything to Peter Thiel"
-        }
+        { "url": "https://www.npr.org/2024/07/17/g-s1-11654/five-things-to-know-about-jd-vances-connections-to-tech-billionaires", "title": "Five things to know about J.D. Vance's ties to tech billionaires — NPR" },
+        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" },
+        { "url": "https://www.forbes.com.au/news/billionaires/jd-vance-and-peter-thiel-what-to-know/", "title": "Forbes Australia: JD Vance and Peter Thiel, inside the relationship" },
+        { "url": "https://salon.com/2024/07/22/jd-vance-owes-almost-everything-to-peter-thiel-a-pro-billionaire-and-new-right-ideologue", "title": "Salon: JD Vance owes almost everything to Peter Thiel" }
       ]
     },
     {
@@ -340,14 +213,8 @@
       "end_year": 2022,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://www.cnbc.com/2022/10/03/peter-thiel-signals-he-is-done-helping-jd-vance-will-fundraise-for-blake-masters.html",
-          "title": "GOP megadonor Peter Thiel signals he is done helping Ohio Senate hopeful J.D. Vance — CNBC"
-        },
-        {
-          "url": "https://www.cnbc.com/2022/11/12/midterm-results-peter-thiel-picks-masters-vance-see-mixed-results-in-arizona-ohio.html",
-          "title": "Peter Thiel's picks Masters, Vance split key Senate races — CNBC"
-        }
+        { "url": "https://www.cnbc.com/2022/10/03/peter-thiel-signals-he-is-done-helping-jd-vance-will-fundraise-for-blake-masters.html", "title": "GOP megadonor Peter Thiel signals he is done helping Ohio Senate hopeful J.D. Vance — CNBC" },
+        { "url": "https://www.cnbc.com/2022/11/12/midterm-results-peter-thiel-picks-masters-vance-see-mixed-results-in-arizona-ohio.html", "title": "Peter Thiel's picks Masters, Vance split key Senate races — CNBC" }
       ]
     },
     {
@@ -359,14 +226,8 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm",
-          "title": "Palantir 2025 proxy statement — SEC"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Palantir_Technologies",
-          "title": "Palantir Technologies — Wikipedia"
-        }
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
       ]
     },
     {
@@ -378,14 +239,8 @@
       "end_year": 2022,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Peter_Thiel",
-          "title": "Peter Thiel — Wikipedia"
-        },
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm",
-          "title": "Palantir 2025 proxy statement — SEC"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Peter_Thiel", "title": "Peter Thiel — Wikipedia" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" }
       ]
     },
     {
@@ -397,14 +252,8 @@
       "end_year": 2002,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Reid_Hoffman",
-          "title": "Reid Hoffman — Wikipedia"
-        },
-        {
-          "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/",
-          "title": "The PayPal Mafia still rules Silicon Valley — Fortune"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
       ]
     },
     {
@@ -414,14 +263,8 @@
       "description": "Thiel was among the angels in LinkedIn's $10 million Series B in October 2004, led by Greylock.",
       "confidence": 0.8,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Reid_Hoffman",
-          "title": "Reid Hoffman — Wikipedia"
-        },
-        {
-          "url": "https://vator.tv/?p=36479",
-          "title": "LinkedIn funding timeline — VatorNews"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://vator.tv/?p=36479", "title": "LinkedIn funding timeline — VatorNews" }
       ],
       "start_year": 2004
     },
@@ -434,14 +277,8 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://www.independent.org/store/book/the-diversity-myth/",
-          "title": "The Diversity Myth — Independent Institute"
-        },
-        {
-          "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/",
-          "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune"
-        }
+        { "url": "https://www.independent.org/store/book/the-diversity-myth/", "title": "The Diversity Myth — Independent Institute" },
+        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" }
       ]
     },
     {
@@ -453,22 +290,10 @@
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Founders_Fund",
-          "title": "Founders Fund — Wikipedia"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Keith_Rabois",
-          "title": "Keith Rabois — Wikipedia"
-        },
-        {
-          "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund",
-          "title": "Keith Rabois is leaving Khosla Ventures for Founders Fund — TechCrunch"
-        },
-        {
-          "url": "https://techcrunch.com/2024/01/09/keith-rabois-dishes-on-his-surprising-return-to-khosla-ventures-after-leaving-the-firm-in-2019-for-founders-fund",
-          "title": "Keith Rabois dishes on his surprising return to Khosla Ventures — TechCrunch"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund", "title": "Keith Rabois is leaving Khosla Ventures for Founders Fund — TechCrunch" },
+        { "url": "https://techcrunch.com/2024/01/09/keith-rabois-dishes-on-his-surprising-return-to-khosla-ventures-after-leaving-the-firm-in-2019-for-founders-fund", "title": "Keith Rabois dishes on his surprising return to Khosla Ventures — TechCrunch" }
       ]
     },
     {
@@ -480,14 +305,8 @@
       "end_year": 2002,
       "confidence": 0.8,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Roelof_Botha",
-          "title": "Roelof Botha — Wikipedia"
-        },
-        {
-          "url": "https://www.britannica.com/money/Peter-Thiel",
-          "title": "Peter Thiel — Britannica"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Roelof_Botha", "title": "Roelof Botha — Wikipedia" },
+        { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" }
       ]
     },
     {
@@ -499,14 +318,8 @@
       "end_year": 2002,
       "confidence": 0.4,
       "sources": [
-        {
-          "url": "https://carnegie.org/great-immigrants/premal-shah/",
-          "title": "Premal Shah — Carnegie Corporation Great Immigrants"
-        },
-        {
-          "url": "https://fortune.com/article/paypal-mafia/",
-          "title": "The PayPal Mafia — Fortune"
-        }
+        { "url": "https://carnegie.org/great-immigrants/premal-shah/", "title": "Premal Shah — Carnegie Corporation Great Immigrants" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
       ]
     },
     {
@@ -518,14 +331,8 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Valar_Ventures",
-          "title": "Valar Ventures — Wikipedia"
-        },
-        {
-          "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management",
-          "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Valar_Ventures", "title": "Valar Ventures — Wikipedia" },
+        { "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management", "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor" }
       ]
     },
     {
@@ -537,10 +344,7 @@
       "end_year": 2010,
       "confidence": 0.8,
       "sources": [
-        {
-          "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management",
-          "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor"
-        }
+        { "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management", "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor" }
       ]
     },
     {
@@ -552,18 +356,9 @@
       "end_year": 2022,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://about.fb.com/news/2008/06/marc-andreessen-joins-facebook-board-of-directors/",
-          "title": "Marc Andreessen Joins Facebook Board of Directors — Meta"
-        },
-        {
-          "url": "https://prnewswire.com/news-releases/peter-thiel-to-retire-from-meta-board-of-directors-at-2022-annual-shareholder-meeting-301476881.html",
-          "title": "Peter Thiel to Retire from Meta Board of Directors at 2022 Annual Shareholder Meeting — PR Newswire"
-        },
-        {
-          "url": "https://csmonitor.com/Technology/2016/0621/Why-Facebook-s-board-members-are-no-strangers-to-controversy",
-          "title": "Why Facebook's board members are no strangers to controversy — Christian Science Monitor"
-        }
+        { "url": "https://about.fb.com/news/2008/06/marc-andreessen-joins-facebook-board-of-directors/", "title": "Marc Andreessen Joins Facebook Board of Directors — Meta" },
+        { "url": "https://prnewswire.com/news-releases/peter-thiel-to-retire-from-meta-board-of-directors-at-2022-annual-shareholder-meeting-301476881.html", "title": "Peter Thiel to Retire from Meta Board of Directors at 2022 Annual Shareholder Meeting — PR Newswire" },
+        { "url": "https://csmonitor.com/Technology/2016/0621/Why-Facebook-s-board-members-are-no-strangers-to-controversy", "title": "Why Facebook's board members are no strangers to controversy — Christian Science Monitor" }
       ]
     },
     {
@@ -575,18 +370,9 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://fortune.com/2025/06/05/anduril-palmer-luckey-funding-30-billion-valuation-founders-fund/",
-          "title": "Anduril raises at $30.5 billion valuation, led by Founders Fund — Fortune"
-        },
-        {
-          "url": "https://www.ocbj.com/oc-homepage/palmer-luckey-teams-with-peter-thiel-for-latest-anduril-push-forward/",
-          "title": "Palmer Luckey teams with Peter Thiel for latest Anduril push forward — Orange County Business Journal"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Anduril_Industries",
-          "title": "Anduril Industries — Wikipedia"
-        }
+        { "url": "https://fortune.com/2025/06/05/anduril-palmer-luckey-funding-30-billion-valuation-founders-fund/", "title": "Anduril raises at $30.5 billion valuation, led by Founders Fund — Fortune" },
+        { "url": "https://www.ocbj.com/oc-homepage/palmer-luckey-teams-with-peter-thiel-for-latest-anduril-push-forward/", "title": "Palmer Luckey teams with Peter Thiel for latest Anduril push forward — Orange County Business Journal" },
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" }
       ]
     },
     {
@@ -597,14 +383,8 @@
       "end_year": null,
       "confidence": 0.75,
       "sources": [
-        {
-          "url": "https://the-decoder.com/peter-thiel-reportedly-warned-sam-altman-about-ai-safety-conflicts-shortly-before-the-openai-crisis/",
-          "title": "Peter Thiel reportedly warned Sam Altman about AI safety conflicts shortly before the OpenAI crisis — The Decoder"
-        },
-        {
-          "url": "https://www.adn.com/nation-world/2023/12/24/king-of-the-cannibals-how-sam-altman-took-over-silicon-valley/",
-          "title": "'King of the cannibals': How Sam Altman took over Silicon Valley — The Washington Post via Anchorage Daily News"
-        }
+        { "url": "https://the-decoder.com/peter-thiel-reportedly-warned-sam-altman-about-ai-safety-conflicts-shortly-before-the-openai-crisis/", "title": "Peter Thiel reportedly warned Sam Altman about AI safety conflicts shortly before the OpenAI crisis — The Decoder" },
+        { "url": "https://www.adn.com/nation-world/2023/12/24/king-of-the-cannibals-how-sam-altman-took-over-silicon-valley/", "title": "'King of the cannibals': How Sam Altman took over Silicon Valley — The Washington Post via Anchorage Daily News" }
       ]
     },
     {
@@ -615,14 +395,8 @@
       "start_year": 2015,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://openai.com/index/introducing-openai/",
-          "title": "Introducing OpenAI — OpenAI"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/OpenAI",
-          "title": "OpenAI — Wikipedia"
-        }
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
       ]
     },
     {
@@ -634,18 +408,9 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale",
-          "title": "Joe Lonsdale — Wikipedia"
-        },
-        {
-          "url": "https://stanforddaily.com/2013/02/18/QA-JOE-LONSDALE-04-FOUNDER-OF-PALANTIR-ADDEPAR-TALKS-ABOUT-STANFORD-ROOTS/",
-          "title": "Joe Lonsdale, Palantir and Addepar co-founder, talks about Stanford roots — Stanford Daily"
-        },
-        {
-          "url": "https://www.bloomberg.com/news/articles/2024-11-01/joe-lonsdale-like-peter-thiel-plows-his-tech-fortune-into-conservative-causes",
-          "title": "Joe Lonsdale is seed funding young conservative minds — Bloomberg"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://stanforddaily.com/2013/02/18/QA-JOE-LONSDALE-04-FOUNDER-OF-PALANTIR-ADDEPAR-TALKS-ABOUT-STANFORD-ROOTS/", "title": "Joe Lonsdale, Palantir and Addepar co-founder, talks about Stanford roots — Stanford Daily" },
+        { "url": "https://www.bloomberg.com/news/articles/2024-11-01/joe-lonsdale-like-peter-thiel-plows-his-tech-fortune-into-conservative-causes", "title": "Joe Lonsdale is seed funding young conservative minds — Bloomberg" }
       ]
     },
     {
@@ -657,22 +422,10 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale",
-          "title": "Joe Lonsdale — Wikipedia"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Palantir_Technologies",
-          "title": "Palantir Technologies — Wikipedia"
-        },
-        {
-          "url": "https://generalist.com/briefing/palantir-ipo",
-          "title": "Palantir in one minute — The Generalist"
-        },
-        {
-          "url": "https://stanforddaily.com/2014/03/16/palantir-co-founder-talks-technology-transformations/",
-          "title": "Palantir co-founder talks technology transformations — Stanford Daily"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://generalist.com/briefing/palantir-ipo", "title": "Palantir in one minute — The Generalist" },
+        { "url": "https://stanforddaily.com/2014/03/16/palantir-co-founder-talks-technology-transformations/", "title": "Palantir co-founder talks technology transformations — Stanford Daily" }
       ]
     },
     {
@@ -684,14 +437,8 @@
       "end_year": 2019,
       "confidence": 0.55,
       "sources": [
-        {
-          "url": "https://www.nationalreview.com/2019/07/national-conservatism-conference-intellectual-trumpist-movement/amp/",
-          "title": "At the National Conservatism Conference, an \"Intellectual Trumpist\" Movement Begins to Take Shape — National Review"
-        },
-        {
-          "url": "https://www.dailysignal.com/2019/07/28/national-conservatives-set-out-to-define-future-of-politics-on-right/",
-          "title": "\"National Conservatives\" Set Out to Define Future of Politics on Right — Daily Signal"
-        }
+        { "url": "https://www.nationalreview.com/2019/07/national-conservatism-conference-intellectual-trumpist-movement/amp/", "title": "At the National Conservatism Conference, an \"Intellectual Trumpist\" Movement Begins to Take Shape — National Review" },
+        { "url": "https://www.dailysignal.com/2019/07/28/national-conservatives-set-out-to-define-future-of-politics-on-right/", "title": "\"National Conservatives\" Set Out to Define Future of Politics on Right — Daily Signal" }
       ]
     },
     {
@@ -702,14 +449,8 @@
       "start_year": 2017,
       "confidence": 0.55,
       "sources": [
-        {
-          "url": "https://www.chathamhouse.org/publications/twt/julius-krein-trumps-wunderkind",
-          "title": "Julius Krein, Trump's wunderkind — Chatham House"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Julius_Krein",
-          "title": "Julius Krein — Wikipedia"
-        }
+        { "url": "https://www.chathamhouse.org/publications/twt/julius-krein-trumps-wunderkind", "title": "Julius Krein, Trump's wunderkind — Chatham House" },
+        { "url": "https://en.wikipedia.org/wiki/Julius_Krein", "title": "Julius Krein — Wikipedia" }
       ]
     },
     {
@@ -720,10 +461,7 @@
       "start_year": null,
       "confidence": 0.45,
       "sources": [
-        {
-          "url": "https://www.nbcnews.com/politics/2024-election/secretive-conservative-donor-group-meets-draw-2024-plans-call-trump-rcna148899",
-          "title": "Secretive conservative donor group meets to draw up 2024 plans — NBC News"
-        }
+        { "url": "https://www.nbcnews.com/politics/2024-election/secretive-conservative-donor-group-meets-draw-2024-plans-call-trump-rcna148899", "title": "Secretive conservative donor group meets to draw up 2024 plans — NBC News" }
       ]
     },
     {
@@ -735,14 +473,8 @@
       "end_year": 2018,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://www.bloombergquint.com/technology/2017/11/15/peter-thiel-gave-money-to-attorney-general-going-after-google",
-          "title": "Peter Thiel gave money to attorney general going after Google — Bloomberg"
-        },
-        {
-          "url": "https://electionlawblog.org/?p=107525",
-          "title": "Silicon Valley billionaire Thiel invests in Kobach, Hawley and rise of nationalism — Election Law Blog"
-        }
+        { "url": "https://www.bloombergquint.com/technology/2017/11/15/peter-thiel-gave-money-to-attorney-general-going-after-google", "title": "Peter Thiel gave money to attorney general going after Google — Bloomberg" },
+        { "url": "https://electionlawblog.org/?p=107525", "title": "Silicon Valley billionaire Thiel invests in Kobach, Hawley and rise of nationalism — Election Law Blog" }
       ]
     },
     {
@@ -754,10 +486,7 @@
       "end_year": 2022,
       "confidence": 0.8,
       "sources": [
-        {
-          "url": "https://clips.cato.org/sites/default/files/Cato_intercept_koch.pdf",
-          "title": "How the leading Republican candidate for Missouri Senate lost Koch support — The Intercept (Cato clip)"
-        }
+        { "url": "https://clips.cato.org/sites/default/files/Cato_intercept_koch.pdf", "title": "How the leading Republican candidate for Missouri Senate lost Koch support — The Intercept (Cato clip)" }
       ]
     },
     {
@@ -768,10 +497,7 @@
       "start_year": 2022,
       "confidence": 0.55,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/1789_Capital",
-          "title": "1789 Capital — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" }
       ]
     },
     {
@@ -782,18 +508,38 @@
       "start_year": 2005,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Founders_Fund",
-          "title": "Founders Fund — Wikipedia"
-        },
-        {
-          "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/",
-          "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune"
-        },
-        {
-          "url": "https://www.forbes.com/profile/peter-thiel/",
-          "title": "Peter Thiel — Forbes"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" },
+        { "url": "https://www.forbes.com/profile/peter-thiel/", "title": "Peter Thiel — Forbes" }
+      ]
+    },
+    {
+      "name": "Palantir Technologies",
+      "slug": "palantir-technologies",
+      "relationship_type": "co-founder",
+      "description": "Thiel co-founded Palantir in 2003, largely funded its start and is its chairman.",
+      "start_year": 2003,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir", "title": "Palantir — Wikipedia" }
+      ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity in 1998; CEO and chairman of PayPal after the 2000 merger until 2002.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/PayPal_Mafia", "title": "PayPal Mafia — Wikipedia" }
       ]
     }
   ],
@@ -802,14 +548,8 @@
       "topic": "Palantir founding year",
       "details": "Palantir's SEC filings and Wikipedia say 2003; Britannica gives 2004.",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Palantir_Technologies",
-          "title": "Palantir Technologies — Wikipedia"
-        },
-        {
-          "url": "https://www.britannica.com/money/Peter-Thiel",
-          "title": "Peter Thiel — Britannica"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" }
       ]
     }
   ],

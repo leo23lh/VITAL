@@ -106,6 +106,17 @@
         { "url": "https://en.wikipedia.org/wiki/History_of_YouTube", "title": "History of YouTube — Wikipedia" },
         { "url": "https://blog.youtube/news-and-events/youtube-receives-35m-in-funding-from/", "title": "YouTube receives $3.5M in funding from Sequoia Capital — YouTube Official Blog (2005)" }
       ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "employer",
+      "description": "At PayPal: Early PayPal engineer, before co-founding YouTube.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [],

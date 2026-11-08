@@ -328,6 +328,24 @@
         { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
         { "url": "https://theprint.in/tech/openais-long-time-backer-reid-hoffman-leaves-board/1417019/", "title": "OpenAI's long-time backer Reid Hoffman leaves board — Reuters via ThePrint" }
       ]
+    },
+    {
+      "name": "OpenAI",
+      "slug": "openai",
+      "relationship_type": "co-founder",
+      "description": "Altman co-founded OpenAI in 2015 and has been CEO since 2019 (briefly removed in November 2023).",
+      "start_year": 2015,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Sam_Altman", "title": "Sam Altman — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI", "title": "Removal of Sam Altman from OpenAI — Wikipedia" },
+        { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
+        { "url": "https://www.aljazeera.com/news/2025/1/22/trump-announces-500bn-stargate-venture-to-build-up-ai-infrastucture", "title": "Trump announces $500bn 'Stargate' venture to build up AI infrastructure — Al Jazeera" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

@@ -119,6 +119,19 @@
         { "url": "https://en.wikipedia.org/wiki/History_of_YouTube", "title": "History of YouTube — Wikipedia" },
         { "url": "https://blog.youtube/news-and-events/youtube-receives-35m-in-funding-from/", "title": "YouTube receives $3.5M in funding from Sequoia Capital — YouTube Official Blog (2005)" }
       ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "employer",
+      "description": "At PayPal: Chief financial officer; took the company public in 2002.",
+      "start_year": 2000,
+      "end_year": 2003,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Roelof_Botha", "title": "Roelof Botha — Wikipedia" },
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [

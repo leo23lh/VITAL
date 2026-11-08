@@ -198,6 +198,19 @@
         { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
         { "url": "https://finance.yahoo.com/news/trump-appointee-jacob-helbergs-miami-151516830.html", "title": "Yahoo Finance (citing The Wall Street Journal): Trump appointee Jacob Helberg’s Miami home" }
       ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "employer",
+      "description": "At PayPal: Executive vice president, business development and public affairs.",
+      "start_year": 2000,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [],

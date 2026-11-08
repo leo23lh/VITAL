@@ -414,6 +414,19 @@
         { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" },
         { "url": "https://en.wikipedia.org/wiki/Neil_Patel_(political_advisor)", "title": "Wikipedia: Neil Patel (political advisor)" }
       ]
+    },
+    {
+      "name": "Fox News",
+      "slug": "fox-news",
+      "relationship_type": "employer",
+      "description": "Carlson worked at Fox News from 2009, hosting Tucker Carlson Tonight from 2016 until the network dropped him in 2023.",
+      "start_year": 2009,
+      "end_year": 2023,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" },
+        { "url": "https://www.theguardian.com/media/2023/apr/24/tucker-carlson-leaving-fox-news", "title": "Guardian: Tucker Carlson leaves Fox News, reportedly fired by Rupert Murdoch" }
+      ]
     }
   ],
   "source_conflicts": [

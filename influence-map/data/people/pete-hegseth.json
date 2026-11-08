@@ -326,6 +326,21 @@
         { "url": "https://cbsnews.com/news/trump-considering-replacing-hegseth-with-desantis-defense-secretary-sources", "title": "CBS News: Trump considering replacing Hegseth with DeSantis for defense secretary" },
         { "url": "https://www.cbsnews.com/miami/news/report-trump-weighs-desantis-for-pentagon-role", "title": "CBS News Miami: Report, Trump weighs DeSantis for Pentagon role" }
       ]
+    },
+    {
+      "name": "Fox News",
+      "slug": "fox-news",
+      "relationship_type": "employer",
+      "description": "Hegseth was a Fox News contributor from 2014 and co-host of Fox & Friends Weekend from 2017 until November 2024.",
+      "start_year": 2014,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://millercenter.org/pete-hegseth-2025", "title": "Pete Hegseth (2025– ) — Miller Center" },
+        { "url": "https://en.wikipedia.org/wiki/Pete_Hegseth", "title": "Pete Hegseth — Wikipedia" },
+        { "url": "https://www.newscaststudio.com/2024/11/13/pete-hegseth-exits-fox-after-being-announced-as-trumps-pick-to-lead-dod/", "title": "NewscastStudio: Pete Hegseth exits Fox after being announced as Trump’s pick to lead DoD" },
+        { "url": "https://digital-release.thehill.com/policy/defense/4987358-pete-hegseth-defense-secretary", "title": "The Hill: Trump taps Fox News host Pete Hegseth for Defense secretary" }
+      ]
     }
   ],
   "source_conflicts": [

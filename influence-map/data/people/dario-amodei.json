@@ -167,6 +167,19 @@
       "sources": [
         { "url": "https://www.cnbc.com/2023/06/24/asanas-dustin-moskovitz-is-bullish-on-ai-but-concerned-about-risks.html", "title": "Asana's Dustin Moskovitz is bullish on AI but concerned about risks — CNBC" }
       ]
+    },
+    {
+      "name": "OpenAI",
+      "slug": "openai",
+      "relationship_type": "employer",
+      "description": "Amodei was an OpenAI researcher, later vice president of research, before leaving to found Anthropic.",
+      "start_year": 2016,
+      "end_year": 2020,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

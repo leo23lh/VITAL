@@ -67,6 +67,18 @@
         { "url": "https://en.wikipedia.org/wiki/Yelp", "title": "Yelp — Wikipedia" },
         { "url": "https://grainger.illinois.edu/news/features/making-of-max-levchin", "title": "The making of Max Levchin — Grainger College of Engineering, University of Illinois" }
       ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "employer",
+      "description": "At PayPal: Lead software architect (some sources call him a co-founder).",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russel_Simmons", "title": "Russel Simmons — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/PayPal_Mafia", "title": "PayPal Mafia — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

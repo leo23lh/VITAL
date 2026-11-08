@@ -68,6 +68,17 @@
         { "url": "https://interestingengineering.com/culture/youtubes-history-and-its-impact-on-the-internet", "title": "YouTube's history and its impact on the internet — Interesting Engineering" },
         { "url": "https://www.encyclopedia.com/books/politics-and-business-magazines/youtube-inc", "title": "YouTube, Inc. — Encyclopedia.com (International Directory of Company Histories)" }
       ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "employer",
+      "description": "At PayPal: Early PayPal engineer, before co-founding YouTube.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [],

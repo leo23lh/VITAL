@@ -350,7 +350,10 @@ Committees and groups that money and people flow through get their own file in
 (Republican side), blue (Democratic side) or grey (both or neither). They make
 paths visible: Musk → Senate Leadership Fund → Ken Paxton. Add an organization
 when several people in the map give to it, run it or work for it; one-off
-recipients stay as `giving` entries. `/add-org` researches one.
+recipients stay as `giving` entries. Companies and media that employ several
+people in the map get a square too (Palantir, Anduril, OpenAI, Fox News,
+PayPal), linked from each person's own sourced timeline entry, so a shared
+employer shows as one hub instead of many colleague lines. `/add-org` researches one.
 
 ```json
 {

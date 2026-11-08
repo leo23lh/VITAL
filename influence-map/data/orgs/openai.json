@@ -1,0 +1,102 @@
+{
+  "name": "OpenAI",
+  "aliases": [],
+  "kind": "company",
+  "founded": 2015,
+  "groups": ["ai-race"],
+  "summary": "OpenAI was founded as a nonprofit AI lab in December 2015, with Sam Altman and Elon Musk as co-chairs and Greg Brockman and Ilya Sutskever among the founders. It added a for-profit arm in 2019 and in October 2025 reorganized as OpenAI Group PBC, with the nonprofit holding about 26%; Altman is CEO.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" },
+    { "url": "https://openai.com/index/introducing-openai/", "title": "OpenAI: Introducing OpenAI (2015)" }
+  ],
+  "connections": [
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "co-founder",
+      "description": "Co-founder (2015); chief executive since 2019, briefly removed in November 2023.",
+      "start_year": 2015,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Sam_Altman", "title": "Sam Altman — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI", "title": "Removal of Sam Altman from OpenAI — Wikipedia" },
+        { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
+        { "url": "https://www.aljazeera.com/news/2025/1/22/trump-announces-500bn-stargate-venture-to-build-up-ai-infrastucture", "title": "Trump announces $500bn 'Stargate' venture to build up AI infrastructure — Al Jazeera" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "co-founder",
+      "description": "Co-founder (2015); CTO, then president.",
+      "start_year": 2015,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" },
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and co-chair (2015); left the board in February 2018.",
+      "start_year": 2015,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://openai.com/index/openai-elon-musk/", "title": "OpenAI and Elon Musk — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "enemy",
+      "description": "Musk sued OpenAI in 2024 over its for-profit shift; a jury found his claims time-barred in May 2026.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Musk_v._Altman", "title": "Musk v. Altman — Wikipedia" },
+        { "url": "https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed", "title": "Jury dismisses all claims in Elon Musk's lawsuit against OpenAI CEO Sam Altman — NPR" },
+        { "url": "https://www.axios.com/2026/05/18/musk-loses-ai-trial-openai-altman", "title": "Elon Musk loses lawsuit against OpenAI, Sam Altman — Axios" }
+      ]
+    },
+    {
+      "name": "Dario Amodei",
+      "slug": "dario-amodei",
+      "relationship_type": "employee",
+      "description": "Researcher, later vice president of research (2016–2020); left to found Anthropic.",
+      "start_year": 2016,
+      "end_year": 2020,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "employee",
+      "description": "Early donor; board member until March 2023.",
+      "start_year": null,
+      "end_year": 2023,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Facts confirmed through search results for the cited pages. Links come from each person’s own sourced timeline entries and existing records.",
+  "last_researched": "2026-11-08"
+}

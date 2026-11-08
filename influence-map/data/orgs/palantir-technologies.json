@@ -1,0 +1,85 @@
+{
+  "name": "Palantir Technologies",
+  "aliases": [],
+  "kind": "company",
+  "founded": 2003,
+  "groups": ["defense-tech"],
+  "summary": "Palantir is a data-analytics and AI software company incorporated in May 2003 by Peter Thiel, Alex Karp, Joe Lonsdale, Stephen Cohen and Nathan Gettings, initially bankrolled largely by Thiel. It sells software to intelligence agencies, militaries and companies; Karp is CEO and Thiel chairman.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Palantir", "title": "Palantir — Wikipedia" },
+    { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312521140597/d137991ddef14a.htm", "title": "Palantir Technologies Inc. — 2021 proxy statement (SEC)" }
+  ],
+  "connections": [
+    {
+      "name": "Alex Karp",
+      "slug": "alex-karp",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and chief executive since 2004.",
+      "start_year": 2004,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir", "title": "Palantir — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "co-founder",
+      "description": "Co-founder (2003), early funder and chairman.",
+      "start_year": 2003,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir", "title": "Palantir — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "co-founder",
+      "description": "Co-founder; left in 2009, keeping an advisory role and a stake.",
+      "start_year": 2004,
+      "end_year": 2009,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir", "title": "Palantir — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Brian Schimpf",
+      "slug": "brian-schimpf",
+      "relationship_type": "employee",
+      "description": "Engineer, later director of engineering (2007–2017), before co-founding Anduril.",
+      "start_year": 2007,
+      "end_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://news.cornell.edu/index%2Ephp/node/331982", "title": "Brian Schimpf '07 and Anduril — Cornell Chronicle" },
+        { "url": "https://businessinsider.in/tech/news/the-left-leaning-cofounder-of-a-1-billion-defense-startup-building-drone-destroyers-and-a-virtual-border-wall-says-if-they-dont-do-the-work-the-united-states-military-loses/articleshow/71775020.cms", "title": "The left-leaning cofounder of a $1 billion defense startup — Business Insider" }
+      ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "employee",
+      "description": "Senior policy adviser to CEO Alex Karp (2023–2025).",
+      "start_year": 2023,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://uscc.gov/commission-members/jacob-helberg", "title": "U.S.-China Economic and Security Review Commission: Jacob Helberg" },
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Facts confirmed through search results for the cited pages. Links come from each person’s own sourced timeline entries.",
+  "last_researched": "2026-11-08"
+}

@@ -167,6 +167,20 @@
         { "url": "https://techcrunch.com/2016/04/13/affirm-secures-100m-in-series-d-funding-to-expand-beyond-loans", "title": "Affirm secures $100M in Series D funding — TechCrunch" },
         { "url": "https://www.inc.com/maria-aspan/max-levchin-affirm-raises-100-million.html", "title": "How to raise $100 million over dinner — Inc." }
       ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity in 1998; chief technology officer until 2002.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" },
+        { "url": "https://www.britannica.com/money/PayPal", "title": "PayPal — Britannica" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [],

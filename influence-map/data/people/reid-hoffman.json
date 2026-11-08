@@ -217,6 +217,32 @@
         { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
         { "url": "https://theprint.in/tech/openais-long-time-backer-reid-hoffman-leaves-board/1417019/", "title": "OpenAI's long-time backer Reid Hoffman leaves board — Reuters via ThePrint" }
       ]
+    },
+    {
+      "name": "OpenAI",
+      "slug": "openai",
+      "relationship_type": "employer",
+      "description": "Hoffman was an early OpenAI donor and sat on its board until March 2023.",
+      "start_year": null,
+      "end_year": 2023,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" }
+      ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "employer",
+      "description": "At PayPal: Senior executive (sources give COO or executive vice president).",
+      "start_year": 2000,
+      "end_year": 2002,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://www.cnbc.com/2017/08/27/linkedins-reid-hoffman-talks-going-from-investor-to-entrepreneur.html", "title": "How a master of scale climbed to the top: Reid Hoffman — CNBC" },
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [

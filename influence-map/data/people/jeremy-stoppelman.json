@@ -75,6 +75,19 @@
         { "url": "https://www.cnbc.com/2014/10/06/max-levchin.html", "title": "Max Levchin — CNBC Disruptor profile" },
         { "url": "https://grainger.illinois.edu/news/features/making-of-max-levchin", "title": "The making of Max Levchin — Grainger College of Engineering, University of Illinois" }
       ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "employer",
+      "description": "At PayPal: Vice president of engineering.",
+      "start_year": 2000,
+      "end_year": 2003,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001345016/000119312511315562/d245328ds1.htm", "title": "Yelp Form S-1 (2011) — SEC" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [],

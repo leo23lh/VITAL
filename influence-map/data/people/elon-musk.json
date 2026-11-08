@@ -642,6 +642,48 @@
       "sources": [
         { "url": "https://fortune.com/europe/2025/01/07/meloni-closeness-musk-trump-big-risk/", "title": "Meloni's closeness to Musk and Trump — Fortune" }
       ]
+    },
+    {
+      "name": "OpenAI",
+      "slug": "openai",
+      "relationship_type": "co-founder",
+      "description": "Musk co-founded OpenAI as a nonprofit in 2015 and was co-chair until leaving its board in February 2018.",
+      "start_year": 2015,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://openai.com/index/openai-elon-musk/", "title": "OpenAI and Elon Musk — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "slug": "openai",
+      "relationship_type": "enemy",
+      "description": "Musk sued OpenAI in 2024 over its shift to a for-profit model; a jury found his claims time-barred on May 18, 2026.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Musk_v._Altman", "title": "Musk v. Altman — Wikipedia" },
+        { "url": "https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed", "title": "Jury dismisses all claims in Elon Musk's lawsuit against OpenAI CEO Sam Altman — NPR" },
+        { "url": "https://www.axios.com/2026/05/18/musk-loses-ai-trial-openai-altman", "title": "Elon Musk loses lawsuit against OpenAI, Sam Altman — Axios" }
+      ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "co-founder",
+      "description": "Musk co-founded X.com in 1999, which merged with Confinity in 2000 to form PayPal; he was replaced as CEO by Peter Thiel in 2000.",
+      "start_year": 1999,
+      "end_year": 2000,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/X.com_(bank)", "title": "X.com (bank) — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
+      ]
     }
   ],
   "source_conflicts": [
