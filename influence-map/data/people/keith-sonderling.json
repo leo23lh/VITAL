@@ -234,6 +234,93 @@
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
         { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
       ]
+    },
+    {
+      "name": "Wayne Palmer",
+      "slug": "wayne-palmer",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as head of the Mine Safety and Health Administration.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Labor_appointments_by_Donald_Trump", "title": "List of Department of Labor appointments by Donald Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Rosario Palmieri",
+      "slug": "rosario-palmieri",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as assistant secretary for policy.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Labor_appointments_by_Donald_Trump", "title": "List of Department of Labor appointments by Donald Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jeremiah Workman",
+      "slug": "jeremiah-workman",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as head of the Veterans’ Employment and Training Service.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Labor_appointments_by_Donald_Trump", "title": "List of Department of Labor appointments by Donald Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Brett Matsumoto",
+      "slug": "brett-matsumoto",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as commissioner of the Bureau of Labor Statistics.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://wmbdradio.com/2026/08/07/veteran-economist-insider-matsumoto-wins-senate-approval-as-bls-commissioner/", "title": "Veteran economist insider Matsumoto wins Senate approval as BLS commissioner — Reuters via WMBD" }
+      ]
+    },
+    {
+      "name": "Ashley Romanias",
+      "slug": "ashley-romanias",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as director of the Office of Federal Contract Compliance Programs.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.outsolve.com/blog/dol-appoints-new-ofccp-director", "title": "DOL appoints new OFCCP director — OutSolve" }
+      ]
+    },
+    {
+      "name": "Courtney Parella",
+      "slug": "courtney-parella",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as its public affairs chief and media contact.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (media contact)" }
+      ]
+    },
+    {
+      "name": "Aaron Britt",
+      "slug": "aaron-britt",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as a deputy assistant secretary.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
+        { "url": "https://www.dol.gov/general/contact/contact-phonekeypersonnel", "title": "Key personnel, Office of the Secretary — U.S. Department of Labor" }
+      ]
     }
   ],
   "source_conflicts": [

@@ -1,0 +1,75 @@
+{
+  "name": "Aaron Britt",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Deputy Assistant Secretary, U.S. Department of Labor",
+  "summary": "Aaron Britt joined the Labor Department in March 2025 as chief of staff of the Office of Public Affairs; the department’s key-personnel page later lists him as a deputy assistant secretary in the Office of the Deputy Secretary.",
+  "sources": [
+    { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
+    { "url": "https://ohsonline.com/articles/2025/03/18/us-department-of-labor-announces-senior-trump-administration-appointees.aspx", "title": "US Department of Labor announces senior Trump Administration appointees — OH&S (March 18, 2025)" },
+    { "url": "https://www.dol.gov/general/contact/contact-phonekeypersonnel", "title": "Key personnel, Office of the Secretary — U.S. Department of Labor" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "role": "Chief of Staff, Office of Public Affairs",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
+        { "url": "https://ohsonline.com/articles/2025/03/18/us-department-of-labor-announces-senior-trump-administration-appointees.aspx", "title": "US Department of Labor announces senior Trump Administration appointees — OH&S (March 18, 2025)" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Deputy Assistant Secretary, Office of the Deputy Secretary",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/general/contact/contact-phonekeypersonnel", "title": "Key personnel, Office of the Secretary — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Serves in Sonderling’s department as a deputy assistant secretary.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
+        { "url": "https://www.dol.gov/general/contact/contact-phonekeypersonnel", "title": "Key personnel, Office of the Secretary — U.S. Department of Labor" }
+      ]
+    },
+    {
+      "name": "Courtney Parella",
+      "slug": "courtney-parella",
+      "relationship_type": "colleague",
+      "description": "Named to the Office of Public Affairs together in March 2025: Parella as deputy assistant secretary, Britt as its chief of staff.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
+        { "url": "https://ohsonline.com/articles/2025/03/18/us-department-of-labor-announces-senior-trump-administration-appointees.aspx", "title": "US Department of Labor announces senior Trump Administration appointees — OH&S (March 18, 2025)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Assistant Secretary",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "keith-sonderling",
+    "sources": [
+      { "url": "https://www.dol.gov/general/contact/contact-phonekeypersonnel", "title": "Key personnel, Office of the Secretary — U.S. Department of Labor" },
+      { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

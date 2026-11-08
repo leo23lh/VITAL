@@ -1,0 +1,59 @@
+{
+  "name": "Brett Matsumoto",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Commissioner of the Bureau of Labor Statistics (since August 2026)",
+  "summary": "Brett Matsumoto, a career Bureau of Labor Statistics economist, was confirmed 51–47 in an August 2026 block vote to lead the agency, a year after Trump fired its previous commissioner over weak jobs numbers and after the White House withdrew E.J. Antoni’s nomination. He has said he would be the bureau’s only political appointee.",
+  "sources": [
+    { "url": "https://wmbdradio.com/2026/08/07/veteran-economist-insider-matsumoto-wins-senate-approval-as-bls-commissioner/", "title": "Veteran economist insider Matsumoto wins Senate approval as BLS commissioner — Reuters via WMBD" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2026,
+      "role": "Economist",
+      "org": "Bureau of Labor Statistics",
+      "sources": [
+        { "url": "https://wmbdradio.com/2026/08/07/veteran-economist-insider-matsumoto-wins-senate-approval-as-bls-commissioner/", "title": "Veteran economist insider Matsumoto wins Senate approval as BLS commissioner — Reuters via WMBD" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Commissioner",
+      "org": "Bureau of Labor Statistics",
+      "sources": [
+        { "url": "https://wmbdradio.com/2026/08/07/veteran-economist-insider-matsumoto-wins-senate-approval-as-bls-commissioner/", "title": "Veteran economist insider Matsumoto wins Senate approval as BLS commissioner — Reuters via WMBD" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Serves in Sonderling’s department as commissioner of the Bureau of Labor Statistics.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://wmbdradio.com/2026/08/07/veteran-economist-insider-matsumoto-wins-senate-approval-as-bls-commissioner/", "title": "Veteran economist insider Matsumoto wins Senate approval as BLS commissioner — Reuters via WMBD" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Commissioner, Bureau of Labor Statistics",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "keith-sonderling",
+    "since": "2026-08",
+    "sources": [
+      { "url": "https://wmbdradio.com/2026/08/07/veteran-economist-insider-matsumoto-wins-senate-approval-as-bls-commissioner/", "title": "Veteran economist insider Matsumoto wins Senate approval as BLS commissioner — Reuters via WMBD" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}
