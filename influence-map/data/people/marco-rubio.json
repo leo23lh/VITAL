@@ -479,6 +479,83 @@
         { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" },
         { "url": "https://en.wikipedia.org/wiki/Tommy_Pigott", "title": "Tommy Pigott — Wikipedia" }
       ]
+    },
+    {
+      "name": "Katherine Bowles",
+      "slug": "katherine-bowles",
+      "relationship_type": "employee",
+      "description": "Rubio’s liaison to Congress since September 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.state.gov/biographies/katherine-bowles", "title": "Katherine Bowles — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    },
+    {
+      "name": "Dylan Johnson",
+      "slug": "dylan-johnson",
+      "relationship_type": "employee",
+      "description": "Runs State’s public affairs and the NSC’s communications for Rubio, who leads both.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/01/department-of-state-announces-appointment-of-dylan-johnson-as-assistant-secretary-for-global-public-affairs", "title": "Department of State announces appointment of Dylan Johnson as Assistant Secretary for Global Public Affairs — U.S. Department of State (January 2026)" },
+        { "url": "https://www.state.gov/biographies/dylan-johnson", "title": "Dylan Johnson — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "Riley Barnes",
+      "slug": "riley-barnes",
+      "relationship_type": "employee",
+      "description": "Heads the human rights bureau under Rubio.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.state.gov/releases/bureau-of-democracy-human-rights-and-labor/2026/02/remarks-by-assistant-secretary-riley-barnes-at-the-2026-losar-reception", "title": "Remarks by Assistant Secretary Riley Barnes at the 2026 Losar reception — U.S. Department of State (February 2026)" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    },
+    {
+      "name": "Brock Dahl",
+      "slug": "brock-dahl",
+      "relationship_type": "employee",
+      "description": "Rubio’s chief lawyer since June 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.senate.gov/pagelayout/legislative/one_item_and_teasers/nom_confc.htm", "title": "Nominations confirmed (civilian) — U.S. Senate" },
+        { "url": "https://en.wikipedia.org/wiki/Legal_Adviser_of_the_Department_of_State", "title": "Legal Adviser of the Department of State — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Monica Crowley",
+      "slug": "monica-crowley",
+      "relationship_type": "employee",
+      "description": "Rubio’s chief of protocol since May 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chief_of_Protocol_of_the_United_States", "title": "Chief of Protocol of the United States — Wikipedia" },
+        { "url": "https://afsa.org/tracker-senior-official-appointments", "title": "Tracker: senior official appointments — American Foreign Service Association (updated September 2026)" }
+      ]
+    },
+    {
+      "name": "Mike Waltz",
+      "slug": "mike-waltz",
+      "relationship_type": "colleague",
+      "description": "Rubio succeeded Waltz as national security adviser in 2025; Waltz now serves as U.N. ambassador under Rubio’s State Department.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [],

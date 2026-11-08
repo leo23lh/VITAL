@@ -46,6 +46,97 @@
         { "url": "https://www.congress.gov/nomination/119th-congress/25/19", "title": "PN25-19: Nomination of Allison Hooker — Congress.gov" },
         { "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/under-secretary-hookers-travel-to-the-republic-of-korea/", "title": "Under Secretary Hooker’s travel to the Republic of Korea — U.S. Department of State (May 2026)" }
       ]
+    },
+    {
+      "name": "Frank Garcia",
+      "slug": "frank-garcia",
+      "relationship_type": "employee",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    },
+    {
+      "name": "Michael G. DeSombre",
+      "slug": "michael-desombre",
+      "relationship_type": "employee",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-east-asian-and-pacific-affairs/", "title": "Bureau of East Asian and Pacific Affairs — U.S. Department of State" },
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "Brendan Hanrahan",
+      "slug": "brendan-hanrahan",
+      "relationship_type": "employee",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    },
+    {
+      "name": "Donald Blome",
+      "slug": "donald-blome",
+      "relationship_type": "employee",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    },
+    {
+      "name": "Juan Pablo Segura",
+      "slug": "juan-pablo-segura",
+      "relationship_type": "employee",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-western-hemisphere-affairs/", "title": "Bureau of Western Hemisphere Affairs — U.S. Department of State" },
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "S. Paul Kapur",
+      "slug": "paul-kapur",
+      "relationship_type": "employee",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-south-and-central-asian-affairs/", "title": "Bureau of South and Central Asian Affairs — U.S. Department of State" },
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "McCoy Pitt",
+      "slug": "mccoy-pitt",
+      "relationship_type": "employee",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-23-2026", "title": "Public Schedule, September 23, 2026 — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
     }
   ],
   "org_chart_only": true,

@@ -56,6 +56,30 @@
         { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" },
         { "url": "https://en.wikipedia.org/wiki/Tommy_Pigott", "title": "Tommy Pigott — Wikipedia" }
       ]
+    },
+    {
+      "name": "Dylan Johnson",
+      "slug": "dylan-johnson",
+      "relationship_type": "colleague",
+      "description": "Johnson runs State’s public affairs bureau; Pigott is the department’s spokesperson.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/01/department-of-state-announces-appointment-of-dylan-johnson-as-assistant-secretary-for-global-public-affairs", "title": "Department of State announces appointment of Dylan Johnson as Assistant Secretary for Global Public Affairs — U.S. Department of State (January 2026)" }
+      ]
+    },
+    {
+      "name": "Tammy Bruce",
+      "slug": "tammy-bruce",
+      "relationship_type": "colleague",
+      "description": "Pigott was Bruce’s principal deputy spokesperson and succeeded her in 2026.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" }
+      ]
     }
   ],
   "org_chart_only": true,

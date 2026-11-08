@@ -71,6 +71,19 @@
         { "url": "https://theprint.in/world/trump-nominates-state-dept-official-to-lead-diminished-us-global-media-agency/2877603", "title": "Trump nominates State Dept official to lead diminished US global media agency — Reuters via ThePrint" },
         { "url": "https://www.notus.org/trump-white-house/trump-picks-replacement-for-kari-lake-voice-of-america-global-media-judge", "title": "Trump picks replacement for Kari Lake at Voice of America parent — NOTUS" }
       ]
+    },
+    {
+      "name": "Jason S. Evans",
+      "slug": "jason-evans",
+      "relationship_type": "employee",
+      "description": "Runs the management bureaus under Deputy Secretary for Management and Resources Rigas.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.state.gov/biographies/jason-s-evans", "title": "Jason S. Evans — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
     }
   ],
   "org_chart_only": true,

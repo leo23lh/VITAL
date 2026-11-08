@@ -1,0 +1,77 @@
+{
+  "name": "Monica Crowley",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Chief of Protocol of the United States (since May 2025)",
+  "summary": "Monica Crowley, a former Fox News commentator who was assistant secretary of the Treasury for public affairs in Trump’s first term, has been chief of protocol, with the rank of ambassador, since May 30, 2025, running state visits and diplomatic ceremony.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Chief_of_Protocol_of_the_United_States", "title": "Chief of Protocol of the United States — Wikipedia" },
+    { "url": "https://afsa.org/tracker-senior-official-appointments", "title": "Tracker: senior official appointments — American Foreign Service Association (updated September 2026)" },
+    { "url": "https://en.wikipedia.org/wiki/Monica_Crowley", "title": "Monica Crowley — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "end_year": 2021,
+      "role": "Assistant Secretary for Public Affairs",
+      "org": "U.S. Department of the Treasury",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Monica_Crowley", "title": "Monica Crowley — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Chief of Protocol",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chief_of_Protocol_of_the_United_States", "title": "Chief of Protocol of the United States — Wikipedia" },
+        { "url": "https://afsa.org/tracker-senior-official-appointments", "title": "Tracker: senior official appointments — American Foreign Service Association (updated September 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Rubio’s chief of protocol since May 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chief_of_Protocol_of_the_United_States", "title": "Chief of Protocol of the United States — Wikipedia" },
+        { "url": "https://afsa.org/tracker-senior-official-appointments", "title": "Tracker: senior official appointments — American Foreign Service Association (updated September 2026)" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Served in his first-term Treasury and as his chief of protocol since 2025.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Monica_Crowley", "title": "Monica Crowley — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Chief_of_Protocol_of_the_United_States", "title": "Chief of Protocol of the United States — Wikipedia" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Chief of Protocol",
+    "unit": "state",
+    "rank": 4,
+    "reports_to": "marco-rubio",
+    "since": "2025-05-30",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Chief_of_Protocol_of_the_United_States", "title": "Chief of Protocol of the United States — Wikipedia" },
+      { "url": "https://afsa.org/tracker-senior-official-appointments", "title": "Tracker: senior official appointments — American Foreign Service Association (updated September 2026)" }
+    ]
+  },
+  "notes": "Checked against State Department pages via searches restricted to state.gov (the June 15, 2026 organization chart, bureau pages and September 2026 public schedules).",
+  "last_researched": "2026-11-08"
+}

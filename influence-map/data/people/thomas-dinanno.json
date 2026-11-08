@@ -35,6 +35,19 @@
       "sources": [
         { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/public-schedule-november-5-2026", "title": "Public Schedule, November 5, 2026 — U.S. Department of State" }
       ]
+    },
+    {
+      "name": "Cartwright Weiland",
+      "slug": "cartwright-weiland",
+      "relationship_type": "employee",
+      "description": "Heads a bureau in Under Secretary DiNanno’s arms control and international security family.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-23-2026", "title": "Public Schedule, September 23, 2026 — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
     }
   ],
   "org_chart_only": true,

@@ -1994,6 +1994,31 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Mehmet_Oz", "title": "Mehmet Oz — Wikipedia" }
       ]
+    },
+    {
+      "name": "Monica Crowley",
+      "slug": "monica-crowley",
+      "relationship_type": "employee",
+      "description": "Served in his first-term Treasury and as his chief of protocol since 2025.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Monica_Crowley", "title": "Monica Crowley — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Chief_of_Protocol_of_the_United_States", "title": "Chief of Protocol of the United States — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Mike Waltz",
+      "slug": "mike-waltz",
+      "relationship_type": "employee",
+      "description": "Trump’s first national security adviser (2025), then his U.N. ambassador.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

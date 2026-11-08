@@ -1,0 +1,68 @@
+{
+  "name": "Jason S. Evans",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Under Secretary of State for Management (since September 2025)",
+  "summary": "Jason S. Evans was sworn in as under secretary of state for management on September 22, 2025, overseeing the department’s administration, budget, consular affairs, diplomatic security and technology bureaus.",
+  "sources": [
+    { "url": "https://www.state.gov/biographies/jason-s-evans", "title": "Jason S. Evans — U.S. Department of State" },
+    { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Under Secretary for Management",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://www.state.gov/biographies/jason-s-evans", "title": "Jason S. Evans — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Michael Rigas",
+      "slug": "michael-rigas",
+      "relationship_type": "employer",
+      "description": "Runs the management bureaus under Deputy Secretary for Management and Resources Rigas.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.state.gov/biographies/jason-s-evans", "title": "Jason S. Evans — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    },
+    {
+      "name": "Mora Namdar",
+      "slug": "mora-namdar",
+      "relationship_type": "employee",
+      "description": "Runs consular affairs under Under Secretary for Management Evans.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/bureaus-offices/under-secretary-for-management/bureau-of-consular-affairs", "title": "Bureau of Consular Affairs — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Under Secretary for Management",
+    "unit": "state",
+    "rank": 3,
+    "reports_to": "michael-rigas",
+    "since": "2025-09-22",
+    "sources": [
+      { "url": "https://www.state.gov/biographies/jason-s-evans", "title": "Jason S. Evans — U.S. Department of State" },
+      { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+    ]
+  },
+  "notes": "Checked against State Department pages via searches restricted to state.gov (the June 15, 2026 organization chart, bureau pages and September 2026 public schedules).",
+  "last_researched": "2026-11-08"
+}

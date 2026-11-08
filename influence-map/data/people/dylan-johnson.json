@@ -1,0 +1,67 @@
+{
+  "name": "Dylan Johnson",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Assistant Secretary of State for Global Public Affairs (since January 2026); communications lead, National Security Council",
+  "summary": "Dylan Johnson became the State Department’s assistant secretary for global public affairs on January 26, 2026, while continuing to lead communications for the National Security Council at the White House, which Rubio also runs as national security adviser.",
+  "sources": [
+    { "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/01/department-of-state-announces-appointment-of-dylan-johnson-as-assistant-secretary-for-global-public-affairs", "title": "Department of State announces appointment of Dylan Johnson as Assistant Secretary for Global Public Affairs — U.S. Department of State (January 2026)" },
+    { "url": "https://www.state.gov/biographies/dylan-johnson", "title": "Dylan Johnson — U.S. Department of State" }
+  ],
+  "timeline": [
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Assistant Secretary for Global Public Affairs",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/01/department-of-state-announces-appointment-of-dylan-johnson-as-assistant-secretary-for-global-public-affairs", "title": "Department of State announces appointment of Dylan Johnson as Assistant Secretary for Global Public Affairs — U.S. Department of State (January 2026)" },
+        { "url": "https://www.state.gov/biographies/dylan-johnson", "title": "Dylan Johnson — U.S. Department of State" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Runs State’s public affairs and the NSC’s communications for Rubio, who leads both.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/01/department-of-state-announces-appointment-of-dylan-johnson-as-assistant-secretary-for-global-public-affairs", "title": "Department of State announces appointment of Dylan Johnson as Assistant Secretary for Global Public Affairs — U.S. Department of State (January 2026)" },
+        { "url": "https://www.state.gov/biographies/dylan-johnson", "title": "Dylan Johnson — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "Tommy Pigott",
+      "slug": "tommy-pigott",
+      "relationship_type": "colleague",
+      "description": "Johnson runs State’s public affairs bureau; Pigott is the department’s spokesperson.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/01/department-of-state-announces-appointment-of-dylan-johnson-as-assistant-secretary-for-global-public-affairs", "title": "Department of State announces appointment of Dylan Johnson as Assistant Secretary for Global Public Affairs — U.S. Department of State (January 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary for Global Public Affairs",
+    "unit": "state",
+    "rank": 4,
+    "reports_to": "sarah-b-rogers",
+    "since": "2026-01-26",
+    "sources": [
+      { "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/01/department-of-state-announces-appointment-of-dylan-johnson-as-assistant-secretary-for-global-public-affairs", "title": "Department of State announces appointment of Dylan Johnson as Assistant Secretary for Global Public Affairs — U.S. Department of State (January 2026)" },
+      { "url": "https://www.state.gov/biographies/dylan-johnson", "title": "Dylan Johnson — U.S. Department of State" }
+    ]
+  },
+  "notes": "Checked against State Department pages via searches restricted to state.gov (the June 15, 2026 organization chart, bureau pages and September 2026 public schedules).",
+  "last_researched": "2026-11-08"
+}

@@ -386,6 +386,18 @@
       "sources": [
         { "url": "https://www.jcs.mil/Leadership/Article-View/Article/1974872/gen-dan-caine/", "title": "Gen. Dan Caine — Joint Chiefs of Staff" }
       ]
+    },
+    {
+      "name": "Mike Waltz",
+      "slug": "mike-waltz",
+      "relationship_type": "colleague",
+      "description": "Both were in the March 2025 Signal chat on Yemen strikes that Waltz mistakenly opened to a journalist.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [
