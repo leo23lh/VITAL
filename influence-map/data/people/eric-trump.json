@@ -1,0 +1,128 @@
+{
+  "name": "Eric Trump",
+  "aliases": ["Eric Frederick Trump"],
+  "public_figure": true,
+  "sector": "business",
+  "groups": [],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": 2015,
+      "end_year": null,
+      "basis": "Campaigned for his father in 2016, 2020 and 2024; says he would not rule out running for office himself.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" },
+        { "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/4569349/eric-lara-trump-wont-rule-out-presidential-run/", "title": "Eric and Lara Trump won’t “rule anything out” about running for office — Washington Examiner" }
+      ]
+    }
+  ],
+  "current_role": "Executive vice president of the Trump Organization; co-founder of World Liberty Financial and co-founder and chief strategy officer of American Bitcoin",
+  "summary": "Eric Trump, the president’s third child, has run the Trump Organization with his brother Donald Jr. since their father returned to politics, and leads much of the family’s crypto business: he is a listed co-founder of World Liberty Financial and a manager of its holding company, and co-founded the bitcoin miner American Bitcoin, whose collapse in value erased an estimated $600 million from the family fortune in 2026. He has said he would not rule out running for office.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" },
+    { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" },
+    { "url": "https://fortune.com/crypto/2025/03/31/eric-trump-donald-trump-jr-american-bitcoin-hut-8/", "title": "Eric Trump and Donald Trump Jr. launch American Bitcoin with Hut 8 — Fortune" },
+    { "url": "https://www.staradvertiser.com/2026/07/10/breaking-news/eric-trumps-bitcoin-bet-erases-600-million-from-family-fortune/", "title": "Eric Trump’s bitcoin bet erases $600 million from family fortune — Bloomberg via Honolulu Star-Advertiser (July 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": 2006,
+      "end_year": null,
+      "role": "Executive vice president",
+      "org": "Trump Organization",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": null,
+      "role": "Co-founder; manager of WLF Holdco",
+      "org": "World Liberty Financial",
+      "sources": [
+        { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Co-founder and chief strategy officer",
+      "org": "American Bitcoin",
+      "sources": [
+        { "url": "https://fortune.com/crypto/2025/03/31/eric-trump-donald-trump-jr-american-bitcoin-hut-8/", "title": "Eric Trump and Donald Trump Jr. launch American Bitcoin with Hut 8 — Fortune" },
+        { "url": "https://www.staradvertiser.com/2026/07/10/breaking-news/eric-trumps-bitcoin-bet-erases-600-million-from-family-fortune/", "title": "Eric Trump’s bitcoin bet erases $600 million from family fortune — Bloomberg via Honolulu Star-Advertiser (July 2026)" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Board observer",
+      "org": "ALT5 Sigma",
+      "sources": [
+        { "url": "https://www.theblock.co/amp/post/370081/eric-trump-will-have-reduced-board-role-at-wlfi-treasury-company-alt5-sigma", "title": "Eric Trump will have reduced board role at WLFI treasury company Alt5 Sigma — The Block" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "family",
+      "description": "His father.",
+      "start_year": 1984,
+      "confidence": 1,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "family",
+      "description": "His brother; they run the Trump Organization together and co-founded American Bitcoin in 2025.",
+      "start_year": 1984,
+      "confidence": 1,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" },
+        { "url": "https://fortune.com/crypto/2025/03/31/eric-trump-donald-trump-jr-american-bitcoin-hut-8/", "title": "Eric Trump and Donald Trump Jr. launch American Bitcoin with Hut 8 — Fortune" }
+      ]
+    },
+    {
+      "name": "Ivanka Trump",
+      "slug": "ivanka-trump",
+      "relationship_type": "family",
+      "description": "His sister.",
+      "start_year": 1984,
+      "confidence": 1,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "World Liberty Financial",
+      "slug": "world-liberty-financial",
+      "relationship_type": "co-founder",
+      "description": "Listed co-founder (a “web3 ambassador” at launch) and a manager on the board of WLF Holdco; a board observer at the WLFI treasury company ALT5 Sigma.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" },
+        { "url": "https://www.theblock.co/amp/post/370081/eric-trump-will-have-reduced-board-role-at-wlfi-treasury-company-alt5-sigma", "title": "Eric Trump will have reduced board role at WLFI treasury company Alt5 Sigma — The Block" }
+      ]
+    },
+    {
+      "name": "Zach Witkoff",
+      "slug": "zach-witkoff",
+      "relationship_type": "colleague",
+      "description": "Fellow World Liberty Financial co-founders; Witkoff chairs and Eric Trump observes on the board of ALT5 Sigma.",
+      "start_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.theblock.co/news/deals/2025-08-11-alt5-sigma-wlfi-token-treasury-strategy-eric-trump-366348", "title": "ALT5 Sigma to raise $1.5 billion for WLFI token treasury strategy, to add Eric Trump to board — The Block" },
+        { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" }
+      ]
+    }
+  ],
+  "last_researched": "2026-11-09"
+}

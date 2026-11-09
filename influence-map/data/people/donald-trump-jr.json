@@ -295,6 +295,18 @@
         { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" },
         { "url": "https://en.wikipedia.org/wiki/World_Liberty_Financial", "title": "World Liberty Financial — Wikipedia" }
       ]
+    },
+    {
+      "name": "Eric Trump",
+      "slug": "eric-trump",
+      "relationship_type": "family",
+      "description": "His brother; they run the Trump Organization together and co-founded American Bitcoin in 2025.",
+      "start_year": 1984,
+      "confidence": 1,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" },
+        { "url": "https://fortune.com/crypto/2025/03/31/eric-trump-donald-trump-jr-american-bitcoin-hut-8/", "title": "Eric Trump and Donald Trump Jr. launch American Bitcoin with Hut 8 — Fortune" }
+      ]
     }
   ],
   "affiliations": [],

@@ -1,0 +1,87 @@
+{
+  "name": "Zach Witkoff",
+  "aliases": ["Zachary Witkoff"],
+  "public_figure": true,
+  "sector": "business",
+  "groups": ["middle-east"],
+  "current_role": "Co-founder and chief executive of World Liberty Financial; chairman of ALT5 Sigma",
+  "summary": "Zach Witkoff, a son of special envoy Steve Witkoff, co-founded the Trump family’s crypto company World Liberty Financial in 2024 and runs it as chief executive. He announced the use of its USD1 stablecoin for Abu Dhabi fund MGX’s $2 billion Binance investment, signed its agreements with Pakistan, chairs the WLFI treasury company ALT5 Sigma, and has called Justin Sun’s lawsuit against the company meritless.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Zach_Witkoff", "title": "Zach Witkoff — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/World_Liberty_Financial", "title": "World Liberty Financial — Wikipedia" },
+    { "url": "https://www.foxbusiness.com/markets/trumps-stablecoin-chosen-2-billion-abu-dhabi-investment-binance-co-founder-says", "title": "Trump’s stablecoin chosen for $2 billion Abu Dhabi investment in Binance, co-founder says — Fox Business (Reuters)" },
+    { "url": "https://www.theblock.co/news/deals/2025-08-11-alt5-sigma-wlfi-token-treasury-strategy-eric-trump-366348", "title": "ALT5 Sigma to raise $1.5 billion for WLFI token treasury strategy, to add Eric Trump to board — The Block" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2024,
+      "role": "Worked at his father’s real estate firm, then co-led the family’s investment vehicle",
+      "org": "Witkoff Group / Witkoff Capital",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Zach_Witkoff", "title": "Zach Witkoff — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": null,
+      "role": "Co-founder and chief executive",
+      "org": "World Liberty Financial",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/World_Liberty_Financial", "title": "World Liberty Financial — Wikipedia" },
+        { "url": "https://www.theblock.co/news/deals/2025-08-11-alt5-sigma-wlfi-token-treasury-strategy-eric-trump-366348", "title": "ALT5 Sigma to raise $1.5 billion for WLFI token treasury strategy, to add Eric Trump to board — The Block" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Chairman of the board",
+      "org": "ALT5 Sigma",
+      "sources": [
+        { "url": "https://www.theblock.co/news/deals/2025-08-11-alt5-sigma-wlfi-token-treasury-strategy-eric-trump-366348", "title": "ALT5 Sigma to raise $1.5 billion for WLFI token treasury strategy, to add Eric Trump to board — The Block" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Steve Witkoff",
+      "slug": "steve-witkoff",
+      "relationship_type": "family",
+      "description": "His father, Trump’s special envoy; a co-founder emeritus of World Liberty Financial.",
+      "start_year": 1993,
+      "confidence": 1,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Zach_Witkoff", "title": "Zach Witkoff — Wikipedia" }
+      ]
+    },
+    {
+      "name": "World Liberty Financial",
+      "slug": "world-liberty-financial",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and chief executive since 2024; chairman of ALT5 Sigma. Signed the Pakistan agreements and announced USD1’s use in the MGX–Binance deal; called Justin Sun’s lawsuit “entirely meritless.”",
+      "start_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/World_Liberty_Financial", "title": "World Liberty Financial — Wikipedia" },
+        { "url": "https://www.theblock.co/news/deals/2025-08-11-alt5-sigma-wlfi-token-treasury-strategy-eric-trump-366348", "title": "ALT5 Sigma to raise $1.5 billion for WLFI token treasury strategy, to add Eric Trump to board — The Block" },
+        { "url": "https://www.dawn.com/news/1906732", "title": "Trump-backed crypto venture partners with Pakistan Crypto Council to boost blockchain adoption — Dawn" },
+        { "url": "https://www.aljazeera.com/news/2026/7/3/500m-for-trump-access-for-pakistan-how-a-crypto-diplomatic-bet-paid-off", "title": "$500m for Trump, access for Pakistan: how a crypto-diplomatic bet paid off — Al Jazeera (July 2026)" },
+        { "url": "https://www.aljazeera.com/economy/2026/4/22/blockchain-billionaire-sun-takes-trump-familys-crypto-firm-to-court", "title": "Blockchain billionaire Sun takes Trump family’s crypto firm to court — Al Jazeera (Reuters, April 2026)" }
+      ]
+    },
+    {
+      "name": "Eric Trump",
+      "slug": "eric-trump",
+      "relationship_type": "colleague",
+      "description": "Fellow World Liberty Financial co-founders; Witkoff chairs and Eric Trump observes on the board of ALT5 Sigma.",
+      "start_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.theblock.co/news/deals/2025-08-11-alt5-sigma-wlfi-token-treasury-strategy-eric-trump-366348", "title": "ALT5 Sigma to raise $1.5 billion for WLFI token treasury strategy, to add Eric Trump to board — The Block" },
+        { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" }
+      ]
+    }
+  ],
+  "last_researched": "2026-11-09"
+}

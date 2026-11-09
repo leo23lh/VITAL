@@ -2034,6 +2034,17 @@
         { "url": "https://www.thestar.com.my/news/world/2026/07/01/trump-reports-over-14-billion-in-income-from-crypto-ventures", "title": "Trump reports over $1.4 billion in income from crypto ventures — Reuters via The Star (July 2026)" },
         { "url": "https://benzinga.com/crypto/cryptocurrency/26/11/62972786/trump-linked-world-liberty-plans-buyback-as-wlfi-falls-8", "title": "Trump-linked World Liberty plans buyback as WLFI falls 8% — Benzinga (November 2026)" }
       ]
+    },
+    {
+      "name": "Eric Trump",
+      "slug": "eric-trump",
+      "relationship_type": "family",
+      "description": "His son; runs the Trump Organization with Donald Jr. and leads the family’s crypto ventures.",
+      "start_year": 1984,
+      "confidence": 1,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

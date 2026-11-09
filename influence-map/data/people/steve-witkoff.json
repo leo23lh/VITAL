@@ -99,6 +99,17 @@
         { "url": "https://www.theblock.co/news/deals/2026-02-01-uae-sheikh-secretly-acquired-49-of-trumps-world-liberty-financial-days-before-inauguration-wsj-387931", "title": "UAE sheikh secretly acquired 49% of Trump’s World Liberty Financial days before inauguration: WSJ — The Block" },
         { "url": "https://www.schiff.senate.gov/?p=10959", "title": "Schiff and colleagues press Witkoff on crypto holdings and ethics — Office of Sen. Adam Schiff (October 2025)" }
       ]
+    },
+    {
+      "name": "Zach Witkoff",
+      "slug": "zach-witkoff",
+      "relationship_type": "family",
+      "description": "His son; co-founder and chief executive of World Liberty Financial.",
+      "start_year": 1993,
+      "confidence": 1,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Zach_Witkoff", "title": "Zach Witkoff — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
