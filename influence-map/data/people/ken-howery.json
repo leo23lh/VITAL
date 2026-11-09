@@ -174,6 +174,18 @@
         { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Ken Howery — Wikipedia" },
         { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
       ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Ambassador to Denmark under Secretary Rubio since November 2025; Howery thanked Rubio for the nomination at his May 2025 confirmation hearing.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.foreign.senate.gov/download/050825_howery_testimonypdf", "title": "Statement of Kenneth A. Howery, nominee for ambassador to Denmark — Senate Foreign Relations Committee (May 2025)" },
+        { "url": "https://www.arctictoday.com/new-us-ambassador-to-denmark-assumes-duty-as-trump-eyes-control-of-greenland/", "title": "New US ambassador to Denmark assumes duty as Trump eyes control of Greenland — Reuters via Arctic Today" }
+      ]
     }
   ],
   "source_conflicts": [],

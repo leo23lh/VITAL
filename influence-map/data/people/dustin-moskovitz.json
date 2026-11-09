@@ -213,5 +213,13 @@
         }
       ]
     }
+  },
+  "leverage": {
+    "level": 1,
+    "basis": "A top Democratic donor (about $50.7 million in the 2024 cycle) and co-founder of the philanthropy Coefficient Giving, a major funder of AI-safety work.",
+    "sources": [
+      { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
+      { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" }
+    ]
   }
 }

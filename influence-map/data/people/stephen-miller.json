@@ -407,6 +407,44 @@
       "sources": [
         { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" }
       ]
+    },
+    {
+      "name": "Tom Homan",
+      "slug": "tom-homan",
+      "relationship_type": "colleague",
+      "description": "Both served in Trump’s first administration (Homan as acting ICE director, Miller as senior policy adviser) and were named together in November 2024 to lead his immigration agenda: Homan as border czar in charge of deportations, Miller as deputy chief of staff for policy. Homan reports to Miller as chief of staff from November 9, 2026.",
+      "start_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.news4jax.com/news/politics/2024/11/12/a-pair-of-trump-officials-have-defended-family-separation-and-ramped-up-deportations/", "title": "A pair of Trump officials have defended family separation and ramped up deportations — AP via News4JAX" },
+        { "url": "https://www.aljazeera.com/news/2024/11/11/trump-announces-immigration-official-tom-homan-as-border-czar", "title": "Trump picks Tom Homan as ‘border czar’, Stephen Miller for top policy role — Al Jazeera" }
+      ]
+    },
+    {
+      "name": "Will Scharf",
+      "slug": "will-scharf",
+      "relationship_type": "colleague",
+      "description": "Senior White House colleagues since 2025 (Scharf as staff secretary, then counsel from September 2026). Reporting on leaked memos says Scharf argued in 2025 against Miller’s push to suspend habeas corpus; the White House did not confirm the internal disagreement. Scharf reports to Miller as chief of staff from November 9, 2026.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=4682038", "title": "Trump installs loyalist Will Scharf as White House counsel ahead of potential Democratic investigations — Washington Examiner" },
+        { "url": "https://www.thedailybeast.com/trump-aides-civil-war-with-stephen-miller-exposed-in-bombshell-leak/", "title": "Trump aides’ civil war with Stephen Miller exposed in leak — The Daily Beast" },
+        { "url": "https://www.pbs.org/newshour/politics/trump-names-stephen-miller-his-next-chief-of-staff-after-major-republican-midterm-losses", "title": "Trump names Stephen Miller his next chief of staff after major Republican midterm losses — PBS NewsHour (AP)" }
+      ]
+    },
+    {
+      "name": "Kevin Hassett",
+      "slug": "kevin-hassett",
+      "relationship_type": "colleague",
+      "description": "Senior White House staff together since January 2025 (Hassett at the National Economic Council, Miller as deputy chief of staff for policy); inferred from their overlapping posts. Hassett reports to Miller as chief of staff from November 9, 2026.",
+      "start_year": 2025,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.cnbc.com/video/2026/05/11/watch-cnbcs-full-interview-with-white-house-national-economic-council-director-kevin-hassett.html", "title": "CNBC interview with National Economic Council Director Kevin Hassett (May 2026)" },
+        { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" },
+        { "url": "https://www.pbs.org/newshour/politics/trump-names-stephen-miller-his-next-chief-of-staff-after-major-republican-midterm-losses", "title": "Trump names Stephen Miller his next chief of staff after major Republican midterm losses — PBS NewsHour (AP)" }
+      ]
     }
   ],
   "source_conflicts": [

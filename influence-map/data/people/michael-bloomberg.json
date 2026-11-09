@@ -249,5 +249,14 @@
         }
       ]
     }
+  },
+  "leverage": {
+    "level": 2,
+    "basis": "Owner of Bloomberg L.P. (financial data and Bloomberg News) and one of the largest Democratic donors: about $84.2 million in the 2026 cycle and $64.3 million in 2024.",
+    "sources": [
+      { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+      { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
+      { "url": "https://en.wikipedia.org/wiki/Michael_Bloomberg", "title": "Wikipedia: Michael Bloomberg" }
+    ]
   }
 }

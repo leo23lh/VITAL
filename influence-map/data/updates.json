@@ -1,5 +1,34 @@
 [
   {
+    "id": "2026-11-09-data-audit",
+    "date": "2026-11-09",
+    "text": "Data audit after the midterms: James Blair's White House post moved to his record (he left in April to run the midterm operation; whether he returns is disputed). Org-chart boss ties added for Homan, Scharf and Hassett (now under chief of staff Stephen Miller), Beattie and Howery (Rubio) and Dylan Johnson (Sarah Rogers). Kari Lake now reports to acting USAGM head Michael Rigas on the chart. Leverage ratings added for nine top donors from their recorded giving: Uihlein, Soros, Bloomberg, Andreessen and Horowitz (major); Singer, Schwarzman, Larsen and Moskovitz (notable). Colton Duncan moved to the org chart only.",
+    "people": [
+      "james-blair",
+      "tom-homan",
+      "will-scharf",
+      "kevin-hassett",
+      "stephen-miller",
+      "darren-beattie",
+      "ken-howery",
+      "marco-rubio",
+      "dylan-johnson",
+      "sarah-b-rogers",
+      "kari-lake",
+      "michael-rigas",
+      "richard-uihlein",
+      "george-soros",
+      "michael-bloomberg",
+      "marc-andreessen",
+      "ben-horowitz",
+      "paul-singer",
+      "stephen-schwarzman",
+      "chris-larsen",
+      "dustin-moskovitz",
+      "colton-duncan"
+    ]
+  },
+  {
     "id": "2026-11-08-pull-v2",
     "date": "2026-11-08",
     "text": "Pull reworked: a government job now counts by how close it sits to the boss in the org chart, donations by their size, and new sourced leverage (companies, contracts, media and money the White House needs) and recent access (meetings and deals in the last year) raise scores. Setbacks never lower anyone’s Pull. Leverage added for Ellison, Musk, Thiel, Karp, Luckey, Adelson, Yass, Griffin, Mellon, Zuckerberg and Altman.",

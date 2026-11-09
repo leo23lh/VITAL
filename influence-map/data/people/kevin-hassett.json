@@ -53,6 +53,19 @@
       "sources": [
         { "url": "https://www.britannica.com/money/Kevin-Hassett", "title": "Kevin Hassett — Britannica" }
       ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "colleague",
+      "description": "Senior White House staff together since January 2025 (Hassett at the National Economic Council, Miller as deputy chief of staff for policy); inferred from their overlapping posts. Hassett reports to Miller as chief of staff from November 9, 2026.",
+      "start_year": 2025,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.cnbc.com/video/2026/05/11/watch-cnbcs-full-interview-with-white-house-national-economic-council-director-kevin-hassett.html", "title": "CNBC interview with National Economic Council Director Kevin Hassett (May 2026)" },
+        { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" },
+        { "url": "https://www.pbs.org/newshour/politics/trump-names-stephen-miller-his-next-chief-of-staff-after-major-republican-midterm-losses", "title": "Trump names Stephen Miller his next chief of staff after major Republican midterm losses — PBS NewsHour (AP)" }
+      ]
     }
   ],
   "office": {

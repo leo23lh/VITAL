@@ -80,6 +80,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Will_Scharf", "title": "Will Scharf — Wikipedia" }
       ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "colleague",
+      "description": "Senior White House colleagues since 2025 (Scharf as staff secretary, then counsel from September 2026). Reporting on leaked memos says Scharf argued in 2025 against Miller’s push to suspend habeas corpus; the White House did not confirm the internal disagreement. Scharf reports to Miller as chief of staff from November 9, 2026.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=4682038", "title": "Trump installs loyalist Will Scharf as White House counsel ahead of potential Democratic investigations — Washington Examiner" },
+        { "url": "https://www.thedailybeast.com/trump-aides-civil-war-with-stephen-miller-exposed-in-bombshell-leak/", "title": "Trump aides’ civil war with Stephen Miller exposed in leak — The Daily Beast" },
+        { "url": "https://www.pbs.org/newshour/politics/trump-names-stephen-miller-his-next-chief-of-staff-after-major-republican-midterm-losses", "title": "Trump names Stephen Miller his next chief of staff after major Republican midterm losses — PBS NewsHour (AP)" }
+      ]
     }
   ],
   "office": {

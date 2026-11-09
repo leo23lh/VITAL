@@ -477,5 +477,13 @@
         }
       ]
     }
+  },
+  "leverage": {
+    "level": 2,
+    "basis": "Co-founder of Andreessen Horowitz (a16z), a leading tech and crypto investor; with Ben Horowitz, among the top ten donors of the 2026 cycle (about $92.2 million), largely to crypto and AI super PACs.",
+    "sources": [
+      { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+      { "url": "https://en.wikipedia.org/wiki/Marc_Andreessen", "title": "Marc Andreessen — Wikipedia" }
+    ]
   }
 }

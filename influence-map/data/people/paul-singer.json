@@ -266,5 +266,13 @@
         }
       ]
     }
+  },
+  "leverage": {
+    "level": 1,
+    "basis": "A top Republican donor: about $53.5 million in the 2026 cycle and $66.8 million in 2024; founder of the hedge fund Elliott Management.",
+    "sources": [
+      { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+      { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" }
+    ]
   }
 }

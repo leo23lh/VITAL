@@ -291,5 +291,13 @@
         }
       ]
     }
+  },
+  "leverage": {
+    "level": 2,
+    "basis": "The second-largest individual donor of the 2026 cycle (about $150 million, mostly to Republican and conservative groups) after about $143.5 million in 2024; chairman of Uline.",
+    "sources": [
+      { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+      { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" }
+    ]
   }
 }

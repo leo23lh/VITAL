@@ -244,5 +244,13 @@
         }
       ]
     }
+  },
+  "leverage": {
+    "level": 1,
+    "basis": "Co-founder and CEO of Blackstone, the largest alternative-asset manager, and a top Republican donor (about $36.1 million in the 2026 cycle).",
+    "sources": [
+      { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+      { "url": "https://en.wikipedia.org/wiki/Stephen_A._Schwarzman", "title": "Stephen A. Schwarzman — Wikipedia" }
+    ]
   }
 }

@@ -81,6 +81,18 @@
         { "url": "https://time.com/7377432/ice-cbp-congress-hearing-testimony-minneapolis-lyons-scott/", "title": "Five key takeaways from ICE and CBP leaders’ first testimony before Congress — TIME" },
         { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" }
       ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "colleague",
+      "description": "Both served in Trump’s first administration (Homan as acting ICE director, Miller as senior policy adviser) and were named together in November 2024 to lead his immigration agenda: Homan as border czar in charge of deportations, Miller as deputy chief of staff for policy. Homan reports to Miller as chief of staff from November 9, 2026.",
+      "start_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.news4jax.com/news/politics/2024/11/12/a-pair-of-trump-officials-have-defended-family-separation-and-ramped-up-deportations/", "title": "A pair of Trump officials have defended family separation and ramped up deportations — AP via News4JAX" },
+        { "url": "https://www.aljazeera.com/news/2024/11/11/trump-announces-immigration-official-tom-homan-as-border-czar", "title": "Trump picks Tom Homan as ‘border czar’, Stephen Miller for top policy role — Al Jazeera" }
+      ]
     }
   ],
   "office": {
