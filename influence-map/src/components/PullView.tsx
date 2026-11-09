@@ -1,7 +1,8 @@
 // Pull view: who has the most access to people in power, overall or with one person.
 import { useMemo, useState } from 'react';
 import type { GraphNode } from '../lib/graph';
-import { earOf, power, rankPull, type BondIndex } from '../lib/pull';
+import { earOf, LEVERAGE_LABELS, power, rankPull, type BondIndex } from '../lib/pull';
+import Avatar from './Avatar';
 
 interface Props {
   nodes: GraphNode[];
@@ -14,24 +15,6 @@ interface Props {
 }
 
 type Scope = 'all' | 'inside' | 'outside';
-
-const initials = (name: string) =>
-  name
-    .split(/\s+/)
-    .filter((w) => /^[A-Z]/.test(w))
-    .slice(0, 2)
-    .map((w) => w[0])
-    .join('');
-
-function Avatar({ n }: { n?: GraphNode }) {
-  return n?.photoUrl ? (
-    <img className="org-photo" src={n.photoUrl} alt="" loading="lazy" />
-  ) : (
-    <span className="org-photo org-initials" aria-hidden="true">
-      {initials(n?.name ?? '')}
-    </span>
-  );
-}
 
 const roleOf = (n?: GraphNode) => n?.person?.office?.title ?? n?.person?.current_role ?? '';
 
@@ -100,15 +83,15 @@ export default function PullView({ nodes, bonds, of, onOf, selectedId, onSelect 
             <li key={r.id}>
               <button className={`org-row${r.id === selectedId ? ' selected' : ''}`} onClick={() => onSelect(r.id)}>
                 <span className="pull-rank">{i + 1}</span>
-                <Avatar n={byId.get(r.id)} />
+                <Avatar name={name(r.id)} photoUrl={byId.get(r.id)?.photoUrl} />
                 <span className="org-text">
                   <span className="org-name">{name(r.id)}</span>
                   <span className="org-title">{roleOf(byId.get(r.id))}</span>
                   <span className="org-boss">
-                    {r.leverage > 0 && <span className="lev-chip">{['', 'notable', 'major', 'systemic'][r.leverage]} leverage</span>}
+                    {r.leverage > 0 && <span className="lev-chip">{LEVERAGE_LABELS[r.leverage]} leverage</span>}
                     via {r.via
                       .slice(0, 3)
-                      .map((v) => `${name(v.id)} ${v.bond}`)
+                      .map((v) => `${name(v.id)} ${v.linked ? v.bond : 'met'}`)
                       .join(' · ')}
                   </span>
                 </span>
@@ -125,7 +108,7 @@ export default function PullView({ nodes, bonds, of, onOf, selectedId, onSelect 
             <li key={e.id}>
               <button className={`org-row${e.id === selectedId ? ' selected' : ''}`} onClick={() => onSelect(e.id)}>
                 <span className="pull-rank">{i + 1}</span>
-                <Avatar n={byId.get(e.id)} />
+                <Avatar name={name(e.id)} photoUrl={byId.get(e.id)?.photoUrl} />
                 <span className="org-text">
                   <span className="org-name">{name(e.id)}</span>
                   <span className="org-title">{roleOf(byId.get(e.id))}</span>

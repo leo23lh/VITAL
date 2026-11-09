@@ -288,14 +288,16 @@ connections either person has never counts. It has three parts (`bond()` in
   A current government job between two officials counts by how far apart they
   sit in the org chart (`orgDistanceFactor`): a direct report in full, two
   levels 0.85, three 0.7, further or no recorded reporting line 0.6. A donation
-  counts by its size from `giving` (`moneyFactor`: 0.55 at $100k up to 1 at
-  about $3B; 0.65 when no amount is reported).
+  counts by its size from `giving`, matched by the recipient's `slug` or `org`
+  (`moneyFactor`: 0.55 at $100k up to 1 at about $3B; 0.65 when no amount is
+  reported, and never less when part of it went unreported). Only a job
+  recorded as ongoing (`end_year: null`) gets the org-chart distance.
 - **Years together (30%):** the years their dated ties cover, plus years both
   worked at the same small workplace (from timelines; workplaces with more than
   five people in the map, like the White House or Senate, don't count). A tie
   with a start but no end counts as continuing; a donation counts for its year
-  only, unless `giving` shows money to the same person in two or more cycles,
-  which counts as steady from the first cycle to the last; family counts as lifelong. Ties with no start year add no years, and the
+  only, plus each two-year cycle in which `giving` shows money to that person or
+  organization (gaps between cycles add nothing); family counts as lifelong. Ties with no start year add no years, and the
   meter says so: give links a `start_year` whenever a source has one.
 - **On the record (20%):** distinct sources (capped at five, so heavily
   researched files don't win on volume) plus shared workplaces.
@@ -314,7 +316,8 @@ close someone is to people in power (`src/lib/pull.ts`):
 - **Access:** each tie to an official adds post weight × Bond / 100; ties to
   people junior to the person count a quarter. Each documented meeting, call or
   deal with that official in the last 12 months (`access`) closes 15% of the gap
-  to a full bond (up to three). The strongest tie counts in full, the next
+  to a full bond (up to three); a meeting with no tie in the map starts from a
+  bond of 20. A current feud (hostile bond) gives no access, whatever the meetings. The strongest tie counts in full, the next
   half, the next a quarter, combined so it stays under 100.
 - **Leverage** (`leverage`, level 1–3) then closes 15%, 30% or 45% of what's
   left: what the person controls that people in power need (companies,

@@ -40,8 +40,8 @@ export interface GraphNode {
   mentionedBy: string[];
   /** Reporting line from the org chart (`office.reports_to`), nearest boss first. */
   chain?: string[];
-  /** Reported giving to people in the map: total dollars and the cycles given in. */
-  givenTo?: Map<string, { usd: number; cycles: number[] }>;
+  /** Reported giving to people and organizations in the map: reported dollars, whether any gift had no amount, and the cycles given in. */
+  givenTo?: Map<string, { usd: number; unknown: boolean; cycles: number[] }>;
   x?: number;
   y?: number;
   vx?: number;
@@ -217,14 +217,17 @@ export function buildGraph(files: PersonFile[], orgFiles: OrgFile[] = []): Graph
     for (let s = n.person?.office?.reports_to; s && !chain.includes(s) && chain.length < 8; s = nodes.get(s)?.person?.office?.reports_to)
       chain.push(s);
     if (chain.length) n.chain = chain;
-    const given = new Map<string, { usd: number; cycles: number[] }>();
+    const given = new Map<string, { usd: number; unknown: boolean; cycles: number[] }>();
     for (const c of n.person?.giving?.cycles ?? [])
       for (const r of c.recipients ?? []) {
-        if (!r.slug) continue;
-        const g = given.get(r.slug) ?? { usd: 0, cycles: [] };
-        g.usd += r.amount_usd ?? 0;
-        if (!g.cycles.includes(c.cycle)) g.cycles.push(c.cycle);
-        given.set(r.slug, g);
+        // A gift can name the person it backs (slug) and the committee that received it (org).
+        for (const key of new Set([r.slug, r.org].filter((k): k is string => !!k))) {
+          const g = given.get(key) ?? { usd: 0, unknown: false, cycles: [] };
+          if (typeof r.amount_usd === 'number') g.usd += r.amount_usd;
+          else g.unknown = true;
+          if (!g.cycles.includes(c.cycle)) g.cycles.push(c.cycle);
+          given.set(key, g);
+        }
       }
     if (given.size) n.givenTo = given;
   }
@@ -929,10 +932,15 @@ export function bond(
 
   // Depth: the strongest record of each kind, combined so a second kind adds less than the first.
   // A current government job counts by how close the two sit in the org chart; money by how much.
+  // Only a job recorded as ongoing (end_year null) counts as today's reporting line; an undated
+  // past job keeps its full weight. A gift with an unreported part never counts below the
+  // no-amount default.
+  const giftFactor = gift
+    ? Math.max(moneyFactor(gift.usd || undefined), gift.unknown ? moneyFactor(undefined) : 0)
+    : moneyFactor(undefined);
   const weight = (l: GraphLink) => {
-    const ongoing = l.endYear === null || l.endYear === undefined || l.endYear >= now;
-    if (l.group === 'employment' && ongoing) return l.confidence * orgDistanceFactor(a, b);
-    if (l.group === 'funding') return l.confidence * moneyFactor(gift?.usd);
+    if (l.group === 'employment' && l.endYear === null) return l.confidence * orgDistanceFactor(a, b);
+    if (l.group === 'funding') return l.confidence * giftFactor;
     return l.confidence;
   };
   const best = new Map<EdgeGroup, number>();
@@ -959,15 +967,15 @@ export function bond(
   }
 
   // A tie with no recorded end counts as continuing (as in the date filter); a donation counts for its
-  // year only, unless the donor gave in two or more cycles, which counts as steady from the first to the last.
-  const giftSpan: [number, number] | null =
-    gift && gift.cycles.length >= 2 ? [Math.min(...gift.cycles) - 1, Math.max(...gift.cycles)] : null;
-  const linkSpan = (l: GraphLink) =>
-    l.group === 'funding' && giftSpan
-      ? giftSpan
-      : span(l.startYear, l.endYear === undefined && l.group !== 'funding' ? null : l.endYear, now);
+  // year only. Each cycle in `giving` to this person adds that two-year cycle, so steady giving across
+  // several cycles adds years (gaps between cycles don't).
+  const linkSpan = (l: GraphLink) => span(l.startYear, l.endYear === undefined && l.group !== 'funding' ? null : l.endYear, now);
+  const giftCycles: [number, number][] = friendly.some((l) => l.group === 'funding')
+    ? (gift?.cycles ?? []).map((c): [number, number] => [c - 1, c])
+    : [];
   const intervals = [
     ...friendly.map(linkSpan).filter((x): x is [number, number] => !!x),
+    ...giftCycles,
     ...shared.map((w): [number, number] => [w.from, w.to]),
   ];
   const { count: yearsTogether, span: yearSpan } = countYears(intervals);

@@ -49,16 +49,20 @@ export function bondIndex(nodes: GraphNode[], links: GraphLink[], workplaces: Wo
   return out;
 }
 
-const bondScore = (idx: BondIndex, a: string, b: string) => idx.get(pairKey(a, b))?.score ?? 0;
 
 export interface PullVia {
   id: string;
   /** Their post's weight, 0–1. */
   power: number;
+  /** The pair's Bond score (0 when they are linked only by a recent meeting). */
   bond: number;
   /** Documented meetings or deals with them in the last 12 months. */
   recent: number;
-  /** power × bond, 0–1: what this tie adds. */
+  /** The bond as Pull uses it, raised by recent access. */
+  effective: number;
+  /** Whether the map has a link between them (else only `access` connects them). */
+  linked: boolean;
+  /** power × effective bond, 0–1: what this tie adds. */
   weight: number;
 }
 
@@ -89,14 +93,32 @@ const FALLOFF = 0.5;
 
 /** What each leverage level adds to the part of pull that ties leave open. */
 export const LEVERAGE_WEIGHT = [0, 0.15, 0.3, 0.45] as const;
+export const LEVERAGE_LABELS = ['', 'notable', 'major', 'systemic'] as const;
 /** Each recent documented meeting or deal with an official closes this share of the gap to a full bond (up to three). */
 export const ACCESS_BOOST = 0.15;
 
-/** Meetings or deals with `official` in the 12 months before `now`. */
-function recentWith(events: AccessEvent[] | undefined, official: string, now: Date): number {
-  const cutoff = new Date(now);
-  cutoff.setFullYear(cutoff.getFullYear() - 1);
-  return (events ?? []).filter((e) => e.with.includes(official) && new Date(e.date.length === 7 ? `${e.date}-15` : e.date) >= cutoff && new Date(e.date) <= now).length;
+/** An access date (YYYY-MM-DD, or YYYY-MM read as the 1st) as a UTC day number; NaN if invalid. */
+export function accessDay(date: string): number {
+  const m = /^(\d{4})-(\d{2})(?:-(\d{2}))?$/.exec(date);
+  if (!m) return NaN;
+  const [y, mo, d] = [Number(m[1]), Number(m[2]), Number(m[3] ?? 1)];
+  const t = Date.UTC(y, mo - 1, d);
+  const back = new Date(t);
+  // Reject impossible dates such as 2026-13 or 2026-02-30.
+  if (back.getUTCFullYear() !== y || back.getUTCMonth() !== mo - 1 || back.getUTCDate() !== d) return NaN;
+  return t / 86400000;
+}
+
+/** How many documented meetings or deals with each official fall in the 365 days up to `now`. */
+function recentByOfficial(events: AccessEvent[] | undefined, now: Date): Map<string, number> {
+  const today = Math.floor(now.getTime() / 86400000);
+  const counts = new Map<string, number>();
+  for (const e of events ?? []) {
+    const day = accessDay(e.date);
+    if (!(day <= today && day > today - 365)) continue;
+    for (const s of e.with) counts.set(s, (counts.get(s) ?? 0) + 1);
+  }
+  return counts;
 }
 
 /**
@@ -107,21 +129,26 @@ function recentWith(events: AccessEvent[] | undefined, official: string, now: Da
  * closes part of the remaining gap. Setbacks (firings, court rulings, stalled nominations) don't
  * lower it: pull counts documented access and leverage only.
  */
-export function pullOf(id: string, nodes: GraphNode[], idx: BondIndex, now = new Date()): Pull {
-  const self = nodes.find((n) => n.id === id);
+/** Bond assumed for an official met recently but with no link in the map. */
+const MET_ONLY_BOND = 20;
+
+export function pullOf(id: string, nodes: GraphNode[], idx: BondIndex, now = new Date(), self = nodes.find((n) => n.id === id)): Pull {
   const own = power(self);
-  const events = self?.person?.access;
+  const recentCounts = recentByOfficial(self?.person?.access, now);
   const via: PullVia[] = [];
   for (const d of nodes) {
     if (d.id === id) continue;
     const p = power(d);
     if (!p) continue;
-    const recent = recentWith(events, d.id, now);
-    let b = bondScore(idx, id, d.id);
-    if (!b && !recent) continue;
-    if (!b) b = 20;
-    b = Math.round(b + (100 - b) * ACCESS_BOOST * Math.min(recent, 3));
-    via.push({ id: d.id, power: p, bond: b, recent, weight: ((p * b) / 100) * (p < own ? DOWNWARD : 1) });
+    const recent = recentCounts.get(d.id) ?? 0;
+    const tie = idx.get(pairKey(id, d.id));
+    // A current feud is no access, whatever meetings took place.
+    if (tie?.status === 'hostile') continue;
+    const bond = tie?.score ?? 0;
+    if (!bond && !recent) continue;
+    const base = tie ? bond : MET_ONLY_BOND;
+    const effective = Math.round(base + (100 - base) * ACCESS_BOOST * Math.min(recent, 3));
+    via.push({ id: d.id, power: p, bond, recent, effective, linked: !!tie, weight: ((p * effective) / 100) * (p < own ? DOWNWARD : 1) });
   }
   via.sort((x, y) => y.weight - x.weight);
   const access = 1 - via.reduce((acc, v, i) => acc * (1 - v.weight * FALLOFF ** i), 1);
@@ -135,10 +162,10 @@ export interface PullRow extends Pull {
 }
 
 /** Everyone ranked by pull (people only; the President is left out as the source of it). */
-export function rankPull(nodes: GraphNode[], idx: BondIndex): PullRow[] {
+export function rankPull(nodes: GraphNode[], idx: BondIndex, now = new Date()): PullRow[] {
   return nodes
     .filter((n) => n.researched && !n.isOrg && !(n.person?.office?.unit === 'white-house' && n.person.office.rank === 1))
-    .map((n) => ({ id: n.id, ...pullOf(n.id, nodes, idx) }))
+    .map((n) => ({ id: n.id, ...pullOf(n.id, nodes, idx, now, n) }))
     .filter((r) => r.score > 0)
     .sort((a, b) => b.score - a.score);
 }

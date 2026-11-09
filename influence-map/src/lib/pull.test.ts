@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { buildGraph, workplaceIndex } from './graph';
 import { moneyFactor, orgDistanceFactor } from './graph';
-import { bondIndex, earOf, power, pullOf, rankPull } from './pull';
+import { accessDay, bondIndex, earOf, power, pullOf, rankPull } from './pull';
 import type { Person, PersonFile } from './schema';
 
 const src = [{ url: 'https://example.com/1', title: 'Source' }];
@@ -107,5 +107,34 @@ describe('pull v2', () => {
     expect(m.score).toBeGreaterThan(plain.score);
     // A meeting more than a year ago doesn't count.
     expect(pullOf('mogul', g2.nodes, idx2, new Date('2028-01-01')).via[0].recent).toBe(0);
+  });
+  it('reads access dates strictly', () => {
+    expect(accessDay('2026-10')).toBe(accessDay('2026-10-01'));
+    expect(accessDay('2026-13')).toBeNaN();
+    expect(accessDay('2026-02-30')).toBeNaN();
+    expect(accessDay('soon')).toBeNaN();
+  });
+});
+
+describe('pull edge cases', () => {
+  const now = new Date('2026-11-08');
+  const g3 = buildGraph([
+    person('pres', [conn('foe', 'enemy')], office('President', 'white-house', 1)),
+    person('foe', [conn('pres', 'enemy')], {
+      access: [{ date: '2026-10-01', with: ['pres'], what: 'Met.', sources: src }],
+    } as never),
+    person('guest', [], { access: [{ date: '2026-10-01', with: ['pres'], what: 'Dinner guest.', sources: src }] } as never),
+  ]);
+  const idx3 = bondIndex(g3.nodes, g3.links, workplaceIndex(g3.nodes));
+
+  it('gives no access through a current feud, whatever the meetings', () => {
+    expect(pullOf('foe', g3.nodes, idx3, now).via).toHaveLength(0);
+  });
+
+  it('counts a recent meeting with no tie in the map, marked unlinked', () => {
+    const v = pullOf('guest', g3.nodes, idx3, now).via[0];
+    expect(v.linked).toBe(false);
+    expect(v.bond).toBe(0);
+    expect(v.effective).toBeGreaterThan(0);
   });
 });

@@ -489,6 +489,27 @@ describe('compare', () => {
   });
 });
 
+describe('giving in bond', () => {
+  const cycle = (recipients: object[]) => ({ giving: { cycles: [{ cycle: 2024, sources: src(0), recipients }] } }) as never;
+
+  it('keys gifts by the receiving committee as well as the person it backs', () => {
+    const g = buildGraph([person('d', 'D', [], cycle([{ name: 'PAC', org: 'pac', kind: 'super-pac', amount_usd: 1e7, sources: src(0) }]))], [org('pac', 'PAC')]);
+    expect(g.nodes.find((n) => n.id === 'd')?.givenTo?.get('pac')?.usd).toBe(1e7);
+  });
+
+  it('never scores a partly reported gift below the no-amount default', () => {
+    const g = buildGraph([
+      person('d', 'D', [], cycle([
+        { name: 'C', slug: 'c', kind: 'candidate', amount_usd: 1000, sources: src(0) },
+        { name: 'C', slug: 'c', kind: 'candidate', sources: src(0) },
+      ])),
+    ]);
+    const gift = g.nodes.find((n) => n.id === 'd')?.givenTo?.get('c');
+    expect(gift?.unknown).toBe(true);
+    expect(gift?.usd).toBe(1000);
+  });
+});
+
 describe('bond', () => {
   const pairOf = (files: ReturnType<typeof person>[], a: string, b: string) => {
     const g = buildGraph(files);

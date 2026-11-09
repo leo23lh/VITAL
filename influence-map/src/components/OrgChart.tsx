@@ -1,20 +1,13 @@
 // Org chart view: the government as a hierarchy instead of a web. Tap anyone to open their details.
 import { useEffect, useRef } from 'react';
 import type { ChartRow, ChartUnit, OrgChart as Chart } from '../lib/orgchart';
+import Avatar from './Avatar';
 
 interface Props {
   chart: Chart;
   selectedId: string | null;
   onSelect: (id: string) => void;
 }
-
-const initials = (name: string) =>
-  name
-    .split(/\s+/)
-    .filter((w) => /^[A-Z]/.test(w))
-    .slice(0, 2)
-    .map((w) => w[0])
-    .join('');
 
 function BondChip({ row }: { row: ChartRow }) {
   if (!row.bossId) return null;
@@ -40,13 +33,7 @@ function Row({ row, selectedId, onSelect }: { row: ChartRow; selectedId: string 
         data-id={row.id}
         onClick={() => onSelect(row.id)}
       >
-        {row.photoUrl ? (
-          <img className="org-photo" src={row.photoUrl} alt="" loading="lazy" />
-        ) : (
-          <span className="org-photo org-initials" aria-hidden="true">
-            {initials(row.name)}
-          </span>
-        )}
+        <Avatar name={row.name} photoUrl={row.photoUrl} />
         <span className="org-text">
           <span className="org-name">{row.name}</span>
           <span className="org-title">

@@ -1,10 +1,9 @@
 // Pull tab in the person panel: their access to people in power and who has their ear.
+import { useMemo } from 'react';
 import { pairKey, type GraphNode } from '../../lib/graph';
-import { earOf, power, pullOf, type BondIndex } from '../../lib/pull';
+import { earOf, LEVERAGE_LABELS, power, pullOf, type BondIndex } from '../../lib/pull';
 import type { Selection } from '../../lib/view';
 import { SourceList } from './parts';
-
-const LEVEL_LABEL = ['', 'notable', 'major', 'systemic'] as const;
 
 export interface PullTools {
   nodes: GraphNode[];
@@ -19,7 +18,8 @@ function TieList({
   roleOf,
   onSelect,
 }: {
-  rows: { id: string; bond: number }[];
+  /** `linked: false` = met recently, but no tie in the map (tapping opens the person instead). */
+  rows: { id: string; bond: number; linked?: boolean; recent?: number }[];
   anchor: string;
   nameOf: (id: string) => string;
   roleOf: (id: string) => string;
@@ -29,14 +29,20 @@ function TieList({
     <ul className="closest">
       {rows.map((r) => (
         <li key={r.id}>
-          <button className="closest-row" onClick={() => onSelect({ kind: 'link', id: pairKey(anchor, r.id) })}>
+          <button
+            className="closest-row"
+            onClick={() => onSelect(r.linked === false ? { kind: 'node', id: r.id } : { kind: 'link', id: pairKey(anchor, r.id) })}
+          >
             <span className="closest-name">{nameOf(r.id)}</span>
-            <span className="closest-roles muted small">{roleOf(r.id)}</span>
-            <span className="closest-score" title={`Bond ${r.bond}`}>
+            <span className="closest-roles muted small">
+              {roleOf(r.id)}
+              {r.recent ? ` · met ${r.recent}× this year` : ''}
+            </span>
+            <span className="closest-score" title={r.linked === false ? 'No tie on record; met recently' : `Bond ${r.bond}`}>
               <span className="bond-mini" aria-hidden="true">
                 <span style={{ width: `${r.bond}%` }} />
               </span>
-              <strong>{r.bond}</strong>
+              <strong>{r.linked === false ? 'met' : r.bond}</strong>
             </span>
           </button>
         </li>
@@ -57,14 +63,14 @@ export function PullSection({
   onSelect: (s: Selection) => void;
 }) {
   const { nodes, bonds, onPullOf } = tools;
-  const byId = new Map(nodes.map((n) => [n.id, n]));
+  const byId = useMemo(() => new Map(nodes.map((n) => [n.id, n])), [nodes]);
   const roleOf = (id: string) => byId.get(id)?.person?.office?.title ?? '';
-  const pull = pullOf(node.id, nodes, bonds);
+  const pull = useMemo(() => pullOf(node.id, nodes, bonds, new Date(), node), [node, nodes, bonds]);
   const own = power(node);
   const powerful = own > 0;
   // Access means upward: list the ties to people at or above their level (juniors still count a little in the score).
   const upward = pull.via.filter((v) => v.power >= own);
-  const ear = powerful ? earOf(node.id, nodes, bonds) : [];
+  const ear = useMemo(() => (powerful ? earOf(node.id, nodes, bonds) : []), [powerful, node.id, nodes, bonds]);
   return (
     <>
       <section className="bond">
@@ -88,7 +94,7 @@ export function PullSection({
 
       {node.person?.leverage && (
         <section>
-          <h3>Leverage · {LEVEL_LABEL[node.person.leverage.level]}</h3>
+          <h3>Leverage · {LEVERAGE_LABELS[node.person.leverage.level]}</h3>
           <p>{node.person.leverage.basis}</p>
           <SourceList sources={node.person.leverage.sources} />
         </section>

@@ -105,6 +105,14 @@ const PRIVACY_PATTERNS = [
 
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+/** A YYYY-MM or YYYY-MM-DD date that exists on the calendar (not 2026-13 or 2026-02-30). */
+function realDate(s) {
+  const m = typeof s === 'string' && /^(\d{4})-(\d{2})(?:-(\d{2}))?$/.exec(s);
+  if (!m) return false;
+  const [y, mo, d] = [Number(m[1]), Number(m[2]), Number(m[3] ?? 1)];
+  const t = new Date(Date.UTC(y, mo - 1, d));
+  return t.getUTCFullYear() === y && t.getUTCMonth() === mo - 1 && t.getUTCDate() === d;
+}
 
 export function slugify(name) {
   return String(name)
@@ -318,7 +326,7 @@ export function validatePeople(records, opts = {}) {
       else
         p.access.forEach((e, i) => {
           const where = `access[${i}]`;
-          if (typeof e?.date !== 'string' || !/^\d{4}-\d{2}(-\d{2})?$/.test(e.date)) err(file, `${where}: date must be YYYY-MM or YYYY-MM-DD`);
+          if (!realDate(e?.date)) err(file, `${where}: date must be a real date, YYYY-MM or YYYY-MM-DD`);
           if (!Array.isArray(e?.with) || !e.with.length) err(file, `${where}: "with" must list the officials' slugs`);
           else for (const s of e.with) if (!bySlug.has(s)) err(file, `${where}: no file for "${s}"`);
           if (typeof e?.what !== 'string' || !e.what.trim()) err(file, `${where}: "what" is required`);
