@@ -2019,6 +2019,21 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" }
       ]
+    },
+    {
+      "name": "World Liberty Financial",
+      "slug": "world-liberty-financial",
+      "relationship_type": "co-founder",
+      "description": "Co-founded the family crypto company in 2024 as its “chief crypto advocate”; co-founder emeritus since taking office. His family’s DT Marks DEFI LLC holds a large stake and a Trump entity takes 75% of token-sale revenue; his 2025 disclosure reported almost $800 million from it.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" },
+        { "url": "https://finance.yahoo.com/news/trump-family-took-over-world-093753031.html", "title": "How the Trump family took over World Liberty Financial — Reuters via Yahoo Finance" },
+        { "url": "https://www.nbcnews.com/tech/crypto/trump-family-gets-75-crypto-coin-revenue-no-liability-new-document-rev-rcna176088", "title": "Trump family gets 75% of crypto coin revenue, has no liability, new document reveals — NBC News" },
+        { "url": "https://www.thestar.com.my/news/world/2026/07/01/trump-reports-over-14-billion-in-income-from-crypto-ventures", "title": "Trump reports over $1.4 billion in income from crypto ventures — Reuters via The Star (July 2026)" },
+        { "url": "https://benzinga.com/crypto/cryptocurrency/26/11/62972786/trump-linked-world-liberty-plans-buyback-as-wlfi-falls-8", "title": "Trump-linked World Liberty plans buyback as WLFI falls 8% — Benzinga (November 2026)" }
+      ]
     }
   ],
   "source_conflicts": [

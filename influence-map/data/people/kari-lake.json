@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "current_role": "Senior adviser to the U.S. Agency for Global Media (since March 2025); Trump's nominee for U.S. Ambassador to Jamaica, approved 12–10 by the Senate Foreign Relations Committee on July 22, 2026 and awaiting a full Senate vote",
+  "current_role": "Director of Voice of America (formally senior adviser to the U.S. Agency for Global Media, since March 2025); Trump’s nominee for U.S. Ambassador to Jamaica, approved 12–10 by the Senate Foreign Relations Committee on July 22, 2026 and awaiting a full Senate vote",
   "summary": "Kari Lake was a Phoenix TV news anchor at KSAZ (Fox 10) from 1999 to 2021, then a Trump-endorsed Republican nominee who lost the 2022 Arizona governor's race to Katie Hobbs, refused to concede and lost a two-year court challenge, and lost the 2024 Senate race to Ruben Gallego. Trump picked her to lead Voice of America; as a USAGM adviser and, from July to November 2025, its acting CEO she drove mass layoffs, and in March 2026 a federal judge ruled her acting tenure unlawful and voided those actions. In May 2026 Trump nominated her ambassador to Jamaica; the Senate Foreign Relations Committee approved her 12–10 in July, and the nomination was still awaiting a full Senate vote on the Senate's September 30, 2026 executive calendar.",
   "sources": [
     { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
@@ -333,20 +333,29 @@
         { "url": "https://www.caribbeannationalweekly.com/posts/kari-lakes-confirmation-as-us-ambassador-to-jamaica-delayed-until-september", "title": "Caribbean National Weekly: Kari Lake's confirmation as U.S. ambassador to Jamaica delayed" },
         { "url": "https://www.caribbeantoday.com/sections/politics/us-senate-recess-delays-kari-lake-s-confirmation-as-us-ambassador-to-jamaica", "title": "Caribbean Today: US Senate recess delays Kari Lake's confirmation" }
       ]
+    },
+    {
+      "topic": "Title at Voice of America",
+      "details": "Trump named Lake director of Voice of America in December 2024, and the map’s owner describes her as the director awaiting her ambassadorship. Most 2026 coverage calls her senior adviser to the U.S. Agency for Global Media; a federal judge ruled in March 2026 that her appointment as acting CEO and deputy CEO was unlawful (she appealed); NOTUS reported she would remain deputy CEO alongside acting CEO Michael Rigas.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
+        { "url": "https://www.notus.org/trump-white-house/trump-picks-replacement-for-kari-lake-voice-of-america-global-media-judge", "title": "Trump picks replacement for Kari Lake at Voice of America’s parent agency — NOTUS" },
+        { "url": "https://axios.com/2026/03/08/kari-lakes-usagm-voice-of-america", "title": "Judge rules Kari Lake's tenure leading USAGM was invalid — Axios" }
+      ]
     }
   ],
   "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Her husband and her other child are private individuals and are not recorded; her son Leo Halperin added himself to the map (see his file). Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page. Refreshed 2026-11-08 for the Jamaica nomination: Congress.gov, the committee readout and the executive calendar were confirmed through web search results restricted to congress.gov and senate.gov (the pages could not be opened). Stalled reportedly over some senators' concerns, including Sen. Thom Tillis's worry that she could be moved to another post once confirmed (Tucson.com). No report after early October 2026 on a floor vote was found.",
   "last_researched": "2026-11-08",
   "office": {
-    "title": "Senior Adviser, U.S. Agency for Global Media (nominee, Ambassador to Jamaica)",
+    "title": "Director, Voice of America (formally senior adviser to USAGM); nominee, Ambassador to Jamaica",
     "unit": "agencies",
     "rank": 4,
     "since": "2025-03",
     "sources": [
       { "url": "https://www.deseret.com/politics/2026/05/11/kari-lake-ambassador-jamaica/", "title": "Kari Lake nominated as ambassador to Jamaica — Deseret News" },
       { "url": "https://www.congress.gov/nomination/119th-congress/961/5", "title": "Congress.gov: PN961-5, Nomination of Kari Lake for Department of State" },
-      { "url": "https://www.notus.org/trump-white-house/trump-picks-replacement-for-kari-lake-voice-of-america-global-media-judge", "title": "Trump picks replacement for Kari Lake at Voice of America’s parent agency — NOTUS" }
-    ],
-    "reports_to": "michael-rigas"
+      { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
+      { "url": "https://www.washingtonexaminer.com/?p=4563872", "title": "Trump taps Kari Lake for Jamaica ambassadorship after Voice of America turmoil — Washington Examiner" }
+    ]
   }
 }

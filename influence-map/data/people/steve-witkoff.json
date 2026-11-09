@@ -84,6 +84,21 @@
         { "url": "https://www.nbcnews.com/news/world/witkoff-trump-gaza-hamas-israel-ceasefire-envoy-rcna187954", "title": "How an NYC real estate tycoon became Trump's man in the room for Gaza negotiations — NBC News" },
         { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" }
       ]
+    },
+    {
+      "name": "World Liberty Financial",
+      "slug": "world-liberty-financial",
+      "relationship_type": "co-founder",
+      "description": "Co-founder (now emeritus) of the Trump family crypto company, which his sons Zach and Alex helped start; his affiliate WC Digital Fi holds half of the founders’ 25% revenue share and Witkoff-linked firms received about $31 million from the UAE stake. Whether he has divested is disputed.",
+      "start_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/trump-family-took-over-world-093753031.html", "title": "How the Trump family took over World Liberty Financial — Reuters via Yahoo Finance" },
+        { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" },
+        { "url": "https://www.nbcnews.com/tech/crypto/trump-family-gets-75-crypto-coin-revenue-no-liability-new-document-rev-rcna176088", "title": "Trump family gets 75% of crypto coin revenue, has no liability, new document reveals — NBC News" },
+        { "url": "https://www.theblock.co/news/deals/2026-02-01-uae-sheikh-secretly-acquired-49-of-trumps-world-liberty-financial-days-before-inauguration-wsj-387931", "title": "UAE sheikh secretly acquired 49% of Trump’s World Liberty Financial days before inauguration: WSJ — The Block" },
+        { "url": "https://www.schiff.senate.gov/?p=10959", "title": "Schiff and colleagues press Witkoff on crypto holdings and ethics — Office of Sen. Adam Schiff (October 2025)" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
