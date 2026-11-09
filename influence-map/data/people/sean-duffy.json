@@ -130,6 +130,40 @@
         { "url": "https://landline.media/bradbury-confirmed-as-department-of-transportation-deputy-secretary/", "title": "Bradbury confirmed as Transportation deputy secretary — Land Line" },
         { "url": "https://www.nextgov.com/artificial-intelligence/2026/07/transportation-looks-ai-accelerate-its-modernization-initiatives/414885/", "title": "Transportation looks to AI to accelerate its modernization initiatives — Nextgov/FCW (July 2026)" }
       ]
+    },
+    {
+      "name": "Bryan Bedford",
+      "slug": "bryan-bedford",
+      "relationship_type": "employee",
+      "description": "Runs the FAA under Duffy; the two front its air traffic control overhaul.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.transportation.gov/mission/meet-key-officials", "title": "DOT leadership — U.S. Department of Transportation" },
+        { "url": "https://www.faa.gov/newsroom/trumps-transportation-secretary-duffy-faa-administrator-bedford-celebrate-opening-key", "title": "Duffy and FAA Administrator Bedford celebrate opening of key plant for air traffic control modernization — FAA" }
+      ]
+    },
+    {
+      "name": "Sean McMaster",
+      "slug": "sean-mcmaster",
+      "relationship_type": "employee",
+      "description": "Runs the Federal Highway Administration under Duffy.",
+      "start_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.transportation.gov/mission/meet-key-officials", "title": "DOT leadership — U.S. Department of Transportation" }
+      ]
+    },
+    {
+      "name": "Jonathan Morrison",
+      "slug": "jonathan-morrison",
+      "relationship_type": "employee",
+      "description": "Runs NHTSA under Duffy.",
+      "start_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.transportation.gov/mission/meet-key-officials", "title": "DOT leadership — U.S. Department of Transportation" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

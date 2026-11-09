@@ -98,6 +98,30 @@
         { "url": "https://www.executivegov.com/articles/va-paul-lawrence-deputy-secretary-senate-confirmation", "title": "Senate confirms former Army captain Paul Lawrence as VA deputy secretary — ExecutiveGov" },
         { "url": "https://www.kiro7.com/news/local/deputy-secretary-veterans-affairs-visits-seattle-tout-new-medical-records-system/WXXDSHW6JFCIRHDO6MG6ZCUQ44/", "title": "Deputy secretary for Veterans Affairs visits Seattle to tout new medical records system — KIRO 7 (October 2026)" }
       ]
+    },
+    {
+      "name": "Curt Cashour",
+      "slug": "curt-cashour",
+      "relationship_type": "employee",
+      "description": "Collins’s chief of staff since February 2026, after serving as VA’s public affairs assistant secretary.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://news.va.gov/press-room/va-announces-new-chief-of-staff/", "title": "VA announces new chief of staff — VA News" }
+      ]
+    },
+    {
+      "name": "John Figueroa",
+      "slug": "john-figueroa",
+      "relationship_type": "employee",
+      "description": "Senior adviser to Collins, named by him to run the Veterans Health Administration in July 2026.",
+      "start_year": 2026,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://department.va.gov/vha/under-secretary-for-health/", "title": "Under Secretary for Health — Veterans Health Administration" },
+        { "url": "https://www.va.gov/vapubs/viewPublication.asp?Pub_ID=1736", "title": "Memorandum from the Secretary of Veterans Affairs, July 9, 2026 — VA" },
+        { "url": "https://federalnewsnetwork.com/veterans-affairs/2026/07/vas-top-healthcare-official-is-stepping-down/", "title": "VA’s top healthcare official is stepping down — Federal News Network (July 2026)" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

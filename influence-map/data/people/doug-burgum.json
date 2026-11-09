@@ -157,6 +157,18 @@
         { "url": "https://en.wikipedia.org/wiki/Katharine_MacGregor", "title": "Katharine MacGregor — Wikipedia" },
         { "url": "https://www.congress.gov/nomination/119th-congress/13/10", "title": "PN13-10: Nomination of Katharine MacGregor — Congress.gov" }
       ]
+    },
+    {
+      "name": "Steve Pearce",
+      "slug": "steve-pearce",
+      "relationship_type": "employee",
+      "description": "Directs the Bureau of Land Management under Burgum.",
+      "start_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://dailycaller.com/2026/11/07/interior-blm-planning-rule-areas-critical-environmental-concern-burgum-pearce/", "title": "Doug Burgum moves to rein in “oversized” buffer zones on federal land — Daily Caller (November 2026)" },
+        { "url": "https://en.wikipedia.org/wiki/Steve_Pearce_(politician)", "title": "Steve Pearce (politician) — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

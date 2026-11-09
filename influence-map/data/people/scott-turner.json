@@ -108,6 +108,30 @@
         { "url": "https://americafirstpolicy.com/team/scottturner", "title": "Scott Turner — America First Policy Institute" },
         { "url": "https://www.dailysignal.com/2025/03/13/america-first-policy-institute-announces-new-leadership-after-trump-taps-founders-for-cabinet/", "title": "AFPI announces new leadership after Trump taps founders for Cabinet — Daily Signal" }
       ]
+    },
+    {
+      "name": "Andrew Hughes",
+      "slug": "andrew-hughes",
+      "relationship_type": "employee",
+      "description": "Turner’s deputy since June 2025.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.mba.org/news-and-research/newsroom/news/2025/06/10/mba-statement-on-the-confirmation-of-andrew-hughes-as-hud-deputy-secretary", "title": "MBA statement on the confirmation of Andrew Hughes as HUD Deputy Secretary — Mortgage Bankers Association" },
+        { "url": "https://infobytes.orrick.com/2025-06-13/andrew-hughes-confirmed-as-new-hud-deputy-secretary/", "title": "Andrew Hughes confirmed as new HUD deputy secretary — Orrick InfoBytes" }
+      ]
+    },
+    {
+      "name": "Joseph Gormley",
+      "slug": "joseph-gormley",
+      "relationship_type": "employee",
+      "description": "Runs Ginnie Mae and, acting, the FHA under Turner.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.scotsmanguide.com/news/gormley-temporarily-steps-into-fha-commissioner-role-as-cassidy-takes-leave/", "title": "Gormley temporarily steps into FHA commissioner role as Cassidy takes leave — Scotsman Guide" },
+        { "url": "https://themortgagepoint.com/2026/09/16/former-mba-official-nominated-for-fha-commissioner/", "title": "Trump appoints FHA single-family head Matt Jones to top agency post — The MortgagePoint (September 2026)" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

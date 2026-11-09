@@ -1,0 +1,53 @@
+{
+  "name": "Bryan Bedford",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Administrator, Federal Aviation Administration (since July 2025)",
+  "summary": "Bryan Bedford, former chief executive of Republic Airways, has run the FAA since July 2025 and leads its air traffic control modernization with Transportation Secretary Sean Duffy.",
+  "sources": [
+    { "url": "https://www.transportation.gov/mission/meet-key-officials", "title": "DOT leadership — U.S. Department of Transportation" },
+    { "url": "https://www.faa.gov/newsroom/trumps-transportation-secretary-duffy-faa-administrator-bedford-celebrate-opening-key", "title": "Duffy and FAA Administrator Bedford celebrate opening of key plant for air traffic control modernization — FAA" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Administrator",
+      "org": "Federal Aviation Administration",
+      "sources": [
+        { "url": "https://www.transportation.gov/mission/meet-key-officials", "title": "DOT leadership — U.S. Department of Transportation" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Sean Duffy",
+      "slug": "sean-duffy",
+      "relationship_type": "employer",
+      "description": "Runs the FAA under Duffy; the two front its air traffic control overhaul.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.transportation.gov/mission/meet-key-officials", "title": "DOT leadership — U.S. Department of Transportation" },
+        { "url": "https://www.faa.gov/newsroom/trumps-transportation-secretary-duffy-faa-administrator-bedford-celebrate-opening-key", "title": "Duffy and FAA Administrator Bedford celebrate opening of key plant for air traffic control modernization — FAA" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "FAA Administrator",
+    "unit": "transportation",
+    "rank": 3,
+    "reports_to": "sean-duffy",
+    "since": "2025-07",
+    "sources": [
+      { "url": "https://www.transportation.gov/mission/meet-key-officials", "title": "DOT leadership — U.S. Department of Transportation" },
+      { "url": "https://www.faa.gov/newsroom/trumps-transportation-secretary-duffy-faa-administrator-bedford-celebrate-opening-key", "title": "Duffy and FAA Administrator Bedford celebrate opening of key plant for air traffic control modernization — FAA" }
+    ]
+  },
+  "notes": "Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

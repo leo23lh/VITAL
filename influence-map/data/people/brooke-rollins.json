@@ -166,6 +166,41 @@
         { "url": "https://en.wikipedia.org/wiki/Stephen_Vaden", "title": "Stephen Vaden — Wikipedia" },
         { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" }
       ]
+    },
+    {
+      "name": "Richard Fordyce",
+      "slug": "richard-fordyce",
+      "relationship_type": "employee",
+      "description": "Senate-confirmed under secretary; Rollins signed his commission in January 2026.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/01/20/one-year-anniversary-president-trumps-second-term-secretary-rollins-signs-commissions-senate", "title": "Secretary Rollins signs commissions for Senate-confirmed USDA leadership — USDA (January 2026)" }
+      ]
+    },
+    {
+      "name": "Michael Boren",
+      "slug": "michael-boren",
+      "relationship_type": "employee",
+      "description": "Senate-confirmed under secretary; Rollins signed his commission in January 2026.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/01/20/one-year-anniversary-president-trumps-second-term-secretary-rollins-signs-commissions-senate", "title": "Secretary Rollins signs commissions for Senate-confirmed USDA leadership — USDA (January 2026)" },
+        { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/06/12/usda-issues-directive-restore-grazing-national-forest-lands-and-strengthen-support-americas-ranchers", "title": "USDA issues directive to restore grazing on national forest lands — USDA (June 2026)" }
+      ]
+    },
+    {
+      "name": "Tom Schultz",
+      "slug": "tom-schultz",
+      "relationship_type": "employee",
+      "description": "Rollins picked him in 2025 to lead the Forest Service, bypassing career foresters.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://sourcenm.com/2026/07/06/repub/chief-tom-schultz-details-defends-largest-forest-service-reorganization-in-a-century/", "title": "Chief Tom Schultz details, defends largest Forest Service reorganization in a century — Source NM (July 2026)" },
+        { "url": "https://www.citizen.org/article/uprooting-the-forest-service-a-trump-official-with-deep-timber-industry-ties-is-putting-public-lands-and-the-climate-at-risk/", "title": "Uprooting the Forest Service — Public Citizen (advocacy group)" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

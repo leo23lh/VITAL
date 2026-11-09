@@ -182,6 +182,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" }
       ]
+    },
+    {
+      "name": "Kimberly Richey",
+      "slug": "kimberly-richey",
+      "relationship_type": "employee",
+      "description": "Leads the Office for Civil Rights; McMahon has praised her appointment.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.highereddive.com/news/richey-confirmed-to-lead-education-departments-office-for-civil-rights-2025-trump-mcmahon/802374/", "title": "Richey confirmed to lead Education Department’s Office for Civil Rights — Higher Ed Dive" },
+        { "url": "https://www.ed.gov/media/document/ed-department-organizational-charts-september-16-2026-109982.pdf", "title": "U.S. Department of Education organizational charts, September 16, 2026 — ed.gov" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

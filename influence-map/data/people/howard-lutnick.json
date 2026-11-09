@@ -147,6 +147,53 @@
         { "url": "https://www.commerce.gov/about/leadership/paul-m-dabbar", "title": "Paul M. Dabbar — U.S. Department of Commerce" },
         { "url": "https://www.upi.com/Top_News/US/2025/06/25/paul-dabbar-commerce-deputy-secretary/2971750894180/", "title": "Senate confirms Dabbar as Commerce Department deputy secretary — UPI" }
       ]
+    },
+    {
+      "name": "Jeffrey Kessler",
+      "slug": "jeffrey-kessler",
+      "relationship_type": "employee",
+      "description": "Leads the Bureau of Industry and Security under Lutnick.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.commerce.gov/about/leadership", "title": "Leadership — U.S. Department of Commerce" },
+        { "url": "https://en.wikipedia.org/wiki/Bureau_of_Industry_and_Security", "title": "Bureau of Industry and Security — Wikipedia" }
+      ]
+    },
+    {
+      "name": "William Kimmitt",
+      "slug": "william-kimmitt",
+      "relationship_type": "employee",
+      "description": "Leads the International Trade Administration under Lutnick.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.commerce.gov/about/leadership", "title": "Leadership — U.S. Department of Commerce" }
+      ]
+    },
+    {
+      "name": "Neil Jacobs",
+      "slug": "neil-jacobs",
+      "relationship_type": "employee",
+      "description": "Runs NOAA, a Commerce Department agency, under Lutnick.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.noaa.gov/about-our-agency/leadership-and-senior-advisors", "title": "Leadership and senior advisors — NOAA" },
+        { "url": "https://www.commerce.gov/bureaus-and-offices/noaa", "title": "National Oceanic and Atmospheric Administration — U.S. Department of Commerce" }
+      ]
+    },
+    {
+      "name": "John Squires",
+      "slug": "john-squires",
+      "relationship_type": "employee",
+      "description": "Heads the USPTO, a Commerce Department agency, as under secretary for intellectual property.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.uspto.gov/about-us/news-updates/uspto-welcomes-new-director-john-squires", "title": "USPTO welcomes new Director John A. Squires — USPTO" },
+        { "url": "https://ipwatchdog.com/2026/09/29/senate-ip-subcommittee-focuses-on-fee-setting-ptab-rule-in-uspto-oversight-hearing/", "title": "Senate IP subcommittee focuses on fee-setting, PTAB rule in USPTO oversight hearing — IPWatchdog (September 2026)" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

@@ -180,6 +180,30 @@
       "sources": [
         { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" }
       ]
+    },
+    {
+      "name": "Cameron Hamilton",
+      "slug": "cameron-hamilton",
+      "relationship_type": "employee",
+      "description": "Runs FEMA, a DHS agency, under Mullin since August 2026.",
+      "start_year": 2026,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.fema.gov/press-release/20260810/cameron-hamilton-confirmed-new-fema-administrator", "title": "Cameron Hamilton confirmed as new FEMA Administrator — FEMA (August 2026)" },
+        { "url": "https://www.hstoday.us/subject-matter-areas/emergency-preparedness/senate-confirms-cameron-hamilton-as-fema-administrator/", "title": "Senate confirms Cameron Hamilton as FEMA Administrator — HSToday" }
+      ]
+    },
+    {
+      "name": "David Venturella",
+      "slug": "david-venturella",
+      "relationship_type": "employee",
+      "description": "Leads ICE, a DHS agency, under Mullin since June 2026.",
+      "start_year": 2026,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Venturella", "title": "David Venturella — Wikipedia" },
+        { "url": "https://thehill.com/homenews/administration/5835825-lyons-departure-ice-acting-head/", "title": "Todd Lyons to step down as acting ICE head, Markwayne Mullin announces — The Hill" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

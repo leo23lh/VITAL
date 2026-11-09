@@ -1,0 +1,54 @@
+{
+  "name": "Neil Jacobs",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Under Secretary of Commerce for Oceans and Atmosphere and NOAA Administrator (confirmed October 2025)",
+  "summary": "Neil Jacobs, a meteorologist who led NOAA in an acting capacity in Trump’s first term, was confirmed as NOAA administrator in October 2025.",
+  "sources": [
+    { "url": "https://www.noaa.gov/about-our-agency/leadership-and-senior-advisors", "title": "Leadership and senior advisors — NOAA" },
+    { "url": "https://www.commerce.gov/bureaus-and-offices/noaa", "title": "National Oceanic and Atmospheric Administration — U.S. Department of Commerce" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Under Secretary for Oceans and Atmosphere; NOAA Administrator",
+      "org": "U.S. Department of Commerce",
+      "sources": [
+        { "url": "https://www.noaa.gov/about-our-agency/leadership-and-senior-advisors", "title": "Leadership and senior advisors — NOAA" },
+        { "url": "https://www.commerce.gov/bureaus-and-offices/noaa", "title": "National Oceanic and Atmospheric Administration — U.S. Department of Commerce" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Howard Lutnick",
+      "slug": "howard-lutnick",
+      "relationship_type": "employer",
+      "description": "Runs NOAA, a Commerce Department agency, under Lutnick.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.noaa.gov/about-our-agency/leadership-and-senior-advisors", "title": "Leadership and senior advisors — NOAA" },
+        { "url": "https://www.commerce.gov/bureaus-and-offices/noaa", "title": "National Oceanic and Atmospheric Administration — U.S. Department of Commerce" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "NOAA Administrator",
+    "unit": "commerce",
+    "rank": 3,
+    "reports_to": "howard-lutnick",
+    "since": "2025-10-07",
+    "sources": [
+      { "url": "https://www.noaa.gov/about-our-agency/leadership-and-senior-advisors", "title": "Leadership and senior advisors — NOAA" },
+      { "url": "https://www.commerce.gov/bureaus-and-offices/noaa", "title": "National Oceanic and Atmospheric Administration — U.S. Department of Commerce" }
+    ]
+  },
+  "notes": "Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

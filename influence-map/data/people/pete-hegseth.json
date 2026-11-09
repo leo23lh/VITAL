@@ -398,6 +398,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" }
       ]
+    },
+    {
+      "name": "Adam Telle",
+      "slug": "adam-telle",
+      "relationship_type": "employee",
+      "description": "Acting Army secretary under Hegseth since Driscoll’s September 2026 resignation.",
+      "start_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://federalnewsnetwork.com/federal-newscast/2026/09/army-names-an-acting-secretary-following-driscolls-resignation/", "title": "Army names an acting secretary following Driscoll’s resignation — Federal News Network (September 2026)" },
+        { "url": "https://taskandpurpose.com/news/adam-telle-army-secretary-driscoll/", "title": "Official who oversees Corps of Engineers named acting Army Secretary — Task & Purpose" },
+        { "url": "https://www.nbcnews.com/politics/national-security/army-secretary-dan-driscoll-submits-resignation-white-house-rcna595437", "title": "Army Secretary Dan Driscoll submits resignation after tensions with Pete Hegseth — NBC News" }
+      ]
     }
   ],
   "source_conflicts": [
