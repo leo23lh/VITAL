@@ -73,7 +73,9 @@
       "start_year": 1984,
       "confidence": 1,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" },
+        { "url": "https://www.foxnews.com/politics/rnc-speakers-what-to-know-about-eric-trump", "title": "RNC Speakers: What to know about Eric Trump — Fox News" },
+        { "url": "https://www.cnbc.com/video/2024/12/09/watch-cnbcs-full-interview-with-eric-trump.html", "title": "Watch CNBC's full interview with Eric Trump — CNBC" }
       ]
     },
     {
@@ -96,7 +98,8 @@
       "start_year": 1984,
       "confidence": 1,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" },
+        { "url": "https://www.cbsnews.com/pictures/donald-trump-kids-ivanka-eric-tiffany-barron/", "title": "Ivanka, Donald Jr. and the other Trump kids — CBS News" }
       ]
     },
     {
@@ -124,5 +127,6 @@
       ]
     }
   ],
-  "last_researched": "2026-11-09"
+  "last_researched": "2026-11-09",
+  "notes": "Second sources added on 2026-11-09 were confirmed by web searches restricted to each source's domain; the pages themselves were not opened."
 }

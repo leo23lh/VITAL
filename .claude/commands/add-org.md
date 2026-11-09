@@ -22,7 +22,7 @@ a file, update it instead of creating a second one.
 ## Research rules — follow exactly
 
 The CLAUDE.md research rules apply in full. Every fact, figure and link needs a
-source URL for a page that states it; drop anything you can't source. Balance the sourcing: right-of-center outlets are welcome for the facts they report; breaking-news feeds such as Rerum Novarum are leads to trace to the original report; don't cite The Unz Review (CLAUDE.md rules 6–8). Note
+source URL for a page that states it; drop anything you can't source. Give each link two independent sources, or one official record, so it isn't graded thin (CLAUDE.md "Evidence"). Balance the sourcing: right-of-center outlets are welcome for the facts they report; breaking-news feeds such as Rerum Novarum are leads to trace to the original report; don't cite The Unz Review (CLAUDE.md rules 6–8). Note
 disagreements in `source_conflicts` (facts about the organization) or in a
 link's description with lower confidence. Record only the public roles of the
 people it links to.

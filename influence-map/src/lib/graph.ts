@@ -204,10 +204,25 @@ export function buildGraph(files: PersonFile[], orgFiles: OrgFile[] = [], opts: 
     }
   }
 
+  // Reporting lines: everyone above a person in the org chart, nearest first.
+  for (const n of nodes.values()) {
+    const chain: string[] = [];
+    for (let s = n.person?.office?.reports_to; s && !chain.includes(s) && chain.length < 8; s = nodes.get(s)?.person?.office?.reports_to)
+      chain.push(s);
+    if (chain.length) n.chain = chain;
+  }
+
   for (const link of links.values()) {
-    // A current post that reports to this boss is itself a record of the job: its sources count as evidence.
-    const office = link.group === 'employment' ? nodes.get(link.targetId)?.person?.office : undefined;
-    summarizeLink(link, office?.reports_to === link.sourceId ? office.sources : [], opts.rawConfidence);
+    // A current post under this boss (directly or up the reporting line, e.g. the President for an
+    // appointee) is itself a record of the job: its sources count as evidence for the tie.
+    const employee = link.group === 'employment' ? nodes.get(link.targetId) : undefined;
+    const office = employee?.chain?.includes(link.sourceId) ? employee.person?.office : undefined;
+    // An organization's own site is the record for ties to it (anduril.com for Anduril Industries).
+    const own = [link.sourceId, link.targetId].flatMap((id) => {
+      const first = id.split('-')[0];
+      return nodes.get(id)?.isOrg && first.length >= 6 ? [id, first] : [id];
+    });
+    summarizeLink(link, office?.sources, own, opts.rawConfidence);
   }
 
   // Degree = distinct neighbours, across all relationship types.
@@ -228,12 +243,8 @@ export function buildGraph(files: PersonFile[], orgFiles: OrgFile[] = [], opts: 
 
   assignCurvature([...links.values()]);
 
-  // Reporting lines and giving totals, used to weigh jobs and donations in bond().
+  // Giving totals, used with the reporting lines to weigh donations and jobs in bond().
   for (const n of nodes.values()) {
-    const chain: string[] = [];
-    for (let s = n.person?.office?.reports_to; s && !chain.includes(s) && chain.length < 8; s = nodes.get(s)?.person?.office?.reports_to)
-      chain.push(s);
-    if (chain.length) n.chain = chain;
     const given = new Map<string, { usd: number; unknown: boolean; cycles: number[] }>();
     for (const c of n.person?.giving?.cycles ?? [])
       for (const r of c.recipients ?? []) {
@@ -252,7 +263,7 @@ export function buildGraph(files: PersonFile[], orgFiles: OrgFile[] = [], opts: 
   return { nodes: [...nodes.values()], links: [...links.values()], skipped };
 }
 
-function summarizeLink(link: GraphLink, officeSources: SourceRef[] = [], rawConfidence = false) {
+function summarizeLink(link: GraphLink, officeSources: SourceRef[] = [], own: string[] = [], rawConfidence = false) {
   const confs = link.records.map((r) => clamp01(r.connection.confidence));
   link.stated = Math.max(...confs);
 
@@ -272,7 +283,7 @@ function summarizeLink(link: GraphLink, officeSources: SourceRef[] = [], rawConf
     }
   }
   // Certainty is earned: a tie counts for no more than its sources can carry.
-  link.evidence = evidenceOf([...link.sources, ...officeSources], [link.sourceId, link.targetId]);
+  link.evidence = evidenceOf([...link.sources, ...officeSources], own);
   link.confidence = rawConfidence ? link.stated : Math.min(link.stated, link.evidence.cap);
 
   if (link.records.length > 1) {

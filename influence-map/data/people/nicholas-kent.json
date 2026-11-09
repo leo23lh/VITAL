@@ -37,20 +37,23 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" },
+        { "url": "https://www.ed.gov/about/ed-organization/leadership-directory/nicholas-kent", "title": "Nicholas Kent — U.S. Department of Education leadership directory" }
       ]
     }
   ],
   "org_chart_only": true,
   "office": {
-    "title": "Deputy Secretary of Education",
+    "title": "Under Secretary of Education, performing the duties of Deputy Secretary",
     "unit": "education",
     "rank": 2,
     "reports_to": "linda-mcmahon",
     "since": "2026-02-05",
     "sources": [
-      { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" }
+      { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" },
+      { "url": "https://www.ed.gov/about/ed-organization/leadership-directory/nicholas-kent", "title": "Nicholas Kent — U.S. Department of Education leadership directory" }
     ]
   },
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "notes": "Second sources added on 2026-11-09 were confirmed by web searches restricted to each source's domain; the pages themselves were not opened."
 }

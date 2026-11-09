@@ -1,0 +1,69 @@
+{
+  "runs": [
+    {
+      "date": "2026-11-09",
+      "map": {
+        "people": 262,
+        "orgs": 26,
+        "links": 909
+      },
+      "evidence": {
+        "strong": 516,
+        "solid": 212,
+        "thin": 181,
+        "none": 0,
+        "held": 149
+      },
+      "ties": [
+        {
+          "cutoff": 2022,
+          "positives": 147,
+          "coldStarts": 223,
+          "candidates": 13218,
+          "auc": 0.717,
+          "aucSharedFriends": 0.637,
+          "aucPopularity": 0.691,
+          "topN": 100,
+          "topHits": 4,
+          "topExpected": 1.112
+        },
+        {
+          "cutoff": 2024,
+          "positives": 98,
+          "coldStarts": 159,
+          "candidates": 16426,
+          "auc": 0.763,
+          "aucSharedFriends": 0.705,
+          "aucPopularity": 0.688,
+          "topN": 100,
+          "topHits": 2,
+          "topExpected": 0.597
+        }
+      ],
+      "giving": [
+        {
+          "cutoff": 2022,
+          "cycle": 2024,
+          "donors": 16,
+          "gifts": 29,
+          "newGifts": 20,
+          "auc": 0.784,
+          "aucRepeat": 0.638,
+          "aucNew": 0.709,
+          "top5": 0.759
+        },
+        {
+          "cutoff": 2024,
+          "cycle": 2026,
+          "donors": 13,
+          "gifts": 30,
+          "newGifts": 13,
+          "auc": 0.82,
+          "aucRepeat": 0.748,
+          "aucNew": 0.658,
+          "top5": 0.733
+        }
+      ]
+    }
+  ]
+}

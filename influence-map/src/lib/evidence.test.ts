@@ -99,6 +99,23 @@ describe('evidence in the graph', () => {
     expect(pairs.find((p) => p.id === 'a|c')!.thin).toBe(true);
   });
 
+  it("counts a post's sources for the job, and an organization's own site as its record", () => {
+    const office = (reports_to: string, url: string) => ({ office: { title: 'T', unit: 'labor' as const, rank: 2 as const, reports_to, sources: u(url) } });
+    const g = buildGraph(
+      [
+        { ...person('pres', [conn('sec', 'employee', u('https://axios.com/1')), conn('dep', 'employee', u('https://axios.com/2'))]) },
+        { slug: 'sec', file: 'sec.json', data: { name: 'sec', public_figure: true, ...office('pres', 'https://www.dol.gov/sec'), connections: [conn('pres', 'employer', u('https://axios.com/1'))] } },
+        // The deputy reports to the secretary; the President is further up the same line.
+        { slug: 'dep', file: 'dep.json', data: { name: 'dep', public_figure: true, ...office('sec', 'https://www.dol.gov/dep'), connections: [conn('pres', 'employer', u('https://axios.com/2')), conn('acmecorp-industries', 'co-founder', u('https://www.acmecorp.com/about'))] } },
+      ],
+      [{ slug: 'acmecorp-industries', file: 'acmecorp-industries.json', data: { name: 'Acme', kind: 'company', connections: [conn('dep', 'co-founder', u('https://www.acmecorp.com/about'))] } }],
+    );
+    const grade = (id: string) => g.links.find((l) => l.id === id)!.evidence.grade;
+    expect(grade('employment:pres->sec')).toBe('strong');
+    expect(grade('employment:pres->dep')).toBe('strong');
+    expect(grade('co-founder:acmecorp-industries|dep')).toBe('strong');
+  });
+
   it('does not mark a pair thin when one of its links is well documented', () => {
     const g = buildGraph([
       person('a', [conn('b', 'ally', u('https://axios.com/1')), conn('b', 'employee', u('https://www.dol.gov/1'))]),

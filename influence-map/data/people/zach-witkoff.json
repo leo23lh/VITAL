@@ -52,7 +52,8 @@
       "start_year": 1993,
       "confidence": 1,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Zach_Witkoff", "title": "Zach Witkoff — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Zach_Witkoff", "title": "Zach Witkoff — Wikipedia" },
+        { "url": "https://www.thedailybeast.com/trump-envoy-steve-witkoffs-son-zach-witkoff-melts-down-defending-dads-bromance-with-russias-putin", "title": "Trump Envoy Steve Witkoff's Son Zach Witkoff Melts Down Defending Dad — The Daily Beast" }
       ]
     },
     {
@@ -83,5 +84,6 @@
       ]
     }
   ],
-  "last_researched": "2026-11-09"
+  "last_researched": "2026-11-09",
+  "notes": "Second sources added on 2026-11-09 were confirmed by web searches restricted to each source's domain; the pages themselves were not opened."
 }

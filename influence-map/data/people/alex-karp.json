@@ -161,7 +161,9 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520230013/d904406ds1.htm", "title": "Palantir Technologies Inc. — Form S-1 (SEC, 2020)" },
+        { "url": "https://www.cnbc.com/2014/06/17/disruptors-in-2014-palantir.html", "title": "Disruptors in 2014: Palantir — CNBC" }
       ]
     },
     {
@@ -200,7 +202,9 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" },
         { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Palantir", "title": "Palantir — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Palantir", "title": "Palantir — Wikipedia" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520230013/d904406ds1.htm", "title": "Palantir Technologies Inc. — Form S-1 (SEC, 2020)" },
+        { "url": "https://www.cnbc.com/2014/06/17/disruptors-in-2014-palantir.html", "title": "Disruptors in 2014: Palantir — CNBC" }
       ]
     }
   ],

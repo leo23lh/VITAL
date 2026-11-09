@@ -52,7 +52,8 @@
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Stephen_Vaden", "title": "Stephen Vaden — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" },
+        { "url": "https://www.usda.gov/about-usda/news/press-releases/2025/07/07/judge-vaden-sworn-deputy-secretary-us-department-agriculture", "title": "Judge Vaden Sworn in as Deputy Secretary at the U.S. Department of Agriculture — USDA" }
       ]
     }
   ],
@@ -65,8 +66,10 @@
     "since": "2025-07-07",
     "sources": [
       { "url": "https://en.wikipedia.org/wiki/Stephen_Vaden", "title": "Stephen Vaden — Wikipedia" },
-      { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" }
+      { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" },
+      { "url": "https://www.usda.gov/about-usda/news/press-releases/2025/07/07/judge-vaden-sworn-deputy-secretary-us-department-agriculture", "title": "Judge Vaden Sworn in as Deputy Secretary at the U.S. Department of Agriculture — USDA" }
     ]
   },
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "notes": "Second sources added on 2026-11-09 were confirmed by web searches restricted to each source's domain; the pages themselves were not opened."
 }

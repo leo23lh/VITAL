@@ -32,7 +32,9 @@
       "end_year": null,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://www.aha.org/topics/government-appointments", "title": "Government appointments — American Hospital Association" }
+        { "url": "https://www.aha.org/topics/government-appointments", "title": "Government appointments — American Hospital Association" },
+        { "url": "https://www.cdc.gov/about/leadership/director.html", "title": "CDC Director and ATSDR Administrator — CDC" },
+        { "url": "https://www.hhs.gov/about/leadership/erica-schwartz.html", "title": "Erica Schwartz, MD, MPH, JD — HHS leadership" }
       ]
     }
   ],
@@ -44,8 +46,11 @@
     "reports_to": "robert-f-kennedy-jr",
     "since": "2026-08",
     "sources": [
-      { "url": "https://www.aha.org/topics/government-appointments", "title": "Government appointments — American Hospital Association" }
+      { "url": "https://www.aha.org/topics/government-appointments", "title": "Government appointments — American Hospital Association" },
+      { "url": "https://www.cdc.gov/about/leadership/director.html", "title": "CDC Director and ATSDR Administrator — CDC" },
+      { "url": "https://www.hhs.gov/about/leadership/erica-schwartz.html", "title": "Erica Schwartz, MD, MPH, JD — HHS leadership" }
     ]
   },
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "notes": "Second sources added on 2026-11-09 were confirmed by web searches restricted to each source's domain; the pages themselves were not opened."
 }

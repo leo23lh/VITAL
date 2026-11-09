@@ -32,7 +32,8 @@
       "end_year": null,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" },
+        { "url": "https://www.energy.gov/oe/person/catherine-jereza-office-electricity-assistant-secretary", "title": "Catherine Jereza, Office of Electricity Assistant Secretary — Department of Energy" }
       ]
     }
   ],
@@ -44,8 +45,10 @@
     "reports_to": "chris-wright",
     "since": "2025-10",
     "sources": [
-      { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" },
+      { "url": "https://www.energy.gov/oe/person/catherine-jereza-office-electricity-assistant-secretary", "title": "Catherine Jereza, Office of Electricity Assistant Secretary — Department of Energy" }
     ]
   },
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "notes": "Second sources added on 2026-11-09 were confirmed by web searches restricted to each source's domain; the pages themselves were not opened."
 }

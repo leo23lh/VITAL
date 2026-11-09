@@ -290,7 +290,9 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://www.cnbc.com/2014/06/17/disruptors-in-2014-palantir.html", "title": "Disruptors in 2014: Palantir — CNBC" },
+        { "url": "https://fortune.com/2025/05/06/palantir-cultural-shift-us-justified-20-years-thankless-toil-freak-show/", "title": "Defense contractor Palantir says 'massive cultural shift in the U.S.' has justified 20 years of thankless toil — Fortune" }
       ]
     },
     {
@@ -343,7 +345,9 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
         { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Palantir", "title": "Palantir — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Palantir", "title": "Palantir — Wikipedia" },
+        { "url": "https://www.cnbc.com/2018/05/14/palantir-co-founder-joe-lonsdale-wouldnt-mind-if-it-went-public.html", "title": "Palantir co-founder Joe Lonsdale 'wouldn't mind' if the company went public in the next few years — CNBC" },
+        { "url": "https://fortune.com/2025/05/06/palantir-cultural-shift-us-justified-20-years-thankless-toil-freak-show/", "title": "Defense contractor Palantir says 'massive cultural shift in the U.S.' has justified 20 years of thankless toil — Fortune" }
       ]
     }
   ],

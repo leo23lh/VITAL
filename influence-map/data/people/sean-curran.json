@@ -32,7 +32,8 @@
       "end_year": null,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" }
+        { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" },
+        { "url": "https://www.secretservice.gov/about/leadership/director", "title": "Director Sean M. Curran — U.S. Secret Service" }
       ]
     },
     {
@@ -56,8 +57,10 @@
     "reports_to": "markwayne-mullin",
     "since": "2025",
     "sources": [
-      { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" }
+      { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" },
+      { "url": "https://www.secretservice.gov/about/leadership/director", "title": "Director Sean M. Curran — U.S. Secret Service" }
     ]
   },
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "notes": "Second sources added on 2026-11-09 were confirmed by web searches restricted to each source's domain; the pages themselves were not opened."
 }

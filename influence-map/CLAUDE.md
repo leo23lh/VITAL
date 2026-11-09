@@ -19,6 +19,9 @@ the slash commands in the repo root's `.claude/commands/`:
 | `public/photos/<slug>.jpg` | Portraits shown in the dots (freely licensed, from Wikimedia Commons). |
 | `scripts/fetch-photos.mjs` | Downloads a person's Wikipedia lead photo if its license is free and records the credit. |
 | `scripts/validate.mjs` | Checks every file against the rules below. No install needed: `node influence-map/scripts/validate.mjs` from the repo root. |
+| `scripts/evidence-report.mjs` | How well ties are documented, and the research queue of thin ties (`npm run evidence`). See "Evidence". |
+| `scripts/scorecard.mjs` | Freezes the map at a past year and scores its predictions (`npm run scorecard`). See "Scorecard". |
+| `data/scorecard.json` | The scorecard's saved runs, newest first (`npm run scorecard -- --save`). |
 | `src/` | Vite + React + TypeScript viewer (`npm run dev`). Reads the data folder and live-reloads. |
 
 ## Research rules
@@ -538,6 +541,72 @@ Use one record per type per pair; put the whole story in its description.
 | 0.30–0.49 | Contested: one side claims it and the other denies it, or sources conflict. Explain in the description. |
 | below 0.30 | Don't record it. |
 
+## Evidence
+
+Stated confidence is a claim; what the map counts is held to what the sources
+can carry (`src/lib/evidence.ts`). Each link's sources, pooled from both files,
+are grouped by **independent publisher** (one outlet cited twice, or two
+sister brands, count once) and each publisher has a tier:
+
+| Tier | What | Weight |
+| --- | --- | --- |
+| Official record | Government sites (`.gov`, `.mil`), filings, an organization's own site for ties to that organization, the owner's own account | 0.9 |
+| News outlet | Any news organization, of any leaning (the default for a host in no list) | 0.7 |
+| Reference work | Wikipedia, Britannica, Ballotpedia | 0.6 |
+| Other site | Advocacy groups, think tanks, companies' own pages, press-release wires, social media, personal sites (`OTHER` in `evidence.ts`) | 0.5 |
+
+The weights combine as 1 − Π(1 − weight), which gives three grades:
+
+| Grade | Means | Confidence counts up to |
+| --- | --- | --- |
+| **Strong** | An official record, or two independent news outlets, or better | the stated value |
+| **Solid** | Two independent sources, one of them a reference work or other site | 0.90 |
+| **Thin** | One source that isn't an official record | 0.80 (news), 0.75 (reference), 0.70 (other) |
+
+- A link's `confidence` everywhere in the viewer (lines, Bond, Pull, Compare)
+  is `min(stated, cap)`. The details panel shows the grade, and says when a
+  stated value is being held down. A pair whose every link is thin is drawn
+  **dashed**.
+- For a job under a current boss (directly, or up the reporting line to the
+  President), the employee's `office.sources` count as evidence too.
+- **When researching, give every connection two independent sources, or one
+  official record.** Wikipedia plus the news story it cites is fine. Sources
+  must still state the fact (rule 3); never add a source just to raise a grade.
+- `npm run evidence` prints the counts, what the cap does to Pull, and the
+  **research queue**: thin links ranked by how much they matter (kind of tie ×
+  the power or Pull of the stronger end × how much is being held back). Work
+  from the top.
+- New non-news hosts (an advocacy group, a think tank, a company site) go in
+  `OTHER`; sister brands in `SAME_PUBLISHER`. News outlets need no entry, and
+  there is no ranking of outlets by leaning (rule 6).
+
+## Scorecard
+
+`npm run scorecard` measures whether the map predicts anything
+(`src/lib/backtest.ts`). It freezes the map at the end of a past year
+(`freeze()`: ties, jobs, gifts and meetings that started later are dropped,
+ones that ended later reopen, and hindsight fields such as groups, the 2028
+race, leverage and giving outlooks are stripped), then scores the frozen map
+against what the files now record:
+
+- **New ties:** among pairs with no friendly tie at the cutoff, do the ones
+  `compare()` rates closest go on to form one? Reported as AUC (0.50 is a coin
+  flip, 1.00 perfect) next to two simple baselines (shared friends; how well
+  connected both are), and as hits among the 100 closest pairs against chance.
+- **Backing:** for each donor, does closeness on the frozen map pick out whom
+  they fund in the next cycle? Reported against the "same as last time"
+  baseline, and separately for first-time recipients, where repeating the past
+  can't help.
+
+Cutoffs are the ends of 2022 and 2024. **Run it before and after any change to
+the scoring rules** (`graph.ts`, `pull.ts`, `evidence.ts`): a change that
+lowers these numbers needs a reason. `-- --save` records the run in
+`data/scorecard.json` (one entry per day). Limits to keep in mind: the files
+were written with hindsight (older ties were recorded because they matter
+now), undated ties count as already standing, and the samples are small
+(about 100 new ties and 30 gifts per cutoff), so differences of a point or two
+mean nothing.
+
 ## Two-way links
 
 Every connection between two people who both have files must be recorded in
@@ -599,9 +668,12 @@ on a phone. Its link is in `artifact.json`.
 ## Working on the viewer
 
 - `npm install` once, then `npm run dev` (opens http://127.0.0.1:5173).
-- `npm test` runs unit tests; `npm run typecheck`; `npm run validate` checks data.
+- `npm test` runs unit tests; `npm run typecheck`; `npm run validate` checks data;
+  `npm run evidence` and `npm run scorecard` report on sourcing and predictive power.
 - **Code layout.** `src/lib/graph.ts` turns files into nodes and links and
-  scores them (compare, bond, clusters). `src/lib/view.ts` decides what the map
+  scores them (compare, bond, clusters). `src/lib/evidence.ts` grades each
+  link's sources; `src/lib/backtest.ts` is the scorecard (not part of the app
+  bundle; `scripts/lib/load.mjs` runs `src/lib` code from scripts through Vite). `src/lib/view.ts` decides what the map
   shows for a view and filters (`filterLinks`, `spotlightFor`, `visibleGraph`),
   as pure functions with tests in `view.test.ts`. `src/lib/useAppChrome.ts`
   holds the screen-layout and Updates-badge hooks. `src/App.tsx` only wires
@@ -630,8 +702,8 @@ on a phone. Its link is in `artifact.json`.
   selected). Families: Work, Money, Alliance, Current rivalry (yellow), Past
   rivalry, Current enemy (pink), Past enemy, Personal (mentor, family, friend). A rivalry or enmity is
   past when its `end_year` is a year; ongoing or undated ones count as current.
-  Past ones share their family's color but are drawn dotted (dashed still means
-  confidence under 50%). Dots are tinted by sector; organizations are squares
+  Past ones share their family's color but are drawn dotted (dashed means the
+  pair rests on a single source, or confidence under 50%; see "Evidence"). Dots are tinted by sector; organizations are squares
   bordered by side. Both color sets were checked for
   color-blind separation against the dark background; the viewer always pairs
   color with text (legend, tooltips, details), so keep it that way.

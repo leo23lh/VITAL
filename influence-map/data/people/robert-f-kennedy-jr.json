@@ -201,7 +201,9 @@
       "end_year": null,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://www.aha.org/topics/government-appointments", "title": "Government appointments — American Hospital Association" }
+        { "url": "https://www.aha.org/topics/government-appointments", "title": "Government appointments — American Hospital Association" },
+        { "url": "https://www.cdc.gov/about/leadership/director.html", "title": "CDC Director and ATSDR Administrator — CDC" },
+        { "url": "https://www.hhs.gov/about/leadership/erica-schwartz.html", "title": "Erica Schwartz, MD, MPH, JD — HHS leadership" }
       ]
     },
     {

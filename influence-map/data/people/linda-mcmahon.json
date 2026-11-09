@@ -144,7 +144,9 @@
       "end_year": 2025,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" }
+        { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" },
+        { "url": "https://www.axios.com/2021/04/13/trump-policy-institute-brooke-rollins", "title": "Ex-Trump officials launch nonprofit promoting America First ideology — Axios" },
+        { "url": "https://www.foxnews.com/politics/trump-alumni-launch-america-first-policy", "title": "Trump alumni launch 'America First' nonprofit with $20M to promote populist conservatism — Fox News" }
       ]
     },
     {
@@ -155,7 +157,8 @@
       "start_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Linda_McMahon", "title": "Wikipedia: Linda McMahon" }
+        { "url": "https://en.wikipedia.org/wiki/Linda_McMahon", "title": "Wikipedia: Linda McMahon" },
+        { "url": "https://www.foxnews.com/politics/trump-taps-former-wwe-ceo-linda-mcmahon-serve-education-secretary", "title": "Linda McMahon picked by Trump to lead Department of Education — Fox News" }
       ]
     },
     {
@@ -180,7 +183,8 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" },
+        { "url": "https://www.ed.gov/about/ed-organization/leadership-directory/nicholas-kent", "title": "Nicholas Kent — U.S. Department of Education leadership directory" }
       ]
     },
     {

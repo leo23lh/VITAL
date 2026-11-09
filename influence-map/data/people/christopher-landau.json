@@ -58,7 +58,8 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" },
+        { "url": "https://www.state.gov/biographies/christopher-landau", "title": "Christopher Landau — U.S. Department of State" }
       ]
     },
     {
@@ -95,8 +96,10 @@
     "reports_to": "marco-rubio",
     "since": "2025-03-25",
     "sources": [
-      { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" }
+      { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" },
+      { "url": "https://www.state.gov/biographies/christopher-landau", "title": "Christopher Landau — U.S. Department of State" }
     ]
   },
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "notes": "Second sources added on 2026-11-09 were confirmed by web searches restricted to each source's domain; the pages themselves were not opened."
 }
