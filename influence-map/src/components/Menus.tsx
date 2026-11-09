@@ -310,7 +310,7 @@ function FiltersMenu(props: Props) {
         </span>
       </div>
       <p className="muted small">
-        Dot size = connections · thicker line = deeper bond · dashed line = confidence under 50% · glows = clusters, named after the group
+        Dot size = connections · thicker line = deeper bond · dashed line = rests on one source, or confidence under 50% · glows = clusters, named after the group
         most of their people share · green pulses = money moving, giver to receiver
       </p>
 

@@ -2,7 +2,7 @@
 import { describeLink, familyOf, yearRange, type GraphLink } from '../../lib/graph';
 import { EDGE_FAMILY_BY_ID, EDGE_GROUP_BY_ID } from '../../lib/schema';
 import type { Selection } from '../../lib/view';
-import { Confidence, SourceList } from './parts';
+import { Confidence, EvidenceTag, SourceList } from './parts';
 
 export function PairPanel({
   links,
@@ -61,7 +61,19 @@ export function PairPanel({
                 <span className="muted">Confidence</span>
                 <Confidence value={link.confidence} />
               </div>
+              <div>
+                <span className="muted">Evidence</span>
+                <div>
+                  <EvidenceTag evidence={link.evidence} />
+                </div>
+              </div>
             </div>
+            {link.stated > link.confidence + 0.001 && (
+              <p className="muted small evidence-held">
+                The files state {Math.round(link.stated * 100)}%; held to {Math.round(link.confidence * 100)}% until a second
+                independent source or an official record backs it.
+              </p>
+            )}
 
             {link.disagreements.length > 0 && (
               <div className="conflicts">
@@ -83,7 +95,9 @@ export function PairPanel({
                   {yearRange(r.connection.start_year, r.connection.end_year) && (
                     <span>{yearRange(r.connection.start_year, r.connection.end_year)}</span>
                   )}
-                  {typeof r.connection.confidence === 'number' && <Confidence value={r.connection.confidence} />}
+                  {typeof r.connection.confidence === 'number' && (
+                    <span className="muted">Stated: {Math.round(r.connection.confidence * 100)}%</span>
+                  )}
                 </div>
                 <SourceList sources={r.connection.sources} />
               </div>

@@ -70,17 +70,22 @@ const conn = (slug: string, name: string, relationship_type: string, confidence 
 
 describe('buildGraph', () => {
   it('merges the two halves of a reciprocal link into one directed edge', () => {
-    const g = buildGraph([
+    const g0 = [
       person('a', 'Aide', [conn('b', 'Boss', 'employer')]),
       person('b', 'Boss', [conn('a', 'Aide', 'employee', 0.8)]),
-    ]);
+    ];
+    const g = buildGraph(g0);
     expect(g.links).toHaveLength(1);
     const [l] = g.links;
     expect(l.group).toBe('employment');
     expect(l.sourceId).toBe('b');
     expect(l.targetId).toBe('a');
     expect(l.records).toHaveLength(2);
-    expect(l.confidence).toBe(0.9);
+    // Stated 0.9, but one news source carries 0.8 at most.
+    expect(l.stated).toBe(0.9);
+    expect(l.confidence).toBe(0.8);
+    expect(l.evidence.grade).toBe('thin');
+    expect(buildGraph(g0, [], { rawConfidence: true }).links[0].confidence).toBe(0.9);
     expect(describeLink(l, (id) => (id === 'a' ? 'Aide' : 'Boss'))).toBe('Boss employed Aide');
     expect(roleOfOther(l, 'a')).toBe('employer');
     expect(roleOfOther(l, 'b')).toBe('employee');

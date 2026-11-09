@@ -11,6 +11,8 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "validate": "node scripts/validate.mjs",
+    "scorecard": "node scripts/scorecard.mjs",
+    "evidence": "node scripts/evidence-report.mjs",
     "build:artifact": "node scripts/build-artifact.mjs"
   },
   "engines": {

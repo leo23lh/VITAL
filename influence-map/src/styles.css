@@ -805,6 +805,28 @@ a.source-chip:hover {
   background: #f87171;
 }
 
+.evidence-grade {
+  font-weight: 600;
+}
+
+.evidence-strong .evidence-grade {
+  color: #34d399;
+}
+
+.evidence-solid .evidence-grade {
+  color: #f5c542;
+}
+
+.evidence-thin .evidence-grade,
+.evidence-none .evidence-grade,
+.evidence-flag {
+  color: #f87171;
+}
+
+.evidence-held {
+  margin: 6px 0 0;
+}
+
 .conflicts {
   padding: 10px 12px;
   border-radius: 8px;

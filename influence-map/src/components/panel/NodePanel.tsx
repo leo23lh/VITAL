@@ -261,6 +261,12 @@ export function NodePanel({
                         <span className="muted"> · {yearRange(l.startYear, l.endYear)}</span>
                       )}
                       <span className="muted"> · {Math.round(l.confidence * 100)}%</span>
+                      {(l.evidence.grade === 'thin' || l.evidence.grade === 'none') && (
+                        <span className="evidence-flag" title={l.evidence.note}>
+                          {' '}
+                          · 1 source
+                        </span>
+                      )}
                     </span>
                   ))}
                 </div>

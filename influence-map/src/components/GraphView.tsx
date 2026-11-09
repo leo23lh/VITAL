@@ -384,7 +384,7 @@ export default function GraphView({
         linkLineDash={(p) => {
           const fam = lineFamily(p, radial);
           if (fam === 'past-rivalry' || fam === 'past-enmity') return [1.5, 3];
-          return p.confidence < 0.5 ? [4, 3] : null;
+          return p.thin || p.confidence < 0.5 ? [4, 3] : null;
         }}
         linkDirectionalArrowLength={(p) => (p.directed && colored(p) ? 6 : 0)}
         linkDirectionalArrowRelPos={1}
@@ -826,7 +826,7 @@ function pairTooltip(p: PairLink, nameOf: (id: string) => string, isOrg: (id: st
       return `<div><span class="tt-swatch" style="background:${f.color}"></span>${esc(describeLink(l, nameOf, isOrg))}</div>`;
     })
     .join('');
-  return `<div class="tt">${rows}<div class="tt-muted">Confidence up to ${Math.round(p.confidence * 100)}% · tap for sources</div></div>`;
+  return `<div class="tt">${rows}<div class="tt-muted">Confidence up to ${Math.round(p.confidence * 100)}%${p.thin ? ' · single source' : ''} · tap for sources</div></div>`;
 }
 
 function esc(s: string): string {

@@ -18,6 +18,7 @@ import {
   slugify,
   sourceUrl,
 } from './schema';
+import { evidenceOf, type Evidence } from './evidence';
 
 export interface GraphNode {
   id: string;
@@ -69,7 +70,12 @@ export interface GraphLink {
   sourceId: string;
   targetId: string;
   records: EdgeRecord[];
+  /** What the map counts: the stated confidence, held to what the sources can carry (`evidence.cap`). */
   confidence: number;
+  /** The highest confidence the files state for this link. */
+  stated: number;
+  /** How well the link is documented, from every source in both files. */
+  evidence: Evidence;
   startYear: number | null;
   /** null = ongoing, undefined = not recorded. */
   endYear: number | null | undefined;
@@ -91,7 +97,12 @@ export function linkEndId(end: string | GraphNode): string {
   return typeof end === 'string' ? end : end.id;
 }
 
-export function buildGraph(files: PersonFile[], orgFiles: OrgFile[] = []): GraphData {
+export interface BuildOptions {
+  /** Count each link at its stated confidence, ignoring the evidence cap. Only for the scorecard's comparison. */
+  rawConfidence?: boolean;
+}
+
+export function buildGraph(files: PersonFile[], orgFiles: OrgFile[] = [], opts: BuildOptions = {}): GraphData {
   const nodes = new Map<string, GraphNode>();
   const skipped: GraphData['skipped'] = [];
 
@@ -178,6 +189,8 @@ export function buildGraph(files: PersonFile[], orgFiles: OrgFile[] = []): Graph
           targetId,
           records: [],
           confidence: 0,
+          stated: 0,
+          evidence: evidenceOf([]),
           startYear: null,
           endYear: null,
           sources: [],
@@ -191,7 +204,11 @@ export function buildGraph(files: PersonFile[], orgFiles: OrgFile[] = []): Graph
     }
   }
 
-  for (const link of links.values()) summarizeLink(link);
+  for (const link of links.values()) {
+    // A current post that reports to this boss is itself a record of the job: its sources count as evidence.
+    const office = link.group === 'employment' ? nodes.get(link.targetId)?.person?.office : undefined;
+    summarizeLink(link, office?.reports_to === link.sourceId ? office.sources : [], opts.rawConfidence);
+  }
 
   // Degree = distinct neighbours, across all relationship types.
   const neighbours = new Map<string, Set<string>>();
@@ -235,9 +252,9 @@ export function buildGraph(files: PersonFile[], orgFiles: OrgFile[] = []): Graph
   return { nodes: [...nodes.values()], links: [...links.values()], skipped };
 }
 
-function summarizeLink(link: GraphLink) {
+function summarizeLink(link: GraphLink, officeSources: SourceRef[] = [], rawConfidence = false) {
   const confs = link.records.map((r) => clamp01(r.connection.confidence));
-  link.confidence = Math.max(...confs);
+  link.stated = Math.max(...confs);
 
   const starts = uniq(link.records.map((r) => r.connection.start_year).filter(isYear));
   const ends = uniq(link.records.map((r) => r.connection.end_year).filter(isYear));
@@ -254,6 +271,9 @@ function summarizeLink(link: GraphLink) {
       link.sources.push(s);
     }
   }
+  // Certainty is earned: a tie counts for no more than its sources can carry.
+  link.evidence = evidenceOf([...link.sources, ...officeSources], [link.sourceId, link.targetId]);
+  link.confidence = rawConfidence ? link.stated : Math.min(link.stated, link.evidence.cap);
 
   if (link.records.length > 1) {
     if (starts.length > 1) link.disagreements.push(`Start year differs between files: ${starts.join(' vs ')}`);
@@ -405,6 +425,8 @@ export interface PairLink {
   /** The family that colors the line (see FAMILY_PRIORITY). */
   family: EdgeFamily;
   confidence: number;
+  /** Every link between the two rests on a single source that isn't an official record (drawn dashed). */
+  thin: boolean;
   /** Arrow only when the pair has a single, directed link. */
   directed: boolean;
   touchesSuggested: boolean;
@@ -434,6 +456,7 @@ export function mergePairs(links: GraphLink[]): PairLink[] {
       links: ls,
       family: familyOf(ls[0]),
       confidence: Math.max(...ls.map((l) => l.confidence)),
+      thin: ls.every((l) => l.evidence.grade === 'thin' || l.evidence.grade === 'none'),
       directed: !!single?.directed,
       touchesSuggested: ls.some((l) => l.touchesSuggested),
       closeness: pairCloseness(ls),

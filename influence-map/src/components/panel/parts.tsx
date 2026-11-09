@@ -2,6 +2,7 @@
 import { useRef, useState } from 'react';
 import { linkEndId, type GraphLink } from '../../lib/graph';
 import { sourceLabel, sourceUrl, type SourceRef } from '../../lib/schema';
+import { GRADE_LABEL, type Evidence } from '../../lib/evidence';
 
 export function SourceList({ sources, compact }: { sources?: SourceRef[]; compact?: boolean }) {
   if (!sources || sources.length === 0) return compact ? null : <div className="sources muted">No sources</div>;
@@ -36,6 +37,16 @@ export function Confidence({ value }: { value: number }) {
         <span style={{ width: `${pct}%` }} />
       </span>
       {pct}%
+    </span>
+  );
+}
+
+/** How well a tie is documented: "Strong · 3 independent sources (1 official record)". */
+export function EvidenceTag({ evidence }: { evidence: Evidence }) {
+  return (
+    <span className={`evidence evidence-${evidence.grade}`}>
+      <span className="evidence-grade">{GRADE_LABEL[evidence.grade]}</span>
+      <span className="muted small"> · {evidence.note}</span>
     </span>
   );
 }
