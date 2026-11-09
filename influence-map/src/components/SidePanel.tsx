@@ -5,6 +5,7 @@ import type { Layout, Selection } from '../lib/view';
 import { NodePanel } from './panel/NodePanel';
 import { PairPanel } from './panel/PairPanel';
 import { ComparePanel } from './panel/ComparePanel';
+import type { BackingTools } from './panel/BackingSection';
 import type { PullTools } from './panel/PullSection';
 
 interface Props {
@@ -20,6 +21,7 @@ interface Props {
   /** Who worked where (from timelines), for the bond meter. */
   workplaces: WorkplaceIndex;
   pullTools: PullTools;
+  backingTools: BackingTools;
   onClose: () => void;
 }
 
@@ -34,6 +36,7 @@ export default function SidePanel({
   onCompare,
   workplaces,
   pullTools,
+  backingTools,
   onClose,
 }: Props) {
   // Bottom sheet (folded phone): starts as a short peek, drag or tap the handle to expand.
@@ -89,6 +92,7 @@ export default function SidePanel({
           nodeOf={(id) => nodeById.get(id)}
           workplaces={workplaces}
           pullTools={pullTools}
+          backingTools={backingTools}
         />
       );
   } else {

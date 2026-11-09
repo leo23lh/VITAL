@@ -1,5 +1,20 @@
 [
   {
+    "id": "2026-11-09-2028-backing",
+    "date": "2026-11-09",
+    "text": "New: 2028 backing (Views, and a 2028 tab on each person). It predicts who is likely to back each contender from how close they are and how well their politics fit, on top of declared camps and reported plans. On past donations it beat closeness alone (0.88 against 0.82 for the 2026 cycle), and about 6 in 10 pairs it rated likely went on to give. Today it has 219 predictions outside the camps, led by JD Vance (68), Marco Rubio (60) and Donald Trump Jr. (55); all are saved in a dated log to be checked later. People who have died (David Horowitz, Jeffrey Epstein) no longer appear in the Pull ranking.",
+    "people": [
+      "jd-vance",
+      "marco-rubio",
+      "donald-trump-jr",
+      "ted-cruz",
+      "ron-desantis",
+      "gavin-newsom",
+      "kamala-harris",
+      "david-horowitz"
+    ]
+  },
+  {
     "id": "2026-11-09-evidence-scorecard",
     "date": "2026-11-09",
     "text": "Certainty is now earned from sources: a tie resting on one news story counts for at most 80%, on Wikipedia alone 75%, and only an official record or two independent outlets carry it in full. Single-source ties are drawn dashed and marked in the details. 31 files gained second sources or official pages, and a post's own record now backs the job, so single-source ties fell from 222 to 181 of 909. A new scorecard freezes the map at a past year and tests its predictions: closeness picks out future ties (0.76 against 0.70 for the best simple baseline, where 0.50 is a coin flip) and next-cycle donations (0.82 against 0.75 for \"same as last time\").",

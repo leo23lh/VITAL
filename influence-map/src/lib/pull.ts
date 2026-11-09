@@ -161,10 +161,10 @@ export interface PullRow extends Pull {
   id: string;
 }
 
-/** Everyone ranked by pull (people only; the President is left out as the source of it). */
+/** Everyone living ranked by pull (people only; the President is left out as the source of it). */
 export function rankPull(nodes: GraphNode[], idx: BondIndex, now = new Date()): PullRow[] {
   return nodes
-    .filter((n) => n.researched && !n.isOrg && !(n.person?.office?.unit === 'white-house' && n.person.office.rank === 1))
+    .filter((n) => n.researched && !n.isOrg && !n.person?.died && !(n.person?.office?.unit === 'white-house' && n.person.office.rank === 1))
     .map((n) => ({ id: n.id, ...pullOf(n.id, nodes, idx, now, n) }))
     .filter((r) => r.score > 0)
     .sort((a, b) => b.score - a.score);

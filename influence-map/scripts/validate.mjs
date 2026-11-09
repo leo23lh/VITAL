@@ -306,6 +306,10 @@ export function validatePeople(records, opts = {}) {
       }
     }
 
+    if (p.died !== undefined) {
+      if (!Number.isInteger(p.died) || p.died < 1900 || p.died > new Date().getFullYear()) err(file, '"died" must be a year');
+      else if (p.office) err(file, '"died" and "office" can\'t both be set');
+    }
     if (p.org_chart_only !== undefined) {
       if (typeof p.org_chart_only !== 'boolean') err(file, '"org_chart_only" must be true or false');
       else if (p.org_chart_only && !p.office) err(file, '"org_chart_only" needs an "office" (it places the person in the org chart)');
@@ -424,7 +428,7 @@ export function validatePeople(records, opts = {}) {
     if (!isYear(o.founded) || !isYear(o.dissolved)) err(file, '"founded"/"dissolved" must be years or null');
     if (typeof o.last_researched !== 'string' || !DATE_RE.test(o.last_researched))
       err(file, '"last_researched" must be a YYYY-MM-DD date');
-    for (const key of ['public_figure', 'photo', 'lean', 'giving', 'race_2028', 'sector', 'self_added', 'office', 'org_chart_only', 'leverage', 'access'])
+    for (const key of ['public_figure', 'photo', 'lean', 'giving', 'race_2028', 'sector', 'self_added', 'office', 'org_chart_only', 'leverage', 'access', 'died'])
       if (o[key] !== undefined) err(file, `"${key}" is a person field; organizations don't take it`);
     if (o.groups !== undefined) {
       if (!Array.isArray(o.groups)) err(file, '"groups" must be an array');

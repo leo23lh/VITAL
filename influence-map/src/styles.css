@@ -2278,3 +2278,25 @@ a.source-chip:hover {
   padding: 4px 0;
   border-bottom: 1px solid var(--hairline);
 }
+
+/* 2028 backing view */
+.pullview h2.backing-side {
+  font-size: 20px;
+  margin: 20px 0 6px;
+}
+
+.backing-score {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 1;
+}
+
+.backing-label {
+  font: 600 9.5px/1.2 var(--sans);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cream-dim);
+  margin-top: 3px;
+  white-space: nowrap;
+}

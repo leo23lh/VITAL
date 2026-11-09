@@ -455,6 +455,8 @@ export interface Person {
   race_2028?: Race2028;
   /** Political giving by cycle, and who they are likely to fund next. */
   giving?: Giving;
+  /** Year of death, for someone who has died: they keep their ties but hold no Pull and back no one. */
+  died?: number;
   /** Current government post, for the org chart. */
   office?: Office;
   /** Junior official: shown in the org chart and Pull, kept off the main web unless searched for. */

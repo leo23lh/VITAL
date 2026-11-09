@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import GraphView, { BACKGROUND, type GraphHandle } from './components/GraphView';
 import OrgChart from './components/OrgChart';
 import PullView from './components/PullView';
+import BackingView from './components/BackingView';
 import Menus from './components/Menus';
 import SidePanel from './components/SidePanel';
 import Toolbar from './components/Toolbar';
@@ -14,6 +15,7 @@ import { EDGE_FAMILIES, type EdgeFamily } from './lib/schema';
 import { useLayout, useMenus, useToggleSet } from './lib/useAppChrome';
 import { buildOrgChart } from './lib/orgchart';
 import { bondIndex } from './lib/pull';
+import { backingBoard, type BackingBoard } from './lib/backing';
 import { usePeople } from './lib/usePeople';
 import {
   DEFAULT_FORCES,
@@ -91,6 +93,21 @@ export default function App() {
   const pullTools = useMemo(
     () => ({ nodes: graph.nodes, bonds, onPullOf: (id: string) => setView({ kind: 'pull', of: id }) }),
     [graph, bonds],
+  );
+  // 2028 backing: scored on first use (the view or a person's 2028 tab), then kept until the files change.
+  const boardCache = useRef<{ links: unknown; board: BackingBoard } | null>(null);
+  const backingTools = useMemo(
+    () => ({
+      getBoard: () => {
+        if (boardCache.current?.links !== graph.links) boardCache.current = { links: graph.links, board: backingBoard(graph.nodes, graph.links) };
+        return boardCache.current.board;
+      },
+      onBackingOf: (id: string) => {
+        setSelection(null);
+        setView({ kind: 'backing', of: id });
+      },
+    }),
+    [graph],
   );
   const orgChart = useMemo(
     () => (view.kind === 'org' ? buildOrgChart(graph.nodes, graph.links, workplaces) : null),
@@ -223,6 +240,15 @@ export default function App() {
               selectedId={selectedNodeId}
               onSelect={(id) => setSelection({ kind: 'node', id })}
             />
+          ) : view.kind === 'backing' ? (
+            <BackingView
+              nodes={graph.nodes}
+              board={backingTools.getBoard()}
+              of={view.of}
+              onOf={(of) => setView({ kind: 'backing', of })}
+              selectedId={selectedNodeId}
+              onSelect={(id) => setSelection({ kind: 'node', id })}
+            />
           ) : orgChart ? (
             <OrgChart chart={orgChart} selectedId={selectedNodeId} onSelect={(id) => setSelection({ kind: 'node', id })} />
           ) : (
@@ -333,6 +359,7 @@ export default function App() {
           onCompare={openCompare}
           workplaces={workplaces}
           pullTools={pullTools}
+          backingTools={backingTools}
           onClose={() => (selection ? setSelection(null) : setView({ kind: 'all' }))}
         />
       </main>

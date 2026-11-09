@@ -29,10 +29,11 @@ await withLib(async (lib) => {
   console.log('\nBACKING: does the map predict whom donors fund in the next cycle?');
   for (const [i, t] of card.giving.entries()) {
     console.log(`  Frozen at end of ${t.cutoff}, predicting the ${t.cycle} cycle: ${t.gifts} gifts by ${t.donors} donors (${t.newGifts} to first-time recipients)`);
-    console.log(`    map closeness   AUC ${f2(t.auc)}   (without evidence cap ${f2(raw.giving[i].auc)})`);
+    const pct = (n) => (Number.isFinite(n) ? Math.round(n * 100) + '%' : 'n/a');
+    console.log(`    backing score   AUC ${f2(t.aucBacking)}   first-time recipients ${f2(t.aucBackingNew)}   in the donor's top five for ${pct(t.top5Backing)} of gifts`);
+    console.log(`    closeness alone AUC ${f2(t.auc)}   first-time recipients ${f2(t.aucNew)}   in the donor's top five for ${pct(t.top5)}   (without evidence cap ${f2(raw.giving[i].auc)})`);
     console.log(`    "same as last time" baseline  AUC ${f2(t.aucRepeat)}`);
-    console.log(`    first-time recipients only    AUC ${f2(t.aucNew)}`);
-    console.log(`    recipient was in the donor's five closest for ${Number.isFinite(t.top5) ? Math.round(t.top5 * 100) + '%' : 'n/a'} of gifts`);
+    for (const b of t.bands) console.log(`      ${b.label.padEnd(24)} ${String(b.gave).padStart(3)} of ${String(b.pairs).padStart(3)} pairs gave  (${b.pairs ? Math.round((100 * b.gave) / b.pairs) : 0}%)`);
   }
 
   if (save) {

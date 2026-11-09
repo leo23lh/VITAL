@@ -749,25 +749,40 @@ export function hubFactor(degree: number): number {
  * How closely two people are tied: the strongest chain between them, the circle
  * they share, and a 0–100 score from both. A direct rivalry or enmity lowers the score.
  */
-export function compare(
-  a: string,
-  b: string,
-  pairs: PairLink[],
-  nodes: Map<string, GraphNode>,
-  now = new Date().getFullYear(),
-): Comparison {
-  const hub = (id: string) => hubFactor(nodes.get(id)?.degree ?? 0);
-  const adj = new Map<string, { other: string; pair: PairLink; w: number }[]>();
-  let direct: GraphLink[] = [];
+/** Friendly ties by person, built once so many pairs can be compared quickly (see compare()). */
+export interface ClosenessIndex {
+  adj: Map<string, { other: string; pair: PairLink; w: number }[]>;
+  /** Every link between a pair, feuds included, by pairKey. */
+  direct: Map<string, GraphLink[]>;
+}
+
+export function closenessIndex(pairs: PairLink[], now = new Date().getFullYear()): ClosenessIndex {
+  const adj: ClosenessIndex['adj'] = new Map();
+  const direct: ClosenessIndex['direct'] = new Map();
   for (const p of pairs) {
     const s = linkEndId(p.source);
     const t = linkEndId(p.target);
-    if (pairKey(s, t) === pairKey(a, b)) direct = p.links;
+    direct.set(pairKey(s, t), p.links);
     const w = friendlyCloseness(p.links, now);
     if (w <= 0) continue;
     (adj.get(s) ?? adj.set(s, []).get(s)!).push({ other: t, pair: p, w });
     (adj.get(t) ?? adj.set(t, []).get(t)!).push({ other: s, pair: p, w });
   }
+  return { adj, direct };
+}
+
+export function compare(
+  a: string,
+  b: string,
+  /** The pairs to compare over, or an index of them from closenessIndex() when comparing many pairs. */
+  pairs: PairLink[] | ClosenessIndex,
+  nodes: Map<string, GraphNode>,
+  now = new Date().getFullYear(),
+): Comparison {
+  const hub = (id: string) => hubFactor(nodes.get(id)?.degree ?? 0);
+  const index = Array.isArray(pairs) ? closenessIndex(pairs, now) : pairs;
+  const adj = index.adj;
+  const direct = index.direct.get(pairKey(a, b)) ?? [];
 
   // Strongest chain: best product of closeness over at most MAX_CHAIN links, no one visited twice.
   let best: { strength: number; path: string[]; pairs: PairLink[] } | null = null;

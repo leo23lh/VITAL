@@ -4,6 +4,7 @@ import { bond, familyOf, linkEndId, matchesQuery, type WorkplaceIndex, pairKey, 
 import { EDGE_FAMILY_BY_ID, GROUPS, ORG_KIND_LABEL, RECIPIENT_KIND_LABEL, SECTOR_BY_ID, formatUsd, leanLabel, orgSideColor, sourceUrl, type Affiliation, type Giving, type GivingSide, type OrgFinance } from '../../lib/schema';
 import type { Selection } from '../../lib/view';
 import { Confidence, CopyCommand, SourceList, dedupeSources, otherEnd, uniqueDescriptions } from './parts';
+import { BackingSection, hasBackingTab, type BackingTools } from './BackingSection';
 import { PullSection, type PullTools } from './PullSection';
 
 export function NodePanel({
@@ -19,6 +20,7 @@ export function NodePanel({
   nodeOf,
   workplaces,
   pullTools,
+  backingTools,
 }: {
   node: GraphNode;
   links: GraphLink[];
@@ -34,9 +36,10 @@ export function NodePanel({
   nodeOf: (id: string) => GraphNode | undefined;
   workplaces: WorkplaceIndex;
   pullTools: PullTools;
+  backingTools: BackingTools;
 }) {
   const [picking, setPicking] = useState(false);
-  const [tab, setTab] = useState<'overview' | 'ties' | 'pull' | 'money' | 'record'>('overview');
+  const [tab, setTab] = useState<'overview' | 'ties' | 'pull' | 'race' | 'money' | 'record'>('overview');
   const p = node.person;
   const o = node.org;
   // Fields people and organizations share.
@@ -165,6 +168,7 @@ export function NodePanel({
             ['overview', 'Overview'],
             ['ties', `Ties ${people.length}`],
             ...(!node.isOrg && node.researched ? ([['pull', 'Pull']] as const) : []),
+            ...(hasBackingTab(node) ? ([['race', '2028']] as const) : []),
             ...(hasMoney ? ([['money', 'Money']] as const) : []),
             ['record', 'Record'],
           ] as const
@@ -295,6 +299,8 @@ export function NodePanel({
       )}
 
       {tab === 'pull' && <PullSection node={node} tools={pullTools} nameOf={nameOf} onSelect={onSelect} />}
+
+      {tab === 'race' && <BackingSection node={node} tools={backingTools} nameOf={nameOf} onCompare={onCompare} />}
 
       {tab === 'record' && (
         <>

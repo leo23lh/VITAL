@@ -2,7 +2,8 @@
 // came next, and score the predictions against what the files now record. Every change to the
 // scoring rules should be judged by whether these numbers go up. See CLAUDE.md "Scorecard".
 
-import { buildGraph, compare, mergePairs, pairKey, type BuildOptions, type GraphData, type GraphLink } from './graph';
+import { structuralBacking } from './backing';
+import { buildGraph, closenessIndex, compare, mergePairs, pairKey, type BuildOptions, type GraphData, type GraphLink } from './graph';
 import type { Connection, OrgFile, Person, PersonFile, TimelineEntry } from './schema';
 
 export interface MapFiles {
@@ -81,6 +82,8 @@ interface Frozen {
   tied: Set<string>;
   /** 0–100 closeness of a pair from the frozen map (see compare()). */
   score: (a: string, b: string) => number;
+  /** 0–1 backing score of a pair from the frozen map: closeness plus political fit (see backing.ts). */
+  backing: (a: string, b: string) => number;
 }
 
 function frozenMap(files: MapFiles, year: number, opts: BuildOptions): Frozen {
@@ -95,9 +98,15 @@ function frozenMap(files: MapFiles, year: number, opts: BuildOptions): Frozen {
       neighbours.get(x)!.add(y);
     }
   }
-  const pairs = mergePairs(graph.links);
+  const index = closenessIndex(mergePairs(graph.links), year);
   const byId = new Map(graph.nodes.map((n) => [n.id, n]));
-  return { graph, neighbours, tied, score: (a, b) => compare(a, b, pairs, byId, year).score };
+  return {
+    graph,
+    neighbours,
+    tied,
+    score: (a, b) => compare(a, b, index, byId, year).score,
+    backing: (a, b) => structuralBacking(a, b, index, byId, year).score,
+  };
 }
 
 export interface TieTest {
@@ -178,7 +187,15 @@ export interface GivingTest {
   gifts: number;
   /** Gifts to someone the donor had not funded before the cutoff. */
   newGifts: number;
-  /** AUC over every donor × recipient pair. */
+  /** AUC of the backing score (closeness plus political fit) over every donor × recipient pair. */
+  aucBacking: number;
+  /** The same on first-time recipients only. */
+  aucBackingNew: number;
+  /** Share of the gifts whose recipient was among the donor's five highest backing scores. */
+  top5Backing: number;
+  /** How often pairs in each backing band went on to give: what the labels have meant in the past. */
+  bands: { label: string; min: number; pairs: number; gave: number }[];
+  /** AUC of closeness alone over every donor × recipient pair. */
   auc: number;
   /** Baseline: "they will fund whoever they funded before". */
   aucRepeat: number;
@@ -188,7 +205,15 @@ export interface GivingTest {
   top5: number;
 }
 
-/** Does closeness on the frozen map predict whom donors fund in the next cycle? */
+/** The backing labels' score bands (see backingLabel()). */
+const BANDS: [string, number, number][] = [
+  ['Likely or better (65+)', 65, 101],
+  ['Leaning (45–64)', 45, 65],
+  ['Possible (30–44)', 30, 45],
+  ['Unlikely (under 30)', 0, 30],
+];
+
+/** Does the frozen map predict whom donors fund in the next cycle? */
 export function givingTest(files: MapFiles, cutoff: number, opts: BuildOptions = {}): GivingTest {
   const cycle = cutoff + 2 - (cutoff % 2);
   const frozen = frozenMap(files, cutoff, opts);
@@ -199,7 +224,7 @@ export function givingTest(files: MapFiles, cutoff: number, opts: BuildOptions =
   const recipients = new Set<string>();
   for (const f of files.people) for (const c of f.data.giving?.cycles ?? []) for (const r of c.recipients ?? []) keysOf(r).forEach((k) => recipients.add(k));
 
-  const rows: { hit: boolean; before: boolean; score: number; rank: number }[] = [];
+  const rows: { hit: boolean; before: boolean; score: number; rank: number; backing: number; backingRank: number }[] = [];
   let donors = 0;
   for (const f of files.people) {
     if (!onMap.has(f.slug)) continue;
@@ -218,9 +243,12 @@ export function givingTest(files: MapFiles, cutoff: number, opts: BuildOptions =
           frozen.graph.links.some((l) => l.group === 'funding' && l.sourceId === f.slug && l.targetId === r),
         score: frozen.score(f.slug, r),
         rank: 0,
+        backing: frozen.backing(f.slug, r),
+        backingRank: 0,
       }))
       .sort((x, y) => y.score - x.score);
     scored.forEach((r, i) => (r.rank = i + 1));
+    [...scored].sort((x, y) => y.backing - x.backing).forEach((r, i) => (r.backingRank = i + 1));
     rows.push(...scored);
   }
 
@@ -233,6 +261,13 @@ export function givingTest(files: MapFiles, cutoff: number, opts: BuildOptions =
     donors,
     gifts: hits.length,
     newGifts: hits.filter((r) => !r.before).length,
+    aucBacking: auc(hits.map((r) => r.backing), misses.map((r) => r.backing)),
+    aucBackingNew: auc(fresh.filter((r) => r.hit).map((r) => r.backing), fresh.filter((r) => !r.hit).map((r) => r.backing)),
+    top5Backing: hits.length ? hits.filter((r) => r.backingRank <= 5).length / hits.length : NaN,
+    bands: BANDS.map(([label, min, max]) => {
+      const inBand = rows.filter((r) => r.backing * 100 >= min && r.backing * 100 < max);
+      return { label, min, pairs: inBand.length, gave: inBand.filter((r) => r.hit).length };
+    }),
     auc: auc(hits.map((r) => r.score), misses.map((r) => r.score)),
     aucRepeat: auc(hits.map((r) => +r.before), misses.map((r) => +r.before)),
     aucNew: auc(fresh.filter((r) => r.hit).map((r) => r.score), fresh.filter((r) => !r.hit).map((r) => r.score)),

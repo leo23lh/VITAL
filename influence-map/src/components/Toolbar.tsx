@@ -54,6 +54,8 @@ export function viewLabel(view: View, nameOf: (id: string) => string): string {
       return 'Org chart';
     case 'pull':
       return view.of ? `Pull with ${nameOf(view.of)}` : 'Pull';
+    case 'backing':
+      return view.of ? `Who backs ${nameOf(view.of)}` : '2028 backing';
   }
 }
 

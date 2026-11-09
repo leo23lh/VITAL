@@ -22,6 +22,8 @@ the slash commands in the repo root's `.claude/commands/`:
 | `scripts/evidence-report.mjs` | How well ties are documented, and the research queue of thin ties (`npm run evidence`). See "Evidence". |
 | `scripts/scorecard.mjs` | Freezes the map at a past year and scores its predictions (`npm run scorecard`). See "Scorecard". |
 | `data/scorecard.json` | The scorecard's saved runs, newest first (`npm run scorecard -- --save`). |
+| `scripts/predict.mjs` | Today's 2028 backing predictions, and how earlier runs are holding up (`npm run predict`). See "Backing". |
+| `data/predictions.json` | The prediction log: dated runs of `[person, contender, score, basis]` (`npm run predict -- --save`). |
 | `src/` | Vite + React + TypeScript viewer (`npm run dev`). Reads the data folder and live-reloads. |
 
 ## Research rules
@@ -140,6 +142,10 @@ patterns). Passing it does not mean the rules are met; it only catches slips.
   access to en.wikipedia.org and upload.wikimedia.org (the "VITAL" cloud
   environment allows them); if they're blocked, skip the photo and say so.
 - **lean** (public figures): political lean by period. See "Political lean" below.
+- **died** (optional): the year of death, for someone who has died and stays on
+  the map for their ties (David Horowitz, Jeffrey Epstein). They keep their
+  links but are left out of the Pull ranking and of 2028 backing, and can't
+  hold an `office`. The death itself is stated, with sources, in the summary.
 - **last_researched**: date the person was last researched (YYYY-MM-DD). Don't
   change it when you only add a reciprocal link to their file.
 
@@ -342,7 +348,8 @@ close someone is to people in power (`src/lib/pull.ts`):
   the sources. `access` events need a date, the officials' slugs and sources;
   they are about contact, not opinions of it.
 - "Whose ear" ranks everyone by Bond with one official instead. The President
-  is left out of the overall ranking (pull is measured against him).
+  is left out of the overall ranking (pull is measured against him), as is
+  anyone with `died` set.
 
 Group views, 2028 camps, Follow the money and Feuds are **spotlight** views:
 only the view's own people are on the map, every name shown, with only the
@@ -593,10 +600,11 @@ against what the files now record:
   `compare()` rates closest go on to form one? Reported as AUC (0.50 is a coin
   flip, 1.00 perfect) next to two simple baselines (shared friends; how well
   connected both are), and as hits among the 100 closest pairs against chance.
-- **Backing:** for each donor, does closeness on the frozen map pick out whom
-  they fund in the next cycle? Reported against the "same as last time"
-  baseline, and separately for first-time recipients, where repeating the past
-  can't help.
+- **Backing:** for each donor, does the frozen map pick out whom they fund in
+  the next cycle? Reported for the backing score (closeness plus political fit;
+  see "Backing"), for closeness alone, and for the "same as last time"
+  baseline; separately for first-time recipients, where repeating the past
+  can't help; and as how often pairs in each label's band went on to give.
 
 Cutoffs are the ends of 2022 and 2024. **Run it before and after any change to
 the scoring rules** (`graph.ts`, `pull.ts`, `evidence.ts`): a change that
@@ -606,6 +614,51 @@ were written with hindsight (older ties were recorded because they matter
 now), undated ties count as already standing, and the samples are small
 (about 100 new ties and 30 gifts per cutoff), so differences of a point or two
 mean nothing.
+
+## Backing
+
+**Views → 2028 backing**, and a **2028** tab on each person, score 0–100 how
+likely someone is to back each 2028 contender (`src/lib/backing.ts`). It is
+a prediction, built in two layers:
+
+- **What the map can be tested on** (`structuralBacking`): closeness
+  (`compare()`: the strongest chain and the shared circle) combined with
+  **political fit** so that either can carry the score:
+  `1 − (1 − closeness) × (1 − 0.3 × fit)`. Fit comes from the two leans (an
+  organization's side counts as ±2): the same lean 1, one step apart 0.9, two
+  0.6, three 0.3, opposite sides 0.08, and 0.6 when either lean is missing. So
+  someone on the same side with no tie scores 30, and a close tie can still
+  carry across sides (on past donations it did: the tech donors who changed
+  sides). A current feud with the contender multiplies it by 0.1.
+- **What is declared** sits on top: a camp (`race_2028`) counts 0.9 and a
+  reported plan to give (`giving.outlook.likely` naming the contender) counts
+  its confidence, combined the same way. Someone in the camp of a rival on the
+  same side has their score for the others multiplied by 0.6.
+- **Labels:** 85+ very likely, 65+ likely, 45+ leaning, 30+ possible, else
+  unlikely. On past donations (the scorecard, both cutoffs pooled), about 6 in
+  10 pairs rated likely or better went on to give, 1 in 7 leaning, 1 in 10
+  possible and 1 in 50 unlikely. The viewer quotes this
+  (`BACKING_TRACK_RECORD` in `BackingView.tsx`); update it when the scorecard
+  moves.
+- **Who is scored:** living, researched public figures on the main web. Not
+  organizations, org-chart-only officials, or the contenders themselves.
+- **The board** lists each contender with the people in their camp, the people
+  who would pick them first without being in it (a first choice needs 45), and
+  what the donors among both gave in their latest reported cycle. "Up for
+  grabs" lists donors with no camp whose two best same-side choices are within
+  8 points.
+- **Honest limits.** The 0.3 weight was chosen on the same past donations the
+  scorecard reports, so the score's own numbers flatter it a little. Donations
+  are not endorsements, and no primary has been backtested. Foreign figures
+  are scored like anyone else. Treat a score as "worth watching", and the
+  reasons line as the thing to check.
+- **The prediction log.** `npm run predict -- --save` records every pair rated
+  45 or higher (outside the camps) in `data/predictions.json` with the date.
+  `npm run predict` then says how each earlier run is holding up: a pick has
+  come true when the files later put the person in that contender's camp or
+  record a 2028-cycle gift to them, and has missed when they join only a
+  same-side rival's camp. Save a run after any big change to the map or the
+  rules; never edit old runs.
 
 ## Two-way links
 
@@ -672,7 +725,7 @@ on a phone. Its link is in `artifact.json`.
   `npm run evidence` and `npm run scorecard` report on sourcing and predictive power.
 - **Code layout.** `src/lib/graph.ts` turns files into nodes and links and
   scores them (compare, bond, clusters). `src/lib/evidence.ts` grades each
-  link's sources; `src/lib/backtest.ts` is the scorecard (not part of the app
+  link's sources; `src/lib/backing.ts` scores 2028 backing; `src/lib/backtest.ts` is the scorecard (not part of the app
   bundle; `scripts/lib/load.mjs` runs `src/lib` code from scripts through Vite). `src/lib/view.ts` decides what the map
   shows for a view and filters (`filterLinks`, `spotlightFor`, `visibleGraph`),
   as pure functions with tests in `view.test.ts`. `src/lib/useAppChrome.ts`
@@ -690,7 +743,8 @@ on a phone. Its link is in `artifact.json`.
 - **Phone tab bar.** On a folded phone (narrow screens), Map, Views, Filters and
   Updates sit in a bottom tab bar instead of the header.
 - **Person panel.** Tabs: **Overview** (summary and the five closest ties by
-  Bond score), **Ties** (everyone, strongest bond first), **Money** (giving or
+  Bond score), **Ties** (everyone, strongest bond first), **Pull**, **2028**
+  (whom they are likely to back, or for a contender their likely backers), **Money** (giving or
   an organization's finances; only when there is some) and **Record** (lean,
   timeline, affiliations, disagreements, notes and file).
 - **Timeline.** Filters → Timeline → "Show links active in a date range" has

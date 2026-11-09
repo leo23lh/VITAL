@@ -47,6 +47,35 @@
           "donors": 16,
           "gifts": 29,
           "newGifts": 20,
+          "aucBacking": 0.807,
+          "aucBackingNew": 0.745,
+          "top5Backing": 0.793,
+          "bands": [
+            {
+              "label": "Likely or better (65+)",
+              "min": 65,
+              "pairs": 18,
+              "gave": 11
+            },
+            {
+              "label": "Leaning (45–64)",
+              "min": 45,
+              "pairs": 24,
+              "gave": 5
+            },
+            {
+              "label": "Possible (30–44)",
+              "min": 30,
+              "pairs": 111,
+              "gave": 8
+            },
+            {
+              "label": "Unlikely (under 30)",
+              "min": 0,
+              "pairs": 167,
+              "gave": 5
+            }
+          ],
           "auc": 0.784,
           "aucRepeat": 0.638,
           "aucNew": 0.709,
@@ -58,6 +87,35 @@
           "donors": 13,
           "gifts": 30,
           "newGifts": 13,
+          "aucBacking": 0.877,
+          "aucBackingNew": 0.795,
+          "top5Backing": 0.767,
+          "bands": [
+            {
+              "label": "Likely or better (65+)",
+              "min": 65,
+              "pairs": 24,
+              "gave": 16
+            },
+            {
+              "label": "Leaning (45–64)",
+              "min": 45,
+              "pairs": 30,
+              "gave": 3
+            },
+            {
+              "label": "Possible (30–44)",
+              "min": 30,
+              "pairs": 100,
+              "gave": 11
+            },
+            {
+              "label": "Unlikely (under 30)",
+              "min": 0,
+              "pairs": 132,
+              "gave": 0
+            }
+          ],
           "auc": 0.82,
           "aucRepeat": 0.748,
           "aucNew": 0.658,

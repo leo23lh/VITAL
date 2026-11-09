@@ -37,7 +37,9 @@ export type View =
   /** The government as a hierarchy (from each file's `office`), instead of the web. */
   | { kind: 'org' }
   /** People ranked by pull: overall (`of` unset) or with one person. */
-  | { kind: 'pull'; of?: string };
+  | { kind: 'pull'; of?: string }
+  /** Who is likely to back each 2028 contender: the board (`of` unset) or one contender's backers. */
+  | { kind: 'backing'; of?: string };
 
 export type Layout = 'wide' | 'card' | 'sheet';
 
