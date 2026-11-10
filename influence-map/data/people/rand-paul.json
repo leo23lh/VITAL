@@ -6,15 +6,17 @@
       "name": "Jeff Yass",
       "slug": "jeff-yass",
       "relationship_type": "donor",
-      "description": "Yass put about $2.25–2.3 million of his own money into three super PACs backing Paul's 2016 presidential run.",
+      "description": "Yass put about $2.25–2.3 million of his own money into three super PACs backing Paul's 2016 presidential run. FEC filings show $20,600 from Jeff Yass to Reinventing a New Direction Political Action Committee, Rand Paul for US Senate in 2 cycles (2018–2020).",
       "start_year": 2015,
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
         { "url": "https://whyy.org/articles/susquehanna-groups-yass-donates-23-million-to-support-rand-paul-campaign", "title": "Susquehanna Group's Yass donates $2.3 million to support Rand Paul campaign — WHYY" },
-        { "url": "https://www.phillymag.com/news/2015/08/04/rand-paul-jeff-yass/", "title": "Rand Paul has a (very) rich friend in Philadelphia — Philadelphia Magazine" }
+        { "url": "https://www.phillymag.com/news/2015/08/04/rand-paul-jeff-yass/", "title": "Rand Paul has a (very) rich friend in Philadelphia — Philadelphia Magazine" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00493924&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Reinventing a New Direction Political Action Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00496075&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Rand Paul for US Senate" }
       ],
-      "end_year": 2016
+      "end_year": 2020
     },
     {
       "name": "Rachel Bovard",
@@ -100,6 +102,33 @@
       "sources": [
         { "url": "https://www.axios.com/2019/05/09/donald-trump-jr-subpoena-republican-reaction", "title": "Donald Trump Jr.'s Senate Intel subpoena faces GOP backlash — Axios" },
         { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "donor",
+      "description": "FEC filings show $11,600 from Larry Ellison to Reinventing a New Direction Political Action Committee, Rand Paul for US Senate in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00493924&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to Reinventing a New Direction Political Action Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00496075&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to Rand Paul for US Senate" }
+      ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $48,500 from Richard Uihlein to Rand Paul Victory Committee, Reinventing a New Direction Political Action Committee, Rand Paul for President, Inc. and others in 3 cycles (2016–2024).",
+      "start_year": 2015,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00545848&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Rand Paul Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00493924&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Reinventing a New Direction Political Action Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00575449&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Rand Paul for President, Inc." }
       ]
     }
   ],

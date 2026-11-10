@@ -27,49 +27,53 @@
       "name": "Elon Musk",
       "slug": "elon-musk",
       "relationship_type": "donor",
-      "description": "Gave $20 million in the 2026 cycle by Newsweek's earlier count; its later tally puts the figure at $30 million.",
-      "start_year": 2026,
+      "description": "Gave $20 million in the 2026 cycle by Newsweek's earlier count; its later tally puts the figure at $30 million. FEC filings show $30,000,000 from Elon Musk to CLF in the 2026 cycle.",
+      "start_year": 2025,
       "end_year": 2026,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" }
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to CLF" }
       ]
     },
     {
       "name": "Ken Griffin",
       "slug": "ken-griffin",
       "relationship_type": "donor",
-      "description": "Gave $10 million in 2022 and more than $16 million in the 2024 cycle.",
-      "start_year": 2022,
+      "description": "Gave $10 million in 2022 and more than $16 million in the 2024 cycle. FEC filings show $64,510,000 from Ken Griffin to CLF in 6 cycles (2016–2026).",
+      "start_year": 2016,
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
-        { "url": "https://edition.cnn.com/2024/10/25/politics/campaign-fundraising-house-senate", "title": "In race for Congress, Democrats burn through cash while outraising Republicans — CNN" }
+        { "url": "https://edition.cnn.com/2024/10/25/politics/campaign-fundraising-house-senate", "title": "In race for Congress, Democrats burn through cash while outraising Republicans — CNN" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to CLF" }
       ]
     },
     {
       "name": "Miriam Adelson",
       "slug": "miriam-adelson",
       "relationship_type": "donor",
-      "description": "Gave $10 million in early 2026, part of a $40 million boost to Republican congressional super PACs.",
-      "start_year": 2026,
+      "description": "Gave $10 million in early 2026, part of a $40 million boost to Republican congressional super PACs. FEC filings show $95,000,000 from Miriam Adelson to CLF in 6 cycles (2016–2026).",
+      "start_year": 2016,
       "end_year": 2026,
       "confidence": 0.85,
       "sources": [
         { "url": "https://thehill.com/homenews/campaign/5834966-campaign-finance-reports-midterm-dynamics/", "title": "Democrats' fundraising dominates key midterm races: What we learned from the latest campaign filings — The Hill" },
-        { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" }
+        { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to CLF" }
       ]
     },
     {
       "name": "Paul Singer",
       "slug": "paul-singer",
       "relationship_type": "donor",
-      "description": "One of his top recipients in 2024 and 2026, with at least $1 million in the first half of 2025.",
-      "start_year": 2024,
+      "description": "One of his top recipients in 2024 and 2026, with at least $1 million in the first half of 2025. FEC filings show $34,660,000 from Paul Singer to CLF in 5 cycles (2016–2026).",
+      "start_year": 2016,
       "confidence": 0.8,
       "sources": [
         { "url": "https://www.nbcnews.com/politics/2026-election/republican-super-pacs-bank-millions-ahead-midterm-battles-rcna222115", "title": "Republican super PACs bank millions ahead of midterm battles — NBC News" },
-        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to CLF" }
       ]
     },
     {
@@ -81,6 +85,126 @@
       "confidence": 0.85,
       "sources": [
         { "url": "https://issueone.org/press/four-main-super-pacs-focused-on-control-of-congress-have-raised-nearly-120-million-from-allied-dark-money-groups-this-election-cycle/", "title": "Four main super PACs focused on control of Congress have raised nearly $120 million from allied dark-money groups — Issue One" }
+      ]
+    },
+    {
+      "name": "Alex Karp",
+      "slug": "alex-karp",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,000 from Alex Karp to CLF in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to CLF" }
+      ]
+    },
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "donor",
+      "description": "FEC filings show $12,000,000 from Jeff Yass to CLF in 2 cycles (2024–2026).",
+      "start_year": 2023,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to CLF" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "donor",
+      "description": "FEC filings show $1,530,000 from Keith Rabois to CLF in 3 cycles (2022–2026).",
+      "start_year": 2021,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: RABOIS, KEITH to CLF" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "donor",
+      "description": "FEC filings show $17,300 from Palmer Luckey to CLF in 3 cycles (2018–2026).",
+      "start_year": 2018,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to CLF" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "FEC filings show $110,000 from Peter Thiel to CLF in 2 cycles (2018–2026).",
+      "start_year": 2018,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: THIEL, PETER to CLF" }
+      ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $25,000 from Richard Uihlein to Congressional Leadership Fund in the 2018 cycle.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00504530&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Congressional Leadership Fund" }
+      ]
+    },
+    {
+      "name": "Robert Mercer",
+      "slug": "robert-mercer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $1,900,000 from Robert Mercer to Congressional Leadership Fund in 2 cycles (2018–2020).",
+      "start_year": 2018,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00504530&two_year_transaction_period=2020", "title": "FEC receipts: MERCER, ROBERT to Congressional Leadership Fund" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $21,550,058 from Stephen Schwarzman to CLF in 6 cycles (2016–2026).",
+      "start_year": 2016,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to CLF" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $100,000 from Thomas Klingenstein to Congressional Leadership Fund in the 2018 cycle.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00504530&two_year_transaction_period=2018", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Congressional Leadership Fund" }
+      ]
+    },
+    {
+      "name": "Timothy Mellon",
+      "slug": "timothy-mellon",
+      "relationship_type": "donor",
+      "description": "FEC filings show $81,000,000 from Timothy Mellon to CLF in 5 cycles (2018–2026).",
+      "start_year": 2018,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: MELLON, TIMOTHY to CLF" }
       ]
     }
   ],

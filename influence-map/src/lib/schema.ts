@@ -376,6 +376,10 @@ export interface GivingRecipient {
   side?: GivingSide;
   /** Whole dollars, as reported. Leave out when no source gives a figure. */
   amount_usd?: number;
+  /** What FEC itemized receipts show for this recipient in the cycle (written by scripts/fec-import.mjs). */
+  fec_usd?: number;
+  /** The FEC committees behind fec_usd. */
+  fec_ids?: string[];
   description?: string;
   sources: SourceRef[];
 }

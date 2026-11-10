@@ -82,6 +82,46 @@
         { "url": "https://www.sdpb.org/elections/2026-11-04/thune-says-senate-republicans-wont-stand-idly-by-in-face-of-democrats-new-majority", "title": "Thune says Senate Republicans won’t ‘stand idly by’ in face of Democrats’ new majority — SDPB" },
         { "url": "https://rollcall.com/2026/11/04/will-be-reelected-as-majority-leader-schumer-says/", "title": "‘I’ll be reelected as majority leader,’ Schumer says — Roll Call" }
       ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "donor",
+      "description": "FEC filings show $25,800 from Palmer Luckey to Friends of John Thune, Heartland Values PAC in 3 cycles (2022–2026).",
+      "start_year": 2021,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409581&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Friends of John Thune" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409003&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Heartland Values PAC" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $25,900 from Paul Singer to Friends of John Thune, Commonsense, Conservative Values PAC in 2 cycles (2016–2024).",
+      "start_year": 2016,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00409581&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Friends of John Thune" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00748186&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Commonsense, Conservative Values PAC" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $40,000 from Stephen Schwarzman to Friends of John Thune, Commonsense, Conservative Values PAC, Heartland Values PAC in 6 cycles (2016–2026).",
+      "start_year": 2015,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00409581&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Friends of John Thune" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00748186&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Commonsense, Conservative Values PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00409003&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Heartland Values PAC" }
+      ]
     }
   ],
   "office": {

@@ -208,5 +208,78 @@
         { "url": "https://www.news4jax.com/business/2026/09/29/trump-vows-to-never-stifle-ai-as-leading-executives-urge-caution/", "title": "Trump vows to never stifle AI as leading executives urge caution — AP via News4JAX (September 29, 2026)" }
       ]
     }
-  ]
+  ],
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 1000000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=AMODEI%2C+DARIO&two_year_transaction_period=2026", "title": "FEC itemized receipts: AMODEI, DARIO, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Public First",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00930503"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=AMODEI%2C+DARIO&committee_id=C00930503&two_year_transaction_period=2026", "title": "FEC receipts: AMODEI, DARIO to Public First, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 70000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=AMODEI%2C+DARIO&two_year_transaction_period=2020", "title": "FEC itemized receipts: AMODEI, DARIO, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Biden Victory Fund",
+            "kind": "pac",
+            "amount_usd": 35000,
+            "fec_usd": 35000,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=AMODEI%2C+DARIO&committee_id=C00744946&two_year_transaction_period=2020", "title": "FEC receipts: AMODEI, DARIO to Biden Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 32200,
+            "fec_usd": 32200,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=AMODEI%2C+DARIO&committee_id=C00010603&two_year_transaction_period=2020", "title": "FEC receipts: AMODEI, DARIO to DNC Services Corp / Democratic National Committee, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 54000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=AMODEI%2C+DARIO&two_year_transaction_period=2018", "title": "FEC itemized receipts: AMODEI, DARIO, 2018 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 36000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=AMODEI%2C+DARIO&two_year_transaction_period=2016", "title": "FEC itemized receipts: AMODEI, DARIO, 2016 cycle" }
+        ],
+        "recipients": []
+      }
+    ]
+  }
 }

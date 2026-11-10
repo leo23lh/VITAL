@@ -206,7 +206,7 @@
       "name": "Chris Larsen",
       "slug": "chris-larsen",
       "relationship_type": "donor",
-      "description": "Larsen endorsed Harris and gave at least $1 million in XRP to the pro-Harris super PAC Future Forward in 2024 (Decrypt reported about $10 million more), saying she would bring \"clear rules\" for crypto. Fox News put his total for Harris at $5,444,975; figures differ by source.",
+      "description": "Larsen endorsed Harris and gave at least $1 million in XRP to the pro-Harris super PAC Future Forward in 2024 (Decrypt reported about $10 million more), saying she would bring \"clear rules\" for crypto. Fox News put his total for Harris at $5,444,975; figures differ by source. FEC filings show $819,700 from Chris Larsen to Harris Victory Fund in the 2024 cycle.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.9,
@@ -214,7 +214,8 @@
         { "url": "https://www.cnbc.com/2024/10/15/kamala-harris-got-1-million-from-ripples-chris-larsen-crypto-warms.html", "title": "Harris PAC's $1 million contribution from Ripple's Chris Larsen shows crypto industry warming to VP — CNBC" },
         { "url": "https://www.theblock.co/post/320785/ripple-co-founder-chris-larsen-donates-1-million-in-crypto-to-pac-supporting-kamala-harris-campaign", "title": "Ripple co-founder Chris Larsen donates $1 million in crypto to PAC supporting Kamala Harris — The Block" },
         { "url": "https://decrypt.co/287549/ripple-founder-10-million-xrp-kamala-harris", "title": "Ripple founder donates another $10 million in XRP to support Kamala Harris — Decrypt" },
-        { "url": "https://www.foxnews.com/politics/top-trump-ally-warns-super-pac-bankrolled-dem-billionaire-meddling-gop-primary", "title": "Fox News: Larsen gave $5,444,975 to support Harris (in a report on his 2026 PAC)" }
+        { "url": "https://www.foxnews.com/politics/top-trump-ally-warns-super-pac-bankrolled-dem-billionaire-meddling-gop-primary", "title": "Fox News: Larsen gave $5,444,975 to support Harris (in a report on his 2026 PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Harris Victory Fund" }
       ]
     },
     {
@@ -327,6 +328,45 @@
       "confidence": 0.7,
       "sources": [
         { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" }
+      ]
+    },
+    {
+      "name": "Brian Schimpf",
+      "slug": "brian-schimpf",
+      "relationship_type": "donor",
+      "description": "FEC filings show $516,600 from Brian Schimpf to Harris Victory Fund, Harris for President in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: SCHIMPF, BRIAN to Harris Victory Fund" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00703975&two_year_transaction_period=2024", "title": "FEC receipts: SCHIMPF, BRIAN to Harris for President" }
+      ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "donor",
+      "description": "FEC filings show $905,400 from George Soros to Kamala Harris for Senate, Harris Victory Fund in 2 cycles (2016–2024).",
+      "start_year": 2015,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00571919&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Kamala Harris for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Harris Victory Fund" }
+      ]
+    },
+    {
+      "name": "Jeremy Stoppelman",
+      "slug": "jeremy-stoppelman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $130,400 from Jeremy Stoppelman to Kamala Harris for Senate, Harris Victory Fund in 2 cycles (2016–2024).",
+      "start_year": 2015,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00571919&two_year_transaction_period=2024", "title": "FEC receipts: STOPPELMAN, JEREMY to Kamala Harris for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: STOPPELMAN, JEREMY to Harris Victory Fund" }
       ]
     }
   ],

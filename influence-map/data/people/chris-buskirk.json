@@ -146,6 +146,32 @@
         { "url": "https://en.wikipedia.org/wiki/Chris_Buskirk", "title": "Wikipedia: Chris Buskirk" },
         { "url": "https://www.bnnbloomberg.ca/business/2025/09/08/trump-linked-venture-fund-1789-capital-tops-us1-billion-in-assets/", "title": "Trump-linked venture fund 1789 Capital tops US$1 billion in assets — Reuters via BNN Bloomberg" }
       ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $25,800 from Chris Buskirk to JD Vance for Senate Inc., Working for Ohio, Vance Victory in 2 cycles (2022–2024).",
+      "start_year": 2021,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00783142&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to JD Vance for Senate Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00783167&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00817072&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to Vance Victory" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $210,000 from Chris Buskirk to Trump 47 Committee, Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to Trump 47 Committee, Inc." }
+      ]
     }
   ],
   "affiliations": [
@@ -159,5 +185,122 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 474500,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&two_year_transaction_period=2026", "title": "FEC itemized receipts: BUSKIRK, CHRIS, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 443000,
+            "fec_usd": 443000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00003418&two_year_transaction_period=2026", "title": "FEC receipts: BUSKIRK, CHRIS to Republican National Committee, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 425100,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&two_year_transaction_period=2024", "title": "FEC itemized receipts: BUSKIRK, CHRIS, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 210000,
+            "fec_usd": 210000,
+            "fec_ids": ["C00867937"],
+            "description": "Per FEC filings: Trump 47 Committee, Inc. $210,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to Trump 47 Committee, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 195100,
+            "fec_usd": 195100,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00003418&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to Republican National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 20000,
+            "fec_usd": 20000,
+            "fec_ids": ["C00783142", "C00783167", "C00817072"],
+            "description": "Per FEC filings: Vance Victory $10,000; JD Vance for Senate Inc. $5,000; Working for Ohio $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00817072&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to Vance Victory, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00783142&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to JD Vance for Senate Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00783167&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to Working for Ohio, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 47900,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&two_year_transaction_period=2022", "title": "FEC itemized receipts: BUSKIRK, CHRIS, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "America 21 PAC",
+            "kind": "super-pac",
+            "amount_usd": 30500,
+            "fec_usd": 30500,
+            "fec_ids": ["C00804690"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00804690&two_year_transaction_period=2022", "title": "FEC receipts: BUSKIRK, CHRIS to America 21 PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00783142", "C00783167"],
+            "description": "Per FEC filings: JD Vance for Senate Inc. $2,900; Working for Ohio $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: BUSKIRK, CHRIS to JD Vance for Senate Inc., 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: BUSKIRK, CHRIS to Working for Ohio, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 2500,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&two_year_transaction_period=2018", "title": "FEC itemized receipts: BUSKIRK, CHRIS, 2018 cycle" }
+        ],
+        "recipients": []
+      }
+    ]
+  }
 }

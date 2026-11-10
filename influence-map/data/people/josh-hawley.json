@@ -136,6 +136,33 @@
         { "url": "https://www.bloombergquint.com/technology/2017/11/15/peter-thiel-gave-money-to-attorney-general-going-after-google", "title": "Peter Thiel gave money to attorney general going after Google — Bloomberg" },
         { "url": "https://electionlawblog.org/?p=107525", "title": "Silicon Valley billionaire Thiel invests in Kobach, Hawley and rise of nationalism — Election Law Blog" }
       ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $14,900 from Richard Uihlein to Josh Hawley for Senate, Fighting for Missouri PAC in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00652727&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Josh Hawley for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00692640&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Fighting for Missouri PAC" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $27,100 from Thomas Klingenstein to Josh Hawley for Senate, Fighting for Missouri PAC, Hawley Victory Committee in 3 cycles (2018–2024).",
+      "start_year": 2018,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00652727&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Josh Hawley for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00692640&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Fighting for Missouri PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00656926&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Hawley Victory Committee" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

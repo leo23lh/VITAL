@@ -175,13 +175,92 @@
       "name": "Democracy PAC",
       "slug": "democracy-pac",
       "relationship_type": "funded_by",
-      "description": "The Soros family put $102 million into Democracy PAC and Democracy PAC II in the 2026 cycle; Public Citizen counts $52 million from the family's Geosor Corporation to Democracy PAC.",
+      "description": "The Soros family put $102 million into Democracy PAC and Democracy PAC II in the 2026 cycle; Public Citizen counts $52 million from the family's Geosor Corporation to Democracy PAC. FEC filings show $181,065,413 from George Soros to Democracy PAC, Democracy PAC II in 3 cycles (2020–2024).",
       "start_year": 2019,
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" },
         { "url": "https://www.foxnews.com/politics/soros-political-machine-putting-millions-work-before-election-day-zeroing-key-races", "title": "Soros family pours $40M through Democracy PAC to Democratic allies — Fox News" },
-        { "url": "https://www.citizen.org/article/millionaires-and-billionaires-fuel-2026-super-pac-spending/", "title": "Millionaires and billionaires fuel 2026 super PAC spending — Public Citizen" }
+        { "url": "https://www.citizen.org/article/millionaires-and-billionaires-fuel-2026-super-pac-spending/", "title": "Millionaires and billionaires fuel 2026 super PAC spending — Public Citizen" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00693382&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Democracy PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00786624&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Democracy PAC II" }
+      ]
+    },
+    {
+      "name": "House Majority PAC",
+      "slug": "house-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $2,188,000 from George Soros to House Majority PAC in the 2016 cycle.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00495028&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, GEORGE to House Majority PAC" }
+      ]
+    },
+    {
+      "name": "Senate Majority PAC",
+      "slug": "senate-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $5,275,000 from George Soros to SMP in 2 cycles (2016–2018).",
+      "start_year": 2016,
+      "end_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00484642&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, GEORGE to SMP" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $905,400 from George Soros to Kamala Harris for Senate, Harris Victory Fund in 2 cycles (2016–2024).",
+      "start_year": 2015,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00571919&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Kamala Harris for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Harris Victory Fund" }
+      ]
+    },
+    {
+      "name": "Jon Ossoff",
+      "slug": "jon-ossoff",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $13,600 from George Soros to Jon Ossoff for Congress, Jon Ossoff for Senate in 3 cycles (2018–2026).",
+      "start_year": 2017,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00630426&two_year_transaction_period=2026", "title": "FEC receipts: SOROS, GEORGE to Jon Ossoff for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00718866&two_year_transaction_period=2026", "title": "FEC receipts: SOROS, GEORGE to Jon Ossoff for Senate" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $260,600 from George Soros to Nancy Pelosi Victory Fund, PAC to the Future, Nancy Pelosi for Congress in the 2020 cycle.",
+      "start_year": 2019,
+      "end_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00492421&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Nancy Pelosi Victory Fund" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00344234&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to PAC to the Future" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00213512&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Nancy Pelosi for Congress" }
+      ]
+    },
+    {
+      "name": "Hakeem Jeffries",
+      "slug": "hakeem-jeffries",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $14,400 from George Soros to Jeffries for Congress, Jobs, Education, & Families First  Jeff PAC in 2 cycles (2020–2024).",
+      "start_year": 2019,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00503052&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Jeffries for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00617803&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Jobs, Education, & Families First  Jeff PAC" }
       ]
     }
   ],
@@ -208,7 +287,8 @@
         "sources": [
           { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" },
           { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
-          { "url": "https://www.newsweek.com/the-midterm-billionaire-war-as-americas-oligarchs-pick-sides-musk-backlash-12643262", "title": "The Midterm Billionaire War as America's Oligarchs Pick Sides — Newsweek" }
+          { "url": "https://www.newsweek.com/the-midterm-billionaire-war-as-americas-oligarchs-pick-sides-musk-backlash-12643262", "title": "The Midterm Billionaire War as America's Oligarchs Pick Sides — Newsweek" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&two_year_transaction_period=2026", "title": "FEC itemized receipts: SOROS, GEORGE, 2026 cycle" }
         ],
         "recipients": [
           {
@@ -261,6 +341,202 @@
             "sources": [
               { "url": "https://www.newsweek.com/the-midterm-billionaire-war-as-americas-oligarchs-pick-sides-musk-backlash-12643262", "title": "The Midterm Billionaire War as America's Oligarchs Pick Sides — Newsweek" }
             ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 559500,
+            "fec_usd": 559500,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00042366&two_year_transaction_period=2026", "title": "FEC receipts: SOROS, GEORGE to DSCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00000935&two_year_transaction_period=2026", "title": "FEC receipts: SOROS, GEORGE to DCCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 62500,
+            "fec_usd": 62500,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00010603&two_year_transaction_period=2026", "title": "FEC receipts: SOROS, GEORGE to DNC Services Corp / Democratic National Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Cooper Victory Fund",
+            "kind": "pac",
+            "amount_usd": 61000,
+            "fec_usd": 61000,
+            "fec_ids": ["C00913574"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00913574&two_year_transaction_period=2026", "title": "FEC receipts: SOROS, GEORGE to Cooper Victory Fund, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Jon Ossoff",
+            "slug": "jon-ossoff",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 7000,
+            "fec_usd": 7000,
+            "fec_ids": ["C00718866"],
+            "description": "Per FEC filings: Jon Ossoff for Senate $7,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00718866&two_year_transaction_period=2026", "title": "FEC receipts: SOROS, GEORGE to Jon Ossoff for Senate, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 6252045,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&two_year_transaction_period=2024", "title": "FEC itemized receipts: SOROS, GEORGE, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Harris Victory Fund",
+            "kind": "pac",
+            "amount_usd": 900000,
+            "fec_usd": 900000,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Harris Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Texas Organizing Project Political Action Committee",
+            "kind": "super-pac",
+            "amount_usd": 850000,
+            "fec_usd": 850000,
+            "fec_ids": ["C00756940"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00756940&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Texas Organizing Project Political Action Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 798600,
+            "fec_usd": 798600,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00010603&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to DNC Services Corp / Democratic National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Justice & Public Safety PAC",
+            "kind": "super-pac",
+            "amount_usd": 463726,
+            "fec_usd": 463726,
+            "fec_ids": ["C00651505"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00651505&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Justice & Public Safety PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Jeffries Victory Fund",
+            "kind": "pac",
+            "amount_usd": 300000,
+            "fec_usd": 300000,
+            "fec_ids": ["C00768200"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00768200&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Jeffries Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 288400,
+            "fec_usd": 288400,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00000935&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to DCCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Fair Fight",
+            "kind": "super-pac",
+            "amount_usd": 283057,
+            "fec_usd": 283057,
+            "fec_ids": ["C00693515"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00693515&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Fair Fight, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Hidalgo County Democratic Party Executive Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 150000,
+            "fec_usd": 150000,
+            "fec_ids": ["C00827121"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00827121&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Hidalgo County Democratic Party Executive Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Black Voters Matter Action PAC",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00753277"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00753277&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Black Voters Matter Action PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Women Vote",
+            "kind": "super-pac",
+            "amount_usd": 35000,
+            "fec_usd": 35000,
+            "fec_ids": ["C00473918"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00473918&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Women Vote, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Hakeem Jeffries",
+            "slug": "hakeem-jeffries",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 11600,
+            "fec_usd": 11600,
+            "fec_ids": ["C00503052", "C00617803"],
+            "description": "Per FEC filings: Jeffries for Congress $6,600; Jobs, Education, & Families First  Jeff PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00503052&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Jeffries for Congress, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00617803&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Jobs, Education, & Families First  Jeff PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Democracy PAC",
+            "org": "democracy-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 2500,
+            "fec_usd": 2500,
+            "fec_ids": ["C00693382"],
+            "description": "Per FEC filings: Democracy PAC $2,500.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00693382&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Democracy PAC, 2024 cycle" }
+            ]
           }
         ]
       },
@@ -270,7 +546,557 @@
         "rank": 1,
         "ranking": "Largest donor of the 2022 cycle (Wikipedia, citing OpenSecrets)",
         "sources": [
-          { "url": "https://en.wikipedia.org/wiki/George_Soros", "title": "George Soros — Wikipedia" }
+          { "url": "https://en.wikipedia.org/wiki/George_Soros", "title": "George Soros — Wikipedia" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&two_year_transaction_period=2022", "title": "FEC itemized receipts: SOROS, GEORGE, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Democracy PAC",
+            "org": "democracy-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 175242913,
+            "fec_usd": 175242913,
+            "fec_ids": ["C00693382", "C00786624"],
+            "description": "Per FEC filings: Democracy PAC II $175,000,000; Democracy PAC $242,913.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00786624&two_year_transaction_period=2022", "title": "FEC receipts: SOROS, GEORGE to Democracy PAC II, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00693382&two_year_transaction_period=2022", "title": "FEC receipts: SOROS, GEORGE to Democracy PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Colorofchange PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00428557"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00428557&two_year_transaction_period=2022", "title": "FEC receipts: SOROS, GEORGE to Colorofchange PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 903000,
+            "fec_usd": 903000,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00010603&two_year_transaction_period=2022", "title": "FEC receipts: SOROS, GEORGE to DNC Services Corp / Democratic National Committee, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Democratic Grassroots Victory Fund",
+            "kind": "pac",
+            "amount_usd": 825000,
+            "fec_usd": 825000,
+            "fec_ids": ["C00658476"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00658476&two_year_transaction_period=2022", "title": "FEC receipts: SOROS, GEORGE to Democratic Grassroots Victory Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Justice & Public Safety PAC",
+            "kind": "super-pac",
+            "amount_usd": 569000,
+            "fec_usd": 569000,
+            "fec_ids": ["C00651505"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00651505&two_year_transaction_period=2022", "title": "FEC receipts: SOROS, GEORGE to Justice & Public Safety PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 505500,
+            "fec_usd": 505500,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00042366&two_year_transaction_period=2022", "title": "FEC receipts: SOROS, GEORGE to DSCC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Warnock Victory Fund",
+            "kind": "pac",
+            "amount_usd": 261412,
+            "fec_usd": 261412,
+            "fec_ids": ["C00740597"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00740597&two_year_transaction_period=2022", "title": "FEC receipts: SOROS, GEORGE to Warnock Victory Fund, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 10246269,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&two_year_transaction_period=2020", "title": "FEC itemized receipts: SOROS, GEORGE, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Democracy PAC",
+            "org": "democracy-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 5820000,
+            "fec_usd": 5820000,
+            "fec_ids": ["C00693382"],
+            "description": "Per FEC filings: Democracy PAC $5,820,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00693382&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Democracy PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Justice & Public Safety PAC",
+            "kind": "super-pac",
+            "amount_usd": 1085000,
+            "fec_usd": 1085000,
+            "fec_ids": ["C00651505"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00651505&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Justice & Public Safety PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Biden Victory Fund",
+            "kind": "pac",
+            "amount_usd": 505600,
+            "fec_usd": 505600,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00744946&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Biden Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Democratic Grassroots Victory Fund",
+            "kind": "pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00658476"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00658476&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Democratic Grassroots Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 497000,
+            "fec_usd": 497000,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00042366&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to DSCC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Nancy Pelosi",
+            "slug": "nancy-pelosi",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 260600,
+            "fec_usd": 260600,
+            "fec_ids": ["C00213512", "C00344234", "C00492421"],
+            "description": "Per FEC filings: Nancy Pelosi Victory Fund $250,000; Nancy Pelosi for Congress $5,600; PAC to the Future $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00492421&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Nancy Pelosi Victory Fund, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00213512&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Nancy Pelosi for Congress, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00344234&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to PAC to the Future, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 256900,
+            "fec_usd": 256900,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00000935&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to DCCC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 169000,
+            "fec_usd": 169000,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00010603&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to DNC Services Corp / Democratic National Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Youth Progressive Action Catalyst",
+            "kind": "super-pac",
+            "amount_usd": 80000,
+            "fec_usd": 80000,
+            "fec_ids": ["C00670216"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00670216&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Youth Progressive Action Catalyst, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Twelfth Amendment Defenders Fund",
+            "kind": "candidate",
+            "amount_usd": 58800,
+            "fec_usd": 58800,
+            "fec_ids": ["C00759555"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00759555&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Twelfth Amendment Defenders Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "United for Progress PAC",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00627141"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00627141&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to United for Progress PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Montana Democratic Party",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 34108,
+            "fec_usd": 34108,
+            "fec_ids": ["C00010033"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00010033&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Montana Democratic Party, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Jon Ossoff",
+            "slug": "jon-ossoff",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 5600,
+            "fec_usd": 5600,
+            "fec_ids": ["C00718866"],
+            "description": "Per FEC filings: Jon Ossoff for Senate $5,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00718866&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Jon Ossoff for Senate, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Hakeem Jeffries",
+            "slug": "hakeem-jeffries",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00503052"],
+            "description": "Per FEC filings: Jeffries for Congress $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00503052&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Jeffries for Congress, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 17735850,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&two_year_transaction_period=2018", "title": "FEC itemized receipts: SOROS, GEORGE, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Win Justice",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00672394"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00672394&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, GEORGE to Win Justice, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Priorities USA Action",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00495861"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00495861&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, GEORGE to Priorities USA Action, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 3775000,
+            "fec_usd": 3775000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $3,775,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00484642&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, GEORGE to SMP, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "United for Progress PAC",
+            "kind": "super-pac",
+            "amount_usd": 620000,
+            "fec_usd": 620000,
+            "fec_ids": ["C00627141"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00627141&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, GEORGE to United for Progress PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Red and Gold",
+            "kind": "super-pac",
+            "amount_usd": 600000,
+            "fec_usd": 600000,
+            "fec_ids": ["C00684209"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00684209&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, GEORGE to Red and Gold, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Latino Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00562777"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00562777&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, GEORGE to Latino Victory Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Black PAC",
+            "kind": "super-pac",
+            "amount_usd": 400000,
+            "fec_usd": 400000,
+            "fec_ids": ["C00609388"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00609388&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, GEORGE to Black PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "American Bridge 21St Century",
+            "kind": "super-pac",
+            "amount_usd": 380000,
+            "fec_usd": 380000,
+            "fec_ids": ["C00492140"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00492140&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, GEORGE to American Bridge 21St Century, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp./dem. Nat'l Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 266400,
+            "fec_usd": 266400,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00010603&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, GEORGE to DNC Services Corp./dem. Nat'l Committee, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 237300,
+            "fec_usd": 237300,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00000935&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, GEORGE to DCCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 203400,
+            "fec_usd": 203400,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00042366&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, GEORGE to DSCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Jon Ossoff",
+            "slug": "jon-ossoff",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 1000,
+            "fec_usd": 1000,
+            "fec_ids": ["C00630426"],
+            "description": "Per FEC filings: Jon Ossoff for Congress $1,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00630426&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, GEORGE to Jon Ossoff for Congress, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 22686652,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&two_year_transaction_period=2016", "title": "FEC itemized receipts: SOROS, GEORGE, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Priorities USA Action",
+            "kind": "super-pac",
+            "amount_usd": 9506693,
+            "fec_usd": 9506693,
+            "fec_ids": ["C00495861"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00495861&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, GEORGE to Priorities USA Action, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Immigrant Voters Win PAC",
+            "kind": "super-pac",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00612820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00612820&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, GEORGE to Immigrant Voters Win PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "House Majority PAC",
+            "org": "house-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 2188000,
+            "fec_usd": 2188000,
+            "fec_ids": ["C00495028"],
+            "description": "Per FEC filings: House Majority PAC $2,188,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00495028&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, GEORGE to House Majority PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "American Bridge 21St Century",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00492140"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00492140&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, GEORGE to American Bridge 21St Century, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Planned Parenthood Votes",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00489799"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00489799&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, GEORGE to Planned Parenthood Votes, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: Senate Majority PAC $1,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00484642&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, GEORGE to Senate Majority PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "United for Progress PAC",
+            "kind": "super-pac",
+            "amount_usd": 545000,
+            "fec_usd": 545000,
+            "fec_ids": ["C00627141"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00627141&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, GEORGE to United for Progress PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Safety & Justice",
+            "kind": "super-pac",
+            "amount_usd": 530000,
+            "fec_usd": 530000,
+            "fec_ids": ["C00616094"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00616094&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, GEORGE to Safety & Justice, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Colorofchange PAC",
+            "kind": "super-pac",
+            "amount_usd": 400000,
+            "fec_usd": 400000,
+            "fec_ids": ["C00428557"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00428557&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, GEORGE to Colorofchange PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 371434,
+            "fec_usd": 371434,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00000935&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, GEORGE to DCCC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Hillary Victory Fund",
+            "kind": "pac",
+            "amount_usd": 343400,
+            "fec_usd": 343400,
+            "fec_ids": ["C00586537"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00586537&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, GEORGE to Hillary Victory Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 233400,
+            "fec_usd": 233400,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00042366&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, GEORGE to DSCC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Chuck Schumer",
+            "slug": "chuck-schumer",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00346312"],
+            "description": "Per FEC filings: Friends of Schumer $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00346312&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, GEORGE to Friends of Schumer, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Kamala Harris",
+            "slug": "kamala-harris",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00571919"],
+            "description": "Per FEC filings: Kamala Harris for Senate $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00571919&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, GEORGE to Kamala Harris for Senate, 2016 cycle" }
+            ]
+          }
         ]
       }
     ],

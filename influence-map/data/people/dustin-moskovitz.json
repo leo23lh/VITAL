@@ -125,13 +125,26 @@
       "name": "Future Forward PAC",
       "slug": "future-forward",
       "relationship_type": "funded_by",
-      "description": "Gave about $50 million in 2024, its top disclosed individual donor in the final weeks.",
-      "start_year": 2024,
-      "end_year": 2024,
+      "description": "Gave about $50 million in 2024, its top disclosed individual donor in the final weeks. FEC filings show $104,190,000 from Dustin Moskovitz to FF PAC in 4 cycles (2020–2026).",
+      "start_year": 2020,
+      "end_year": 2026,
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },
-        { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00669259&two_year_transaction_period=2026", "title": "FEC receipts: MOSKOVITZ, DUSTIN to FF PAC" }
+      ]
+    },
+    {
+      "name": "Senate Majority PAC",
+      "slug": "senate-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $9,500,000 from Dustin Moskovitz to SMP in 3 cycles (2018–2026).",
+      "start_year": 2018,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00484642&two_year_transaction_period=2026", "title": "FEC receipts: MOSKOVITZ, DUSTIN to SMP" }
       ]
     }
   ],
@@ -143,7 +156,60 @@
         "cycle": 2026,
         "description": "About $16M with Cari Tuna in summer 2026, per FEC filings (CNBC); no full-cycle ranking found.",
         "sources": [
-          { "url": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html", "title": "2026 midterms money race: Democrats surge as Musk backs Republicans — CNBC" }
+          { "url": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html", "title": "2026 midterms money race: Democrats surge as Musk backs Republicans — CNBC" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&two_year_transaction_period=2026", "title": "FEC itemized receipts: MOSKOVITZ, DUSTIN, 2026 cycle" }
+        ],
+        "total_usd": 8724400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "recipients": [
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 4000000,
+            "fec_usd": 4000000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $4,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00484642&two_year_transaction_period=2026", "title": "FEC receipts: MOSKOVITZ, DUSTIN to SMP, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Future Forward PAC",
+            "org": "future-forward",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 4000000,
+            "fec_usd": 4000000,
+            "fec_ids": ["C00669259"],
+            "description": "Per FEC filings: FF PAC $4,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00669259&two_year_transaction_period=2026", "title": "FEC receipts: MOSKOVITZ, DUSTIN to FF PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 310100,
+            "fec_usd": 310100,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00042366&two_year_transaction_period=2026", "title": "FEC receipts: MOSKOVITZ, DUSTIN to DSCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 44300,
+            "fec_usd": 44300,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00010603&two_year_transaction_period=2026", "title": "FEC receipts: MOSKOVITZ, DUSTIN to DNC Services Corp / Democratic National Committee, 2026 cycle" }
+            ]
+          }
         ]
       },
       {
@@ -154,7 +220,8 @@
         "description": "One of only two mainly Democratic donors in the 2024 top ten (with Bloomberg).",
         "sources": [
           { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
-          { "url": "https://www.allsides.com/blog/elon-musk-tops-list-2024-political-donors-five-others-gave-more-100-million", "title": "Elon Musk tops list of 2024 political donors, five others gave more than $100 million — AllSides" }
+          { "url": "https://www.allsides.com/blog/elon-musk-tops-list-2024-political-donors-five-others-gave-more-100-million", "title": "Elon Musk tops list of 2024 political donors, five others gave more than $100 million — AllSides" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&two_year_transaction_period=2024", "title": "FEC itemized receipts: MOSKOVITZ, DUSTIN, 2024 cycle" }
         ],
         "recipients": [
           {
@@ -168,8 +235,11 @@
             "sources": [
               { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },
               { "url": "https://www.cnn.com/2024/10/30/politics/democratic-digital-advertising-future-forward/index.html", "title": "If you've been seeing more pro-Harris ads online lately, here's why — CNN" },
-              { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" }
-            ]
+              { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00669259&two_year_transaction_period=2024", "title": "FEC receipts: MOSKOVITZ, DUSTIN to FF PAC, 2024 cycle" }
+            ],
+            "fec_usd": 50000000,
+            "fec_ids": ["C00669259"]
           },
           {
             "name": "Harris Victory Fund",
@@ -178,8 +248,11 @@
             "side": "D",
             "amount_usd": 929600,
             "sources": [
-              { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" }
-            ]
+              { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Harris Victory Fund, 2024 cycle" }
+            ],
+            "fec_usd": 929600,
+            "fec_ids": ["C00744946"]
           },
           {
             "name": "Democratic National Committee",
@@ -188,6 +261,322 @@
             "amount_usd": 413000,
             "sources": [
               { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 413000,
+            "fec_usd": 413000,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00010603&two_year_transaction_period=2024", "title": "FEC receipts: MOSKOVITZ, DUSTIN to DNC Services Corp / Democratic National Committee, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 6143000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&two_year_transaction_period=2022", "title": "FEC itemized receipts: MOSKOVITZ, DUSTIN, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Future Forward PAC",
+            "org": "future-forward",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 3300000,
+            "fec_usd": 3300000,
+            "fec_ids": ["C00669259"],
+            "description": "Per FEC filings: FF PAC $3,300,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00669259&two_year_transaction_period=2022", "title": "FEC receipts: MOSKOVITZ, DUSTIN to FF PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Ffpa",
+            "kind": "super-pac",
+            "amount_usd": 1900000,
+            "fec_usd": 1900000,
+            "fec_ids": ["C00825703"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00825703&two_year_transaction_period=2022", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Ffpa, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Center for Essential Information",
+            "kind": "super-pac",
+            "amount_usd": 580000,
+            "fec_usd": 580000,
+            "fec_ids": ["C00748798"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00748798&two_year_transaction_period=2022", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Center for Essential Information, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 213000,
+            "fec_usd": 213000,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00010603&two_year_transaction_period=2022", "title": "FEC receipts: MOSKOVITZ, DUSTIN to DNC Services Corp / Democratic National Committee, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Progressive Turnout Project",
+            "kind": "super-pac",
+            "amount_usd": 150000,
+            "fec_usd": 150000,
+            "fec_ids": ["C00580068"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00580068&two_year_transaction_period=2022", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Progressive Turnout Project, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 52824793,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&two_year_transaction_period=2020", "title": "FEC itemized receipts: MOSKOVITZ, DUSTIN, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Future Forward PAC",
+            "org": "future-forward",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 46890000,
+            "fec_usd": 46890000,
+            "fec_ids": ["C00669259"],
+            "description": "Per FEC filings: FF PAC $46,890,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00669259&two_year_transaction_period=2020", "title": "FEC receipts: MOSKOVITZ, DUSTIN to FF PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 3500000,
+            "fec_usd": 3500000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $3,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00484642&two_year_transaction_period=2020", "title": "FEC receipts: MOSKOVITZ, DUSTIN to SMP, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Biden Victory Fund",
+            "kind": "pac",
+            "amount_usd": 830600,
+            "fec_usd": 830600,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00744946&two_year_transaction_period=2020", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Biden Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Democratic Grassroots Victory Fund",
+            "kind": "pac",
+            "amount_usd": 440000,
+            "fec_usd": 440000,
+            "fec_ids": ["C00658476"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00658476&two_year_transaction_period=2020", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Democratic Grassroots Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 177500,
+            "fec_usd": 177500,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00010603&two_year_transaction_period=2020", "title": "FEC receipts: MOSKOVITZ, DUSTIN to DNC Services Corp / Democratic National Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Moveon.org Political Action",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00341396"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00341396&two_year_transaction_period=2020", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Moveon.org Political Action, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 5666750,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&two_year_transaction_period=2018", "title": "FEC itemized receipts: MOSKOVITZ, DUSTIN, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Moveon.org Political Action",
+            "kind": "super-pac",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00341396"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00341396&two_year_transaction_period=2018", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Moveon.org Political Action, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $2,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00484642&two_year_transaction_period=2018", "title": "FEC receipts: MOSKOVITZ, DUSTIN to SMP, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Civic Innovation USA Inc",
+            "kind": "super-pac",
+            "amount_usd": 594250,
+            "fec_usd": 594250,
+            "fec_ids": ["C00550566"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00550566&two_year_transaction_period=2018", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Civic Innovation USA Inc, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp./dem. Nat'l Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 33000,
+            "fec_usd": 33000,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00010603&two_year_transaction_period=2018", "title": "FEC receipts: MOSKOVITZ, DUSTIN to DNC Services Corp./dem. Nat'l Committee, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 18478200,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&two_year_transaction_period=2016", "title": "FEC itemized receipts: MOSKOVITZ, DUSTIN, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Priorities USA Action",
+            "kind": "super-pac",
+            "amount_usd": 6000000,
+            "fec_usd": 6000000,
+            "fec_ids": ["C00495861"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00495861&two_year_transaction_period=2016", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Priorities USA Action, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Lcv Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 4500000,
+            "fec_usd": 4500000,
+            "fec_ids": ["C00486845"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00486845&two_year_transaction_period=2016", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Lcv Victory Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "For Our Future",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00620971"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00620971&two_year_transaction_period=2016", "title": "FEC receipts: MOSKOVITZ, DUSTIN to For Our Future, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Colorofchange PAC",
+            "kind": "super-pac",
+            "amount_usd": 1653000,
+            "fec_usd": 1653000,
+            "fec_ids": ["C00428557"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00428557&two_year_transaction_period=2016", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Colorofchange PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Moveon.org Political Action",
+            "kind": "super-pac",
+            "amount_usd": 1250000,
+            "fec_usd": 1250000,
+            "fec_ids": ["C00341396"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00341396&two_year_transaction_period=2016", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Moveon.org Political Action, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "R4c16",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00625509"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00625509&two_year_transaction_period=2016", "title": "FEC receipts: MOSKOVITZ, DUSTIN to R4c16, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Civic Innovation USA Inc",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00550566"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00550566&two_year_transaction_period=2016", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Civic Innovation USA Inc, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Hillary Victory Fund",
+            "kind": "pac",
+            "amount_usd": 416100,
+            "fec_usd": 416100,
+            "fec_ids": ["C00586537"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00586537&two_year_transaction_period=2016", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Hillary Victory Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Not Who We Are PAC",
+            "kind": "super-pac",
+            "amount_usd": 125000,
+            "fec_usd": 125000,
+            "fec_ids": ["C00623082"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00623082&two_year_transaction_period=2016", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Not Who We Are PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Schumer Committee for the Majority",
+            "kind": "pac",
+            "amount_usd": 49600,
+            "fec_usd": 49600,
+            "fec_ids": ["C00620013"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00620013&two_year_transaction_period=2016", "title": "FEC receipts: MOSKOVITZ, DUSTIN to Schumer Committee for the Majority, 2016 cycle" }
             ]
           }
         ]

@@ -131,7 +131,8 @@
         "description": "Switched from Democrats to Trump; also hosted fundraisers for Trump and Vance.",
         "sources": [
           { "url": "https://jewishinsider.com/2024/05/silicon-valley-donor-jacob-helberg-biden-trump-anti-israel-left/", "title": "Jewish Insider: Silicon Valley donor Jacob Helberg cites anti-Israel left in shift from Biden to Trump" },
-          { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
+          { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&two_year_transaction_period=2024", "title": "FEC itemized receipts: HELBERG, JACOB, 2024 cycle" }
         ],
         "recipients": [
           {
@@ -143,8 +144,11 @@
             "description": "Reported in May 2024 as a $1 million gift to back Trump; the Revolving Door Project names MAGA Inc. as the recipient.",
             "sources": [
               { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" },
-              { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" }
-            ]
+              { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00825851&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Make America Great Again Inc., 2024 cycle" }
+            ],
+            "fec_usd": 1000000,
+            "fec_ids": ["C00825851"]
           },
           {
             "name": "Trump 47 Committee",
@@ -155,6 +159,222 @@
             "description": "About $844,600, per the Revolving Door Project’s review of FEC filings.",
             "sources": [
               { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 868171,
+            "fec_usd": 868171,
+            "fec_ids": ["C00762591", "C00770941", "C00828541", "C00867937", "C00873893"],
+            "description": "Per FEC filings: Trump 47 Committee, Inc. $844,600; Trump Save America Joint Fundraising Committee $11,600; Never Surrender, Inc. $6,600; Save America $5,000; and 1 more.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Trump 47 Committee, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00770941&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Trump Save America Joint Fundraising Committee, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Never Surrender, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 344600,
+            "fec_usd": 344600,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00003418&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Republican National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Grow the Majority",
+            "kind": "pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00858373"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00858373&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Grow the Majority, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 41300,
+            "fec_usd": 41300,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00075820&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to NRCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 3300,
+            "fec_usd": 3300,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $3,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00608695&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Mike Johnson for Louisiana, 2024 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 2832254,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 395300,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&two_year_transaction_period=2022", "title": "FEC itemized receipts: HELBERG, JACOB, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 230600,
+            "fec_usd": 230600,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00010603&two_year_transaction_period=2022", "title": "FEC receipts: HELBERG, JACOB to DNC Services Corp / Democratic National Committee, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 36500,
+            "fec_usd": 36500,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00000935&two_year_transaction_period=2022", "title": "FEC receipts: HELBERG, JACOB to DCCC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Team McCaul Texas Victory",
+            "kind": "pac",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00573246"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00573246&two_year_transaction_period=2022", "title": "FEC receipts: HELBERG, JACOB to Team McCaul Texas Victory, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 1840600,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&two_year_transaction_period=2020", "title": "FEC itemized receipts: HELBERG, JACOB, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Biden Victory Fund",
+            "kind": "pac",
+            "amount_usd": 719800,
+            "fec_usd": 719800,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00744946&two_year_transaction_period=2020", "title": "FEC receipts: HELBERG, JACOB to Biden Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Unite the Country",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00701888"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00701888&two_year_transaction_period=2020", "title": "FEC receipts: HELBERG, JACOB to Unite the Country, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $100,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00484642&two_year_transaction_period=2020", "title": "FEC receipts: HELBERG, JACOB to SMP, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Priorities USA Action",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00495861"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00495861&two_year_transaction_period=2020", "title": "FEC receipts: HELBERG, JACOB to Priorities USA Action, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 45500,
+            "fec_usd": 45500,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00010603&two_year_transaction_period=2020", "title": "FEC receipts: HELBERG, JACOB to DNC Services Corp / Democratic National Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 35500,
+            "fec_usd": 35500,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00000935&two_year_transaction_period=2020", "title": "FEC receipts: HELBERG, JACOB to DCCC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00042366&two_year_transaction_period=2020", "title": "FEC receipts: HELBERG, JACOB to DSCC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Pete Buttigieg",
+            "slug": "pete-buttigieg",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 5300,
+            "fec_usd": 5300,
+            "fec_ids": ["C00697441"],
+            "description": "Per FEC filings: Win the Era PAC $5,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00697441&two_year_transaction_period=2020", "title": "FEC receipts: HELBERG, JACOB to Win the Era PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Kamala Harris",
+            "slug": "kamala-harris",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00694455"],
+            "description": "Per FEC filings: Kamala Harris for the People $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00694455&two_year_transaction_period=2020", "title": "FEC receipts: HELBERG, JACOB to Kamala Harris for the People, 2020 cycle" }
             ]
           }
         ]
@@ -206,14 +426,17 @@
       "name": "Donald Trump",
       "slug": "donald-trump",
       "relationship_type": "funded_by",
-      "description": "Helberg, a Democratic donor in 2020, gave $1 million to back Trump in May 2024 and co-hosted a Trump fundraiser during the Republican convention, per the Revolving Door Project.",
+      "description": "Helberg, a Democratic donor in 2020, gave $1 million to back Trump in May 2024 and co-hosted a Trump fundraiser during the Republican convention, per the Revolving Door Project. FEC filings show $868,171 from Jacob Helberg to Trump 47 Committee, Inc., Trump Save America Joint Fundraising Committee, Save America and others in the 2024 cycle.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
         { "url": "https://jewishinsider.com/2024/05/silicon-valley-donor-jacob-helberg-biden-trump-anti-israel-left/", "title": "Jewish Insider: Silicon Valley donor Jacob Helberg cites anti-Israel left in shift from Biden to Trump" },
         { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" },
-        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00770941&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Trump Save America Joint Fundraising Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00762591&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Save America" }
       ]
     },
     {
@@ -247,13 +470,14 @@
       "name": "MAGA Inc.",
       "slug": "maga-inc",
       "relationship_type": "funded_by",
-      "description": "The Revolving Door Project says Helberg’s $1 million 2024 gift went to MAGA Inc.; other reports described it as a gift to the Trump campaign.",
+      "description": "The Revolving Door Project says Helberg’s $1 million 2024 gift went to MAGA Inc.; other reports described it as a gift to the Trump campaign. FEC filings show $1,000,000 from Jacob Helberg to Make America Great Again Inc. in the 2024 cycle.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.65,
       "sources": [
         { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" },
-        { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" }
+        { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00825851&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Make America Great Again Inc." }
       ]
     },
     {
@@ -306,6 +530,18 @@
       "sources": [
         { "url": "https://uscc.gov/commission-members/jacob-helberg", "title": "U.S.-China Economic and Security Review Commission: Jacob Helberg" },
         { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
+      ]
+    },
+    {
+      "name": "Senate Majority PAC",
+      "slug": "senate-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $100,000 from Jacob Helberg to SMP in the 2020 cycle.",
+      "start_year": 2020,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00484642&two_year_transaction_period=2020", "title": "FEC receipts: HELBERG, JACOB to SMP" }
       ]
     }
   ],

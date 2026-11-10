@@ -452,15 +452,17 @@
       "name": "Peter Thiel",
       "slug": "peter-thiel",
       "relationship_type": "donor",
-      "description": "Thiel backed Trump's long-shot 2016 campaign with $1.25 million, and in 2021 introduced his protégé JD Vance to Trump.",
+      "description": "Thiel backed Trump's long-shot 2016 campaign with $1.25 million, and in 2021 introduced his protégé JD Vance to Trump. FEC filings show $508,100 from Peter Thiel to Trump Victory, Donald J. Trump for President, Inc. in 2 cycles (2016–2018).",
       "start_year": 2016,
-      "end_year": 2016,
+      "end_year": 2018,
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.cnbc.com/2024/08/29/trump-jd-vance-peter-thiel.html", "title": "JD Vance urges billionaire Peter Thiel to back Trump campaign — CNBC" },
         { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" },
         { "url": "https://www.breitbart.com/local/2016/10/19/peter-thiel-big-trump-donation-sparks-long-knives-silicon-valley/", "title": "Breitbart: Peter Thiel faces retaliation in Silicon Valley for Trump support" },
-        { "url": "https://dailycaller.com/2016/10/19/zuckerberg-weighs-in-on-peter-thiels-raging-trump-support/", "title": "Daily Caller: Zuckerberg weighs in on Peter Thiel’s Trump support" }
+        { "url": "https://dailycaller.com/2016/10/19/zuckerberg-weighs-in-on-peter-thiels-raging-trump-support/", "title": "Daily Caller: Zuckerberg weighs in on Peter Thiel’s Trump support" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00618389&two_year_transaction_period=2018", "title": "FEC receipts: THIEL, PETER to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00580100&two_year_transaction_period=2018", "title": "FEC receipts: THIEL, PETER to Donald J. Trump for President, Inc." }
       ]
     },
     {
@@ -526,7 +528,7 @@
       "name": "Marc Andreessen",
       "slug": "marc-andreessen",
       "relationship_type": "donor",
-      "description": "Andreessen endorsed Trump in July 2024, citing the \"Little Tech Agenda\", and gave $2.5 million to the pro-Trump super PAC Right for America, per FEC filings reported by Bloomberg (Bloomberg also counted more than $24 million in wider political giving by each founder or their firm).",
+      "description": "Andreessen endorsed Trump in July 2024, citing the \"Little Tech Agenda\", and gave $2.5 million to the pro-Trump super PAC Right for America, per FEC filings reported by Bloomberg (Bloomberg also counted more than $24 million in wider political giving by each founder or their firm). FEC filings show $5,356,200 from Marc Andreessen to Right for America, Trump 47 Committee, Inc., Save America and others in the 2024 cycle.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.9,
@@ -534,7 +536,10 @@
         { "url": "https://www.axios.com/2024/07/16/andreesen-horowitz-musk-trump", "title": "Tech leaders line up behind Trump — Axios" },
         { "url": "https://www.business-standard.com/world-news/silicon-valley-s-andreessen-horowitz-give-millions-to-pro-trump-pac-124101600146_1.html", "title": "Silicon Valley's Andreessen, Horowitz give millions to pro-Trump PAC — Business Standard (Bloomberg)" },
         { "url": "https://www.bloomberg.com/news/articles/2024-10-16/silicon-valley-s-andreessen-horowitz-give-millions-to-trump-pac", "title": "Silicon Valley's Andreessen, Horowitz Give Millions to Trump — Bloomberg" },
-        { "url": "https://www.foxbusiness.com/politics/trump-secures-donations-two-silicon-valley-venture-capital-billionaires", "title": "Fox Business: Trump secures donations from two Silicon Valley venture capital billionaires" }
+        { "url": "https://www.foxbusiness.com/politics/trump-secures-donations-two-silicon-valley-venture-capital-billionaires", "title": "Fox Business: Trump secures donations from two Silicon Valley venture capital billionaires" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00867036&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Right for America" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00762591&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Save America" }
       ]
     },
     {
@@ -555,21 +560,22 @@
       "name": "Ben Horowitz",
       "slug": "ben-horowitz",
       "relationship_type": "donor",
-      "description": "Horowitz endorsed Trump in July 2024 (\"for little tech, we think Donald Trump is actually the right choice\") and gave $2.5 million to the pro-Trump super PAC Right for America, per FEC filings. In October 2024 he told staff he and his wife would also make a significant donation to groups supporting Kamala Harris, citing friendship with her, while the firm stayed neutral.",
+      "description": "Horowitz endorsed Trump in July 2024 (\"for little tech, we think Donald Trump is actually the right choice\") and gave $2.5 million to the pro-Trump super PAC Right for America, per FEC filings. In October 2024 he told staff he and his wife would also make a significant donation to groups supporting Kamala Harris, citing friendship with her, while the firm stayed neutral. FEC filings show $2,500,000 from Ben Horowitz to Right for America in the 2024 cycle.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.9,
       "sources": [
         { "url": "https://fortune.com/2024/07/16/andreessen-horowitz-founders-the-latest-to-stake-trump/", "title": "Andreessen Horowitz founders the latest to stake Trump — Fortune" },
         { "url": "https://www.business-standard.com/world-news/silicon-valley-s-andreessen-horowitz-give-millions-to-pro-trump-pac-124101600146_1.html", "title": "Silicon Valley's Andreessen, Horowitz give millions to pro-Trump PAC — Business Standard (Bloomberg)" },
-        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" }
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00867036&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Right for America" }
       ]
     },
     {
       "name": "Miriam Adelson",
       "slug": "miriam-adelson",
       "relationship_type": "donor",
-      "description": "One of Trump's biggest backers; her campaign money went through Preserve America PAC (about $90 million with Sheldon Adelson in 2020, about $100 million in 2024). Trump awarded her the Presidential Medal of Freedom in 2018; she co-hosted a 2025 inaugural ball; her family foundation gave $25 million toward his White House ballroom; he hailed her in his October 2025 Knesset speech; and in December 2025 she urged him to seek an unconstitutional third term, which he said came with an offer of \"another $250 million\".",
+      "description": "One of Trump's biggest backers; her campaign money went through Preserve America PAC (about $90 million with Sheldon Adelson in 2020, about $100 million in 2024). Trump awarded her the Presidential Medal of Freedom in 2018; she co-hosted a 2025 inaugural ball; her family foundation gave $25 million toward his White House ballroom; he hailed her in his October 2025 Knesset speech; and in December 2025 she urged him to seek an unconstitutional third term, which he said came with an offer of \"another $250 million\". FEC filings show $1,778,000 from Miriam Adelson to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. and others in 3 cycles (2016–2024).",
       "start_year": 2016,
       "end_year": null,
       "confidence": 0.95,
@@ -580,7 +586,10 @@
         { "url": "https://www.timesofisrael.com/liveblog_entry/hailing-adelson-and-her-60-billion-in-the-bank-trump-quips-that-she-likes-israel-more-than-us/", "title": "Hailing Adelson and her '$60 billion in the bank,' Trump quips that she likes Israel more than US — Times of Israel" },
         { "url": "https://www.nbcdfw.com/news/sports/dallas-mavericks/dallas-mavericks-owner-miriam-adelson-urges-trump-to-run-for-third-term/3958248/", "title": "Dallas Mavericks owner Miriam Adelson urges Trump to run for third term — NBC DFW" },
         { "url": "https://www.foxnews.com/politics/leading-republican-mega-donor-bankroll-pro-trump-super-pac-2024-rematch-biden", "title": "Fox News: Republican mega-donor to bankroll pro-Trump super PAC in 2024" },
-        { "url": "https://www.breitbart.com/politics/2024/10/30/mavericks-principal-owners-donate-100-million-to-republicans-despite-leftist-mark-cuban-claiming-trump-has-fascist-tendencies/", "title": "Breitbart: Mavericks principal owners donate $100 million to back Trump" }
+        { "url": "https://www.breitbart.com/politics/2024/10/30/mavericks-principal-owners-donate-100-million-to-republicans-despite-leftist-mark-cuban-claiming-trump-has-fascist-tendencies/", "title": "Breitbart: Mavericks principal owners donate $100 million to back Trump" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Trump 47 Committee, Inc." }
       ]
     },
     {
@@ -601,14 +610,17 @@
       "name": "Palmer Luckey",
       "slug": "palmer-luckey",
       "relationship_type": "donor",
-      "description": "In 2016 Luckey gave $10,000 to Nimble America, a pro-Trump group, which led to his exit from Facebook in 2017; Fortune later reported further Trump contributions. He has hosted Trump fundraisers and says he has been on \"the tech-for-Trump train\" longer than almost anyone.",
+      "description": "In 2016 Luckey gave $10,000 to Nimble America, a pro-Trump group, which led to his exit from Facebook in 2017; Fortune later reported further Trump contributions. He has hosted Trump fundraisers and says he has been on \"the tech-for-Trump train\" longer than almost anyone. FEC filings show $1,167,800 from Palmer Luckey to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. in 2 cycles (2020–2024).",
       "start_year": 2016,
       "end_year": null,
       "confidence": 0.85,
       "sources": [
         { "url": "https://fortune.com/2016/09/23/palmer-luckey-trump/", "title": "Oculus founder Palmer Luckey funded pro-Trump group — Fortune" },
         { "url": "https://fortune.com/2017/04/23/palmer-luckey-trump-contributions/", "title": "Palmer Luckey's Trump contributions — Fortune" },
-        { "url": "https://m.washingtontimes.com/news/2025/oct/9/charismatic-defense-tech-leader-says-silicon-valley-warming-trump/", "title": "Charismatic defense tech leader says Silicon Valley warming to Trump — The Washington Times" }
+        { "url": "https://m.washingtontimes.com/news/2025/oct/9/charismatic-defense-tech-leader-says-silicon-valley-warming-trump/", "title": "Charismatic defense tech leader says Silicon Valley warming to Trump — The Washington Times" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Trump 47 Committee, Inc." }
       ]
     },
     {
@@ -1317,15 +1329,18 @@
       "name": "Richard Uihlein",
       "slug": "richard-uihlein",
       "relationship_type": "donor",
-      "description": "After Cruz and Walker dropped out in 2016 Uihlein backed Trump, giving to the pro-Trump Great America PAC and $500,000 to his inauguration. His 2024 money went through Restoration PAC.",
+      "description": "After Cruz and Walker dropped out in 2016 Uihlein backed Trump, giving to the pro-Trump Great America PAC and $500,000 to his inauguration. His 2024 money went through Restoration PAC. FEC filings show $1,038,000 from Richard Uihlein to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. and others in 3 cycles (2016–2024).",
       "start_year": 2016,
       "confidence": 0.85,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
         { "url": "https://ballotpedia.org/Richard_Uihlein", "title": "Richard Uihlein — Ballotpedia (2016 super PAC gifts incl. Great America PAC)" },
-        { "url": "https://www.influencewatch.org/political-party/great-america-pac/", "title": "Great America PAC — InfluenceWatch" }
+        { "url": "https://www.influencewatch.org/political-party/great-america-pac/", "title": "Great America PAC — InfluenceWatch" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Trump 47 Committee, Inc." }
       ],
-      "end_year": 2017,
+      "end_year": 2024,
       "notes": "Sources differ on the 2016 Great America PAC gift: Ballotpedia lists $100,000 (October 5, 2016); a Daily Herald report gives $200,000."
     },
     {
@@ -1425,14 +1440,17 @@
       "name": "Robert Mercer",
       "slug": "robert-mercer",
       "relationship_type": "donor",
-      "description": "A top Trump backer in 2016 through the Make America Number 1 super PAC; a former colleague said Trump would not have won without him. He also helped pay Trump's legal bills in 2017, gave to Trump Victory in 2020, and co-chaired an April 2024 Trump fundraiser.",
+      "description": "A top Trump backer in 2016 through the Make America Number 1 super PAC; a former colleague said Trump would not have won without him. He also helped pay Trump's legal bills in 2017, gave to Trump Victory in 2020, and co-chaired an April 2024 Trump fundraiser. FEC filings show $1,312,089 from Robert Mercer to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. and others in 3 cycles (2016–2024).",
       "start_year": 2016,
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
         { "url": "https://www.newsweek.com/trump-legal-fund-paid-billionaire-robert-mercer-day-comey-fired-676383", "title": "Billionaire Robert Mercer Is Helping Pay Donald Trump's Legal Bills — Newsweek" },
         { "url": "https://www.cnbc.com/2020/04/15/robert-mercer-starts-big-money-effort-for-trump-campaign.html", "title": "Robert Mercer starts big money effort for Trump and RNC after cutting back support — CNBC" },
-        { "url": "https://edition.cnn.com/2024/03/19/politics/republican-billionaires-trump-fundraiser/index.html", "title": "Republican billionaires rally around Trump for April fundraiser — CNN" }
+        { "url": "https://edition.cnn.com/2024/03/19/politics/republican-billionaires-trump-fundraiser/index.html", "title": "Republican billionaires rally around Trump for April fundraiser — CNN" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, ROBERT to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, ROBERT to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, ROBERT to Trump 47 Committee, Inc." }
       ]
     },
     {
@@ -1454,11 +1472,14 @@
       "name": "Omeed Malik",
       "slug": "omeed-malik",
       "relationship_type": "donor",
-      "description": "Gave $25,000 to Trump Victory in 2020 and in 2024 pledged to raise $3M+ and give at least $100,000 to Trump's campaign.",
-      "start_year": 2020,
+      "description": "Gave $25,000 to Trump Victory in 2020 and in 2024 pledged to raise $3M+ and give at least $100,000 to Trump's campaign. FEC filings show $129,400 from Omeed Malik to Trump Victory, Donald J. Trump for President, Inc., Trump National Committee JFC, Inc. and others in 2 cycles (2020–2024).",
+      "start_year": 2019,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" }
+        { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: MALIK, OMEED to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: MALIK, OMEED to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00873893&two_year_transaction_period=2024", "title": "FEC receipts: MALIK, OMEED to Trump National Committee JFC, Inc." }
       ]
     },
     {
@@ -1700,14 +1721,17 @@
       "name": "Jacob Helberg",
       "slug": "jacob-helberg",
       "relationship_type": "donor",
-      "description": "Jacob Helberg, a Democratic donor in 2020, gave $1 million to back Trump in May 2024.",
+      "description": "Jacob Helberg, a Democratic donor in 2020, gave $1 million to back Trump in May 2024. FEC filings show $868,171 from Jacob Helberg to Trump 47 Committee, Inc., Trump Save America Joint Fundraising Committee, Save America and others in the 2024 cycle.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
         { "url": "https://jewishinsider.com/2024/05/silicon-valley-donor-jacob-helberg-biden-trump-anti-israel-left/", "title": "Jewish Insider: Silicon Valley donor Jacob Helberg cites anti-Israel left in shift from Biden to Trump" },
         { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" },
-        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00770941&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Trump Save America Joint Fundraising Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00762591&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Save America" }
       ]
     },
     {
@@ -2046,6 +2070,126 @@
         { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" },
         { "url": "https://www.foxnews.com/politics/rnc-speakers-what-to-know-about-eric-trump", "title": "RNC Speakers: What to know about Eric Trump — Fox News" },
         { "url": "https://www.cnbc.com/video/2024/12/09/watch-cnbcs-full-interview-with-eric-trump.html", "title": "Watch CNBC's full interview with Eric Trump — CNBC" }
+      ]
+    },
+    {
+      "name": "Chris Buskirk",
+      "slug": "chris-buskirk",
+      "relationship_type": "donor",
+      "description": "FEC filings show $210,000 from Chris Buskirk to Trump 47 Committee, Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to Trump 47 Committee, Inc." }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "donor",
+      "description": "FEC filings show $256,600 from David Sacks to Trump 47 Committee, Inc., Never Surrender, Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Never Surrender, Inc." }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "donor",
+      "description": "FEC filings show $932,900 from Elon Musk to Trump 47 Committee, Inc., Never Surrender, Inc., Save America in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00867937&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00828541&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Never Surrender, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00762591&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Save America" }
+      ]
+    },
+    {
+      "name": "Frank Bisignano",
+      "slug": "frank-bisignano",
+      "relationship_type": "donor",
+      "description": "FEC filings show $127,800 from Frank Bisignano to Trump Victory, Donald J. Trump for President, Inc. in the 2020 cycle.",
+      "start_year": 2019,
+      "end_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: BISIGNANO, FRANK to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&committee_id=C00580100&two_year_transaction_period=2020", "title": "FEC receipts: BISIGNANO, FRANK to Donald J. Trump for President, Inc." }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "donor",
+      "description": "FEC filings show $361,600 from Keith Rabois to Trump 47 Committee, Inc., Right for America, Save America and others in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00867036&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Right for America" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00762591&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Save America" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $426,200 from Paul Singer to Trump 47 Committee, Inc., Never Surrender, Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Never Surrender, Inc." }
+      ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $478,000 from Rebekah Mercer to Trump Victory, Donald J. Trump for President, Inc., Trump Save America Joint Fundraising Committee and others in 2 cycles (2016–2024).",
+      "start_year": 2016,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, REBEKAH to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, REBEKAH to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00770941&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, REBEKAH to Trump Save America Joint Fundraising Committee" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $1,131,000 from Stephen Schwarzman to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. and others in 3 cycles (2018–2024).",
+      "start_year": 2017,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Trump 47 Committee, Inc." }
+      ]
+    },
+    {
+      "name": "Zach Witkoff",
+      "slug": "zach-witkoff",
+      "relationship_type": "donor",
+      "description": "FEC filings show $255,400 from Zach Witkoff to Trump Victory, Donald J. Trump for President, Inc. in 2 cycles (2018–2020).",
+      "start_year": 2018,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: WITKOFF, ZACH to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00580100&two_year_transaction_period=2020", "title": "FEC receipts: WITKOFF, ZACH to Donald J. Trump for President, Inc." }
       ]
     }
   ],

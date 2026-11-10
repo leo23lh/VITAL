@@ -128,7 +128,7 @@
       "name": "Donald Trump",
       "slug": "donald-trump",
       "relationship_type": "funded_by",
-      "description": "One of Trump's biggest backers; her campaign money went through Preserve America PAC (about $90 million with Sheldon Adelson in 2020, about $100 million in 2024). Trump awarded her the Presidential Medal of Freedom in 2018; she co-hosted a 2025 inaugural ball; her family foundation gave $25 million toward his White House ballroom; he hailed her in his October 2025 Knesset speech; and in December 2025 she urged him to seek an unconstitutional third term, which he said came with an offer of \"another $250 million\".",
+      "description": "One of Trump's biggest backers; her campaign money went through Preserve America PAC (about $90 million with Sheldon Adelson in 2020, about $100 million in 2024). Trump awarded her the Presidential Medal of Freedom in 2018; she co-hosted a 2025 inaugural ball; her family foundation gave $25 million toward his White House ballroom; he hailed her in his October 2025 Knesset speech; and in December 2025 she urged him to seek an unconstitutional third term, which he said came with an offer of \"another $250 million\". FEC filings show $1,778,000 from Miriam Adelson to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. and others in 3 cycles (2016–2024).",
       "start_year": 2016,
       "end_year": null,
       "confidence": 0.95,
@@ -139,7 +139,10 @@
         { "url": "https://www.timesofisrael.com/liveblog_entry/hailing-adelson-and-her-60-billion-in-the-bank-trump-quips-that-she-likes-israel-more-than-us/", "title": "Hailing Adelson and her '$60 billion in the bank,' Trump quips that she likes Israel more than US — Times of Israel" },
         { "url": "https://www.nbcdfw.com/news/sports/dallas-mavericks/dallas-mavericks-owner-miriam-adelson-urges-trump-to-run-for-third-term/3958248/", "title": "Dallas Mavericks owner Miriam Adelson urges Trump to run for third term — NBC DFW" },
         { "url": "https://www.foxnews.com/politics/leading-republican-mega-donor-bankroll-pro-trump-super-pac-2024-rematch-biden", "title": "Fox News: Republican mega-donor to bankroll pro-Trump super PAC in 2024" },
-        { "url": "https://www.breitbart.com/politics/2024/10/30/mavericks-principal-owners-donate-100-million-to-republicans-despite-leftist-mark-cuban-claiming-trump-has-fascist-tendencies/", "title": "Breitbart: Mavericks principal owners donate $100 million to back Trump" }
+        { "url": "https://www.breitbart.com/politics/2024/10/30/mavericks-principal-owners-donate-100-million-to-republicans-despite-leftist-mark-cuban-claiming-trump-has-fascist-tendencies/", "title": "Breitbart: Mavericks principal owners donate $100 million to back Trump" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Trump 47 Committee, Inc." }
       ]
     },
     {
@@ -222,12 +225,15 @@
       "name": "Ted Cruz",
       "slug": "ted-cruz",
       "relationship_type": "funded_by",
-      "description": "Adelson gave $1 million to a super PAC supporting Cruz's 2024 Senate reelection.",
-      "start_year": 2024,
+      "description": "Adelson gave $1 million to a super PAC supporting Cruz's 2024 Senate reelection. FEC filings show $26,800 from Miriam Adelson to Cruz for President, Ted Cruz Victory Committee, Jobs, Freedom, and Security PAC and others in 3 cycles (2016–2024).",
+      "start_year": 2015,
       "end_year": 2024,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://api.texastribune.org/2024/06/20/miriam-adelson-ted-cruz-senate/", "title": "Texas Tribune: Miriam Adelson gives pro-Ted Cruz super PAC $1 million" }
+        { "url": "https://api.texastribune.org/2024/06/20/miriam-adelson-ted-cruz-senate/", "title": "Texas Tribune: Miriam Adelson gives pro-Ted Cruz super PAC $1 million" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00574624&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Cruz for President" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Jobs, Freedom, and Security PAC" }
       ]
     },
     {
@@ -259,52 +265,57 @@
       "name": "MAGA Inc.",
       "slug": "maga-inc",
       "relationship_type": "funded_by",
-      "description": "Named among its large 2026 donors; the amount was not reported.",
+      "description": "Named among its large 2026 donors; the amount was not reported. FEC filings show $25,000,000 from Miriam Adelson to MAGA Inc. in the 2026 cycle.",
       "start_year": 2026,
       "confidence": 0.7,
       "sources": [
         { "url": "https://www.axios.com/2026/11/06/scoop-trump-to-keep-fundraising-hoping-to-retain-political-muscle", "title": "Scoop: Trump to keep fundraising, hoping to retain political muscle — Axios" },
-        { "url": "https://www.inquirer.com/politics/nation/trump-super-pac-midterm-elections-20261021.html", "title": "Trump super PAC and the midterm elections — Philadelphia Inquirer" }
+        { "url": "https://www.inquirer.com/politics/nation/trump-super-pac-midterm-elections-20261021.html", "title": "Trump super PAC and the midterm elections — Philadelphia Inquirer" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to MAGA Inc." }
       ]
     },
     {
       "name": "Senate Leadership Fund",
       "slug": "senate-leadership-fund",
       "relationship_type": "funded_by",
-      "description": "Gave $15 million in 2023–24 and $30 million in March 2026.",
-      "start_year": 2024,
+      "description": "Gave $15 million in 2023–24 and $30 million in March 2026. FEC filings show $135,000,000 from Miriam Adelson to SLF PAC in 6 cycles (2016–2026).",
+      "start_year": 2016,
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
         { "url": "https://thehill.com/homenews/campaign/5834966-campaign-finance-reports-midterm-dynamics/", "title": "Democrats' fundraising dominates key midterm races: What we learned from the latest campaign filings — The Hill" },
-        { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" }
+        { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to SLF PAC" }
       ]
     },
     {
       "name": "Congressional Leadership Fund",
       "slug": "congressional-leadership-fund",
       "relationship_type": "funded_by",
-      "description": "Gave $10 million in early 2026, part of a $40 million boost to Republican congressional super PACs.",
-      "start_year": 2026,
+      "description": "Gave $10 million in early 2026, part of a $40 million boost to Republican congressional super PACs. FEC filings show $95,000,000 from Miriam Adelson to CLF in 6 cycles (2016–2026).",
+      "start_year": 2016,
       "end_year": 2026,
       "confidence": 0.85,
       "sources": [
         { "url": "https://thehill.com/homenews/campaign/5834966-campaign-finance-reports-midterm-dynamics/", "title": "Democrats' fundraising dominates key midterm races: What we learned from the latest campaign filings — The Hill" },
-        { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" }
+        { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to CLF" }
       ]
     },
     {
       "name": "Preserve America PAC",
       "slug": "preserve-america-pac",
       "relationship_type": "funded_by",
-      "description": "Its main funder: about $90 million with Sheldon Adelson in 2020 and about $100 million in 2024 (InfluenceWatch counts $106 million).",
+      "description": "Its main funder: about $90 million with Sheldon Adelson in 2020 and about $100 million in 2024 (InfluenceWatch counts $106 million). FEC filings show $151,000,000 from Miriam Adelson to Preserve America PAC, Preserve America PAC in 2 cycles (2020–2024).",
       "start_year": 2020,
       "end_year": 2024,
       "confidence": 0.95,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" },
         { "url": "https://forward.com/fast-forward/665095/miriam-adelson-donates-100m-to-trump-campaign-making-good-on-reported-promise/", "title": "Miriam Adelson donates $100M to Trump campaign, making good on reported promise — The Forward" },
-        { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" }
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00756882&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Preserve America PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00878801&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Preserve America PAC" }
       ]
     },
     {
@@ -317,6 +328,20 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Miriam_Adelson", "title": "Miriam Adelson — Wikipedia" },
         { "url": "https://forward.com/fast-forward/461930/sheldon-adelson-jewish-philanthropist-and-mega-donor-to-netanyahu-and/", "title": "The Forward: Before Sheldon Adelson’s death, his relationships soured with both Netanyahu and Trump" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $36,600 from Miriam Adelson to Rubio Victory Committee, Marco Rubio for Senate 2016, Reclaim America PAC and others in the 2016 cycle.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00494617&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Rubio Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00620518&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Marco Rubio for Senate 2016" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00500025&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Reclaim America PAC" }
       ]
     }
   ],
@@ -344,7 +369,8 @@
         "sources": [
           { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
           { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" },
-          { "url": "https://www.france24.com/en/live-news/20261023-from-tech-giants-to-anonymous-nonprofits-the-biggest-donors-in-us-midterms", "title": "From tech giants to anonymous nonprofits, the biggest donors in US midterms — AFP via France 24" }
+          { "url": "https://www.france24.com/en/live-news/20261023-from-tech-giants-to-anonymous-nonprofits-the-biggest-donors-in-us-midterms", "title": "From tech giants to anonymous nonprofits, the biggest donors in US midterms — AFP via France 24" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&two_year_transaction_period=2026", "title": "FEC itemized receipts: ADELSON, MIRIAM, 2026 cycle" }
         ],
         "recipients": [
           {
@@ -356,8 +382,11 @@
             "description": "Given in March 2026.",
             "sources": [
               { "url": "https://thehill.com/homenews/campaign/5834966-campaign-finance-reports-midterm-dynamics/", "title": "Democrats' fundraising dominates key midterm races: What we learned from the latest campaign filings — The Hill" },
-              { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" }
-            ]
+              { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to SLF PAC, 2026 cycle" }
+            ],
+            "fec_usd": 30000000,
+            "fec_ids": ["C00571703"]
           },
           {
             "name": "Congressional Leadership Fund",
@@ -367,8 +396,11 @@
             "amount_usd": 10000000,
             "sources": [
               { "url": "https://thehill.com/homenews/campaign/5834966-campaign-finance-reports-midterm-dynamics/", "title": "Democrats' fundraising dominates key midterm races: What we learned from the latest campaign filings — The Hill" },
-              { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" }
-            ]
+              { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to CLF, 2026 cycle" }
+            ],
+            "fec_usd": 10000000,
+            "fec_ids": ["C00504530"]
           },
           {
             "name": "MAGA Inc.",
@@ -378,7 +410,84 @@
             "side": "R",
             "description": "Named among its big 2025–26 donors; amount not reported.",
             "sources": [
-              { "url": "https://www.axios.com/2026/11/06/scoop-trump-to-keep-fundraising-hoping-to-retain-political-muscle", "title": "Scoop: Trump to keep fundraising, hoping to retain political muscle — Axios" }
+              { "url": "https://www.axios.com/2026/11/06/scoop-trump-to-keep-fundraising-hoping-to-retain-political-muscle", "title": "Scoop: Trump to keep fundraising, hoping to retain political muscle — Axios" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to MAGA Inc., 2026 cycle" }
+            ],
+            "amount_usd": 25000000,
+            "fec_usd": 25000000,
+            "fec_ids": ["C00892471"]
+          },
+          {
+            "name": "Security Is Strength PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00573733"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00573733&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to Security Is Strength PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC Victory",
+            "kind": "pac",
+            "amount_usd": 764100,
+            "fec_usd": 764100,
+            "fec_ids": ["C00837518"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00837518&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to NRSC Victory, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 443000,
+            "fec_usd": 443000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00003418&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to Republican National Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 310100,
+            "fec_usd": 310100,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00075820&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to NRCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 310100,
+            "fec_usd": 310100,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to NRSC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Protect Our Democracy Fund",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00889717"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00889717&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to Protect Our Democracy Fund, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Leadership in Action",
+            "kind": "super-pac",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00764209"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00764209&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to Leadership in Action, 2026 cycle" }
             ]
           }
         ]
@@ -390,7 +499,8 @@
         "ranking": "OpenSecrets 2024 top donors (via Newser)",
         "sources": [
           { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
-          { "url": "https://www.allsides.com/blog/elon-musk-tops-list-2024-political-donors-five-others-gave-more-100-million", "title": "Elon Musk tops list of 2024 political donors, five others gave more than $100 million — AllSides" }
+          { "url": "https://www.allsides.com/blog/elon-musk-tops-list-2024-political-donors-five-others-gave-more-100-million", "title": "Elon Musk tops list of 2024 political donors, five others gave more than $100 million — AllSides" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&two_year_transaction_period=2024", "title": "FEC itemized receipts: ADELSON, MIRIAM, 2024 cycle" }
         ],
         "recipients": [
           {
@@ -402,8 +512,11 @@
             "amount_usd": 100000000,
             "description": "Pro-Trump super PAC she has funded since 2020. InfluenceWatch puts her 2024 gifts at $106M.",
             "sources": [
-              { "url": "https://forward.com/fast-forward/665095/miriam-adelson-donates-100m-to-trump-campaign-making-good-on-reported-promise/", "title": "Miriam Adelson donates $100M to Trump campaign — The Forward" }
-            ]
+              { "url": "https://forward.com/fast-forward/665095/miriam-adelson-donates-100m-to-trump-campaign-making-good-on-reported-promise/", "title": "Miriam Adelson donates $100M to Trump campaign — The Forward" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00878801&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Preserve America PAC, 2024 cycle" }
+            ],
+            "fec_usd": 106000000,
+            "fec_ids": ["C00878801"]
           },
           {
             "name": "Pro-Cruz super PAC",
@@ -413,6 +526,695 @@
             "amount_usd": 1000000,
             "sources": [
               { "url": "https://api.texastribune.org/2024/06/20/miriam-adelson-ted-cruz-senate/", "title": "Texas Tribune: Miriam Adelson gives pro-Ted Cruz super PAC $1 million" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 15000000,
+            "fec_usd": 15000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $15,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00571703&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Senate Leadership Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10000000,
+            "fec_usd": 10000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $10,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00504530&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Congressional Leadership Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Rjc Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00528554"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00528554&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Rjc Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "170 Freedom Milwaukee 2024 Host Committee Inc",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00834978"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00834978&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to 170 Freedom Milwaukee 2024 Host Committee Inc, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Truth and Courage PAC",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00796045"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00796045&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Truth and Courage PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Hardworking Americans Inc.",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00828608"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00828608&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Hardworking Americans Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 942800,
+            "fec_usd": 942800,
+            "fec_ids": ["C00762591", "C00828541", "C00867937"],
+            "description": "Per FEC filings: Trump 47 Committee, Inc. $927,900; Never Surrender, Inc. $9,900; Save America $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Trump 47 Committee, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Never Surrender, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00762591&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Save America, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 413000,
+            "fec_usd": 413000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00003418&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Republican National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Protecting Americans Project Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 400000,
+            "fec_usd": 400000,
+            "fec_ids": ["C00785790"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00785790&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Protecting Americans Project Action Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Pete Ricketts Victory Fund",
+            "kind": "pac",
+            "amount_usd": 300700,
+            "fec_usd": 300700,
+            "fec_ids": ["C00832949"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00832949&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Pete Ricketts Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 289100,
+            "fec_usd": 289100,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00027466&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to NRSC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Win It Back PAC",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00844613"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00844613&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Win It Back PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 3300,
+            "fec_usd": 3300,
+            "fec_ids": ["C00492785"],
+            "description": "Per FEC filings: Ted Cruz for Senate $3,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Ted Cruz for Senate, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 25068800,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&two_year_transaction_period=2022", "title": "FEC itemized receipts: ADELSON, MIRIAM, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 12500000,
+            "fec_usd": 12500000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $12,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00571703&two_year_transaction_period=2022", "title": "FEC receipts: ADELSON, MIRIAM to Senate Leadership Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 12500000,
+            "fec_usd": 12500000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $12,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00504530&two_year_transaction_period=2022", "title": "FEC receipts: ADELSON, MIRIAM to Congressional Leadership Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00409581"],
+            "description": "Per FEC filings: Friends of John Thune $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00409581&two_year_transaction_period=2022", "title": "FEC receipts: ADELSON, MIRIAM to Friends of John Thune, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Eric Schmitt",
+            "slug": "eric-schmitt",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00775015"],
+            "description": "Per FEC filings: Schmitt for Senate $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00775015&two_year_transaction_period=2022", "title": "FEC receipts: ADELSON, MIRIAM to Schmitt for Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00783142"],
+            "description": "Per FEC filings: JD Vance for Senate Inc. $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: ADELSON, MIRIAM to JD Vance for Senate Inc., 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 109930050,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&two_year_transaction_period=2020", "title": "FEC itemized receipts: ADELSON, MIRIAM, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Preserve America PAC",
+            "org": "preserve-america-pac",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 45000000,
+            "fec_usd": 45000000,
+            "fec_ids": ["C00756882"],
+            "description": "Per FEC filings: Preserve America PAC $45,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00756882&two_year_transaction_period=2020", "title": "FEC receipts: ADELSON, MIRIAM to Preserve America PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 35000000,
+            "fec_usd": 35000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $35,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00571703&two_year_transaction_period=2020", "title": "FEC receipts: ADELSON, MIRIAM to Senate Leadership Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 25000000,
+            "fec_usd": 25000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $25,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00504530&two_year_transaction_period=2020", "title": "FEC receipts: ADELSON, MIRIAM to Congressional Leadership Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Rjc Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 1250000,
+            "fec_usd": 1250000,
+            "fec_ids": ["C00528554"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00528554&two_year_transaction_period=2020", "title": "FEC receipts: ADELSON, MIRIAM to Rjc Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Georgia Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 750000,
+            "fec_usd": 750000,
+            "fec_ids": ["C00693606"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00693606&two_year_transaction_period=2020", "title": "FEC receipts: ADELSON, MIRIAM to Georgia Action Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 586200,
+            "fec_usd": 586200,
+            "fec_ids": ["C00580100", "C00618389"],
+            "description": "Per FEC filings: Trump Victory $580,600; Donald J. Trump for President, Inc. $5,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: ADELSON, MIRIAM to Trump Victory, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00580100&two_year_transaction_period=2020", "title": "FEC receipts: ADELSON, MIRIAM to Donald J. Trump for President, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Security Is Strength PAC",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00573733"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00573733&two_year_transaction_period=2020", "title": "FEC receipts: ADELSON, MIRIAM to Security Is Strength PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 497000,
+            "fec_usd": 497000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00003418&two_year_transaction_period=2020", "title": "FEC receipts: ADELSON, MIRIAM to Republican National Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 300150,
+            "fec_usd": 300150,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00075820&two_year_transaction_period=2020", "title": "FEC receipts: ADELSON, MIRIAM to NRCC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 266250,
+            "fec_usd": 266250,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00027466&two_year_transaction_period=2020", "title": "FEC receipts: ADELSON, MIRIAM to NRSC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC Targeted State Victory",
+            "kind": "pac",
+            "amount_usd": 159250,
+            "fec_usd": 159250,
+            "fec_ids": ["C00724344"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00724344&two_year_transaction_period=2020", "title": "FEC receipts: ADELSON, MIRIAM to NRSC Targeted State Victory, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Byron Donalds",
+            "slug": "byron-donalds",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00733329"],
+            "description": "Per FEC filings: Byron Donalds for Congress $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00733329&two_year_transaction_period=2020", "title": "FEC receipts: ADELSON, MIRIAM to Byron Donalds for Congress, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 61832100,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&two_year_transaction_period=2018", "title": "FEC itemized receipts: ADELSON, MIRIAM, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 27500000,
+            "fec_usd": 27500000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $27,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00504530&two_year_transaction_period=2018", "title": "FEC receipts: ADELSON, MIRIAM to Congressional Leadership Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 25000000,
+            "fec_usd": 25000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $25,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00571703&two_year_transaction_period=2018", "title": "FEC receipts: ADELSON, MIRIAM to Senate Leadership Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "America First Action, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00637512"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00637512&two_year_transaction_period=2018", "title": "FEC receipts: ADELSON, MIRIAM to America First Action, Inc., 2018 cycle" }
+            ]
+          },
+          {
+            "name": "New Republican PAC",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00544544"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00544544&two_year_transaction_period=2018", "title": "FEC receipts: ADELSON, MIRIAM to New Republican PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Esafund",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00489856"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00489856&two_year_transaction_period=2018", "title": "FEC receipts: ADELSON, MIRIAM to Esafund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Team Hardy Nevada Tough Victory Fund",
+            "kind": "pac",
+            "amount_usd": 247300,
+            "fec_usd": 247300,
+            "fec_ids": ["C00685891"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00685891&two_year_transaction_period=2018", "title": "FEC receipts: ADELSON, MIRIAM to Team Hardy Nevada Tough Victory Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Rjc Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 125000,
+            "fec_usd": 125000,
+            "fec_ids": ["C00528554"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00528554&two_year_transaction_period=2018", "title": "FEC receipts: ADELSON, MIRIAM to Rjc Victory Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Heller Nevada Victory Fund",
+            "kind": "pac",
+            "amount_usd": 43900,
+            "fec_usd": 43900,
+            "fec_ids": ["C00681114"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00681114&two_year_transaction_period=2018", "title": "FEC receipts: ADELSON, MIRIAM to Heller Nevada Victory Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 33900,
+            "fec_usd": 33900,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00075820&two_year_transaction_period=2018", "title": "FEC receipts: ADELSON, MIRIAM to NRCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 33900,
+            "fec_usd": 33900,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00003418&two_year_transaction_period=2018", "title": "FEC receipts: ADELSON, MIRIAM to Republican National Committee, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Team Ryan",
+            "kind": "pac",
+            "amount_usd": 33900,
+            "fec_usd": 33900,
+            "fec_ids": ["C00545947"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00545947&two_year_transaction_period=2018", "title": "FEC receipts: ADELSON, MIRIAM to Team Ryan, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 33900,
+            "fec_usd": 33900,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00027466&two_year_transaction_period=2018", "title": "FEC receipts: ADELSON, MIRIAM to NRSC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 20800,
+            "fec_usd": 20800,
+            "fec_ids": ["C00492785", "C00536540", "C00542423"],
+            "description": "Per FEC filings: Ted Cruz Victory Committee $10,400; Ted Cruz for Senate $5,400; Jobs, Freedom, and Security PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00542423&two_year_transaction_period=2018", "title": "FEC receipts: ADELSON, MIRIAM to Ted Cruz Victory Committee, 2018 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00492785&two_year_transaction_period=2018", "title": "FEC receipts: ADELSON, MIRIAM to Ted Cruz for Senate, 2018 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00536540&two_year_transaction_period=2018", "title": "FEC receipts: ADELSON, MIRIAM to Jobs, Freedom, and Security PAC, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 39484000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&two_year_transaction_period=2016", "title": "FEC itemized receipts: ADELSON, MIRIAM, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 17500000,
+            "fec_usd": 17500000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $17,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00571703&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Senate Leadership Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10000000,
+            "fec_usd": 10000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $10,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00504530&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Congressional Leadership Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Future45",
+            "kind": "super-pac",
+            "amount_usd": 10000000,
+            "fec_usd": 10000000,
+            "fec_ids": ["C00574533"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00574533&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Future45, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 427600,
+            "fec_usd": 427600,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00003418&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Republican National Committee, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 360400,
+            "fec_usd": 360400,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00027466&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to NRSC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 249000,
+            "fec_usd": 249000,
+            "fec_ids": ["C00580100", "C00618389"],
+            "description": "Per FEC filings: Trump Victory $246,300; Donald J. Trump for President, Inc. $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00618389&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Trump Victory, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00580100&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Donald J. Trump for President, Inc., 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC Targeted State Victory Committee",
+            "kind": "pac",
+            "amount_usd": 183400,
+            "fec_usd": 183400,
+            "fec_ids": ["C00617498"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00617498&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to NRSC Targeted State Victory Committee, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Win in 2016",
+            "kind": "pac",
+            "amount_usd": 120000,
+            "fec_usd": 120000,
+            "fec_ids": ["C00619437"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00619437&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Win in 2016, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Team Ryan",
+            "kind": "pac",
+            "amount_usd": 41100,
+            "fec_usd": 41100,
+            "fec_ids": ["C00545947"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00545947&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Team Ryan, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 36600,
+            "fec_usd": 36600,
+            "fec_ids": ["C00458844", "C00494617", "C00500025", "C00620518"],
+            "description": "Per FEC filings: Marco Rubio for Senate 2016 $16,200; Rubio Victory Committee $10,200; Marco Rubio for President $5,200; Reclaim America PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00620518&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Marco Rubio for Senate 2016, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00494617&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Rubio Victory Committee, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00458844&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Marco Rubio for President, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 33400,
+            "fec_usd": 33400,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00075820&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to NRCC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Ron DeSantis",
+            "slug": "ron-desantis",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00511568"],
+            "description": "Per FEC filings: Ron Desantis for Florida $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00511568&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Ron Desantis for Florida, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00574624"],
+            "description": "Per FEC filings: Cruz for President $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00574624&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Cruz for President, 2016 cycle" }
             ]
           }
         ]

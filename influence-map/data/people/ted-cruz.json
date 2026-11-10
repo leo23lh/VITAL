@@ -136,12 +136,15 @@
       "name": "Miriam Adelson",
       "slug": "miriam-adelson",
       "relationship_type": "donor",
-      "description": "Adelson gave $1 million to a super PAC supporting Cruz's 2024 Senate reelection.",
-      "start_year": 2024,
+      "description": "Adelson gave $1 million to a super PAC supporting Cruz's 2024 Senate reelection. FEC filings show $26,800 from Miriam Adelson to Cruz for President, Ted Cruz Victory Committee, Jobs, Freedom, and Security PAC and others in 3 cycles (2016–2024).",
+      "start_year": 2015,
       "end_year": 2024,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://api.texastribune.org/2024/06/20/miriam-adelson-ted-cruz-senate/", "title": "Texas Tribune: Miriam Adelson gives pro-Ted Cruz super PAC $1 million" }
+        { "url": "https://api.texastribune.org/2024/06/20/miriam-adelson-ted-cruz-senate/", "title": "Texas Tribune: Miriam Adelson gives pro-Ted Cruz super PAC $1 million" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00574624&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Cruz for President" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Jobs, Freedom, and Security PAC" }
       ]
     },
     {
@@ -160,14 +163,17 @@
       "name": "Richard Uihlein",
       "slug": "richard-uihlein",
       "relationship_type": "donor",
-      "description": "Gave seven-figure sums to the pro-Cruz super PAC network in 2016, including $1 million to Keep the Promise PAC in January and $1 million to Trusted Leadership PAC in March.",
-      "start_year": 2015,
-      "end_year": 2016,
+      "description": "Gave seven-figure sums to the pro-Cruz super PAC network in 2016, including $1 million to Keep the Promise PAC in January and $1 million to Trusted Leadership PAC in March. FEC filings show $49,600 from Richard Uihlein to Cruz for President, Jobs, Freedom, and Security PAC, Ted Cruz for Senate and others in 4 cycles (2016–2024).",
+      "start_year": 2014,
+      "end_year": 2024,
       "confidence": 0.8,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
         { "url": "https://www.washingtonexaminer.com/?p=365080", "title": "GOP donor bets big on Cruz — Washington Examiner" },
-        { "url": "https://publicintegrity.org/politics/pro-ted-cruz-super-pacs-mull-options-for-their-millions/", "title": "Pro-Ted Cruz super PACs mull options for their millions — Center for Public Integrity" }
+        { "url": "https://publicintegrity.org/politics/pro-ted-cruz-super-pacs-mull-options-for-their-millions/", "title": "Pro-Ted Cruz super PACs mull options for their millions — Center for Public Integrity" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00574624&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Cruz for President" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Jobs, Freedom, and Security PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Ted Cruz for Senate" }
       ]
     },
     {
@@ -224,6 +230,115 @@
       "sources": [
         { "url": "https://www.npr.org/2016/04/29/476171657/cruz-lands-indiana-governor-mike-pences-endorsement", "title": "Cruz lands Indiana Governor Mike Pence's endorsement — NPR" },
         { "url": "https://www.pbs.org/newshour/politics/ted-cruz-to-be-endorsed-by-indiana-governor", "title": "Ted Cruz to be endorsed by Indiana governor — AP via PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "donor",
+      "description": "FEC filings show $15,800 from Jeff Yass to Ted Cruz Victory Committee, Ted Cruz for Senate in the 2018 cycle.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00542423&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00492785&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "donor",
+      "description": "FEC filings show $17,200 from Joe Lonsdale to Ted Cruz for Senate, Ted Cruz Victory Committee, Jobs, Freedom, and Security PAC in 2 cycles (2022–2024).",
+      "start_year": 2021,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: LONSDALE, JOE to Ted Cruz for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: LONSDALE, JOE to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: LONSDALE, JOE to Jobs, Freedom, and Security PAC" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "donor",
+      "description": "FEC filings show $22,240 from Keith Rabois to Ted Cruz Victory Committee, Jobs, Freedom, and Security PAC, Ted Cruz for Senate in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Jobs, Freedom, and Security PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "donor",
+      "description": "FEC filings show $11,200 from Palmer Luckey to Ted Cruz Victory Committee, Ted Cruz for Senate in 2 cycles (2018–2022).",
+      "start_year": 2017,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00542423&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00492785&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $11,350 from Paul Singer to Cruz for President, Ted Cruz for Senate in 2 cycles (2016–2024).",
+      "start_year": 2015,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00574624&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Cruz for President" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "FEC filings show $21,600 from Peter Thiel to Ted Cruz Victory Committee, Jobs, Freedom, and Security PAC, Ted Cruz for Senate in the 2022 cycle.",
+      "start_year": 2021,
+      "end_year": 2021,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00542423&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00536540&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Jobs, Freedom, and Security PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00492785&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $46,000 from Stephen Schwarzman to Ted Cruz Victory Committee, Ted Cruz for Senate, Jobs, Freedom, and Security PAC in 3 cycles (2018–2026).",
+      "start_year": 2017,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00542423&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00492785&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Ted Cruz for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00536540&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Jobs, Freedom, and Security PAC" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $28,200 from Thomas Klingenstein to Ted Cruz Victory Committee, Jobs, Freedom, and Security PAC, Ted Cruz for Senate in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Jobs, Freedom, and Security PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Ted Cruz for Senate" }
       ]
     }
   ],

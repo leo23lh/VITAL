@@ -167,6 +167,69 @@
         { "url": "https://www.semafor.com/article/08/05/2025/why-a-first-term-senator-passed-up-trumps-cabinet", "title": "Why a first-term senator passed up Trump's Cabinet — Semafor" },
         { "url": "https://www.thedailybeast.com/vance-veep-eric-schmitt-buzz-backfires-almost-immediately/", "title": "Vance veep Eric Schmitt buzz backfires almost immediately — Daily Beast" }
       ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,000 from Ben Horowitz to Winning for America PAC in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00826362&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Winning for America PAC" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "donor",
+      "description": "FEC filings show $11,600 from Marc Andreessen to Winning for America PAC, Schmitt for Senate in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00826362&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Winning for America PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00775015&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Schmitt for Senate" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,500 from Paul Singer to Schmitt for Senate in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00775015&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Schmitt for Senate" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $17,000 from Stephen Schwarzman to Winning for America PAC, Schmitt for Senate in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00826362&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Winning for America PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00775015&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Schmitt for Senate" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $17,400 from Thomas Klingenstein to Schmitt for Senate, Winning for America PAC in 2 cycles (2022–2024).",
+      "start_year": 2021,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00775015&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Schmitt for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00826362&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Winning for America PAC" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

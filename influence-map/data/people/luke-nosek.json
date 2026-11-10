@@ -157,5 +157,68 @@
   ],
   "source_conflicts": [],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 115000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=NOSEK%2C+LUKE&two_year_transaction_period=2026", "title": "FEC itemized receipts: NOSEK, LUKE, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=NOSEK%2C+LUKE&committee_id=C00003418&two_year_transaction_period=2026", "title": "FEC receipts: NOSEK, LUKE to Republican National Committee, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 500000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=NOSEK%2C+LUKE&two_year_transaction_period=2024", "title": "FEC itemized receipts: NOSEK, LUKE, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Turnout for America",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00883520"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=NOSEK%2C+LUKE&committee_id=C00883520&two_year_transaction_period=2024", "title": "FEC receipts: NOSEK, LUKE to Turnout for America, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 8700,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=NOSEK%2C+LUKE&two_year_transaction_period=2022", "title": "FEC itemized receipts: NOSEK, LUKE, 2022 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 10400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=NOSEK%2C+LUKE&two_year_transaction_period=2016", "title": "FEC itemized receipts: NOSEK, LUKE, 2016 cycle" }
+        ],
+        "recipients": []
+      }
+    ]
+  }
 }

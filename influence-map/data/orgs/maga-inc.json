@@ -74,113 +74,171 @@
       "name": "Timothy Mellon",
       "slug": "timothy-mellon",
       "relationship_type": "donor",
-      "description": "Its largest donor: about $150 million in the 2024 cycle, including $50 million on May 31, 2024, and $2 million more in 2025.",
-      "start_year": 2024,
+      "description": "Its largest donor: about $150 million in the 2024 cycle, including $50 million on May 31, 2024, and $2 million more in 2025. FEC filings show $153,445,519 from Timothy Mellon to Make America Great Again Inc., MAGA Inc. in 3 cycles (2022–2026).",
+      "start_year": 2022,
       "end_year": 2025,
       "confidence": 0.95,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
-        { "url": "https://www.nbcnews.com/politics/2024-election/timothy-mellon-leads-huge-month-trump-megadonors-pouring-cash-into-election-rcna158204", "title": "Timothy Mellon leads huge month for Trump megadonors — NBC News" }
+        { "url": "https://www.nbcnews.com/politics/2024-election/timothy-mellon-leads-huge-month-trump-megadonors-pouring-cash-into-election-rcna158204", "title": "Timothy Mellon leads huge month for Trump megadonors — NBC News" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00825851&two_year_transaction_period=2026", "title": "FEC receipts: MELLON, TIMOTHY to Make America Great Again Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: MELLON, TIMOTHY to MAGA Inc." }
       ]
     },
     {
       "name": "Greg Brockman",
       "slug": "greg-brockman",
       "relationship_type": "donor",
-      "description": "Brockman and his wife gave $25 million in September 2025, nearly a quarter of what it raised in the second half of 2025.",
+      "description": "Brockman and his wife gave $25 million in September 2025, nearly a quarter of what it raised in the second half of 2025. FEC filings show $12,500,000 from Greg Brockman to MAGA Inc. in the 2026 cycle.",
       "start_year": 2025,
       "end_year": 2025,
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.cnn.com/2026/01/02/politics/trump-super-pac-maga-inc-fundraising", "title": "Trump's super PAC builds $300 million cash stockpile — CNN" },
-        { "url": "https://kvia.com/politics/cnn-us-politics/2026/01/02/trumps-super-pac-builds-a-nearly-300-million-cash-stockpile-fueling-unrivaled-fundraising-pace/", "title": "Trump's super PAC builds a nearly $300 million cash stockpile — CNN via KVIA" }
+        { "url": "https://kvia.com/politics/cnn-us-politics/2026/01/02/trumps-super-pac-builds-a-nearly-300-million-cash-stockpile-fueling-unrivaled-fundraising-pace/", "title": "Trump's super PAC builds a nearly $300 million cash stockpile — CNN via KVIA" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: BROCKMAN, GREG to MAGA Inc." }
       ]
     },
     {
       "name": "Jeff Yass",
       "slug": "jeff-yass",
       "relationship_type": "donor",
-      "description": "Gave $16 million in the first half of 2025 ($1 million on January 17 and $15 million on March 6), its top donor that period, per FEC filings.",
+      "description": "Gave $16 million in the first half of 2025 ($1 million on January 17 and $15 million on March 6), its top donor that period, per FEC filings. FEC filings show $16,000,000 from Jeff Yass to MAGA Inc. in the 2026 cycle.",
       "start_year": 2025,
       "end_year": 2025,
       "confidence": 0.85,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
         { "url": "https://www.nbcnews.com/politics/trump-administration/trumps-super-pac-raises-massive-177-million-bolstering-political-influ-rcna222400", "title": "Trump's super PAC raises a massive $177 million — NBC News" },
-        { "url": "https://readsludge.com/2025/08/01/tiktok-billionaire-donates-millions-to-trump-as-he-repeatedly-delays-ban/", "title": "TikTok billionaire donates millions to Trump as he repeatedly delays ban — Sludge" }
+        { "url": "https://readsludge.com/2025/08/01/tiktok-billionaire-donates-millions-to-trump-as-he-repeatedly-delays-ban/", "title": "TikTok billionaire donates millions to Trump as he repeatedly delays ban — Sludge" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to MAGA Inc." }
       ]
     },
     {
       "name": "Elon Musk",
       "slug": "elon-musk",
       "relationship_type": "donor",
-      "description": "Gave $5 million on June 27, 2025, weeks after his public split with Trump.",
+      "description": "Gave $5 million on June 27, 2025, weeks after his public split with Trump. FEC filings show $5,000,000 from Elon Musk to MAGA Inc. in the 2026 cycle.",
       "start_year": 2025,
       "end_year": 2025,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.notus.org/donald-trump/elon-musk-crypto-trump-super-pac-maga-inc", "title": "Elon Musk, crypto help boost Trump super PAC to new heights — NOTUS" }
+        { "url": "https://www.notus.org/donald-trump/elon-musk-crypto-trump-super-pac-maga-inc", "title": "Elon Musk, crypto help boost Trump super PAC to new heights — NOTUS" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to MAGA Inc." }
       ]
     },
     {
       "name": "Paul Singer",
       "slug": "paul-singer",
       "relationship_type": "donor",
-      "description": "Gave $5 million in August 2024.",
+      "description": "Gave $5 million in August 2024. FEC filings show $5,000,000 from Paul Singer to Make America Great Again Inc. in the 2024 cycle.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" }
+        { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00825851&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Make America Great Again Inc." }
       ]
     },
     {
       "name": "Stephen Schwarzman",
       "slug": "stephen-schwarzman",
       "relationship_type": "donor",
-      "description": "Gave $5 million in September 2026, one of three donors behind three-quarters of its $24 million that month.",
-      "start_year": 2026,
+      "description": "Gave $5 million in September 2026, one of three donors behind three-quarters of its $24 million that month. FEC filings show $5,000,000 from Stephen Schwarzman to MAGA Inc. in the 2026 cycle.",
+      "start_year": 2025,
       "end_year": 2026,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" }
+        { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to MAGA Inc." }
       ]
     },
     {
       "name": "Thomas Klingenstein",
       "slug": "thomas-klingenstein",
       "relationship_type": "donor",
-      "description": "Gave $1 million in July 2024.",
+      "description": "Gave $1 million in July 2024. FEC filings show $1,000,000 from Thomas Klingenstein to Make America Great Again Inc. in the 2024 cycle.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" }
+        { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00825851&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Make America Great Again Inc." }
       ]
     },
     {
       "name": "Miriam Adelson",
       "slug": "miriam-adelson",
       "relationship_type": "donor",
-      "description": "Named among its large 2026 donors; the amount was not reported.",
+      "description": "Named among its large 2026 donors; the amount was not reported. FEC filings show $25,000,000 from Miriam Adelson to MAGA Inc. in the 2026 cycle.",
       "start_year": 2026,
       "confidence": 0.7,
       "sources": [
         { "url": "https://www.axios.com/2026/11/06/scoop-trump-to-keep-fundraising-hoping-to-retain-political-muscle", "title": "Scoop: Trump to keep fundraising, hoping to retain political muscle — Axios" },
-        { "url": "https://www.inquirer.com/politics/nation/trump-super-pac-midterm-elections-20261021.html", "title": "Trump super PAC and the midterm elections — Philadelphia Inquirer" }
+        { "url": "https://www.inquirer.com/politics/nation/trump-super-pac-midterm-elections-20261021.html", "title": "Trump super PAC and the midterm elections — Philadelphia Inquirer" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to MAGA Inc." }
       ]
     },
     {
       "name": "Jacob Helberg",
       "slug": "jacob-helberg",
       "relationship_type": "donor",
-      "description": "Jacob Helberg gave $1 million in 2024, per the Revolving Door Project; other reports described it as a gift to the Trump campaign.",
+      "description": "Jacob Helberg gave $1 million in 2024, per the Revolving Door Project; other reports described it as a gift to the Trump campaign. FEC filings show $1,000,000 from Jacob Helberg to Make America Great Again Inc. in the 2024 cycle.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.65,
       "sources": [
         { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" },
-        { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" }
+        { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00825851&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Make America Great Again Inc." }
+      ]
+    },
+    {
+      "name": "Alex Karp",
+      "slug": "alex-karp",
+      "relationship_type": "donor",
+      "description": "FEC filings show $1,000,000 from Alex Karp to MAGA Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00892471&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to MAGA Inc." }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "donor",
+      "description": "FEC filings show $6,000,000 from Ben Horowitz to MAGA Inc. in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to MAGA Inc." }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "donor",
+      "description": "FEC filings show $3,000,000 from Marc Andreessen to MAGA Inc. in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: ANDREESSEN, MARC to MAGA Inc." }
+      ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $5,000,000 from Richard Uihlein to Make America Great Again Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00825851&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Make America Great Again Inc." }
       ]
     }
   ],

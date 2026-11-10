@@ -199,13 +199,16 @@
       "name": "JD Vance",
       "slug": "jd-vance",
       "relationship_type": "funded_by",
-      "description": "Gave $60,800 to two PACs backing Vance's 2022 Senate run and co-hosted a New York fundraiser for him; Vance reportedly advised her on Parler.",
+      "description": "Gave $60,800 to two PACs backing Vance's 2022 Senate run and co-hosted a New York fundraiser for him; Vance reportedly advised her on Parler. FEC filings show $60,800 from Rebekah Mercer to Protect Ohio Values PAC (POV PAC), Working for Ohio, JD Vance for Senate Inc. in the 2022 cycle.",
       "start_year": 2021,
       "end_year": 2022,
       "confidence": 0.85,
       "sources": [
         { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" },
-        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, REBEKAH to Protect Ohio Values PAC (POV PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, REBEKAH to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, REBEKAH to JD Vance for Senate Inc." }
       ]
     },
     {
@@ -306,6 +309,20 @@
         { "url": "https://en.wikipedia.org/wiki/Rebekah_Mercer", "title": "Rebekah Mercer — Wikipedia" },
         { "url": "https://www.influencewatch.org/person/rebekah-mercer/", "title": "Rebekah Mercer — InfluenceWatch" }
       ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $478,000 from Rebekah Mercer to Trump Victory, Donald J. Trump for President, Inc., Trump Save America Joint Fundraising Committee and others in 2 cycles (2016–2024).",
+      "start_year": 2016,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, REBEKAH to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, REBEKAH to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00770941&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, REBEKAH to Trump Save America Joint Fundraising Committee" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -332,10 +349,36 @@
   "giving": {
     "cycles": [
       {
+        "cycle": 2024,
+        "total_usd": 23200,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&two_year_transaction_period=2024", "title": "FEC itemized receipts: MERCER, REBEKAH, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 23200,
+            "fec_usd": 23200,
+            "fec_ids": ["C00762591", "C00770941", "C00828541"],
+            "description": "Per FEC filings: Trump Save America Joint Fundraising Committee $11,600; Never Surrender, Inc. $6,600; Save America $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00770941&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, REBEKAH to Trump Save America Joint Fundraising Committee, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, REBEKAH to Never Surrender, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00762591&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, REBEKAH to Save America, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
         "cycle": 2022,
         "description": "Backed JD Vance's Senate run and co-hosted a 2021 New York fundraiser for Vance and Blake Masters.",
         "sources": [
-          { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" }
+          { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&two_year_transaction_period=2022", "title": "FEC itemized receipts: MERCER, REBEKAH, 2022 cycle" }
         ],
         "recipients": [
           {
@@ -347,6 +390,115 @@
             "sources": [
               { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" }
             ]
+          },
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 60800,
+            "fec_usd": 60800,
+            "fec_ids": ["C00770495", "C00783142", "C00783167"],
+            "description": "Per FEC filings: Protect Ohio Values PAC (POV PAC) $50,000; JD Vance for Senate Inc. $5,800; Working for Ohio $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, REBEKAH to Protect Ohio Values PAC (POV PAC), 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, REBEKAH to JD Vance for Senate Inc., 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, REBEKAH to Working for Ohio, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Mehmet Oz",
+            "slug": "mehmet-oz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00795930"],
+            "description": "Per FEC filings: Doctor Oz for Senate $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00795930&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, REBEKAH to Doctor Oz for Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Eric Schmitt",
+            "slug": "eric-schmitt",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00775015"],
+            "description": "Per FEC filings: Schmitt for Senate $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00775015&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, REBEKAH to Schmitt for Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00620518"],
+            "description": "Per FEC filings: Marco Rubio for Senate $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00620518&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, REBEKAH to Marco Rubio for Senate, 2022 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 126700,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 74100,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&two_year_transaction_period=2020", "title": "FEC itemized receipts: MERCER, REBEKAH, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "The Founders Committee",
+            "kind": "pac",
+            "amount_usd": 38000,
+            "fec_usd": 38000,
+            "fec_ids": ["C00754424"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00754424&two_year_transaction_period=2020", "title": "FEC receipts: MERCER, REBEKAH to The Founders Committee, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 104100,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&two_year_transaction_period=2018", "title": "FEC itemized receipts: MERCER, REBEKAH, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Founders Committee; the",
+            "kind": "candidate",
+            "amount_usd": 29700,
+            "fec_usd": 29700,
+            "fec_ids": ["C00689471"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00689471&two_year_transaction_period=2018", "title": "FEC receipts: MERCER, REBEKAH to Founders Committee; the, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Josh Hawley",
+            "slug": "josh-hawley",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00652727"],
+            "description": "Per FEC filings: Josh Hawley for Senate $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00652727&two_year_transaction_period=2018", "title": "FEC receipts: MERCER, REBEKAH to Josh Hawley for Senate, 2018 cycle" }
+            ]
           }
         ]
       },
@@ -355,7 +507,8 @@
         "description": "Ran the family's main 2016 vehicle, funded mostly by her father: pro-Cruz in the primary, pro-Trump in the general election.",
         "sources": [
           { "url": "https://en.wikipedia.org/wiki/Rebekah_Mercer", "title": "Rebekah Mercer — Wikipedia" },
-          { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+          { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&two_year_transaction_period=2016", "title": "FEC itemized receipts: MERCER, REBEKAH, 2016 cycle" }
         ],
         "recipients": [
           {
@@ -367,8 +520,61 @@
             "sources": [
               { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
             ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 454800,
+            "fec_usd": 454800,
+            "fec_ids": ["C00580100", "C00618389"],
+            "description": "Per FEC filings: Trump Victory $449,400; Donald J. Trump for President, Inc. $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00618389&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, REBEKAH to Trump Victory, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00580100&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, REBEKAH to Donald J. Trump for President, Inc., 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 233800,
+            "fec_usd": 233800,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00003418&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, REBEKAH to Republican National Committee, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00574624"],
+            "description": "Per FEC filings: Cruz for President $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00574624&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, REBEKAH to Cruz for President, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Ron DeSantis",
+            "slug": "ron-desantis",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00511568"],
+            "description": "Per FEC filings: Ron Desantis for Florida $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00511568&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, REBEKAH to Ron Desantis for Florida, 2016 cycle" }
+            ]
           }
-        ]
+        ],
+        "total_usd": 860300,
+        "ranking": "FEC itemized receipts (federal committees only)"
       }
     ],
     "outlook": {

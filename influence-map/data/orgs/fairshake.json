@@ -35,24 +35,26 @@
       "name": "Marc Andreessen",
       "slug": "marc-andreessen",
       "relationship_type": "donor",
-      "description": "Gave $33.5 million through 2024 and, with Ben Horowitz, $23.8 million more for 2026 (a16z pledged its 2026 money right after the 2024 election).",
+      "description": "Gave $33.5 million through 2024 and, with Ben Horowitz, $23.8 million more for 2026 (a16z pledged its 2026 money right after the 2024 election). FEC filings show $45,400,000 from Marc Andreessen to Fairshake in 2 cycles (2024–2026).",
       "start_year": 2023,
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" },
-        { "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html", "title": "Coinbase, a16z and others pour more than $78 million into pro-crypto PAC for 2026 election — CNBC" }
+        { "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html", "title": "Coinbase, a16z and others pour more than $78 million into pro-crypto PAC for 2026 election — CNBC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00835959&two_year_transaction_period=2026", "title": "FEC receipts: ANDREESSEN, MARC to Fairshake" }
       ]
     },
     {
       "name": "Ben Horowitz",
       "slug": "ben-horowitz",
       "relationship_type": "donor",
-      "description": "Gave $33.5 million through 2024 and, with Marc Andreessen, $23.8 million more for 2026.",
+      "description": "Gave $33.5 million through 2024 and, with Marc Andreessen, $23.8 million more for 2026. FEC filings show $45,400,000 from Ben Horowitz to Fairshake in 2 cycles (2024–2026).",
       "start_year": 2023,
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" },
-        { "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html", "title": "Coinbase, a16z and others pour more than $78 million into pro-crypto PAC for 2026 election — CNBC" }
+        { "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html", "title": "Coinbase, a16z and others pour more than $78 million into pro-crypto PAC for 2026 election — CNBC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00835959&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Fairshake" }
       ]
     },
     {

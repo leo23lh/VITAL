@@ -116,26 +116,120 @@
       "name": "MAGA Inc.",
       "slug": "maga-inc",
       "relationship_type": "funded_by",
-      "description": "Gave $5 million in September 2026, one of three donors behind three-quarters of its $24 million that month.",
-      "start_year": 2026,
+      "description": "Gave $5 million in September 2026, one of three donors behind three-quarters of its $24 million that month. FEC filings show $5,000,000 from Stephen Schwarzman to MAGA Inc. in the 2026 cycle.",
+      "start_year": 2025,
       "end_year": 2026,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" }
+        { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to MAGA Inc." }
       ]
     },
     {
       "name": "Senate Leadership Fund",
       "slug": "senate-leadership-fund",
       "relationship_type": "funded_by",
-      "description": "A steady top donor: $10 million in 2020, $10 million in 2022, $9 million in 2024 and $20 million in the 2026 cycle.",
-      "start_year": 2020,
+      "description": "A steady top donor: $10 million in 2020, $10 million in 2022, $9 million in 2024 and $20 million in the 2026 cycle. FEC filings show $93,570,000 from Stephen Schwarzman to SLF PAC in 6 cycles (2016–2026).",
+      "start_year": 2016,
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.bloomberg.com/news/articles/2020-08-21/senate-leadership-fund-gets-10-million-boost-from-schwarzman", "title": "Senate Leadership Fund Gets $10 Million Boost From Schwarzman — Bloomberg" },
         { "url": "https://thehill.com/lobbying/3720141-here-are-the-biggest-donors-in-the-midterm-elections/", "title": "Here are the 10 biggest donors in the midterm elections — The Hill" },
         { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
-        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to SLF PAC" }
+      ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $21,550,058 from Stephen Schwarzman to CLF in 6 cycles (2016–2026).",
+      "start_year": 2016,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to CLF" }
+      ]
+    },
+    {
+      "name": "John Thune",
+      "slug": "john-thune",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $40,000 from Stephen Schwarzman to Friends of John Thune, Commonsense, Conservative Values PAC, Heartland Values PAC in 6 cycles (2016–2026).",
+      "start_year": 2015,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00409581&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Friends of John Thune" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00748186&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Commonsense, Conservative Values PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00409003&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Heartland Values PAC" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $1,131,000 from Stephen Schwarzman to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. and others in 3 cycles (2018–2024).",
+      "start_year": 2017,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Trump 47 Committee, Inc." }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $46,000 from Stephen Schwarzman to Ted Cruz Victory Committee, Ted Cruz for Senate, Jobs, Freedom, and Security PAC in 3 cycles (2018–2026).",
+      "start_year": 2017,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00542423&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00492785&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Ted Cruz for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00536540&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Jobs, Freedom, and Security PAC" }
+      ]
+    },
+    {
+      "name": "Mehmet Oz",
+      "slug": "mehmet-oz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $14,500 from Stephen Schwarzman to Doctor Oz for Senate in the 2022 cycle.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00795930&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Doctor Oz for Senate" }
+      ]
+    },
+    {
+      "name": "Eric Schmitt",
+      "slug": "eric-schmitt",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $17,000 from Stephen Schwarzman to Winning for America PAC, Schmitt for Senate in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00826362&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Winning for America PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00775015&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Schmitt for Senate" }
+      ]
+    },
+    {
+      "name": "Markwayne Mullin",
+      "slug": "markwayne-mullin",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $12,000 from Stephen Schwarzman to Mullin for America, Boots Political Action Committee in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00498345&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Mullin for America" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00567545&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Boots Political Action Committee" }
       ]
     }
   ],
@@ -149,7 +243,8 @@
         "rank": 20,
         "ranking": "Washington Post 2026 tracker, individual donors only (FEC data), with Christine Schwarzman",
         "sources": [
-          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&two_year_transaction_period=2026", "title": "FEC itemized receipts: SCHWARZMAN, STEPHEN, 2026 cycle" }
         ],
         "recipients": [
           {
@@ -160,8 +255,11 @@
             "amount_usd": 20000000,
             "sources": [
               { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
-              { "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html", "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million — CNBC" }
-            ]
+              { "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html", "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million — CNBC" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to SLF PAC, 2026 cycle" }
+            ],
+            "fec_usd": 17000000,
+            "fec_ids": ["C00571703"]
           },
           {
             "name": "MAGA Inc.",
@@ -172,7 +270,181 @@
             "amount_usd": 5000000,
             "description": "September 2026; one of three donors behind three-quarters of MAGA Inc.'s $24M that month.",
             "sources": [
-              { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" }
+              { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to MAGA Inc., 2026 cycle" }
+            ],
+            "fec_usd": 5000000,
+            "fec_ids": ["C00892471"]
+          },
+          {
+            "name": "Pine Tree Results PAC",
+            "kind": "super-pac",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00894709"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00894709&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Pine Tree Results PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Texans for a Conservative Majority",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00542217"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00542217&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Texans for a Conservative Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: CLF $1,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to CLF, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "The Sentinel Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00811166"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00811166&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to The Sentinel Action Fund, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "America 21 PAC",
+            "kind": "super-pac",
+            "amount_usd": 400000,
+            "fec_usd": 400000,
+            "fec_ids": ["C00804690"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00804690&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to America 21 PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 275000,
+            "fec_usd": 275000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00003418&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Republican National Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Keystone Next",
+            "kind": "super-pac",
+            "amount_usd": 150000,
+            "fec_usd": 150000,
+            "fec_ids": ["C00905380"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00905380&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Keystone Next, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Conservatives for America PAC",
+            "kind": "super-pac",
+            "amount_usd": 150000,
+            "fec_usd": 150000,
+            "fec_ids": ["C00893263"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00893263&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Conservatives for America PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 137900,
+            "fec_usd": 137900,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to NRSC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "One Team Senate Majority",
+            "kind": "pac",
+            "amount_usd": 85000,
+            "fec_usd": 85000,
+            "fec_ids": ["C00897918"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00897918&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to One Team Senate Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 44300,
+            "fec_usd": 44300,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00075820&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to NRCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Eric Schmitt",
+            "slug": "eric-schmitt",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 12000,
+            "fec_usd": 12000,
+            "fec_ids": ["C00775015", "C00826362"],
+            "description": "Per FEC filings: Schmitt for Senate $7,000; Winning for America PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00775015&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Schmitt for Senate, 2026 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00826362&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Winning for America PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Markwayne Mullin",
+            "slug": "markwayne-mullin",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 12000,
+            "fec_usd": 12000,
+            "fec_ids": ["C00498345", "C00567545"],
+            "description": "Per FEC filings: Mullin for America $7,000; Boots Political Action Committee $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00498345&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Mullin for America, 2026 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00567545&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Boots Political Action Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 12000,
+            "fec_usd": 12000,
+            "fec_ids": ["C00492785", "C00536540"],
+            "description": "Per FEC filings: Ted Cruz for Senate $7,000; Jobs, Freedom, and Security PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00492785&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Ted Cruz for Senate, 2026 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00536540&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Jobs, Freedom, and Security PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 5000,
+            "fec_usd": 5000,
+            "fec_ids": ["C00748186"],
+            "description": "Per FEC filings: Commonsense, Conservative Values PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00748186&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Commonsense, Conservative Values PAC, 2026 cycle" }
             ]
           }
         ]
@@ -182,7 +454,8 @@
         "description": "Over $40M (GoLocalProv, from OpenSecrets data); just outside the top ten. Endorsed Trump in May 2024 and raised money for him.",
         "sources": [
           { "url": "https://www.golocalprov.com/politics/elon-musk-tops-list-of-2024-political-donors-one-rhode-islander-gave-40m", "title": "Elon Musk Tops List of 2024 Political Donors — GoLocalProv" },
-          { "url": "https://www.axios.com/2024/05/24/trump-2024-stephen-schwarzman-blackstone", "title": "Blackstone CEO Steve Schwarzman backs Trump, will raise money for him — Axios" }
+          { "url": "https://www.axios.com/2024/05/24/trump-2024-stephen-schwarzman-blackstone", "title": "Blackstone CEO Steve Schwarzman backs Trump, will raise money for him — Axios" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&two_year_transaction_period=2024", "title": "FEC itemized receipts: SCHWARZMAN, STEPHEN, 2024 cycle" }
         ],
         "recipients": [
           {
@@ -193,8 +466,11 @@
             "amount_usd": 9000000,
             "description": "Third-quarter 2024 filings.",
             "sources": [
-              { "url": "https://www.cnn.com/2024/10/16/politics/fundraising-takeaways-elon-musk-billionaires-trump", "title": "Elon Musk and other billionaires invest staggering sums into electing Trump — CNN" }
-            ]
+              { "url": "https://www.cnn.com/2024/10/16/politics/fundraising-takeaways-elon-musk-billionaires-trump", "title": "Elon Musk and other billionaires invest staggering sums into electing Trump — CNN" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00571703&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Senate Leadership Fund, 2024 cycle" }
+            ],
+            "fec_usd": 9000000,
+            "fec_ids": ["C00571703"]
           },
           {
             "name": "Buckeye Values PAC (for Bernie Moreno, Ohio Senate)",
@@ -203,6 +479,760 @@
             "amount_usd": 375000,
             "sources": [
               { "url": "https://www.axios.com/2024/05/24/trump-2024-stephen-schwarzman-blackstone", "title": "Blackstone CEO Steve Schwarzman backs Trump, will raise money for him — Axios" }
+            ]
+          },
+          {
+            "name": "More Jobs, Less Government",
+            "kind": "super-pac",
+            "amount_usd": 8000000,
+            "fec_usd": 8000000,
+            "fec_ids": ["C00693838"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00693838&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to More Jobs, Less Government, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Glcf, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 4500000,
+            "fec_usd": 4500000,
+            "fec_ids": ["C00853861"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00853861&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Glcf, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Maryland's Future",
+            "kind": "super-pac",
+            "amount_usd": 3500000,
+            "fec_usd": 3500000,
+            "fec_ids": ["C00870030"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00870030&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Maryland's Future, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Buckeye Values PAC",
+            "kind": "super-pac",
+            "amount_usd": 3375000,
+            "fec_usd": 3375000,
+            "fec_ids": ["C00834630"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00834630&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Buckeye Values PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Keystone Renewal PAC",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00849489"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00849489&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Keystone Renewal PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $2,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00504530&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Congressional Leadership Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Tell It Like It Is PAC",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00841593"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00841593&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Tell It Like It Is PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Texans for a Conservative Majority",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00542217"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00542217&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Texans for a Conservative Majority, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Nha Action",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00876409"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00876409&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Nha Action, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 426200,
+            "fec_usd": 426200,
+            "fec_ids": ["C00828541", "C00867937"],
+            "description": "Per FEC filings: Trump 47 Committee, Inc. $419,600; Never Surrender, Inc. $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Trump 47 Committee, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Never Surrender, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 413000,
+            "fec_usd": 413000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00003418&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Republican National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Virginia in Milwaukee 2024",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00882126"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00882126&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Virginia in Milwaukee 2024, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 23200,
+            "fec_usd": 23200,
+            "fec_ids": ["C00492785", "C00536540", "C00542423"],
+            "description": "Per FEC filings: Ted Cruz Victory Committee $11,600; Ted Cruz for Senate $6,600; Jobs, Freedom, and Security PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Ted Cruz Victory Committee, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Ted Cruz for Senate, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Jobs, Freedom, and Security PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 11600,
+            "fec_usd": 11600,
+            "fec_ids": ["C00409581", "C00748186"],
+            "description": "Per FEC filings: Friends of John Thune $6,600; Commonsense, Conservative Values PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00409581&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Friends of John Thune, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00748186&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Commonsense, Conservative Values PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00666396"],
+            "description": "Per FEC filings: Michael Waltz for Congress $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Michael Waltz for Congress, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Eric Schmitt",
+            "slug": "eric-schmitt",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 5000,
+            "fec_usd": 5000,
+            "fec_ids": ["C00826362"],
+            "description": "Per FEC filings: Winning for America PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00826362&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Winning for America PAC, 2024 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 39674753,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 37087058,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&two_year_transaction_period=2022", "title": "FEC itemized receipts: SCHWARZMAN, STEPHEN, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 22000000,
+            "fec_usd": 22000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $22,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00571703&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Senate Leadership Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10600058,
+            "fec_usd": 10600058,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $10,600,058.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00504530&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Congressional Leadership Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Saving Arizona PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00777185"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00777185&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Saving Arizona PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "American Leadership Action",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00794891"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00794891&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to American Leadership Action, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Honor Pennsylvania, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 600000,
+            "fec_usd": 600000,
+            "fec_ids": ["C00798116"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00798116&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Honor Pennsylvania, Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 365000,
+            "fec_usd": 365000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00003418&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Republican National Committee, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Rjc Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00528554"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00528554&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Rjc Victory Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Florida First Project",
+            "kind": "super-pac",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00620476"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00620476&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Florida First Project, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "USA Freedom Fund",
+            "kind": "super-pac",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00745208"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00745208&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to USA Freedom Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Take Back the House 2022",
+            "kind": "pac",
+            "amount_usd": 103300,
+            "fec_usd": 103300,
+            "fec_ids": ["C00766782"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00766782&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Take Back the House 2022, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Opportunity Matters Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00750182"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00750182&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Opportunity Matters Fund, Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 73000,
+            "fec_usd": 73000,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00027466&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to NRSC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Mehmet Oz",
+            "slug": "mehmet-oz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 14500,
+            "fec_usd": 14500,
+            "fec_ids": ["C00795930"],
+            "description": "Per FEC filings: Doctor Oz for Senate $14,500.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00795930&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Doctor Oz for Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 5000,
+            "fec_usd": 5000,
+            "fec_ids": ["C00748186"],
+            "description": "Per FEC filings: Commonsense, Conservative Values PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00748186&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Commonsense, Conservative Values PAC, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 47474300,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&two_year_transaction_period=2020", "title": "FEC itemized receipts: SCHWARZMAN, STEPHEN, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 35000000,
+            "fec_usd": 35000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $35,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00571703&two_year_transaction_period=2020", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Senate Leadership Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "America First Action, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00637512"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00637512&two_year_transaction_period=2020", "title": "FEC receipts: SCHWARZMAN, STEPHEN to America First Action, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $2,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00504530&two_year_transaction_period=2020", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Congressional Leadership Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Clt Host 2020 Inc",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00685123"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00685123&two_year_transaction_period=2020", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Clt Host 2020 Inc, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "1820 PAC",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00698126"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00698126&two_year_transaction_period=2020", "title": "FEC receipts: SCHWARZMAN, STEPHEN to 1820 PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Better Future Mi Fund",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00725317"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00725317&two_year_transaction_period=2020", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Better Future Mi Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 638700,
+            "fec_usd": 638700,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00003418&two_year_transaction_period=2020", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Republican National Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 355000,
+            "fec_usd": 355000,
+            "fec_ids": ["C00618389"],
+            "description": "Per FEC filings: Trump Victory $355,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Trump Victory, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Take Back the House 2020",
+            "kind": "pac",
+            "amount_usd": 161800,
+            "fec_usd": 161800,
+            "fec_ids": ["C00695585"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00695585&two_year_transaction_period=2020", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Take Back the House 2020, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 71800,
+            "fec_usd": 71800,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00027466&two_year_transaction_period=2020", "title": "FEC receipts: SCHWARZMAN, STEPHEN to NRSC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 71000,
+            "fec_usd": 71000,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00075820&two_year_transaction_period=2020", "title": "FEC receipts: SCHWARZMAN, STEPHEN to NRCC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Team McHenry",
+            "kind": "pac",
+            "amount_usd": 46100,
+            "fec_usd": 46100,
+            "fec_ids": ["C00544650"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00544650&two_year_transaction_period=2020", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Team McHenry, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 10200,
+            "fec_usd": 10200,
+            "fec_ids": ["C00409003", "C00409581", "C00748186"],
+            "description": "Per FEC filings: Commonsense. Conservative Values PAC $5,000; Heartland Values PAC $5,000; Friends of John Thune $200.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00748186&two_year_transaction_period=2020", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Commonsense. Conservative Values PAC, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00409003&two_year_transaction_period=2020", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Heartland Values PAC, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00409581&two_year_transaction_period=2020", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Friends of John Thune, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 12853300,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&two_year_transaction_period=2018", "title": "FEC itemized receipts: SCHWARZMAN, STEPHEN, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 8000000,
+            "fec_usd": 8000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $8,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00571703&two_year_transaction_period=2018", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Senate Leadership Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 3750000,
+            "fec_usd": 3750000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $3,750,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00504530&two_year_transaction_period=2018", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Congressional Leadership Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 349800,
+            "fec_usd": 349800,
+            "fec_ids": ["C00580100", "C00618389"],
+            "description": "Per FEC filings: Trump Victory $344,400; Donald J. Trump for President, Inc. $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00618389&two_year_transaction_period=2018", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Trump Victory, 2018 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00580100&two_year_transaction_period=2018", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Donald J. Trump for President, Inc., 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 135600,
+            "fec_usd": 135600,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00003418&two_year_transaction_period=2018", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Republican National Committee, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 67800,
+            "fec_usd": 67800,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00027466&two_year_transaction_period=2018", "title": "FEC receipts: SCHWARZMAN, STEPHEN to NRSC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 67300,
+            "fec_usd": 67300,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00075820&two_year_transaction_period=2018", "title": "FEC receipts: SCHWARZMAN, STEPHEN to NRCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Team Ryan",
+            "kind": "pac",
+            "amount_usd": 43800,
+            "fec_usd": 43800,
+            "fec_ids": ["C00545947"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00545947&two_year_transaction_period=2018", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Team Ryan, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Protect the House",
+            "kind": "pac",
+            "amount_usd": 32400,
+            "fec_usd": 32400,
+            "fec_ids": ["C00669622"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00669622&two_year_transaction_period=2018", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Protect the House, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 10800,
+            "fec_usd": 10800,
+            "fec_ids": ["C00492785", "C00542423"],
+            "description": "Per FEC filings: Ted Cruz Victory Committee $5,400; Ted Cruz for Senate $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00542423&two_year_transaction_period=2018", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Ted Cruz Victory Committee, 2018 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00492785&two_year_transaction_period=2018", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Ted Cruz for Senate, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00409581"],
+            "description": "Per FEC filings: Friends of John Thune $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00409581&two_year_transaction_period=2018", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Friends of John Thune, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Doug Collins",
+            "slug": "doug-collins",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00502039"],
+            "description": "Per FEC filings: Collins for Congress $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00502039&two_year_transaction_period=2018", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Collins for Congress, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 4771300,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&two_year_transaction_period=2016", "title": "FEC itemized receipts: SCHWARZMAN, STEPHEN, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 2570000,
+            "fec_usd": 2570000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $2,570,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00571703&two_year_transaction_period=2016", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Senate Leadership Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1700000,
+            "fec_usd": 1700000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $1,700,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00504530&two_year_transaction_period=2016", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Congressional Leadership Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Right to Rise USA",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00571372"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00571372&two_year_transaction_period=2016", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Right to Rise USA, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 66800,
+            "fec_usd": 66800,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00027466&two_year_transaction_period=2016", "title": "FEC receipts: SCHWARZMAN, STEPHEN to NRSC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Team Ryan",
+            "kind": "pac",
+            "amount_usd": 38800,
+            "fec_usd": 38800,
+            "fec_ids": ["C00545947"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00545947&two_year_transaction_period=2016", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Team Ryan, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 33400,
+            "fec_usd": 33400,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00075820&two_year_transaction_period=2016", "title": "FEC receipts: SCHWARZMAN, STEPHEN to NRCC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00409581"],
+            "description": "Per FEC filings: Friends of John Thune $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00409581&two_year_transaction_period=2016", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Friends of John Thune, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Chuck Schumer",
+            "slug": "chuck-schumer",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 2600,
+            "fec_usd": 2600,
+            "fec_ids": ["C00346312"],
+            "description": "Per FEC filings: Friends of Schumer $2,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00346312&two_year_transaction_period=2016", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Friends of Schumer, 2016 cycle" }
             ]
           }
         ]

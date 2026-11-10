@@ -372,6 +372,9 @@ export function validatePeople(records, opts = {}) {
             const rw = `${where} recipient ${r?.name ?? `#${j}`}`;
             checkTarget(r, rw);
             if (!isUsd(r?.amount_usd)) err(file, `${rw}: "amount_usd" must be a dollar amount`);
+            if (!isUsd(r?.fec_usd)) err(file, `${rw}: "fec_usd" must be a dollar amount`);
+            if (r?.fec_ids !== undefined && !(Array.isArray(r.fec_ids) && r.fec_ids.length && r.fec_ids.every((id) => /^C\d{8}$/.test(id))))
+              err(file, `${rw}: "fec_ids" must list FEC committee ids (C followed by eight digits)`);
           });
         });
         if (g.outlook !== undefined) {

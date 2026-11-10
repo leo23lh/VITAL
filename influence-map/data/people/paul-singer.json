@@ -53,13 +53,15 @@
       "name": "Marco Rubio",
       "slug": "marco-rubio",
       "relationship_type": "funded_by",
-      "description": "Singer was one of Rubio's early top money men and endorsed him in October 2015; with Ken Griffin he gave to the pro-Rubio super PAC.",
+      "description": "Singer was one of Rubio's early top money men and endorsed him in October 2015; with Ken Griffin he gave to the pro-Rubio super PAC. FEC filings show $13,500 from Paul Singer to Marco Rubio for Senate 2016, Marco Rubio for President in the 2016 cycle.",
       "start_year": 2015,
       "end_year": 2016,
       "confidence": 0.85,
       "sources": [
         { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Fortune: Griffin and Singer meet Trump about donating" },
-        { "url": "https://www.bloomberg.com/news/articles/2016-01-31/singer-griffin-give-combined-5-million-to-super-pac-backing-rubio", "title": "Bloomberg" }
+        { "url": "https://www.bloomberg.com/news/articles/2016-01-31/singer-griffin-give-combined-5-million-to-super-pac-backing-rubio", "title": "Bloomberg" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00620518&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Marco Rubio for Senate 2016" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00458844&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Marco Rubio for President" }
       ]
     },
     {
@@ -103,48 +105,164 @@
       "name": "MAGA Inc.",
       "slug": "maga-inc",
       "relationship_type": "funded_by",
-      "description": "Gave $5 million in August 2024.",
+      "description": "Gave $5 million in August 2024. FEC filings show $5,000,000 from Paul Singer to Make America Great Again Inc. in the 2024 cycle.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" }
+        { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00825851&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Make America Great Again Inc." }
       ]
     },
     {
       "name": "Senate Leadership Fund",
       "slug": "senate-leadership-fund",
       "relationship_type": "funded_by",
-      "description": "Gave $27 million in 2023–24 and at least $1 million in the first half of 2025.",
-      "start_year": 2024,
+      "description": "Gave $27 million in 2023–24 and at least $1 million in the first half of 2025. FEC filings show $63,500,000 from Paul Singer to SLF PAC in 6 cycles (2016–2026).",
+      "start_year": 2015,
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
-        { "url": "https://www.nbcnews.com/politics/2026-election/republican-super-pacs-bank-millions-ahead-midterm-battles-rcna222115", "title": "Republican super PACs bank millions ahead of midterm battles — NBC News" }
+        { "url": "https://www.nbcnews.com/politics/2026-election/republican-super-pacs-bank-millions-ahead-midterm-battles-rcna222115", "title": "Republican super PACs bank millions ahead of midterm battles — NBC News" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to SLF PAC" }
       ]
     },
     {
       "name": "Congressional Leadership Fund",
       "slug": "congressional-leadership-fund",
       "relationship_type": "funded_by",
-      "description": "One of his top recipients in 2024 and 2026, with at least $1 million in the first half of 2025.",
-      "start_year": 2024,
+      "description": "One of his top recipients in 2024 and 2026, with at least $1 million in the first half of 2025. FEC filings show $34,660,000 from Paul Singer to CLF in 5 cycles (2016–2026).",
+      "start_year": 2016,
       "confidence": 0.8,
       "sources": [
         { "url": "https://www.nbcnews.com/politics/2026-election/republican-super-pacs-bank-millions-ahead-midterm-battles-rcna222115", "title": "Republican super PACs bank millions ahead of midterm battles — NBC News" },
-        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to CLF" }
       ]
     },
     {
       "name": "AIPAC",
       "slug": "aipac",
       "relationship_type": "funded_by",
-      "description": "Gave $5.6 million to its super PAC, the United Democracy Project, from 2022 to 2026, including $2.6 million in the 2026 cycle.",
+      "description": "Gave $5.6 million to its super PAC, the United Democracy Project, from 2022 to 2026, including $2.6 million in the 2026 cycle. FEC filings show $5,600,000 from Paul Singer to United Democracy Project ('UDP') in 3 cycles (2022–2026).",
       "start_year": 2022,
       "confidence": 0.8,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" },
-        { "url": "https://truthout.org/articles/aipacs-network-has-already-spent-67-2-million-to-shape-the-midterm-elections/", "title": "AIPAC's network has already spent $67.2 million to shape the midterm elections — Truthout" }
+        { "url": "https://truthout.org/articles/aipacs-network-has-already-spent-67-2-million-to-shape-the-midterm-elections/", "title": "AIPAC's network has already spent $67.2 million to shape the midterm elections — Truthout" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00799031&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to United Democracy Project ('UDP')" }
+      ]
+    },
+    {
+      "name": "Sean Duffy",
+      "slug": "sean-duffy",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $19,100 from Paul Singer to Duffy for Wisconsin in 3 cycles (2016–2020).",
+      "start_year": 2015,
+      "end_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00464339&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to Duffy for Wisconsin" }
+      ]
+    },
+    {
+      "name": "John Thune",
+      "slug": "john-thune",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $25,900 from Paul Singer to Friends of John Thune, Commonsense, Conservative Values PAC in 2 cycles (2016–2024).",
+      "start_year": 2016,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00409581&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Friends of John Thune" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00748186&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Commonsense, Conservative Values PAC" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $11,350 from Paul Singer to Cruz for President, Ted Cruz for Senate in 2 cycles (2016–2024).",
+      "start_year": 2015,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00574624&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Cruz for President" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Mike Waltz",
+      "slug": "mike-waltz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $31,829 from Paul Singer to Michael Waltz for Congress, Warrior Diplomat PAC in 4 cycles (2018–2024).",
+      "start_year": 2018,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Michael Waltz for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00693671&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Warrior Diplomat PAC" }
+      ]
+    },
+    {
+      "name": "Markwayne Mullin",
+      "slug": "markwayne-mullin",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $19,200 from Paul Singer to Mullin for America in 2 cycles (2022–2026).",
+      "start_year": 2022,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00498345&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Mullin for America" }
+      ]
+    },
+    {
+      "name": "Preserve America PAC",
+      "slug": "preserve-america-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $2,500,000 from Paul Singer to Preserve America PAC in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00878801&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Preserve America PAC" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $426,200 from Paul Singer to Trump 47 Committee, Inc., Never Surrender, Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Never Surrender, Inc." }
+      ]
+    },
+    {
+      "name": "Mike Johnson",
+      "slug": "mike-johnson",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $10,500 from Paul Singer to Mike Johnson for Louisiana in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Mike Johnson for Louisiana" }
+      ]
+    },
+    {
+      "name": "Eric Schmitt",
+      "slug": "eric-schmitt",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $10,500 from Paul Singer to Schmitt for Senate in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00775015&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Schmitt for Senate" }
       ]
     }
   ],
@@ -161,7 +279,8 @@
         "description": "To Republican congressional super PACs and a new super PAC he funds alone.",
         "sources": [
           { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
-          { "url": "https://www.france24.com/en/live-news/20261023-from-tech-giants-to-anonymous-nonprofits-the-biggest-donors-in-us-midterms", "title": "From tech giants to anonymous nonprofits, the biggest donors in US midterms — AFP via France 24" }
+          { "url": "https://www.france24.com/en/live-news/20261023-from-tech-giants-to-anonymous-nonprofits-the-biggest-donors-in-us-midterms", "title": "From tech giants to anonymous nonprofits, the biggest donors in US midterms — AFP via France 24" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&two_year_transaction_period=2026", "title": "FEC itemized receipts: SINGER, PAUL, 2026 cycle" }
         ],
         "recipients": [
           {
@@ -182,8 +301,12 @@
             "description": "At least $1M in the first half of 2025; among his top recipients.",
             "sources": [
               { "url": "https://www.nbcnews.com/politics/2026-election/republican-super-pacs-bank-millions-ahead-midterm-battles-rcna222115", "title": "Republican super PACs bank millions ahead of midterm battles — NBC News" },
-              { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
-            ]
+              { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to SLF PAC, 2026 cycle" }
+            ],
+            "amount_usd": 14500000,
+            "fec_usd": 14500000,
+            "fec_ids": ["C00571703"]
           },
           {
             "name": "Congressional Leadership Fund",
@@ -193,7 +316,165 @@
             "description": "At least $1M in the first half of 2025; among his top recipients.",
             "sources": [
               { "url": "https://www.nbcnews.com/politics/2026-election/republican-super-pacs-bank-millions-ahead-midterm-battles-rcna222115", "title": "Republican super PACs bank millions ahead of midterm battles — NBC News" },
-              { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+              { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to CLF, 2026 cycle" }
+            ],
+            "amount_usd": 8000000,
+            "fec_usd": 8000000,
+            "fec_ids": ["C00504530"]
+          },
+          {
+            "name": "Stw PAC, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 15050000,
+            "fec_usd": 15050000,
+            "fec_ids": ["C00934653"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00934653&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Stw PAC, Inc., 2026 cycle" }
+            ]
+          },
+          {
+            "name": "America 21 PAC",
+            "kind": "super-pac",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00804690"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00804690&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to America 21 PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "AIPAC",
+            "org": "aipac",
+            "kind": "super-pac",
+            "side": "both",
+            "amount_usd": 2600000,
+            "fec_usd": 2600000,
+            "fec_ids": ["C00799031"],
+            "description": "Per FEC filings: United Democracy Project ('UDP') $2,600,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00799031&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to United Democracy Project ('UDP'), 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Conservatives for American Excellence Inc.",
+            "kind": "super-pac",
+            "amount_usd": 1950000,
+            "fec_usd": 1950000,
+            "fec_ids": ["C00835967"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00835967&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Conservatives for American Excellence Inc., 2026 cycle" }
+            ]
+          },
+          {
+            "name": "MAGA Ky",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00908723"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00908723&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to MAGA Ky, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Pine Tree Results PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00894709"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00894709&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Pine Tree Results PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "The Sentinel Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 750000,
+            "fec_usd": 750000,
+            "fec_ids": ["C00811166"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00811166&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to The Sentinel Action Fund, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Fight to Win America, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 650000,
+            "fec_usd": 650000,
+            "fec_ids": ["C00813089"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00813089&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Fight to Win America, Inc., 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 599200,
+            "fec_usd": 599200,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00075820&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to NRCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 599100,
+            "fec_usd": 599100,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to NRSC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Last Frontier PAC",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00875278"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00875278&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Last Frontier PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Markwayne Mullin",
+            "slug": "markwayne-mullin",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 10500,
+            "fec_usd": 10500,
+            "fec_ids": ["C00498345"],
+            "description": "Per FEC filings: Mullin for America $10,500.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00498345&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Mullin for America, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 10500,
+            "fec_usd": 10500,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $10,500.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Mike Johnson for Louisiana, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Eric Schmitt",
+            "slug": "eric-schmitt",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 10500,
+            "fec_usd": 10500,
+            "fec_ids": ["C00775015"],
+            "description": "Per FEC filings: Schmitt for Senate $10,500.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00775015&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Schmitt for Senate, 2026 cycle" }
             ]
           }
         ]
@@ -206,7 +487,8 @@
         "description": "Backed Nikki Haley in the primary, then Trump after meeting him in 2024.",
         "sources": [
           { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
-          { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Griffin and Singer meet Trump about donating — Fortune" }
+          { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Griffin and Singer meet Trump about donating — Fortune" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&two_year_transaction_period=2024", "title": "FEC itemized receipts: SINGER, PAUL, 2024 cycle" }
         ],
         "recipients": [
           {
@@ -218,7 +500,984 @@
             "amount_usd": 5000000,
             "description": "Given in August 2024.",
             "sources": [
-              { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" }
+              { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00825851&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Make America Great Again Inc., 2024 cycle" }
+            ],
+            "fec_usd": 5000000,
+            "fec_ids": ["C00825851"]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 27000000,
+            "fec_usd": 27000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $27,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00571703&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Senate Leadership Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 15500000,
+            "fec_usd": 15500000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $15,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00504530&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Congressional Leadership Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Sfa Fund, Inc",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00828061"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00828061&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Sfa Fund, Inc, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Preserve America PAC",
+            "org": "preserve-america-pac",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00878801"],
+            "description": "Per FEC filings: Preserve America PAC $2,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00878801&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Preserve America PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Keystone Renewal PAC",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00849489"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00849489&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Keystone Renewal PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "AIPAC",
+            "org": "aipac",
+            "kind": "super-pac",
+            "side": "both",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00799031"],
+            "description": "Per FEC filings: United Democracy Project ('UDP') $2,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00799031&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to United Democracy Project ('UDP'), 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Conservatives for American Excellence Inc.",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00835967"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00835967&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Conservatives for American Excellence Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "American Patriots PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00668905"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00668905&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to American Patriots PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "More Jobs, Less Government",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00693838"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00693838&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to More Jobs, Less Government, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "The Sentinel Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 750000,
+            "fec_usd": 750000,
+            "fec_ids": ["C00811166"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00811166&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to The Sentinel Action Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 702100,
+            "fec_usd": 702100,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00003418&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Republican National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 578200,
+            "fec_usd": 578200,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00027466&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to NRSC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 524800,
+            "fec_usd": 524800,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00075820&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to NRCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Glcf, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00853861"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00853861&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Glcf, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 426200,
+            "fec_usd": 426200,
+            "fec_ids": ["C00828541", "C00867937"],
+            "description": "Per FEC filings: Trump 47 Committee, Inc. $419,600; Never Surrender, Inc. $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Trump 47 Committee, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Never Surrender, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 23200,
+            "fec_usd": 23200,
+            "fec_ids": ["C00409581", "C00748186"],
+            "description": "Per FEC filings: Friends of John Thune $13,200; Commonsense, Conservative Values PAC $10,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00409581&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Friends of John Thune, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00748186&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Commonsense, Conservative Values PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 14900,
+            "fec_usd": 14900,
+            "fec_ids": ["C00666396", "C00693671"],
+            "description": "Per FEC filings: Michael Waltz for Congress $9,900; Warrior Diplomat PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Michael Waltz for Congress, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00693671&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Warrior Diplomat PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 9900,
+            "fec_usd": 9900,
+            "fec_ids": ["C00492785"],
+            "description": "Per FEC filings: Ted Cruz for Senate $9,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Ted Cruz for Senate, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 23268342,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&two_year_transaction_period=2022", "title": "FEC itemized receipts: SINGER, PAUL, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 7500000,
+            "fec_usd": 7500000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $7,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00571703&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to Senate Leadership Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 6260000,
+            "fec_usd": 6260000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $6,260,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00504530&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to Congressional Leadership Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Honor Pennsylvania, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00798116"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00798116&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to Honor Pennsylvania, Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Wfw Action Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 1450000,
+            "fec_usd": 1450000,
+            "fec_ids": ["C00698936"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00698936&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to Wfw Action Fund, Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "American Policy Fund",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00749085"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00749085&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to American Policy Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "AIPAC",
+            "org": "aipac",
+            "kind": "super-pac",
+            "side": "both",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00799031"],
+            "description": "Per FEC filings: United Democracy Project (UDP) $1,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00799031&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to United Democracy Project (UDP), 2022 cycle" }
+            ]
+          },
+          {
+            "name": "American Patriots PAC",
+            "kind": "super-pac",
+            "amount_usd": 900000,
+            "fec_usd": 900000,
+            "fec_ids": ["C00668905"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00668905&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to American Patriots PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Take Back the House 2022",
+            "kind": "pac",
+            "amount_usd": 531100,
+            "fec_usd": 531100,
+            "fec_ids": ["C00766782"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00766782&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to Take Back the House 2022, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 511000,
+            "fec_usd": 511000,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00027466&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to NRSC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 401500,
+            "fec_usd": 401500,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00075820&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to NRCC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Tim Scott Victory Fund",
+            "kind": "pac",
+            "amount_usd": 266300,
+            "fec_usd": 266300,
+            "fec_ids": ["C00776526"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00776526&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to Tim Scott Victory Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Team McConnell",
+            "kind": "pac",
+            "amount_usd": 255500,
+            "fec_usd": 255500,
+            "fec_ids": ["C00802876"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00802876&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to Team McConnell, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "34N22, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00789339"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00789339&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to 34N22, Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "pac",
+            "amount_usd": 8729,
+            "fec_usd": 8729,
+            "fec_ids": ["C00666396", "C00693671"],
+            "description": "Per FEC filings: Warrior Diplomat PAC $5,000; Michael Waltz for Congress $3,729.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00693671&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to Warrior Diplomat PAC, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00666396&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to Michael Waltz for Congress, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Markwayne Mullin",
+            "slug": "markwayne-mullin",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 8700,
+            "fec_usd": 8700,
+            "fec_ids": ["C00498345"],
+            "description": "Per FEC filings: Mullin for America $8,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00498345&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to Mullin for America, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 8700,
+            "fec_usd": 8700,
+            "fec_ids": ["C00783142", "C00817072"],
+            "description": "Per FEC filings: JD Vance for Senate Inc. $5,800; Vance Victory $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to JD Vance for Senate Inc., 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00817072&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to Vance Victory, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Byron Donalds",
+            "slug": "byron-donalds",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6629,
+            "fec_usd": 6629,
+            "fec_ids": ["C00733329"],
+            "description": "Per FEC filings: Byron Donalds for Congress $6,629.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00733329&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to Byron Donalds for Congress, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "David Brog",
+            "slug": "david-brog",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00805549"],
+            "description": "Per FEC filings: Brog for Nevada $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00805549&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to Brog for Nevada, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Mehmet Oz",
+            "slug": "mehmet-oz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00795930"],
+            "description": "Per FEC filings: Doctor Oz for Senate $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00795930&two_year_transaction_period=2022", "title": "FEC receipts: SINGER, PAUL to Doctor Oz for Senate, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 17933727,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&two_year_transaction_period=2020", "title": "FEC itemized receipts: SINGER, PAUL, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 6500000,
+            "fec_usd": 6500000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $6,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00571703&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to Senate Leadership Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $3,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00504530&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to Congressional Leadership Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Esafund",
+            "kind": "super-pac",
+            "amount_usd": 1250000,
+            "fec_usd": 1250000,
+            "fec_ids": ["C00489856"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00489856&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to Esafund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Wfw Action Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 1250000,
+            "fec_usd": 1250000,
+            "fec_ids": ["C00698936"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00698936&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to Wfw Action Fund, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "American Unity PAC Inc",
+            "kind": "super-pac",
+            "amount_usd": 718227,
+            "fec_usd": 718227,
+            "fec_ids": ["C00523589"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00523589&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to American Unity PAC Inc, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "American Patriots PAC",
+            "kind": "super-pac",
+            "amount_usd": 550000,
+            "fec_usd": 550000,
+            "fec_ids": ["C00668905"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00668905&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to American Patriots PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "McCarthy Victory Fund",
+            "kind": "pac",
+            "amount_usd": 507000,
+            "fec_usd": 507000,
+            "fec_ids": ["C00541011"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00541011&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to McCarthy Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Better Future Mi Fund",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00725317"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00725317&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to Better Future Mi Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 497000,
+            "fec_usd": 497000,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00027466&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to NRSC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 390500,
+            "fec_usd": 390500,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00075820&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to NRCC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "National Victory Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 300000,
+            "fec_usd": 300000,
+            "fec_ids": ["C00760124"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00760124&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to National Victory Action Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "McConnell Victory Committee",
+            "kind": "pac",
+            "amount_usd": 289600,
+            "fec_usd": 289600,
+            "fec_ids": ["C00638007"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00638007&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to McConnell Victory Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Sean Duffy",
+            "slug": "sean-duffy",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5600,
+            "fec_usd": 5600,
+            "fec_ids": ["C00464339"],
+            "description": "Per FEC filings: Duffy for Wisconsin $5,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00464339&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to Duffy for Wisconsin, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00666396"],
+            "description": "Per FEC filings: Michael Waltz for Congress $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00666396&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to Michael Waltz for Congress, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Byron Donalds",
+            "slug": "byron-donalds",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00733329"],
+            "description": "Per FEC filings: Byron Donalds for Congress $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00733329&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to Byron Donalds for Congress, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 7017670,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&two_year_transaction_period=2018", "title": "FEC itemized receipts: SINGER, PAUL, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $2,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00571703&two_year_transaction_period=2018", "title": "FEC receipts: SINGER, PAUL to Senate Leadership Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "American Unity PAC Inc",
+            "kind": "super-pac",
+            "amount_usd": 1039670,
+            "fec_usd": 1039670,
+            "fec_ids": ["C00523589"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00523589&two_year_transaction_period=2018", "title": "FEC receipts: SINGER, PAUL to American Unity PAC Inc, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Future45",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00574533"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00574533&two_year_transaction_period=2018", "title": "FEC receipts: SINGER, PAUL to Future45, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "American Patriots PAC",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00668905"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00668905&two_year_transaction_period=2018", "title": "FEC receipts: SINGER, PAUL to American Patriots PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 372900,
+            "fec_usd": 372900,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00003418&two_year_transaction_period=2018", "title": "FEC receipts: SINGER, PAUL to Republican National Committee, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 306200,
+            "fec_usd": 306200,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00027466&two_year_transaction_period=2018", "title": "FEC receipts: SINGER, PAUL to NRSC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 294500,
+            "fec_usd": 294500,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00075820&two_year_transaction_period=2018", "title": "FEC receipts: SINGER, PAUL to NRCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Protect the House",
+            "kind": "pac",
+            "amount_usd": 258900,
+            "fec_usd": 258900,
+            "fec_ids": ["C00669622"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00669622&two_year_transaction_period=2018", "title": "FEC receipts: SINGER, PAUL to Protect the House, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Wisconsin Next PAC",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00656728"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00656728&two_year_transaction_period=2018", "title": "FEC receipts: SINGER, PAUL to Wisconsin Next PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Women Speak Out PAC",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00530766"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00530766&two_year_transaction_period=2018", "title": "FEC receipts: SINGER, PAUL to Women Speak Out PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Strengthen the Senate Majority 2018",
+            "kind": "pac",
+            "amount_usd": 240000,
+            "fec_usd": 240000,
+            "fec_ids": ["C00681163"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00681163&two_year_transaction_period=2018", "title": "FEC receipts: SINGER, PAUL to Strengthen the Senate Majority 2018, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00666396"],
+            "description": "Per FEC filings: Michael Waltz for Congress $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00666396&two_year_transaction_period=2018", "title": "FEC receipts: SINGER, PAUL to Michael Waltz for Congress, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Sean Duffy",
+            "slug": "sean-duffy",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00464339"],
+            "description": "Per FEC filings: Duffy for Wisconsin $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00464339&two_year_transaction_period=2018", "title": "FEC receipts: SINGER, PAUL to Duffy for Wisconsin, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Josh Hawley",
+            "slug": "josh-hawley",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00652727"],
+            "description": "Per FEC filings: Josh Hawley for Senate $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00652727&two_year_transaction_period=2018", "title": "FEC receipts: SINGER, PAUL to Josh Hawley for Senate, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 26261756,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&two_year_transaction_period=2016", "title": "FEC itemized receipts: SINGER, PAUL, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 6000000,
+            "fec_usd": 6000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $6,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00571703&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Senate Leadership Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Conservative Solutions PAC",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00541292"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00541292&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Conservative Solutions PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Our Principles PAC",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00603621"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00603621&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Our Principles PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "American Unity PAC Inc",
+            "kind": "super-pac",
+            "amount_usd": 2342456,
+            "fec_usd": 2342456,
+            "fec_ids": ["C00523589"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00523589&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to American Unity PAC Inc, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Esafund",
+            "kind": "super-pac",
+            "amount_usd": 1950000,
+            "fec_usd": 1950000,
+            "fec_ids": ["C00489856"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00489856&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Esafund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1900000,
+            "fec_usd": 1900000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $1,900,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00504530&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Congressional Leadership Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Freedom Partners Action Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00564765"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00564765&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Freedom Partners Action Fund, Inc., 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Fighting for Ohio Fund",
+            "kind": "super-pac",
+            "amount_usd": 750000,
+            "fec_usd": 750000,
+            "fec_ids": ["C00573014"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00573014&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Fighting for Ohio Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "New York Wins PAC",
+            "kind": "super-pac",
+            "amount_usd": 600000,
+            "fec_usd": 600000,
+            "fec_ids": ["C00603365"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00603365&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to New York Wins PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 567800,
+            "fec_usd": 567800,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00003418&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Republican National Committee, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00487470&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Club for Growth Action, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 467600,
+            "fec_usd": 467600,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00027466&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to NRSC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 13500,
+            "fec_usd": 13500,
+            "fec_ids": ["C00458844", "C00620518"],
+            "description": "Per FEC filings: Marco Rubio for Senate 2016 $8,100; Marco Rubio for President $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00620518&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Marco Rubio for Senate 2016, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00458844&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Marco Rubio for President, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Sean Duffy",
+            "slug": "sean-duffy",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 8100,
+            "fec_usd": 8100,
+            "fec_ids": ["C00464339"],
+            "description": "Per FEC filings: Duffy for Wisconsin $8,100.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00464339&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Duffy for Wisconsin, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00409581"],
+            "description": "Per FEC filings: Friends of John Thune $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00409581&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Friends of John Thune, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 1450,
+            "fec_usd": 1450,
+            "fec_ids": ["C00574624"],
+            "description": "Per FEC filings: Cruz for President $1,450.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00574624&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Cruz for President, 2016 cycle" }
             ]
           }
         ]

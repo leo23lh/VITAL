@@ -105,12 +105,13 @@
       "name": "MAGA Inc.",
       "slug": "maga-inc",
       "relationship_type": "funded_by",
-      "description": "Gave $1 million in July 2024.",
+      "description": "Gave $1 million in July 2024. FEC filings show $1,000,000 from Thomas Klingenstein to Make America Great Again Inc. in the 2024 cycle.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" }
+        { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00825851&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Make America Great Again Inc." }
       ]
     },
     {
@@ -151,6 +152,84 @@
         { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" },
         { "url": "https://www.influencewatch.org/person/thomas-d-klingenstein/", "title": "Thomas D. Klingenstein — InfluenceWatch" }
       ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $100,000 from Thomas Klingenstein to Congressional Leadership Fund in the 2018 cycle.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00504530&two_year_transaction_period=2018", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Congressional Leadership Fund" }
+      ]
+    },
+    {
+      "name": "Josh Hawley",
+      "slug": "josh-hawley",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $27,100 from Thomas Klingenstein to Josh Hawley for Senate, Fighting for Missouri PAC, Hawley Victory Committee in 3 cycles (2018–2024).",
+      "start_year": 2018,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00652727&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Josh Hawley for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00692640&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Fighting for Missouri PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00656926&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Hawley Victory Committee" }
+      ]
+    },
+    {
+      "name": "Eric Schmitt",
+      "slug": "eric-schmitt",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $17,400 from Thomas Klingenstein to Schmitt for Senate, Winning for America PAC in 2 cycles (2022–2024).",
+      "start_year": 2021,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00775015&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Schmitt for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00826362&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Winning for America PAC" }
+      ]
+    },
+    {
+      "name": "Restoration of America PAC",
+      "slug": "restoration-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $5,050,000 from Thomas Klingenstein to Restoration PAC in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00571588&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Restoration PAC" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $28,200 from Thomas Klingenstein to Ted Cruz Victory Committee, Jobs, Freedom, and Security PAC, Ted Cruz for Senate in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Jobs, Freedom, and Security PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $18,200 from Thomas Klingenstein to Kari Lake Victory Fund, Kari Lake for Senate in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00856120&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Kari Lake Victory Fund" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00852343&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Kari Lake for Senate" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
@@ -158,12 +237,84 @@
   "giving": {
     "cycles": [
       {
+        "cycle": 2026,
+        "total_usd": 7033101,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&two_year_transaction_period=2026", "title": "FEC itemized receipts: KLINGENSTEIN, THOMAS, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Fight for Kentucky",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00898130"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00898130&two_year_transaction_period=2026", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Fight for Kentucky, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "American Leadership PAC",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00824292"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00824292&two_year_transaction_period=2026", "title": "FEC receipts: KLINGENSTEIN, THOMAS to American Leadership PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "American Principles Project PAC",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00544387"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00544387&two_year_transaction_period=2026", "title": "FEC receipts: KLINGENSTEIN, THOMAS to American Principles Project PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Western Roots PAC, Inc",
+            "kind": "super-pac",
+            "amount_usd": 350000,
+            "fec_usd": 350000,
+            "fec_ids": ["C00939470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00939470&two_year_transaction_period=2026", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Western Roots PAC, Inc, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Team Moreno",
+            "kind": "pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00867010"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00867010&two_year_transaction_period=2026", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Team Moreno, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 45100,
+            "fec_usd": 45100,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: KLINGENSTEIN, THOMAS to NRSC, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
         "cycle": 2024,
         "total_usd": 10000000,
         "ranking": "More than $10M, per The Guardian and Wikipedia; not in the top-10 ranking",
         "sources": [
           { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" },
-          { "url": "https://en.wikipedia.org/wiki/Thomas_Klingenstein", "title": "Thomas Klingenstein — Wikipedia" }
+          { "url": "https://en.wikipedia.org/wiki/Thomas_Klingenstein", "title": "Thomas Klingenstein — Wikipedia" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&two_year_transaction_period=2024", "title": "FEC itemized receipts: KLINGENSTEIN, THOMAS, 2024 cycle" }
         ],
         "recipients": [
           {
@@ -175,7 +326,210 @@
             "amount_usd": 1000000,
             "description": "July 2024.",
             "sources": [
-              { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" }
+              { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00825851&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Make America Great Again Inc., 2024 cycle" }
+            ],
+            "fec_usd": 1000000,
+            "fec_ids": ["C00825851"]
+          },
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 5950000,
+            "fec_usd": 5950000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00487470&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Club for Growth Action, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Restoration of America PAC",
+            "org": "restoration-pac",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 5050000,
+            "fec_usd": 5050000,
+            "fec_ids": ["C00571588"],
+            "description": "Per FEC filings: Restoration PAC $5,050,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00571588&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Restoration PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "The Sentinel Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00811166"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00811166&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to The Sentinel Action Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Win It Back PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00844613"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00844613&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Win It Back PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "American Exceptionalism PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00833749"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00833749&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to American Exceptionalism PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "American Leadership PAC",
+            "kind": "super-pac",
+            "amount_usd": 600000,
+            "fec_usd": 600000,
+            "fec_ids": ["C00824292"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00824292&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to American Leadership PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC Victory",
+            "kind": "pac",
+            "amount_usd": 550000,
+            "fec_usd": 550000,
+            "fec_ids": ["C00837518"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00837518&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to NRSC Victory, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 533800,
+            "fec_usd": 533800,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00027466&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to NRSC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Turning Point PAC Inc.",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00814152"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00814152&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Turning Point PAC Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 188400,
+            "fec_usd": 188400,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00075820&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to NRCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Pole Position PAC",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00852244"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00852244&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Pole Position PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 28200,
+            "fec_usd": 28200,
+            "fec_ids": ["C00492785", "C00536540", "C00542423"],
+            "description": "Per FEC filings: Ted Cruz Victory Committee $11,600; Jobs, Freedom, and Security PAC $10,000; Ted Cruz for Senate $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Ted Cruz Victory Committee, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Jobs, Freedom, and Security PAC, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Ted Cruz for Senate, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Kari Lake",
+            "slug": "kari-lake",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 18200,
+            "fec_usd": 18200,
+            "fec_ids": ["C00852343", "C00856120"],
+            "description": "Per FEC filings: Kari Lake Victory Fund $11,600; Kari Lake for Senate $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00856120&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Kari Lake Victory Fund, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00852343&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Kari Lake for Senate, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Eric Schmitt",
+            "slug": "eric-schmitt",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 11600,
+            "fec_usd": 11600,
+            "fec_ids": ["C00775015", "C00826362"],
+            "description": "Per FEC filings: Schmitt for Senate $6,600; Winning for America PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00775015&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Schmitt for Senate, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00826362&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Winning for America PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6610,
+            "fec_usd": 6610,
+            "fec_ids": ["C00666396", "C00693671"],
+            "description": "Per FEC filings: Michael Waltz for Congress $6,600; Warrior Diplomat PAC $10.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Michael Waltz for Congress, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00693671&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Warrior Diplomat PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00494617", "C00620518"],
+            "description": "Per FEC filings: Rubio Victory Committee $3,300; Marco Rubio for Senate $3,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00494617&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Rubio Victory Committee, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00620518&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Marco Rubio for Senate, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Josh Hawley",
+            "slug": "josh-hawley",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 6000,
+            "fec_usd": 6000,
+            "fec_ids": ["C00652727", "C00692640"],
+            "description": "Per FEC filings: Fighting for Missouri PAC $5,000; Josh Hawley for Senate $1,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00692640&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Fighting for Missouri PAC, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00652727&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Josh Hawley for Senate, 2024 cycle" }
             ]
           }
         ]
@@ -185,7 +539,8 @@
         "description": "Maxed out to Senate candidates JD Vance, Eric Schmitt and Blake Masters, and funded his own and allied super PACs.",
         "sources": [
           { "url": "https://vice.com/en/article/claremont-institute-thomas-klingenstein-super-pac", "title": "Claremont Institute chairman Thomas Klingenstein super PAC — Vice" },
-          { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" }
+          { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&two_year_transaction_period=2022", "title": "FEC itemized receipts: KLINGENSTEIN, THOMAS, 2022 cycle" }
         ],
         "recipients": [
           {
@@ -194,8 +549,11 @@
             "side": "R",
             "amount_usd": 1500000,
             "sources": [
-              { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" }
-            ]
+              { "url": "https://www.aol.com/news/far-megadonor-pouring-over-10m-110039511.html", "title": "The far-right megadonor pouring over $10m into the US election to defeat 'the woke regime' — The Guardian via AOL" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00824292&two_year_transaction_period=2022", "title": "FEC receipts: KLINGENSTEIN, THOMAS to American Leadership PAC, 2022 cycle" }
+            ],
+            "fec_usd": 1500000,
+            "fec_ids": ["C00824292"]
           },
           {
             "name": "American Firebrand PAC",
@@ -226,6 +584,250 @@
             "description": "Maximum direct contribution.",
             "sources": [
               { "url": "https://vice.com/en/article/claremont-institute-thomas-klingenstein-super-pac", "title": "Claremont Institute chairman Thomas Klingenstein super PAC — Vice" }
+            ]
+          },
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 1450000,
+            "fec_usd": 1450000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00487470&two_year_transaction_period=2022", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Club for Growth Action, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Firebrand PAC",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00788091"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00788091&two_year_transaction_period=2022", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Firebrand PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "School Freedom Fund",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00794396"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00794396&two_year_transaction_period=2022", "title": "FEC receipts: KLINGENSTEIN, THOMAS to School Freedom Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 8300,
+            "fec_usd": 8300,
+            "fec_ids": ["C00783142"],
+            "description": "Per FEC filings: JD Vance for Senate Inc. $8,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: KLINGENSTEIN, THOMAS to JD Vance for Senate Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Eric Schmitt",
+            "slug": "eric-schmitt",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00775015"],
+            "description": "Per FEC filings: Schmitt for Senate $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00775015&two_year_transaction_period=2022", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Schmitt for Senate, 2022 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 4038300,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 4186446,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&two_year_transaction_period=2020", "title": "FEC itemized receipts: KLINGENSTEIN, THOMAS, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00487470&two_year_transaction_period=2020", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Club for Growth Action, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "American Principles Project PAC",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00544387"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00544387&two_year_transaction_period=2020", "title": "FEC receipts: KLINGENSTEIN, THOMAS to American Principles Project PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 168800,
+            "fec_usd": 168800,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00075820&two_year_transaction_period=2020", "title": "FEC receipts: KLINGENSTEIN, THOMAS to NRCC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Scalise Leadership Fund",
+            "kind": "pac",
+            "amount_usd": 105000,
+            "fec_usd": 105000,
+            "fec_ids": ["C00568162"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00568162&two_year_transaction_period=2020", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Scalise Leadership Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "New Hampshire Freedom and Liberty PAC, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00747501"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00747501&two_year_transaction_period=2020", "title": "FEC receipts: KLINGENSTEIN, THOMAS to New Hampshire Freedom and Liberty PAC, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Dan Crenshaw Victory Committee",
+            "kind": "pac",
+            "amount_usd": 30000,
+            "fec_usd": 30000,
+            "fec_ids": ["C00694810"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00694810&two_year_transaction_period=2020", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Dan Crenshaw Victory Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Making Congress Great Again",
+            "kind": "super-pac",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00727602"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00727602&two_year_transaction_period=2020", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Making Congress Great Again, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Josh Hawley",
+            "slug": "josh-hawley",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 18400,
+            "fec_usd": 18400,
+            "fec_ids": ["C00652727", "C00656926", "C00692640"],
+            "description": "Per FEC filings: Josh Hawley for Senate $8,400; Fighting for Missouri PAC $5,000; Hawley Victory Committee $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00652727&two_year_transaction_period=2020", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Josh Hawley for Senate, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00692640&two_year_transaction_period=2020", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Fighting for Missouri PAC, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00656926&two_year_transaction_period=2020", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Hawley Victory Committee, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 342346,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&two_year_transaction_period=2018", "title": "FEC itemized receipts: KLINGENSTEIN, THOMAS, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Protect the House",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00669622"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00669622&two_year_transaction_period=2018", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Protect the House, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $100,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00504530&two_year_transaction_period=2018", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Congressional Leadership Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00487470&two_year_transaction_period=2018", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Club for Growth Action, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Missouri Rising Action",
+            "kind": "super-pac",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00652875"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00652875&two_year_transaction_period=2018", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Missouri Rising Action, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Josh Hawley",
+            "slug": "josh-hawley",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00652727"],
+            "description": "Per FEC filings: Josh Hawley for Senate $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00652727&two_year_transaction_period=2018", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Josh Hawley for Senate, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 7700,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&two_year_transaction_period=2016", "title": "FEC itemized receipts: KLINGENSTEIN, THOMAS, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 4500,
+            "fec_usd": 4500,
+            "fec_ids": ["C00580100", "C00618371"],
+            "description": "Per FEC filings: Trump Make America Great Again Committee $2,500; Donald J. Trump for President, Inc. $2,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00618371&two_year_transaction_period=2016", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Trump Make America Great Again Committee, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00580100&two_year_transaction_period=2016", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Donald J. Trump for President, Inc., 2016 cycle" }
             ]
           }
         ]

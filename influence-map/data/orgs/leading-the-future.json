@@ -26,36 +26,39 @@
       "name": "Marc Andreessen",
       "slug": "marc-andreessen",
       "relationship_type": "donor",
-      "description": "Lead backer with Ben Horowitz through Andreessen Horowitz; FEC filings showed $12.5 million each from Andreessen and Horowitz.",
+      "description": "Lead backer with Ben Horowitz through Andreessen Horowitz; FEC filings showed $12.5 million each from Andreessen and Horowitz. FEC filings show $25,000,000 from Marc Andreessen to Leading the Future in the 2026 cycle.",
       "start_year": 2025,
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" },
-        { "url": "https://www.axios.com/2026/01/30/openai-a16z-cash-ai-super-pac", "title": "Exclusive: OpenAI's Brockman and a16z funnel cash to pro-AI super PAC — Axios" }
+        { "url": "https://www.axios.com/2026/01/30/openai-a16z-cash-ai-super-pac", "title": "Exclusive: OpenAI's Brockman and a16z funnel cash to pro-AI super PAC — Axios" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00916114&two_year_transaction_period=2026", "title": "FEC receipts: ANDREESSEN, MARC to Leading the Future" }
       ]
     },
     {
       "name": "Ben Horowitz",
       "slug": "ben-horowitz",
       "relationship_type": "donor",
-      "description": "Lead backer with Marc Andreessen through Andreessen Horowitz; FEC filings showed $12.5 million each.",
+      "description": "Lead backer with Marc Andreessen through Andreessen Horowitz; FEC filings showed $12.5 million each. FEC filings show $25,000,000 from Ben Horowitz to Leading the Future in the 2026 cycle.",
       "start_year": 2025,
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" },
-        { "url": "https://www.axios.com/2026/01/30/openai-a16z-cash-ai-super-pac", "title": "Exclusive: OpenAI's Brockman and a16z funnel cash to pro-AI super PAC — Axios" }
+        { "url": "https://www.axios.com/2026/01/30/openai-a16z-cash-ai-super-pac", "title": "Exclusive: OpenAI's Brockman and a16z funnel cash to pro-AI super PAC — Axios" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00916114&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Leading the Future" }
       ]
     },
     {
       "name": "Greg Brockman",
       "slug": "greg-brockman",
       "relationship_type": "donor",
-      "description": "Founding backer: Brockman and his wife gave $25 million, then dropped a further $25 million in October 2026 after OpenAI employees pushed back.",
+      "description": "Founding backer: Brockman and his wife gave $25 million, then dropped a further $25 million in October 2026 after OpenAI employees pushed back. FEC filings show $12,500,000 from Greg Brockman to Leading the Future in the 2026 cycle.",
       "start_year": 2025,
       "confidence": 0.85,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" },
-        { "url": "https://www.semafor.com/article/10/02/2026/how-employees-forced-openais-president-to-back-down", "title": "Exclusive: How employees forced OpenAI's president to back down — Semafor" }
+        { "url": "https://www.semafor.com/article/10/02/2026/how-employees-forced-openais-president-to-back-down", "title": "Exclusive: How employees forced OpenAI's president to back down — Semafor" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&committee_id=C00916114&two_year_transaction_period=2026", "title": "FEC receipts: BROCKMAN, GREG to Leading the Future" }
       ]
     },
     {

@@ -24,6 +24,8 @@ the slash commands in the repo root's `.claude/commands/`:
 | `data/scorecard.json` | The scorecard's saved runs, newest first (`npm run scorecard -- --save`). |
 | `scripts/predict.mjs` | Today's 2028 backing predictions, and how earlier runs are holding up (`npm run predict`). See "Backing". |
 | `data/predictions.json` | The prediction log: dated runs of `[person, contender, score, basis]` (`npm run predict -- --save`). |
+| `scripts/fec-import.mjs` | Imports donors' campaign finance filings from the FEC (`npm run fec`). See "FEC import". |
+| `data/fec.json` | Settings for the import: politicians' FEC candidate ids, which committees belong to whom, and matching rules per donor. |
 | `src/` | Vite + React + TypeScript viewer (`npm run dev`). Reads the data folder and live-reloads. |
 
 ## Research rules
@@ -298,8 +300,9 @@ connections either person has never counts. It has three parts (`bond()` in
   sit in the org chart (`orgDistanceFactor`): a direct report in full, two
   levels 0.85, three 0.7, further or no recorded reporting line 0.6. A donation
   counts by its size from `giving`, matched by the recipient's `slug` or `org`
-  (`moneyFactor`: 0.55 at $100k up to 1 at about $3B; 0.65 when no amount is
-  reported, and never less when part of it went unreported). Only a job
+  (`moneyFactor`: 0.35 at $1,000, 0.45 at $10,000, 0.55 at $100k, up to 1 at
+  about $3B; 0.65 when no amount is reported, and never less when part of it
+  went unreported). Only a job
   recorded as ongoing (`end_year: null`) gets the org-chart distance.
 - **Years together (30%):** the years their dated ties cover, plus years both
   worked at the same small workplace (from timelines; workplaces with more than
@@ -438,6 +441,11 @@ as a `donor` / `funded_by` connection, so it shows as a Money line.
 - `kind`: `super-pac`, `dark-money`, `candidate`, `party`, `pac`, `ballot-measure`, `other`.
   `side`: `D`, `R`, `both` (gives to both parties, e.g. industry PACs) or `nonpartisan`.
 - `amount_usd`: whole dollars as reported. Leave it out when no source gives a figure.
+- `fec_usd` / `fec_ids`: written by the FEC import, never by hand: what itemized
+  filings show for that recipient in the cycle, and the committees behind it. A
+  figure from reporting stays in `amount_usd`; when the two differ by more than
+  5% the Money tab shows both (rankings count affiliates and non-federal money,
+  and filings lag by a quarter).
 - `slug`: when the recipient is, or is run by, someone in the map (MAGA Inc. → `donald-trump`).
 - `org`: when the recipient has its own file in `data/orgs/` (MAGA Inc. → `maga-inc`).
   The details panel then links to the organization. The validator checks the file exists.
@@ -448,6 +456,53 @@ as a `donor` / `funded_by` connection, so it shows as a Money line.
   cycles, 0.4–0.55 for thin or denied reports. Nothing below 0.3; no guesses.
 - Spouses who give jointly are usually counted together by the rankings. Keep the
   main donor's file and say "with [spouse]" in the description.
+
+## FEC import
+
+`npm run fec` (`scripts/fec-import.mjs`) reads the Federal Election
+Commission's itemized receipts (schedule A, through api.open.fec.gov) for the
+map's donors and writes what it finds into their files. A dry run by default;
+`-- --write` saves. It is safe to re-run: a second run changes nothing.
+
+- **Who:** living public figures on the main web who already have `giving` or
+  whose sector is business, tech or AI and defense, for the cycles listed in
+  `data/fec.json` (2016–2026).
+- **Whose record is it?** Names repeat, so a filing counts only when the name
+  matches *and* its employer or occupation field matches a word from the
+  person's own file (timeline, affiliations, their organizations), or a rule in
+  `data/fec.json` → `donors` says so: other first names on filings (`first`),
+  extra employer words including misspellings (`employers`), a size above
+  which a name match is enough for a distinctive name (`large_usd`), exact
+  other contributor names such as a trust (`also`), extra searches
+  (`queries`), or `skip` for a name too common to trust. The dry run lists
+  what was turned away with the same name, largest first; add a rule only when
+  it is plainly them. When unsure, leave it out.
+- **Privacy:** filings carry contributors' addresses. The import never reads
+  or keeps them, and its cache of raw responses lives outside the repo (the
+  system temp folder, or `--cache <dir>`). Only committee names, amounts,
+  years and fec.gov links are written (research rule 2).
+- **What it writes.** Per cycle, a `giving` recipient for every person or
+  organization on the map that got $1,000 or more (all their committees
+  together), plus the ten largest other committees at $25,000 or more, each
+  with `fec_usd`, `fec_ids` and fec.gov links. A cycle with no ranking gets
+  its FEC total. A gift of $10,000 or more in all to someone on the map also
+  becomes a `donor` / `funded_by` link in both files (or adds the filings to
+  an existing one), with confidence 0.95 and an official-record source.
+- **Which committee is whose:** `data/fec.json` → `committees` maps FEC
+  committee ids to a person (`slug`) or organization (`org`): campaign
+  committees, leadership PACs, joint fundraising committees named for one
+  person on the map, and the super PACs formed to back them. `from` is the day
+  a committee became theirs (Biden's committees count for Harris from July 21,
+  2024). `candidates` holds each politician's FEC candidate ids. When adding a
+  politician or a PAC, add their committees here.
+- **Limits:** federal committees only (no state races, no dark money, nothing
+  under the $200 itemizing threshold), and the current cycle is incomplete
+  until the post-election reports are filed. The scorecard chose the $10,000
+  line: a $2,500 cutoff predicted no better and drew twice the lines; weighting
+  closeness by gift size did not help either, so a money link counts the same
+  whatever its size (Bond still counts size).
+- **Access:** the "VITAL" cloud environment allows api.open.fec.gov and adds
+  the API key to requests. Elsewhere, set `FEC_API_KEY` (free from api.data.gov).
 
 ## Organizations
 
@@ -611,9 +666,9 @@ the scoring rules** (`graph.ts`, `pull.ts`, `evidence.ts`): a change that
 lowers these numbers needs a reason. `-- --save` records the run in
 `data/scorecard.json` (one entry per day). Limits to keep in mind: the files
 were written with hindsight (older ties were recorded because they matter
-now), undated ties count as already standing, and the samples are small
-(about 100 new ties and 30 gifts per cutoff), so differences of a point or two
-mean nothing.
+now), undated ties count as already standing, and the samples are modest
+(100 to 200 new ties and about 100 gifts per cutoff since the FEC import), so
+differences of a point or two mean nothing.
 
 ## Backing
 
@@ -635,9 +690,9 @@ a prediction, built in two layers:
   its confidence, combined the same way. Someone in the camp of a rival on the
   same side has their score for the others multiplied by 0.6.
 - **Labels:** 85+ very likely, 65+ likely, 45+ leaning, 30+ possible, else
-  unlikely. On past donations (the scorecard, both cutoffs pooled), about 6 in
-  10 pairs rated likely or better went on to give, 1 in 7 leaning, 1 in 10
-  possible and 1 in 50 unlikely. The viewer quotes this
+  unlikely. On past donations (the scorecard, both cutoffs pooled: 214 gifts
+  from FEC filings), about 6 in 10 pairs rated likely or better went on to
+  give, 1 in 8 leaning, 1 in 14 possible and 1 in 50 unlikely. The viewer quotes this
   (`BACKING_TRACK_RECORD` in `BackingView.tsx`); update it when the scorecard
   moves.
 - **Who is scored:** living, researched public figures on the main web. Not
@@ -653,7 +708,8 @@ a prediction, built in two layers:
   are scored like anyone else. Treat a score as "worth watching", and the
   reasons line as the thing to check.
 - **The prediction log.** `npm run predict -- --save` records every pair rated
-  45 or higher (outside the camps) in `data/predictions.json` with the date.
+  45 or higher (for people in nobody's camp on that side) in
+  `data/predictions.json` with the date and who was in which camp that day.
   `npm run predict` then says how each earlier run is holding up: a pick has
   come true when the files later put the person in that contender's camp or
   record a 2028-cycle gift to them, and has missed when they join only a

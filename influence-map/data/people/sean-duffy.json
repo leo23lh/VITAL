@@ -164,6 +164,42 @@
       "sources": [
         { "url": "https://www.transportation.gov/mission/meet-key-officials", "title": "DOT leadership — U.S. Department of Transportation" }
       ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,800 from Ken Griffin to Duffy for Wisconsin in 2 cycles (2016–2018).",
+      "start_year": 2015,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00464339&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to Duffy for Wisconsin" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $19,100 from Paul Singer to Duffy for Wisconsin in 3 cycles (2016–2020).",
+      "start_year": 2015,
+      "end_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00464339&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to Duffy for Wisconsin" }
+      ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $13,717 from Richard Uihlein to Duffy for Wisconsin in 3 cycles (2016–2020).",
+      "start_year": 2015,
+      "end_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00464339&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Duffy for Wisconsin" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

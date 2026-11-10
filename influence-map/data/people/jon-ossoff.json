@@ -86,6 +86,31 @@
         { "url": "https://www.newsfromthestates.com/article/top-democratic-us-senate-pac-commits-9-states-eyes-more-republican-targets", "title": "Top Democratic US Senate PAC commits to 9 states — States Newsroom" },
         { "url": "https://bizpacreview.com/2026/10/14/democrats-ramp-up-spending-in-two-states-after-pulling-money-from-georgia-north-carolina-1663330", "title": "Democrats ramp up spending in two states after pulling money from Georgia, North Carolina — BizPac Review" }
       ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "donor",
+      "description": "FEC filings show $13,600 from George Soros to Jon Ossoff for Congress, Jon Ossoff for Senate in 3 cycles (2018–2026).",
+      "start_year": 2017,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00630426&two_year_transaction_period=2026", "title": "FEC receipts: SOROS, GEORGE to Jon Ossoff for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00718866&two_year_transaction_period=2026", "title": "FEC receipts: SOROS, GEORGE to Jon Ossoff for Senate" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,864 from Reid Hoffman to Jon Ossoff for Senate in 2 cycles (2020–2026).",
+      "start_year": 2020,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00718866&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jon Ossoff for Senate" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where Wikipedia was rate-limiting and most news pages could not be opened; Wikipedia facts were confirmed with web searches restricted to en.wikipedia.org, and news facts with searches tied to each cited URL.",

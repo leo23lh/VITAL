@@ -93,6 +93,44 @@
       "sources": [
         { "url": "https://www.nbcnews.com/politics/2026-election/republican-ken-griffin-byron-donalds-florida-governor-rcna588984", "title": "Ken Griffin gives $10 million to boost Byron Donalds' bid for Florida governor — NBC News" }
       ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "donor",
+      "description": "FEC filings show $15,100 from Ben Horowitz to Byron Donalds for Congress, Proven Conservatives PAC - Federal in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00733329&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Byron Donalds for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00894147&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Proven Conservatives PAC - Federal" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "donor",
+      "description": "FEC filings show $11,800 from Marc Andreessen to Byron Donalds for Congress, Proven Conservatives PAC - Federal in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00733329&two_year_transaction_period=2026", "title": "FEC receipts: ANDREESSEN, MARC to Byron Donalds for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00894147&two_year_transaction_period=2026", "title": "FEC receipts: ANDREESSEN, MARC to Proven Conservatives PAC - Federal" }
+      ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $20,000 from Richard Uihlein to Byron Donalds for Congress in 3 cycles (2020–2024).",
+      "start_year": 2020,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00733329&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Byron Donalds for Congress" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where Wikipedia was rate-limiting and most news pages could not be opened; Wikipedia facts were confirmed with web searches restricted to en.wikipedia.org, and news facts with searches tied to each cited URL.",

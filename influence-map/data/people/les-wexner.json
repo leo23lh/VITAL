@@ -75,29 +75,80 @@
   "giving": {
     "cycles": [
       {
-        "cycle": 2016,
-        "description": "With his wife Abigail, over $2 million to super PACs backing Republican presidential candidates.",
+        "cycle": 2026,
+        "total_usd": 260500,
+        "ranking": "FEC itemized receipts (federal committees only)",
         "sources": [
-          { "url": "https://www.yahoo.com/huffpost/former-gop-mega-donor-les-155219565.html", "title": "HuffPost: Former GOP mega-donor Les Wexner now donating to Democrats" }
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&two_year_transaction_period=2026", "title": "FEC itemized receipts: WEXNER, LES, 2026 cycle" }
         ],
         "recipients": [
           {
-            "name": "Super PACs backing Jeb Bush and John Kasich",
-            "kind": "super-pac",
+            "name": "NRSC",
+            "kind": "party",
             "side": "R",
-            "amount_usd": 2000000,
-            "description": "Over $2 million combined, per the Columbus Dispatch as reported by HuffPost.",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00027466"],
             "sources": [
-              { "url": "https://www.yahoo.com/huffpost/former-gop-mega-donor-les-155219565.html", "title": "HuffPost: Former GOP mega-donor Les Wexner now donating to Democrats" }
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: WEXNER, LES to NRSC, 2026 cycle" }
             ]
           }
         ]
       },
       {
+        "cycle": 2024,
+        "total_usd": 356600,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&two_year_transaction_period=2024", "title": "FEC itemized receipts: WEXNER, LES, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Buckeye Leadership Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00790923"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00790923&two_year_transaction_period=2024", "title": "FEC receipts: WEXNER, LES to Buckeye Leadership Fund, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Kasich for America, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00581876"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00581876&two_year_transaction_period=2024", "title": "FEC receipts: WEXNER, LES to Kasich for America, Inc., 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 5400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&two_year_transaction_period=2022", "title": "FEC itemized receipts: WEXNER, LES, 2022 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 31200,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&two_year_transaction_period=2020", "title": "FEC itemized receipts: WEXNER, LES, 2020 cycle" }
+        ],
+        "recipients": []
+      },
+      {
         "cycle": 2018,
         "description": "After leaving the GOP: at least $20,000 to Ohio Democrats within a month, while still giving $10,000 each to the Ohio House and Senate Republican caucuses.",
         "sources": [
-          { "url": "https://www.yahoo.com/huffpost/former-gop-mega-donor-les-155219565.html", "title": "HuffPost: Former GOP mega-donor Les Wexner now donating to Democrats" }
+          { "url": "https://www.yahoo.com/huffpost/former-gop-mega-donor-les-155219565.html", "title": "HuffPost: Former GOP mega-donor Les Wexner now donating to Democrats" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&two_year_transaction_period=2018", "title": "FEC itemized receipts: WEXNER, LES, 2018 cycle" }
         ],
         "recipients": [
           {
@@ -118,8 +169,149 @@
             "sources": [
               { "url": "https://www.yahoo.com/huffpost/former-gop-mega-donor-les-155219565.html", "title": "HuffPost: Former GOP mega-donor Les Wexner now donating to Democrats" }
             ]
+          },
+          {
+            "name": "With Honor Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 300000,
+            "fec_usd": 300000,
+            "fec_ids": ["C00659011"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00659011&two_year_transaction_period=2018", "title": "FEC receipts: WEXNER, LES to With Honor Fund, Inc., 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 271200,
+            "fec_usd": 271200,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00075820&two_year_transaction_period=2018", "title": "FEC receipts: WEXNER, LES to NRCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Team Ryan",
+            "kind": "pac",
+            "amount_usd": 33900,
+            "fec_usd": 33900,
+            "fec_ids": ["C00545947"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00545947&two_year_transaction_period=2018", "title": "FEC receipts: WEXNER, LES to Team Ryan, 2018 cycle" }
+            ]
           }
-        ]
+        ],
+        "total_usd": 646300,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      },
+      {
+        "cycle": 2016,
+        "description": "With his wife Abigail, over $2 million to super PACs backing Republican presidential candidates.",
+        "sources": [
+          { "url": "https://www.yahoo.com/huffpost/former-gop-mega-donor-les-155219565.html", "title": "HuffPost: Former GOP mega-donor Les Wexner now donating to Democrats" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&two_year_transaction_period=2016", "title": "FEC itemized receipts: WEXNER, LES, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Super PACs backing Jeb Bush and John Kasich",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 2000000,
+            "description": "Over $2 million combined, per the Columbus Dispatch as reported by HuffPost.",
+            "sources": [
+              { "url": "https://www.yahoo.com/huffpost/former-gop-mega-donor-les-155219565.html", "title": "HuffPost: Former GOP mega-donor Les Wexner now donating to Democrats" }
+            ]
+          },
+          {
+            "name": "Right to Rise USA",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00571372"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00571372&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to Right to Rise USA, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Fighting for Ohio Fund",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00573014"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00573014&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to Fighting for Ohio Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 65400,
+            "fec_usd": 65400,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00075820&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to NRCC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 65400,
+            "fec_usd": 65400,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00027466&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to NRSC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Team Ryan",
+            "kind": "pac",
+            "amount_usd": 41100,
+            "fec_usd": 41100,
+            "fec_ids": ["C00545947"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00545947&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to Team Ryan, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Boehner for Speaker",
+            "kind": "pac",
+            "amount_usd": 39500,
+            "fec_usd": 39500,
+            "fec_ids": ["C00478354"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00478354&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to Boehner for Speaker, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 32000,
+            "fec_usd": 32000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00003418&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to Republican National Committee, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2500,
+            "fec_usd": 2500,
+            "fec_ids": ["C00409581"],
+            "description": "Per FEC filings: Friends of John Thune $2,500.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00409581&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to Friends of John Thune, 2016 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 1139500,
+        "ranking": "FEC itemized receipts (federal committees only)"
       }
     ]
   },

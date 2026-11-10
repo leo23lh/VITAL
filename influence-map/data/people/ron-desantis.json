@@ -176,12 +176,15 @@
       "name": "Richard Uihlein",
       "slug": "richard-uihlein",
       "relationship_type": "donor",
-      "description": "Richard and Elizabeth Uihlein each gave at least $1 million to the pro-DeSantis super PAC in 2023.",
-      "start_year": 2023,
+      "description": "Richard and Elizabeth Uihlein each gave at least $1 million to the pro-DeSantis super PAC in 2023. FEC filings show $1,526,900 from Richard Uihlein to Ron Desantis for Florida, Never Back Down Inc., Restore Our Nation (Ron PAC) and others in 2 cycles (2016–2024).",
+      "start_year": 2015,
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.cnn.com/2023/07/31/politics/fec-filings-2024-pacs-donors", "title": "Takeaways from presidential super PACs' mid-year financial disclosures — CNN" }
+        { "url": "https://www.cnn.com/2023/07/31/politics/fec-filings-2024-pacs-donors", "title": "Takeaways from presidential super PACs' mid-year financial disclosures — CNN" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00511568&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Ron Desantis for Florida" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00834077&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Never Back Down Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Restore Our Nation (Ron PAC)" }
       ]
     },
     {
@@ -259,6 +262,34 @@
       "sources": [
         { "url": "https://cbsnews.com/news/trump-considering-replacing-hegseth-with-desantis-defense-secretary-sources", "title": "CBS News: Trump considering replacing Hegseth with DeSantis for defense secretary" },
         { "url": "https://www.cbsnews.com/miami/news/report-trump-weighs-desantis-for-pentagon-role", "title": "CBS News Miami: Report, Trump weighs DeSantis for Pentagon role" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "donor",
+      "description": "FEC filings show $24,160 from David Sacks to Restore Our Nation (Ron PAC), Great American Comeback, Team Desantis 2024 in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Restore Our Nation (Ron PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841148&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Great American Comeback" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841155&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Team Desantis 2024" }
+      ]
+    },
+    {
+      "name": "Norman Braman",
+      "slug": "norman-braman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $316,600 from Norman Braman to Never Back Down Inc., Restore Our Nation (Ron PAC), Team Desantis 2024 and others in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00834077&two_year_transaction_period=2024", "title": "FEC receipts: BRAMAN, NORMAN to Never Back Down Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: BRAMAN, NORMAN to Restore Our Nation (Ron PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00841155&two_year_transaction_period=2024", "title": "FEC receipts: BRAMAN, NORMAN to Team Desantis 2024" }
       ]
     }
   ],

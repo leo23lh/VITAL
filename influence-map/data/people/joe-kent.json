@@ -128,6 +128,20 @@
         { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
         { "url": "https://projects.propublica.org/itemizer/races/2024/states/wa/house/3", "title": "Washington's 3rd District House race, 2024 — ProPublica Itemizer" }
       ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "donor",
+      "description": "FEC filings show $13,200 from Keith Rabois to Joe Kent for Wa-03 Republican Nominee Fund 2024, Joe Kent for Congress-Gtm Nf Wa03, Joe Kent for Congress in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00856708&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Joe Kent for Wa-03 Republican Nominee Fund 2024" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00858365&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Joe Kent for Congress-Gtm Nf Wa03" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00771394&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Joe Kent for Congress" }
+      ]
     }
   ],
   "aliases": [],

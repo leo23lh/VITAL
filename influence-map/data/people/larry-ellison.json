@@ -394,6 +394,19 @@
         { "url": "https://www.benzinga.com/news/21/09/22944530/former-israeli-prime-minister-benjamin-netanyahu-asked-to-join-oracle-board-by-co-founder-report", "title": "Benzinga (citing Haaretz): Netanyahu asked to join Oracle board by co-founder" },
         { "url": "https://thejewishindependent.com.au/larry-ellison-netanyahu-trial-witness-offers-ex-pm-seat-on-oracles-board", "title": "The Jewish Independent: Larry Ellison offers ex-PM seat on Oracle’s board" }
       ]
+    },
+    {
+      "name": "Rand Paul",
+      "slug": "rand-paul",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $11,600 from Larry Ellison to Reinventing a New Direction Political Action Committee, Rand Paul for US Senate in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00493924&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to Reinventing a New Direction Political Action Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00496075&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to Rand Paul for US Senate" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -428,10 +441,76 @@
   "giving": {
     "cycles": [
       {
+        "cycle": 2026,
+        "total_usd": 423240,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&two_year_transaction_period=2026", "title": "FEC itemized receipts: ELLISON, LARRY, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Grow the Majority",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00858373"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00858373&two_year_transaction_period=2026", "title": "FEC receipts: ELLISON, LARRY to Grow the Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 94300,
+            "fec_usd": 94300,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: ELLISON, LARRY to NRSC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 82300,
+            "fec_usd": 82300,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00075820&two_year_transaction_period=2026", "title": "FEC receipts: ELLISON, LARRY to NRCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "One Team Senate Majority",
+            "kind": "pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00897918"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00897918&two_year_transaction_period=2026", "title": "FEC receipts: ELLISON, LARRY to One Team Senate Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 7000,
+            "fec_usd": 7000,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $7,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: ELLISON, LARRY to Mike Johnson for Louisiana, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
         "cycle": 2024,
         "description": "About $45 million to a nonprofit backing Trump’s campaign, per the Wall Street Journal.",
         "sources": [
-          { "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/", "title": "Larry Ellison’s $45 million donation, Stargate, TikTok and Paramount — Fortune (June 2026)" }
+          { "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/", "title": "Larry Ellison’s $45 million donation, Stargate, TikTok and Paramount — Fortune (June 2026)" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&two_year_transaction_period=2024", "title": "FEC itemized receipts: ELLISON, LARRY, 2024 cycle" }
         ],
         "recipients": [
           {
@@ -442,6 +521,251 @@
             "amount_usd": 45000000,
             "sources": [
               { "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/", "title": "Larry Ellison’s $45 million donation, Stargate, TikTok and Paramount — Fortune (June 2026)" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 82600,
+            "fec_usd": 82600,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00027466&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to NRSC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Team Rand",
+            "kind": "pac",
+            "amount_usd": 62900,
+            "fec_usd": 62900,
+            "fec_ids": ["C00766196"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00766196&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to Team Rand, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 41300,
+            "fec_usd": 41300,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00075820&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to NRCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Rand Paul",
+            "slug": "rand-paul",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 11600,
+            "fec_usd": 11600,
+            "fec_ids": ["C00493924", "C00496075"],
+            "description": "Per FEC filings: Rand Paul for US Senate $6,600; Reinventing a New Direction Political Action Committee $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00496075&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to Rand Paul for US Senate, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00493924&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to Reinventing a New Direction Political Action Committee, 2024 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 269166,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 31007945,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&two_year_transaction_period=2022", "title": "FEC itemized receipts: ELLISON, LARRY, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Opportunity Matters Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 30007945,
+            "fec_usd": 30007945,
+            "fec_ids": ["C00750182"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00750182&two_year_transaction_period=2022", "title": "FEC receipts: ELLISON, LARRY to Opportunity Matters Fund, Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Tennessee Conservatives PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00806083"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00806083&two_year_transaction_period=2022", "title": "FEC receipts: ELLISON, LARRY to Tennessee Conservatives PAC, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 7255400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&two_year_transaction_period=2020", "title": "FEC itemized receipts: ELLISON, LARRY, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Opportunity Matters Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00750182"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00750182&two_year_transaction_period=2020", "title": "FEC receipts: ELLISON, LARRY to Opportunity Matters Fund, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Better Future Mi Fund",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00725317"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00725317&two_year_transaction_period=2020", "title": "FEC receipts: ELLISON, LARRY to Better Future Mi Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "1820 PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00698126"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00698126&two_year_transaction_period=2020", "title": "FEC receipts: ELLISON, LARRY to 1820 PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Security Is Strength PAC",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00573733"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00573733&two_year_transaction_period=2020", "title": "FEC receipts: ELLISON, LARRY to Security Is Strength PAC, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 151995,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&two_year_transaction_period=2018", "title": "FEC itemized receipts: ELLISON, LARRY, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "McCarthy Victory Fund",
+            "kind": "pac",
+            "amount_usd": 44300,
+            "fec_usd": 44300,
+            "fec_ids": ["C00541011"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00541011&two_year_transaction_period=2018", "title": "FEC receipts: ELLISON, LARRY to McCarthy Victory Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 33900,
+            "fec_usd": 33900,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00075820&two_year_transaction_period=2018", "title": "FEC receipts: ELLISON, LARRY to NRCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 33900,
+            "fec_usd": 33900,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00027466&two_year_transaction_period=2018", "title": "FEC receipts: ELLISON, LARRY to NRSC, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 5758729,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&two_year_transaction_period=2016", "title": "FEC itemized receipts: ELLISON, LARRY, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Conservative Solutions PAC",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00541292"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00541292&two_year_transaction_period=2016", "title": "FEC receipts: ELLISON, LARRY to Conservative Solutions PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Florida First Project",
+            "kind": "super-pac",
+            "amount_usd": 350000,
+            "fec_usd": 350000,
+            "fec_ids": ["C00620476"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00620476&two_year_transaction_period=2016", "title": "FEC receipts: ELLISON, LARRY to Florida First Project, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 166800,
+            "fec_usd": 166800,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00027466&two_year_transaction_period=2016", "title": "FEC receipts: ELLISON, LARRY to NRSC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Hatch Victory Committee",
+            "kind": "pac",
+            "amount_usd": 143800,
+            "fec_usd": 143800,
+            "fec_ids": ["C00542886"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00542886&two_year_transaction_period=2016", "title": "FEC receipts: ELLISON, LARRY to Hatch Victory Committee, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 33400,
+            "fec_usd": 33400,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00075820&two_year_transaction_period=2016", "title": "FEC receipts: ELLISON, LARRY to NRCC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00458844"],
+            "description": "Per FEC filings: Marco Rubio for President $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00458844&two_year_transaction_period=2016", "title": "FEC receipts: ELLISON, LARRY to Marco Rubio for President, 2016 cycle" }
             ]
           }
         ]

@@ -332,6 +332,47 @@
         { "url": "https://en.wikipedia.org/wiki/David_Sacks", "title": "David Sacks — Wikipedia" },
         { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
       ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $1,008,700 from David Sacks to Protect Ohio Values PAC (POV PAC), Working for Ohio, JD Vance for Senate Inc. in the 2022 cycle.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Protect Ohio Values PAC (POV PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $256,600 from David Sacks to Trump 47 Committee, Inc., Never Surrender, Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Never Surrender, Inc." }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $24,160 from David Sacks to Restore Our Nation (Ron PAC), Great American Comeback, Team Desantis 2024 in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Restore Our Nation (Ron PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841148&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Great American Comeback" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841155&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Team Desantis 2024" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -364,5 +405,229 @@
         { "url": "https://www.news4jax.com/business/2026/09/29/trump-vows-to-never-stifle-ai-as-leading-executives-urge-caution/", "title": "Trump vows to never stifle AI as leading executives urge caution — AP via News4JAX (September 29, 2026)" }
       ]
     }
-  ]
+  ],
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 1443300,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&two_year_transaction_period=2026", "title": "FEC itemized receipts: SACKS, DAVID, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Purple Good Government PAC (Purple PAC; Pggpac; Ppac)",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00795534"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00795534&two_year_transaction_period=2026", "title": "FEC receipts: SACKS, DAVID to Purple Good Government PAC (Purple PAC; Pggpac; Ppac), 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 443000,
+            "fec_usd": 443000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00003418&two_year_transaction_period=2026", "title": "FEC receipts: SACKS, DAVID to Republican National Committee, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 1081460,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&two_year_transaction_period=2024", "title": "FEC itemized receipts: SACKS, DAVID, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 390100,
+            "fec_usd": 390100,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00003418&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Republican National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 256600,
+            "fec_usd": 256600,
+            "fec_ids": ["C00828541", "C00867937"],
+            "description": "Per FEC filings: Trump 47 Committee, Inc. $250,000; Never Surrender, Inc. $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Trump 47 Committee, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Never Surrender, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Purple Good Government PAC (Purple PAC; Pggpac; Ppac)",
+            "kind": "super-pac",
+            "amount_usd": 187500,
+            "fec_usd": 187500,
+            "fec_ids": ["C00795534"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00795534&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Purple Good Government PAC (Purple PAC; Pggpac; Ppac), 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Team Moreno",
+            "kind": "pac",
+            "amount_usd": 75000,
+            "fec_usd": 75000,
+            "fec_ids": ["C00867010"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00867010&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Team Moreno, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 63400,
+            "fec_usd": 63400,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00027466&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to NRSC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ron DeSantis",
+            "slug": "ron-desantis",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 24160,
+            "fec_usd": 24160,
+            "fec_ids": ["C00841130", "C00841148", "C00841155"],
+            "description": "Per FEC filings: Restore Our Nation (Ron PAC) $16,500; Great American Comeback $3,830; Team Desantis 2024 $3,830.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Restore Our Nation (Ron PAC), 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841148&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Great American Comeback, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841155&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Team Desantis 2024, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Byron Donalds",
+            "slug": "byron-donalds",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 9900,
+            "fec_usd": 9900,
+            "fec_ids": ["C00733329"],
+            "description": "Per FEC filings: Byron Donalds for Congress $9,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00733329&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Byron Donalds for Congress, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 1456500,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&two_year_transaction_period=2022", "title": "FEC itemized receipts: SACKS, DAVID, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1008700,
+            "fec_usd": 1008700,
+            "fec_ids": ["C00770495", "C00783142", "C00783167"],
+            "description": "Per FEC filings: Protect Ohio Values PAC (POV PAC) $1,000,000; Working for Ohio $5,000; JD Vance for Senate Inc. $3,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Protect Ohio Values PAC (POV PAC), 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Working for Ohio, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to JD Vance for Senate Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Purple Good Government PAC (Purple PAC; Pggpac; Ppac)",
+            "kind": "super-pac",
+            "amount_usd": 312500,
+            "fec_usd": 312500,
+            "fec_ids": ["C00795534"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00795534&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Purple Good Government PAC (Purple PAC; Pggpac; Ppac), 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00003418&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Republican National Committee, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 1100,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&two_year_transaction_period=2020", "title": "FEC itemized receipts: SACKS, DAVID, 2020 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 10000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&two_year_transaction_period=2018", "title": "FEC itemized receipts: SACKS, DAVID, 2018 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 66880,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&two_year_transaction_period=2016", "title": "FEC itemized receipts: SACKS, DAVID, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Hillary Victory Fund",
+            "kind": "pac",
+            "amount_usd": 33400,
+            "fec_usd": 33400,
+            "fec_ids": ["C00586537"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00586537&two_year_transaction_period=2016", "title": "FEC receipts: SACKS, DAVID to Hillary Victory Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp./dem. Nat'l Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 28000,
+            "fec_usd": 28000,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00010603&two_year_transaction_period=2016", "title": "FEC receipts: SACKS, DAVID to DNC Services Corp./dem. Nat'l Committee, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

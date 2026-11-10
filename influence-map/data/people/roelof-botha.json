@@ -145,5 +145,18 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Links to YouTube's founders (Sequoia's YouTube investment) are in their files.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2022,
+        "total_usd": 10000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BOTHA%2C+ROELOF&two_year_transaction_period=2022", "title": "FEC itemized receipts: BOTHA, ROELOF, 2022 cycle" }
+        ],
+        "recipients": []
+      }
+    ]
+  }
 }

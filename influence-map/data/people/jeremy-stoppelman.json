@@ -88,9 +88,166 @@
         { "url": "https://www.sec.gov/Archives/edgar/data/0001345016/000119312511315562/d245328ds1.htm", "title": "Yelp Form S-1 (2011) — SEC" },
         { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
       ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $130,400 from Jeremy Stoppelman to Kamala Harris for Senate, Harris Victory Fund in 2 cycles (2016–2024).",
+      "start_year": 2015,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00571919&two_year_transaction_period=2024", "title": "FEC receipts: STOPPELMAN, JEREMY to Kamala Harris for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: STOPPELMAN, JEREMY to Harris Victory Fund" }
+      ]
     }
   ],
   "source_conflicts": [],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 68300,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&two_year_transaction_period=2026", "title": "FEC itemized receipts: STOPPELMAN, JEREMY, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Abundant Future",
+            "kind": "super-pac",
+            "amount_usd": 35000,
+            "fec_usd": 35000,
+            "fec_ids": ["C00922229"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00922229&two_year_transaction_period=2026", "title": "FEC receipts: STOPPELMAN, JEREMY to Abundant Future, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 211059,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&two_year_transaction_period=2024", "title": "FEC itemized receipts: STOPPELMAN, JEREMY, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Kamala Harris",
+            "slug": "kamala-harris",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 125000,
+            "fec_usd": 125000,
+            "fec_ids": ["C00744946"],
+            "description": "Per FEC filings: Harris Victory Fund $125,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: STOPPELMAN, JEREMY to Harris Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 41300,
+            "fec_usd": 41300,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00010603&two_year_transaction_period=2024", "title": "FEC receipts: STOPPELMAN, JEREMY to DNC Services Corp / Democratic National Committee, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 33200,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&two_year_transaction_period=2022", "title": "FEC itemized receipts: STOPPELMAN, JEREMY, 2022 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 230500,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&two_year_transaction_period=2020", "title": "FEC itemized receipts: STOPPELMAN, JEREMY, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Biden Victory Fund",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00744946&two_year_transaction_period=2020", "title": "FEC receipts: STOPPELMAN, JEREMY to Biden Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 40500,
+            "fec_usd": 40500,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00010603&two_year_transaction_period=2020", "title": "FEC receipts: STOPPELMAN, JEREMY to DNC Services Corp / Democratic National Committee, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 18500,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&two_year_transaction_period=2018", "title": "FEC itemized receipts: STOPPELMAN, JEREMY, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Josh Hawley",
+            "slug": "josh-hawley",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00652727"],
+            "description": "Per FEC filings: Josh Hawley for Senate $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00652727&two_year_transaction_period=2018", "title": "FEC receipts: STOPPELMAN, JEREMY to Josh Hawley for Senate, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 47000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&two_year_transaction_period=2016", "title": "FEC itemized receipts: STOPPELMAN, JEREMY, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Kamala Harris",
+            "slug": "kamala-harris",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00571919"],
+            "description": "Per FEC filings: Kamala Harris for Senate $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00571919&two_year_transaction_period=2016", "title": "FEC receipts: STOPPELMAN, JEREMY to Kamala Harris for Senate, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

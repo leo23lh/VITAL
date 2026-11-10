@@ -112,24 +112,38 @@
       "name": "House Majority PAC",
       "slug": "house-majority-pac",
       "relationship_type": "funded_by",
-      "description": "Gave $10 million in 2022 and $16 million in October 2026 as part of a late spending blitz to help Democrats retake the House.",
-      "start_year": 2022,
+      "description": "Gave $10 million in 2022 and $16 million in October 2026 as part of a late spending blitz to help Democrats retake the House. FEC filings show $61,050,000 from Michael Bloomberg to HMP in 4 cycles (2018–2024).",
+      "start_year": 2018,
       "confidence": 0.9,
       "sources": [
         { "url": "https://thehill.com/homenews/campaign/3705040-michael-bloomberg-gives-pelosi-aligned-super-pac-another-10m-as-midterms-near/", "title": "Michael Bloomberg gives Pelosi-aligned super PAC another $10M as midterms near — The Hill" },
-        { "url": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html", "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT — CNBC" }
+        { "url": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html", "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT — CNBC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00495028&two_year_transaction_period=2024", "title": "FEC receipts: BLOOMBERG, MICHAEL to HMP" }
       ]
     },
     {
       "name": "Future Forward PAC",
       "slug": "future-forward",
       "relationship_type": "funded_by",
-      "description": "Reportedly gave $50 million in 2024, per Wikipedia citing the New York Times.",
+      "description": "Reportedly gave $50 million in 2024, per Wikipedia citing the New York Times. FEC filings show $19,000,000 from Michael Bloomberg to FF PAC in the 2024 cycle.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.6,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Future_Forward_PAC", "title": "Future Forward PAC — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Future_Forward_PAC", "title": "Future Forward PAC — Wikipedia" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00669259&two_year_transaction_period=2024", "title": "FEC receipts: BLOOMBERG, MICHAEL to FF PAC" }
+      ]
+    },
+    {
+      "name": "Senate Majority PAC",
+      "slug": "senate-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $20,000,000 from Michael Bloomberg to SMP in the 2018 cycle.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00484642&two_year_transaction_period=2018", "title": "FEC receipts: BLOOMBERG, MICHAEL to SMP" }
       ]
     }
   ],
@@ -148,7 +162,8 @@
           { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
           { "url": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html", "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT — CNBC" },
           { "url": "https://www.washingtonpost.com/politics/2026/10/20/mike-bloomberg-starts-spending-blitz-help-democrats-retake-house/", "title": "Mike Bloomberg starts spending blitz to help Democrats retake the House — Washington Post" },
-          { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" }
+          { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&two_year_transaction_period=2026", "title": "FEC itemized receipts: BLOOMBERG, MICHAEL, 2026 cycle" }
         ],
         "recipients": [
           {
@@ -192,6 +207,86 @@
             "sources": [
               { "url": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html", "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT — CNBC" }
             ]
+          },
+          {
+            "name": "Stand for New York PAC",
+            "kind": "super-pac",
+            "amount_usd": 11000000,
+            "fec_usd": 11000000,
+            "fec_ids": ["C00936591"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00936591&two_year_transaction_period=2026", "title": "FEC receipts: BLOOMBERG, MICHAEL to Stand for New York PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "314 Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 6400000,
+            "fec_usd": 6400000,
+            "fec_ids": ["C00633248"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00633248&two_year_transaction_period=2026", "title": "FEC receipts: BLOOMBERG, MICHAEL to 314 Action Fund, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "One Giant Leap PAC",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00854059"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00854059&two_year_transaction_period=2026", "title": "FEC receipts: BLOOMBERG, MICHAEL to One Giant Leap PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Votevets",
+            "kind": "super-pac",
+            "amount_usd": 700000,
+            "fec_usd": 700000,
+            "fec_ids": ["C00418897"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00418897&two_year_transaction_period=2026", "title": "FEC receipts: BLOOMBERG, MICHAEL to Votevets, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Md PAC",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00911321"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00911321&two_year_transaction_period=2026", "title": "FEC receipts: BLOOMBERG, MICHAEL to Md PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Independence USA PAC",
+            "kind": "super-pac",
+            "amount_usd": 271830,
+            "fec_usd": 271830,
+            "fec_ids": ["C00532705"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00532705&two_year_transaction_period=2026", "title": "FEC receipts: BLOOMBERG, MICHAEL to Independence USA PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Virgin Islanders for Progress PAC",
+            "kind": "super-pac",
+            "amount_usd": 150000,
+            "fec_usd": 150000,
+            "fec_ids": ["C00953307"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00953307&two_year_transaction_period=2026", "title": "FEC receipts: BLOOMBERG, MICHAEL to Virgin Islanders for Progress PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Our Future United PAC",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00927301"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00927301&two_year_transaction_period=2026", "title": "FEC receipts: BLOOMBERG, MICHAEL to Our Future United PAC, 2026 cycle" }
+            ]
           }
         ]
       },
@@ -203,7 +298,532 @@
         "description": "The biggest Democratic donor of 2024.",
         "sources": [
           { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
-          { "url": "https://www.allsides.com/blog/elon-musk-tops-list-2024-political-donors-five-others-gave-more-100-million", "title": "Elon Musk tops list of 2024 political donors, five others gave more than $100 million — AllSides" }
+          { "url": "https://www.allsides.com/blog/elon-musk-tops-list-2024-political-donors-five-others-gave-more-100-million", "title": "Elon Musk tops list of 2024 political donors, five others gave more than $100 million — AllSides" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&two_year_transaction_period=2024", "title": "FEC itemized receipts: BLOOMBERG, MICHAEL, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Future Forward PAC",
+            "org": "future-forward",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 19000000,
+            "fec_usd": 19000000,
+            "fec_ids": ["C00669259"],
+            "description": "Per FEC filings: FF PAC $19,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00669259&two_year_transaction_period=2024", "title": "FEC receipts: BLOOMBERG, MICHAEL to FF PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "House Majority PAC",
+            "org": "house-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 13000000,
+            "fec_usd": 13000000,
+            "fec_ids": ["C00495028"],
+            "description": "Per FEC filings: HMP $13,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00495028&two_year_transaction_period=2024", "title": "FEC receipts: BLOOMBERG, MICHAEL to HMP, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Everytown-Demand a Seat PAC",
+            "kind": "super-pac",
+            "amount_usd": 7000000,
+            "fec_usd": 7000000,
+            "fec_ids": ["C00878009"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00878009&two_year_transaction_period=2024", "title": "FEC receipts: BLOOMBERG, MICHAEL to Everytown-Demand a Seat PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Lcv Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 2750000,
+            "fec_usd": 2750000,
+            "fec_ids": ["C00486845"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00486845&two_year_transaction_period=2024", "title": "FEC receipts: BLOOMBERG, MICHAEL to Lcv Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Unite America PAC Inc.",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00677773"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00677773&two_year_transaction_period=2024", "title": "FEC receipts: BLOOMBERG, MICHAEL to Unite America PAC Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Neighbors for Results",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00865725"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00865725&two_year_transaction_period=2024", "title": "FEC receipts: BLOOMBERG, MICHAEL to Neighbors for Results, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Planned Parenthood Votes",
+            "kind": "super-pac",
+            "amount_usd": 1250000,
+            "fec_usd": 1250000,
+            "fec_ids": ["C00489799"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00489799&two_year_transaction_period=2024", "title": "FEC receipts: BLOOMBERG, MICHAEL to Planned Parenthood Votes, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ohioans for Judicial Integrity (Ofji)",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00886028"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00886028&two_year_transaction_period=2024", "title": "FEC receipts: BLOOMBERG, MICHAEL to Ohioans for Judicial Integrity (Ofji), 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Harris Victory Fund",
+            "kind": "pac",
+            "amount_usd": 929600,
+            "fec_usd": 929600,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: BLOOMBERG, MICHAEL to Harris Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "314 Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00633248"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00633248&two_year_transaction_period=2024", "title": "FEC receipts: BLOOMBERG, MICHAEL to 314 Action Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 413000,
+            "fec_usd": 413000,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00010603&two_year_transaction_period=2024", "title": "FEC receipts: BLOOMBERG, MICHAEL to DNC Services Corp / Democratic National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Independence USA PAC",
+            "kind": "super-pac",
+            "amount_usd": 257249,
+            "fec_usd": 257249,
+            "fec_ids": ["C00532705"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00532705&two_year_transaction_period=2024", "title": "FEC receipts: BLOOMBERG, MICHAEL to Independence USA PAC, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 40801826,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&two_year_transaction_period=2022", "title": "FEC itemized receipts: BLOOMBERG, MICHAEL, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "House Majority PAC",
+            "org": "house-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 22180000,
+            "fec_usd": 22180000,
+            "fec_ids": ["C00495028"],
+            "description": "Per FEC filings: House Majority PAC $22,180,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00495028&two_year_transaction_period=2022", "title": "FEC receipts: BLOOMBERG, MICHAEL to House Majority PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Lcv Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 7900000,
+            "fec_usd": 7900000,
+            "fec_ids": ["C00486845"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00486845&two_year_transaction_period=2022", "title": "FEC receipts: BLOOMBERG, MICHAEL to Lcv Victory Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Women Vote!",
+            "kind": "super-pac",
+            "amount_usd": 6100000,
+            "fec_usd": 6100000,
+            "fec_ids": ["C00473918"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00473918&two_year_transaction_period=2022", "title": "FEC receipts: BLOOMBERG, MICHAEL to Women Vote!, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Independence USA PAC",
+            "kind": "super-pac",
+            "amount_usd": 2072026,
+            "fec_usd": 2072026,
+            "fec_ids": ["C00532705"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00532705&two_year_transaction_period=2022", "title": "FEC receipts: BLOOMBERG, MICHAEL to Independence USA PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Planned Parenthood Votes",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00489799"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00489799&two_year_transaction_period=2022", "title": "FEC receipts: BLOOMBERG, MICHAEL to Planned Parenthood Votes, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Principled Veterans Fund (Pv Fund)",
+            "kind": "super-pac",
+            "amount_usd": 750000,
+            "fec_usd": 750000,
+            "fec_ids": ["C00780841"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00780841&two_year_transaction_period=2022", "title": "FEC receipts: BLOOMBERG, MICHAEL to Principled Veterans Fund (Pv Fund), 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Center Forward Committee",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00568444"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00568444&two_year_transaction_period=2022", "title": "FEC receipts: BLOOMBERG, MICHAEL to Center Forward Committee, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Our Future United",
+            "kind": "super-pac",
+            "amount_usd": 260000,
+            "fec_usd": 260000,
+            "fec_ids": ["C00752378"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00752378&two_year_transaction_period=2022", "title": "FEC receipts: BLOOMBERG, MICHAEL to Our Future United, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 154893907,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&two_year_transaction_period=2020", "title": "FEC itemized receipts: BLOOMBERG, MICHAEL, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Independence USA PAC",
+            "kind": "super-pac",
+            "amount_usd": 67287481,
+            "fec_usd": 67287481,
+            "fec_ids": ["C00532705"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00532705&two_year_transaction_period=2020", "title": "FEC receipts: BLOOMBERG, MICHAEL to Independence USA PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "House Majority PAC",
+            "org": "house-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 25350000,
+            "fec_usd": 25350000,
+            "fec_ids": ["C00495028"],
+            "description": "Per FEC filings: House Majority PAC $25,350,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00495028&two_year_transaction_period=2020", "title": "FEC receipts: BLOOMBERG, MICHAEL to House Majority PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Priorities USA Action",
+            "kind": "super-pac",
+            "amount_usd": 19239096,
+            "fec_usd": 19239096,
+            "fec_ids": ["C00495861"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00495861&two_year_transaction_period=2020", "title": "FEC receipts: BLOOMBERG, MICHAEL to Priorities USA Action, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Black PAC",
+            "kind": "super-pac",
+            "amount_usd": 7370000,
+            "fec_usd": 7370000,
+            "fec_ids": ["C00609388"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00609388&two_year_transaction_period=2020", "title": "FEC receipts: BLOOMBERG, MICHAEL to Black PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Fair Fight",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00693515"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00693515&two_year_transaction_period=2020", "title": "FEC receipts: BLOOMBERG, MICHAEL to Fair Fight, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Unite the Country",
+            "kind": "super-pac",
+            "amount_usd": 4379000,
+            "fec_usd": 4379000,
+            "fec_ids": ["C00701888"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00701888&two_year_transaction_period=2020", "title": "FEC receipts: BLOOMBERG, MICHAEL to Unite the Country, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Lcv Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 4200000,
+            "fec_usd": 4200000,
+            "fec_ids": ["C00486845"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00486845&two_year_transaction_period=2020", "title": "FEC receipts: BLOOMBERG, MICHAEL to Lcv Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Planned Parenthood Votes",
+            "kind": "super-pac",
+            "amount_usd": 4000000,
+            "fec_usd": 4000000,
+            "fec_ids": ["C00489799"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00489799&two_year_transaction_period=2020", "title": "FEC receipts: BLOOMBERG, MICHAEL to Planned Parenthood Votes, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Latino Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 2431000,
+            "fec_usd": 2431000,
+            "fec_ids": ["C00562777"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00562777&two_year_transaction_period=2020", "title": "FEC receipts: BLOOMBERG, MICHAEL to Latino Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Swing Left",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00632133"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00632133&two_year_transaction_period=2020", "title": "FEC receipts: BLOOMBERG, MICHAEL to Swing Left, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Somos PAC",
+            "kind": "super-pac",
+            "amount_usd": 1930000,
+            "fec_usd": 1930000,
+            "fec_ids": ["C00724203"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00724203&two_year_transaction_period=2020", "title": "FEC receipts: BLOOMBERG, MICHAEL to Somos PAC, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 95128559,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&two_year_transaction_period=2018", "title": "FEC itemized receipts: BLOOMBERG, MICHAEL, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Independence USA PAC",
+            "kind": "super-pac",
+            "amount_usd": 63469207,
+            "fec_usd": 63469207,
+            "fec_ids": ["C00532705"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00532705&two_year_transaction_period=2018", "title": "FEC receipts: BLOOMBERG, MICHAEL to Independence USA PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 20000000,
+            "fec_usd": 20000000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $20,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00484642&two_year_transaction_period=2018", "title": "FEC receipts: BLOOMBERG, MICHAEL to SMP, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Lcv Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00486845"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00486845&two_year_transaction_period=2018", "title": "FEC receipts: BLOOMBERG, MICHAEL to Lcv Victory Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Women Vote!",
+            "kind": "super-pac",
+            "amount_usd": 1963125,
+            "fec_usd": 1963125,
+            "fec_ids": ["C00473918"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00473918&two_year_transaction_period=2018", "title": "FEC receipts: BLOOMBERG, MICHAEL to Women Vote!, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Votevets",
+            "kind": "super-pac",
+            "amount_usd": 1540727,
+            "fec_usd": 1540727,
+            "fec_ids": ["C00418897"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00418897&two_year_transaction_period=2018", "title": "FEC receipts: BLOOMBERG, MICHAEL to Votevets, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Planned Parenthood Votes",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00489799"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00489799&two_year_transaction_period=2018", "title": "FEC receipts: BLOOMBERG, MICHAEL to Planned Parenthood Votes, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "House Majority PAC",
+            "org": "house-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 520000,
+            "fec_usd": 520000,
+            "fec_ids": ["C00495028"],
+            "description": "Per FEC filings: House Majority PAC $520,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00495028&two_year_transaction_period=2018", "title": "FEC receipts: BLOOMBERG, MICHAEL to House Majority PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Priorities USA Action",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00495861"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00495861&two_year_transaction_period=2018", "title": "FEC receipts: BLOOMBERG, MICHAEL to Priorities USA Action, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Change Now",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00683599"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00683599&two_year_transaction_period=2018", "title": "FEC receipts: BLOOMBERG, MICHAEL to Change Now, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "With Honor Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00659011"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00659011&two_year_transaction_period=2018", "title": "FEC receipts: BLOOMBERG, MICHAEL to With Honor Fund, Inc., 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Protecting Our Vote PAC",
+            "kind": "super-pac",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00509463"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00509463&two_year_transaction_period=2018", "title": "FEC receipts: BLOOMBERG, MICHAEL to Protecting Our Vote PAC, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 23763725,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&two_year_transaction_period=2016", "title": "FEC itemized receipts: BLOOMBERG, MICHAEL, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Independence USA PAC",
+            "kind": "super-pac",
+            "amount_usd": 21665125,
+            "fec_usd": 21665125,
+            "fec_ids": ["C00532705"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00532705&two_year_transaction_period=2016", "title": "FEC receipts: BLOOMBERG, MICHAEL to Independence USA PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Women Vote!",
+            "kind": "super-pac",
+            "amount_usd": 1040000,
+            "fec_usd": 1040000,
+            "fec_ids": ["C00473918"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00473918&two_year_transaction_period=2016", "title": "FEC receipts: BLOOMBERG, MICHAEL to Women Vote!, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Planned Parenthood Votes",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00489799"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00489799&two_year_transaction_period=2016", "title": "FEC receipts: BLOOMBERG, MICHAEL to Planned Parenthood Votes, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Kamala Harris",
+            "slug": "kamala-harris",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00571919"],
+            "description": "Per FEC filings: Kamala Harris for Senate $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00571919&two_year_transaction_period=2016", "title": "FEC receipts: BLOOMBERG, MICHAEL to Kamala Harris for Senate, 2016 cycle" }
+            ]
+          }
         ]
       }
     ],

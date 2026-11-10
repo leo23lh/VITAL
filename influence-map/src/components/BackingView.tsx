@@ -26,7 +26,7 @@ const SIDES = [
 
 /** What the labels have meant on past donations (see the scorecard). */
 export const BACKING_TRACK_RECORD =
-  'Tested on past donations: about 6 in 10 pairs rated Likely or better went on to give, about 1 in 7 rated Leaning, 1 in 10 rated Possible and 1 in 50 rated Unlikely.';
+  'Tested on 214 past donations from FEC filings: about 6 in 10 pairs rated Likely or better went on to give, 1 in 8 rated Leaning, 1 in 14 rated Possible and 1 in 50 rated Unlikely.';
 
 export default function BackingView({ nodes, board, of, onOf, selectedId, onSelect }: Props) {
   const [scope, setScope] = useState<Scope>('all');

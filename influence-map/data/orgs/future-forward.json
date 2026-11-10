@@ -38,37 +38,52 @@
       "name": "Dustin Moskovitz",
       "slug": "dustin-moskovitz",
       "relationship_type": "donor",
-      "description": "Gave about $50 million in 2024, its top disclosed individual donor in the final weeks.",
-      "start_year": 2024,
-      "end_year": 2024,
+      "description": "Gave about $50 million in 2024, its top disclosed individual donor in the final weeks. FEC filings show $104,190,000 from Dustin Moskovitz to FF PAC in 4 cycles (2020–2026).",
+      "start_year": 2020,
+      "end_year": 2026,
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },
-        { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00669259&two_year_transaction_period=2026", "title": "FEC receipts: MOSKOVITZ, DUSTIN to FF PAC" }
       ]
     },
     {
       "name": "Chris Larsen",
       "slug": "chris-larsen",
       "relationship_type": "donor",
-      "description": "Gave $1 million in XRP in August 2024; Decrypt reported about $10 million more in September.",
-      "start_year": 2024,
+      "description": "Gave $1 million in XRP in August 2024; Decrypt reported about $10 million more in September. FEC filings show $11,649,925 from Chris Larsen to FF PAC in the 2024 cycle.",
+      "start_year": 2023,
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.theblock.co/post/320785/ripple-co-founder-chris-larsen-donates-1-million-in-crypto-to-pac-supporting-kamala-harris-campaign", "title": "Ripple co-founder Chris Larsen donates $1 million in crypto to PAC supporting Kamala Harris — The Block" }
+        { "url": "https://www.theblock.co/post/320785/ripple-co-founder-chris-larsen-donates-1-million-in-crypto-to-pac-supporting-kamala-harris-campaign", "title": "Ripple co-founder Chris Larsen donates $1 million in crypto to PAC supporting Kamala Harris — The Block" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00669259&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to FF PAC" }
       ]
     },
     {
       "name": "Michael Bloomberg",
       "slug": "michael-bloomberg",
       "relationship_type": "donor",
-      "description": "Reportedly gave $50 million in 2024, per Wikipedia citing the New York Times.",
+      "description": "Reportedly gave $50 million in 2024, per Wikipedia citing the New York Times. FEC filings show $19,000,000 from Michael Bloomberg to FF PAC in the 2024 cycle.",
       "start_year": 2024,
       "end_year": 2024,
       "confidence": 0.6,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Future_Forward_PAC", "title": "Future Forward PAC — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Future_Forward_PAC", "title": "Future Forward PAC — Wikipedia" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00669259&two_year_transaction_period=2024", "title": "FEC receipts: BLOOMBERG, MICHAEL to FF PAC" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,250,000 from Reid Hoffman to FF PAC in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00669259&two_year_transaction_period=2024", "title": "FEC receipts: HOFFMAN, REID to FF PAC" }
       ]
     }
   ],

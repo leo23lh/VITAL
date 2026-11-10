@@ -1,6 +1,129 @@
 {
   "runs": [
     {
+      "date": "2026-11-10",
+      "map": {
+        "people": 262,
+        "orgs": 26,
+        "links": 1015
+      },
+      "evidence": {
+        "strong": 649,
+        "solid": 198,
+        "thin": 168,
+        "none": 0,
+        "held": 139
+      },
+      "ties": [
+        {
+          "cutoff": 2022,
+          "positives": 205,
+          "coldStarts": 195,
+          "candidates": 15375,
+          "auc": 0.729,
+          "aucSharedFriends": 0.626,
+          "aucPopularity": 0.702,
+          "topN": 100,
+          "topHits": 3,
+          "topExpected": 1.333
+        },
+        {
+          "cutoff": 2024,
+          "positives": 120,
+          "coldStarts": 142,
+          "candidates": 17834,
+          "auc": 0.769,
+          "aucSharedFriends": 0.71,
+          "aucPopularity": 0.686,
+          "topN": 100,
+          "topHits": 1,
+          "topExpected": 0.673
+        }
+      ],
+      "giving": [
+        {
+          "cutoff": 2022,
+          "cycle": 2024,
+          "donors": 32,
+          "gifts": 129,
+          "newGifts": 75,
+          "aucBacking": 0.796,
+          "aucBackingNew": 0.706,
+          "top5Backing": 0.457,
+          "bands": [
+            {
+              "label": "Likely or better (65+)",
+              "min": 65,
+              "pairs": 72,
+              "gave": 48
+            },
+            {
+              "label": "Leaning (45–64)",
+              "min": 45,
+              "pairs": 104,
+              "gave": 16
+            },
+            {
+              "label": "Possible (30–44)",
+              "min": 30,
+              "pairs": 510,
+              "gave": 42
+            },
+            {
+              "label": "Unlikely (under 30)",
+              "min": 0,
+              "pairs": 690,
+              "gave": 23
+            }
+          ],
+          "auc": 0.796,
+          "aucRepeat": 0.67,
+          "aucNew": 0.706,
+          "top5": 0.45
+        },
+        {
+          "cutoff": 2024,
+          "cycle": 2026,
+          "donors": 24,
+          "gifts": 85,
+          "newGifts": 30,
+          "aucBacking": 0.88,
+          "aucBackingNew": 0.815,
+          "top5Backing": 0.494,
+          "bands": [
+            {
+              "label": "Likely or better (65+)",
+              "min": 65,
+              "pairs": 93,
+              "gave": 47
+            },
+            {
+              "label": "Leaning (45–64)",
+              "min": 45,
+              "pairs": 151,
+              "gave": 14
+            },
+            {
+              "label": "Possible (30–44)",
+              "min": 30,
+              "pairs": 383,
+              "gave": 24
+            },
+            {
+              "label": "Unlikely (under 30)",
+              "min": 0,
+              "pairs": 453,
+              "gave": 0
+            }
+          ],
+          "auc": 0.85,
+          "aucRepeat": 0.756,
+          "aucNew": 0.732,
+          "top5": 0.506
+        }
+      ]
+    },
+    {
       "date": "2026-11-09",
       "map": {
         "people": 262,

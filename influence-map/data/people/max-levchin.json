@@ -190,5 +190,45 @@
   ],
   "source_conflicts": [],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Links to Yelp's founders are added in their files.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 10000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LEVCHIN%2C+MAX&two_year_transaction_period=2026", "title": "FEC itemized receipts: LEVCHIN, MAX, 2026 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 5000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LEVCHIN%2C+MAX&two_year_transaction_period=2024", "title": "FEC itemized receipts: LEVCHIN, MAX, 2024 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 10000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LEVCHIN%2C+MAX&two_year_transaction_period=2022", "title": "FEC itemized receipts: LEVCHIN, MAX, 2022 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 5000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LEVCHIN%2C+MAX&two_year_transaction_period=2020", "title": "FEC itemized receipts: LEVCHIN, MAX, 2020 cycle" }
+        ],
+        "recipients": []
+      }
+    ]
+  }
 }

@@ -90,6 +90,42 @@
         { "url": "https://thehill.com/homenews/6198897-jeffries-ribs-johnson-midterms/", "title": "Jeffries taunts Speaker Johnson for saying polls were wrong — The Hill" },
         { "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house", "title": "House Democratic Leader Hakeem Jeffries declares “America is back” — NPR" }
       ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "donor",
+      "description": "FEC filings show $13,600 from Keith Rabois to Mike Johnson for Louisiana in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: RABOIS, KEITH to Mike Johnson for Louisiana" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,500 from Paul Singer to Mike Johnson for Louisiana in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Mike Johnson for Louisiana" }
+      ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,800 from Richard Uihlein to Mike Johnson for Louisiana in 2 cycles (2016–2018).",
+      "start_year": 2016,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00608695&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Mike Johnson for Louisiana" }
+      ]
     }
   ],
   "office": {

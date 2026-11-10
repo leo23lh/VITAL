@@ -80,13 +80,15 @@
       "name": "Marco Rubio",
       "slug": "marco-rubio",
       "relationship_type": "funded_by",
-      "description": "Griffin endorsed Rubio in December 2015 and gave $5 million to the pro-Rubio super PAC; in July 2026 he told Axios he would back Rubio over Vance for 2028.",
+      "description": "Griffin endorsed Rubio in December 2015 and gave $5 million to the pro-Rubio super PAC; in July 2026 he told Axios he would back Rubio over Vance for 2028. FEC filings show $10,800 from Ken Griffin to Marco Rubio for Senate 2016, Marco Rubio for President in the 2016 cycle.",
       "start_year": 2015,
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
         { "url": "https://www.bloomberg.com/news/articles/2016-01-31/singer-griffin-give-combined-5-million-to-super-pac-backing-rubio", "title": "Singer, Griffin give combined $5 million to super PAC backing Rubio — Bloomberg" },
-        { "url": "https://www.axios.com/2026/07/08/ken-griffin-gop-rubio-vance-2028", "title": "Scoop: GOP megadonor Ken Griffin says he'd back Rubio over Vance in 2028 — Axios" }
+        { "url": "https://www.axios.com/2026/07/08/ken-griffin-gop-rubio-vance-2028", "title": "Scoop: GOP megadonor Ken Griffin says he'd back Rubio over Vance in 2028 — Axios" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00620518&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Marco Rubio for Senate 2016" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00458844&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Marco Rubio for President" }
       ]
     },
     {
@@ -170,25 +172,51 @@
       "name": "Senate Leadership Fund",
       "slug": "senate-leadership-fund",
       "relationship_type": "funded_by",
-      "description": "Gave $30 million in 2023–24 across four gifts, his largest disclosed donations that cycle, after $5 million in 2022.",
-      "start_year": 2022,
+      "description": "Gave $30 million in 2023–24 across four gifts, his largest disclosed donations that cycle, after $5 million in 2022. FEC filings show $101,100,000 from Ken Griffin to SLF PAC in 5 cycles (2016–2026).",
+      "start_year": 2016,
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
         { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
-        { "url": "https://www.benzinga.com/general/hedge-funds/24/07/39783424/ken-griffin-is-once-again-top-donor-to-republicans-who-aim-to-control-congress", "title": "Ken Griffin is once again top donor to Republicans who aim to control Congress — Benzinga" }
+        { "url": "https://www.benzinga.com/general/hedge-funds/24/07/39783424/ken-griffin-is-once-again-top-donor-to-republicans-who-aim-to-control-congress", "title": "Ken Griffin is once again top donor to Republicans who aim to control Congress — Benzinga" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to SLF PAC" }
       ]
     },
     {
       "name": "Congressional Leadership Fund",
       "slug": "congressional-leadership-fund",
       "relationship_type": "funded_by",
-      "description": "Gave $10 million in 2022 and more than $16 million in the 2024 cycle.",
-      "start_year": 2022,
+      "description": "Gave $10 million in 2022 and more than $16 million in the 2024 cycle. FEC filings show $64,510,000 from Ken Griffin to CLF in 6 cycles (2016–2026).",
+      "start_year": 2016,
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
-        { "url": "https://edition.cnn.com/2024/10/25/politics/campaign-fundraising-house-senate", "title": "In race for Congress, Democrats burn through cash while outraising Republicans — CNN" }
+        { "url": "https://edition.cnn.com/2024/10/25/politics/campaign-fundraising-house-senate", "title": "In race for Congress, Democrats burn through cash while outraising Republicans — CNN" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to CLF" }
+      ]
+    },
+    {
+      "name": "Sean Duffy",
+      "slug": "sean-duffy",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $10,800 from Ken Griffin to Duffy for Wisconsin in 2 cycles (2016–2018).",
+      "start_year": 2015,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00464339&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to Duffy for Wisconsin" }
+      ]
+    },
+    {
+      "name": "Mike Waltz",
+      "slug": "mike-waltz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $26,700 from Ken Griffin to Michael Waltz for Congress in 4 cycles (2018–2024).",
+      "start_year": 2018,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to Michael Waltz for Congress" }
       ]
     }
   ],
@@ -204,7 +232,8 @@
         "description": "Well below his 2024 level. Wikipedia counts $32.4M to Republicans as of August 2026.",
         "sources": [
           { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
-          { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+          { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&two_year_transaction_period=2026", "title": "FEC itemized receipts: GRIFFIN, KEN, 2026 cycle" }
         ],
         "recipients": [
           {
@@ -214,6 +243,134 @@
             "amount_usd": 10000000,
             "sources": [
               { "url": "https://www.nbcnews.com/politics/2026-election/republican-ken-griffin-byron-donalds-florida-governor-rcna588984", "title": "Ken Griffin gives $10 million to boost Byron Donalds' bid for Florida governor — NBC News" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10000000,
+            "fec_usd": 10000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: SLF PAC $10,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to SLF PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: CLF $5,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to CLF, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Conservatives for American Excellence Inc.",
+            "kind": "super-pac",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00835967"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00835967&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to Conservatives for American Excellence Inc., 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Fighting for Wyoming",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00944322"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00944322&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to Fighting for Wyoming, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Last Frontier PAC",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00875278"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00875278&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to Last Frontier PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "American Patriots PAC",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00668905"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00668905&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to American Patriots PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Stronger Safer Nation",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00898924"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00898924&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to Stronger Safer Nation, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Pine Tree Results PAC",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00894709"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00894709&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to Pine Tree Results PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Fight On Iowa",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00904482"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00904482&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to Fight On Iowa, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Path to Victory 2026",
+            "kind": "pac",
+            "amount_usd": 72300,
+            "fec_usd": 72300,
+            "fec_ids": ["C00941237"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00941237&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to Senate Path to Victory 2026, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 44300,
+            "fec_usd": 44300,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to NRSC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 44300,
+            "fec_usd": 44300,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00075820&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to NRCC, 2026 cycle" }
             ]
           }
         ]
@@ -227,7 +384,8 @@
         "sources": [
           { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
           { "url": "https://www.washingtonpost.com/elections/interactive/2024/biggest-campaign-donors-election-2024/", "title": "Meet the top 50 campaign donors pumping millions into the 2024 election — Washington Post" },
-          { "url": "https://www.cbsnews.com/news/trump-megadonors-2024-election/", "title": "The megadonors who fueled Trump and the Republican Party — CBS News" }
+          { "url": "https://www.cbsnews.com/news/trump-megadonors-2024-election/", "title": "The megadonors who fueled Trump and the Republican Party — CBS News" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&two_year_transaction_period=2024", "title": "FEC itemized receipts: GRIFFIN, KEN, 2024 cycle" }
         ],
         "recipients": [
           {
@@ -238,8 +396,11 @@
             "amount_usd": 16000000,
             "description": "As of late October 2024.",
             "sources": [
-              { "url": "https://edition.cnn.com/2024/10/25/politics/campaign-fundraising-house-senate", "title": "In race for Congress, Democrats burn through cash while outraising Republicans — CNN" }
-            ]
+              { "url": "https://edition.cnn.com/2024/10/25/politics/campaign-fundraising-house-senate", "title": "In race for Congress, Democrats burn through cash while outraising Republicans — CNN" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00504530&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to Congressional Leadership Fund, 2024 cycle" }
+            ],
+            "fec_usd": 17005000,
+            "fec_ids": ["C00504530"]
           },
           {
             "name": "Senate Leadership Fund",
@@ -249,8 +410,12 @@
             "description": "Named among its main 2024 funders.",
             "sources": [
               { "url": "https://www.nbcnews.com/politics/2024-election/democrats-flooded-cash-fight-congress-gop-stretch-money-rcna175636", "title": "Democrats flooded with cash in fight for Congress — NBC News" },
-              { "url": "https://www.cbsnews.com/news/trump-megadonors-2024-election/", "title": "The megadonors who fueled Trump and the Republican Party — CBS News" }
-            ]
+              { "url": "https://www.cbsnews.com/news/trump-megadonors-2024-election/", "title": "The megadonors who fueled Trump and the Republican Party — CBS News" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00571703&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to Senate Leadership Fund, 2024 cycle" }
+            ],
+            "amount_usd": 30000000,
+            "fec_usd": 30000000,
+            "fec_ids": ["C00571703"]
           },
           {
             "name": "Dave McCormick (Pennsylvania Senate)",
@@ -287,6 +452,829 @@
             "amount_usd": 5000000,
             "sources": [
               { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" }
+            ]
+          },
+          {
+            "name": "Keystone Renewal PAC",
+            "kind": "super-pac",
+            "amount_usd": 16000000,
+            "fec_usd": 16000000,
+            "fec_ids": ["C00849489"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00849489&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to Keystone Renewal PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Maryland's Future",
+            "kind": "super-pac",
+            "amount_usd": 10000000,
+            "fec_usd": 10000000,
+            "fec_ids": ["C00870030"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00870030&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to Maryland's Future, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "American Patriots PAC",
+            "kind": "super-pac",
+            "amount_usd": 6000000,
+            "fec_usd": 6000000,
+            "fec_ids": ["C00668905"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00668905&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to American Patriots PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "More Jobs, Less Government",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00693838"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00693838&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to More Jobs, Less Government, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Sfa Fund, Inc",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00828061"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00828061&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to Sfa Fund, Inc, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "The Sentinel Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00811166"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00811166&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to The Sentinel Action Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Conservatives for American Excellence Inc.",
+            "kind": "super-pac",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00835967"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00835967&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to Conservatives for American Excellence Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Fix Washington PAC",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00870592"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00870592&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to Fix Washington PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Glcf, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00853861"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00853861&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to Glcf, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Protecting Americans Project Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00785790"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00785790&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to Protecting Americans Project Action Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 9900,
+            "fec_usd": 9900,
+            "fec_ids": ["C00666396"],
+            "description": "Per FEC filings: Michael Waltz for Congress $9,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to Michael Waltz for Congress, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 74102100,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&two_year_transaction_period=2022", "title": "FEC itemized receipts: GRIFFIN, KEN, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 27005000,
+            "fec_usd": 27005000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $27,005,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00504530&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to Congressional Leadership Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 22000000,
+            "fec_usd": 22000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $22,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00571703&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to Senate Leadership Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Honor Pennsylvania, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 8800000,
+            "fec_usd": 8800000,
+            "fec_ids": ["C00798116"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00798116&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to Honor Pennsylvania, Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Strong Leaders Fund",
+            "kind": "super-pac",
+            "amount_usd": 3500000,
+            "fec_usd": 3500000,
+            "fec_ids": ["C00812685"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00812685&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to Strong Leaders Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Protecting Americans Project Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00785790"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00785790&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to Protecting Americans Project Action Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "American Patriots PAC",
+            "kind": "super-pac",
+            "amount_usd": 2250000,
+            "fec_usd": 2250000,
+            "fec_ids": ["C00668905"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00668905&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to American Patriots PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Alaskans for L.i.s.a. (Leadership in a Strong Alaska)",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00793869"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00793869&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to Alaskans for L.i.s.a. (Leadership in a Strong Alaska), 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Illinois Values PAC",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00812420"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00812420&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to Illinois Values PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Wfw Action Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00698936"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00698936&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to Wfw Action Fund, Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Take Back the House 2022",
+            "kind": "pac",
+            "amount_usd": 775400,
+            "fec_usd": 775400,
+            "fec_ids": ["C00766782"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00766782&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to Take Back the House 2022, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Rick Scott Victory Fund",
+            "kind": "pac",
+            "amount_usd": 526800,
+            "fec_usd": 526800,
+            "fec_ids": ["C00676957"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00676957&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to Rick Scott Victory Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 511000,
+            "fec_usd": 511000,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00027466&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to NRSC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Mehmet Oz",
+            "slug": "mehmet-oz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 8700,
+            "fec_usd": 8700,
+            "fec_ids": ["C00795930"],
+            "description": "Per FEC filings: Doctor Oz for Senate $8,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00795930&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to Doctor Oz for Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00666396"],
+            "description": "Per FEC filings: Michael Waltz for Congress $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00666396&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to Michael Waltz for Congress, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Eric Schmitt",
+            "slug": "eric-schmitt",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00775015"],
+            "description": "Per FEC filings: Schmitt for Senate $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00775015&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to Schmitt for Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00783142"],
+            "description": "Per FEC filings: JD Vance for Senate Inc. $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to JD Vance for Senate Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Markwayne Mullin",
+            "slug": "markwayne-mullin",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00498345"],
+            "description": "Per FEC filings: Mullin for America $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00498345&two_year_transaction_period=2022", "title": "FEC receipts: GRIFFIN, KEN to Mullin for America, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 68358234,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&two_year_transaction_period=2020", "title": "FEC itemized receipts: GRIFFIN, KEN, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 37000000,
+            "fec_usd": 37000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $37,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00571703&two_year_transaction_period=2020", "title": "FEC receipts: GRIFFIN, KEN to Senate Leadership Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10000000,
+            "fec_usd": 10000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $10,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00504530&two_year_transaction_period=2020", "title": "FEC receipts: GRIFFIN, KEN to Congressional Leadership Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "National Victory Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 8000000,
+            "fec_usd": 8000000,
+            "fec_ids": ["C00760124"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00760124&two_year_transaction_period=2020", "title": "FEC receipts: GRIFFIN, KEN to National Victory Action Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Better Future Mi Fund",
+            "kind": "super-pac",
+            "amount_usd": 4000000,
+            "fec_usd": 4000000,
+            "fec_ids": ["C00725317"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00725317&two_year_transaction_period=2020", "title": "FEC receipts: GRIFFIN, KEN to Better Future Mi Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Georgia United Victory",
+            "kind": "super-pac",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00750323"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00750323&two_year_transaction_period=2020", "title": "FEC receipts: GRIFFIN, KEN to Georgia United Victory, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "1820 PAC",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00698126"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00698126&two_year_transaction_period=2020", "title": "FEC receipts: GRIFFIN, KEN to 1820 PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Georgia Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00693606"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00693606&two_year_transaction_period=2020", "title": "FEC receipts: GRIFFIN, KEN to Georgia Action Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Esafund",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00489856"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00489856&two_year_transaction_period=2020", "title": "FEC receipts: GRIFFIN, KEN to Esafund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Priorities for Iowa Political Fund",
+            "kind": "super-pac",
+            "amount_usd": 750000,
+            "fec_usd": 750000,
+            "fec_ids": ["C00568170"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00568170&two_year_transaction_period=2020", "title": "FEC receipts: GRIFFIN, KEN to Priorities for Iowa Political Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Take Back the House 2020",
+            "kind": "pac",
+            "amount_usd": 596600,
+            "fec_usd": 596600,
+            "fec_ids": ["C00695585"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00695585&two_year_transaction_period=2020", "title": "FEC receipts: GRIFFIN, KEN to Take Back the House 2020, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 499800,
+            "fec_usd": 499800,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00027466&two_year_transaction_period=2020", "title": "FEC receipts: GRIFFIN, KEN to NRSC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Defend the Senate",
+            "kind": "pac",
+            "amount_usd": 287700,
+            "fec_usd": 287700,
+            "fec_ids": ["C00695353"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00695353&two_year_transaction_period=2020", "title": "FEC receipts: GRIFFIN, KEN to Defend the Senate, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5600,
+            "fec_usd": 5600,
+            "fec_ids": ["C00666396"],
+            "description": "Per FEC filings: Michael Waltz for Congress $5,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00666396&two_year_transaction_period=2020", "title": "FEC receipts: GRIFFIN, KEN to Michael Waltz for Congress, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Byron Donalds",
+            "slug": "byron-donalds",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00733329"],
+            "description": "Per FEC filings: Byron Donalds for Congress $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00733329&two_year_transaction_period=2020", "title": "FEC receipts: GRIFFIN, KEN to Byron Donalds for Congress, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 19545705,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&two_year_transaction_period=2018", "title": "FEC itemized receipts: GRIFFIN, KEN, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "New Republican PAC",
+            "kind": "super-pac",
+            "amount_usd": 10000000,
+            "fec_usd": 10000000,
+            "fec_ids": ["C00544544"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00544544&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to New Republican PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 4500000,
+            "fec_usd": 4500000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $4,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00504530&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to Congressional Leadership Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Defendarizona",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00668301"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00668301&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to Defendarizona, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Future45",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00574533"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00574533&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to Future45, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Esafund",
+            "kind": "super-pac",
+            "amount_usd": 400000,
+            "fec_usd": 400000,
+            "fec_ids": ["C00489856"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00489856&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to Esafund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 283400,
+            "fec_usd": 283400,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00003418&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to Republican National Committee, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "American Patriots PAC",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00668905"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00668905&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to American Patriots PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Missouri Rising Action",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00652875"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00652875&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to Missouri Rising Action, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Team Ryan",
+            "kind": "pac",
+            "amount_usd": 247700,
+            "fec_usd": 247700,
+            "fec_ids": ["C00545947"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00545947&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to Team Ryan, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 237300,
+            "fec_usd": 237300,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00027466&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to NRSC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 67800,
+            "fec_usd": 67800,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00075820&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to NRCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00666396"],
+            "description": "Per FEC filings: Michael Waltz for Congress $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00666396&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to Michael Waltz for Congress, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Sean Duffy",
+            "slug": "sean-duffy",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00464339"],
+            "description": "Per FEC filings: Duffy for Wisconsin $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00464339&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to Duffy for Wisconsin, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Josh Hawley",
+            "slug": "josh-hawley",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00652727"],
+            "description": "Per FEC filings: Josh Hawley for Senate $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00652727&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to Josh Hawley for Senate, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 14132250,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&two_year_transaction_period=2016", "title": "FEC itemized receipts: GRIFFIN, KEN, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Conservative Solutions PAC",
+            "kind": "super-pac",
+            "amount_usd": 5100000,
+            "fec_usd": 5100000,
+            "fec_ids": ["C00541292"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00541292&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Conservative Solutions PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 2100000,
+            "fec_usd": 2100000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $2,100,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00571703&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Senate Leadership Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Freedom Partners Action Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00564765"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00564765&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Freedom Partners Action Fund, Inc., 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $1,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00504530&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Congressional Leadership Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 658000,
+            "fec_usd": 658000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00003418&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Republican National Committee, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Esafund",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00489856"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00489856&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Esafund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Team Ryan",
+            "kind": "pac",
+            "amount_usd": 483000,
+            "fec_usd": 483000,
+            "fec_ids": ["C00545947"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00545947&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Team Ryan, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 434200,
+            "fec_usd": 434200,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00027466&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to NRSC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Independent Voice for Illinois PAC",
+            "kind": "super-pac",
+            "amount_usd": 350000,
+            "fec_usd": 350000,
+            "fec_ids": ["C00572743"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00572743&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Independent Voice for Illinois PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 267200,
+            "fec_usd": 267200,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00075820&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to NRCC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Future45",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00574533"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00574533&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Future45, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Fighting for Ohio Fund",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00573014"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00573014&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Fighting for Ohio Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 10800,
+            "fec_usd": 10800,
+            "fec_ids": ["C00458844", "C00620518"],
+            "description": "Per FEC filings: Marco Rubio for Senate 2016 $8,100; Marco Rubio for President $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00620518&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Marco Rubio for Senate 2016, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00458844&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Marco Rubio for President, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Ron DeSantis",
+            "slug": "ron-desantis",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 8100,
+            "fec_usd": 8100,
+            "fec_ids": ["C00511568"],
+            "description": "Per FEC filings: Ron Desantis for Florida $8,100.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00511568&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Ron Desantis for Florida, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Sean Duffy",
+            "slug": "sean-duffy",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00464339"],
+            "description": "Per FEC filings: Duffy for Wisconsin $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00464339&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Duffy for Wisconsin, 2016 cycle" }
             ]
           }
         ]

@@ -95,6 +95,57 @@
         { "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house", "title": "House Democratic Leader Hakeem Jeffries declares “America is back” — NPR" },
         { "url": "https://rollcall.com/2026/11/04/will-be-reelected-as-majority-leader-schumer-says/", "title": "‘I’ll be reelected as majority leader,’ Schumer says — Roll Call" }
       ]
+    },
+    {
+      "name": "Brian Schimpf",
+      "slug": "brian-schimpf",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,500 from Brian Schimpf to Jeffries for Congress in the 2026 cycle.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00503052&two_year_transaction_period=2026", "title": "FEC receipts: SCHIMPF, BRIAN to Jeffries for Congress" }
+      ]
+    },
+    {
+      "name": "Chris Larsen",
+      "slug": "chris-larsen",
+      "relationship_type": "donor",
+      "description": "FEC filings show $16,600 from Chris Larsen to Jobs, Education, & Families First  Jeff PAC, Jeffries for Congress in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00617803&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Jobs, Education, & Families First  Jeff PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00503052&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Jeffries for Congress" }
+      ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "donor",
+      "description": "FEC filings show $14,400 from George Soros to Jeffries for Congress, Jobs, Education, & Families First  Jeff PAC in 2 cycles (2020–2024).",
+      "start_year": 2019,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00503052&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Jeffries for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00617803&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Jobs, Education, & Families First  Jeff PAC" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $18,600 from Reid Hoffman to Jeffries for Congress, Jobs, Education, & Families First  Jeff PAC in 2 cycles (2024–2026).",
+      "start_year": 2023,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00503052&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jeffries for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00617803&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jobs, Education, & Families First  Jeff PAC" }
+      ]
     }
   ],
   "office": {

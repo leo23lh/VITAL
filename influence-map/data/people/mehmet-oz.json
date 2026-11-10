@@ -73,6 +73,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Mehmet_Oz", "title": "Mehmet Oz — Wikipedia" }
       ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $14,500 from Stephen Schwarzman to Doctor Oz for Senate in the 2022 cycle.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00795930&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Doctor Oz for Senate" }
+      ]
     }
   ],
   "office": {

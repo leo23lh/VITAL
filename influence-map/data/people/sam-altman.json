@@ -351,6 +351,18 @@
         { "url": "https://www.aljazeera.com/news/2025/1/22/trump-announces-500bn-stargate-venture-to-build-up-ai-infrastucture", "title": "Trump announces $500bn 'Stargate' venture to build up AI infrastructure — Al Jazeera" },
         { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
       ]
+    },
+    {
+      "name": "Senate Majority PAC",
+      "slug": "senate-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $600,000 from Sam Altman to SMP in 3 cycles (2018–2022).",
+      "start_year": 2018,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00484642&two_year_transaction_period=2022", "title": "FEC receipts: ALTMAN, SAM to SMP" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -382,5 +394,218 @@
         { "url": "https://thehill.com/homenews/administration/6110866-trump-xi-white-house-dinner/", "title": "President Trump hosts tech giants, political figures at White House state dinner with Xi Jinping — The Hill" }
       ]
     }
-  ]
+  ],
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 38300,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&two_year_transaction_period=2026", "title": "FEC itemized receipts: ALTMAN, SAM, 2026 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 338578,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&two_year_transaction_period=2024", "title": "FEC itemized receipts: ALTMAN, SAM, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Harris Victory Fund",
+            "kind": "pac",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: ALTMAN, SAM to Harris Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 41300,
+            "fec_usd": 41300,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00010603&two_year_transaction_period=2024", "title": "FEC receipts: ALTMAN, SAM to DNC Services Corp / Democratic National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 3300,
+            "fec_usd": 3300,
+            "fec_ids": ["C00492785"],
+            "description": "Per FEC filings: Ted Cruz for Senate $3,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: ALTMAN, SAM to Ted Cruz for Senate, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 449000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&two_year_transaction_period=2022", "title": "FEC itemized receipts: ALTMAN, SAM, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 310000,
+            "fec_usd": 310000,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00010603&two_year_transaction_period=2022", "title": "FEC receipts: ALTMAN, SAM to DNC Services Corp / Democratic National Committee, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $100,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00484642&two_year_transaction_period=2022", "title": "FEC receipts: ALTMAN, SAM to SMP, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 840137,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&two_year_transaction_period=2020", "title": "FEC itemized receipts: ALTMAN, SAM, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $250,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00484642&two_year_transaction_period=2020", "title": "FEC receipts: ALTMAN, SAM to SMP, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Ab PAC",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00492140"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00492140&two_year_transaction_period=2020", "title": "FEC receipts: ALTMAN, SAM to Ab PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Tech for Campaigns",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00636027"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00636027&two_year_transaction_period=2020", "title": "FEC receipts: ALTMAN, SAM to Tech for Campaigns, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Biden Victory Fund",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00744946&two_year_transaction_period=2020", "title": "FEC receipts: ALTMAN, SAM to Biden Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 35500,
+            "fec_usd": 35500,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00010603&two_year_transaction_period=2020", "title": "FEC receipts: ALTMAN, SAM to DNC Services Corp / Democratic National Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Kamala Harris",
+            "slug": "kamala-harris",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 5600,
+            "fec_usd": 5600,
+            "fec_ids": ["C00694455"],
+            "description": "Per FEC filings: Kamala Harris for the People $5,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00694455&two_year_transaction_period=2020", "title": "FEC receipts: ALTMAN, SAM to Kamala Harris for the People, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Pete Buttigieg",
+            "slug": "pete-buttigieg",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00697441"],
+            "description": "Per FEC filings: Win the Era PAC $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00697441&two_year_transaction_period=2020", "title": "FEC receipts: ALTMAN, SAM to Win the Era PAC, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 337550,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&two_year_transaction_period=2018", "title": "FEC itemized receipts: ALTMAN, SAM, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $250,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00484642&two_year_transaction_period=2018", "title": "FEC receipts: ALTMAN, SAM to SMP, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 7700,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&two_year_transaction_period=2016", "title": "FEC itemized receipts: ALTMAN, SAM, 2016 cycle" }
+        ],
+        "recipients": []
+      }
+    ]
+  }
 }

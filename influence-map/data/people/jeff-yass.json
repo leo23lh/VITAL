@@ -111,14 +111,16 @@
       "name": "Rand Paul",
       "slug": "rand-paul",
       "relationship_type": "funded_by",
-      "description": "Yass put about $2.25–2.3 million of his own money into three super PACs backing Paul's 2016 presidential run.",
+      "description": "Yass put about $2.25–2.3 million of his own money into three super PACs backing Paul's 2016 presidential run. FEC filings show $20,600 from Jeff Yass to Reinventing a New Direction Political Action Committee, Rand Paul for US Senate in 2 cycles (2018–2020).",
       "start_year": 2015,
-      "end_year": 2016,
+      "end_year": 2020,
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
         { "url": "https://whyy.org/articles/susquehanna-groups-yass-donates-23-million-to-support-rand-paul-campaign", "title": "Susquehanna Group's Yass donates $2.3 million to support Rand Paul campaign — WHYY" },
-        { "url": "https://www.phillymag.com/news/2015/08/04/rand-paul-jeff-yass/", "title": "Rand Paul has a (very) rich friend in Philadelphia — Philadelphia Magazine" }
+        { "url": "https://www.phillymag.com/news/2015/08/04/rand-paul-jeff-yass/", "title": "Rand Paul has a (very) rich friend in Philadelphia — Philadelphia Magazine" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00493924&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Reinventing a New Direction Political Action Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00496075&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Rand Paul for US Senate" }
       ]
     },
     {
@@ -150,38 +152,80 @@
       "name": "Thomas Massie",
       "slug": "thomas-massie",
       "relationship_type": "funded_by",
-      "description": "Yass backed Massie in his 2026 primary as Trump worked to defeat him; Massie lost in May 2026.",
-      "start_year": 2026,
+      "description": "Yass backed Massie in his 2026 primary as Trump worked to defeat him; Massie lost in May 2026. FEC filings show $33,000 from Jeff Yass to Making a Sensible Shift in Elections PAC, Thomas Massie for Congress in 3 cycles (2020–2024).",
+      "start_year": 2020,
       "end_year": 2026,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://nkytribune.com/?p=479890", "title": "Thomas Massie, facing opposition from Trump, gets a hand from billionaire megadonor Jeff Yass — NKyTribune" }
+        { "url": "https://nkytribune.com/?p=479890", "title": "Thomas Massie, facing opposition from Trump, gets a hand from billionaire megadonor Jeff Yass — NKyTribune" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00563429&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Making a Sensible Shift in Elections PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00509729&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Thomas Massie for Congress" }
       ]
     },
     {
       "name": "MAGA Inc.",
       "slug": "maga-inc",
       "relationship_type": "funded_by",
-      "description": "Gave $16 million in the first half of 2025 ($1 million on January 17 and $15 million on March 6), its top donor that period, per FEC filings.",
+      "description": "Gave $16 million in the first half of 2025 ($1 million on January 17 and $15 million on March 6), its top donor that period, per FEC filings. FEC filings show $16,000,000 from Jeff Yass to MAGA Inc. in the 2026 cycle.",
       "start_year": 2025,
       "end_year": 2025,
       "confidence": 0.85,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
         { "url": "https://www.nbcnews.com/politics/trump-administration/trumps-super-pac-raises-massive-177-million-bolstering-political-influ-rcna222400", "title": "Trump's super PAC raises a massive $177 million — NBC News" },
-        { "url": "https://readsludge.com/2025/08/01/tiktok-billionaire-donates-millions-to-trump-as-he-repeatedly-delays-ban/", "title": "TikTok billionaire donates millions to Trump as he repeatedly delays ban — Sludge" }
+        { "url": "https://readsludge.com/2025/08/01/tiktok-billionaire-donates-millions-to-trump-as-he-repeatedly-delays-ban/", "title": "TikTok billionaire donates millions to Trump as he repeatedly delays ban — Sludge" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to MAGA Inc." }
       ]
     },
     {
       "name": "Senate Leadership Fund",
       "slug": "senate-leadership-fund",
       "relationship_type": "funded_by",
-      "description": "Gave $1 million in 2023–24.",
-      "start_year": 2024,
+      "description": "Gave $1 million in 2023–24. FEC filings show $1,200,000 from Jeff Yass to Senate Leadership Fund in 2 cycles (2018–2024).",
+      "start_year": 2018,
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00571703&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Senate Leadership Fund" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $15,800 from Jeff Yass to Ted Cruz Victory Committee, Ted Cruz for Senate in the 2018 cycle.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00542423&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00492785&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $12,000,000 from Jeff Yass to CLF in 2 cycles (2024–2026).",
+      "start_year": 2023,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to CLF" }
+      ]
+    },
+    {
+      "name": "Mike Waltz",
+      "slug": "mike-waltz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $11,600 from Jeff Yass to Warrior Diplomat PAC, Michael Waltz for Congress in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00693671&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Warrior Diplomat PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Michael Waltz for Congress" }
       ]
     }
   ],
@@ -210,7 +254,8 @@
         "sources": [
           { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
           { "url": "https://www.aljazeera.com/news/2026/10/27/tracking-the-money-the-biggest-donors-in-the-2026-us-midterm-elections", "title": "Tracking the money: The biggest donors in the 2026 US midterm elections — Al Jazeera" },
-          { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" }
+          { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&two_year_transaction_period=2026", "title": "FEC itemized receipts: YASS, JEFF, 2026 cycle" }
         ],
         "recipients": [
           {
@@ -233,8 +278,11 @@
             "amount_usd": 16000000,
             "description": "The largest gift to the pro-Trump super PAC in the first half of 2025.",
             "sources": [
-              { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
-            ]
+              { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to MAGA Inc., 2026 cycle" }
+            ],
+            "fec_usd": 16000000,
+            "fec_ids": ["C00892471"]
           },
           {
             "name": "Club for Growth Action",
@@ -242,8 +290,11 @@
             "side": "R",
             "amount_usd": 15000000,
             "sources": [
-              { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
-            ]
+              { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00487470&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to Club for Growth Action, 2026 cycle" }
+            ],
+            "fec_usd": 16500000,
+            "fec_ids": ["C00487470"]
           },
           {
             "name": "Students First PAC (Pennsylvania legislature)",
@@ -252,6 +303,109 @@
             "description": "Yass-funded school-choice PAC; it spent $23.5M in 2026, including $2.5M to state Senate leader Kim Ward.",
             "sources": [
               { "url": "https://www.spotlightpa.org/news/2026/11/pennsylvania-legislature-election-spending-dark-money-jeff-yass-pac-for-americas-future-elections/", "title": "Dark money, billionaire cash flows into PA legislative races — Spotlight PA" }
+            ]
+          },
+          {
+            "name": "V-PAC: Victors, Not Victims",
+            "kind": "super-pac",
+            "amount_usd": 20000000,
+            "fec_usd": 20000000,
+            "fec_ids": ["C00892919"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00892919&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to V-PAC: Victors, Not Victims, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "School Freedom Fund",
+            "kind": "super-pac",
+            "amount_usd": 17500000,
+            "fec_usd": 17500000,
+            "fec_ids": ["C00794396"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00794396&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to School Freedom Fund, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Protect Freedom Political Action Committee",
+            "kind": "super-pac",
+            "amount_usd": 12500000,
+            "fec_usd": 12500000,
+            "fec_ids": ["C00657866"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00657866&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to Protect Freedom Political Action Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Win It Back PAC",
+            "kind": "super-pac",
+            "amount_usd": 4500000,
+            "fec_usd": 4500000,
+            "fec_ids": ["C00844613"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00844613&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to Win It Back PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Afc Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 4000000,
+            "fec_usd": 4000000,
+            "fec_ids": ["C00846683"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00846683&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to Afc Victory Fund, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: CLF $2,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to CLF, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Alabama Freedom Fund",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00930438"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00930438&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to Alabama Freedom Fund, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Great Opportunity PAC, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00862094"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00862094&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to Great Opportunity PAC, Inc., 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Truth and Courage PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00796045"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00796045&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to Truth and Courage PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Aurora Action Network",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00907584"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00907584&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to Aurora Action Network, 2026 cycle" }
             ]
           }
         ]
@@ -263,7 +417,8 @@
         "ranking": "OpenSecrets 2024 top donors (via Newser), with Janine Yass",
         "sources": [
           { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
-          { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+          { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&two_year_transaction_period=2024", "title": "FEC itemized receipts: YASS, JEFF, 2024 cycle" }
         ],
         "recipients": [
           {
@@ -284,6 +439,687 @@
             "description": "Backed Democratic incumbents against progressive primary challengers.",
             "sources": [
               { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
+            ]
+          },
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 35000000,
+            "fec_usd": 35000000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00487470&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Club for Growth Action, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Protect Freedom Political Action Committee",
+            "kind": "super-pac",
+            "amount_usd": 19000000,
+            "fec_usd": 19000000,
+            "fec_ids": ["C00657866"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00657866&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Protect Freedom Political Action Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "School Freedom Fund",
+            "kind": "super-pac",
+            "amount_usd": 11000000,
+            "fec_usd": 11000000,
+            "fec_ids": ["C00794396"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00794396&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to School Freedom Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10000000,
+            "fec_usd": 10000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $10,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00504530&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Congressional Leadership Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Afc Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 8700000,
+            "fec_usd": 8700000,
+            "fec_ids": ["C00846683"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00846683&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Afc Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "American Exceptionalism PAC",
+            "kind": "super-pac",
+            "amount_usd": 4868281,
+            "fec_usd": 4868281,
+            "fec_ids": ["C00833749"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00833749&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to American Exceptionalism PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Win Pa",
+            "kind": "super-pac",
+            "amount_usd": 4000000,
+            "fec_usd": 4000000,
+            "fec_ids": ["C00836775"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00836775&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Win Pa, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Keystone Renewal PAC",
+            "kind": "super-pac",
+            "amount_usd": 3250000,
+            "fec_usd": 3250000,
+            "fec_ids": ["C00849489"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00849489&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Keystone Renewal PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Buckeye Values PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00834630"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00834630&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Buckeye Values PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $1,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00571703&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Senate Leadership Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC Victory",
+            "kind": "pac",
+            "amount_usd": 650700,
+            "fec_usd": 650700,
+            "fec_ids": ["C00837518"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00837518&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to NRSC Victory, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Opportunity Matters Fund Action",
+            "kind": "super-pac",
+            "amount_usd": 600000,
+            "fec_usd": 600000,
+            "fec_ids": ["C00825158"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00825158&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Opportunity Matters Fund Action, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Thomas Massie",
+            "slug": "thomas-massie",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 11600,
+            "fec_usd": 11600,
+            "fec_ids": ["C00509729", "C00563429"],
+            "description": "Per FEC filings: Thomas Massie for Congress $6,600; Making a Sensible Shift in Elections PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00509729&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Thomas Massie for Congress, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00563429&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Making a Sensible Shift in Elections PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 11600,
+            "fec_usd": 11600,
+            "fec_ids": ["C00666396", "C00693671"],
+            "description": "Per FEC filings: Michael Waltz for Congress $6,600; Warrior Diplomat PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Michael Waltz for Congress, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00693671&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Warrior Diplomat PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00608695&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Mike Johnson for Louisiana, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 55312900,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&two_year_transaction_period=2022", "title": "FEC itemized receipts: YASS, JEFF, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 20000000,
+            "fec_usd": 20000000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00487470&two_year_transaction_period=2022", "title": "FEC receipts: YASS, JEFF to Club for Growth Action, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "School Freedom Fund",
+            "kind": "super-pac",
+            "amount_usd": 15000000,
+            "fec_usd": 15000000,
+            "fec_ids": ["C00794396"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00794396&two_year_transaction_period=2022", "title": "FEC receipts: YASS, JEFF to School Freedom Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Kentucky Freedom PAC",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00772020"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00772020&two_year_transaction_period=2022", "title": "FEC receipts: YASS, JEFF to Kentucky Freedom PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Crypto Freedom PAC",
+            "kind": "super-pac",
+            "amount_usd": 4941400,
+            "fec_usd": 4941400,
+            "fec_ids": ["C00816892"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00816892&two_year_transaction_period=2022", "title": "FEC receipts: YASS, JEFF to Crypto Freedom PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Protect Freedom Political Action Committee",
+            "kind": "super-pac",
+            "amount_usd": 4500000,
+            "fec_usd": 4500000,
+            "fec_ids": ["C00657866"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00657866&two_year_transaction_period=2022", "title": "FEC receipts: YASS, JEFF to Protect Freedom Political Action Committee, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "American Leadership Action",
+            "kind": "super-pac",
+            "amount_usd": 3500000,
+            "fec_usd": 3500000,
+            "fec_ids": ["C00794891"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00794891&two_year_transaction_period=2022", "title": "FEC receipts: YASS, JEFF to American Leadership Action, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Term Limits Action",
+            "kind": "super-pac",
+            "amount_usd": 1250000,
+            "fec_usd": 1250000,
+            "fec_ids": ["C00688580"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00688580&two_year_transaction_period=2022", "title": "FEC receipts: YASS, JEFF to Term Limits Action, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Truth and Courage PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00796045"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00796045&two_year_transaction_period=2022", "title": "FEC receipts: YASS, JEFF to Truth and Courage PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Back to School USA",
+            "kind": "super-pac",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00817908"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00817908&two_year_transaction_period=2022", "title": "FEC receipts: YASS, JEFF to Back to School USA, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Lv Strong",
+            "kind": "super-pac",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00743377"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00743377&two_year_transaction_period=2022", "title": "FEC receipts: YASS, JEFF to Lv Strong, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Thomas Massie",
+            "slug": "thomas-massie",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 10800,
+            "fec_usd": 10800,
+            "fec_ids": ["C00509729", "C00563429"],
+            "description": "Per FEC filings: Thomas Massie for Congress $5,800; Making a Sensible Shift in Elections (Massie PAC) $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00509729&two_year_transaction_period=2022", "title": "FEC receipts: YASS, JEFF to Thomas Massie for Congress, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00563429&two_year_transaction_period=2022", "title": "FEC receipts: YASS, JEFF to Making a Sensible Shift in Elections (Massie PAC), 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 31135200,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&two_year_transaction_period=2020", "title": "FEC itemized receipts: YASS, JEFF, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 21700000,
+            "fec_usd": 21700000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00487470&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Club for Growth Action, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Protect Freedom Political Action Committee",
+            "kind": "super-pac",
+            "amount_usd": 8598000,
+            "fec_usd": 8598000,
+            "fec_ids": ["C00657866"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00657866&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Protect Freedom Political Action Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Term Limits Superpac",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00688580"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00688580&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Term Limits Superpac, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Security Is Strength PAC",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00573733"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00573733&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Security Is Strength PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Opportunity Matters Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 30000,
+            "fec_usd": 30000,
+            "fec_ids": ["C00750182"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00750182&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Opportunity Matters Fund, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Club for Growth PAC",
+            "kind": "pac",
+            "amount_usd": 27400,
+            "fec_usd": 27400,
+            "fec_ids": ["C00432260"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00432260&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Club for Growth PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Rand Paul",
+            "slug": "rand-paul",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 15600,
+            "fec_usd": 15600,
+            "fec_ids": ["C00493924", "C00496075"],
+            "description": "Per FEC filings: Reinventing a New Direction Political Action Committee $10,000; Rand Paul for US Senate $5,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00493924&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Reinventing a New Direction Political Action Committee, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00496075&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Rand Paul for US Senate, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Thomas Massie",
+            "slug": "thomas-massie",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 10600,
+            "fec_usd": 10600,
+            "fec_ids": ["C00509729", "C00563429"],
+            "description": "Per FEC filings: Thomas Massie for Congress $5,600; Making a Sensible Shift in Elections (Massie PAC) $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00509729&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Thomas Massie for Congress, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00563429&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Making a Sensible Shift in Elections (Massie PAC), 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Byron Donalds",
+            "slug": "byron-donalds",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00733329"],
+            "description": "Per FEC filings: Byron Donalds for Congress $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00733329&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Byron Donalds for Congress, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 7667267,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&two_year_transaction_period=2018", "title": "FEC itemized receipts: YASS, JEFF, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 3805000,
+            "fec_usd": 3805000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00487470&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Club for Growth Action, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Protect Freedom Political Action Committee Inc",
+            "kind": "super-pac",
+            "amount_usd": 1800000,
+            "fec_usd": 1800000,
+            "fec_ids": ["C00657866"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00657866&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Protect Freedom Political Action Committee Inc, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "America's Liberty PAC",
+            "kind": "super-pac",
+            "amount_usd": 440000,
+            "fec_usd": 440000,
+            "fec_ids": ["C00532572"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00532572&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to America's Liberty PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Term Limits Superpac",
+            "kind": "super-pac",
+            "amount_usd": 310000,
+            "fec_usd": 310000,
+            "fec_ids": ["C00688580"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00688580&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Term Limits Superpac, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Purple PAC Inc",
+            "kind": "super-pac",
+            "amount_usd": 300000,
+            "fec_usd": 300000,
+            "fec_ids": ["C00544569"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00544569&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Purple PAC Inc, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Maine Liberty PAC",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00668038"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00668038&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Maine Liberty PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Cfg Action Montana",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00669242"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00669242&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Cfg Action Montana, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $200,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00571703&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Senate Leadership Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00003418&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Republican National Committee, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Team Ryan",
+            "kind": "pac",
+            "amount_usd": 33333,
+            "fec_usd": 33333,
+            "fec_ids": ["C00545947"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00545947&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Team Ryan, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00075820&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to NRCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 15800,
+            "fec_usd": 15800,
+            "fec_ids": ["C00492785", "C00542423"],
+            "description": "Per FEC filings: Ted Cruz Victory Committee $10,400; Ted Cruz for Senate $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00542423&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Ted Cruz Victory Committee, 2018 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00492785&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Ted Cruz for Senate, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Rand Paul",
+            "slug": "rand-paul",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 5000,
+            "fec_usd": 5000,
+            "fec_ids": ["C00493924"],
+            "description": "Per FEC filings: Reinventing a New Direction Political Action Committee $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00493924&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Reinventing a New Direction Political Action Committee, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 5527333,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&two_year_transaction_period=2016", "title": "FEC itemized receipts: YASS, JEFF, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Purple PAC Inc",
+            "kind": "super-pac",
+            "amount_usd": 2250000,
+            "fec_usd": 2250000,
+            "fec_ids": ["C00544569"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00544569&two_year_transaction_period=2016", "title": "FEC receipts: YASS, JEFF to Purple PAC Inc, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "America's Liberty PAC",
+            "kind": "super-pac",
+            "amount_usd": 1650000,
+            "fec_usd": 1650000,
+            "fec_ids": ["C00532572"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00532572&two_year_transaction_period=2016", "title": "FEC receipts: YASS, JEFF to America's Liberty PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 750000,
+            "fec_usd": 750000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00487470&two_year_transaction_period=2016", "title": "FEC receipts: YASS, JEFF to Club for Growth Action, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Concerned American Voters",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00525899"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00525899&two_year_transaction_period=2016", "title": "FEC receipts: YASS, JEFF to Concerned American Voters, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Gary Johnson Victory Fund",
+            "kind": "pac",
+            "amount_usd": 122700,
+            "fec_usd": 122700,
+            "fec_ids": ["C00618140"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00618140&two_year_transaction_period=2016", "title": "FEC receipts: YASS, JEFF to Gary Johnson Victory Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Alternativepac",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00618843"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00618843&two_year_transaction_period=2016", "title": "FEC receipts: YASS, JEFF to Alternativepac, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Kentuckians for Strong Leadership",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00543256"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00543256&two_year_transaction_period=2016", "title": "FEC receipts: YASS, JEFF to Kentuckians for Strong Leadership, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Prosperity for Pennsylvania Inc",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00565689"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00565689&two_year_transaction_period=2016", "title": "FEC receipts: YASS, JEFF to Prosperity for Pennsylvania Inc, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Friends of Mike Lee Inc",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 27000,
+            "fec_usd": 27000,
+            "fec_ids": ["C00473827"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00473827&two_year_transaction_period=2016", "title": "FEC receipts: YASS, JEFF to Friends of Mike Lee Inc, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Ron DeSantis",
+            "slug": "ron-desantis",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00511568"],
+            "description": "Per FEC filings: Ron Desantis for Florida $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00511568&two_year_transaction_period=2016", "title": "FEC receipts: YASS, JEFF to Ron Desantis for Florida, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00608695&two_year_transaction_period=2016", "title": "FEC receipts: YASS, JEFF to Mike Johnson for Louisiana, 2016 cycle" }
             ]
           }
         ]

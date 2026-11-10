@@ -205,6 +205,31 @@
         { "url": "https://en.wikipedia.org/wiki/David_Venturella", "title": "David Venturella — Wikipedia" },
         { "url": "https://thehill.com/homenews/administration/5835825-lyons-departure-ice-acting-head/", "title": "Todd Lyons to step down as acting ICE head, Markwayne Mullin announces — The Hill" }
       ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $19,200 from Paul Singer to Mullin for America in 2 cycles (2022–2026).",
+      "start_year": 2022,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00498345&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Mullin for America" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $12,000 from Stephen Schwarzman to Mullin for America, Boots Political Action Committee in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00498345&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Mullin for America" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00567545&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Boots Political Action Committee" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

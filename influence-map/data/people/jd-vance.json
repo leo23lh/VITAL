@@ -98,8 +98,8 @@
       "name": "Peter Thiel",
       "slug": "peter-thiel",
       "relationship_type": "donor",
-      "description": "Thiel gave $15 million to Protect Ohio Values, a super PAC backing Vance in the 2022 Ohio Senate primary, but did not fund him in the general election.",
-      "start_year": 2022,
+      "description": "Thiel gave $15 million to Protect Ohio Values, a super PAC backing Vance in the 2022 Ohio Senate primary, but did not fund him in the general election. FEC filings show $15,001,442 from Peter Thiel to Protect Ohio Values PAC (POV PAC), JD Vance for Senate Inc. in the 2022 cycle.",
+      "start_year": 2021,
       "end_year": 2022,
       "confidence": 0.95,
       "sources": [
@@ -107,7 +107,9 @@
         { "url": "https://www.cnbc.com/2022/11/12/midterm-results-peter-thiel-picks-masters-vance-see-mixed-results-in-arizona-ohio.html", "title": "Peter Thiel's picks Masters, Vance split key Senate races — CNBC" },
         { "url": "https://www.washingtontimes.com/news/2021/mar/15/jd-vance-likely-ohio-senate-run-backed-peter-thiel/", "title": "Washington Times: J.D. Vance likely Ohio Senate run backed by Peter Thiel" },
         { "url": "https://www.breitbart.com/politics/2021/03/16/peter-thiel-pours-10-million-super-pac-backing-likely-j-d-vance-senate-bid-ohio/", "title": "Breitbart: Peter Thiel pours $10 million into super PAC for likely Vance Senate bid" },
-        { "url": "https://dailycaller.com/2022/04/20/jd-vance-peter-thiel-protect-ohio-values/", "title": "Daily Caller: JD Vance super PAC receives $3.5 million from Peter Thiel" }
+        { "url": "https://dailycaller.com/2022/04/20/jd-vance-peter-thiel-protect-ohio-values/", "title": "Daily Caller: JD Vance super PAC receives $3.5 million from Peter Thiel" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Protect Ohio Values PAC (POV PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to JD Vance for Senate Inc." }
       ]
     },
     {
@@ -480,7 +482,7 @@
       "name": "Robert Mercer",
       "slug": "robert-mercer",
       "relationship_type": "donor",
-      "description": "The Mercers made a \"significant contribution\" to Protect Ohio Values, the super PAC for Vance's 2022 Senate run (Robert gave $100,000); Wikipedia reports Vance advised Rebekah Mercer on Parler.",
+      "description": "The Mercers made a \"significant contribution\" to Protect Ohio Values, the super PAC for Vance's 2022 Senate run (Robert gave $100,000); Wikipedia reports Vance advised Rebekah Mercer on Parler. FEC filings show $100,000 from Robert Mercer to Protect Ohio Values PAC (POV PAC) in the 2022 cycle.",
       "start_year": 2021,
       "end_year": 2022,
       "confidence": 0.85,
@@ -489,20 +491,24 @@
         { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" },
         { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
         { "url": "https://www.breitbart.com/politics/2021/03/16/peter-thiel-pours-10-million-super-pac-backing-likely-j-d-vance-senate-bid-ohio/", "title": "Breitbart: Mercer family makes \"significant\" gift to pro-Vance super PAC" },
-        { "url": "https://www.washingtontimes.com/news/2021/mar/15/jd-vance-likely-ohio-senate-run-backed-peter-thiel/", "title": "Washington Times: Vance super PAC backed by Thiel and the Mercer family" }
+        { "url": "https://www.washingtontimes.com/news/2021/mar/15/jd-vance-likely-ohio-senate-run-backed-peter-thiel/", "title": "Washington Times: Vance super PAC backed by Thiel and the Mercer family" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, ROBERT to Protect Ohio Values PAC (POV PAC)" }
       ]
     },
     {
       "name": "Rebekah Mercer",
       "slug": "rebekah-mercer",
       "relationship_type": "donor",
-      "description": "Gave $60,800 to two PACs backing Vance's 2022 Senate run and co-hosted a New York fundraiser for him; Vance reportedly advised her on Parler.",
+      "description": "Gave $60,800 to two PACs backing Vance's 2022 Senate run and co-hosted a New York fundraiser for him; Vance reportedly advised her on Parler. FEC filings show $60,800 from Rebekah Mercer to Protect Ohio Values PAC (POV PAC), Working for Ohio, JD Vance for Senate Inc. in the 2022 cycle.",
       "start_year": 2021,
       "end_year": 2022,
       "confidence": 0.85,
       "sources": [
         { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" },
-        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, REBEKAH to Protect Ohio Values PAC (POV PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, REBEKAH to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, REBEKAH to JD Vance for Senate Inc." }
       ]
     },
     {
@@ -663,6 +669,88 @@
       "confidence": 0.6,
       "sources": [
         { "url": "https://www.oig.dol.gov/public/Press%20Releases/Inspector%20General%20Anthony%20P.%20D'Esposito%20Joins%20President%20Trump's%20Task%20Force%20to%20Wage%20War%20on%20Fraud,%20Led%20By%20Vice%20President%20Vance%20_03272026.pdf", "title": "Inspector General D’Esposito joins President Trump’s Task Force to Wage War on Fraud, led by Vice President Vance — DOL OIG (March 27, 2026)" }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "donor",
+      "description": "FEC filings show $23,200 from Ben Horowitz to Vance Victory, Working for Ohio, JD Vance for Senate Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00817072&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Vance Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00783167&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00783142&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "Chris Buskirk",
+      "slug": "chris-buskirk",
+      "relationship_type": "donor",
+      "description": "FEC filings show $25,800 from Chris Buskirk to JD Vance for Senate Inc., Working for Ohio, Vance Victory in 2 cycles (2022–2024).",
+      "start_year": 2021,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00783142&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to JD Vance for Senate Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00783167&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00817072&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to Vance Victory" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "donor",
+      "description": "FEC filings show $1,008,700 from David Sacks to Protect Ohio Values PAC (POV PAC), Working for Ohio, JD Vance for Senate Inc. in the 2022 cycle.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Protect Ohio Values PAC (POV PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "Omeed Malik",
+      "slug": "omeed-malik",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,521 from Omeed Malik to Working for Ohio, JD Vance for Senate Inc. in the 2022 cycle.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: MALIK, OMEED to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: MALIK, OMEED to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,800 from Palmer Luckey to Working for Ohio, JD Vance for Senate Inc. in the 2022 cycle.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "Zach Witkoff",
+      "slug": "zach-witkoff",
+      "relationship_type": "donor",
+      "description": "FEC filings show $33,000 from Zach Witkoff to Vance Victory, Working for Ohio, JD Vance for Senate Inc. in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00817072&two_year_transaction_period=2024", "title": "FEC receipts: WITKOFF, ZACH to Vance Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00783167&two_year_transaction_period=2024", "title": "FEC receipts: WITKOFF, ZACH to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00783142&two_year_transaction_period=2024", "title": "FEC receipts: WITKOFF, ZACH to JD Vance for Senate Inc." }
       ]
     }
   ],

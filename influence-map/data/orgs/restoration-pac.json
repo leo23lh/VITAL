@@ -23,12 +23,13 @@
       "name": "Richard Uihlein",
       "slug": "richard-uihlein",
       "relationship_type": "donor",
-      "description": "Its main funder: more than $80 million in the 2024 cycle and more than $57 million from January 2025 to June 2026.",
-      "start_year": 2022,
+      "description": "Its main funder: more than $80 million in the 2024 cycle and more than $57 million from January 2025 to June 2026. FEC filings show $207,297,496 from Richard Uihlein to Restoration of America PAC in 6 cycles (2016–2026).",
+      "start_year": 2015,
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
-        { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" }
+        { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00571588&two_year_transaction_period=2026", "title": "FEC receipts: UIHLEIN, RICHARD to Restoration of America PAC" }
       ]
     },
     {
@@ -54,6 +55,18 @@
       "sources": [
         { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
         { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $5,050,000 from Thomas Klingenstein to Restoration PAC in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00571588&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Restoration PAC" }
       ]
     }
   ],

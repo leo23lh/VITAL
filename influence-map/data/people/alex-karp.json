@@ -206,6 +206,30 @@
         { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520230013/d904406ds1.htm", "title": "Palantir Technologies Inc. — Form S-1 (SEC, 2020)" },
         { "url": "https://www.cnbc.com/2014/06/17/disruptors-in-2014-palantir.html", "title": "Disruptors in 2014: Palantir — CNBC" }
       ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $1,000,000 from Alex Karp to MAGA Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00892471&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to MAGA Inc." }
+      ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $10,000 from Alex Karp to CLF in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to CLF" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -235,6 +259,404 @@
       { "url": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000048/pltr-20260930.htm", "title": "Palantir Technologies Form 10-Q, quarter ended September 30, 2026 — SEC" },
       { "url": "https://therevolvingdoorproject.org/billionaires-and-the-trump-admin-peter-thiel/", "title": "Billionaires and the Trump administration: Peter Thiel — Revolving Door Project (advocacy group)" },
       { "url": "https://www.bloomberg.com/news/articles/2026-04-22/spacex-tapped-for-industry-group-developing-golden-dome-software", "title": "SpaceX joins group building Pentagon’s Golden Dome defense software — Bloomberg (April 2026)" }
+    ]
+  },
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 2066430,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&two_year_transaction_period=2026", "title": "FEC itemized receipts: KARP, ALEX, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Grow the Majority",
+            "kind": "pac",
+            "amount_usd": 360000,
+            "fec_usd": 360000,
+            "fec_ids": ["C00858373"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00858373&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Grow the Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 310100,
+            "fec_usd": 310100,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00075820&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to NRCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Texans for a Conservative Majority",
+            "kind": "super-pac",
+            "amount_usd": 255000,
+            "fec_usd": 255000,
+            "fec_ids": ["C00542217"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00542217&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Texans for a Conservative Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "America One",
+            "kind": "super-pac",
+            "amount_usd": 125000,
+            "fec_usd": 125000,
+            "fec_ids": ["C00728667"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00728667&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to America One, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Louisiana Legacy PAC",
+            "kind": "super-pac",
+            "amount_usd": 125000,
+            "fec_usd": 125000,
+            "fec_ids": ["C00638528"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00638528&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Louisiana Legacy PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Last Frontier PAC",
+            "kind": "super-pac",
+            "amount_usd": 125000,
+            "fec_usd": 125000,
+            "fec_ids": ["C00875278"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00875278&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Last Frontier PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Cornyn Victory Committee",
+            "kind": "pac",
+            "amount_usd": 114015,
+            "fec_usd": 114015,
+            "fec_ids": ["C00770180"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00770180&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Cornyn Victory Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Pine Tree Results PAC",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00894709"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00894709&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Pine Tree Results PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Americans 4 Security PAC",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00733352"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00733352&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Americans 4 Security PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 88315,
+            "fec_usd": 88315,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to NRSC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10000,
+            "fec_usd": 10000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: CLF $10,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to CLF, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 7000,
+            "fec_usd": 7000,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $7,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Mike Johnson for Louisiana, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 2864140,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&two_year_transaction_period=2024", "title": "FEC itemized receipts: KARP, ALEX, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "org": "maga-inc",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00892471"],
+            "description": "Per FEC filings: MAGA Inc. $1,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00892471&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to MAGA Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Harris Victory Fund",
+            "kind": "pac",
+            "amount_usd": 360000,
+            "fec_usd": 360000,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Harris Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 141520,
+            "fec_usd": 141520,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00027466&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to NRSC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Cornyn Victory Committee",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00770180"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00770180&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Cornyn Victory Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Mission Iowa",
+            "kind": "super-pac",
+            "amount_usd": 90000,
+            "fec_usd": 90000,
+            "fec_ids": ["C00874370"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00874370&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Mission Iowa, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 86000,
+            "fec_usd": 86000,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00042366&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to DSCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 77800,
+            "fec_usd": 77800,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00000935&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to DCCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Hoosier Honor",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00774257"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00774257&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Hoosier Honor, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Nevada Senate Victory 2024",
+            "kind": "pac",
+            "amount_usd": 41300,
+            "fec_usd": 41300,
+            "fec_ids": ["C00829929"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00829929&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Nevada Senate Victory 2024, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 41300,
+            "fec_usd": 41300,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00010603&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to DNC Services Corp / Democratic National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Emmer Victory Committee Dba Republican Congressional Victory Committee",
+            "kind": "pac",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00573444"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00573444&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Emmer Victory Committee Dba Republican Congressional Victory Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00620518"],
+            "description": "Per FEC filings: Marco Rubio for Senate $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00620518&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Marco Rubio for Senate, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00409581"],
+            "description": "Per FEC filings: Friends of John Thune $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00409581&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Friends of John Thune, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 52770,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&two_year_transaction_period=2022", "title": "FEC itemized receipts: KARP, ALEX, 2022 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 123500,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&two_year_transaction_period=2020", "title": "FEC itemized receipts: KARP, ALEX, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Biden Victory Fund",
+            "kind": "pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00744946&two_year_transaction_period=2020", "title": "FEC receipts: KARP, ALEX to Biden Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 35500,
+            "fec_usd": 35500,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00010603&two_year_transaction_period=2020", "title": "FEC receipts: KARP, ALEX to DNC Services Corp / Democratic National Committee, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 46400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&two_year_transaction_period=2018", "title": "FEC itemized receipts: KARP, ALEX, 2018 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 144400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&two_year_transaction_period=2016", "title": "FEC itemized receipts: KARP, ALEX, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Hillary Victory Fund",
+            "kind": "pac",
+            "amount_usd": 32500,
+            "fec_usd": 32500,
+            "fec_ids": ["C00586537"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00586537&two_year_transaction_period=2016", "title": "FEC receipts: KARP, ALEX to Hillary Victory Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 30000,
+            "fec_usd": 30000,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00075820&two_year_transaction_period=2016", "title": "FEC receipts: KARP, ALEX to NRCC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 30000,
+            "fec_usd": 30000,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00042366&two_year_transaction_period=2016", "title": "FEC receipts: KARP, ALEX to DSCC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp./dem. Nat'l Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 29800,
+            "fec_usd": 29800,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00010603&two_year_transaction_period=2016", "title": "FEC receipts: KARP, ALEX to DNC Services Corp./dem. Nat'l Committee, 2016 cycle" }
+            ]
+          }
+        ]
+      }
     ]
   }
 }

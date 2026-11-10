@@ -97,6 +97,18 @@
       "sources": [
         { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
       ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $14,500 from Richard Uihlein to Greene for Congress in 2 cycles (2022–2024).",
+      "start_year": 2022,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00708289&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Greene for Congress" }
+      ]
     }
   ],
   "affiliations": [],

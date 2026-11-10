@@ -1,5 +1,25 @@
 [
   {
+    "id": "2026-11-10-fec-import",
+    "date": "2026-11-10",
+    "text": "Campaign finance filings imported from the FEC for 44 donors, 2016 to 2026: about 18,000 itemized gifts, matched by name and employer so namesakes are left out, with no addresses kept. Each donor's Money tab now lists who they funded cycle by cycle, with links to the filings, and gifts of $10,000 or more to someone on the map became 106 new money lines. Where filings and news reports disagree, both figures show. With four times as many past donations to test on, the 2028 backing score still holds up: 0.80 and 0.88 (0.50 is a coin flip), and about 6 in 10 pairs it rates likely went on to give.",
+    "people": [
+      "miriam-adelson",
+      "richard-uihlein",
+      "elon-musk",
+      "timothy-mellon",
+      "ken-griffin",
+      "jeff-yass",
+      "george-soros",
+      "paul-singer",
+      "peter-thiel",
+      "jd-vance",
+      "ted-cruz",
+      "marco-rubio",
+      "kari-lake"
+    ]
+  },
+  {
     "id": "2026-11-09-2028-backing",
     "date": "2026-11-09",
     "text": "New: 2028 backing (Views, and a 2028 tab on each person). It predicts who is likely to back each contender from how close they are and how well their politics fit, on top of declared camps and reported plans. On past donations it beat closeness alone (0.88 against 0.82 for the 2026 cycle), and about 6 in 10 pairs it rated likely went on to give. Today it has 219 predictions outside the camps, led by JD Vance (68), Marco Rubio (60) and Donald Trump Jr. (55); all are saved in a dated log to be checked later. People who have died (David Horowitz, Jeffrey Epstein) no longer appear in the Pull ranking.",

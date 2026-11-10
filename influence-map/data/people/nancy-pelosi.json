@@ -129,6 +129,48 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries", "title": "Hakeem Jeffries — Wikipedia" }
       ]
+    },
+    {
+      "name": "Chris Larsen",
+      "slug": "chris-larsen",
+      "relationship_type": "donor",
+      "description": "FEC filings show $305,400 from Chris Larsen to Nancy Pelosi Victory Fund, PAC to the Future, Nancy Pelosi for Congress in 2 cycles (2022–2024).",
+      "start_year": 2022,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00492421&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Nancy Pelosi Victory Fund" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00344234&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to PAC to the Future" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00213512&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Nancy Pelosi for Congress" }
+      ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "donor",
+      "description": "FEC filings show $260,600 from George Soros to Nancy Pelosi Victory Fund, PAC to the Future, Nancy Pelosi for Congress in the 2020 cycle.",
+      "start_year": 2019,
+      "end_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00492421&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Nancy Pelosi Victory Fund" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00344234&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to PAC to the Future" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00213512&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Nancy Pelosi for Congress" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $376,900 from Reid Hoffman to Nancy Pelosi Victory Fund, Nancy Pelosi for Congress, PAC to the Future in 2 cycles (2020–2022).",
+      "start_year": 2020,
+      "end_year": 2021,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00492421&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Nancy Pelosi Victory Fund" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00213512&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Nancy Pelosi for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00344234&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to PAC to the Future" }
+      ]
     }
   ],
   "affiliations": [],

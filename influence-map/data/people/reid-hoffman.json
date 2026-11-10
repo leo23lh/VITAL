@@ -252,6 +252,81 @@
         { "url": "https://www.cnbc.com/2017/08/27/linkedins-reid-hoffman-talks-going-from-investor-to-entrepreneur.html", "title": "How a master of scale climbed to the top: Reid Hoffman — CNBC" },
         { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
       ]
+    },
+    {
+      "name": "House Majority PAC",
+      "slug": "house-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $15,803,000 from Reid Hoffman to HMP in 5 cycles (2018–2026).",
+      "start_year": 2018,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00495028&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to HMP" }
+      ]
+    },
+    {
+      "name": "Senate Majority PAC",
+      "slug": "senate-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $8,550,000 from Reid Hoffman to SMP in 4 cycles (2018–2026).",
+      "start_year": 2018,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00484642&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to SMP" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $376,900 from Reid Hoffman to Nancy Pelosi Victory Fund, Nancy Pelosi for Congress, PAC to the Future in 2 cycles (2020–2022).",
+      "start_year": 2020,
+      "end_year": 2021,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00492421&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Nancy Pelosi Victory Fund" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00213512&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Nancy Pelosi for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00344234&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to PAC to the Future" }
+      ]
+    },
+    {
+      "name": "Jon Ossoff",
+      "slug": "jon-ossoff",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $10,864 from Reid Hoffman to Jon Ossoff for Senate in 2 cycles (2020–2026).",
+      "start_year": 2020,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00718866&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jon Ossoff for Senate" }
+      ]
+    },
+    {
+      "name": "Future Forward PAC",
+      "slug": "future-forward",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $10,250,000 from Reid Hoffman to FF PAC in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00669259&two_year_transaction_period=2024", "title": "FEC receipts: HOFFMAN, REID to FF PAC" }
+      ]
+    },
+    {
+      "name": "Hakeem Jeffries",
+      "slug": "hakeem-jeffries",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $18,600 from Reid Hoffman to Jeffries for Congress, Jobs, Education, & Families First  Jeff PAC in 2 cycles (2024–2026).",
+      "start_year": 2023,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00503052&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jeffries for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00617803&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jobs, Education, & Families First  Jeff PAC" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -265,5 +340,895 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 29293524,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&two_year_transaction_period=2026", "title": "FEC itemized receipts: HOFFMAN, REID, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Lone Star Rising PAC",
+            "kind": "super-pac",
+            "amount_usd": 11500000,
+            "fec_usd": 11500000,
+            "fec_ids": ["C00918268"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00918268&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Lone Star Rising PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "House Majority PAC",
+            "org": "house-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 8500000,
+            "fec_usd": 8500000,
+            "fec_ids": ["C00495028"],
+            "description": "Per FEC filings: HMP $8,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00495028&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to HMP, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $5,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00484642&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to SMP, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "New Engagement PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00851584"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00851584&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to New Engagement PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 620200,
+            "fec_usd": 620200,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00000935&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to DCCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Zinc Collective PAC",
+            "kind": "super-pac",
+            "amount_usd": 562000,
+            "fec_usd": 562000,
+            "fec_ids": ["C00679191"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00679191&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Zinc Collective PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "New Jersey Voices and Families",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00912444"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00912444&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to New Jersey Voices and Families, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Jeffries Victory Fund",
+            "kind": "pac",
+            "amount_usd": 322100,
+            "fec_usd": 322100,
+            "fec_ids": ["C00768200"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00768200&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jeffries Victory Fund, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 310000,
+            "fec_usd": 310000,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00042366&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to DSCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Wheel Dog PAC",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00944389"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00944389&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Wheel Dog PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Way Back PAC",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00824342"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00824342&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Way Back PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "One Giant Leap PAC",
+            "kind": "super-pac",
+            "amount_usd": 150000,
+            "fec_usd": 150000,
+            "fec_ids": ["C00854059"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00854059&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to One Giant Leap PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Hakeem Jeffries",
+            "slug": "hakeem-jeffries",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 12000,
+            "fec_usd": 12000,
+            "fec_ids": ["C00503052", "C00617803"],
+            "description": "Per FEC filings: Jeffries for Congress $7,000; Jobs, Education, & Families First  Jeff PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00503052&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jeffries for Congress, 2026 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00617803&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jobs, Education, & Families First  Jeff PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Jon Ossoff",
+            "slug": "jon-ossoff",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 7000,
+            "fec_usd": 7000,
+            "fec_ids": ["C00718866"],
+            "description": "Per FEC filings: Jon Ossoff for Senate $7,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00718866&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jon Ossoff for Senate, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 36907411,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&two_year_transaction_period=2024", "title": "FEC itemized receipts: HOFFMAN, REID, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Future Forward PAC",
+            "org": "future-forward",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 10250000,
+            "fec_usd": 10250000,
+            "fec_ids": ["C00669259"],
+            "description": "Per FEC filings: FF PAC $10,250,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00669259&two_year_transaction_period=2024", "title": "FEC receipts: HOFFMAN, REID to FF PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Republican Accountability PAC",
+            "kind": "super-pac",
+            "amount_usd": 6140000,
+            "fec_usd": 6140000,
+            "fec_ids": ["C00804856"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00804856&two_year_transaction_period=2024", "title": "FEC receipts: HOFFMAN, REID to Republican Accountability PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "One for All Committee",
+            "kind": "super-pac",
+            "amount_usd": 3303500,
+            "fec_usd": 3303500,
+            "fec_ids": ["C00752691"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00752691&two_year_transaction_period=2024", "title": "FEC receipts: HOFFMAN, REID to One for All Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Granite for America",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00857177"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00857177&two_year_transaction_period=2024", "title": "FEC receipts: HOFFMAN, REID to Granite for America, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Harris Victory Fund",
+            "kind": "pac",
+            "amount_usd": 1682600,
+            "fec_usd": 1682600,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: HOFFMAN, REID to Harris Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "House Majority PAC",
+            "org": "house-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 1550000,
+            "fec_usd": 1550000,
+            "fec_ids": ["C00495028"],
+            "description": "Per FEC filings: HMP $1,550,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00495028&two_year_transaction_period=2024", "title": "FEC receipts: HOFFMAN, REID to HMP, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Free and Fair PAC, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00850040"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00850040&two_year_transaction_period=2024", "title": "FEC receipts: HOFFMAN, REID to Free and Fair PAC, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Mainstream Democrats PAC",
+            "kind": "super-pac",
+            "amount_usd": 1280000,
+            "fec_usd": 1280000,
+            "fec_ids": ["C00804823"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00804823&two_year_transaction_period=2024", "title": "FEC receipts: HOFFMAN, REID to Mainstream Democrats PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ab PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00492140"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00492140&two_year_transaction_period=2024", "title": "FEC receipts: HOFFMAN, REID to Ab PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 824200,
+            "fec_usd": 824200,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00000935&two_year_transaction_period=2024", "title": "FEC receipts: HOFFMAN, REID to DCCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Paf",
+            "kind": "super-pac",
+            "amount_usd": 770000,
+            "fec_usd": 770000,
+            "fec_ids": ["C00754069"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00754069&two_year_transaction_period=2024", "title": "FEC receipts: HOFFMAN, REID to Paf, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Welcomepac",
+            "kind": "super-pac",
+            "amount_usd": 671000,
+            "fec_usd": 671000,
+            "fec_ids": ["C00786830"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00786830&two_year_transaction_period=2024", "title": "FEC receipts: HOFFMAN, REID to Welcomepac, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Hakeem Jeffries",
+            "slug": "hakeem-jeffries",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00503052"],
+            "description": "Per FEC filings: Jeffries for Congress $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00503052&two_year_transaction_period=2024", "title": "FEC receipts: HOFFMAN, REID to Jeffries for Congress, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 15216196,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&two_year_transaction_period=2022", "title": "FEC itemized receipts: HOFFMAN, REID, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Republican Accountability PAC",
+            "kind": "super-pac",
+            "amount_usd": 3350000,
+            "fec_usd": 3350000,
+            "fec_ids": ["C00804856"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00804856&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Republican Accountability PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "House Majority PAC",
+            "org": "house-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 2450000,
+            "fec_usd": 2450000,
+            "fec_ids": ["C00495028"],
+            "description": "Per FEC filings: House Majority PAC $2,450,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00495028&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to House Majority PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Democratic Grassroots Victory Fund",
+            "kind": "pac",
+            "amount_usd": 1490000,
+            "fec_usd": 1490000,
+            "fec_ids": ["C00658476"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00658476&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Democratic Grassroots Victory Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 1125000,
+            "fec_usd": 1125000,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00010603&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to DNC Services Corp / Democratic National Committee, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Center Street PAC",
+            "kind": "pac",
+            "amount_usd": 950000,
+            "fec_usd": 950000,
+            "fec_ids": ["C00790659"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00790659&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Center Street PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Straight Talk Politics PAC",
+            "kind": "super-pac",
+            "amount_usd": 750000,
+            "fec_usd": 750000,
+            "fec_ids": ["C00743682"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00743682&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Straight Talk Politics PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Mainstream Democrats PAC",
+            "kind": "super-pac",
+            "amount_usd": 600000,
+            "fec_usd": 600000,
+            "fec_ids": ["C00804823"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00804823&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Mainstream Democrats PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 550000,
+            "fec_usd": 550000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $550,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00484642&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to SMP, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Welcomepac",
+            "kind": "super-pac",
+            "amount_usd": 525000,
+            "fec_usd": 525000,
+            "fec_ids": ["C00786830"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00786830&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Welcomepac, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 511000,
+            "fec_usd": 511000,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00042366&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to DSCC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Digidems PAC",
+            "kind": "super-pac",
+            "amount_usd": 334400,
+            "fec_usd": 334400,
+            "fec_ids": ["C00679191"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00679191&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Digidems PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Nancy Pelosi",
+            "slug": "nancy-pelosi",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 271300,
+            "fec_usd": 271300,
+            "fec_ids": ["C00213512", "C00344234", "C00492421"],
+            "description": "Per FEC filings: Nancy Pelosi Victory Fund $263,400; PAC to the Future $5,000; Nancy Pelosi for Congress $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00492421&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Nancy Pelosi Victory Fund, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00344234&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to PAC to the Future, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00213512&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Nancy Pelosi for Congress, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 255500,
+            "fec_usd": 255500,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00000935&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to DCCC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Chuck Schumer",
+            "slug": "chuck-schumer",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00346312"],
+            "description": "Per FEC filings: Friends of Schumer $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00346312&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Friends of Schumer, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 10604476,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&two_year_transaction_period=2020", "title": "FEC itemized receipts: HOFFMAN, REID, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Democratic Grassroots Victory Fund",
+            "kind": "pac",
+            "amount_usd": 1676928,
+            "fec_usd": 1676928,
+            "fec_ids": ["C00658476"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00658476&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to Democratic Grassroots Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Unite the Country",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00701888"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00701888&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to Unite the Country, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Ab PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00492140"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00492140&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to Ab PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $1,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00484642&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to SMP, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "One for All Committee",
+            "kind": "super-pac",
+            "amount_usd": 924500,
+            "fec_usd": 924500,
+            "fec_ids": ["C00752691"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00752691&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to One for All Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Fair Fight",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00693515"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00693515&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to Fair Fight, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Digidems PAC",
+            "kind": "super-pac",
+            "amount_usd": 429967,
+            "fec_usd": 429967,
+            "fec_ids": ["C00679191"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00679191&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to Digidems PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 393300,
+            "fec_usd": 393300,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00010603&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to DNC Services Corp / Democratic National Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Straight Talk Politics PAC",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00743682"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00743682&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to Straight Talk Politics PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "House Majority PAC",
+            "org": "house-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00495028"],
+            "description": "Per FEC filings: House Majority PAC $250,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00495028&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to House Majority PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Black PAC",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00609388"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00609388&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to Black PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Aapi Victory Fund, Inc.",
+            "kind": "pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00589507"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00589507&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to Aapi Victory Fund, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Nancy Pelosi",
+            "slug": "nancy-pelosi",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 105600,
+            "fec_usd": 105600,
+            "fec_ids": ["C00213512", "C00492421"],
+            "description": "Per FEC filings: Nancy Pelosi Victory Fund $100,000; Nancy Pelosi for Congress $5,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00492421&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to Nancy Pelosi Victory Fund, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00213512&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to Nancy Pelosi for Congress, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Jon Ossoff",
+            "slug": "jon-ossoff",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 3864,
+            "fec_usd": 3864,
+            "fec_ids": ["C00718866"],
+            "description": "Per FEC filings: Jon Ossoff for Senate $3,864.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00718866&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to Jon Ossoff for Senate, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Kamala Harris",
+            "slug": "kamala-harris",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00694455"],
+            "description": "Per FEC filings: Kamala Harris for the People $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00694455&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to Kamala Harris for the People, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Pete Buttigieg",
+            "slug": "pete-buttigieg",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00697441"],
+            "description": "Per FEC filings: Win the Era PAC $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00697441&two_year_transaction_period=2020", "title": "FEC receipts: HOFFMAN, REID to Win the Era PAC, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 9072794,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&two_year_transaction_period=2018", "title": "FEC itemized receipts: HOFFMAN, REID, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "House Majority PAC",
+            "org": "house-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 3053000,
+            "fec_usd": 3053000,
+            "fec_ids": ["C00495028"],
+            "description": "Per FEC filings: House Majority PAC $3,053,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00495028&two_year_transaction_period=2018", "title": "FEC receipts: HOFFMAN, REID to House Majority PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $2,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00484642&two_year_transaction_period=2018", "title": "FEC receipts: HOFFMAN, REID to SMP, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Forward Majority Action",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00631556"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00631556&two_year_transaction_period=2018", "title": "FEC receipts: HOFFMAN, REID to Forward Majority Action, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "The Arena PAC",
+            "kind": "super-pac",
+            "amount_usd": 625000,
+            "fec_usd": 625000,
+            "fec_ids": ["C00634584"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00634584&two_year_transaction_period=2018", "title": "FEC receipts: HOFFMAN, REID to The Arena PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Republican Women for Progress PAC",
+            "kind": "super-pac",
+            "amount_usd": 400000,
+            "fec_usd": 400000,
+            "fec_ids": ["C00687459"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00687459&two_year_transaction_period=2018", "title": "FEC receipts: HOFFMAN, REID to Republican Women for Progress PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Common Ground",
+            "kind": "super-pac",
+            "amount_usd": 300000,
+            "fec_usd": 300000,
+            "fec_ids": ["C00690784"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00690784&two_year_transaction_period=2018", "title": "FEC receipts: HOFFMAN, REID to Common Ground, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Partnership for An Opiod-Free Appalachia",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00687897"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00687897&two_year_transaction_period=2018", "title": "FEC receipts: HOFFMAN, REID to Partnership for An Opiod-Free Appalachia, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "The People's House Project, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00639997"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00639997&two_year_transaction_period=2018", "title": "FEC receipts: HOFFMAN, REID to The People's House Project, Inc., 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Digidems Committee",
+            "kind": "pac",
+            "amount_usd": 244100,
+            "fec_usd": 244100,
+            "fec_ids": ["C00679209"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00679209&two_year_transaction_period=2018", "title": "FEC receipts: HOFFMAN, REID to Digidems Committee, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp./dem. Nat'l Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 199195,
+            "fec_usd": 199195,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00010603&two_year_transaction_period=2018", "title": "FEC receipts: HOFFMAN, REID to DNC Services Corp./dem. Nat'l Committee, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "House Victory Project",
+            "kind": "candidate",
+            "amount_usd": 105300,
+            "fec_usd": 105300,
+            "fec_ids": ["C00675488"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00675488&two_year_transaction_period=2018", "title": "FEC receipts: HOFFMAN, REID to House Victory Project, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Democratic Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00660985"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00660985&two_year_transaction_period=2018", "title": "FEC receipts: HOFFMAN, REID to Democratic Victory Fund, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 1158775,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&two_year_transaction_period=2016", "title": "FEC itemized receipts: HOFFMAN, REID, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Hillary Victory Fund",
+            "kind": "pac",
+            "amount_usd": 413400,
+            "fec_usd": 413400,
+            "fec_ids": ["C00586537"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00586537&two_year_transaction_period=2016", "title": "FEC receipts: HOFFMAN, REID to Hillary Victory Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Fifty Second Street Fund",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00626887"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00626887&two_year_transaction_period=2016", "title": "FEC receipts: HOFFMAN, REID to Fifty Second Street Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Hillary Action Fund",
+            "kind": "pac",
+            "amount_usd": 89425,
+            "fec_usd": 89425,
+            "fec_ids": ["C00619411"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00619411&two_year_transaction_period=2016", "title": "FEC receipts: HOFFMAN, REID to Hillary Action Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp./dem. Nat'l Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 33400,
+            "fec_usd": 33400,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00010603&two_year_transaction_period=2016", "title": "FEC receipts: HOFFMAN, REID to DNC Services Corp./dem. Nat'l Committee, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Kamala Harris",
+            "slug": "kamala-harris",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00571919"],
+            "description": "Per FEC filings: Kamala Harris for Senate $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00571919&two_year_transaction_period=2016", "title": "FEC receipts: HOFFMAN, REID to Kamala Harris for Senate, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Chuck Schumer",
+            "slug": "chuck-schumer",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00346312"],
+            "description": "Per FEC filings: Friends of Schumer $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00346312&two_year_transaction_period=2016", "title": "FEC receipts: HOFFMAN, REID to Friends of Schumer, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

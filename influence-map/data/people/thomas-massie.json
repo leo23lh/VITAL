@@ -98,12 +98,14 @@
       "name": "Jeff Yass",
       "slug": "jeff-yass",
       "relationship_type": "donor",
-      "description": "Yass backed Massie in his 2026 primary as Trump worked to defeat him; Massie lost in May 2026.",
-      "start_year": 2026,
+      "description": "Yass backed Massie in his 2026 primary as Trump worked to defeat him; Massie lost in May 2026. FEC filings show $33,000 from Jeff Yass to Making a Sensible Shift in Elections PAC, Thomas Massie for Congress in 3 cycles (2020–2024).",
+      "start_year": 2020,
       "end_year": 2026,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://nkytribune.com/?p=479890", "title": "Thomas Massie, facing opposition from Trump, gets a hand from billionaire megadonor Jeff Yass — NKyTribune" }
+        { "url": "https://nkytribune.com/?p=479890", "title": "Thomas Massie, facing opposition from Trump, gets a hand from billionaire megadonor Jeff Yass — NKyTribune" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00563429&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Making a Sensible Shift in Elections PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00509729&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Thomas Massie for Congress" }
       ]
     },
     {
@@ -148,6 +150,19 @@
         { "url": "https://massie.house.gov/uploadedfiles/articles_of_impeachment_sec._hegseth.pdf", "title": "Rep. Thomas Massie: Articles of impeachment against Secretary Hegseth" },
         { "url": "https://thehill.com/homenews/house/6172957-massie-hegseth-impeachment-midterms/", "title": "The Hill: Massie says he’ll move to impeach Hegseth if he’s not gone after midterms" },
         { "url": "https://www.nbcnews.com/politics/trump-administration/secretary-pete-hegseth-defiant-tone-impeachment-threat-thomas-massie-rcna607788", "title": "NBC News: Hegseth strikes defiant tone in face of impeachment threat" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "donor",
+      "description": "FEC filings show $14,900 from Marc Andreessen to Thomas Massie for Congress, Making a Sensible Shift in Elections PAC in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00509729&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Thomas Massie for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00563429&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Making a Sensible Shift in Elections PAC" }
       ]
     }
   ],

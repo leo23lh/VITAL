@@ -109,6 +109,31 @@
         { "url": "https://fortune.com/2026/05/08/anduril-brian-schimpf-term-sheet/", "title": "Anduril's Brian Schimpf — Fortune Term Sheet" },
         { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" }
       ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $516,600 from Brian Schimpf to Harris Victory Fund, Harris for President in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: SCHIMPF, BRIAN to Harris Victory Fund" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00703975&two_year_transaction_period=2024", "title": "FEC receipts: SCHIMPF, BRIAN to Harris for President" }
+      ]
+    },
+    {
+      "name": "Hakeem Jeffries",
+      "slug": "hakeem-jeffries",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $10,500 from Brian Schimpf to Jeffries for Congress in the 2026 cycle.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00503052&two_year_transaction_period=2026", "title": "FEC receipts: SCHIMPF, BRIAN to Jeffries for Congress" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -134,5 +159,181 @@
         { "url": "https://laist.com/news/politics/anduril-executives-election-campaign-spending", "title": "Anduril executives election campaign spending — LAist" }
       ]
     }
-  ]
+  ],
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 983026,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&two_year_transaction_period=2026", "title": "FEC itemized receipts: SCHIMPF, BRIAN, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 139600,
+            "fec_usd": 139600,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00000935&two_year_transaction_period=2026", "title": "FEC receipts: SCHIMPF, BRIAN to DCCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Democratic Majority Maker Fund",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00959932"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00959932&two_year_transaction_period=2026", "title": "FEC receipts: SCHIMPF, BRIAN to Democratic Majority Maker Fund, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Jeffries Battleground Protection Fund",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00916429"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00916429&two_year_transaction_period=2026", "title": "FEC receipts: SCHIMPF, BRIAN to Jeffries Battleground Protection Fund, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Democratic Grassroots Victory Fund",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00658476"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00658476&two_year_transaction_period=2026", "title": "FEC receipts: SCHIMPF, BRIAN to Democratic Grassroots Victory Fund, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 98600,
+            "fec_usd": 98600,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00042366&two_year_transaction_period=2026", "title": "FEC receipts: SCHIMPF, BRIAN to DSCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 44300,
+            "fec_usd": 44300,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00010603&two_year_transaction_period=2026", "title": "FEC receipts: SCHIMPF, BRIAN to DNC Services Corp / Democratic National Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Hakeem Jeffries",
+            "slug": "hakeem-jeffries",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 10500,
+            "fec_usd": 10500,
+            "fec_ids": ["C00503052"],
+            "description": "Per FEC filings: Jeffries for Congress $10,500.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00503052&two_year_transaction_period=2026", "title": "FEC receipts: SCHIMPF, BRIAN to Jeffries for Congress, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Jon Ossoff",
+            "slug": "jon-ossoff",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 7000,
+            "fec_usd": 7000,
+            "fec_ids": ["C00718866"],
+            "description": "Per FEC filings: Jon Ossoff for Senate $7,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00718866&two_year_transaction_period=2026", "title": "FEC receipts: SCHIMPF, BRIAN to Jon Ossoff for Senate, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 1192200,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&two_year_transaction_period=2024", "title": "FEC itemized receipts: SCHIMPF, BRIAN, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Kamala Harris",
+            "slug": "kamala-harris",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 516600,
+            "fec_usd": 516600,
+            "fec_ids": ["C00703975", "C00744946"],
+            "description": "Per FEC filings: Harris Victory Fund $510,000; Harris for President $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: SCHIMPF, BRIAN to Harris Victory Fund, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00703975&two_year_transaction_period=2024", "title": "FEC receipts: SCHIMPF, BRIAN to Harris for President, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 41300,
+            "fec_usd": 41300,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00010603&two_year_transaction_period=2024", "title": "FEC receipts: SCHIMPF, BRIAN to DNC Services Corp / Democratic National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Washington State Democratic Central Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 27726,
+            "fec_usd": 27726,
+            "fec_ids": ["C00114439"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00114439&two_year_transaction_period=2024", "title": "FEC receipts: SCHIMPF, BRIAN to Washington State Democratic Central Committee, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 61050,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&two_year_transaction_period=2022", "title": "FEC itemized receipts: SCHIMPF, BRIAN, 2022 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 61000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&two_year_transaction_period=2020", "title": "FEC itemized receipts: SCHIMPF, BRIAN, 2020 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 6200,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&two_year_transaction_period=2018", "title": "FEC itemized receipts: SCHIMPF, BRIAN, 2018 cycle" }
+        ],
+        "recipients": []
+      }
+    ]
+  }
 }

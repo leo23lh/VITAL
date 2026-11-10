@@ -101,14 +101,17 @@
       "name": "Donald Trump",
       "slug": "donald-trump",
       "relationship_type": "funded_by",
-      "description": "In 2016 Luckey gave $10,000 to Nimble America, a pro-Trump group, which led to his exit from Facebook in 2017; Fortune later reported further Trump contributions. He has hosted Trump fundraisers and says he has been on \"the tech-for-Trump train\" longer than almost anyone.",
+      "description": "In 2016 Luckey gave $10,000 to Nimble America, a pro-Trump group, which led to his exit from Facebook in 2017; Fortune later reported further Trump contributions. He has hosted Trump fundraisers and says he has been on \"the tech-for-Trump train\" longer than almost anyone. FEC filings show $1,167,800 from Palmer Luckey to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. in 2 cycles (2020–2024).",
       "start_year": 2016,
       "end_year": null,
       "confidence": 0.85,
       "sources": [
         { "url": "https://fortune.com/2016/09/23/palmer-luckey-trump/", "title": "Oculus founder Palmer Luckey funded pro-Trump group — Fortune" },
         { "url": "https://fortune.com/2017/04/23/palmer-luckey-trump-contributions/", "title": "Palmer Luckey's Trump contributions — Fortune" },
-        { "url": "https://m.washingtontimes.com/news/2025/oct/9/charismatic-defense-tech-leader-says-silicon-valley-warming-trump/", "title": "Charismatic defense tech leader says Silicon Valley warming to Trump — The Washington Times" }
+        { "url": "https://m.washingtontimes.com/news/2025/oct/9/charismatic-defense-tech-leader-says-silicon-valley-warming-trump/", "title": "Charismatic defense tech leader says Silicon Valley warming to Trump — The Washington Times" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Trump 47 Committee, Inc." }
       ]
     },
     {
@@ -219,6 +222,69 @@
         { "url": "https://www.anduril.com/anduril-leadership", "title": "Anduril Leadership — Anduril Industries" },
         { "url": "https://www.cnbc.com/2025/06/10/anduril-cnbc-disruptor-50.html", "title": "Anduril: 2025 CNBC Disruptor 50 — CNBC" }
       ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $17,300 from Palmer Luckey to CLF in 3 cycles (2018–2026).",
+      "start_year": 2018,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to CLF" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $11,200 from Palmer Luckey to Ted Cruz Victory Committee, Ted Cruz for Senate in 2 cycles (2018–2022).",
+      "start_year": 2017,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00542423&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00492785&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Mike Waltz",
+      "slug": "mike-waltz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $13,400 from Palmer Luckey to Michael Waltz for Congress in 3 cycles (2020–2024).",
+      "start_year": 2019,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Michael Waltz for Congress" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $10,800 from Palmer Luckey to Working for Ohio, JD Vance for Senate Inc. in the 2022 cycle.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "John Thune",
+      "slug": "john-thune",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $25,800 from Palmer Luckey to Friends of John Thune, Heartland Values PAC in 3 cycles (2022–2026).",
+      "start_year": 2021,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409581&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Friends of John Thune" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409003&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Heartland Values PAC" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -246,6 +312,599 @@
     "sources": [
       { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
       { "url": "https://www.bloomberg.com/news/articles/2026-04-22/spacex-tapped-for-industry-group-developing-golden-dome-software", "title": "SpaceX joins group building Pentagon’s Golden Dome defense software — Bloomberg (April 2026)" }
+    ]
+  },
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 1610322,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&two_year_transaction_period=2026", "title": "FEC itemized receipts: LUCKEY, PALMER, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00003418&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Republican National Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "One Team Senate Majority",
+            "kind": "pac",
+            "amount_usd": 231300,
+            "fec_usd": 231300,
+            "fec_ids": ["C00897918"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00897918&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to One Team Senate Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Grow the Majority",
+            "kind": "pac",
+            "amount_usd": 194100,
+            "fec_usd": 194100,
+            "fec_ids": ["C00858373"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00858373&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Grow the Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 96600,
+            "fec_usd": 96600,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to NRSC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 89786,
+            "fec_usd": 89786,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00075820&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to NRCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 10000,
+            "fec_usd": 10000,
+            "fec_ids": ["C00409003"],
+            "description": "Per FEC filings: Heartland Values PAC $10,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409003&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Heartland Values PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 7000,
+            "fec_usd": 7000,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $7,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Mike Johnson for Louisiana, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1500,
+            "fec_usd": 1500,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: CLF $1,500.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to CLF, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 1847103,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&two_year_transaction_period=2024", "title": "FEC itemized receipts: LUCKEY, PALMER, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Protect the House 2024",
+            "kind": "pac",
+            "amount_usd": 225000,
+            "fec_usd": 225000,
+            "fec_ids": ["C00831925"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00831925&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Protect the House 2024, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00867937"],
+            "description": "Per FEC filings: Trump 47 Committee, Inc. $200,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Trump 47 Committee, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00003418&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Republican National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 174300,
+            "fec_usd": 174300,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00027466&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to NRSC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "2024 Thune Republican Senate Victory",
+            "kind": "pac",
+            "amount_usd": 149900,
+            "fec_usd": 149900,
+            "fec_ids": ["C00837435"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00837435&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to 2024 Thune Republican Senate Victory, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 101200,
+            "fec_usd": 101200,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00075820&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to NRCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Thune Victory Committee",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00673715"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00673715&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Thune Victory Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00487470&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Club for Growth Action, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 10000,
+            "fec_usd": 10000,
+            "fec_ids": ["C00409003", "C00409581"],
+            "description": "Per FEC filings: Heartland Values PAC $5,000; Friends of John Thune $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409003&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Heartland Values PAC, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409581&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Friends of John Thune, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00666396"],
+            "description": "Per FEC filings: Michael Waltz for Congress $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Michael Waltz for Congress, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Josh Hawley",
+            "slug": "josh-hawley",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00652727"],
+            "description": "Per FEC filings: Josh Hawley for Senate $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00652727&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Josh Hawley for Senate, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Eric Schmitt",
+            "slug": "eric-schmitt",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 3000,
+            "fec_usd": 3000,
+            "fec_ids": ["C00775015", "C00826362"],
+            "description": "Per FEC filings: Schmitt for Senate $1,500; Winning for America PAC $1,500.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00775015&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Schmitt for Senate, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00826362&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Winning for America PAC, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 1472950,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&two_year_transaction_period=2022", "title": "FEC itemized receipts: LUCKEY, PALMER, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Take Back the House 2022",
+            "kind": "pac",
+            "amount_usd": 300000,
+            "fec_usd": 300000,
+            "fec_ids": ["C00766782"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00766782&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Take Back the House 2022, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 251200,
+            "fec_usd": 251200,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00075820&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to NRCC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "The Lincoln Club of Orange County Federal Ie Committee",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00490136"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00490136&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to The Lincoln Club of Orange County Federal Ie Committee, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Saving Arizona PAC",
+            "kind": "super-pac",
+            "amount_usd": 99750,
+            "fec_usd": 99750,
+            "fec_ids": ["C00777185"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00777185&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Saving Arizona PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Take Back the Senate",
+            "kind": "pac",
+            "amount_usd": 36500,
+            "fec_usd": 36500,
+            "fec_ids": ["C00780122"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00780122&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Take Back the Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 35500,
+            "fec_usd": 35500,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00027466&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to NRSC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 10800,
+            "fec_usd": 10800,
+            "fec_ids": ["C00783142", "C00783167"],
+            "description": "Per FEC filings: JD Vance for Senate Inc. $5,800; Working for Ohio $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to JD Vance for Senate Inc., 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Working for Ohio, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00492785"],
+            "description": "Per FEC filings: Ted Cruz for Senate $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00492785&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Ted Cruz for Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00620518"],
+            "description": "Per FEC filings: Marco Rubio for Senate $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00620518&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Marco Rubio for Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00666396"],
+            "description": "Per FEC filings: Michael Waltz for Congress $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00666396&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Michael Waltz for Congress, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00409581"],
+            "description": "Per FEC filings: Friends of John Thune $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409581&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Friends of John Thune, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 5000,
+            "fec_usd": 5000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00504530&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Congressional Leadership Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Mehmet Oz",
+            "slug": "mehmet-oz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00795930"],
+            "description": "Per FEC filings: Doctor Oz for Senate $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00795930&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Doctor Oz for Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Eric Schmitt",
+            "slug": "eric-schmitt",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00775015"],
+            "description": "Per FEC filings: Schmitt for Senate $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00775015&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Schmitt for Senate, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 3002069,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&two_year_transaction_period=2020", "title": "FEC itemized receipts: LUCKEY, PALMER, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 967800,
+            "fec_usd": 967800,
+            "fec_ids": ["C00580100", "C00618389"],
+            "description": "Per FEC filings: Trump Victory $962,200; Donald J. Trump for President, Inc. $5,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: LUCKEY, PALMER to Trump Victory, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00580100&two_year_transaction_period=2020", "title": "FEC receipts: LUCKEY, PALMER to Donald J. Trump for President, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 499400,
+            "fec_usd": 499400,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00003418&two_year_transaction_period=2020", "title": "FEC receipts: LUCKEY, PALMER to Republican National Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Take Back the House 2020",
+            "kind": "pac",
+            "amount_usd": 450000,
+            "fec_usd": 450000,
+            "fec_ids": ["C00695585"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00695585&two_year_transaction_period=2020", "title": "FEC receipts: LUCKEY, PALMER to Take Back the House 2020, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 177500,
+            "fec_usd": 177500,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00075820&two_year_transaction_period=2020", "title": "FEC receipts: LUCKEY, PALMER to NRCC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 71000,
+            "fec_usd": 71000,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00027466&two_year_transaction_period=2020", "title": "FEC receipts: LUCKEY, PALMER to NRSC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 1000,
+            "fec_usd": 1000,
+            "fec_ids": ["C00666396"],
+            "description": "Per FEC filings: Michael Waltz for Congress $1,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00666396&two_year_transaction_period=2020", "title": "FEC receipts: LUCKEY, PALMER to Michael Waltz for Congress, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 661959,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&two_year_transaction_period=2018", "title": "FEC itemized receipts: LUCKEY, PALMER, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Protect the House",
+            "kind": "pac",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00669622"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00669622&two_year_transaction_period=2018", "title": "FEC receipts: LUCKEY, PALMER to Protect the House, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "California Victory 2018",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00652461"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00652461&two_year_transaction_period=2018", "title": "FEC receipts: LUCKEY, PALMER to California Victory 2018, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 86100,
+            "fec_usd": 86100,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00075820&two_year_transaction_period=2018", "title": "FEC receipts: LUCKEY, PALMER to NRCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10800,
+            "fec_usd": 10800,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $10,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00504530&two_year_transaction_period=2018", "title": "FEC receipts: LUCKEY, PALMER to Congressional Leadership Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00542423"],
+            "description": "Per FEC filings: Ted Cruz Victory Committee $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00542423&two_year_transaction_period=2018", "title": "FEC receipts: LUCKEY, PALMER to Ted Cruz Victory Committee, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Rand Paul",
+            "slug": "rand-paul",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 5000,
+            "fec_usd": 5000,
+            "fec_ids": ["C00493924"],
+            "description": "Per FEC filings: Reinventing a New Direction Political Action Committee $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00493924&two_year_transaction_period=2018", "title": "FEC receipts: LUCKEY, PALMER to Reinventing a New Direction Political Action Committee, 2018 cycle" }
+            ]
+          }
+        ]
+      }
     ]
   }
 }

@@ -70,6 +70,114 @@
       "sources": [
         { "url": "https://www.semafor.com/article/10/14/2026/top-democratic-super-pac-spends-more-in-michigan-maine", "title": "Top Democratic super PAC spends more in Michigan, Maine — Semafor" }
       ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "donor",
+      "description": "FEC filings show $500,000 from Ben Horowitz to SMP in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00484642&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to SMP" }
+      ]
+    },
+    {
+      "name": "Chris Larsen",
+      "slug": "chris-larsen",
+      "relationship_type": "donor",
+      "description": "FEC filings show $2,000,000 from Chris Larsen to SMP in the 2026 cycle.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00484642&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to SMP" }
+      ]
+    },
+    {
+      "name": "Dustin Moskovitz",
+      "slug": "dustin-moskovitz",
+      "relationship_type": "donor",
+      "description": "FEC filings show $9,500,000 from Dustin Moskovitz to SMP in 3 cycles (2018–2026).",
+      "start_year": 2018,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MOSKOVITZ%2C+DUSTIN&committee_id=C00484642&two_year_transaction_period=2026", "title": "FEC receipts: MOSKOVITZ, DUSTIN to SMP" }
+      ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "donor",
+      "description": "FEC filings show $5,275,000 from George Soros to SMP in 2 cycles (2016–2018).",
+      "start_year": 2016,
+      "end_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00484642&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, GEORGE to SMP" }
+      ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "donor",
+      "description": "FEC filings show $100,000 from Jacob Helberg to SMP in the 2020 cycle.",
+      "start_year": 2020,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00484642&two_year_transaction_period=2020", "title": "FEC receipts: HELBERG, JACOB to SMP" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "donor",
+      "description": "FEC filings show $500,000 from Marc Andreessen to SMP in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00484642&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to SMP" }
+      ]
+    },
+    {
+      "name": "Michael Bloomberg",
+      "slug": "michael-bloomberg",
+      "relationship_type": "donor",
+      "description": "FEC filings show $20,000,000 from Michael Bloomberg to SMP in the 2018 cycle.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00484642&two_year_transaction_period=2018", "title": "FEC receipts: BLOOMBERG, MICHAEL to SMP" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $8,550,000 from Reid Hoffman to SMP in 4 cycles (2018–2026).",
+      "start_year": 2018,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00484642&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to SMP" }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $600,000 from Sam Altman to SMP in 3 cycles (2018–2022).",
+      "start_year": 2018,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00484642&two_year_transaction_period=2022", "title": "FEC receipts: ALTMAN, SAM to SMP" }
+      ]
     }
   ],
   "notes": "Built from sources already cited in the people files plus campaign-finance reporting (Public Citizen, Issue One, FEC-based news coverage). Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",

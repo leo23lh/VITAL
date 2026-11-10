@@ -306,6 +306,19 @@
         { "url": "https://theprint.in/world/trump-nominates-state-dept-official-to-lead-diminished-us-global-media-agency/2877603", "title": "Trump nominates State Dept official to lead diminished US global media agency — Reuters via ThePrint" },
         { "url": "https://www.notus.org/trump-white-house/trump-picks-replacement-for-kari-lake-voice-of-america-global-media-judge", "title": "Trump picks replacement for Kari Lake at Voice of America parent — NOTUS" }
       ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $18,200 from Thomas Klingenstein to Kari Lake Victory Fund, Kari Lake for Senate in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00856120&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Kari Lake Victory Fund" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00852343&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Kari Lake for Senate" }
+      ]
     }
   ],
   "source_conflicts": [

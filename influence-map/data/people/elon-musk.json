@@ -387,13 +387,14 @@
       "name": "Ken Paxton",
       "slug": "ken-paxton",
       "relationship_type": "funded_by",
-      "description": "Musk gave $10 million to Lone Star Liberty PAC, which backed Paxton's 2026 Texas Senate run (his $158 million to the Senate Leadership Fund, passed on to Texas PAC, is recorded there). Paxton lost to Democrat James Talarico.",
+      "description": "Musk gave $10 million to Lone Star Liberty PAC, which backed Paxton's 2026 Texas Senate run (his $158 million to the Senate Leadership Fund, passed on to Texas PAC, is recorded there). Paxton lost to Democrat James Talarico. FEC filings show $10,000,000 from Elon Musk to Lone Star Liberty PAC in the 2026 cycle.",
       "start_year": 2026,
       "confidence": 0.85,
       "sources": [
         { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" },
         { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
-        { "url": "https://www.cnn.com/2026/10/16/politics/musk-gop-support-texas-senate-race-hnk", "title": "Musk contributed more than $150 million to bolster GOP in Texas Senate race, filings show — CNN" }
+        { "url": "https://www.cnn.com/2026/10/16/politics/musk-gop-support-texas-senate-race-hnk", "title": "Musk contributed more than $150 million to bolster GOP in Texas Senate race, filings show — CNN" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00901223&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Lone Star Liberty PAC" }
       ]
     },
     {
@@ -491,38 +492,41 @@
       "name": "MAGA Inc.",
       "slug": "maga-inc",
       "relationship_type": "funded_by",
-      "description": "Gave $5 million on June 27, 2025, weeks after his public split with Trump.",
+      "description": "Gave $5 million on June 27, 2025, weeks after his public split with Trump. FEC filings show $5,000,000 from Elon Musk to MAGA Inc. in the 2026 cycle.",
       "start_year": 2025,
       "end_year": 2025,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.notus.org/donald-trump/elon-musk-crypto-trump-super-pac-maga-inc", "title": "Elon Musk, crypto help boost Trump super PAC to new heights — NOTUS" }
+        { "url": "https://www.notus.org/donald-trump/elon-musk-crypto-trump-super-pac-maga-inc", "title": "Elon Musk, crypto help boost Trump super PAC to new heights — NOTUS" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to MAGA Inc." }
       ]
     },
     {
       "name": "Senate Leadership Fund",
       "slug": "senate-leadership-fund",
       "relationship_type": "funded_by",
-      "description": "Gave $10 million in 2023–24, then $158 million in the 2026 cycle (other tallies say $168 million), making him its biggest donor; it passed the same $158 million to Texas PAC, the main outside backer of Ken Paxton.",
+      "description": "Gave $10 million in 2023–24, then $158 million in the 2026 cycle (other tallies say $168 million), making him its biggest donor; it passed the same $158 million to Texas PAC, the main outside backer of Ken Paxton. FEC filings show $20,000,000 from Elon Musk to SLF PAC in 2 cycles (2024–2026).",
       "start_year": 2024,
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
         { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
         { "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html", "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million — CNBC" },
-        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" }
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to SLF PAC" }
       ]
     },
     {
       "name": "Congressional Leadership Fund",
       "slug": "congressional-leadership-fund",
       "relationship_type": "funded_by",
-      "description": "Gave $20 million in the 2026 cycle by Newsweek's earlier count; its later tally puts the figure at $30 million.",
-      "start_year": 2026,
+      "description": "Gave $20 million in the 2026 cycle by Newsweek's earlier count; its later tally puts the figure at $30 million. FEC filings show $30,000,000 from Elon Musk to CLF in the 2026 cycle.",
+      "start_year": 2025,
       "end_year": 2026,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" }
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to CLF" }
       ]
     },
     {
@@ -542,7 +546,7 @@
       "name": "America PAC",
       "slug": "america-pac",
       "relationship_type": "funded_by",
-      "description": "More than $118 million by October 2024 (91% of its money), then $216 million in the 2026 cycle. In all he spent at least $250 million backing Trump in 2024, mostly through America PAC (other counts run higher).",
+      "description": "More than $118 million by October 2024 (91% of its money), then $216 million in the 2026 cycle. In all he spent at least $250 million backing Trump in 2024, mostly through America PAC (other counts run higher). FEC filings show $288,832,760 from Elon Musk to America PAC in 2 cycles (2024–2026).",
       "start_year": 2024,
       "confidence": 0.95,
       "sources": [
@@ -550,7 +554,8 @@
         { "url": "https://www.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans", "title": "Here's what Elon Musk's $445 million is getting Republicans — CNN" },
         { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" },
         { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
-        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" }
+        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00879510&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to America PAC" }
       ]
     },
     {
@@ -700,6 +705,20 @@
         { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
         { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
       ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $932,900 from Elon Musk to Trump 47 Committee, Inc., Never Surrender, Inc., Save America in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00867937&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00828541&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Never Surrender, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00762591&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Save America" }
+      ]
     }
   ],
   "source_conflicts": [
@@ -725,7 +744,8 @@
           { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" },
           { "url": "https://www.aljazeera.com/news/2026/10/27/tracking-the-money-the-biggest-donors-in-the-2026-us-midterm-elections", "title": "Tracking the money: The biggest donors in the 2026 US midterm elections — Al Jazeera" },
           { "url": "https://www.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans", "title": "Here's what Elon Musk's $445 million is getting Republicans — CNN" },
-          { "url": "https://www.cnbc.com/2026/11/04/elon-musk-midterms-ai-data-centers.html", "title": "Elon Musk suffers political setback in 2026 midterms — CNBC" }
+          { "url": "https://www.cnbc.com/2026/11/04/elon-musk-midterms-ai-data-centers.html", "title": "Elon Musk suffers political setback in 2026 midterms — CNBC" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&two_year_transaction_period=2026", "title": "FEC itemized receipts: MUSK, ELON, 2026 cycle" }
         ],
         "recipients": [
           {
@@ -737,8 +757,11 @@
             "description": "Musk's own super PAC; it backed or targeted 44 federal races and its side lost most of them.",
             "sources": [
               { "url": "https://www.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans", "title": "Here's what Elon Musk's $445 million is getting Republicans — CNN" },
-              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" }
-            ]
+              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00879510&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to America PAC, 2026 cycle" }
+            ],
+            "fec_usd": 50309514,
+            "fec_ids": ["C00879510"]
           },
           {
             "name": "Senate Leadership Fund",
@@ -750,8 +773,11 @@
             "sources": [
               { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
               { "url": "https://www.cnn.com/2026/10/16/politics/musk-gop-support-texas-senate-race-hnk", "title": "Musk contributed more than $150 million to bolster GOP in Texas Senate race, filings show — CNN" },
-              { "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html", "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million — CNBC" }
-            ]
+              { "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html", "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million — CNBC" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to SLF PAC, 2026 cycle" }
+            ],
+            "fec_usd": 10000000,
+            "fec_ids": ["C00571703"]
           },
           {
             "name": "Congressional Leadership Fund",
@@ -761,8 +787,11 @@
             "amount_usd": 20000000,
             "description": "House Republicans' main super PAC.",
             "sources": [
-              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" }
-            ]
+              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to CLF, 2026 cycle" }
+            ],
+            "fec_usd": 30000000,
+            "fec_ids": ["C00504530"]
           },
           {
             "name": "Republican Governors Association",
@@ -781,8 +810,11 @@
             "amount_usd": 10000000,
             "description": "Backed Ken Paxton's Texas Senate run; Paxton lost to Democrat James Talarico.",
             "sources": [
-              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" }
-            ]
+              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00901223&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Lone Star Liberty PAC, 2026 cycle" }
+            ],
+            "fec_usd": 10000000,
+            "fec_ids": ["C00901223"]
           },
           {
             "name": "Republican Attorneys General Association",
@@ -791,6 +823,87 @@
             "amount_usd": 2000000,
             "sources": [
               { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" }
+            ]
+          },
+          {
+            "name": "Fight for Kentucky",
+            "kind": "super-pac",
+            "amount_usd": 10000000,
+            "fec_usd": 10000000,
+            "fec_ids": ["C00898130"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00898130&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Fight for Kentucky, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "org": "maga-inc",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00892471"],
+            "description": "Per FEC filings: MAGA Inc. $5,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to MAGA Inc., 2026 cycle" }
+            ]
+          },
+          {
+            "name": "V-PAC: Victors, Not Victims",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00892919"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00892919&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to V-PAC: Victors, Not Victims, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Aurora Action Network",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00907584"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00907584&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Aurora Action Network, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 123900,
+            "fec_usd": 123900,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00003418&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Republican National Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Marjorie Taylor Greene",
+            "slug": "marjorie-taylor-greene",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 9700,
+            "fec_usd": 9700,
+            "fec_ids": ["C00708289"],
+            "description": "Per FEC filings: Putting People Before Politicians Inc $9,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00708289&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Putting People Before Politicians Inc, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 5000,
+            "fec_usd": 5000,
+            "fec_ids": ["C00762591"],
+            "description": "Per FEC filings: Save America $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00762591&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Save America, 2026 cycle" }
             ]
           }
         ]
@@ -804,7 +917,8 @@
         "sources": [
           { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
           { "url": "https://www.allsides.com/blog/elon-musk-tops-list-2024-political-donors-five-others-gave-more-100-million", "title": "Elon Musk tops list of 2024 political donors, five others gave more than $100 million — AllSides" },
-          { "url": "https://www.axios.com/2025/06/05/musk-trump-feud-2024-election-contributions", "title": "Musk takes credit for Trump's win in 2024. Here's how much he spent — Axios" }
+          { "url": "https://www.axios.com/2025/06/05/musk-trump-feud-2024-election-contributions", "title": "Musk takes credit for Trump's win in 2024. Here's how much he spent — Axios" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&two_year_transaction_period=2024", "title": "FEC itemized receipts: MUSK, ELON, 2024 cycle" }
         ],
         "recipients": [
           {
@@ -815,8 +929,12 @@
             "description": "His main 2024 vehicle; he put at least $250 million behind Trump overall.",
             "sources": [
               { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
-              { "url": "https://www.axios.com/2025/06/05/musk-trump-feud-2024-election-contributions", "title": "Musk takes credit for Trump's win in 2024. Here's how much he spent — Axios" }
-            ]
+              { "url": "https://www.axios.com/2025/06/05/musk-trump-feud-2024-election-contributions", "title": "Musk takes credit for Trump's win in 2024. Here's how much he spent — Axios" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00879510&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to America PAC, 2024 cycle" }
+            ],
+            "amount_usd": 238523246,
+            "fec_usd": 238523246,
+            "fec_ids": ["C00879510"]
           },
           {
             "name": "Donald Trump (via America PAC)",
@@ -826,8 +944,198 @@
             "sources": [
               { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
             ]
+          },
+          {
+            "name": "Rbg PAC",
+            "kind": "super-pac",
+            "amount_usd": 20500000,
+            "fec_usd": 20500000,
+            "fec_ids": ["C00891291"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00891291&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Rbg PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10000000,
+            "fec_usd": 10000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $10,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00571703&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Senate Leadership Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "MAHA Alliance",
+            "kind": "super-pac",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00888172"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00888172&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to MAHA Alliance, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "The Sentinel Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 2339600,
+            "fec_usd": 2339600,
+            "fec_ids": ["C00811166"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00811166&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to The Sentinel Action Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Early Vote Action PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00829721"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00829721&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Early Vote Action PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 927900,
+            "fec_usd": 927900,
+            "fec_ids": ["C00828541", "C00867937"],
+            "description": "Per FEC filings: Trump 47 Committee, Inc. $924,600; Never Surrender, Inc. $3,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Trump 47 Committee, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Never Surrender, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Hispanic Leadership Alliance",
+            "kind": "super-pac",
+            "amount_usd": 825000,
+            "fec_usd": 825000,
+            "fec_ids": ["C00826263"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00826263&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Hispanic Leadership Alliance, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Calvert Victory Fund",
+            "kind": "pac",
+            "amount_usd": 310700,
+            "fec_usd": 310700,
+            "fec_ids": ["C00699553"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00699553&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Calvert Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 289100,
+            "fec_usd": 289100,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00075820&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to NRCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 289100,
+            "fec_usd": 289100,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00003418&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Republican National Committee, 2024 cycle" }
+            ]
           }
         ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 30218,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&two_year_transaction_period=2020", "title": "FEC itemized receipts: MUSK, ELON, 2020 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 261200,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&two_year_transaction_period=2018", "title": "FEC itemized receipts: MUSK, ELON, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 73500,
+            "fec_usd": 73500,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00075820&two_year_transaction_period=2018", "title": "FEC receipts: MUSK, ELON to NRCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "McCarthy Victory Fund",
+            "kind": "pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00541011"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00541011&two_year_transaction_period=2018", "title": "FEC receipts: MUSK, ELON to McCarthy Victory Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Protect the House",
+            "kind": "pac",
+            "amount_usd": 38900,
+            "fec_usd": 38900,
+            "fec_ids": ["C00669622"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00669622&two_year_transaction_period=2018", "title": "FEC receipts: MUSK, ELON to Protect the House, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 33900,
+            "fec_usd": 33900,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00000935&two_year_transaction_period=2018", "title": "FEC receipts: MUSK, ELON to DCCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 33900,
+            "fec_usd": 33900,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00042366&two_year_transaction_period=2018", "title": "FEC receipts: MUSK, ELON to DSCC, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 22700,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&two_year_transaction_period=2016", "title": "FEC itemized receipts: MUSK, ELON, 2016 cycle" }
+        ],
+        "recipients": []
       }
     ],
     "outlook": {

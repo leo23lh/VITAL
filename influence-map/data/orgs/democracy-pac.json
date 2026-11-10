@@ -29,13 +29,15 @@
       "name": "George Soros",
       "slug": "george-soros",
       "relationship_type": "donor",
-      "description": "The Soros family put $102 million into Democracy PAC and Democracy PAC II in the 2026 cycle; Public Citizen counts $52 million from the family's Geosor Corporation to Democracy PAC.",
+      "description": "The Soros family put $102 million into Democracy PAC and Democracy PAC II in the 2026 cycle; Public Citizen counts $52 million from the family's Geosor Corporation to Democracy PAC. FEC filings show $181,065,413 from George Soros to Democracy PAC, Democracy PAC II in 3 cycles (2020–2024).",
       "start_year": 2019,
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" },
         { "url": "https://www.foxnews.com/politics/soros-political-machine-putting-millions-work-before-election-day-zeroing-key-races", "title": "Soros family pours $40M through Democracy PAC to Democratic allies — Fox News" },
-        { "url": "https://www.citizen.org/article/millionaires-and-billionaires-fuel-2026-super-pac-spending/", "title": "Millionaires and billionaires fuel 2026 super PAC spending — Public Citizen" }
+        { "url": "https://www.citizen.org/article/millionaires-and-billionaires-fuel-2026-super-pac-spending/", "title": "Millionaires and billionaires fuel 2026 super PAC spending — Public Citizen" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00693382&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Democracy PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00786624&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Democracy PAC II" }
       ]
     },
     {

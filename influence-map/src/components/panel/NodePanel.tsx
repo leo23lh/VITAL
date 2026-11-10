@@ -404,6 +404,48 @@ function SideTag({ side }: { side?: GivingSide }) {
 }
 
 /** Donations by cycle, newest first, then the sourced outlook for the next cycle. */
+/** A cycle's recipients, largest first; long lists (FEC imports) start folded to the top eight. */
+function Recipients({
+  recipients,
+  target,
+}: {
+  recipients: NonNullable<Giving['cycles']>[number]['recipients'] & object;
+  target: (name: string, slug?: string, org?: string) => React.ReactNode;
+}) {
+  const [all, setAll] = useState(false);
+  const sorted = [...recipients].sort((a, b) => (b.amount_usd ?? 0) - (a.amount_usd ?? 0));
+  const shown = all ? sorted : sorted.slice(0, 8);
+  return (
+    <>
+      <ul className="giving-list">
+        {shown.map((r, i) => {
+          // Reporting and filings can differ (rankings count affiliates and non-federal money; filings lag).
+          const differs = typeof r.fec_usd === 'number' && typeof r.amount_usd === 'number' && Math.abs(r.fec_usd - r.amount_usd) > 0.05 * r.amount_usd;
+          return (
+            <li key={i}>
+              <div className="giving-row">
+                <span className="giving-amt">{typeof r.amount_usd === 'number' ? formatUsd(r.amount_usd) : '—'}</span>
+                <span>
+                  {target(r.name, r.slug, r.org)} <span className="muted small">{RECIPIENT_KIND_LABEL[r.kind] ?? r.kind}</span>{' '}
+                  <SideTag side={r.side} />
+                </span>
+              </div>
+              {differs && <p className="small giving-desc muted">FEC filings so far show {formatUsd(r.fec_usd!)}.</p>}
+              {r.description && <p className="small giving-desc">{r.description}</p>}
+              <SourceList sources={r.sources} compact />
+            </li>
+          );
+        })}
+      </ul>
+      {sorted.length > 8 && (
+        <button className="link-button small" onClick={() => setAll(!all)}>
+          {all ? 'Show fewer' : `Show all ${sorted.length}`}
+        </button>
+      )}
+    </>
+  );
+}
+
 function GivingSection({
   giving,
   hasFile,
@@ -438,25 +480,7 @@ function GivingSection({
           </div>
           {c.description && <p className="small">{c.description}</p>}
           <SourceList sources={c.sources} compact />
-          {c.recipients && c.recipients.length > 0 && (
-            <ul className="giving-list">
-              {[...c.recipients]
-                .sort((a, b) => (b.amount_usd ?? 0) - (a.amount_usd ?? 0))
-                .map((r, i) => (
-                  <li key={i}>
-                    <div className="giving-row">
-                      <span className="giving-amt">{typeof r.amount_usd === 'number' ? formatUsd(r.amount_usd) : '—'}</span>
-                      <span>
-                        {target(r.name, r.slug, r.org)} <span className="muted small">{RECIPIENT_KIND_LABEL[r.kind] ?? r.kind}</span>{' '}
-                        <SideTag side={r.side} />
-                      </span>
-                    </div>
-                    {r.description && <p className="small giving-desc">{r.description}</p>}
-                    <SourceList sources={r.sources} compact />
-                  </li>
-                ))}
-            </ul>
-          )}
+          {c.recipients && c.recipients.length > 0 && <Recipients recipients={c.recipients} target={target} />}
         </div>
       ))}
       {giving.outlook && (

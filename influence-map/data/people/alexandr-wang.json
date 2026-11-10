@@ -114,5 +114,18 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Scale AI was reported in December 2024 to be in talks to join the Palantir–Anduril defense consortium; not recorded as a personal link. A reported past friendship with Sam Altman could not be confirmed.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2024,
+        "total_usd": 7600,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WANG%2C+ALEXANDR&two_year_transaction_period=2024", "title": "FEC itemized receipts: WANG, ALEXANDR, 2024 cycle" }
+        ],
+        "recipients": []
+      }
+    ]
+  }
 }

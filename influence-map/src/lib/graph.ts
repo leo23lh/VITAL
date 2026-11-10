@@ -951,13 +951,23 @@ export function orgDistanceFactor(a: GraphNode | undefined, b: GraphNode | undef
 }
 
 /**
- * A donation counts by its reported size: about 0.55 at $100k, 0.65 at $1M, 0.75 at $10M,
- * 0.85 at $100M, up to 1. With no reported amount it counts as about $1M (0.65).
+ * A donation counts by its reported size: about 0.35 at $1,000, 0.45 at $10,000, 0.55 at $100k,
+ * 0.65 at $1M, 0.75 at $10M, 0.85 at $100M, up to 1 (and never under 0.3). With no reported
+ * amount it counts as about $1M (0.65).
  */
 export function moneyFactor(usd: number | undefined): number {
   if (!usd) return 0.65;
-  return Math.min(1, Math.max(0.55, 0.55 + 0.1 * Math.log10(usd / 1e5)));
+  return Math.min(1, Math.max(0.3, 0.55 + 0.1 * Math.log10(usd / 1e5)));
 }
+
+type Gift = { usd: number; unknown: boolean; cycles: number[] } | undefined;
+
+/** moneyFactor for everything one donor gave one recipient; a gift with an unreported part never counts below the no-amount default. */
+export function giftFactor(gift: Gift): number {
+  if (!gift) return moneyFactor(undefined);
+  return Math.max(moneyFactor(gift.usd || undefined), gift.unknown ? moneyFactor(undefined) : 0);
+}
+
 
 /**
  * How deep the relationship between a and b runs, from the links between them
@@ -984,12 +994,10 @@ export function bond(
   // Only a job recorded as ongoing (end_year null) counts as today's reporting line; an undated
   // past job keeps its full weight. A gift with an unreported part never counts below the
   // no-amount default.
-  const giftFactor = gift
-    ? Math.max(moneyFactor(gift.usd || undefined), gift.unknown ? moneyFactor(undefined) : 0)
-    : moneyFactor(undefined);
+  const giftWeight = giftFactor(gift);
   const weight = (l: GraphLink) => {
     if (l.group === 'employment' && l.endYear === null) return l.confidence * orgDistanceFactor(a, b);
-    if (l.group === 'funding') return l.confidence * giftFactor;
+    if (l.group === 'funding') return l.confidence * giftWeight;
     return l.confidence;
   };
   const best = new Map<EdgeGroup, number>();

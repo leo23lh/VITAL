@@ -96,6 +96,69 @@
       "sources": [
         { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" }
       ]
+    },
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "donor",
+      "description": "FEC filings show $11,600 from Jeff Yass to Warrior Diplomat PAC, Michael Waltz for Congress in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00693671&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Warrior Diplomat PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Michael Waltz for Congress" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "donor",
+      "description": "FEC filings show $11,600 from Keith Rabois to Warrior Diplomat PAC, Michael Waltz for Congress in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00693671&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Warrior Diplomat PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Michael Waltz for Congress" }
+      ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "donor",
+      "description": "FEC filings show $26,700 from Ken Griffin to Michael Waltz for Congress in 4 cycles (2018–2024).",
+      "start_year": 2018,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to Michael Waltz for Congress" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "donor",
+      "description": "FEC filings show $13,400 from Palmer Luckey to Michael Waltz for Congress in 3 cycles (2020–2024).",
+      "start_year": 2019,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Michael Waltz for Congress" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $31,829 from Paul Singer to Michael Waltz for Congress, Warrior Diplomat PAC in 4 cycles (2018–2024).",
+      "start_year": 2018,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Michael Waltz for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00693671&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Warrior Diplomat PAC" }
+      ]
     }
   ],
   "office": {

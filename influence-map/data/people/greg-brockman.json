@@ -187,25 +187,27 @@
       "name": "MAGA Inc.",
       "slug": "maga-inc",
       "relationship_type": "funded_by",
-      "description": "Brockman and his wife gave $25 million in September 2025, nearly a quarter of what it raised in the second half of 2025.",
+      "description": "Brockman and his wife gave $25 million in September 2025, nearly a quarter of what it raised in the second half of 2025. FEC filings show $12,500,000 from Greg Brockman to MAGA Inc. in the 2026 cycle.",
       "start_year": 2025,
       "end_year": 2025,
       "confidence": 0.9,
       "sources": [
         { "url": "https://www.cnn.com/2026/01/02/politics/trump-super-pac-maga-inc-fundraising", "title": "Trump's super PAC builds $300 million cash stockpile — CNN" },
-        { "url": "https://kvia.com/politics/cnn-us-politics/2026/01/02/trumps-super-pac-builds-a-nearly-300-million-cash-stockpile-fueling-unrivaled-fundraising-pace/", "title": "Trump's super PAC builds a nearly $300 million cash stockpile — CNN via KVIA" }
+        { "url": "https://kvia.com/politics/cnn-us-politics/2026/01/02/trumps-super-pac-builds-a-nearly-300-million-cash-stockpile-fueling-unrivaled-fundraising-pace/", "title": "Trump's super PAC builds a nearly $300 million cash stockpile — CNN via KVIA" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: BROCKMAN, GREG to MAGA Inc." }
       ]
     },
     {
       "name": "Leading the Future",
       "slug": "leading-the-future",
       "relationship_type": "funded_by",
-      "description": "Founding backer: Brockman and his wife gave $25 million, then dropped a further $25 million in October 2026 after OpenAI employees pushed back.",
+      "description": "Founding backer: Brockman and his wife gave $25 million, then dropped a further $25 million in October 2026 after OpenAI employees pushed back. FEC filings show $12,500,000 from Greg Brockman to Leading the Future in the 2026 cycle.",
       "start_year": 2025,
       "confidence": 0.85,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" },
-        { "url": "https://www.semafor.com/article/10/02/2026/how-employees-forced-openais-president-to-back-down", "title": "Exclusive: How employees forced OpenAI's president to back down — Semafor" }
+        { "url": "https://www.semafor.com/article/10/02/2026/how-employees-forced-openais-president-to-back-down", "title": "Exclusive: How employees forced OpenAI's president to back down — Semafor" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&committee_id=C00916114&two_year_transaction_period=2026", "title": "FEC receipts: BROCKMAN, GREG to Leading the Future" }
       ]
     },
     {
@@ -248,7 +250,8 @@
         "sources": [
           { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
           { "url": "https://www.semafor.com/article/10/02/2026/how-employees-forced-openais-president-to-back-down", "title": "Exclusive: How employees forced OpenAI's president to back down — Semafor" },
-          { "url": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html", "title": "Silicon Valley AI political groups turn on each other in the 2026 election — CNBC" }
+          { "url": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html", "title": "Silicon Valley AI political groups turn on each other in the 2026 election — CNBC" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&two_year_transaction_period=2026", "title": "FEC itemized receipts: BROCKMAN, GREG, 2026 cycle" }
         ],
         "recipients": [
           {
@@ -261,8 +264,11 @@
             "description": "Given in September 2025, nearly a quarter of what MAGA Inc. raised in the second half of 2025.",
             "sources": [
               { "url": "https://www.cnn.com/2026/01/02/politics/trump-super-pac-maga-inc-fundraising", "title": "Trump's super PAC builds $300 million cash stockpile — CNN" },
-              { "url": "https://fortune.com/2026/08/04/jackie-bald-eagle-greg-brockman-openai-5-5-million-donation-fundraiser-philanthropy/", "title": "OpenAI's Greg Brockman gave $5.5 million to protect the home of a bald eagle — Fortune" }
-            ]
+              { "url": "https://fortune.com/2026/08/04/jackie-bald-eagle-greg-brockman-openai-5-5-million-donation-fundraiser-philanthropy/", "title": "OpenAI's Greg Brockman gave $5.5 million to protect the home of a bald eagle — Fortune" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: BROCKMAN, GREG to MAGA Inc., 2026 cycle" }
+            ],
+            "fec_usd": 12500000,
+            "fec_ids": ["C00892471"]
           },
           {
             "name": "Leading the Future (pro-AI super PAC)",
@@ -274,10 +280,31 @@
             "sources": [
               { "url": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html", "title": "Silicon Valley AI political groups turn on each other in the 2026 election — CNBC" },
               { "url": "https://www.nbcnews.com/politics/2026-election/ai-crypto-trump-super-pacs-stash-millions-spend-midterms-rcna256622", "title": "AI, crypto and Trump super PACs stash millions to spend on the midterms — NBC News" },
-              { "url": "https://www.axios.com/2026/01/30/openai-a16z-cash-ai-super-pac", "title": "Exclusive: OpenAI's Brockman and a16z funnel cash to pro-AI super PAC — Axios" }
-            ]
+              { "url": "https://www.axios.com/2026/01/30/openai-a16z-cash-ai-super-pac", "title": "Exclusive: OpenAI's Brockman and a16z funnel cash to pro-AI super PAC — Axios" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&committee_id=C00916114&two_year_transaction_period=2026", "title": "FEC receipts: BROCKMAN, GREG to Leading the Future, 2026 cycle" }
+            ],
+            "fec_usd": 12500000,
+            "fec_ids": ["C00916114"]
           }
         ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 2700,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&two_year_transaction_period=2018", "title": "FEC itemized receipts: BROCKMAN, GREG, 2018 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 5400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&two_year_transaction_period=2016", "title": "FEC itemized receipts: BROCKMAN, GREG, 2016 cycle" }
+        ],
+        "recipients": []
       }
     ],
     "outlook": {

@@ -120,5 +120,40 @@
   ],
   "source_conflicts": [],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2016,
+        "total_usd": 113279,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HURLEY%2C+CHAD&two_year_transaction_period=2016", "title": "FEC itemized receipts: HURLEY, CHAD, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Hillary Victory Fund",
+            "kind": "pac",
+            "amount_usd": 58400,
+            "fec_usd": 58400,
+            "fec_ids": ["C00586537"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HURLEY%2C+CHAD&committee_id=C00586537&two_year_transaction_period=2016", "title": "FEC receipts: HURLEY, CHAD to Hillary Victory Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp./dem. Nat'l Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 33400,
+            "fec_usd": 33400,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HURLEY%2C+CHAD&committee_id=C00010603&two_year_transaction_period=2016", "title": "FEC receipts: HURLEY, CHAD to DNC Services Corp./dem. Nat'l Committee, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
