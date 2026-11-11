@@ -25,7 +25,18 @@ function clipConnections(connections: Connection[] | undefined, year: number): C
  * are dropped, and ones that ended later are open again. What is only known with hindsight
  * (groups, the 2028 race, leverage, giving outlooks) is stripped too, so nothing leaks back.
  */
-export function freeze({ people, orgs }: MapFiles, year: number): MapFiles {
+export interface FreezeOptions {
+  /** Cut posts and meetings at this day (YYYY-MM-DD) instead of the end of `year`. Ties still go by year. */
+  date?: string;
+  /** Keep `leverage` (what someone controls changes slowly; the track-record test keeps it). */
+  keepLeverage?: boolean;
+}
+
+/** "2025" → "2025-01-01", "2025-03" → "2025-03-01": the earliest day a partial date can mean. */
+const firstDay = (d: string) => (d.length === 4 ? `${d}-01-01` : d.length === 7 ? `${d}-01` : d);
+
+export function freeze({ people, orgs }: MapFiles, year: number, opts: FreezeOptions = {}): MapFiles {
+  const before = (d: string | undefined) => (opts.date ? !d || firstDay(d) <= opts.date : !(yearOf(d) > year));
   const clipTimeline = (t: TimelineEntry[] | undefined) =>
     (t ?? [])
       .filter((e) => typeof e.year !== 'number' || e.year <= year)
@@ -33,16 +44,16 @@ export function freeze({ people, orgs }: MapFiles, year: number): MapFiles {
   return {
     people: people.map((f) => {
       const d = f.data;
-      const office = d.office && !(yearOf(d.office.since) > year) ? d.office : undefined;
+      const office = d.office && before(d.office.since) ? d.office : undefined;
       const cycles = d.giving?.cycles?.filter((c) => c.cycle <= year);
       const data: Person = {
         ...d,
         groups: [],
         race_2028: undefined,
-        leverage: undefined,
+        leverage: opts.keepLeverage ? d.leverage : undefined,
         office,
         org_chart_only: office ? d.org_chart_only : undefined,
-        access: d.access?.filter((e) => yearOf(e.date) <= year),
+        access: d.access?.filter((e) => (opts.date ? firstDay(e.date) <= opts.date : yearOf(e.date) <= year)),
         giving: cycles?.length ? { cycles } : undefined,
         timeline: clipTimeline(d.timeline),
         connections: clipConnections(d.connections, year),

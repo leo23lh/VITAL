@@ -189,5 +189,31 @@
         { "url": "https://www.khaleejtimes.com/world/mena/israel-elections-tight-vote-netanyaho-eisenkot-claim-mandate-exit-polls", "title": "Israel elections: Netanyahu, Eisenkot each claim mandate after tight vote — Khaleej Times" }
       ]
     }
+  ],
+  "asks": [
+    {
+      "date": "2025-04",
+      "with": ["donald-trump"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-04-07",
+      "what": "Flew to Washington, the first foreign leader to do so, to seek relief from the 17% tariff on Israel; Trump gave none.",
+      "sources": [
+        { "url": "https://www.axios.com/2025/04/07/trump-netanyahu-visit-tariff-deal", "title": "Trump doesn't give Israel a break on tariffs despite Netanyahu visit — Axios" },
+        { "url": "https://www.deseret.com/u-s-world/2025/04/07/netanyahu-april-white-house-visit/", "title": "Netanyahu's April White House visit — Deseret News" }
+      ]
+    },
+    {
+      "date": "2025-06",
+      "with": ["donald-trump"],
+      "kind": "policy",
+      "outcome": "granted",
+      "decided": "2025-06-21",
+      "what": "Israel asked the US to join its strikes on Iran's nuclear program, above all the Fordow site; Trump ordered the strikes on June 21. Accounts differ on how much Israel's push drove the decision.",
+      "sources": [
+        { "url": "https://kyivindependent.com/israel-asks-us-to-join-strikes-on-irans-nuclear-sites-officials-told-axios", "title": "Israel asks US to join strikes on Iran's nuclear sites, officials told Axios — Kyiv Independent" },
+        { "url": "https://www.axios.com/2025/06/22/trump-israel-iran-strikes-air-defenses", "title": "At Trump's request, Israel cleared way for U.S. bombers in Iran — Axios" }
+      ]
+    }
   ]
 }

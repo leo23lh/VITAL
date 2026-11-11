@@ -452,5 +452,19 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly through its API, and other facts were checked against search results tied to each cited URL. The Musk and RFK Jr. links rest on reporting Carlson has partly disputed.",
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "asks": [
+    {
+      "date": "2025-06",
+      "with": ["donald-trump"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-06-21",
+      "what": "Publicly urged Trump to keep the US out of Israel's war with Iran; Trump called him \"kooky\" and ordered strikes on Iran's nuclear sites on June 21.",
+      "sources": [
+        { "url": "https://www.npr.org/2025/06/18/nx-s1-5438122/trump-iran-israel-conflict-tucker-carlson", "title": "Pro-Trump media figures split over the U.S. role in the Israel-Iran conflict — NPR" },
+        { "url": "https://www.notus.org/trump-white-house/trump-tucker-carlson-maga-iran", "title": "Trump, Tucker Carlson and MAGA on Iran — NOTUS" }
+      ]
+    }
+  ]
 }

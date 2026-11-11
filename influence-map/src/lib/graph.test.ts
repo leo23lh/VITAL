@@ -18,6 +18,8 @@ import {
   workplaceIndex,
 } from './graph';
 import {
+  ASK_KINDS,
+  ASK_OUTCOMES,
   GIVING_SIDES,
   GROUPS,
   INVERSE_TYPE,
@@ -189,6 +191,8 @@ describe('validatePeople', () => {
     expect(validator.RECIPIENT_KINDS).toEqual(RECIPIENT_KINDS.map((k) => k.id));
     expect(validator.GIVING_SIDES).toEqual([...GIVING_SIDES]);
     expect(validator.ORG_KINDS).toEqual(ORG_KINDS.map((k) => k.id));
+    expect(validator.ASK_KINDS).toEqual([...ASK_KINDS]);
+    expect(validator.ASK_OUTCOMES).toEqual([...ASK_OUTCOMES]);
     expect(validator.ORG_RELATIONSHIP_TYPES).toEqual([...ORG_RELATIONSHIP_TYPES]);
     expect(validator.OFFICE_UNITS).toEqual(OFFICE_UNITS.map((u) => u.id));
   });

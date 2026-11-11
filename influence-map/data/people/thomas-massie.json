@@ -178,5 +178,19 @@
       { "url": "https://www.adn.com/nation-world/2026/05/19/rep-thomas-massie-loses-gop-primary-in-kentucky-to-challenger-endorsed-by-trump/", "title": "AP via ADN: Rep. Thomas Massie loses GOP primary to Trump-endorsed challenger" },
       { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
     ]
-  }
+  },
+  "asks": [
+    {
+      "date": "2025-07",
+      "with": ["donald-trump", "mike-johnson"],
+      "kind": "policy",
+      "outcome": "granted",
+      "decided": "2025-11-19",
+      "what": "Led the discharge petition to force release of the Epstein files over the Speaker's and the White House's opposition; it reached 218 signatures, passed 427-1, and Trump signed it on Nov. 19.",
+      "sources": [
+        { "url": "https://rollcall.com/2025/11/19/trump-signs-jeffrey-epstein-bill-files/", "title": "Trump signs bill compelling release of Epstein files — Roll Call" },
+        { "url": "https://www.cbsnews.com/news/trump-says-signed-epstein-files-bill", "title": "Trump says he signed Epstein files bill — CBS News" }
+      ]
+    }
+  ]
 }

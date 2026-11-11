@@ -953,5 +953,19 @@
       { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
       { "url": "https://en.wikipedia.org/wiki/Marc_Andreessen", "title": "Marc Andreessen — Wikipedia" }
     ]
-  }
+  },
+  "asks": [
+    {
+      "date": "2025-07",
+      "with": ["donald-trump", "david-sacks"],
+      "kind": "policy",
+      "outcome": "granted",
+      "decided": "2025-12-11",
+      "what": "Andreessen Horowitz, his firm, lobbied for months for federal preemption of state AI laws; Trump signed an order on Dec. 11 creating a task force to challenge them.",
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/artificial-intelligence/trump-signs-order-seeking-to-limit-state-level-ai-regulation", "title": "Trump signs order seeking to limit state-level AI regulation — Bloomberg Law" },
+        { "url": "https://siliconangle.com/2025/12/11/trump-pushes-back-states-regulating-ai-executive-order/", "title": "Trump pushes back on states regulating AI — SiliconANGLE" }
+      ]
+    }
+  ]
 }

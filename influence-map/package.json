@@ -15,6 +15,7 @@
     "evidence": "node scripts/evidence-report.mjs",
     "predict": "node scripts/predict.mjs",
     "fec": "node scripts/fec-import.mjs",
+    "tune-pull": "node scripts/tune-pull.mjs",
     "build:artifact": "node scripts/build-artifact.mjs"
   },
   "engines": {

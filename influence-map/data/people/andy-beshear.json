@@ -71,5 +71,31 @@
     }
   ],
   "notes": "Researched in a sandbox where Wikipedia was rate-limiting and most news pages could not be opened; Wikipedia facts were confirmed with web searches restricted to en.wikipedia.org, and news facts with searches tied to each cited URL.",
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "asks": [
+    {
+      "date": "2025-02",
+      "with": ["donald-trump"],
+      "kind": "aid",
+      "outcome": "granted",
+      "decided": "2025-02-24",
+      "what": "Requested an expedited major disaster declaration after February flooding; Trump approved it for 10 counties (some counties were left out).",
+      "sources": [
+        { "url": "https://www.whitehouse.gov/presidential-actions/2025/02/president-trump-takes-decisive-action-to-deliver-relief-to-kentucky/", "title": "President Trump takes decisive action to deliver relief to Kentucky — White House" },
+        { "url": "https://halrogers.house.gov/2025/2/president-trump-approves-expedited-major-disaster-declaration-for-kentucky", "title": "President Trump approves expedited major disaster declaration for Kentucky — Rep. Hal Rogers" }
+      ]
+    },
+    {
+      "date": "2025-04",
+      "with": ["donald-trump"],
+      "kind": "aid",
+      "outcome": "partial",
+      "decided": "2025-04-25",
+      "what": "Requested a major disaster declaration for April flooding; Trump approved individual assistance for 13 counties, part of what was asked.",
+      "sources": [
+        { "url": "https://www.wuky.org/wuky-news/2025-04-26/president-approves-major-disaster-declaration-in-13-kentucky-counties-following-april-flooding", "title": "President approves major disaster declaration in 13 Kentucky counties — WUKY" },
+        { "url": "https://hoptownchronicle.org/?p=91627", "title": "Trump administration approves Beshear aid request for April floods — Hoptown Chronicle" }
+      ]
+    }
+  ]
 }

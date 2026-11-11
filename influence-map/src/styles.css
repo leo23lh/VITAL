@@ -2300,3 +2300,32 @@ a.source-chip:hover {
   margin-top: 3px;
   white-space: nowrap;
 }
+
+/* Track record (Pull tab) */
+.outcome {
+  font: 600 10px/1 var(--sans);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 2px 5px;
+  border: 1px solid var(--hairline);
+  white-space: nowrap;
+}
+
+.outcome-granted {
+  color: #34d399;
+  border-color: #34d39966;
+}
+
+.outcome-partial {
+  color: #f5c542;
+  border-color: #f5c54266;
+}
+
+.outcome-denied {
+  color: var(--red-text);
+  border-color: #ff7a6e66;
+}
+
+.outcome-pending {
+  color: var(--muted);
+}

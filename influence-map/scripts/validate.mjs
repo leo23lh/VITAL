@@ -106,6 +106,9 @@ const PRIVACY_PATTERNS = [
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 /** A YYYY-MM or YYYY-MM-DD date that exists on the calendar (not 2026-13 or 2026-02-30). */
+export const ASK_KINDS = ['appointment', 'pardon', 'policy', 'regulatory', 'contract', 'deal', 'aid', 'other'];
+export const ASK_OUTCOMES = ['granted', 'partial', 'denied', 'pending'];
+
 function realDate(s) {
   const m = typeof s === 'string' && /^(\d{4})-(\d{2})(?:-(\d{2}))?$/.exec(s);
   if (!m) return false;
@@ -292,6 +295,8 @@ export function validatePeople(records, opts = {}) {
           else if (!bySlug.get(o.reports_to).data?.office) warn(file, `office.reports_to: ${o.reports_to}.json has no office, so the chart can't place the chain`);
         }
         if (o.since !== undefined && !/^\d{4}(-\d{2}(-\d{2})?)?$/.test(o.since)) err(file, 'office.since must be YYYY, YYYY-MM or YYYY-MM-DD');
+        if (o.verified !== undefined && !(/^\d{4}-\d{2}-\d{2}$/.test(o.verified) && realDate(o.verified)))
+          err(file, 'office.verified must be the date the post was last confirmed, YYYY-MM-DD');
         if (o.acting !== undefined && typeof o.acting !== 'boolean') err(file, 'office.acting must be true or false');
         checkSources(o.sources, 'office', { allowUser: !!p.self_added });
         // No loops in the reporting chain.
@@ -335,6 +340,25 @@ export function validatePeople(records, opts = {}) {
           else for (const s of e.with) if (!bySlug.has(s)) err(file, `${where}: no file for "${s}"`);
           if (typeof e?.what !== 'string' || !e.what.trim()) err(file, `${where}: "what" is required`);
           checkSources(e?.sources, where);
+        });
+    }
+    // Asks: requests to officials and how they turned out (see CLAUDE.md "Track record").
+    if (p.asks !== undefined) {
+      if (!Array.isArray(p.asks)) err(file, '"asks" must be an array');
+      else
+        p.asks.forEach((a, i) => {
+          const where = `asks[${i}]`;
+          if (!realDate(a?.date)) err(file, `${where}: date must be a real date, YYYY-MM or YYYY-MM-DD`);
+          if (!Array.isArray(a?.with)) err(file, `${where}: "with" must list the deciding officials' slugs (empty when no one on the map decided)`);
+          else for (const s of a.with) if (!bySlug.has(s)) err(file, `${where}: no file for "${s}"`);
+          if (typeof a?.what !== 'string' || !a.what.trim()) err(file, `${where}: "what" is required`);
+          if (!ASK_KINDS.includes(a?.kind)) err(file, `${where}: "kind" must be one of ${ASK_KINDS.join(', ')}`);
+          if (!ASK_OUTCOMES.includes(a?.outcome)) err(file, `${where}: "outcome" must be one of ${ASK_OUTCOMES.join(', ')}`);
+          if (a?.outcome === 'pending' && a.decided !== undefined) err(file, `${where}: a pending ask has no "decided" date`);
+          if (a?.outcome !== 'pending' && !realDate(a?.decided)) err(file, `${where}: "decided" must be the date of the outcome`);
+          if (realDate(a?.decided) && realDate(a?.date) && a.decided.slice(0, 7) < a.date.slice(0, 7))
+            err(file, `${where}: "decided" is before the ask's date`);
+          checkSources(a?.sources, where);
         });
     }
 
@@ -431,7 +455,7 @@ export function validatePeople(records, opts = {}) {
     if (!isYear(o.founded) || !isYear(o.dissolved)) err(file, '"founded"/"dissolved" must be years or null');
     if (typeof o.last_researched !== 'string' || !DATE_RE.test(o.last_researched))
       err(file, '"last_researched" must be a YYYY-MM-DD date');
-    for (const key of ['public_figure', 'photo', 'lean', 'giving', 'race_2028', 'sector', 'self_added', 'office', 'org_chart_only', 'leverage', 'access', 'died'])
+    for (const key of ['public_figure', 'photo', 'lean', 'giving', 'race_2028', 'sector', 'self_added', 'office', 'org_chart_only', 'leverage', 'access', 'died', 'asks'])
       if (o[key] !== undefined) err(file, `"${key}" is a person field; organizations don't take it`);
     if (o.groups !== undefined) {
       if (!Array.isArray(o.groups)) err(file, '"groups" must be an array');

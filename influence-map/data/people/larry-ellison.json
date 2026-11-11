@@ -771,5 +771,31 @@
         ]
       }
     ]
-  }
+  },
+  "asks": [
+    {
+      "date": "2025-04",
+      "with": [],
+      "kind": "regulatory",
+      "outcome": "granted",
+      "decided": "2025-07-24",
+      "what": "Skydance, run by his son David and backed by Larry Ellison, sought FCC approval to merge with Paramount; the FCC approved it 2-1 after a review of more than 250 days.",
+      "sources": [
+        { "url": "https://www.fox5dc.com/news/fcc-approves-paramount-skydance-merger-following-trump-settlement-colbert-cancellation", "title": "FCC approves Paramount-Skydance merger — Fox 5 DC" },
+        { "url": "https://csimagazine.com/csi/FCC-greenlights-Skydance-Paramount-merger.php", "title": "FCC greenlights Skydance–Paramount merger — CSI Magazine" }
+      ]
+    },
+    {
+      "date": "2025-09",
+      "with": ["donald-trump"],
+      "kind": "deal",
+      "outcome": "granted",
+      "decided": "2025-12-18",
+      "what": "Oracle sought a lead role in a US TikTok venture; under the deal Trump backed, Oracle became the venture's security provider with a 15% stake, and binding agreements were signed in December.",
+      "sources": [
+        { "url": "https://www.npr.org/2025/09/22/nx-s1-5550152/tiktok-deal-joint-venture", "title": "Deal for TikTok creates U.S. joint venture — NPR" },
+        { "url": "https://fortune.com/2025/09/23/oracle-tiktok-deal-us-security-algorithm-silverlake-murdoch-dell-trump-2025/", "title": "Oracle TikTok deal — Fortune" }
+      ]
+    }
+  ]
 }

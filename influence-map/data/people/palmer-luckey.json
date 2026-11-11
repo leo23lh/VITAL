@@ -906,5 +906,19 @@
         ]
       }
     ]
-  }
+  },
+  "asks": [
+    {
+      "date": "2025-02",
+      "with": [],
+      "kind": "contract",
+      "outcome": "granted",
+      "decided": "2025-04-10",
+      "what": "Anduril sought to take over Microsoft's $22 billion Army IVAS headset program; the Army approved the transfer on April 10.",
+      "sources": [
+        { "url": "https://breakingdefense.com/2025/04/anduril-gets-green-light-from-army-to-take-over-microsofts-ivas-project-exec/", "title": "Anduril gets green light from Army to take over IVAS — Breaking Defense" },
+        { "url": "https://techcrunch.com/2025/02/11/anduril-takes-control-of-microsofts-22b-vr-military-headset-program/", "title": "Anduril takes control of Microsoft's $22B headset program — TechCrunch" }
+      ]
+    }
+  ]
 }

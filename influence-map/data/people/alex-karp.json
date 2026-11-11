@@ -658,5 +658,19 @@
         ]
       }
     ]
-  }
+  },
+  "asks": [
+    {
+      "date": "2025-05",
+      "with": [],
+      "kind": "contract",
+      "outcome": "granted",
+      "decided": "2025-07-31",
+      "what": "Palantir won an Army enterprise agreement worth up to $10 billion over 10 years, folding 75 contracts into one.",
+      "sources": [
+        { "url": "https://defensescoop.com/2025/07/31/army-palantir-software-enterprise-agreement-10-billion/", "title": "Army, Palantir software enterprise agreement — DefenseScoop" },
+        { "url": "https://www.theregister.com/2025/08/01/palantir_us_army_contract/", "title": "$10 billion US Army contract — The Register" }
+      ]
+    }
+  ]
 }

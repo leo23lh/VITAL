@@ -171,5 +171,19 @@
   ],
   "affiliations": [],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "asks": [
+    {
+      "date": "2025-06",
+      "with": ["donald-trump"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-06-09",
+      "what": "Formally asked the administration to rescind the federalization of 2,000 California National Guard troops sent to Los Angeles; it refused, and he sued.",
+      "sources": [
+        { "url": "https://minnesotareformer.com/2025/06/08/gavin-newsom-asks-trump-to-withdraw-troops-from-los-angeles-as-protests-intensify/", "title": "Gavin Newsom asks Trump to withdraw troops from Los Angeles — States Newsroom" },
+        { "url": "https://www.axios.com/2025/06/09/la-protests-trump-national-guard-newsom", "title": "LA protests: Trump, National Guard and Newsom — Axios" }
+      ]
+    }
+  ]
 }

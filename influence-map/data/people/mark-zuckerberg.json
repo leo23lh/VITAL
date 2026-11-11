@@ -236,5 +236,19 @@
         "recipients": []
       }
     ]
-  }
+  },
+  "asks": [
+    {
+      "date": "2025-03",
+      "with": ["donald-trump"],
+      "kind": "regulatory",
+      "outcome": "denied",
+      "decided": "2025-04-14",
+      "what": "Lobbied Trump and White House officials to settle the FTC antitrust case against Meta before trial; the White House let the case go to trial in April.",
+      "sources": [
+        { "url": "https://www.thestar.com.my/tech/tech-news/2025/04/03/meta-ceo-zuckerberg-lobbies-trump-to-avoid-antitrust-trial-wsj-reports", "title": "Meta CEO Zuckerberg lobbies Trump to avoid antitrust trial, WSJ reports — Reuters via The Star" },
+        { "url": "https://gizmodo.com/zuckerberg-really-thought-trump-would-make-metas-legal-problems-go-away-2000589897", "title": "Zuckerberg thought Trump would make Meta's legal problems go away — Gizmodo" }
+      ]
+    }
+  ]
 }

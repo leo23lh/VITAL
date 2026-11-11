@@ -116,5 +116,19 @@
       { "url": "https://rollcall.com/2026/11/04/will-be-reelected-as-majority-leader-schumer-says/", "title": "‘I’ll be reelected as majority leader,’ Schumer says — Roll Call" }
     ]
   },
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "asks": [
+    {
+      "date": "2025-10",
+      "with": ["donald-trump", "john-thune"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-11-12",
+      "what": "Demanded an extension of the enhanced ACA tax credits as the price of ending the shutdown; it ended after 43 days without one.",
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/congress/democrats-wins-shutdown-fight-health-care-obamacare-subsidies-trump-rcna243211", "title": "Democrats and the shutdown fight over Obamacare subsidies — NBC News" },
+        { "url": "https://www.pbs.org/newshour/politics/trump-signs-government-funding-bill-ending-record-43-day-shutdown", "title": "Trump signs government funding bill, ending record 43-day shutdown — PBS" }
+      ]
+    }
+  ]
 }

@@ -113,5 +113,19 @@
   ],
   "affiliations": [],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "asks": [
+    {
+      "date": "2025-07",
+      "with": ["donald-trump", "mike-johnson"],
+      "kind": "policy",
+      "outcome": "granted",
+      "decided": "2025-11-19",
+      "what": "One of four Republicans who signed the discharge petition to release the Epstein files; Trump signed the bill on Nov. 19 after first opposing it.",
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=3891771", "title": "Trump signs Epstein bill after swift passage in Senate — Washington Examiner" },
+        { "url": "https://www.cbsnews.com/news/trump-says-signed-epstein-files-bill", "title": "Trump says he signed Epstein files bill — CBS News" }
+      ]
+    }
+  ]
 }

@@ -324,6 +324,8 @@ export interface Office {
   reports_to?: string;
   /** YYYY, YYYY-MM or YYYY-MM-DD. */
   since?: string;
+  /** YYYY-MM-DD: when someone last confirmed they still hold the post (see CLAUDE.md "Freshness"). */
+  verified?: string;
   acting?: boolean;
   sources: SourceRef[];
 }
@@ -345,6 +347,30 @@ export interface AccessEvent {
   /** Slugs of the officials involved (must have files). */
   with: string[];
   what: string;
+  sources: SourceRef[];
+}
+
+/** What was asked of officials. Keep in sync with scripts/validate.mjs (a test checks this). */
+export const ASK_KINDS = ['appointment', 'pardon', 'policy', 'regulatory', 'contract', 'deal', 'aid', 'other'] as const;
+export const ASK_OUTCOMES = ['granted', 'partial', 'denied', 'pending'] as const;
+export type AskKind = (typeof ASK_KINDS)[number];
+export type AskOutcome = (typeof ASK_OUTCOMES)[number];
+
+/**
+ * A request to officials (an appointment, pardon, policy, ruling, contract, deal or aid) and how it
+ * turned out. The track record is shown beside Pull and used to test its weights; it never lowers
+ * anyone's score. See CLAUDE.md "Track record".
+ */
+export interface Ask {
+  /** When the ask was made public, YYYY-MM or YYYY-MM-DD. */
+  date: string;
+  /** Slugs of the officials who decided it; empty when no one on the map did (an agency, a court). */
+  with: string[];
+  what: string;
+  kind: AskKind;
+  outcome: AskOutcome;
+  /** When it was decided (not for pending). */
+  decided?: string;
   sources: SourceRef[];
 }
 
@@ -469,6 +495,8 @@ export interface Person {
   leverage?: Leverage;
   /** Documented meetings, calls and deals with officials (recent ones raise Pull). */
   access?: AccessEvent[];
+  /** Requests to officials and their outcomes (the track record beside Pull). */
+  asks?: Ask[];
   current_role?: string;
   summary?: string;
   /** Sources backing summary and current_role. */

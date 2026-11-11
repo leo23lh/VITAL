@@ -360,5 +360,31 @@
   ],
   "source_conflicts": [],
   "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Records for Trump (employer), Sessions and Miller mirror the records already in their files. Not recorded as connections: Bannon's media advice to Jeffrey Epstein in 2019 and their messages released in 2025–2026 (documented in the cited Wikipedia article), and a 1996 domestic case (private matter). The Mercer link's 2012 start is approximate (the Mercers invested in Breitbart around then). Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "asks": [
+    {
+      "date": "2025-06",
+      "with": ["donald-trump"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-06-21",
+      "what": "Urged caution about joining Israel's strikes on Iran without a diplomatic deal, and met Trump about it; the US struck Iran on June 21.",
+      "sources": [
+        { "url": "https://www.npr.org/2025/06/18/nx-s1-5438122/trump-iran-israel-conflict-tucker-carlson", "title": "Pro-Trump media figures split over the U.S. role in the Israel-Iran conflict — NPR" },
+        { "url": "https://www.washingtonexaminer.com/news/3448468/maga-iran-trump-civil-war/", "title": "MAGA voices confident that Trump is listening to them on Iran — Washington Examiner" }
+      ]
+    },
+    {
+      "date": "2025-09",
+      "with": ["donald-trump"],
+      "kind": "policy",
+      "outcome": "partial",
+      "decided": "2025-09-19",
+      "what": "Long called for scrapping the H-1B program; Trump instead put a $100,000 fee on new petitions, which Bannon backed.",
+      "sources": [
+        { "url": "https://www.npr.org/2025/09/20/nx-s1-5548568/h1b-visa-fee-trump-tech", "title": "Trump's $100,000 H-1B visa fee — NPR" },
+        { "url": "https://www.mediaite.com/media/news/dude-bannon-demolishes-trump-cabinet-secretary-for-pushing-patently-false-info-on-h-1b-visas", "title": "Bannon on the H-1B fee — Mediaite" }
+      ]
+    }
+  ]
 }

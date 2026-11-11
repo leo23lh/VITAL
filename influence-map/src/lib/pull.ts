@@ -86,16 +86,31 @@ const PULL_LABELS: [number, string][] = [
 ];
 export const pullLabel = (score: number) => PULL_LABELS.find(([min]) => score >= min)?.[1] ?? 'No pull on record';
 
-/** Ties to people below you count a quarter: pull is about access upward. */
-const DOWNWARD = 0.25;
-/** Each further tie counts half as much as the one before. */
-const FALLOFF = 0.5;
+export const LEVERAGE_LABELS = ['', 'notable', 'major', 'systemic'] as const;
+
+/**
+ * The weights behind Pull. They are tested against the track record of asks (scripts/tune-pull.mjs);
+ * change them only when that test supports it. See CLAUDE.md "Track record".
+ */
+export interface PullParams {
+  /** Ties to people below you count this much: pull is about access upward. */
+  downward: number;
+  /** Each further tie counts this much of the one before. */
+  falloff: number;
+  /** What leverage level 1 adds to the part of pull that ties leave open; level 2 twice, level 3 three times. */
+  leverageStep: number;
+  /** Each recent documented meeting or deal with an official closes this share of the gap to a full bond (up to three). */
+  accessBoost: number;
+  /** Bond assumed for an official met recently but with no link in the map. */
+  metOnlyBond: number;
+}
+
+export const DEFAULT_PULL: PullParams = { downward: 0.25, falloff: 0.5, leverageStep: 0.15, accessBoost: 0.15, metOnlyBond: 20 };
 
 /** What each leverage level adds to the part of pull that ties leave open. */
-export const LEVERAGE_WEIGHT = [0, 0.15, 0.3, 0.45] as const;
-export const LEVERAGE_LABELS = ['', 'notable', 'major', 'systemic'] as const;
+export const LEVERAGE_WEIGHT = [0, 1, 2, 3].map((n) => n * DEFAULT_PULL.leverageStep);
 /** Each recent documented meeting or deal with an official closes this share of the gap to a full bond (up to three). */
-export const ACCESS_BOOST = 0.15;
+export const ACCESS_BOOST = DEFAULT_PULL.accessBoost;
 
 /** An access date (YYYY-MM-DD, or YYYY-MM read as the 1st) as a UTC day number; NaN if invalid. */
 export function accessDay(date: string): number {
@@ -130,9 +145,16 @@ function recentByOfficial(events: AccessEvent[] | undefined, now: Date): Map<str
  * lower it: pull counts documented access and leverage only.
  */
 /** Bond assumed for an official met recently but with no link in the map. */
-const MET_ONLY_BOND = 20;
+export const MET_ONLY_BOND = DEFAULT_PULL.metOnlyBond;
 
-export function pullOf(id: string, nodes: GraphNode[], idx: BondIndex, now = new Date(), self = nodes.find((n) => n.id === id)): Pull {
+export function pullOf(
+  id: string,
+  nodes: GraphNode[],
+  idx: BondIndex,
+  now = new Date(),
+  self = nodes.find((n) => n.id === id),
+  params: PullParams = DEFAULT_PULL,
+): Pull {
   const own = power(self);
   const recentCounts = recentByOfficial(self?.person?.access, now);
   const via: PullVia[] = [];
@@ -146,14 +168,14 @@ export function pullOf(id: string, nodes: GraphNode[], idx: BondIndex, now = new
     if (tie?.status === 'hostile') continue;
     const bond = tie?.score ?? 0;
     if (!bond && !recent) continue;
-    const base = tie ? bond : MET_ONLY_BOND;
-    const effective = Math.round(base + (100 - base) * ACCESS_BOOST * Math.min(recent, 3));
-    via.push({ id: d.id, power: p, bond, recent, effective, linked: !!tie, weight: ((p * effective) / 100) * (p < own ? DOWNWARD : 1) });
+    const base = tie ? bond : params.metOnlyBond;
+    const effective = Math.round(base + (100 - base) * params.accessBoost * Math.min(recent, 3));
+    via.push({ id: d.id, power: p, bond, recent, effective, linked: !!tie, weight: ((p * effective) / 100) * (p < own ? params.downward : 1) });
   }
   via.sort((x, y) => y.weight - x.weight);
-  const access = 1 - via.reduce((acc, v, i) => acc * (1 - v.weight * FALLOFF ** i), 1);
+  const access = 1 - via.reduce((acc, v, i) => acc * (1 - v.weight * params.falloff ** i), 1);
   const leverage = self?.person?.leverage?.level ?? 0;
-  const score = Math.round(100 * (access + (1 - access) * LEVERAGE_WEIGHT[leverage]));
+  const score = Math.round(100 * (access + (1 - access) * Math.min(0.9, leverage * params.leverageStep)));
   return { score, label: pullLabel(score), via, access: Math.round(100 * access), leverage };
 }
 
@@ -162,10 +184,10 @@ export interface PullRow extends Pull {
 }
 
 /** Everyone living ranked by pull (people only; the President is left out as the source of it). */
-export function rankPull(nodes: GraphNode[], idx: BondIndex, now = new Date()): PullRow[] {
+export function rankPull(nodes: GraphNode[], idx: BondIndex, now = new Date(), params: PullParams = DEFAULT_PULL): PullRow[] {
   return nodes
     .filter((n) => n.researched && !n.isOrg && !n.person?.died && !(n.person?.office?.unit === 'white-house' && n.person.office.rank === 1))
-    .map((n) => ({ id: n.id, ...pullOf(n.id, nodes, idx, now, n) }))
+    .map((n) => ({ id: n.id, ...pullOf(n.id, nodes, idx, now, n, params) }))
     .filter((r) => r.score > 0)
     .sort((a, b) => b.score - a.score);
 }

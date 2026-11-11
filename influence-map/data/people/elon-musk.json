@@ -1219,5 +1219,67 @@
         { "url": "https://time.com/article/2026/10/22/trump-elon-musk-ukraine-oligarchs-starlink/", "title": "The price of Faustian bargains with Trump — TIME (October 2026)" }
       ]
     }
+  ],
+  "asks": [
+    {
+      "date": "2025-04",
+      "with": ["donald-trump"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-04-09",
+      "what": "Called for a \"zero-tariff\" free-trade zone with Europe after the April 2 tariffs and, per the Washington Post, asked Trump directly to reverse them; the tariffs stayed (paused, not lifted, on April 9).",
+      "sources": [
+        { "url": "https://fortune.com/2025/04/05/musk-us-europe-zero-tariff-free-trade-zone-peter-navarro/", "title": "Musk hopes US, Europe move to zero-tariff free-trade zone — Fortune" },
+        { "url": "https://aljazeera.com/news/2025/4/7/musk-vs-navarro-is-the-trump-team-divided-on-tariffs", "title": "Musk vs Navarro: Is the Trump team divided on tariffs? — Al Jazeera" }
+      ]
+    },
+    {
+      "date": "2025-05",
+      "with": ["donald-trump"],
+      "kind": "appointment",
+      "outcome": "denied",
+      "decided": "2025-05-31",
+      "what": "Backed his associate Jared Isaacman for NASA administrator; Trump withdrew the nomination days before the Senate vote, citing \"prior associations\" (he renominated Isaacman in November 2025, after the two men reconciled).",
+      "sources": [
+        { "url": "https://spaceflightnow.com/2025/05/31/president-trump-withdraws-isaacman-nomination-for-nasa-administrator-days-before-senate-confirmation-vote/", "title": "President Trump withdraws Isaacman nomination — Spaceflight Now" },
+        { "url": "https://wbhm.org/npr-story/trump-says-he-will-withdraw-nomination-of-musk-associate-jared-isaacman-to-lead-nasa", "title": "Trump says he will withdraw nomination of Musk associate Jared Isaacman — NPR" }
+      ]
+    },
+    {
+      "date": "2025-06",
+      "with": ["donald-trump", "mike-johnson", "john-thune"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-07-04",
+      "what": "Urged Congress to kill the One Big Beautiful Bill, calling it a \"disgusting abomination\"; it passed and Trump signed it on July 4.",
+      "sources": [
+        { "url": "https://www.axios.com/2025/06/03/elon-musk-trump-bill-deficit-spending", "title": "Musk blasts Trump's signature bill as \"disgusting abomination\" — Axios" },
+        { "url": "https://wbhm.org/npr-story/in-a-break-with-trump-elon-musk-calls-the-gop-megabill-a-disgusting-abomination", "title": "Elon Musk calls the GOP megabill a \"disgusting abomination\" — NPR" }
+      ]
+    },
+    {
+      "date": "2025-09",
+      "with": ["donald-trump"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-09-19",
+      "what": "Defended the H-1B visa program (\"the reason I'm in America\"); Trump put a $100,000 fee on new H-1B petitions.",
+      "sources": [
+        { "url": "https://techcrunch.com/2025/09/20/trump-hits-h-1b-visas-with-100000-fee-targeting-the-program-that-launched-elon-musk-and-instagram", "title": "Trump hits H-1B visas with $100,000 fee — TechCrunch" },
+        { "url": "https://fortune.com/2025/09/22/elon-musk-vowed-war-h1b-silent-trump-kirk-funeral/", "title": "Elon Musk vowed war over H-1B, now silent — Fortune" }
+      ]
+    },
+    {
+      "date": "2025-09",
+      "with": [],
+      "kind": "contract",
+      "outcome": "granted",
+      "decided": "2025-09-25",
+      "what": "xAI won a government-wide GSA agreement making its Grok models available to federal agencies.",
+      "sources": [
+        { "url": "https://www.gsa.gov/about-us/newsroom/news-releases/gsa-xai-partner-to-accelerate-federal-ai-adoption-09252025", "title": "GSA, xAI partner to accelerate federal AI adoption — GSA" },
+        { "url": "https://www.nextgov.com/acquisition/2025/09/gsa-inks-onegov-deal-grok-ai/408334/", "title": "GSA inks OneGov deal with Grok AI — Nextgov" }
+      ]
+    }
   ]
 }

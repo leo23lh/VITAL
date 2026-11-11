@@ -607,5 +607,19 @@
         "recipients": []
       }
     ]
-  }
+  },
+  "asks": [
+    {
+      "date": "2025-10",
+      "with": ["david-sacks", "donald-trump"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-11-06",
+      "what": "An OpenAI letter to the White House (Oct. 27) reportedly sought federal loan guarantees for AI infrastructure; after its CFO floated a federal \"backstop,\" David Sacks said there would be \"no federal bailout for AI.\" OpenAI and Altman deny seeking a bailout.",
+      "sources": [
+        { "url": "https://decrypt.co/347866/openai-sought-government-loan-guarantees-sam-altman-denial", "title": "OpenAI sought government loan guarantees despite Altman denial — Decrypt" },
+        { "url": "https://techcrunch.com/2025/11/06/sam-altman-says-he-doesnt-want-the-government-to-bail-out-openai-if-it-fails", "title": "Sam Altman says he doesn't want the government to bail out OpenAI — TechCrunch" }
+      ]
+    }
+  ]
 }

@@ -882,5 +882,31 @@
     "sources": [
       { "url": "https://www.france24.com/en/live-news/20261023-from-tech-giants-to-anonymous-nonprofits-the-biggest-donors-in-us-midterms", "title": "From tech giants to anonymous nonprofits, the biggest donors in US midterms — AFP via France 24" }
     ]
-  }
+  },
+  "asks": [
+    {
+      "date": "2025-03",
+      "with": [],
+      "kind": "regulatory",
+      "outcome": "partial",
+      "decided": "2025-08-22",
+      "what": "Ripple sought to end the SEC case on softer terms; the SEC agreed to cut the penalty to $50 million, but the judge refused, and both sides dropped their appeals with the $125 million penalty in place.",
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/litigation/ripple-sec-drop-appeal-after-settlement-path-blocked-by-judge", "title": "Ripple, SEC drop appeal after settlement path blocked by judge — Bloomberg Law" },
+        { "url": "https://decrypt.co/334144/sec-ripple-end-appeals-closing-landmark-crypto-case", "title": "SEC and Ripple end appeals — Decrypt" }
+      ]
+    },
+    {
+      "date": "2025-07",
+      "with": [],
+      "kind": "regulatory",
+      "outcome": "granted",
+      "decided": "2025-12-12",
+      "what": "Ripple applied for a national trust bank charter; the OCC conditionally approved it on Dec. 12.",
+      "sources": [
+        { "url": "https://www.axios.com/2025/12/12/banks-crypto-occ-charters", "title": "OCC conditionally approves 5 crypto firms for national trust bank charters — Axios" },
+        { "url": "https://ripple.com/ripple-press/ripple-secures-federal-approval-to-establish-national-trust-bank/", "title": "Ripple secures federal approval to establish national trust bank — Ripple" }
+      ]
+    }
+  ]
 }

@@ -1178,5 +1178,19 @@
       { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post (June 2026)" },
       { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" }
     ]
-  }
+  },
+  "asks": [
+    {
+      "date": "2024-03",
+      "with": ["donald-trump"],
+      "kind": "policy",
+      "outcome": "granted",
+      "decided": "2025-01-20",
+      "what": "His firm holds about 15% of TikTok's parent; reporting ties his lobbying to Trump's reversal against a TikTok ban, which Trump then delayed by order from his first day back. Trump said Yass never raised TikTok.",
+      "sources": [
+        { "url": "https://readsludge.com/2025/08/01/tiktok-billionaire-donates-millions-to-trump-as-he-repeatedly-delays-ban/", "title": "TikTok billionaire donates millions to Trump as he repeatedly delays ban — Sludge" },
+        { "url": "https://www.inquirer.com/politics/election/tiktok-ban-jeffrey-yass-trump-officials-20240809.html", "title": "Jeff Yass, TikTok and Trump officials — Philadelphia Inquirer" }
+      ]
+    }
+  ]
 }
