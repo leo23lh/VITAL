@@ -16,6 +16,7 @@
     "predict": "node scripts/predict.mjs",
     "fec": "node scripts/fec-import.mjs",
     "tune-pull": "node scripts/tune-pull.mjs",
+    "freshness": "node scripts/freshness.mjs",
     "build:artifact": "node scripts/build-artifact.mjs"
   },
   "engines": {

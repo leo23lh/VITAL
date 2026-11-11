@@ -6,6 +6,7 @@ import type { Selection } from '../../lib/view';
 import { Confidence, CopyCommand, SourceList, dedupeSources, otherEnd, uniqueDescriptions } from './parts';
 import { BackingSection, hasBackingTab, type BackingTools } from './BackingSection';
 import { PullSection, type PullTools } from './PullSection';
+import { ago, daysSince, freshnessOf, officeChecked } from '../../lib/freshness';
 
 export function NodePanel({
   node,
@@ -381,7 +382,18 @@ export function NodePanel({
       {(d?.notes || d?.last_researched || node.file) && (
         <footer className="panel-footer muted">
           {d?.notes && <p>{d.notes}</p>}
-          {d?.last_researched && <div>Last researched: {d.last_researched}</div>}
+          {d?.last_researched && (
+            <div>
+              Last researched: {d.last_researched}
+              <ResearchAge date={d.last_researched} />
+            </div>
+          )}
+          {p?.office && (
+            <div>
+              Post last confirmed: {officeChecked(node) ?? 'not recorded'}
+              {!p.office.verified && <span className="muted"> (the file's research date)</span>}
+            </div>
+          )}
           {node.file && (
             <div>
               File: data/{o ? 'orgs' : 'people'}/{node.file}
@@ -593,3 +605,17 @@ function ComparePicker({
 }
 
 /** The pair's closest friendly link (rivalries only if there is nothing else). */
+
+/** " · 3 weeks ago", flagged when the file is aging or stale. */
+function ResearchAge({ date }: { date: string }) {
+  const days = daysSince(date);
+  if (days === null) return null;
+  const f = freshnessOf(days);
+  return (
+    <span className={f === 'fresh' ? 'muted' : `research-${f}`}>
+      {' '}
+      · {ago(days)}
+      {f === 'stale' ? ' (stale: due for a refresh)' : f === 'aging' ? ' (aging)' : ''}
+    </span>
+  );
+}

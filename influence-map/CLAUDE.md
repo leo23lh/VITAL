@@ -26,6 +26,9 @@ the slash commands in the repo root's `.claude/commands/`:
 | `data/predictions.json` | The prediction log: dated runs of `[person, contender, score, basis]` (`npm run predict -- --save`). |
 | `scripts/fec-import.mjs` | Imports donors' campaign finance filings from the FEC (`npm run fec`). See "FEC import". |
 | `data/fec.json` | Settings for the import: politicians' FEC candidate ids, which committees belong to whom, and matching rules per donor. |
+| `scripts/freshness.mjs` | What to check next (unconfirmed posts, old files) and when the recurring jobs last ran (`npm run freshness`). See "Freshness". |
+| `data/history.json` | Monthly snapshots of Pull and 2028 first choices, for trends (`npm run freshness -- --snapshot`). |
+| `scripts/tune-pull.mjs` | Tests Pull's weights against the track record of asks (`npm run tune-pull`). See "Track record". |
 | `src/` | Vite + React + TypeScript viewer (`npm run dev`). Reads the data folder and live-reloads. |
 
 ## Research rules
@@ -336,6 +339,7 @@ close someone is to people in power (`src/lib/pull.ts`):
   contracts, media, money, voters).
 - **No setbacks:** firings, court rulings, investigations and stalled
   nominations never lower Pull; it counts documented access and leverage only.
+  Denied asks don't lower it either (see "Track record").
 - Labels: 75+ inner-circle access, 55+ strong, 35+ real, 15+ some, else little.
 
 ```json
@@ -393,6 +397,10 @@ Current government officials carry an `office` field, which places them in
 - Senior staff of officials (chiefs of staff, deputy chiefs, agency heads)
   count as public figures for their public role (research rule 1); record only
   their posts and public record.
+- **verified** (optional, YYYY-MM-DD): the day someone last confirmed the
+  person still holds the post. Set it whenever a refresh confirms a post, even
+  if nothing else changed. Without it, the file's `last_researched` stands in.
+  The org chart flags posts not confirmed in 30 days (see "Freshness").
 - **`org_chart_only: true`** (needs an `office`): junior officials (department
   chiefs of staff, deputy chiefs, assistant secretaries, deputies) live in the
   org chart and Pull but stay off the main web and group views, unless
@@ -716,6 +724,66 @@ a prediction, built in two layers:
   same-side rival's camp. Save a run after any big change to the map or the
   rules; never edit old runs.
 
+## Track record
+
+People can carry `asks`: requests they made of officials (an appointment, a
+pardon, a policy, a ruling, a contract, a deal or disaster aid) and how each
+turned out. They show in the Pull tab under **Track record**.
+
+```json
+"asks": [
+  { "date": "2025-04", "with": ["donald-trump"], "kind": "policy", "outcome": "denied",
+    "decided": "2025-04-07", "what": "Flew to Washington to seek relief from the 17% tariff on Israel; Trump gave none.",
+    "sources": [{ "url": "https://…" }, { "url": "https://…" }] }
+]
+```
+
+- `date`: when the ask became public. `with`: the officials on the map who
+  decided it (empty when an agency, a court or someone off the map did).
+  `kind`: `appointment`, `pardon`, `policy`, `regulatory`, `contract`, `deal`,
+  `aid` or `other`. `outcome`: `granted`, `partial`, `denied` or `pending`;
+  `decided` is the date of the outcome (none while pending).
+- Record only asks the sources show: a stated request, a reported lobbying
+  push, a formal application. Public advocacy counts when it was aimed at a
+  decision then pending. Where accounts differ on whether someone asked, say
+  so in `what` (rule 4). Two sources each, as for connections.
+- **The track record never changes anyone's score.** It is there to see, and
+  to test Pull. `npm run tune-pull` freezes the map at each ask's date (posts
+  and meetings to the day, ties to the year, leverage kept), scores the asker,
+  and asks whether higher scores went with granted asks. On the first 28
+  asks (12 granted, 13 denied, 3 partly granted), overall Pull did not
+  (AUC 0.48, and no weight setting helped on held-out asks); the asker's bond
+  with the official who decided did, modestly (0.66 held out). So Pull's
+  weights stay as they are: Pull measures access, not success. For a
+  particular ask, "Whose ear" (Bond with one official) is the better guide.
+- Pull's weights live in `DEFAULT_PULL` (`src/lib/pull.ts`). Change them only
+  when `npm run tune-pull` supports it on held-out asks, and re-run it as asks
+  are added; the sample is small, so a few points of AUC mean nothing.
+- Known limit: ties are dated by year, so a tie that started later in the
+  same year as an ask still counts (Musk's 2025 feud with Trump lowers his
+  bond for his April 2025 ask).
+
+## Freshness
+
+Every file has `last_researched`, and every post can have `office.verified`.
+`src/lib/freshness.ts` turns them into ages: a file is **aging** after 45 days
+and **stale** after 90; a post is **due** for a check after 30. The Record tab
+shows how old the research is, and the org chart marks posts not confirmed
+in 30 days ("checked 2 months ago").
+
+- `npm run freshness` lists what to check first: unconfirmed posts and old
+  files, ordered by how much the person matters (their post's weight, their
+  Pull, or their connections) times how overdue they are. It also says when
+  the FEC import, the prediction log, the scorecard and the monthly snapshot
+  last ran.
+- `npm run freshness -- --snapshot` records this month's Pull scores and 2028
+  first choices in `data/history.json` (one entry a month; a later run in the
+  same month replaces it). Rising and falling arrows will read these.
+- The weekly refresh (see "Updates feed") works from this list: it confirms
+  the posts that are due (setting `office.verified`), refreshes the people
+  who made news and the most overdue files, re-runs the FEC import, saves a
+  prediction run and a scorecard run, and takes the monthly snapshot.
+
 ## Two-way links
 
 Every connection between two people who both have files must be recorded in
@@ -738,8 +806,11 @@ bar), with a badge for entries this device hasn't seen. Each entry:
 
 `/add-person`, `/refresh-person` and `/add-org` add an entry for each run.
 A scheduled task ("Influence Map weekly refresh", Sundays 5:34 PM Arizona time)
-starts a fresh cloud session each week that refreshes up to 8 people who made
-news, adds a `YYYY-MM-DD-weekly-refresh` entry, pushes and syncs the phone page. The
+starts a fresh cloud session each week that confirms the posts due for a
+check, refreshes up to 8 people who made news or are most overdue, re-runs
+the FEC import, saves prediction and scorecard runs and the monthly snapshot
+(see "Freshness"), adds a `YYYY-MM-DD-weekly-refresh` entry, pushes and syncs
+the phone page. The
 text only summarizes what the files say (no new facts, so no sources of its
 own); `people` must be slugs with files, and the chips jump to them. The
 validator checks ids (date plus a short label, unique), dates and slugs.
@@ -778,7 +849,8 @@ on a phone. Its link is in `artifact.json`.
 
 - `npm install` once, then `npm run dev` (opens http://127.0.0.1:5173).
 - `npm test` runs unit tests; `npm run typecheck`; `npm run validate` checks data;
-  `npm run evidence` and `npm run scorecard` report on sourcing and predictive power.
+  `npm run evidence`, `npm run scorecard` and `npm run tune-pull` report on
+  sourcing and predictive power; `npm run freshness` on what is out of date.
 - **Code layout.** `src/lib/graph.ts` turns files into nodes and links and
   scores them (compare, bond, clusters). `src/lib/evidence.ts` grades each
   link's sources; `src/lib/backing.ts` scores 2028 backing; `src/lib/backtest.ts` is the scorecard (not part of the app
@@ -799,7 +871,8 @@ on a phone. Its link is in `artifact.json`.
 - **Phone tab bar.** On a folded phone (narrow screens), Map, Views, Filters and
   Updates sit in a bottom tab bar instead of the header.
 - **Person panel.** Tabs: **Overview** (summary and the five closest ties by
-  Bond score), **Ties** (everyone, strongest bond first), **Pull**, **2028**
+  Bond score), **Ties** (everyone, strongest bond first), **Pull** (with the
+  track record of asks), **2028**
   (whom they are likely to back, or for a contender their likely backers), **Money** (giving or
   an organization's finances; only when there is some) and **Record** (lean,
   timeline, affiliations, disagreements, notes and file).

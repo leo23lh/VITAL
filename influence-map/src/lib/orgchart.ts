@@ -1,5 +1,6 @@
 // The government org chart: who holds which post and who they report to, from each file's `office`.
 import { bond, pairKey, type GraphLink, type GraphNode, type WorkplaceIndex } from './graph';
+import { daysSince, officeChecked } from './freshness';
 import { OFFICE_UNITS, type OfficeUnit } from './schema';
 
 export interface ChartRow {
@@ -7,6 +8,8 @@ export interface ChartRow {
   name: string;
   title: string;
   acting: boolean;
+  /** Days since the post was last confirmed (its `verified` date, else the file's research date). */
+  checkedDays: number | null;
   rank: number;
   photoUrl?: string;
   /** Who they report to, when recorded. */
@@ -57,6 +60,7 @@ export function buildOrgChart(nodes: GraphNode[], links: GraphLink[], workplaces
       name: n.name,
       title: o.title,
       acting: !!o.acting,
+      checkedDays: daysSince(officeChecked(n)),
       rank: o.rank,
       photoUrl: n.photoUrl,
       bossId: boss?.id,

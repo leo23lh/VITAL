@@ -56,6 +56,9 @@ optionally followed by context about what to focus on.
 
 6. **Write the files.**
    - Update `DATA_DIR/<slug>.json` and set `last_researched` to today.
+   - If they hold an `office` and the sources confirm they still hold it, set
+     `office.verified` to today (CLAUDE.md "Freshness"). Record any new asks of
+     officials and their outcomes in `asks` (CLAUDE.md "Track record").
      Re-check `sector` and `groups` against the CLAUDE.md tables (roles change),
      and whether each `rival` or `enemy` record is still ongoing (`end_year: null`) or has ended,
      and still the right type (rival = equals competing; enemy = one opposing the other).

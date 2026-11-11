@@ -2329,3 +2329,20 @@ a.source-chip:hover {
 .outcome-pending {
   color: var(--muted);
 }
+
+/* Freshness */
+.org-unchecked {
+  margin-left: 6px;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--warn);
+}
+
+.research-aging {
+  color: var(--warn);
+}
+
+.research-stale {
+  color: var(--red-text);
+}

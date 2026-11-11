@@ -1,5 +1,22 @@
 [
   {
+    "id": "2026-11-11-track-record-freshness",
+    "date": "2026-11-11",
+    "text": "New: a track record in each person's Pull tab, listing 28 sourced asks of officials (appointments, policy, contracts, rulings, disaster aid) and how they turned out. Tested against them, overall Pull did not predict who got their way (a coin flip), while closeness to the official who decided did, modestly; Pull's weights stay as they are, and a denied ask never lowers anyone's score. Also new: freshness checks. The org chart flags posts not confirmed in 30 days, the Record tab shows how old each file's research is, and the weekly refresh now confirms posts that are due, re-runs the FEC import, logs predictions and saves a monthly snapshot for trend arrows.",
+    "people": [
+      "elon-musk",
+      "larry-ellison",
+      "benjamin-netanyahu",
+      "tucker-carlson",
+      "mark-zuckerberg",
+      "sam-altman",
+      "chris-larsen",
+      "thomas-massie",
+      "chuck-schumer",
+      "andy-beshear"
+    ]
+  },
+  {
     "id": "2026-11-10-fec-import",
     "date": "2026-11-10",
     "text": "Campaign finance filings imported from the FEC for 44 donors, 2016 to 2026: about 18,000 itemized gifts, matched by name and employer so namesakes are left out, with no addresses kept. Each donor's Money tab now lists who they funded cycle by cycle, with links to the filings, and gifts of $10,000 or more to someone on the map became 106 new money lines. Where filings and news reports disagree, both figures show. With four times as many past donations to test on, the 2028 backing score still holds up: 0.80 and 0.88 (0.50 is a coin flip), and about 6 in 10 pairs it rates likely went on to give.",

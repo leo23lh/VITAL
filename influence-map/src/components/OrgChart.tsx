@@ -1,5 +1,6 @@
 // Org chart view: the government as a hierarchy instead of a web. Tap anyone to open their details.
 import { useEffect, useRef } from 'react';
+import { ago, OFFICE_DUE_DAYS } from '../lib/freshness';
 import type { ChartRow, ChartUnit, OrgChart as Chart } from '../lib/orgchart';
 import Avatar from './Avatar';
 
@@ -39,6 +40,11 @@ function Row({ row, selectedId, onSelect }: { row: ChartRow; selectedId: string 
           <span className="org-title">
             {row.title}
             {row.acting && <span className="org-acting">acting</span>}
+            {row.checkedDays !== null && row.checkedDays > OFFICE_DUE_DAYS && (
+              <span className="org-unchecked" title="Post not confirmed recently; it may have changed">
+                checked {ago(row.checkedDays)}
+              </span>
+            )}
           </span>
           {(row.bossElsewhere || row.bossId) && (
             <span className="org-boss">
