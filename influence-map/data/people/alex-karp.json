@@ -265,7 +265,7 @@
     "cycles": [
       {
         "cycle": 2026,
-        "total_usd": 2066430,
+        "total_usd": 2581430,
         "ranking": "FEC itemized receipts (federal committees only)",
         "sources": [
           { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&two_year_transaction_period=2026", "title": "FEC itemized receipts: KARP, ALEX, 2026 cycle" }
@@ -355,8 +355,8 @@
           {
             "name": "Americans 4 Security PAC",
             "kind": "super-pac",
-            "amount_usd": 100000,
-            "fec_usd": 100000,
+            "amount_usd": 525000,
+            "fec_usd": 525000,
             "fec_ids": ["C00733352"],
             "sources": [
               { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00733352&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Americans 4 Security PAC, 2026 cycle" }
@@ -397,6 +397,16 @@
             "description": "Per FEC filings: Mike Johnson for Louisiana $7,000.",
             "sources": [
               { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Mike Johnson for Louisiana, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Security Is Strength PAC",
+            "kind": "super-pac",
+            "amount_usd": 90000,
+            "fec_usd": 90000,
+            "fec_ids": ["C00573733"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00573733&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Security Is Strength PAC, 2026 cycle" }
             ]
           }
         ]

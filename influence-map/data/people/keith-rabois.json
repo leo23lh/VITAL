@@ -318,7 +318,7 @@
     "cycles": [
       {
         "cycle": 2026,
-        "total_usd": 4368167,
+        "total_usd": 4668167,
         "ranking": "FEC itemized receipts (federal committees only)",
         "sources": [
           { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&two_year_transaction_period=2026", "title": "FEC itemized receipts: RABOIS, KEITH, 2026 cycle" }
@@ -380,6 +380,16 @@
             "description": "Per FEC filings: Mike Johnson for Louisiana $7,000.",
             "sources": [
               { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: RABOIS, KEITH to Mike Johnson for Louisiana, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "The Sentinel Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 300000,
+            "fec_usd": 300000,
+            "fec_ids": ["C00811166"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00811166&two_year_transaction_period=2026", "title": "FEC receipts: RABOIS, KEITH to The Sentinel Action Fund, 2026 cycle" }
             ]
           }
         ]

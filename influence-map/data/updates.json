@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-11-12-fec-2026-reports",
+    "date": "2026-11-12",
+    "text": "Campaign finance filings re-imported after the FEC loaded the 2026 pre-general reports, which an earlier import had missed. Elon Musk's filings now show $168 million to the Senate Leadership Fund, matching the reported figure, and about $139 million to America PAC in his own name (reporting counts $216 million, including money given through his entities). Coming next month: arrows beside Pull scores showing who rose or fell since November.",
+    "people": [
+      "elon-musk",
+      "richard-uihlein",
+      "jeff-yass",
+      "stephen-schwarzman"
+    ]
+  },
+  {
     "id": "2026-11-11-track-record-freshness",
     "date": "2026-11-11",
     "text": "New: a track record in each person's Pull tab, listing 28 sourced asks of officials (appointments, policy, contracts, rulings, disaster aid) and how they turned out. Tested against them, overall Pull did not predict who got their way (a coin flip), while closeness to the official who decided did, modestly; Pull's weights stay as they are, and a denied ask never lowers anyone's score. Also new: freshness checks. The org chart flags posts not confirmed in 30 days, the Record tab shows how old each file's research is, and the weekly refresh now confirms posts that are due, re-runs the FEC import, logs predictions and saves a monthly snapshot for trend arrows.",

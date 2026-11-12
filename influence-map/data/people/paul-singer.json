@@ -476,6 +476,16 @@
             "sources": [
               { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00775015&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Schmitt for Senate, 2026 cycle" }
             ]
+          },
+          {
+            "name": "Security Is Strength PAC",
+            "kind": "super-pac",
+            "amount_usd": 750000,
+            "fec_usd": 750000,
+            "fec_ids": ["C00573733"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00573733&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Security Is Strength PAC, 2026 cycle" }
+            ]
           }
         ]
       },

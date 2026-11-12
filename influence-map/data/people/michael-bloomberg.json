@@ -271,8 +271,8 @@
           {
             "name": "Virgin Islanders for Progress PAC",
             "kind": "super-pac",
-            "amount_usd": 150000,
-            "fec_usd": 150000,
+            "amount_usd": 1607167,
+            "fec_usd": 1607167,
             "fec_ids": ["C00953307"],
             "sources": [
               { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00953307&two_year_transaction_period=2026", "title": "FEC receipts: BLOOMBERG, MICHAEL to Virgin Islanders for Progress PAC, 2026 cycle" }
@@ -286,6 +286,16 @@
             "fec_ids": ["C00927301"],
             "sources": [
               { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00927301&two_year_transaction_period=2026", "title": "FEC receipts: BLOOMBERG, MICHAEL to Our Future United PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Women Vote",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00473918"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00473918&two_year_transaction_period=2026", "title": "FEC receipts: BLOOMBERG, MICHAEL to Women Vote, 2026 cycle" }
             ]
           }
         ]

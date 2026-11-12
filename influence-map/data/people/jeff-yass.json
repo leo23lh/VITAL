@@ -308,8 +308,8 @@
           {
             "name": "V-PAC: Victors, Not Victims",
             "kind": "super-pac",
-            "amount_usd": 20000000,
-            "fec_usd": 20000000,
+            "amount_usd": 30000000,
+            "fec_usd": 30000000,
             "fec_ids": ["C00892919"],
             "sources": [
               { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00892919&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to V-PAC: Victors, Not Victims, 2026 cycle" }
@@ -381,8 +381,8 @@
           {
             "name": "Great Opportunity PAC, Inc.",
             "kind": "super-pac",
-            "amount_usd": 1000000,
-            "fec_usd": 1000000,
+            "amount_usd": 1250000,
+            "fec_usd": 1250000,
             "fec_ids": ["C00862094"],
             "sources": [
               { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00862094&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to Great Opportunity PAC, Inc., 2026 cycle" }
@@ -406,6 +406,16 @@
             "fec_ids": ["C00907584"],
             "sources": [
               { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00907584&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to Aurora Action Network, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "The Sentinel Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00811166"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00811166&two_year_transaction_period=2026", "title": "FEC receipts: YASS, JEFF to The Sentinel Action Fund, 2026 cycle" }
             ]
           }
         ]

@@ -345,7 +345,7 @@
     "cycles": [
       {
         "cycle": 2026,
-        "total_usd": 29293524,
+        "total_usd": 29803524,
         "ranking": "FEC itemized receipts (federal committees only)",
         "sources": [
           { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&two_year_transaction_period=2026", "title": "FEC itemized receipts: HOFFMAN, REID, 2026 cycle" }
@@ -504,6 +504,16 @@
             "description": "Per FEC filings: Jon Ossoff for Senate $7,000.",
             "sources": [
               { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00718866&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jon Ossoff for Senate, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Montana Voters PAC",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00887125"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00887125&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Montana Voters PAC, 2026 cycle" }
             ]
           }
         ]

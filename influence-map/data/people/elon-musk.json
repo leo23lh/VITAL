@@ -505,7 +505,7 @@
       "name": "Senate Leadership Fund",
       "slug": "senate-leadership-fund",
       "relationship_type": "funded_by",
-      "description": "Gave $10 million in 2023–24, then $158 million in the 2026 cycle (other tallies say $168 million), making him its biggest donor; it passed the same $158 million to Texas PAC, the main outside backer of Ken Paxton. FEC filings show $20,000,000 from Elon Musk to SLF PAC in 2 cycles (2024–2026).",
+      "description": "Gave $10 million in 2023–24, then $158 million in the 2026 cycle (other tallies say $168 million), making him its biggest donor; it passed the same $158 million to Texas PAC, the main outside backer of Ken Paxton. FEC filings show $178,000,000 from Elon Musk to SLF PAC in 2 cycles (2024–2026).",
       "start_year": 2024,
       "confidence": 0.9,
       "sources": [
@@ -546,7 +546,7 @@
       "name": "America PAC",
       "slug": "america-pac",
       "relationship_type": "funded_by",
-      "description": "More than $118 million by October 2024 (91% of its money), then $216 million in the 2026 cycle. In all he spent at least $250 million backing Trump in 2024, mostly through America PAC (other counts run higher). FEC filings show $288,832,760 from Elon Musk to America PAC in 2 cycles (2024–2026).",
+      "description": "More than $118 million by October 2024 (91% of its money), then $216 million in the 2026 cycle. In all he spent at least $250 million backing Trump in 2024, mostly through America PAC (other counts run higher). FEC filings show $377,699,130 from Elon Musk to America PAC in 2 cycles (2024–2026).",
       "start_year": 2024,
       "confidence": 0.95,
       "sources": [
@@ -760,7 +760,7 @@
               { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" },
               { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00879510&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to America PAC, 2026 cycle" }
             ],
-            "fec_usd": 50309514,
+            "fec_usd": 139175884,
             "fec_ids": ["C00879510"]
           },
           {
@@ -776,7 +776,7 @@
               { "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html", "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million — CNBC" },
               { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to SLF PAC, 2026 cycle" }
             ],
-            "fec_usd": 10000000,
+            "fec_usd": 168000000,
             "fec_ids": ["C00571703"]
           },
           {

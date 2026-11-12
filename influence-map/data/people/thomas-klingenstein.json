@@ -238,7 +238,7 @@
     "cycles": [
       {
         "cycle": 2026,
-        "total_usd": 7033101,
+        "total_usd": 12033101,
         "ranking": "FEC itemized receipts (federal committees only)",
         "sources": [
           { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&two_year_transaction_period=2026", "title": "FEC itemized receipts: KLINGENSTEIN, THOMAS, 2026 cycle" }
@@ -303,6 +303,16 @@
             "fec_ids": ["C00027466"],
             "sources": [
               { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: KLINGENSTEIN, THOMAS to NRSC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Civic Renewal Fund Inc.",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00953588"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00953588&two_year_transaction_period=2026", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Civic Renewal Fund Inc., 2026 cycle" }
             ]
           }
         ]
