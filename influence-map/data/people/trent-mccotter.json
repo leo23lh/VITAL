@@ -1,0 +1,97 @@
+{
+  "name": "Trent McCotter",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Acting Deputy Attorney General (since August 2026)",
+  "summary": "Trent McCotter has run the Justice Department day to day as acting deputy attorney general since Todd Blanche became attorney general in August 2026. Blanche brought him in as principal associate deputy attorney general in April 2026, his first leadership move after Pam Bondi’s removal. A partner at Boyden Gray PLLC who argued FCC v. Consumers’ Research at the Supreme Court in 2025, he was earlier a deputy associate attorney general and a federal prosecutor. Bloomberg Law reported in August 2026 that some at the White House back him for the permanent job but worry about a hard confirmation fight.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Trent_McCotter", "title": "Trent McCotter — Wikipedia" },
+    { "url": "https://news.bloomberglaw.com/us-law-week/blanche-fills-doj-leadership-position-in-first-post-bondi-move", "title": "Blanche fills DOJ leadership position in first post-Bondi move — Bloomberg Law" },
+    { "url": "https://news.bloomberglaw.com/us-law-week/blanches-doj-deputy-options-risk-renewed-settlement-fund-fight", "title": "Blanche’s DOJ deputy options risk renewed settlement fund fight — Bloomberg Law" },
+    { "url": "https://fedsoc.org/bio/trent-mccotter", "title": "Trent McCotter — The Federalist Society" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "role": "Assistant U.S. Attorney, then Deputy Associate Attorney General",
+      "org": "U.S. Department of Justice",
+      "sources": [
+        { "url": "https://fedsoc.org/bio/trent-mccotter", "title": "Trent McCotter — The Federalist Society" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": 2026,
+      "role": "Partner",
+      "org": "Boyden Gray PLLC",
+      "sources": [
+        { "url": "https://fedsoc.org/bio/trent-mccotter", "title": "Trent McCotter — The Federalist Society" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": 2026,
+      "role": "Principal Associate Deputy Attorney General",
+      "org": "U.S. Department of Justice",
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/us-law-week/blanche-fills-doj-leadership-position-in-first-post-bondi-move", "title": "Blanche fills DOJ leadership position in first post-Bondi move — Bloomberg Law" },
+        { "url": "https://en.wikipedia.org/wiki/Trent_McCotter", "title": "Trent McCotter — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Acting Deputy Attorney General",
+      "org": "U.S. Department of Justice",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Trent_McCotter", "title": "Trent McCotter — Wikipedia" },
+        { "url": "https://news.bloomberglaw.com/us-law-week/blanches-doj-deputy-options-risk-renewed-settlement-fund-fight", "title": "Blanche’s DOJ deputy options risk renewed settlement fund fight — Bloomberg Law" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Todd Blanche",
+      "slug": "todd-blanche",
+      "relationship_type": "employer",
+      "description": "Blanche made McCotter his principal associate deputy in April 2026, and he has been acting deputy attorney general since Blanche moved up in August.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/us-law-week/blanche-fills-doj-leadership-position-in-first-post-bondi-move", "title": "Blanche fills DOJ leadership position in first post-Bondi move — Bloomberg Law" },
+        { "url": "https://news.bloomberglaw.com/us-law-week/blanches-doj-deputy-options-risk-renewed-settlement-fund-fight", "title": "Blanche’s DOJ deputy options risk renewed settlement fund fight — Bloomberg Law" }
+      ]
+    },
+    {
+      "name": "Jonathan Berry",
+      "slug": "jonathan-berry",
+      "relationship_type": "colleague",
+      "description": "Both were partners at the small Washington firm Boyden Gray PLLC (Berry as managing partner) before joining the administration.",
+      "start_year": null,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fedsoc.org/bio/trent-mccotter", "title": "Trent McCotter — The Federalist Society" },
+        { "url": "https://www.dol.gov/agencies/sol/about/solicitor", "title": "Jonathan Berry, Solicitor of Labor — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Attorney General",
+    "acting": true,
+    "unit": "justice",
+    "rank": 2,
+    "reports_to": "todd-blanche",
+    "since": "2026-08-10",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Trent_McCotter", "title": "Trent McCotter — Wikipedia" },
+      { "url": "https://news.bloomberglaw.com/us-law-week/blanches-doj-deputy-options-risk-renewed-settlement-fund-fight", "title": "Blanche’s DOJ deputy options risk renewed settlement fund fight — Bloomberg Law" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

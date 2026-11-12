@@ -1,0 +1,633 @@
+{
+  "name": "David Sacks",
+  "aliases": ["David O. Sacks"],
+  "public_figure": true,
+  "sector": "tech",
+  "groups": ["trump-circle", "paypal-mafia", "tech-right", "ai-race", "media", "2028-race"],
+  "photo": {
+    "file": "david-sacks.jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:David_Sacks_in_March_2025.jpg", "title": "File:David Sacks in March 2025.jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": 1,
+      "start_year": null,
+      "end_year": 2023,
+      "basis": "Gave mostly to Republicans (including $50,000 to Romney in 2012 and more than $1 million to Republican-aligned PACs in 2022), with a 2016 donation to Hillary Clinton he calls a favor to a friend.",
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=494655", "title": "Washington Examiner: David Sacks donations" },
+        { "url": "https://www.bnnbloomberg.ca/business/technology/2024/06/05/david-sacks-tried-the-2024-alternatives-now-hes-all-in-on-trump/", "title": "Bloomberg: David Sacks tried the 2024 alternatives; now he's all in on Trump" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2024,
+      "end_year": null,
+      "basis": "Co-hosted a major Trump fundraiser and spoke at the 2024 Republican convention; White House AI and crypto czar since 2025.",
+      "sources": [
+        { "url": "https://www.axios.com/2024/05/24/trump-jd-vance-tech-fundraiser-david-sacks", "title": "Axios: Trump tech fundraiser with David Sacks" },
+        { "url": "https://www.bnnbloomberg.ca/business/technology/2024/06/05/david-sacks-tried-the-2024-alternatives-now-hes-all-in-on-trump/", "title": "Bloomberg: David Sacks is all in on Trump" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["jd-vance"],
+    "basis": "Lobbied Trump to pick Vance as his running mate in 2024 and remains a close tech ally; earlier a major DeSantis backer.",
+    "sources": [
+      { "url": "https://businessinsider.nl/elon-musk-tucker-carlson-and-david-sacks-personally-lobbied-trump-to-pick-vance-report", "title": "Business Insider" },
+      { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "CNBC: Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis" }
+    ]
+  },
+  "current_role": "Co-chair of the President's Council of Advisors on Science and Technology (PCAST); co-founder of Craft Ventures; All-In podcast co-host",
+  "summary": "David Sacks was PayPal's chief operating officer, co-wrote The Diversity Myth with Peter Thiel, founded Geni and Yammer (sold to Microsoft in 2012), and co-founded Craft Ventures in 2017. A longtime friend of Elon Musk who helped run his 2022 Twitter takeover, he co-hosted a June 2024 Trump fundraiser, spoke at the Republican convention, and served as Trump's White House AI and crypto czar from January 2025 until March 2026, when he moved to co-chair PCAST.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/David_Sacks", "title": "David Sacks — Wikipedia" },
+    { "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html", "title": "David Sacks says his time as Trump's crypto and AI czar has ended — CNBC" }
+  ],
+  "timeline": [
+    {
+      "year": 1999,
+      "end_year": 2002,
+      "role": "Chief operating officer and product leader",
+      "org": "PayPal",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Sacks", "title": "David Sacks — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2008,
+      "end_year": 2014,
+      "role": "Founder and CEO of Yammer (spun out of his genealogy site Geni; sold to Microsoft for $1.2 billion in 2012)",
+      "org": "Yammer / Microsoft",
+      "sources": [
+        { "url": "https://www.cnbc.com/2012/06/25/microsoft-buys-internet-startup-yammer-for-12-billion.html", "title": "Microsoft Buys Internet Startup Yammer for $1.2 Billion — CNBC" },
+        { "url": "https://en.wikipedia.org/wiki/David_Sacks", "title": "David Sacks — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": null,
+      "role": "Co-founder",
+      "org": "Craft Ventures",
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html", "title": "David Sacks says his time as Trump's crypto and AI czar has ended — CNBC" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "White House Special Advisor for AI and Crypto (\"AI and crypto czar\"), until March 26, 2026",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/12/05/trump-david-sacks-billionaire-ai-crypto.html", "title": "Trump says venture capitalist David Sacks will be AI and crypto 'czar' — CNBC" },
+        { "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html", "title": "David Sacks says his time as Trump's crypto and AI czar has ended — CNBC" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Co-chair",
+      "org": "President's Council of Advisors on Science and Technology",
+      "sources": [
+        { "url": "https://www.axios.com/2026/03/26/trump-white-house-david-sacks-ai-czar-policy-influence", "title": "David Sacks drops \"AI czar\" label, not policy influence — Axios" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "All-In podcast",
+      "role": "Co-host",
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html", "title": "David Sacks says his time as Trump's crypto and AI czar has ended — CNBC" }
+      ]
+    },
+    {
+      "name": "PayPal Mafia",
+      "role": "Member; in Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "ally",
+      "description": "Co-wrote The Diversity Myth (1995), a critique of multiculturalism at Stanford, and worked together at PayPal, where Sacks was COO under Thiel as CEO. Fortune counts Sacks in Thiel's network inside the Trump White House.",
+      "start_year": 1995,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.independent.org/store/book/the-diversity-myth/", "title": "The Diversity Myth — Independent Institute" },
+        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "ally",
+      "description": "Friends since working together at PayPal. Sacks was part of Musk's \"war room\" during the 2022 Twitter takeover, helping decide which staff stayed and assisting with the Twitter Files release.",
+      "start_year": 2000,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis — CNBC" },
+        { "url": "https://fortune.com/2024/01/19/behind-elon-musks-chaotic-twitter-takeover-yes-men-zoe-schiffer/", "title": "Behind Elon Musk's chaotic Twitter takeover, look for the 'yes men' — Fortune" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump named Sacks White House AI and crypto czar in December 2024; he served as a special government employee from January 2025 until March 26, 2026, then became co-chair of PCAST.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/12/05/trump-david-sacks-billionaire-ai-crypto.html", "title": "Trump says venture capitalist David Sacks will be AI and crypto 'czar' — CNBC" },
+        { "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html", "title": "David Sacks says his time as Trump's crypto and AI czar has ended — CNBC" },
+        { "url": "https://www.washingtontimes.com/news/2024/dec/5/david-sacks-named-ai-crypto-czar-donald-trump/", "title": "Washington Times: David Sacks named AI and crypto czar by Donald Trump" },
+        { "url": "https://www.foxnews.com/politics/trump-names-david-sacks-white-house-ai-cryptocurrency-czar", "title": "Fox News: Trump names David Sacks as White House AI and cryptocurrency czar" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Sacks co-hosted a June 6, 2024 Trump fundraiser in San Francisco with Chamath Palihapitiya (tickets from $50,000; about $12 million reportedly raised) and spoke at the 2024 Republican convention.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2024/05/24/trump-jd-vance-tech-fundraiser-david-sacks", "title": "Scoop: J.D. Vance courts Silicon Valley for Trump — Axios" },
+        { "url": "https://www.cnbc.com/2024/07/16/cnbc-daily-open-trump-attends-rnc-dow-record-close-bitcoin-digital-gold.html", "title": "CNBC Daily Open: Trump attends RNC — CNBC" },
+        { "url": "https://www.foxnews.com/politics/trump-heads-blue-bastion-raise-big-bucks-election-rematch-biden", "title": "Fox News: Trump heads to deep-blue San Francisco to raise major campaign cash" },
+        { "url": "https://www.breitbart.com/politics/2024/06/07/trump-raises-12m-at-silicon-valley-fundraiser-hosted-by-venture-capitalist-david-sacks/", "title": "Breitbart: Trump raises $12M at Silicon Valley fundraiser hosted by David Sacks" },
+        { "url": "https://dailycaller.com/2024/06/11/david-sacks-trump-fundraiser-san-francisco/", "title": "Daily Caller: David Sacks says Trump fundraiser in San Francisco exceeded goal by millions" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Vance introduced Sacks to Donald Trump Jr. in March 2024, and Sacks credited Vance with making his June 2024 Trump fundraiser happen; Vance later appeared at Sacks's All-In AI event in 2025.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2024/05/24/trump-jd-vance-tech-fundraiser-david-sacks", "title": "Scoop: J.D. Vance courts Silicon Valley for Trump — Axios" },
+        { "url": "https://fortune.com/2025/07/23/all-in-podcast-trump-ai-action-plan-david-sacks-jd-vance-jensen-huang/", "title": "Silicon Valley's elite descend on D.C. to celebrate Trump's AI Action Plan — Fortune" },
+        { "url": "https://www.foxnews.com/politics/trump-heads-blue-bastion-raise-big-bucks-election-rematch-biden", "title": "Fox News: Trump heads to deep-blue San Francisco to raise major campaign cash" },
+        { "url": "https://www.breitbart.com/politics/2024/06/07/trump-raises-12m-at-silicon-valley-fundraiser-hosted-by-venture-capitalist-david-sacks/", "title": "Breitbart: Trump raises $12M at Silicon Valley fundraiser hosted by David Sacks" }
+      ]
+    },
+    {
+      "name": "Chamath Palihapitiya",
+      "slug": "chamath-palihapitiya",
+      "relationship_type": "colleague",
+      "description": "Fellow All-In podcast co-host; co-hosted the June 2024 Trump fundraiser with Sacks.",
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2024/05/24/trump-jd-vance-tech-fundraiser-david-sacks", "title": "Scoop: J.D. Vance courts Silicon Valley for Trump — Axios" }
+      ]
+    },
+    {
+      "name": "Adam Pisoni",
+      "slug": "adam-pisoni",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Yammer with Sacks in 2008.",
+      "start_year": 2008,
+      "end_year": 2014,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Sacks", "title": "David Sacks — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "colleague",
+      "description": "Both sit on Trump's PCAST, Sacks as co-chair and Andreessen as a member, since March 2026. Sacks, then White House AI and crypto czar, also appeared on the a16z podcast with Andreessen and Horowitz to discuss AI and crypto policy.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" },
+        { "url": "https://a16z.com/podcast/david-sacks-ai-crypto-china-dems-and-sf/", "title": "David Sacks: AI, Crypto, China, Dems, and SF — a16z podcast" }
+      ]
+    },
+    {
+      "name": "Dario Amodei",
+      "slug": "dario-amodei",
+      "relationship_type": "enemy",
+      "description": "In October 2025 Sacks, then Trump's AI czar, accused Anthropic of a \"sophisticated regulatory capture strategy based on fear-mongering\"; Amodei answered with a statement correcting what he called inaccurate claims about Anthropic's policy positions.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2025/10/16/anthropic-david-sacks-ai-white-house", "title": "New AI battle: White House vs. Anthropic — Axios" },
+        { "url": "https://www.nextgov.com/artificial-intelligence/2025/10/anthropic-ceo-defends-support-ai-regulations-alignment-trump-policies/408959", "title": "Anthropic CEO defends support for AI regulations, alignment with Trump policies — Nextgov" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "ally",
+      "description": "Sacks led the $50 million Series C in 2014 of Addepar, which Lonsdale co-founded. Wikipedia says both backed Musk's America PAC in 2024; filings reported in July 2024 list Lonsdale's company as a donor but not Sacks.",
+      "start_year": 2009,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://blumbergcapital.com/news-insights/addepar-seeks-funding-pre-money-valuation/", "title": "Addepar funding — Blumberg Capital" }
+      ]
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "funded_by",
+      "description": "Sacks co-hosted a fundraiser for Kennedy's campaign at his home in June 2023 (about $500,000 raised), and a PAC largely funded by Sacks gave the campaign $6,600.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2023/06/08/robert-f-kennedy-jr-tech-2024-campaign", "title": "Axios: Tech figures back RFK Jr.'s campaign" },
+        { "url": "https://www.nbcphiladelphia.com/news/business/money-report/investor-bill-ackman-david-sacks-pac-donated-to-rfk-jr-s-presidential-campaign/3604639/", "title": "CNBC: Ackman, David Sacks PAC donated to RFK Jr.'s campaign" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "Carlson, Sacks and Musk personally lobbied Trump to pick Vance as his running mate in July 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://businessinsider.nl/elon-musk-tucker-carlson-and-david-sacks-personally-lobbied-trump-to-pick-vance-report", "title": "Business Insider: Musk, Carlson and Sacks personally lobbied Trump to pick Vance" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "donor",
+      "description": "Sacks was a major donor and fundraiser for DeSantis in 2022–2023 and was seen as a potential kingmaker for his 2024 run.",
+      "start_year": 2022,
+      "end_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "CNBC: Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis" },
+        { "url": "https://sfist.com/2022/10/20/wealthy-sf-recall-backer-pumping-millions-to-desantis-and-j-d-vance-hyping-that-ukraine-needs-to-surrender/", "title": "SFist: Sacks pumping millions to DeSantis and Vance" }
+      ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "ally",
+      "description": "The Wall Street Journal reported that Brockman's pro-AI super PAC Leading the Future mostly aligns with the agenda of Sacks, the White House AI and crypto czar.",
+      "start_year": 2025,
+      "confidence": 0.45,
+      "sources": [
+        { "url": "https://axios.com/2026/03/29/ai-pac-midterms-trump", "title": "New pro-AI group preps $100M midterm blitz to boost Trump's agenda — Axios" }
+      ]
+    },
+    {
+      "name": "Leading the Future",
+      "slug": "leading-the-future",
+      "relationship_type": "ally",
+      "description": "The Wall Street Journal reported that the PAC's agenda mostly aligns with that of Sacks, the White House AI and crypto czar.",
+      "start_year": 2025,
+      "confidence": 0.45,
+      "sources": [
+        { "url": "https://axios.com/2026/03/29/ai-pac-midterms-trump", "title": "New pro-AI group preps $100M midterm blitz to boost Trump's agenda — Axios" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "friend",
+      "description": "Sacks and Musk have been friends since they worked together at PayPal; Sacks was in Musk’s 2022 Twitter “war room.”",
+      "start_year": 2000,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis — CNBC" },
+        { "url": "https://fortune.com/2024/01/19/behind-elon-musks-chaotic-twitter-takeover-yes-men-zoe-schiffer/", "title": "Behind Elon Musk's chaotic Twitter takeover, look for the 'yes men' — Fortune" }
+      ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "employer",
+      "description": "At PayPal: Chief operating officer and product leader.",
+      "start_year": 1999,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Sacks", "title": "David Sacks — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $1,008,700 from David Sacks to Protect Ohio Values PAC (POV PAC), Working for Ohio, JD Vance for Senate Inc. in the 2022 cycle.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Protect Ohio Values PAC (POV PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $256,600 from David Sacks to Trump 47 Committee, Inc., Never Surrender, Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Never Surrender, Inc." }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $24,160 from David Sacks to Restore Our Nation (Ron PAC), Great American Comeback, Team Desantis 2024 in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Restore Our Nation (Ron PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841148&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Great American Comeback" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841155&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Team Desantis 2024" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Publication year of The Diversity Myth",
+      "details": "The Independent Institute lists 1995; The Daily Telegraph says it was first published in 1996.",
+      "sources": [
+        { "url": "https://www.independent.org/store/book/the-diversity-myth/", "title": "The Diversity Myth — Independent Institute" },
+        { "url": "https://www.pressreader.com/uk/the-daily-telegraph/20221125/282291029242067", "title": "The Daily Telegraph (via PressReader), November 25, 2022" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Co-chair, President's Council of Advisors on Science and Technology",
+    "unit": "eop",
+    "rank": 4,
+    "since": "2026-03",
+    "sources": [
+      { "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html", "title": "David Sacks says his time as Trump's crypto and AI czar has ended — CNBC" }
+    ]
+  },
+  "access": [
+    {
+      "date": "2026-09-29",
+      "with": ["donald-trump", "scott-bessent"],
+      "what": "Attended Trump’s White House AI lunch.",
+      "sources": [
+        { "url": "https://www.news4jax.com/business/2026/09/29/trump-vows-to-never-stifle-ai-as-leading-executives-urge-caution/", "title": "Trump vows to never stifle AI as leading executives urge caution — AP via News4JAX (September 29, 2026)" }
+      ]
+    }
+  ],
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 1443300,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&two_year_transaction_period=2026", "title": "FEC itemized receipts: SACKS, DAVID, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Purple Good Government PAC (Purple PAC; Pggpac; Ppac)",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00795534"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00795534&two_year_transaction_period=2026", "title": "FEC receipts: SACKS, DAVID to Purple Good Government PAC (Purple PAC; Pggpac; Ppac), 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 443000,
+            "fec_usd": 443000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00003418&two_year_transaction_period=2026", "title": "FEC receipts: SACKS, DAVID to Republican National Committee, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 1081460,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&two_year_transaction_period=2024", "title": "FEC itemized receipts: SACKS, DAVID, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 390100,
+            "fec_usd": 390100,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00003418&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Republican National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 256600,
+            "fec_usd": 256600,
+            "fec_ids": ["C00828541", "C00867937"],
+            "description": "Per FEC filings: Trump 47 Committee, Inc. $250,000; Never Surrender, Inc. $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Trump 47 Committee, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Never Surrender, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Purple Good Government PAC (Purple PAC; Pggpac; Ppac)",
+            "kind": "super-pac",
+            "amount_usd": 187500,
+            "fec_usd": 187500,
+            "fec_ids": ["C00795534"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00795534&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Purple Good Government PAC (Purple PAC; Pggpac; Ppac), 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Team Moreno",
+            "kind": "pac",
+            "amount_usd": 75000,
+            "fec_usd": 75000,
+            "fec_ids": ["C00867010"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00867010&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Team Moreno, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 63400,
+            "fec_usd": 63400,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00027466&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to NRSC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ron DeSantis",
+            "slug": "ron-desantis",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 24160,
+            "fec_usd": 24160,
+            "fec_ids": ["C00841130", "C00841148", "C00841155"],
+            "description": "Per FEC filings: Restore Our Nation (Ron PAC) $16,500; Great American Comeback $3,830; Team Desantis 2024 $3,830.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Restore Our Nation (Ron PAC), 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841148&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Great American Comeback, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841155&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Team Desantis 2024, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Byron Donalds",
+            "slug": "byron-donalds",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 9900,
+            "fec_usd": 9900,
+            "fec_ids": ["C00733329"],
+            "description": "Per FEC filings: Byron Donalds for Congress $9,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00733329&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Byron Donalds for Congress, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 1456500,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&two_year_transaction_period=2022", "title": "FEC itemized receipts: SACKS, DAVID, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1008700,
+            "fec_usd": 1008700,
+            "fec_ids": ["C00770495", "C00783142", "C00783167"],
+            "description": "Per FEC filings: Protect Ohio Values PAC (POV PAC) $1,000,000; Working for Ohio $5,000; JD Vance for Senate Inc. $3,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Protect Ohio Values PAC (POV PAC), 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Working for Ohio, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to JD Vance for Senate Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Purple Good Government PAC (Purple PAC; Pggpac; Ppac)",
+            "kind": "super-pac",
+            "amount_usd": 312500,
+            "fec_usd": 312500,
+            "fec_ids": ["C00795534"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00795534&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Purple Good Government PAC (Purple PAC; Pggpac; Ppac), 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00003418&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Republican National Committee, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 1100,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&two_year_transaction_period=2020", "title": "FEC itemized receipts: SACKS, DAVID, 2020 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 10000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&two_year_transaction_period=2018", "title": "FEC itemized receipts: SACKS, DAVID, 2018 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 66880,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&two_year_transaction_period=2016", "title": "FEC itemized receipts: SACKS, DAVID, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Hillary Victory Fund",
+            "kind": "pac",
+            "amount_usd": 33400,
+            "fec_usd": 33400,
+            "fec_ids": ["C00586537"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00586537&two_year_transaction_period=2016", "title": "FEC receipts: SACKS, DAVID to Hillary Victory Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp./dem. Nat'l Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 28000,
+            "fec_usd": 28000,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00010603&two_year_transaction_period=2016", "title": "FEC receipts: SACKS, DAVID to DNC Services Corp./dem. Nat'l Committee, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

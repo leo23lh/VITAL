@@ -1,0 +1,206 @@
+{
+  "name": "Frank Bisignano",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "business",
+  "groups": [],
+  "current_role": "Commissioner of Social Security (since May 2025) and CEO of the IRS (since October 2025)",
+  "summary": "Frank Bisignano, the former CEO of payments giant Fiserv, has been commissioner of Social Security since May 2025. In October 2025 Treasury Secretary Scott Bessent, who remains acting IRS commissioner, also made him the IRS’s first chief executive, running day-to-day operations and reporting to Bessent. In 2026 House Democrats pressed him over IRS sharing of taxpayer data with ICE.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Frank_Bisignano", "title": "Frank Bisignano — Wikipedia" },
+    { "url": "https://www.taxnotes.com/featured-news/bessent-taps-social-security-chief-first-ever-ceo-irs/2025/10/06/7t2mq", "title": "Bessent taps Social Security chief as first-ever CEO of IRS — Tax Notes" },
+    { "url": "https://www.taxnotes.com/featured-news/bisignano-expected-stay-helm-irs/2026/01/06/7tf5p", "title": "Bisignano expected to stay at the helm of IRS — Tax Notes (January 2026)" },
+    { "url": "https://neal.house.gov/2026/03/04/irs-leader-bisignano-declines-to-answer-questions-over-unlawful-taxpayer-data-disclosures-to-ice/", "title": "IRS leader Bisignano declines to answer questions over taxpayer data disclosures to ICE — Rep. Richard Neal (March 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2025,
+      "role": "Chairman and CEO",
+      "org": "Fiserv",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Frank_Bisignano", "title": "Frank Bisignano — Wikipedia" },
+        { "url": "https://www.taxnotes.com/featured-news/bessent-taps-social-security-chief-first-ever-ceo-irs/2025/10/06/7t2mq", "title": "Bessent taps Social Security chief as first-ever CEO of IRS — Tax Notes" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Commissioner of Social Security",
+      "org": "Social Security Administration",
+      "sources": [
+        { "url": "https://www.taxnotes.com/featured-news/bessent-taps-social-security-chief-first-ever-ceo-irs/2025/10/06/7t2mq", "title": "Bessent taps Social Security chief as first-ever CEO of IRS — Tax Notes" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Chief Executive Officer",
+      "org": "Internal Revenue Service",
+      "sources": [
+        { "url": "https://www.taxnotes.com/featured-news/bessent-taps-social-security-chief-first-ever-ceo-irs/2025/10/06/7t2mq", "title": "Bessent taps Social Security chief as first-ever CEO of IRS — Tax Notes" },
+        { "url": "https://www.taxnotes.com/featured-news/bisignano-expected-stay-helm-irs/2026/01/06/7tf5p", "title": "Bisignano expected to stay at the helm of IRS — Tax Notes (January 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Scott Bessent",
+      "slug": "scott-bessent",
+      "relationship_type": "employer",
+      "description": "Bessent made him the IRS’s first CEO in October 2025; he reports to Bessent, who stays acting commissioner.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.taxnotes.com/featured-news/bessent-taps-social-security-chief-first-ever-ceo-irs/2025/10/06/7t2mq", "title": "Bessent taps Social Security chief as first-ever CEO of IRS — Tax Notes" },
+        { "url": "https://www.taxnotes.com/featured-news/bisignano-expected-stay-helm-irs/2026/01/06/7tf5p", "title": "Bisignano expected to stay at the helm of IRS — Tax Notes (January 2026)" },
+        { "url": "https://home.treasury.gov/news/press-releases/sb0271", "title": "Treasury Department Announces Frank Bisignano as Chief Executive Officer of the IRS — U.S. Treasury" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $127,800 from Frank Bisignano to Trump Victory, Donald J. Trump for President, Inc. in the 2020 cycle.",
+      "start_year": 2019,
+      "end_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: BISIGNANO, FRANK to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&committee_id=C00580100&two_year_transaction_period=2020", "title": "FEC receipts: BISIGNANO, FRANK to Donald J. Trump for President, Inc." }
+      ]
+    }
+  ],
+  "office": {
+    "title": "CEO of the IRS (also Commissioner of Social Security)",
+    "unit": "treasury",
+    "rank": 3,
+    "reports_to": "scott-bessent",
+    "since": "2025-10",
+    "sources": [
+      { "url": "https://www.taxnotes.com/featured-news/bessent-taps-social-security-chief-first-ever-ceo-irs/2025/10/06/7t2mq", "title": "Bessent taps Social Security chief as first-ever CEO of IRS — Tax Notes" },
+      { "url": "https://www.taxnotes.com/featured-news/bisignano-expected-stay-helm-irs/2026/01/06/7tf5p", "title": "Bisignano expected to stay at the helm of IRS — Tax Notes (January 2026)" },
+      { "url": "https://home.treasury.gov/news/press-releases/sb0271", "title": "Treasury Department Announces Frank Bisignano as Chief Executive Officer of the IRS — U.S. Treasury" }
+    ]
+  },
+  "last_researched": "2026-11-08",
+  "notes": "Second sources added on 2026-11-09 were confirmed by web searches restricted to each source's domain; the pages themselves were not opened.",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2024,
+        "total_usd": 55100,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&two_year_transaction_period=2024", "title": "FEC itemized receipts: BISIGNANO, FRANK, 2024 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 27500,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&two_year_transaction_period=2022", "title": "FEC itemized receipts: BISIGNANO, FRANK, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Chuck Schumer",
+            "slug": "chuck-schumer",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00346312"],
+            "description": "Per FEC filings: Friends of Schumer $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&committee_id=C00346312&two_year_transaction_period=2022", "title": "FEC receipts: BISIGNANO, FRANK to Friends of Schumer, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 266400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&two_year_transaction_period=2020", "title": "FEC itemized receipts: BISIGNANO, FRANK, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 127800,
+            "fec_usd": 127800,
+            "fec_ids": ["C00580100", "C00618389"],
+            "description": "Per FEC filings: Trump Victory $125,000; Donald J. Trump for President, Inc. $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: BISIGNANO, FRANK to Trump Victory, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&committee_id=C00580100&two_year_transaction_period=2020", "title": "FEC receipts: BISIGNANO, FRANK to Donald J. Trump for President, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 119400,
+            "fec_usd": 119400,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&committee_id=C00003418&two_year_transaction_period=2020", "title": "FEC receipts: BISIGNANO, FRANK to Republican National Committee, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 24400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&two_year_transaction_period=2018", "title": "FEC itemized receipts: BISIGNANO, FRANK, 2018 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 14000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&two_year_transaction_period=2016", "title": "FEC itemized receipts: BISIGNANO, FRANK, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Chuck Schumer",
+            "slug": "chuck-schumer",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 3600,
+            "fec_usd": 3600,
+            "fec_ids": ["C00346312"],
+            "description": "Per FEC filings: Friends of Schumer $3,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&committee_id=C00346312&two_year_transaction_period=2016", "title": "FEC receipts: BISIGNANO, FRANK to Friends of Schumer, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00458844"],
+            "description": "Per FEC filings: Marco Rubio for President $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&committee_id=C00458844&two_year_transaction_period=2016", "title": "FEC receipts: BISIGNANO, FRANK to Marco Rubio for President, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

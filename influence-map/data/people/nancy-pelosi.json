@@ -1,0 +1,188 @@
+{
+  "name": "Nancy Pelosi",
+  "aliases": ["Nancy Patricia Pelosi"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics", "2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic congresswoman from San Francisco since 1987 and Democratic leader, including two stints as House speaker.",
+      "sources": [
+        { "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/", "title": "Roll Call: Pelosi announces retirement" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["gavin-newsom"],
+    "basis": "Former aides say boosting Newsom for 2028 is one of her next campaigns; she has called him a potential great president.",
+    "sources": [
+      { "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028", "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028" }
+    ]
+  },
+  "photo": {
+    "file": "nancy-pelosi.jpg",
+    "credit": "John Harrington",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Official_photo_of_Speaker_Nancy_Pelosi_in_2019.jpg", "title": "File:Official photo of Speaker Nancy Pelosi in 2019.jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. representative from California (retiring January 2027); Speaker Emerita",
+  "summary": "Nancy Pelosi has represented San Francisco in the House since 1987 and was the first woman to serve as speaker (2007–2011, 2019–2023), overseeing both impeachments of Donald Trump. She announced in November 2025 that she would not seek reelection, and has made promoting Gavin Newsom for 2028 one of her causes.",
+  "sources": [
+    { "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/", "title": "Roll Call" },
+    { "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028", "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028" }
+  ],
+  "timeline": [
+    {
+      "year": 1987,
+      "end_year": null,
+      "role": "U.S. representative from San Francisco (not seeking reelection in 2026)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/", "title": "Roll Call" }
+      ]
+    },
+    {
+      "year": 2007,
+      "end_year": 2023,
+      "role": "Speaker of the House (2007–2011, 2019–2023)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nancy_Pelosi", "title": "Wikipedia: Nancy Pelosi" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Gavin Newsom",
+      "slug": "gavin-newsom",
+      "relationship_type": "ally",
+      "description": "Pelosi has made boosting Newsom for 2028 one of her post-Congress causes.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028", "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "As speaker, Pelosi oversaw both of Trump's impeachments (2019, 2021).",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nancy_Pelosi", "title": "Wikipedia: Nancy Pelosi" },
+        { "url": "https://www.npr.org/2019/09/24/763700264/trumps-ukraine-call-may-be-game-changer-on-impeachment", "title": "Pelosi announces formal impeachment inquiry into President Trump — NPR" },
+        { "url": "https://www.cnn.com/politics/impeachment-fast-facts", "title": "Impeachment fast facts — CNN" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "Pelosi, who pushed Biden to step aside, endorsed Harris on July 22, 2024, a day after Biden withdrew, with \"enthusiastic support\", though coverage noted her backing had been tepid at times.",
+      "start_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.semafor.com/article/07/22/2024/nancy-pelosi-endorses-kamala-harris-democrat-president-nominee", "title": "Nancy Pelosi endorses Kamala Harris as Democratic presidential nominee — Semafor" },
+        { "url": "https://abcnews.go.com/US/wireStory/former-house-speaker-nancy-pelosi-endorses-vice-president-112170203", "title": "Former House Speaker Nancy Pelosi endorses Vice President Kamala Harris — AP via ABC News" }
+      ]
+    },
+    {
+      "name": "Mike Pence",
+      "slug": "mike-pence",
+      "relationship_type": "enemy",
+      "description": "After January 6, 2021, Pelosi demanded that Pence invoke the 25th Amendment to remove Trump within 24 hours, or the House would impeach; Pence refused in a letter to her on January 12.",
+      "start_year": 2021,
+      "end_year": 2021,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/pence-tells-pelosi-he-wont-invoke-the-25th-amendment", "title": "Pence tells Pelosi he won't invoke the 25th Amendment — PBS NewsHour" },
+        { "url": "https://www.npr.org/sections/trump-impeachment-effort-live-updates/2021/01/12/955750169/house-to-vote-on-25th-amendment-resolution-against-trump", "title": "House approves 25th Amendment resolution against Trump; Pence says he won't invoke — NPR" }
+      ]
+    },
+    {
+      "name": "House Majority PAC",
+      "slug": "house-majority-pac",
+      "relationship_type": "ally",
+      "description": "Described by The Hill in 2022 as the Pelosi-aligned super PAC, when she was speaker.",
+      "start_year": 2022,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://thehill.com/homenews/campaign/3705040-michael-bloomberg-gives-pelosi-aligned-super-pac-another-10m-as-midterms-near/", "title": "Michael Bloomberg gives Pelosi-aligned super PAC another $10M as midterms near — The Hill" }
+      ]
+    },
+    {
+      "name": "Hakeem Jeffries",
+      "slug": "hakeem-jeffries",
+      "relationship_type": "ally",
+      "description": "Succeeded Pelosi as House Democratic leader in January 2023.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries", "title": "Hakeem Jeffries — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Chris Larsen",
+      "slug": "chris-larsen",
+      "relationship_type": "donor",
+      "description": "FEC filings show $305,400 from Chris Larsen to Nancy Pelosi Victory Fund, PAC to the Future, Nancy Pelosi for Congress in 2 cycles (2022–2024).",
+      "start_year": 2022,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00492421&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Nancy Pelosi Victory Fund" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00344234&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to PAC to the Future" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00213512&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Nancy Pelosi for Congress" }
+      ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "donor",
+      "description": "FEC filings show $260,600 from George Soros to Nancy Pelosi Victory Fund, PAC to the Future, Nancy Pelosi for Congress in the 2020 cycle.",
+      "start_year": 2019,
+      "end_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00492421&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Nancy Pelosi Victory Fund" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00344234&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to PAC to the Future" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00213512&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Nancy Pelosi for Congress" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $376,900 from Reid Hoffman to Nancy Pelosi Victory Fund, Nancy Pelosi for Congress, PAC to the Future in 2 cycles (2020–2022).",
+      "start_year": 2020,
+      "end_year": 2021,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00492421&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Nancy Pelosi Victory Fund" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00213512&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Nancy Pelosi for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00344234&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to PAC to the Future" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Representative (D-CA)",
+    "unit": "house",
+    "rank": 4,
+    "sources": [
+      { "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/", "title": "Roll Call" },
+      { "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028", "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028" }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Preserve America PAC",
+  "aliases": [],
+  "kind": "super-pac",
+  "side": "R",
+  "founded": 2020,
+  "groups": [],
+  "summary": "A single-candidate super PAC for Donald Trump, funded mainly by Sheldon and Miriam Adelson in 2020 and by Miriam Adelson after his death. It spent more than $100 million in each of the 2020 and 2024 elections; in 2024 its ads attacked Kamala Harris in Michigan, Pennsylvania and Wisconsin. Chris LaCivita ran it in 2020; Dave Carney led it in 2024.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" },
+    { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" }
+  ],
+  "finances": [
+    {
+      "cycle": 2020,
+      "spent_usd": 100000000,
+      "description": "The Adelsons gave $90M of the money.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" }
+      ]
+    },
+    {
+      "cycle": 2024,
+      "description": "Spent more than $100M; Bloomberg counted $93M spent by early October 2024. Adelson gave $25M a month in July–September plus $20M more in September.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" },
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "donor",
+      "description": "Its main funder: about $90 million with Sheldon Adelson in 2020 and about $100 million in 2024 (InfluenceWatch counts $106 million). FEC filings show $151,000,000 from Miriam Adelson to Preserve America PAC, Preserve America PAC in 2 cycles (2020–2024).",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" },
+        { "url": "https://forward.com/fast-forward/665095/miriam-adelson-donates-100m-to-trump-campaign-making-good-on-reported-promise/", "title": "Miriam Adelson donates $100M to Trump campaign, making good on reported promise — The Forward" },
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00756882&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Preserve America PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00878801&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Preserve America PAC" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "A single-candidate super PAC for Trump: more than $100 million spent in each of the 2020 and 2024 elections.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" },
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" },
+        { "url": "https://forward.com/fast-forward/665095/miriam-adelson-donates-100m-to-trump-campaign-making-good-on-reported-promise/", "title": "Miriam Adelson donates $100M to Trump campaign — The Forward" },
+        { "url": "https://lasvegassun.com/news/2024/sep/24/las-vegas-miriam-adelsons-super-pac-fuels-swing-st", "title": "Miriam Adelson’s super PAC fuels swing-state ads — Las Vegas Sun" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "enemy",
+      "description": "Ran attack ads against Harris in Michigan, Pennsylvania and Wisconsin from the 2024 Olympics to Election Day.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" },
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $2,500,000 from Paul Singer to Preserve America PAC in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00878801&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Preserve America PAC" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and news reporting. Most news pages could not be opened in the research sandbox, so facts were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

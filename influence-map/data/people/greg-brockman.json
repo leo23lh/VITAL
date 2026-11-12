@@ -1,0 +1,355 @@
+{
+  "name": "Greg Brockman",
+  "aliases": ["Gregory Brockman"],
+  "public_figure": true,
+  "sector": "ai-defense",
+  "groups": ["ai-race", "tech-right"],
+  "lean": [
+    {
+      "value": 1,
+      "start_year": 2025,
+      "end_year": null,
+      "basis": "No political record before 2025. With his wife Anna he gave $25 million to the pro-Trump MAGA Inc. in 2025, its biggest donors that year, and funded the deregulatory AI super PAC Leading the Future; he describes his giving as backing pro-innovation policy rather than a party, and has no party role.",
+      "sources": [
+        { "url": "https://fortune.com/2026/08/04/jackie-bald-eagle-greg-brockman-openai-5-5-million-donation-fundraiser-philanthropy/", "title": "OpenAI's Greg Brockman gave $5.5 million to protect the home of a bald eagle — Fortune" },
+        { "url": "https://www.cnn.com/2026/01/02/politics/trump-super-pac-maga-inc-fundraising", "title": "Trump's super PAC builds $300 million cash stockpile — CNN" },
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "greg-brockman.jpg",
+    "credit": "TechCrunch",
+    "license": "CC BY 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Disrupt_SF_TechCrunch_Disrupt_San_Francisco_2019_-_Day_2_(48838200316)_(cropped).jpg", "title": "File:Disrupt SF TechCrunch Disrupt San Francisco 2019 - Day 2 (48838200316) (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Co-founder and president of OpenAI",
+  "summary": "Greg Brockman was Stripe's first CTO before co-founding OpenAI in 2015 with Sam Altman, Elon Musk, Ilya Sutskever and others; he is its president and in 2026 took over much of its day-to-day product work. He briefly quit in November 2023 when the board ousted Altman and returned with him. In 2025–26 he and his wife became major political donors to Trump's super PAC and to the pro-AI super PAC Leading the Future.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" },
+    { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" }
+  ],
+  "timeline": [
+    {
+      "year": 2010,
+      "end_year": 2015,
+      "role": "Early engineer, then CTO (2013–2015)",
+      "org": "Stripe",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": null,
+      "role": "Co-founder; CTO, then president",
+      "org": "OpenAI",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" },
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": 2023,
+      "role": "Removed from the board; quit, then returned with Altman days later",
+      "org": "OpenAI",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Leading the Future (pro-AI super PAC)",
+      "role": "Co-founding backer with Andreessen Horowitz; gave $25M, then dropped a further $25M in October 2026 after employee pushback",
+      "start_year": 2025,
+      "sources": [
+        { "url": "https://fortune.com/2025/08/26/openai-president-greg-brockman-andreessen-horowitz-super-pac-ai-pro-innovation/", "title": "OpenAI president Greg Brockman and Andreessen Horowitz back pro-AI super PAC — Fortune" },
+        { "url": "https://www.semafor.com/article/10/02/2026/how-employees-forced-openais-president-to-back-down", "title": "Exclusive: How employees forced OpenAI's president to back down — Semafor" },
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "co-founder",
+      "description": "Co-founded OpenAI in 2015; Brockman, its president, quit and returned with Altman during the November 2023 board crisis.",
+      "start_year": 2015,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI", "title": "Removal of Sam Altman from OpenAI — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "co-founder",
+      "description": "Musk and Brockman were among OpenAI's co-founders in 2015; Brockman met with Musk and Altman and recruited the founding team. Musk left OpenAI's board in 2018; Brockman gave his account of the split at the 2026 trial.",
+      "start_year": 2015,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" },
+        { "url": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/", "title": "How Elon Musk left OpenAI, according to Greg Brockman — TechCrunch" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "rival",
+      "description": "Musk sued OpenAI, Altman and Brockman over OpenAI's shift to a for-profit model; on May 18, 2026 a jury found the claims time-barred. Musk said he would appeal.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" },
+        { "url": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/", "title": "How Elon Musk left OpenAI, according to Greg Brockman — TechCrunch" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "ally",
+      "description": "Lead backers of the pro-AI super PAC Leading the Future, launched August 2025; FEC filings showed Andreessen and Brockman each giving $12.5 million.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2025/08/26/openai-president-greg-brockman-andreessen-horowitz-super-pac-ai-pro-innovation/", "title": "OpenAI president Greg Brockman and Andreessen Horowitz back pro-AI super PAC — Fortune" },
+        { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" },
+        { "url": "https://www.notus.org/money/ai-super-pac-fundraising-midterms-democrats-republicans", "title": "AI super PAC fundraising — NOTUS" }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "ally",
+      "description": "Co-funders of the pro-AI super PAC Leading the Future: FEC filings reported in January 2026 showed Horowitz, Andreessen and Brockman each giving $12.5 million.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.notus.org/money/ai-super-pac-fundraising-midterms-democrats-republicans", "title": "AI super PAC fundraising — NOTUS" },
+        { "url": "https://fortune.com/2025/08/26/openai-president-greg-brockman-andreessen-horowitz-super-pac-ai-pro-innovation/", "title": "OpenAI president Greg Brockman and Andreessen Horowitz back pro-AI super PAC — Fortune" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "ally",
+      "description": "Co-backers of the pro-AI super PAC network Leading the Future, launched in August 2025.",
+      "start_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
+      ]
+    },
+    {
+      "name": "Anna Brockman",
+      "slug": "anna-brockman",
+      "relationship_type": "family",
+      "description": "Wife (married 2019); co-donor to MAGA Inc. and Leading the Future.",
+      "start_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" },
+        { "url": "https://fortune.com/2026/08/04/jackie-bald-eagle-greg-brockman-openai-5-5-million-donation-fundraiser-philanthropy/", "title": "OpenAI's Greg Brockman gave $5.5 million to protect the home of a bald eagle — Fortune" }
+      ]
+    },
+    {
+      "name": "Patrick Collison",
+      "slug": "patrick-collison",
+      "relationship_type": "employer",
+      "description": "Brockman left MIT in 2010 to join Stripe, co-founded by his classmate Patrick Collison, and became its first CTO.",
+      "start_year": 2010,
+      "end_year": 2015,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "ally",
+      "description": "The Wall Street Journal reported that Brockman's pro-AI super PAC Leading the Future mostly aligns with the agenda of Sacks, the White House AI and crypto czar.",
+      "start_year": 2025,
+      "confidence": 0.45,
+      "sources": [
+        { "url": "https://axios.com/2026/03/29/ai-pac-midterms-trump", "title": "New pro-AI group preps $100M midterm blitz to boost Trump's agenda — Axios" }
+      ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "funded_by",
+      "description": "Brockman and his wife gave $25 million in September 2025, nearly a quarter of what it raised in the second half of 2025. FEC filings show $12,500,000 from Greg Brockman to MAGA Inc. in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/01/02/politics/trump-super-pac-maga-inc-fundraising", "title": "Trump's super PAC builds $300 million cash stockpile — CNN" },
+        { "url": "https://kvia.com/politics/cnn-us-politics/2026/01/02/trumps-super-pac-builds-a-nearly-300-million-cash-stockpile-fueling-unrivaled-fundraising-pace/", "title": "Trump's super PAC builds a nearly $300 million cash stockpile — CNN via KVIA" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: BROCKMAN, GREG to MAGA Inc." }
+      ]
+    },
+    {
+      "name": "Leading the Future",
+      "slug": "leading-the-future",
+      "relationship_type": "funded_by",
+      "description": "Founding backer: Brockman and his wife gave $25 million, then dropped a further $25 million in October 2026 after OpenAI employees pushed back. FEC filings show $12,500,000 from Greg Brockman to Leading the Future in the 2026 cycle.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" },
+        { "url": "https://www.semafor.com/article/10/02/2026/how-employees-forced-openais-president-to-back-down", "title": "Exclusive: How employees forced OpenAI's president to back down — Semafor" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&committee_id=C00916114&two_year_transaction_period=2026", "title": "FEC receipts: BROCKMAN, GREG to Leading the Future" }
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "slug": "openai",
+      "relationship_type": "co-founder",
+      "description": "Brockman co-founded OpenAI in 2015, recruited its founding team and is its president.",
+      "start_year": 2015,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" },
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "MAGA Inc. gift split",
+      "details": "Fortune (citing the Brennan Center) says Greg and Anna each gave $25M; CNN says Brockman gave $25M in September 2025; Wikipedia says $12.5M each ($25M together). The Washington Post counts $25M to MAGA Inc. in the couple's $50M total.",
+      "sources": [
+        { "url": "https://fortune.com/2026/08/04/jackie-bald-eagle-greg-brockman-openai-5-5-million-donation-fundraiser-philanthropy/", "title": "OpenAI's Greg Brockman gave $5.5 million to protect the home of a bald eagle — Fortune" },
+        { "url": "https://www.cnn.com/2026/01/02/politics/trump-super-pac-maga-inc-fundraising", "title": "Trump's super PAC builds $300 million cash stockpile — CNN" },
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" },
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with the Wikipedia article via its API. OpenAI says Brockman's giving is personal and that the company does not fund super PACs. Anna Brockman is a suggested connection only.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 50000000,
+        "rank": 15,
+        "ranking": "Rank among all 2026 donors, groups included (FEC data, per Al Jazeera and the Washington Post); total as cited: $50.0M per the Washington Post, with Anna Brockman",
+        "description": "Split between Trump's super PAC and the pro-AI super PAC. In October 2026, after OpenAI employees objected, he dropped a planned further $25M to Leading the Future.",
+        "sources": [
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+          { "url": "https://www.semafor.com/article/10/02/2026/how-employees-forced-openais-president-to-back-down", "title": "Exclusive: How employees forced OpenAI's president to back down — Semafor" },
+          { "url": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html", "title": "Silicon Valley AI political groups turn on each other in the 2026 election — CNBC" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&two_year_transaction_period=2026", "title": "FEC itemized receipts: BROCKMAN, GREG, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "org": "maga-inc",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 25000000,
+            "description": "Given in September 2025, nearly a quarter of what MAGA Inc. raised in the second half of 2025.",
+            "sources": [
+              { "url": "https://www.cnn.com/2026/01/02/politics/trump-super-pac-maga-inc-fundraising", "title": "Trump's super PAC builds $300 million cash stockpile — CNN" },
+              { "url": "https://fortune.com/2026/08/04/jackie-bald-eagle-greg-brockman-openai-5-5-million-donation-fundraiser-philanthropy/", "title": "OpenAI's Greg Brockman gave $5.5 million to protect the home of a bald eagle — Fortune" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: BROCKMAN, GREG to MAGA Inc., 2026 cycle" }
+            ],
+            "fec_usd": 12500000,
+            "fec_ids": ["C00892471"]
+          },
+          {
+            "name": "Leading the Future (pro-AI super PAC)",
+            "org": "leading-the-future",
+            "kind": "super-pac",
+            "side": "both",
+            "amount_usd": 25000000,
+            "description": "Pushes for light AI regulation; fought the Anthropic-funded Public First groups.",
+            "sources": [
+              { "url": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html", "title": "Silicon Valley AI political groups turn on each other in the 2026 election — CNBC" },
+              { "url": "https://www.nbcnews.com/politics/2026-election/ai-crypto-trump-super-pacs-stash-millions-spend-midterms-rcna256622", "title": "AI, crypto and Trump super PACs stash millions to spend on the midterms — NBC News" },
+              { "url": "https://www.axios.com/2026/01/30/openai-a16z-cash-ai-super-pac", "title": "Exclusive: OpenAI's Brockman and a16z funnel cash to pro-AI super PAC — Axios" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&committee_id=C00916114&two_year_transaction_period=2026", "title": "FEC receipts: BROCKMAN, GREG to Leading the Future, 2026 cycle" }
+            ],
+            "fec_usd": 12500000,
+            "fec_ids": ["C00916114"]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 2700,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&two_year_transaction_period=2018", "title": "FEC itemized receipts: BROCKMAN, GREG, 2018 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 5400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BROCKMAN%2C+GREG&two_year_transaction_period=2016", "title": "FEC itemized receipts: BROCKMAN, GREG, 2016 cycle" }
+        ],
+        "recipients": []
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "Nothing reported on 2028. He has said he backs policies that advance American innovation and praised Trump's engagement with AI, but pulled back from Leading the Future in October 2026 after internal criticism at OpenAI.",
+      "sources": [
+        { "url": "https://www.cnn.com/2026/01/02/politics/trump-super-pac-maga-inc-fundraising", "title": "Trump's super PAC builds $300 million cash stockpile — CNN" },
+        { "url": "https://www.semafor.com/article/10/02/2026/how-employees-forced-openais-president-to-back-down", "title": "Exclusive: How employees forced OpenAI's president to back down — Semafor" }
+      ],
+      "likely": [
+        {
+          "name": "MAGA Inc.",
+          "slug": "donald-trump",
+          "org": "maga-inc",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "Its biggest 2025 donor; Trump plans to keep fundraising through his political operation.",
+          "confidence": 0.45,
+          "sources": [
+            { "url": "https://www.cnn.com/2026/01/02/politics/trump-super-pac-maga-inc-fundraising", "title": "Trump's super PAC builds $300 million cash stockpile — CNN" },
+            { "url": "https://www.axios.com/2026/11/06/scoop-trump-to-keep-fundraising-hoping-to-retain-political-muscle", "title": "Scoop: Trump to keep fundraising, hoping to retain political muscle — Axios" }
+          ]
+        },
+        {
+          "name": "Leading the Future (pro-AI super PAC)",
+          "org": "leading-the-future",
+          "kind": "super-pac",
+          "side": "both",
+          "basis": "Founding backer, but he cancelled a further $25M after employee pushback.",
+          "confidence": 0.35,
+          "sources": [
+            { "url": "https://www.semafor.com/article/10/02/2026/how-employees-forced-openais-president-to-back-down", "title": "Exclusive: How employees forced OpenAI's president to back down — Semafor" }
+          ]
+        }
+      ]
+    }
+  },
+  "access": [
+    {
+      "date": "2026-09-29",
+      "with": ["donald-trump"],
+      "what": "Represented OpenAI at Trump’s White House AI lunch.",
+      "sources": [
+        { "url": "https://www.news4jax.com/business/2026/09/29/trump-vows-to-never-stifle-ai-as-leading-executives-urge-caution/", "title": "Trump vows to never stifle AI as leading executives urge caution — AP via News4JAX (September 29, 2026)" }
+      ]
+    }
+  ]
+}

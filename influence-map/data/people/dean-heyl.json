@@ -1,0 +1,81 @@
+{
+  "name": "Dean Heyl",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Assistant Secretary of Labor for Administration and Management",
+  "summary": "Dean Heyl runs the Labor Department’s Office of the Assistant Secretary for Administration and Management, which handles its budget, personnel, technology and facilities. He joined in February 2025 as assistant secretary for public affairs; he had been director of the office of public liaison in Trump’s first-term Labor Department and later ran his own firm, Heyl Enterprises.",
+  "sources": [
+    { "url": "https://www.dol.gov/agencies/oasam/about", "title": "About OASAM — U.S. Department of Labor" },
+    { "url": "https://www.dol.gov/general/contact/leadership-team", "title": "Leadership Team — U.S. Department of Labor" },
+    { "url": "https://www.dol.gov/newsroom/releases/opa/opa20250213", "title": "Dean Heyl appointed as Assistant Secretary of Labor for Public Affairs — U.S. Department of Labor (February 2025)" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "role": "Director, Office of Public Liaison (first Trump administration)",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/opa/opa20250213", "title": "Dean Heyl appointed as Assistant Secretary of Labor for Public Affairs — U.S. Department of Labor (February 2025)" }
+      ]
+    },
+    {
+      "year": 2025,
+      "role": "Assistant Secretary for Public Affairs",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/opa/opa20250213", "title": "Dean Heyl appointed as Assistant Secretary of Labor for Public Affairs — U.S. Department of Labor (February 2025)" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Assistant Secretary for Administration and Management",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/oasam/about", "title": "About OASAM — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/general/contact/leadership-team", "title": "Leadership Team — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Runs administration and management for Sonderling’s department.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/oasam/about", "title": "About OASAM — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/general/contact/leadership-team", "title": "Leadership Team — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary for Administration and Management",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "keith-sonderling",
+    "sources": [
+      { "url": "https://www.dol.gov/agencies/oasam/about", "title": "About OASAM — U.S. Department of Labor" },
+      { "url": "https://www.dol.gov/general/contact/leadership-team", "title": "Leadership Team — U.S. Department of Labor" }
+    ]
+  },
+  "source_conflicts": [
+    {
+      "topic": "Post",
+      "details": "Labor announced Troy Finnegan as assistant secretary for administration and management in February 2025; the department’s current OASAM and leadership pages list Heyl in that post.",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/oasam/oasam20250213", "title": "Troy Finnegan appointed as Assistant Secretary of Labor for Administration and Management — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/agencies/oasam/about", "title": "About OASAM — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "notes": "dol.gov pages could not be opened from this session (the site blocks automated readers); facts were confirmed with searches restricted to dol.gov and the cited outlets.",
+  "last_researched": "2026-11-08"
+}

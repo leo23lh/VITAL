@@ -1,0 +1,196 @@
+{
+  "name": "Russ Vought",
+  "aliases": ["Russell Vought", "Russell Thurlow Vought"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle", "natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Career Republican operative (Republican Study Committee, House Republican Conference, Heritage Action); Trump's budget director in both terms and a primary architect of Project 2025; calls himself a defender of an \"older definition of conservatism\".",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "russ-vought.jpg",
+    "credit": "Office of Management and Budget",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Russell_Vought,_official_portrait_(2025)_(cropped1).jpg", "title": "File:Russell Vought, official portrait (2025) (cropped1).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Director of the Office of Management and Budget (since February 2025)",
+  "summary": "Russ Vought is Trump's budget director, a post he also held from 2020 to 2021, and a primary architect of the Heritage Foundation's Project 2025. He co-founded Heritage Action (2010) and founded the Center for Renewing America (2021). In 2025–26 he also ran the Consumer Financial Protection Bureau and USAID on an acting basis and pressed deep cuts alongside DOGE. He spoke at NatCon for the first time in September 2025.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" },
+    { "url": "https://www.dailysignal.com/2025/09/03/omb-director-vought-deconstructing-the-administrative-state/", "title": "OMB Director: How President Trump Is Deconstructing the Administrative State — Daily Signal" }
+  ],
+  "timeline": [
+    {
+      "year": 2008,
+      "end_year": 2010,
+      "role": "Policy director",
+      "org": "House Republican Conference (under Mike Pence)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2010,
+      "role": "Co-founder",
+      "org": "Heritage Action for America",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2018,
+      "end_year": 2021,
+      "role": "Deputy director, acting director, then director (2020–2021)",
+      "org": "Office of Management and Budget",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2025,
+      "role": "Founder and president",
+      "org": "Center for Renewing America",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Director (also acting CFPB director Feb. 2025–Aug. 2026 and acting USAID administrator Aug.–Nov. 2025)",
+      "org": "Office of Management and Budget",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Project 2025 (Heritage Foundation)",
+      "role": "Primary architect",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
+      ]
+    },
+    {
+      "name": "National Conservatism Conference",
+      "role": "Speaker (2025)",
+      "sources": [
+        { "url": "https://www.dailysignal.com/2025/09/03/omb-director-vought-deconstructing-the-administrative-state/", "title": "OMB Director: How President Trump Is Deconstructing the Administrative State — Daily Signal" },
+        { "url": "https://www.washingtonexaminer.com/politics/3791010/conservatism-conference/", "title": "Russell Vought, Tom Homan, and others discuss hopes of a new America under Trump — Washington Examiner" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump made Vought deputy and then director of OMB in his first term (2018–2021) and again OMB director from February 2025.",
+      "start_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" },
+        { "url": "https://trumpwhitehouse.archives.gov/people/russell-vought", "title": "Russell Vought — Trump White House archives" },
+        { "url": "https://fedscoop.com/russell-vought-confirmed-omb-director-senate/", "title": "Russell Vought confirmed as OMB director — FedScoop" }
+      ]
+    },
+    {
+      "name": "Michael Needham",
+      "slug": "michael-needham",
+      "relationship_type": "colleague",
+      "description": "Heritage Action for America launched in April 2010 with Needham as its founding CEO; Vought left the House Republican Conference that July to become its political director and later ran its grassroots outreach. Wikipedia describes Vought as a co-founder, which the reporting reviewed doesn't support.",
+      "start_year": 2010,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" },
+        { "url": "https://rollcall.com/2010/08/02/former-gop-leadership-aide-pans-party-agenda/", "title": "Former GOP leadership aide pans party agenda — Roll Call" },
+        { "url": "https://ballotpedia.org/Heritage_Action", "title": "Heritage Action for America — Ballotpedia" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Vought made his first NatCon appearance at Hazony's 2025 conference, defending Trump's spending cuts.",
+      "start_year": 2025,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://www.dailysignal.com/2025/09/03/omb-director-vought-deconstructing-the-administrative-state/", "title": "OMB Director: How President Trump Is Deconstructing the Administrative State — Daily Signal" },
+        { "url": "https://www.usnews.com/news/politics/articles/2025-09-05/national-conservatism-asserts-its-dominance-in-trumps-washington", "title": "National Conservatism Asserts Its Dominance in Trump's Washington — AP via US News" }
+      ]
+    },
+    {
+      "name": "Mike Pence",
+      "slug": "mike-pence",
+      "relationship_type": "employer",
+      "description": "Pence, as House Republican Conference chairman, made Vought its policy director at the start of the 111th Congress (Wikipedia says December 2008); Vought left in July 2010 for Heritage Action. Pence later helped bring him into the Trump administration.",
+      "start_year": 2009,
+      "end_year": 2010,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" },
+        { "url": "https://www.govinfo.gov/content/pkg/CREC-2010-07-29/html/CREC-2010-07-29-pt1-PgE1465-2.htm", "title": "Pence's tribute to Russ Vought — Congressional Record, July 29, 2010" },
+        { "url": "https://rollcall.com/2010/08/02/former-gop-leadership-aide-pans-party-agenda/", "title": "Former GOP leadership aide pans party agenda — Roll Call" }
+      ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "ally",
+      "description": "Fellow architects of Trump's second-term agenda: Miller, now deputy chief of staff, called Vought a \"transformative pick\" for OMB; Vought's Center for Renewing America and Miller's America First Legal worked in tandem before 2025.",
+      "start_year": 2017,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.theregreview.org/2025/05/08/steinzor-the-man-behind-the-trump-deregulatory-throne/", "title": "The Man Behind the Trump Deregulatory Throne — The Regulatory Review" },
+        { "url": "https://littlesis.org/org/415773-Citizens_for_Renewing_America", "title": "Citizens for Renewing America — LittleSis" }
+      ]
+    },
+    {
+      "name": "Rachel Bovard",
+      "slug": "rachel-bovard",
+      "relationship_type": "colleague",
+      "description": "Same institutional home: the Conservative Partnership Institute, where Bovard is a senior official, incubated Vought's Center for Renewing America, which shared CPI's headquarters; no source describes them working together directly.",
+      "start_year": 2021,
+      "confidence": 0.45,
+      "sources": [
+        { "url": "https://cpi.org/2024/02/cpi-announces-new-hires/", "title": "CPI Announces New Hires — CPI" },
+        { "url": "https://www.thenation.com/article/politics/the-rights-partners-in-weaponized-policymaking/", "title": "The Right's Partners in Weaponized Policymaking — The Nation" }
+      ]
+    },
+    {
+      "name": "Heritage Foundation",
+      "slug": "heritage-foundation",
+      "relationship_type": "ally",
+      "description": "One of the main architects of Project 2025, Heritage's blueprint for a second Trump administration, before he returned to lead the budget office.",
+      "start_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" },
+        { "url": "https://www.bostonglobe.com/2024/08/05/nation/russell-vought-project-2025-architect-is-ready-shock-washington-if-trump-wins-second-term/", "title": "Russell Vought, Project 2025 architect, is ready to shock Washington — Boston Globe" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Director, Office of Management and Budget",
+    "unit": "eop",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" },
+      { "url": "https://www.dailysignal.com/2025/09/03/omb-director-vought-deconstructing-the-administrative-state/", "title": "OMB Director: How President Trump Is Deconstructing the Administrative State — Daily Signal" }
+    ]
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "about": "Settings for scripts/fec-import.mjs. candidates: FEC candidate ids of people on the map. committees: FEC committees that belong to a person (slug) or organization (org) on the map; \"from\" = the day it became theirs (earlier gifts are not counted for them). donors: extra matching rules per donor, on top of the employer words taken from their own file (first = other first names on filings; employers = words or phrases; large_usd = accept a name match of at least this size whatever the employer field says; also = exact other contributor names; queries = extra name searches; skip = never import, the name is too common). See CLAUDE.md, FEC import.",
+  "cycles": [2016, 2018, 2020, 2022, 2024, 2026],
+  "candidates": {
+    "abdul-el-sayed": ["S6MI00418"],
+    "alexandria-ocasio-cortez": ["H8NY15148"],
+    "bernie-sanders": ["P60007168", "S4VT00033"],
+    "byron-donalds": ["H2FL14186"],
+    "chuck-schumer": ["S8NY00082"],
+    "david-brog": ["H2NV01298"],
+    "donald-trump": ["P80001571"],
+    "doug-burgum": ["P40013518"],
+    "doug-collins": ["S0GA00567", "H2GA09150"],
+    "eric-schmitt": ["S2MO00544"],
+    "hakeem-jeffries": ["H2NY10092"],
+    "james-talarico": ["S6TX00479"],
+    "jd-vance": ["S2OH00436"],
+    "jeff-sessions": ["S6AL00195"],
+    "joe-kent": ["H2WA03100"],
+    "john-ratcliffe": ["H4TX04153"],
+    "john-thune": ["S2SD00068"],
+    "jon-ossoff": ["S8GA00180", "H8GA06195"],
+    "josh-hawley": ["S8MO00160"],
+    "kamala-harris": ["P00009423", "S6CA00584"],
+    "kari-lake": ["S4AZ00220"],
+    "ken-paxton": ["S6TX00388"],
+    "linda-mcmahon": ["S0CT00151"],
+    "marco-rubio": ["P60006723", "S0FL00338"],
+    "marjorie-taylor-greene": ["H0GA06192"],
+    "markwayne-mullin": ["S2OK00186", "H2OK02083"],
+    "mehmet-oz": ["S2PA00638"],
+    "mike-johnson": ["H6LA04138"],
+    "mike-pence": ["P40013435", "H8IN02060"],
+    "mike-waltz": ["H8FL06148"],
+    "nancy-pelosi": ["H8CA05035"],
+    "pete-buttigieg": ["P00010298"],
+    "pete-hegseth": ["S2MN00258"],
+    "rand-paul": ["P40003576", "S0KY00156"],
+    "robert-f-kennedy-jr": ["P40011793"],
+    "ron-desantis": ["P40013039", "H2FL00292"],
+    "sean-duffy": ["H0WI07051"],
+    "ted-cruz": ["P60006111", "S2TX00312"],
+    "thomas-massie": ["H2KY04121"]
+  },
+  "committees": {
+    "C00902668": { "name": "ABDUL FOR U.S. SENATE", "slug": "abdul-el-sayed" },
+    "C00961805": { "name": "INDEPENDENTS FOR ABDUL", "slug": "abdul-el-sayed" },
+    "C00964767": { "name": "HABIBI PAC", "slug": "abdul-el-sayed" },
+    "C00797670": { "name": "AMERICAN ISRAEL PUBLIC AFFAIRS COMMITTEE POLITICAL ACTION COMMITTEE", "org": "aipac" },
+    "C00799031": { "name": "UNITED DEMOCRACY PROJECT ('UDP')", "org": "aipac" },
+    "C00639591": { "name": "ALEXANDRIA OCASIO-CORTEZ FOR CONGRESS", "slug": "alexandria-ocasio-cortez" },
+    "C00692202": { "name": "COURAGE TO CHANGE", "slug": "alexandria-ocasio-cortez" },
+    "C00879510": { "name": "AMERICA PAC", "org": "america-pac" },
+    "C00864785": { "name": "IN THIS TOGETHER PAC", "slug": "andy-beshear" },
+    "C00406553": { "name": "PROGRESSIVE VOTERS OF AMERICA", "slug": "bernie-sanders" },
+    "C00411330": { "name": "FRIENDS OF BERNIE SANDERS", "slug": "bernie-sanders" },
+    "C00577130": { "name": "BERNIE 2016", "slug": "bernie-sanders" },
+    "C00696948": { "name": "BERNIE 2020", "slug": "bernie-sanders" },
+    "C00509877": { "name": "FRIENDS OF BYRON DONALDS", "slug": "byron-donalds" },
+    "C00733329": { "name": "BYRON DONALDS FOR CONGRESS", "slug": "byron-donalds" },
+    "C00755728": { "name": "PROVEN CONSERVATIVES PAC", "slug": "byron-donalds" },
+    "C00894147": { "name": "PROVEN CONSERVATIVES PAC - FEDERAL", "slug": "byron-donalds" },
+    "C00346312": { "name": "FRIENDS OF SCHUMER", "slug": "chuck-schumer" },
+    "C00348607": { "name": "IMPACT", "slug": "chuck-schumer" },
+    "C00504530": { "name": "CLF (Congressional Leadership Fund)", "org": "congressional-leadership-fund" },
+    "C00805549": { "name": "BROG FOR NEVADA", "slug": "david-brog" },
+    "C00693382": { "name": "DEMOCRACY PAC", "org": "democracy-pac" },
+    "C00786624": { "name": "DEMOCRACY PAC II", "org": "democracy-pac" },
+    "C00580100": { "name": "MAKE AMERICA GREAT AGAIN PAC", "slug": "donald-trump" },
+    "C00618371": { "name": "TRUMP MAKE AMERICA GREAT AGAIN COMMITTEE", "slug": "donald-trump" },
+    "C00618389": { "name": "TRUMP VICTORY", "slug": "donald-trump" },
+    "C00762591": { "name": "SAVE AMERICA", "slug": "donald-trump" },
+    "C00770941": { "name": "TRUMP SAVE AMERICA JOINT FUNDRAISING COMMITTEE", "slug": "donald-trump" },
+    "C00825851": { "name": "MAKE AMERICA GREAT AGAIN INC.", "slug": "donald-trump", "org": "maga-inc" },
+    "C00828541": { "name": "NEVER SURRENDER, INC.", "slug": "donald-trump" },
+    "C00867036": { "name": "RIGHT FOR AMERICA", "slug": "donald-trump" },
+    "C00867275": { "name": "DONALD J. TRUMP REPUBLICAN NOMINEE FUND 2024", "slug": "donald-trump" },
+    "C00867937": { "name": "TRUMP 47 COMMITTEE, INC.", "slug": "donald-trump" },
+    "C00873893": { "name": "TRUMP NATIONAL COMMITTEE JFC, INC.", "slug": "donald-trump" },
+    "C00892471": { "name": "MAGA INC.", "slug": "donald-trump", "org": "maga-inc" },
+    "C00842302": { "name": "DOUG BURGUM FOR AMERICA, INC.", "slug": "doug-burgum" },
+    "C00502039": { "name": "COLLINS FOR CONGRESS", "slug": "doug-collins" },
+    "C00569921": { "name": "PEACH PAC", "slug": "doug-collins" },
+    "C00773184": { "name": "SCHMITT FOR MO SENATE REPUBLICAN NOMINEE FUND 2022", "slug": "eric-schmitt" },
+    "C00775015": { "name": "SCHMITT FOR SENATE", "slug": "eric-schmitt" },
+    "C00826362": { "name": "WINNING FOR AMERICA PAC", "slug": "eric-schmitt" },
+    "C00835959": { "name": "FAIRSHAKE", "org": "fairshake" },
+    "C00669259": { "name": "FF PAC (Future Forward)", "org": "future-forward" },
+    "C00836320": { "name": "CAMPAIGN FOR DEMOCRACY PAC", "slug": "gavin-newsom" },
+    "C00836338": { "name": "CAMPAIGN FOR DEMOCRACY GROUP", "slug": "gavin-newsom" },
+    "C00836346": { "name": "CAMPAIGN FOR DEMOCRACY COMMITTEE", "slug": "gavin-newsom" },
+    "C00503052": { "name": "JEFFRIES FOR CONGRESS", "slug": "hakeem-jeffries" },
+    "C00617803": { "name": "JOBS, EDUCATION, & FAMILIES FIRST  JEFF PAC", "slug": "hakeem-jeffries" },
+    "C00495028": { "name": "HMP (House Majority PAC)", "org": "house-majority-pac" },
+    "C00919084": { "name": "TALARICO FOR TEXAS", "slug": "james-talarico" },
+    "C00770495": { "name": "PROTECT OHIO VALUES PAC (POV PAC)", "slug": "jd-vance" },
+    "C00772947": { "name": "VANCE FOR OH SENATE REPUBLICAN NOMINEE FUND 2022", "slug": "jd-vance" },
+    "C00783142": { "name": "JD VANCE FOR SENATE INC.", "slug": "jd-vance" },
+    "C00783167": { "name": "WORKING FOR OHIO", "slug": "jd-vance" },
+    "C00817072": { "name": "VANCE VICTORY", "slug": "jd-vance" },
+    "C00306704": { "name": "FRIENDS OF SESSIONS SENATE COMMITTEE INC", "slug": "jeff-sessions" },
+    "C00363689": { "name": "TALLATCHEE CREEK INC. PAC", "slug": "jeff-sessions" },
+    "C00771394": { "name": "JOE KENT FOR CONGRESS", "slug": "joe-kent" },
+    "C00793570": { "name": "KEEP ELECTING NEW TALENT PAC", "slug": "joe-kent" },
+    "C00856708": { "name": "JOE KENT FOR WA-03 REPUBLICAN NOMINEE FUND 2024", "slug": "joe-kent" },
+    "C00858365": { "name": "JOE KENT FOR CONGRESS-GTM NF WA03", "slug": "joe-kent" },
+    "C00554113": { "name": "RATCLIFFE FOR CONGRESS", "slug": "john-ratcliffe" },
+    "C00627661": { "name": "LONE STAR LIBERTY FUND", "slug": "john-ratcliffe" },
+    "C00409003": { "name": "HEARTLAND VALUES PAC", "slug": "john-thune" },
+    "C00409581": { "name": "FRIENDS OF JOHN THUNE", "slug": "john-thune" },
+    "C00585224": { "name": "AYOTTE-PORTMAN-THUNE COMMITTEE", "slug": "john-thune" },
+    "C00748186": { "name": "COMMONSENSE, CONSERVATIVE VALUES PAC", "slug": "john-thune" },
+    "C00630426": { "name": "JON OSSOFF FOR CONGRESS", "slug": "jon-ossoff" },
+    "C00718866": { "name": "JON OSSOFF FOR SENATE", "slug": "jon-ossoff" },
+    "C00769109": { "name": "HEALTH JOBS JUSTICE", "slug": "jon-ossoff" },
+    "C00652727": { "name": "JOSH HAWLEY FOR SENATE", "slug": "josh-hawley" },
+    "C00656926": { "name": "HAWLEY VICTORY COMMITTEE", "slug": "josh-hawley" },
+    "C00692640": { "name": "FIGHTING FOR MISSOURI PAC", "slug": "josh-hawley" },
+    "C00571919": { "name": "KAMALA HARRIS FOR SENATE", "slug": "kamala-harris" },
+    "C00586982": { "name": "KAMALA HARRIS VICTORY FUND", "slug": "kamala-harris" },
+    "C00629071": { "name": "FEARLESS FOR THE PEOPLE PAC", "slug": "kamala-harris" },
+    "C00694455": { "name": "KAMALA HARRIS FOR THE PEOPLE", "slug": "kamala-harris" },
+    "C00703975": { "name": "HARRIS FOR PRESIDENT (formerly BIDEN FOR PRESIDENT)", "slug": "kamala-harris", "from": "2024-07-21" },
+    "C00744946": { "name": "HARRIS VICTORY FUND (formerly BIDEN VICTORY FUND)", "slug": "kamala-harris", "from": "2024-07-21" },
+    "C00838912": { "name": "HARRIS ACTION FUND (formerly BIDEN ACTION FUND)", "slug": "kamala-harris", "from": "2024-07-21" },
+    "C00829390": { "name": "LAKE FOR AZ SENATE REPUBLICAN NOMINEE FUND 2024", "slug": "kari-lake" },
+    "C00852343": { "name": "KARI LAKE FOR SENATE", "slug": "kari-lake" },
+    "C00856120": { "name": "KARI LAKE VICTORY FUND", "slug": "kari-lake" },
+    "C00888321": { "name": "KARI LAKE VICTORY COMMITTEE", "slug": "kari-lake" },
+    "C00901918": { "name": "KEN PAXTON FOR SENATE", "slug": "ken-paxton" },
+    "C00930446": { "name": "PAXTON FOR TX SENATE REPUBLICAN NOMINEE FUND 2026", "slug": "ken-paxton" },
+    "C00941906": { "name": "TEXAS FIRST LEADERSHIP PAC", "slug": "ken-paxton" },
+    "C00916114": { "name": "LEADING THE FUTURE", "org": "leading-the-future" },
+    "C00458844": { "name": "MARCO RUBIO FOR PRESIDENT", "slug": "marco-rubio" },
+    "C00494617": { "name": "RUBIO VICTORY COMMITTEE", "slug": "marco-rubio" },
+    "C00500025": { "name": "RECLAIM AMERICA PAC", "slug": "marco-rubio" },
+    "C00620518": { "name": "MARCO RUBIO FOR SENATE", "slug": "marco-rubio" },
+    "C00708289": { "name": "PUTTING PEOPLE BEFORE POLITICIANS INC", "slug": "marjorie-taylor-greene" },
+    "C00755199": { "name": "SAVE AMERICA STOP SOCIALISM PAC", "slug": "marjorie-taylor-greene" },
+    "C00869826": { "name": "COMPLIANT GEORGIA LEADERSHIP COMMITTEE", "slug": "marjorie-taylor-greene" },
+    "C00498345": { "name": "MULLIN FOR AMERICA", "slug": "markwayne-mullin" },
+    "C00567545": { "name": "BOOTS POLITICAL ACTION COMMITTEE", "slug": "markwayne-mullin" },
+    "C00772871": { "name": "OZ FOR PA SENATE REPUBLICAN NOMINEE FUND 2022", "slug": "mehmet-oz" },
+    "C00795930": { "name": "DOCTOR OZ FOR SENATE", "slug": "mehmet-oz" },
+    "C00818393": { "name": "DOSE OF REALITY, OPTIMISM AND ZEAL PAC  (DR OZ PAC)", "slug": "mehmet-oz" },
+    "C00822346": { "name": "DOSE OF REALITY, OPTIMISM AND ZEAL PA PAC", "slug": "mehmet-oz" },
+    "C00608695": { "name": "MIKE JOHNSON FOR LOUISIANA", "slug": "mike-johnson" },
+    "C00350397": { "name": "MIKE PENCE COMMITTEE", "slug": "mike-pence" },
+    "C00383927": { "name": "WIN BACK AMERICA POLITICAL ACTION COMMITTEE", "slug": "mike-pence" },
+    "C00842039": { "name": "MIKE PENCE FOR PRESIDENT", "slug": "mike-pence" },
+    "C00666396": { "name": "MICHAEL WALTZ FOR CONGRESS", "slug": "mike-waltz" },
+    "C00693671": { "name": "WARRIOR DIPLOMAT PAC", "slug": "mike-waltz" },
+    "C00213512": { "name": "NANCY PELOSI FOR CONGRESS", "slug": "nancy-pelosi" },
+    "C00344234": { "name": "PAC TO THE FUTURE", "slug": "nancy-pelosi" },
+    "C00492421": { "name": "NANCY PELOSI VICTORY FUND", "slug": "nancy-pelosi" },
+    "C00697441": { "name": "WIN THE ERA PAC", "slug": "pete-buttigieg" },
+    "C00622027": { "name": "PRESERVE AMERICA PAC", "org": "preserve-america-pac" },
+    "C00756882": { "name": "PRESERVE AMERICA PAC", "org": "preserve-america-pac" },
+    "C00878801": { "name": "PRESERVE AMERICA PAC", "org": "preserve-america-pac" },
+    "C00493924": { "name": "REINVENTING A NEW DIRECTION POLITICAL ACTION COMMITTEE", "slug": "rand-paul" },
+    "C00496075": { "name": "RAND PAUL FOR US SENATE", "slug": "rand-paul" },
+    "C00545848": { "name": "RAND PAUL VICTORY COMMITTEE", "slug": "rand-paul" },
+    "C00575449": { "name": "FREEDOM FOR ALL AMERICANS", "slug": "rand-paul" },
+    "C00571588": { "name": "RESTORATION OF AMERICA PAC", "org": "restoration-pac" },
+    "C00836916": { "name": "TEAM KENNEDY", "slug": "robert-f-kennedy-jr" },
+    "C00511568": { "name": "RON DESANTIS FOR FLORIDA", "slug": "ron-desantis" },
+    "C00834077": { "name": "NEVER BACK DOWN INC.", "slug": "ron-desantis" },
+    "C00841130": { "name": "RESTORE OUR NATION (RON PAC)", "slug": "ron-desantis" },
+    "C00841148": { "name": "GREAT AMERICAN COMEBACK", "slug": "ron-desantis" },
+    "C00841155": { "name": "TEAM DESANTIS 2024", "slug": "ron-desantis" },
+    "C00464339": { "name": "DUFFY FOR WISCONSIN", "slug": "sean-duffy" },
+    "C00544312": { "name": "DUFFY VICTORY FUND", "slug": "sean-duffy" },
+    "C00571703": { "name": "SLF PAC (Senate Leadership Fund)", "org": "senate-leadership-fund" },
+    "C00484642": { "name": "SMP (Senate Majority PAC)", "org": "senate-majority-pac" },
+    "C00492785": { "name": "TED CRUZ FOR SENATE", "slug": "ted-cruz" },
+    "C00536540": { "name": "JOBS, FREEDOM, AND SECURITY PAC", "slug": "ted-cruz" },
+    "C00542423": { "name": "TED CRUZ VICTORY COMMITTEE", "slug": "ted-cruz" },
+    "C00562033": { "name": "LEE CRUZ VICTORY COMMITTEE", "slug": "ted-cruz" },
+    "C00574624": { "name": "CRUZ FOR PRESIDENT", "slug": "ted-cruz" },
+    "C00509729": { "name": "THOMAS MASSIE FOR CONGRESS", "slug": "thomas-massie" },
+    "C00563429": { "name": "MAKING A SENSIBLE SHIFT IN ELECTIONS PAC", "slug": "thomas-massie" },
+    "C00876094": { "name": "UNITY FIRST PAC", "slug": "wes-moore" },
+    "C00901223": { "name": "LONE STAR LIBERTY PAC", "slug": "ken-paxton" }
+  },
+  "donors": {
+    "alex-karp": {
+      "first": ["ALEXANDER"],
+      "employers": ["PLANTIR", "PALATIR"]
+    },
+    "ben-horowitz": {
+      "first": ["BENJAMIN"],
+      "employers": ["AH CAPITAL", "A16Z", "ANDREESEN"]
+    },
+    "chris-buskirk": {
+      "first": ["CHRISTOPHER"],
+      "employers": ["AMERICAN GREATNESS", "1789 CAPITAL", "CAG"],
+      "large_usd": 20000
+    },
+    "chris-larsen": {
+      "first": ["CHRISTIAN"],
+      "employers": ["RIPPLE", "PROSPER MARKETPLACE"]
+    },
+    "david-sacks": {
+      "employers": ["GENI"]
+    },
+    "dustin-moskovitz": {
+      "employers": ["ASAMA"],
+      "large_usd": 100000,
+      "also": ["MOSKOVITZ TRUST, DUSTIN"]
+    },
+    "elon-musk": {
+      "employers": ["SPACE EXPLORATION", "SPACEX", "TESLA", "X CORP", "XAI"],
+      "large_usd": 10000,
+      "also": ["ELON MUSK REVOCABLE TRUST"]
+    },
+    "frank-bisignano": {
+      "employers": ["J P MORGAN", "JPMORGAN", "FIRST DATA", "FISERV"]
+    },
+    "george-soros": { "large_usd": 25000 },
+    "greg-brockman": {
+      "first": ["GREGORY"]
+    },
+    "jacob-helberg": {
+      "employers": ["STANFORD", "FOUNDERS FUND", "OUTBOUND"]
+    },
+    "jeff-yass": {
+      "first": ["JEFFREY"],
+      "employers": ["SIG", "S I G", "STG", "SUSQUEHANNA"]
+    },
+    "jeremy-stoppelman": { "large_usd": 5000 },
+    "joe-lonsdale": {
+      "employers": ["8VC", "SVC"]
+    },
+    "keith-rabois": {
+      "employers": ["KHOSTA", "KHOSIA", "KHOSHLA"],
+      "large_usd": 50000
+    },
+    "ken-griffin": {
+      "first": ["KENNETH"],
+      "employers": ["CITIDEL"]
+    },
+    "larry-ellison": {
+      "first": ["LAWRENCE"],
+      "queries": ["ELLISON, LAWRENCE"],
+      "employers": ["LAWRENCE INVESTMENTS"]
+    },
+    "les-wexner": {
+      "first": ["LESLIE"],
+      "employers": ["LIMITED BRANDS", "LIMITED STORES", "LIMITED CORPORATION", "L BRANDS"],
+      "large_usd": 50000
+    },
+    "luke-nosek": { "large_usd": 10000 },
+    "marc-andreessen": {
+      "employers": ["AH CAPITAL", "AH PARTNERS", "A16Z"]
+    },
+    "michael-bloomberg": {
+      "employers": ["BLOOMBER"],
+      "large_usd": 100000
+    },
+    "miriam-adelson": {
+      "employers": ["PHYSICIAN", "INTERFACE GROUP", "SANDS"],
+      "large_usd": 2000
+    },
+    "norman-braman": {
+      "employers": ["AUTOMOBILE", "AUTO DEALER", "DEALERSHIP"],
+      "large_usd": 5000
+    },
+    "omeed-malik": {
+      "employers": ["1789 CAPITAL", "FARVAHAR"]
+    },
+    "palmer-luckey": {
+      "employers": ["ANDURIC", "ANDRUIL", "AUDURIL"],
+      "large_usd": 5000
+    },
+    "paul-singer": {
+      "employers": ["EMC", "ELLIOT", "ELLIOTT"]
+    },
+    "peter-thiel": {
+      "employers": ["CLARIUM"]
+    },
+    "rebekah-mercer": { "large_usd": 2000 },
+    "reid-hoffman": {
+      "employers": ["LINKDIN", "GRAYLOCK", "GEYLOCK", "GREYLOCK"],
+      "large_usd": 100000
+    },
+    "richard-uihlein": {
+      "employers": ["UIINE", "U LINE", "ULINE"],
+      "large_usd": 5000
+    },
+    "robert-mercer": {
+      "employers": ["RENAISSANCE", "RENASSIANCE", "RENASSINCE"],
+      "large_usd": 50000
+    },
+    "sam-altman": {
+      "first": ["SAMUEL"],
+      "employers": ["OPEN AI", "OPENAI", "OAI", "Y COMBINATOR"]
+    },
+    "steve-chen": { "skip": true },
+    "thomas-klingenstein": { "large_usd": 100000 },
+    "timothy-mellon": { "large_usd": 2000 },
+    "zach-witkoff": {
+      "first": ["ZACHARY"],
+      "employers": ["SC FINANCIAL", "WORLD LIBERTY", "WHTIKOFF", "WITKOF"],
+      "large_usd": 25000
+    }
+  },
+  "last_import": "2026-11-12"
+}

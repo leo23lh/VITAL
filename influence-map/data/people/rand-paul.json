@@ -1,0 +1,182 @@
+{
+  "aliases": ["Randal Howard Paul"],
+  "public_figure": true,
+  "connections": [
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "donor",
+      "description": "Yass put about $2.25–2.3 million of his own money into three super PACs backing Paul's 2016 presidential run. FEC filings show $20,600 from Jeff Yass to Reinventing a New Direction Political Action Committee, Rand Paul for US Senate in 2 cycles (2018–2020).",
+      "start_year": 2015,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Yass", "title": "Jeff Yass — Wikipedia" },
+        { "url": "https://whyy.org/articles/susquehanna-groups-yass-donates-23-million-to-support-rand-paul-campaign", "title": "Susquehanna Group's Yass donates $2.3 million to support Rand Paul campaign — WHYY" },
+        { "url": "https://www.phillymag.com/news/2015/08/04/rand-paul-jeff-yass/", "title": "Rand Paul has a (very) rich friend in Philadelphia — Philadelphia Magazine" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00493924&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Reinventing a New Direction Political Action Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00496075&two_year_transaction_period=2020", "title": "FEC receipts: YASS, JEFF to Rand Paul for US Senate" }
+      ],
+      "end_year": 2020
+    },
+    {
+      "name": "Rachel Bovard",
+      "slug": "rachel-bovard",
+      "relationship_type": "employee",
+      "description": "Bovard was Paul's legislative director.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.defensepriorities.org/people/rachel-bovard", "title": "Rachel Bovard — Defense Priorities" }
+      ]
+    },
+    {
+      "name": "Sergio Gor",
+      "slug": "sergio-gor",
+      "relationship_type": "employee",
+      "description": "Gor worked for Paul from 2013, at his PAC and then as spokesman, communications director and deputy chief of staff, before leaving in 2020 for Trump's campaign finance committee.",
+      "start_year": 2013,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.freepressjournal.in/world/sergio-gors-unconventional-journey-from-rand-paul-aide-to-donald-trumps-trusted-enforcer-highlights-both-loyalty-and-controversy", "title": "Sergio Gor's journey from Rand Paul aide to Trump's trusted enforcer — Free Press Journal" },
+        { "url": "https://www.semafor.com/article/08/28/2025/ambassador-gor-trumps-hiring-chief-on-fast-track-to-india", "title": "Ambassador Gor: Trump's hiring chief on fast track to India — Semafor" }
+      ],
+      "end_year": 2020
+    },
+    {
+      "name": "Thomas Massie",
+      "slug": "thomas-massie",
+      "relationship_type": "ally",
+      "description": "Kentucky's libertarian-leaning pair: Paul was the only Kentucky Republican in Congress to back Massie against Trump's 2026 primary challenge, pledging to be with him \"every step of the way\"; Trump called Massie \"Rand Paul, Jr.\"",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://digital-release.thehill.com/homenews/campaign/5572122-rand-paul-backs-thomas-massie", "title": "Paul vows to support Massie against Trump-backed primary challenger — The Hill" },
+        { "url": "https://spectrumnews1.com/ky/louisville/news/2026/03/31/paul-backs-massie-campaign", "title": "Paul backs Massie campaign — Spectrum News 1" },
+        { "url": "https://kvia.com/politics/cnn-us-politics/2026/02/07/a-defiant-thomas-massie-takes-on-the-maga-machine-in-heated-kentucky-primary/", "title": "A defiant Thomas Massie takes on the MAGA machine in heated Kentucky primary — CNN via KVIA" }
+      ]
+    },
+    {
+      "name": "Markwayne Mullin",
+      "slug": "markwayne-mullin",
+      "relationship_type": "enemy",
+      "description": "As chairman of the Senate Homeland Security Committee, Paul challenged Mullin's fitness to lead DHS at his March 2026 hearing and was the only Republican to vote against him; Democrat John Fetterman's vote carried the nomination 8–7.",
+      "start_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/markwayne-mullin-nomination-homeland-security-secretary-rand-paul", "title": "Markwayne Mullin nomination for Homeland Security secretary — CBS News" },
+        { "url": "https://abc7news.com/post/markwayne-mullin-nomination-dhs-secretary-narrowly-clears-senate-committee-support-democrat-fetterman/18735272/", "title": "Markwayne Mullin nomination to be DHS secretary narrowly clears Senate committee — ABC News" }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "ally",
+      "description": "Paul publicly opposed the Senate Intelligence Committee's May 2019 subpoena of Trump Jr., saying it could not have happened \"without Republicans being complicit\"; Wikipedia calls Trump Jr. a close friend of Paul's, which news reports reviewed do not state.",
+      "start_year": 2019,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.axios.com/2019/05/09/donald-trump-jr-subpoena-republican-reaction", "title": "Donald Trump Jr.'s Senate Intel subpoena faces GOP backlash — Axios" },
+        { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "enemy",
+      "description": "Paul said in December 2025 that Hegseth was either lying or incompetent about the September 2, 2025 follow-up strike that killed survivors of a Caribbean boat strike, and called for him to testify under oath.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://reason.com/2025/12/03/rand-paul-bashes-pete-hegseth-over-boat-bombings-he-was-lying-or-hes-incompetent/", "title": "Reason: Rand Paul bashes Pete Hegseth over boat bombings" },
+        { "url": "https://foreignpolicy.com/2025/12/02/republicans-criticize-hegseth-caribbean-strike/", "title": "Foreign Policy: Republicans criticize Hegseth for deadly Caribbean double strike" }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "friend",
+      "description": "Wikipedia describes Trump Jr. and Paul as close friends; news reporting shows Paul defending Trump Jr. in 2019 rather than describing the friendship.",
+      "start_year": null,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.axios.com/2019/05/09/donald-trump-jr-subpoena-republican-reaction", "title": "Donald Trump Jr.'s Senate Intel subpoena faces GOP backlash — Axios" },
+        { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "donor",
+      "description": "FEC filings show $11,600 from Larry Ellison to Reinventing a New Direction Political Action Committee, Rand Paul for US Senate in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00493924&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to Reinventing a New Direction Political Action Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00496075&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to Rand Paul for US Senate" }
+      ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $48,500 from Richard Uihlein to Rand Paul Victory Committee, Reinventing a New Direction Political Action Committee, Rand Paul for President, Inc. and others in 3 cycles (2016–2024).",
+      "start_year": 2015,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00545848&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Rand Paul Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00493924&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Reinventing a New Direction Political Action Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00575449&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Rand Paul for President, Inc." }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-08",
+  "name": "Rand Paul",
+  "sector": "politics",
+  "groups": [],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican senator from Kentucky since 2011; describes himself as a constitutional conservative and Tea Party supporter with libertarian views.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "rand-paul.jpg",
+    "credit": "US Senate Photography Office",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Rand_Paul_Portrait_(3x4_cropped).jpg", "title": "File:Rand Paul Portrait (3x4 cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "US senator from Kentucky (Republican); chair of the Senate Homeland Security Committee",
+  "summary": "Rand Paul, an ophthalmologist and son of Ron Paul, has been a Republican senator from Kentucky since 2011 and ran for president in 2016. A libertarian-leaning conservative, he chairs the Homeland Security Committee; his former staff include Sergio Gor and Rachel Bovard, and Jeff Yass funded his 2016 run.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2011,
+      "end_year": null,
+      "role": "US senator from Kentucky",
+      "org": "US Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "office": {
+    "title": "Senator (R-KY); Chair, Homeland Security Committee",
+    "unit": "senate",
+    "rank": 3,
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Rand_Paul", "title": "Rand Paul — Wikipedia" }
+    ]
+  }
+}

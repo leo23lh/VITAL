@@ -1,0 +1,116 @@
+{
+  "aliases": ["Ivana Marie Trump"],
+  "public_figure": true,
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "family",
+      "description": "Daughter. She was an unpaid Advisor to the President from March 2017 to January 2021.",
+      "start_year": null,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" },
+        { "url": "https://www.cbsnews.com/pictures/crash-course-ivanka-trump", "title": "Crash course on Ivanka Trump — CBS News" }
+      ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "family",
+      "description": "Wife; they married in 2009. Ivanka Trump was a senior White House adviser in Trump's first term.",
+      "start_year": 2009,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" },
+        { "url": "https://www.cbsnews.com/pictures/crash-course-ivanka-trump", "title": "Crash course on Ivanka Trump — CBS News" },
+        { "url": "https://www.yahoo.com/news/timeline-ivanka-trump-jared-kushners-171825866.html", "title": "A timeline of Ivanka Trump and Jared Kushner's relationship — Yahoo News" }
+      ],
+      "end_year": null
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "family",
+      "description": "Siblings: both are children of Donald and Ivana Trump.",
+      "start_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" },
+        { "url": "https://www.cbsnews.com/pictures/crash-course-ivanka-trump", "title": "Crash course on Ivanka Trump — CBS News" }
+      ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "enemy",
+      "description": "Rival White House factions in 2017: Bannon's populists against \"Javanka\"; they traded accusations of leaking, and after leaving Bannon called the couple \"the railhead of all bad decisions\".",
+      "start_year": 2017,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.scmp.com/news/world/united-states-canada/article/2125569/railhead-all-bad-decisions-steve-bannon-blames", "title": "'The railhead of all bad decisions': Steve Bannon blames 'Javanka' — South China Morning Post" },
+        { "url": "https://forward.com/fast-forward/390671/steve-bannon-blames-javanka-for-every-bad-decision-trump-has-made/", "title": "Steve Bannon blames \"Javanka\" for every bad decision Trump has made — The Forward" }
+      ]
+    },
+    {
+      "name": "Eric Trump",
+      "slug": "eric-trump",
+      "relationship_type": "family",
+      "description": "His sister.",
+      "start_year": 1984,
+      "confidence": 1,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" },
+        { "url": "https://www.cbsnews.com/pictures/donald-trump-kids-ivanka-eric-tiffany-barron/", "title": "Ivanka, Donald Jr. and the other Trump kids — CBS News" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-08",
+  "name": "Ivanka Trump",
+  "sector": "business",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": 2017,
+      "end_year": 2021,
+      "basis": "Senior adviser in her father's first Republican administration.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "ivanka-trump.jpg",
+    "credit": "Andrea Hanks/Official White House Photo",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Ivanka_Trump_official_portrait_2020.jpg", "title": "File:Ivanka Trump official portrait 2020.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Businesswoman; former adviser to the president (2017–2021)",
+  "summary": "Ivanka Trump, Donald Trump's eldest daughter, was an executive vice president of the Trump Organization and a judge on The Apprentice before serving as an adviser in her father's first administration alongside her husband, Jared Kushner, amid conflict-of-interest concerns over her businesses.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2017,
+      "role": "Executive vice president",
+      "org": "Trump Organization",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2021,
+      "role": "Adviser to the President",
+      "org": "White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": []
+}

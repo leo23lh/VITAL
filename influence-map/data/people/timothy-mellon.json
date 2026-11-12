@@ -1,0 +1,665 @@
+{
+  "name": "Timothy Mellon",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "business",
+  "groups": [],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican since the Reagan years (by his own account he earlier voted for Johnson, McGovern and Carter). Nearly all of his $227 million in federal giving from 2020 to mid-2024 went to Republicans, above all Trump's super PACs; his only Democratic gifts were to Alexandria Ocasio-Cortez in 2018 (\"to disrupt the Democratic Party\") and Tulsi Gabbard in 2020.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/timothy-mellon-leads-huge-month-trump-megadonors-pouring-cash-into-election-rcna158204", "title": "Timothy Mellon leads huge month for Trump megadonors — NBC News" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "timothy-mellon.jpg",
+    "credit": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Timothy_Mellon_via_the_Associated_Press.jpg", "title": "File:Timothy Mellon via the Associated Press.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Heir to the Mellon banking fortune; former owner of Pan Am Railways; Republican megadonor",
+  "summary": "Timothy Mellon, a grandson of Treasury Secretary Andrew Mellon, built a railroad holding company (Guilford Transportation, later Pan Am Railways) that he sold to CSX in 2022. He was the second-biggest donor of the 2024 cycle, giving about $150 million to the pro-Trump MAGA Inc. and $25 million to a super PAC backing Robert F. Kennedy Jr. During the 2025 government shutdown he gave $130 million to help pay the armed forces.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+    { "url": "https://thehill.com/policy/defense/5575276-timothy-mellon-troop-pay-report/", "title": "What to know about Timothy Mellon, who reportedly donated $130M to pay troops — The Hill" },
+    { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" }
+  ],
+  "timeline": [
+    {
+      "year": 1977,
+      "role": "Founder",
+      "org": "Perma Treat",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1981,
+      "end_year": 2022,
+      "role": "Founder and owner (sold to CSX for $600M in 2022)",
+      "org": "Guilford Transportation Industries / Pan Am Railways",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1981,
+      "end_year": 2002,
+      "role": "Trustee",
+      "org": "Andrew W. Mellon Foundation",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Gave $10 million to the pro-Trump super PAC America First Action in April 2020, which made him Trump's biggest benefactor of that cycle (some reports count $20 million in all). His much larger 2024–25 giving (about $152 million) went to MAGA Inc.",
+      "start_year": 2020,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+        { "url": "https://www.bloombergquint.com/businessweek/top-gop-donor-timothy-mellon-is-former-liberal-now-trump-backer", "title": "Mellon leads 2020 GOP donors — Bloomberg Businessweek" },
+        { "url": "https://business-standard.com/amp/article/international/trump-policies-boon-to-super-rich-so-where-are-7-figure-cheques-120081800040_1.html", "title": "Trump policies a boon to super rich, so where are the 7-figure cheques? — New York Times via Business Standard" }
+      ],
+      "end_year": 2020
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "funded_by",
+      "description": "Mellon gave $25 million to American Values 2024, the super PAC backing Kennedy's 2024 presidential run, making him its largest donor while also Trump's.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+        { "url": "https://www.newsweek.com/donald-trump-rfk-donations-timothy-mellon-fec-1872315", "title": "Donald Trump and RFK Jr Have the Same Largest Donor — Newsweek" }
+      ]
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "slug": "alexandria-ocasio-cortez",
+      "relationship_type": "funded_by",
+      "description": "Mellon gave $2,700 to Ocasio-Cortez's 2018 campaign, one of only two Democrats he has funded; he said he did it to disrupt the Democratic Party, and her campaign tried to refund it.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+        { "url": "https://www.bloombergquint.com/businessweek/top-gop-donor-timothy-mellon-is-former-liberal-now-trump-backer", "title": "Mellon leads 2020 GOP donors — Bloomberg Businessweek" },
+        { "url": "https://popular.info/p/the-reclusive-plutocrat-who-became", "title": "The reclusive plutocrat who became the biggest political donor of 2024 — Popular Information" }
+      ]
+    },
+    {
+      "name": "Andrew Mellon",
+      "slug": "andrew-mellon",
+      "relationship_type": "family",
+      "description": "Grandson of the banker and Treasury Secretary (1921–1932).",
+      "start_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jan Brewer",
+      "slug": "jan-brewer",
+      "relationship_type": "funded_by",
+      "description": "Mellon gave $1.5 million to Arizona Gov. Brewer's fund defending the SB 1070 immigration law, its biggest donation.",
+      "start_year": 2010,
+      "end_year": 2010,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" }
+      ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "funded_by",
+      "description": "Its largest donor: about $150 million in the 2024 cycle, including $50 million on May 31, 2024, and $2 million more in 2025. FEC filings show $153,445,519 from Timothy Mellon to Make America Great Again Inc., MAGA Inc. in 3 cycles (2022–2026).",
+      "start_year": 2022,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/timothy-mellon-leads-huge-month-trump-megadonors-pouring-cash-into-election-rcna158204", "title": "Timothy Mellon leads huge month for Trump megadonors — NBC News" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00825851&two_year_transaction_period=2026", "title": "FEC receipts: MELLON, TIMOTHY to Make America Great Again Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: MELLON, TIMOTHY to MAGA Inc." }
+      ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $81,000,000 from Timothy Mellon to CLF in 5 cycles (2018–2026).",
+      "start_year": 2018,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: MELLON, TIMOTHY to CLF" }
+      ]
+    },
+    {
+      "name": "Senate Leadership Fund",
+      "slug": "senate-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $30,000,000 from Timothy Mellon to Senate Leadership Fund in the 2020 cycle.",
+      "start_year": 2020,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00571703&two_year_transaction_period=2020", "title": "FEC receipts: MELLON, TIMOTHY to Senate Leadership Fund" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "2026 cycle giving",
+      "details": "Newsweek found about $3.05M in federal filings, a roughly 97% drop from 2024; the Washington Post's tracker (FEC data to Oct. 15, 2026) lists $23.1M. Some of his giving goes to nonprofits that do not report to the FEC.",
+      "sources": [
+        { "url": "https://www.newsweek.com/timothy-mellon-donations-republicans-trump-drop-12194458", "title": "Timothy Mellon, A Top Trump Donor, Isn't Giving as Much to Republicans as He Used to — Newsweek" },
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where news pages could not be opened and OpenSecrets was blocked; facts were confirmed with web searches tied to each cited URL and with the Wikipedia article via its API.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "description": "Sharply down from 2024; tallies disagree (about $3M per Newsweek, $23.1M per the Washington Post). His $130M gift to pay troops in the 2025 shutdown was not political giving.",
+        "sources": [
+          { "url": "https://www.newsweek.com/timothy-mellon-donations-republicans-trump-drop-12194458", "title": "Timothy Mellon, A Top Trump Donor, Isn't Giving as Much to Republicans as He Used to — Newsweek" },
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+          { "url": "https://thehill.com/policy/defense/5575276-timothy-mellon-troop-pay-report/", "title": "What to know about Timothy Mellon, who reportedly donated $130M to pay troops — The Hill" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&two_year_transaction_period=2026", "title": "FEC itemized receipts: MELLON, TIMOTHY, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "org": "maga-inc",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 2000000,
+            "description": "First half of 2025.",
+            "sources": [
+              { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: MELLON, TIMOTHY to MAGA Inc., 2026 cycle" }
+            ],
+            "fec_usd": 1945519,
+            "fec_ids": ["C00892471"]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 21000000,
+            "fec_usd": 21000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: CLF $21,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: MELLON, TIMOTHY to CLF, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Aurora Action Network",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00907584"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00907584&two_year_transaction_period=2026", "title": "FEC receipts: MELLON, TIMOTHY to Aurora Action Network, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Strong As Granite PAC",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00909135"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00909135&two_year_transaction_period=2026", "title": "FEC receipts: MELLON, TIMOTHY to Strong As Granite PAC, 2026 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 23065519,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 197000000,
+        "rank": 2,
+        "ranking": "OpenSecrets 2024 top donors (via Newser)",
+        "description": "The largest donor to Trump's 2024 campaign effort; also the main funder of the pro-Kennedy super PAC.",
+        "sources": [
+          { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
+          { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&two_year_transaction_period=2024", "title": "FEC itemized receipts: MELLON, TIMOTHY, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "org": "maga-inc",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 150000000,
+            "description": "Including $50M on May 31, 2024, one of the largest disclosed gifts ever.",
+            "sources": [
+              { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+              { "url": "https://www.nbcnews.com/politics/2024-election/timothy-mellon-leads-huge-month-trump-megadonors-pouring-cash-into-election-rcna158204", "title": "Timothy Mellon leads huge month for Trump megadonors — NBC News" },
+              { "url": "https://www.cnn.com/2024/08/21/politics/cash-advantage-harris-trump-rfk-filings/index.html", "title": "Harris erases Trump's cash edge while RFK Jr. faces dwindling resources — CNN" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00825851&two_year_transaction_period=2024", "title": "FEC receipts: MELLON, TIMOTHY to Make America Great Again Inc., 2024 cycle" }
+            ],
+            "fec_usd": 150000000,
+            "fec_ids": ["C00825851"]
+          },
+          {
+            "name": "American Values 2024 (pro-Kennedy super PAC)",
+            "slug": "robert-f-kennedy-jr",
+            "kind": "super-pac",
+            "side": "nonpartisan",
+            "amount_usd": 25000000,
+            "sources": [
+              { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+              { "url": "https://www.newsweek.com/donald-trump-rfk-donations-timothy-mellon-fec-1872315", "title": "Donald Trump and RFK Jr Have the Same Largest Donor — Newsweek" }
+            ]
+          },
+          {
+            "name": "American Values 2024",
+            "kind": "super-pac",
+            "amount_usd": 25003300,
+            "fec_usd": 25003300,
+            "fec_ids": ["C00821439"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00821439&two_year_transaction_period=2024", "title": "FEC receipts: MELLON, TIMOTHY to American Values 2024, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 15000000,
+            "fec_usd": 15000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $15,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00504530&two_year_transaction_period=2024", "title": "FEC receipts: MELLON, TIMOTHY to Congressional Leadership Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "The Sentinel Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 6000000,
+            "fec_usd": 6000000,
+            "fec_ids": ["C00811166"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00811166&two_year_transaction_period=2024", "title": "FEC receipts: MELLON, TIMOTHY to The Sentinel Action Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Fair Courts America",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00805283"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00805283&two_year_transaction_period=2024", "title": "FEC receipts: MELLON, TIMOTHY to Fair Courts America, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Byron Donalds",
+            "slug": "byron-donalds",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00733329"],
+            "description": "Per FEC filings: Byron Donalds for Congress $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00733329&two_year_transaction_period=2024", "title": "FEC receipts: MELLON, TIMOTHY to Byron Donalds for Congress, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Robert F. Kennedy Jr.",
+            "slug": "robert-f-kennedy-jr",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 3300,
+            "fec_usd": 3300,
+            "fec_ids": ["C00836916"],
+            "description": "Per FEC filings: Team Kennedy $3,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00836916&two_year_transaction_period=2024", "title": "FEC receipts: MELLON, TIMOTHY to Team Kennedy, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 41746400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&two_year_transaction_period=2022", "title": "FEC itemized receipts: MELLON, TIMOTHY, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 15000000,
+            "fec_usd": 15000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $15,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00504530&two_year_transaction_period=2022", "title": "FEC receipts: MELLON, TIMOTHY to Congressional Leadership Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "The Sentinel Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 7000000,
+            "fec_usd": 7000000,
+            "fec_ids": ["C00811166"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00811166&two_year_transaction_period=2022", "title": "FEC receipts: MELLON, TIMOTHY to The Sentinel Action Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Wisconsin Truth PAC",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00804104"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00804104&two_year_transaction_period=2022", "title": "FEC receipts: MELLON, TIMOTHY to Wisconsin Truth PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "American Policy Fund",
+            "kind": "super-pac",
+            "amount_usd": 4000000,
+            "fec_usd": 4000000,
+            "fec_ids": ["C00749085"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00749085&two_year_transaction_period=2022", "title": "FEC receipts: MELLON, TIMOTHY to American Policy Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Connecticut Patriots PAC",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00804773"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00804773&two_year_transaction_period=2022", "title": "FEC receipts: MELLON, TIMOTHY to Connecticut Patriots PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Evergreen Principles PAC",
+            "kind": "super-pac",
+            "amount_usd": 2200000,
+            "fec_usd": 2200000,
+            "fec_ids": ["C00819664"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00819664&two_year_transaction_period=2022", "title": "FEC receipts: MELLON, TIMOTHY to Evergreen Principles PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "White Mountain PAC",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00823989"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00823989&two_year_transaction_period=2022", "title": "FEC receipts: MELLON, TIMOTHY to White Mountain PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Battle Born Values PAC",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00787978"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00787978&two_year_transaction_period=2022", "title": "FEC receipts: MELLON, TIMOTHY to Battle Born Values PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "org": "maga-inc",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00825851"],
+            "description": "Per FEC filings: Make America Great Again Inc. $1,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00825851&two_year_transaction_period=2022", "title": "FEC receipts: MELLON, TIMOTHY to Make America Great Again Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Liberty Champions",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00777334"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00777334&two_year_transaction_period=2022", "title": "FEC receipts: MELLON, TIMOTHY to Liberty Champions, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00783142"],
+            "description": "Per FEC filings: JD Vance for Senate Inc. $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: MELLON, TIMOTHY to JD Vance for Senate Inc., 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 70144756,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&two_year_transaction_period=2020", "title": "FEC itemized receipts: MELLON, TIMOTHY, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 30000000,
+            "fec_usd": 30000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $30,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00571703&two_year_transaction_period=2020", "title": "FEC receipts: MELLON, TIMOTHY to Senate Leadership Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "America First Action, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 20000000,
+            "fec_usd": 20000000,
+            "fec_ids": ["C00637512"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00637512&two_year_transaction_period=2020", "title": "FEC receipts: MELLON, TIMOTHY to America First Action, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 20000000,
+            "fec_usd": 20000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $20,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00504530&two_year_transaction_period=2020", "title": "FEC receipts: MELLON, TIMOTHY to Congressional Leadership Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Scalise Leadership Fund",
+            "kind": "pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00568162"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00568162&two_year_transaction_period=2020", "title": "FEC receipts: MELLON, TIMOTHY to Scalise Leadership Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 39400,
+            "fec_usd": 39400,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00075820&two_year_transaction_period=2020", "title": "FEC receipts: MELLON, TIMOTHY to NRCC, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 10066300,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&two_year_transaction_period=2018", "title": "FEC itemized receipts: MELLON, TIMOTHY, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10000000,
+            "fec_usd": 10000000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $10,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00504530&two_year_transaction_period=2018", "title": "FEC receipts: MELLON, TIMOTHY to Congressional Leadership Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Josh Hawley",
+            "slug": "josh-hawley",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00652727"],
+            "description": "Per FEC filings: Josh Hawley for Senate $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00652727&two_year_transaction_period=2018", "title": "FEC receipts: MELLON, TIMOTHY to Josh Hawley for Senate, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Alexandria Ocasio-Cortez",
+            "slug": "alexandria-ocasio-cortez",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00639591"],
+            "description": "Per FEC filings: Alexandria Ocasio-Cortez for Congress $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00639591&two_year_transaction_period=2018", "title": "FEC receipts: MELLON, TIMOTHY to Alexandria Ocasio-Cortez for Congress, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 42660,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&two_year_transaction_period=2016", "title": "FEC itemized receipts: MELLON, TIMOTHY, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 8100,
+            "fec_usd": 8100,
+            "fec_ids": ["C00409581"],
+            "description": "Per FEC filings: Friends of John Thune $8,100.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00409581&two_year_transaction_period=2016", "title": "FEC receipts: MELLON, TIMOTHY to Friends of John Thune, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2160,
+            "fec_usd": 2160,
+            "fec_ids": ["C00580100"],
+            "description": "Per FEC filings: Donald J. Trump for President, Inc. $2,160.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00580100&two_year_transaction_period=2016", "title": "FEC receipts: MELLON, TIMOTHY to Donald J. Trump for President, Inc., 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No reporting on 2028. His federal giving fell sharply in 2026 after record 2024 spending; his pattern since 2020 is Trump-aligned super PACs.",
+      "sources": [
+        { "url": "https://www.newsweek.com/timothy-mellon-donations-republicans-trump-drop-12194458", "title": "Timothy Mellon, A Top Trump Donor, Isn't Giving as Much to Republicans as He Used to — Newsweek" }
+      ],
+      "likely": [
+        {
+          "name": "MAGA Inc. or a successor pro-Trump vehicle",
+          "slug": "donald-trump",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "Gave to Trump super PACs in 2020 ($10M, America First Action), 2024 ($150M) and 2025 ($2M); 2026 giving dropped.",
+          "confidence": 0.45,
+          "sources": [
+            { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+            { "url": "https://www.newsweek.com/timothy-mellon-donations-republicans-trump-drop-12194458", "title": "Timothy Mellon, A Top Trump Donor, Isn't Giving as Much to Republicans as He Used to — Newsweek" }
+          ]
+        }
+      ]
+    }
+  },
+  "leverage": {
+    "level": 2,
+    "basis": "The largest individual political donor of the 2024 cycle, mostly to the pro-Trump MAGA Inc.",
+    "sources": [
+      { "url": "https://www.philanthropy.com/news/philanthropists-political-donations-2024-elections/", "title": "Philanthropists’ political donations in the 2024 elections — Chronicle of Philanthropy" }
+    ]
+  }
+}

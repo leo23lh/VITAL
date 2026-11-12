@@ -1,0 +1,285 @@
+{
+  "name": "Dario Amodei",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "ai-defense",
+  "groups": ["ai-race", "critics"],
+  "photo": {
+    "file": "dario-amodei.jpg",
+    "credit": "TechCrunch",
+    "license": "CC BY 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_01_(cropped).jpg", "title": "File:Dario Amodei at TechCrunch Disrupt 2023 01 (cropped).jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Endorsed Kamala Harris in 2024 and has given to Democratic candidates (reported totals range from about $100,000 to $214,000); in 2026 gave $1 million to a bipartisan AI-safety super PAC while Anthropic clashed with the Trump administration.",
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/tech-and-telecom-law/dario-amodei-anthropic-employees-give-millions-to-regulate-ai", "title": "Bloomberg Law: Dario Amodei, Anthropic employees give millions to regulate AI" },
+        { "url": "https://www.washingtonexaminer.com/?p=3795645", "title": "Washington Examiner: Anthropic backers gave to Democrats" }
+      ]
+    }
+  ],
+  "current_role": "Co-founder and CEO of Anthropic",
+  "summary": "Dario Amodei, a Princeton-trained biophysicist, worked at Baidu and Google Brain and was OpenAI's vice president of research before leaving to co-found Anthropic with his sister Daniela and other former OpenAI staff in 2021. In 2025 Trump's AI czar David Sacks accused Anthropic of \"regulatory capture\"; in February 2026, after Anthropic refused to drop limits on military uses such as mass surveillance and autonomous weapons, Trump ordered agencies to stop using its technology and the Pentagon labeled it a supply-chain risk, which Anthropic is challenging in court.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" },
+    { "url": "https://pbs.org/newshour/politics/trump-orders-federal-agencies-to-stop-using-anthropic-tech-over-ai-safety-dispute", "title": "Trump orders federal agencies to stop using Anthropic tech over AI safety dispute — PBS NewsHour" },
+    { "url": "https://www.npr.org/2026/03/09/nx-s1-5742548/anthropic-pentagon-lawsuit-amodai-hegseth", "title": "Anthropic sues the Trump administration over 'supply chain risk' label — NPR" }
+  ],
+  "timeline": [
+    {
+      "year": 2014,
+      "end_year": 2015,
+      "role": "Researcher",
+      "org": "Baidu",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": 2016,
+      "role": "Researcher",
+      "org": "Google Brain",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2016,
+      "end_year": 2020,
+      "role": "Researcher, later vice president of research",
+      "org": "OpenAI",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": null,
+      "role": "Co-founder and chief executive officer",
+      "org": "Anthropic",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anthropic", "title": "Anthropic — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2026,
+      "role": "Sued the Trump administration over the Pentagon's supply-chain-risk designation of Anthropic",
+      "org": "Anthropic",
+      "sources": [
+        { "url": "https://www.npr.org/2026/03/09/nx-s1-5742548/anthropic-pentagon-lawsuit-amodai-hegseth", "title": "Anthropic sues the Trump administration over 'supply chain risk' label — NPR" },
+        { "url": "https://www.cnbc.com/2026/03/05/anthropic-ceo-says-no-choice-but-to-challenge-trump-admins-supply-chain-risk-designation-in-court.html", "title": "Anthropic CEO says 'no choice' but to challenge supply chain risk designation in court — CNBC" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Anthropic",
+      "role": "Co-founder and CEO",
+      "start_year": 2021,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anthropic", "title": "Anthropic — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "rival",
+      "description": "Amodei worked at OpenAI from 2016, rising to vice president of research, then left with others over directional differences to found Anthropic in 2021. The two companies are now direct competitors: in February 2026 Altman called Anthropic's Super Bowl ads \"clearly dishonest\" and the company \"authoritarian\".",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" },
+        { "url": "https://fortune.com/2026/02/09/super-bowl-ads-anthropic-openai-rivalry-trash-talk-ai-agent-war/", "title": "Super Bowl ads and the Anthropic–OpenAI rivalry — Fortune" },
+        { "url": "https://campustechnology.com/articles/2026/02/10/anthropic-criticizes-openai-ad-strategy.aspx", "title": "Anthropic Criticizes OpenAI Ad Strategy — Campus Technology" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "On February 27, 2026 Trump ordered every federal agency to stop using Anthropic's technology, calling it a \"radical Left AI company\", after Anthropic refused to lift limits on uses such as mass surveillance of Americans and autonomous weapons. Amodei challenged the resulting Pentagon designation in court and apologized for a leaked internal memo criticizing the administration. In August 2026 U.S. District Judge Rita Lin voided the Pentagon’s supply-chain-risk designation, per the Daily Caller; a separate challenge was still pending.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://pbs.org/newshour/politics/trump-orders-federal-agencies-to-stop-using-anthropic-tech-over-ai-safety-dispute", "title": "Trump orders federal agencies to stop using Anthropic tech over AI safety dispute — PBS NewsHour" },
+        { "url": "https://www.aljazeera.com/news/2026/2/27/trump-orders-federal-agencies-to-stop-using-anthropic-as-dispute-escalates", "title": "Trump orders federal agencies to stop using Anthropic as dispute escalates — Al Jazeera" },
+        { "url": "https://www.axios.com/2026/03/06/pentagon-anthropic-amodei-apology", "title": "Scoop: Anthropic CEO apologizes for leaked memo criticizing Trump — Axios" },
+        { "url": "https://www.breitbart.com/politics/2026/02/27/trump-directs-federal-agencies-to-immediately-cease-use-of-anthropic-technology/", "title": "Breitbart: Trump directs federal agencies to cease use of Anthropic technology" },
+        { "url": "https://www.foxnews.com/politics/trump-says-he-plans-order-federal-ban-anthropic-ai-after-company-refuses-pentagon-demands", "title": "Fox News: Trump plans federal ban on Anthropic AI after company refuses Pentagon demands" },
+        { "url": "https://dailycaller.com/2026/08/28/rita-lin-pentagon-anthropic-ban-lifted-after-clash-over-claude/", "title": "Daily Caller: Pentagon’s Anthropic ban lifted after clash over Claude" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "enemy",
+      "description": "In October 2025 Sacks, then Trump's AI czar, accused Anthropic of a \"sophisticated regulatory capture strategy based on fear-mongering\"; Amodei answered with a statement correcting what he called inaccurate claims about Anthropic's policy positions.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2025/10/16/anthropic-david-sacks-ai-white-house", "title": "New AI battle: White House vs. Anthropic — Axios" },
+        { "url": "https://www.nextgov.com/artificial-intelligence/2025/10/anthropic-ceo-defends-support-ai-regulations-alignment-trump-policies/408959", "title": "Anthropic CEO defends support for AI regulations, alignment with Trump policies — Nextgov" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "enemy",
+      "description": "Defense Secretary Hegseth designated Anthropic a supply-chain risk to national security in February–March 2026; Anthropic sued, and Amodei said the ban was narrower than Hegseth had threatened. In August 2026 U.S. District Judge Rita Lin voided the Pentagon’s supply-chain-risk designation, per the Daily Caller; a separate challenge was still pending.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk", "title": "Pentagon labels AI company Anthropic a supply chain risk — NPR" },
+        { "url": "https://www.npr.org/2026/03/09/nx-s1-5742548/anthropic-pentagon-lawsuit-amodai-hegseth", "title": "Anthropic sues the Trump administration over 'supply chain risk' label — NPR" },
+        { "url": "https://www.cnbc.com/2026/03/05/anthropic-ceo-says-no-choice-but-to-challenge-trump-admins-supply-chain-risk-designation-in-court.html", "title": "Anthropic CEO says 'no choice' but to challenge supply chain risk designation in court — CNBC" },
+        { "url": "https://www.washingtonexaminer.com/policy/defense/4483109/anthropic-ceo-sue-pentagon-supply-chain-risk-designation/", "title": "Washington Examiner: Anthropic CEO to sue Pentagon over supply-chain risk designation" },
+        { "url": "https://dailycaller.com/2026/08/28/rita-lin-pentagon-anthropic-ban-lifted-after-clash-over-claude/", "title": "Daily Caller: Pentagon’s Anthropic ban lifted after clash over Claude" }
+      ]
+    },
+    {
+      "name": "Daniela Amodei",
+      "slug": "daniela-amodei",
+      "relationship_type": "family",
+      "description": "Sister; co-founded Anthropic with him in 2021 and is its president. Both previously worked at OpenAI.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Daniela_Amodei", "title": "Daniela Amodei — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Anthropic", "title": "Anthropic — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Dustin Moskovitz",
+      "slug": "dustin-moskovitz",
+      "relationship_type": "donor",
+      "description": "Moskovitz invested in Anthropic's first major funding round in 2021 and later moved the stake into a nonprofit vehicle.",
+      "start_year": 2021,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/06/24/asanas-dustin-moskovitz-is-bullish-on-ai-but-concerned-about-risks.html", "title": "Asana's Dustin Moskovitz is bullish on AI but concerned about risks — CNBC" }
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "slug": "openai",
+      "relationship_type": "employer",
+      "description": "Amodei was an OpenAI researcher, later vice president of research, before leaving to found Anthropic.",
+      "start_year": 2016,
+      "end_year": 2020,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "When Amodei left OpenAI",
+      "details": "Daniela Amodei's Wikipedia article says the siblings left in 2020; the OpenAI article describes departures between December 2020 and January 2021.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Daniela_Amodei", "title": "Daniela Amodei — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Sources disagree on how many OpenAI staff left to found Anthropic (seven to eleven or more); the count is not recorded. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "access": [
+    {
+      "date": "2026-09-29",
+      "with": ["donald-trump"],
+      "what": "Attended Trump’s White House AI lunch and raised safety concerns there.",
+      "sources": [
+        { "url": "https://www.news4jax.com/business/2026/09/29/trump-vows-to-never-stifle-ai-as-leading-executives-urge-caution/", "title": "Trump vows to never stifle AI as leading executives urge caution — AP via News4JAX (September 29, 2026)" }
+      ]
+    }
+  ],
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 1000000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=AMODEI%2C+DARIO&two_year_transaction_period=2026", "title": "FEC itemized receipts: AMODEI, DARIO, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Public First",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00930503"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=AMODEI%2C+DARIO&committee_id=C00930503&two_year_transaction_period=2026", "title": "FEC receipts: AMODEI, DARIO to Public First, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 70000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=AMODEI%2C+DARIO&two_year_transaction_period=2020", "title": "FEC itemized receipts: AMODEI, DARIO, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Biden Victory Fund",
+            "kind": "pac",
+            "amount_usd": 35000,
+            "fec_usd": 35000,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=AMODEI%2C+DARIO&committee_id=C00744946&two_year_transaction_period=2020", "title": "FEC receipts: AMODEI, DARIO to Biden Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 32200,
+            "fec_usd": 32200,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=AMODEI%2C+DARIO&committee_id=C00010603&two_year_transaction_period=2020", "title": "FEC receipts: AMODEI, DARIO to DNC Services Corp / Democratic National Committee, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 54000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=AMODEI%2C+DARIO&two_year_transaction_period=2018", "title": "FEC itemized receipts: AMODEI, DARIO, 2018 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 36000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=AMODEI%2C+DARIO&two_year_transaction_period=2016", "title": "FEC itemized receipts: AMODEI, DARIO, 2016 cycle" }
+        ],
+        "recipients": []
+      }
+    ]
+  }
+}

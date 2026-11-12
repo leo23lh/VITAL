@@ -1,0 +1,453 @@
+{
+  "name": "Keith Sonderling",
+  "aliases": ["Keith E. Sonderling"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "photo": {
+    "file": "keith-sonderling.jpg",
+    "credit": "Department of Labor",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Deputy_Secretary_Sonderling.jpg", "title": "File:Deputy Secretary Sonderling.jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Served as a Republican commissioner of the EEOC (2020–2024) on Trump's nomination, and in Trump's Labor Department in both terms, becoming Secretary of Labor in 2026.",
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/employee-benefits/republican-eeoc-commissioner-sonderling-to-leave-as-term-ends", "title": "Bloomberg Law: Republican EEOC commissioner Sonderling to leave as term ends" },
+        { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "U.S. Department of Labor: Keith Sonderling" }
+      ]
+    }
+  ],
+  "current_role": "U.S. Secretary of Labor (acting from April 2026; confirmed September 30, 2026)",
+  "summary": "Keith Sonderling, a Florida labor and employment lawyer, joined Trump's Labor Department in 2017 and led its Wage and Hour Division, then served as an EEOC commissioner (2020–2024), where he focused on AI in hiring. Confirmed as Deputy Secretary of Labor in March 2025, he became acting secretary when Lori Chavez-DeRemer resigned in April 2026 and was confirmed as the 31st Secretary of Labor on September 30, 2026, by a 47–41 vote.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" },
+    { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "Secretary of Labor Keith Sonderling — U.S. Department of Labor" },
+    { "url": "https://www.shrm.org/topics-tools/employment-law-compliance/senate-confirms-sonderling-as-head-of-us-department-of-labor", "title": "Senate confirms Sonderling as head of US Department of Labor — SHRM" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2017,
+      "role": "Labor and employment lawyer",
+      "org": "Gunster (Florida law firm)",
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "Secretary of Labor Keith Sonderling — U.S. Department of Labor" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2020,
+      "role": "Senior policy adviser, then acting administrator of the Wage and Hour Division",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.help.senate.gov/imo/media/doc/a1b55675-c32d-2c87-9615-7ca329133a53/Sonderling%20Testimony_7b00c142-82ba-4197-9b9f-8eb791105c95.pdf", "title": "Keith E. Sonderling opening statement — Senate HELP Committee" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2020,
+      "end_year": 2024,
+      "role": "Commissioner (vice chair until January 2021); confirmed 52–41",
+      "org": "U.S. Equal Employment Opportunity Commission",
+      "sources": [
+        { "url": "https://www.eeoc.gov/newsroom/keith-e-sonderling-sworn-eeoc-commissioner-and-vice-chair", "title": "Keith E. Sonderling sworn in as EEOC Commissioner and Vice Chair — EEOC" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Deputy Secretary of Labor (confirmed March 2025)",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250318", "title": "US Department of Labor announces confirmation of Keith E. Sonderling as Deputy Secretary — U.S. Department of Labor" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Secretary of Labor (acting from April 2026; confirmed September 30, 2026)",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "Secretary of Labor Keith Sonderling — U.S. Department of Labor" },
+        { "url": "https://www.shrm.org/topics-tools/employment-law-compliance/senate-confirms-sonderling-as-head-of-us-department-of-labor", "title": "Senate confirms Sonderling as head of US Department of Labor — SHRM" },
+        { "url": "https://federalnewsnetwork.com/people/2026/06/trump-nominates-acting-labor-secretary-keith-sonderling-to-be-agencys-permanent-chief/", "title": "Trump nominates acting Labor Secretary Keith Sonderling to be agency's permanent chief — Federal News Network (AP)" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "U.S. Department of Labor",
+      "role": "Secretary",
+      "start_year": 2026,
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "Secretary of Labor Keith Sonderling — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Sonderling has served in both Trump administrations: at the Labor Department from 2017, as Trump's EEOC nominee and vice chair (2020–2021), as Deputy Secretary of Labor from March 2025, and as Labor Secretary, nominated by Trump on June 29, 2026 and confirmed September 30.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" },
+        { "url": "https://federalnewsnetwork.com/people/2026/06/trump-nominates-acting-labor-secretary-keith-sonderling-to-be-agencys-permanent-chief/", "title": "Trump nominates acting Labor Secretary Keith Sonderling to be agency's permanent chief — Federal News Network (AP)" },
+        { "url": "https://www.shrm.org/topics-tools/employment-law-compliance/senate-confirms-sonderling-as-head-of-us-department-of-labor", "title": "Senate confirms Sonderling as head of US Department of Labor — SHRM" }
+      ]
+    },
+    {
+      "name": "Lori Chavez-DeRemer",
+      "slug": "lori-chavez-deremer",
+      "relationship_type": "colleague",
+      "description": "Sonderling was Chavez-DeRemer's deputy at the Labor Department from March 2025 until she resigned in April 2026 amid inquiries into her conduct; he then succeeded her.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" },
+        { "url": "https://federalnewsnetwork.com/people/2026/06/trump-nominates-acting-labor-secretary-keith-sonderling-to-be-agencys-permanent-chief/", "title": "Trump nominates acting Labor Secretary Keith Sonderling to be agency's permanent chief — Federal News Network (AP)" }
+      ]
+    },
+    {
+      "name": "Leo Halperin",
+      "slug": "leo-halperin",
+      "relationship_type": "employee",
+      "description": "Leo Halperin works for Sonderling's department as a Digital Content Coordinator (since August 2026). Recorded at Leo Halperin's own request.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": ["user-provided"]
+    },
+    {
+      "name": "Colton Duncan",
+      "slug": "colton-duncan",
+      "relationship_type": "colleague",
+      "description": "Both have served in the Labor Department's political leadership since March 2025, Duncan as White House liaison and Sonderling as deputy secretary and then secretary. Inferred from that overlap; no source describes them working together directly.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "Secretary of Labor Keith Sonderling — U.S. Department of Labor" }
+      ]
+    },
+    {
+      "name": "Courtney Walter",
+      "slug": "courtney-walter",
+      "relationship_type": "employee",
+      "description": "Sonderling named Walter his chief of staff on May 1, 2026, when he was acting secretary.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" },
+        { "url": "https://news.bloomberglaw.com/daily-labor-report/acting-labor-secretary-sonderling-appoints-seasoned-dol-aides", "title": "Acting Labor Secretary Sonderling appoints seasoned DOL aides — Bloomberg Law" }
+      ]
+    },
+    {
+      "name": "Cynthia McKnight",
+      "slug": "cynthia-mcknight",
+      "relationship_type": "employee",
+      "description": "McKnight was chief of staff to Sonderling as deputy secretary of labor, and became a deputy chief of staff when he moved up to run the department in 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/osec/deputychiefofstaff", "title": "Cynthia McKnight, Deputy Chief of Staff — U.S. Department of Labor" },
+        { "url": "https://news.bloomberglaw.com/daily-labor-report/acting-labor-secretary-sonderling-appoints-seasoned-dol-aides", "title": "Acting Labor Secretary Sonderling appoints seasoned DOL aides — Bloomberg Law" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    },
+    {
+      "name": "Garrett Buttrey",
+      "slug": "garrett-buttrey",
+      "relationship_type": "employee",
+      "description": "Sonderling named Buttrey a deputy chief of staff on May 1, 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" },
+        { "url": "https://news.bloomberglaw.com/daily-labor-report/acting-labor-secretary-sonderling-appoints-seasoned-dol-aides", "title": "Acting Labor Secretary Sonderling appoints seasoned DOL aides — Bloomberg Law" }
+      ]
+    },
+    {
+      "name": "Jonathan Berry",
+      "slug": "jonathan-berry",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as Solicitor of Labor, the department’s chief legal officer; confirmed in fall 2025 while Sonderling was deputy secretary, and has reported to him as secretary since April 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    },
+    {
+      "name": "Daniel Aronowitz",
+      "slug": "daniel-aronowitz",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as head of the Employee Benefits Security Administration; confirmed in fall 2025 while Sonderling was deputy secretary, and has reported to him as secretary since April 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    },
+    {
+      "name": "David Keeling",
+      "slug": "david-keeling",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as head of OSHA; confirmed in fall 2025 while Sonderling was deputy secretary, and has reported to him as secretary since April 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    },
+    {
+      "name": "Andrew Rogers",
+      "slug": "andrew-rogers",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as head of the Wage and Hour Division; confirmed in fall 2025 while Sonderling was deputy secretary, and has reported to him as secretary since April 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    },
+    {
+      "name": "Wayne Palmer",
+      "slug": "wayne-palmer",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as head of the Mine Safety and Health Administration.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Labor_appointments_by_Donald_Trump", "title": "List of Department of Labor appointments by Donald Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Rosario Palmieri",
+      "slug": "rosario-palmieri",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as assistant secretary for policy.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Labor_appointments_by_Donald_Trump", "title": "List of Department of Labor appointments by Donald Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jeremiah Workman",
+      "slug": "jeremiah-workman",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as head of the Veterans’ Employment and Training Service.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Labor_appointments_by_Donald_Trump", "title": "List of Department of Labor appointments by Donald Trump — Wikipedia" },
+        { "url": "https://www.dol.gov/agencies/vets/about/assistant-secretary", "title": "Assistant Secretary — Veterans' Employment and Training Service, Department of Labor" }
+      ]
+    },
+    {
+      "name": "Brett Matsumoto",
+      "slug": "brett-matsumoto",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as commissioner of the Bureau of Labor Statistics.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://wmbdradio.com/2026/08/07/veteran-economist-insider-matsumoto-wins-senate-approval-as-bls-commissioner/", "title": "Veteran economist insider Matsumoto wins Senate approval as BLS commissioner — Reuters via WMBD" }
+      ]
+    },
+    {
+      "name": "Courtney Parella Spencer",
+      "slug": "courtney-parella",
+      "relationship_type": "employee",
+      "description": "Worked in Sonderling’s Labor Department as deputy assistant secretary for public affairs and press contact until she moved to HHS in May 2026.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (media contact)" }
+      ]
+    },
+    {
+      "name": "Aaron Britt",
+      "slug": "aaron-britt",
+      "relationship_type": "employee",
+      "description": "Serves in Sonderling’s department as a deputy assistant secretary.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
+        { "url": "https://www.dol.gov/general/contact/contact-phonekeypersonnel", "title": "Key personnel, Office of the Secretary — U.S. Department of Labor" }
+      ]
+    },
+    {
+      "name": "David O'Brien",
+      "slug": "david-obrien",
+      "relationship_type": "employee",
+      "description": "Heads public affairs for Sonderling’s department and is the media contact on its announcements, including Sonderling’s swearing-in as secretary in October 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/index.php/newsroom/releases/osec/osec20261009", "title": "U.S. Department of Labor news release, October 9, 2026 (media contact: David O’Brien)" }
+      ]
+    },
+    {
+      "name": "Dean Heyl",
+      "slug": "dean-heyl",
+      "relationship_type": "employee",
+      "description": "Runs administration and management for Sonderling’s department.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/oasam/about", "title": "About OASAM — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/general/contact/leadership-team", "title": "Leadership Team — U.S. Department of Labor" }
+      ]
+    },
+    {
+      "name": "Anthony D'Esposito",
+      "slug": "anthony-desposito",
+      "relationship_type": "colleague",
+      "description": "The department’s inspector general, who oversees it independently; both sit on the administration’s anti-fraud task force, and his office’s inquiry preceded the resignation that made Sonderling acting secretary.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.oig.dol.gov/public/Press%20Releases/Inspector%20General%20Anthony%20P.%20D'Esposito%20Joins%20President%20Trump's%20Task%20Force%20to%20Wage%20War%20on%20Fraud,%20Led%20By%20Vice%20President%20Vance%20_03272026.pdf", "title": "Inspector General D’Esposito joins President Trump’s Task Force to Wage War on Fraud, led by Vice President Vance — DOL OIG (March 27, 2026)" },
+        { "url": "https://news.bloomberglaw.com/us-law-week/labor-inspector-general-desposito-bucks-impartiality-standards", "title": "Labor Inspector General D’Esposito bucks impartiality standards — Bloomberg Law" }
+      ]
+    },
+    {
+      "name": "Julie Hocker",
+      "slug": "julie-hocker",
+      "relationship_type": "employee",
+      "description": "Heads disability employment policy in Sonderling’s department.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/odep/julie-hocker", "title": "Assistant Secretary Julie Hocker — Office of Disability Employment Policy" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+      ]
+    },
+    {
+      "name": "Elisabeth Messenger",
+      "slug": "elisabeth-messenger",
+      "relationship_type": "employee",
+      "description": "Directs labor-management standards in Sonderling’s department.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/olms/about/leadership/director", "title": "Director — Office of Labor-Management Standards" },
+        { "url": "https://www.dol.gov/newsroom/releases/olms/olms20260529", "title": "US Department of Labor finalizes rule protecting union workers — U.S. Department of Labor (May 29, 2026)" }
+      ]
+    },
+    {
+      "name": "James Macy",
+      "slug": "james-macy",
+      "relationship_type": "employee",
+      "description": "Ran Wage and Hour as acting administrator in 2025 and now directs workers’ compensation programs.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/whd/about/leadership/James-macy", "title": "James Macy, Wage and Hour Division Principal Deputy Administrator — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/newsroom/releases/owcp/owcp20260505", "title": "US Department of Labor announces expansion of FECA pharmacy benefit program — U.S. Department of Labor (May 2026)" }
+      ]
+    },
+    {
+      "name": "Marek Laco",
+      "slug": "marek-laco",
+      "relationship_type": "employee",
+      "description": "Runs the job-training agency in Sonderling’s department as acting head.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.dol.gov/general/contact/leadership-team", "title": "Leadership Team — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/agencies/eta/about/marek-laco", "title": "Deputy Assistant Secretary Marek Laco — Employment and Training Administration" }
+      ]
+    },
+    {
+      "name": "David Castillo",
+      "slug": "david-castillo",
+      "relationship_type": "employee",
+      "description": "The department’s chief financial officer.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+      ]
+    },
+    {
+      "name": "Kenneth J. Wolfe",
+      "slug": "kenneth-wolfe",
+      "relationship_type": "employee",
+      "description": "Runs the contractor-compliance office and the Center for Faith in Sonderling’s department.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://directemployers.org/2026/05/08/leadership-shift-at-the-ofccp-kenneth-j-wolfe-named-director/", "title": "Leadership shift at the OFCCP: Kenneth J. Wolfe named director — DirectEmployers" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Swearing-in date as Secretary",
+      "details": "The Labor Department's biography says he was sworn in on October 2, 2026; a department news release dated October 9, 2026 reports the swearing-in that day, administered by Treasury Secretary Scott Bessent.",
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "Secretary of Labor Keith Sonderling — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/index.php/newsroom/releases/osec/osec20261009", "title": "Keith Sonderling sworn in as 31st US Secretary of Labor — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. A Labor Department page also says he was designated acting director of the Office of Government Ethics in June 2026; not recorded pending a second source. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Labor",
+    "unit": "labor",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2026-04",
+    "sources": [
+      { "url": "https://www.dol.gov/agencies/osec/keith-sonderling", "title": "Secretary of Labor Keith Sonderling — U.S. Department of Labor" },
+      { "url": "https://www.shrm.org/topics-tools/employment-law-compliance/senate-confirms-sonderling-as-head-of-us-department-of-labor", "title": "Senate confirms Sonderling as head of US Department of Labor — SHRM" }
+    ]
+  }
+}

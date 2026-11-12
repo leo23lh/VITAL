@@ -1,0 +1,247 @@
+{
+  "name": "Chris Wright",
+  "aliases": ["Christopher Wright"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 1,
+      "start_year": 2025,
+      "end_year": null,
+      "basis": "Serves in Trump's cabinet and champions fossil-fuel \"energy dominance\"; no party office or other partisan record found, so Center-right rather than Right.",
+      "sources": [
+        { "url": "https://abcnews4.com/news/nation-world/senate-confirms-fossil-fuel-executive-chris-wright-as-energy-secretary-denver-based-president-donald-trump-united-states-energy-dominance-drill-baby-drill-liberty-energy-fossil-fuel-climate-change", "title": "AP: Senate confirms fossil fuel executive Chris Wright as energy secretary" },
+        { "url": "https://www.breitbart.com/politics/2025/02/14/trump-establishes-national-energy-dominance-council-led-by-secretaries-burgum-wright", "title": "Breitbart: Trump establishes National Energy Dominance Council led by Burgum and Wright" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "chris-wright.png",
+    "credit": "Donica Payne, United States Department of Energy",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Secretary_Chris_Wright_Official_Portrait.png", "title": "File:Secretary Chris Wright Official Portrait.png — Wikimedia Commons" }
+  },
+  "current_role": "U.S. Secretary of Energy (since February 2025); vice chair of the National Energy Dominance Council",
+  "summary": "Chris Wright founded the Denver fracking-services company Liberty Oilfield Services (now Liberty Energy) in 2011 and ran it as CEO until Trump picked him to lead the Energy Department. The Senate confirmed him 59–38 on February 3, 2025. He is vice chair of the National Energy Dominance Council, chaired by Interior Secretary Doug Burgum.",
+  "sources": [
+    { "url": "https://abcnews4.com/news/nation-world/senate-confirms-fossil-fuel-executive-chris-wright-as-energy-secretary-denver-based-president-donald-trump-united-states-energy-dominance-drill-baby-drill-liberty-energy-fossil-fuel-climate-change", "title": "AP: Senate confirms fossil fuel executive Chris Wright as energy secretary" },
+    { "url": "https://chemicalprocessing.com/utilities-energy/news/55243714/trump-names-liberty-energy-ceo-chris-wright-as-next-energy-secretary", "title": "Chemical Processing: Trump names Liberty Energy CEO Chris Wright as energy secretary" },
+    { "url": "https://www.ttnews.com/articles/senate-confirm-wright-energy", "title": "Transport Topics: Senate confirms Wright" }
+  ],
+  "timeline": [
+    {
+      "year": 2011,
+      "end_year": 2025,
+      "role": "Founder and CEO",
+      "org": "Liberty Energy (formerly Liberty Oilfield Services)",
+      "sources": [
+        { "url": "https://chemicalprocessing.com/utilities-energy/news/55243714/trump-names-liberty-energy-ceo-chris-wright-as-next-energy-secretary", "title": "Chemical Processing: Trump names Liberty Energy CEO Chris Wright as energy secretary" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Secretary of Energy (confirmed 59–38 on February 3, 2025); vice chair of the National Energy Dominance Council",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://abcnews4.com/news/nation-world/senate-confirms-fossil-fuel-executive-chris-wright-as-energy-secretary-denver-based-president-donald-trump-united-states-energy-dominance-drill-baby-drill-liberty-energy-fossil-fuel-climate-change", "title": "AP: Senate confirms fossil fuel executive Chris Wright as energy secretary" },
+        { "url": "https://www.breitbart.com/politics/2025/02/14/trump-establishes-national-energy-dominance-council-led-by-secretaries-burgum-wright", "title": "Breitbart: Trump establishes National Energy Dominance Council led by Burgum and Wright" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump named Wright energy secretary in November 2024; he has served since February 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://chemicalprocessing.com/utilities-energy/news/55243714/trump-names-liberty-energy-ceo-chris-wright-as-next-energy-secretary", "title": "Chemical Processing: Trump names Liberty Energy CEO Chris Wright as energy secretary" },
+        { "url": "https://abcnews4.com/news/nation-world/senate-confirms-fossil-fuel-executive-chris-wright-as-energy-secretary-denver-based-president-donald-trump-united-states-energy-dominance-drill-baby-drill-liberty-energy-fossil-fuel-climate-change", "title": "AP: Senate confirms fossil fuel executive Chris Wright as energy secretary" }
+      ]
+    },
+    {
+      "name": "Doug Burgum",
+      "slug": "doug-burgum",
+      "relationship_type": "colleague",
+      "description": "Wright is vice chair of the National Energy Dominance Council, which Interior Secretary Burgum chairs.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.breitbart.com/politics/2025/02/14/trump-establishes-national-energy-dominance-council-led-by-secretaries-burgum-wright", "title": "Breitbart: Trump establishes National Energy Dominance Council led by Burgum and Wright" },
+        { "url": "https://www.eenews.net/articles/black-box-what-exactly-is-trumps-energy-council-doing/", "title": "E&E News: What exactly is Trump's energy council doing?" }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "colleague",
+      "description": "Fellow board members of the nuclear startup Oklo, which Altman chaired: Wright resigned from its board on becoming energy secretary in February 2025, and Altman stepped down as chairman that April.",
+      "start_year": null,
+      "end_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.businesswire.com/news/home/20250206004616/en/Oklo-Announces-Board-Transition-Following-Chris-Wrights-Confirmation-as-Secretary-of-Energy", "title": "Oklo announces board transition following Chris Wright's confirmation as Secretary of Energy — Business Wire" },
+        { "url": "https://www.nucnet.org/news/sam-altman-steps-down-chair-of-nuclear-startup-oklo-clearing-way-for-supply-talks-with-ai-companies-4-3-2025", "title": "Sam Altman steps down as chair of nuclear startup Oklo — NucNet" },
+        { "url": "https://www.businesswire.com/news/home/20250206004616/en/Oklo-Announces-Board-Transition-Following-Chris-Wright%E2%80%99s-Confirmation-as-Secretary-of-Energy", "title": "Oklo: Board transition following Chris Wright’s confirmation as Secretary of Energy" }
+      ]
+    },
+    {
+      "name": "James Danly",
+      "slug": "james-danly",
+      "relationship_type": "employee",
+      "description": "Wright’s deputy at the Energy Department since May 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/environment-and-energy/senate-confirms-james-danly-for-deputy-energy-secretary-role", "title": "Senate confirms James Danly for deputy energy secretary role — Bloomberg Law" }
+      ]
+    },
+    {
+      "name": "Charlie Dankert",
+      "slug": "charlie-dankert",
+      "relationship_type": "employee",
+      "description": "Wright’s deputy chief of staff for policy, then his chief of staff from August 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.energy.gov/node/4859594", "title": "Secretary Wright announces leadership transition in the Office of the Secretary — U.S. Department of Energy (July 2026)" },
+        { "url": "https://www.eenews.net/articles/coe-out-as-doe-chief-of-staff/", "title": "Coe out as DOE chief of staff — E&E News" }
+      ]
+    },
+    {
+      "name": "Kyle Haustveit",
+      "slug": "kyle-haustveit",
+      "relationship_type": "employee",
+      "description": "Wright’s fossil energy chief from 2025 and under secretary from May 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.energy.gov/person/kyle-haustveit", "title": "Kyle Haustveit — U.S. Department of Energy" },
+        { "url": "https://www.tdworld.com/policy/news/55381266/doe-leadership-changes-highlight-shift-in-domestic-energy-priorities-toward-hydrocarbons", "title": "DOE leadership changes highlight shift toward hydrocarbons — T&D World" }
+      ]
+    },
+    {
+      "name": "Alex Fitzsimmons",
+      "slug": "alex-fitzsimmons",
+      "relationship_type": "employee",
+      "description": "Wright named him acting under secretary in October 2025 and his senior adviser in 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.energy.gov/node/4853461", "title": "Secretary Wright names Alex Fitzsimmons new acting under secretary of energy — U.S. Department of Energy" },
+        { "url": "https://www.energy.gov/articles/secretary-wright-announces-leadership-changes-deliver-affordable-reliable-and-secure", "title": "Secretary Wright announces leadership changes — U.S. Department of Energy" }
+      ]
+    },
+    {
+      "name": "Darío Gil",
+      "slug": "dario-gil",
+      "relationship_type": "employee",
+      "description": "Wright’s under secretary for science since September 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.exchangemonitor.com/white-house-nominees-for-science-legal-among-doe-group-confirmed/", "title": "White House nominees for science, legal among DOE group confirmed — Exchange Monitor (September 2025)" },
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Brandon Williams",
+      "slug": "brandon-williams",
+      "relationship_type": "employee",
+      "description": "Runs the nuclear weapons agency inside Wright’s department since September 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" },
+        { "url": "https://www.energy.gov/nnsa/person/brandon-williams", "title": "Brandon Williams — National Nuclear Security Administration, Department of Energy" }
+      ]
+    },
+    {
+      "name": "Jonathan Brightbill",
+      "slug": "jonathan-brightbill",
+      "relationship_type": "employee",
+      "description": "Wright’s general counsel since fall 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.exchangemonitor.com/white-house-nominees-for-science-legal-among-doe-group-confirmed/", "title": "White House nominees for science, legal among DOE group confirmed — Exchange Monitor (September 2025)" }
+      ]
+    },
+    {
+      "name": "Ted Garrish",
+      "slug": "ted-garrish",
+      "relationship_type": "employee",
+      "description": "Wright’s nuclear energy chief since September 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://content.govdelivery.com/accounts/USDOEONE/bulletins/3f3575b", "title": "U.S. Senate confirms Ted Garrish as Assistant Secretary for Nuclear Energy — DOE Office of Nuclear Energy" }
+      ]
+    },
+    {
+      "name": "Audrey Robertson",
+      "slug": "audrey-robertson",
+      "relationship_type": "employee",
+      "description": "Wright’s assistant secretary for critical minerals and energy innovation since October 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.energy.gov/cmei/person/audrey-robertson", "title": "Audrey Robertson — U.S. Department of Energy" }
+      ]
+    },
+    {
+      "name": "Catherine Jereza",
+      "slug": "catherine-jereza",
+      "relationship_type": "employee",
+      "description": "Wright’s electricity chief since October 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" },
+        { "url": "https://www.energy.gov/oe/person/catherine-jereza-office-electricity-assistant-secretary", "title": "Catherine Jereza, Office of Electricity Assistant Secretary — Department of Energy" }
+      ]
+    },
+    {
+      "name": "Greg Beard",
+      "slug": "greg-beard",
+      "relationship_type": "employee",
+      "description": "Runs the department’s financing office under Wright since January 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.energy.gov/edf/articles/letter-leadership-edf-2025-year-review-and-looking-forward-2026", "title": "Letter from leadership: EDF 2025 year in review — U.S. Department of Energy" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Energy",
+    "unit": "energy",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://abcnews4.com/news/nation-world/senate-confirms-fossil-fuel-executive-chris-wright-as-energy-secretary-denver-based-president-donald-trump-united-states-energy-dominance-drill-baby-drill-liberty-energy-fossil-fuel-climate-change", "title": "AP: Senate confirms fossil fuel executive Chris Wright as energy secretary" },
+      { "url": "https://chemicalprocessing.com/utilities-energy/news/55243714/trump-names-liberty-energy-ceo-chris-wright-as-next-energy-secretary", "title": "Chemical Processing: Trump names Liberty Energy CEO Chris Wright as energy secretary" }
+    ]
+  }
+}

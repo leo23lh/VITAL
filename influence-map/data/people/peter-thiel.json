@@ -1,0 +1,1017 @@
+{
+  "name": "Peter Thiel",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "tech",
+  "groups": ["paypal-mafia", "tech-right", "defense-tech", "2028-race"],
+  "photo": {
+    "file": "peter-thiel.jpg",
+    "credit": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Peter_Thiel_by_Gage_Skidmore.jpg", "title": "File:Peter Thiel by Gage Skidmore.jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": 1,
+      "start_year": null,
+      "end_year": 2015,
+      "basis": "Self-described conservative libertarian; the largest donor to Endorse Liberty, the super PAC backing Ron Paul's 2012 Republican campaign, after backing Paul in 2008 too.",
+      "sources": [
+        { "url": "https://publicintegrity.org/politics/donor-profile-peter-thiel/", "title": "Center for Public Integrity: Donor profile, Peter Thiel" },
+        { "url": "https://www.wgbh.org/news/2012-05-19/with-eye-on-future-billionaire-investor-bets-on-paul", "title": "GBH/AP: Billionaire investor bets on Paul" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2016,
+      "end_year": null,
+      "basis": "Spoke for Trump at the 2016 Republican convention and funded Republican candidates including JD Vance (2022).",
+      "sources": [
+        { "url": "https://www.npr.org/2016/07/21/486966882/i-am-proud-to-be-gay-tech-investor-peter-thiel-tells-gop-convention", "title": "NPR: Peter Thiel tells GOP convention he is proud to be gay" },
+        { "url": "https://www.cnbc.com/2022/10/03/peter-thiel-signals-he-is-done-helping-jd-vance-will-fundraise-for-blake-masters.html", "title": "CNBC: Thiel and Vance" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["jd-vance"],
+    "basis": "Vance's mentor and former employer, who funded his 2022 Senate race; among the billionaires reported as backing his rise.",
+    "sources": [
+      { "url": "https://www.cnbc.com/2022/10/03/peter-thiel-signals-he-is-done-helping-jd-vance-will-fundraise-for-blake-masters.html", "title": "CNBC: Thiel and Vance" },
+      { "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/", "title": "Forbes: The billionaires cozying up to JD Vance" }
+    ]
+  },
+  "current_role": "Chairman of Palantir Technologies; co-founder of Founders Fund",
+  "summary": "Peter Thiel is a venture capitalist and the central figure of the PayPal Mafia. He co-founded Confinity in 1998, became CEO of PayPal after its merger with Elon Musk's X.com, co-founded Palantir in 2003 and Founders Fund in 2005, and was Facebook's first outside investor and a board member from 2005 to 2022. A major Republican donor, he gave $1.25 million to Trump's 2016 campaign and $15 million to a super PAC backing his former employee and protégé JD Vance's 2022 Senate run.",
+  "sources": [
+    { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" },
+    { "url": "https://en.wikipedia.org/wiki/Peter_Thiel", "title": "Peter Thiel — Wikipedia" },
+    { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" }
+  ],
+  "timeline": [
+    {
+      "year": 1998,
+      "end_year": 2002,
+      "role": "Co-founder of Confinity; CEO and chairman of PayPal after the 2000 merger with X.com, until eBay bought it in 2002",
+      "org": "Confinity / PayPal",
+      "sources": [
+        { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2003,
+      "end_year": null,
+      "role": "Co-founder and chairman of the board",
+      "org": "Palantir Technologies",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" }
+      ]
+    },
+    {
+      "year": 2004,
+      "end_year": 2022,
+      "role": "First outside investor (10.2% for $500,000 in 2004); board member 2005–2022",
+      "org": "Facebook / Meta Platforms",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Peter_Thiel", "title": "Peter Thiel — Wikipedia" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" }
+      ]
+    },
+    {
+      "year": 2005,
+      "end_year": null,
+      "role": "Co-founder (with Ken Howery and Luke Nosek); first institutional investor in SpaceX and Palantir",
+      "org": "Founders Fund",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Palantir Technologies",
+      "role": "Co-founder and chairman",
+      "start_year": 2003,
+      "end_year": null,
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" }
+      ]
+    },
+    {
+      "name": "Founders Fund",
+      "role": "Co-founder and partner",
+      "start_year": 2005,
+      "end_year": null,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://www.cnbc.com/2025/04/11/peter-thiels-founders-fund-closes-4point6-billion-growth-fund.html", "title": "Peter Thiel's Founders Fund closes $4.6 billion growth fund — CNBC" }
+      ]
+    },
+    {
+      "name": "PayPal Mafia",
+      "role": "Its best-known member; posed for Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/PayPal_Mafia", "title": "PayPal Mafia — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Max Levchin",
+      "slug": "max-levchin",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity (originally Fieldlink) together in 1998; Levchin was CTO and Thiel CEO of what became PayPal.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.97,
+      "sources": [
+        { "url": "https://www.britannica.com/money/PayPal", "title": "PayPal — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Luke Nosek",
+      "slug": "luke-nosek",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity/PayPal in 1998 and Founders Fund in 2005 together; Nosek left Founders Fund in 2017.",
+      "start_year": 1998,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" },
+        { "url": "https://techcrunch.com/2017/07/28/paypal-co-founder-luke-nosek-leaving-founders-fund-reportedly-for-spacex-focused-fund/", "title": "PayPal co-founder Luke Nosek leaving Founders Fund — TechCrunch" }
+      ]
+    },
+    {
+      "name": "Ken Howery",
+      "slug": "ken-howery",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity/PayPal in 1998 (Howery was its first CFO) and Founders Fund in 2005 together.",
+      "start_year": 1998,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "rival",
+      "description": "After Confinity merged with Musk's X.com in 2000, the board replaced Musk as CEO with Thiel in late 2000 while Musk was away on his honeymoon. Fortune later reported Musk had made up with the \"mutineers.\"",
+      "start_year": 2000,
+      "end_year": 2000,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/X.com_(bank)", "title": "X.com (bank) — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Thiel backed Trump's long-shot 2016 campaign with $1.25 million, and in 2021 introduced his protégé JD Vance to Trump. FEC filings show $508,100 from Peter Thiel to Trump Victory, Donald J. Trump for President, Inc. in 2 cycles (2016–2018).",
+      "start_year": 2016,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/08/29/trump-jd-vance-peter-thiel.html", "title": "JD Vance urges billionaire Peter Thiel to back Trump campaign — CNBC" },
+        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" },
+        { "url": "https://www.breitbart.com/local/2016/10/19/peter-thiel-big-trump-donation-sparks-long-knives-silicon-valley/", "title": "Breitbart: Peter Thiel faces retaliation in Silicon Valley for Trump support" },
+        { "url": "https://dailycaller.com/2016/10/19/zuckerberg-weighs-in-on-peter-thiels-raging-trump-support/", "title": "Daily Caller: Zuckerberg weighs in on Peter Thiel’s Trump support" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00618389&two_year_transaction_period=2018", "title": "FEC receipts: THIEL, PETER to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00580100&two_year_transaction_period=2018", "title": "FEC receipts: THIEL, PETER to Donald J. Trump for President, Inc." }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "protégé",
+      "description": "Vance met Thiel after Thiel spoke at Yale Law School in 2011, a moment Vance called the most significant of his time there. He later worked at Mithril Capital, a firm Thiel co-founded (from 2015 per Politico, 2016 per other accounts, until 2017), and is widely described as Thiel's protégé; Thiel introduced him to Trump in 2021.",
+      "start_year": 2011,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2024/07/17/g-s1-11654/five-things-to-know-about-jd-vances-connections-to-tech-billionaires", "title": "Five things to know about J.D. Vance's ties to tech billionaires — NPR" },
+        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" },
+        { "url": "https://www.forbes.com.au/news/billionaires/jd-vance-and-peter-thiel-what-to-know/", "title": "Forbes Australia: JD Vance and Peter Thiel, inside the relationship" },
+        { "url": "https://salon.com/2024/07/22/jd-vance-owes-almost-everything-to-peter-thiel-a-pro-billionaire-and-new-right-ideologue", "title": "Salon: JD Vance owes almost everything to Peter Thiel" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "funded_by",
+      "description": "Thiel gave $15 million to Protect Ohio Values, a super PAC backing Vance in the 2022 Ohio Senate primary, but did not fund him in the general election. FEC filings show $15,001,442 from Peter Thiel to Protect Ohio Values PAC (POV PAC), JD Vance for Senate Inc. in the 2022 cycle.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cnbc.com/2022/10/03/peter-thiel-signals-he-is-done-helping-jd-vance-will-fundraise-for-blake-masters.html", "title": "GOP megadonor Peter Thiel signals he is done helping Ohio Senate hopeful J.D. Vance — CNBC" },
+        { "url": "https://www.cnbc.com/2022/11/12/midterm-results-peter-thiel-picks-masters-vance-see-mixed-results-in-arizona-ohio.html", "title": "Peter Thiel's picks Masters, Vance split key Senate races — CNBC" },
+        { "url": "https://www.washingtontimes.com/news/2021/mar/15/jd-vance-likely-ohio-senate-run-backed-peter-thiel/", "title": "Washington Times: J.D. Vance likely Ohio Senate run backed by Peter Thiel" },
+        { "url": "https://www.breitbart.com/politics/2021/03/16/peter-thiel-pours-10-million-super-pac-backing-likely-j-d-vance-senate-bid-ohio/", "title": "Breitbart: Peter Thiel pours $10 million into super PAC for likely Vance Senate bid" },
+        { "url": "https://dailycaller.com/2022/04/20/jd-vance-peter-thiel-protect-ohio-values/", "title": "Daily Caller: JD Vance super PAC receives $3.5 million from Peter Thiel" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Protect Ohio Values PAC (POV PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "Alex Karp",
+      "slug": "alex-karp",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir in 2003; Karp has been CEO since 2005 and Thiel chairman since 2003.",
+      "start_year": 2003,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "slug": "mark-zuckerberg",
+      "relationship_type": "funded_by",
+      "description": "Thiel became Facebook's first outside investor in August 2004, buying 10.2% for $500,000, and sat on its board from 2005 to 2022.",
+      "start_year": 2004,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Peter_Thiel", "title": "Peter Thiel — Wikipedia" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "colleague",
+      "description": "PayPal colleagues under Thiel as CEO. Hoffman arranged the first meeting between Mark Zuckerberg and Thiel that led to Thiel's 2004 Facebook investment. They have since taken opposite sides politically.",
+      "start_year": 2000,
+      "end_year": 2002,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "funded_by",
+      "description": "Thiel was among the angels in LinkedIn's $10 million Series B in October 2004, led by Greylock.",
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://vator.tv/?p=36479", "title": "LinkedIn funding timeline — VatorNews" }
+      ],
+      "start_year": 2004
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "ally",
+      "description": "Co-wrote The Diversity Myth (1995), a critique of multiculturalism at Stanford, and worked together at PayPal, where Sacks was COO under Thiel as CEO. Fortune counts Sacks in Thiel's network inside the Trump White House.",
+      "start_year": 1995,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.independent.org/store/book/the-diversity-myth/", "title": "The Diversity Myth — Independent Institute" },
+        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "colleague",
+      "description": "Rabois was a PayPal executive under Thiel as CEO and a general partner at Thiel's Founders Fund from 2019 to 2024. One account traces their connection to Rabois's time on The Stanford Review under Thiel.",
+      "start_year": 2000,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund", "title": "Keith Rabois is leaving Khosla Ventures for Founders Fund — TechCrunch" },
+        { "url": "https://techcrunch.com/2024/01/09/keith-rabois-dishes-on-his-surprising-return-to-khosla-ventures-after-leaving-the-firm-in-2019-for-founders-fund", "title": "Keith Rabois dishes on his surprising return to Khosla Ventures — TechCrunch" }
+      ]
+    },
+    {
+      "name": "Roelof Botha",
+      "slug": "roelof-botha",
+      "relationship_type": "colleague",
+      "description": "Botha was PayPal's CFO while Thiel was CEO, taking the company public together in 2002.",
+      "start_year": 2000,
+      "end_year": 2002,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Roelof_Botha", "title": "Roelof Botha — Wikipedia" },
+        { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" }
+      ]
+    },
+    {
+      "name": "Premal Shah",
+      "slug": "premal-shah",
+      "relationship_type": "colleague",
+      "description": "Shah worked at PayPal from 2000 while Thiel was CEO, and both posed in Fortune's 2007 PayPal Mafia photo. No source found documents direct work together; this link is based on the shared employer.",
+      "start_year": 2000,
+      "end_year": 2002,
+      "confidence": 0.4,
+      "sources": [
+        { "url": "https://carnegie.org/great-immigrants/premal-shah/", "title": "Premal Shah — Carnegie Corporation Great Immigrants" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Andrew McCormack",
+      "slug": "andrew-mccormack",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Valar Ventures with Thiel and James Fitzgerald in 2010; Thiel remains a close adviser but has largely left the firm to McCormack and Fitzgerald.",
+      "start_year": 2010,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Valar_Ventures", "title": "Valar Ventures — Wikipedia" },
+        { "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management", "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor" }
+      ]
+    },
+    {
+      "name": "Andrew McCormack",
+      "slug": "andrew-mccormack",
+      "relationship_type": "employee",
+      "description": "McCormack worked closely with Thiel at PayPal from 2001, then at Thiel's Clarium Capital and Thiel Capital.",
+      "start_year": 2001,
+      "end_year": 2010,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management", "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "colleague",
+      "description": "Served together on Facebook's (Meta's) board from Andreessen's arrival in June 2008 until Thiel left at the 2022 annual meeting; a 2016 filing showed Andreessen receiving Facebook shares from Thiel-run vehicles Founders Fund and Lembas.",
+      "start_year": 2008,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://about.fb.com/news/2008/06/marc-andreessen-joins-facebook-board-of-directors/", "title": "Marc Andreessen Joins Facebook Board of Directors — Meta" },
+        { "url": "https://prnewswire.com/news-releases/peter-thiel-to-retire-from-meta-board-of-directors-at-2022-annual-shareholder-meeting-301476881.html", "title": "Peter Thiel to Retire from Meta Board of Directors at 2022 Annual Shareholder Meeting — PR Newswire" },
+        { "url": "https://csmonitor.com/Technology/2016/0621/Why-Facebook-s-board-members-are-no-strangers-to-controversy", "title": "Why Facebook's board members are no strangers to controversy — Christian Science Monitor" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "ally",
+      "description": "Thiel's Founders Fund, an early Oculus investor, seeded Anduril in 2017, led its 2018 Series A and put $1 billion, its largest-ever check, into the 2025 round that valued Anduril at $30.5 billion. Luckey met co-founder Trae Stephens at a Founders Fund retreat in 2014.",
+      "start_year": 2014,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2025/06/05/anduril-palmer-luckey-funding-30-billion-valuation-founders-fund/", "title": "Anduril raises at $30.5 billion valuation, led by Founders Fund — Fortune" },
+        { "url": "https://www.ocbj.com/oc-homepage/palmer-luckey-teams-with-peter-thiel-for-latest-anduril-push-forward/", "title": "Palmer Luckey teams with Peter Thiel for latest Anduril push forward — Orange County Business Journal" },
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "protégé",
+      "description": "Thiel is widely described as Altman's longtime mentor and was the main backer of Altman's first venture fund, Hydrazine Capital; Altman reportedly sought Thiel's advice weeks before his 2023 ouster.",
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://the-decoder.com/peter-thiel-reportedly-warned-sam-altman-about-ai-safety-conflicts-shortly-before-the-openai-crisis/", "title": "Peter Thiel reportedly warned Sam Altman about AI safety conflicts shortly before the OpenAI crisis — The Decoder" },
+        { "url": "https://www.adn.com/nation-world/2023/12/24/king-of-the-cannibals-how-sam-altman-took-over-silicon-valley/", "title": "'King of the cannibals': How Sam Altman took over Silicon Valley — The Washington Post via Anchorage Daily News" }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "funded_by",
+      "description": "Thiel was among the founding funders of the nonprofit OpenAI in December 2015, whose backers jointly pledged $1 billion (far less was ultimately paid in).",
+      "start_year": 2015,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "protégé",
+      "description": "Thiel, who co-founded The Stanford Review that Lonsdale later edited, became his mentor; Lonsdale worked as an early executive at Thiel's hedge fund Clarium Capital.",
+      "start_year": 2004,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://stanforddaily.com/2013/02/18/QA-JOE-LONSDALE-04-FOUNDER-OF-PALANTIR-ADDEPAR-TALKS-ABOUT-STANFORD-ROOTS/", "title": "Joe Lonsdale, Palantir and Addepar co-founder, talks about Stanford roots — Stanford Daily" },
+        { "url": "https://www.bloomberg.com/news/articles/2024-11-01/joe-lonsdale-like-peter-thiel-plows-his-tech-fortune-into-conservative-causes", "title": "Joe Lonsdale is seed funding young conservative minds — Bloomberg" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir together in 2004 with Alex Karp, Stephen Cohen and Nathan Gettings; Lonsdale left in 2009 but kept an advisory role and a stake. Thiel was also an early investor in Lonsdale's Addepar.",
+      "start_year": 2004,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://generalist.com/briefing/palantir-ipo", "title": "Palantir in one minute — The Generalist" },
+        { "url": "https://stanforddaily.com/2014/03/16/palantir-co-founder-talks-technology-transformations/", "title": "Palantir co-founder talks technology transformations — Stanford Daily" },
+        { "url": "https://techcrunch.com/2017/01/16/joe-lonsdale-moves-forward-with-8vcs-new-fund-and-more/", "title": "Joe Lonsdale moves forward with 8VC’s new fund — TechCrunch" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Thiel gave a keynote at Hazony's first National Conservatism conference in July 2019.",
+      "start_year": 2019,
+      "end_year": 2019,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.nationalreview.com/2019/07/national-conservatism-conference-intellectual-trumpist-movement/amp/", "title": "At the National Conservatism Conference, an \"Intellectual Trumpist\" Movement Begins to Take Shape — National Review" },
+        { "url": "https://www.dailysignal.com/2019/07/28/national-conservatives-set-out-to-define-future-of-politics-on-right/", "title": "\"National Conservatives\" Set Out to Define Future of Politics on Right — Daily Signal" }
+      ]
+    },
+    {
+      "name": "Julius Krein",
+      "slug": "julius-krein",
+      "relationship_type": "ally",
+      "description": "Krein met Thiel years earlier through a reading group on Leo Strauss; Thiel spoke at the 2017 launch of American Affairs. No source shows Thiel funding the journal.",
+      "start_year": 2017,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.chathamhouse.org/publications/twt/julius-krein-trumps-wunderkind", "title": "Julius Krein, Trump's wunderkind — Chatham House" },
+        { "url": "https://en.wikipedia.org/wiki/Julius_Krein", "title": "Julius Krein — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "ally",
+      "description": "Fellow members of the Rockbridge Network of Republican donors, per The New York Times as reported by NBC News.",
+      "start_year": null,
+      "confidence": 0.45,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/secretive-conservative-donor-group-meets-draw-2024-plans-call-trump-rcna148899", "title": "Secretive conservative donor group meets to draw up 2024 plans — NBC News" }
+      ]
+    },
+    {
+      "name": "Josh Hawley",
+      "slug": "josh-hawley",
+      "relationship_type": "funded_by",
+      "description": "Thiel gave $100,000 to Hawley's 2016 attorney-general run in 2015 and two more $100,000 gifts in 2016, then the maximum $5,400 to his 2018 Senate campaign.",
+      "start_year": 2015,
+      "end_year": 2018,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.bloombergquint.com/technology/2017/11/15/peter-thiel-gave-money-to-attorney-general-going-after-google", "title": "Peter Thiel gave money to attorney general going after Google — Bloomberg" },
+        { "url": "https://electionlawblog.org/?p=107525", "title": "Silicon Valley billionaire Thiel invests in Kobach, Hawley and rise of nationalism — Election Law Blog" }
+      ]
+    },
+    {
+      "name": "Eric Schmitt",
+      "slug": "eric-schmitt",
+      "relationship_type": "funded_by",
+      "description": "Thiel put $250,000 into Save Missouri Values, the super PAC backing Schmitt's 2022 Senate bid; the Intercept tied it to Thiel's closeness to Hawley.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://clips.cato.org/sites/default/files/Cato_intercept_koch.pdf", "title": "How the leading Republican candidate for Missouri Senate lost Koch support — The Intercept (Cato clip)" }
+      ]
+    },
+    {
+      "name": "1789 Capital",
+      "slug": "1789-capital",
+      "relationship_type": "ally",
+      "description": "Reuters described Thiel as a central figure in the network behind it: he helped finance co-founder Chris Buskirk’s early political activism, and the fund invests in Thiel-backed companies such as Anduril.",
+      "start_year": 2022,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" },
+        { "url": "https://www.bnnbloomberg.ca/business/2025/09/08/trump-linked-venture-fund-1789-capital-tops-us1-billion-in-assets/", "title": "Trump-linked venture fund 1789 Capital tops US$1 billion in assets — Reuters via BNN Bloomberg" }
+      ],
+      "notes": "The \"instrumental force\" wording seen in secondary summaries could not be found in a Reuters original, so it was dropped."
+    },
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and partner.",
+      "start_year": 2005,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" },
+        { "url": "https://www.forbes.com/profile/peter-thiel/", "title": "Peter Thiel — Forbes" }
+      ]
+    },
+    {
+      "name": "Palantir Technologies",
+      "slug": "palantir-technologies",
+      "relationship_type": "co-founder",
+      "description": "Thiel co-founded Palantir in 2003, largely funded its start and is its chairman.",
+      "start_year": 2003,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir", "title": "Palantir — Wikipedia" }
+      ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity in 1998; CEO and chairman of PayPal after the 2000 merger until 2002.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/PayPal_Mafia", "title": "PayPal Mafia — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $110,000 from Peter Thiel to CLF in 2 cycles (2018–2026).",
+      "start_year": 2018,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: THIEL, PETER to CLF" }
+      ]
+    },
+    {
+      "name": "Senate Leadership Fund",
+      "slug": "senate-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $100,000 from Peter Thiel to Senate Leadership Fund in the 2020 cycle.",
+      "start_year": 2020,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00571703&two_year_transaction_period=2020", "title": "FEC receipts: THIEL, PETER to Senate Leadership Fund" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $21,600 from Peter Thiel to Ted Cruz Victory Committee, Jobs, Freedom, and Security PAC, Ted Cruz for Senate in the 2022 cycle.",
+      "start_year": 2021,
+      "end_year": 2021,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00542423&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00536540&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Jobs, Freedom, and Security PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00492785&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Ted Cruz for Senate" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Palantir founding year",
+      "details": "Palantir's SEC filings and Wikipedia say 2003; Britannica gives 2004.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Thiel's reported role on Trump's 2016 transition was not confirmed and is left out. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "leverage": {
+    "level": 2,
+    "basis": "Chairman of Palantir, whose federal work includes a $10 billion, 10-year Army enterprise agreement (2025) and a $1 billion DHS contract supporting ICE (2026); co-founder of Founders Fund, an early Anduril backer. The Revolving Door Project, an advocacy group, describes a network of more than a dozen Thiel allies and former employees in the executive branch.",
+    "sources": [
+      { "url": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000048/pltr-20260930.htm", "title": "Palantir Technologies Form 10-Q, quarter ended September 30, 2026 — SEC" },
+      { "url": "https://therevolvingdoorproject.org/billionaires-and-the-trump-admin-peter-thiel/", "title": "Billionaires and the Trump administration: Peter Thiel — Revolving Door Project (advocacy group)" },
+      { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" }
+    ]
+  },
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 3208400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&two_year_transaction_period=2026", "title": "FEC itemized receipts: THIEL, PETER, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00487470&two_year_transaction_period=2026", "title": "FEC receipts: THIEL, PETER to Club for Growth Action, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Grow the Majority",
+            "kind": "pac",
+            "amount_usd": 852200,
+            "fec_usd": 852200,
+            "fec_ids": ["C00858373"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00858373&two_year_transaction_period=2026", "title": "FEC receipts: THIEL, PETER to Grow the Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 310100,
+            "fec_usd": 310100,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00075820&two_year_transaction_period=2026", "title": "FEC receipts: THIEL, PETER to NRCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 72100,
+            "fec_usd": 72100,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00003418&two_year_transaction_period=2026", "title": "FEC receipts: THIEL, PETER to Republican National Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10000,
+            "fec_usd": 10000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: CLF $10,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: THIEL, PETER to CLF, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 7000,
+            "fec_usd": 7000,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $7,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: THIEL, PETER to Mike Johnson for Louisiana, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 35152184,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&two_year_transaction_period=2022", "title": "FEC itemized receipts: THIEL, PETER, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Saving Arizona PAC",
+            "kind": "super-pac",
+            "amount_usd": 20000000,
+            "fec_usd": 20000000,
+            "fec_ids": ["C00777185"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00777185&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Saving Arizona PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 15001442,
+            "fec_usd": 15001442,
+            "fec_ids": ["C00770495", "C00783142"],
+            "description": "Per FEC filings: Protect Ohio Values PAC (POV PAC) $15,000,000; JD Vance for Senate Inc. $1,442.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Protect Ohio Values PAC (POV PAC), 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to JD Vance for Senate Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "McCarthy Victory Fund",
+            "kind": "pac",
+            "amount_usd": 47300,
+            "fec_usd": 47300,
+            "fec_ids": ["C00541011"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00541011&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to McCarthy Victory Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 21600,
+            "fec_usd": 21600,
+            "fec_ids": ["C00492785", "C00536540", "C00542423"],
+            "description": "Per FEC filings: Ted Cruz Victory Committee $10,800; Ted Cruz for Senate $5,800; Jobs, Freedom, and Security PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00542423&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Ted Cruz Victory Committee, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00492785&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Ted Cruz for Senate, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00536540&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Jobs, Freedom, and Security PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Joe Kent",
+            "slug": "joe-kent",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00771394"],
+            "description": "Per FEC filings: Joe Kent for Congress $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00771394&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Joe Kent for Congress, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00666396"],
+            "description": "Per FEC filings: Michael Waltz for Congress $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00666396&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Michael Waltz for Congress, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 2250100,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&two_year_transaction_period=2020", "title": "FEC itemized receipts: THIEL, PETER, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Free Forever Political Action Committee",
+            "kind": "super-pac",
+            "amount_usd": 2100000,
+            "fec_usd": 2100000,
+            "fec_ids": ["C00721910"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00721910&two_year_transaction_period=2020", "title": "FEC receipts: THIEL, PETER to Free Forever Political Action Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $100,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00571703&two_year_transaction_period=2020", "title": "FEC receipts: THIEL, PETER to Senate Leadership Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 33900,
+            "fec_usd": 33900,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00003418&two_year_transaction_period=2020", "title": "FEC receipts: THIEL, PETER to Republican National Committee, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 1825500,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&two_year_transaction_period=2018", "title": "FEC itemized receipts: THIEL, PETER, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00487470&two_year_transaction_period=2018", "title": "FEC receipts: THIEL, PETER to Club for Growth Action, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 255400,
+            "fec_usd": 255400,
+            "fec_ids": ["C00580100", "C00618389"],
+            "description": "Per FEC filings: Trump Victory $250,000; Donald J. Trump for President, Inc. $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00618389&two_year_transaction_period=2018", "title": "FEC receipts: THIEL, PETER to Trump Victory, 2018 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00580100&two_year_transaction_period=2018", "title": "FEC receipts: THIEL, PETER to Donald J. Trump for President, Inc., 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 210700,
+            "fec_usd": 210700,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00003418&two_year_transaction_period=2018", "title": "FEC receipts: THIEL, PETER to Republican National Committee, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 133900,
+            "fec_usd": 133900,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00075820&two_year_transaction_period=2018", "title": "FEC receipts: THIEL, PETER to NRCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $100,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00504530&two_year_transaction_period=2018", "title": "FEC receipts: THIEL, PETER to Congressional Leadership Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00027466&two_year_transaction_period=2018", "title": "FEC receipts: THIEL, PETER to NRSC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "McCarthy Victory Fund",
+            "kind": "pac",
+            "amount_usd": 44300,
+            "fec_usd": 44300,
+            "fec_ids": ["C00541011"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00541011&two_year_transaction_period=2018", "title": "FEC receipts: THIEL, PETER to McCarthy Victory Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Josh Hawley",
+            "slug": "josh-hawley",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00652727"],
+            "description": "Per FEC filings: Josh Hawley for Senate $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00652727&two_year_transaction_period=2018", "title": "FEC receipts: THIEL, PETER to Josh Hawley for Senate, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 4624300,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&two_year_transaction_period=2016", "title": "FEC itemized receipts: THIEL, PETER, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Conservative, Authentic, Responsive Leadership for You and for America",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00573154"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00573154&two_year_transaction_period=2016", "title": "FEC receipts: THIEL, PETER to Conservative, Authentic, Responsive Leadership for You and for America, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Fighting for Ohio Fund",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00573014"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00573014&two_year_transaction_period=2016", "title": "FEC receipts: THIEL, PETER to Fighting for Ohio Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Make America Number 1",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00575373"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00575373&two_year_transaction_period=2016", "title": "FEC receipts: THIEL, PETER to Make America Number 1, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 252700,
+            "fec_usd": 252700,
+            "fec_ids": ["C00580100", "C00618389"],
+            "description": "Per FEC filings: Trump Victory $250,000; Donald J. Trump for President, Inc. $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00618389&two_year_transaction_period=2016", "title": "FEC receipts: THIEL, PETER to Trump Victory, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00580100&two_year_transaction_period=2016", "title": "FEC receipts: THIEL, PETER to Donald J. Trump for President, Inc., 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 247300,
+            "fec_usd": 247300,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00003418&two_year_transaction_period=2016", "title": "FEC receipts: THIEL, PETER to Republican National Committee, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "McCarthy Victory Fund",
+            "kind": "pac",
+            "amount_usd": 41400,
+            "fec_usd": 41400,
+            "fec_ids": ["C00541011"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00541011&two_year_transaction_period=2016", "title": "FEC receipts: THIEL, PETER to McCarthy Victory Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 33700,
+            "fec_usd": 33700,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00075820&two_year_transaction_period=2016", "title": "FEC receipts: THIEL, PETER to NRCC, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

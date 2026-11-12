@@ -1,0 +1,277 @@
+{
+  "name": "World Liberty Financial",
+  "aliases": ["WLF", "WLFI", "World Liberty"],
+  "kind": "company",
+  "founded": 2024,
+  "groups": ["trump-circle", "middle-east"],
+  "summary": "A cryptocurrency company launched in 2024 by Trump family members with the Witkoff family and crypto entrepreneurs Zak Folkman and Chase Herro. It sells the WLFI governance token and issues the USD1 dollar stablecoin, and a Trump family entity takes 75% of token-sale revenue; Trump reported almost $800 million from it for 2025. A 49% stake sold for $500 million to a vehicle of the UAE national security adviser Sheikh Tahnoon days before Trump’s inauguration, and the use of USD1 for an Abu Dhabi fund’s $2 billion Binance investment, have drawn conflict-of-interest scrutiny.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/World_Liberty_Financial", "title": "World Liberty Financial — Wikipedia" },
+    { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" },
+    { "url": "https://finance.yahoo.com/news/trump-family-took-over-world-093753031.html", "title": "How the Trump family took over World Liberty Financial — Reuters via Yahoo Finance" },
+    { "url": "https://www.nbcnews.com/tech/crypto/trump-family-gets-75-crypto-coin-revenue-no-liability-new-document-rev-rcna176088", "title": "Trump family gets 75% of crypto coin revenue, has no liability, new document reveals — NBC News" },
+    { "url": "https://www.theblock.co/news/deals/2026-02-01-uae-sheikh-secretly-acquired-49-of-trumps-world-liberty-financial-days-before-inauguration-wsj-387931", "title": "UAE sheikh secretly acquired 49% of Trump’s World Liberty Financial days before inauguration: WSJ — The Block" }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "co-founder",
+      "description": "Introduced as its “chief crypto advocate” at the 2024 launch and listed as co-founder emeritus since taking office. His family’s DT Marks DEFI LLC is its largest owning entity on the Trump side and a Trump entity takes 75% of token-sale revenue; his 2025 financial disclosure reported almost $800 million from World Liberty. Trump said his sons run it.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" },
+        { "url": "https://finance.yahoo.com/news/trump-family-took-over-world-093753031.html", "title": "How the Trump family took over World Liberty Financial — Reuters via Yahoo Finance" },
+        { "url": "https://www.nbcnews.com/tech/crypto/trump-family-gets-75-crypto-coin-revenue-no-liability-new-document-rev-rcna176088", "title": "Trump family gets 75% of crypto coin revenue, has no liability, new document reveals — NBC News" },
+        { "url": "https://www.thestar.com.my/news/world/2026/07/01/trump-reports-over-14-billion-in-income-from-crypto-ventures", "title": "Trump reports over $1.4 billion in income from crypto ventures — Reuters via The Star (July 2026)" },
+        { "url": "https://benzinga.com/crypto/cryptocurrency/26/11/62972786/trump-linked-world-liberty-plans-buyback-as-wlfi-falls-8", "title": "Trump-linked World Liberty plans buyback as WLFI falls 8% — Benzinga (November 2026)" }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "co-founder",
+      "description": "Listed as a co-founder; a “web3 ambassador” at the 2024 launch.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" },
+        { "url": "https://en.wikipedia.org/wiki/World_Liberty_Financial", "title": "World Liberty Financial — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Steve Witkoff",
+      "slug": "steve-witkoff",
+      "relationship_type": "co-founder",
+      "description": "His family introduced Folkman and Herro to the Trumps and he arranged their pitch to Trump; listed as co-founder emeritus. His affiliate WC Digital Fi holds half of the founders’ 25% revenue share, and about $31 million of the UAE stake’s first payment went to Witkoff-linked firms. Whether he has divested is disputed (see the organization’s source conflicts).",
+      "start_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/trump-family-took-over-world-093753031.html", "title": "How the Trump family took over World Liberty Financial — Reuters via Yahoo Finance" },
+        { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" },
+        { "url": "https://www.nbcnews.com/tech/crypto/trump-family-gets-75-crypto-coin-revenue-no-liability-new-document-rev-rcna176088", "title": "Trump family gets 75% of crypto coin revenue, has no liability, new document reveals — NBC News" },
+        { "url": "https://www.theblock.co/news/deals/2026-02-01-uae-sheikh-secretly-acquired-49-of-trumps-world-liberty-financial-days-before-inauguration-wsj-387931", "title": "UAE sheikh secretly acquired 49% of Trump’s World Liberty Financial days before inauguration: WSJ — The Block" },
+        { "url": "https://www.schiff.senate.gov/?p=10959", "title": "Schiff and colleagues press Witkoff on crypto holdings and ethics — Office of Sen. Adam Schiff (October 2025)" }
+      ]
+    },
+    {
+      "name": "Eric Trump",
+      "slug": "eric-trump",
+      "relationship_type": "co-founder",
+      "description": "Listed co-founder (a “web3 ambassador” at launch) and a manager on the board of WLF Holdco; a board observer at the WLFI treasury company ALT5 Sigma.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" },
+        { "url": "https://www.theblock.co/amp/post/370081/eric-trump-will-have-reduced-board-role-at-wlfi-treasury-company-alt5-sigma", "title": "Eric Trump will have reduced board role at WLFI treasury company Alt5 Sigma — The Block" }
+      ]
+    },
+    {
+      "name": "Barron Trump",
+      "slug": "barron-trump",
+      "relationship_type": "co-founder",
+      "description": "Listed co-founder; billed as “chief DeFi visionary” at the 2024 launch.",
+      "start_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" },
+        { "url": "https://en.wikipedia.org/wiki/World_Liberty_Financial", "title": "World Liberty Financial — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Zach Witkoff",
+      "slug": "zach-witkoff",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and chief executive; chairman of ALT5 Sigma. Signed the Pakistan agreements and announced USD1’s use in the MGX–Binance deal.",
+      "start_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/World_Liberty_Financial", "title": "World Liberty Financial — Wikipedia" },
+        { "url": "https://www.theblock.co/news/deals/2025-08-11-alt5-sigma-wlfi-token-treasury-strategy-eric-trump-366348", "title": "ALT5 Sigma to raise $1.5 billion for WLFI token treasury strategy, to add Eric Trump to board — The Block" },
+        { "url": "https://www.dawn.com/news/1906732", "title": "Trump-backed crypto venture partners with Pakistan Crypto Council to boost blockchain adoption — Dawn" }
+      ]
+    },
+    {
+      "name": "Alex Witkoff",
+      "slug": "alex-witkoff",
+      "relationship_type": "co-founder",
+      "description": "Co-founder.",
+      "start_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/World_Liberty_Financial", "title": "World Liberty Financial — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Zak Folkman",
+      "slug": "zak-folkman",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and chief operating officer; replaced with Chase Herro as controlling party by the Trump family holding company in 2025, per Reuters. Their company AMG holds a 25% share of net protocol revenue.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/trump-family-took-over-world-093753031.html", "title": "How the Trump family took over World Liberty Financial — Reuters via Yahoo Finance" },
+        { "url": "https://en.wikipedia.org/wiki/World_Liberty_Financial", "title": "World Liberty Financial — Wikipedia" },
+        { "url": "https://www.theblock.co/news/deals/2025-08-11-alt5-sigma-wlfi-token-treasury-strategy-eric-trump-366348", "title": "ALT5 Sigma to raise $1.5 billion for WLFI token treasury strategy, to add Eric Trump to board — The Block" }
+      ]
+    },
+    {
+      "name": "Chase Herro",
+      "slug": "chase-herro",
+      "relationship_type": "co-founder",
+      "description": "Co-founder; replaced with Zak Folkman as controlling party by the Trump family holding company in 2025, per Reuters. Their company AMG holds a 25% share of net protocol revenue.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/trump-family-took-over-world-093753031.html", "title": "How the Trump family took over World Liberty Financial — Reuters via Yahoo Finance" },
+        { "url": "https://en.wikipedia.org/wiki/World_Liberty_Financial", "title": "World Liberty Financial — Wikipedia" },
+        { "url": "https://www.nbcnews.com/tech/crypto/trump-family-gets-75-crypto-coin-revenue-no-liability-new-document-rev-rcna176088", "title": "Trump family gets 75% of crypto coin revenue, has no liability, new document reveals — NBC News" }
+      ]
+    },
+    {
+      "name": "Tahnoon bin Zayed Al Nahyan",
+      "slug": "tahnoon-bin-zayed-al-nahyan",
+      "relationship_type": "donor",
+      "description": "UAE national security adviser. His vehicle Aryam Investment 1 agreed in January 2025, days before Trump’s inauguration, to buy 49% of the company for $500 million, per the Wall Street Journal; of the first $250 million, $187 million went to Trump family entities and about $31 million to Witkoff-linked firms, and Aryam and G42 got two board seats. A company spokesman confirmed the stake; Trump said he did not know of it.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.theblock.co/news/deals/2026-02-01-uae-sheikh-secretly-acquired-49-of-trumps-world-liberty-financial-days-before-inauguration-wsj-387931", "title": "UAE sheikh secretly acquired 49% of Trump’s World Liberty Financial days before inauguration: WSJ — The Block" },
+        { "url": "https://cointelegraph.com/news/uae-backed-firm-buys-49-percent-trump-linked-world-liberty-wsj", "title": "UAE-backed firm buys 49% of Trump-linked World Liberty: WSJ — Cointelegraph" },
+        { "url": "https://www.theblock.co/news/deals/2026-02-03-president-trump-says-he-was-unaware-of-500-million-uae-investment-in-world-liberty-financial-388191", "title": "President Trump says he was unaware of $500 million UAE investment in World Liberty Financial — The Block" }
+      ]
+    },
+    {
+      "name": "MGX",
+      "slug": "mgx",
+      "relationship_type": "ally",
+      "description": "The Abu Dhabi investment fund chaired by Sheikh Tahnoon used USD1 to settle its $2 billion investment in Binance in 2025, announced by Zach Witkoff.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.foxbusiness.com/markets/trumps-stablecoin-chosen-2-billion-abu-dhabi-investment-binance-co-founder-says", "title": "Trump’s stablecoin chosen for $2 billion Abu Dhabi investment in Binance, co-founder says — Fox Business (Reuters)" },
+        { "url": "https://www.theblock.co/post/352830/world-liberty-financials-usd1-binances-2-billion-investment-mgx-report", "title": "World Liberty Financial’s USD1 to close Binance’s $2 billion investment from MGX — The Block" }
+      ]
+    },
+    {
+      "name": "Changpeng Zhao",
+      "slug": "changpeng-zhao",
+      "relationship_type": "ally",
+      "description": "Binance, which he founded, accepted USD1 for the MGX deal and held most USD1 in circulation, a large boost to the venture. Trump pardoned him in October 2025; critics including Sen. Elizabeth Warren tied the pardon to his help for World Liberty, which the White House rejected.",
+      "start_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://newschannel9.com/news/nation-world/trump-pardons-binance-founder-zhao-citing-no-fraud-amid-crypto-tensions-cryptocurrency-money-laundering-world-liberty-financial-coin", "title": "Trump pardons Binance founder Zhao, citing no fraud amid crypto tensions — Sinclair via NewsChannel 9" },
+        { "url": "https://www.pbs.org/newshour/amp/politics/trump-pardons-binance-founder-changpeng-zhao", "title": "Trump pardons Binance founder Changpeng Zhao — PBS NewsHour" },
+        { "url": "https://www.foxbusiness.com/markets/trumps-stablecoin-chosen-2-billion-abu-dhabi-investment-binance-co-founder-says", "title": "Trump’s stablecoin chosen for $2 billion Abu Dhabi investment in Binance, co-founder says — Fox Business (Reuters)" }
+      ]
+    },
+    {
+      "name": "Justin Sun",
+      "slug": "justin-sun",
+      "relationship_type": "donor",
+      "description": "Tron founder; calls himself one of its anchor investors after buying WLFI tokens in 2024. Whether he was an adviser is disputed.",
+      "start_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.aljazeera.com/economy/2026/4/22/blockchain-billionaire-sun-takes-trump-familys-crypto-firm-to-court", "title": "Blockchain billionaire Sun takes Trump family’s crypto firm to court — Al Jazeera (Reuters, April 2026)" },
+        { "url": "https://decrypt.co/365106/justin-sun-sues-trump-backed-world-liberty-financial-over-frozen-tokens", "title": "Justin Sun sues Trump-backed World Liberty Financial over frozen tokens — Decrypt" }
+      ]
+    },
+    {
+      "name": "Justin Sun",
+      "slug": "justin-sun",
+      "relationship_type": "enemy",
+      "description": "The company froze his WLFI tokens in September 2025; he sued in federal court in April 2026, alleging a hidden freeze function. Zach Witkoff called the claims “entirely meritless” and the company accused Sun of shorting the token.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.aljazeera.com/economy/2026/4/22/blockchain-billionaire-sun-takes-trump-familys-crypto-firm-to-court", "title": "Blockchain billionaire Sun takes Trump family’s crypto firm to court — Al Jazeera (Reuters, April 2026)" },
+        { "url": "https://decrypt.co/365106/justin-sun-sues-trump-backed-world-liberty-financial-over-frozen-tokens", "title": "Justin Sun sues Trump-backed World Liberty Financial over frozen tokens — Decrypt" },
+        { "url": "https://www.theblock.co/amp/post/369601/justin-sun-wlfi", "title": "“I am innocent”: Justin Sun calls for World Liberty Financial to unfreeze his WLFI tokens — The Block" }
+      ]
+    },
+    {
+      "name": "ALT5 Sigma",
+      "slug": "alt5-sigma",
+      "relationship_type": "funded_by",
+      "description": "World Liberty led, in WLFI tokens, the private placement in ALT5 Sigma’s $1.5 billion raise of August 2025 to hold WLFI as a treasury asset; Zach Witkoff became its chairman.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.theblock.co/news/deals/2025-08-11-alt5-sigma-wlfi-token-treasury-strategy-eric-trump-366348", "title": "ALT5 Sigma to raise $1.5 billion for WLFI token treasury strategy, to add Eric Trump to board — The Block" },
+        { "url": "https://fortune.com/crypto/2025/08/11/world-liberty-financial-1-5-billion-alt5-sigma-alts-crypto-treasury-company-trump/", "title": "World Liberty Financial’s $1.5 billion ALT5 Sigma deal — Fortune" },
+        { "url": "https://www.theblock.co/amp/post/370081/eric-trump-will-have-reduced-board-role-at-wlfi-treasury-company-alt5-sigma", "title": "Eric Trump will have reduced board role at WLFI treasury company Alt5 Sigma — The Block" }
+      ]
+    },
+    {
+      "name": "Pakistan Crypto Council",
+      "slug": "pakistan-crypto-council",
+      "relationship_type": "ally",
+      "description": "Signed a letter of intent with World Liberty in Islamabad in April 2025; its head, Bilal Bin Saqib, was reported to become a World Liberty adviser.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dawn.com/news/1906732", "title": "Trump-backed crypto venture partners with Pakistan Crypto Council to boost blockchain adoption — Dawn" },
+        { "url": "https://www.aljazeera.com/news/2026/7/3/500m-for-trump-access-for-pakistan-how-a-crypto-diplomatic-bet-paid-off", "title": "$500m for Trump, access for Pakistan: how a crypto-diplomatic bet paid off — Al Jazeera (July 2026)" }
+      ]
+    },
+    {
+      "name": "Elizabeth Warren",
+      "slug": "elizabeth-warren",
+      "relationship_type": "enemy",
+      "description": "Senate Banking Committee Democrat; attacked the MGX deal’s use of USD1 and Zhao’s pardon as conflicts of interest.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.foxbusiness.com/markets/trumps-stablecoin-chosen-2-billion-abu-dhabi-investment-binance-co-founder-says", "title": "Trump’s stablecoin chosen for $2 billion Abu Dhabi investment in Binance, co-founder says — Fox Business (Reuters)" },
+        { "url": "https://newschannel9.com/news/nation-world/trump-pardons-binance-founder-zhao-citing-no-fraud-amid-crypto-tensions-cryptocurrency-money-laundering-world-liberty-financial-coin", "title": "Trump pardons Binance founder Zhao, citing no fraud amid crypto tensions — Sinclair via NewsChannel 9" }
+      ]
+    },
+    {
+      "name": "Robert Garcia",
+      "slug": "robert-garcia",
+      "relationship_type": "enemy",
+      "description": "Expected Democratic chair of the House Oversight Committee from 2027; has signaled the panel will investigate the Trump family’s crypto dealings, possibly from February 2027.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://crypto.news/democrats-prepare-to-investigate-world-liberty-financial-after-house-win/", "title": "Democrats prepare to investigate World Liberty Financial after House win — crypto.news (November 2026)" },
+        { "url": "https://www.bankless.com/read/news/world-liberty-launches-wlfi-buybacks-as-democrats-circle", "title": "World Liberty launches WLFI buybacks as Democrats circle — Bankless (November 2026)" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Trump family ownership",
+      "details": "Reuters reported in March 2025 that DT Marks DEFI LLC, a Trump family entity, held 60% of the holding company WLF Holdco. Company disclosures cited by Benzinga in November 2026 put it at almost 38%, after the 49% sale to the Tahnoon-backed Aryam (reported by the Wall Street Journal in February 2026). The figures are from different dates.",
+      "sources": [
+        { "url": "https://www.theblock.co/amp/post/348917/trump-family-now-controls-at-least-60-stake-over-world-liberty-financial-through-new-holding-company-reuters", "title": "Trump family now controls at least 60% stake over World Liberty Financial through new holding company: Reuters — The Block" },
+        { "url": "https://benzinga.com/crypto/cryptocurrency/26/11/62972786/trump-linked-world-liberty-plans-buyback-as-wlfi-falls-8", "title": "Trump-linked World Liberty plans buyback as WLFI falls 8% — Benzinga (November 2026)" },
+        { "url": "https://www.theblock.co/news/deals/2026-02-01-uae-sheikh-secretly-acquired-49-of-trumps-world-liberty-financial-days-before-inauguration-wsj-387931", "title": "UAE sheikh secretly acquired 49% of Trump’s World Liberty Financial days before inauguration: WSJ — The Block" }
+      ]
+    },
+    {
+      "topic": "Whether Steve Witkoff left the company",
+      "details": "The White House counsel said Witkoff had divested from World Liberty; Sen. Adam Schiff and seven colleagues wrote in October 2025 that his August 2025 disclosure showed he still held his crypto assets, and Bloomberg-based reports said he had not yet sold his World Liberty stake.",
+      "sources": [
+        { "url": "https://www.schiff.senate.gov/?p=10959", "title": "Schiff and colleagues press Witkoff on crypto holdings and ethics — Office of Sen. Adam Schiff (October 2025)" },
+        { "url": "https://www.credaily.com/briefs/steve-witkoff-stake-sale-highlights-conflict-concerns", "title": "Steve Witkoff stake sale highlights conflict concerns — CRE Daily" }
+      ]
+    },
+    {
+      "topic": "Justin Sun’s role",
+      "details": "Several outlets called Sun an adviser after his 2024 token purchase; a company spokesperson told Reuters he “is not an advisor at World Liberty Financial, and he has never held an operational role in the company.”",
+      "sources": [
+        { "url": "https://www.aljazeera.com/economy/2026/4/22/blockchain-billionaire-sun-takes-trump-familys-crypto-firm-to-court", "title": "Blockchain billionaire Sun takes Trump family’s crypto firm to court — Al Jazeera (Reuters, April 2026)" },
+        { "url": "https://decrypt.co/365106/justin-sun-sues-trump-backed-world-liberty-financial-over-frozen-tokens", "title": "Justin Sun sues Trump-backed World Liberty Financial over frozen tokens — Decrypt" }
+      ]
+    }
+  ],
+  "notes": "Researched with web searches; the Wall Street Journal’s February 2026 report on the Aryam stake and several Reuters investigations are cited through outlets that reported on them. Not in the links: token sales of about $550 million by March 2025 (Bloomberg); an OCC preliminary conditional approval on August 14, 2026 for World Liberty Trust Company, a national trust bank to issue USD1 (Crowdfund Insider; application per The Block); a WLFI buyback announced in November 2026 after the token fell more than 60% in 2026 (Reuters via Investing.com); and House Democrats’ plans to investigate it when they take control of the Oversight Committee in 2027 (crypto.news, Bankless). A January 2026 memorandum with Pakistan’s finance ministry on using USD1 for cross-border payments was non-binding (Al Jazeera).",
+  "last_researched": "2026-11-09"
+}

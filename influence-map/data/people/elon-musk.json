@@ -1,0 +1,1285 @@
+{
+  "name": "Elon Musk",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "tech",
+  "groups": ["trump-circle", "paypal-mafia", "tech-right", "ai-race", "defense-tech", "media"],
+  "photo": {
+    "file": "elon-musk.jpg",
+    "credit": "Gage Skidmore",
+    "license": "CC BY-SA 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Elon_Musk_-_54820081119_(3x4_cropped,_Rule_of_thirds).jpg", "title": "File:Elon Musk - 54820081119 (3x4 cropped, Rule of thirds).jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": 2021,
+      "basis": "Said in 2022 that he had \"voted overwhelmingly for Democrats, historically\", including for Biden in 2020.",
+      "sources": [
+        { "url": "https://www.cnbc.com/2022/05/18/elon-musk-says-hell-vote-republican-bashes-democrats.html", "title": "CNBC: Elon Musk says he'll vote Republican" }
+      ]
+    },
+    {
+      "value": 1,
+      "start_year": 2022,
+      "end_year": 2023,
+      "basis": "Announced in May 2022 that he could no longer support Democrats and would vote Republican.",
+      "sources": [
+        { "url": "https://www.cnbc.com/2022/05/18/elon-musk-says-hell-vote-republican-bashes-democrats.html", "title": "CNBC: Elon Musk says he'll vote Republican" },
+        { "url": "https://fortune.com/2022/05/18/elon-musk-says-hell-vote-republican-and-that-democrats-are-no-longer-the-kindness-party/", "title": "Fortune: Musk says he'll vote Republican" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2024,
+      "end_year": null,
+      "basis": "Spent at least $250 million backing Trump in 2024, led DOGE in 2025, and after a 2025 feud with Trump returned to funding Republicans.",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "PBS NewsHour: Musk paid at least $250M backing Trump in 2024" }
+      ]
+    }
+  ],
+  "current_role": "CEO of Tesla and of SpaceX (which absorbed xAI in February 2026 and went public in June 2026)",
+  "summary": "Elon Musk co-founded X.com in 1999, which merged with Confinity to form PayPal; he was replaced as CEO in 2000 but was its largest shareholder when eBay bought it. He founded SpaceX in 2002, became Tesla's chairman in 2004 and CEO in 2008, bought Twitter in 2022 (renamed X), and merged his AI company xAI into SpaceX in 2026 ahead of a record IPO. He spent at least $250 million backing Trump in 2024, led DOGE in 2025, then feuded publicly with Trump before returning to fund Republicans in the 2026 midterms.",
+  "sources": [
+    { "url": "https://www.britannica.com/money/Elon-Musk", "title": "Elon Musk — Britannica" },
+    { "url": "https://en.wikipedia.org/wiki/Elon_Musk", "title": "Elon Musk — Wikipedia" },
+    { "url": "https://www.cnbc.com/2026/02/02/elon-musk-spacex-xai-ipo.html", "title": "Elon Musk's SpaceX acquiring AI startup xAI ahead of potential IPO — CNBC" }
+  ],
+  "timeline": [
+    {
+      "year": 1999,
+      "end_year": 2000,
+      "role": "Co-founder and CEO of X.com; replaced as CEO by Peter Thiel in late 2000 after the merger with Confinity",
+      "org": "X.com / PayPal",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/X.com_(bank)", "title": "X.com (bank) — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2002,
+      "end_year": null,
+      "role": "Founder, CEO and chief designer",
+      "org": "SpaceX",
+      "sources": [
+        { "url": "https://www.britannica.com/money/Elon-Musk", "title": "Elon Musk — Britannica" }
+      ]
+    },
+    {
+      "year": 2004,
+      "end_year": null,
+      "role": "Major early funder and chairman (2004); CEO since 2008",
+      "org": "Tesla",
+      "sources": [
+        { "url": "https://www.britannica.com/money/Elon-Musk", "title": "Elon Musk — Britannica" }
+      ]
+    },
+    {
+      "year": 2022,
+      "end_year": null,
+      "role": "Bought Twitter (renamed X in 2023)",
+      "org": "X Corp.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/X_Corp.", "title": "X Corp. — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2025,
+      "role": "Led the Department of Government Efficiency (DOGE) for about four months",
+      "org": "DOGE / Trump administration",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": 2026,
+      "role": "Merged xAI into SpaceX (February) and took the combined company public (June 12)",
+      "org": "SpaceX",
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html", "title": "Musk's xAI, SpaceX combo is the biggest merger of all time — CNBC" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor, and the biggest VC winners from SpaceX's IPO — Fortune" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "America PAC",
+      "role": "Main funder",
+      "start_year": 2024,
+      "end_year": null,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
+        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" }
+      ]
+    },
+    {
+      "name": "PayPal Mafia",
+      "role": "Member (skipped Fortune's 2007 photo shoot)",
+      "sources": [
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "rival",
+      "description": "After Musk's X.com merged with Thiel's Confinity in 2000, the board replaced Musk as CEO with Thiel in late 2000 while Musk was away on his honeymoon. Fortune later reported Musk had made up with the \"mutineers.\"",
+      "start_year": 2000,
+      "end_year": 2000,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/X.com_(bank)", "title": "X.com (bank) — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Luke Nosek",
+      "slug": "luke-nosek",
+      "relationship_type": "donor",
+      "description": "Nosek led Founders Fund's 2008 investment in SpaceX and has sat on SpaceX's board since.",
+      "start_year": 2008,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Luke_Nosek", "title": "Luke Nosek — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor, and the biggest VC winners from SpaceX's IPO — Fortune" }
+      ]
+    },
+    {
+      "name": "Max Levchin",
+      "slug": "max-levchin",
+      "relationship_type": "colleague",
+      "description": "Worked together at PayPal after X.com and Confinity merged in March 2000, with Levchin as CTO, until Musk was replaced as CEO later that year.",
+      "start_year": 2000,
+      "end_year": 2000,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" },
+        { "url": "https://www.foxbusiness.com/markets/elon-musk-dethroned-peter-thiel-coup-led-paypal-mafia", "title": "Elon Musk was dethroned by Peter Thiel in a coup led by the ‘PayPal Mafia’ — Fox Business" },
+        { "url": "https://www.snopes.com/fact-check/was-elon-musk-fired-from-paypal/", "title": "Was Elon Musk fired from PayPal? — Snopes" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "In June 2025, after Musk left DOGE, a public feud over Trump's tax-and-spending bill led Trump to threaten Musk's government contracts and Musk to claim Trump would have lost without him. Musk later returned to funding Republicans.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2025/06/05/trump-musk-bromance-dispute", "title": "How Trump and Musk went from bromance to bitter dispute — Axios" },
+        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" },
+        { "url": "https://www.dailywire.com/news/trump-says-musk-just-went-crazy-threatens-his-governmental-subsidies-and-contracts", "title": "Daily Wire: Trump says Musk \"just went CRAZY,\" threatens his subsidies and contracts" },
+        { "url": "https://www.breitbart.com/politics/2025/06/05/trump-floats-canceling-elon-musks-government-subsidies-contracts-as-feud-between-former-allies-escalates/", "title": "Breitbart: Trump floats canceling Musk’s government subsidies and contracts" },
+        { "url": "https://www.nationalreview.com/news/musk-trump-feud-explodes-as-president-threatens-to-pull-subsidies-billionaire-floats-third-party-challenge/", "title": "National Review: Musk–Trump feud explodes as president threatens to pull subsidies" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "ally",
+      "description": "Ellison calls Musk a \"very close\" friend. He held about $1 billion of Tesla stock, sat on Tesla's board from December 2018 to 2022 under the company's SEC settlement, and committed $1 billion to Musk's 2022 Twitter takeover.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2018/12/28/tesla-names-new-board-members-after-sec-settlement.html", "title": "Tesla names Larry Ellison and Kathleen Wilson-Thompson to board after SEC settlement — CNBC" },
+        { "url": "https://fortune.com/2018/12/28/tesla-larry-ellison-board-of-directors-elon-musk/", "title": "Tesla Taps Oracle's Larry Ellison for Its Board of Directors — Fortune" },
+        { "url": "https://www.channelfutures.com/business-models/oracle-co-founder-larry-ellison-biggest-backer-of-elon-musks-twitter-takeover", "title": "Oracle Co-Founder Larry Ellison Biggest Backer of Elon Musk's Twitter Takeover — Channel Futures" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "colleague",
+      "description": "Worked in parallel on dismantling USAID in early 2025: Musk's DOGE drove the cuts while Rubio, as acting administrator, canceled most of its contracts. The AP reported contradictory orders fueled talk of a power struggle, which both men denied.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://www.npr.org/sections/goats-and-soda/2025/03/10/g-s1-52964/rubio-announces-that-83-of-usaid-contracts-will-be-canceled", "title": "Rubio announces that 83% of USAID contracts will be canceled — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/doge-official-taking-leadership-role-at-usaid-email-obtained-by-ap-says", "title": "DOGE official taking leadership role at USAID, email obtained by AP says — PBS NewsHour" },
+        { "url": "https://dailycaller.com/2025/02/03/elon-musk-department-government-efficiency-usaid-trump-rubio/", "title": "Daily Caller: Trump, Musk take a bulldozer to USAID" },
+        { "url": "https://www.washingtonexaminer.com/policy/foreign-policy/3308776/marco-rubio-acting-administrator-usaid/", "title": "Washington Examiner: Marco Rubio announced as acting administrator of USAID" },
+        { "url": "https://www.washingtontimes.com/news/2025/feb/12/accounts-doge-dismantling-usaid-detailed-lawsuit/", "title": "Washington Times: Lawsuit describes Musk’s DOGE teams overseeing the killing of USAID programs" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "enemy",
+      "description": "In 2024 Musk publicly accused Hoffman of being close to Jeffrey Epstein; Hoffman called it \"a conviction with no evidence\" and said he needed added security. Later-released documents showed Hoffman had an established relationship with Epstein, which he says he regrets; he denies being an Epstein client.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2024/12/17/reid-hoffman-elon-musk-security-jeffrey-epstein/", "title": "Reid Hoffman says he needed security after Elon Musk formed a 'conviction with no evidence' — Fortune" },
+        { "url": "https://fortune.com/2025/11/18/reid-hoffman-epstein-files/", "title": "Newly released emails and a Trump-ordered investigation have thrust Reid Hoffman into the Epstein firestorm — Fortune" },
+        { "url": "https://dailycaller.com/2024/10/24/rooke-jeffrey-epstein-list-kamala-harris-support-reid-hoffman-elon-musk/", "title": "Daily Caller: Musk says the Epstein list makes Hoffman nervous" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "ally",
+      "description": "Friends since working together at PayPal. Sacks was part of Musk's \"war room\" during the 2022 Twitter takeover, helping decide which staff stayed and assisting with the Twitter Files release.",
+      "start_year": 2000,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis — CNBC" },
+        { "url": "https://fortune.com/2024/01/19/behind-elon-musks-chaotic-twitter-takeover-yes-men-zoe-schiffer/", "title": "Behind Elon Musk's chaotic Twitter takeover, look for the 'yes men' — Fortune" }
+      ]
+    },
+    {
+      "name": "Roelof Botha",
+      "slug": "roelof-botha",
+      "relationship_type": "colleague",
+      "description": "PayPal colleagues in 2000; Botha joined SpaceX's board in 2026, which Fortune described as a reunion after decades.",
+      "start_year": 2000,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2026/06/17/paypal-mafia-member-and-ex-sequoia-steward-roelof-botha-joins-spacex-board-reuniting-with-elon-musk-after-decades/", "title": "PayPal mafia member and ex-Sequoia steward Roelof Botha joins SpaceX board — Fortune" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "ally",
+      "description": "In April 2022 Andreessen messaged Musk on Signal offering to co-invest in the Twitter buyout, and Andreessen Horowitz committed about $400 million; after the 2024 election Andreessen helped recruit staff for Musk's DOGE, which he called unpaid volunteer work. Andreessen's firm has also invested in xAI and SpaceX.",
+      "start_year": 2022,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.businessinsider.in/tech/news/elon-musks-private-signal-chats-with-famed-investor-marc-andreessen-show-how-short-and-sweet-deal-making-can-be-if-youre-a-big-fish/articleshow/94542099.cms", "title": "Elon Musk's private Signal chats with Marc Andreessen — Business Insider" },
+        { "url": "https://fortune.com/2024/12/05/marc-andreessen-department-of-government-efficiency-trump-musk-bezos-recruiter-staff/", "title": "Marc Andreessen is recruiting for DOGE — Fortune" },
+        { "url": "https://thenightly.com.au/politics/us-politics/the-washington-post-elon-musk-isnt-the-only-tech-leader-helping-shape-the-donald-trump-administration-c-17384346", "title": "Elon Musk isn't the only tech leader helping shape the Donald Trump administration — The Washington Post (via The Nightly)" }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "co-founder",
+      "description": "Co-founded OpenAI as a nonprofit in December 2015; Musk left its board in February 2018 after co-founders including Altman rejected his proposal to take control.",
+      "start_year": 2015,
+      "end_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://openai.com/index/openai-elon-musk/", "title": "OpenAI and Elon Musk — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "rival",
+      "description": "After leaving OpenAI, Musk launched the rival xAI and in 2024 sued Altman and OpenAI over its shift to a for-profit model, seeking up to $134 billion; on May 18, 2026 a jury found the claims time-barred. Musk said he would appeal.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Musk_v._Altman", "title": "Musk v. Altman — Wikipedia" },
+        { "url": "https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed", "title": "Jury dismisses all claims in Elon Musk's lawsuit against OpenAI CEO Sam Altman — NPR" },
+        { "url": "https://www.axios.com/2026/05/18/musk-loses-ai-trial-openai-altman", "title": "Elon Musk loses lawsuit against OpenAI, Sam Altman — Axios" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Vance and Musk had a good relationship and spoke regularly even before Vance became Trump's running mate. During the June 2025 Trump–Musk feud Vance called Musk's attacks a \"huge mistake\" but hoped he would return to the fold, and with Susie Wiles he helped broker a thaw.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2025/06/07/trump-encouraged-vance-to-respond-diplomatically-when-asked-about-musk-heres-how-it-played-in-real-time/", "title": "Trump encouraged Vance to respond diplomatically when asked about Musk — CNN via ABC17" },
+        { "url": "https://www.pbs.org/newshour/politics/vance-says-musk-making-a-huge-mistake-for-attacking-trump-on-social-media", "title": "Vance says Musk making a 'huge mistake' for attacking Trump on social media — PBS NewsHour" },
+        { "url": "https://www.washingtonexaminer.com/?p=3439357", "title": "Vance and Wiles emerge as key figures in arranging Trump-Musk thaw-out — Washington Examiner" }
+      ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "enemy",
+      "description": "From December 2024 Bannon led the MAGA attack on Musk over H-1B visas, calling him \"a truly evil guy\" and vowing to run him out of the White House; he went on to attack Musk's criticism of the Stargate project and DOGE's results.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.aljazeera.com/economy/2025/1/16/bannon-vs-musk-how-trumps-u-turn-on-h-1b-visas-has-split-maga", "title": "Bannon vs Musk: How Trump's U-turn on H-1B visas has split MAGA — Al Jazeera" },
+        { "url": "https://fortune.com/2025/01/13/steve-bannon-elon-musk-political-influence-personal-mission-trump/", "title": "Steve Bannon's personal mission against Elon Musk — Fortune" },
+        { "url": "https://www.foxnews.com/politics/trump-ally-steve-bannon-pledges-take-down-elon-musk", "title": "Trump ally Steve Bannon pledges to take down Elon Musk — Fox News" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "ally",
+      "description": "Described by The New York Times as a friend and \"political confidant\" of Musk, Lonsdale was among the leaders and fundraisers of Musk's pro-Trump America PAC in 2024.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
+        { "url": "https://hn.jakechampion.name/reader/https://www.theverge.com/2024/7/16/24199700/elon-musk-joe-lonsdale-america-pac-donald-trump", "title": "Elon Musk and tech elite back a pro-Trump super PAC — The Verge" }
+      ]
+    },
+    {
+      "name": "Scott Bessent",
+      "slug": "scott-bessent",
+      "relationship_type": "rival",
+      "description": "Musk called Bessent the \"business-as-usual\" Treasury pick and backed Lutnick in November 2024; in April 2025 the two had a West Wing shouting match over who should run the IRS, which Bessent won.",
+      "start_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2024/11/16/elon-musk-cantor-fitzgerald-howard-lutnick-treasury-secretary-bitcoin-scott-bessent-trump-cabinet/", "title": "Fortune: Musk backs Lutnick over Bessent for Treasury" },
+        { "url": "https://www.axios.com/2025/04/23/musk-bessent-trump-white-house-irs", "title": "Axios: Musk vs. Bessent dispute erupted into West Wing shouting match" }
+      ]
+    },
+    {
+      "name": "Howard Lutnick",
+      "slug": "howard-lutnick",
+      "relationship_type": "ally",
+      "description": "Musk publicly backed Lutnick for Treasury in November 2024, saying he would \"actually enact change\".",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://fortune.com/2024/11/16/elon-musk-cantor-fitzgerald-howard-lutnick-treasury-secretary-bitcoin-scott-bessent-trump-cabinet/", "title": "Fortune: Musk backs Lutnick over Bessent for Treasury" }
+      ]
+    },
+    {
+      "name": "Sean Duffy",
+      "slug": "sean-duffy",
+      "relationship_type": "enemy",
+      "description": "In October 2025, after Duffy said SpaceX was behind schedule and moved to reopen its lunar-lander contract, Musk called him \"Sean Dummy\" and said he was trying to kill NASA.",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2025/10/21/elon-musk-trump-nasa-spacex-duffy", "title": "Axios: Musk rages at Transportation head Duffy" },
+        { "url": "https://www.space.com/space-exploration/sean-dummy-why-is-elon-musk-attacking-the-acting-nasa-chief", "title": "Space.com: 'Sean Dummy'" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "Musk backed Carlson's show on X after Fox dropped him in 2023; Musk told Carlson in an October 2024 interview that he had gone \"all in\" on Trump, and both lobbied Trump to pick Vance.",
+      "start_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://fortune.com/2024/10/08/elon-musk-donald-trump-tucker-carlson/", "title": "Fortune: Musk tells Tucker Carlson he has gone all in on Trump" },
+        { "url": "https://businessinsider.nl/elon-musk-tucker-carlson-and-david-sacks-personally-lobbied-trump-to-pick-vance-report", "title": "Business Insider: Musk, Carlson and Sacks personally lobbied Trump to pick Vance" }
+      ]
+    },
+    {
+      "name": "Ken Paxton",
+      "slug": "ken-paxton",
+      "relationship_type": "funded_by",
+      "description": "Musk gave $10 million to Lone Star Liberty PAC, which backed Paxton's 2026 Texas Senate run (his $158 million to the Senate Leadership Fund, passed on to Texas PAC, is recorded there). Paxton lost to Democrat James Talarico. FEC filings show $10,000,000 from Elon Musk to Lone Star Liberty PAC in the 2026 cycle.",
+      "start_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" },
+        { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
+        { "url": "https://www.cnn.com/2026/10/16/politics/musk-gop-support-texas-senate-race-hnk", "title": "Musk contributed more than $150 million to bolster GOP in Texas Senate race, filings show — CNN" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00901223&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Lone Star Liberty PAC" }
+      ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "co-founder",
+      "description": "Musk and Brockman were among OpenAI's co-founders in 2015; Brockman recruited the founding team. Musk left OpenAI's board in 2018.",
+      "start_year": 2015,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" },
+        { "url": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/", "title": "How Elon Musk left OpenAI, according to Greg Brockman — TechCrunch" }
+      ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "rival",
+      "description": "Musk sued OpenAI, Altman and Brockman over OpenAI's shift to a for-profit model; on May 18, 2026 a jury found the claims time-barred. Musk said he would appeal.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" },
+        { "url": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/", "title": "How Elon Musk left OpenAI, according to Greg Brockman — TechCrunch" }
+      ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "enemy",
+      "description": "In May 2023 Musk compared Soros to the X-Men villain Magneto and said he \"hates humanity\"; the ADL said the attacks would embolden extremists. In 2025 Musk backed Trump's call for RICO charges against the Soroses.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnn.com/2023/05/16/business/elon-musk-george-soros/index.html", "title": "Elon Musk claims George Soros 'hates humanity.' The ADL says Musk's attacks 'will embolden extremists' — CNN" },
+        { "url": "https://www.cnbc.com/2023/05/16/elon-musk-defends-inflammatory-tweets-ill-say-what-i-want.html", "title": "Elon Musk defends Soros tweets: 'I'll say what I want' — CNBC" },
+        { "url": "https://www.foxnews.com/media/elon-musk-says-george-soros-hates-humanity-reminds-him-magneto-viral-twitter-skirmish", "title": "Fox News: Musk says Soros \"hates humanity,\" reminds him of Magneto" },
+        { "url": "https://washingtonexaminer.com/news/george-soros-elon-musk-twitter-magneto", "title": "Washington Examiner: Musk compares Soros to Magneto" }
+      ]
+    },
+    {
+      "name": "Giorgia Meloni",
+      "slug": "giorgia-meloni",
+      "relationship_type": "ally",
+      "description": "Meloni has called Musk a personal \"friend\" and a \"genius\" and worked to build close ties with him; Musk denied a romantic relationship in 2024.",
+      "start_year": 2023,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/europe/2025/01/07/meloni-closeness-musk-trump-big-risk/", "title": "Meloni's closeness to Musk and Trump — Fortune" }
+      ]
+    },
+    {
+      "name": "Nigel Farage",
+      "slug": "nigel-farage",
+      "relationship_type": "enemy",
+      "description": "In January 2025 Musk, who had been expected to donate to Reform, said \"Farage doesn't have what it takes\" over Farage's refusal to back Tommy Robinson; Farage said days later they were on \"very good terms\".",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/2025/01/05/elon-musk-vs-nigel-farage-reform-uk-new-leader-right-wing-populist", "title": "Elon Musk vs Nigel Farage — Fortune" },
+        { "url": "https://shropshirestar.com/uk-news/2025/01/11/farage-says-he-is-on-very-good-terms-with-elon-musk", "title": "Farage says he is on 'very good terms' with Elon Musk — Shropshire Star" }
+      ]
+    },
+    {
+      "name": "Sergio Gor",
+      "slug": "sergio-gor",
+      "relationship_type": "enemy",
+      "description": "In June 2025 Musk called Gor, then Trump's personnel chief, \"a snake\" and accused him of lying on federal forms, after Gor helped sink Musk ally Jared Isaacman's NASA nomination; the White House defended Gor.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=3447884", "title": "Who is Sergio Gor, the White House adviser Elon Musk called a 'snake'? — Washington Examiner" },
+        { "url": "https://www.thedailybeast.com/elon-musk-savages-snake-trump-aide-sergio-gor-as-their-white-house-feud-erupts", "title": "Elon Musk savages 'snake' Trump aide Sergio Gor — Daily Beast" }
+      ]
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "slug": "mark-zuckerberg",
+      "relationship_type": "rival",
+      "description": "Rival social-media and AI moguls who in 2023 tentatively agreed to a cage fight that never happened.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/2024/12/18/tech-giants-wall-street-millions-donald-trump-inauguration-meta-amazon-openai/", "title": "Tech giants and Wall Street give millions to Trump's inauguration — Fortune" }
+      ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "funded_by",
+      "description": "Gave $5 million on June 27, 2025, weeks after his public split with Trump. FEC filings show $5,000,000 from Elon Musk to MAGA Inc. in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.notus.org/donald-trump/elon-musk-crypto-trump-super-pac-maga-inc", "title": "Elon Musk, crypto help boost Trump super PAC to new heights — NOTUS" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to MAGA Inc." }
+      ]
+    },
+    {
+      "name": "Senate Leadership Fund",
+      "slug": "senate-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "Gave $10 million in 2023–24, then $158 million in the 2026 cycle (other tallies say $168 million), making him its biggest donor; it passed the same $158 million to Texas PAC, the main outside backer of Ken Paxton. FEC filings show $178,000,000 from Elon Musk to SLF PAC in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
+        { "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html", "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million — CNBC" },
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to SLF PAC" }
+      ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "Gave $20 million in the 2026 cycle by Newsweek's earlier count; its later tally puts the figure at $30 million. FEC filings show $30,000,000 from Elon Musk to CLF in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to CLF" }
+      ]
+    },
+    {
+      "name": "America PAC",
+      "slug": "america-pac",
+      "relationship_type": "co-founder",
+      "description": "Musk created America PAC in 2024 and is its dominant funder.",
+      "start_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://westhawaiitoday.com/?p=269629", "title": "Elon Musk allies help start pro-Trump super PAC — West Hawaii Today" },
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "America PAC",
+      "slug": "america-pac",
+      "relationship_type": "funded_by",
+      "description": "More than $118 million by October 2024 (91% of its money), then $216 million in the 2026 cycle. In all he spent at least $250 million backing Trump in 2024, mostly through America PAC (other counts run higher). FEC filings show $377,699,130 from Elon Musk to America PAC in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://www.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans", "title": "Here's what Elon Musk's $445 million is getting Republicans — CNN" },
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" },
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
+        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00879510&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to America PAC" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump put Musk in charge of the Department of Government Efficiency (DOGE) in 2025; he led it for about four months.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
+        { "url": "https://www.foxnews.com/politics/elon-musk-officially-steps-down-from-doge-after-wrapping-his-work-streamlining-federal-government", "title": "Fox News: Elon Musk officially steps down from role at DOGE" },
+        { "url": "https://www.foxnews.com/politics/trump-posts-video-thanking-elon-musk-billionaire-ends-white-house-tenure", "title": "Fox News: Trump awards Musk \"key to White House\" as he concludes DOGE role" }
+      ]
+    },
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "donor",
+      "description": "Founders Fund invested $20 million in SpaceX in 2008 as its first institutional backer and later backed the Boring Company and Neuralink.",
+      "start_year": 2008,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor, and the biggest VC winners from SpaceX's IPO — Fortune" }
+      ]
+    },
+    {
+      "name": "James Talarico",
+      "slug": "james-talarico",
+      "relationship_type": "enemy",
+      "description": "Musk put at least $212 million behind Paxton in the Texas Senate race, mostly through the Senate Leadership Fund, and his America PAC spent directly against Talarico; Talarico won.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://aljazeera.com/news/2026/11/3/texans-vote-in-most-expensive-senate-race-in-us-history", "title": "Texans vote in most expensive Senate race in US history — Al Jazeera" },
+        { "url": "https://www.texastribune.org/2026/09/04/elon-musk-ken-paxton-super-pac-spending-texas-senate-race/", "title": "Elon Musk's super PAC starts spending to boost Ken Paxton — Texas Tribune" },
+        { "url": "https://dailycaller.com/2026/11/03/james-talarico-texas-senate-race-ken-paxton/", "title": "Daily Caller: James Talarico flips Texas Senate seat blue" },
+        { "url": "https://www.washingtontimes.com/news/2026/nov/5/elon-musk-gambled-445-million-back-republicans-midterms-came-short/", "title": "Washington Times: Elon Musk gambled $445 million on the midterms and came up short" },
+        { "url": "https://www.breitbart.com/news/talarico-flips-texas-senate-seat-in-historic-win-for-democrats/", "title": "Breitbart: Talarico flips Texas Senate seat in historic win for Democrats" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "colleague",
+      "description": "Hegseth hosted Musk for about 80 minutes at the Pentagon on March 21, 2025 (the report that Musk would see China war plans was denied), and in October 2026 named him a co-leader of Project Meridian, the Pentagon’s future-of-warfare review, which watchdog groups sued to stop.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cbsnews.com/amp/news/hegseth-meeting-elon-musk-innovation-efficiencies", "title": "CBS News: Hegseth says meeting with Elon Musk was about \"innovation, efficiencies\"" },
+        { "url": "https://www.nbcnews.com/politics/trump-administration/elon-musk-visit-pentagon-discuss-china-rcna197435", "title": "NBC News: Elon Musk to visit Pentagon" },
+        { "url": "https://thehill.com/policy/defense/6121108-pete-hegseth-pentagon-project-meridian-warfare-future/", "title": "The Hill: Hegseth puts Musk, Luckey, Gingrich in charge of military future warfare review" },
+        { "url": "https://www.military.com/hegseths-future-of-warfare-panel-is-stacked-with-contractors-who-stand-to-profit-lawsuit-says", "title": "Military.com: Watchdogs sue to shut down Hegseth’s Future of Warfare panel led by Musk, Luckey and Gingrich" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "friend",
+      "description": "Sacks and Musk have been friends since they worked together at PayPal; Sacks was in Musk’s 2022 Twitter “war room.”",
+      "start_year": 2000,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis — CNBC" },
+        { "url": "https://fortune.com/2024/01/19/behind-elon-musks-chaotic-twitter-takeover-yes-men-zoe-schiffer/", "title": "Behind Elon Musk's chaotic Twitter takeover, look for the 'yes men' — Fortune" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "friend",
+      "description": "Ellison calls Musk a “very close” friend.",
+      "start_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2018/12/28/tesla-names-new-board-members-after-sec-settlement.html", "title": "Tesla names Larry Ellison and Kathleen Wilson-Thompson to board after SEC settlement — CNBC" },
+        { "url": "https://fortune.com/2018/12/28/tesla-larry-ellison-board-of-directors-elon-musk/", "title": "Tesla Taps Oracle's Larry Ellison for Its Board of Directors — Fortune" },
+        { "url": "https://www.channelfutures.com/business-models/oracle-co-founder-larry-ellison-biggest-backer-of-elon-musks-twitter-takeover", "title": "Oracle Co-Founder Larry Ellison Biggest Backer of Elon Musk's Twitter Takeover — Channel Futures" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "friend",
+      "description": "The New York Times described Lonsdale as a friend and “political confidant” of Musk.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
+        { "url": "https://hn.jakechampion.name/reader/https://www.theverge.com/2024/7/16/24199700/elon-musk-joe-lonsdale-america-pac-donald-trump", "title": "Elon Musk and tech elite back a pro-Trump super PAC — The Verge" }
+      ]
+    },
+    {
+      "name": "Giorgia Meloni",
+      "slug": "giorgia-meloni",
+      "relationship_type": "friend",
+      "description": "Meloni has called Musk a personal “friend”; the tie is mostly reported through their public political alignment.",
+      "start_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://fortune.com/europe/2025/01/07/meloni-closeness-musk-trump-big-risk/", "title": "Meloni's closeness to Musk and Trump — Fortune" }
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "slug": "openai",
+      "relationship_type": "co-founder",
+      "description": "Musk co-founded OpenAI as a nonprofit in 2015 and was co-chair until leaving its board in February 2018.",
+      "start_year": 2015,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://openai.com/index/openai-elon-musk/", "title": "OpenAI and Elon Musk — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "slug": "openai",
+      "relationship_type": "enemy",
+      "description": "Musk sued OpenAI in 2024 over its shift to a for-profit model; a jury found his claims time-barred on May 18, 2026.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Musk_v._Altman", "title": "Musk v. Altman — Wikipedia" },
+        { "url": "https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed", "title": "Jury dismisses all claims in Elon Musk's lawsuit against OpenAI CEO Sam Altman — NPR" },
+        { "url": "https://www.axios.com/2026/05/18/musk-loses-ai-trial-openai-altman", "title": "Elon Musk loses lawsuit against OpenAI, Sam Altman — Axios" }
+      ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "co-founder",
+      "description": "Musk co-founded X.com in 1999, which merged with Confinity in 2000 to form PayPal; he was replaced as CEO by Peter Thiel in 2000.",
+      "start_year": 1999,
+      "end_year": 2000,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/X.com_(bank)", "title": "X.com (bank) — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $932,900 from Elon Musk to Trump 47 Committee, Inc., Never Surrender, Inc., Save America in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00867937&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00828541&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Never Surrender, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00762591&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Save America" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Why Musk was replaced as PayPal CEO",
+      "details": "Accounts cite mismanagement, and a dispute over moving PayPal's software to Microsoft rather than Unix-based systems.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/X.com_(bank)", "title": "X.com (bank) — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Personal and family details were left out under the research rules. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 445500000,
+        "rank": 1,
+        "ranking": "Rank among all 2026 donors, groups included (FEC data, per Al Jazeera and the Washington Post); total as cited: $445.5M is OpenSecrets' figure via Newsweek",
+        "description": "The biggest donor of the cycle by far, almost all to Republicans and most of it aimed at Texas, where his Senate and governor picks lost. Tallies run from about $366M (his own representatives, early October) to $474M (CNBC, after the election).",
+        "sources": [
+          { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" },
+          { "url": "https://www.aljazeera.com/news/2026/10/27/tracking-the-money-the-biggest-donors-in-the-2026-us-midterm-elections", "title": "Tracking the money: The biggest donors in the 2026 US midterm elections — Al Jazeera" },
+          { "url": "https://www.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans", "title": "Here's what Elon Musk's $445 million is getting Republicans — CNN" },
+          { "url": "https://www.cnbc.com/2026/11/04/elon-musk-midterms-ai-data-centers.html", "title": "Elon Musk suffers political setback in 2026 midterms — CNBC" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&two_year_transaction_period=2026", "title": "FEC itemized receipts: MUSK, ELON, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "America PAC",
+            "org": "america-pac",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 216000000,
+            "description": "Musk's own super PAC; it backed or targeted 44 federal races and its side lost most of them.",
+            "sources": [
+              { "url": "https://www.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans", "title": "Here's what Elon Musk's $445 million is getting Republicans — CNN" },
+              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00879510&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to America PAC, 2026 cycle" }
+            ],
+            "fec_usd": 139175884,
+            "fec_ids": ["C00879510"]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 158000000,
+            "description": "Senate Republicans' main super PAC (aligned with John Thune). It passed the same amount to Texas PAC, the biggest outside backer of Ken Paxton's Senate run. Newsweek and the Washington Post count $168M.",
+            "sources": [
+              { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
+              { "url": "https://www.cnn.com/2026/10/16/politics/musk-gop-support-texas-senate-race-hnk", "title": "Musk contributed more than $150 million to bolster GOP in Texas Senate race, filings show — CNN" },
+              { "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html", "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million — CNBC" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to SLF PAC, 2026 cycle" }
+            ],
+            "fec_usd": 168000000,
+            "fec_ids": ["C00571703"]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 20000000,
+            "description": "House Republicans' main super PAC.",
+            "sources": [
+              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to CLF, 2026 cycle" }
+            ],
+            "fec_usd": 30000000,
+            "fec_ids": ["C00504530"]
+          },
+          {
+            "name": "Republican Governors Association",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 10000000,
+            "sources": [
+              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" }
+            ]
+          },
+          {
+            "name": "Lone Star Liberty PAC",
+            "slug": "ken-paxton",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10000000,
+            "description": "Backed Ken Paxton's Texas Senate run; Paxton lost to Democrat James Talarico.",
+            "sources": [
+              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00901223&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Lone Star Liberty PAC, 2026 cycle" }
+            ],
+            "fec_usd": 10000000,
+            "fec_ids": ["C00901223"]
+          },
+          {
+            "name": "Republican Attorneys General Association",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 2000000,
+            "sources": [
+              { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk Wasted Nearly Half a Billion Dollars on Major Midterm Defeats — Newsweek" }
+            ]
+          },
+          {
+            "name": "Fight for Kentucky",
+            "kind": "super-pac",
+            "amount_usd": 10000000,
+            "fec_usd": 10000000,
+            "fec_ids": ["C00898130"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00898130&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Fight for Kentucky, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "org": "maga-inc",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00892471"],
+            "description": "Per FEC filings: MAGA Inc. $5,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to MAGA Inc., 2026 cycle" }
+            ]
+          },
+          {
+            "name": "V-PAC: Victors, Not Victims",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00892919"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00892919&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to V-PAC: Victors, Not Victims, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Aurora Action Network",
+            "kind": "super-pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00907584"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00907584&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Aurora Action Network, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 123900,
+            "fec_usd": 123900,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00003418&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Republican National Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Marjorie Taylor Greene",
+            "slug": "marjorie-taylor-greene",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 9700,
+            "fec_usd": 9700,
+            "fec_ids": ["C00708289"],
+            "description": "Per FEC filings: Putting People Before Politicians Inc $9,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00708289&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Putting People Before Politicians Inc, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 5000,
+            "fec_usd": 5000,
+            "fec_ids": ["C00762591"],
+            "description": "Per FEC filings: Save America $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00762591&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Save America, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 291500000,
+        "rank": 1,
+        "ranking": "OpenSecrets 2024 top donors (via Newser)",
+        "description": "Almost all to outside groups backing Trump and Republicans, mainly through America PAC, which ran Trump's swing-state turnout operation.",
+        "sources": [
+          { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
+          { "url": "https://www.allsides.com/blog/elon-musk-tops-list-2024-political-donors-five-others-gave-more-100-million", "title": "Elon Musk tops list of 2024 political donors, five others gave more than $100 million — AllSides" },
+          { "url": "https://www.axios.com/2025/06/05/musk-trump-feud-2024-election-contributions", "title": "Musk takes credit for Trump's win in 2024. Here's how much he spent — Axios" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&two_year_transaction_period=2024", "title": "FEC itemized receipts: MUSK, ELON, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "America PAC",
+            "org": "america-pac",
+            "kind": "super-pac",
+            "side": "R",
+            "description": "His main 2024 vehicle; he put at least $250 million behind Trump overall.",
+            "sources": [
+              { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
+              { "url": "https://www.axios.com/2025/06/05/musk-trump-feud-2024-election-contributions", "title": "Musk takes credit for Trump's win in 2024. Here's how much he spent — Axios" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00879510&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to America PAC, 2024 cycle" }
+            ],
+            "amount_usd": 238523246,
+            "fec_usd": 238523246,
+            "fec_ids": ["C00879510"]
+          },
+          {
+            "name": "Donald Trump (via America PAC)",
+            "slug": "donald-trump",
+            "kind": "candidate",
+            "side": "R",
+            "sources": [
+              { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
+            ]
+          },
+          {
+            "name": "Rbg PAC",
+            "kind": "super-pac",
+            "amount_usd": 20500000,
+            "fec_usd": 20500000,
+            "fec_ids": ["C00891291"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00891291&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Rbg PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10000000,
+            "fec_usd": 10000000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $10,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00571703&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Senate Leadership Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "MAHA Alliance",
+            "kind": "super-pac",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00888172"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00888172&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to MAHA Alliance, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "The Sentinel Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 2339600,
+            "fec_usd": 2339600,
+            "fec_ids": ["C00811166"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00811166&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to The Sentinel Action Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Early Vote Action PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00829721"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00829721&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Early Vote Action PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 927900,
+            "fec_usd": 927900,
+            "fec_ids": ["C00828541", "C00867937"],
+            "description": "Per FEC filings: Trump 47 Committee, Inc. $924,600; Never Surrender, Inc. $3,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Trump 47 Committee, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Never Surrender, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Hispanic Leadership Alliance",
+            "kind": "super-pac",
+            "amount_usd": 825000,
+            "fec_usd": 825000,
+            "fec_ids": ["C00826263"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00826263&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Hispanic Leadership Alliance, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Calvert Victory Fund",
+            "kind": "pac",
+            "amount_usd": 310700,
+            "fec_usd": 310700,
+            "fec_ids": ["C00699553"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00699553&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Calvert Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 289100,
+            "fec_usd": 289100,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00075820&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to NRCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 289100,
+            "fec_usd": 289100,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00003418&two_year_transaction_period=2024", "title": "FEC receipts: MUSK, ELON to Republican National Committee, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 30218,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&two_year_transaction_period=2020", "title": "FEC itemized receipts: MUSK, ELON, 2020 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 261200,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&two_year_transaction_period=2018", "title": "FEC itemized receipts: MUSK, ELON, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 73500,
+            "fec_usd": 73500,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00075820&two_year_transaction_period=2018", "title": "FEC receipts: MUSK, ELON to NRCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "McCarthy Victory Fund",
+            "kind": "pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00541011"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00541011&two_year_transaction_period=2018", "title": "FEC receipts: MUSK, ELON to McCarthy Victory Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Protect the House",
+            "kind": "pac",
+            "amount_usd": 38900,
+            "fec_usd": 38900,
+            "fec_ids": ["C00669622"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00669622&two_year_transaction_period=2018", "title": "FEC receipts: MUSK, ELON to Protect the House, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 33900,
+            "fec_usd": 33900,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00000935&two_year_transaction_period=2018", "title": "FEC receipts: MUSK, ELON to DCCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 33900,
+            "fec_usd": 33900,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00042366&two_year_transaction_period=2018", "title": "FEC receipts: MUSK, ELON to DSCC, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 22700,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&two_year_transaction_period=2016", "title": "FEC itemized receipts: MUSK, ELON, 2016 cycle" }
+        ],
+        "recipients": []
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No stated plan. After the 2026 losses Musk joked that his \"election-interfering space lasers didn't work this time\"; Axios says it is unclear how the defeat will affect his appetite for spending in 2028. In 2025 he said he would spend \"a lot less\", then spent more than in 2024.",
+      "sources": [
+        { "url": "https://www.axios.com/2026/11/04/musk-republicans-midterm-gop-texas", "title": "Musk laughs off election drubbing with space lasers joke — Axios" },
+        { "url": "https://www.cnbc.com/2026/11/04/elon-musk-midterms-ai-data-centers.html", "title": "Elon Musk suffers political setback in 2026 midterms — CNBC" }
+      ],
+      "likely": [
+        {
+          "name": "America PAC",
+          "org": "america-pac",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "His own vehicle in both 2024 and 2026.",
+          "confidence": 0.7,
+          "sources": [
+            { "url": "https://www.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans", "title": "Here's what Elon Musk's $445 million is getting Republicans — CNN" },
+            { "url": "https://www.axios.com/2025/06/05/musk-trump-feud-2024-election-contributions", "title": "Musk takes credit for Trump's win in 2024. Here's how much he spent — Axios" }
+          ]
+        },
+        {
+          "name": "Senate Leadership Fund",
+          "org": "senate-leadership-fund",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "Largest single recipient in 2026 ($158M).",
+          "confidence": 0.55,
+          "sources": [
+            { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" }
+          ]
+        },
+        {
+          "name": "JD Vance",
+          "slug": "jd-vance",
+          "kind": "candidate",
+          "side": "R",
+          "basis": "The Wall Street Journal reported in 2025 that Musk was weighing backing Vance in 2028; Musk replied that nothing the Journal says \"should ever be thought of as true\".",
+          "confidence": 0.4,
+          "sources": [
+            { "url": "https://www.newsweek.com/elon-musk-jd-vance-relationship-2028-2116776", "title": "Elon Musk and JD Vance's Relationship Under Scrutiny Amid 2028 Talk — Newsweek" }
+          ]
+        }
+      ]
+    }
+  },
+  "leverage": {
+    "level": 3,
+    "basis": "SpaceX holds Pentagon Golden Dome contracts of $4.2 billion and $2.3 billion and is part of the group building its software; Starlink/Starshield service to Ukraine’s military became a point of negotiation with Trump in 2026; owns X. The biggest known donor of the 2026 midterms, at least $366 million to Republican groups.",
+    "sources": [
+      { "url": "https://time.com/article/2026/10/22/trump-elon-musk-ukraine-oligarchs-starlink/", "title": "The price of Faustian bargains with Trump — TIME (October 2026)" },
+      { "url": "https://www.bloomberg.com/news/articles/2026-04-22/spacex-tapped-for-industry-group-developing-golden-dome-software", "title": "SpaceX joins group building Pentagon’s Golden Dome defense software — Bloomberg (April 2026)" },
+      { "url": "https://www.cnbc.com/2026/10/22/trump-musk-starlink-ukraine.html", "title": "Trump asked Musk to lift Starlink slowdown, WSJ reports — CNBC (October 2026)" }
+    ]
+  },
+  "access": [
+    {
+      "date": "2026-09-29",
+      "with": ["donald-trump", "scott-bessent"],
+      "what": "Sat at Trump’s left at the White House AI lunch, where tech leaders signed a voluntary AI agreement.",
+      "sources": [
+        { "url": "https://www.news4jax.com/business/2026/09/29/trump-vows-to-never-stifle-ai-as-leading-executives-urge-caution/", "title": "Trump vows to never stifle AI as leading executives urge caution — AP via News4JAX (September 29, 2026)" },
+        { "url": "https://www.cnbc.com/2026/09/29/tech-white-house-ai-lunch-trump.html", "title": "Trump says he and tech leaders signed AI agreement that is “morally binding” — CNBC" }
+      ]
+    },
+    {
+      "date": "2026-10",
+      "with": ["donald-trump"],
+      "what": "Received the National Medal of Science from Trump.",
+      "sources": [
+        { "url": "https://time.com/article/2026/10/22/trump-elon-musk-ukraine-oligarchs-starlink/", "title": "The price of Faustian bargains with Trump — TIME (October 2026)" }
+      ]
+    },
+    {
+      "date": "2026-10",
+      "with": ["donald-trump"],
+      "what": "Discussed restrictions on Ukraine’s Starlink service with Trump, who later asked him to ease them, per the Wall Street Journal (Trump denied ordering them).",
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/10/22/trump-musk-starlink-ukraine.html", "title": "Trump asked Musk to lift Starlink slowdown, WSJ reports — CNBC (October 2026)" },
+        { "url": "https://time.com/article/2026/10/22/trump-elon-musk-ukraine-oligarchs-starlink/", "title": "The price of Faustian bargains with Trump — TIME (October 2026)" }
+      ]
+    }
+  ],
+  "asks": [
+    {
+      "date": "2025-04",
+      "with": ["donald-trump"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-04-09",
+      "what": "Called for a \"zero-tariff\" free-trade zone with Europe after the April 2 tariffs and, per the Washington Post, asked Trump directly to reverse them; the tariffs stayed (paused, not lifted, on April 9).",
+      "sources": [
+        { "url": "https://fortune.com/2025/04/05/musk-us-europe-zero-tariff-free-trade-zone-peter-navarro/", "title": "Musk hopes US, Europe move to zero-tariff free-trade zone — Fortune" },
+        { "url": "https://aljazeera.com/news/2025/4/7/musk-vs-navarro-is-the-trump-team-divided-on-tariffs", "title": "Musk vs Navarro: Is the Trump team divided on tariffs? — Al Jazeera" }
+      ]
+    },
+    {
+      "date": "2025-05",
+      "with": ["donald-trump"],
+      "kind": "appointment",
+      "outcome": "denied",
+      "decided": "2025-05-31",
+      "what": "Backed his associate Jared Isaacman for NASA administrator; Trump withdrew the nomination days before the Senate vote, citing \"prior associations\" (he renominated Isaacman in November 2025, after the two men reconciled).",
+      "sources": [
+        { "url": "https://spaceflightnow.com/2025/05/31/president-trump-withdraws-isaacman-nomination-for-nasa-administrator-days-before-senate-confirmation-vote/", "title": "President Trump withdraws Isaacman nomination — Spaceflight Now" },
+        { "url": "https://wbhm.org/npr-story/trump-says-he-will-withdraw-nomination-of-musk-associate-jared-isaacman-to-lead-nasa", "title": "Trump says he will withdraw nomination of Musk associate Jared Isaacman — NPR" }
+      ]
+    },
+    {
+      "date": "2025-06",
+      "with": ["donald-trump", "mike-johnson", "john-thune"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-07-04",
+      "what": "Urged Congress to kill the One Big Beautiful Bill, calling it a \"disgusting abomination\"; it passed and Trump signed it on July 4.",
+      "sources": [
+        { "url": "https://www.axios.com/2025/06/03/elon-musk-trump-bill-deficit-spending", "title": "Musk blasts Trump's signature bill as \"disgusting abomination\" — Axios" },
+        { "url": "https://wbhm.org/npr-story/in-a-break-with-trump-elon-musk-calls-the-gop-megabill-a-disgusting-abomination", "title": "Elon Musk calls the GOP megabill a \"disgusting abomination\" — NPR" }
+      ]
+    },
+    {
+      "date": "2025-09",
+      "with": ["donald-trump"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-09-19",
+      "what": "Defended the H-1B visa program (\"the reason I'm in America\"); Trump put a $100,000 fee on new H-1B petitions.",
+      "sources": [
+        { "url": "https://techcrunch.com/2025/09/20/trump-hits-h-1b-visas-with-100000-fee-targeting-the-program-that-launched-elon-musk-and-instagram", "title": "Trump hits H-1B visas with $100,000 fee — TechCrunch" },
+        { "url": "https://fortune.com/2025/09/22/elon-musk-vowed-war-h1b-silent-trump-kirk-funeral/", "title": "Elon Musk vowed war over H-1B, now silent — Fortune" }
+      ]
+    },
+    {
+      "date": "2025-09",
+      "with": [],
+      "kind": "contract",
+      "outcome": "granted",
+      "decided": "2025-09-25",
+      "what": "xAI won a government-wide GSA agreement making its Grok models available to federal agencies.",
+      "sources": [
+        { "url": "https://www.gsa.gov/about-us/newsroom/news-releases/gsa-xai-partner-to-accelerate-federal-ai-adoption-09252025", "title": "GSA, xAI partner to accelerate federal AI adoption — GSA" },
+        { "url": "https://www.nextgov.com/acquisition/2025/09/gsa-inks-onegov-deal-grok-ai/408334/", "title": "GSA inks OneGov deal with Grok AI — Nextgov" }
+      ]
+    }
+  ]
+}

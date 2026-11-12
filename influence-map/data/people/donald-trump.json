@@ -1,0 +1,2217 @@
+{
+  "name": "Donald Trump",
+  "aliases": ["Donald J. Trump"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle", "middle-east"],
+  "photo": {
+    "file": "donald-trump.jpg",
+    "credit": "Daniel Torok",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg", "title": "File:Official Presidential Portrait of President Donald J. Trump (2025).jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": 0,
+      "start_year": null,
+      "end_year": 2011,
+      "basis": "Switched parties several times: Republican (1987), Independence Party (1999), Democrat (2001–2009), Republican (2009), unaffiliated (December 2011), per New York City election records.",
+      "sources": [
+        { "url": "https://www.politifact.com/factchecks/2015/aug/24/jeb-bush/bush-says-trump-was-democrat-longer-republican-las/", "title": "PolitiFact: Bush says Trump was a Democrat longer than a Republican" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2012,
+      "end_year": null,
+      "basis": "Republican since April 2012; Republican presidential nominee in 2016, 2020 and 2024, and president 2017–2021 and since 2025.",
+      "sources": [
+        { "url": "https://www.politifact.com/factchecks/2015/aug/24/jeb-bush/bush-says-trump-was-democrat-longer-republican-las/", "title": "PolitiFact: Bush says Trump was a Democrat longer than a Republican" },
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Britannica: Donald Trump" }
+      ]
+    }
+  ],
+  "current_role": "47th President of the United States (since January 20, 2025)",
+  "summary": "Donald Trump (born 1946) is the 47th president of the United States, in office since January 20, 2025, and was also the 45th president (2017–2021), the second president to serve non-consecutive terms. A New York real estate developer who ran his family's business, renamed the Trump Organization, and hosted NBC's The Apprentice from 2004, he was impeached twice in his first term and acquitted both times. In May 2024 a New York jury convicted him on 34 felony counts of falsifying business records; he was sentenced to an unconditional discharge. Democrats won control of both chambers of Congress in the November 3, 2026 midterms, after which he named Stephen Miller White House chief of staff.",
+  "sources": [
+    { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" },
+    { "url": "https://www.npr.org/2025/01/10/nx-s1-5255806/president-elect-trump-gets-sentence-of-unconditional-discharge-in-new-york", "title": "President-elect Trump gets sentence of unconditional discharge in New York — NPR" },
+    { "url": "https://www.kut.org/politics/2026-11-04/democrats-win-full-control-of-congress-ushering-in-a-new-era-of-divided-government", "title": "Democrats win full control of Congress, ushering in a new era of divided government — KUT (NPR)" },
+    { "url": "https://www.npr.org/2026/11/06/nx-s1-6032810/stephen-miller-replaces-susie-wiles-as-white-house-chief-of-staff", "title": "Stephen Miller replaces Susie Wiles as White House chief of staff — NPR" }
+  ],
+  "timeline": [
+    {
+      "year": 1971,
+      "end_year": 2017,
+      "role": "President of the family real estate business, which he renamed the Trump Organization (start year differs by source)",
+      "org": "Trump Organization",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Donald_Trump", "title": "Donald Trump — Wikipedia" },
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" },
+        { "url": "https://www.britannica.com/biography/Donald-Trump-Jr", "title": "Donald Trump, Jr. — Britannica" }
+      ]
+    },
+    {
+      "year": 2004,
+      "role": "Host of the reality series The Apprentice",
+      "org": "NBC",
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2021,
+      "role": "45th President of the United States (impeached in 2019 and 2021; acquitted both times)",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" },
+        { "url": "https://www.britannica.com/summary/Donald-Trump", "title": "Donald Trump summary — Britannica" }
+      ]
+    },
+    {
+      "year": 2020,
+      "end_year": 2020,
+      "role": "Lost re-election to Joe Biden (306–232 in the Electoral College); refused to concede and pursued unsuccessful legal challenges",
+      "org": "Republican Party presidential nominee",
+      "sources": [
+        { "url": "https://www.britannica.com/event/United-States-presidential-election-of-2020", "title": "U.S. presidential election of 2020 — Britannica" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": 2024,
+      "role": "Convicted May 30 by a New York jury on 34 felony counts of falsifying business records; sentenced January 10, 2025 to an unconditional discharge",
+      "org": "New York State Supreme Court, Manhattan",
+      "sources": [
+        { "url": "https://www.npr.org/2025/01/10/nx-s1-5255806/president-elect-trump-gets-sentence-of-unconditional-discharge-in-new-york", "title": "President-elect Trump gets sentence of unconditional discharge in New York — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/trump-was-sentenced-to-an-unconditional-discharge-in-his-hush-money-conviction-heres-what-that-means", "title": "Trump was sentenced to an 'unconditional discharge' in his hush money conviction — PBS NewsHour" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "47th President of the United States (defeated Kamala Harris on November 5, 2024)",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" },
+        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Kamala Harris — Britannica" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Republican Party",
+      "role": "Presidential nominee in 2016, 2020 and 2024",
+      "start_year": 2016,
+      "end_year": null,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" },
+        { "url": "https://www.britannica.com/event/United-States-presidential-election-of-2020", "title": "U.S. presidential election of 2020 — Britannica" }
+      ]
+    },
+    {
+      "name": "Trump Organization",
+      "role": "Owner; run by his sons Donald Jr. and Eric since he took office in 2017",
+      "start_year": 1971,
+      "end_year": null,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump-Jr", "title": "Donald Trump, Jr. — Britannica" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "employee",
+      "description": "Miller has worked for Trump since January 2016: senior policy adviser on the 2016 campaign, senior adviser for policy in the first White House (2017–2021), deputy chief of staff for policy from 2025, and named White House chief of staff on November 6, 2026, starting November 9.",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.britannica.com/question/Who-is-Stephen-Miller", "title": "Who is Stephen Miller? — Britannica" },
+        { "url": "https://www.mtpr.org/2024-11-11/stephen-miller-will-be-trumps-homeland-security-advisor-in-new-white-house-role", "title": "Stephen Miller will be Trump's homeland security advisor in new White House role — NPR (via MTPR)" },
+        { "url": "https://www.pbs.org/newshour/politics/trump-names-stephen-miller-his-next-chief-of-staff-after-major-republican-midterm-losses", "title": "Trump names Stephen Miller his next chief of staff after major Republican midterm losses — PBS NewsHour (AP)" },
+        { "url": "https://www.foxnews.com/politics/trump-names-stephen-miller-new-white-house-chief-staff-replacing-susie-wiles", "title": "Fox News: Trump names Stephen Miller new White House chief of staff, replacing Susie Wiles" },
+        { "url": "https://www.washingtonexaminer.com/news/white-house/4795711/who-is-stephen-miller-white-house-chief-of-staff-trump-administration/", "title": "Washington Examiner: Who is Stephen Miller? Trump’s newest chief of staff" }
+      ]
+    },
+    {
+      "name": "Jeff Sessions",
+      "slug": "jeff-sessions",
+      "relationship_type": "employee",
+      "description": "Trump appointed Sessions attorney general in 2017 and asked for his resignation the day after the 2018 midterms; Sessions's letter said he resigned \"at your request.\"",
+      "start_year": 2017,
+      "end_year": 2018,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.justice.gov/ag/bio/attorney-general-jeff-sessions", "title": "Attorney General Jeff Sessions — U.S. Department of Justice" },
+        { "url": "https://law.com/nationallawjournal/2018/11/07/read-jeff-sessionss-resignation-letter", "title": "READ: Jeff Sessions's Resignation Letter — The National Law Journal" },
+        { "url": "https://www.breitbart.com/politics/2018/11/07/jeff-sessions-resigns-as-donald-trump-attorney-general/", "title": "Breitbart: Jeff Sessions resigns as attorney general" }
+      ]
+    },
+    {
+      "name": "Jeff Sessions",
+      "slug": "jeff-sessions",
+      "relationship_type": "ally",
+      "description": "Sessions was the first U.S. senator to endorse Trump, at a February 28, 2016 rally in Madison, Alabama, and became an early campaign adviser on foreign policy and immigration.",
+      "start_year": 2016,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://rollcall.com/2016/02/28/sessions-first-senator-to-endorse-trump/", "title": "Sessions First Senator to Endorse Trump — Roll Call" },
+        { "url": "https://www.foxnews.com/us/in-trump-alabama-senator-finds-political-kindred-spirit", "title": "In Trump, Alabama senator finds political kindred spirit — Fox News (AP)" }
+      ]
+    },
+    {
+      "name": "Jeff Sessions",
+      "slug": "jeff-sessions",
+      "relationship_type": "enemy",
+      "description": "After Sessions recused himself from the Russia investigation, Trump repeatedly attacked him publicly, said he would not have nominated him had he known, forced his resignation in 2018, and endorsed Tommy Tuberville against him in the 2020 Alabama Senate race.",
+      "start_year": 2017,
+      "end_year": 2020,
+      "confidence": 0.92,
+      "sources": [
+        { "url": "https://www.ktvu.com/news/jeff-sessions-submits-resignation-to-president-trump-at-your-request", "title": "Jeff Sessions submits resignation to President Trump 'at your request' — KTVU (Fox)" },
+        { "url": "https://www.npr.org/2020/07/15/891290828/former-attorney-general-jeff-sessions-loses-alabama-runoff-election", "title": "Former Attorney General Jeff Sessions Loses Alabama Runoff Election — NPR" },
+        { "url": "https://www.washingtontimes.com/news/2018/nov/7/sessions-resigns-as-attorney-general-at-white-hous/", "title": "Washington Times: Jeff Sessions pushed out after a year of attacks from Trump" },
+        { "url": "https://www.breitbart.com/politics/2018/11/07/jeff-sessions-resigns-as-donald-trump-attorney-general/", "title": "Breitbart: Jeff Sessions resigns as attorney general" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "ally",
+      "description": "Ellison let Trump's reelection campaign hold a February 2020 fundraiser at his California estate, joined Trump at the White House in January 2025 to launch the Stargate AI venture, and in December 2025 Oracle led the investor group that took over TikTok's U.S. business under a deal Trump backed. NPR and others describe Ellison as a Trump friend.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://fortune.com/2020/02/14/oracle-amazon-larry-ellison-hosts-fundraiser-trump/", "title": "Oracle's Larry Ellison hosts fundraiser for Trump — Fortune" },
+        { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
+        { "url": "https://www.npr.org/2025/12/18/nx-s1-5648844/tiktok-deal-oracle-trump", "title": "TikTok signs deal to give U.S. operations to Oracle-led investor group — NPR" },
+        { "url": "https://www.breitbart.com/politics/2025/01/21/trump-announces-500-billion-artificial-intelligence-investment-in-america/", "title": "Breitbart: Trump announces $500 billion artificial intelligence investment in America" },
+        { "url": "https://www.washingtontimes.com/news/2025/jan/21/donald-trump-announces-500-billion-ai-investment-n/", "title": "Washington Times: Donald Trump announces $500 billion AI investment" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "donor",
+      "description": "The Wall Street Journal reported in June 2026, citing people familiar with the fundraising, that Ellison gave about $45 million to a nonprofit backing Trump's 2024 campaign. The gift was not subject to disclosure; FEC filings show no direct donations from Ellison to the campaign or its PACs.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/", "title": "Larry Ellison quietly gave $45 million to a pro-Trump group — Fortune" },
+        { "url": "https://electionlawblog.org/2026/how-a-45-million-donation-brought-larry-ellison-deeper-into-trumps-circle/", "title": "How a $45 Million Donation Brought Larry Ellison Deeper Into Trump's Circle — Election Law Blog" }
+      ]
+    },
+    {
+      "name": "David Horowitz",
+      "slug": "david-horowitz",
+      "relationship_type": "ally",
+      "description": "Horowitz was a prominent Trump supporter: he endorsed Trump and published Big Agenda: President Trump's Plan to Save America (2017). Critics have called him an intellectual godfather of the Trump administration, partly through his protégé Stephen Miller. No source found documents a direct working relationship between the two men.",
+      "start_year": 2016,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Horowitz", "title": "David Horowitz — Wikipedia" },
+        { "url": "https://www.yahoo.com/news/david-horowitz-intellectual-godfather-trump-100254288.html", "title": "David Horowitz, intellectual godfather of the Trump administration — Yahoo News" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "A former Trump critic turned loyal ally, Vance was chosen as Trump's running mate on July 15, 2024 and became vice president in January 2025.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/trump-picks-sen-jd-vance-of-ohio-as-his-republican-running-mate", "title": "Trump picks Sen. JD Vance of Ohio, a critic turned loyal ally, as his Republican running mate — PBS NewsHour" },
+        { "url": "https://www.npr.org/2024/07/15/nx-s1-5040482/former-president-trump-has-chosen-ohio-sen-j-d-vance-as-his-running-mate", "title": "Former President Trump has chosen Ohio Sen. J.D. Vance as his running mate — NPR" },
+        { "url": "https://www.foxnews.com/politics/trump-announces-ohio-senator-j-d-vance-his-2024-running-mate", "title": "Fox News: Trump announces Ohio Sen. JD Vance as his 2024 running mate" },
+        { "url": "https://www.washingtontimes.com/news/2024/jul/15/jd-vance-chosen-trump-vice-president-2024-race/", "title": "Washington Times: J.D. Vance chosen by Trump as vice president in 2024 race" }
+      ]
+    },
+    {
+      "name": "Mike Pence",
+      "slug": "mike-pence",
+      "relationship_type": "ally",
+      "description": "Trump's running mate in 2016 and vice president for his first term.",
+      "start_year": 2016,
+      "end_year": 2021,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" },
+        { "url": "https://www.npr.org/2024/07/15/nx-s1-5040482/former-president-trump-has-chosen-ohio-sen-j-d-vance-as-his-running-mate", "title": "Former President Trump has chosen Ohio Sen. J.D. Vance as his running mate — NPR" }
+      ]
+    },
+    {
+      "name": "Mike Pence",
+      "slug": "mike-pence",
+      "relationship_type": "enemy",
+      "description": "Trump has condemned Pence for refusing to stop the certification of the 2020 election on January 6, 2021; coverage of Vance's selection framed it as Trump choosing someone who would not break with him as Pence did.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.npr.org/2024/07/15/nx-s1-5040482/former-president-trump-has-chosen-ohio-sen-j-d-vance-as-his-running-mate", "title": "Former President Trump has chosen Ohio Sen. J.D. Vance as his running mate — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/fact-checking-j-d-vances-past-statements-and-relationship-with-trump", "title": "Fact-checking JD Vance's past statements and relationship with Trump — PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Susie Wiles",
+      "slug": "susie-wiles",
+      "relationship_type": "employee",
+      "description": "Wiles worked on Trump's 2016 and 2020 campaigns and served 21 months as his second-term White House chief of staff, the first woman in the job. She resigned on November 6, 2026, after the midterm losses, and is moving to Trump's political operation; Stephen Miller replaces her.",
+      "start_year": 2015,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.npr.org/2026/11/06/nx-s1-6032810/stephen-miller-replaces-susie-wiles-as-white-house-chief-of-staff", "title": "Stephen Miller replaces Susie Wiles as White House chief of staff — NPR" },
+        { "url": "https://www.axios.com/2026/11/06/susie-wiles-trump-stephen-miller-chief-of-staff", "title": "Trump replaces chief of staff Susie Wiles with Stephen Miller — Axios" },
+        { "url": "https://www.foxnews.com/politics/trump-names-stephen-miller-new-white-house-chief-staff-replacing-susie-wiles", "title": "Fox News: Trump names Stephen Miller new White House chief of staff, replacing Susie Wiles" },
+        { "url": "https://www.breitbart.com/politics/2026/11/06/stephen-miller-calls-trump-most-transformative-leader-as-wiles-exits/", "title": "Breitbart: Stephen Miller calls Trump \"most transformative\" leader as Wiles exits" }
+      ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "employee",
+      "description": "Bannon left Breitbart to become chief executive of Trump's campaign in August 2016 and was White House chief strategist until August 18, 2017. The White House called his exit a mutual decision; other reports said he was pushed out, and Bannon said he had already offered his resignation.",
+      "start_year": 2016,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.npr.org/2017/08/18/544523309/chief-white-house-strategist-steve-bannon-removed-from-white-house-job", "title": "Chief White House Strategist Steve Bannon Removed From White House Job — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/steve-bannon-leave-white-house", "title": "Steve Bannon to leave White House — PBS NewsHour" },
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" },
+        { "url": "https://www.washingtontimes.com:443/news/2016/aug/17/stephen-bannon-donald-trumps-campaign-chief-poised/", "title": "Washington Times: Stephen Bannon, Donald Trump’s campaign chief, poised for battle" },
+        { "url": "https://www.washingtonexaminer.com/meet-trumps-new-bare-knuckle-ceo", "title": "Washington Examiner: Meet Trump’s new \"bare-knuckle\" CEO" }
+      ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "family",
+      "description": "Son-in-law (married to Ivanka Trump).",
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.npr.org/2017/01/09/508990297/trump-to-reportedly-name-son-in-law-jared-kushner-as-senior-advisor", "title": "Jared Kushner, Donald Trump's Son-In-Law, Named Senior Adviser To Incoming President — NPR" },
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "employee",
+      "description": "Senior adviser to the president throughout Trump's first term, leading Middle East work including the 2020 Abraham Accords; the appointment drew nepotism and conflict-of-interest criticism.",
+      "start_year": 2017,
+      "end_year": 2021,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/jared-kushner-named-top-white-house-adviser-donald-trump", "title": "Jared Kushner named senior White House adviser to Donald Trump — PBS NewsHour" },
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ivanka Trump",
+      "slug": "ivanka-trump",
+      "relationship_type": "family",
+      "description": "Daughter. She was an unpaid Advisor to the President from March 2017 to January 2021.",
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ivanka_Trump", "title": "Ivanka Trump — Wikipedia" },
+        { "url": "https://www.cbsnews.com/pictures/crash-course-ivanka-trump", "title": "Crash course on Ivanka Trump — CBS News" }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "family",
+      "description": "Son. An executive vice president of the Trump Organization, which he and his brother Eric took over when their father became president in 2017.",
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Donald-Trump-Jr", "title": "Donald Trump, Jr. — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Donald_Trump_Jr.", "title": "Donald Trump Jr. — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Melania Trump",
+      "slug": "melania-trump",
+      "relationship_type": "family",
+      "description": "Wife since January 2005; First Lady.",
+      "start_year": 2005,
+      "end_year": null,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Melania-Trump", "title": "Melania Trump — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Melania_Trump", "title": "Melania Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "enemy",
+      "description": "In June 2025, after Musk left DOGE, a public feud over Trump's tax-and-spending bill led Trump to threaten Musk's government contracts and Musk to claim Trump would have lost without him. Musk later returned to funding Republicans.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2025/06/05/trump-musk-bromance-dispute", "title": "How Trump and Musk went from bromance to bitter dispute — Axios" },
+        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" },
+        { "url": "https://www.dailywire.com/news/trump-says-musk-just-went-crazy-threatens-his-governmental-subsidies-and-contracts", "title": "Daily Wire: Trump says Musk \"just went CRAZY,\" threatens his subsidies and contracts" },
+        { "url": "https://www.breitbart.com/politics/2025/06/05/trump-floats-canceling-elon-musks-government-subsidies-contracts-as-feud-between-former-allies-escalates/", "title": "Breitbart: Trump floats canceling Musk’s government subsidies and contracts" },
+        { "url": "https://www.nationalreview.com/news/musk-trump-feud-explodes-as-president-threatens-to-pull-subsidies-billionaire-floats-third-party-challenge/", "title": "National Review: Musk–Trump feud explodes as president threatens to pull subsidies" }
+      ]
+    },
+    {
+      "name": "Tommy Tuberville",
+      "slug": "tommy-tuberville",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Tuberville over Jeff Sessions in the 2020 Alabama Senate primary; Tuberville made his allegiance to Trump his central message and won the runoff.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2020/07/15/891290828/former-attorney-general-jeff-sessions-loses-alabama-runoff-election", "title": "Former Attorney General Jeff Sessions Loses Alabama Runoff Election — NPR" }
+      ]
+    },
+    {
+      "name": "Matthew Whitaker",
+      "slug": "matthew-whitaker",
+      "relationship_type": "employee",
+      "description": "Trump named Whitaker acting attorney general after forcing out Jeff Sessions (November 2018 to February 2019), then nominated him ambassador to NATO; the Senate confirmed him 52–45 on April 1, 2025.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/former-acting-attorney-general-matt-whitaker-is-trumps-pick-for-nato-ambassador", "title": "Former acting Attorney General Matt Whitaker is Trump's pick for NATO ambassador — PBS NewsHour" },
+        { "url": "https://en.wikipedia.org/wiki/Matthew_Whitaker", "title": "Matthew Whitaker — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "rival",
+      "description": "Biden defeated Trump in the 2020 presidential election, 306–232 in the Electoral College; Trump refused to concede.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.britannica.com/event/United-States-presidential-election-of-2020", "title": "U.S. presidential election of 2020 — Britannica" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "rival",
+      "description": "Trump defeated Harris, the Democratic nominee after Biden withdrew, in the November 5, 2024 presidential election.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Kamala Harris — Britannica" },
+        { "url": "https://www.washingtonexaminer.com/news/3210669/donald-trump-wins-2024-election-defeating-kamala-harris/", "title": "Washington Examiner: Donald Trump wins the 2024 election, defeating Kamala Harris" },
+        { "url": "https://www.foxnews.com/politics/fox-news-projects-donald-trump-defeats-kamala-harris-become-47th-president-united-states", "title": "Fox News projects Trump defeats Harris to become 47th president" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employee",
+      "description": "Trump made Rubio secretary of state in January 2025 (confirmed 99–0), added national security adviser in May 2025, and made that second role permanent in September 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.state.gov/biographies/marco-rubio/", "title": "Marco Rubio — U.S. Department of State" },
+        { "url": "https://www.coloradopolitics.com/2026/09/22/rubio-named-nsa-after-16-months-as-acting/", "title": "Rubio named NSA after 16 months as acting — Colorado Politics" },
+        { "url": "https://www.washingtonexaminer.com/news/senate/3294511/rubio-confirmed-secretary-state-on-day-one-trump-second-term/", "title": "Washington Examiner: Rubio confirmed as secretary of state on Day One of Trump’s second term" },
+        { "url": "https://www.washingtonexaminer.com/news/white-house/3398085/trump-cabinet-marco-rubio-surprise-new-job/", "title": "Washington Examiner: Trump praises Rubio minutes before giving him surprise new job" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "rival",
+      "description": "Rivals in the 2016 Republican presidential primary, when Trump branded him \"Little Marco\"; Rubio later became a trusted ally.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/senators-are-preparing-to-vote-on-marco-rubio-as-secretary-of-state-a-first-in-trumps-cabinet", "title": "Senate confirms Marco Rubio as secretary of state — PBS NewsHour (AP)" },
+        { "url": "https://www.timesofisrael.com/now-a-trusted-ally-little-marco-gets-trumps-big-jobs/", "title": "Now a trusted ally, 'Little Marco' gets Trump's big jobs — The Times of Israel" },
+        { "url": "https://www.washingtonexaminer.com/news/white-house/3398452/marco-rubio-trump-fix-it-man/", "title": "Washington Examiner: From \"Little Marco\" to trusted right hand" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "Thiel backed Trump's long-shot 2016 campaign with $1.25 million, and in 2021 introduced his protégé JD Vance to Trump. FEC filings show $508,100 from Peter Thiel to Trump Victory, Donald J. Trump for President, Inc. in 2 cycles (2016–2018).",
+      "start_year": 2016,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/08/29/trump-jd-vance-peter-thiel.html", "title": "JD Vance urges billionaire Peter Thiel to back Trump campaign — CNBC" },
+        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" },
+        { "url": "https://www.breitbart.com/local/2016/10/19/peter-thiel-big-trump-donation-sparks-long-knives-silicon-valley/", "title": "Breitbart: Peter Thiel faces retaliation in Silicon Valley for Trump support" },
+        { "url": "https://dailycaller.com/2016/10/19/zuckerberg-weighs-in-on-peter-thiels-raging-trump-support/", "title": "Daily Caller: Zuckerberg weighs in on Peter Thiel’s Trump support" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00618389&two_year_transaction_period=2018", "title": "FEC receipts: THIEL, PETER to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00580100&two_year_transaction_period=2018", "title": "FEC receipts: THIEL, PETER to Donald J. Trump for President, Inc." }
+      ]
+    },
+    {
+      "name": "Ken Howery",
+      "slug": "ken-howery",
+      "relationship_type": "employee",
+      "description": "Trump appointed the PayPal and Founders Fund co-founder ambassador to Sweden (2019–2021) and, in his second term, ambassador to Denmark amid his push for control of Greenland.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://2017-2021.state.gov/howery-kenneth-a-kingdom-of-sweden-february-2019/", "title": "Howery, Kenneth A. — Kingdom of Sweden — U.S. Department of State" },
+        { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Ken Howery — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "enemy",
+      "description": "Hoffman is a major Democratic donor who backed E. Jean Carroll's lawsuits against Trump; the Justice Department has investigated a group tied to him over those contributions, and in November 2025 Trump pushed for a DOJ probe of Hoffman's Epstein ties.",
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://fortune.com/2025/11/14/epstein-reid-hoffman-larry-summers-jpmorgan-trump-bill-clinton-investigation/", "title": "Trump responds to appearance in new Epstein emails by pushing DOJ probe of Clinton, Larry Summers, Reid Hoffman — Fortune" },
+        { "url": "https://www.washingtontimes.com/news/2026/may/28/doj-probes-billionaire-democrats-nonprofit-bankrolled-sexual-assault/", "title": "Washington Times: DOJ probes billionaire Democrat’s nonprofit that bankrolled sexual assault suit against Trump" },
+        { "url": "https://freebeacon.com/democrats/dem-megadonor-secretly-funds-rape-lawsuit-against-donald-trump/", "title": "Washington Free Beacon: Dem megadonor funds lawsuit against Donald Trump" },
+        { "url": "https://www.washingtonexaminer.com/news/1788937/who-is-reid-hoffman-billionaire-linkedin-founder-bankrolling-e-jean-carroll/", "title": "Washington Examiner: Who is Reid Hoffman? Billionaire bankrolling E. Jean Carroll" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "employee",
+      "description": "Trump named Sacks White House AI and crypto czar in December 2024; he served as a special government employee from January 2025 until March 26, 2026, then became co-chair of PCAST.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/12/05/trump-david-sacks-billionaire-ai-crypto.html", "title": "Trump says venture capitalist David Sacks will be AI and crypto 'czar' — CNBC" },
+        { "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html", "title": "David Sacks says his time as Trump's crypto and AI czar has ended — CNBC" },
+        { "url": "https://www.washingtontimes.com/news/2024/dec/5/david-sacks-named-ai-crypto-czar-donald-trump/", "title": "Washington Times: David Sacks named AI and crypto czar by Donald Trump" },
+        { "url": "https://www.foxnews.com/politics/trump-names-david-sacks-white-house-ai-cryptocurrency-czar", "title": "Fox News: Trump names David Sacks as White House AI and cryptocurrency czar" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "ally",
+      "description": "Sacks co-hosted a June 6, 2024 Trump fundraiser in San Francisco with Chamath Palihapitiya (tickets from $50,000; about $12 million reportedly raised) and spoke at the 2024 Republican convention.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2024/05/24/trump-jd-vance-tech-fundraiser-david-sacks", "title": "Scoop: J.D. Vance courts Silicon Valley for Trump — Axios" },
+        { "url": "https://www.cnbc.com/2024/07/16/cnbc-daily-open-trump-attends-rnc-dow-record-close-bitcoin-digital-gold.html", "title": "CNBC Daily Open: Trump attends RNC — CNBC" },
+        { "url": "https://www.foxnews.com/politics/trump-heads-blue-bastion-raise-big-bucks-election-rematch-biden", "title": "Fox News: Trump heads to deep-blue San Francisco to raise major campaign cash" },
+        { "url": "https://www.breitbart.com/politics/2024/06/07/trump-raises-12m-at-silicon-valley-fundraiser-hosted-by-venture-capitalist-david-sacks/", "title": "Breitbart: Trump raises $12M at Silicon Valley fundraiser hosted by David Sacks" },
+        { "url": "https://dailycaller.com/2024/06/11/david-sacks-trump-fundraiser-san-francisco/", "title": "Daily Caller: David Sacks says Trump fundraiser in San Francisco exceeded goal by millions" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "donor",
+      "description": "Andreessen endorsed Trump in July 2024, citing the \"Little Tech Agenda\", and gave $2.5 million to the pro-Trump super PAC Right for America, per FEC filings reported by Bloomberg (Bloomberg also counted more than $24 million in wider political giving by each founder or their firm). FEC filings show $5,356,200 from Marc Andreessen to Right for America, Trump 47 Committee, Inc., Save America and others in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2024/07/16/andreesen-horowitz-musk-trump", "title": "Tech leaders line up behind Trump — Axios" },
+        { "url": "https://www.business-standard.com/world-news/silicon-valley-s-andreessen-horowitz-give-millions-to-pro-trump-pac-124101600146_1.html", "title": "Silicon Valley's Andreessen, Horowitz give millions to pro-Trump PAC — Business Standard (Bloomberg)" },
+        { "url": "https://www.bloomberg.com/news/articles/2024-10-16/silicon-valley-s-andreessen-horowitz-give-millions-to-trump-pac", "title": "Silicon Valley's Andreessen, Horowitz Give Millions to Trump — Bloomberg" },
+        { "url": "https://www.foxbusiness.com/politics/trump-secures-donations-two-silicon-valley-venture-capital-billionaires", "title": "Fox Business: Trump secures donations from two Silicon Valley venture capital billionaires" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00867036&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Right for America" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00762591&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Save America" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "ally",
+      "description": "After the 2024 election Andreessen spent much of the transition at Mar-a-Lago helping staff the administration; the Washington Post reported at least 10 senior picks had ties to Andreessen, Musk or Thiel. Trump appointed him to PCAST in March 2026.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://thenightly.com.au/politics/us-politics/the-washington-post-elon-musk-isnt-the-only-tech-leader-helping-shape-the-donald-trump-administration-c-17384346", "title": "Elon Musk isn't the only tech leader helping shape the Donald Trump administration — The Washington Post (via The Nightly)" },
+        { "url": "https://fortune.com/2024/12/11/marc-andreessen-half-time-florida-trump-business-policies/", "title": "Marc Andreessen says he's spending half his time at Mar-a-Lago — Fortune" },
+        { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "donor",
+      "description": "Horowitz endorsed Trump in July 2024 (\"for little tech, we think Donald Trump is actually the right choice\") and gave $2.5 million to the pro-Trump super PAC Right for America, per FEC filings. In October 2024 he told staff he and his wife would also make a significant donation to groups supporting Kamala Harris, citing friendship with her, while the firm stayed neutral. FEC filings show $2,500,000 from Ben Horowitz to Right for America in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://fortune.com/2024/07/16/andreessen-horowitz-founders-the-latest-to-stake-trump/", "title": "Andreessen Horowitz founders the latest to stake Trump — Fortune" },
+        { "url": "https://www.business-standard.com/world-news/silicon-valley-s-andreessen-horowitz-give-millions-to-pro-trump-pac-124101600146_1.html", "title": "Silicon Valley's Andreessen, Horowitz give millions to pro-Trump PAC — Business Standard (Bloomberg)" },
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00867036&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Right for America" }
+      ]
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "donor",
+      "description": "One of Trump's biggest backers; her campaign money went through Preserve America PAC (about $90 million with Sheldon Adelson in 2020, about $100 million in 2024). Trump awarded her the Presidential Medal of Freedom in 2018; she co-hosted a 2025 inaugural ball; her family foundation gave $25 million toward his White House ballroom; he hailed her in his October 2025 Knesset speech; and in December 2025 she urged him to seek an unconstitutional third term, which he said came with an offer of \"another $250 million\". FEC filings show $1,778,000 from Miriam Adelson to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. and others in 3 cycles (2016–2024).",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://trumpwhitehouse.archives.gov/briefings-statements/remarks-president-trump-presentation-presidential-medal-freedom/", "title": "Remarks by President Trump at Presentation of the Presidential Medal of Freedom — The White House (archived)" },
+        { "url": "https://forward.com/fast-forward/690280/pro-israel-megadonor-miriam-adelson-takes-center-stage-at-donald-trumps-2025-inauguration/", "title": "Pro-Israel megadonor Miriam Adelson takes center stage at Donald Trump's 2025 inauguration — The Forward" },
+        { "url": "https://www.bostonglobe.com/2026/10/16/business/adelson-trump-ballroom-donor/", "title": "Adelson Trump ballroom donor — Boston Globe" },
+        { "url": "https://www.timesofisrael.com/liveblog_entry/hailing-adelson-and-her-60-billion-in-the-bank-trump-quips-that-she-likes-israel-more-than-us/", "title": "Hailing Adelson and her '$60 billion in the bank,' Trump quips that she likes Israel more than US — Times of Israel" },
+        { "url": "https://www.nbcdfw.com/news/sports/dallas-mavericks/dallas-mavericks-owner-miriam-adelson-urges-trump-to-run-for-third-term/3958248/", "title": "Dallas Mavericks owner Miriam Adelson urges Trump to run for third term — NBC DFW" },
+        { "url": "https://www.foxnews.com/politics/leading-republican-mega-donor-bankroll-pro-trump-super-pac-2024-rematch-biden", "title": "Fox News: Republican mega-donor to bankroll pro-Trump super PAC in 2024" },
+        { "url": "https://www.breitbart.com/politics/2024/10/30/mavericks-principal-owners-donate-100-million-to-republicans-despite-leftist-mark-cuban-claiming-trump-has-fascist-tendencies/", "title": "Breitbart: Mavericks principal owners donate $100 million to back Trump" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Trump 47 Committee, Inc." }
+      ]
+    },
+    {
+      "name": "Alex Karp",
+      "slug": "alex-karp",
+      "relationship_type": "donor",
+      "description": "Once critical of Trump, Karp wrote a $1 million check to the Trump-Vance Inaugural Committee and has since praised Trump on border and national security, calling him \"a peace president\" and backing strikes on suspected drug boats. Palantir's U.S. government revenue rose sharply under the administration, including a 2025 ICE contract.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.inquirer.com/politics/nation/palantir-ceo-alex-karp-trump-administration-20251216.html", "title": "Palantir CEO Alex Karp and the Trump administration — Philadelphia Inquirer" },
+        { "url": "https://www.foxbusiness.com/media/palantir-ceo-claims-company-first-completely-anti-woke-backs-trump-admins-bombing-drug-boats", "title": "Palantir CEO claims company is first to be 'completely anti-woke,' backs Trump admin's bombing of drug boats — Fox Business" },
+        { "url": "https://www.thestar.com.my/tech/tech-news/2026/02/03/palantir-ceo-defends-surveillance-tech-as-us-government-contracts-boost-sales", "title": "Palantir CEO defends surveillance tech as US government contracts boost sales — Reuters via The Star" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "donor",
+      "description": "In 2016 Luckey gave $10,000 to Nimble America, a pro-Trump group, which led to his exit from Facebook in 2017; Fortune later reported further Trump contributions. He has hosted Trump fundraisers and says he has been on \"the tech-for-Trump train\" longer than almost anyone. FEC filings show $1,167,800 from Palmer Luckey to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. in 2 cycles (2020–2024).",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2016/09/23/palmer-luckey-trump/", "title": "Oculus founder Palmer Luckey funded pro-Trump group — Fortune" },
+        { "url": "https://fortune.com/2017/04/23/palmer-luckey-trump-contributions/", "title": "Palmer Luckey's Trump contributions — Fortune" },
+        { "url": "https://m.washingtontimes.com/news/2025/oct/9/charismatic-defense-tech-leader-says-silicon-valley-warming-trump/", "title": "Charismatic defense tech leader says Silicon Valley warming to Trump — The Washington Times" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Trump 47 Committee, Inc." }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "donor",
+      "description": "Altman personally gave $1 million to Trump's 2025 inaugural fund, saying Trump \"will lead our country into the age of AI\".",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.npr.org/2024/12/13/nx-s1-5227874/trump-bezos-zuckerberg-amazon-facebook-open-ai-meta-inauguration-fund", "title": "Tech moguls Altman, Bezos and Zuckerberg donate to Trump's inauguration fund — NPR" },
+        { "url": "https://www.foxbusiness.com/media/openai-ceo-sam-altman-donate-1-million-trumps-inaugural-fund", "title": "Fox Business: OpenAI CEO Sam Altman to donate $1 million to Trump’s inaugural fund" },
+        { "url": "https://www.breitbart.com/news/openais-altman-will-donate-1-million-to-trumps-inaugural-fund/", "title": "Breitbart: OpenAI’s Altman will donate $1 million to Trump’s inaugural fund" }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "ally",
+      "description": "Altman stood with Trump at the White House on January 21, 2025 to launch the $500 billion Stargate venture, which he called \"the most important project of this era\"; the Wall Street Journal described him as having become Trump's \"AI buddy\".",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
+        { "url": "https://www.aljazeera.com/news/2025/1/22/trump-announces-500bn-stargate-venture-to-build-up-ai-infrastucture", "title": "Trump announces $500bn 'Stargate' venture to build up AI infrastructure — Al Jazeera" },
+        { "url": "https://www.tovima.com/wsj/how-sam-altman-outfoxed-elon-musk-to-become-trumps-ai-buddy/", "title": "How Sam Altman Outfoxed Elon Musk to Become Trump's AI Buddy — The Wall Street Journal (via To Vima)" },
+        { "url": "https://www.breitbart.com/politics/2025/01/21/trump-announces-500-billion-artificial-intelligence-investment-in-america/", "title": "Breitbart: Trump announces $500 billion artificial intelligence investment in America" },
+        { "url": "https://www.washingtontimes.com/news/2025/jan/21/donald-trump-announces-500-billion-ai-investment-n/", "title": "Washington Times: Donald Trump announces $500 billion AI investment" }
+      ]
+    },
+    {
+      "name": "Dario Amodei",
+      "slug": "dario-amodei",
+      "relationship_type": "enemy",
+      "description": "On February 27, 2026 Trump ordered every federal agency to stop using Anthropic's technology, calling it a \"radical Left AI company\", after Anthropic refused to lift limits on uses such as mass surveillance of Americans and autonomous weapons. Amodei challenged the resulting Pentagon designation in court and apologized for a leaked internal memo criticizing the administration. In August 2026 U.S. District Judge Rita Lin voided the Pentagon’s supply-chain-risk designation, per the Daily Caller; a separate challenge was still pending.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://pbs.org/newshour/politics/trump-orders-federal-agencies-to-stop-using-anthropic-tech-over-ai-safety-dispute", "title": "Trump orders federal agencies to stop using Anthropic tech over AI safety dispute — PBS NewsHour" },
+        { "url": "https://www.aljazeera.com/news/2026/2/27/trump-orders-federal-agencies-to-stop-using-anthropic-as-dispute-escalates", "title": "Trump orders federal agencies to stop using Anthropic as dispute escalates — Al Jazeera" },
+        { "url": "https://www.axios.com/2026/03/06/pentagon-anthropic-amodei-apology", "title": "Scoop: Anthropic CEO apologizes for leaked memo criticizing Trump — Axios" },
+        { "url": "https://www.breitbart.com/politics/2026/02/27/trump-directs-federal-agencies-to-immediately-cease-use-of-anthropic-technology/", "title": "Breitbart: Trump directs federal agencies to cease use of Anthropic technology" },
+        { "url": "https://www.foxnews.com/politics/trump-says-he-plans-order-federal-ban-anthropic-ai-after-company-refuses-pentagon-demands", "title": "Fox News: Trump plans federal ban on Anthropic AI after company refuses Pentagon demands" },
+        { "url": "https://dailycaller.com/2026/08/28/rita-lin-pentagon-anthropic-ban-lifted-after-clash-over-claude/", "title": "Daily Caller: Pentagon’s Anthropic ban lifted after clash over Claude" }
+      ]
+    },
+    {
+      "name": "Alexandr Wang",
+      "slug": "alexandr-wang",
+      "relationship_type": "ally",
+      "description": "Wang attended Trump's January 2025 inauguration and the next day ran a full-page open letter urging Trump to take five steps in his first 100 days to \"win the AI war\" with China. This is advocacy; no donation or formal role was found.",
+      "start_year": 2025,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://techcrunch.com/2025/01/21/scale-ais-alexandr-wang-has-published-an-open-letter-lobbying-trump-to-invest-in-ai/", "title": "Scale AI's Alexandr Wang has published an open letter lobbying Trump to invest in AI — TechCrunch" },
+        { "url": "https://www.semafor.com/article/01/20/2025/scale-ai-ceo-alexandr-wang-to-trump-america-must-win-the-ai-war", "title": "Scale AI CEO to Trump: 'America must win the AI war' — Semafor" }
+      ]
+    },
+    {
+      "name": "Tony Blair",
+      "slug": "tony-blair",
+      "relationship_type": "ally",
+      "description": "In January 2026 the White House named Blair to the founding Executive Board of the Board of Peace, which Trump chairs, to oversee Gaza's transition and reconstruction under Trump's plan; Blair said he was \"honoured\". Israel's government objected that the Gaza board was not coordinated with it.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/", "title": "Statement on President Trump's Comprehensive Plan to End the Gaza Conflict — The White House" },
+        { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" },
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" },
+        { "url": "https://www.breitbart.com/europe/2026/01/17/trump-taps-former-british-pm-tony-blair-for-key-role-in-gaza/", "title": "Breitbart: Trump taps Tony Blair for key role in Gaza" },
+        { "url": "https://www.washingtontimes.com/news/2026/jan/17/trump-confidants-forefront-us-gaza-plan-blair-rubio-kushner-rowan/", "title": "Washington Times: Trump confidants at forefront of U.S. Gaza plan: Blair, Rubio, Kushner" }
+      ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "ally",
+      "description": "Back in an informal advisory role in Trump's second term, Kushner has acted with envoy Steve Witkoff as a key intermediary on Gaza, Russia–Ukraine and Iran; in January 2026 Trump named him to the Board of Peace, and in February 2026 Trump said he would make Kushner a special envoy for peace (the White House later said the role would not be official).",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" },
+        { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" },
+        { "url": "https://www.aol.com/articles/trump-says-son-law-kushner-152430541.html", "title": "Trump says son-in-law Kushner promoted to 'peace envoy' — NewsNation via AOL" },
+        { "url": "https://www.foxnews.com/world/kushner-joins-witkoff-gaza-ceasefire-talks-trump-pushes-peace-plan-cautiously-optimistic", "title": "Fox News: Kushner joins Witkoff for Gaza ceasefire talks" },
+        { "url": "https://www.washingtonexaminer.com/news/3845035/trump-kushner-witkoff-israel-hamas-peace-deal/", "title": "Washington Examiner: Trump appoints Kushner and Witkoff to execute Gaza peace deal" }
+      ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "ally",
+      "description": "After a 2018 break, Bannon returned to championing Trump: Trump pardoned him in January 2021, and from 2025 Bannon has promoted a third Trump term, saying in October 2025 that \"there's a plan\" for Trump to be president in 2028; constitutional scholars say a third term is barred.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" },
+        { "url": "https://www.yahoo.com/news/articles/trump-gonna-president-2028-maga-220101155.html", "title": "Trump is 'gonna be president' in 2028, MAGA leader bluntly declares: 'There's a plan' — Yahoo News" },
+        { "url": "https://www.axios.com/2026/01/10/steve-bannon-2028-campaign-maga", "title": "Scoop: Bannon quietly making moves toward 2028 run — Axios" }
+      ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "enemy",
+      "description": "After Bannon's comments about Trump's children appeared in Michael Wolff's Fire and Fury in January 2018, Trump disavowed him and the two were estranged until Bannon praised him again in 2019.",
+      "start_year": 2018,
+      "end_year": 2019,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" },
+        { "url": "https://www.wamc.org/2018-01-04/despite-takedown-and-legal-threat-bannon-says-he-still-backs-trump", "title": "Despite takedown and legal threat, Bannon says he still backs Trump — NPR via WAMC" },
+        { "url": "https://www.foxnews.com/politics/trump-slams-bannon-after-criticism-saying-ex-chief-strategist-lost-his-mind", "title": "Fox News: Trump slams Bannon, saying ex-chief strategist \"lost his mind\"" },
+        { "url": "https://www.washingtonexaminer.com/politics/798963/bannon-and-trumps-war-of-words-over-fire-and-fury/", "title": "Washington Examiner: Bannon and Trump’s war of words over \"Fire and Fury\"" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "employee",
+      "description": "Trump nominated Hegseth, then a Fox News host, as defense secretary; he was sworn in on January 25, 2025, and in September 2025 Trump's executive order let him use the title Secretary of War. On November 4, 2026, after Republicans lost Congress, Trump said Hegseth would stay on; CBS reported he was privately weighing a replacement.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" },
+        { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" },
+        { "url": "https://www.defenseone.com/policy/2025/09/trump-signs-order-change-name-department-defense-department-war/407962/", "title": "Trump signs order to change name of Department of Defense to Department of War — Defense One" },
+        { "url": "https://abcnews.com/Politics/trump-dismisses-prospect-replacing-hegseth-amid-iran-war/story?id=137852219", "title": "ABC News: Trump dismisses prospect of replacing Hegseth amid Iran war fallout" },
+        { "url": "https://federalnewsnetwork.com/defense-main/2026/11/hegseth-vows-to-defend-pentagon-policies-as-democrats-flip-congress/", "title": "Federal News Network: Hegseth vows to defend Pentagon policies as Democrats flip Congress" },
+        { "url": "https://www.foxnews.com/politics/pete-hegseth-confirmed-lead-pentagon-after-vp-vance-casts-tie-breaking-vote", "title": "Fox News: Pete Hegseth confirmed as defense secretary, with help from VP Vance" },
+        { "url": "https://www.nationalreview.com/news/jd-vance-breaks-senate-tie-to-confirm-pete-hegseth-as-next-pentagon-secretary/", "title": "National Review: JD Vance breaks Senate tie to confirm Pete Hegseth" }
+      ]
+    },
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Lake for Arizona governor in September 2021 and for the Senate in 2023, and she centered her campaigns on his false claim that the 2020 election was stolen.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
+        { "url": "https://www.newsfromthestates.com/article/kari-lake-who-insists-she-won-2022-enters-us-senate-race-donald-trumps-endorsement", "title": "Kari Lake, who insists she won in 2022, enters the U.S. Senate race with Donald Trump's endorsement — States Newsroom" }
+      ]
+    },
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "employee",
+      "description": "Trump named Lake his choice to run Voice of America in December 2024; she became a USAGM senior adviser in March 2025, carried out his push to shrink the agency, and in May 2026 he nominated her ambassador to Jamaica.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kari_Lake", "title": "Kari Lake — Wikipedia" },
+        { "url": "https://www.axios.com/local/phoenix/2025/03/28/kari-lake-trump-usagm-voa", "title": "Former journalist Kari Lake helps Trump gut global news agency — Axios Phoenix" },
+        { "url": "https://www.deseret.com/politics/2026/05/11/kari-lake-ambassador-jamaica/", "title": "Kari Lake nominated as ambassador to Jamaica — Deseret News" }
+      ]
+    },
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employee",
+      "description": "Sonderling has served in both Trump administrations: at the Labor Department from 2017, as Trump's EEOC nominee and vice chair (2020–2021), as Deputy Secretary of Labor from March 2025, and as Labor Secretary, nominated by Trump on June 29, 2026 and confirmed September 30.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Sonderling", "title": "Keith Sonderling — Wikipedia" },
+        { "url": "https://federalnewsnetwork.com/people/2026/06/trump-nominates-acting-labor-secretary-keith-sonderling-to-be-agencys-permanent-chief/", "title": "Trump nominates acting Labor Secretary Keith Sonderling to be agency's permanent chief — Federal News Network (AP)" },
+        { "url": "https://www.shrm.org/topics-tools/employment-law-compliance/senate-confirms-sonderling-as-head-of-us-department-of-labor", "title": "Senate confirms Sonderling as head of US Department of Labor — SHRM" }
+      ]
+    },
+    {
+      "name": "Colton Duncan",
+      "slug": "colton-duncan",
+      "relationship_type": "employee",
+      "description": "Duncan was named in March 2025 among the Labor Department's senior Trump administration political appointees, as White House liaison.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor" },
+        { "url": "https://www.yahoo.com/news/trump-administration-hires-strategist-posted-174642684.html", "title": "Trump Administration Hires Strategist Who Posted Racist Tweet About Native Americans — HuffPost via Yahoo News" }
+      ]
+    },
+    {
+      "name": "Nick Fuentes",
+      "slug": "nick-fuentes",
+      "relationship_type": "enemy",
+      "description": "Fuentes backed Trump through the 2020 \"Stop the Steal\" campaign and dined with him and Ye at Mar-a-Lago in November 2022 (Trump said he did not know who Fuentes was). He later turned on Trump: in 2026 he attacked Trump as a liar, said he would not vote in the midterms and would back a Democrat over Vance or Rubio. Trump has largely not responded, and in November 2025 he defended Tucker Carlson's interview with Fuentes.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://news.yahoo.com/nick-fuentes-white-supremacist-friend-180254046.html", "title": "Who is Nick Fuentes? The white supremacist, friend of Kanye West and dinner guest Trump claims he never heard of — USA Today via Yahoo" },
+        { "url": "https://www.lalibre.be/international/amerique/2026/03/09/il-dejeunait-autrefois-avec-donald-trump-a-mar-a-lago-le-tres-controverse-nick-fuentes-reve-a-present-de-le-faire-tomber-WMJTSTUNCVB55HPIXMWFA5QYWA/", "title": "Nick Fuentes, once a Mar-a-Lago dinner guest, now wants to bring Trump down — La Libre Belgique" },
+        { "url": "https://www.startribune.com/far-right-provocateur-nick-fuentes-is-triggering-a-maga-civil-war/601521097", "title": "Far-right provocateur Nick Fuentes is triggering a MAGA civil war — Star Tribune" },
+        { "url": "https://www.pbs.org/newshour/politics/trump-defends-tucker-carlson-after-interview-with-nick-fuentes-far-right-activist-known-for-his-antisemitic-views", "title": "Trump defends Tucker Carlson after interview with Nick Fuentes — PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Scott Bessent",
+      "slug": "scott-bessent",
+      "relationship_type": "employee",
+      "description": "Trump nominated Bessent, a 2024 campaign economic adviser and fundraiser, as treasury secretary in November 2024; he has served since January 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.npr.org/2024/11/22/nx-s1-5189652/trump-scott-bessent-treasury-secretary-cabinet-pick", "title": "NPR: Trump nominates Wall Street investor Scott Bessent as treasury secretary" },
+        { "url": "https://www.usatoday.com/story/news/politics/2025/01/27/senate-confirms-trump-treasury-secretary-scott-bessent/77967067007/", "title": "USA Today: Senate confirms Scott Bessent" }
+      ]
+    },
+    {
+      "name": "Todd Blanche",
+      "slug": "todd-blanche",
+      "relationship_type": "employee",
+      "description": "Trump hired Blanche as his criminal defense lawyer in April 2023, then made him deputy attorney general (2025) and attorney general (2026).",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.nytimes.com/2023/04/03/nyregion/trump-indictment-lawyer-blanche.html", "title": "New York Times: Todd Blanche joins Trump's defense" },
+        { "url": "https://www.opb.org/article/2026/08/08/senate-votes-to-confirm-todd-blanche-as-attorney-general/", "title": "NPR via OPB: Senate votes to confirm Todd Blanche as attorney general" }
+      ]
+    },
+    {
+      "name": "Doug Burgum",
+      "slug": "doug-burgum",
+      "relationship_type": "employee",
+      "description": "After leaving the 2024 primary Burgum advised Trump on energy policy; Trump named him interior secretary and chair of a new energy council in November 2024.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://abcnews4.com/news/nation-world/trump-names-interior-designee-north-dakota-gov-doug-burgum-to-head-new-white-house-council-on-energy", "title": "AP: Trump names Burgum to head new White House council on energy" },
+        { "url": "https://en.wikipedia.org/wiki/Doug_Burgum", "title": "Wikipedia: Doug Burgum" }
+      ]
+    },
+    {
+      "name": "Chris Wright",
+      "slug": "chris-wright",
+      "relationship_type": "employee",
+      "description": "Trump named Wright energy secretary in November 2024; he has served since February 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://chemicalprocessing.com/utilities-energy/news/55243714/trump-names-liberty-energy-ceo-chris-wright-as-next-energy-secretary", "title": "Chemical Processing: Trump names Liberty Energy CEO Chris Wright as energy secretary" },
+        { "url": "https://abcnews4.com/news/nation-world/senate-confirms-fossil-fuel-executive-chris-wright-as-energy-secretary-denver-based-president-donald-trump-united-states-energy-dominance-drill-baby-drill-liberty-energy-fossil-fuel-climate-change", "title": "AP: Senate confirms fossil fuel executive Chris Wright as energy secretary" }
+      ]
+    },
+    {
+      "name": "Brooke Rollins",
+      "slug": "brooke-rollins",
+      "relationship_type": "employee",
+      "description": "Rollins worked in Trump's first White House (2018–2021) and became his agriculture secretary in 2025.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" },
+        { "url": "https://m.washingtontimes.com/news/2024/nov/23/trump-taps-brooke-rollins-former-white-house-advis/", "title": "Washington Times: Trump taps Brooke Rollins for Agriculture" }
+      ]
+    },
+    {
+      "name": "Linda McMahon",
+      "slug": "linda-mcmahon",
+      "relationship_type": "employee",
+      "description": "Trump appointed McMahon SBA administrator (2017–2019) and education secretary (since 2025); she also co-chaired his 2024 transition.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.ed.gov/about/ed-organization/meet-secretary-of-education/linda-e-mcmahon", "title": "U.S. Department of Education: Linda E. McMahon" },
+        { "url": "https://www.axios.com/2024/11/20/trump-linda-mcmahon-education-secretary", "title": "Axios: Trump selects Linda McMahon for Education secretary" }
+      ]
+    },
+    {
+      "name": "Linda McMahon",
+      "slug": "linda-mcmahon",
+      "relationship_type": "donor",
+      "description": "McMahon was among the largest donors to Trump's 2024 campaign and to his transition, which she co-chaired.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/08/16/howard-lutnick-linda-mcmahon-to-chair-trump-transition-team", "title": "Bloomberg: Howard Lutnick, Linda McMahon to chair Trump transition team" },
+        { "url": "https://www.nbcnews.com/politics/white-house/trump-transition-team-discloses-donors-one-year-pledged-release-rcna246131", "title": "NBC News: Trump transition team discloses donors" }
+      ]
+    },
+    {
+      "name": "Howard Lutnick",
+      "slug": "howard-lutnick",
+      "relationship_type": "employee",
+      "description": "Trump named Lutnick commerce secretary; he was confirmed in February 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.ibj.com/articles/u-s-senate-confirms-financier-howard-lutnick-as-commerce-secretary", "title": "AP via IBJ: Senate confirms Howard Lutnick as commerce secretary" }
+      ]
+    },
+    {
+      "name": "Howard Lutnick",
+      "slug": "howard-lutnick",
+      "relationship_type": "donor",
+      "description": "Lutnick was a major donor to Trump's 2024 campaign and among the largest donors to his transition, which he co-chaired.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/08/16/howard-lutnick-linda-mcmahon-to-chair-trump-transition-team", "title": "Bloomberg: Howard Lutnick, Linda McMahon to chair Trump transition team" },
+        { "url": "https://www.nbcnews.com/politics/white-house/trump-transition-team-discloses-donors-one-year-pledged-release-rcna246131", "title": "NBC News: Trump transition team discloses donors" }
+      ]
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "employee",
+      "description": "Trump nominated Kennedy as HHS secretary after the 2024 election; confirmed in February 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/senate-confirms-rfk-jr-health-164450683.html", "title": "AP via Yahoo: Senate confirms RFK Jr. as HHS secretary" }
+      ]
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "ally",
+      "description": "Kennedy suspended his independent campaign and endorsed Trump on August 23, 2024, then joined him on stage at a rally.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.voanews.com/a/independent-presidential-candidate-rfk-jr-suspends-campaign-endorses-trump-/7754899.html", "title": "VOA: RFK Jr. suspends campaign, endorses Trump" }
+      ]
+    },
+    {
+      "name": "Scott Turner",
+      "slug": "scott-turner",
+      "relationship_type": "employee",
+      "description": "Trump appointed Turner to lead the White House Opportunity and Revitalization Council in 2019 and made him HUD secretary in 2025.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://dallasnews.com/news/2024/11/22/trump-picks-former-nfl-player-white-house-aide-scott-turner-for-hud-secretary", "title": "Dallas Morning News: Trump picks Scott Turner for HUD" },
+        { "url": "https://www.scotsmanguide.com/news/turner-confirmed-as-trumps-hud-secretary/", "title": "Scotsman Guide: Turner confirmed as Trump's HUD secretary" }
+      ]
+    },
+    {
+      "name": "Sean Duffy",
+      "slug": "sean-duffy",
+      "relationship_type": "employee",
+      "description": "Trump appointed Duffy transportation secretary in January 2025 and acting NASA administrator in July 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.space.com/space-exploration/trump-names-transportation-secretary-sean-duffy-as-interim-nasa-administrator", "title": "Space.com: Trump names Sean Duffy interim NASA administrator" }
+      ]
+    },
+    {
+      "name": "Doug Collins",
+      "slug": "doug-collins",
+      "relationship_type": "employee",
+      "description": "Trump nominated Collins as veterans affairs secretary in November 2024; confirmed February 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/doug-collins-confirmed-veterans-affairs-secretary", "title": "CBS News: Doug Collins confirmed as veterans affairs secretary" }
+      ]
+    },
+    {
+      "name": "Doug Collins",
+      "slug": "doug-collins",
+      "relationship_type": "ally",
+      "description": "As ranking Republican on House Judiciary, Collins led Trump's defense in the 2019 impeachment, calling it a \"sham\".",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2019/12/18/trump-impeachment-doug-collins-opening-statement", "title": "Axios: Doug Collins opening statement on impeachment" },
+        { "url": "https://www.npr.org/2019/12/05/785103454/rep-doug-collins-says-white-house-should-participate-in-impeachment-inquiry", "title": "NPR: Top Judiciary Republican on impeachment inquiry" }
+      ]
+    },
+    {
+      "name": "Markwayne Mullin",
+      "slug": "markwayne-mullin",
+      "relationship_type": "employee",
+      "description": "Trump nominated Mullin to replace Kristi Noem at Homeland Security in March 2026; confirmed March 23, 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.kgou.org/markwayne-mullin-dhs-confirmed", "title": "KGOU: Markwayne Mullin confirmed as DHS secretary" },
+        { "url": "https://ballotpedia.org/Donald_Trump%27s_Cabinet,_2025-2026", "title": "Ballotpedia: Donald Trump's Cabinet, 2025–2026" }
+      ]
+    },
+    {
+      "name": "Markwayne Mullin",
+      "slug": "markwayne-mullin",
+      "relationship_type": "ally",
+      "description": "As a senator, Mullin built his influence as a close ally of Trump in Washington.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.coloradopolitics.com/2025/03/13/markwayne-mullin-finds-his-coalition-of-power-in-trumps-washington-15967267-2bfc-5d41-a723-3a4f9f6f8063/", "title": "Colorado Politics: Markwayne Mullin finds his coalition of power in Trump's Washington" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "Carlson spoke for Trump at the 2024 Republican convention and the Madison Square Garden rally, lobbied him to pick Vance, and helped bring RFK Jr. on board.",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://abcnews.go.com/US/wireStory/15-months-after-firing-tucker-carlson-returns-fox-112086921", "title": "AP via ABC News: Carlson returns to Fox airwaves with GOP convention speech" },
+        { "url": "https://m.washingtontimes.com/news/2024/oct/27/tucker-carlson-says-trump-liberated-americans-madi/", "title": "Washington Times: Carlson says Trump liberated Americans at Madison Square Garden" },
+        { "url": "https://www.thedailybeast.com/elon-musk-and-tucker-carlson-secretly-lobbied-trump-to-pick-jd-vance", "title": "Daily Beast: Musk and Carlson lobbied Trump to pick Vance" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "enemy",
+      "description": "Carlson accused Trump of complicity in Israel's June 2025 strikes on Iran and Trump called him \"kooky\". In 2026 Carlson said Trump should be removed from office over the Iran war; Trump called him \"a low IQ person\" and said he no longer takes his calls.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2025/06/18/nx-s1-5438122/trump-iran-israel-conflict-tucker-carlson", "title": "NPR: Pro-Trump media figures split over the Israel-Iran conflict" },
+        { "url": "https://www.jns.org/news/u-s-news/tucker-a-low-iq-person-with-absolutely-no-idea-whats-going-on-trump-says", "title": "JNS: Trump says Tucker is 'a low IQ person'" },
+        { "url": "https://newsweek.com/tucker-carlson-says-trump-should-be-removed-from-office-immediately-12383179", "title": "Newsweek: Tucker Carlson says Trump should be removed from office" },
+        { "url": "https://www.dailywire.com/news/trump-lays-into-kooky-tucker-carlson-over-opposition-to-israeli-strikes-on-iran", "title": "Daily Wire: Trump lays into \"kooky\" Tucker Carlson over opposition to Israeli strikes on Iran" },
+        { "url": "https://www.washingtonexaminer.com/news/white-house/4482593/trump-tucker-carlson-not-maga-iran-strikes/", "title": "Washington Examiner: Trump says Tucker Carlson \"not MAGA\" after Iran strikes criticism" },
+        { "url": "https://www.washingtontimes.com/news/2026/apr/9/trump-blasts-tucker-carlson-megyn-kelly-candace-owens-alex-jones-iran/", "title": "Washington Times: Trump blasts Tucker Carlson and others over Iran opposition" }
+      ]
+    },
+    {
+      "name": "Marjorie Taylor Greene",
+      "slug": "marjorie-taylor-greene",
+      "relationship_type": "enemy",
+      "description": "Once a leading Trump ally, Greene broke with him over the Iran war and called for his removal; Trump attacked her and Carlson as \"LOSERS ALL\".",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.npr.org/2026/04/09/nx-s1-5778195/some-of-trumps-biggest-supporters-become-his-loudest-critics-over-iran-war", "title": "NPR: Some of Trump's biggest supporters become his loudest critics over Iran war" },
+        { "url": "https://salon.com/2026/08/22/i-wish-i-had-never-supported-him-mtg-fires-back-after-trumps-attack-on-maga-losers", "title": "Salon: 'I wish I had never supported him': MTG fires back" }
+      ]
+    },
+    {
+      "name": "Thomas Massie",
+      "slug": "thomas-massie",
+      "relationship_type": "enemy",
+      "description": "Trump endorsed Ed Gallrein against Massie in October 2025 and rallied for him; Massie lost the May 2026 primary.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.adn.com/nation-world/2026/05/19/rep-thomas-massie-loses-gop-primary-in-kentucky-to-challenger-endorsed-by-trump/", "title": "AP via ADN: Rep. Thomas Massie loses GOP primary to Trump-endorsed challenger" }
+      ]
+    },
+    {
+      "name": "Joe Kent",
+      "slug": "joe-kent",
+      "relationship_type": "employee",
+      "description": "Trump appointed Kent to lead the National Counterterrorism Center.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.notus.org/trump-white-house/joe-kent-national-counterterrorism-center-director-resigns-iran-war", "title": "NOTUS: Joe Kent, Trump's National Counterterrorism Center director, resigns over Iran war" }
+      ]
+    },
+    {
+      "name": "Joe Kent",
+      "slug": "joe-kent",
+      "relationship_type": "enemy",
+      "description": "Kent resigned in March 2026 saying Iran posed no imminent threat; Trump called him \"weak on security\".",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.notus.org/trump-white-house/joe-kent-national-counterterrorism-center-director-resigns-iran-war", "title": "NOTUS: Joe Kent, Trump's National Counterterrorism Center director, resigns over Iran war" },
+        { "url": "https://www.aljazeera.com/news/2026/3/17/us-national-counterterrorism-center-director-joe-kent-resigns-over-iran-war", "title": "Al Jazeera" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "rival",
+      "description": "Cruz was Trump's main rival in the 2016 Republican primary.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Ted-Cruz", "title": "Britannica: Ted Cruz" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "ally",
+      "description": "Trump has called Cruz \"a good friend of mine\" amid reports of a 2028 bid.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://abcnews4.com/news/nation-world/trump-calls-ted-cruz-a-good-friend-of-mine-amid-rumors-of-a-2028-presidential-bid-jd-vance-tucker-carlson-nick-fuentes", "title": "Trump calls Ted Cruz a 'good friend of mine' amid rumors of a 2028 bid" }
+      ]
+    },
+    {
+      "name": "Ken Paxton",
+      "slug": "ken-paxton",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Paxton a week before his May 2026 runoff win over Cornyn. Trump endorsed Paxton over incumbent John Cornyn on May 19, 2026, calling him \"a true MAGA Warrior\".",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://abc7ny.com/post/texas-attorney-general-ken-paxton-wins-gop-runoff-us-senate-ousting-longtime-sen-john-cornyn-ap-projects/19177494/", "title": "AP via ABC7: Ken Paxton wins GOP runoff for US Senate, ousting John Cornyn" },
+        { "url": "https://www.kbtx.com/2026/05/19/trump-endorses-ken-paxton-senate-gop-runoff/", "title": "Trump endorses Ken Paxton in Senate GOP runoff — KBTX" }
+      ]
+    },
+    {
+      "name": "Sergio Gor",
+      "slug": "sergio-gor",
+      "relationship_type": "employee",
+      "description": "Trump named Gor director of presidential personnel and then ambassador to India.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sergio_Gor", "title": "Wikipedia: Sergio Gor" },
+        { "url": "https://m.washingtontimes.com/news/2025/nov/10/sergio-gor-sworn-us-ambassador-india/", "title": "Washington Times: Sergio Gor sworn in as U.S. ambassador to India" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "ally",
+      "description": "Trump endorsed DeSantis in the 2018 governor's primary; DeSantis endorsed Trump when he quit the 2024 race.",
+      "start_year": 2018,
+      "end_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/614126-ron-desantis-faces-hard-road-to-white-house-but-has-beat-long-odds-before", "title": "Florida Politics" },
+        { "url": "https://www.mprnews.org/story/2024/01/21/ron-desantis-ends-his-presidential-bid-before-new-hampshire-after-falling-far-short-of-trump", "title": "AP via MPR News: DeSantis drops out of the presidential race, endorses Trump" },
+        { "url": "https://www.foxnews.com/politics/florida-gov-ron-desantis-drops-out-2024-presidential-race-endorses-trump", "title": "Fox News: Ron DeSantis drops out of 2024 presidential race, endorses Trump" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "rival",
+      "description": "DeSantis challenged Trump for the 2024 Republican nomination, then withdrew and endorsed him after losing Iowa by 30 points.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.mprnews.org/story/2024/01/21/ron-desantis-ends-his-presidential-bid-before-new-hampshire-after-falling-far-short-of-trump", "title": "AP via MPR News: DeSantis drops out of the presidential race, endorses Trump" },
+        { "url": "https://www.foxnews.com/politics/florida-gov-ron-desantis-drops-out-2024-presidential-race-endorses-trump", "title": "Fox News: Ron DeSantis drops out of 2024 presidential race, endorses Trump" },
+        { "url": "https://www.washingtontimes.com/news/2024/jan/21/ron-desantis-drops-out-ahead-new-hampshire-primary/", "title": "Washington Times: Ron DeSantis drops out ahead of New Hampshire primary" }
+      ]
+    },
+    {
+      "name": "James Uthmeier",
+      "slug": "james-uthmeier",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Uthmeier for a full term as attorney general in October 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://floridaphoenix.com/2025/10/08/trump-is-backing-james-uthmeier-for-florida-attorney-general-in-2026/", "title": "Florida Phoenix" }
+      ]
+    },
+    {
+      "name": "Gavin Newsom",
+      "slug": "gavin-newsom",
+      "relationship_type": "enemy",
+      "description": "Newsom sued Trump over the 2025 federalization of the California National Guard in Los Angeles and won rulings ordering its return; he has positioned himself as a leading Trump opponent.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.gov.ca.gov/2025/12/10/federal-court-to-trump-keeping-a-standing-army-is-illegal-the-federalization-of-californias-national-guard-must-end", "title": "Office of the Governor: Federal court orders end to federalization of California National Guard" },
+        { "url": "https://www.gov.ca.gov/2025/06/12/governor-newsom-prevails-in-blocking-trumps-militarization-of-los-angeles/", "title": "Office of the Governor: Newsom prevails in blocking Trump's militarization of Los Angeles" },
+        { "url": "https://www.foxnews.com/politics/california-sue-trump-hegseth-over-national-guard-deployment-amid-anti-ice-riots", "title": "Fox News: Newsom announces lawsuit against Trump administration over National Guard use" },
+        { "url": "https://www.breitbart.com/politics/2025/06/09/california-gov-gavin-newsom-officially-files-lawsuit-trump-deploying-national-guard-los-angeles/", "title": "Breitbart: Newsom files lawsuit against Trump deploying National Guard to L.A." },
+        { "url": "https://www.washingtonexaminer.com/news/justice/4379536/trump-california-national-guard-newsom-appeals-court/", "title": "Washington Examiner: Trump must relinquish California National Guard to Newsom, court rules" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "enemy",
+      "description": "As speaker, Pelosi oversaw both of Trump's impeachments (2019, 2021).",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nancy_Pelosi", "title": "Wikipedia: Nancy Pelosi" },
+        { "url": "https://www.npr.org/2019/09/24/763700264/trumps-ukraine-call-may-be-game-changer-on-impeachment", "title": "Pelosi announces formal impeachment inquiry into President Trump — NPR" },
+        { "url": "https://www.cnn.com/politics/impeachment-fast-facts", "title": "Impeachment fast facts — CNN" }
+      ]
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "slug": "alexandria-ocasio-cortez",
+      "relationship_type": "enemy",
+      "description": "One of the leading Democratic opponents of Trump and his administration.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2028-election/bernie-sanders-lane-2028-aoc-ro-khanna-rcna343290", "title": "NBC News: The front-runners to lead Bernie Sanders' movement in 2028" }
+      ]
+    },
+    {
+      "name": "Pete Buttigieg",
+      "slug": "pete-buttigieg",
+      "relationship_type": "enemy",
+      "description": "A prominent Democratic counterweight to Trump; Trump has blamed him for the Newark air-traffic crisis.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://thehill.com/homenews/campaign/5910837-buttigieg-democratic-party-counterweight-trump/", "title": "The Hill: Buttigieg, untethered, acts as Trump counterweight" },
+        { "url": "https://zephr.thedailybeast.com/trump-blames-buttigieg-for-air-safety-crisis-on-magas-watch", "title": "Daily Beast: Trump blames Buttigieg for air safety crisis" }
+      ]
+    },
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "donor",
+      "description": "Gave at least $2.5 million toward Trump's White House ballroom (his $16 million in 2025 went to MAGA Inc.). After they met at a Club for Growth event in March 2024, Trump went from backing a TikTok ban to opposing one; Yass's firm is a major ByteDance investor.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.inquirer.com/politics/nation/jeffrey-yass-trump-ballroom-billionaire-donations-20251103.html", "title": "Pennsylvania's richest man has donated at least $2.5 million to Trump's ballroom — Philadelphia Inquirer" },
+        { "url": "https://www.nbcnews.com/tech/tech-news/jeff-yass-billionaire-donor-investments-tiktoks-parent-company-rcna142531", "title": "Who is Jeff Yass? The billionaire donor with investments in TikTok's parent company — NBC News" }
+      ]
+    },
+    {
+      "name": "Timothy Mellon",
+      "slug": "timothy-mellon",
+      "relationship_type": "donor",
+      "description": "Gave $10 million to the pro-Trump super PAC America First Action in April 2020, which made him Trump's biggest benefactor of that cycle (some reports count $20 million in all). His much larger 2024–25 giving (about $152 million) went to MAGA Inc.",
+      "start_year": 2020,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+        { "url": "https://www.bloombergquint.com/businessweek/top-gop-donor-timothy-mellon-is-former-liberal-now-trump-backer", "title": "Mellon leads 2020 GOP donors — Bloomberg Businessweek" },
+        { "url": "https://business-standard.com/amp/article/international/trump-policies-boon-to-super-rich-so-where-are-7-figure-cheques-120081800040_1.html", "title": "Trump policies a boon to super rich, so where are the 7-figure cheques? — New York Times via Business Standard" }
+      ],
+      "end_year": 2020
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "enemy",
+      "description": "An establishment critic rather than a foe: Griffin called Trump's 2018 attacks on the Fed chair \"completely inappropriate\", Trump criticized him for skipping the 2020 China trade-deal signing, and Griffin did not fund Trump's 2024 campaign and calls his tariffs a \"slippery slope to crony capitalism\". He did meet Trump about donating in 2024.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+        { "url": "https://fortune.com/2026/03/31/ken-griffin-citadel-securities-hedge-fund-miami-wall-street-trump-republican-politics/", "title": "Ken Griffin, Citadel and Republican politics — Fortune" },
+        { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Griffin and Singer meet Trump about donating — Fortune" }
+      ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "enemy",
+      "description": "Soros called Trump a \"con man\" in 2017. In August 2025 Trump said George and Alex Soros should be charged under the RICO racketeering law over \"violent protests\", without evidence; no charges followed.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/George_Soros", "title": "George Soros — Wikipedia" },
+        { "url": "https://www.washingtontimes.com/news/2025/aug/27/trump-says-leftist-megadonors-george-alex-soros-face-racketeering/", "title": "Trump says leftist megadonors George, Alex Soros should face racketeering charges — Washington Times" },
+        { "url": "https://www.cnn.com/2025/09/28/business/george-soros-trump-doj-explained", "title": "Who is George Soros, the famed philanthropist under attack? — CNN" }
+      ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "After Cruz and Walker dropped out in 2016 Uihlein backed Trump, giving to the pro-Trump Great America PAC and $500,000 to his inauguration. His 2024 money went through Restoration PAC. FEC filings show $1,038,000 from Richard Uihlein to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. and others in 3 cycles (2016–2024).",
+      "start_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+        { "url": "https://ballotpedia.org/Richard_Uihlein", "title": "Richard Uihlein — Ballotpedia (2016 super PAC gifts incl. Great America PAC)" },
+        { "url": "https://www.influencewatch.org/political-party/great-america-pac/", "title": "Great America PAC — InfluenceWatch" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Trump 47 Committee, Inc." }
+      ],
+      "end_year": 2024,
+      "notes": "Sources differ on the 2016 Great America PAC gift: Ballotpedia lists $100,000 (October 5, 2016); a Daily Herald report gives $200,000."
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "ally",
+      "description": "Schwarzman chaired Trump's President's Strategic and Policy Forum from its creation in December 2016 until it disbanded after Charlottesville in August 2017. In May 2024 he endorsed Trump and said he would raise money for him.",
+      "start_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.blackstone.com/news/press/president-elect-trump-establishes-the-president-s-strategic-and-policy-forum/", "title": "President-elect Trump Establishes the President's Strategic and Policy Forum — Blackstone" },
+        { "url": "https://yaledailynews.com/blog/2016/12/05/schwarzman-69-to-advise-trump/", "title": "Schwarzman '69 to advise Trump — Yale Daily News" },
+        { "url": "https://www.axios.com/2024/05/24/trump-2024-stephen-schwarzman-blackstone", "title": "Blackstone CEO Steve Schwarzman backs Trump, will raise money for him — Axios" },
+        { "url": "https://www.cnn.com/2024/05/25/politics/stephen-schwarzman-trump-vote-election/index.html", "title": "Billionaire GOP donor Stephen Schwarzman backs Trump in 'vote for change' — CNN" }
+      ]
+    },
+    {
+      "name": "Josh Hawley",
+      "slug": "josh-hawley",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Hawley's 2018 Senate run; Hawley was the first senator to announce an objection to certifying Biden's 2020 win, raising a fist to protesters on January 6, 2021.",
+      "start_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
+        { "url": "https://kvia.com/politics/2021/01/04/the-trump-ally-in-the-senate-leading-the-presidents-futile-effort-to-challenge-the-electoral-college-votes/", "title": "The Trump ally in the Senate leading the president's futile effort to challenge the electoral college votes — CNN via KVIA" },
+        { "url": "https://www.npr.org/sections/biden-transition-updates/2020/12/30/951430323/gop-sen-hawley-will-object-to-electoral-college-certification", "title": "GOP Sen. Hawley will object to Electoral College certification — NPR" },
+        { "url": "https://m.washingtontimes.com/news/2020/dec/30/josh-hawley-becomes-first-senator-declare-hell-obj/", "title": "Josh Hawley becomes first senator to declare he’ll object — The Washington Times" }
+      ]
+    },
+    {
+      "name": "Eric Schmitt",
+      "slug": "eric-schmitt",
+      "relationship_type": "ally",
+      "description": "As Missouri attorney general Schmitt backed the Texas suit to overturn the 2020 election; Trump endorsed \"ERIC\" before the 2022 Senate primary, and Schmitt has defended Trump's policies in the Senate.",
+      "start_year": 2020,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+        { "url": "https://www.axios.com/2022/08/03/missouri-primary-eric-schmitt-trump-greitens", "title": "Missouri Attorney General Eric Schmitt wins GOP Senate primary — Axios" },
+        { "url": "https://www.nbcnews.com/politics/2022-election/trump-baffles-gop-endorsing-eric-missouri-senate-primary-race-three-er-rcna41049", "title": "Trump baffles GOP by endorsing 'Eric' in Missouri Senate primary — NBC News" }
+      ]
+    },
+    {
+      "name": "Russ Vought",
+      "slug": "russ-vought",
+      "relationship_type": "employee",
+      "description": "Trump made Vought deputy and then director of OMB in his first term (2018–2021) and again OMB director from February 2025.",
+      "start_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" },
+        { "url": "https://trumpwhitehouse.archives.gov/people/russell-vought", "title": "Russell Vought — Trump White House archives" },
+        { "url": "https://fedscoop.com/russell-vought-confirmed-omb-director-senate/", "title": "Russell Vought confirmed as OMB director — FedScoop" }
+      ]
+    },
+    {
+      "name": "Giorgia Meloni",
+      "slug": "giorgia-meloni",
+      "relationship_type": "ally",
+      "description": "The only EU leader at Trump's second inauguration and a frequent White House visitor in 2025; the relationship soured from April 2026 over disputes including Iran and NATO, with Trump saying it \"is no longer the same\".",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.news4jax.com/news/world/2025/01/16/italys-meloni-to-leverage-strong-ties-with-trump-but-as-president-whisperer-or-trojan-horse", "title": "Italy's Meloni to leverage strong ties with Trump — AP" },
+        { "url": "https://en.wikipedia.org/wiki/Giorgia_Meloni", "title": "Giorgia Meloni — Wikipedia" },
+        { "url": "https://en.ilsole24ore.com/art/donald-e-giorgia-special-relationship-scontro-totale-AIXvwCmD", "title": "Donald and Giorgia: from special relationship to total clash — Il Sole 24 Ore" }
+      ]
+    },
+    {
+      "name": "Nigel Farage",
+      "slug": "nigel-farage",
+      "relationship_type": "ally",
+      "description": "Farage attended the 2016 Republican convention and spoke at a Trump rally that year; their friendship has continued, though polls in 2026 suggested it was costing Reform votes.",
+      "start_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nigel_Farage", "title": "Nigel Farage — Wikipedia" },
+        { "url": "https://www.gbnews.com/politics/nigel-farage-donald-trump-problem-polls", "title": "How Nigel Farage's 'Donald Trump problem' risks narrowing Reform's path to power — GB News" }
+      ]
+    },
+    {
+      "name": "Michael Anton",
+      "slug": "michael-anton",
+      "relationship_type": "employee",
+      "description": "Anton served Trump as National Security Council communications chief (2017–2018) and, in the second term, as State Department policy planning director (2025); his 2016 \"Flight 93 Election\" essay made the intellectual case for Trump.",
+      "start_year": 2017,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Michael_Anton", "title": "Michael Anton — Wikipedia" },
+        { "url": "https://www.state.gov/biographies/michael-anton", "title": "Michael Anton — US Department of State" }
+      ]
+    },
+    {
+      "name": "Robert Mercer",
+      "slug": "robert-mercer",
+      "relationship_type": "donor",
+      "description": "A top Trump backer in 2016 through the Make America Number 1 super PAC; a former colleague said Trump would not have won without him. He also helped pay Trump's legal bills in 2017, gave to Trump Victory in 2020, and co-chaired an April 2024 Trump fundraiser. FEC filings show $1,312,089 from Robert Mercer to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. and others in 3 cycles (2016–2024).",
+      "start_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://www.newsweek.com/trump-legal-fund-paid-billionaire-robert-mercer-day-comey-fired-676383", "title": "Billionaire Robert Mercer Is Helping Pay Donald Trump's Legal Bills — Newsweek" },
+        { "url": "https://www.cnbc.com/2020/04/15/robert-mercer-starts-big-money-effort-for-trump-campaign.html", "title": "Robert Mercer starts big money effort for Trump and RNC after cutting back support — CNBC" },
+        { "url": "https://edition.cnn.com/2024/03/19/politics/republican-billionaires-trump-fundraiser/index.html", "title": "Republican billionaires rally around Trump for April fundraiser — CNN" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, ROBERT to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, ROBERT to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, ROBERT to Trump 47 Committee, Inc." }
+      ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "ally",
+      "description": "After Cruz lost she moved the family super PAC behind Trump, helped bring Bannon and Kellyanne Conway into his 2016 campaign, and sat on his transition executive committee; the family later distanced itself before co-chairing a 2024 Trump fundraiser.",
+      "start_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rebekah_Mercer", "title": "Rebekah Mercer — Wikipedia" },
+        { "url": "https://thehill.com/homenews/campaign/291772-billionaire-father-and-daughter-linked-to-trump-shakeup/", "title": "Billionaire father and daughter linked to Trump shake-up — The Hill" },
+        { "url": "https://www.cnbc.com/2023/11/21/mercers-weigh-backing-trump-with-massive-war-chest.html", "title": "Mercer family weighs backing Trump as they maintain massive war chest — CNBC" },
+        { "url": "https://dailycaller.com/2017/08/09/major-trump-donor-moves-to-take-out-flake/", "title": "Daily Caller: Major Trump donor moves to take out Flake" },
+        { "url": "http://www.washingtonexaminer.com/top-trump-donor-rebekah-mercer-snubs-steve-bannon-in-new-statement/article/2645028", "title": "Washington Examiner: Top Trump donor Rebekah Mercer snubs Steve Bannon" }
+      ]
+    },
+    {
+      "name": "Omeed Malik",
+      "slug": "omeed-malik",
+      "relationship_type": "donor",
+      "description": "Gave $25,000 to Trump Victory in 2020 and in 2024 pledged to raise $3M+ and give at least $100,000 to Trump's campaign. FEC filings show $129,400 from Omeed Malik to Trump Victory, Donald J. Trump for President, Inc., Trump National Committee JFC, Inc. and others in 2 cycles (2020–2024).",
+      "start_year": 2019,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: MALIK, OMEED to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: MALIK, OMEED to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00873893&two_year_transaction_period=2024", "title": "FEC receipts: MALIK, OMEED to Trump National Committee JFC, Inc." }
+      ]
+    },
+    {
+      "name": "Doug Burgum",
+      "slug": "doug-burgum",
+      "relationship_type": "rival",
+      "description": "Burgum ran against Trump for the 2024 Republican nomination, gained little traction, dropped out and quickly endorsed him.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://semafor.com/article/07/13/2024/breaking-down-donald-trumps-top-three-vp-finalists", "title": "Breaking down Donald Trump's top three VP finalists — Semafor" },
+        { "url": "https://www.valleynewslive.com/2024/06/06/what-does-burgum-top-three-trumps-vp-shortlist-say-about-his-chances/", "title": "What does Burgum in top three for Trump's VP shortlist say about his chances? — Valley News Live" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "enemy",
+      "description": "Singer tried to stop Trump in the 2016 primaries: the Washington Free Beacon, which he backs, first hired Fusion GPS in October 2015 to research Trump and other Republicans (the Free Beacon says none of its work ended up in the later Steele dossier). They grew closer after the inauguration.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.cnbc.com/2017/10/28/washington-free-beacon-first-commissioned-trump-russia-dossier.html", "title": "Washington Free Beacon first commissioned Trump-Russia dossier research — CNBC" },
+        { "url": "https://forward.com/fast-forward/386349/website-backed-by-paul-singer-funded-research-that-led-to-trump-russia-doss/", "title": "Website backed by Paul Singer funded research that led to Trump-Russia dossier — The Forward" }
+      ]
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "slug": "mark-zuckerberg",
+      "relationship_type": "donor",
+      "description": "Weeks after Zuckerberg dined with Trump at Mar-a-Lago in November 2024, Meta gave $1 million to Trump's inaugural fund; neither he nor Meta had given to Trump's 2017 or Biden's 2021 funds.",
+      "start_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.axios.com/2024/12/12/meta-trump-donation-inaugural-fund-zuckerberg", "title": "Meta gave $1 million to Trump's inaugural fund — Axios" },
+        { "url": "https://digital-release.thehill.com/?p=5036760", "title": "Meta donated $1M to Trump inaugural fund after Zuckerberg met with president-elect — The Hill" }
+      ]
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "slug": "mark-zuckerberg",
+      "relationship_type": "enemy",
+      "description": "Trump attacked Zuckerberg for years before their post-election rapprochement in late 2024.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://digital-release.thehill.com/?p=5036760", "title": "Meta donated $1M to Trump inaugural fund after Zuckerberg met with president-elect — The Hill" }
+      ]
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "slug": "benjamin-netanyahu",
+      "relationship_type": "ally",
+      "description": "Netanyahu made his closeness to Trump central to his political appeal.",
+      "start_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu", "title": "Benjamin Netanyahu — Wikipedia" },
+        { "url": "https://www.timesofisrael.com/netanyahu-plays-a-trump-card-as-elections-near/", "title": "Netanyahu plays his 'Trump card' as elections near — Times of Israel" },
+        { "url": "https://www.npr.org/2019/04/01/708206468/netanyahus-tough-election-campaign-approach-appears-to-channel-trump", "title": "Netanyahu's tough election campaign approach appears to channel Trump — NPR" }
+      ]
+    },
+    {
+      "name": "Steve Witkoff",
+      "slug": "steve-witkoff",
+      "relationship_type": "employee",
+      "description": "Friends since a 1986 real estate deal and golf partners (Witkoff was on the course during the September 2024 assassination attempt); Witkoff has given millions to Trump's causes and Trump made him special envoy in 2025.",
+      "start_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.ksat.com/news/world/2025/03/13/steve-witkoff-has-gone-from-spotting-trump-cash-at-a-deli-to-helping-him-navigate-ukraine-and-gaza/", "title": "Steve Witkoff has gone from spotting Trump cash at a deli to helping him navigate Ukraine and Gaza — AP" },
+        { "url": "https://www.nbcnews.com/news/world/witkoff-trump-gaza-hamas-israel-ceasefire-envoy-rcna187954", "title": "How an NYC real estate tycoon became Trump's man in the room for Gaza negotiations — NBC News" },
+        { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Kellyanne Conway",
+      "slug": "kellyanne-conway",
+      "relationship_type": "employee",
+      "description": "Trump made Conway his campaign manager in August 2016 and counselor to the president from 2017 to 2020.",
+      "start_year": 2016,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kellyanne_Conway", "title": "Kellyanne Conway — Wikipedia" },
+        { "url": "https://fortune.com/2016/08/17/donald-trump-campaign-steve-bannon-kellyanne-conway/", "title": "Donald Trump campaign shake-up: Steve Bannon and Kellyanne Conway — Fortune" }
+      ]
+    },
+    {
+      "name": "Gene Hamilton",
+      "slug": "gene-hamilton",
+      "relationship_type": "employee",
+      "description": "Hamilton served in Trump's first-term Justice and Homeland Security departments and as deputy White House counsel from January to June 2025.",
+      "start_year": 2017,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://projects.propublica.org/trump-team-financial-disclosures/appointees/hamilton-gene", "title": "Gene Hamilton — ProPublica Trump Team financial disclosures" },
+        { "url": "https://fedsoc.org/bio/gene-hamilton", "title": "Gene Hamilton — Federalist Society" }
+      ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "donor",
+      "description": "MAGA Inc., his main super PAC, spent about $376.9 million on independent expenditures in the 2024 cycle, mostly backing him.",
+      "start_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/10/maga-inc-3/", "title": "MAGA Inc. — FactCheck.org" },
+        { "url": "https://www.factcheck.org/2024/01/maga-inc-2", "title": "MAGA Inc. — FactCheck.org (2024)" }
+      ]
+    },
+    {
+      "name": "America PAC",
+      "slug": "america-pac",
+      "relationship_type": "donor",
+      "description": "Musk's America PAC ran much of his 2024 swing-state canvassing.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Claremont Institute",
+      "slug": "claremont-institute",
+      "relationship_type": "ally",
+      "description": "The Claremont Institute was an early intellectual defender of Trump, supplied ideas and staff to his first administration, and received a National Humanities Medal from him in 2019.",
+      "start_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Claremont_Institute", "title": "Claremont Institute — Wikipedia" },
+        { "url": "https://www.neh.gov/news/claremont-awarded-national-humanities-medal", "title": "Claremont awarded National Humanities Medal — National Endowment for the Humanities" },
+        { "url": "https://trumpwhitehouse.archives.gov/briefings-statements/remarks-president-trump-presentation-national-medal-arts-national-humanities-medal", "title": "Remarks by President Trump at presentation of the National Medal of Arts and National Humanities Medal — White House archives" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "employee",
+      "description": "Trump put Musk in charge of the Department of Government Efficiency (DOGE) in 2025; Musk led it for about four months.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
+        { "url": "https://www.foxnews.com/politics/elon-musk-officially-steps-down-from-doge-after-wrapping-his-work-streamlining-federal-government", "title": "Fox News: Elon Musk officially steps down from role at DOGE" },
+        { "url": "https://www.foxnews.com/politics/trump-posts-video-thanking-elon-musk-billionaire-ends-white-house-tenure", "title": "Fox News: Trump awards Musk \"key to White House\" as he concludes DOGE role" }
+      ]
+    },
+    {
+      "name": "Restoration of America PAC",
+      "slug": "restoration-pac",
+      "relationship_type": "donor",
+      "description": "Uihlein's Restoration PAC, described as a leading pro-Trump super PAC, spent over $34 million against Kamala Harris in 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Preserve America PAC",
+      "slug": "preserve-america-pac",
+      "relationship_type": "donor",
+      "description": "Preserve America PAC, funded mainly by the Adelsons, spent more than $100 million backing him in each of the 2020 and 2024 elections.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" },
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" },
+        { "url": "https://forward.com/fast-forward/665095/miriam-adelson-donates-100m-to-trump-campaign-making-good-on-reported-promise/", "title": "Miriam Adelson donates $100M to Trump campaign — The Forward" },
+        { "url": "https://lasvegassun.com/news/2024/sep/24/las-vegas-miriam-adelsons-super-pac-fuels-swing-st", "title": "Miriam Adelson’s super PAC fuels swing-state ads — Las Vegas Sun" }
+      ]
+    },
+    {
+      "name": "ActBlue",
+      "slug": "actblue",
+      "relationship_type": "enemy",
+      "description": "In April 2025 Trump ordered the Justice Department to investigate ActBlue over alleged straw and foreign donations, giving Attorney General Pam Bondi 180 days to report back; ActBlue called it an attack and vowed to fight it in court.",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/trump-administration/trump-expected-sign-memo-targeting-act-blue-rcna202673", "title": "Trump expected to sign memo targeting ActBlue — NBC News" },
+        { "url": "https://www.democracydocket.com/news-alerts/trump-orders-probe-against-democratic-fundraising-platform-actblue/", "title": "Trump orders probe against Democratic fundraising platform ActBlue — Democracy Docket" }
+      ]
+    },
+    {
+      "name": "Wes Moore",
+      "slug": "wes-moore",
+      "relationship_type": "enemy",
+      "description": "In 2025 Trump threatened to send the National Guard into Baltimore to fight crime; Moore said homicides were at historic lows, the Guard was unnecessary, and he would accept FBI and ATF help instead.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2028-election/maryland-governor-wes-moore-ruling-out-presidential-run-redistricting-rcna229615", "title": "Maryland Gov. Wes Moore rules out presidential run — NBC News" },
+        { "url": "https://www.thebanner.com/politics-power/state-government/donald-trump-wes-moore-political-risk-CZFDWRORKNANVKB4DUE5HLWLBY/", "title": "Donald Trump and Wes Moore — The Baltimore Banner" },
+        { "url": "https://www.washingtonexaminer.com/news/white-house/3780476/trump-wes-moore-baltimore-crime-national-guard-deployment/", "title": "Washington Examiner: Trump and Wes Moore trade barbs about Baltimore crime and National Guard" },
+        { "url": "https://www.breitbart.com/politics/2025/08/24/trump-calls-for-gov-wes-moore-to-clean-up-crime-ridden-baltimore-stop-talking-and-get-to-work/", "title": "Breitbart: Trump calls for Wes Moore to clean up Baltimore" },
+        { "url": "https://www.washingtontimes.com/news/2025/aug/31/wes-moore-md-governor-trumps-use-national-guard-police-cities-serious/", "title": "Washington Times: Moore says Trump’s use of the Guard to police cities \"not a serious approach\"" }
+      ]
+    },
+    {
+      "name": "Byron Donalds",
+      "slug": "byron-donalds",
+      "relationship_type": "ally",
+      "description": "Donalds endorsed Trump early for 2024 over DeSantis; Trump endorsed him for Florida governor in February 2025, before he had entered the race, and again in May 2026 (\"Complete and Total Endorsement\").",
+      "start_year": 2023,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://wusf.org/text/politics-issues/2025-02-26/byron-donalds-endorsed-trump-running-for-florida-governor", "title": "Byron Donalds, endorsed by Trump, says he's running for Florida governor — WUSF" },
+        { "url": "https://www.washingtonexaminer.com/?p=4583091", "title": "Trump gives Byron Donalds 'complete and total endorsement' — Washington Examiner" }
+      ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "employee",
+      "description": "Trump picked Helberg, a 2024 donor, as Under Secretary of State for economic affairs; he took office on October 16, 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.advocate.com/politics/trump-appoints-jacob-helberg-state", "title": "The Advocate: Trump appoints Jacob Helberg to State Department role" },
+        { "url": "https://www.jns.org/trump-nominee-for-economic-role-is-jewish-pro-israel-author-national-security-adviser/", "title": "JNS: Trump nominee for economic role is Jewish, pro-Israel author and national security adviser" },
+        { "url": "https://www.state.gov/biographies/jacob-helberg", "title": "U.S. Department of State: Jacob Helberg biography" }
+      ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "donor",
+      "description": "Jacob Helberg, a Democratic donor in 2020, gave $1 million to back Trump in May 2024. FEC filings show $868,171 from Jacob Helberg to Trump 47 Committee, Inc., Trump Save America Joint Fundraising Committee, Save America and others in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://jewishinsider.com/2024/05/silicon-valley-donor-jacob-helberg-biden-trump-anti-israel-left/", "title": "Jewish Insider: Silicon Valley donor Jacob Helberg cites anti-Israel left in shift from Biden to Trump" },
+        { "url": "https://www.dailywire.com/news/democrat-fundraiser-from-silicon-valley-donates-1m-to-trump", "title": "Daily Wire: Democrat fundraiser from Silicon Valley donates $1M to Trump" },
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00770941&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Trump Save America Joint Fundraising Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HELBERG%2C+JACOB&committee_id=C00762591&two_year_transaction_period=2024", "title": "FEC receipts: HELBERG, JACOB to Save America" }
+      ]
+    },
+    {
+      "name": "Nigel Farage",
+      "slug": "nigel-farage",
+      "relationship_type": "friend",
+      "description": "Trump and Farage have been friends since Farage campaigned for him in 2016, a friendship reporting says has continued into 2026.",
+      "start_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Nigel_Farage", "title": "Nigel Farage — Wikipedia" },
+        { "url": "https://www.gbnews.com/politics/nigel-farage-donald-trump-problem-polls", "title": "How Nigel Farage's 'Donald Trump problem' risks narrowing Reform's path to power — GB News" }
+      ]
+    },
+    {
+      "name": "Steve Witkoff",
+      "slug": "steve-witkoff",
+      "relationship_type": "friend",
+      "description": "Friends since a 1986 real estate deal and regular golf partners; Witkoff was on the course with Trump during the September 2024 assassination attempt.",
+      "start_year": 1986,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.ksat.com/news/world/2025/03/13/steve-witkoff-has-gone-from-spotting-trump-cash-at-a-deli-to-helping-him-navigate-ukraine-and-gaza/", "title": "Steve Witkoff has gone from spotting Trump cash at a deli to helping him navigate Ukraine and Gaza — AP" },
+        { "url": "https://www.nbcnews.com/news/world/witkoff-trump-gaza-hamas-israel-ceasefire-envoy-rcna187954", "title": "How an NYC real estate tycoon became Trump's man in the room for Gaza negotiations — NBC News" },
+        { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jeffrey Epstein",
+      "slug": "jeffrey-epstein",
+      "relationship_type": "friend",
+      "description": "Trump and Epstein socialized from the late 1980s into the early 2000s; in a 2002 New York magazine profile Trump said he had known Epstein for 15 years and called him a “terrific guy,” and flight logs entered at Ghislaine Maxwell’s 2021 trial show Trump on Epstein’s plane several times between 1993 and 1997. Public sightings ended around 2004, when they bid against each other for a Palm Beach mansion; Trump has said they had a falling out, that he threw Epstein out of Mar-a-Lago and “wasn’t a fan.” In July 2025 Trump sued the Wall Street Journal over its report of a 2003 birthday letter it attributed to him, which he denies writing.",
+      "start_year": 1987,
+      "end_year": 2004,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.snopes.com/fact-check/trump-epstein-terrific-guy/", "title": "Snopes: Did Trump call Epstein a \"terrific guy\"?" },
+        { "url": "https://abcnews.com/Politics/timeline-trump-epsteins-relationship-trump-falling/story?id=124241038", "title": "ABC News: Timeline of Trump and Epstein’s relationship" },
+        { "url": "https://www.aljazeera.com/news/2025/7/18/how-well-did-trump-and-epstein-really-know-each-other-a-timeline", "title": "Al Jazeera: How well did Trump and Epstein really know each other? A timeline" },
+        { "url": "https://www.axios.com/2025/07/18/wall-street-journal-trump-epstein-letter", "title": "Axios: Trump sues Wall Street Journal for libel over Epstein letter" }
+      ]
+    },
+    {
+      "name": "Dan Scavino",
+      "slug": "dan-scavino",
+      "relationship_type": "employee",
+      "description": "Has worked for Trump since caddying for him in 1990: golf-club manager, social media director in the first term, and deputy chief of staff and personnel chief in the second.",
+      "start_year": 1990,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dan_Scavino", "title": "Dan Scavino — Wikipedia" },
+        { "url": "https://www.notus.org/trump-white-house/trump-dan-scavino-white-house-personnel-office", "title": "Trump taps longtime loyalist to lead White House personnel office — NOTUS" }
+      ]
+    },
+    {
+      "name": "Will Scharf",
+      "slug": "will-scharf",
+      "relationship_type": "employee",
+      "description": "One of Trump’s personal lawyers in his criminal cases, then his staff secretary from 2025 and White House counsel from September 2026.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Will_Scharf", "title": "Will Scharf — Wikipedia" },
+        { "url": "https://abcnews.com/Politics/wireStory/trump-announces-staff-secretary-scharf-new-white-house-135505179", "title": "Trump announces staff secretary Will Scharf will be his new White House counsel — ABC News (AP)" }
+      ]
+    },
+    {
+      "name": "Kevin Hassett",
+      "slug": "kevin-hassett",
+      "relationship_type": "employee",
+      "description": "Chaired Trump’s Council of Economic Advisers (2017–2019) and has directed his National Economic Council since 2025.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.britannica.com/money/Kevin-Hassett", "title": "Kevin Hassett — Britannica" }
+      ]
+    },
+    {
+      "name": "Vince Haley",
+      "slug": "vince-haley",
+      "relationship_type": "employee",
+      "description": "Trump’s speechwriter in the first term and the 2024 campaign; his domestic policy chief since 2025.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.aol.com/trump-names-speechwriter-vince-haley-021527103.html", "title": "Trump names speechwriter Vince Haley as Domestic Policy Council chief — Reuters via AOL" },
+        { "url": "https://en.wikipedia.org/wiki/Vince_Haley", "title": "Vince Haley — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Tom Homan",
+      "slug": "tom-homan",
+      "relationship_type": "employee",
+      "description": "Ran ICE as acting director in Trump’s first term; his border czar since 2025.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://wbhm.org/npr-story/what-to-know-about-tom-homan-the-former-ice-head-returning-as-trumps-border-czar", "title": "What to know about Tom Homan, the former ICE head returning as Trump’s ‘border czar’ — NPR via WBHM" },
+        { "url": "https://en.wikipedia.org/wiki/Tom_Homan", "title": "Tom Homan — Wikipedia" }
+      ]
+    },
+    {
+      "name": "James Blair",
+      "slug": "james-blair",
+      "relationship_type": "employee",
+      "description": "Political director of Trump’s 2024 campaign, deputy chief of staff from 2025, and head of his 2026 midterm operation.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" },
+        { "url": "https://www.bloomberg.com/news/articles/2026-04-10/top-white-house-aide-weighing-temporary-exit-for-midterms-role", "title": "Top Trump aide takes up temporary role to boost GOP in midterms — Bloomberg" }
+      ]
+    },
+    {
+      "name": "Christopher Landau",
+      "slug": "christopher-landau",
+      "relationship_type": "employee",
+      "description": "Trump’s ambassador to Mexico (2019–2021) and deputy secretary of state since 2025.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" },
+        { "url": "https://mexiconewsdaily.com/news/trump-landau-ambassador-to-mexico-deputy-secretary-of-state/", "title": "Trump picks former ambassador to Mexico Landau as deputy secretary of state — Mexico News Daily" }
+      ]
+    },
+    {
+      "name": "Kash Patel",
+      "slug": "kash-patel",
+      "relationship_type": "employee",
+      "description": "Held national-security posts in Trump’s first term and was his pick to run the FBI in the second.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kash_Patel", "title": "Kash Patel — Wikipedia" },
+        { "url": "https://www.tribuneindia.com/news/world/indian-origin-kash-patel-confirmed-as-fbi-director-by-us-senate", "title": "Kash Patel confirmed as FBI director by US Senate — The Tribune" }
+      ]
+    },
+    {
+      "name": "John Ratcliffe",
+      "slug": "john-ratcliffe",
+      "relationship_type": "employee",
+      "description": "Trump’s director of national intelligence (2020–2021) and CIA director since 2025.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/John_Ratcliffe", "title": "John Ratcliffe — Wikipedia" },
+        { "url": "https://www.pbs.org/newshour/politics/senate-confirms-john-ratcliffe-as-cia-director-giving-trump-his-2nd-cabinet-member", "title": "Senate confirms John Ratcliffe as CIA director — PBS NewsHour (AP)" }
+      ]
+    },
+    {
+      "name": "Jay Clayton",
+      "slug": "jay-clayton",
+      "relationship_type": "employee",
+      "description": "Trump’s SEC chairman (2017–2020), then his U.S. attorney in Manhattan and, from 2026, director of national intelligence.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jay_Clayton_(attorney)", "title": "Jay Clayton (attorney) — Wikipedia" },
+        { "url": "https://www.npr.org/2026/07/29/nx-s1-5910749/senate-confirms-jay-clayton-as-director-of-national-intelligence", "title": "Senate confirms Jay Clayton as director of national intelligence — NPR" }
+      ]
+    },
+    {
+      "name": "Mike Johnson",
+      "slug": "mike-johnson",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Johnson for Speaker and Johnson ran the House closely in step with him, talking to him more often than Senate leader Thune and leaning on him to end revolts; NOTUS reported he ceded some of the Speaker’s powers to Trump.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=4603630", "title": "FISA spat puts Johnson’s alliance with Trump to the test — Washington Examiner" },
+        { "url": "https://www.notus.org/congress/mike-johnson-speaker-of-the-house", "title": "It’s Johnson’s gavel but Trump’s House — NOTUS" }
+      ]
+    },
+    {
+      "name": "John Thune",
+      "slug": "john-thune",
+      "relationship_type": "ally",
+      "description": "Led Trump’s agenda through the Senate as majority leader from 2025, though he spoke with Trump less often than Speaker Johnson did.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/John_Thune", "title": "John Thune — Wikipedia" },
+        { "url": "https://www.washingtonexaminer.com/?p=4603630", "title": "FISA spat puts Johnson’s alliance with Trump to the test — Washington Examiner" }
+      ]
+    },
+    {
+      "name": "Hakeem Jeffries",
+      "slug": "hakeem-jeffries",
+      "relationship_type": "enemy",
+      "description": "Leads the House Democratic opposition to Trump; said after the 2026 midterms that he had not spoken with Trump since the results.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house", "title": "House Democratic Leader Hakeem Jeffries declares “America is back” — NPR" },
+        { "url": "https://thehill.com/homenews/6198897-jeffries-ribs-johnson-midterms/", "title": "Jeffries taunts Speaker Johnson for saying polls were wrong — The Hill" }
+      ]
+    },
+    {
+      "name": "Chuck Schumer",
+      "slug": "chuck-schumer",
+      "relationship_type": "enemy",
+      "description": "Long-time fellow New Yorkers and leading antagonists: in 2026 they traded attacks over the Gateway tunnel, ICE funding and elections, though they held a rare one-on-one White House meeting in January and Axios called the relationship “complicated.”",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2026/02/13/trump-schumer-new-york-witkoff-lutnick", "title": "Inside the “complicated” Trump–Schumer relationship — Axios" },
+        { "url": "https://www.semafor.com/article/02/03/2026/trump-and-schumer-find-themselves-forced-to-work-together-again", "title": "Trump and Schumer forced to work together, again — Semafor" },
+        { "url": "https://rollcall.com/2026/02/10/trumps-jabs-at-top-democrat-could-complicate-immigration-enforcement-deal/", "title": "Trump’s jabs at top Democrat could complicate immigration enforcement deal — Roll Call" }
+      ]
+    },
+    {
+      "name": "Darren Beattie",
+      "slug": "darren-beattie",
+      "relationship_type": "employee",
+      "description": "A Trump White House speechwriter until he was fired in 2018; brought back as a State Department appointee in 2025.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://wtop.com/national/2025/07/official-fired-during-trumps-first-term-appointed-president-of-embattled-us-institute-of-peace/", "title": "Official fired during Trump’s first term appointed president of embattled US Institute of Peace — AP via WTOP" },
+        { "url": "https://en.wikipedia.org/wiki/Darren_Beattie", "title": "Darren Beattie — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Dan Caine",
+      "slug": "dan-caine",
+      "relationship_type": "employee",
+      "description": "Trump chose him as the top military officer in 2025; he is the President’s principal military adviser.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://defensescoop.com/2025/04/11/dan-caine-chairman-joint-chiefs-trump-military-adviser/", "title": "Caine confirmed as chairman of the Joint Chiefs of Staff — DefenseScoop" },
+        { "url": "https://www.jcs.mil/Leadership/Article-View/Article/1974872/gen-dan-caine/", "title": "Gen. Dan Caine — Joint Chiefs of Staff" }
+      ]
+    },
+    {
+      "name": "Sean Curran",
+      "slug": "sean-curran",
+      "relationship_type": "colleague",
+      "description": "Led Trump’s protective detail, including at the 2024 Butler assassination attempt, before Trump made him Secret Service director.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sean_Curran_(Secret_Service)", "title": "Sean Curran (Secret Service) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "D. John Sauer",
+      "slug": "john-sauer",
+      "relationship_type": "employee",
+      "description": "Argued Trump’s immunity case at the Supreme Court in 2024; his solicitor general since 2025.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/us-law-week/trump-lawyer-john-sauer-confirmed-as-us-solicitor-general", "title": "Trump lawyer John Sauer confirmed as US solicitor general — Bloomberg Law" },
+        { "url": "https://en.wikipedia.org/wiki/D._John_Sauer", "title": "D. John Sauer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Mehmet Oz",
+      "slug": "mehmet-oz",
+      "relationship_type": "ally",
+      "description": "Trump endorsed his 2022 Senate run and appointed him to run Medicare and Medicaid.",
+      "start_year": 2022,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mehmet_Oz", "title": "Mehmet Oz — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Monica Crowley",
+      "slug": "monica-crowley",
+      "relationship_type": "employee",
+      "description": "Served in his first-term Treasury and as his chief of protocol since 2025.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Monica_Crowley", "title": "Monica Crowley — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Chief_of_Protocol_of_the_United_States", "title": "Chief of Protocol of the United States — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Mike Waltz",
+      "slug": "mike-waltz",
+      "relationship_type": "employee",
+      "description": "Trump’s first national security adviser (2025), then his U.N. ambassador.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" }
+      ]
+    },
+    {
+      "name": "World Liberty Financial",
+      "slug": "world-liberty-financial",
+      "relationship_type": "co-founder",
+      "description": "Co-founded the family crypto company in 2024 as its “chief crypto advocate”; co-founder emeritus since taking office. His family’s DT Marks DEFI LLC holds a large stake and a Trump entity takes 75% of token-sale revenue; his 2025 disclosure reported almost $800 million from it.",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" },
+        { "url": "https://finance.yahoo.com/news/trump-family-took-over-world-093753031.html", "title": "How the Trump family took over World Liberty Financial — Reuters via Yahoo Finance" },
+        { "url": "https://www.nbcnews.com/tech/crypto/trump-family-gets-75-crypto-coin-revenue-no-liability-new-document-rev-rcna176088", "title": "Trump family gets 75% of crypto coin revenue, has no liability, new document reveals — NBC News" },
+        { "url": "https://www.thestar.com.my/news/world/2026/07/01/trump-reports-over-14-billion-in-income-from-crypto-ventures", "title": "Trump reports over $1.4 billion in income from crypto ventures — Reuters via The Star (July 2026)" },
+        { "url": "https://benzinga.com/crypto/cryptocurrency/26/11/62972786/trump-linked-world-liberty-plans-buyback-as-wlfi-falls-8", "title": "Trump-linked World Liberty plans buyback as WLFI falls 8% — Benzinga (November 2026)" }
+      ]
+    },
+    {
+      "name": "Eric Trump",
+      "slug": "eric-trump",
+      "relationship_type": "family",
+      "description": "His son; runs the Trump Organization with Donald Jr. and leads the family’s crypto ventures.",
+      "start_year": 1984,
+      "confidence": 1,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" },
+        { "url": "https://www.foxnews.com/politics/rnc-speakers-what-to-know-about-eric-trump", "title": "RNC Speakers: What to know about Eric Trump — Fox News" },
+        { "url": "https://www.cnbc.com/video/2024/12/09/watch-cnbcs-full-interview-with-eric-trump.html", "title": "Watch CNBC's full interview with Eric Trump — CNBC" }
+      ]
+    },
+    {
+      "name": "Chris Buskirk",
+      "slug": "chris-buskirk",
+      "relationship_type": "donor",
+      "description": "FEC filings show $210,000 from Chris Buskirk to Trump 47 Committee, Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to Trump 47 Committee, Inc." }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "donor",
+      "description": "FEC filings show $256,600 from David Sacks to Trump 47 Committee, Inc., Never Surrender, Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Never Surrender, Inc." }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "donor",
+      "description": "FEC filings show $932,900 from Elon Musk to Trump 47 Committee, Inc., Never Surrender, Inc., Save America in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00867937&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00828541&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Never Surrender, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00762591&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Save America" }
+      ]
+    },
+    {
+      "name": "Frank Bisignano",
+      "slug": "frank-bisignano",
+      "relationship_type": "donor",
+      "description": "FEC filings show $127,800 from Frank Bisignano to Trump Victory, Donald J. Trump for President, Inc. in the 2020 cycle.",
+      "start_year": 2019,
+      "end_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: BISIGNANO, FRANK to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&committee_id=C00580100&two_year_transaction_period=2020", "title": "FEC receipts: BISIGNANO, FRANK to Donald J. Trump for President, Inc." }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "donor",
+      "description": "FEC filings show $361,600 from Keith Rabois to Trump 47 Committee, Inc., Right for America, Save America and others in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00867036&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Right for America" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00762591&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Save America" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $426,200 from Paul Singer to Trump 47 Committee, Inc., Never Surrender, Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Never Surrender, Inc." }
+      ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $478,000 from Rebekah Mercer to Trump Victory, Donald J. Trump for President, Inc., Trump Save America Joint Fundraising Committee and others in 2 cycles (2016–2024).",
+      "start_year": 2016,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, REBEKAH to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, REBEKAH to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00770941&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, REBEKAH to Trump Save America Joint Fundraising Committee" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $1,131,000 from Stephen Schwarzman to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. and others in 3 cycles (2018–2024).",
+      "start_year": 2017,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Trump 47 Committee, Inc." }
+      ]
+    },
+    {
+      "name": "Zach Witkoff",
+      "slug": "zach-witkoff",
+      "relationship_type": "donor",
+      "description": "FEC filings show $255,400 from Zach Witkoff to Trump Victory, Donald J. Trump for President, Inc. in 2 cycles (2018–2020).",
+      "start_year": 2018,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: WITKOFF, ZACH to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00580100&two_year_transaction_period=2020", "title": "FEC receipts: WITKOFF, ZACH to Donald J. Trump for President, Inc." }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "When Trump took over the family business",
+      "details": "Wikipedia says he became president of the family real estate business in 1971 and renamed it the Trump Organization; Britannica says he became president of the Trump-owned companies in 1974.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Donald_Trump", "title": "Donald Trump — Wikipedia" },
+        { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Records for Miller, Sessions and Ellison mirror the records already in their files. Some midterm races were still being counted when the cited results were published. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "President of the United States",
+    "unit": "white-house",
+    "rank": 1,
+    "since": "2025-01-20",
+    "sources": [
+      { "url": "https://www.britannica.com/biography/Donald-Trump", "title": "Donald Trump — Britannica" }
+    ]
+  }
+}

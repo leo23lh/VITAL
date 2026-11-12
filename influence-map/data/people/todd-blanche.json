@@ -1,0 +1,196 @@
+{
+  "name": "Todd Blanche",
+  "aliases": ["Todd Wallace Blanche"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": 2023,
+      "basis": "A registered Democrat in New York before he began representing Trump.",
+      "sources": [
+        { "url": "https://dallasexpress.com/national/who-is-todd-blanche-democrat-turned-republican-now-acting-attorney-general/", "title": "Dallas Express: Who is Todd Blanche, Democrat turned Republican" },
+        { "url": "https://www.axios.com/2026/04/02/trump-todd-blanche-acting-attorney-general", "title": "Axios: What to know about Todd Blanche, Trump's new acting attorney general" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2024,
+      "end_year": null,
+      "basis": "Switched his registration to Republican in 2024; Trump's criminal defense lawyer, then deputy attorney general and attorney general.",
+      "sources": [
+        { "url": "https://dallasexpress.com/national/who-is-todd-blanche-democrat-turned-republican-now-acting-attorney-general/", "title": "Dallas Express: Who is Todd Blanche, Democrat turned Republican" },
+        { "url": "https://www.opb.org/article/2026/08/08/senate-votes-to-confirm-todd-blanche-as-attorney-general/", "title": "NPR via OPB: Senate votes to confirm Todd Blanche as attorney general" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "todd-blanche.jpg",
+    "credit": "Ryan M. Biller",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:AG_Todd_Blanche_Official_Portrait.jpg", "title": "File:AG Todd Blanche Official Portrait.jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. Attorney General (acting from April 2026; confirmed August 2026)",
+  "summary": "Todd Blanche, a former federal prosecutor in the Southern District of New York, led Donald Trump's defense in the 2024 New York hush-money trial and in his federal cases. Confirmed as deputy attorney general in March 2025, he became acting attorney general when Trump fired Pam Bondi in April 2026 and was confirmed 50–49 in August 2026.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Todd_Blanche", "title": "Wikipedia: Todd Blanche" },
+    { "url": "https://www.axios.com/2026/04/02/trump-todd-blanche-acting-attorney-general", "title": "Axios: What to know about Todd Blanche, Trump's new acting attorney general" },
+    { "url": "https://www.opb.org/article/2026/08/08/senate-votes-to-confirm-todd-blanche-as-attorney-general/", "title": "NPR via OPB: Senate votes to confirm Todd Blanche as attorney general" }
+  ],
+  "timeline": [
+    {
+      "year": 2006,
+      "end_year": 2014,
+      "role": "Assistant U.S. attorney",
+      "org": "U.S. Attorney's Office for the Southern District of New York",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Todd_Blanche", "title": "Wikipedia: Todd Blanche" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2023,
+      "role": "Partner (represented Paul Manafort, Igor Fruman and Boris Epshteyn)",
+      "org": "Cadwalader, Wickersham & Taft",
+      "sources": [
+        { "url": "https://www.nytimes.com/2023/04/03/nyregion/trump-indictment-lawyer-blanche.html", "title": "New York Times: Todd Blanche joins Trump's defense" },
+        { "url": "https://www.nytimes.com/2019/06/17/nyregion/manafort-rikers.html", "title": "New York Times: Manafort case" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": 2024,
+      "role": "Lead defense lawyer in Trump's New York hush-money trial and in his federal cases",
+      "org": "Blanche Law",
+      "sources": [
+        { "url": "https://www.nytimes.com/2023/04/03/nyregion/trump-indictment-lawyer-blanche.html", "title": "New York Times: Todd Blanche joins Trump's defense" },
+        { "url": "https://en.wikipedia.org/wiki/Todd_Blanche", "title": "Wikipedia: Todd Blanche" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Deputy Attorney General (confirmed March 2025)",
+      "org": "U.S. Department of Justice",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Todd_Blanche", "title": "Wikipedia: Todd Blanche" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Attorney General (acting from April 2; confirmed 50–49 on August 8, 2026)",
+      "org": "U.S. Department of Justice",
+      "sources": [
+        { "url": "https://www.opb.org/article/2026/08/08/senate-votes-to-confirm-todd-blanche-as-attorney-general/", "title": "NPR via OPB: Senate votes to confirm Todd Blanche as attorney general" },
+        { "url": "https://news.bloomberglaw.com/us-law-week/todd-blanche-confirmed-by-senate-as-trumps-attorney-general", "title": "Bloomberg Law: Todd Blanche confirmed as Trump's attorney general" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump hired Blanche as his criminal defense lawyer in April 2023, then made him deputy attorney general (2025) and attorney general (2026).",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.nytimes.com/2023/04/03/nyregion/trump-indictment-lawyer-blanche.html", "title": "New York Times: Todd Blanche joins Trump's defense" },
+        { "url": "https://www.opb.org/article/2026/08/08/senate-votes-to-confirm-todd-blanche-as-attorney-general/", "title": "NPR via OPB: Senate votes to confirm Todd Blanche as attorney general" }
+      ]
+    },
+    {
+      "name": "Pam Bondi",
+      "slug": "pam-bondi",
+      "relationship_type": "employer",
+      "description": "Blanche was deputy attorney general under Bondi from March 2025 until Trump fired her in April 2026, when he succeeded her.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2026/04/02/trump-todd-blanche-acting-attorney-general", "title": "Axios: What to know about Todd Blanche, Trump's new acting attorney general" },
+        { "url": "https://en.wikipedia.org/wiki/Todd_Blanche", "title": "Wikipedia: Todd Blanche" }
+      ]
+    },
+    {
+      "name": "Trent McCotter",
+      "slug": "trent-mccotter",
+      "relationship_type": "employee",
+      "description": "Blanche made McCotter his principal associate deputy in April 2026, and he has been acting deputy attorney general since Blanche moved up in August.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/us-law-week/blanche-fills-doj-leadership-position-in-first-post-bondi-move", "title": "Blanche fills DOJ leadership position in first post-Bondi move — Bloomberg Law" },
+        { "url": "https://news.bloomberglaw.com/us-law-week/blanches-doj-deputy-options-risk-renewed-settlement-fund-fight", "title": "Blanche’s DOJ deputy options risk renewed settlement fund fight — Bloomberg Law" }
+      ]
+    },
+    {
+      "name": "Kash Patel",
+      "slug": "kash-patel",
+      "relationship_type": "employee",
+      "description": "The FBI sits under the attorney general; Blanche has been Patel’s boss since April 2026 (acting) and August 2026 (confirmed).",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/justice-department/fbi-director-kash-patel-clashes-democrats-oversight-hearing-rcna597915", "title": "FBI Director Kash Patel clashes with Democrats at oversight hearing — NBC News (September 2026)" },
+        { "url": "https://en.wikipedia.org/wiki/Kash_Patel", "title": "Kash Patel — Wikipedia" }
+      ]
+    },
+    {
+      "name": "D. John Sauer",
+      "slug": "john-sauer",
+      "relationship_type": "employee",
+      "description": "The Justice Department’s Supreme Court advocate, under the attorney general.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.hstoday.us/industry/people-on-the-move/dean-john-sauer-confirmed-as-u-s-solicitor-general-in-52-45-senate-vote/", "title": "Dean John Sauer confirmed as U.S. Solicitor General in 52–45 Senate vote — HSToday" }
+      ]
+    },
+    {
+      "name": "Robert Cekada",
+      "slug": "robert-cekada",
+      "relationship_type": "employee",
+      "description": "Confirmed to run ATF in April 2026 and announced its rule changes alongside Blanche.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://rollcall.com/2026/04/29/senate-confirms-atf-director-who-announces-new-rules/", "title": "Senate confirms ATF director, who announces new rules — Roll Call" }
+      ]
+    },
+    {
+      "name": "Terrance Cole",
+      "slug": "terrance-cole",
+      "relationship_type": "employee",
+      "description": "Runs the DEA inside the Justice Department.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Justice_appointments_by_Donald_Trump", "title": "List of Department of Justice appointments by Donald Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Attorney General",
+    "unit": "justice",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2026-04",
+    "sources": [
+      { "url": "https://www.axios.com/2026/04/02/trump-todd-blanche-acting-attorney-general", "title": "Axios: What to know about Todd Blanche, Trump's new acting attorney general" },
+      { "url": "https://www.opb.org/article/2026/08/08/senate-votes-to-confirm-todd-blanche-as-attorney-general/", "title": "NPR via OPB: Senate votes to confirm Todd Blanche as attorney general" }
+    ]
+  }
+}

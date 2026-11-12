@@ -1,0 +1,1485 @@
+{
+  "name": "Richard Uihlein",
+  "aliases": ["Dick Uihlein", "Richard E. Uihlein"],
+  "public_figure": true,
+  "sector": "business",
+  "groups": [],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Gives almost only to Republicans and conservative groups, often the insurgent hard right: Ted Cruz and Scott Walker in 2016, then Trump; Club for Growth; Restoration PAC, his own super PAC, which ran over $34M of ads against Kamala Harris in 2024. The Washington Post says the couple have helped push the party further right.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+        { "url": "https://www.washingtonpost.com/politics/interactive/2025/top-20-billionaires-american-elections/", "title": "Top 20 billionaires influencing American politics — Washington Post" }
+      ]
+    }
+  ],
+  "current_role": "Co-founder and chairman of Uline; Republican megadonor and main funder of Restoration of America PAC",
+  "summary": "Richard \"Dick\" Uihlein co-founded the shipping-supplies company Uline with his wife Elizabeth in 1980; she is its CEO and he is chairman. The couple were the fourth-largest donors of 2024 and second only to Elon Musk in 2026, mostly through Restoration of America PAC, which he almost single-handedly funds, and Wisconsin Republican causes.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Uline", "title": "Uline — Wikipedia" },
+    { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" }
+  ],
+  "timeline": [
+    {
+      "year": 1980,
+      "end_year": null,
+      "role": "Co-founder; chairman",
+      "org": "Uline",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Uline", "title": "Uline — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Restoration of America PAC (formerly Restoration PAC)",
+      "role": "Main funder; more than $80M in the 2024 cycle",
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" }
+      ]
+    },
+    {
+      "name": "Liberty Principles PAC (Illinois)",
+      "role": "Major donor",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Club for Growth",
+      "role": "Donor",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "After Cruz and Walker dropped out in 2016 Uihlein backed Trump, giving to the pro-Trump Great America PAC and $500,000 to his inauguration. His 2024 money went through Restoration PAC. FEC filings show $1,038,000 from Richard Uihlein to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. and others in 3 cycles (2016–2024).",
+      "start_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+        { "url": "https://ballotpedia.org/Richard_Uihlein", "title": "Richard Uihlein — Ballotpedia (2016 super PAC gifts incl. Great America PAC)" },
+        { "url": "https://www.influencewatch.org/political-party/great-america-pac/", "title": "Great America PAC — InfluenceWatch" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Trump 47 Committee, Inc." }
+      ],
+      "end_year": 2024
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "funded_by",
+      "description": "Gave seven-figure sums to the pro-Cruz super PAC network in 2016, including $1 million to Keep the Promise PAC in January and $1 million to Trusted Leadership PAC in March. FEC filings show $49,600 from Richard Uihlein to Cruz for President, Jobs, Freedom, and Security PAC, Ted Cruz for Senate and others in 4 cycles (2016–2024).",
+      "start_year": 2014,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+        { "url": "https://www.washingtonexaminer.com/?p=365080", "title": "GOP donor bets big on Cruz — Washington Examiner" },
+        { "url": "https://publicintegrity.org/politics/pro-ted-cruz-super-pacs-mull-options-for-their-millions/", "title": "Pro-Ted Cruz super PACs mull options for their millions — Center for Public Integrity" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00574624&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Cruz for President" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Jobs, Freedom, and Security PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "funded_by",
+      "description": "Richard and Elizabeth Uihlein each gave at least $1 million to the pro-DeSantis super PAC in 2023. FEC filings show $1,526,900 from Richard Uihlein to Ron Desantis for Florida, Never Back Down Inc., Restore Our Nation (Ron PAC) and others in 2 cycles (2016–2024).",
+      "start_year": 2015,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnn.com/2023/07/31/politics/fec-filings-2024-pacs-donors", "title": "Takeaways from presidential super PACs' mid-year financial disclosures — CNN" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00511568&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Ron Desantis for Florida" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00834077&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Never Back Down Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Restore Our Nation (Ron PAC)" }
+      ]
+    },
+    {
+      "name": "Elizabeth Uihlein",
+      "slug": "elizabeth-uihlein",
+      "relationship_type": "family",
+      "description": "Wife; co-founder and CEO of Uline and co-donor; she focuses on the main Republican Party committees.",
+      "start_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Scott Walker",
+      "slug": "scott-walker",
+      "relationship_type": "funded_by",
+      "description": "Major donor to the former Wisconsin governor, including groups backing his 2016 presidential bid.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Tom Tiffany",
+      "slug": "tom-tiffany",
+      "relationship_type": "funded_by",
+      "description": "Money from the Uihleins went through the Wisconsin GOP to Tiffany's 2026 governor run, per a tally by his Democratic opponent's campaign.",
+      "start_year": 2026,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.wispolitics.com/2026/crowley-campaign-three-billionaires-have-dropped-another-24-million-to-buy-wisconsins-governors-office-for-congressman-tiffany/", "title": "Crowley campaign: Three billionaires have dropped another $24 million for Tiffany — WisPolitics (campaign press release)" }
+      ]
+    },
+    {
+      "name": "Turning Point USA",
+      "slug": "turning-point-usa",
+      "relationship_type": "funded_by",
+      "description": "Through the Ed Uihlein Family Foundation, which Richard Uihlein heads and mainly funds: $50,000 in 2014 and $250,000 in 2022 per its IRS filings; tallies of the total range from $275,000 to more than $2 million.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" },
+        { "url": "https://foxbusiness.com/politics/business-related-organizations-financially-supported-charlie-kirks-turning-point-usa-years", "title": "Business-related organizations financially supported Charlie Kirk's Turning Point USA for years — Fox Business" },
+        { "url": "https://sourcewatch.org/index.php/Contributions_of_the_Ed_Uihlein_Family_Foundation", "title": "Contributions of the Ed Uihlein Family Foundation — SourceWatch" }
+      ]
+    },
+    {
+      "name": "Restoration of America PAC",
+      "slug": "restoration-pac",
+      "relationship_type": "funded_by",
+      "description": "Its main funder: more than $80 million in the 2024 cycle and more than $57 million from January 2025 to June 2026. FEC filings show $273,979,404 from Richard Uihlein to Restoration of America PAC in 6 cycles (2016–2026).",
+      "start_year": 2015,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00571588&two_year_transaction_period=2026", "title": "FEC receipts: UIHLEIN, RICHARD to Restoration of America PAC" }
+      ]
+    },
+    {
+      "name": "Rand Paul",
+      "slug": "rand-paul",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $48,500 from Richard Uihlein to Rand Paul Victory Committee, Reinventing a New Direction Political Action Committee, Rand Paul for President, Inc. and others in 3 cycles (2016–2024).",
+      "start_year": 2015,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00545848&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Rand Paul Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00493924&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Reinventing a New Direction Political Action Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00575449&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Rand Paul for President, Inc." }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $24,700 from Richard Uihlein to Marco Rubio for Senate, Marco Rubio for President in 2 cycles (2016–2022).",
+      "start_year": 2015,
+      "end_year": 2021,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00620518&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Marco Rubio for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00458844&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Marco Rubio for President" }
+      ]
+    },
+    {
+      "name": "Mike Johnson",
+      "slug": "mike-johnson",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $10,800 from Richard Uihlein to Mike Johnson for Louisiana in 2 cycles (2016–2018).",
+      "start_year": 2016,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00608695&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Mike Johnson for Louisiana" }
+      ]
+    },
+    {
+      "name": "Sean Duffy",
+      "slug": "sean-duffy",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $13,717 from Richard Uihlein to Duffy for Wisconsin in 3 cycles (2016–2020).",
+      "start_year": 2015,
+      "end_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00464339&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Duffy for Wisconsin" }
+      ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $25,000 from Richard Uihlein to Congressional Leadership Fund in the 2018 cycle.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00504530&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Congressional Leadership Fund" }
+      ]
+    },
+    {
+      "name": "Byron Donalds",
+      "slug": "byron-donalds",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $20,000 from Richard Uihlein to Byron Donalds for Congress in 3 cycles (2020–2024).",
+      "start_year": 2020,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00733329&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Byron Donalds for Congress" }
+      ]
+    },
+    {
+      "name": "Marjorie Taylor Greene",
+      "slug": "marjorie-taylor-greene",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $14,500 from Richard Uihlein to Greene for Congress in 2 cycles (2022–2024).",
+      "start_year": 2022,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00708289&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Greene for Congress" }
+      ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $5,000,000 from Richard Uihlein to Make America Great Again Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00825851&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Make America Great Again Inc." }
+      ]
+    },
+    {
+      "name": "Josh Hawley",
+      "slug": "josh-hawley",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $14,900 from Richard Uihlein to Josh Hawley for Senate, Fighting for Missouri PAC in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00652727&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Josh Hawley for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00692640&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Fighting for Missouri PAC" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "2026 total",
+      "details": "The Washington Post and Al Jazeera count about $150M for the couple; OpenSecrets via Newsweek $142M for Richard; AFP over $135M (Oct. 21); Wikipedia $69.5M to Republican candidates as of August 2026; the map owner's ranking lists $146M.",
+      "sources": [
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+        { "url": "https://www.aljazeera.com/news/2026/10/27/tracking-the-money-the-biggest-donors-in-the-2026-us-midterm-elections", "title": "Tracking the money: The biggest donors in the 2026 US midterm elections — Al Jazeera" },
+        { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" },
+        { "url": "https://www.france24.com/en/live-news/20261023-from-tech-giants-to-anonymous-nonprofits-the-biggest-donors-in-us-midterms", "title": "From tech giants to anonymous nonprofits, the biggest donors in US midterms — AFP via France 24" },
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where news pages could not be opened and OpenSecrets was blocked; facts were confirmed with web searches tied to each cited URL. Elizabeth Uihlein is a suggested connection only (main donor per family, at the owner's request); the rankings count the couple together.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 150000000,
+        "rank": 2,
+        "ranking": "Rank among all 2026 donors, groups included (FEC data, per Al Jazeera and the Washington Post); total as cited: about $150M for the couple per the Washington Post and Al Jazeera",
+        "description": "With Elizabeth Uihlein. Mostly through Restoration of America PAC and into Wisconsin, including the governor's race.",
+        "sources": [
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+          { "url": "https://www.aljazeera.com/news/2026/10/27/tracking-the-money-the-biggest-donors-in-the-2026-us-midterm-elections", "title": "Tracking the money: The biggest donors in the 2026 US midterm elections — Al Jazeera" },
+          { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&two_year_transaction_period=2026", "title": "FEC itemized receipts: UIHLEIN, RICHARD, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Restoration of America PAC",
+            "org": "restoration-pac",
+            "kind": "super-pac",
+            "side": "R",
+            "description": "His main vehicle; the Washington Post's table shows about $136.7M linked to it.",
+            "sources": [
+              { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" },
+              { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00571588&two_year_transaction_period=2026", "title": "FEC receipts: UIHLEIN, RICHARD to Restoration of America PAC, 2026 cycle" }
+            ],
+            "amount_usd": 124396068,
+            "fec_usd": 124396068,
+            "fec_ids": ["C00571588"]
+          },
+          {
+            "name": "Republican Party of Wisconsin (for Tom Tiffany, governor)",
+            "kind": "party",
+            "side": "R",
+            "description": "The Democratic campaign of Tiffany's opponent counted $34.4M from the Uihleins and Diane Hendricks; a partisan tally.",
+            "sources": [
+              { "url": "https://www.wispolitics.com/2026/crowley-campaign-three-billionaires-have-dropped-another-24-million-to-buy-wisconsins-governors-office-for-congressman-tiffany/", "title": "Crowley campaign: Three billionaires have dropped another $24 million for Tiffany — WisPolitics (campaign press release)" }
+            ]
+          },
+          {
+            "name": "Wisconsin College Republicans",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 1000000,
+            "description": "Essentially all of the group's 2025 fundraising.",
+            "sources": [
+              { "url": "https://www.wpr.org/news/wisconsin-college-republicans-raised-1m-2025-richard-elizabeth-uihlein", "title": "Wisconsin College Republicans raised $1M in 2025. It came from 2 people. — WPR" }
+            ]
+          },
+          {
+            "name": "Fair Courts America",
+            "kind": "super-pac",
+            "amount_usd": 4000000,
+            "fec_usd": 4000000,
+            "fec_ids": ["C00805283"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00805283&two_year_transaction_period=2026", "title": "FEC receipts: UIHLEIN, RICHARD to Fair Courts America, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Northwoods Future PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00922955"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00922955&two_year_transaction_period=2026", "title": "FEC receipts: UIHLEIN, RICHARD to Northwoods Future PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Scalise Leadership Fund",
+            "kind": "pac",
+            "amount_usd": 322100,
+            "fec_usd": 322100,
+            "fec_ids": ["C00568162"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00568162&two_year_transaction_period=2026", "title": "FEC receipts: UIHLEIN, RICHARD to Scalise Leadership Fund, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 310100,
+            "fec_usd": 310100,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: UIHLEIN, RICHARD to NRSC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 310100,
+            "fec_usd": 310100,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00075820&two_year_transaction_period=2026", "title": "FEC receipts: UIHLEIN, RICHARD to NRCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Defend Our Majority",
+            "kind": "pac",
+            "amount_usd": 77000,
+            "fec_usd": 77000,
+            "fec_ids": ["C00895821"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00895821&two_year_transaction_period=2026", "title": "FEC receipts: UIHLEIN, RICHARD to Defend Our Majority, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 143500000,
+        "rank": 4,
+        "ranking": "OpenSecrets 2024 top donors (via Newser), with Elizabeth Uihlein",
+        "sources": [
+          { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
+          { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&two_year_transaction_period=2024", "title": "FEC itemized receipts: UIHLEIN, RICHARD, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Restoration PAC",
+            "org": "restoration-pac",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 80000000,
+            "description": "More than $80M per FEC records; the PAC spent over $34M against Kamala Harris and also played in the Wisconsin Senate race.",
+            "sources": [
+              { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+              { "url": "https://www.nbcnews.com/politics/2024-election/billionaires-millions-dollars-super-pac-august-fec-filings-rcna172097", "title": "Billionaires poured millions of dollars into presidential super PACs in August — NBC News" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00571588&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Restoration PAC, 2024 cycle" }
+            ],
+            "fec_usd": 80088001,
+            "fec_ids": ["C00571588"]
+          },
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 22385000,
+            "fec_usd": 22385000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00487470&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Club for Growth Action, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Fair Courts America",
+            "kind": "super-pac",
+            "amount_usd": 9550000,
+            "fec_usd": 9550000,
+            "fec_ids": ["C00805283"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00805283&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Fair Courts America, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "org": "maga-inc",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00825851"],
+            "description": "Per FEC filings: Make America Great Again Inc. $5,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00825851&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Make America Great Again Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Leadership for Ohio Fund",
+            "kind": "super-pac",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00845685"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00845685&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Leadership for Ohio Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "School Freedom Fund",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00794396"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00794396&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to School Freedom Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ron DeSantis",
+            "slug": "ron-desantis",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1521500,
+            "fec_usd": 1521500,
+            "fec_ids": ["C00834077", "C00841130", "C00841148"],
+            "description": "Per FEC filings: Never Back Down Inc. $1,500,000; Restore Our Nation (Ron PAC) $16,500; Great American Comeback $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00834077&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Never Back Down Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Restore Our Nation (Ron PAC), 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00841148&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Great American Comeback, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Save Our Constitution PAC",
+            "kind": "super-pac",
+            "amount_usd": 1125000,
+            "fec_usd": 1125000,
+            "fec_ids": ["C00836411"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00836411&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Save Our Constitution PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Afc Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00846683"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00846683&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Afc Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Scalise Leadership Fund",
+            "kind": "pac",
+            "amount_usd": 594150,
+            "fec_usd": 594150,
+            "fec_ids": ["C00568162"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00568162&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Scalise Leadership Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Keystone Renewal PAC",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00849489"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00849489&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Keystone Renewal PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC Victory",
+            "kind": "pac",
+            "amount_usd": 439100,
+            "fec_usd": 439100,
+            "fec_ids": ["C00837518"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00837518&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to NRSC Victory, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 288450,
+            "fec_usd": 288450,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00075820&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to NRCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 124800,
+            "fec_usd": 124800,
+            "fec_ids": ["C00762591", "C00828541", "C00867937"],
+            "description": "Per FEC filings: Trump 47 Committee, Inc. $106,600; Never Surrender, Inc. $13,200; Save America $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Trump 47 Committee, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Never Surrender, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00762591&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Save America, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Josh Hawley",
+            "slug": "josh-hawley",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 14900,
+            "fec_usd": 14900,
+            "fec_ids": ["C00652727", "C00692640"],
+            "description": "Per FEC filings: Josh Hawley for Senate $9,900; Fighting for Missouri PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00652727&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Josh Hawley for Senate, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00692640&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Fighting for Missouri PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Rand Paul",
+            "slug": "rand-paul",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 11600,
+            "fec_usd": 11600,
+            "fec_ids": ["C00493924", "C00496075"],
+            "description": "Per FEC filings: Rand Paul for US Senate $6,600; Reinventing a New Direction Political Action Committee $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00496075&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Rand Paul for US Senate, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00493924&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Reinventing a New Direction Political Action Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 9900,
+            "fec_usd": 9900,
+            "fec_ids": ["C00492785"],
+            "description": "Per FEC filings: Ted Cruz for Senate $9,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Ted Cruz for Senate, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Marjorie Taylor Greene",
+            "slug": "marjorie-taylor-greene",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 8700,
+            "fec_usd": 8700,
+            "fec_ids": ["C00708289"],
+            "description": "Per FEC filings: Greene for Congress $8,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00708289&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Greene for Congress, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Byron Donalds",
+            "slug": "byron-donalds",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00733329"],
+            "description": "Per FEC filings: Byron Donalds for Congress $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00733329&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Byron Donalds for Congress, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Joe Kent",
+            "slug": "joe-kent",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 3300,
+            "fec_usd": 3300,
+            "fec_ids": ["C00771394"],
+            "description": "Per FEC filings: Joe Kent for Congress $3,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00771394&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Joe Kent for Congress, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 84063075,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&two_year_transaction_period=2022", "title": "FEC itemized receipts: UIHLEIN, RICHARD, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Restoration of America PAC",
+            "org": "restoration-pac",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 33035335,
+            "fec_usd": 33035335,
+            "fec_ids": ["C00571588"],
+            "description": "Per FEC filings: Restoration PAC $33,035,335.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00571588&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Restoration PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 32080680,
+            "fec_usd": 32080680,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00487470&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Club for Growth Action, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Saving Arizona PAC",
+            "kind": "super-pac",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00777185"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00777185&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Saving Arizona PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Fair Courts America",
+            "kind": "super-pac",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00805283"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00805283&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Fair Courts America, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Team PAC",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00782037"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00782037&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Team PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Arkansas Patriots Fund",
+            "kind": "super-pac",
+            "amount_usd": 2150000,
+            "fec_usd": 2150000,
+            "fec_ids": ["C00790071"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00790071&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Arkansas Patriots Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "No Better Friend PAC",
+            "kind": "super-pac",
+            "amount_usd": 1680000,
+            "fec_usd": 1680000,
+            "fec_ids": ["C00821280"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00821280&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to No Better Friend PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Black Bear PAC, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 1050000,
+            "fec_usd": 1050000,
+            "fec_ids": ["C00708644"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00708644&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Black Bear PAC, Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "34N22, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00789339"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00789339&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to 34N22, Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Scalise Leadership Fund",
+            "kind": "pac",
+            "amount_usd": 526800,
+            "fec_usd": 526800,
+            "fec_ids": ["C00568162"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00568162&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Scalise Leadership Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 511000,
+            "fec_usd": 511000,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00075820&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to NRCC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Rand Paul",
+            "slug": "rand-paul",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 7900,
+            "fec_usd": 7900,
+            "fec_ids": ["C00493924", "C00496075"],
+            "description": "Per FEC filings: Reinventing a New Direction Political Action Committee $5,000; Rand Paul for US Senate $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00493924&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Reinventing a New Direction Political Action Committee, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00496075&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Rand Paul for US Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Marjorie Taylor Greene",
+            "slug": "marjorie-taylor-greene",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00708289"],
+            "description": "Per FEC filings: Greene for Congress $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00708289&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Greene for Congress, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00620518"],
+            "description": "Per FEC filings: Marco Rubio for Senate $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00620518&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Marco Rubio for Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Byron Donalds",
+            "slug": "byron-donalds",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00733329"],
+            "description": "Per FEC filings: Byron Donalds for Congress $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00733329&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Byron Donalds for Congress, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 67552046,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&two_year_transaction_period=2020", "title": "FEC itemized receipts: UIHLEIN, RICHARD, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 27000000,
+            "fec_usd": 27000000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00487470&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Club for Growth Action, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Restoration of America PAC",
+            "org": "restoration-pac",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 24535000,
+            "fec_usd": 24535000,
+            "fec_ids": ["C00571588"],
+            "description": "Per FEC filings: Restoration PAC $24,535,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00571588&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Restoration PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Americas PAC",
+            "kind": "super-pac",
+            "amount_usd": 5850000,
+            "fec_usd": 5850000,
+            "fec_ids": ["C00559906"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00559906&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Americas PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Women Speak Out PAC",
+            "kind": "super-pac",
+            "amount_usd": 4000000,
+            "fec_usd": 4000000,
+            "fec_ids": ["C00530766"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00530766&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Women Speak Out PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "House Freedom Action",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00662221"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00662221&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to House Freedom Action, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Tea Party Patriots Citizens Fund",
+            "kind": "super-pac",
+            "amount_usd": 800000,
+            "fec_usd": 800000,
+            "fec_ids": ["C00540898"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00540898&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Tea Party Patriots Citizens Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "America First Action, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 750000,
+            "fec_usd": 750000,
+            "fec_ids": ["C00637512"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00637512&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to America First Action, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 582800,
+            "fec_usd": 582800,
+            "fec_ids": ["C00580100", "C00618389"],
+            "description": "Per FEC filings: Trump Victory $580,000; Donald J. Trump for President, Inc. $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Trump Victory, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00580100&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Donald J. Trump for President, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Freedomworks for America",
+            "kind": "super-pac",
+            "amount_usd": 575000,
+            "fec_usd": 575000,
+            "fec_ids": ["C00499020"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00499020&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Freedomworks for America, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 487200,
+            "fec_usd": 487200,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00003418&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Republican National Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Susan B. Anthony List Action PAC",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00688945"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00688945&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Susan B. Anthony List Action PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Kentucky Tomorrow, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00622415"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00622415&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Kentucky Tomorrow, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 26200,
+            "fec_usd": 26200,
+            "fec_ids": ["C00492785", "C00536540", "C00542423"],
+            "description": "Per FEC filings: Ted Cruz Victory Committee $10,600; Jobs, Freedom, and Security PAC $10,000; Ted Cruz for Senate $5,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00542423&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Ted Cruz Victory Committee, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00536540&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Jobs, Freedom, and Security PAC, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00492785&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Ted Cruz for Senate, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Byron Donalds",
+            "slug": "byron-donalds",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 8400,
+            "fec_usd": 8400,
+            "fec_ids": ["C00733329"],
+            "description": "Per FEC filings: Byron Donalds for Congress $8,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00733329&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Byron Donalds for Congress, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Sean Duffy",
+            "slug": "sean-duffy",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2917,
+            "fec_usd": 2917,
+            "fec_ids": ["C00464339"],
+            "description": "Per FEC filings: Duffy for Wisconsin $2,917.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00464339&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Duffy for Wisconsin, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Thomas Massie",
+            "slug": "thomas-massie",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00509729"],
+            "description": "Per FEC filings: Thomas Massie for Congress $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00509729&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Thomas Massie for Congress, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 38528158,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&two_year_transaction_period=2018", "title": "FEC itemized receipts: UIHLEIN, RICHARD, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Restoration of America PAC",
+            "org": "restoration-pac",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 8175000,
+            "fec_usd": 8175000,
+            "fec_ids": ["C00571588"],
+            "description": "Per FEC filings: Restoration PAC $8,175,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00571588&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Restoration PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 6700000,
+            "fec_usd": 6700000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00487470&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Club for Growth Action, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Americas PAC",
+            "kind": "super-pac",
+            "amount_usd": 5385000,
+            "fec_usd": 5385000,
+            "fec_ids": ["C00559906"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00559906&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Americas PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Solutions for Wisconsin",
+            "kind": "super-pac",
+            "amount_usd": 4400000,
+            "fec_usd": 4400000,
+            "fec_ids": ["C00636084"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00636084&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Solutions for Wisconsin, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Cfg Action Wisconsin",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00675298"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00675298&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Cfg Action Wisconsin, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Cfg Action Missouri",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00654327"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00654327&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Cfg Action Missouri, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Tea Party Patriots Citizens Fund",
+            "kind": "super-pac",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00540898"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00540898&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Tea Party Patriots Citizens Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "John Bolton Super PAC",
+            "kind": "super-pac",
+            "amount_usd": 850000,
+            "fec_usd": 850000,
+            "fec_ids": ["C00542464"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00542464&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to John Bolton Super PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "35Th, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 800000,
+            "fec_usd": 800000,
+            "fec_ids": ["C00635607"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00635607&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to 35Th, Inc., 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Remember Mississippi",
+            "kind": "super-pac",
+            "amount_usd": 750000,
+            "fec_usd": 750000,
+            "fec_ids": ["C00641423"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00641423&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Remember Mississippi, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Conservatives Action",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00524181"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00524181&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Senate Conservatives Action, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $25,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00504530&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Congressional Leadership Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 8100,
+            "fec_usd": 8100,
+            "fec_ids": ["C00492785"],
+            "description": "Per FEC filings: Ted Cruz for Senate $8,100.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00492785&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Ted Cruz for Senate, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00608695&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Mike Johnson for Louisiana, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Sean Duffy",
+            "slug": "sean-duffy",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00464339"],
+            "description": "Per FEC filings: Duffy for Wisconsin $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00464339&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Duffy for Wisconsin, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 22444800,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&two_year_transaction_period=2016", "title": "FEC itemized receipts: UIHLEIN, RICHARD, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 4250000,
+            "fec_usd": 4250000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00487470&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Club for Growth Action, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Restoration of America PAC",
+            "org": "restoration-pac",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 3750000,
+            "fec_usd": 3750000,
+            "fec_ids": ["C00571588"],
+            "description": "Per FEC filings: Restoration PAC $3,750,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00571588&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Restoration PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Unintimidated PAC Inc",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00576108"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00576108&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Unintimidated PAC Inc, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Our Principles PAC",
+            "kind": "super-pac",
+            "amount_usd": 2007500,
+            "fec_usd": 2007500,
+            "fec_ids": ["C00603621"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00603621&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Our Principles PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Americas PAC",
+            "kind": "super-pac",
+            "amount_usd": 1910000,
+            "fec_usd": 1910000,
+            "fec_ids": ["C00559906"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00559906&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Americas PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Tea Party Patriots Citizens Fund",
+            "kind": "super-pac",
+            "amount_usd": 1490000,
+            "fec_usd": 1490000,
+            "fec_ids": ["C00540898"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00540898&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Tea Party Patriots Citizens Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Keep the Promise PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00575415"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00575415&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Keep the Promise PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Trusted Leadership PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00609511"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00609511&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Trusted Leadership PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Conservatives Action",
+            "kind": "super-pac",
+            "amount_usd": 725000,
+            "fec_usd": 725000,
+            "fec_ids": ["C00524181"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00524181&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Senate Conservatives Action, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "State Conservative Reform Action PAC (Scrap)",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00566372"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00566372&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to State Conservative Reform Action PAC (Scrap), 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Citizen PAC, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00586552"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00586552&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Citizen PAC, Inc., 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 330400,
+            "fec_usd": 330400,
+            "fec_ids": ["C00580100", "C00618389"],
+            "description": "Per FEC filings: Trump Victory $325,000; Donald J. Trump for President, Inc. $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00618389&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Trump Victory, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00580100&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Donald J. Trump for President, Inc., 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Rand Paul",
+            "slug": "rand-paul",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 29000,
+            "fec_usd": 29000,
+            "fec_ids": ["C00493924", "C00496075", "C00545848", "C00575449"],
+            "description": "Per FEC filings: Rand Paul Victory Committee $15,800; Rand Paul for President, Inc. $5,400; Reinventing a New Direction Political Action Committee $5,000; Rand Paul for US Senate  $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00545848&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Rand Paul Victory Committee, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00575449&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Rand Paul for President, Inc., 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00493924&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Reinventing a New Direction Political Action Committee, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 18900,
+            "fec_usd": 18900,
+            "fec_ids": ["C00458844", "C00620518"],
+            "description": "Per FEC filings: Marco Rubio for Senate 2016 $13,500; Marco Rubio for President $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00620518&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Marco Rubio for Senate 2016, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00458844&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Marco Rubio for President, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00492785", "C00536540", "C00574624"],
+            "description": "Per FEC filings: Cruz for President $5,400; Ted Cruz for Senate $200; Jobs, Freedom, and Security PAC $-200.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00574624&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Cruz for President, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00492785&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Ted Cruz for Senate, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00536540&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Jobs, Freedom, and Security PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00608695&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Mike Johnson for Louisiana, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Sean Duffy",
+            "slug": "sean-duffy",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00464339"],
+            "description": "Per FEC filings: Duffy for Wisconsin $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00464339&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Duffy for Wisconsin, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Ron DeSantis",
+            "slug": "ron-desantis",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00511568"],
+            "description": "Per FEC filings: Ron Desantis for Florida $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00511568&two_year_transaction_period=2016", "title": "FEC receipts: UIHLEIN, RICHARD to Ron Desantis for Florida, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No 2028 pick reported. Uihlein funds Restoration of America PAC and Wisconsin Republicans every cycle; in the last open primary (2024) he backed Ron DeSantis's super PAC.",
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+        { "url": "https://www.cnn.com/2023/07/31/politics/fec-filings-2024-pacs-donors", "title": "Takeaways from presidential super PACs' mid-year financial disclosures — CNN" }
+      ],
+      "likely": [
+        {
+          "name": "Restoration of America PAC",
+          "org": "restoration-pac",
+          "kind": "super-pac",
+          "side": "R",
+          "basis": "His own vehicle; main recipient in 2022, 2024 and 2026.",
+          "confidence": 0.85,
+          "sources": [
+            { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" },
+            { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" }
+          ]
+        },
+        {
+          "name": "Wisconsin Republicans",
+          "kind": "party",
+          "side": "R",
+          "basis": "Heavy giving to the state Supreme Court race in 2025, the College Republicans and the governor race in 2026.",
+          "confidence": 0.7,
+          "sources": [
+            { "url": "https://www.wpr.org/news/billionaires-wisconsin-supreme-court-election-crawford-schimel-musk-soros-pritzker-uihlein", "title": "Out-of-state billionaires fuel Wisconsin Supreme Court election — WPR" },
+            { "url": "https://www.wpr.org/news/wisconsin-college-republicans-raised-1m-2025-richard-elizabeth-uihlein", "title": "Wisconsin College Republicans raised $1M in 2025. It came from 2 people. — WPR" },
+            { "url": "https://www.wispolitics.com/2026/crowley-campaign-three-billionaires-have-dropped-another-24-million-to-buy-wisconsins-governors-office-for-congressman-tiffany/", "title": "Crowley campaign: Three billionaires have dropped another $24 million for Tiffany — WisPolitics (campaign press release)" }
+          ]
+        },
+        {
+          "name": "Ron DeSantis",
+          "slug": "ron-desantis",
+          "kind": "candidate",
+          "side": "R",
+          "basis": "He and Elizabeth each gave $1M+ to DeSantis's 2024 super PAC; nothing reported for 2028.",
+          "confidence": 0.35,
+          "sources": [
+            { "url": "https://www.cnn.com/2023/07/31/politics/fec-filings-2024-pacs-donors", "title": "Takeaways from presidential super PACs' mid-year financial disclosures — CNN" }
+          ]
+        }
+      ]
+    }
+  },
+  "leverage": {
+    "level": 2,
+    "basis": "The second-largest individual donor of the 2026 cycle (about $150 million, mostly to Republican and conservative groups) after about $143.5 million in 2024; chairman of Uline.",
+    "sources": [
+      { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+      { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" }
+    ]
+  }
+}

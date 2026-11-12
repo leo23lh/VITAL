@@ -1,0 +1,151 @@
+{
+  "name": "Joe Kent",
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Trump-endorsed Republican House candidate in Washington state (2022, 2024) and Trump appointee; his campaigns drew controversy over associations with white nationalists, which he later disavowed.",
+      "sources": [
+        { "url": "https://www.nbcwashington.com/news/national-international/top-counterterrorism-official-resigns-says-iran-posed-no-imminent-threat/4077100/", "title": "NBC: Top counterterrorism official resigns" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["jd-vance"],
+    "basis": "Placed in Vance's camp by the map owner as part of Tucker Carlson's circle (Carlson is Vance's close friend). The sources show Kent urging Carlson himself to run in 2028; Kent said the group thinks Vance is too compromised.",
+    "sources": [
+      { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+    ]
+  },
+  "photo": {
+    "file": "joe-kent.jpg",
+    "credit": "Office of the Director of National Intelligence",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_the_Director_of_the_National_Counterterrorism_Center,_Joe_Kent.jpg", "title": "File:Official portrait of the Director of the National Counterterrorism Center, Joe Kent.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Former director of the National Counterterrorism Center (resigned March 2026)",
+  "summary": "Joe Kent, a retired Green Beret, twice lost House races in Washington state (2022, 2024) and was confirmed 52–44 to lead the National Counterterrorism Center. He resigned in March 2026, saying Iran posed no imminent threat, becoming the first senior Trump official to quit over the war, and later urged Tucker Carlson to run for president.",
+  "sources": [
+    { "url": "https://www.notus.org/trump-white-house/joe-kent-national-counterterrorism-center-director-resigns-iran-war", "title": "NOTUS: Joe Kent, Trump's National Counterterrorism Center director, resigns over Iran war" },
+    { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+  ],
+  "timeline": [
+    {
+      "year": 2022,
+      "end_year": 2024,
+      "role": "Republican candidate for Congress in Washington's 3rd district (lost twice)",
+      "org": "Joe Kent for Congress",
+      "sources": [
+        { "url": "https://www.nbcwashington.com/news/national-international/top-counterterrorism-official-resigns-says-iran-posed-no-imminent-threat/4077100/", "title": "NBC" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Director (confirmed 52–44; resigned March 17, 2026)",
+      "org": "National Counterterrorism Center",
+      "sources": [
+        { "url": "https://www.notus.org/trump-white-house/joe-kent-national-counterterrorism-center-director-resigns-iran-war", "title": "NOTUS: Joe Kent, Trump's National Counterterrorism Center director, resigns over Iran war" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump appointed Kent to lead the National Counterterrorism Center.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.notus.org/trump-white-house/joe-kent-national-counterterrorism-center-director-resigns-iran-war", "title": "NOTUS: Joe Kent, Trump's National Counterterrorism Center director, resigns over Iran war" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Kent resigned in March 2026 saying Iran posed no imminent threat; Trump called him \"weak on security\".",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.notus.org/trump-white-house/joe-kent-national-counterterrorism-center-director-resigns-iran-war", "title": "NOTUS: Joe Kent, Trump's National Counterterrorism Center director, resigns over Iran war" },
+        { "url": "https://www.aljazeera.com/news/2026/3/17/us-national-counterterrorism-center-director-joe-kent-resigns-over-iran-war", "title": "Al Jazeera" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "Kent attended Carlson's August 2026 gathering and said the group urged Carlson to run for president.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+      ]
+    },
+    {
+      "name": "Marjorie Taylor Greene",
+      "slug": "marjorie-taylor-greene",
+      "relationship_type": "ally",
+      "description": "Both urged Carlson to run in 2028 and discussed a new anti-war movement.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+      ]
+    },
+    {
+      "name": "Thomas Massie",
+      "slug": "thomas-massie",
+      "relationship_type": "ally",
+      "description": "Both urged Carlson to run in 2028.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+      ]
+    },
+    {
+      "name": "America PAC",
+      "slug": "america-pac",
+      "relationship_type": "donor",
+      "description": "Spent about $1 million on canvassing in Kent's 2024 House race, the largest outside spending line there by mid-October; Kent lost to Marie Gluesenkamp Pérez.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://projects.propublica.org/itemizer/races/2024/states/wa/house/3", "title": "Washington's 3rd District House race, 2024 — ProPublica Itemizer" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "donor",
+      "description": "FEC filings show $13,200 from Keith Rabois to Joe Kent for Wa-03 Republican Nominee Fund 2024, Joe Kent for Congress-Gtm Nf Wa03, Joe Kent for Congress in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00856708&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Joe Kent for Wa-03 Republican Nominee Fund 2024" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00858365&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Joe Kent for Congress-Gtm Nf Wa03" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00771394&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Joe Kent for Congress" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

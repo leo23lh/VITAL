@@ -1,0 +1,119 @@
+{
+  "name": "Andrew McCormack",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "tech",
+  "groups": ["paypal-mafia"],
+  "current_role": "Co-founder and managing partner of Valar Ventures",
+  "summary": "Andrew McCormack joined PayPal in 2001 and worked closely with Peter Thiel there and later at Clarium Capital and Thiel Capital. In 2010 he co-founded the venture firm Valar Ventures with Thiel and James Fitzgerald, which he runs with Fitzgerald. He appeared in Fortune's 2007 PayPal Mafia photo.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Valar_Ventures", "title": "Valar Ventures — Wikipedia" },
+    { "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management", "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor" }
+  ],
+  "timeline": [
+    {
+      "year": 2001,
+      "end_year": 2002,
+      "role": "Worked closely with Peter Thiel (some sources say as his assistant)",
+      "org": "PayPal",
+      "sources": [
+        { "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management", "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor" }
+      ]
+    },
+    {
+      "year": 2010,
+      "end_year": null,
+      "role": "Co-founder and managing partner",
+      "org": "Valar Ventures",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Valar_Ventures", "title": "Valar Ventures — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "PayPal Mafia",
+      "role": "Member; in Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Valar Ventures with Thiel and James Fitzgerald in 2010; Thiel remains a close adviser but has largely left the firm to McCormack and Fitzgerald.",
+      "start_year": 2010,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Valar_Ventures", "title": "Valar Ventures — Wikipedia" },
+        { "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management", "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "employer",
+      "description": "McCormack worked closely with Thiel at PayPal from 2001, then at Thiel's Clarium Capital and Thiel Capital.",
+      "start_year": 2001,
+      "end_year": 2010,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management", "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor" }
+      ]
+    },
+    {
+      "name": "James Fitzgerald",
+      "slug": "james-fitzgerald",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Valar Ventures together in 2010 and run it as managing partners.",
+      "start_year": 2010,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Valar_Ventures", "title": "Valar Ventures — Wikipedia" }
+      ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "employer",
+      "description": "At PayPal: Worked closely with Peter Thiel.",
+      "start_year": 2001,
+      "end_year": 2002,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management", "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Valar Ventures founding",
+      "details": "Wikipedia names McCormack, James Fitzgerald and Peter Thiel as founders in 2010; some profiles call Thiel the sole founder, and one copy of the article gives 2012.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Valar_Ventures", "title": "Valar Ventures — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Fortune's 2007 caption listed him as managing partner of a restaurant, Laiola.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2022,
+        "total_usd": 5800,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MCCORMACK%2C+ANDREW&two_year_transaction_period=2022", "title": "FEC itemized receipts: MCCORMACK, ANDREW, 2022 cycle" }
+        ],
+        "recipients": []
+      }
+    ]
+  }
+}

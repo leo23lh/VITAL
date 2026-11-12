@@ -1,0 +1,176 @@
+{
+  "name": "Mike Waltz",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "photo": {
+    "file": "mike-waltz.jpg",
+    "credit": "HumDrum931",
+    "license": "CC BY-SA 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Michael_G._Waltz.jpg", "title": "File:Michael G. Waltz.jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. Ambassador to the United Nations (since September 2025)",
+  "summary": "Mike Waltz, a former Green Beret and Florida congressman (2019–2025), was Trump’s first national security adviser in 2025 until he was moved out after adding a journalist to a Signal chat on military strikes; Rubio took over the job. Confirmed as U.N. ambassador in September 2025, he has defended U.S. conduct in the 2026 Iran conflict at the U.N.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" },
+    { "url": "https://www.senate.gov/pagelayout/legislative/one_item_and_teasers/nom_confc.htm", "title": "Nominations confirmed (civilian) — U.S. Senate" },
+    { "url": "https://www.justsecurity.org/136882/ambassador-waltz-law-war-crimes/", "title": "On Ambassador Waltz’s defense of potential law-of-war violations in the Iran conflict — Just Security (2026)" }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "end_year": 2025,
+      "role": "U.S. Representative (R-FL)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2025,
+      "role": "National Security Adviser",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Ambassador to the United Nations",
+      "org": "U.S. Mission to the United Nations",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" },
+        { "url": "https://www.senate.gov/pagelayout/legislative/one_item_and_teasers/nom_confc.htm", "title": "Nominations confirmed (civilian) — U.S. Senate" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump’s first national security adviser (2025), then his U.N. ambassador.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "colleague",
+      "description": "Rubio succeeded Waltz as national security adviser in 2025; Waltz now serves as U.N. ambassador under Rubio’s State Department.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "colleague",
+      "description": "Both were in the March 2025 Signal chat on Yemen strikes that Waltz mistakenly opened to a journalist.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Tammy Bruce",
+      "slug": "tammy-bruce",
+      "relationship_type": "employee",
+      "description": "Waltz’s deputy at the U.N. mission since 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" }
+      ]
+    },
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "donor",
+      "description": "FEC filings show $11,600 from Jeff Yass to Warrior Diplomat PAC, Michael Waltz for Congress in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00693671&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Warrior Diplomat PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Michael Waltz for Congress" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "donor",
+      "description": "FEC filings show $11,600 from Keith Rabois to Warrior Diplomat PAC, Michael Waltz for Congress in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00693671&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Warrior Diplomat PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Michael Waltz for Congress" }
+      ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "donor",
+      "description": "FEC filings show $26,700 from Ken Griffin to Michael Waltz for Congress in 4 cycles (2018–2024).",
+      "start_year": 2018,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to Michael Waltz for Congress" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "donor",
+      "description": "FEC filings show $13,400 from Palmer Luckey to Michael Waltz for Congress in 3 cycles (2020–2024).",
+      "start_year": 2019,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Michael Waltz for Congress" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $31,829 from Paul Singer to Michael Waltz for Congress, Warrior Diplomat PAC in 4 cycles (2018–2024).",
+      "start_year": 2018,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Michael Waltz for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00693671&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Warrior Diplomat PAC" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Ambassador to the United Nations",
+    "unit": "envoys",
+    "rank": 3,
+    "reports_to": "marco-rubio",
+    "since": "2025-09",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" },
+      { "url": "https://www.senate.gov/pagelayout/legislative/one_item_and_teasers/nom_confc.htm", "title": "Nominations confirmed (civilian) — U.S. Senate" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

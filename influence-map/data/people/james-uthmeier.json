@@ -1,0 +1,98 @@
+{
+  "name": "James Uthmeier",
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican; DeSantis appointee as Florida attorney general, endorsed by Trump for a full term in 2026.",
+      "sources": [
+        { "url": "https://www.clickorlando.com/news/politics/2025/01/17/who-is-james-uthmeier-governors-pick-for-floridas-next-attorney-general/", "title": "News 6: Who is James Uthmeier, the governor's pick for attorney general" },
+        { "url": "https://floridaphoenix.com/2025/10/08/trump-is-backing-james-uthmeier-for-florida-attorney-general-in-2026/", "title": "Florida Phoenix: Trump backs Uthmeier for attorney general" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["ron-desantis"],
+    "basis": "DeSantis's former chief of staff and 2024 campaign manager, known as his \"bulldog\".",
+    "sources": [
+      { "url": "https://www.clickorlando.com/news/politics/2025/01/17/who-is-james-uthmeier-governors-pick-for-floridas-next-attorney-general/", "title": "News 6: Who is James Uthmeier, the governor's pick for attorney general" },
+      { "url": "https://www.yahoo.com/news/desantis-bulldog-now-floridas-attorney-210550754.html", "title": "Yahoo News: DeSantis 'bulldog' is now Florida's attorney general" }
+    ]
+  },
+  "photo": {
+    "file": "james-uthmeier.jpg",
+    "credit": "Office of the Attorney General, State of Florida",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Attorney_General_James_Uthmeier,_2025_(cropped).jpg", "title": "File:Official portrait of Attorney General James Uthmeier, 2025 (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Attorney General of Florida (since February 2025)",
+  "summary": "James Uthmeier was Ron DeSantis's chief of staff from 2021, managed his 2024 presidential campaign from August 2023, and was appointed Florida attorney general in February 2025; Trump endorsed him for a full term in 2026.",
+  "sources": [
+    { "url": "https://www.clickorlando.com/news/politics/2025/01/17/who-is-james-uthmeier-governors-pick-for-floridas-next-attorney-general/", "title": "News 6: Who is James Uthmeier, the governor's pick for attorney general" },
+    { "url": "https://ballotpedia.org/James_Uthmeier", "title": "Ballotpedia: James Uthmeier" }
+  ],
+  "timeline": [
+    {
+      "year": 2021,
+      "end_year": 2025,
+      "role": "Chief of staff to Gov. Ron DeSantis",
+      "org": "Executive Office of the Governor of Florida",
+      "sources": [
+        { "url": "https://www.clickorlando.com/news/politics/2025/01/17/who-is-james-uthmeier-governors-pick-for-floridas-next-attorney-general/", "title": "News 6: Who is James Uthmeier, the governor's pick for attorney general" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": 2024,
+      "role": "Campaign manager",
+      "org": "DeSantis for President",
+      "sources": [
+        { "url": "https://www.semafor.com/article/08/08/2023/desantis-new-campaign-manager-james-uthmeier", "title": "Semafor" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Attorney General of Florida (sworn in February 17, 2025)",
+      "org": "State of Florida",
+      "sources": [
+        { "url": "https://ballotpedia.org/James_Uthmeier", "title": "Ballotpedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "employer",
+      "description": "Uthmeier was DeSantis's chief of staff and 2024 campaign manager; DeSantis appointed him attorney general in 2025.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.clickorlando.com/news/politics/2025/01/17/who-is-james-uthmeier-governors-pick-for-floridas-next-attorney-general/", "title": "News 6: Who is James Uthmeier, the governor's pick for attorney general" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Uthmeier for a full term as attorney general in October 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://floridaphoenix.com/2025/10/08/trump-is-backing-james-uthmeier-for-florida-attorney-general-in-2026/", "title": "Florida Phoenix" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

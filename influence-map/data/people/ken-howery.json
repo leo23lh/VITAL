@@ -1,0 +1,205 @@
+{
+  "name": "Ken Howery",
+  "aliases": ["Kenneth A. Howery"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["paypal-mafia", "tech-right"],
+  "photo": {
+    "file": "ken-howery.jpg",
+    "credit": "United States Department of State",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:United_States_Ambassador_to_Denmark_Kenneth_Alan_Howery.jpg", "title": "File:United States Ambassador to Denmark Kenneth Alan Howery.jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": 1,
+      "start_year": 2019,
+      "end_year": null,
+      "basis": "Appointed U.S. ambassador by Trump twice (Sweden 2019–2021, Denmark since 2025). No party office or other partisan record found, so Center-right rather than Right.",
+      "sources": [
+        { "url": "https://2017-2021.state.gov/howery-kenneth-a-kingdom-of-sweden-february-2019/", "title": "U.S. State Department: Kenneth A. Howery" },
+        { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Wikipedia: Ken Howery" }
+      ]
+    }
+  ],
+  "current_role": "U.S. Ambassador to Denmark (since November 2025)",
+  "summary": "Ken Howery co-founded Confinity/PayPal in 1998 and was its first chief financial officer, then co-founded Founders Fund with Peter Thiel and Luke Nosek in 2005. Trump appointed him ambassador to Sweden (2019–2021) and, in his second term, ambassador to Denmark, where he has been involved in talks over Greenland.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Ken Howery — Wikipedia" },
+    { "url": "https://2017-2021.state.gov/howery-kenneth-a-kingdom-of-sweden-february-2019/", "title": "Howery, Kenneth A. — Kingdom of Sweden — U.S. Department of State" }
+  ],
+  "timeline": [
+    {
+      "year": 1998,
+      "end_year": 2002,
+      "role": "Co-founder and first chief financial officer",
+      "org": "Confinity / PayPal",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Ken Howery — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2005,
+      "role": "Co-founder and partner",
+      "org": "Founders Fund",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2021,
+      "role": "U.S. Ambassador to Sweden",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://2017-2021.state.gov/howery-kenneth-a-kingdom-of-sweden-february-2019/", "title": "Howery, Kenneth A. — Kingdom of Sweden — U.S. Department of State" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "U.S. Ambassador to Denmark (nominated December 2024, confirmed October 7, 2025); took part in 2026 U.S.–Denmark–Greenland talks",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Ken Howery — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/2026_US%E2%80%93Denmark%E2%80%93Greenland_agreement", "title": "2026 US–Denmark–Greenland agreement — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "PayPal Mafia",
+      "role": "Member; in Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity/PayPal in 1998 (Howery was its first CFO) and Founders Fund in 2005 together.",
+      "start_year": 1998,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" }
+      ]
+    },
+    {
+      "name": "Luke Nosek",
+      "slug": "luke-nosek",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity/PayPal in 1998 and Founders Fund in 2005 together.",
+      "start_year": 1998,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" }
+      ]
+    },
+    {
+      "name": "Max Levchin",
+      "slug": "max-levchin",
+      "relationship_type": "co-founder",
+      "description": "Fellow co-founder of Confinity in December 1998; Levchin was its CTO.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://www.scaruffi.com/svhistory/silicon/thiel.html", "title": "A History of Silicon Valley: PayPal — Piero Scaruffi" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump appointed Howery ambassador to Sweden (2019–2021) and, in his second term, ambassador to Denmark; the nomination came the same day Trump posted that U.S. control of Greenland was \"an absolute necessity.\"",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://2017-2021.state.gov/howery-kenneth-a-kingdom-of-sweden-february-2019/", "title": "Howery, Kenneth A. — Kingdom of Sweden — U.S. Department of State" },
+        { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Ken Howery — Wikipedia" }
+      ]
+    },
+    {
+      "name": "America PAC",
+      "slug": "america-pac",
+      "relationship_type": "funded_by",
+      "description": "Among its launch backers in 2024: Howery gave $1 million in four donations of $250,000, per its first FEC report.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://westhawaiitoday.com/?p=269629", "title": "Elon Musk allies help start pro-Trump super PAC — West Hawaii Today" },
+        { "url": "https://decrypt.co/239952/trump-super-pac-gets-millions-from-crypto-backers", "title": "New Trump super PAC gets millions in donations from crypto backers — Decrypt" }
+      ]
+    },
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and former partner.",
+      "start_year": 2005,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2026/06/12/founders-fund-andreessen-horowitz-valor-and-the-biggest-vc-winners-from-spacexs-ipo/", "title": "Founders Fund, Andreessen Horowitz, Valor and the biggest VC winners from SpaceX's IPO — Fortune" }
+      ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity in 1998; first chief financial officer until 2002.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Ken Howery — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Ambassador to Denmark under Secretary Rubio since November 2025; Howery thanked Rubio for the nomination at his May 2025 confirmation hearing.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.foreign.senate.gov/download/050825_howery_testimonypdf", "title": "Statement of Kenneth A. Howery, nominee for ambassador to Denmark — Senate Foreign Relations Committee (May 2025)" },
+        { "url": "https://www.arctictoday.com/new-us-ambassador-to-denmark-assumes-duty-as-trump-eyes-control-of-greenland/", "title": "New US ambassador to Denmark assumes duty as Trump eyes control of Greenland — Reuters via Arctic Today" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Ambassador to Denmark",
+    "unit": "envoys",
+    "rank": 4,
+    "reports_to": "marco-rubio",
+    "since": "2025-11",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Ken Howery — Wikipedia" },
+      { "url": "https://2017-2021.state.gov/howery-kenneth-a-kingdom-of-sweden-february-2019/", "title": "Howery, Kenneth A. — Kingdom of Sweden — U.S. Department of State" }
+    ]
+  }
+}

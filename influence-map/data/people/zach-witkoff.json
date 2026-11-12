@@ -1,0 +1,255 @@
+{
+  "name": "Zach Witkoff",
+  "aliases": ["Zachary Witkoff"],
+  "public_figure": true,
+  "sector": "business",
+  "groups": ["middle-east"],
+  "current_role": "Co-founder and chief executive of World Liberty Financial; chairman of ALT5 Sigma",
+  "summary": "Zach Witkoff, a son of special envoy Steve Witkoff, co-founded the Trump family’s crypto company World Liberty Financial in 2024 and runs it as chief executive. He announced the use of its USD1 stablecoin for Abu Dhabi fund MGX’s $2 billion Binance investment, signed its agreements with Pakistan, chairs the WLFI treasury company ALT5 Sigma, and has called Justin Sun’s lawsuit against the company meritless.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Zach_Witkoff", "title": "Zach Witkoff — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/World_Liberty_Financial", "title": "World Liberty Financial — Wikipedia" },
+    { "url": "https://www.foxbusiness.com/markets/trumps-stablecoin-chosen-2-billion-abu-dhabi-investment-binance-co-founder-says", "title": "Trump’s stablecoin chosen for $2 billion Abu Dhabi investment in Binance, co-founder says — Fox Business (Reuters)" },
+    { "url": "https://www.theblock.co/news/deals/2025-08-11-alt5-sigma-wlfi-token-treasury-strategy-eric-trump-366348", "title": "ALT5 Sigma to raise $1.5 billion for WLFI token treasury strategy, to add Eric Trump to board — The Block" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2024,
+      "role": "Worked at his father’s real estate firm, then co-led the family’s investment vehicle",
+      "org": "Witkoff Group / Witkoff Capital",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Zach_Witkoff", "title": "Zach Witkoff — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": null,
+      "role": "Co-founder and chief executive",
+      "org": "World Liberty Financial",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/World_Liberty_Financial", "title": "World Liberty Financial — Wikipedia" },
+        { "url": "https://www.theblock.co/news/deals/2025-08-11-alt5-sigma-wlfi-token-treasury-strategy-eric-trump-366348", "title": "ALT5 Sigma to raise $1.5 billion for WLFI token treasury strategy, to add Eric Trump to board — The Block" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Chairman of the board",
+      "org": "ALT5 Sigma",
+      "sources": [
+        { "url": "https://www.theblock.co/news/deals/2025-08-11-alt5-sigma-wlfi-token-treasury-strategy-eric-trump-366348", "title": "ALT5 Sigma to raise $1.5 billion for WLFI token treasury strategy, to add Eric Trump to board — The Block" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Steve Witkoff",
+      "slug": "steve-witkoff",
+      "relationship_type": "family",
+      "description": "His father, Trump’s special envoy; a co-founder emeritus of World Liberty Financial.",
+      "start_year": 1993,
+      "confidence": 1,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Zach_Witkoff", "title": "Zach Witkoff — Wikipedia" },
+        { "url": "https://www.thedailybeast.com/trump-envoy-steve-witkoffs-son-zach-witkoff-melts-down-defending-dads-bromance-with-russias-putin", "title": "Trump Envoy Steve Witkoff's Son Zach Witkoff Melts Down Defending Dad — The Daily Beast" }
+      ]
+    },
+    {
+      "name": "World Liberty Financial",
+      "slug": "world-liberty-financial",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and chief executive since 2024; chairman of ALT5 Sigma. Signed the Pakistan agreements and announced USD1’s use in the MGX–Binance deal; called Justin Sun’s lawsuit “entirely meritless.”",
+      "start_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/World_Liberty_Financial", "title": "World Liberty Financial — Wikipedia" },
+        { "url": "https://www.theblock.co/news/deals/2025-08-11-alt5-sigma-wlfi-token-treasury-strategy-eric-trump-366348", "title": "ALT5 Sigma to raise $1.5 billion for WLFI token treasury strategy, to add Eric Trump to board — The Block" },
+        { "url": "https://www.dawn.com/news/1906732", "title": "Trump-backed crypto venture partners with Pakistan Crypto Council to boost blockchain adoption — Dawn" },
+        { "url": "https://www.aljazeera.com/news/2026/7/3/500m-for-trump-access-for-pakistan-how-a-crypto-diplomatic-bet-paid-off", "title": "$500m for Trump, access for Pakistan: how a crypto-diplomatic bet paid off — Al Jazeera (July 2026)" },
+        { "url": "https://www.aljazeera.com/economy/2026/4/22/blockchain-billionaire-sun-takes-trump-familys-crypto-firm-to-court", "title": "Blockchain billionaire Sun takes Trump family’s crypto firm to court — Al Jazeera (Reuters, April 2026)" }
+      ]
+    },
+    {
+      "name": "Eric Trump",
+      "slug": "eric-trump",
+      "relationship_type": "colleague",
+      "description": "Fellow World Liberty Financial co-founders; Witkoff chairs and Eric Trump observes on the board of ALT5 Sigma.",
+      "start_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.theblock.co/news/deals/2025-08-11-alt5-sigma-wlfi-token-treasury-strategy-eric-trump-366348", "title": "ALT5 Sigma to raise $1.5 billion for WLFI token treasury strategy, to add Eric Trump to board — The Block" },
+        { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $255,400 from Zach Witkoff to Trump Victory, Donald J. Trump for President, Inc. in 2 cycles (2018–2020).",
+      "start_year": 2018,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: WITKOFF, ZACH to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00580100&two_year_transaction_period=2020", "title": "FEC receipts: WITKOFF, ZACH to Donald J. Trump for President, Inc." }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $33,000 from Zach Witkoff to Vance Victory, Working for Ohio, JD Vance for Senate Inc. in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00817072&two_year_transaction_period=2024", "title": "FEC receipts: WITKOFF, ZACH to Vance Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00783167&two_year_transaction_period=2024", "title": "FEC receipts: WITKOFF, ZACH to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00783142&two_year_transaction_period=2024", "title": "FEC receipts: WITKOFF, ZACH to JD Vance for Senate Inc." }
+      ]
+    }
+  ],
+  "last_researched": "2026-11-09",
+  "notes": "Second sources added on 2026-11-09 were confirmed by web searches restricted to each source's domain; the pages themselves were not opened.",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 312000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&two_year_transaction_period=2026", "title": "FEC itemized receipts: WITKOFF, ZACH, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 225000,
+            "fec_usd": 225000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00003418&two_year_transaction_period=2026", "title": "FEC receipts: WITKOFF, ZACH to Republican National Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 75000,
+            "fec_usd": 75000,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: WITKOFF, ZACH to NRSC, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 59400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&two_year_transaction_period=2024", "title": "FEC itemized receipts: WITKOFF, ZACH, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 33000,
+            "fec_usd": 33000,
+            "fec_ids": ["C00783142", "C00783167", "C00817072"],
+            "description": "Per FEC filings: Vance Victory $16,500; JD Vance for Senate Inc. $9,400; Working for Ohio $7,100.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00817072&two_year_transaction_period=2024", "title": "FEC receipts: WITKOFF, ZACH to Vance Victory, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00783142&two_year_transaction_period=2024", "title": "FEC receipts: WITKOFF, ZACH to JD Vance for Senate Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00783167&two_year_transaction_period=2024", "title": "FEC receipts: WITKOFF, ZACH to Working for Ohio, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 2900,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&two_year_transaction_period=2022", "title": "FEC itemized receipts: WITKOFF, ZACH, 2022 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 344900,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&two_year_transaction_period=2020", "title": "FEC itemized receipts: WITKOFF, ZACH, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 150000,
+            "fec_usd": 150000,
+            "fec_ids": ["C00618389"],
+            "description": "Per FEC filings: Trump Victory $150,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: WITKOFF, ZACH to Trump Victory, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 119200,
+            "fec_usd": 119200,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00003418&two_year_transaction_period=2020", "title": "FEC receipts: WITKOFF, ZACH to Republican National Committee, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 166100,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&two_year_transaction_period=2018", "title": "FEC itemized receipts: WITKOFF, ZACH, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 105400,
+            "fec_usd": 105400,
+            "fec_ids": ["C00580100", "C00618389"],
+            "description": "Per FEC filings: Trump Victory $100,000; Donald J. Trump for President, Inc. $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00618389&two_year_transaction_period=2018", "title": "FEC receipts: WITKOFF, ZACH to Trump Victory, 2018 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00580100&two_year_transaction_period=2018", "title": "FEC receipts: WITKOFF, ZACH to Donald J. Trump for President, Inc., 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 60700,
+            "fec_usd": 60700,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00003418&two_year_transaction_period=2018", "title": "FEC receipts: WITKOFF, ZACH to Republican National Committee, 2018 cycle" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

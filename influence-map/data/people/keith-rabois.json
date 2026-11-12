@@ -1,0 +1,840 @@
+{
+  "name": "Keith Rabois",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "tech",
+  "groups": ["paypal-mafia"],
+  "photo": {
+    "file": "keith-rabois.jpg",
+    "credit": "TechCrunch",
+    "license": "CC BY 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Keith_Rabois_-_2011_TechCrunch_Disrupt.jpg", "title": "File:Keith Rabois - 2011 TechCrunch Disrupt.jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Longtime conservative and major donor to Republican congressional candidates; said in 2024 it was \"impossible to support Biden\" while saying he was not a fan of Trump.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Wikipedia: Keith Rabois" },
+        { "url": "https://www.goodmorningamerica.com/news/story/nikki-haley-nabs-fundraiser-gop-donor-previously-supported-104046855", "title": "ABC News: Nikki Haley nabs fundraiser from GOP donor" }
+      ]
+    }
+  ],
+  "current_role": "Managing director at Khosla Ventures; chairman of Opendoor",
+  "summary": "Keith Rabois was a PayPal executive vice president (2000–2002), then held operating roles at LinkedIn and Slide and was Square's chief operating officer until 2013, when he resigned amid a harassment accusation Square said it had not substantiated. He became a venture capitalist at Khosla Ventures, moved to Peter Thiel's Founders Fund as a general partner in 2019, and returned to Khosla in 2024. He co-founded and chairs Opendoor.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+    { "url": "https://fortune.com/2025/09/16/opendoor-chairman-keith-rabois-layoffs-opendoor/", "title": "Opendoor Chairman Keith Rabois says the company doesn't need 1,400 employees — Fortune" }
+  ],
+  "timeline": [
+    {
+      "year": 2000,
+      "end_year": 2002,
+      "role": "Executive vice president, business development, public affairs and policy",
+      "org": "PayPal",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2010,
+      "end_year": 2013,
+      "role": "Chief operating officer; resigned in January 2013 amid a sexual harassment accusation that Square said it had not substantiated",
+      "org": "Square",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://fortune.com/2013/01/25/square-loses-no-2-exec-amid-sexual-harassment-accusations/", "title": "Square loses No. 2 exec amid sexual harassment accusations — Fortune" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": 2019,
+      "role": "Partner",
+      "org": "Khosla Ventures",
+      "sources": [
+        { "url": "https://fortune.com/2013/02/26/ex-square-executive-keith-rabois-joining-khosla-ventures/", "title": "Ex-Square executive Keith Rabois joining Khosla Ventures — Fortune" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2024,
+      "role": "General partner",
+      "org": "Founders Fund",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": null,
+      "role": "Managing director",
+      "org": "Khosla Ventures",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://fortune.com/2025/09/16/opendoor-chairman-keith-rabois-layoffs-opendoor/", "title": "Opendoor Chairman Keith Rabois says the company doesn't need 1,400 employees — Fortune" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Opendoor",
+      "role": "Co-founder and chairman",
+      "sources": [
+        { "url": "https://fortune.com/2025/09/16/opendoor-chairman-keith-rabois-layoffs-opendoor/", "title": "Opendoor Chairman Keith Rabois says the company doesn't need 1,400 employees — Fortune" }
+      ]
+    },
+    {
+      "name": "PayPal Mafia",
+      "role": "Member; in Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "colleague",
+      "description": "Rabois was a PayPal executive under Thiel as CEO and a general partner at Thiel's Founders Fund from 2019 to 2024. One account traces their connection to Rabois's time on The Stanford Review under Thiel.",
+      "start_year": 2000,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund", "title": "Keith Rabois is leaving Khosla Ventures for Founders Fund — TechCrunch" },
+        { "url": "https://techcrunch.com/2024/01/09/keith-rabois-dishes-on-his-surprising-return-to-khosla-ventures-after-leaving-the-firm-in-2019-for-founders-fund", "title": "Keith Rabois dishes on his surprising return to Khosla Ventures — TechCrunch" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "employer",
+      "description": "Rabois, a fellow PayPal executive, later held an operating role at Hoffman's LinkedIn.",
+      "start_year": 2005,
+      "end_year": 2007,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://fortune.com/2013/02/26/ex-square-executive-keith-rabois-joining-khosla-ventures/", "title": "Ex-Square executive Keith Rabois joining Khosla Ventures — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Max Levchin",
+      "slug": "max-levchin",
+      "relationship_type": "employer",
+      "description": "Rabois held an operating role at Slide, the company Levchin founded after PayPal.",
+      "start_year": 2007,
+      "end_year": 2010,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://fortune.com/2013/02/26/ex-square-executive-keith-rabois-joining-khosla-ventures/", "title": "Ex-Square executive Keith Rabois joining Khosla Ventures — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jack Dorsey",
+      "slug": "jack-dorsey",
+      "relationship_type": "employer",
+      "description": "Rabois was chief operating officer of Square, co-founded and led by Dorsey, from 2010 to 2013.",
+      "start_year": 2010,
+      "end_year": 2013,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://fortune.com/2013/01/25/square-loses-no-2-exec-amid-sexual-harassment-accusations/", "title": "Square loses No. 2 exec amid sexual harassment accusations — Fortune" }
+      ]
+    },
+    {
+      "name": "Vinod Khosla",
+      "slug": "vinod-khosla",
+      "relationship_type": "employer",
+      "description": "Rabois has twice worked at Khosla's firm, Khosla Ventures: 2013–2019 and again since January 2024, now as one of five managing directors.",
+      "start_year": 2013,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://fortune.com/2013/02/26/ex-square-executive-keith-rabois-joining-khosla-ventures/", "title": "Ex-Square executive Keith Rabois joining Khosla Ventures — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "employer",
+      "description": "General partner from 2019 to 2024.",
+      "start_year": 2019,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Wikipedia: Keith Rabois" },
+        { "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund", "title": "Keith Rabois is leaving Khosla Ventures for Founders Fund — TechCrunch" },
+        { "url": "https://techcrunch.com/2024/01/09/keith-rabois-dishes-on-his-surprising-return-to-khosla-ventures-after-leaving-the-firm-in-2019-for-founders-fund", "title": "Keith Rabois dishes on his surprising return to Khosla Ventures — TechCrunch" }
+      ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "family",
+      "description": "Rabois married Jacob Helberg, now the State Department’s Under Secretary for Economic Affairs, in 2018; together they hosted fundraisers for Trump and Vance in 2024.",
+      "start_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Jacob_Helberg", "title": "Jacob Helberg — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "friend",
+      "description": "Sam Altman officiated Rabois’s 2018 wedding to Jacob Helberg.",
+      "start_year": 2018,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jacob_Helberg", "title": "Jacob Helberg — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://finance.yahoo.com/news/trump-appointee-jacob-helbergs-miami-151516830.html", "title": "Yahoo Finance (citing The Wall Street Journal): Trump appointee Jacob Helberg’s Miami home" }
+      ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "employer",
+      "description": "At PayPal: Executive vice president, business development and public affairs.",
+      "start_year": 2000,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $37,200 from Keith Rabois to Rubio Victory Committee, Reclaim America PAC, Marco Rubio for Senate in the 2022 cycle.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00494617&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to Rubio Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00500025&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to Reclaim America PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00620518&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to Marco Rubio for Senate" }
+      ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $1,530,000 from Keith Rabois to CLF in 3 cycles (2022–2026).",
+      "start_year": 2021,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: RABOIS, KEITH to CLF" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $361,600 from Keith Rabois to Trump 47 Committee, Inc., Right for America, Save America and others in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Trump 47 Committee, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00867036&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Right for America" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00762591&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Save America" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $22,240 from Keith Rabois to Ted Cruz Victory Committee, Jobs, Freedom, and Security PAC, Ted Cruz for Senate in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Jobs, Freedom, and Security PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Joe Kent",
+      "slug": "joe-kent",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $13,200 from Keith Rabois to Joe Kent for Wa-03 Republican Nominee Fund 2024, Joe Kent for Congress-Gtm Nf Wa03, Joe Kent for Congress in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00856708&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Joe Kent for Wa-03 Republican Nominee Fund 2024" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00858365&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Joe Kent for Congress-Gtm Nf Wa03" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00771394&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Joe Kent for Congress" }
+      ]
+    },
+    {
+      "name": "Mike Waltz",
+      "slug": "mike-waltz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $11,600 from Keith Rabois to Warrior Diplomat PAC, Michael Waltz for Congress in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00693671&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Warrior Diplomat PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Michael Waltz for Congress" }
+      ]
+    },
+    {
+      "name": "Mike Johnson",
+      "slug": "mike-johnson",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $13,600 from Keith Rabois to Mike Johnson for Louisiana in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: RABOIS, KEITH to Mike Johnson for Louisiana" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. The Stanford Review link to Thiel rests on a single source. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 4668167,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&two_year_transaction_period=2026", "title": "FEC itemized receipts: RABOIS, KEITH, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Grow the Majority",
+            "kind": "pac",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00858373"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00858373&two_year_transaction_period=2026", "title": "FEC receipts: RABOIS, KEITH to Grow the Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1010000,
+            "fec_usd": 1010000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: CLF $1,010,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: RABOIS, KEITH to CLF, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 612600,
+            "fec_usd": 612600,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00075820&two_year_transaction_period=2026", "title": "FEC receipts: RABOIS, KEITH to NRCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 516200,
+            "fec_usd": 516200,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00003418&two_year_transaction_period=2026", "title": "FEC receipts: RABOIS, KEITH to Republican National Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 7000,
+            "fec_usd": 7000,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $7,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: RABOIS, KEITH to Mike Johnson for Louisiana, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "The Sentinel Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 300000,
+            "fec_usd": 300000,
+            "fec_ids": ["C00811166"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00811166&two_year_transaction_period=2026", "title": "FEC receipts: RABOIS, KEITH to The Sentinel Action Fund, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 5920327,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&two_year_transaction_period=2024", "title": "FEC itemized receipts: RABOIS, KEITH, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Sfa Fund, Inc",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1005000,
+            "fec_usd": 1005000,
+            "fec_ids": ["C00828061"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00828061&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Sfa Fund, Inc, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Protect the House 2024",
+            "kind": "pac",
+            "amount_usd": 693700,
+            "fec_usd": 693700,
+            "fec_ids": ["C00831925"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00831925&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Protect the House 2024, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 578200,
+            "fec_usd": 578200,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00075820&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to NRCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 510000,
+            "fec_usd": 510000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $510,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00504530&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Congressional Leadership Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Grow the Majority",
+            "kind": "pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00858373"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00858373&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Grow the Majority, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC Victory",
+            "kind": "pac",
+            "amount_usd": 400000,
+            "fec_usd": 400000,
+            "fec_ids": ["C00837518"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00837518&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to NRSC Victory, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 361600,
+            "fec_usd": 361600,
+            "fec_ids": ["C00762591", "C00828541", "C00867036", "C00867937"],
+            "description": "Per FEC filings: Trump 47 Committee, Inc. $250,000; Right for America $100,000; Never Surrender, Inc. $6,600; Save America $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Trump 47 Committee, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00867036&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Right for America, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Never Surrender, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Scalise Leadership Fund 2024",
+            "kind": "pac",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00857144"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00857144&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Scalise Leadership Fund 2024, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 165200,
+            "fec_usd": 165200,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00003418&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Republican National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "The Sentinel Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00811166"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00811166&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to The Sentinel Action Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 82600,
+            "fec_usd": 82600,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00027466&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to NRSC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz Victory Fund",
+            "kind": "pac",
+            "amount_usd": 51600,
+            "fec_usd": 51600,
+            "fec_ids": ["C00849778"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00849778&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Ted Cruz Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 22240,
+            "fec_usd": 22240,
+            "fec_ids": ["C00492785", "C00536540", "C00542423"],
+            "description": "Per FEC filings: Ted Cruz Victory Committee $11,600; Ted Cruz for Senate $5,640; Jobs, Freedom, and Security PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Ted Cruz Victory Committee, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Ted Cruz for Senate, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Jobs, Freedom, and Security PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Joe Kent",
+            "slug": "joe-kent",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 13200,
+            "fec_usd": 13200,
+            "fec_ids": ["C00771394", "C00856708", "C00858365"],
+            "description": "Per FEC filings: Joe Kent for Congress $6,600; Joe Kent for Wa-03 Republican Nominee Fund 2024 $3,300; Joe Kent for Congress-Gtm Nf Wa03 $3,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00771394&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Joe Kent for Congress, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00856708&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Joe Kent for Wa-03 Republican Nominee Fund 2024, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00858365&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Joe Kent for Congress-Gtm Nf Wa03, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 11600,
+            "fec_usd": 11600,
+            "fec_ids": ["C00666396", "C00693671"],
+            "description": "Per FEC filings: Michael Waltz for Congress $6,600; Warrior Diplomat PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Michael Waltz for Congress, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00693671&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Warrior Diplomat PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Josh Hawley",
+            "slug": "josh-hawley",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 7667,
+            "fec_usd": 7667,
+            "fec_ids": ["C00652727", "C00692640"],
+            "description": "Per FEC filings: Josh Hawley for Senate $6,600; Fighting for Missouri PAC $1,067.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00652727&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Josh Hawley for Senate, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00692640&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Fighting for Missouri PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00608695&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Mike Johnson for Louisiana, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 3496038,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&two_year_transaction_period=2022", "title": "FEC itemized receipts: RABOIS, KEITH, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Take Back the House 2022",
+            "kind": "pac",
+            "amount_usd": 1369700,
+            "fec_usd": 1369700,
+            "fec_ids": ["C00766782"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00766782&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to Take Back the House 2022, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 421400,
+            "fec_usd": 421400,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00075820&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to NRCC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Rick Scott Victory Fund",
+            "kind": "pac",
+            "amount_usd": 335000,
+            "fec_usd": 335000,
+            "fec_ids": ["C00676957"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00676957&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to Rick Scott Victory Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 319200,
+            "fec_usd": 319200,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00027466&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to NRSC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Saving Arizona PAC",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00777185"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00777185&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to Saving Arizona PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 37200,
+            "fec_usd": 37200,
+            "fec_ids": ["C00494617", "C00500025", "C00620518"],
+            "description": "Per FEC filings: Rubio Victory Committee $26,400; Marco Rubio for Senate $5,800; Reclaim America PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00494617&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to Rubio Victory Committee, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00620518&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to Marco Rubio for Senate, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00500025&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to Reclaim America PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Georgia Republican Party Inc.",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 29538,
+            "fec_usd": 29538,
+            "fec_ids": ["C00150672"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00150672&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to Georgia Republican Party Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Team McCaul Texas Victory",
+            "kind": "pac",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00573246"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00573246&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to Team McCaul Texas Victory, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10000,
+            "fec_usd": 10000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $10,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00504530&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to Congressional Leadership Fund, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 485500,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&two_year_transaction_period=2020", "title": "FEC itemized receipts: RABOIS, KEITH, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 218600,
+            "fec_usd": 218600,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00027466&two_year_transaction_period=2020", "title": "FEC receipts: RABOIS, KEITH to NRSC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Georgia Battleground Fund",
+            "kind": "pac",
+            "amount_usd": 154100,
+            "fec_usd": 154100,
+            "fec_ids": ["C00736967"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00736967&two_year_transaction_period=2020", "title": "FEC receipts: RABOIS, KEITH to Senate Georgia Battleground Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00042366&two_year_transaction_period=2020", "title": "FEC receipts: RABOIS, KEITH to DSCC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Pete Buttigieg",
+            "slug": "pete-buttigieg",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00697441"],
+            "description": "Per FEC filings: Win the Era PAC $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00697441&two_year_transaction_period=2020", "title": "FEC receipts: RABOIS, KEITH to Win the Era PAC, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 279318,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&two_year_transaction_period=2018", "title": "FEC itemized receipts: RABOIS, KEITH, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "NRSC Targeted State Victory Fund",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00679381"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00679381&two_year_transaction_period=2018", "title": "FEC receipts: RABOIS, KEITH to NRSC Targeted State Victory Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 67800,
+            "fec_usd": 67800,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00027466&two_year_transaction_period=2018", "title": "FEC receipts: RABOIS, KEITH to NRSC, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 154600,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&two_year_transaction_period=2016", "title": "FEC itemized receipts: RABOIS, KEITH, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Never Means Never PAC",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00610907"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00610907&two_year_transaction_period=2016", "title": "FEC receipts: RABOIS, KEITH to Never Means Never PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 35000,
+            "fec_usd": 35000,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00027466&two_year_transaction_period=2016", "title": "FEC receipts: RABOIS, KEITH to NRSC, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

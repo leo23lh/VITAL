@@ -1,0 +1,85 @@
+{
+  "name": "Anthony D'Esposito",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "photo": {
+    "file": "anthony-desposito.jpg",
+    "credit": "U.S. Department of Labor",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Anthony_D%E2%80%99Esposito_Labor_portrait.jpg", "title": "File:Anthony D’Esposito Labor portrait.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Inspector General, U.S. Department of Labor (since January 2026)",
+  "summary": "Anthony D’Esposito, a former New York City police detective and Republican congressman from Long Island (2023–2025), was confirmed as the Labor Department’s inspector general on December 18, 2025, and sworn in on January 5, 2026. His office investigated the misconduct allegations that preceded Lori Chavez-DeRemer’s resignation, and in March 2026 he joined the administration’s anti-fraud task force led by Vice President Vance; the ethics group CREW has filed a complaint that he is not impartial.",
+  "sources": [
+    { "url": "https://www.oig.dol.gov/public/Press%20Releases/DOL-OIG%20Press%20Release_Anthony%20P.%20D'Esposito%20Assumes%20Role%20as%20US%20Department%20of%20Labor%20Inspector%20General.pdf", "title": "Anthony P. D’Esposito assumes role as US Department of Labor Inspector General — DOL Office of Inspector General" },
+    { "url": "https://www.oig.dol.gov/igbio.htm", "title": "Inspector General Anthony P. D’Esposito — DOL Office of Inspector General" },
+    { "url": "https://www.oig.dol.gov/public/Press%20Releases/Inspector%20General%20Anthony%20P.%20D'Esposito%20Joins%20President%20Trump's%20Task%20Force%20to%20Wage%20War%20on%20Fraud,%20Led%20By%20Vice%20President%20Vance%20_03272026.pdf", "title": "Inspector General D’Esposito joins President Trump’s Task Force to Wage War on Fraud, led by Vice President Vance — DOL OIG (March 27, 2026)" },
+    { "url": "https://news.bloomberglaw.com/us-law-week/labor-inspector-general-desposito-bucks-impartiality-standards", "title": "Labor Inspector General D’Esposito bucks impartiality standards — Bloomberg Law" },
+    { "url": "https://en.wikipedia.org/wiki/Anthony_D%27Esposito", "title": "Anthony D’Esposito — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2023,
+      "end_year": 2025,
+      "role": "U.S. Representative (R-NY)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anthony_D%27Esposito", "title": "Anthony D’Esposito — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Inspector General",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.oig.dol.gov/public/Press%20Releases/DOL-OIG%20Press%20Release_Anthony%20P.%20D'Esposito%20Assumes%20Role%20as%20US%20Department%20of%20Labor%20Inspector%20General.pdf", "title": "Anthony P. D’Esposito assumes role as US Department of Labor Inspector General — DOL Office of Inspector General" },
+        { "url": "https://www.oig.dol.gov/igbio.htm", "title": "Inspector General Anthony P. D’Esposito — DOL Office of Inspector General" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "colleague",
+      "description": "The department’s inspector general, who oversees it independently; both sit on the administration’s anti-fraud task force, and his office’s inquiry preceded the resignation that made Sonderling acting secretary.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.oig.dol.gov/public/Press%20Releases/Inspector%20General%20Anthony%20P.%20D'Esposito%20Joins%20President%20Trump's%20Task%20Force%20to%20Wage%20War%20on%20Fraud,%20Led%20By%20Vice%20President%20Vance%20_03272026.pdf", "title": "Inspector General D’Esposito joins President Trump’s Task Force to Wage War on Fraud, led by Vice President Vance — DOL OIG (March 27, 2026)" },
+        { "url": "https://news.bloomberglaw.com/us-law-week/labor-inspector-general-desposito-bucks-impartiality-standards", "title": "Labor Inspector General D’Esposito bucks impartiality standards — Bloomberg Law" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "colleague",
+      "description": "Joined the anti-fraud task force Vance leads in March 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.oig.dol.gov/public/Press%20Releases/Inspector%20General%20Anthony%20P.%20D'Esposito%20Joins%20President%20Trump's%20Task%20Force%20to%20Wage%20War%20on%20Fraud,%20Led%20By%20Vice%20President%20Vance%20_03272026.pdf", "title": "Inspector General D’Esposito joins President Trump’s Task Force to Wage War on Fraud, led by Vice President Vance — DOL OIG (March 27, 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Inspector General",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "keith-sonderling",
+    "since": "2026-01-05",
+    "sources": [
+      { "url": "https://www.oig.dol.gov/public/Press%20Releases/DOL-OIG%20Press%20Release_Anthony%20P.%20D'Esposito%20Assumes%20Role%20as%20US%20Department%20of%20Labor%20Inspector%20General.pdf", "title": "Anthony P. D’Esposito assumes role as US Department of Labor Inspector General — DOL Office of Inspector General" },
+      { "url": "https://www.oig.dol.gov/igbio.htm", "title": "Inspector General Anthony P. D’Esposito — DOL Office of Inspector General" }
+    ]
+  },
+  "notes": "dol.gov pages could not be opened from this session (the site blocks automated readers); facts were confirmed with searches restricted to dol.gov and the cited outlets.",
+  "last_researched": "2026-11-08"
+}

@@ -1,0 +1,125 @@
+{
+  "name": "Steve Chen",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "tech",
+  "groups": ["paypal-mafia"],
+  "photo": {
+    "file": "steve-chen.png",
+    "credit": "TaiwanPlus",
+    "license": "CC BY 3.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Steve_Chen_(2022)_02.png", "title": "File:Steve Chen (2022) 02.png — Wikimedia Commons" }
+  },
+  "current_role": "YouTube co-founder; investor",
+  "summary": "Steve Chen, a former PayPal engineer, co-founded YouTube in 2005 with Chad Hurley and Jawed Karim and sold it to Google in 2006. He went on to co-found AVOS Systems with Hurley, joined Google Ventures in 2014, and in 2016 co-founded the live food-video site Nom, which closed in 2017.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Steve_Chen", "title": "Steve Chen — Wikipedia" },
+    { "url": "https://www.britannica.com/topic/YouTube", "title": "YouTube — Britannica" }
+  ],
+  "timeline": [
+    {
+      "year": 2005,
+      "end_year": 2006,
+      "role": "Co-founder (sold to Google in 2006)",
+      "org": "YouTube",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/History_of_YouTube", "title": "History of YouTube — Wikipedia" },
+        { "url": "https://www.britannica.com/topic/YouTube", "title": "YouTube — Britannica" }
+      ]
+    },
+    {
+      "year": 2011,
+      "end_year": 2014,
+      "role": "Co-founder",
+      "org": "AVOS Systems",
+      "sources": [
+        { "url": "https://fortune.com/2013/08/08/youtube-founders-try-for-their-next-big-thing/", "title": "YouTube founders try for their next big thing — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/Steve_Chen", "title": "Steve Chen — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2014,
+      "role": "Joined as an investor",
+      "org": "Google Ventures",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Chen", "title": "Steve Chen — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2016,
+      "end_year": 2017,
+      "role": "Co-founder and CTO",
+      "org": "Nom",
+      "sources": [
+        { "url": "https://fortune.com/2016/03/09/nom-live-video/", "title": "YouTube Co-founder Steve Chen Launches Food-Focused Video Site — Fortune" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "PayPal Mafia",
+      "role": "Member (skipped Fortune's 2007 photo after Google objected to the gangster theme)",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Chad Hurley",
+      "slug": "chad-hurley",
+      "relationship_type": "co-founder",
+      "description": "Co-founded YouTube in 2005 after meeting at PayPal, and later AVOS Systems together.",
+      "start_year": 2005,
+      "end_year": 2014,
+      "confidence": 0.97,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/History_of_YouTube", "title": "History of YouTube — Wikipedia" },
+        { "url": "https://fortune.com/2013/08/08/youtube-founders-try-for-their-next-big-thing/", "title": "YouTube founders try for their next big thing — Fortune" }
+      ]
+    },
+    {
+      "name": "Jawed Karim",
+      "slug": "jawed-karim",
+      "relationship_type": "co-founder",
+      "description": "Co-founded YouTube together in 2005; Chen and Karim had studied computer science together at the University of Illinois.",
+      "start_year": 2005,
+      "end_year": 2006,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/History_of_YouTube", "title": "History of YouTube — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Jawed_Karim", "title": "Jawed Karim — Wikipedia" },
+        { "url": "https://interestingengineering.com/culture/youtubes-history-and-its-impact-on-the-internet", "title": "YouTube's history and its impact on the internet — Interesting Engineering" },
+        { "url": "https://www.encyclopedia.com/books/politics-and-business-magazines/youtube-inc", "title": "YouTube, Inc. — Encyclopedia.com (International Directory of Company Histories)" }
+      ]
+    },
+    {
+      "name": "Roelof Botha",
+      "slug": "roelof-botha",
+      "relationship_type": "donor",
+      "description": "Sequoia Capital, where Botha oversaw the investment, put $3.5 million into YouTube in November 2005, and Botha joined its board; Sequoia added more in April 2006 before Google bought YouTube.",
+      "start_year": 2005,
+      "end_year": 2006,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/History_of_YouTube", "title": "History of YouTube — Wikipedia" },
+        { "url": "https://blog.youtube/news-and-events/youtube-receives-35m-in-funding-from/", "title": "YouTube receives $3.5M in funding from Sequoia Capital — YouTube Official Blog (2005)" }
+      ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "employer",
+      "description": "At PayPal: Early PayPal engineer, before co-founding YouTube.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

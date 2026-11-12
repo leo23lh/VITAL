@@ -1,0 +1,234 @@
+{
+  "name": "Senate Leadership Fund",
+  "aliases": ["SLF"],
+  "kind": "super-pac",
+  "side": "R",
+  "founded": 2015,
+  "groups": [],
+  "summary": "Senate Republicans' main super PAC, founded in January 2015 by allies of Mitch McConnell and now aligned with Majority Leader John Thune. Its affiliated nonprofit One Nation, which does not disclose donors, has passed it tens of millions of dollars. It spent $296.6 million in the 2024 cycle. In the 2026 cycle Elon Musk became its biggest donor, giving $158 million that it passed on to Texas PAC, the main outside backer of Ken Paxton's losing Senate run.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+    { "url": "https://news.bgov.com/bloomberg-government-news/musk-powers-republican-pacs-to-367-million-fundraising-haul", "title": "Musk powers Republican PACs to $367 million fundraising haul — Bloomberg Government" },
+    { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
+    { "url": "https://www.cnn.com/2026/10/16/politics/musk-gop-support-texas-senate-race-hnk", "title": "Musk contributed more than $150 million to bolster GOP in Texas Senate race, filings show — CNN" }
+  ],
+  "finances": [
+    {
+      "cycle": 2024,
+      "spent_usd": 296600000,
+      "description": "About $211M of it on independent expenditures, the third-highest of any super PAC.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" }
+      ]
+    },
+    {
+      "cycle": 2026,
+      "description": "Raised $253.7M through June 30, 2026, then $273M in July–September alone, including Musk's $158M; it planned about $350M of ads across eight Senate races.",
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/senate-leadership-fund-5/", "title": "Senate Leadership Fund — FactCheck.org" },
+        { "url": "https://news.bgov.com/bloomberg-government-news/musk-powers-republican-pacs-to-367-million-fundraising-haul", "title": "Musk powers Republican PACs to $367 million fundraising haul — Bloomberg Government" },
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "donor",
+      "description": "Gave $10 million in 2023–24, then $158 million in the 2026 cycle (other tallies say $168 million), making him its biggest donor; it passed the same $158 million to Texas PAC, the main outside backer of Ken Paxton. FEC filings show $178,000,000 from Elon Musk to SLF PAC in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
+        { "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html", "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million — CNBC" },
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to SLF PAC" }
+      ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "donor",
+      "description": "Gave $30 million in 2023–24, its largest individual donor that cycle, after $5 million in 2022. FEC filings show $101,100,000 from Ken Griffin to SLF PAC in 5 cycles (2016–2026).",
+      "start_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+        { "url": "https://www.benzinga.com/general/hedge-funds/24/07/39783424/ken-griffin-is-once-again-top-donor-to-republicans-who-aim-to-control-congress", "title": "Ken Griffin is once again top donor to Republicans who aim to control Congress — Benzinga" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: GRIFFIN, KEN to SLF PAC" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "Gave $27 million in 2023–24 and at least $1 million in the first half of 2025. FEC filings show $63,500,000 from Paul Singer to SLF PAC in 6 cycles (2016–2026).",
+      "start_year": 2015,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2026-election/republican-super-pacs-bank-millions-ahead-midterm-battles-rcna222115", "title": "Republican super PACs bank millions ahead of midterm battles — NBC News" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to SLF PAC" }
+      ]
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "donor",
+      "description": "Gave $15 million in 2023–24 and $30 million in March 2026. FEC filings show $135,000,000 from Miriam Adelson to SLF PAC in 6 cycles (2016–2026).",
+      "start_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://thehill.com/homenews/campaign/5834966-campaign-finance-reports-midterm-dynamics/", "title": "Democrats' fundraising dominates key midterm races: What we learned from the latest campaign filings — The Hill" },
+        { "url": "https://www.bloomberg.com/news/articles/2026-04-15/republican-midterms-war-chest-gets-40-million-boost-from-adelson", "title": "Republican Midterms War Chest Gets $40 Million Boost From Adelson — Bloomberg" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: ADELSON, MIRIAM to SLF PAC" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "A steady top donor: $10 million in 2020, $10 million in 2022, $9 million in 2024 and $20 million in the 2026 cycle. FEC filings show $96,570,000 from Stephen Schwarzman to SLF PAC in 6 cycles (2016–2026).",
+      "start_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2020-08-21/senate-leadership-fund-gets-10-million-boost-from-schwarzman", "title": "Senate Leadership Fund Gets $10 Million Boost From Schwarzman — Bloomberg" },
+        { "url": "https://thehill.com/lobbying/3720141-here-are-the-biggest-donors-in-the-midterm-elections/", "title": "Here are the 10 biggest donors in the midterm elections — The Hill" },
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to SLF PAC" }
+      ]
+    },
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "donor",
+      "description": "Gave $1 million in 2023–24. FEC filings show $1,200,000 from Jeff Yass to Senate Leadership Fund in 2 cycles (2018–2024).",
+      "start_year": 2018,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Senate_Leadership_Fund", "title": "Senate Leadership Fund — Wikipedia" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00571703&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Senate Leadership Fund" }
+      ]
+    },
+    {
+      "name": "Ken Paxton",
+      "slug": "ken-paxton",
+      "relationship_type": "funded_by",
+      "description": "Passed $158 million, the same amount Musk had given it, to Texas PAC, the largest outside backer of Paxton's 2026 Senate run, which he lost to Democrat James Talarico.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/10/16/politics/musk-gop-support-texas-senate-race-hnk", "title": "Musk contributed more than $150 million to bolster GOP in Texas Senate race, filings show — CNN" },
+        { "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html", "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor — CNBC" },
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" }
+      ]
+    },
+    {
+      "name": "Senate Majority PAC",
+      "slug": "senate-majority-pac",
+      "relationship_type": "rival",
+      "description": "The two parties' main Senate super PACs, spending against each other in the same races; in Michigan in 2026 it put in nearly $35 million against the Leadership Fund's $51 million.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.semafor.com/article/10/14/2026/top-democratic-super-pac-spends-more-in-michigan-maine", "title": "Top Democratic super PAC spends more in Michigan, Maine — Semafor" },
+        { "url": "https://issueone.org/press/four-main-super-pacs-focused-on-control-of-congress-have-raised-nearly-120-million-from-allied-dark-money-groups-this-election-cycle/", "title": "Four main super PACs focused on control of Congress have raised nearly $120 million from allied dark-money groups — Issue One" }
+      ]
+    },
+    {
+      "name": "Jon Ossoff",
+      "slug": "jon-ossoff",
+      "relationship_type": "enemy",
+      "description": "The Senate Leadership Fund committed a record $44 million to defeat Ossoff in 2026; he won re-election.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.ajc.com/politics/2026/04/gop-super-pac-commits-record-44m-to-oust-ossoff-in-georgia", "title": "GOP super PAC commits record $44M to oust Ossoff in Georgia — Atlanta Journal-Constitution" },
+        { "url": "https://www.opb.org/article/2026/11/03/georgia-sen-jon-ossoff-wins-reelection-defeating-rep-mike-collins-to-hold-a-key-democratic-seat/", "title": "Georgia Sen. Jon Ossoff wins reelection, defeating Rep. Mike Collins — AP via OPB" }
+      ]
+    },
+    {
+      "name": "James Talarico",
+      "slug": "james-talarico",
+      "relationship_type": "enemy",
+      "description": "The Senate Leadership Fund passed Musk's money to Texas PAC, which spent about $70 million against Talarico.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://aljazeera.com/news/2026/11/3/texans-vote-in-most-expensive-senate-race-in-us-history", "title": "Texans vote in most expensive Senate race in US history — Al Jazeera" },
+        { "url": "https://legis1.com/news/outside-spending-2026-monday-october-12-900am", "title": "Outside spending in 2026 — Legis1" }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "donor",
+      "description": "FEC filings show $1,250,000 from Ben Horowitz to SLF PAC in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to SLF PAC" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "donor",
+      "description": "FEC filings show $1,250,000 from Marc Andreessen to SLF PAC in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: ANDREESSEN, MARC to SLF PAC" }
+      ]
+    },
+    {
+      "name": "Norman Braman",
+      "slug": "norman-braman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $75,000 from Norman Braman to Senate Leadership Fund in 2 cycles (2020–2022).",
+      "start_year": 2020,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00571703&two_year_transaction_period=2022", "title": "FEC receipts: BRAMAN, NORMAN to Senate Leadership Fund" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "FEC filings show $100,000 from Peter Thiel to Senate Leadership Fund in the 2020 cycle.",
+      "start_year": 2020,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00571703&two_year_transaction_period=2020", "title": "FEC receipts: THIEL, PETER to Senate Leadership Fund" }
+      ]
+    },
+    {
+      "name": "Timothy Mellon",
+      "slug": "timothy-mellon",
+      "relationship_type": "donor",
+      "description": "FEC filings show $30,000,000 from Timothy Mellon to Senate Leadership Fund in the 2020 cycle.",
+      "start_year": 2020,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MELLON%2C+TIMOTHY&committee_id=C00571703&two_year_transaction_period=2020", "title": "FEC receipts: MELLON, TIMOTHY to Senate Leadership Fund" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and campaign-finance reporting. Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

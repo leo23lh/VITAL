@@ -1,0 +1,103 @@
+{
+  "name": "Andy Surabian",
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican strategist: veteran of all three Trump campaigns, Steve Bannon's political adviser in the first Trump White House, and senior adviser to Vance and Donald Trump Jr.",
+      "sources": [
+        { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios: Vice President-elect JD Vance's inner circle" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["jd-vance", "donald-trump-jr"],
+    "basis": "Described by Axios as perhaps Vance's closest political adviser and strategist; also a close political adviser to Donald Trump Jr.",
+    "sources": [
+      { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios: Vice President-elect JD Vance's inner circle" }
+    ]
+  },
+  "current_role": "Republican political strategist; senior adviser to JD Vance and Donald Trump Jr.",
+  "summary": "Andy Surabian is a Republican strategist who worked on all three Trump campaigns, served as Steve Bannon's political adviser in the first Trump White House, and later advised the pro-Trump Great America Alliance. He was a senior adviser on JD Vance's 2022 Senate race, ran Vance's vice-presidential campaign operation in 2024, and is a close political adviser to Donald Trump Jr.",
+  "sources": [
+    { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios: Vice President-elect JD Vance's inner circle" },
+    { "url": "https://www.axios.com/bannons-political-adviser-leaving-white-house-to-join-pro-trump-group-1513305315-dab5eb87-701b-4f01-a34a-4f93ad4d5dbe.html", "title": "Axios: Bannon's political adviser leaving White House to join pro-Trump group" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2017,
+      "role": "Political adviser to chief strategist Steve Bannon",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.axios.com/bannons-political-adviser-leaving-white-house-to-join-pro-trump-group-1513305315-dab5eb87-701b-4f01-a34a-4f93ad4d5dbe.html", "title": "Axios" }
+      ]
+    },
+    {
+      "year": 2022,
+      "end_year": 2022,
+      "role": "Senior adviser to Vance's Senate campaign",
+      "org": "JD Vance for Senate",
+      "sources": [
+        { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios: Vice President-elect JD Vance's inner circle" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": 2024,
+      "role": "Chief strategist for Vance's vice-presidential campaign operation",
+      "org": "Trump–Vance campaign",
+      "sources": [
+        { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios: Vice President-elect JD Vance's inner circle" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "employer",
+      "description": "Surabian was a senior adviser on Vance's 2022 Senate run and ran his 2024 vice-presidential operation; Axios called him perhaps Vance's closest political adviser.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios: Vice President-elect JD Vance's inner circle" }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "employer",
+      "description": "A close political adviser and spokesman for Donald Trump Jr.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios: Vice President-elect JD Vance's inner circle" },
+        { "url": "https://www.washingtonexaminer.com/?p=553795", "title": "Washington Examiner: Trump Jr. spokesman Andrew Surabian on the Senate subpoena (2019)" }
+      ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "employer",
+      "description": "Surabian was Bannon's political adviser in the White House in 2017.",
+      "start_year": 2017,
+      "end_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/bannons-political-adviser-leaving-white-house-to-join-pro-trump-group-1513305315-dab5eb87-701b-4f01-a34a-4f93ad4d5dbe.html", "title": "Axios" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

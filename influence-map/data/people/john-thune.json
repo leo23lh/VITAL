@@ -1,0 +1,138 @@
+{
+  "name": "John Thune",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": 2005,
+      "end_year": null,
+      "basis": "Republican senator since 2005 and Senate Republican leader since 2025.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/John_Thune", "title": "John Thune — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "Senate Majority Leader (since January 2025; until January 2027)",
+  "summary": "John Thune, a South Dakota Republican senator since 2005, became Senate majority leader in January 2025. After Democrats won the Senate in November 2026, he said he would run to stay on as Republican leader in the minority, with the conference vote set for November 10.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/John_Thune", "title": "John Thune — Wikipedia" },
+    { "url": "https://www.sdpb.org/elections/2026-11-04/thune-says-senate-republicans-wont-stand-idly-by-in-face-of-democrats-new-majority", "title": "Thune says Senate Republicans won’t ‘stand idly by’ in face of Democrats’ new majority — SDPB" },
+    { "url": "https://www.washingtonexaminer.com/news/senate/4792161/john-thune-run-second-term-senate-gop-leader-midterm-election-loss/", "title": "Thune to run for second term as Senate GOP leader — Washington Examiner" }
+  ],
+  "timeline": [
+    {
+      "year": 2005,
+      "end_year": null,
+      "role": "U.S. Senator (R-SD)",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/John_Thune", "title": "John Thune — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Senate Majority Leader",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/John_Thune", "title": "John Thune — Wikipedia" },
+        { "url": "https://www.sdpb.org/elections/2026-11-04/thune-says-senate-republicans-wont-stand-idly-by-in-face-of-democrats-new-majority", "title": "Thune says Senate Republicans won’t ‘stand idly by’ in face of Democrats’ new majority — SDPB" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Led Trump’s agenda through the Senate as majority leader from 2025, though he spoke with Trump less often than Speaker Johnson did.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/John_Thune", "title": "John Thune — Wikipedia" },
+        { "url": "https://www.washingtonexaminer.com/?p=4603630", "title": "FISA spat puts Johnson’s alliance with Trump to the test — Washington Examiner" }
+      ]
+    },
+    {
+      "name": "Mike Johnson",
+      "slug": "mike-johnson",
+      "relationship_type": "colleague",
+      "description": "The two Republican congressional leaders during Trump’s second term.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=4603630", "title": "FISA spat puts Johnson’s alliance with Trump to the test — Washington Examiner" }
+      ]
+    },
+    {
+      "name": "Chuck Schumer",
+      "slug": "chuck-schumer",
+      "relationship_type": "rival",
+      "description": "Opposing Senate leaders; they swap majority and minority roles in January 2027.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.sdpb.org/elections/2026-11-04/thune-says-senate-republicans-wont-stand-idly-by-in-face-of-democrats-new-majority", "title": "Thune says Senate Republicans won’t ‘stand idly by’ in face of Democrats’ new majority — SDPB" },
+        { "url": "https://rollcall.com/2026/11/04/will-be-reelected-as-majority-leader-schumer-says/", "title": "‘I’ll be reelected as majority leader,’ Schumer says — Roll Call" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "donor",
+      "description": "FEC filings show $25,800 from Palmer Luckey to Friends of John Thune, Heartland Values PAC in 3 cycles (2022–2026).",
+      "start_year": 2021,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409581&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Friends of John Thune" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409003&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Heartland Values PAC" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $25,900 from Paul Singer to Friends of John Thune, Commonsense, Conservative Values PAC in 2 cycles (2016–2024).",
+      "start_year": 2016,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00409581&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Friends of John Thune" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00748186&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Commonsense, Conservative Values PAC" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $40,000 from Stephen Schwarzman to Friends of John Thune, Commonsense, Conservative Values PAC, Heartland Values PAC in 6 cycles (2016–2026).",
+      "start_year": 2015,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00409581&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Friends of John Thune" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00748186&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Commonsense, Conservative Values PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00409003&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Heartland Values PAC" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Senate Majority Leader (until January 2027)",
+    "unit": "senate",
+    "rank": 1,
+    "since": "2025-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/John_Thune", "title": "John Thune — Wikipedia" },
+      { "url": "https://www.washingtonexaminer.com/news/senate/4792161/john-thune-run-second-term-senate-gop-leader-midterm-election-loss/", "title": "Thune to run for second term as Senate GOP leader — Washington Examiner" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

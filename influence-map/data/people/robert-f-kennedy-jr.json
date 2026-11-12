@@ -1,0 +1,261 @@
+{
+  "name": "Robert F. Kennedy Jr.",
+  "aliases": ["RFK Jr.", "Bobby Kennedy Jr."],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": 2022,
+      "basis": "A Democrat from the Kennedy family and longtime environmental lawyer.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.", "title": "Wikipedia: Robert F. Kennedy Jr." }
+      ]
+    },
+    {
+      "value": 0,
+      "start_year": 2023,
+      "end_year": 2024,
+      "basis": "Challenged Biden for the Democratic nomination in 2023, then ran as an independent until he suspended his campaign and endorsed Trump in August 2024.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.", "title": "Wikipedia: Robert F. Kennedy Jr." },
+        { "url": "https://www.voanews.com/a/independent-presidential-candidate-rfk-jr-suspends-campaign-endorses-trump-/7754899.html", "title": "VOA: RFK Jr. suspends campaign, endorses Trump" }
+      ]
+    },
+    {
+      "value": 1,
+      "start_year": 2025,
+      "end_year": null,
+      "basis": "Health and Human Services secretary in Trump's cabinet, leading the \"Make America Healthy Again\" agenda; not a Republican Party member, so Center-right.",
+      "sources": [
+        { "url": "https://www.yahoo.com/news/senate-confirms-rfk-jr-health-164450683.html", "title": "AP via Yahoo: Senate confirms RFK Jr. as HHS secretary" },
+        { "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.", "title": "Wikipedia: Robert F. Kennedy Jr." }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "robert-f-kennedy-jr.jpg",
+    "credit": "U.S. Department of Health and Human Services",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Robert_F._Kennedy_Jr.,_official_portrait_(2025)_(cropped_3-4)_(b).jpg", "title": "File:Robert F. Kennedy Jr., official portrait (2025) (cropped 3-4) (b).jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. Secretary of Health and Human Services (since February 2025)",
+  "summary": "Robert F. Kennedy Jr., son of Robert F. Kennedy, was an environmental lawyer and became a prominent vaccine skeptic. He ran for the 2024 Democratic nomination, switched to an independent bid in 2023, and in August 2024 suspended it and endorsed Trump. The Senate confirmed him as health and human services secretary 52–48 in February 2025.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.", "title": "Wikipedia: Robert F. Kennedy Jr." },
+    { "url": "https://www.voanews.com/a/independent-presidential-candidate-rfk-jr-suspends-campaign-endorses-trump-/7754899.html", "title": "VOA: RFK Jr. suspends campaign, endorses Trump" },
+    { "url": "https://www.yahoo.com/news/senate-confirms-rfk-jr-health-164450683.html", "title": "AP via Yahoo: Senate confirms RFK Jr. as HHS secretary" }
+  ],
+  "timeline": [
+    {
+      "year": 2023,
+      "end_year": 2024,
+      "role": "Candidate for president (Democratic primary, then independent from October 2023; suspended August 23, 2024)",
+      "org": "Kennedy 2024",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.", "title": "Wikipedia: Robert F. Kennedy Jr." },
+        { "url": "https://www.voanews.com/a/independent-presidential-candidate-rfk-jr-suspends-campaign-endorses-trump-/7754899.html", "title": "VOA: RFK Jr. suspends campaign, endorses Trump" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Secretary of Health and Human Services (confirmed 52–48)",
+      "org": "U.S. Department of Health and Human Services",
+      "sources": [
+        { "url": "https://www.yahoo.com/news/senate-confirms-rfk-jr-health-164450683.html", "title": "AP via Yahoo: Senate confirms RFK Jr. as HHS secretary" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump nominated Kennedy as HHS secretary after the 2024 election; confirmed in February 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/senate-confirms-rfk-jr-health-164450683.html", "title": "AP via Yahoo: Senate confirms RFK Jr. as HHS secretary" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Kennedy suspended his independent campaign and endorsed Trump on August 23, 2024, then joined him on stage at a rally.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.voanews.com/a/independent-presidential-candidate-rfk-jr-suspends-campaign-endorses-trump-/7754899.html", "title": "VOA: RFK Jr. suspends campaign, endorses Trump" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "donor",
+      "description": "Sacks co-hosted a fundraiser for Kennedy's campaign at his home in June 2023 (about $500,000 raised), and a PAC largely funded by Sacks gave the campaign $6,600.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2023/06/08/robert-f-kennedy-jr-tech-2024-campaign", "title": "Axios: Tech figures back RFK Jr.'s campaign" },
+        { "url": "https://www.nbcphiladelphia.com/news/business/money-report/investor-bill-ackman-david-sacks-pac-donated-to-rfk-jr-s-presidential-campaign/3604639/", "title": "CNBC: Ackman, David Sacks PAC donated to RFK Jr.'s campaign" }
+      ]
+    },
+    {
+      "name": "Howard Lutnick",
+      "slug": "howard-lutnick",
+      "relationship_type": "ally",
+      "description": "Fox Business reported that Kennedy, with Musk, helped Lutnick persuade Trump to reopen the Treasury search in November 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.foxbusiness.com/politics/how-howard-lutnick-lost-his-epic-battle-trumps-treasury-lot-more", "title": "Fox Business: How Howard Lutnick lost his battle for Treasury" }
+      ]
+    },
+    {
+      "name": "Robert F. Kennedy",
+      "slug": "robert-f-kennedy",
+      "relationship_type": "family",
+      "description": "His father, the U.S. attorney general and senator assassinated in 1968.",
+      "start_year": null,
+      "confidence": 0.99,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.", "title": "Wikipedia: Robert F. Kennedy Jr." }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "NBC reported that Carlson, Donald Trump Jr. and donor Omeed Malik held meetings and calls to negotiate Kennedy's August 2024 exit and Trump endorsement; Carlson said he \"definitely didn't broker anything\".",
+      "start_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" },
+        { "url": "https://www.megynkelly.com/2024/08/22/tucker-carlson-on-whether-rfk-jr-endorsement-will-help-trump/", "title": "Megyn Kelly Show: Carlson on an RFK Jr. endorsement" }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "ally",
+      "description": "Trump Jr. held meetings and calls with Kennedy in 2024 to negotiate his exit and endorsement of Trump.",
+      "start_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" }
+      ]
+    },
+    {
+      "name": "Omeed Malik",
+      "slug": "omeed-malik",
+      "relationship_type": "ally",
+      "description": "NBC reported that Malik, with Carlson and Trump Jr., held meetings and calls to negotiate Kennedy's 2024 exit and Trump endorsement.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" }
+      ]
+    },
+    {
+      "name": "Timothy Mellon",
+      "slug": "timothy-mellon",
+      "relationship_type": "donor",
+      "description": "Mellon gave $25 million to American Values 2024, the super PAC backing Kennedy's 2024 presidential run, making him its largest donor while also Trump's.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Timothy_Mellon", "title": "Timothy Mellon — Wikipedia" },
+        { "url": "https://www.newsweek.com/donald-trump-rfk-donations-timothy-mellon-fec-1872315", "title": "Donald Trump and RFK Jr Have the Same Largest Donor — Newsweek" }
+      ]
+    },
+    {
+      "name": "Courtney Parella Spencer",
+      "slug": "courtney-parella",
+      "relationship_type": "employee",
+      "description": "Kennedy picked her as HHS’s top spokesperson in May 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.hhs.gov/about/leadership/courtney-parella-spencer.html", "title": "Courtney Parella Spencer — U.S. Department of Health and Human Services" },
+        { "url": "https://subscriber.politicopro.com/article/2026/05/rfk-jr-taps-labor-official-as-top-spokesperson-00940497", "title": "RFK Jr. taps Labor official as top spokesperson — POLITICO Pro (May 2026)" }
+      ]
+    },
+    {
+      "name": "Erica Schwartz",
+      "slug": "erica-schwartz",
+      "relationship_type": "employee",
+      "description": "Kennedy’s CDC director since August 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.aha.org/topics/government-appointments", "title": "Government appointments — American Hospital Association" },
+        { "url": "https://www.cdc.gov/about/leadership/director.html", "title": "CDC Director and ATSDR Administrator — CDC" },
+        { "url": "https://www.hhs.gov/about/leadership/erica-schwartz.html", "title": "Erica Schwartz, MD, MPH, JD — HHS leadership" }
+      ]
+    },
+    {
+      "name": "Mehmet Oz",
+      "slug": "mehmet-oz",
+      "relationship_type": "employee",
+      "description": "Runs Medicare and Medicaid under Kennedy since April 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.aacom.org/news-reports/news/2025/04/07/senate-confirms-nih-and-fda-directors--cms-administrator", "title": "Senate confirms NIH and FDA directors, CMS administrator — AACOM" },
+        { "url": "https://www.ajc.com/news/2026/02/nih-director-will-temporarily-run-cdc-in-leadership-shake-up", "title": "NIH director will temporarily run CDC in leadership shake-up — Atlanta Journal-Constitution (February 2026)" }
+      ]
+    },
+    {
+      "name": "Jay Bhattacharya",
+      "slug": "jay-bhattacharya",
+      "relationship_type": "employee",
+      "description": "Kennedy’s NIH director, who also ran the CDC as acting director in 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.healthcare-brew.com/stories/2025/03/27/nih-fda-heads-confirmed", "title": "NIH, FDA heads confirmed — Healthcare Brew" },
+        { "url": "https://www.ajc.com/news/2026/02/nih-director-will-temporarily-run-cdc-in-leadership-shake-up", "title": "NIH director will temporarily run CDC in leadership shake-up — Atlanta Journal-Constitution (February 2026)" }
+      ]
+    },
+    {
+      "name": "Kyle Diamantas",
+      "slug": "kyle-diamantas",
+      "relationship_type": "employee",
+      "description": "Runs the FDA as acting commissioner under Kennedy.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.astho.org/communications/blog/2026/more-recent-shifts-in-hhs-leadership-june-2026/", "title": "(More) recent shifts in HHS leadership: June 2026 — ASTHO" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Health and Human Services",
+    "unit": "hhs",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.", "title": "Wikipedia: Robert F. Kennedy Jr." },
+      { "url": "https://www.voanews.com/a/independent-presidential-candidate-rfk-jr-suspends-campaign-endorses-trump-/7754899.html", "title": "VOA: RFK Jr. suspends campaign, endorses Trump" }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "name": "Josh Shapiro",
+  "aliases": ["Joshua David Shapiro"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic attorney general (2017–2023) and governor of Pennsylvania; a business-friendly moderate.",
+      "sources": [
+        { "url": "https://www.spotlightpa.org/news/2026/07/josh-shapiro-pennsylvania-governor-2028-presidential-race-record/", "title": "Spotlight PA: Josh Shapiro may run for president" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Won a second term by about 21 points in November 2026 with donors treating the race as an audition for 2028; polls in the top tier nationally.",
+    "sources": [
+      { "url": "https://www.axios.com/local/pittsburgh/2026/11/04/josh-shapiro-wins-governor-second-term-pennsylvania", "title": "Axios Pittsburgh: Josh Shapiro reelected" },
+      { "url": "https://www.spotlightpa.org/news/2026/07/josh-shapiro-pennsylvania-governor-2028-presidential-race-record/", "title": "Spotlight PA: Josh Shapiro may run for president" },
+      { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" }
+    ]
+  },
+  "photo": {
+    "file": "josh-shapiro.jpg",
+    "credit": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Gov._Shapiro.jpg", "title": "File:Gov. Shapiro.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Governor of Pennsylvania (since January 2023; reelected November 2026)",
+  "summary": "Josh Shapiro was Pennsylvania attorney general from 2017 to 2023 and has been governor since 2023; he won a second term over Stacy Garrity on November 3, 2026, by roughly 21 points. A business-friendly Democrat backed heavily by Michael Bloomberg, he is widely seen as a 2028 contender though he dismisses the talk.",
+  "sources": [
+    { "url": "https://www.axios.com/local/pittsburgh/2026/11/04/josh-shapiro-wins-governor-second-term-pennsylvania", "title": "Axios Pittsburgh: Josh Shapiro reelected" },
+    { "url": "https://www.spotlightpa.org/news/2026/07/josh-shapiro-pennsylvania-governor-2028-presidential-race-record/", "title": "Spotlight PA: Josh Shapiro may run for president" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2023,
+      "role": "Attorney General of Pennsylvania",
+      "org": "Commonwealth of Pennsylvania",
+      "sources": [
+        { "url": "https://www.spotlightpa.org/news/2026/07/josh-shapiro-pennsylvania-governor-2028-presidential-race-record/", "title": "Spotlight PA: Josh Shapiro may run for president" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": null,
+      "role": "Governor of Pennsylvania (reelected November 3, 2026)",
+      "org": "Commonwealth of Pennsylvania",
+      "sources": [
+        { "url": "https://www.axios.com/local/pittsburgh/2026/11/04/josh-shapiro-wins-governor-second-term-pennsylvania", "title": "Axios Pittsburgh: Josh Shapiro reelected" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Michael Bloomberg",
+      "slug": "michael-bloomberg",
+      "relationship_type": "donor",
+      "description": "Bloomberg gave $2.5 million to Shapiro's reelection effort in October 2025 and at least $5.25 million since 2016; Axios calls him a longtime ally.",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" }
+      ]
+    },
+    {
+      "name": "Howard Wolfson",
+      "slug": "howard-wolfson",
+      "relationship_type": "ally",
+      "description": "Wolfson, Bloomberg's longtime adviser, has praised Shapiro's leadership and described Bloomberg as a fan.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://www.axios.com/2026/02/08/bloomberg-shapiro-donation-pennsylvania-2028", "title": "Axios: Bloomberg bets big on Pennsylvania's Shapiro" }
+      ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "donor",
+      "description": "Fox News reports that Soros family political committees supported Shapiro's reelection campaign in 2025; no amount given.",
+      "start_year": 2025,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.foxnews.com/politics/soros-political-machine-putting-millions-work-before-election-day-zeroing-key-races", "title": "Soros family pours $40M through Democracy PAC to Democratic allies — Fox News" }
+      ]
+    },
+    {
+      "name": "Chris Larsen",
+      "slug": "chris-larsen",
+      "relationship_type": "donor",
+      "description": "Larsen has given Shapiro $2.2 million since 2023, including $1 million in December 2023 and $1 million in early 2026, the largest single gift to his reelection campaign.",
+      "start_year": 2023,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cityandstatepa.com/politics/2026/04/shapiro-raises-10m-and-other-takeaways-pennsylvanias-newest-campaign-finance-reports/412715/", "title": "Shapiro raises $10M and other takeaways from Pennsylvania's newest campaign finance reports — City & State PA" }
+      ]
+    },
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "enemy",
+      "description": "Shapiro backed school vouchers in 2023, which a GOP operative credited to Yass's \"long arm and pocketbook\", then vetoed them; Yass accused him in the Wall Street Journal of flip-flopping, and Yass-linked groups ran ads saying Shapiro was \"choosing special interests over kids\".",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.spotlightpa.org/news/2023/07/pennsylvania-private-school-voucher-josh-shapiro-matt-bradford-dark-money-ads", "title": "Dark money group puts pressure on Pa. lawmakers after Shapiro vows voucher veto — Spotlight PA" },
+        { "url": "https://whyy.org/articles/pennsylvanias-governor-josh-shapiro-school-choice/", "title": "Pennsylvania's Democratic Gov. Josh Shapiro crosses partisan school choice divide — AP via WHYY" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

@@ -1,0 +1,357 @@
+{
+  "name": "Les Wexner",
+  "aliases": ["Leslie Wexner", "Leslie H. Wexner"],
+  "public_figure": true,
+  "sector": "business",
+  "groups": [],
+  "photo": {
+    "file": "les-wexner.png",
+    "credit": "Oversight Committee",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Les_Wexner_deposition_(cropped).png", "title": "File:Les Wexner deposition (cropped).png — Wikimedia Commons" }
+  },
+  "current_role": "Founder and chairman emeritus of L Brands (now Bath & Body Works); philanthropist (The Wexner Foundation)",
+  "summary": "Les Wexner founded The Limited in 1963 and built it into L Brands, owner of Victoria’s Secret and Bath & Body Works, which he led until 2020. A longtime Republican megadonor in Ohio, he left the party in 2018 over Trump and has since given to both sides. Jeffrey Epstein was his money manager with power of attorney from 1991 until, by Wexner’s account, he cut him off in 2007; in a February 2026 House Oversight deposition he said he had been “duped by a world-class con man” and knew nothing of Epstein’s crimes. He has not been charged with any crime.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Les_Wexner", "title": "Les Wexner — Wikipedia" },
+    { "url": "https://www.foxbusiness.com/lifestyle/who-is-leslie-wexner", "title": "Fox Business: Who is Leslie Wexner, the founder of L Brands?" },
+    { "url": "https://www.cbsnews.com/news/les-wexner-jeffrey-epstein-house-testimony/", "title": "CBS News: Les Wexner tells Congress he was \"duped by a world-class con man\"" },
+    { "url": "https://www.fortune.com/2018/09/16/les-wexner-l-brands-quits-republican-party", "title": "Fortune: L Brands’ Les Wexner quits Republican Party" }
+  ],
+  "timeline": [
+    {
+      "year": 1963,
+      "end_year": 2020,
+      "role": "Founder; chairman and CEO of The Limited, later L Brands (bought Victoria’s Secret in 1982); became chairman emeritus in 2020",
+      "org": "L Brands (now Bath & Body Works)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Les_Wexner", "title": "Les Wexner — Wikipedia" },
+        { "url": "https://www.foxbusiness.com/lifestyle/who-is-leslie-wexner", "title": "Fox Business: Who is Leslie Wexner, the founder of L Brands?" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": 2026,
+      "role": "Deposed by the House Oversight Committee about Jeffrey Epstein on February 18, 2026, under subpoena",
+      "org": "U.S. House Committee on Oversight",
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/les-wexner-jeffrey-epstein-house-testimony/", "title": "CBS News: Les Wexner tells Congress he was \"duped by a world-class con man\"" },
+        { "url": "https://www.wosu.org/politics-government/2026-02-19/u-s-house-oversight-committee-releases-video-of-les-wexners-deposition-concerning-epstein", "title": "WOSU: House Oversight Committee releases video of Les Wexner’s deposition" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "The Wexner Foundation",
+      "role": "Founder",
+      "sources": [
+        { "url": "https://www.wexnerfoundation.org/our-philanthropic-legacy/leslie-h-wexner/", "title": "The Wexner Foundation: Leslie H. Wexner" }
+      ]
+    }
+  ],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": 2017,
+      "basis": "Republican since college; gave over $2 million in the 2016 cycle to super PACs backing Jeb Bush and John Kasich, and mostly to Ohio Republicans.",
+      "sources": [
+        { "url": "https://www.fortune.com/2018/09/16/les-wexner-l-brands-quits-republican-party", "title": "Fortune: L Brands’ Les Wexner quits Republican Party" },
+        { "url": "https://www.yahoo.com/huffpost/former-gop-mega-donor-les-155219565.html", "title": "HuffPost: Former GOP mega-donor Les Wexner now donating to Democrats" }
+      ]
+    },
+    {
+      "value": 0,
+      "start_year": 2018,
+      "end_year": null,
+      "basis": "Left the Republican Party in September 2018, citing Trump; calls himself an independent and has given to Ohio Democrats and Republicans.",
+      "sources": [
+        { "url": "https://www.fortune.com/2018/09/16/les-wexner-l-brands-quits-republican-party", "title": "Fortune: L Brands’ Les Wexner quits Republican Party" },
+        { "url": "https://time.com/5439516/donald-trump-pittsburgh-synagogue-shooting-les-wexner", "title": "TIME: Major Jewish donor who left GOP discusses synagogue shooting" },
+        { "url": "https://www.yahoo.com/huffpost/former-gop-mega-donor-les-155219565.html", "title": "HuffPost: Former GOP mega-donor Les Wexner now donating to Democrats" }
+      ]
+    }
+  ],
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 260500,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&two_year_transaction_period=2026", "title": "FEC itemized receipts: WEXNER, LES, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: WEXNER, LES to NRSC, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 356600,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&two_year_transaction_period=2024", "title": "FEC itemized receipts: WEXNER, LES, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Buckeye Leadership Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00790923"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00790923&two_year_transaction_period=2024", "title": "FEC receipts: WEXNER, LES to Buckeye Leadership Fund, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Kasich for America, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00581876"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00581876&two_year_transaction_period=2024", "title": "FEC receipts: WEXNER, LES to Kasich for America, Inc., 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 5400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&two_year_transaction_period=2022", "title": "FEC itemized receipts: WEXNER, LES, 2022 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 31200,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&two_year_transaction_period=2020", "title": "FEC itemized receipts: WEXNER, LES, 2020 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2018,
+        "description": "After leaving the GOP: at least $20,000 to Ohio Democrats within a month, while still giving $10,000 each to the Ohio House and Senate Republican caucuses.",
+        "sources": [
+          { "url": "https://www.yahoo.com/huffpost/former-gop-mega-donor-les-155219565.html", "title": "HuffPost: Former GOP mega-donor Les Wexner now donating to Democrats" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&two_year_transaction_period=2018", "title": "FEC itemized receipts: WEXNER, LES, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Ohio Democrats",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 20000,
+            "sources": [
+              { "url": "https://www.yahoo.com/huffpost/former-gop-mega-donor-les-155219565.html", "title": "HuffPost: Former GOP mega-donor Les Wexner now donating to Democrats" }
+            ]
+          },
+          {
+            "name": "Ohio House and Senate Republican caucuses",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 20000,
+            "description": "$10,000 each.",
+            "sources": [
+              { "url": "https://www.yahoo.com/huffpost/former-gop-mega-donor-les-155219565.html", "title": "HuffPost: Former GOP mega-donor Les Wexner now donating to Democrats" }
+            ]
+          },
+          {
+            "name": "With Honor Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 300000,
+            "fec_usd": 300000,
+            "fec_ids": ["C00659011"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00659011&two_year_transaction_period=2018", "title": "FEC receipts: WEXNER, LES to With Honor Fund, Inc., 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 271200,
+            "fec_usd": 271200,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00075820&two_year_transaction_period=2018", "title": "FEC receipts: WEXNER, LES to NRCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Team Ryan",
+            "kind": "pac",
+            "amount_usd": 33900,
+            "fec_usd": 33900,
+            "fec_ids": ["C00545947"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00545947&two_year_transaction_period=2018", "title": "FEC receipts: WEXNER, LES to Team Ryan, 2018 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 646300,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      },
+      {
+        "cycle": 2016,
+        "description": "With his wife Abigail, over $2 million to super PACs backing Republican presidential candidates.",
+        "sources": [
+          { "url": "https://www.yahoo.com/huffpost/former-gop-mega-donor-les-155219565.html", "title": "HuffPost: Former GOP mega-donor Les Wexner now donating to Democrats" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&two_year_transaction_period=2016", "title": "FEC itemized receipts: WEXNER, LES, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Super PACs backing Jeb Bush and John Kasich",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 2000000,
+            "description": "Over $2 million combined, per the Columbus Dispatch as reported by HuffPost.",
+            "sources": [
+              { "url": "https://www.yahoo.com/huffpost/former-gop-mega-donor-les-155219565.html", "title": "HuffPost: Former GOP mega-donor Les Wexner now donating to Democrats" }
+            ]
+          },
+          {
+            "name": "Right to Rise USA",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00571372"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00571372&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to Right to Rise USA, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Fighting for Ohio Fund",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00573014"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00573014&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to Fighting for Ohio Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 65400,
+            "fec_usd": 65400,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00075820&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to NRCC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 65400,
+            "fec_usd": 65400,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00027466&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to NRSC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Team Ryan",
+            "kind": "pac",
+            "amount_usd": 41100,
+            "fec_usd": 41100,
+            "fec_ids": ["C00545947"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00545947&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to Team Ryan, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Boehner for Speaker",
+            "kind": "pac",
+            "amount_usd": 39500,
+            "fec_usd": 39500,
+            "fec_ids": ["C00478354"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00478354&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to Boehner for Speaker, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 32000,
+            "fec_usd": 32000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00003418&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to Republican National Committee, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2500,
+            "fec_usd": 2500,
+            "fec_ids": ["C00409581"],
+            "description": "Per FEC filings: Friends of John Thune $2,500.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WEXNER%2C+LES&committee_id=C00409581&two_year_transaction_period=2016", "title": "FEC receipts: WEXNER, LES to Friends of John Thune, 2016 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 1139500,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      }
+    ]
+  },
+  "connections": [
+    {
+      "name": "Jeffrey Epstein",
+      "slug": "jeffrey-epstein",
+      "relationship_type": "employee",
+      "description": "Epstein was Wexner’s money manager, with power of attorney from 1991; Wexner says he revoked it and cut Epstein off in September 2007 after learning he was “an abuser, a crook, and a liar,” and that Epstein took vast sums from him (reported as $46 million). Axios reported a 2008 email between them; Wexner was deposed by the House Oversight Committee in February 2026 and has not been charged.",
+      "start_year": 1991,
+      "end_year": 2007,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.wexnerfoundation.org/wp-content/uploads/Statement-of-Leslie-H.-Wexner.pdf", "title": "Statement of Leslie H. Wexner to the House Oversight Committee (February 2026)" },
+        { "url": "https://www.courthousenews.com/billionaire-les-wexner-says-he-was-duped-by-adviser-jeffrey-epstein-a-world-class-con-man/", "title": "Courthouse News: Wexner says he was duped by adviser Jeffrey Epstein" },
+        { "url": "https://www.cbsnews.com/news/les-wexner-jeffrey-epstein-house-testimony/", "title": "CBS News: Les Wexner tells Congress he was \"duped by a world-class con man\"" },
+        { "url": "https://www.axios.com/local/columbus/2026/02/18/les-wexner-jeffrey-epstein-ties-testimony", "title": "Axios Columbus: Les Wexner’s ties to Jeffrey Epstein, explained" }
+      ],
+      "replace": true
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "How cleanly he cut ties with Epstein in 2007",
+      "details": "Wexner says he revoked Epstein’s power of attorney and cut ties in September 2007; Axios reported he emailed Epstein again in 2008, days before Epstein’s Florida plea, and House Democrats said they did not believe his denials.",
+      "sources": [
+        { "url": "https://www.wexnerfoundation.org/wp-content/uploads/Statement-of-Leslie-H.-Wexner.pdf", "title": "Statement of Leslie H. Wexner to the House Oversight Committee (February 2026)" },
+        { "url": "https://www.axios.com/local/columbus/2026/02/18/les-wexner-jeffrey-epstein-ties-testimony", "title": "Axios Columbus: Les Wexner’s ties to Jeffrey Epstein, explained" },
+        { "url": "https://www.wosu.org/politics-government/2026-02-18/u-s-house-democrats-say-they-dont-believe-les-wexners-denials-about-ties-to-jeffrey-epstein", "title": "WOSU: House Democrats say they don’t believe Wexner’s denials" }
+      ]
+    },
+    {
+      "topic": "When he stepped down from L Brands",
+      "details": "Wikipedia says he announced the move to chairman emeritus in February 2020; Fox Business says he left as CEO and chairman in May 2020.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Les_Wexner", "title": "Les Wexner — Wikipedia" },
+        { "url": "https://www.foxbusiness.com/lifestyle/who-is-leslie-wexner", "title": "Fox Business: Who is Leslie Wexner, the founder of L Brands?" }
+      ]
+    }
+  ],
+  "notes": "Researched with web searches; pages could not be opened, so facts were confirmed through search results tied to each cited URL. Per the map owner, Epstein-related ties are recorded only when clear (employment here). His wife Abigail is not linked.",
+  "last_researched": "2026-11-08"
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Tammy Bruce",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Deputy U.S. Representative to the United Nations (since 2026)",
+  "summary": "Tammy Bruce, a former Fox News host and commentator, was the State Department’s spokesperson from January 2025 until spring 2026, when she moved to the U.S. mission to the U.N. as deputy representative and Tommy Pigott succeeded her.",
+  "sources": [
+    { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" },
+    { "url": "https://en.wikipedia.org/wiki/Tammy_Bruce", "title": "Tammy Bruce — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Spokesperson",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tammy_Bruce", "title": "Tammy Bruce — Wikipedia" },
+        { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Deputy Representative to the United Nations",
+      "org": "U.S. Mission to the United Nations",
+      "sources": [
+        { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Mike Waltz",
+      "slug": "mike-waltz",
+      "relationship_type": "employer",
+      "description": "Waltz’s deputy at the U.N. mission since 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" }
+      ]
+    },
+    {
+      "name": "Tommy Pigott",
+      "slug": "tommy-pigott",
+      "relationship_type": "colleague",
+      "description": "Pigott was Bruce’s principal deputy spokesperson and succeeded her in 2026.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Representative to the United Nations",
+    "unit": "envoys",
+    "rank": 4,
+    "reports_to": "mike-waltz",
+    "since": "2026",
+    "sources": [
+      { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" },
+      { "url": "https://en.wikipedia.org/wiki/Tammy_Bruce", "title": "Tammy Bruce — Wikipedia" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

@@ -1,0 +1,196 @@
+{
+  "name": "Thomas Massie",
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Libertarian-leaning Republican congressman from Kentucky since 2012; frequent Trump critic on spending and war.",
+      "sources": [
+        { "url": "https://www.adn.com/nation-world/2026/05/19/rep-thomas-massie-loses-gop-primary-in-kentucky-to-challenger-endorsed-by-trump/", "title": "AP via ADN: Rep. Thomas Massie loses GOP primary to Trump-endorsed challenger" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["jd-vance"],
+    "basis": "Placed in Vance's camp by the map owner as part of Tucker Carlson's circle (Carlson is Vance's close friend). The sources show Massie urging Carlson himself to run in 2028; Kent said the group thinks Vance is too compromised.",
+    "sources": [
+      { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+    ]
+  },
+  "photo": {
+    "file": "thomas-massie.jpg",
+    "credit": "House Creative Services",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Massie_Thomas_119th_Congress_(cropped_2).jpg", "title": "File:Massie Thomas 119th Congress (cropped 2).jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. representative for Kentucky's 4th district (lost the May 2026 primary)",
+  "summary": "Thomas Massie is a libertarian-leaning Republican who has represented Kentucky in the House since 2012. After repeated clashes with Trump, including over the Iran war, he lost his May 2026 primary to Trump-endorsed Ed Gallrein in the most expensive House primary on record, and joined Carlson's circle urging him to run in 2028.",
+  "sources": [
+    { "url": "https://www.adn.com/nation-world/2026/05/19/rep-thomas-massie-loses-gop-primary-in-kentucky-to-challenger-endorsed-by-trump/", "title": "AP via ADN: Rep. Thomas Massie loses GOP primary to Trump-endorsed challenger" },
+    { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+  ],
+  "timeline": [
+    {
+      "year": 2012,
+      "end_year": null,
+      "role": "U.S. representative for Kentucky's 4th district (lost the May 19, 2026 primary)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://www.adn.com/nation-world/2026/05/19/rep-thomas-massie-loses-gop-primary-in-kentucky-to-challenger-endorsed-by-trump/", "title": "AP via ADN: Rep. Thomas Massie loses GOP primary to Trump-endorsed challenger" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Trump endorsed Ed Gallrein against Massie in October 2025 and rallied for him; Massie lost the May 2026 primary.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.adn.com/nation-world/2026/05/19/rep-thomas-massie-loses-gop-primary-in-kentucky-to-challenger-endorsed-by-trump/", "title": "AP via ADN: Rep. Thomas Massie loses GOP primary to Trump-endorsed challenger" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "Massie joined Carlson's August 2026 gathering and urged him to run for president.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+      ]
+    },
+    {
+      "name": "Marjorie Taylor Greene",
+      "slug": "marjorie-taylor-greene",
+      "relationship_type": "ally",
+      "description": "Fellow anti-war Republicans who joined Carlson's August 2026 gathering and urged him to run.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+      ]
+    },
+    {
+      "name": "Joe Kent",
+      "slug": "joe-kent",
+      "relationship_type": "ally",
+      "description": "Both urged Carlson to run in 2028.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+      ]
+    },
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "donor",
+      "description": "Yass backed Massie in his 2026 primary as Trump worked to defeat him; Massie lost in May 2026. FEC filings show $33,000 from Jeff Yass to Making a Sensible Shift in Elections PAC, Thomas Massie for Congress in 3 cycles (2020–2024).",
+      "start_year": 2020,
+      "end_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://nkytribune.com/?p=479890", "title": "Thomas Massie, facing opposition from Trump, gets a hand from billionaire megadonor Jeff Yass — NKyTribune" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00563429&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Making a Sensible Shift in Elections PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00509729&two_year_transaction_period=2024", "title": "FEC receipts: YASS, JEFF to Thomas Massie for Congress" }
+      ]
+    },
+    {
+      "name": "AIPAC",
+      "slug": "aipac",
+      "relationship_type": "enemy",
+      "description": "Its super PAC, the United Democracy Project, spent about $4.1 million (estimates range from $2.6 million to $5 million) mostly on attack ads against Massie in Kentucky's May 2026 Republican primary, the most expensive House primary on record; Massie lost to Trump-backed Ed Gallrein.",
+      "start_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/United_Democracy_Project", "title": "United Democracy Project — Wikipedia" },
+        { "url": "https://www.wkms.org/2026-07-17/a-record-shattering-37m-was-spent-on-kentuckys-massie-gallrein-race-heres-who-funded-it", "title": "A record-shattering $37M was spent on Kentucky's Massie-Gallrein race — WKMS" },
+        { "url": "https://www.aljazeera.com/news/2026/5/18/massie-race-breaks-spending-record-as-pro-israel-groups-target-trump-critic", "title": "Massie race breaks spending record as pro-Israel groups target Trump critic — Al Jazeera" },
+        { "url": "https://www.theblaze.com/news/aipac-shells-out-big-again-in-hopes-of-taking-down-thomas-massie", "title": "AIPAC shells out big again in hopes of taking down Thomas Massie — TheBlaze" }
+      ]
+    },
+    {
+      "name": "Rand Paul",
+      "slug": "rand-paul",
+      "relationship_type": "ally",
+      "description": "Kentucky's libertarian-leaning pair: Paul was the only Kentucky Republican in Congress to back Massie against Trump's 2026 primary challenge, pledging to be with him \"every step of the way\"; Trump called Massie \"Rand Paul, Jr.\"",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://digital-release.thehill.com/homenews/campaign/5572122-rand-paul-backs-thomas-massie", "title": "Paul vows to support Massie against Trump-backed primary challenger — The Hill" },
+        { "url": "https://spectrumnews1.com/ky/louisville/news/2026/03/31/paul-backs-massie-campaign", "title": "Paul backs Massie campaign — Spectrum News 1" },
+        { "url": "https://kvia.com/politics/cnn-us-politics/2026/02/07/a-defiant-thomas-massie-takes-on-the-maga-machine-in-heated-kentucky-primary/", "title": "A defiant Thomas Massie takes on the MAGA machine in heated Kentucky primary — CNN via KVIA" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "enemy",
+      "description": "Massie filed eight articles of impeachment against Hegseth on September 15, 2026, chiefly over the Iran war and the War Powers Resolution; after the November 2026 midterms he said he would force a vote unless Hegseth resigned, and Hegseth called them sham articles from a “disgruntled, defeated congressman.”",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://time.com/article/2026/09/15/massie-hegseth-impeachment-iran/", "title": "TIME: Republican congressman introduces articles of impeachment against Defense Secretary Pete Hegseth" },
+        { "url": "https://www.cbsnews.com/news/pete-hegseth-iran-war-impeachment-thomas-massie/", "title": "CBS News: GOP Rep. Thomas Massie introduces impeachment articles against Hegseth over Iran war" },
+        { "url": "https://massie.house.gov/uploadedfiles/articles_of_impeachment_sec._hegseth.pdf", "title": "Rep. Thomas Massie: Articles of impeachment against Secretary Hegseth" },
+        { "url": "https://thehill.com/homenews/house/6172957-massie-hegseth-impeachment-midterms/", "title": "The Hill: Massie says he’ll move to impeach Hegseth if he’s not gone after midterms" },
+        { "url": "https://www.nbcnews.com/politics/trump-administration/secretary-pete-hegseth-defiant-tone-impeachment-threat-thomas-massie-rcna607788", "title": "NBC News: Hegseth strikes defiant tone in face of impeachment threat" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "donor",
+      "description": "FEC filings show $14,900 from Marc Andreessen to Thomas Massie for Congress, Making a Sensible Shift in Elections PAC in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00509729&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Thomas Massie for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00563429&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Making a Sensible Shift in Elections PAC" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Representative (R-KY)",
+    "unit": "house",
+    "rank": 4,
+    "sources": [
+      { "url": "https://www.adn.com/nation-world/2026/05/19/rep-thomas-massie-loses-gop-primary-in-kentucky-to-challenger-endorsed-by-trump/", "title": "AP via ADN: Rep. Thomas Massie loses GOP primary to Trump-endorsed challenger" },
+      { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+    ]
+  },
+  "asks": [
+    {
+      "date": "2025-07",
+      "with": ["donald-trump", "mike-johnson"],
+      "kind": "policy",
+      "outcome": "granted",
+      "decided": "2025-11-19",
+      "what": "Led the discharge petition to force release of the Epstein files over the Speaker's and the White House's opposition; it reached 218 signatures, passed 427-1, and Trump signed it on Nov. 19.",
+      "sources": [
+        { "url": "https://rollcall.com/2025/11/19/trump-signs-jeffrey-epstein-bill-files/", "title": "Trump signs bill compelling release of Epstein files — Roll Call" },
+        { "url": "https://www.cbsnews.com/news/trump-says-signed-epstein-files-bill", "title": "Trump says he signed Epstein files bill — CBS News" }
+      ]
+    }
+  ]
+}

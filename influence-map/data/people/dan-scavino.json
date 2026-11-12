@@ -1,0 +1,113 @@
+{
+  "name": "Dan Scavino",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "photo": {
+    "file": "dan-scavino.jpg",
+    "credit": "Gage Skidmore from Surprise, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Dan_Scavino_(54359567492)_(cropped).jpg", "title": "File:Dan Scavino (54359567492) (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "White House Deputy Chief of Staff (since January 2025) and Director of the Presidential Personnel Office (since October 2025)",
+  "summary": "Dan Scavino has worked for Donald Trump since he caddied for him as a teenager in 1990, later managing a Trump golf club and running Trump’s social media in the first administration. A deputy chief of staff since January 2025, he also took over the Presidential Personnel Office in October 2025, when Sergio Gor left to become ambassador to India, giving him charge of selecting nearly all political appointees.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Dan_Scavino", "title": "Dan Scavino — Wikipedia" },
+    { "url": "https://www.notus.org/trump-white-house/trump-dan-scavino-white-house-personnel-office", "title": "Trump taps longtime loyalist to lead White House personnel office — NOTUS" },
+    { "url": "https://wlos.com/news/nation-world/trump-announces-dan-scavino-will-lead-the-white-house-presidential-personnel-office-sergio-gor-government-shutdown-democrats-republicans", "title": "Trump announces Dan Scavino will lead the White House Presidential Personnel Office — WLOS" },
+    { "url": "https://www.foxnews.com/politics/trump-names-stephen-miller-dan-scavino-senior-white-house-staff", "title": "Trump names Stephen Miller, Dan Scavino to senior White House staff — Fox News" }
+  ],
+  "timeline": [
+    {
+      "year": 1990,
+      "role": "Caddie, later general manager of Trump National Golf Club Westchester",
+      "org": "Trump golf clubs",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dan_Scavino", "title": "Dan Scavino — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2021,
+      "role": "Director of Social Media, later Deputy Chief of Staff for Communications",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dan_Scavino", "title": "Dan Scavino — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Deputy Chief of Staff",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.foxnews.com/politics/trump-names-stephen-miller-dan-scavino-senior-white-house-staff", "title": "Trump names Stephen Miller, Dan Scavino to senior White House staff — Fox News" },
+        { "url": "https://en.wikipedia.org/wiki/Dan_Scavino", "title": "Dan Scavino — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Director, Presidential Personnel Office",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.notus.org/trump-white-house/trump-dan-scavino-white-house-personnel-office", "title": "Trump taps longtime loyalist to lead White House personnel office — NOTUS" },
+        { "url": "https://wlos.com/news/nation-world/trump-announces-dan-scavino-will-lead-the-white-house-presidential-personnel-office-sergio-gor-government-shutdown-democrats-republicans", "title": "Trump announces Dan Scavino will lead the White House Presidential Personnel Office — WLOS" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Has worked for Trump since caddying for him in 1990: golf-club manager, social media director in the first term, and deputy chief of staff and personnel chief in the second.",
+      "start_year": 1990,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dan_Scavino", "title": "Dan Scavino — Wikipedia" },
+        { "url": "https://www.notus.org/trump-white-house/trump-dan-scavino-white-house-personnel-office", "title": "Trump taps longtime loyalist to lead White House personnel office — NOTUS" }
+      ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "colleague",
+      "description": "Named deputy chiefs of staff together in November 2024; Miller becomes his boss as chief of staff in November 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.foxnews.com/politics/trump-names-stephen-miller-dan-scavino-senior-white-house-staff", "title": "Trump names Stephen Miller, Dan Scavino to senior White House staff — Fox News" },
+        { "url": "https://www.npr.org/2026/11/06/nx-s1-6032795/stephen-miller-replace-susie-wiles-trumps-chief-of-staff", "title": "Stephen Miller replaces Susie Wiles as Trump’s chief of staff — NPR" }
+      ]
+    },
+    {
+      "name": "Sergio Gor",
+      "slug": "sergio-gor",
+      "relationship_type": "colleague",
+      "description": "Scavino took over the Presidential Personnel Office from Gor in October 2025 when Gor became ambassador to India.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://wlos.com/news/nation-world/trump-announces-dan-scavino-will-lead-the-white-house-presidential-personnel-office-sergio-gor-government-shutdown-democrats-republicans", "title": "Trump announces Dan Scavino will lead the White House Presidential Personnel Office — WLOS" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Deputy Chief of Staff; Director, Presidential Personnel Office",
+    "unit": "white-house",
+    "rank": 3,
+    "reports_to": "stephen-miller",
+    "since": "2025-01",
+    "sources": [
+      { "url": "https://wlos.com/news/nation-world/trump-announces-dan-scavino-will-lead-the-white-house-presidential-personnel-office-sergio-gor-government-shutdown-democrats-republicans", "title": "Trump announces Dan Scavino will lead the White House Presidential Personnel Office — WLOS" },
+      { "url": "https://www.npr.org/2026/11/06/nx-s1-6032795/stephen-miller-replace-susie-wiles-trumps-chief-of-staff", "title": "Stephen Miller replaces Susie Wiles as Trump’s chief of staff — NPR" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

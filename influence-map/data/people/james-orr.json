@@ -1,0 +1,136 @@
+{
+  "name": "James Orr",
+  "aliases": ["James Tristan Ward Orr"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "UK chairman of the national-conservative Edmund Burke Foundation; senior adviser to Nigel Farage from 2025 and Reform UK's head of policy in 2026.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" },
+        { "url": "https://www.desmog.com/2026/04/02/seven-things-you-should-know-reform-policy-chief-james-orr/", "title": "Eight Things You Should Know About Reform's Policy Chief James Orr — DeSmog" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "james-orr.jpg",
+    "credit": "Xuthoria",
+    "license": "CC BY-SA 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:AmericaFest_2025_-_James_Orr_02_(cropped).jpg", "title": "File:AmericaFest 2025 - James Orr 02 (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Associate professor of philosophy of religion, University of Cambridge; UK chairman of the Edmund Burke Foundation (stepped down as Reform UK head of policy in September 2026)",
+  "summary": "James Orr is a Cambridge philosopher of religion and UK chairman of the Edmund Burke Foundation, which organizes NatCon in Britain. A friend of JD Vance since 2019, who has called him his \"British sherpa\", he became a senior adviser to Nigel Farage in 2025 and Reform UK's head of policy in February 2026. He stepped down on September 4, 2026, pending a party investigation, after a Channel 4 undercover sting on foreign donations; Reform denied wrongdoing.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" },
+    { "url": "https://www.desmog.com/2026/04/02/seven-things-you-should-know-reform-policy-chief-james-orr/", "title": "Eight Things You Should Know About Reform's Policy Chief James Orr — DeSmog" },
+    { "url": "https://aljazeera.com/news/2026/9/4/reform-uk-officials-step-down-as-new-funding-scandal-hits-far-right-party", "title": "Reform UK officials step down as new funding scandal hits party — Al Jazeera" },
+    { "url": "https://www.thedailybeast.com/vances-british-sherpa-steps-down-after-undercover-sting/", "title": "Vance's 'British sherpa' steps down after undercover sting — Daily Beast" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Associate professor of philosophy of religion",
+      "org": "University of Cambridge",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" },
+        { "url": "https://www.desmog.com/2026/04/02/seven-things-you-should-know-reform-policy-chief-james-orr/", "title": "Eight Things You Should Know About Reform's Policy Chief James Orr — DeSmog" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": null,
+      "role": "UK chairman",
+      "org": "Edmund Burke Foundation",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Senior adviser to Nigel Farage (2025); head of policy (Feb.–Sept. 2026)",
+      "org": "Reform UK",
+      "sources": [
+        { "url": "https://www.desmog.com/2026/04/02/seven-things-you-should-know-reform-policy-chief-james-orr/", "title": "Eight Things You Should Know About Reform's Policy Chief James Orr — DeSmog" },
+        { "url": "https://aljazeera.com/news/2026/9/4/reform-uk-officials-step-down-as-new-funding-scandal-hits-far-right-party", "title": "Reform UK officials step down as new funding scandal hits party — Al Jazeera" },
+        { "url": "https://www.lbc.co.uk/politics/uk-politics/two-reform-uk-officials-step-down-after-undercover-sting-over-foreign-donations/", "title": "Two Reform UK officials step down after undercover sting over foreign donations — LBC" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "colleague",
+      "description": "Orr is UK chairman of Hazony's Edmund Burke Foundation.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" },
+        { "url": "https://www.dailysignal.com/2023/05/22/why-national-conservatism-could-herald-future-of-uk-politics/", "title": "4 major themes from the National Conservatism Conference — Daily Signal" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation — DeSmog" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Friends since 2019, after Vance's conversion to Catholicism; Vance has called Orr his \"British sherpa\".",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.desmog.com/2026/04/02/seven-things-you-should-know-reform-policy-chief-james-orr/", "title": "Eight Things You Should Know About Reform's Policy Chief James Orr — DeSmog" },
+        { "url": "https://www.thedailybeast.com/vances-british-sherpa-steps-down-after-undercover-sting/", "title": "Vance's 'British sherpa' steps down after undercover sting — Daily Beast" },
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Nigel Farage",
+      "slug": "nigel-farage",
+      "relationship_type": "employer",
+      "description": "Orr became a senior adviser to Farage in 2025 and Reform UK's head of policy in February 2026, stepping down on September 4, 2026 after an undercover sting on foreign donations; Farage called the sting entrapment.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.desmog.com/2026/04/02/seven-things-you-should-know-reform-policy-chief-james-orr/", "title": "Eight Things You Should Know About Reform's Policy Chief James Orr — DeSmog" },
+        { "url": "https://aljazeera.com/news/2026/9/4/reform-uk-officials-step-down-as-new-funding-scandal-hits-far-right-party", "title": "Reform UK officials step down as new funding scandal hits party — Al Jazeera" },
+        { "url": "https://www.lbc.co.uk/politics/uk-politics/two-reform-uk-officials-step-down-after-undercover-sting-over-foreign-donations/", "title": "Two Reform UK officials step down after undercover sting over foreign donations — LBC" }
+      ]
+    },
+    {
+      "name": "Edmund Burke Foundation",
+      "slug": "edmund-burke-foundation",
+      "relationship_type": "employer",
+      "description": "Chairman of its UK arm.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" },
+        { "url": "https://www.dailysignal.com/2023/05/22/why-national-conservatism-could-herald-future-of-uk-politics/", "title": "4 major themes from the National Conservatism Conference — Daily Signal" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation — DeSmog" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "friend",
+      "description": "Orr and Vance have been friends since 2019, after Vance’s conversion to Catholicism; Vance calls Orr his “British sherpa.”",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.desmog.com/2026/04/02/seven-things-you-should-know-reform-policy-chief-james-orr/", "title": "Eight Things You Should Know About Reform's Policy Chief James Orr — DeSmog" },
+        { "url": "https://www.thedailybeast.com/vances-british-sherpa-steps-down-after-undercover-sting/", "title": "Vance's 'British sherpa' steps down after undercover sting — Daily Beast" },
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and, where available, with Wikipedia via its API. Cambridge was also reported to be investigating him after the sting.",
+  "last_researched": "2026-11-07"
+}

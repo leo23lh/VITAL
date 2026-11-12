@@ -1,0 +1,234 @@
+{
+  "name": "Max Levchin",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "tech",
+  "groups": ["paypal-mafia"],
+  "photo": {
+    "file": "max-levchin.jpg",
+    "credit": "TechCrunch",
+    "license": "CC BY 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Max_Levchin_(2013).jpg", "title": "File:Max Levchin (2013).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Co-founder, chairman and CEO of Affirm",
+  "summary": "Max Levchin co-founded Confinity, the company that became PayPal, with Peter Thiel in 1998 and was its chief technology officer until eBay bought it in 2002. He then founded the media-sharing company Slide, sold to Google in 2010, was an early backer and longtime chairman of Yelp, and co-founded the buy-now-pay-later lender Affirm, which he has led as CEO since 2014.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" },
+    { "url": "https://www.cnbc.com/2021/01/05/affirm-ceo-max-levchin-to-become-next-billionaire-from-paypal-mafia.html", "title": "Affirm founder Max Levchin poised to become next billionaire from 'PayPal mafia' — CNBC" }
+  ],
+  "timeline": [
+    {
+      "year": 1998,
+      "end_year": 2002,
+      "role": "Co-founder and chief technology officer",
+      "org": "Confinity / PayPal",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" },
+        { "url": "https://www.britannica.com/money/PayPal", "title": "PayPal — Britannica" }
+      ]
+    },
+    {
+      "year": 2004,
+      "end_year": 2011,
+      "role": "Founder of Slide; vice president of engineering at Google after it bought Slide in 2010",
+      "org": "Slide / Google",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2012,
+      "end_year": null,
+      "role": "Co-founder; CEO since 2014",
+      "org": "Affirm",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Affirm_Holdings", "title": "Affirm Holdings — Wikipedia" },
+        { "url": "https://www.cnbc.com/2021/01/05/affirm-ceo-max-levchin-to-become-next-billionaire-from-paypal-mafia.html", "title": "Affirm founder Max Levchin poised to become next billionaire from 'PayPal mafia' — CNBC" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Yelp",
+      "role": "Early backer and chairman",
+      "sources": [
+        { "url": "https://www.cnbc.com/2014/10/06/max-levchin.html", "title": "Max Levchin — CNBC Disruptor profile" }
+      ]
+    },
+    {
+      "name": "PayPal Mafia",
+      "role": "Member; in Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity (originally Fieldlink) together in 1998; Levchin was CTO and Thiel CEO of what became PayPal.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.97,
+      "sources": [
+        { "url": "https://www.britannica.com/money/PayPal", "title": "PayPal — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Luke Nosek",
+      "slug": "luke-nosek",
+      "relationship_type": "co-founder",
+      "description": "Fellow co-founder of Confinity in December 1998.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://www.scaruffi.com/svhistory/silicon/thiel.html", "title": "A History of Silicon Valley: PayPal — Piero Scaruffi" }
+      ]
+    },
+    {
+      "name": "Ken Howery",
+      "slug": "ken-howery",
+      "relationship_type": "co-founder",
+      "description": "Fellow co-founder of Confinity in December 1998; Howery was its first CFO.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://harbour.space/high-tech-entrepreneurship/articles/How-The-PayPal-Mafia-Redefined-Success-In-Silicon-Valley", "title": "How the PayPal Mafia redefined success in Silicon Valley — Harbour.Space" },
+        { "url": "https://www.scaruffi.com/svhistory/silicon/thiel.html", "title": "A History of Silicon Valley: PayPal — Piero Scaruffi" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "colleague",
+      "description": "Worked together at PayPal after X.com and Confinity merged in March 2000, with Levchin as CTO, until Musk was replaced as CEO later that year.",
+      "start_year": 2000,
+      "end_year": 2000,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" },
+        { "url": "https://www.foxbusiness.com/markets/elon-musk-dethroned-peter-thiel-coup-led-paypal-mafia", "title": "Elon Musk was dethroned by Peter Thiel in a coup led by the ‘PayPal Mafia’ — Fox Business" },
+        { "url": "https://www.snopes.com/fact-check/was-elon-musk-fired-from-paypal/", "title": "Was Elon Musk fired from PayPal? — Snopes" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "employee",
+      "description": "Rabois held an operating role at Slide, the company Levchin founded after PayPal.",
+      "start_year": 2007,
+      "end_year": 2010,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://fortune.com/2013/02/26/ex-square-executive-keith-rabois-joining-khosla-ventures/", "title": "Ex-Square executive Keith Rabois joining Khosla Ventures — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jeremy Stoppelman",
+      "slug": "jeremy-stoppelman",
+      "relationship_type": "funded_by",
+      "description": "Levchin, their former PayPal colleague, founded the MRL Ventures incubator where Yelp started and provided $1 million in angel funding; he later chaired Yelp's board.",
+      "start_year": 2004,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yelp", "title": "Yelp — Wikipedia" },
+        { "url": "https://www.cnbc.com/2014/10/06/max-levchin.html", "title": "Max Levchin — CNBC Disruptor profile" },
+        { "url": "https://grainger.illinois.edu/news/features/making-of-max-levchin", "title": "The making of Max Levchin — Grainger College of Engineering, University of Illinois" }
+      ]
+    },
+    {
+      "name": "Russel Simmons",
+      "slug": "russel-simmons",
+      "relationship_type": "funded_by",
+      "description": "Levchin, their former PayPal colleague, founded the MRL Ventures incubator where Yelp started and provided $1 million in angel funding.",
+      "start_year": 2004,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yelp", "title": "Yelp — Wikipedia" },
+        { "url": "https://grainger.illinois.edu/news/features/making-of-max-levchin", "title": "The making of Max Levchin — Grainger College of Engineering, University of Illinois" }
+      ]
+    },
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "donor",
+      "description": "Led the $100 million Series D in 2016 of Affirm, Levchin's company, and joined later rounds.",
+      "start_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://techcrunch.com/2016/04/13/affirm-secures-100m-in-series-d-funding-to-expand-beyond-loans", "title": "Affirm secures $100M in Series D funding — TechCrunch" },
+        { "url": "https://www.inc.com/maria-aspan/max-levchin-affirm-raises-100-million.html", "title": "How to raise $100 million over dinner — Inc." }
+      ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity in 1998; chief technology officer until 2002.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" },
+        { "url": "https://www.britannica.com/money/PayPal", "title": "PayPal — Britannica" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Links to Yelp's founders are added in their files.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 10000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LEVCHIN%2C+MAX&two_year_transaction_period=2026", "title": "FEC itemized receipts: LEVCHIN, MAX, 2026 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 5000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LEVCHIN%2C+MAX&two_year_transaction_period=2024", "title": "FEC itemized receipts: LEVCHIN, MAX, 2024 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 10000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LEVCHIN%2C+MAX&two_year_transaction_period=2022", "title": "FEC itemized receipts: LEVCHIN, MAX, 2022 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 5000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LEVCHIN%2C+MAX&two_year_transaction_period=2020", "title": "FEC itemized receipts: LEVCHIN, MAX, 2020 cycle" }
+        ],
+        "recipients": []
+      }
+    ]
+  }
+}

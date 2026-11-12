@@ -1,0 +1,72 @@
+{
+  "name": "Adam Telle",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "photo": {
+    "file": "adam-telle.jpg",
+    "credit": "United States Department of Defense",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Adam_Telle_Official_Portrait.jpg", "title": "File:Adam Telle Official Portrait.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Acting Secretary of the Army (since September 2026); Assistant Secretary of the Army for Civil Works",
+  "summary": "Adam Telle, the Army’s assistant secretary for civil works (overseeing the Corps of Engineers), became acting Army secretary in September 2026 after Dan Driscoll resigned following clashes with Pete Hegseth.",
+  "sources": [
+    { "url": "https://federalnewsnetwork.com/federal-newscast/2026/09/army-names-an-acting-secretary-following-driscolls-resignation/", "title": "Army names an acting secretary following Driscoll’s resignation — Federal News Network (September 2026)" },
+    { "url": "https://taskandpurpose.com/news/adam-telle-army-secretary-driscoll/", "title": "Official who oversees Corps of Engineers named acting Army Secretary — Task & Purpose" },
+    { "url": "https://www.nbcnews.com/politics/national-security/army-secretary-dan-driscoll-submits-resignation-white-house-rcna595437", "title": "Army Secretary Dan Driscoll submits resignation after tensions with Pete Hegseth — NBC News" }
+  ],
+  "timeline": [
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Acting Secretary of the Army",
+      "org": "U.S. Army",
+      "sources": [
+        { "url": "https://federalnewsnetwork.com/federal-newscast/2026/09/army-names-an-acting-secretary-following-driscolls-resignation/", "title": "Army names an acting secretary following Driscoll’s resignation — Federal News Network (September 2026)" },
+        { "url": "https://taskandpurpose.com/news/adam-telle-army-secretary-driscoll/", "title": "Official who oversees Corps of Engineers named acting Army Secretary — Task & Purpose" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Assistant Secretary of the Army for Civil Works",
+      "org": "U.S. Army",
+      "sources": [
+        { "url": "https://taskandpurpose.com/news/adam-telle-army-secretary-driscoll/", "title": "Official who oversees Corps of Engineers named acting Army Secretary — Task & Purpose" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "employer",
+      "description": "Acting Army secretary under Hegseth since Driscoll’s September 2026 resignation.",
+      "start_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://federalnewsnetwork.com/federal-newscast/2026/09/army-names-an-acting-secretary-following-driscolls-resignation/", "title": "Army names an acting secretary following Driscoll’s resignation — Federal News Network (September 2026)" },
+        { "url": "https://taskandpurpose.com/news/adam-telle-army-secretary-driscoll/", "title": "Official who oversees Corps of Engineers named acting Army Secretary — Task & Purpose" },
+        { "url": "https://www.nbcnews.com/politics/national-security/army-secretary-dan-driscoll-submits-resignation-white-house-rcna595437", "title": "Army Secretary Dan Driscoll submits resignation after tensions with Pete Hegseth — NBC News" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Secretary of the Army (acting)",
+    "unit": "war",
+    "rank": 3,
+    "reports_to": "pete-hegseth",
+    "since": "2026-09",
+    "acting": true,
+    "sources": [
+      { "url": "https://federalnewsnetwork.com/federal-newscast/2026/09/army-names-an-acting-secretary-following-driscolls-resignation/", "title": "Army names an acting secretary following Driscoll’s resignation — Federal News Network (September 2026)" },
+      { "url": "https://taskandpurpose.com/news/adam-telle-army-secretary-driscoll/", "title": "Official who oversees Corps of Engineers named acting Army Secretary — Task & Purpose" }
+    ]
+  },
+  "notes": "Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

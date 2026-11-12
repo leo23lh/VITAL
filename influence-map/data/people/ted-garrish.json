@@ -1,0 +1,62 @@
+{
+  "name": "Ted Garrish",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Assistant Secretary of Energy for Nuclear Energy (since September 2025)",
+  "summary": "Ted Garrish heads the Energy Department’s Office of Nuclear Energy, confirmed 52–47 on September 18, 2025, as the administration pushes new reactors and fuel supply.",
+  "sources": [
+    { "url": "https://content.govdelivery.com/accounts/USDOEONE/bulletins/3f3575b", "title": "U.S. Senate confirms Ted Garrish as Assistant Secretary for Nuclear Energy — DOE Office of Nuclear Energy" },
+    { "url": "https://www.ans.org/news/2025-09-18/article-7381/pr-american-nuclear-society-welcomes-senate-confirmation-of-ted-garrish-as-the-does-nuclear-energy-secretary/", "title": "ANS welcomes Senate confirmation of Ted Garrish — American Nuclear Society" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Assistant Secretary for Nuclear Energy",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://content.govdelivery.com/accounts/USDOEONE/bulletins/3f3575b", "title": "U.S. Senate confirms Ted Garrish as Assistant Secretary for Nuclear Energy — DOE Office of Nuclear Energy" },
+        { "url": "https://www.ans.org/news/2025-09-18/article-7381/pr-american-nuclear-society-welcomes-senate-confirmation-of-ted-garrish-as-the-does-nuclear-energy-secretary/", "title": "ANS welcomes Senate confirmation of Ted Garrish — American Nuclear Society" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Chris Wright",
+      "slug": "chris-wright",
+      "relationship_type": "employer",
+      "description": "Wright’s nuclear energy chief since September 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://content.govdelivery.com/accounts/USDOEONE/bulletins/3f3575b", "title": "U.S. Senate confirms Ted Garrish as Assistant Secretary for Nuclear Energy — DOE Office of Nuclear Energy" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary, Nuclear Energy",
+    "unit": "energy",
+    "rank": 4,
+    "reports_to": "chris-wright",
+    "since": "2025-09",
+    "sources": [
+      { "url": "https://content.govdelivery.com/accounts/USDOEONE/bulletins/3f3575b", "title": "U.S. Senate confirms Ted Garrish as Assistant Secretary for Nuclear Energy — DOE Office of Nuclear Energy" }
+    ]
+  },
+  "source_conflicts": [
+    {
+      "topic": "Confirmation vote",
+      "details": "DOE’s Office of Nuclear Energy reports a 52–47 vote; Wikipedia’s appointments list gives 51–44.",
+      "sources": [
+        { "url": "https://content.govdelivery.com/accounts/USDOEONE/bulletins/3f3575b", "title": "U.S. Senate confirms Ted Garrish as Assistant Secretary for Nuclear Energy — DOE Office of Nuclear Energy" },
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "last_researched": "2026-11-08"
+}

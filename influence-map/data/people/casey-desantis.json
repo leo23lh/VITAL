@@ -1,0 +1,69 @@
+{
+  "name": "Casey DeSantis",
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["ron-desantis"],
+    "basis": "Widely described as her husband's closest confidant, with more sway than any other adviser.",
+    "sources": [
+      { "url": "https://www.yahoo.com/entertainment/meet-ron-desantis-inner-circle-093000673.html", "title": "Yahoo News: Meet Ron DeSantis' inner circle" }
+    ]
+  },
+  "photo": {
+    "file": "casey-desantis.jpg",
+    "credit": "State of Florida, office of the governor",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Casey_DeSantis,_first_lady_of_Florida_(cropped).jpg", "title": "File:Casey DeSantis, first lady of Florida (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "First Lady of Florida (since 2019)",
+  "summary": "Casey DeSantis, a former television journalist, has been first lady of Florida since 2019 and is described as Ron DeSantis's most influential adviser. She weighed running to succeed him in 2026, which donors encouraged, amid controversy over her Hope Florida initiative.",
+  "sources": [
+    { "url": "https://www.yahoo.com/entertainment/meet-ron-desantis-inner-circle-093000673.html", "title": "Yahoo News: Meet Ron DeSantis' inner circle" },
+    { "url": "https://www.yahoo.com/news/casey-desantis-considers-running-florida-032348519.html", "title": "NBC News via Yahoo: Casey DeSantis considers running for Florida governor" }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "First Lady of Florida",
+      "org": "State of Florida",
+      "sources": [
+        { "url": "https://www.yahoo.com/entertainment/meet-ron-desantis-inner-circle-093000673.html", "title": "Yahoo News: Meet Ron DeSantis' inner circle" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "family",
+      "description": "Her husband; she is his closest adviser.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.99,
+      "sources": [
+        { "url": "https://www.yahoo.com/entertainment/meet-ron-desantis-inner-circle-093000673.html", "title": "Yahoo News: Meet Ron DeSantis' inner circle" },
+        { "url": "https://www.foxnews.com/politics/who-casey-desantis-get-know-first-lady-florida", "title": "Who is Casey DeSantis? Get to know the First Lady of Florida — Fox News" },
+        { "url": "https://floridapolitics.com/archives/722987-as-ron-desantis-talks-up-his-wife-as-next-governor-heres-what-to-know-about-casey-desantis/", "title": "As Ron DeSantis talks up his wife as next Governor, here's what to know about Casey DeSantis — Florida Politics" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages. Whether she entered the 2026 governor's race could not be confirmed from the sources found, so it is left out.",
+  "aliases": [],
+  "affiliations": [],
+  "last_researched": "2026-11-07",
+  "lean": [
+    {
+      "value": 2,
+      "start_year": 2019,
+      "end_year": null,
+      "basis": "Republican first lady of Florida, described as Ron DeSantis's most influential adviser; weighed a 2026 Republican run for governor with donor encouragement.",
+      "sources": [
+        { "url": "https://www.yahoo.com/entertainment/meet-ron-desantis-inner-circle-093000673.html", "title": "Yahoo News: Meet Ron DeSantis' inner circle" },
+        { "url": "https://www.yahoo.com/news/casey-desantis-considers-running-florida-032348519.html", "title": "NBC News via Yahoo: Casey DeSantis considers running for Florida governor" }
+      ]
+    }
+  ]
+}

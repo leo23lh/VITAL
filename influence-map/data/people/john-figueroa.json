@@ -1,0 +1,67 @@
+{
+  "name": "John Figueroa",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Acting Under Secretary for Health, Department of Veterans Affairs (since July 2026)",
+  "summary": "John Figueroa, a senior adviser to Secretary Doug Collins, has run the Veterans Health Administration in an acting capacity since John Bartrum resigned in July 2026.",
+  "sources": [
+    { "url": "https://department.va.gov/vha/under-secretary-for-health/", "title": "Under Secretary for Health — Veterans Health Administration" },
+    { "url": "https://www.va.gov/vapubs/viewPublication.asp?Pub_ID=1736", "title": "Memorandum from the Secretary of Veterans Affairs, July 9, 2026 — VA" },
+    { "url": "https://federalnewsnetwork.com/veterans-affairs/2026/07/vas-top-healthcare-official-is-stepping-down/", "title": "VA’s top healthcare official is stepping down — Federal News Network (July 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Acting Under Secretary for Health",
+      "org": "U.S. Department of Veterans Affairs",
+      "sources": [
+        { "url": "https://department.va.gov/vha/under-secretary-for-health/", "title": "Under Secretary for Health — Veterans Health Administration" },
+        { "url": "https://www.va.gov/vapubs/viewPublication.asp?Pub_ID=1736", "title": "Memorandum from the Secretary of Veterans Affairs, July 9, 2026 — VA" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Doug Collins",
+      "slug": "doug-collins",
+      "relationship_type": "employer",
+      "description": "Senior adviser to Collins, named by him to run the Veterans Health Administration in July 2026.",
+      "start_year": 2026,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://department.va.gov/vha/under-secretary-for-health/", "title": "Under Secretary for Health — Veterans Health Administration" },
+        { "url": "https://www.va.gov/vapubs/viewPublication.asp?Pub_ID=1736", "title": "Memorandum from the Secretary of Veterans Affairs, July 9, 2026 — VA" },
+        { "url": "https://federalnewsnetwork.com/veterans-affairs/2026/07/vas-top-healthcare-official-is-stepping-down/", "title": "VA’s top healthcare official is stepping down — Federal News Network (July 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Under Secretary for Health",
+    "unit": "va",
+    "rank": 3,
+    "reports_to": "doug-collins",
+    "since": "2026-07-09",
+    "acting": true,
+    "sources": [
+      { "url": "https://department.va.gov/vha/under-secretary-for-health/", "title": "Under Secretary for Health — Veterans Health Administration" },
+      { "url": "https://www.va.gov/vapubs/viewPublication.asp?Pub_ID=1736", "title": "Memorandum from the Secretary of Veterans Affairs, July 9, 2026 — VA" }
+    ]
+  },
+  "source_conflicts": [
+    {
+      "topic": "Who is acting under secretary",
+      "details": "A July 6, 2026 memo first named deputy under secretary Lee Payne as acting; a July 9 memo named Figueroa, and VA’s site lists him.",
+      "sources": [
+        { "url": "https://www.va.gov/vapubs/viewPublication.asp?Pub_ID=1736", "title": "Memorandum from the Secretary of Veterans Affairs, July 9, 2026 — VA" },
+        { "url": "https://department.va.gov/vha/under-secretary-for-health/", "title": "Under Secretary for Health — Veterans Health Administration" }
+      ]
+    }
+  ],
+  "notes": "Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

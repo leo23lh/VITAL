@@ -1,0 +1,224 @@
+{
+  "name": "Brooke Rollins",
+  "aliases": ["Brooke Leslie Rollins"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Led the conservative Texas Public Policy Foundation, served in Trump's first White House, founded the America First Policy Institute, and is his agriculture secretary.",
+      "sources": [
+        { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" },
+        { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" },
+        { "url": "https://m.washingtontimes.com/news/2024/nov/23/trump-taps-brooke-rollins-former-white-house-advis/", "title": "Washington Times: Trump taps Brooke Rollins for Agriculture" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "brooke-rollins.jpg",
+    "credit": "Andrea Hanks, The White House",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Second_Portrait_of_Secretary_Rollins.jpg", "title": "File:Second Portrait of Secretary Rollins.jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. Secretary of Agriculture (since 2025)",
+  "summary": "Brooke Rollins ran the conservative Texas Public Policy Foundation before joining Trump's White House in 2018 to lead the Office of American Innovation, which Jared Kushner oversaw, and served as acting director of the Domestic Policy Council in 2020–2021. In 2021 she co-founded the America First Policy Institute with Linda McMahon and Larry Kudlow and led it until becoming agriculture secretary in 2025.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Brooke_Rollins", "title": "Wikipedia: Brooke Rollins" },
+    { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" },
+    { "url": "https://m.washingtontimes.com/news/2024/nov/23/trump-taps-brooke-rollins-former-white-house-advis/", "title": "Washington Times: Trump taps Brooke Rollins for Agriculture" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2018,
+      "role": "President and CEO",
+      "org": "Texas Public Policy Foundation",
+      "sources": [
+        { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" }
+      ]
+    },
+    {
+      "year": 2018,
+      "end_year": 2020,
+      "role": "Director of the Office of American Innovation (titles in sources vary)",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" },
+        { "url": "https://en.wikipedia.org/wiki/Brooke_Rollins", "title": "Wikipedia: Brooke Rollins" }
+      ]
+    },
+    {
+      "year": 2020,
+      "end_year": 2021,
+      "role": "Acting director of the Domestic Policy Council",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Brooke_Rollins", "title": "Wikipedia: Brooke Rollins" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2025,
+      "role": "Co-founder, president and CEO",
+      "org": "America First Policy Institute",
+      "sources": [
+        { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" },
+        { "url": "https://www.foxnews.com/politics/biden-trump-america-first-policy-institute-brooke-rollins", "title": "Fox News: Trump alumni launch 'America First Policy Institute'" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Secretary of Agriculture",
+      "org": "U.S. Department of Agriculture",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Brooke_Rollins", "title": "Wikipedia: Brooke Rollins" },
+        { "url": "https://m.washingtontimes.com/news/2024/nov/23/trump-taps-brooke-rollins-former-white-house-advis/", "title": "Washington Times: Trump taps Brooke Rollins for Agriculture" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "America First Policy Institute",
+      "role": "Co-founder; president and CEO",
+      "start_year": 2021,
+      "end_year": 2025,
+      "sources": [
+        { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Rollins worked in Trump's first White House (2018–2021) and became his agriculture secretary in 2025.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" },
+        { "url": "https://m.washingtontimes.com/news/2024/nov/23/trump-taps-brooke-rollins-former-white-house-advis/", "title": "Washington Times: Trump taps Brooke Rollins for Agriculture" }
+      ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "colleague",
+      "description": "Rollins joined the White House in 2018 to lead the Office of American Innovation, which Kushner oversaw (sources differ on whether she was its director or co-director with him); Kushner praised her hiring.",
+      "start_year": 2018,
+      "end_year": 2021,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" },
+        { "url": "https://en.wikipedia.org/wiki/Brooke_Rollins", "title": "Wikipedia: Brooke Rollins" }
+      ]
+    },
+    {
+      "name": "Linda McMahon",
+      "slug": "linda-mcmahon",
+      "relationship_type": "co-founder",
+      "description": "Rollins, McMahon and Larry Kudlow launched the America First Policy Institute in 2021; Rollins ran it as CEO and McMahon chaired its board.",
+      "start_year": 2021,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" },
+        { "url": "https://www.axios.com/2021/04/13/trump-policy-institute-brooke-rollins", "title": "Ex-Trump officials launch nonprofit promoting America First ideology — Axios" },
+        { "url": "https://www.foxnews.com/politics/trump-alumni-launch-america-first-policy", "title": "Trump alumni launch 'America First' nonprofit with $20M to promote populist conservatism — Fox News" }
+      ]
+    },
+    {
+      "name": "Larry Kudlow",
+      "slug": "larry-kudlow",
+      "relationship_type": "co-founder",
+      "description": "Co-founders of the America First Policy Institute in 2021.",
+      "start_year": 2021,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://americafirstpolicy.com/latest/mcmahon-kudlow-rollins-launch-america-first-policy-institute", "title": "AFPI: McMahon, Kudlow, Rollins launch America First Policy Institute" },
+        { "url": "https://www.axios.com/2021/04/13/trump-policy-institute-brooke-rollins", "title": "Ex-Trump officials launch nonprofit promoting America First ideology — Axios" },
+        { "url": "https://www.foxnews.com/politics/trump-alumni-launch-america-first-policy", "title": "Trump alumni launch 'America First' nonprofit with $20M to promote populist conservatism — Fox News" }
+      ]
+    },
+    {
+      "name": "Scott Turner",
+      "slug": "scott-turner",
+      "relationship_type": "colleague",
+      "description": "At the America First Policy Institute, Turner chaired its Center for Education Opportunity while Rollins was its president and CEO; both joined Trump's Cabinet in 2025.",
+      "start_year": 2021,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://americafirstpolicy.com/team/scottturner", "title": "Scott Turner — America First Policy Institute" },
+        { "url": "https://www.dailysignal.com/2025/03/13/america-first-policy-institute-announces-new-leadership-after-trump-taps-founders-for-cabinet/", "title": "AFPI announces new leadership after Trump taps founders for Cabinet — Daily Signal" }
+      ]
+    },
+    {
+      "name": "Stephen Vaden",
+      "slug": "stephen-vaden",
+      "relationship_type": "employee",
+      "description": "Rollins’s deputy at the Agriculture Department since July 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Vaden", "title": "Stephen Vaden — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" },
+        { "url": "https://www.usda.gov/about-usda/news/press-releases/2025/07/07/judge-vaden-sworn-deputy-secretary-us-department-agriculture", "title": "Judge Vaden Sworn in as Deputy Secretary at the U.S. Department of Agriculture — USDA" }
+      ]
+    },
+    {
+      "name": "Richard Fordyce",
+      "slug": "richard-fordyce",
+      "relationship_type": "employee",
+      "description": "Senate-confirmed under secretary; Rollins signed his commission in January 2026.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/01/20/one-year-anniversary-president-trumps-second-term-secretary-rollins-signs-commissions-senate", "title": "Secretary Rollins signs commissions for Senate-confirmed USDA leadership — USDA (January 2026)" }
+      ]
+    },
+    {
+      "name": "Michael Boren",
+      "slug": "michael-boren",
+      "relationship_type": "employee",
+      "description": "Senate-confirmed under secretary; Rollins signed his commission in January 2026.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/01/20/one-year-anniversary-president-trumps-second-term-secretary-rollins-signs-commissions-senate", "title": "Secretary Rollins signs commissions for Senate-confirmed USDA leadership — USDA (January 2026)" },
+        { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/06/12/usda-issues-directive-restore-grazing-national-forest-lands-and-strengthen-support-americas-ranchers", "title": "USDA issues directive to restore grazing on national forest lands — USDA (June 2026)" }
+      ]
+    },
+    {
+      "name": "Tom Schultz",
+      "slug": "tom-schultz",
+      "relationship_type": "employee",
+      "description": "Rollins picked him in 2025 to lead the Forest Service, bypassing career foresters.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://sourcenm.com/2026/07/06/repub/chief-tom-schultz-details-defends-largest-forest-service-reorganization-in-a-century/", "title": "Chief Tom Schultz details, defends largest Forest Service reorganization in a century — Source NM (July 2026)" },
+        { "url": "https://www.citizen.org/article/uprooting-the-forest-service-a-trump-official-with-deep-timber-industry-ties-is-putting-public-lands-and-the-climate-at-risk/", "title": "Uprooting the Forest Service — Public Citizen (advocacy group)" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Agriculture",
+    "unit": "agriculture",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Brooke_Rollins", "title": "Wikipedia: Brooke Rollins" },
+      { "url": "https://www.texastribune.org/2018/02/16/tppf-head-brooke-rollins-join-white-house", "title": "Texas Tribune: TPPF head Brooke Rollins to join White House" }
+    ]
+  }
+}

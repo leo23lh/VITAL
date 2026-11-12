@@ -1,0 +1,204 @@
+{
+  "name": "David Horowitz",
+  "aliases": [],
+  "public_figure": true,
+  "died": 2025,
+  "sector": "politics",
+  "groups": ["media"],
+  "photo": {
+    "file": "david-horowitz.jpg",
+    "credit": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:David_Horowitz_by_Gage_Skidmore.jpg", "title": "File:David Horowitz by Gage Skidmore.jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": -3,
+      "start_year": null,
+      "end_year": 1983,
+      "basis": "A leading New Left radical: co-editor of Ramparts from 1968, with close ties to the Black Panthers.",
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/politics/3397480/david-horowitz-obituary/", "title": "Washington Examiner: David Horowitz, 1939–2025" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 1984,
+      "end_year": 2025,
+      "basis": "Cast his first Republican vote, for Reagan, in 1984 and went public with \"Lefties for Reagan\" in 1985; founded the conservative Freedom Center and was a prominent Trump supporter until his death in 2025.",
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/politics/3397480/david-horowitz-obituary/", "title": "Washington Examiner: David Horowitz, 1939–2025" },
+        { "url": "https://www.yahoo.com/news/david-horowitz-intellectual-godfather-trump-100254288.html", "title": "Telegraph via Yahoo: David Horowitz, intellectual godfather of the Trump administration" }
+      ]
+    }
+  ],
+  "current_role": "Founder of the David Horowitz Freedom Center (died April 29, 2025)",
+  "summary": "David Horowitz (1939–2025) was an American writer and activist who moved from the New Left, where he co-edited Ramparts magazine and worked with the Black Panther Party, to the conservative movement. In 1988 he and Peter Collier founded the Center for the Study of Popular Culture, later renamed the David Horowitz Freedom Center, which published FrontPage Magazine and campaigned on campus politics and against what it called Islamist radicalism; critics, including the Southern Poverty Law Center, accused it of anti-Muslim bigotry. He was a longtime mentor to Stephen Miller. He died on April 29, 2025, at 86.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/David_Horowitz", "title": "David Horowitz — Wikipedia" },
+    { "url": "https://www.jta.org/2025/04/30/obituaries/david-horowitz-60s-radical-turned-right-wing-firebrand-and-critic-of-islam-dies-at-86", "title": "David Horowitz, '60s radical turned right-wing firebrand and critic of Islam, dies at 86 — JTA" },
+    { "url": "https://www.washingtonexaminer.com/politics/3397480/david-horowitz-obituary/", "title": "David Horowitz, 1939–2025 — Washington Examiner" },
+    { "url": "https://www.foxnews.com/media/conservative-commentator-david-horowitz-dies-86", "title": "Conservative commentator David Horowitz dies at 86 — Fox News" }
+  ],
+  "timeline": [
+    {
+      "year": 1968,
+      "role": "Co-editor (from January 1968)",
+      "org": "Ramparts magazine",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Horowitz", "title": "David Horowitz — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Ramparts_(magazine)", "title": "Ramparts (magazine) — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1988,
+      "end_year": 2025,
+      "role": "Co-founder (with Peter Collier) and head",
+      "org": "Center for the Study of Popular Culture, later the David Horowitz Freedom Center",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Horowitz_Freedom_Center", "title": "David Horowitz Freedom Center — Wikipedia" },
+        { "url": "https://www.jta.org/2025/04/30/obituaries/david-horowitz-60s-radical-turned-right-wing-firebrand-and-critic-of-islam-dies-at-86", "title": "David Horowitz, '60s radical turned right-wing firebrand and critic of Islam, dies at 86 — JTA" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2025,
+      "role": "Died April 29, 2025, aged 86",
+      "org": "",
+      "sources": [
+        { "url": "https://www.foxnews.com/media/conservative-commentator-david-horowitz-dies-86", "title": "Conservative commentator David Horowitz dies at 86 — Fox News" },
+        { "url": "https://www.jta.org/2025/04/30/obituaries/david-horowitz-60s-radical-turned-right-wing-firebrand-and-critic-of-islam-dies-at-86", "title": "David Horowitz, '60s radical turned right-wing firebrand and critic of Islam, dies at 86 — JTA" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "David Horowitz Freedom Center (originally the Center for the Study of Popular Culture)",
+      "role": "Co-founder",
+      "start_year": 1988,
+      "end_year": 2025,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Horowitz_Freedom_Center", "title": "David Horowitz Freedom Center — Wikipedia" }
+      ]
+    },
+    {
+      "name": "FrontPage Magazine",
+      "role": "Founding editor (published by the Center for the Study of Popular Culture)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/FrontPage_Magazine", "title": "FrontPage Magazine — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Students for Academic Freedom",
+      "role": "Founder",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Horowitz", "title": "David Horowitz — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)", "title": "Stephen Miller (political advisor) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ramparts magazine",
+      "role": "Co-editor",
+      "start_year": 1968,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ramparts_(magazine)", "title": "Ramparts (magazine) — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "protégé",
+      "description": "Horowitz met Miller when Miller, as a Santa Monica High student, campaigned to bring him to speak at the school; Miller later led a Duke chapter of Horowitz's Students for Academic Freedom. Horowitz called Miller his friend and protégé and says he recommended him for jobs with Rep. Michele Bachmann, Rep. John Shadegg and Sen. Jeff Sessions.",
+      "start_year": 2002,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.pbs.org/wgbh/frontline/interview/david-horowitz/", "title": "David Horowitz interview — PBS FRONTLINE" },
+        { "url": "https://www.pbs.org/wgbh/frontline/article/last-man-standing-stephen-miller-white-house/", "title": "Stephen Miller, the Firebrand Who Has Survived the White House — PBS FRONTLINE" },
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)", "title": "Stephen Miller (political advisor) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jeff Sessions",
+      "slug": "jeff-sessions",
+      "relationship_type": "ally",
+      "description": "Horowitz's Freedom Center gave Sessions its 2014 Annie Taylor Award for Courage; in his speech Sessions credited Horowitz's writing with influencing his thinking. At his 2017 confirmation hearing Sessions called Horowitz \"a brilliant writer\" but said he was not comfortable with some of his language, and conceded he should have disclosed the award. Horowitz publicly objected to Trump's 2017 attacks on Sessions, and says he recommended Stephen Miller to Sessions.",
+      "start_year": 2014,
+      "end_year": 2017,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://forward.com/fast-forward/359624/for-jeff-sessions-david-horowitz-award-a-stumbling-block/", "title": "For Jeff Sessions, David Horowitz Award a Stumbling Block — The Forward" },
+        { "url": "https://www.thedailybeast.com/jeff-sessions-said-secularists-are-unfit-for-government", "title": "Jeff Sessions Said Secularists Are Unfit for Government — The Daily Beast" },
+        { "url": "https://forward.com/fast-forward/378013/david-horowitz-isnt-happy-with-trumps-attack-on-sessions/", "title": "David Horowitz Isn't Happy With Trump's Attack On Sessions — The Forward" }
+      ]
+    },
+    {
+      "name": "Peter Collier",
+      "slug": "peter-collier",
+      "relationship_type": "co-founder",
+      "description": "Fellow Ramparts editor and Horowitz's longtime co-author. The two broke with the left together and in 1988 co-founded the Center for the Study of Popular Culture, now the David Horowitz Freedom Center.",
+      "start_year": 1968,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Horowitz_Freedom_Center", "title": "David Horowitz Freedom Center — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Peter_Collier_(writer)", "title": "Peter Collier (writer) — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Ramparts_(magazine)", "title": "Ramparts (magazine) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "family",
+      "description": "Son. Ben Horowitz, co-founder of the venture capital firm Andreessen Horowitz, is a public figure in his own right; he posted a public tribute when his father died in April 2025.",
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/David_Horowitz", "title": "David Horowitz — Wikipedia" },
+        { "url": "https://acquired.fm/episodes/andreessen-horowitz-part-i", "title": "Andreessen Horowitz, Part I — Acquired" }
+      ]
+    },
+    {
+      "name": "Huey P. Newton",
+      "slug": "huey-p-newton",
+      "relationship_type": "ally",
+      "description": "In the early 1970s Horowitz became close to Black Panther Party founder Huey Newton and helped the Panthers raise money. He broke with them after the 1974 killing of Betty Van Patter, a bookkeeper he had recommended to the Panthers; the case is unsolved, and Horowitz believed the Panthers were responsible.",
+      "end_year": 1974,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Horowitz", "title": "David Horowitz — Wikipedia" },
+        { "url": "https://www.washingtonexaminer.com/politics/3397480/david-horowitz-obituary/", "title": "David Horowitz, 1939–2025 — Washington Examiner" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Horowitz was a prominent Trump supporter: he endorsed Trump and published Big Agenda: President Trump's Plan to Save America (2017). Critics have called him an intellectual godfather of the Trump administration, partly through his protégé Stephen Miller. No source found documents a direct working relationship between the two men.",
+      "start_year": 2016,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Horowitz", "title": "David Horowitz — Wikipedia" },
+        { "url": "https://www.yahoo.com/news/david-horowitz-intellectual-godfather-trump-100254288.html", "title": "David Horowitz, intellectual godfather of the Trump administration — Yahoo News" }
+      ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "friend",
+      "description": "Horowitz has called Miller his friend as well as his protégé.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.pbs.org/wgbh/frontline/interview/david-horowitz/", "title": "David Horowitz interview — PBS FRONTLINE" },
+        { "url": "https://www.pbs.org/wgbh/frontline/article/last-man-standing-stephen-miller-white-house/", "title": "Stephen Miller, the Firebrand Who Has Survived the White House — PBS FRONTLINE" },
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)", "title": "Stephen Miller (political advisor) — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Not found: the year Horowitz left Ramparts. One search result dated the Freedom Center's founding to 1998 rather than 1988, but its source could not be identified, so it is not recorded as a conflict. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07"
+}

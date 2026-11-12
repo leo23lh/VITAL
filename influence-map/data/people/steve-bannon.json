@@ -1,0 +1,390 @@
+{
+  "name": "Steve Bannon",
+  "aliases": ["Stephen Bannon", "Stephen Kevin Bannon"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["media"],
+  "photo": {
+    "file": "steve-bannon.jpg",
+    "credit": "Gage Skidmore from Surprise, AZ, United States of America",
+    "license": "CC BY-SA 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Steve_Bannon_in_2025_(3x4_cropped).jpg", "title": "File:Steve Bannon in 2025 (3x4 cropped).jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": 3,
+      "start_year": 2012,
+      "end_year": null,
+      "basis": "Ran Breitbart News from 2012 and in 2016 called it \"the platform for the alt-right\"; Trump's 2016 campaign chief and White House chief strategist, now host of War Room. Widely described as a far-right figure; Bannon denies being a white nationalist or antisemitic.",
+      "sources": [
+        { "url": "https://www.mprnews.org/story/2016/11/16/npr-steve-bannon-alt-right-ties", "title": "NPR via MPR News: Ex-Breitbart executive brings alt-right ties to the White House" },
+        { "url": "https://www.pbs.org/newshour/politics/critics-bannon-white-house-empower-fringe-voices", "title": "PBS NewsHour: Critics say Bannon in White House would empower fringe voices" }
+      ]
+    }
+  ],
+  "current_role": "Host of the War Room podcast; former White House chief strategist (2017)",
+  "summary": "Steve Bannon, a former Navy officer and Goldman Sachs banker, helped found Breitbart News and was a vice president of Cambridge Analytica before running Trump's 2016 campaign and serving as White House chief strategist for seven months in 2017. Since 2019 he has hosted the War Room podcast, a hub of the populist right; he has feuded with Elon Musk and the tech right and promotes an unconstitutional third Trump term. Trump pardoned him on federal fraud charges in 2021; he served four months in 2024 for contempt of Congress and pleaded guilty to a New York fraud charge in 2025.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" },
+    { "url": "https://www.aljazeera.com/economy/2025/1/16/bannon-vs-musk-how-trumps-u-turn-on-h-1b-visas-has-split-maga", "title": "Bannon vs Musk: How Trump's U-turn on H-1B visas has split MAGA — Al Jazeera" },
+    { "url": "https://www.yahoo.com/news/articles/trump-gonna-president-2028-maga-220101155.html", "title": "Trump is 'gonna be president' in 2028, MAGA leader bluntly declares: 'There's a plan' — Yahoo News" }
+  ],
+  "timeline": [
+    {
+      "year": 1977,
+      "end_year": 1983,
+      "role": "Officer",
+      "org": "U.S. Navy",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2007,
+      "end_year": 2018,
+      "role": "Founding board member, later executive chairman (left for the White House in 2016, returned August 2017, left January 2018)",
+      "org": "Breitbart News",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2014,
+      "role": "Vice president of the board (mid-2010s)",
+      "org": "Cambridge Analytica",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2016,
+      "end_year": 2016,
+      "role": "Chief executive of Trump's presidential campaign (from August 2016)",
+      "org": "Trump 2016 campaign",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2017,
+      "role": "White House chief strategist and senior counselor (January–August 18, 2017)",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "Host",
+      "org": "War Room (Real America's Voice)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "role": "Pardoned by Trump on federal We Build the Wall fraud charges (January 19, 2021); pleaded guilty to a related New York state fraud charge in February 2025",
+      "org": "We Build the Wall",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2022,
+      "role": "Convicted of contempt of Congress for defying the January 6 committee; imprisoned July–October 2024; the Supreme Court threw out the appeals ruling in April 2026",
+      "org": "U.S. courts",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Breitbart News",
+      "role": "Founding board member; former executive chairman",
+      "start_year": 2007,
+      "end_year": 2018,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" }
+      ]
+    },
+    {
+      "name": "War Room",
+      "role": "Host",
+      "start_year": 2019,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "ally",
+      "description": "While working for Sessions, Miller cultivated close ties with Breitbart News under Bannon; leaked emails from 2015–2016 show Miller pitching and shaping Breitbart stories, with Bannon among the editors copied. They worked together in the early Trump White House, and Miller distanced himself from Bannon after Bannon's 2017 exit.",
+      "start_year": 2014,
+      "end_year": 2017,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/politics-news/stephen-miller-planted-anti-rubio-stories-breitbart-during-2016-campaign-n1085451", "title": "Stephen Miller planted anti-Rubio stories in Breitbart during 2016 campaign — NBC News" },
+        { "url": "https://www.motherjones.com/politics/2017/01/stephen-bannon-miller-trump-refugee-ban-islamophobia-white-nationalist/", "title": "The Dark History of the White House Aides Who Crafted Trump's \"Muslim Ban\" — Mother Jones" },
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)", "title": "Stephen Miller (political advisor) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jeff Sessions",
+      "slug": "jeff-sessions",
+      "relationship_type": "ally",
+      "description": "Bannon, then Breitbart News executive chairman, tried to recruit Sessions to run for president in 2013, called him a mentor, and is reported to have urged him to endorse Trump in February 2016. Breitbart defended Sessions during his attorney general confirmation.",
+      "start_year": 2013,
+      "end_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.breitbart.com/politics/2017/03/26/steve-bannon-tried-to-recruit-jeff-sessions-to-run-for-president", "title": "NYT Mag: Steve Bannon Tried to Recruit Jeff Sessions to Run for President — Breitbart" },
+        { "url": "https://www.businessinsider.in/bannon-convinced-jeff-sessions-to-endorse-trump-and-sessions-worried-his-career-in-the-republican-party-might-end-because-of-it/articleshow/59777317.cms", "title": "Bannon convinced Jeff Sessions to endorse Trump — Business Insider" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Bannon left Breitbart to become chief executive of Trump's campaign in August 2016 and was White House chief strategist until August 18, 2017. The White House called his exit a mutual decision; other reports said he was pushed out, and Bannon said he had already offered his resignation.",
+      "start_year": 2016,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.npr.org/2017/08/18/544523309/chief-white-house-strategist-steve-bannon-removed-from-white-house-job", "title": "Chief White House Strategist Steve Bannon Removed From White House Job — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/steve-bannon-leave-white-house", "title": "Steve Bannon to leave White House — PBS NewsHour" },
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" },
+        { "url": "https://www.washingtontimes.com:443/news/2016/aug/17/stephen-bannon-donald-trumps-campaign-chief-poised/", "title": "Washington Times: Stephen Bannon, Donald Trump’s campaign chief, poised for battle" },
+        { "url": "https://www.washingtonexaminer.com/meet-trumps-new-bare-knuckle-ceo", "title": "Washington Examiner: Meet Trump’s new \"bare-knuckle\" CEO" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "After a 2018 break, Bannon returned to championing Trump: Trump pardoned him in January 2021, and from 2025 Bannon has promoted a third Trump term, saying in October 2025 that \"there's a plan\" for Trump to be president in 2028; constitutional scholars say a third term is barred.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" },
+        { "url": "https://www.yahoo.com/news/articles/trump-gonna-president-2028-maga-220101155.html", "title": "Trump is 'gonna be president' in 2028, MAGA leader bluntly declares: 'There's a plan' — Yahoo News" },
+        { "url": "https://www.axios.com/2026/01/10/steve-bannon-2028-campaign-maga", "title": "Scoop: Bannon quietly making moves toward 2028 run — Axios" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "After Bannon's comments about Trump's children appeared in Michael Wolff's Fire and Fury in January 2018, Trump disavowed him and the two were estranged until Bannon praised him again in 2019.",
+      "start_year": 2018,
+      "end_year": 2019,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" },
+        { "url": "https://www.wamc.org/2018-01-04/despite-takedown-and-legal-threat-bannon-says-he-still-backs-trump", "title": "Despite takedown and legal threat, Bannon says he still backs Trump — NPR via WAMC" },
+        { "url": "https://www.foxnews.com/politics/trump-slams-bannon-after-criticism-saying-ex-chief-strategist-lost-his-mind", "title": "Fox News: Trump slams Bannon, saying ex-chief strategist \"lost his mind\"" },
+        { "url": "https://www.washingtonexaminer.com/politics/798963/bannon-and-trumps-war-of-words-over-fire-and-fury/", "title": "Washington Examiner: Bannon and Trump’s war of words over \"Fire and Fury\"" }
+      ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "rival",
+      "description": "Kushner and Bannon clashed constantly in the 2017 White House; in his 2022 memoir Kushner says Bannon, accusing him of leaking, told him \"I will break you in half\". Bannon was fired that August. Bannon's response to the book was not found.",
+      "start_year": 2017,
+      "end_year": 2017,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" },
+        { "url": "https://kvia.com/politics/cnn-us-politics/2022/07/29/first-on-cnn-jared-kushner-details-west-wing-war-with-toxic-steve-bannon-in-new-book/", "title": "Jared Kushner details West Wing war with 'toxic' Steve Bannon in new book — CNN via KVIA" },
+        { "url": "https://www.mediaite.com/politics/kushner-book-details-war-with-bannon-in-trump-white-house-i-will-break-you-in-half-dont-fck-with-me", "title": "Kushner book details 'war' with Bannon in Trump White House — Mediaite" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "enemy",
+      "description": "From December 2024 Bannon led the MAGA attack on Musk over H-1B visas, calling him \"a truly evil guy\" and vowing to run him out of the White House; he went on to attack Musk's criticism of the Stargate project and DOGE's results.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.aljazeera.com/economy/2025/1/16/bannon-vs-musk-how-trumps-u-turn-on-h-1b-visas-has-split-maga", "title": "Bannon vs Musk: How Trump's U-turn on H-1B visas has split MAGA — Al Jazeera" },
+        { "url": "https://fortune.com/2025/01/13/steve-bannon-elon-musk-political-influence-personal-mission-trump/", "title": "Steve Bannon's personal mission against Elon Musk — Fortune" },
+        { "url": "https://www.foxnews.com/politics/trump-ally-steve-bannon-pledges-take-down-elon-musk", "title": "Trump ally Steve Bannon pledges to take down Elon Musk — Fox News" }
+      ]
+    },
+    {
+      "name": "Robert Mercer",
+      "slug": "robert-mercer",
+      "relationship_type": "donor",
+      "description": "The Mercer family co-owned Breitbart News, which Bannon chaired, and largely owned Cambridge Analytica, where Bannon was a board vice president. Mercer funded and co-owned Breitbart News, which Bannon chaired, and backed Cambridge Analytica, where Bannon was a vice president; the Mercers helped install Bannon in Trump's 2016 campaign. In November 2017 Mercer wrote that they did not always see eye to eye; Bannon left Breitbart in January 2018 and the family cut off support.",
+      "start_year": 2012,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Bannon", "title": "Steve Bannon — Wikipedia" },
+        { "url": "https://www.washingtonpost.com/graphics/politics/mercer-bannon/", "title": "The Mercers and Stephen Bannon: How a populist power base was funded and built — Washington Post" },
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://thehill.com/homenews/media/358438-billionaire-trump-backer-cuts-ties-to-milo-yiannopoulos-distances-from-bannon/", "title": "Billionaire Trump backer cuts ties with Milo Yiannopoulos, distances from Bannon — The Hill" },
+        { "url": "https://www.npr.org/sections/thetwo-way/2018/01/09/576868468/bannon-out-at-breitbart-news", "title": "Steve Bannon Out At Breitbart News — NPR" }
+      ]
+    },
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "ally",
+      "description": "Lake appeared repeatedly on Bannon's War Room, including the day before Arizona's 2022 primaries, where she promoted false claims about the 2020 election. Source is an advocacy watchdog.",
+      "start_year": 2022,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://www.mediamatters.org/steve-bannon/steve-bannon-promotes-republican-big-lie-candidates-ahead-contested-arizona-primaries", "title": "Steve Bannon promotes Republican 'Big Lie' candidates ahead of contested Arizona primaries — Media Matters" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "Carlson and Bannon were the leading MAGA voices against U.S. involvement in the Israel-Iran war in June 2025; Carlson made the case on Bannon's show.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.npr.org/2025/06/18/nx-s1-5438122/trump-iran-israel-conflict-tucker-carlson", "title": "NPR: Pro-Trump media figures split over the Israel-Iran conflict" }
+      ]
+    },
+    {
+      "name": "Andy Surabian",
+      "slug": "andy-surabian",
+      "relationship_type": "employee",
+      "description": "Surabian was Bannon's political adviser in the White House in 2017.",
+      "start_year": 2017,
+      "end_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/bannons-political-adviser-leaving-white-house-to-join-pro-trump-group-1513305315-dab5eb87-701b-4f01-a34a-4f93ad4d5dbe.html", "title": "Axios" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Bannon was a confirmed speaker at Hazony's NatCon 5 in Washington in September 2025.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-5-2025/confirmed-speakers/", "title": "Confirmed Speakers — NatCon Washington 2025" }
+      ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "donor",
+      "description": "The Mercers bankrolled and co-owned Breitbart, which Bannon ran, and helped put him at the top of Trump's 2016 campaign; she took over the family's Breitbart stake in 2017.",
+      "start_year": 2012,
+      "end_year": 2018,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.washingtonpost.com/graphics/politics/mercer-bannon/", "title": "The Mercers and Stephen Bannon — Washington Post" },
+        { "url": "https://www.npr.org/sections/thetwo-way/2018/01/09/576868468/bannon-out-at-breitbart-news", "title": "Steve Bannon Out At Breitbart News — NPR" }
+      ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "enemy",
+      "description": "In January 2018 she publicly broke with Bannon, saying the family had not spoken to him in months and gave no support to his political agenda; the Mercers cut funding for his security detail and he left Breitbart.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.npr.org/sections/thetwo-way/2018/01/09/576868468/bannon-out-at-breitbart-news", "title": "Steve Bannon Out At Breitbart News — NPR" },
+        { "url": "https://thehill.com/blogs/blog-briefing-room/367529-gop-megadonors-cut-off-funding-for-bannons-security-detail-report/", "title": "GOP mega-donors cut off funding for Bannon's security detail — The Hill" }
+      ]
+    },
+    {
+      "name": "Nigel Farage",
+      "slug": "nigel-farage",
+      "relationship_type": "ally",
+      "description": "Close allies since 2016: a Farage ally said they spoke or texted daily; Bannon called Farage his \"Brexiteer friend\" and tipped him for prime minister, and Farage is a regular guest on Bannon's War Room.",
+      "start_year": 2016,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://huffingtonpost.co.uk/entry/nigel-farage-donald-steve-bannon_uk_5829ed96e4b09ac74c535c5f", "title": "Nigel Farage thinks Steve Bannon is 'my kind of chap' — HuffPost UK" },
+        { "url": "https://www.scmp.com/news/world/europe/article/3012067/steve-bannon-says-brexiteer-friend-nigel-farage-running-be-uk", "title": "Steve Bannon says Brexiteer friend Nigel Farage running to be UK PM — SCMP" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "enemy",
+      "description": "In October 2017 Bannon vowed war on Singer after it emerged that the Singer-backed Free Beacon had first commissioned Fusion GPS's Trump research.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://forward.com/fast-forward/386396/steve-bannon-war-paul-singer-funding-of-anti-trump-research", "title": "Paul Singer faces 'off the chain' wrath of Steve Bannon over Trump dossier — The Forward" }
+      ]
+    },
+    {
+      "name": "Ivanka Trump",
+      "slug": "ivanka-trump",
+      "relationship_type": "enemy",
+      "description": "Rival White House factions in 2017: Bannon's populists against \"Javanka\"; they traded accusations of leaking, and after leaving Bannon called the couple \"the railhead of all bad decisions\".",
+      "start_year": 2017,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.scmp.com/news/world/united-states-canada/article/2125569/railhead-all-bad-decisions-steve-bannon-blames", "title": "'The railhead of all bad decisions': Steve Bannon blames 'Javanka' — South China Morning Post" },
+        { "url": "https://forward.com/fast-forward/390671/steve-bannon-blames-javanka-for-every-bad-decision-trump-has-made/", "title": "Steve Bannon blames \"Javanka\" for every bad decision Trump has made — The Forward" }
+      ]
+    },
+    {
+      "name": "Nigel Farage",
+      "slug": "nigel-farage",
+      "relationship_type": "friend",
+      "description": "Bannon calls Farage his “Brexiteer friend”; a Farage ally said they spoke or texted daily.",
+      "start_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://huffingtonpost.co.uk/entry/nigel-farage-donald-steve-bannon_uk_5829ed96e4b09ac74c535c5f", "title": "Nigel Farage thinks Steve Bannon is 'my kind of chap' — HuffPost UK" },
+        { "url": "https://www.scmp.com/news/world/europe/article/3012067/steve-bannon-says-brexiteer-friend-nigel-farage-running-be-uk", "title": "Steve Bannon says Brexiteer friend Nigel Farage running to be UK PM — SCMP" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Records for Trump (employer), Sessions and Miller mirror the records already in their files. Not recorded as connections: Bannon's media advice to Jeffrey Epstein in 2019 and their messages released in 2025–2026 (documented in the cited Wikipedia article), and a 1996 domestic case (private matter). The Mercer link's 2012 start is approximate (the Mercers invested in Breitbart around then). Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "asks": [
+    {
+      "date": "2025-06",
+      "with": ["donald-trump"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-06-21",
+      "what": "Urged caution about joining Israel's strikes on Iran without a diplomatic deal, and met Trump about it; the US struck Iran on June 21.",
+      "sources": [
+        { "url": "https://www.npr.org/2025/06/18/nx-s1-5438122/trump-iran-israel-conflict-tucker-carlson", "title": "Pro-Trump media figures split over the U.S. role in the Israel-Iran conflict — NPR" },
+        { "url": "https://www.washingtonexaminer.com/news/3448468/maga-iran-trump-civil-war/", "title": "MAGA voices confident that Trump is listening to them on Iran — Washington Examiner" }
+      ]
+    },
+    {
+      "date": "2025-09",
+      "with": ["donald-trump"],
+      "kind": "policy",
+      "outcome": "partial",
+      "decided": "2025-09-19",
+      "what": "Long called for scrapping the H-1B program; Trump instead put a $100,000 fee on new petitions, which Bannon backed.",
+      "sources": [
+        { "url": "https://www.npr.org/2025/09/20/nx-s1-5548568/h1b-visa-fee-trump-tech", "title": "Trump's $100,000 H-1B visa fee — NPR" },
+        { "url": "https://www.mediaite.com/media/news/dude-bannon-demolishes-trump-cabinet-secretary-for-pushing-patently-false-info-on-h-1b-visas", "title": "Bannon on the H-1B fee — Mediaite" }
+      ]
+    }
+  ]
+}

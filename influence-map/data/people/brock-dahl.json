@@ -1,0 +1,55 @@
+{
+  "name": "Brock Dahl",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Legal Adviser of the Department of State (since June 2026)",
+  "summary": "Brock Dahl was confirmed on June 11, 2026, as the State Department’s legal adviser, its top lawyer on international and domestic law.",
+  "sources": [
+    { "url": "https://www.senate.gov/pagelayout/legislative/one_item_and_teasers/nom_confc.htm", "title": "Nominations confirmed (civilian) — U.S. Senate" },
+    { "url": "https://en.wikipedia.org/wiki/Legal_Adviser_of_the_Department_of_State", "title": "Legal Adviser of the Department of State — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Legal Adviser",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://www.senate.gov/pagelayout/legislative/one_item_and_teasers/nom_confc.htm", "title": "Nominations confirmed (civilian) — U.S. Senate" },
+        { "url": "https://en.wikipedia.org/wiki/Legal_Adviser_of_the_Department_of_State", "title": "Legal Adviser of the Department of State — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Rubio’s chief lawyer since June 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.senate.gov/pagelayout/legislative/one_item_and_teasers/nom_confc.htm", "title": "Nominations confirmed (civilian) — U.S. Senate" },
+        { "url": "https://en.wikipedia.org/wiki/Legal_Adviser_of_the_Department_of_State", "title": "Legal Adviser of the Department of State — Wikipedia" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Legal Adviser",
+    "unit": "state",
+    "rank": 3,
+    "reports_to": "marco-rubio",
+    "since": "2026-06-15",
+    "sources": [
+      { "url": "https://www.senate.gov/pagelayout/legislative/one_item_and_teasers/nom_confc.htm", "title": "Nominations confirmed (civilian) — U.S. Senate" },
+      { "url": "https://en.wikipedia.org/wiki/Legal_Adviser_of_the_Department_of_State", "title": "Legal Adviser of the Department of State — Wikipedia" }
+    ]
+  },
+  "notes": "Checked against State Department pages via searches restricted to state.gov (the June 15, 2026 organization chart, bureau pages and September 2026 public schedules).",
+  "last_researched": "2026-11-08"
+}

@@ -1,0 +1,801 @@
+{
+  "name": "Larry Ellison",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "tech",
+  "groups": ["tech-right", "ai-race", "middle-east", "media"],
+  "photo": {
+    "file": "larry-ellison.png",
+    "credit": "Oracle PR Hartmann Studios",
+    "license": "CC BY 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Larry_Ellison_2016.png", "title": "File:Larry Ellison 2016.png — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": 2015,
+      "end_year": null,
+      "basis": "Major Republican donor: at least $4 million to the pro-Rubio super PAC (2015–2016), more than $25 million to a Tim Scott super PAC, and a reported $45 million to a group backing Trump in 2024.",
+      "sources": [
+        { "url": "https://www.cnbc.com/2016/02/20/larry-ellison-keeps-bet-on-marco-rubio-donates-1-million-to-super-pac.html", "title": "CNBC: Larry Ellison keeps bet on Marco Rubio" },
+        { "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/", "title": "Fortune: Larry Ellison's $45 million for Trump" }
+      ]
+    }
+  ],
+  "current_role": "Executive chairman and chief technology officer of Oracle (since 2014)",
+  "summary": "Larry Ellison (born 1944) co-founded the software company Oracle in 1977 and was its CEO until 2014; he has since been its executive chairman and chief technology officer, steering it toward cloud infrastructure for AI. One of the world's richest people, he is a major Republican donor and an ally of Donald Trump, a partner in the Stargate AI project and the Oracle-led TikTok U.S. venture, and the financial backer of his son David Ellison's Skydance, which acquired Paramount in 2025 and Warner Bros. Discovery in October 2026. His foundation is the largest known funder of the Tony Blair Institute.",
+  "sources": [
+    { "url": "https://www.oracle.com/corporate/executives/larry-ellison/", "title": "Larry Ellison — Oracle executive profile" },
+    { "url": "https://www.britannica.com/money/Larry-Ellison", "title": "Larry Ellison — Britannica" },
+    { "url": "https://en.wikipedia.org/wiki/Larry_Ellison", "title": "Larry Ellison — Wikipedia" },
+    { "url": "https://fortune.com/2025/07/16/larry-ellison-mark-zuckerberg-world-rich-list-oracle-ai/", "title": "Larry Ellison surpasses Mark Zuckerberg to become world's second-richest — Fortune" },
+    { "url": "https://www.bloomberg.com/news/articles/2026-10-06/paramount-closes-warner-bros-merger-in-historic-hollywood-deal", "title": "Paramount Skydance Completes $110 Billion Warner Bros. Merger, Forms Skydance — Bloomberg" }
+  ],
+  "timeline": [
+    {
+      "year": 1977,
+      "end_year": 2014,
+      "role": "Co-founder and CEO (founded as Software Development Laboratories; renamed Relational Software in 1979, later Oracle)",
+      "org": "Oracle Corporation",
+      "sources": [
+        { "url": "https://www.oracle.com/corporate/executives/larry-ellison/", "title": "Larry Ellison — Oracle executive profile" },
+        { "url": "https://www.britannica.com/money/Larry-Ellison", "title": "Larry Ellison — Britannica" }
+      ]
+    },
+    {
+      "year": 1997,
+      "end_year": 2002,
+      "role": "Member of the board of directors",
+      "org": "Apple",
+      "sources": [
+        { "url": "https://www.cultofmac.com/news/today-in-apple-history-happy-birthday-to-jobs-best-friend-larry-ellison", "title": "Today in Apple history: Happy birthday to Steve Jobs' best friend, Larry Ellison — Cult of Mac" },
+        { "url": "https://en.wikipedia.org/wiki/Larry_Ellison", "title": "Larry Ellison — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2014,
+      "end_year": null,
+      "role": "Executive chairman and chief technology officer",
+      "org": "Oracle Corporation",
+      "sources": [
+        { "url": "https://www.oracle.com/corporate/executives/larry-ellison/", "title": "Larry Ellison — Oracle executive profile" },
+        { "url": "https://www.theregister.com/2025/09/22/oracle_leadership_changes", "title": "Oracle leadership changes — The Register" }
+      ]
+    },
+    {
+      "year": 2018,
+      "end_year": 2022,
+      "role": "Member of the board of directors (added under Tesla's SEC settlement; did not stand for re-election in 2022)",
+      "org": "Tesla",
+      "sources": [
+        { "url": "https://www.cnbc.com/2018/12/28/tesla-names-new-board-members-after-sec-settlement.html", "title": "Tesla names Larry Ellison and Kathleen Wilson-Thompson to board after SEC settlement — CNBC" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459022024064/tsla-def14a_20220804.htm", "title": "Tesla 2022 proxy statement (DEF 14A) — SEC" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Launch partner in the Stargate AI infrastructure venture, announced at the White House on January 21, 2025",
+      "org": "Stargate (OpenAI, SoftBank, Oracle, MGX)",
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
+        { "url": "https://www.hollywoodreporter.com/business/business-news/stargate-trump-openai-ellison-1236114430/", "title": "Stargate, Trump, OpenAI and Ellison — The Hollywood Reporter" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Oracle Corporation",
+      "role": "Co-founder; executive chairman and CTO",
+      "start_year": 1977,
+      "end_year": null,
+      "sources": [
+        { "url": "https://www.oracle.com/corporate/executives/larry-ellison/", "title": "Larry Ellison — Oracle executive profile" }
+      ]
+    },
+    {
+      "name": "TikTok USDS Joint Venture",
+      "role": "Through Oracle, a lead investor (reported 15% stake) in the group that took over TikTok's U.S. business under a December 2025 deal",
+      "start_year": 2025,
+      "end_year": null,
+      "sources": [
+        { "url": "https://www.npr.org/2025/12/18/nx-s1-5648844/tiktok-deal-oracle-trump", "title": "TikTok signs deal to give U.S. operations to Oracle-led investor group — NPR" },
+        { "url": "https://www.thewrap.com/industry-news/deals-ma/what-david-ellison-owns-paramount-warner-bros-cnn-tiktok/", "title": "David Ellison's Growing Media Empire — TheWrap" }
+      ]
+    },
+    {
+      "name": "Skydance Corporation (formerly Paramount Skydance)",
+      "role": "Financial backer; personally guaranteed $40.4 billion of equity financing for the Warner Bros. Discovery acquisition",
+      "start_year": 2025,
+      "end_year": null,
+      "sources": [
+        { "url": "https://www.npr.org/2025/12/21/nx-s1-5649856/the-ellisons-add-tiktoks-u-s-business-to-their-entertainment-empire", "title": "The Ellisons, TikTok and Paramount — NPR" },
+        { "url": "https://deadline.com/2026/10/skydance-merger-paramount-warner-bros-discovery-1237147750/", "title": "Paramount-Warner Bros Discovery Merger Closes, Creating Skydance Media — Deadline" }
+      ]
+    },
+    {
+      "name": "Larry Ellison Foundation",
+      "role": "Founder; channel for donations to the Tony Blair Institute",
+      "sources": [
+        { "url": "https://www.lighthousereports.com/investigation/blair-and-the-billionaire/", "title": "Blair and the Billionaire — Lighthouse Reports" }
+      ]
+    },
+    {
+      "name": "Twitter (X) acquisition by Elon Musk",
+      "role": "Committed $1 billion of equity to the 2022 takeover",
+      "start_year": 2022,
+      "end_year": 2022,
+      "sources": [
+        { "url": "https://www.channelfutures.com/business-models/oracle-co-founder-larry-ellison-biggest-backer-of-elon-musks-twitter-takeover", "title": "Oracle Co-Founder Larry Ellison Biggest Backer of Elon Musk's Twitter Takeover — Channel Futures" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Ellison let Trump's reelection campaign hold a February 2020 fundraiser at his California estate. In January 2025 he joined Trump at the White House to launch the Stargate AI venture, and in December 2025 an Oracle-led investor group took over TikTok's U.S. business under a deal Trump backed. NPR and others describe him as a Trump friend.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://fortune.com/2020/02/14/oracle-amazon-larry-ellison-hosts-fundraiser-trump/", "title": "Oracle's Larry Ellison hosts fundraiser for Trump — Fortune" },
+        { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
+        { "url": "https://www.npr.org/2025/12/18/nx-s1-5648844/tiktok-deal-oracle-trump", "title": "TikTok signs deal to give U.S. operations to Oracle-led investor group — NPR" },
+        { "url": "https://www.breitbart.com/politics/2025/01/21/trump-announces-500-billion-artificial-intelligence-investment-in-america/", "title": "Breitbart: Trump announces $500 billion artificial intelligence investment in America" },
+        { "url": "https://www.washingtontimes.com/news/2025/jan/21/donald-trump-announces-500-billion-ai-investment-n/", "title": "Washington Times: Donald Trump announces $500 billion AI investment" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "The Wall Street Journal reported in June 2026, citing people familiar with the fundraising, that Ellison gave about $45 million to a nonprofit backing Trump's 2024 campaign. The gift was not subject to disclosure; FEC filings show no direct donations from Ellison to the campaign or its PACs.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/", "title": "Larry Ellison quietly gave $45 million to a pro-Trump group — Fortune" },
+        { "url": "https://electionlawblog.org/2026/how-a-45-million-donation-brought-larry-ellison-deeper-into-trumps-circle/", "title": "How a $45 Million Donation Brought Larry Ellison Deeper Into Trump's Circle — Election Law Blog" }
+      ]
+    },
+    {
+      "name": "David Ellison",
+      "slug": "david-ellison",
+      "relationship_type": "family",
+      "description": "Son. David Ellison is chairman and CEO of Skydance, the company formed when Paramount Skydance completed its acquisition of Warner Bros. Discovery on October 6, 2026.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Ellison", "title": "David Ellison — Wikipedia" },
+        { "url": "https://deadline.com/2026/10/skydance-david-ellison-paramount-warner-bros-merger-1237148427/", "title": "Skydance Chief David Ellison On \"Rebuilding Trust\" After Merger Battle — Deadline" }
+      ]
+    },
+    {
+      "name": "David Ellison",
+      "slug": "david-ellison",
+      "relationship_type": "funded_by",
+      "description": "Larry Ellison is the main financial backer of his son's media company: he personally guaranteed $40.4 billion of the equity Paramount Skydance put up for its Warner Bros. Discovery takeover, which closed in October 2026.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2025/12/21/nx-s1-5649856/the-ellisons-add-tiktoks-u-s-business-to-their-entertainment-empire", "title": "The Ellisons, TikTok and Paramount — NPR" },
+        { "url": "https://www.thewrap.com/industry-news/deals-ma/what-david-ellison-owns-paramount-warner-bros-cnn-tiktok/", "title": "David Ellison's Growing Media Empire — TheWrap" }
+      ]
+    },
+    {
+      "name": "Megan Ellison",
+      "slug": "megan-ellison",
+      "relationship_type": "family",
+      "description": "Daughter. Megan Ellison founded Annapurna Pictures in 2011 and has produced several Best Picture nominees; Variety reported in 2018 that her father had long backed the company and stepped in to reorganize it.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.97,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Megan_Ellison", "title": "Megan Ellison — Wikipedia" },
+        { "url": "https://variety.com/2018/film/news/annapurna-larry-ellison-megan-ellison-vice-1202975648/", "title": "As Annapurna Stumbles, Billionaire Larry Ellison Exerts Control — Variety" }
+      ]
+    },
+    {
+      "name": "Safra Catz",
+      "slug": "safra-catz",
+      "relationship_type": "employee",
+      "description": "Catz joined Oracle in 1999 and rose to co-CEO (2014, with Mark Hurd) and sole CEO (2019) under Ellison as chairman. In September 2025 she became executive vice chair; Ellison cited their 26-year partnership.",
+      "start_year": 1999,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.theregister.com/2025/09/22/oracle_leadership_changes", "title": "Oracle leadership changes — The Register" },
+        { "url": "https://www.constellationr.com/insights/news/oracle-names-magouyrk-and-sicilia-co-ceos-catz-moves-vice-chair", "title": "Oracle names Magouyrk and Sicilia co-CEOs as Catz moves to Vice Chair — Constellation Research" }
+      ]
+    },
+    {
+      "name": "Bob Miner",
+      "slug": "bob-miner",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Software Development Laboratories, the company that became Oracle, with Ellison and Ed Oates in 1977.",
+      "start_year": 1977,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.britannica.com/money/Larry-Ellison", "title": "Larry Ellison — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Larry_Ellison", "title": "Larry Ellison — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ed Oates",
+      "slug": "ed-oates",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Software Development Laboratories, the company that became Oracle, with Ellison and Bob Miner in 1977.",
+      "start_year": 1977,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.britannica.com/money/Larry-Ellison", "title": "Larry Ellison — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Larry_Ellison", "title": "Larry Ellison — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "ally",
+      "description": "Ellison has called Musk a \"very close\" friend. He held about $1 billion of Tesla stock, sat on Tesla's board from December 2018 to 2022 under the company's SEC settlement, and committed $1 billion to Musk's 2022 Twitter takeover.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2018/12/28/tesla-names-new-board-members-after-sec-settlement.html", "title": "Tesla names Larry Ellison and Kathleen Wilson-Thompson to board after SEC settlement — CNBC" },
+        { "url": "https://fortune.com/2018/12/28/tesla-larry-ellison-board-of-directors-elon-musk/", "title": "Tesla Taps Oracle's Larry Ellison for Its Board of Directors — Fortune" },
+        { "url": "https://www.channelfutures.com/business-models/oracle-co-founder-larry-ellison-biggest-backer-of-elon-musks-twitter-takeover", "title": "Oracle Co-Founder Larry Ellison Biggest Backer of Elon Musk's Twitter Takeover — Channel Futures" }
+      ]
+    },
+    {
+      "name": "Steve Jobs",
+      "slug": "steve-jobs",
+      "relationship_type": "ally",
+      "description": "Close personal friends, widely described as best friends. Ellison sat on Apple's board after Jobs returned (1997–2002), says Jobs talked him out of a plan to take over Apple and install Jobs as CEO, and spoke at Jobs's memorial in 2011.",
+      "end_year": 2011,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cultofmac.com/news/today-in-apple-history-happy-birthday-to-jobs-best-friend-larry-ellison", "title": "Today in Apple history: Happy birthday to Steve Jobs' best friend, Larry Ellison — Cult of Mac" },
+        { "url": "https://www.cultofmac.com/news/larry-ellison-steve-jobs-shot-down-my-apple-takeover-plans", "title": "Larry Ellison: Steve Jobs shot down my Apple takeover plans — Cult of Mac" },
+        { "url": "https://en.wikipedia.org/wiki/Larry_Ellison", "title": "Larry Ellison — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Tony Blair",
+      "slug": "tony-blair",
+      "relationship_type": "funded_by",
+      "description": "Through the Larry Ellison Foundation, Ellison is the Tony Blair Institute's largest known funder: Lighthouse Reports counts $130 million given from 2021 to 2023 and $218 million more pledged. Totals differ between outlets (see Sources disagree). Lighthouse alleges the money turned the institute toward promoting Oracle's technology; that is one investigation's finding.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.lighthousereports.com/investigation/blair-and-the-billionaire/", "title": "Blair and the Billionaire — Lighthouse Reports" },
+        { "url": "https://en.wikipedia.org/wiki/Tony_Blair_Institute_for_Global_Change", "title": "Tony Blair Institute for Global Change — Wikipedia" },
+        { "url": "https://www.newstatesman.com/podcasts/2025/09/who-does-the-tony-blair-institute-really-work-for-2", "title": "Who does the Tony Blair Institute really work for? — New Statesman" }
+      ]
+    },
+    {
+      "name": "Tim Scott",
+      "slug": "tim-scott",
+      "relationship_type": "funded_by",
+      "description": "Ellison was the dominant funder of a super PAC aligned with Sen. Tim Scott, giving more than $25 million by early 2022 according to FEC records. CNBC reported in May 2023 that he planned up to $10 million more for Scott's presidential run, but the New York Times later reported he gave nothing after Scott launched his campaign.",
+      "start_year": 2021,
+      "end_year": 2023,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.aol.com/news/oracle-cofounder-larry-ellison-recently-141718439.html", "title": "Oracle cofounder Larry Ellison recently donated $15 million to a super PAC aligned with Sen. Tim Scott — Business Insider (via AOL)" },
+        { "url": "https://www.cnbc.com/2023/05/22/larry-ellison-tim-scott-presidential-campaign.html", "title": "Oracle's Larry Ellison gears up to spend millions to back Tim Scott's 2024 run — CNBC" },
+        { "url": "https://politicalwire.com/2023/11/14/super-pac-donations-never-materialized-for-tim-scott/", "title": "Super PAC donations never materialized for Tim Scott — Political Wire" }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "slug": "sam-altman",
+      "relationship_type": "colleague",
+      "description": "Partners in the Stargate AI infrastructure venture (OpenAI, SoftBank, Oracle and MGX), which Ellison, Altman and SoftBank's Masayoshi Son launched with Trump at the White House on January 21, 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
+        { "url": "https://www.hollywoodreporter.com/business/business-news/stargate-trump-openai-ellison-1236114430/", "title": "Stargate, Trump, OpenAI and Ellison — The Hollywood Reporter" }
+      ]
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "slug": "benjamin-netanyahu",
+      "relationship_type": "ally",
+      "description": "Disputed. Haaretz reported in September 2021 that Ellison offered Netanyahu a seat on Oracle's board; Netanyahu denied receiving the offer and Oracle declined to comment. In August 2021 Netanyahu dined with Ellison in Hawaii while Ellison was listed as a state's witness in Netanyahu's corruption trial.",
+      "start_year": 2021,
+      "end_year": 2021,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.haaretz.com/israel-news/2021-09-16/ty-article/.highlight/larry-ellison-netanyahu-trial-witness-offers-ex-pm-seat-on-oracle-board/0000017f-dbd9-d3a5-af7f-fbff9ae80000", "title": "Larry Ellison Offers Netanyahu Lucrative Oracle Post — Haaretz" },
+        { "url": "https://www.jpost.com/israel-news/netanyahu-dines-with-states-witness-against-him-in-hawaii-678055", "title": "Benjamin Netanyahu dines with state's witness against him in Hawaii — The Jerusalem Post" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "funded_by",
+      "description": "Ellison gave at least $4 million in 2015–2016 to Conservative Solutions PAC, the super PAC backing Rubio's presidential run.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2016/02/20/larry-ellison-keeps-bet-on-marco-rubio-donates-1-million-to-super-pac.html", "title": "Larry Ellison keeps bet on Marco Rubio, donates $1 million to super PAC — CNBC" },
+        { "url": "https://digital-release.thehill.com/policy/technology/249966-oracles-ellison-donates-3-million-to-group-backing-rubio", "title": "Oracle's Ellison donates $3 million to group backing Rubio — The Hill" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "colleague",
+      "description": "Both were appointed to PCAST in March 2026. That shared council seat is the only basis found; no source documents them working together directly.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" },
+        { "url": "https://www.deseret.com/politics/2026/03/25/donald-trump-president-council-advisors-science-technology-zuckerberg", "title": "Trump names tech leaders to science and technology council — Deseret News" }
+      ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "colleague",
+      "description": "Kushner's Affinity Partners was named in December 2025 as a financing partner, with about $200 million, in Paramount Skydance's hostile bid for Warner Bros. Discovery, whose equity the Ellison family trust backstopped; Affinity withdrew on December 16, 2025. No source describes Kushner and Larry Ellison working together directly.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://fortune.com/2025/12/08/jared-kushner-paramount-warner-netflix-trump-ellison-saudi-antitrust/", "title": "Jared Kushner, Paramount, Warner and the Ellisons — Fortune" },
+        { "url": "https://www.cbsnews.com/news/jared-kushner-affinity-partners-backs-out-paramount-skydance-bid-warner-bros-discovery/", "title": "Jared Kushner's Affinity Partners backs out of Paramount Skydance bid for Warner Bros. Discovery — CBS News" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "friend",
+      "description": "Ellison calls Musk a “very close” friend.",
+      "start_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2018/12/28/tesla-names-new-board-members-after-sec-settlement.html", "title": "Tesla names Larry Ellison and Kathleen Wilson-Thompson to board after SEC settlement — CNBC" },
+        { "url": "https://fortune.com/2018/12/28/tesla-larry-ellison-board-of-directors-elon-musk/", "title": "Tesla Taps Oracle's Larry Ellison for Its Board of Directors — Fortune" },
+        { "url": "https://www.channelfutures.com/business-models/oracle-co-founder-larry-ellison-biggest-backer-of-elon-musks-twitter-takeover", "title": "Oracle Co-Founder Larry Ellison Biggest Backer of Elon Musk's Twitter Takeover — Channel Futures" }
+      ]
+    },
+    {
+      "name": "Steve Jobs",
+      "slug": "steve-jobs",
+      "relationship_type": "friend",
+      "description": "Ellison and Steve Jobs were close personal friends, widely described as best friends, until Jobs’s death in 2011; Ellison spoke at his memorial.",
+      "start_year": null,
+      "end_year": 2011,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cultofmac.com/news/today-in-apple-history-happy-birthday-to-jobs-best-friend-larry-ellison", "title": "Today in Apple history: Happy birthday to Steve Jobs' best friend, Larry Ellison — Cult of Mac" },
+        { "url": "https://www.cultofmac.com/news/larry-ellison-steve-jobs-shot-down-my-apple-takeover-plans", "title": "Larry Ellison: Steve Jobs shot down my Apple takeover plans — Cult of Mac" },
+        { "url": "https://en.wikipedia.org/wiki/Larry_Ellison", "title": "Larry Ellison — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "slug": "benjamin-netanyahu",
+      "relationship_type": "friend",
+      "description": "Haaretz described Ellison as one of Netanyahu’s close friends: Netanyahu’s family vacationed at Ellison’s private Hawaiian island in August 2021, and Ellison reportedly offered him an Oracle board seat that year, which Netanyahu denied receiving; Ellison was also a prosecution witness in Netanyahu’s corruption trial.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.benzinga.com/news/21/09/22944530/former-israeli-prime-minister-benjamin-netanyahu-asked-to-join-oracle-board-by-co-founder-report", "title": "Benzinga (citing Haaretz): Netanyahu asked to join Oracle board by co-founder" },
+        { "url": "https://thejewishindependent.com.au/larry-ellison-netanyahu-trial-witness-offers-ex-pm-seat-on-oracles-board", "title": "The Jewish Independent: Larry Ellison offers ex-PM seat on Oracle’s board" }
+      ]
+    },
+    {
+      "name": "Rand Paul",
+      "slug": "rand-paul",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $11,600 from Larry Ellison to Reinventing a New Direction Political Action Committee, Rand Paul for US Senate in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00493924&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to Reinventing a New Direction Political Action Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00496075&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to Rand Paul for US Senate" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Size of Ellison's funding for the Tony Blair Institute",
+      "details": "Lighthouse Reports counts $130 million given in 2021–2023 plus $218 million pledged; the New Statesman puts donations and pledges since 2021 at £257 million or more; another New Statesman piece cites a $350 million pledge. How much has been paid versus pledged is unclear.",
+      "sources": [
+        { "url": "https://www.lighthousereports.com/investigation/blair-and-the-billionaire/", "title": "Blair and the Billionaire — Lighthouse Reports" },
+        { "url": "https://www.newstatesman.com/podcasts/2025/09/who-does-the-tony-blair-institute-really-work-for-2", "title": "Who does the Tony Blair Institute really work for? — New Statesman" }
+      ]
+    },
+    {
+      "topic": "2023 funding for Tim Scott",
+      "details": "CNBC reported in May 2023 that Ellison planned to give up to $10 million to back Scott's presidential run; the New York Times, as excerpted by Political Wire, later reported he gave nothing after Scott launched his campaign.",
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/05/22/larry-ellison-tim-scott-presidential-campaign.html", "title": "Oracle's Larry Ellison gears up to spend millions to back Tim Scott's 2024 run — CNBC" },
+        { "url": "https://politicalwire.com/2023/11/14/super-pac-donations-never-materialized-for-tim-scott/", "title": "Super PAC donations never materialized for Tim Scott — Political Wire" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Targeted searches found no documented connection to Stephen Miller, Jeff Sessions or David Horowitz. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "leverage": {
+    "level": 3,
+    "basis": "Co-founder and chief technology officer of Oracle, which holds 15% of the TikTok U.S. joint venture created under Trump’s 2025 order and was named an anchor of the Stargate AI build-out; his son David’s Paramount–Warner Bros. Discovery owns CBS, CNN and HBO. Gave about $45 million to a nonprofit backing Trump’s 2024 campaign.",
+    "sources": [
+      { "url": "https://www.cnbc.com/2026/02/16/tiktok-us-joint-venture-user-data-no-mass-exodus-oracle-mgx-silver-lake-larry-ellison-trump.html", "title": "After a shaky start, TikTok’s U.S. joint venture lands on its feet — CNBC (February 2026)" },
+      { "url": "https://www.thewrap.com/industry-news/deals-ma/what-david-ellison-owns-paramount-warner-bros-cnn-tiktok/", "title": "David Ellison’s growing media empire: from CNN and HBO to Harry Potter — TheWrap" },
+      { "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/", "title": "Larry Ellison’s $45 million donation, Stargate, TikTok and Paramount — Fortune (June 2026)" }
+    ]
+  },
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 423240,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&two_year_transaction_period=2026", "title": "FEC itemized receipts: ELLISON, LARRY, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Grow the Majority",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00858373"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00858373&two_year_transaction_period=2026", "title": "FEC receipts: ELLISON, LARRY to Grow the Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 94300,
+            "fec_usd": 94300,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: ELLISON, LARRY to NRSC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 82300,
+            "fec_usd": 82300,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00075820&two_year_transaction_period=2026", "title": "FEC receipts: ELLISON, LARRY to NRCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "One Team Senate Majority",
+            "kind": "pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00897918"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00897918&two_year_transaction_period=2026", "title": "FEC receipts: ELLISON, LARRY to One Team Senate Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 7000,
+            "fec_usd": 7000,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $7,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: ELLISON, LARRY to Mike Johnson for Louisiana, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "description": "About $45 million to a nonprofit backing Trump’s campaign, per the Wall Street Journal.",
+        "sources": [
+          { "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/", "title": "Larry Ellison’s $45 million donation, Stargate, TikTok and Paramount — Fortune (June 2026)" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&two_year_transaction_period=2024", "title": "FEC itemized receipts: ELLISON, LARRY, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Nonprofit backing Donald Trump’s 2024 campaign",
+            "slug": "donald-trump",
+            "kind": "dark-money",
+            "side": "R",
+            "amount_usd": 45000000,
+            "sources": [
+              { "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/", "title": "Larry Ellison’s $45 million donation, Stargate, TikTok and Paramount — Fortune (June 2026)" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 82600,
+            "fec_usd": 82600,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00027466&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to NRSC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Team Rand",
+            "kind": "pac",
+            "amount_usd": 62900,
+            "fec_usd": 62900,
+            "fec_ids": ["C00766196"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00766196&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to Team Rand, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 41300,
+            "fec_usd": 41300,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00075820&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to NRCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Rand Paul",
+            "slug": "rand-paul",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 11600,
+            "fec_usd": 11600,
+            "fec_ids": ["C00493924", "C00496075"],
+            "description": "Per FEC filings: Rand Paul for US Senate $6,600; Reinventing a New Direction Political Action Committee $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00496075&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to Rand Paul for US Senate, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00493924&two_year_transaction_period=2024", "title": "FEC receipts: ELLISON, LARRY to Reinventing a New Direction Political Action Committee, 2024 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 269166,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 31007945,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&two_year_transaction_period=2022", "title": "FEC itemized receipts: ELLISON, LARRY, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Opportunity Matters Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 30007945,
+            "fec_usd": 30007945,
+            "fec_ids": ["C00750182"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00750182&two_year_transaction_period=2022", "title": "FEC receipts: ELLISON, LARRY to Opportunity Matters Fund, Inc., 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Tennessee Conservatives PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00806083"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00806083&two_year_transaction_period=2022", "title": "FEC receipts: ELLISON, LARRY to Tennessee Conservatives PAC, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 7255400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&two_year_transaction_period=2020", "title": "FEC itemized receipts: ELLISON, LARRY, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Opportunity Matters Fund, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00750182"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00750182&two_year_transaction_period=2020", "title": "FEC receipts: ELLISON, LARRY to Opportunity Matters Fund, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Better Future Mi Fund",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00725317"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00725317&two_year_transaction_period=2020", "title": "FEC receipts: ELLISON, LARRY to Better Future Mi Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "1820 PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00698126"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00698126&two_year_transaction_period=2020", "title": "FEC receipts: ELLISON, LARRY to 1820 PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Security Is Strength PAC",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00573733"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00573733&two_year_transaction_period=2020", "title": "FEC receipts: ELLISON, LARRY to Security Is Strength PAC, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 151995,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&two_year_transaction_period=2018", "title": "FEC itemized receipts: ELLISON, LARRY, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "McCarthy Victory Fund",
+            "kind": "pac",
+            "amount_usd": 44300,
+            "fec_usd": 44300,
+            "fec_ids": ["C00541011"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00541011&two_year_transaction_period=2018", "title": "FEC receipts: ELLISON, LARRY to McCarthy Victory Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 33900,
+            "fec_usd": 33900,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00075820&two_year_transaction_period=2018", "title": "FEC receipts: ELLISON, LARRY to NRCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 33900,
+            "fec_usd": 33900,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00027466&two_year_transaction_period=2018", "title": "FEC receipts: ELLISON, LARRY to NRSC, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 5758729,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&two_year_transaction_period=2016", "title": "FEC itemized receipts: ELLISON, LARRY, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Conservative Solutions PAC",
+            "kind": "super-pac",
+            "amount_usd": 5000000,
+            "fec_usd": 5000000,
+            "fec_ids": ["C00541292"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00541292&two_year_transaction_period=2016", "title": "FEC receipts: ELLISON, LARRY to Conservative Solutions PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Florida First Project",
+            "kind": "super-pac",
+            "amount_usd": 350000,
+            "fec_usd": 350000,
+            "fec_ids": ["C00620476"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00620476&two_year_transaction_period=2016", "title": "FEC receipts: ELLISON, LARRY to Florida First Project, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 166800,
+            "fec_usd": 166800,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00027466&two_year_transaction_period=2016", "title": "FEC receipts: ELLISON, LARRY to NRSC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Hatch Victory Committee",
+            "kind": "pac",
+            "amount_usd": 143800,
+            "fec_usd": 143800,
+            "fec_ids": ["C00542886"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00542886&two_year_transaction_period=2016", "title": "FEC receipts: ELLISON, LARRY to Hatch Victory Committee, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 33400,
+            "fec_usd": 33400,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00075820&two_year_transaction_period=2016", "title": "FEC receipts: ELLISON, LARRY to NRCC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00458844"],
+            "description": "Per FEC filings: Marco Rubio for President $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ELLISON%2C+LARRY&committee_id=C00458844&two_year_transaction_period=2016", "title": "FEC receipts: ELLISON, LARRY to Marco Rubio for President, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "asks": [
+    {
+      "date": "2025-04",
+      "with": [],
+      "kind": "regulatory",
+      "outcome": "granted",
+      "decided": "2025-07-24",
+      "what": "Skydance, run by his son David and backed by Larry Ellison, sought FCC approval to merge with Paramount; the FCC approved it 2-1 after a review of more than 250 days.",
+      "sources": [
+        { "url": "https://www.fox5dc.com/news/fcc-approves-paramount-skydance-merger-following-trump-settlement-colbert-cancellation", "title": "FCC approves Paramount-Skydance merger — Fox 5 DC" },
+        { "url": "https://csimagazine.com/csi/FCC-greenlights-Skydance-Paramount-merger.php", "title": "FCC greenlights Skydance–Paramount merger — CSI Magazine" }
+      ]
+    },
+    {
+      "date": "2025-09",
+      "with": ["donald-trump"],
+      "kind": "deal",
+      "outcome": "granted",
+      "decided": "2025-12-18",
+      "what": "Oracle sought a lead role in a US TikTok venture; under the deal Trump backed, Oracle became the venture's security provider with a 15% stake, and binding agreements were signed in December.",
+      "sources": [
+        { "url": "https://www.npr.org/2025/09/22/nx-s1-5550152/tiktok-deal-joint-venture", "title": "Deal for TikTok creates U.S. joint venture — NPR" },
+        { "url": "https://fortune.com/2025/09/23/oracle-tiktok-deal-us-security-algorithm-silverlake-murdoch-dell-trump-2025/", "title": "Oracle TikTok deal — Fortune" }
+      ]
+    }
+  ]
+}

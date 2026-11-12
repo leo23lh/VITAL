@@ -1,0 +1,648 @@
+{
+  "name": "Marco Rubio",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle", "middle-east", "2028-race", "natcon"],
+  "photo": {
+    "file": "marco-rubio.jpg",
+    "credit": "U.S. Department of State",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Secretary_Marco_Rubio_(cropped)(2).jpg", "title": "File:Official portrait of Secretary Marco Rubio (cropped)(2).jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Florida Republican: Speaker of the Florida House, U.S. senator 2011–2025, 2016 Republican presidential candidate, and Trump's secretary of state.",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/senators-are-preparing-to-vote-on-marco-rubio-as-secretary-of-state-a-first-in-trumps-cabinet", "title": "PBS NewsHour: Senators preparing to vote on Rubio as secretary of state" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Second in most 2028 Republican polls, and donors have discussed a \"draft Rubio\" effort, though he says he has \"no plans at this time\" to run and would back Vance.",
+    "sources": [
+      { "url": "https://www.denvergazette.com/2026/10/27/vance-leads-rubio-by-double-digits-in-early-2028-republican-poll/", "title": "Denver Gazette: Vance leads Rubio by double digits in early 2028 Republican poll" },
+      { "url": "https://abcnews.com/Politics/gop-donors-plot-shadow-draft-rubio-2028-effort/story?id=131013014", "title": "ABC News: Some GOP donors plot shadow 'draft Rubio' 2028 effort" },
+      { "url": "https://www.ms.now/news/marco-rubio-president-2028-jd-vance", "title": "MS NOW: Will Marco Rubio run for president in 2028?" }
+    ]
+  },
+  "current_role": "U.S. Secretary of State (since January 2025) and National Security Adviser (acting from May 2025, made permanent September 22, 2026)",
+  "summary": "Marco Rubio is a Florida Republican who was Speaker of the Florida House (2006–2008) and a U.S. senator (2011–2025). He co-wrote the 2013 bipartisan Gang of Eight immigration bill, which Jeff Sessions led the fight against, and ran for president in 2016 against Donald Trump. Confirmed 99–0 as secretary of state on Trump's first day back in office, he also took over as national security adviser in May 2025, the first person to hold both jobs since Henry Kissinger.",
+  "sources": [
+    { "url": "https://www.state.gov/biographies/marco-rubio/", "title": "Marco Rubio — U.S. Department of State" },
+    { "url": "https://www.pbs.org/newshour/politics/senators-are-preparing-to-vote-on-marco-rubio-as-secretary-of-state-a-first-in-trumps-cabinet", "title": "Senate confirms Marco Rubio as secretary of state — PBS NewsHour (AP)" },
+    { "url": "https://www.coloradopolitics.com/2026/09/22/rubio-named-nsa-after-16-months-as-acting/", "title": "Rubio named NSA after 16 months as acting — Colorado Politics" }
+  ],
+  "timeline": [
+    {
+      "year": 2006,
+      "end_year": 2008,
+      "role": "Speaker",
+      "org": "Florida House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Marco_Rubio", "title": "Marco Rubio — Wikipedia" },
+        { "url": "https://www.state.gov/biographies/marco-rubio/", "title": "Marco Rubio — U.S. Department of State" }
+      ]
+    },
+    {
+      "year": 2011,
+      "end_year": 2025,
+      "role": "U.S. Senator from Florida (elected 2010)",
+      "org": "United States Senate",
+      "sources": [
+        { "url": "https://www.state.gov/biographies/marco-rubio/", "title": "Marco Rubio — U.S. Department of State" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": 2013,
+      "role": "Co-author of the Gang of Eight immigration bill, which passed the Senate on June 27, 2013",
+      "org": "United States Senate",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/rubio-takes-the-lead-in-selling-immigration-reform", "title": "Rubio takes the lead in selling immigration reform — PBS NewsHour" }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": 2016,
+      "role": "Candidate for the Republican presidential nomination",
+      "org": "Marco Rubio for President",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/senators-are-preparing-to-vote-on-marco-rubio-as-secretary-of-state-a-first-in-trumps-cabinet", "title": "Senate confirms Marco Rubio as secretary of state — PBS NewsHour (AP)" },
+        { "url": "https://www.cnbc.com/2016/02/20/larry-ellison-keeps-bet-on-marco-rubio-donates-1-million-to-super-pac.html", "title": "Larry Ellison keeps bet on Marco Rubio, donates $1 million to super PAC — CNBC" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "72nd Secretary of State (confirmed 99–0 on January 20, 2025; also acting USAID administrator during its dismantling)",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/senators-are-preparing-to-vote-on-marco-rubio-as-secretary-of-state-a-first-in-trumps-cabinet", "title": "Senate confirms Marco Rubio as secretary of state — PBS NewsHour (AP)" },
+        { "url": "https://www.axios.com/2025/02/06/trump-deep-state-usaid-elon-musk", "title": "Trump's gut-it-all plan for D.C.'s \"Deep State\" — Axios" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "National Security Adviser (acting from May 1, 2025; made permanent September 22, 2026)",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.inquirer.com/politics/nation/secretary-of-state-marco-rubio-national-security-adviser-trump-20250502.html", "title": "Secretary of State Marco Rubio becomes national security adviser — The Philadelphia Inquirer (AP)" },
+        { "url": "https://www.coloradopolitics.com/2026/09/22/rubio-named-nsa-after-16-months-as-acting/", "title": "Rubio named NSA after 16 months as acting — Colorado Politics" },
+        { "url": "https://foxnews.com/politics/rubios-meme-worthy-job-collection-takes-new-turn-permanent-trump-upgrade", "title": "Rubio's job collection takes new turn with permanent Trump upgrade — Fox News" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Gang of Eight (Senate immigration group, 2013)",
+      "role": "Member and lead Republican salesman of the bill",
+      "start_year": 2013,
+      "end_year": 2013,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/rubio-takes-the-lead-in-selling-immigration-reform", "title": "Rubio takes the lead in selling immigration reform — PBS NewsHour" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump made Rubio secretary of state in January 2025, added national security adviser in May 2025, and made that second role permanent in September 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.state.gov/biographies/marco-rubio/", "title": "Marco Rubio — U.S. Department of State" },
+        { "url": "https://www.coloradopolitics.com/2026/09/22/rubio-named-nsa-after-16-months-as-acting/", "title": "Rubio named NSA after 16 months as acting — Colorado Politics" },
+        { "url": "https://www.washingtonexaminer.com/news/senate/3294511/rubio-confirmed-secretary-state-on-day-one-trump-second-term/", "title": "Washington Examiner: Rubio confirmed as secretary of state on Day One of Trump’s second term" },
+        { "url": "https://www.washingtonexaminer.com/news/white-house/3398085/trump-cabinet-marco-rubio-surprise-new-job/", "title": "Washington Examiner: Trump praises Rubio minutes before giving him surprise new job" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "Rivals in the 2016 Republican presidential primary, when Trump branded him \"Little Marco\"; Rubio later embraced Trump's agenda.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/senators-are-preparing-to-vote-on-marco-rubio-as-secretary-of-state-a-first-in-trumps-cabinet", "title": "Senate confirms Marco Rubio as secretary of state — PBS NewsHour (AP)" },
+        { "url": "https://www.timesofisrael.com/now-a-trusted-ally-little-marco-gets-trumps-big-jobs/", "title": "Now a trusted ally, 'Little Marco' gets Trump's big jobs — The Times of Israel" },
+        { "url": "https://www.washingtonexaminer.com/news/white-house/3398452/marco-rubio-trump-fix-it-man/", "title": "Washington Examiner: From \"Little Marco\" to trusted right hand" }
+      ]
+    },
+    {
+      "name": "Jeff Sessions",
+      "slug": "jeff-sessions",
+      "relationship_type": "enemy",
+      "description": "Sessions led Senate opposition to Rubio's 2013 Gang of Eight immigration bill and, during the 2016 primaries, accused Rubio of rewriting his role in it.",
+      "start_year": 2013,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/rubio-takes-the-lead-in-selling-immigration-reform", "title": "Rubio takes the lead in selling immigration reform — PBS NewsHour" },
+        { "url": "https://www.breitbart.com/politics/2016/02/16/jeff-sessions-rubio-rewriting-history-gang-eight-bill-nearly-became-law-cantor-lost-race/", "title": "Jeff Sessions: Rubio rewriting history of Gang of Eight bill — Breitbart" }
+      ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "enemy",
+      "description": "As Sessions's aide, Miller worked against the Gang of Eight bill, and leaked emails show he fed anti-Rubio stories to Breitbart during the 2016 campaign.",
+      "start_year": 2013,
+      "end_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/politics-news/stephen-miller-planted-anti-rubio-stories-breitbart-during-2016-campaign-n1085451", "title": "Stephen Miller planted anti-Rubio stories in Breitbart during 2016 campaign — NBC News" },
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)", "title": "Stephen Miller (political advisor) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "donor",
+      "description": "Ellison gave at least $4 million in 2015–2016 to Conservative Solutions PAC, the super PAC backing Rubio's presidential run.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2016/02/20/larry-ellison-keeps-bet-on-marco-rubio-donates-1-million-to-super-pac.html", "title": "Larry Ellison keeps bet on Marco Rubio, donates $1 million to super PAC — CNBC" },
+        { "url": "https://digital-release.thehill.com/policy/technology/249966-oracles-ellison-donates-3-million-to-group-backing-rubio", "title": "Oracle's Ellison donates $3 million to group backing Rubio — The Hill" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "colleague",
+      "description": "Worked in parallel on dismantling USAID in early 2025: Musk's DOGE drove the cuts while Rubio, as acting administrator, canceled most of its contracts. The AP reported contradictory orders fueled talk of a power struggle, which both men denied.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://www.npr.org/sections/goats-and-soda/2025/03/10/g-s1-52964/rubio-announces-that-83-of-usaid-contracts-will-be-canceled", "title": "Rubio announces that 83% of USAID contracts will be canceled — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/doge-official-taking-leadership-role-at-usaid-email-obtained-by-ap-says", "title": "DOGE official taking leadership role at USAID, email obtained by AP says — PBS NewsHour" },
+        { "url": "https://dailycaller.com/2025/02/03/elon-musk-department-government-efficiency-usaid-trump-rubio/", "title": "Daily Caller: Trump, Musk take a bulldozer to USAID" },
+        { "url": "https://www.washingtonexaminer.com/policy/foreign-policy/3308776/marco-rubio-acting-administrator-usaid/", "title": "Washington Examiner: Marco Rubio announced as acting administrator of USAID" },
+        { "url": "https://www.washingtontimes.com/news/2025/feb/12/accounts-doge-dismantling-usaid-detailed-lawsuit/", "title": "Washington Times: Lawsuit describes Musk’s DOGE teams overseeing the killing of USAID programs" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Rubio has said that if Vance runs in 2028 \"he's going to be our nominee, and I'll be one of the first people to support him\", and Trump has floated a Vance–Rubio ticket. After the November 2026 midterm losses Newt Gingrich argued momentum was shifting toward Rubio.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://politicalwire.com/2025/11/07/marco-rubio-would-defer-to-jd-vance-in-2028/", "title": "Marco Rubio would defer to JD Vance in 2028 — Political Wire (Politico)" },
+        { "url": "https://gvwire.com/2026/06/03/trump-floats-a-vance-rubio-ticket-for-2028/", "title": "Trump floats a Vance-Rubio ticket for 2028 — GV Wire" },
+        { "url": "https://thehill.com/homenews/campaign/6200720-newt-gingrich-jd-vance-gop-election-defeat/", "title": "Newt Gingrich says JD Vance no longer leads 2028 GOP primary field — The Hill" },
+        { "url": "https://washingtonexaminer.com/news/campaigns/presidential/4461202/real-differences-inside-gop-vance-rubio-rivalry", "title": "Washington Examiner: The real differences inside the GOP driving Vance–Rubio rivalry talk" },
+        { "url": "https://washingtonexaminer.com/news/campaigns/4498266/rubio-iran-war-2028-republican-primary-vance-trump", "title": "Washington Examiner: Rubio emerges as 2028 contender amid Iran war" }
+      ]
+    },
+    {
+      "name": "Tony Blair",
+      "slug": "tony-blair",
+      "relationship_type": "colleague",
+      "description": "Both sit on the founding Executive Board of Trump's Board of Peace, named in January 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/", "title": "Statement on President Trump's Comprehensive Plan to End the Gaza Conflict — The White House" },
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" },
+        { "url": "https://www.cbsnews.com/news/tony-blair-rubio-kushner-witkoff-help-oversee-gaza-reconstruction", "title": "Tony Blair, Rubio, Kushner and Witkoff to help oversee Gaza reconstruction — CBS News" },
+        { "url": "https://www.washingtontimes.com/news/2026/jan/17/trump-confidants-forefront-us-gaza-plan-blair-rubio-kushner-rowan/", "title": "Washington Times: Trump confidants at forefront of U.S. Gaza plan: Blair, Rubio, Kushner" }
+      ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "colleague",
+      "description": "Both sit on the founding Executive Board of Trump's Board of Peace, named in January 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/", "title": "Statement on President Trump's Comprehensive Plan to End the Gaza Conflict — The White House" },
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" },
+        { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" }
+      ]
+    },
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "colleague",
+      "description": "In 2025 Lake took a State Department role coordinating with USAGM to scale back Voice of America, citing Secretary of State Rubio's leadership.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.thedailybeast.com/kari-lake-gets-new-state-dept-gig-in-bid-to-obliterate-voice-of-america", "title": "Kari Lake gets new State Dept gig in bid to obliterate Voice of America — Daily Beast" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "enemy",
+      "description": "In a May 2026 New York Times interview Carlson accused Rubio's backers of \"nonstop treachery\" against Vance and criticized Rubio over the Iran war.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" }
+      ]
+    },
+    {
+      "name": "Norman Braman",
+      "slug": "norman-braman",
+      "relationship_type": "donor",
+      "description": "Braman is described as Rubio's political patron: he employed Rubio as a lawyer, backed his career, and gave about $6 million to the pro-Rubio super PAC in 2015–2016. FEC filings show $52,600 from Norman Braman to Marco Rubio for Senate, Rubio Victory Committee, Reclaim America PAC and others in 2 cycles (2016–2022).",
+      "start_year": 2014,
+      "end_year": 2021,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.rollingstone.com/politics/politics-news/meet-the-gop-mega-donors-of-the-2016-election-223992/2/", "title": "Rolling Stone: Meet the GOP mega-donors of the 2016 election" },
+        { "url": "https://forward.com/articles/218769/norman-braman-the-money-man-behind-marco-rubios-ca", "title": "Forward: Norman Braman, the money man behind Marco Rubio's campaign" },
+        { "url": "https://www.thenation.com/article/archive/meet-marco-rubios-far-right-neocon-donors/", "title": "The Nation: Meet Marco Rubio's donors" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00620518&two_year_transaction_period=2022", "title": "FEC receipts: BRAMAN, NORMAN to Marco Rubio for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00494617&two_year_transaction_period=2022", "title": "FEC receipts: BRAMAN, NORMAN to Rubio Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00500025&two_year_transaction_period=2022", "title": "FEC receipts: BRAMAN, NORMAN to Reclaim America PAC" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "Singer was one of Rubio's early top money men and endorsed him in October 2015; with Ken Griffin he gave to the pro-Rubio super PAC. FEC filings show $13,500 from Paul Singer to Marco Rubio for Senate 2016, Marco Rubio for President in the 2016 cycle.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2024/07/13/ken-griffin-citadel-paul-singer-elliott-donald-trump-campaign-donation-meetings/", "title": "Fortune: Griffin and Singer meet Trump about donating" },
+        { "url": "https://www.bloomberg.com/news/articles/2016-01-31/singer-griffin-give-combined-5-million-to-super-pac-backing-rubio", "title": "Bloomberg" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00620518&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Marco Rubio for Senate 2016" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00458844&two_year_transaction_period=2016", "title": "FEC receipts: SINGER, PAUL to Marco Rubio for President" }
+      ]
+    },
+    {
+      "name": "Michael Needham",
+      "slug": "michael-needham",
+      "relationship_type": "employee",
+      "description": "Needham has worked for Rubio since 2018: Senate chief of staff, then counselor, chief of staff and policy planning director at State.",
+      "start_year": 2018,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/261574-marco-rubio-hires-new-chief-of-staff-away-from-heritage-action", "title": "Florida Politics" },
+        { "url": "https://whbl.com/2026/05/26/rubio-aide-mike-needham-promoted-to-top-white-house-national-security-post-source-says/", "title": "Reuters via WHBL: Rubio aide Mike Needham promoted to top White House national security post" }
+      ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "donor",
+      "description": "Griffin endorsed Rubio in December 2015 and gave $5 million to the pro-Rubio super PAC; in July 2026 he told Axios he would back Rubio over Vance for 2028. FEC filings show $10,800 from Ken Griffin to Marco Rubio for Senate 2016, Marco Rubio for President in the 2016 cycle.",
+      "start_year": 2015,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+        { "url": "https://www.bloomberg.com/news/articles/2016-01-31/singer-griffin-give-combined-5-million-to-super-pac-backing-rubio", "title": "Singer, Griffin give combined $5 million to super PAC backing Rubio — Bloomberg" },
+        { "url": "https://www.axios.com/2026/07/08/ken-griffin-gop-rubio-vance-2028", "title": "Scoop: GOP megadonor Ken Griffin says he'd back Rubio over Vance in 2028 — Axios" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00620518&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Marco Rubio for Senate 2016" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00458844&two_year_transaction_period=2016", "title": "FEC receipts: GRIFFIN, KEN to Marco Rubio for President" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Rubio keynoted Hazony's NatCon in 2021 (calling for \"corporate patriotism\") and spoke again in 2022.",
+      "start_year": 2021,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/555498-we-know-better-marco-rubio-warns-of-internal-marxist-threat-globalism-in-natcon-keynote", "title": "Marco Rubio warns of internal Marxist threat, globalism in NatCon keynote — Florida Politics" },
+        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Oren Cass",
+      "slug": "oren-cass",
+      "relationship_type": "ally",
+      "description": "Rubio encouraged the founding of American Compass and is one of its main political allies; he spoke at its June 2025 gala on geopolitics and economic strength.",
+      "start_year": 2020,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" },
+        { "url": "https://americancompass.org/2025-annual-report/", "title": "2025 Annual Report — American Compass" }
+      ]
+    },
+    {
+      "name": "Michael Anton",
+      "slug": "michael-anton",
+      "relationship_type": "employee",
+      "description": "Anton was Secretary Rubio's director of policy planning from January to September 2025 and led expert-level talks with Iran.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.state.gov/biographies/michael-anton", "title": "Michael Anton — US Department of State" },
+        { "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations", "title": "2025–2026 Iran–United States negotiations — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Doug Burgum",
+      "slug": "doug-burgum",
+      "relationship_type": "rival",
+      "description": "Rivals on Trump's three-person 2024 vice-presidential shortlist, which Vance won.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://semafor.com/article/07/13/2024/breaking-down-donald-trumps-top-three-vp-finalists", "title": "Breaking down Donald Trump's top three VP finalists — Semafor" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "colleague",
+      "description": "Fellow member of Trump’s cabinet-level national security team; both were in the March 2025 Signal group chat on the Houthi strikes, to which a journalist was accidentally added and in which Hegseth posted the attack timeline.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/meet-19-members-houthi-attacks-180815116.html", "title": "Yahoo News: Meet the 19 members of the Houthi attacks group chat" },
+        { "url": "https://ajc.com/news/white-house-inner-circle-discussed-secret-military-plans-in-extraordinary-breach/4HS5BQMHRVBRVMKZK3IY3LMK44", "title": "AJC: White House inner circle discussed secret military plans in extraordinary breach" },
+        { "url": "https://www.timesofisrael.com/us-cabinet-officials-accidentally-add-journalist-to-group-chat-share-war-plans/", "title": "Times of Israel: US cabinet officials accidentally add journalist to group chat, share war plans" }
+      ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "employee",
+      "description": "Helberg serves under Rubio as Under Secretary of State for Economic Affairs from October 2025; Rubio credited him in August 2026 with designing Pax Silica.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.state.gov/biographies/jacob-helberg", "title": "U.S. Department of State: Jacob Helberg biography" },
+        { "url": "https://x.com/jacobhelberg/status/1975687421024215309", "title": "Jacob Helberg on X: Senate confirmation announcement" },
+        { "url": "https://www.indiandefensenews.in/2026/08/rubio-and-helberg-highlight-pax-silica.html", "title": "Indian Defence News: Rubio and Helberg highlight Pax Silica" }
+      ]
+    },
+    {
+      "name": "Christopher Landau",
+      "slug": "christopher-landau",
+      "relationship_type": "employee",
+      "description": "Rubio’s deputy at the State Department since March 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_Landau", "title": "Christopher Landau — Wikipedia" },
+        { "url": "https://www.state.gov/biographies/christopher-landau", "title": "Christopher Landau — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "Allison Hooker",
+      "slug": "allison-hooker",
+      "relationship_type": "employee",
+      "description": "Rubio’s under secretary for political affairs since June 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.congress.gov/nomination/119th-congress/25/19", "title": "PN25-19: Nomination of Allison Hooker — Congress.gov" },
+        { "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/under-secretary-hookers-travel-to-the-republic-of-korea/", "title": "Under Secretary Hooker’s travel to the Republic of Korea — U.S. Department of State (May 2026)" }
+      ]
+    },
+    {
+      "name": "Thomas DiNanno",
+      "slug": "thomas-dinanno",
+      "relationship_type": "employee",
+      "description": "Rubio’s under secretary for arms control and international security.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/public-schedule-november-5-2026", "title": "Public Schedule, November 5, 2026 — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "Sarah B. Rogers",
+      "slug": "sarah-b-rogers",
+      "relationship_type": "employee",
+      "description": "Rubio’s under secretary for public diplomacy since October 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.congress.gov/nomination/119th-congress/25/49", "title": "PN25-49: Nomination of Sarah Rogers — Congress.gov" }
+      ]
+    },
+    {
+      "name": "Michael Rigas",
+      "slug": "michael-rigas",
+      "relationship_type": "employee",
+      "description": "Rubio’s deputy secretary for management and resources.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/05/public-schedule-june-1-2026", "title": "Public Schedule, June 1, 2026 — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "Dan Holler",
+      "slug": "dan-holler",
+      "relationship_type": "employee",
+      "description": "Worked in Rubio’s Senate office, then was his State Department chief of staff from September 2025 and counselor from May 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Daniel_Holler", "title": "Daniel Holler — Wikipedia" },
+        { "url": "https://udn.com/news/story/6813/9528217", "title": "State Department staff changes after Needham’s move to the NSC — United Daily News (Taiwan)" }
+      ]
+    },
+    {
+      "name": "Tommy Pigott",
+      "slug": "tommy-pigott",
+      "relationship_type": "employee",
+      "description": "Rubio’s principal deputy spokesperson from 2025 and his chosen spokesperson from April 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.kyivpost.com/amp/post/74707", "title": "State Department appoints Tommy Pigott as new spokesperson — Kyiv Post" },
+        { "url": "https://en.wikipedia.org/wiki/Tommy_Pigott", "title": "Tommy Pigott — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Katherine Bowles",
+      "slug": "katherine-bowles",
+      "relationship_type": "employee",
+      "description": "Rubio’s liaison to Congress since September 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.state.gov/biographies/katherine-bowles", "title": "Katherine Bowles — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    },
+    {
+      "name": "Dylan Johnson",
+      "slug": "dylan-johnson",
+      "relationship_type": "employee",
+      "description": "Runs State’s public affairs and the NSC’s communications for Rubio, who leads both.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/01/department-of-state-announces-appointment-of-dylan-johnson-as-assistant-secretary-for-global-public-affairs", "title": "Department of State announces appointment of Dylan Johnson as Assistant Secretary for Global Public Affairs — U.S. Department of State (January 2026)" },
+        { "url": "https://www.state.gov/biographies/dylan-johnson", "title": "Dylan Johnson — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "Riley Barnes",
+      "slug": "riley-barnes",
+      "relationship_type": "employee",
+      "description": "Heads the human rights bureau under Rubio.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.state.gov/releases/bureau-of-democracy-human-rights-and-labor/2026/02/remarks-by-assistant-secretary-riley-barnes-at-the-2026-losar-reception", "title": "Remarks by Assistant Secretary Riley Barnes at the 2026 Losar reception — U.S. Department of State (February 2026)" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    },
+    {
+      "name": "Brock Dahl",
+      "slug": "brock-dahl",
+      "relationship_type": "employee",
+      "description": "Rubio’s chief lawyer since June 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.senate.gov/pagelayout/legislative/one_item_and_teasers/nom_confc.htm", "title": "Nominations confirmed (civilian) — U.S. Senate" },
+        { "url": "https://en.wikipedia.org/wiki/Legal_Adviser_of_the_Department_of_State", "title": "Legal Adviser of the Department of State — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Monica Crowley",
+      "slug": "monica-crowley",
+      "relationship_type": "employee",
+      "description": "Rubio’s chief of protocol since May 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chief_of_Protocol_of_the_United_States", "title": "Chief of Protocol of the United States — Wikipedia" },
+        { "url": "https://afsa.org/tracker-senior-official-appointments", "title": "Tracker: senior official appointments — American Foreign Service Association (updated September 2026)" }
+      ]
+    },
+    {
+      "name": "Mike Waltz",
+      "slug": "mike-waltz",
+      "relationship_type": "colleague",
+      "description": "Rubio succeeded Waltz as national security adviser in 2025; Waltz now serves as U.N. ambassador under Rubio’s State Department.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Darren Beattie",
+      "slug": "darren-beattie",
+      "relationship_type": "employee",
+      "description": "Beattie joined Rubio’s State Department in February 2025 as acting under secretary for public diplomacy, a post that reports directly to the secretary, and later led the Bureau of Educational and Cultural Affairs as senior bureau official. He had deleted earlier posts ridiculing Rubio.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.semafor.com/article/02/02/2025/maga-intellectual-darren-beattie-will-fill-key-state-department-role", "title": "MAGA intellectual Darren Beattie will fill key State Department role — Semafor" },
+        { "url": "https://eca.state.gov/about-bureau/senior-leadership", "title": "Senior leadership — Bureau of Educational and Cultural Affairs, U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "Ken Howery",
+      "slug": "ken-howery",
+      "relationship_type": "employee",
+      "description": "Ambassador to Denmark under Secretary Rubio since November 2025; Howery thanked Rubio for the nomination at his May 2025 confirmation hearing.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.foreign.senate.gov/download/050825_howery_testimonypdf", "title": "Statement of Kenneth A. Howery, nominee for ambassador to Denmark — Senate Foreign Relations Committee (May 2025)" },
+        { "url": "https://www.arctictoday.com/new-us-ambassador-to-denmark-assumes-duty-as-trump-eyes-control-of-greenland/", "title": "New US ambassador to Denmark assumes duty as Trump eyes control of Greenland — Reuters via Arctic Today" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "donor",
+      "description": "FEC filings show $37,200 from Keith Rabois to Rubio Victory Committee, Reclaim America PAC, Marco Rubio for Senate in the 2022 cycle.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00494617&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to Rubio Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00500025&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to Reclaim America PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00620518&two_year_transaction_period=2022", "title": "FEC receipts: RABOIS, KEITH to Marco Rubio for Senate" }
+      ]
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "donor",
+      "description": "FEC filings show $36,600 from Miriam Adelson to Rubio Victory Committee, Marco Rubio for Senate 2016, Reclaim America PAC and others in the 2016 cycle.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00494617&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Rubio Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00620518&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Marco Rubio for Senate 2016" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00500025&two_year_transaction_period=2016", "title": "FEC receipts: ADELSON, MIRIAM to Reclaim America PAC" }
+      ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $24,700 from Richard Uihlein to Marco Rubio for Senate, Marco Rubio for President in 2 cycles (2016–2022).",
+      "start_year": 2015,
+      "end_year": 2021,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00620518&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Marco Rubio for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00458844&two_year_transaction_period=2022", "title": "FEC receipts: UIHLEIN, RICHARD to Marco Rubio for President" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. The September 2026 permanent national security adviser appointment is reported by Colorado Politics and Fox News. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of State and National Security Adviser",
+    "unit": "state",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-01",
+    "sources": [
+      { "url": "https://www.state.gov/biographies/marco-rubio/", "title": "Marco Rubio — U.S. Department of State" },
+      { "url": "https://www.coloradopolitics.com/2026/09/22/rubio-named-nsa-after-16-months-as-acting/", "title": "Rubio named NSA after 16 months as acting — Colorado Politics" }
+    ]
+  }
+}

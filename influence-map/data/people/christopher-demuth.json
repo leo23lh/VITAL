@@ -1,0 +1,124 @@
+{
+  "name": "Christopher DeMuth",
+  "aliases": ["Chris DeMuth"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Led the conservative American Enterprise Institute for 22 years, then Hudson and Heritage; co-organized the first National Conservatism conference and is one of the authors of its statement of principles.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_DeMuth", "title": "Christopher DeMuth — Wikipedia" },
+        { "url": "https://www.heritage.org/node/25156056", "title": "Chris DeMuth — Heritage Foundation" },
+        { "url": "https://www.theamericanconservative.com/?p=306317", "title": "National Conservatism: A Statement of Principles — The American Conservative" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "christopher-demuth.jpg",
+    "credit": "Derzsi Elekes Andor",
+    "license": "CC BY-SA 3.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Christopher_DeMuth_-_2014.06.12_(1).JPG", "title": "File:Christopher DeMuth - 2014.06.12 (1).JPG — Wikimedia Commons" }
+  },
+  "current_role": "Distinguished fellow, Heritage Foundation; National Conservatism conference organizer and Edmund Burke Foundation director",
+  "summary": "Christopher DeMuth was president of the American Enterprise Institute from 1986 to 2008, then a fellow at AEI, the Hudson Institute (from 2012) and the Heritage Foundation (from 2023). In 2019 he joined Yoram Hazony in organizing the first National Conservatism conference and has chaired its sessions since; he is a director of the Edmund Burke Foundation.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Christopher_DeMuth", "title": "Christopher DeMuth — Wikipedia" },
+    { "url": "https://www.heritage.org/node/25156056", "title": "Chris DeMuth — Heritage Foundation" },
+    { "url": "https://www.niskanencenter.org/is-there-a-benign-trumpian-nationalism/", "title": "Is there a benign Trumpian nationalism? — Niskanen Center" }
+  ],
+  "timeline": [
+    {
+      "year": 1986,
+      "end_year": 2008,
+      "role": "President",
+      "org": "American Enterprise Institute",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_DeMuth", "title": "Christopher DeMuth — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2012,
+      "role": "Distinguished fellow",
+      "org": "Hudson Institute",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_DeMuth", "title": "Christopher DeMuth — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "Co-organizer, National Conservatism conferences; director of the Edmund Burke Foundation",
+      "org": "Edmund Burke Foundation",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_DeMuth", "title": "Christopher DeMuth — Wikipedia" },
+        { "url": "https://www.niskanencenter.org/is-there-a-benign-trumpian-nationalism/", "title": "Is there a benign Trumpian nationalism? — Niskanen Center" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": null,
+      "role": "Distinguished fellow, Simon Center for American Studies",
+      "org": "Heritage Foundation",
+      "sources": [
+        { "url": "https://www.heritage.org/node/25156056", "title": "Chris DeMuth — Heritage Foundation" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "colleague",
+      "description": "DeMuth joined Hazony in organizing the first National Conservatism conference in 2019 and is a director of his Edmund Burke Foundation.",
+      "start_year": 2019,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_DeMuth", "title": "Christopher DeMuth — Wikipedia" },
+        { "url": "https://www.niskanencenter.org/is-there-a-benign-trumpian-nationalism/", "title": "Is there a benign Trumpian nationalism? — Niskanen Center" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    },
+    {
+      "name": "Edmund Burke Foundation",
+      "slug": "edmund-burke-foundation",
+      "relationship_type": "employer",
+      "description": "A director of the foundation and co-organizer of the NatCon conferences since 2019.",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_DeMuth", "title": "Christopher DeMuth — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    },
+    {
+      "name": "Heritage Foundation",
+      "slug": "heritage-foundation",
+      "relationship_type": "employer",
+      "description": "Distinguished fellow at its Simon Center for American Studies since 2023.",
+      "start_year": 2023,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.heritage.org/node/25156056", "title": "Chris DeMuth — Heritage Foundation" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "NatCon title",
+      "details": "InfluenceWatch calls him chairman of the National Conservatism Conference; Wikipedia and the Niskanen Center describe him as an organizer on its six-member committee.",
+      "sources": [
+        { "url": "https://www.influencewatch.org/non-profit/edmund-burke-foundation/", "title": "Edmund Burke Foundation — InfluenceWatch" },
+        { "url": "https://en.wikipedia.org/wiki/Christopher_DeMuth", "title": "Christopher DeMuth — Wikipedia" },
+        { "url": "https://www.niskanencenter.org/is-there-a-benign-trumpian-nationalism/", "title": "Is there a benign Trumpian nationalism? — Niskanen Center" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and, where available, with Wikipedia via its API.",
+  "last_researched": "2026-11-07"
+}

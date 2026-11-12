@@ -1,0 +1,158 @@
+{
+  "name": "Sergio Gor",
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle", "2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Longtime Republican and Trump political operative; director of presidential personnel, then Trump's ambassador to India.",
+      "sources": [
+        { "url": "https://m.washingtontimes.com/news/2025/nov/10/sergio-gor-sworn-us-ambassador-india/", "title": "Washington Times: Sergio Gor sworn in as U.S. ambassador to India" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["donald-trump-jr"],
+    "basis": "Co-founded Winning Team Publishing with Trump Jr. in 2021.",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Sergio_Gor", "title": "Wikipedia: Sergio Gor" }
+    ]
+  },
+  "photo": {
+    "file": "sergio-gor.jpg",
+    "credit": "U.S. Embassy & Consulates in India",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Sergio_Gor,_official_portrait_(2025).jpg", "title": "File:Sergio Gor, official portrait (2025).jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. Ambassador to India and Special Envoy for South and Central Asian Affairs (since November 2025)",
+  "summary": "Sergio Gor co-founded the conservative publisher Winning Team Publishing with Donald Trump Jr. in 2021, ran Trump's White House Presidential Personnel Office from January 2025, and was sworn in as ambassador to India in November 2025.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Sergio_Gor", "title": "Wikipedia: Sergio Gor" },
+    { "url": "https://m.washingtontimes.com/news/2025/nov/10/sergio-gor-sworn-us-ambassador-india/", "title": "Washington Times: Sergio Gor sworn in as U.S. ambassador to India" }
+  ],
+  "timeline": [
+    {
+      "year": 2021,
+      "role": "Co-founder (with Donald Trump Jr.)",
+      "org": "Winning Team Publishing",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sergio_Gor", "title": "Wikipedia: Sergio Gor" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2025,
+      "role": "Director of the Presidential Personnel Office",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sergio_Gor", "title": "Wikipedia: Sergio Gor" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Ambassador to India; Special Envoy for South and Central Asian Affairs",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://m.washingtontimes.com/news/2025/nov/10/sergio-gor-sworn-us-ambassador-india/", "title": "Washington Times: Sergio Gor sworn in as U.S. ambassador to India" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Winning Team Publishing in 2021.",
+      "start_year": 2021,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sergio_Gor", "title": "Wikipedia: Sergio Gor" },
+        { "url": "https://m.washingtontimes.com/news/2024/nov/15/trump-fills-white-house-positions-steven-cheung-se/", "title": "Trump fills White House positions — Washington Times" },
+        { "url": "https://45books.com/pages/about-us", "title": "About us — Winning Team Publishing" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump named Gor director of presidential personnel and then ambassador to India.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sergio_Gor", "title": "Wikipedia: Sergio Gor" },
+        { "url": "https://m.washingtontimes.com/news/2025/nov/10/sergio-gor-sworn-us-ambassador-india/", "title": "Washington Times: Sergio Gor sworn in as U.S. ambassador to India" }
+      ]
+    },
+    {
+      "name": "Michael Anton",
+      "slug": "michael-anton",
+      "relationship_type": "rival",
+      "description": "Politico reported Anton left State frustrated with Gor and the administration's foreign-policy process; the State Department called any suggestion of friction \"simply untrue\".",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.4,
+      "sources": [
+        { "url": "https://www.theamericanconservative.com/michael-anton-to-leave-state-department/", "title": "Michael Anton to leave State Department — The American Conservative" },
+        { "url": "https://justthenews.com/government/diplomacy/state-departments-michael-anton-leave-post-fall-report", "title": "State Department's Michael Anton to leave post in the fall — Just the News" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "enemy",
+      "description": "In June 2025 Musk called Gor, then Trump's personnel chief, \"a snake\" and accused him of lying on federal forms, after Gor helped sink Musk ally Jared Isaacman's NASA nomination; the White House defended Gor.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=3447884", "title": "Who is Sergio Gor, the White House adviser Elon Musk called a 'snake'? — Washington Examiner" },
+        { "url": "https://www.thedailybeast.com/elon-musk-savages-snake-trump-aide-sergio-gor-as-their-white-house-feud-erupts", "title": "Elon Musk savages 'snake' Trump aide Sergio Gor — Daily Beast" }
+      ]
+    },
+    {
+      "name": "Rand Paul",
+      "slug": "rand-paul",
+      "relationship_type": "employer",
+      "description": "Gor worked for Paul from 2013, at his PAC and then as spokesman, communications director and deputy chief of staff, before leaving in 2020 for Trump's campaign finance committee.",
+      "start_year": 2013,
+      "end_year": 2020,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.freepressjournal.in/world/sergio-gors-unconventional-journey-from-rand-paul-aide-to-donald-trumps-trusted-enforcer-highlights-both-loyalty-and-controversy", "title": "Sergio Gor's journey from Rand Paul aide to Trump's trusted enforcer — Free Press Journal" },
+        { "url": "https://www.semafor.com/article/08/28/2025/ambassador-gor-trumps-hiring-chief-on-fast-track-to-india", "title": "Ambassador Gor: Trump's hiring chief on fast track to India — Semafor" }
+      ]
+    },
+    {
+      "name": "Dan Scavino",
+      "slug": "dan-scavino",
+      "relationship_type": "colleague",
+      "description": "Scavino took over the Presidential Personnel Office from Gor in October 2025 when Gor became ambassador to India.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://wlos.com/news/nation-world/trump-announces-dan-scavino-will-lead-the-white-house-presidential-personnel-office-sergio-gor-government-shutdown-democrats-republicans", "title": "Trump announces Dan Scavino will lead the White House Presidential Personnel Office — WLOS" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Ambassador to India; Special Envoy for South and Central Asia",
+    "unit": "envoys",
+    "rank": 4,
+    "reports_to": "marco-rubio",
+    "since": "2025-11",
+    "sources": [
+      { "url": "https://m.washingtontimes.com/news/2025/nov/10/sergio-gor-sworn-us-ambassador-india/", "title": "Washington Times: Sergio Gor sworn in as U.S. ambassador to India" }
+    ]
+  }
+}

@@ -1,0 +1,482 @@
+[
+  {
+    "id": "2026-11-12-fec-2026-reports",
+    "date": "2026-11-12",
+    "text": "Campaign finance filings re-imported after the FEC loaded the 2026 pre-general reports, which an earlier import had missed. Elon Musk's filings now show $168 million to the Senate Leadership Fund, matching the reported figure, and about $139 million to America PAC in his own name (reporting counts $216 million, including money given through his entities). Coming next month: arrows beside Pull scores showing who rose or fell since November.",
+    "people": [
+      "elon-musk",
+      "richard-uihlein",
+      "jeff-yass",
+      "stephen-schwarzman"
+    ]
+  },
+  {
+    "id": "2026-11-11-track-record-freshness",
+    "date": "2026-11-11",
+    "text": "New: a track record in each person's Pull tab, listing 28 sourced asks of officials (appointments, policy, contracts, rulings, disaster aid) and how they turned out. Tested against them, overall Pull did not predict who got their way (a coin flip), while closeness to the official who decided did, modestly; Pull's weights stay as they are, and a denied ask never lowers anyone's score. Also new: freshness checks. The org chart flags posts not confirmed in 30 days, the Record tab shows how old each file's research is, and the weekly refresh now confirms posts that are due, re-runs the FEC import, logs predictions and saves a monthly snapshot for trend arrows.",
+    "people": [
+      "elon-musk",
+      "larry-ellison",
+      "benjamin-netanyahu",
+      "tucker-carlson",
+      "mark-zuckerberg",
+      "sam-altman",
+      "chris-larsen",
+      "thomas-massie",
+      "chuck-schumer",
+      "andy-beshear"
+    ]
+  },
+  {
+    "id": "2026-11-10-fec-import",
+    "date": "2026-11-10",
+    "text": "Campaign finance filings imported from the FEC for 44 donors, 2016 to 2026: about 18,000 itemized gifts, matched by name and employer so namesakes are left out, with no addresses kept. Each donor's Money tab now lists who they funded cycle by cycle, with links to the filings, and gifts of $10,000 or more to someone on the map became 106 new money lines. Where filings and news reports disagree, both figures show. With four times as many past donations to test on, the 2028 backing score still holds up: 0.80 and 0.88 (0.50 is a coin flip), and about 6 in 10 pairs it rates likely went on to give.",
+    "people": [
+      "miriam-adelson",
+      "richard-uihlein",
+      "elon-musk",
+      "timothy-mellon",
+      "ken-griffin",
+      "jeff-yass",
+      "george-soros",
+      "paul-singer",
+      "peter-thiel",
+      "jd-vance",
+      "ted-cruz",
+      "marco-rubio",
+      "kari-lake"
+    ]
+  },
+  {
+    "id": "2026-11-09-2028-backing",
+    "date": "2026-11-09",
+    "text": "New: 2028 backing (Views, and a 2028 tab on each person). It predicts who is likely to back each contender from how close they are and how well their politics fit, on top of declared camps and reported plans. On past donations it beat closeness alone (0.88 against 0.82 for the 2026 cycle), and about 6 in 10 pairs it rated likely went on to give. Today it has 219 predictions outside the camps, led by JD Vance (68), Marco Rubio (60) and Donald Trump Jr. (55); all are saved in a dated log to be checked later. People who have died (David Horowitz, Jeffrey Epstein) no longer appear in the Pull ranking.",
+    "people": [
+      "jd-vance",
+      "marco-rubio",
+      "donald-trump-jr",
+      "ted-cruz",
+      "ron-desantis",
+      "gavin-newsom",
+      "kamala-harris",
+      "david-horowitz"
+    ]
+  },
+  {
+    "id": "2026-11-09-evidence-scorecard",
+    "date": "2026-11-09",
+    "text": "Certainty is now earned from sources: a tie resting on one news story counts for at most 80%, on Wikipedia alone 75%, and only an official record or two independent outlets carry it in full. Single-source ties are drawn dashed and marked in the details. 31 files gained second sources or official pages, and a post's own record now backs the job, so single-source ties fell from 222 to 181 of 909. A new scorecard freezes the map at a past year and tests its predictions: closeness picks out future ties (0.76 against 0.70 for the best simple baseline, where 0.50 is a coin flip) and next-cycle donations (0.82 against 0.75 for \"same as last time\").",
+    "people": [
+      "eric-trump",
+      "zach-witkoff",
+      "linda-mcmahon",
+      "palantir-technologies",
+      "anduril-industries",
+      "nicholas-kent",
+      "christopher-landau",
+      "erica-schwartz",
+      "frank-bisignano",
+      "sean-curran"
+    ]
+  },
+  {
+    "id": "2026-11-09-org-charts",
+    "date": "2026-11-09",
+    "text": "Org charts filled out for Commerce, Interior, Agriculture, Transportation, Education, VA and HUD, plus the acting Army secretary (Adam Telle, after Dan Driscoll's resignation), FEMA's Cameron Hamilton and acting ICE director David Venturella: 19 officials, on the org chart only.",
+    "people": [
+      "jeffrey-kessler",
+      "neil-jacobs",
+      "john-squires",
+      "steve-pearce",
+      "richard-fordyce",
+      "michael-boren",
+      "tom-schultz",
+      "bryan-bedford",
+      "kimberly-richey",
+      "curt-cashour",
+      "john-figueroa",
+      "andrew-hughes",
+      "joseph-gormley",
+      "adam-telle",
+      "cameron-hamilton",
+      "david-venturella"
+    ]
+  },
+  {
+    "id": "2026-11-09-eric-trump-zach-witkoff",
+    "date": "2026-11-09",
+    "text": "Eric Trump and Zach Witkoff added, the two running World Liberty Financial, linked to their families and each other. Anthony Salisbury, deputy homeland security adviser, added under Stephen Miller.",
+    "people": [
+      "eric-trump",
+      "zach-witkoff",
+      "anthony-salisbury",
+      "stephen-miller"
+    ]
+  },
+  {
+    "id": "2026-11-09-world-liberty-financial",
+    "date": "2026-11-09",
+    "text": "World Liberty Financial added: the Trump family crypto company (WLFI token, USD1 stablecoin), with its co-founders, the UAE-backed $500 million stake, the USD1 role in MGX's Binance deal, Justin Sun's lawsuit and Democrats' planned 2027 probe. Linked to Donald Trump, Donald Trump Jr. and Steve Witkoff.",
+    "people": [
+      "donald-trump",
+      "donald-trump-jr",
+      "steve-witkoff"
+    ]
+  },
+  {
+    "id": "2026-11-09-kari-lake-title",
+    "date": "2026-11-09",
+    "text": "Kari Lake listed as director of Voice of America awaiting her ambassadorship to Jamaica; she no longer shows as reporting to Michael Rigas, and the differing titles in the sources are recorded.",
+    "people": [
+      "kari-lake"
+    ]
+  },
+  {
+    "id": "2026-11-09-data-audit",
+    "date": "2026-11-09",
+    "text": "Data audit after the midterms: James Blair's White House post moved to his record (he left in April to run the midterm operation; whether he returns is disputed). Org-chart boss ties added for Homan, Scharf and Hassett (now under chief of staff Stephen Miller), Beattie and Howery (Rubio) and Dylan Johnson (Sarah Rogers). Kari Lake now reports to acting USAGM head Michael Rigas on the chart. Leverage ratings added for nine top donors from their recorded giving: Uihlein, Soros, Bloomberg, Andreessen and Horowitz (major); Singer, Schwarzman, Larsen and Moskovitz (notable). Colton Duncan moved to the org chart only.",
+    "people": [
+      "james-blair",
+      "tom-homan",
+      "will-scharf",
+      "kevin-hassett",
+      "stephen-miller",
+      "darren-beattie",
+      "ken-howery",
+      "marco-rubio",
+      "dylan-johnson",
+      "sarah-b-rogers",
+      "kari-lake",
+      "michael-rigas",
+      "richard-uihlein",
+      "george-soros",
+      "michael-bloomberg",
+      "marc-andreessen",
+      "ben-horowitz",
+      "paul-singer",
+      "stephen-schwarzman",
+      "chris-larsen",
+      "dustin-moskovitz",
+      "colton-duncan"
+    ]
+  },
+  {
+    "id": "2026-11-08-pull-v2",
+    "date": "2026-11-08",
+    "text": "Pull reworked: a government job now counts by how close it sits to the boss in the org chart, donations by their size, and new sourced leverage (companies, contracts, media and money the White House needs) and recent access (meetings and deals in the last year) raise scores. Setbacks never lower anyone’s Pull. Leverage added for Ellison, Musk, Thiel, Karp, Luckey, Adelson, Yass, Griffin, Mellon, Zuckerberg and Altman.",
+    "people": [
+      "larry-ellison",
+      "elon-musk",
+      "peter-thiel",
+      "miriam-adelson",
+      "sam-altman"
+    ]
+  },
+  {
+    "id": "2026-11-08-state-org-chart",
+    "date": "2026-11-08",
+    "text": "State’s org chart filled out from the department’s June 2026 chart and fall schedules: Under Secretary for Management Jason Evans; the regional assistant secretaries (Garcia, DeSombre, Hanrahan, Blome, Segura, Kapur) and Senior Bureau Official McCoy Pitt; Weiland (narcotics), Namdar (consular), Bowles (Congress), Dylan Johnson (public affairs), Barnes (human rights), Legal Adviser Brock Dahl, Chief of Protocol Monica Crowley, U.N. Ambassador Mike Waltz and deputy Tammy Bruce. Policy Planning and foreign assistance have no named head since Jeremy Lewin left in October.",
+    "people": [
+      "mike-waltz",
+      "monica-crowley",
+      "jason-evans",
+      "dylan-johnson",
+      "brock-dahl"
+    ]
+  },
+  {
+    "id": "2026-11-08-agency-heads",
+    "date": "2026-11-08",
+    "text": "Agency heads added to the org chart, each checked against fall 2026 reporting: Joint Chiefs chairman Dan Caine; IRS CEO Frank Bisignano; CBP’s Rodney Scott, USCIS’s Joseph Edlow and Secret Service’s Sean Curran; Solicitor General John Sauer, ATF’s Robert Cekada and DEA’s Terrance Cole; and at HHS, Mehmet Oz (CMS), Jay Bhattacharya (NIH), Erica Schwartz (CDC) and acting FDA chief Kyle Diamantas.",
+    "people": [
+      "dan-caine",
+      "frank-bisignano",
+      "john-sauer",
+      "mehmet-oz",
+      "jay-bhattacharya"
+    ]
+  },
+  {
+    "id": "2026-11-08-labor-org-chart",
+    "date": "2026-11-08",
+    "text": "Labor’s org chart filled out from the department’s own pages: Inspector General Anthony D’Esposito, Dean Heyl (administration and management), Julie Hocker (disability policy), Elisabeth Messenger (labor-management standards), James Macy (workers’ compensation), acting job-training head Marek Laco, CFO David Castillo, Kenneth Wolfe (contractor compliance and faith center), Public Affairs deputy Mike Trupo, and the OSHA and MSHA deputies. Ashley Romanias, who left in May, was removed.",
+    "people": [
+      "anthony-desposito",
+      "dean-heyl",
+      "kenneth-wolfe",
+      "mike-trupo",
+      "marek-laco"
+    ]
+  },
+  {
+    "id": "2026-11-08-labor-public-affairs",
+    "date": "2026-11-08",
+    "text": "Correction: David O’Brien heads Labor’s Office of Public Affairs (acting assistant secretary). Courtney Parella Spencer left Labor in May 2026 to lead public affairs at HHS under Robert F. Kennedy Jr.",
+    "people": [
+      "david-obrien",
+      "courtney-parella",
+      "robert-f-kennedy-jr"
+    ]
+  },
+  {
+    "id": "2026-11-08-cabinet-staff",
+    "date": "2026-11-08",
+    "text": "Org chart filled out with 32 more political appointees, kept off the main web: State (Hooker, DiNanno, Rogers, Rigas, Holler, Pigott, Beattie), Energy (Danly, chief of staff Dankert, Haustveit, Gil, NNSA’s Williams and five assistant secretaries), Labor (MSHA, Policy, VETS, BLS, OFCCP and Public Affairs) and the deputy secretaries at Interior, Agriculture, Commerce, Transportation, VA, Homeland Security and Education. Trump nominated State’s Sarah Rogers to run USAGM in Kari Lake’s place; Michael Rigas is acting head meanwhile.",
+    "people": [
+      "sarah-b-rogers",
+      "michael-rigas",
+      "kari-lake",
+      "james-danly",
+      "courtney-parella"
+    ]
+  },
+  {
+    "id": "2026-11-08-pull-routes",
+    "date": "2026-11-08",
+    "text": "New Pull view ranks who has the most access to people in power, or who has one official’s ear, and each person now has a Pull tab. Junior officials now stay in the org chart instead of crowding the main web.",
+    "people": [
+      "jared-kushner",
+      "stephen-miller",
+      "keith-sonderling"
+    ]
+  },
+  {
+    "id": "2026-11-08-org-chart",
+    "date": "2026-11-08",
+    "text": "New Org chart view (Views → Org chart) shows who reports to whom and each person’s bond with their boss. 25 officials added: Labor’s senior team, White House staff (Scavino, Scharf, Hassett, Haley, Homan, Blair), deputies at State, War, Treasury and Justice, FBI, CIA and DNI chiefs, and the four congressional leaders as Democrats take both chambers in January.",
+    "people": [
+      "dan-scavino",
+      "courtney-walter",
+      "christopher-landau",
+      "steve-feinberg",
+      "trent-mccotter",
+      "jay-clayton",
+      "hakeem-jeffries",
+      "chuck-schumer"
+    ]
+  },
+  {
+    "id": "2026-11-08-cleanup-sources",
+    "date": "2026-11-08",
+    "text": "Cleanup: 10 links now have sourced start and end dates, and 20 links that rested only on Wikipedia gained news sources. Two corrections: the Kushner–Christie feud notes that the cause of Christie’s 2016 ouster is disputed, and Thiel’s role at 1789 Capital is reworded to what Reuters reported.",
+    "people": [
+      "jared-kushner",
+      "peter-thiel",
+      "kamala-harris",
+      "thomas-massie"
+    ]
+  },
+  {
+    "id": "2026-11-08-right-sources-democrats",
+    "date": "2026-11-08",
+    "text": "Right-leaning sources added on the Democratic side too (Harris, Newsom, Hoffman, Soros, Talarico, Larsen), and the Anthropic feud now notes the August 2026 ruling that voided the Pentagon’s supply-chain-risk label.",
+    "people": [
+      "kamala-harris",
+      "reid-hoffman",
+      "dario-amodei",
+      "james-talarico"
+    ]
+  },
+  {
+    "id": "2026-11-08-right-leaning-sources",
+    "date": "2026-11-08",
+    "text": "Right-leaning outlets added as sources across Trump’s inner circle and top donors: Fox News, Washington Examiner, Washington Times, National Review, Daily Wire, Breitbart, Daily Caller and the Free Beacon now back 30 key links.",
+    "people": [
+      "donald-trump",
+      "elon-musk",
+      "jd-vance",
+      "stephen-miller",
+      "reid-hoffman"
+    ]
+  },
+  {
+    "id": "2026-11-08-company-squares",
+    "date": "2026-11-08",
+    "text": "Company squares added: Palantir, Anduril, OpenAI, Fox News and PayPal now link the people who founded or worked at them.",
+    "people": [
+      "palantir-technologies",
+      "anduril-industries",
+      "openai",
+      "fox-news",
+      "paypal"
+    ]
+  },
+  {
+    "id": "2026-11-08-wexner-maxwell",
+    "date": "2026-11-08",
+    "text": "Les Wexner and Ghislaine Maxwell added. Wexner employed Epstein as his money manager until 2007, by his account; Maxwell is serving 20 years and the Senate has opposed any pardon.",
+    "people": [
+      "les-wexner",
+      "ghislaine-maxwell",
+      "jeffrey-epstein"
+    ]
+  },
+  {
+    "id": "2026-11-08-epstein",
+    "date": "2026-11-08",
+    "text": "Jeffrey Epstein added, with clear ties only: a friendship with Trump from the late 1980s to about 2004, plus Wexner, Maxwell and Andrew Mountbatten-Windsor.",
+    "people": [
+      "jeffrey-epstein",
+      "donald-trump"
+    ]
+  },
+  {
+    "id": "2026-11-08-friend-links",
+    "date": "2026-11-08",
+    "text": "22 friendships recorded as personal ties, including Netanyahu's with Jared Kushner, Larry Ellison and Miriam Adelson.",
+    "people": [
+      "benjamin-netanyahu",
+      "jared-kushner",
+      "larry-ellison",
+      "miriam-adelson"
+    ]
+  },
+  {
+    "id": "2026-11-08-helberg",
+    "date": "2026-11-08",
+    "text": "Jacob Helberg added: Under Secretary of State for Economic Affairs, former adviser to Palantir's Alex Karp, married to Keith Rabois; Sam Altman officiated their 2018 wedding.",
+    "people": [
+      "jacob-helberg",
+      "keith-rabois",
+      "sam-altman",
+      "marco-rubio"
+    ]
+  },
+  {
+    "id": "2026-11-08-hegseth-refresh",
+    "date": "2026-11-08",
+    "text": "Pete Hegseth refreshed: Massie's September 2026 impeachment articles, post-midterm pressure (Trump says he stays), the 2025 Signal chat and Project Meridian with Musk and Luckey.",
+    "people": [
+      "pete-hegseth",
+      "thomas-massie",
+      "elon-musk",
+      "palmer-luckey"
+    ]
+  },
+  {
+    "id": "2026-11-08-lake-jamaica",
+    "date": "2026-11-08",
+    "text": "Kari Lake's nomination as ambassador to Jamaica cleared the Senate Foreign Relations Committee 12–10 and awaits a full Senate vote.",
+    "people": [
+      "kari-lake"
+    ]
+  },
+  {
+    "id": "2026-11-08-carlson-fuentes",
+    "date": "2026-11-08",
+    "text": "Tucker Carlson and Nick Fuentes are now rivals: Fuentes broke with Carlson in December 2025 and kept attacking him through 2026.",
+    "people": [
+      "tucker-carlson",
+      "nick-fuentes"
+    ]
+  },
+  {
+    "id": "2026-11-08-thiel-vance-2011",
+    "date": "2026-11-08",
+    "text": "Thiel–Vance mentorship dated to their 2011 meeting at Yale Law School.",
+    "people": [
+      "peter-thiel",
+      "jd-vance"
+    ]
+  },
+  {
+    "id": "2026-11-08-democratic-money",
+    "date": "2026-11-08",
+    "text": "Democratic money network added: Senate Majority PAC, House Majority PAC, Future Forward, ActBlue and Democracy PAC.",
+    "people": [
+      "senate-majority-pac",
+      "house-majority-pac",
+      "future-forward",
+      "actblue",
+      "democracy-pac"
+    ]
+  },
+  {
+    "id": "2026-11-08-rising-stars",
+    "date": "2026-11-08",
+    "text": "Rising stars added: Jon Ossoff, James Talarico, Abdul El-Sayed, Andy Beshear, Wes Moore and Byron Donalds.",
+    "people": [
+      "jon-ossoff",
+      "james-talarico",
+      "abdul-el-sayed",
+      "andy-beshear",
+      "wes-moore",
+      "byron-donalds"
+    ]
+  },
+  {
+    "id": "2026-11-08-orgs-heritage-tpusa",
+    "date": "2026-11-08",
+    "text": "Organizations added: Heritage Foundation, Turning Point USA, Restoration PAC, Preserve America PAC, Founders Fund and AIPAC.",
+    "people": [
+      "heritage-foundation",
+      "turning-point-usa",
+      "restoration-pac",
+      "preserve-america-pac",
+      "founders-fund",
+      "aipac"
+    ]
+  },
+  {
+    "id": "2026-11-08-zuckerberg-netanyahu-pence",
+    "date": "2026-11-08",
+    "text": "Added Mark Zuckerberg, Benjamin Netanyahu, Mike Pence, Ivanka Trump, Steve Witkoff, Kellyanne Conway, Rand Paul and Gene Hamilton.",
+    "people": [
+      "mark-zuckerberg",
+      "benjamin-netanyahu",
+      "mike-pence",
+      "ivanka-trump",
+      "steve-witkoff",
+      "kellyanne-conway",
+      "rand-paul",
+      "gene-hamilton"
+    ]
+  },
+  {
+    "id": "2026-11-08-mercers",
+    "date": "2026-11-08",
+    "text": "Robert and Rebekah Mercer added, with their giving and ties to Bannon, Trump and 1789 Capital.",
+    "people": [
+      "robert-mercer",
+      "rebekah-mercer"
+    ]
+  },
+  {
+    "id": "2026-11-07-natcon",
+    "date": "2026-11-07",
+    "text": "National conservatism group added: Yoram Hazony, David Brog and the NatCon founders, organizers and speakers.",
+    "people": [
+      "yoram-hazony",
+      "david-brog",
+      "josh-hawley",
+      "giorgia-meloni"
+    ]
+  },
+  {
+    "id": "2026-11-07-major-donors",
+    "date": "2026-11-07",
+    "text": "Major donors added with their giving by cycle: George Soros, Ken Griffin, Dustin Moskovitz, Jeff Yass, Timothy Mellon, Richard Uihlein, Stephen Schwarzman and Chris Larsen.",
+    "people": [
+      "george-soros",
+      "ken-griffin",
+      "dustin-moskovitz",
+      "jeff-yass",
+      "timothy-mellon",
+      "richard-uihlein",
+      "stephen-schwarzman",
+      "chris-larsen"
+    ]
+  },
+  {
+    "id": "2026-11-07-race-2028",
+    "date": "2026-11-07",
+    "text": "2028 race mapped: contenders and their camps, from Vance, Rubio and Carlson to Harris, Newsom, Ocasio-Cortez, Buttigieg and Shapiro.",
+    "people": [
+      "jd-vance",
+      "marco-rubio",
+      "kamala-harris",
+      "gavin-newsom",
+      "alexandria-ocasio-cortez"
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "name": "Ghislaine Maxwell",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "business",
+  "groups": [],
+  "photo": {
+    "file": "ghislaine-maxwell.webp",
+    "credit": "Federal Bureau of Prisons",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Ghislaine_Maxwell_MDC_mug_shot.webp", "title": "File:Ghislaine Maxwell MDC mug shot.webp — Wikimedia Commons" }
+  },
+  "current_role": "Serving a 20-year federal sentence for sex trafficking (Federal Prison Camp Bryan, Texas)",
+  "summary": "Ghislaine Maxwell, the youngest child of British media owner Robert Maxwell, was Jeffrey Epstein’s longtime companion and associate. A federal jury convicted her in December 2021 of sex trafficking minors for Epstein, and she was sentenced to 20 years in June 2022. After Deputy Attorney General Todd Blanche interviewed her in July 2025 she was moved to a minimum-security camp; a judge rejected her bid to overturn her conviction in August 2026, and the Senate unanimously opposed any pardon in July 2026.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Ghislaine_Maxwell", "title": "Ghislaine Maxwell — Wikipedia" },
+    { "url": "https://www.pbs.org/newshour/politics/ghislaine-maxwell-sentenced-to-20-years-in-prison", "title": "PBS NewsHour: Ghislaine Maxwell sentenced to 20 years in prison" },
+    { "url": "https://www.nbcnews.com/news/us-news/sex-trafficker-ghislaine-maxwell-sentenced-20-years-prison-rcna35064", "title": "NBC News: Sex trafficker Ghislaine Maxwell sentenced to 20 years in prison" },
+    { "url": "https://www.forbes.com/sites/alisondurkee/2026/08/25/trump-could-be-ghislaine-maxwells-last-hope-but-still-unclear-if-hell-pardon-her/", "title": "Forbes: Will Trump pardon Ghislaine Maxwell? What to know after the latest court loss" }
+  ],
+  "timeline": [
+    {
+      "year": 1991,
+      "role": "Moved to New York as her father’s emissary after he bought the New York Daily News",
+      "org": "New York Daily News (Maxwell family)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ghislaine_Maxwell", "title": "Ghislaine Maxwell — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2022,
+      "role": "Convicted on five of six counts, including sex trafficking of a minor (December 2021); sentenced to 20 years (June 2022)",
+      "org": "U.S. District Court, Southern District of New York",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/ghislaine-maxwell-sentenced-to-20-years-in-prison", "title": "PBS NewsHour: Ghislaine Maxwell sentenced to 20 years in prison" },
+        { "url": "https://www.nbcnews.com/news/us-news/sex-trafficker-ghislaine-maxwell-sentenced-20-years-prison-rcna35064", "title": "NBC News: Sex trafficker Ghislaine Maxwell sentenced to 20 years in prison" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2025,
+      "role": "Interviewed by Deputy Attorney General Todd Blanche over two days in late July 2025; moved to Federal Prison Camp Bryan, Texas, on August 1, 2025",
+      "org": "U.S. Department of Justice",
+      "sources": [
+        { "url": "https://www.huffpost.com/entry/witness-tampering-democrats-accuse-todd-blanche-of-guiding-ghislaine-maxwell-in-interview_n_6ae23467e4b09cd24b6b0b1a", "title": "HuffPost: Democrats say Todd Blanche guided Ghislaine Maxwell in prison interview" },
+        { "url": "https://www.nbcnews.com/news/us-news/ghislaine-maxwell-prison-emails-minimum-security-bryan-texas-rcna242218", "title": "NBC News: Maxwell’s prison emails from minimum-security Bryan, Texas" },
+        { "url": "https://www.cnn.com/2025/11/13/politics/ghislaine-maxwell-prison-jeffrey-epstein", "title": "CNN: Inside Ghislaine Maxwell’s life in prison" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": 2026,
+      "role": "Invoked the Fifth Amendment in a congressional deposition; a federal judge rejected her request to overturn her conviction (August 2026); seeking clemency from Trump",
+      "org": "U.S. Congress / federal courts",
+      "sources": [
+        { "url": "https://www.yahoo.com/news/articles/ghislaine-maxwell-pleads-fifth-deposition-163323029.html", "title": "Yahoo News: Ghislaine Maxwell pleads Fifth in deposition" },
+        { "url": "https://www.forbes.com/sites/alisondurkee/2026/08/25/trump-could-be-ghislaine-maxwells-last-hope-but-still-unclear-if-hell-pardon-her/", "title": "Forbes: Will Trump pardon Ghislaine Maxwell? What to know after the latest court loss" },
+        { "url": "https://www.forbes.com/sites/alisondurkee/2026/04/17/ghislaine-maxwell-will-ask-trump-for-pardon-after-epstein-news-dies-down-attorney-says/", "title": "Forbes: Maxwell will ask Trump for pardon, attorney says" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Jeffrey Epstein",
+      "slug": "jeffrey-epstein",
+      "relationship_type": "friend",
+      "description": "Maxwell was Epstein’s longtime companion and associate until his death in 2019; a federal jury convicted her in December 2021 of sex trafficking minors for him.",
+      "start_year": null,
+      "end_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/ghislaine-maxwell-sentenced-to-20-years-in-prison", "title": "PBS NewsHour: Ghislaine Maxwell sentenced to 20 years in prison" },
+        { "url": "https://www.nbcnews.com/news/us-news/sex-trafficker-ghislaine-maxwell-sentenced-20-years-prison-rcna35064", "title": "NBC News: Sex trafficker Ghislaine Maxwell sentenced to 20 years in prison" },
+        { "url": "https://en.wikipedia.org/wiki/Ghislaine_Maxwell", "title": "Ghislaine Maxwell — Wikipedia" }
+      ],
+      "replace": true
+    },
+    {
+      "name": "Robert Maxwell",
+      "slug": "robert-maxwell",
+      "relationship_type": "family",
+      "description": "Her father, the British media owner (Pergamon Press, Mirror Group, the New York Daily News), who died in 1991.",
+      "end_year": 1991,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ghislaine_Maxwell", "title": "Ghislaine Maxwell — Wikipedia" },
+        { "url": "https://news.yahoo.com/ghislaine-maxwell-father-dark-mysterious-022123781.html", "title": "Yahoo News: Ghislaine Maxwell’s father was a dark and mysterious figure" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Whether she has received clemency",
+      "details": "One CBS item described a letter from her attorney saying Trump pardoned her or commuted her sentence; Axios and Forbes reporting through August 2026 says no clemency has been granted, and Acting AG Blanche said in May 2026 he would not recommend it.",
+      "sources": [
+        { "url": "https://www.axios.com/2026/05/19/blanche-ghislaine-maxwell-pardon-senate-hearing", "title": "Axios: Acting AG Blanche tells Senate he won’t recommend Maxwell pardon" },
+        { "url": "https://www.forbes.com/sites/alisondurkee/2026/08/25/trump-could-be-ghislaine-maxwells-last-hope-but-still-unclear-if-hell-pardon-her/", "title": "Forbes: Will Trump pardon Ghislaine Maxwell? What to know after the latest court loss" },
+        { "url": "https://www.axios.com/2026/07/29/ghislaine-maxwell-jeffrey-epstein-senate-pardon", "title": "Axios: Senate goes on record to oppose any possible pardon for Ghislaine Maxwell" }
+      ]
+    }
+  ],
+  "notes": "Researched with web searches; pages could not be opened, so facts were confirmed through search results tied to each cited URL. Per the map owner, only clear ties are linked; Todd Blanche’s 2025 interview of her is recorded in her timeline, not as a relationship. Victims are not named.",
+  "last_researched": "2026-11-08"
+}

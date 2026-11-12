@@ -1,0 +1,70 @@
+{
+  "name": "Paul Lawrence",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "photo": {
+    "file": "paul-lawrence.png",
+    "credit": "United States Department of Veterans Affairs",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Paul_Lawrence_VA_Deputy_Secretary.png", "title": "File:Paul Lawrence VA Deputy Secretary.png — Wikimedia Commons" }
+  },
+  "current_role": "Deputy Secretary of Veterans Affairs (since March 2025)",
+  "summary": "Paul Lawrence, an Army veteran who was VA under secretary for benefits in Trump’s first term, was confirmed 51–45 in March 2025 as Doug Collins’s deputy and leads the rollout of VA’s new electronic health record.",
+  "sources": [
+    { "url": "https://www.executivegov.com/articles/va-paul-lawrence-deputy-secretary-senate-confirmation", "title": "Senate confirms former Army captain Paul Lawrence as VA deputy secretary — ExecutiveGov" },
+    { "url": "https://www.kiro7.com/news/local/deputy-secretary-veterans-affairs-visits-seattle-tout-new-medical-records-system/WXXDSHW6JFCIRHDO6MG6ZCUQ44/", "title": "Deputy secretary for Veterans Affairs visits Seattle to tout new medical records system — KIRO 7 (October 2026)" },
+    { "url": "https://en.wikipedia.org/wiki/Paul_Lawrence_(government_official)", "title": "Paul Lawrence (government official) — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2018,
+      "end_year": 2021,
+      "role": "Under Secretary for Benefits",
+      "org": "U.S. Department of Veterans Affairs",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Paul_Lawrence_(government_official)", "title": "Paul Lawrence (government official) — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Deputy Secretary of Veterans Affairs",
+      "org": "U.S. Department of Veterans Affairs",
+      "sources": [
+        { "url": "https://www.executivegov.com/articles/va-paul-lawrence-deputy-secretary-senate-confirmation", "title": "Senate confirms former Army captain Paul Lawrence as VA deputy secretary — ExecutiveGov" },
+        { "url": "https://www.kiro7.com/news/local/deputy-secretary-veterans-affairs-visits-seattle-tout-new-medical-records-system/WXXDSHW6JFCIRHDO6MG6ZCUQ44/", "title": "Deputy secretary for Veterans Affairs visits Seattle to tout new medical records system — KIRO 7 (October 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Doug Collins",
+      "slug": "doug-collins",
+      "relationship_type": "employer",
+      "description": "Collins’s deputy at Veterans Affairs since March 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.executivegov.com/articles/va-paul-lawrence-deputy-secretary-senate-confirmation", "title": "Senate confirms former Army captain Paul Lawrence as VA deputy secretary — ExecutiveGov" },
+        { "url": "https://www.kiro7.com/news/local/deputy-secretary-veterans-affairs-visits-seattle-tout-new-medical-records-system/WXXDSHW6JFCIRHDO6MG6ZCUQ44/", "title": "Deputy secretary for Veterans Affairs visits Seattle to tout new medical records system — KIRO 7 (October 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Secretary of Veterans Affairs",
+    "unit": "va",
+    "rank": 2,
+    "reports_to": "doug-collins",
+    "since": "2025-03",
+    "sources": [
+      { "url": "https://www.executivegov.com/articles/va-paul-lawrence-deputy-secretary-senate-confirmation", "title": "Senate confirms former Army captain Paul Lawrence as VA deputy secretary — ExecutiveGov" },
+      { "url": "https://www.kiro7.com/news/local/deputy-secretary-veterans-affairs-visits-seattle-tout-new-medical-records-system/WXXDSHW6JFCIRHDO6MG6ZCUQ44/", "title": "Deputy secretary for Veterans Affairs visits Seattle to tout new medical records system — KIRO 7 (October 2026)" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

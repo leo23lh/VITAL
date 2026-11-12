@@ -1,0 +1,102 @@
+{
+  "name": "Mehmet Oz",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "photo": {
+    "file": "mehmet-oz.png",
+    "credit": "United States Centers for Medicare and Medicaid",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:CMS_Admin_Dr_Mehmet_Oz.png", "title": "File:CMS Admin Dr Mehmet Oz.png — Wikimedia Commons" }
+  },
+  "current_role": "Administrator of the Centers for Medicare & Medicaid Services (since April 2025)",
+  "summary": "Mehmet Oz, the heart surgeon and former TV host who lost Pennsylvania’s 2022 Senate race as Trump’s endorsed Republican, was confirmed 53–45 on April 3, 2025, to run Medicare and Medicaid, among the officials Kennedy installed across HHS.",
+  "sources": [
+    { "url": "https://www.aacom.org/news-reports/news/2025/04/07/senate-confirms-nih-and-fda-directors--cms-administrator", "title": "Senate confirms NIH and FDA directors, CMS administrator — AACOM" },
+    { "url": "https://www.ajc.com/news/2026/02/nih-director-will-temporarily-run-cdc-in-leadership-shake-up", "title": "NIH director will temporarily run CDC in leadership shake-up — Atlanta Journal-Constitution (February 2026)" },
+    { "url": "https://en.wikipedia.org/wiki/Mehmet_Oz", "title": "Mehmet Oz — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2009,
+      "end_year": 2022,
+      "role": "Host",
+      "org": "The Dr. Oz Show",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mehmet_Oz", "title": "Mehmet Oz — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2022,
+      "end_year": 2022,
+      "role": "Republican nominee for U.S. Senate (Pennsylvania)",
+      "org": "Pennsylvania",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mehmet_Oz", "title": "Mehmet Oz — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Administrator",
+      "org": "Centers for Medicare & Medicaid Services",
+      "sources": [
+        { "url": "https://www.aacom.org/news-reports/news/2025/04/07/senate-confirms-nih-and-fda-directors--cms-administrator", "title": "Senate confirms NIH and FDA directors, CMS administrator — AACOM" },
+        { "url": "https://www.ajc.com/news/2026/02/nih-director-will-temporarily-run-cdc-in-leadership-shake-up", "title": "NIH director will temporarily run CDC in leadership shake-up — Atlanta Journal-Constitution (February 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "employer",
+      "description": "Runs Medicare and Medicaid under Kennedy since April 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.aacom.org/news-reports/news/2025/04/07/senate-confirms-nih-and-fda-directors--cms-administrator", "title": "Senate confirms NIH and FDA directors, CMS administrator — AACOM" },
+        { "url": "https://www.ajc.com/news/2026/02/nih-director-will-temporarily-run-cdc-in-leadership-shake-up", "title": "NIH director will temporarily run CDC in leadership shake-up — Atlanta Journal-Constitution (February 2026)" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Trump endorsed his 2022 Senate run and appointed him to run Medicare and Medicaid.",
+      "start_year": 2022,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mehmet_Oz", "title": "Mehmet Oz — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $14,500 from Stephen Schwarzman to Doctor Oz for Senate in the 2022 cycle.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00795930&two_year_transaction_period=2022", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Doctor Oz for Senate" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Administrator, Centers for Medicare & Medicaid Services",
+    "unit": "hhs",
+    "rank": 3,
+    "reports_to": "robert-f-kennedy-jr",
+    "since": "2025-04",
+    "sources": [
+      { "url": "https://www.aacom.org/news-reports/news/2025/04/07/senate-confirms-nih-and-fda-directors--cms-administrator", "title": "Senate confirms NIH and FDA directors, CMS administrator — AACOM" },
+      { "url": "https://www.ajc.com/news/2026/02/nih-director-will-temporarily-run-cdc-in-leadership-shake-up", "title": "NIH director will temporarily run CDC in leadership shake-up — Atlanta Journal-Constitution (February 2026)" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Audrey Robertson",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Assistant Secretary of Energy, Office of Critical Minerals and Energy Innovation (since October 2025)",
+  "summary": "Audrey Robertson, whom E&E News called a fossil-fuel industry insider, was confirmed in October 2025 to run the Energy Department’s former renewable-energy office, now the Office of Critical Minerals and Energy Innovation.",
+  "sources": [
+    { "url": "https://www.energy.gov/cmei/person/audrey-robertson", "title": "Audrey Robertson — U.S. Department of Energy" },
+    { "url": "https://www.eenews.net/articles/trump-taps-fossil-fuel-insider-to-run-does-renewable-office/", "title": "Trump taps fossil fuel insider to run DOE’s renewable office — E&E News" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Assistant Secretary, Critical Minerals and Energy Innovation (formerly EERE)",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://www.energy.gov/cmei/person/audrey-robertson", "title": "Audrey Robertson — U.S. Department of Energy" },
+        { "url": "https://www.eenews.net/articles/trump-taps-fossil-fuel-insider-to-run-does-renewable-office/", "title": "Trump taps fossil fuel insider to run DOE’s renewable office — E&E News" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Chris Wright",
+      "slug": "chris-wright",
+      "relationship_type": "employer",
+      "description": "Wright’s assistant secretary for critical minerals and energy innovation since October 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.energy.gov/cmei/person/audrey-robertson", "title": "Audrey Robertson — U.S. Department of Energy" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary, Critical Minerals and Energy Innovation",
+    "unit": "energy",
+    "rank": 4,
+    "reports_to": "chris-wright",
+    "since": "2025-10",
+    "sources": [
+      { "url": "https://www.energy.gov/cmei/person/audrey-robertson", "title": "Audrey Robertson — U.S. Department of Energy" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

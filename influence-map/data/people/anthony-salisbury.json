@@ -1,0 +1,68 @@
+{
+  "name": "Anthony Salisbury",
+  "aliases": ["Tony Salisbury"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "photo": {
+    "file": "anthony-salisbury.jpg",
+    "credit": "Department of Homeland Security",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Anthony_Salisbury_DHS.jpg", "title": "File:Anthony Salisbury DHS.jpg — Wikimedia Commons" }
+  },
+  "current_role": "White House Deputy Homeland Security Advisor (since January 2025)",
+  "summary": "Anthony Salisbury, a career federal agent who led Homeland Security Investigations in Miami, has been deputy homeland security adviser since January 2025, serving under Stephen Miller as homeland security adviser.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Anthony_Salisbury", "title": "Anthony Salisbury — Wikipedia" },
+    { "url": "https://digital-release.thehill.com/homenews/administration/5025745-trump-picks-anthony-salisbury-as-deputy-homeland-security-advisor/amp", "title": "Trump picks Anthony Salisbury as deputy homeland security adviser — The Hill" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Deputy Homeland Security Advisor",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anthony_Salisbury", "title": "Anthony Salisbury — Wikipedia" },
+        { "url": "https://digital-release.thehill.com/homenews/administration/5025745-trump-picks-anthony-salisbury-as-deputy-homeland-security-advisor/amp", "title": "Trump picks Anthony Salisbury as deputy homeland security adviser — The Hill" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": 2025,
+      "role": "Special agent in charge, Homeland Security Investigations Miami",
+      "org": "U.S. Immigration and Customs Enforcement",
+      "sources": [
+        { "url": "https://digital-release.thehill.com/homenews/administration/5025745-trump-picks-anthony-salisbury-as-deputy-homeland-security-advisor/amp", "title": "Trump picks Anthony Salisbury as deputy homeland security adviser — The Hill" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "employer",
+      "description": "Trump named him in December 2024 to serve under Miller, then deputy chief of staff for policy and homeland security adviser.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://digital-release.thehill.com/homenews/administration/5025745-trump-picks-anthony-salisbury-as-deputy-homeland-security-advisor/amp", "title": "Trump picks Anthony Salisbury as deputy homeland security adviser — The Hill" },
+        { "url": "https://en.wikipedia.org/wiki/Anthony_Salisbury", "title": "Anthony Salisbury — Wikipedia" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Homeland Security Advisor",
+    "unit": "white-house",
+    "rank": 4,
+    "reports_to": "stephen-miller",
+    "since": "2025-01-20",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Anthony_Salisbury", "title": "Anthony Salisbury — Wikipedia" },
+      { "url": "https://digital-release.thehill.com/homenews/administration/5025745-trump-picks-anthony-salisbury-as-deputy-homeland-security-advisor/amp", "title": "Trump picks Anthony Salisbury as deputy homeland security adviser — The Hill" }
+    ]
+  },
+  "last_researched": "2026-11-09"
+}

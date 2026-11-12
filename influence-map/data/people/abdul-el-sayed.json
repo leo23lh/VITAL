@@ -1,0 +1,125 @@
+{
+  "name": "Abdul El-Sayed",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "lean": [
+    {
+      "value": -2,
+      "basis": "Progressive Democrat backed by Bernie Sanders, Alexandria Ocasio-Cortez and the UAW; won Michigan's 2026 Senate race as a Democrat.",
+      "sources": [
+        { "url": "https://www.wsls.com/news/politics/2026/07/19/aipac-has-spent-a-record-amount-on-michigans-senate-primary-the-biggest-test-of-its-influence-yet/", "title": "AIPAC has spent a record amount on Michigan's Senate primary — AP via WSLS" },
+        { "url": "https://fox2detroit.com/news/abdul-el-sayed-mike-rogers-us-senate-michigan-2026-midterm", "title": "Abdul El-Sayed wins Michigan's Senate seat, beating Mike Rogers — Fox 2 Detroit" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "abdul-el-sayed.jpg",
+    "credit": "Conlan Houston",
+    "license": "CC BY-SA 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_(cropped).jpg", "title": "File:Abdul El-Sayed meet-and-greet by Conlan Houston 5 (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. senator-elect from Michigan (won November 2026)",
+  "summary": "Abdul El-Sayed (born 1984), an epidemiologist and Rhodes Scholar, ran Detroit's health department from 2015 and Wayne County's health and human services department from 2023 to 2025, and lost the 2018 Democratic primary for governor. Backed by Bernie Sanders, he narrowly won Michigan's 2026 Senate primary despite nearly $30 million from AIPAC-linked groups against him, then beat Mike Rogers about 52% to 46% to become the first Muslim elected to the Senate.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed", "title": "Abdul El-Sayed — Wikipedia" },
+    { "url": "https://fox2detroit.com/news/abdul-el-sayed-mike-rogers-us-senate-michigan-2026-midterm", "title": "Abdul El-Sayed wins Michigan's Senate seat, beating Mike Rogers — Fox 2 Detroit" },
+    { "url": "https://www.wsls.com/news/politics/2026/07/19/aipac-has-spent-a-record-amount-on-michigans-senate-primary-the-biggest-test-of-its-influence-yet/", "title": "AIPAC has spent a record amount on Michigan's Senate primary — AP via WSLS" }
+  ],
+  "timeline": [
+    {
+      "year": 2015,
+      "end_year": 2017,
+      "role": "Executive director and health officer",
+      "org": "Detroit Health Department",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed", "title": "Abdul El-Sayed — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2018,
+      "end_year": 2018,
+      "role": "Candidate for governor (lost the Democratic primary)",
+      "org": "Michigan",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed", "title": "Abdul El-Sayed — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": 2025,
+      "role": "Director",
+      "org": "Wayne County Department of Health, Human & Veterans Services",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed", "title": "Abdul El-Sayed — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "ally",
+      "description": "Sanders endorsed his 2018 run for governor and his 2026 Senate campaign, rallying with him in Detroit in May 2026.",
+      "start_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://michiganadvance.com/2026/05/04/bernie-sanders-stumps-for-el-sayed-mckinney-while-continuing-push-against-oligarchy/", "title": "Bernie Sanders stumps for El-Sayed, McKinney — Michigan Advance" },
+        { "url": "https://theintercept.com/2018/07/25/bernie-sanders-endorses-abdul-el-sayed-for-governor-of-michigan/", "title": "Bernie Sanders endorses Abdul El-Sayed for governor of Michigan — The Intercept" }
+      ]
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "slug": "alexandria-ocasio-cortez",
+      "relationship_type": "ally",
+      "description": "Ocasio-Cortez endorsed his 2026 Senate campaign.",
+      "start_year": 2026,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.wsls.com/news/politics/2026/07/19/aipac-has-spent-a-record-amount-on-michigans-senate-primary-the-biggest-test-of-its-influence-yet/", "title": "AIPAC has spent a record amount on Michigan's Senate primary — AP via WSLS" }
+      ]
+    },
+    {
+      "name": "AIPAC",
+      "slug": "aipac",
+      "relationship_type": "enemy",
+      "description": "AIPAC and affiliated groups spent close to $30 million backing Rep. Haley Stevens against him in Michigan's 2026 Senate primary, their largest investment in a single race; he won narrowly.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.wsls.com/news/politics/2026/07/19/aipac-has-spent-a-record-amount-on-michigans-senate-primary-the-biggest-test-of-its-influence-yet/", "title": "AIPAC has spent a record amount on Michigan's Senate primary — AP via WSLS" },
+        { "url": "https://www.mediaite.com/politics/abdul-el-sayed-fends-off-30-million-aipac-ad-buy-to-win-michigan-primary-nbc-projects/", "title": "Abdul El-Sayed fends off $30 million AIPAC ad buy to win Michigan primary — Mediaite" }
+      ]
+    },
+    {
+      "name": "Senate Majority PAC",
+      "slug": "senate-majority-pac",
+      "relationship_type": "donor",
+      "description": "Senate Majority PAC put nearly $35 million into the Michigan race, attacking his opponent Mike Rogers.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.semafor.com/article/10/14/2026/top-democratic-super-pac-spends-more-in-michigan-maine", "title": "Top Democratic super PAC spends more in Michigan, Maine — Semafor" }
+      ]
+    },
+    {
+      "name": "Chuck Schumer",
+      "slug": "chuck-schumer",
+      "relationship_type": "enemy",
+      "description": "Senator-elect El-Sayed is one of five incoming Democrats who say they will vote against Schumer for leader; he backs Chris Van Hollen.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.foxnews.com/politics/schumer-faces-mutiny-from-newly-elected-senate-dems-party-prepares-seize-power", "title": "Chuck Schumer faces leadership rebellion from incoming Democrats — Fox News" },
+        { "url": "https://www.democracynow.org/2026/11/6/headlines/incoming_freshman_senators_call_for_new_leadership_to_replace_top_democrat_chuck_schumer", "title": "Incoming freshman senators call for new leadership to replace Chuck Schumer — Democracy Now!" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where Wikipedia was rate-limiting and most news pages could not be opened; Wikipedia facts were confirmed with web searches restricted to en.wikipedia.org, and news facts with searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

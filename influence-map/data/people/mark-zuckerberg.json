@@ -1,0 +1,254 @@
+{
+  "aliases": ["Mark Elliot Zuckerberg"],
+  "public_figure": true,
+  "connections": [
+    {
+      "name": "Alexandr Wang",
+      "slug": "alexandr-wang",
+      "relationship_type": "employee",
+      "description": "Zuckerberg recruited Wang in June 2025, when Meta bought 49% of Scale AI for about $14.3 billion; Wang leads Meta Superintelligence Labs, which reports directly to Zuckerberg.",
+      "start_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://fortune.com/2025/06/30/mark-zuckerberg-overhauled-meta-ai-org-superintelligence-alexandr-wang/", "title": "Mark Zuckerberg overhauled Meta's AI org around superintelligence and Alexandr Wang — Fortune" }
+      ],
+      "end_year": null
+    },
+    {
+      "name": "Dustin Moskovitz",
+      "slug": "dustin-moskovitz",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Facebook with Zuckerberg in their Harvard dorm in 2004.",
+      "start_year": 2004,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" },
+        { "url": "https://fortune.com/2025/10/23/facebook-cofounder-dustin-moskovitz-says-being-a-ceo-was-exhausting-like-nearly-all-bosses-he-never-intended-to-manage-people-introvert-career-advice/", "title": "Facebook cofounder Dustin Moskovitz says being a CEO was 'exhausting' — Fortune" }
+      ],
+      "end_year": 2008
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "colleague",
+      "description": "Andreessen has sat on the board of Zuckerberg's Facebook (now Meta) since June 2008; both were also named to PCAST in March 2026.",
+      "start_year": 2008,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://about.fb.com/news/2008/06/marc-andreessen-joins-facebook-board-of-directors/", "title": "Marc Andreessen Joins Facebook Board of Directors — Meta" },
+        { "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology/", "title": "President Trump Announces Appointments to President's Council of Advisors on Science and Technology — The White House" }
+      ],
+      "end_year": null
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "employee",
+      "description": "Facebook bought Luckey's Oculus in 2014 and he worked there until March 2017, leaving amid controversy over his pro-Trump donation (Facebook says his politics were not the reason). In May 2025 Anduril and Meta announced a partnership on military XR headsets.",
+      "start_year": 2014,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Palmer_Luckey", "title": "Palmer Luckey — Wikipedia" },
+        { "url": "https://siliconangle.com/2017/03/30/controversial-oculus-founder-palmer-luckey-leaves-facebook/", "title": "Controversial Oculus founder Palmer Luckey leaves Facebook — SiliconANGLE" },
+        { "url": "https://fortune.com/2025/05/29/palmer-luckey-mark-zuckerberg-anduril-meta-rivalry-silicon-valley-military-market/", "title": "Palmer Luckey and Mark Zuckerberg team up on military tech — Fortune" }
+      ],
+      "end_year": 2017
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "Thiel became Facebook's first outside investor in August 2004, buying 10.2% for $500,000, and sat on its board from 2005 to 2022.",
+      "start_year": 2004,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Peter_Thiel", "title": "Peter Thiel — Wikipedia" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" }
+      ],
+      "end_year": 2022
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Weeks after Zuckerberg dined with Trump at Mar-a-Lago in November 2024, Meta gave $1 million to Trump's inaugural fund; neither he nor Meta had given to Trump's 2017 or Biden's 2021 funds.",
+      "start_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.axios.com/2024/12/12/meta-trump-donation-inaugural-fund-zuckerberg", "title": "Meta gave $1 million to Trump's inaugural fund — Axios" },
+        { "url": "https://digital-release.thehill.com/?p=5036760", "title": "Meta donated $1M to Trump inaugural fund after Zuckerberg met with president-elect — The Hill" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Trump attacked Zuckerberg for years before their post-election rapprochement in late 2024.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://digital-release.thehill.com/?p=5036760", "title": "Meta donated $1M to Trump inaugural fund after Zuckerberg met with president-elect — The Hill" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "rival",
+      "description": "Rival social-media and AI moguls who in 2023 tentatively agreed to a cage fight that never happened.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/2024/12/18/tech-giants-wall-street-millions-donald-trump-inauguration-meta-amazon-openai/", "title": "Tech giants and Wall Street give millions to Trump's inauguration — Fortune" }
+      ]
+    },
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "donor",
+      "description": "An early investor in Facebook.",
+      "start_year": 2005,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-08",
+  "name": "Mark Zuckerberg",
+  "sector": "tech",
+  "groups": ["ai-race", "media"],
+  "photo": {
+    "file": "mark-zuckerberg.jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:P20260929DT-1655_(55561811540)_(cropped_2).jpg", "title": "File:P20260929DT-1655 (55561811540) (cropped 2).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Co-founder, chairman, CEO and controlling shareholder of Meta Platforms",
+  "summary": "Mark Zuckerberg co-founded Facebook at Harvard in 2004 with Dustin Moskovitz and others, took it public in 2012 and controls its parent Meta, now a leading AI spender (Meta Superintelligence Labs, led by Alexandr Wang). Once attacked by Trump, he dined with him at Mar-a-Lago after the 2024 election, and Meta gave $1 million to Trump's inaugural fund.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg", "title": "Mark Zuckerberg — Wikipedia" },
+    { "url": "https://www.axios.com/2024/12/12/meta-trump-donation-inaugural-fund-zuckerberg", "title": "Meta gave $1 million to Trump's inaugural fund — Axios" }
+  ],
+  "timeline": [
+    {
+      "year": 2004,
+      "end_year": null,
+      "role": "Co-founder; chairman and CEO",
+      "org": "Facebook / Meta Platforms",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg", "title": "Mark Zuckerberg — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Chan Zuckerberg Initiative",
+      "role": "Co-founder (with Priscilla Chan)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg", "title": "Mark Zuckerberg — Wikipedia" }
+      ]
+    }
+  ],
+  "leverage": {
+    "level": 2,
+    "basis": "Controls Meta (Facebook, Instagram, WhatsApp), with a seat at Trump’s 2026 state dinner for Xi Jinping and his AI summit lunch.",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg", "title": "Mark Zuckerberg — Wikipedia" },
+      { "url": "https://thehill.com/homenews/administration/6110866-trump-xi-white-house-dinner/", "title": "President Trump hosts tech giants, political figures at White House state dinner with Xi Jinping — The Hill" },
+      { "url": "https://www.news4jax.com/business/2026/09/29/trump-vows-to-never-stifle-ai-as-leading-executives-urge-caution/", "title": "Trump vows to never stifle AI as leading executives urge caution — AP via News4JAX (September 29, 2026)" }
+    ]
+  },
+  "access": [
+    {
+      "date": "2026-09-29",
+      "with": ["donald-trump", "scott-bessent"],
+      "what": "Attended Trump’s White House AI lunch.",
+      "sources": [
+        { "url": "https://www.news4jax.com/business/2026/09/29/trump-vows-to-never-stifle-ai-as-leading-executives-urge-caution/", "title": "Trump vows to never stifle AI as leading executives urge caution — AP via News4JAX (September 29, 2026)" }
+      ]
+    },
+    {
+      "date": "2026-09",
+      "with": ["donald-trump"],
+      "what": "Guest at Trump’s White House state dinner for Xi Jinping.",
+      "sources": [
+        { "url": "https://thehill.com/homenews/administration/6110866-trump-xi-white-house-dinner/", "title": "President Trump hosts tech giants, political figures at White House state dinner with Xi Jinping — The Hill" }
+      ]
+    }
+  ],
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 5000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ZUCKERBERG%2C+MARK&two_year_transaction_period=2026", "title": "FEC itemized receipts: ZUCKERBERG, MARK, 2026 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 10000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ZUCKERBERG%2C+MARK&two_year_transaction_period=2024", "title": "FEC itemized receipts: ZUCKERBERG, MARK, 2024 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 5000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ZUCKERBERG%2C+MARK&two_year_transaction_period=2022", "title": "FEC itemized receipts: ZUCKERBERG, MARK, 2022 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 10000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ZUCKERBERG%2C+MARK&two_year_transaction_period=2020", "title": "FEC itemized receipts: ZUCKERBERG, MARK, 2020 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 10601,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ZUCKERBERG%2C+MARK&two_year_transaction_period=2018", "title": "FEC itemized receipts: ZUCKERBERG, MARK, 2018 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 20000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ZUCKERBERG%2C+MARK&two_year_transaction_period=2016", "title": "FEC itemized receipts: ZUCKERBERG, MARK, 2016 cycle" }
+        ],
+        "recipients": []
+      }
+    ]
+  },
+  "asks": [
+    {
+      "date": "2025-03",
+      "with": ["donald-trump"],
+      "kind": "regulatory",
+      "outcome": "denied",
+      "decided": "2025-04-14",
+      "what": "Lobbied Trump and White House officials to settle the FTC antitrust case against Meta before trial; the White House let the case go to trial in April.",
+      "sources": [
+        { "url": "https://www.thestar.com.my/tech/tech-news/2025/04/03/meta-ceo-zuckerberg-lobbies-trump-to-avoid-antitrust-trial-wsj-reports", "title": "Meta CEO Zuckerberg lobbies Trump to avoid antitrust trial, WSJ reports — Reuters via The Star" },
+        { "url": "https://gizmodo.com/zuckerberg-really-thought-trump-would-make-metas-legal-problems-go-away-2000589897", "title": "Zuckerberg thought Trump would make Meta's legal problems go away — Gizmodo" }
+      ]
+    }
+  ]
+}

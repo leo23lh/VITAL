@@ -1,0 +1,299 @@
+{
+  "name": "Ron DeSantis",
+  "aliases": ["Ronald Dion DeSantis"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican congressman (2013–2018) and governor of Florida (2019–2027); ran for the 2024 Republican nomination.",
+      "sources": [
+        { "url": "https://ballotpedia.org/Ron_DeSantis", "title": "Ballotpedia: Ron DeSantis" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Has not ruled out a second presidential run after his term ends in January 2027, and his team has been raising money; he polls in single digits (3–8%).",
+    "sources": [
+      { "url": "https://thedispatch.com/?p=83540", "title": "The Dispatch: DeSantis and Casey DeSantis political futures" },
+      { "url": "https://floridapolitics.com/archives/790326-poll-marco-rubio-second-among-republicans-in-2028-while-ron-desantis-is-in-single-digits/", "title": "Florida Politics: Rubio second in 2028 poll, DeSantis in single digits" }
+    ]
+  },
+  "photo": {
+    "file": "ron-desantis.jpg",
+    "credit": "Government of Florida",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Ron_DeSantis_official_photo.jpg", "title": "File:Ron DeSantis official photo.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Governor of Florida (since January 2019; term ends January 2027)",
+  "summary": "Ron DeSantis represented Florida in Congress from 2013 to 2018, won the governorship in 2018 with Trump's endorsement and Susie Wiles's help, and was reelected in 2022. He challenged Trump for the 2024 nomination, dropped out after Iowa in January 2024 and endorsed him. His term ends in January 2027 and he has not ruled out a 2028 run.",
+  "sources": [
+    { "url": "https://ballotpedia.org/Ron_DeSantis", "title": "Ballotpedia: Ron DeSantis" },
+    { "url": "https://www.mprnews.org/story/2024/01/21/ron-desantis-ends-his-presidential-bid-before-new-hampshire-after-falling-far-short-of-trump", "title": "AP via MPR News: DeSantis drops out of the presidential race, endorses Trump" }
+  ],
+  "timeline": [
+    {
+      "year": 2013,
+      "end_year": 2018,
+      "role": "U.S. representative for Florida's 6th district",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://www.cbsnews.com/miami/news/timeline-ron-desantis-career", "title": "CBS Miami: Timeline: Ron DeSantis" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "Governor of Florida (term ends January 5, 2027)",
+      "org": "State of Florida",
+      "sources": [
+        { "url": "https://ballotpedia.org/Ron_DeSantis", "title": "Ballotpedia: Ron DeSantis" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": 2024,
+      "role": "Candidate for the Republican presidential nomination (withdrew January 21, 2024)",
+      "org": "DeSantis for President",
+      "sources": [
+        { "url": "https://www.mprnews.org/story/2024/01/21/ron-desantis-ends-his-presidential-bid-before-new-hampshire-after-falling-far-short-of-trump", "title": "AP via MPR News: DeSantis drops out of the presidential race, endorses Trump" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Trump endorsed DeSantis in the 2018 governor's primary; DeSantis endorsed Trump when he quit the 2024 race.",
+      "start_year": 2018,
+      "end_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/614126-ron-desantis-faces-hard-road-to-white-house-but-has-beat-long-odds-before", "title": "Florida Politics" },
+        { "url": "https://www.mprnews.org/story/2024/01/21/ron-desantis-ends-his-presidential-bid-before-new-hampshire-after-falling-far-short-of-trump", "title": "AP via MPR News: DeSantis drops out of the presidential race, endorses Trump" },
+        { "url": "https://www.foxnews.com/politics/florida-gov-ron-desantis-drops-out-2024-presidential-race-endorses-trump", "title": "Fox News: Ron DeSantis drops out of 2024 presidential race, endorses Trump" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "DeSantis challenged Trump for the 2024 Republican nomination, then withdrew and endorsed him after losing Iowa by 30 points.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.mprnews.org/story/2024/01/21/ron-desantis-ends-his-presidential-bid-before-new-hampshire-after-falling-far-short-of-trump", "title": "AP via MPR News: DeSantis drops out of the presidential race, endorses Trump" },
+        { "url": "https://www.foxnews.com/politics/florida-gov-ron-desantis-drops-out-2024-presidential-race-endorses-trump", "title": "Fox News: Ron DeSantis drops out of 2024 presidential race, endorses Trump" },
+        { "url": "https://www.washingtontimes.com/news/2024/jan/21/ron-desantis-drops-out-ahead-new-hampshire-primary/", "title": "Washington Times: Ron DeSantis drops out ahead of New Hampshire primary" }
+      ]
+    },
+    {
+      "name": "Susie Wiles",
+      "slug": "susie-wiles",
+      "relationship_type": "employee",
+      "description": "Wiles took over DeSantis's faltering 2018 campaign for governor in its final months and helped him win.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/275872-susie-wiles-chair-desantis/", "title": "Florida Politics: Susie Wiles now in charge of the DeSantis campaign" }
+      ]
+    },
+    {
+      "name": "Susie Wiles",
+      "slug": "susie-wiles",
+      "relationship_type": "enemy",
+      "description": "After the 2018 win DeSantis shut Wiles out and reportedly pressed Trump's campaign to drop her, which it did in September 2019 before bringing her back in 2020; she later helped run Trump's 2024 primary campaign against DeSantis.",
+      "start_year": 2019,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Susie_Wiles", "title": "Wikipedia: Susie Wiles" },
+        { "url": "https://digital-release.thehill.com/?p=461765", "title": "Trump parts ways with key Florida adviser — The Hill" },
+        { "url": "https://floridapolitics.com/archives/306512-ron-desantis-susie-wiles", "title": "Ron DeSantis and Susie Wiles — Florida Politics" }
+      ]
+    },
+    {
+      "name": "Casey DeSantis",
+      "slug": "casey-desantis",
+      "relationship_type": "family",
+      "description": "His wife and closest adviser; first lady of Florida.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.99,
+      "sources": [
+        { "url": "https://www.yahoo.com/entertainment/meet-ron-desantis-inner-circle-093000673.html", "title": "Yahoo News: Meet Ron DeSantis' inner circle" },
+        { "url": "https://www.foxnews.com/politics/who-casey-desantis-get-know-first-lady-florida", "title": "Who is Casey DeSantis? Get to know the First Lady of Florida — Fox News" },
+        { "url": "https://floridapolitics.com/archives/722987-as-ron-desantis-talks-up-his-wife-as-next-governor-heres-what-to-know-about-casey-desantis/", "title": "As Ron DeSantis talks up his wife as next Governor, here's what to know about Casey DeSantis — Florida Politics" }
+      ]
+    },
+    {
+      "name": "James Uthmeier",
+      "slug": "james-uthmeier",
+      "relationship_type": "employee",
+      "description": "Uthmeier was DeSantis's chief of staff from 2021 and his 2024 presidential campaign manager; DeSantis appointed him attorney general in 2025.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.clickorlando.com/news/politics/2025/01/17/who-is-james-uthmeier-governors-pick-for-floridas-next-attorney-general/", "title": "News 6: Who is James Uthmeier, the governor's pick for attorney general" },
+        { "url": "https://www.semafor.com/article/08/08/2023/desantis-new-campaign-manager-james-uthmeier", "title": "Semafor: DeSantis names James Uthmeier campaign manager" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "funded_by",
+      "description": "Sacks was a major donor and fundraiser for DeSantis in 2022–2023 and was seen as a potential kingmaker for his 2024 run.",
+      "start_year": 2022,
+      "end_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/06/01/david-sacks-network-desantis.html", "title": "CNBC: Meet David Sacks, the friend of Elon Musk who could play kingmaker for Ron DeSantis" },
+        { "url": "https://sfist.com/2022/10/20/wealthy-sf-recall-backer-pumping-millions-to-desantis-and-j-d-vance-hyping-that-ukraine-needs-to-surrender/", "title": "SFist: Sacks pumping millions to DeSantis and Vance" }
+      ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "donor",
+      "description": "Griffin gave $5 million to DeSantis in 2021 and praised him, but declined to fund his 2024 presidential run, citing his fight with Disney and other positions.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+        { "url": "https://fortune.com/2024/02/26/ken-griffin-koch-brothers-republican-billionaire-megadonors-trump-haley-desantis/", "title": "Ken Griffin, the Koch brothers and the Republican megadonors — Fortune" }
+      ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "Richard and Elizabeth Uihlein each gave at least $1 million to the pro-DeSantis super PAC in 2023. FEC filings show $1,526,900 from Richard Uihlein to Ron Desantis for Florida, Never Back Down Inc., Restore Our Nation (Ron PAC) and others in 2 cycles (2016–2024).",
+      "start_year": 2015,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnn.com/2023/07/31/politics/fec-filings-2024-pacs-donors", "title": "Takeaways from presidential super PACs' mid-year financial disclosures — CNN" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00511568&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Ron Desantis for Florida" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00834077&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Never Back Down Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Restore Our Nation (Ron PAC)" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "DeSantis gave the opening-night keynote at Hazony's third US National Conservatism Conference, near Miami, on September 11, 2022.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" },
+        { "url": "https://floridapolitics.com/archives/555339-ron-desantis-plays-greatest-hits-and-then-some-in-keynote-speech-to-enthusiastic-natcon-crowd", "title": "Ron DeSantis plays greatest hits in keynote speech to enthusiastic NatCon crowd — Florida Politics" },
+        { "url": "https://www.dailysignal.com/2022/09/12/desantis-touts-floridas-successes-paints-stark-contrast-with-blue-states/", "title": "DeSantis touts Florida's successes — Daily Signal" }
+      ]
+    },
+    {
+      "name": "Omeed Malik",
+      "slug": "omeed-malik",
+      "relationship_type": "donor",
+      "description": "Malik maxed out to DeSantis's 2024 campaign and was a Wall Street fundraiser for him before switching to Trump in February 2024.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.axios.com/2023/07/12/big-money-backing-desantis-rfk", "title": "The big-money donors backing both DeSantis and RFK Jr. — Axios" },
+        { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" }
+      ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "enemy",
+      "description": "Spent against DeSantis in the 2024 Republican primary.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/10/maga-inc-3/", "title": "MAGA Inc. — FactCheck.org" }
+      ]
+    },
+    {
+      "name": "Turning Point USA",
+      "slug": "turning-point-usa",
+      "relationship_type": "ally",
+      "description": "In October 2025 DeSantis announced a partnership to bring its Club America chapters to high schools across Florida.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Turning_Point_USA", "title": "Turning Point USA — Wikipedia" },
+        { "url": "https://kmph.com/news/nation-world/florida-to-award-charlie-kirk-prize-to-high-school-debate-winner-partners-with-tpusa-north-florida-news-october-27-2025", "title": "Florida to award Charlie Kirk Prize, partners with TPUSA — KMPH" },
+        { "url": "https://www.foxnews.com/media/ron-desantis-honor-charlie-kirk-renaming-debate-trophy-after-him.amp", "title": "Ron DeSantis names debate trophy after Charlie Kirk and announces TPUSA partnership — Fox News" }
+      ]
+    },
+    {
+      "name": "Byron Donalds",
+      "slug": "byron-donalds",
+      "relationship_type": "enemy",
+      "description": "Tense since Donalds endorsed Trump over DeSantis for 2024; DeSantis publicly disparaged him while floating his wife Casey for governor, and did not back Donalds, who won anyway.",
+      "start_year": 2023,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://floridaphoenix.com/?p=229335", "title": "DeSantis disses Donalds, touts First Lady, when asked about 2026 governor race — Florida Phoenix" },
+        { "url": "https://www.wlrn.org/government-politics/2026-01-12/collins-announces-bid-for-governor-as-desantis-wavers-on-whether-to-endorse", "title": "Collins announces bid for governor as DeSantis wavers on whether to endorse — WLRN" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "rival",
+      "description": "Trump weighed DeSantis for the defense post twice: in December 2024 while Hegseth’s nomination was in trouble, and in November 2026 after the midterms, according to CBS News sources. Trump said publicly in 2026 that Hegseth would stay.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://cbsnews.com/news/trump-considering-replacing-hegseth-with-desantis-defense-secretary-sources", "title": "CBS News: Trump considering replacing Hegseth with DeSantis for defense secretary" },
+        { "url": "https://www.cbsnews.com/miami/news/report-trump-weighs-desantis-for-pentagon-role", "title": "CBS News Miami: Report, Trump weighs DeSantis for Pentagon role" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "donor",
+      "description": "FEC filings show $24,160 from David Sacks to Restore Our Nation (Ron PAC), Great American Comeback, Team Desantis 2024 in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Restore Our Nation (Ron PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841148&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Great American Comeback" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00841155&two_year_transaction_period=2024", "title": "FEC receipts: SACKS, DAVID to Team Desantis 2024" }
+      ]
+    },
+    {
+      "name": "Norman Braman",
+      "slug": "norman-braman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $316,600 from Norman Braman to Never Back Down Inc., Restore Our Nation (Ron PAC), Team Desantis 2024 and others in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00834077&two_year_transaction_period=2024", "title": "FEC receipts: BRAMAN, NORMAN to Never Back Down Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: BRAMAN, NORMAN to Restore Our Nation (Ron PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00841155&two_year_transaction_period=2024", "title": "FEC receipts: BRAMAN, NORMAN to Team Desantis 2024" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

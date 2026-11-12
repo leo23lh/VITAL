@@ -1,0 +1,371 @@
+{
+  "name": "Ted Cruz",
+  "aliases": ["Rafael Edward Cruz"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican U.S. senator from Texas since 2013 and runner in the 2016 Republican presidential primary; a hawkish, pro-Israel conservative.",
+      "sources": [
+        { "url": "https://www.cruz.senate.gov/imo/media/doc/about_ted_bio.pdf", "title": "Sen. Ted Cruz: official biography" },
+        { "url": "https://www.britannica.com/biography/Ted-Cruz", "title": "Britannica: Ted Cruz" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Openly laying groundwork for 2028 as a pro-interventionist Republican, courting pro-Israel and former Haley donors; Trump allies treat a run as all but certain, though he says he is focused on the midterms.",
+    "sources": [
+      { "url": "https://www.axios.com/2025/11/17/ted-cruz-tucker-carlson-president-2028", "title": "Axios: Ted Cruz sets stage for 2028 run with Tucker jabs" },
+      { "url": "https://www.cnn.com/2026/06/25/politics/ted-cruz-2028-republican-nomination-jd-vance-trump-maga", "title": "CNN: Ted Cruz's not-so-secret White House dreams have gotten JD Vance's attention" }
+    ]
+  },
+  "photo": {
+    "file": "ted-cruz.jpg",
+    "credit": "U.S. Senate Photographic Studio",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Ted_Cruz_official_116th_portrait_(3x4_cropped).jpg", "title": "File:Ted Cruz official 116th portrait (3x4 cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. senator from Texas (since 2013)",
+  "summary": "Ted Cruz, Texas's solicitor general from 2003 to 2008, has represented Texas in the Senate since 2013 and finished second to Trump in the 2016 Republican primary. He hosts the Verdict podcast and is laying groundwork for a 2028 run as the hawkish alternative to JD Vance, feuding publicly with Tucker Carlson over foreign policy and Israel.",
+  "sources": [
+    { "url": "https://www.cruz.senate.gov/imo/media/doc/about_ted_bio.pdf", "title": "Sen. Ted Cruz: official biography" },
+    { "url": "https://www.britannica.com/biography/Ted-Cruz", "title": "Britannica: Ted Cruz" },
+    { "url": "https://www.axios.com/2025/11/17/ted-cruz-tucker-carlson-president-2028", "title": "Axios: Ted Cruz sets stage for 2028 run with Tucker jabs" }
+  ],
+  "timeline": [
+    {
+      "year": 2003,
+      "end_year": 2008,
+      "role": "Solicitor General of Texas",
+      "org": "Office of the Texas Attorney General",
+      "sources": [
+        { "url": "https://www.cruz.senate.gov/imo/media/doc/about_ted_bio.pdf", "title": "Sen. Ted Cruz: official biography" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": null,
+      "role": "U.S. senator from Texas",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://www.cruz.senate.gov/imo/media/doc/about_ted_bio.pdf", "title": "Sen. Ted Cruz: official biography" }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": 2016,
+      "role": "Candidate for the Republican presidential nomination",
+      "org": "Cruz for President",
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Ted-Cruz", "title": "Britannica: Ted Cruz" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "Cruz was Trump's main rival in the 2016 Republican primary.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Ted-Cruz", "title": "Britannica: Ted Cruz" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Trump has called Cruz \"a good friend of mine\" amid reports of a 2028 bid.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://abcnews4.com/news/nation-world/trump-calls-ted-cruz-a-good-friend-of-mine-amid-rumors-of-a-2028-presidential-bid-jd-vance-tucker-carlson-nick-fuentes", "title": "Trump calls Ted Cruz a 'good friend of mine' amid rumors of a 2028 bid" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "enemy",
+      "description": "Cruz has positioned himself for 2028 through a public feud with Carlson over foreign policy and Israel; Carlson called a Cruz run \"hilarious\".",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2025/11/17/ted-cruz-tucker-carlson-president-2028", "title": "Axios: Ted Cruz sets stage for 2028 run with Tucker jabs" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "rival",
+      "description": "Axios obtained recordings of Cruz criticizing Vance, and CNN reports his 2028 ambitions have gotten Vance's attention and annoyed Trump allies.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.axios.com/2026/01/25/cruz-trump-vance-secret-tapes", "title": "Axios: In secret recordings, Cruz trashes Trump tariffs, Vance" },
+        { "url": "https://www.cnn.com/2026/06/25/politics/ted-cruz-2028-republican-nomination-jd-vance-trump-maga", "title": "CNN: Ted Cruz's not-so-secret White House dreams have gotten JD Vance's attention" },
+        { "url": "https://www.foxnews.com/politics/cruz-vance-rivalry-heats-texas-senator-suggests-vp-feeling-insecure", "title": "Fox News: Ted Cruz fires back at JD Vance over 2028 claim" },
+        { "url": "https://www.washingtonexaminer.com/news/senate/4432782/secret-recordings-ted-cruz-trump-vance-donors/", "title": "Washington Examiner: Recordings reveal Cruz ripping Trump, Vance to donors" },
+        { "url": "https://www.washingtonexaminer.com/news/senate/4701922/ted-cruz-jd-vance-president-2028/", "title": "Washington Examiner: Cruz says \"I want to be president\" after spurning Vance consensus" }
+      ]
+    },
+    {
+      "name": "Ken Paxton",
+      "slug": "ken-paxton",
+      "relationship_type": "ally",
+      "description": "Cruz campaigned alongside Paxton and helped raise money for his 2026 Senate run, and the pro-Cruz super PAC spent millions backing him.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://dnyuz.com/2026/10/06/ken-paxtons-secret-weapon-ted-cruz/", "title": "New York Times via DNYUZ: Ken Paxton's secret weapon: Ted Cruz" },
+        { "url": "https://www.click2houston.com/news/texas/2026/10/16/pro-cruz-pac-launches-seven-figure-spanish-language-ad-buy-attacking-talarico/", "title": "Houston Public Media: Pro-Cruz PAC ad buy attacking Talarico" }
+      ]
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "donor",
+      "description": "Adelson gave $1 million to a super PAC supporting Cruz's 2024 Senate reelection. FEC filings show $26,800 from Miriam Adelson to Cruz for President, Ted Cruz Victory Committee, Jobs, Freedom, and Security PAC and others in 3 cycles (2016–2024).",
+      "start_year": 2015,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://api.texastribune.org/2024/06/20/miriam-adelson-ted-cruz-senate/", "title": "Texas Tribune: Miriam Adelson gives pro-Ted Cruz super PAC $1 million" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00574624&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Cruz for President" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ADELSON%2C+MIRIAM&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: ADELSON, MIRIAM to Jobs, Freedom, and Security PAC" }
+      ]
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "ally",
+      "description": "In the 2016 Republican primary Miriam Adelson was reported to favor Cruz while Sheldon Adelson leaned toward Marco Rubio.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://news.yahoo.com/millions-at-stake-the-adelson-primary-is-neck-125553624.html", "title": "Millions at stake, the 'Adelson primary' is neck and neck — Yahoo News" }
+      ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "Gave seven-figure sums to the pro-Cruz super PAC network in 2016, including $1 million to Keep the Promise PAC in January and $1 million to Trusted Leadership PAC in March. FEC filings show $49,600 from Richard Uihlein to Cruz for President, Jobs, Freedom, and Security PAC, Ted Cruz for Senate and others in 4 cycles (2016–2024).",
+      "start_year": 2014,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Richard_and_Elizabeth_Uihlein", "title": "Richard and Elizabeth Uihlein — Wikipedia" },
+        { "url": "https://www.washingtonexaminer.com/?p=365080", "title": "GOP donor bets big on Cruz — Washington Examiner" },
+        { "url": "https://publicintegrity.org/politics/pro-ted-cruz-super-pacs-mull-options-for-their-millions/", "title": "Pro-Ted Cruz super PACs mull options for their millions — Center for Public Integrity" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00574624&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Cruz for President" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Jobs, Freedom, and Security PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Robert Mercer",
+      "slug": "robert-mercer",
+      "relationship_type": "donor",
+      "description": "Mercer's initial $11 million (per FEC filings) founded Keep the Promise I, almost the sole funder of one of four super PACs backing Cruz's 2016 run; it was renamed Make America Number 1 and turned pro-Trump in June 2016.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://ballotpedia.org/Make_America_Number_1", "title": "Make America Number 1 — Ballotpedia" },
+        { "url": "https://www.texastribune.org/2015/08/04/pro-cruz-super-pac-ramps-7-figure-media-blitz", "title": "Pro-Cruz super PAC ramps up with 7-figure media blitz — Texas Tribune" }
+      ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "ally",
+      "description": "She ran Keep the Promise I, the main super PAC backing Cruz's 2016 presidential run, with Kellyanne Conway.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rebekah_Mercer", "title": "Rebekah Mercer — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://ballotpedia.org/Make_America_Number_1", "title": "Make America Number 1 — Ballotpedia" },
+        { "url": "https://www.factcheck.org/2016/11/make-america-number-1/", "title": "Make America Number 1 — FactCheck.org" }
+      ]
+    },
+    {
+      "name": "Kellyanne Conway",
+      "slug": "kellyanne-conway",
+      "relationship_type": "ally",
+      "description": "Conway endorsed Cruz in 2016 and chaired a pro-Cruz super PAC until he dropped out.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kellyanne_Conway", "title": "Kellyanne Conway — Wikipedia" },
+        { "url": "https://ballotpedia.org/Make_America_Number_1", "title": "Make America Number 1 — Ballotpedia" },
+        { "url": "https://www.factcheck.org/2016/11/make-america-number-1/", "title": "Make America Number 1 — FactCheck.org" }
+      ]
+    },
+    {
+      "name": "Mike Pence",
+      "slug": "mike-pence",
+      "relationship_type": "ally",
+      "description": "As Indiana governor, Pence endorsed Cruz four days before the state's May 2016 primary, calling him a principled conservative, while praising Trump; Trump won the primary and then picked Pence as his running mate.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.npr.org/2016/04/29/476171657/cruz-lands-indiana-governor-mike-pences-endorsement", "title": "Cruz lands Indiana Governor Mike Pence's endorsement — NPR" },
+        { "url": "https://www.pbs.org/newshour/politics/ted-cruz-to-be-endorsed-by-indiana-governor", "title": "Ted Cruz to be endorsed by Indiana governor — AP via PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Jeff Yass",
+      "slug": "jeff-yass",
+      "relationship_type": "donor",
+      "description": "FEC filings show $15,800 from Jeff Yass to Ted Cruz Victory Committee, Ted Cruz for Senate in the 2018 cycle.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00542423&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=YASS%2C+JEFF&committee_id=C00492785&two_year_transaction_period=2018", "title": "FEC receipts: YASS, JEFF to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "donor",
+      "description": "FEC filings show $17,200 from Joe Lonsdale to Ted Cruz for Senate, Ted Cruz Victory Committee, Jobs, Freedom, and Security PAC in 2 cycles (2022–2024).",
+      "start_year": 2021,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: LONSDALE, JOE to Ted Cruz for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: LONSDALE, JOE to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: LONSDALE, JOE to Jobs, Freedom, and Security PAC" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "donor",
+      "description": "FEC filings show $22,240 from Keith Rabois to Ted Cruz Victory Committee, Jobs, Freedom, and Security PAC, Ted Cruz for Senate in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Jobs, Freedom, and Security PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: RABOIS, KEITH to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "donor",
+      "description": "FEC filings show $11,200 from Palmer Luckey to Ted Cruz Victory Committee, Ted Cruz for Senate in 2 cycles (2018–2022).",
+      "start_year": 2017,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00542423&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00492785&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $11,350 from Paul Singer to Cruz for President, Ted Cruz for Senate in 2 cycles (2016–2024).",
+      "start_year": 2015,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00574624&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Cruz for President" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: SINGER, PAUL to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "FEC filings show $21,600 from Peter Thiel to Ted Cruz Victory Committee, Jobs, Freedom, and Security PAC, Ted Cruz for Senate in the 2022 cycle.",
+      "start_year": 2021,
+      "end_year": 2021,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00542423&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00536540&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Jobs, Freedom, and Security PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00492785&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $46,000 from Stephen Schwarzman to Ted Cruz Victory Committee, Ted Cruz for Senate, Jobs, Freedom, and Security PAC in 3 cycles (2018–2026).",
+      "start_year": 2017,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00542423&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00492785&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Ted Cruz for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00536540&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Jobs, Freedom, and Security PAC" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $28,200 from Thomas Klingenstein to Ted Cruz Victory Committee, Jobs, Freedom, and Security PAC, Ted Cruz for Senate in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Jobs, Freedom, and Security PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Ted Cruz for Senate" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Senator (R-TX)",
+    "unit": "senate",
+    "rank": 4,
+    "sources": [
+      { "url": "https://www.cruz.senate.gov/imo/media/doc/about_ted_bio.pdf", "title": "Sen. Ted Cruz: official biography" },
+      { "url": "https://www.britannica.com/biography/Ted-Cruz", "title": "Britannica: Ted Cruz" }
+    ]
+  },
+  "asks": [
+    {
+      "date": "2025-05",
+      "with": ["john-thune"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-07-01",
+      "what": "Pushed a moratorium on state AI laws in the One Big Beautiful Bill; the Senate stripped it 99-1 and Cruz dropped his compromise.",
+      "sources": [
+        { "url": "https://www.newsfromthestates.com/article/senate-votes-99-1-remove-ai-moratorium-megabill", "title": "Senate votes 99-1 to remove AI moratorium from megabill — States Newsroom" },
+        { "url": "https://newschannel9.com/news/nation-world/senate-strikes-ai-regulatory-ban-from-gop-bill-after-uproar-from-the-states", "title": "Senate strikes AI regulatory ban from GOP bill — Sinclair" }
+      ]
+    }
+  ]
+}

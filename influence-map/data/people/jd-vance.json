@@ -1,0 +1,770 @@
+{
+  "name": "JD Vance",
+  "aliases": ["James David Vance", "J. D. Vance", "James Donald Bowman"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle", "tech-right", "2028-race", "natcon"],
+  "photo": {
+    "file": "jd-vance.jpg",
+    "credit": "Emily J. Higgins",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_(medium_crop)_(2).jpg", "title": "File:March 2026 Official Vice Presidential Portrait of JD Vance (medium crop) (2).jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": 1,
+      "start_year": null,
+      "end_year": 2020,
+      "basis": "Conservative Republican who called himself a \"Never Trump guy\" in 2016, wrote that Trump was \"cultural heroin\", and said he would vote for independent Evan McMullin.",
+      "sources": [
+        { "url": "https://www.axios.com/2024/07/16/jd-vance-trump-statements", "title": "Axios: J.D. Vance's journey from \"Never Trump\" to VP nominee" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2021,
+      "end_year": null,
+      "basis": "Embraced Trump and won Ohio's 2022 Republican Senate race with his endorsement; Trump's running mate in 2024 and vice president since 2025.",
+      "sources": [
+        { "url": "https://www.axios.com/2024/07/16/jd-vance-trump-statements", "title": "Axios: J.D. Vance's journey from \"Never Trump\" to VP nominee" },
+        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "Wikipedia: JD Vance" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Front-runner for the 2028 Republican nomination: led the October 2026 NYT-Siena poll with 33% to Rubio's 23%; as RNC finance chair he courts the party's top donors.",
+    "sources": [
+      { "url": "https://www.denvergazette.com/2026/10/27/vance-leads-rubio-by-double-digits-in-early-2028-republican-poll/", "title": "Denver Gazette: Vance leads Rubio by double digits in early 2028 Republican poll" },
+      { "url": "https://thedispatch.com/article/vance-rnc-finance-chair/", "title": "The Dispatch: J.D. Vance secures an inside lane to 2028" }
+    ]
+  },
+  "current_role": "50th Vice President of the United States (since January 20, 2025)",
+  "summary": "JD Vance, a Marine veteran and Yale Law graduate, became known for his 2016 memoir Hillbilly Elegy, worked for Peter Thiel's Mithril Capital, and won Ohio's Senate seat in 2022 with $15 million in super PAC backing from Thiel. Trump chose him as his 2024 running mate; he took office as vice president in January 2025. Rubio has said he would back Vance for the 2028 nomination, though the Republicans' November 2026 midterm losses raised doubts about his standing.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" },
+    { "url": "https://www.whitehouse.gov/administration/jd-vance/", "title": "Vice President JD Vance — The White House" },
+    { "url": "https://politicalwire.com/2025/11/07/marco-rubio-would-defer-to-jd-vance-in-2028/", "title": "Marco Rubio would defer to JD Vance in 2028 — Political Wire (Politico)" }
+  ],
+  "timeline": [
+    {
+      "year": 2016,
+      "role": "Published the memoir Hillbilly Elegy",
+      "org": "Author",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillbilly_Elegy", "title": "Hillbilly Elegy — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2016,
+      "role": "Worked at Peter Thiel's venture firm after a brief stint in corporate law",
+      "org": "Mithril Capital",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": 2025,
+      "role": "U.S. Senator from Ohio",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Vice President of the United States",
+      "org": "Trump administration",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" },
+        { "url": "https://www.whitehouse.gov/administration/jd-vance/", "title": "Vice President JD Vance — The White House" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Republican Party",
+      "role": "Member; 2024 vice-presidential nominee",
+      "start_year": 2024,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "Thiel gave $15 million to Protect Ohio Values, a super PAC backing Vance in the 2022 Ohio Senate primary, but did not fund him in the general election. FEC filings show $15,001,442 from Peter Thiel to Protect Ohio Values PAC (POV PAC), JD Vance for Senate Inc. in the 2022 cycle.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cnbc.com/2022/10/03/peter-thiel-signals-he-is-done-helping-jd-vance-will-fundraise-for-blake-masters.html", "title": "GOP megadonor Peter Thiel signals he is done helping Ohio Senate hopeful J.D. Vance — CNBC" },
+        { "url": "https://www.cnbc.com/2022/11/12/midterm-results-peter-thiel-picks-masters-vance-see-mixed-results-in-arizona-ohio.html", "title": "Peter Thiel's picks Masters, Vance split key Senate races — CNBC" },
+        { "url": "https://www.washingtontimes.com/news/2021/mar/15/jd-vance-likely-ohio-senate-run-backed-peter-thiel/", "title": "Washington Times: J.D. Vance likely Ohio Senate run backed by Peter Thiel" },
+        { "url": "https://www.breitbart.com/politics/2021/03/16/peter-thiel-pours-10-million-super-pac-backing-likely-j-d-vance-senate-bid-ohio/", "title": "Breitbart: Peter Thiel pours $10 million into super PAC for likely Vance Senate bid" },
+        { "url": "https://dailycaller.com/2022/04/20/jd-vance-peter-thiel-protect-ohio-values/", "title": "Daily Caller: JD Vance super PAC receives $3.5 million from Peter Thiel" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Protect Ohio Values PAC (POV PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "mentor",
+      "description": "Vance met Thiel after Thiel spoke at Yale Law School in 2011, a moment Vance called the most significant of his time there. He later worked at Mithril Capital, a firm Thiel co-founded (from 2015 per Politico, 2016 per other accounts, until 2017), and is widely described as Thiel's protégé; Thiel introduced him to Trump in 2021.",
+      "start_year": 2011,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2024/07/17/g-s1-11654/five-things-to-know-about-jd-vances-connections-to-tech-billionaires", "title": "Five things to know about J.D. Vance's ties to tech billionaires — NPR" },
+        { "url": "https://fortune.com/2024/12/07/peter-thiel-network-trump-white-house-elon-musk-david-sacks/", "title": "How Peter Thiel's network of right-wing techies is infiltrating Donald Trump's White House — Fortune" },
+        { "url": "https://www.forbes.com.au/news/billionaires/jd-vance-and-peter-thiel-what-to-know/", "title": "Forbes Australia: JD Vance and Peter Thiel, inside the relationship" },
+        { "url": "https://salon.com/2024/07/22/jd-vance-owes-almost-everything-to-peter-thiel-a-pro-billionaire-and-new-right-ideologue", "title": "Salon: JD Vance owes almost everything to Peter Thiel" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "A former Trump critic turned loyal ally, Vance was chosen as Trump's running mate on July 15, 2024 and became vice president in January 2025.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/trump-picks-sen-jd-vance-of-ohio-as-his-republican-running-mate", "title": "Trump picks Sen. JD Vance of Ohio, a critic turned loyal ally, as his Republican running mate — PBS NewsHour" },
+        { "url": "https://www.npr.org/2024/07/15/nx-s1-5040482/former-president-trump-has-chosen-ohio-sen-j-d-vance-as-his-running-mate", "title": "Former President Trump has chosen Ohio Sen. J.D. Vance as his running mate — NPR" },
+        { "url": "https://www.foxnews.com/politics/trump-announces-ohio-senator-j-d-vance-his-2024-running-mate", "title": "Fox News: Trump announces Ohio Sen. JD Vance as his 2024 running mate" },
+        { "url": "https://www.washingtontimes.com/news/2024/jul/15/jd-vance-chosen-trump-vice-president-2024-race/", "title": "Washington Times: J.D. Vance chosen by Trump as vice president in 2024 race" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "ally",
+      "description": "Vance introduced Sacks to Donald Trump Jr. in March 2024, and Sacks credited Vance with making his June 2024 Trump fundraiser happen; Vance later appeared at Sacks's All-In AI event in 2025.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2024/05/24/trump-jd-vance-tech-fundraiser-david-sacks", "title": "Scoop: J.D. Vance courts Silicon Valley for Trump — Axios" },
+        { "url": "https://fortune.com/2025/07/23/all-in-podcast-trump-ai-action-plan-david-sacks-jd-vance-jensen-huang/", "title": "Silicon Valley's elite descend on D.C. to celebrate Trump's AI Action Plan — Fortune" },
+        { "url": "https://www.foxnews.com/politics/trump-heads-blue-bastion-raise-big-bucks-election-rematch-biden", "title": "Fox News: Trump heads to deep-blue San Francisco to raise major campaign cash" },
+        { "url": "https://www.breitbart.com/politics/2024/06/07/trump-raises-12m-at-silicon-valley-fundraiser-hosted-by-venture-capitalist-david-sacks/", "title": "Breitbart: Trump raises $12M at Silicon Valley fundraiser hosted by David Sacks" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "ally",
+      "description": "Vance and Musk had a good relationship and spoke regularly even before Vance became Trump's running mate. During the June 2025 Trump–Musk feud Vance called Musk's attacks a \"huge mistake\" but hoped he would return to the fold, and with Susie Wiles he helped broker a thaw.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2025/06/07/trump-encouraged-vance-to-respond-diplomatically-when-asked-about-musk-heres-how-it-played-in-real-time/", "title": "Trump encouraged Vance to respond diplomatically when asked about Musk — CNN via ABC17" },
+        { "url": "https://www.pbs.org/newshour/politics/vance-says-musk-making-a-huge-mistake-for-attacking-trump-on-social-media", "title": "Vance says Musk making a 'huge mistake' for attacking Trump on social media — PBS NewsHour" },
+        { "url": "https://www.washingtonexaminer.com/?p=3439357", "title": "Vance and Wiles emerge as key figures in arranging Trump-Musk thaw-out — Washington Examiner" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "ally",
+      "description": "Rubio has said that if Vance runs in 2028 \"he's going to be our nominee, and I'll be one of the first people to support him\", and Trump has floated a Vance–Rubio ticket. After the November 2026 midterm losses Newt Gingrich argued momentum was shifting toward Rubio.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://politicalwire.com/2025/11/07/marco-rubio-would-defer-to-jd-vance-in-2028/", "title": "Marco Rubio would defer to JD Vance in 2028 — Political Wire (Politico)" },
+        { "url": "https://gvwire.com/2026/06/03/trump-floats-a-vance-rubio-ticket-for-2028/", "title": "Trump floats a Vance-Rubio ticket for 2028 — GV Wire" },
+        { "url": "https://thehill.com/homenews/campaign/6200720-newt-gingrich-jd-vance-gop-election-defeat/", "title": "Newt Gingrich says JD Vance no longer leads 2028 GOP primary field — The Hill" },
+        { "url": "https://washingtonexaminer.com/news/campaigns/presidential/4461202/real-differences-inside-gop-vance-rubio-rivalry", "title": "Washington Examiner: The real differences inside the GOP driving Vance–Rubio rivalry talk" },
+        { "url": "https://washingtonexaminer.com/news/campaigns/4498266/rubio-iran-war-2028-republican-primary-vance-trump", "title": "Washington Examiner: Rubio emerges as 2028 contender amid Iran war" }
+      ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "colleague",
+      "description": "Senior White House colleagues since January 2025; when Trump named Miller chief of staff in November 2026, Vance called him \"an amazing patriot\" who \"will do great things\".",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.breitbart.com/immigration/2026/11/06/vance-immigration-hawks-applaud-stephen-millers-promotion-to-white-house-house-chief-of-staff/", "title": "JD Vance, immigration hawks applaud Stephen Miller's promotion to WH chief of staff — Breitbart" }
+      ]
+    },
+    {
+      "name": "Susie Wiles",
+      "slug": "susie-wiles",
+      "relationship_type": "colleague",
+      "description": "Worked together in the White House while Wiles was chief of staff (January 2025–November 2026); the two were reported to have jointly urged Musk to repair his relationship with Trump in 2025.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=3439357", "title": "Vance and Wiles emerge as key figures in arranging Trump-Musk thaw-out — Washington Examiner" },
+        { "url": "https://www.breitbart.com/immigration/2026/11/06/vance-immigration-hawks-applaud-stephen-millers-promotion-to-white-house-house-chief-of-staff/", "title": "JD Vance, immigration hawks applaud Stephen Miller's promotion to WH chief of staff — Breitbart" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "ally",
+      "description": "Vance invested in Anduril's first venture round while at Steve Case's firm Revolution, per Bloomberg. That investment is the only documented tie; no source describes a personal relationship.",
+      "start_year": 2017,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://fortune.com/2024/11/16/anduril-chairman-trae-stephens-donald-trump-us-military-reform-defense-spending/", "title": "Anduril chairman Trae Stephens on Trump and military reform — Fortune (Bloomberg)" }
+      ]
+    },
+    {
+      "name": "Usha Vance",
+      "slug": "usha-vance",
+      "relationship_type": "family",
+      "description": "Wife, whom he met at Yale Law School; a litigator who clerked for Brett Kavanaugh and Chief Justice John Roberts, and since 2025 the second lady.",
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/administration/usha-vance/", "title": "Second Lady Usha Vance — The White House" },
+        { "url": "https://en.wikipedia.org/wiki/JD_Vance", "title": "JD Vance — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "ally",
+      "description": "Lonsdale hosted a $50,000-a-head Republican fundraiser for Vance in Austin in March 2026 and has said Vance could be the party's 2028 pick.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.fox7austin.com/news/vice-president-jd-vance-visits-austin-fundraising-event", "title": "Vice President JD Vance visits Austin for fundraising event — FOX 7 Austin" },
+        { "url": "https://www.kxan.com/news/texas-politics/vance-visits-austin-for-fundraiser-with-50000-cover-charge/amp/", "title": "Vance visits Austin for fundraiser with $50,000 cover charge — KXAN" },
+        { "url": "https://www.bloomberg.com/news/articles/2024-11-01/joe-lonsdale-like-peter-thiel-plows-his-tech-fortune-into-conservative-causes", "title": "Joe Lonsdale Is Seed Funding Young Conservative Minds — Bloomberg" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "colleague",
+      "description": "Vance cast the tie-breaking vote that confirmed Hegseth 51–50 on January 24, 2025, only the second time a vice president has broken a tie on a cabinet nominee, and swore him in the next day; both serve in Trump's second administration. In the March 2025 Signal chat on the Houthi strikes, Vance argued for delaying them and Hegseth answered that he shared Vance’s view of European free-loading.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/pete-hegseth-faces-close-senate-210506301.html", "title": "Vance's tiebreaker vote confirms Pete Hegseth as Defense secretary — Yahoo News" },
+        { "url": "https://taskandpurpose.com/news/hegseth-confirmed-secretary-of-defense/", "title": "Hegseth confirmed as secretary of defense — Task & Purpose" },
+        { "url": "https://www.war.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/", "title": "HON Pete Hegseth — U.S. Department of War biography" },
+        { "url": "https://www.timesofisrael.com/us-cabinet-officials-accidentally-add-journalist-to-group-chat-share-war-plans/", "title": "Times of Israel: US cabinet officials accidentally add journalist to group chat, share war plans" },
+        { "url": "https://www.business-standard.com/world-news/atlantic-signal-leak-yemen-attack-trump-vance-hegseth-125032700187_1.html", "title": "Business Standard: Atlantic drops full Signal chat on Yemen attack" },
+        { "url": "https://www.foxnews.com/politics/pete-hegseth-confirmed-lead-pentagon-after-vp-vance-casts-tie-breaking-vote", "title": "Fox News: Pete Hegseth confirmed as defense secretary, with help from VP Vance" },
+        { "url": "https://www.nationalreview.com/news/jd-vance-breaks-senate-tie-to-confirm-pete-hegseth-as-next-pentagon-secretary/", "title": "National Review: JD Vance breaks Senate tie to confirm Pete Hegseth" },
+        { "url": "https://www.washingtonexaminer.com/news/senate/3300153/hegseth-confirmed-defense-secretary-vance-vote-mcconnell-rebel/", "title": "Washington Examiner: Hegseth confirmed as Vance breaks the tie" }
+      ]
+    },
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "ally",
+      "description": "Then-Senator Vance endorsed Lake's 2024 Senate bid in February 2024, calling her a battle-tested warrior.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=2892300", "title": "JD Vance endorses Kari Lake for Senate — Washington Examiner" },
+        { "url": "https://www.breitbart.com/2024-election/2024/02/28/sens-marsha-blackburn-j-d-vance-back-arizona-republican-kari-lake-for-senate", "title": "Sens. Marsha Blackburn, J.D. Vance back Arizona Republican Kari Lake for Senate — Breitbart" }
+      ]
+    },
+    {
+      "name": "Nick Fuentes",
+      "slug": "nick-fuentes",
+      "relationship_type": "enemy",
+      "description": "Vance called Fuentes \"a total loser\" in 2025 and, after Fuentes attacked his wife Usha with racist slurs, said in December 2025 that anyone who attacks her \"can eat s--t\"; Fuentes answered with more racist remarks.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://digital-release.thehill.com/?p=4822598", "title": "Vance says he 'disavows' Nick Fuentes: 'A total loser' — The Hill" },
+        { "url": "https://thegrio.com/2025/12/22/vice-president-jd-vance-issues-expletive-response-to-racist-attacks-on-his-wife", "title": "Vice President JD Vance issues expletive response to racist attacks on his wife — TheGrio" },
+        { "url": "https://www.yahoo.com/news/articles/jd-vance-responds-nick-fuentes-004420613.html", "title": "JD Vance responds to Nick Fuentes' use of racial slur against wife Usha — USA Today via Yahoo" },
+        { "url": "https://www.breitbart.com/clips/2024/08/11/vance-on-racial-attacks-against-usha-dont-attack-my-wife-shes-out-of-your-league/", "title": "Breitbart: Vance on racial attacks against Usha: \"Don’t attack my wife\"" },
+        { "url": "https://www.breitbart.com/politics/2026/10/08/white-nationalist-nick-fuentes-endorses-democrat-amy-acton-for-ohio-governor/", "title": "Breitbart: Nick Fuentes endorses Democrat Amy Acton for Ohio governor" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "Close friends: Carlson lobbied Trump to choose Vance as his 2024 running mate, defended him in a May 2026 New York Times interview, and Vance defended their friendship in September 2026.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.thedailybeast.com/elon-musk-and-tucker-carlson-secretly-lobbied-trump-to-pick-jd-vance", "title": "Daily Beast: Musk and Carlson lobbied Trump to pick Vance" },
+        { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" },
+        { "url": "https://jewishinsider.com/2026/09/jd-vance-defends-friendship-tucker-carlson/", "title": "Jewish Insider: Vance defends friendship with Tucker Carlson" },
+        { "url": "https://www.washingtontimes.com/news/2026/sep/3/jd-vance-says-tucker-carlson-friend-wont-throw-friends-bus/", "title": "Washington Times: Vance says Tucker Carlson is a friend, and he won’t \"throw friends under the bus\"" },
+        { "url": "https://www.dailywire.com/news/jd-vance-says-tucker-is-still-a-friend-of-his-who-he-wont-throw-under-the-bus", "title": "Daily Wire: JD Vance says Tucker is still a friend" },
+        { "url": "https://www.washingtonexaminer.com/news/white-house/4712315/jd-vance-defends-friendship-tucker-carlson/", "title": "Washington Examiner: Vance defends Tucker Carlson friendship" },
+        { "url": "https://www.washingtonexaminer.com/news/3080973/vp-picks-being-lobbied-by-trumps-allies/", "title": "Washington Examiner: The VP picks being lobbied by Trump’s allies" }
+      ]
+    },
+    {
+      "name": "Andy Surabian",
+      "slug": "andy-surabian",
+      "relationship_type": "employee",
+      "description": "Surabian was a senior adviser on Vance's 2022 Senate run and ran his 2024 vice-presidential operation; Axios called him perhaps Vance's closest political adviser.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2024/11/08/jd-vance-trump-vp-staff", "title": "Axios: Vice President-elect JD Vance's inner circle" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "rival",
+      "description": "Axios obtained recordings of Cruz criticizing Vance, and CNN reports his 2028 ambitions have gotten Vance's attention and annoyed Trump allies.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.axios.com/2026/01/25/cruz-trump-vance-secret-tapes", "title": "Axios: In secret recordings, Cruz trashes Trump tariffs, Vance" },
+        { "url": "https://www.cnn.com/2026/06/25/politics/ted-cruz-2028-republican-nomination-jd-vance-trump-maga", "title": "CNN: Ted Cruz's not-so-secret White House dreams have gotten JD Vance's attention" },
+        { "url": "https://www.foxnews.com/politics/cruz-vance-rivalry-heats-texas-senator-suggests-vp-feeling-insecure", "title": "Fox News: Ted Cruz fires back at JD Vance over 2028 claim" },
+        { "url": "https://www.washingtonexaminer.com/news/senate/4432782/secret-recordings-ted-cruz-trump-vance-donors/", "title": "Washington Examiner: Recordings reveal Cruz ripping Trump, Vance to donors" },
+        { "url": "https://www.washingtonexaminer.com/news/senate/4701922/ted-cruz-jd-vance-president-2028/", "title": "Washington Examiner: Cruz says \"I want to be president\" after spurning Vance consensus" }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "ally",
+      "description": "A close friend who made a last-minute push at a Mar-a-Lago dinner for his father to pick Vance in July 2024.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://kvia.com/politics/cnn-us-politics/2024/07/15/how-donald-trump-landed-on-jd-vance-as-his-vice-presidential-pick/", "title": "CNN via KVIA: How Donald Trump landed on JD Vance as his VP pick" },
+        { "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/3086517/don-jr-vance-spotlight-vp-tug-of-war/", "title": "Washington Examiner: Don Jr. basks in Vance’s spotlight after VP tug of war" },
+        { "url": "https://dailycaller.com/2024/09/05/donald-trump-jr-campaign-jd-vance-tim-walz/", "title": "Daily Caller: Don Jr., Trump campaign thrilled with Vance" }
+      ]
+    },
+    {
+      "name": "Chris Buskirk",
+      "slug": "chris-buskirk",
+      "relationship_type": "ally",
+      "description": "CNN describes Buskirk as a key strategist for Vance.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" },
+        { "url": "https://www.washingtonexaminer.com/news/white-house/4694265/vance-5-million-hamptons-fundraiser/", "title": "Washington Examiner: Vance brings in more than $5 million at Hamptons fundraiser hosted by Buskirk" },
+        { "url": "https://en.wikipedia.org/wiki/Rockbridge_Network", "title": "Rockbridge Network — Wikipedia" },
+        { "url": "https://www.inc.com/reuters/vances-tech-donor-network-wants-to-push-us-to-right.html", "title": "Reuters (via Inc.): Vance’s tech donor network wants to push U.S. to the right" }
+      ]
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "ally",
+      "description": "The New York Times reported that Vance has developed a relationship with Adelson as RNC finance chair courting donors for 2028.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/", "title": "Forbes: The billionaires cozying up to JD Vance" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Hazony invited Vance to the first NatCon in 2019 (\"Getting Beyond Libertarianism\"); Hazony says Vance \"appears at almost every conference\" and \"personifies the concept of national conservatism\". Vance's 2024 NatCon line \"America is not just an idea\" echoes Hazony's core argument.",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.globes.co.il/en/article-1001487027", "title": "The Israeli behind a global conservative movement — Globes" },
+        { "url": "https://www.thebulwark.com/p/understanding-jd-vances-national", "title": "Understanding J.D. Vance's 'National Conservatism' Convention Speech — The Bulwark" },
+        { "url": "https://dailycaller.com/2019/07/15/yoram-hazony-national-conservatism-conference/", "title": "Daily Caller: The future of conservatism is nationalist, says Yoram Hazony" },
+        { "url": "https://www.theamericanconservative.com/up-from-libertarianism/", "title": "The American Conservative: Up from libertarianism? (Vance at the first NatCon)" }
+      ]
+    },
+    {
+      "name": "James Orr",
+      "slug": "james-orr",
+      "relationship_type": "ally",
+      "description": "Friends since 2019, after Vance's conversion to Catholicism; Vance has called Orr his \"British sherpa\".",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.desmog.com/2026/04/02/seven-things-you-should-know-reform-policy-chief-james-orr/", "title": "Eight Things You Should Know About Reform's Policy Chief James Orr — DeSmog" },
+        { "url": "https://www.thedailybeast.com/vances-british-sherpa-steps-down-after-undercover-sting/", "title": "Vance's 'British sherpa' steps down after undercover sting — Daily Beast" },
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Sohrab Ahmari",
+      "slug": "sohrab-ahmari",
+      "relationship_type": "ally",
+      "description": "A long-time Vance ally, per Yahoo News; as UnHerd's US editor he interviewed Vance in December 2025 and June 2026, and in March 2026 criticized him for siding with foreign-policy hawks. Wikipedia describes him as a Vance adviser who flew with him to Iran talks in June 2026; news reports reviewed don't confirm a formal role.",
+      "start_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+        { "url": "https://www.yahoo.com/news/articles/pretty-bad-vance-vp-silence-013923015.html", "title": "'Pretty bad for Vance': the VP's silence on Iran peeves allies — Yahoo News" },
+        { "url": "https://unherd.com/2025/12/full-transcript-jd-vance-on-american-identity/", "title": "Full transcript: JD Vance on American identity — UnHerd" },
+        { "url": "https://unherd.com/2026/03/how-jd-vance-lost-the-foreign-policy-war/", "title": "How JD Vance lost the foreign policy war — UnHerd" }
+      ]
+    },
+    {
+      "name": "Josh Hawley",
+      "slug": "josh-hawley",
+      "relationship_type": "ally",
+      "description": "Described, with Marco Rubio, as the Senate bloc behind Oren Cass's American Compass economic-populist agenda until Vance became vice president.",
+      "start_year": 2023,
+      "end_year": 2025,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "funded_by",
+      "description": "Klingenstein gave the maximum direct donations to Vance's 2022 Senate campaign.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://vice.com/en/article/claremont-institute-thomas-klingenstein-super-pac", "title": "Claremont Institute chairman Thomas Klingenstein super PAC — Vice" }
+      ]
+    },
+    {
+      "name": "Patrick Deneen",
+      "slug": "patrick-deneen",
+      "relationship_type": "ally",
+      "description": "Vance joined Deneen and Kevin Roberts on the May 2023 launch panel for Regime Change, has promoted the book and later adopted its \"anti-regime\" language.",
+      "start_year": 2023,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://isi.org/events/regime-change-and-the-future-of-liberalism/", "title": "Modern Age Panel: Regime Change and the Future of Liberalism — ISI" },
+        { "url": "https://constudies.nd.edu/events-news/news/modern-age-panel-regime-change-and-the-future-of-liberalism", "title": "Regime Change and the Future of Liberalism (panel) — Notre Dame Center for Citizenship & Constitutional Government" },
+        { "url": "https://www.rollingstone.com/politics/political-commentary/jd-vance-extremist-christian-vp-mike-pence-1235069117/", "title": "JD Vance and the post-liberal right — Rolling Stone" },
+        { "url": "https://www.ncregister.com/news/j-d-vance-is-a-catholic-post-liberal", "title": "JD Vance Is a Catholic 'Post-Liberal': Here's What That Means — National Catholic Register" },
+        { "url": "https://www.washingtontimes.com/news/2024/sep/4/jd-vances-catholicism-helped-shape-his-views-as-di/", "title": "Washington Times: Vance’s Catholicism and the postliberal Catholic thinkers who shaped his views" }
+      ]
+    },
+    {
+      "name": "Oren Cass",
+      "slug": "oren-cass",
+      "relationship_type": "ally",
+      "description": "Cass calls Vance a longtime friend; Vance encouraged him to found American Compass, has praised The Once and Future Worker, and appeared with him at its June 2025 gala.",
+      "start_year": 2018,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://americancompass.org/transcript-vice-president-vance-speaks-to-oren-cass-at-the-new-world-gala/", "title": "Transcript: Vice President Vance speaks to Oren Cass at the New World Gala — American Compass" },
+        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" },
+        { "url": "https://americancompass.org/oren-cass/", "title": "Oren Cass — American Compass" },
+        { "url": "https://www.washingtonexaminer.com/news/white-house/3430499/vance-us-governed-by-morons-before-trump-gala-oren-cass/", "title": "Washington Examiner: Vance speaks with Oren Cass at American Compass gala" }
+      ]
+    },
+    {
+      "name": "Robert Mercer",
+      "slug": "robert-mercer",
+      "relationship_type": "donor",
+      "description": "The Mercers made a \"significant contribution\" to Protect Ohio Values, the super PAC for Vance's 2022 Senate run (Robert gave $100,000); Wikipedia reports Vance advised Rebekah Mercer on Parler. FEC filings show $100,000 from Robert Mercer to Protect Ohio Values PAC (POV PAC) in the 2022 cycle.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnn.com/2021/03/15/politics/hillbilly-elegy-author-vance-pac-donation-senate/index.html", "title": "'Hillbilly Elegy' author J.D. Vance gets $10 million boost for potential Senate bid — CNN" },
+        { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" },
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://www.breitbart.com/politics/2021/03/16/peter-thiel-pours-10-million-super-pac-backing-likely-j-d-vance-senate-bid-ohio/", "title": "Breitbart: Mercer family makes \"significant\" gift to pro-Vance super PAC" },
+        { "url": "https://www.washingtontimes.com/news/2021/mar/15/jd-vance-likely-ohio-senate-run-backed-peter-thiel/", "title": "Washington Times: Vance super PAC backed by Thiel and the Mercer family" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, ROBERT to Protect Ohio Values PAC (POV PAC)" }
+      ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "donor",
+      "description": "Gave $60,800 to two PACs backing Vance's 2022 Senate run and co-hosted a New York fundraiser for him; Vance reportedly advised her on Parler. FEC filings show $60,800 from Rebekah Mercer to Protect Ohio Values PAC (POV PAC), Working for Ohio, JD Vance for Senate Inc. in the 2022 cycle.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" },
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, REBEKAH to Protect Ohio Values PAC (POV PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, REBEKAH to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+REBEKAH&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, REBEKAH to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "Giorgia Meloni",
+      "slug": "giorgia-meloni",
+      "relationship_type": "ally",
+      "description": "Vance met Meloni in Rome on April 18, 2025, a day after her White House visit; she hailed a \"privileged relationship\" and he called it a \"great meeting\" with a like-minded leader.",
+      "start_year": 2025,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://thepeninsulaqatar.com/article/18/04/2025/vance-meets-italys-meloni-before-easter-at-the-vatican", "title": "Vance meets Italy's Meloni before Easter at the Vatican — AFP via The Peninsula" },
+        { "url": "https://www.thestar.com.my/news/world/2025/04/18/melodic-italian-bolsters-meloni-in-talks-with-trump-and-vance", "title": "Melodic Italian bolsters Meloni in talks with Trump and Vance — Reuters via The Star" },
+        { "url": "https://www.washingtontimes.com/news/2025/apr/18/vance-visits-italy-vatican-tangling-pope-migration/", "title": "Washington Times: Vance visits Italy and Vatican" },
+        { "url": "https://www.washingtontimes.com/news/2026/feb/6/vance-meets-pm-meloni-bolster-us-italy-relationship-milan-opening/", "title": "Washington Times: Vance meets Meloni to bolster U.S.–Italy relationship" },
+        { "url": "https://www.breitbart.com/news/meloni-vance-hail-shared-values-amid-pre-olympic-protests/", "title": "Breitbart: Meloni, Vance hail \"shared values\"" }
+      ]
+    },
+    {
+      "name": "Eric Schmitt",
+      "slug": "eric-schmitt",
+      "relationship_type": "ally",
+      "description": "Described as arguably Vance's closest friend in the Senate; Vance calls Schmitt one of the administration's most valuable allies on the Hill, and Axios reported in 2026 that Vance saw him as a possible 2028 running mate.",
+      "start_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://kvia.com/politics/cnn-us-politics/2024/08/02/jd-vances-republican-colleagues-defend-trumps-running-mate-saying-ohio-senator-is-a-voice-for-next-generation-of-gop-voters/", "title": "JD Vance's Republican colleagues defend Trump's running mate — CNN via KVIA" },
+        { "url": "https://www.semafor.com/article/08/05/2025/why-a-first-term-senator-passed-up-trumps-cabinet", "title": "Why a first-term senator passed up Trump's Cabinet — Semafor" },
+        { "url": "https://www.thedailybeast.com/vance-veep-eric-schmitt-buzz-backfires-almost-immediately/", "title": "Vance veep Eric Schmitt buzz backfires almost immediately — Daily Beast" },
+        { "url": "https://www.washingtonexaminer.com/news/senate/3497255/capitol-tea-jd-vance-redshirt-freshman-senate/", "title": "Washington Examiner: Vance and the Senate’s \"redshirt freshmen\"" },
+        { "url": "https://dailycaller.com/2023/01/31/jd-vance-eric-schmitt-back-trump-2024-campaign-politico/", "title": "Daily Caller: Senators Vance, Schmitt set to endorse Trump’s 2024 bid" }
+      ]
+    },
+    {
+      "name": "Chris Buskirk",
+      "slug": "chris-buskirk",
+      "relationship_type": "co-founder",
+      "description": "Co-founded the Rockbridge Network, a centrally run network of right-wing groups backed by tech investors, in 2019.",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.inc.com/reuters/vances-tech-donor-network-wants-to-push-us-to-right.html", "title": "Vance's tech donor network wants to push US to the right — Reuters via Inc." },
+        { "url": "https://www.washingtonexaminer.com/news/business/3227184/trump-jr-hushes-rumors-administration-role/", "title": "Washington Examiner: Rockbridge Network, co-founded by Vance (via Trump Jr. venture report)" },
+        { "url": "https://en.wikipedia.org/wiki/Rockbridge_Network", "title": "Rockbridge Network — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Doug Burgum",
+      "slug": "doug-burgum",
+      "relationship_type": "rival",
+      "description": "Burgum and Vance were the two top finalists to be Trump's 2024 running mate (with Rubio); Trump picked Vance in July 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/rcna157069", "title": "Trump's VP search: two top finalists emerge — NBC News" },
+        { "url": "https://semafor.com/article/07/13/2024/breaking-down-donald-trumps-top-three-vp-finalists", "title": "Breaking down Donald Trump's top three VP finalists — Semafor" },
+        { "url": "https://www.foxnews.com/politics/veepstakes-rubio-burgum-informed-not-trumps-2024-running-mate", "title": "Fox News: Rubio and Burgum informed they are not Trump’s 2024 running mate" },
+        { "url": "https://www.washingtonexaminer.com/daily-memo/3084465/trump-and-the-vance-calculation/", "title": "Washington Examiner: Trump and the Vance calculation" }
+      ]
+    },
+    {
+      "name": "Heritage Foundation",
+      "slug": "heritage-foundation",
+      "relationship_type": "ally",
+      "description": "Vance wrote the foreword to president Kevin Roberts's 2024 book, praising Roberts and calling Heritage \"the most influential engine of ideas for Republicans from Ronald Reagan to Donald Trump\".",
+      "start_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.axios.com/2024/07/25/vance-project-2025-book-trump-heritage-foundation", "title": "J.D. Vance wrote foreword of upcoming book from Project 2025 architect — Axios" }
+      ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "ally",
+      "description": "Jacob Helberg and Keith Rabois hosted 2024 fundraisers for Vance, including a Jewish Leadership Coalition lunch in New York.",
+      "start_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/private-equity/david-sacks-palantirs-helberg-to-host-fundraisers-for-vance", "title": "Bloomberg Law: David Sacks, Palantir’s Helberg to host fundraisers for Vance" },
+        { "url": "https://www.jns.org/vance-appears-at-jewish-leadership-coalition-fundraiser-in-new-york-city", "title": "JNS: Vance appears at Jewish Leadership Coalition fundraiser in New York City" },
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "friend",
+      "description": "Trump Jr. and Vance are close friends; Trump Jr. made a last-minute push for his father to pick Vance in July 2024.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://kvia.com/politics/cnn-us-politics/2024/07/15/how-donald-trump-landed-on-jd-vance-as-his-vice-presidential-pick/", "title": "CNN via KVIA: How Donald Trump landed on JD Vance as his VP pick" },
+        { "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/3086517/don-jr-vance-spotlight-vp-tug-of-war/", "title": "Washington Examiner: Don Jr. basks in Vance’s spotlight after VP tug of war" }
+      ]
+    },
+    {
+      "name": "Eric Schmitt",
+      "slug": "eric-schmitt",
+      "relationship_type": "friend",
+      "description": "Schmitt has been described as arguably Vance’s closest friend in the Senate.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://kvia.com/politics/cnn-us-politics/2024/08/02/jd-vances-republican-colleagues-defend-trumps-running-mate-saying-ohio-senator-is-a-voice-for-next-generation-of-gop-voters/", "title": "JD Vance's Republican colleagues defend Trump's running mate — CNN via KVIA" },
+        { "url": "https://www.semafor.com/article/08/05/2025/why-a-first-term-senator-passed-up-trumps-cabinet", "title": "Why a first-term senator passed up Trump's Cabinet — Semafor" },
+        { "url": "https://www.thedailybeast.com/vance-veep-eric-schmitt-buzz-backfires-almost-immediately/", "title": "Vance veep Eric Schmitt buzz backfires almost immediately — Daily Beast" }
+      ]
+    },
+    {
+      "name": "James Orr",
+      "slug": "james-orr",
+      "relationship_type": "friend",
+      "description": "Orr and Vance have been friends since 2019, after Vance’s conversion to Catholicism; Vance calls Orr his “British sherpa.”",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.desmog.com/2026/04/02/seven-things-you-should-know-reform-policy-chief-james-orr/", "title": "Eight Things You Should Know About Reform's Policy Chief James Orr — DeSmog" },
+        { "url": "https://www.thedailybeast.com/vances-british-sherpa-steps-down-after-undercover-sting/", "title": "Vance's 'British sherpa' steps down after undercover sting — Daily Beast" },
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "friend",
+      "description": "Vance and Carlson are close friends; Vance publicly defended the friendship in September 2026.",
+      "start_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.thedailybeast.com/elon-musk-and-tucker-carlson-secretly-lobbied-trump-to-pick-jd-vance", "title": "Daily Beast: Musk and Carlson lobbied Trump to pick Vance" },
+        { "url": "https://jewishinsider.com/2026/05/tucker-carlson-new-york-times-marco-rubio-donald-trump-jd-vance/", "title": "Jewish Insider: Carlson touts Vance, slams Trump and Rubio in NYT interview" },
+        { "url": "https://jewishinsider.com/2026/09/jd-vance-defends-friendship-tucker-carlson/", "title": "Jewish Insider: Vance defends friendship with Tucker Carlson" },
+        { "url": "https://www.washingtontimes.com/news/2026/sep/3/jd-vance-says-tucker-carlson-friend-wont-throw-friends-bus/", "title": "Washington Times: Vance says Tucker Carlson is a friend, and he won’t \"throw friends under the bus\"" },
+        { "url": "https://www.dailywire.com/news/jd-vance-says-tucker-is-still-a-friend-of-his-who-he-wont-throw-under-the-bus", "title": "Daily Wire: JD Vance says Tucker is still a friend" }
+      ]
+    },
+    {
+      "name": "Oren Cass",
+      "slug": "oren-cass",
+      "relationship_type": "friend",
+      "description": "Cass calls Vance a longtime friend.",
+      "start_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://americancompass.org/transcript-vice-president-vance-speaks-to-oren-cass-at-the-new-world-gala/", "title": "Transcript: Vice President Vance speaks to Oren Cass at the New World Gala — American Compass" },
+        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" },
+        { "url": "https://americancompass.org/oren-cass/", "title": "Oren Cass — American Compass" }
+      ]
+    },
+    {
+      "name": "Anthony D'Esposito",
+      "slug": "anthony-desposito",
+      "relationship_type": "colleague",
+      "description": "Joined the anti-fraud task force Vance leads in March 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.oig.dol.gov/public/Press%20Releases/Inspector%20General%20Anthony%20P.%20D'Esposito%20Joins%20President%20Trump's%20Task%20Force%20to%20Wage%20War%20on%20Fraud,%20Led%20By%20Vice%20President%20Vance%20_03272026.pdf", "title": "Inspector General D’Esposito joins President Trump’s Task Force to Wage War on Fraud, led by Vice President Vance — DOL OIG (March 27, 2026)" }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "donor",
+      "description": "FEC filings show $23,200 from Ben Horowitz to Vance Victory, Working for Ohio, JD Vance for Senate Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00817072&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Vance Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00783167&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00783142&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "Chris Buskirk",
+      "slug": "chris-buskirk",
+      "relationship_type": "donor",
+      "description": "FEC filings show $25,800 from Chris Buskirk to JD Vance for Senate Inc., Working for Ohio, Vance Victory in 2 cycles (2022–2024).",
+      "start_year": 2021,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00783142&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to JD Vance for Senate Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00783167&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BUSKIRK%2C+CHRIS&committee_id=C00817072&two_year_transaction_period=2024", "title": "FEC receipts: BUSKIRK, CHRIS to Vance Victory" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "donor",
+      "description": "FEC filings show $1,008,700 from David Sacks to Protect Ohio Values PAC (POV PAC), Working for Ohio, JD Vance for Senate Inc. in the 2022 cycle.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Protect Ohio Values PAC (POV PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SACKS%2C+DAVID&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: SACKS, DAVID to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "Omeed Malik",
+      "slug": "omeed-malik",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,521 from Omeed Malik to Working for Ohio, JD Vance for Senate Inc. in the 2022 cycle.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: MALIK, OMEED to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: MALIK, OMEED to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,800 from Palmer Luckey to Working for Ohio, JD Vance for Senate Inc. in the 2022 cycle.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "Zach Witkoff",
+      "slug": "zach-witkoff",
+      "relationship_type": "donor",
+      "description": "FEC filings show $33,000 from Zach Witkoff to Vance Victory, Working for Ohio, JD Vance for Senate Inc. in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00817072&two_year_transaction_period=2024", "title": "FEC receipts: WITKOFF, ZACH to Vance Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00783167&two_year_transaction_period=2024", "title": "FEC receipts: WITKOFF, ZACH to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00783142&two_year_transaction_period=2024", "title": "FEC receipts: WITKOFF, ZACH to JD Vance for Senate Inc." }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Records for Thiel, Trump and Sacks mirror the records already in their files. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Vice President",
+    "unit": "white-house",
+    "rank": 2,
+    "reports_to": "donald-trump",
+    "since": "2025-01-20",
+    "sources": [
+      { "url": "https://www.whitehouse.gov/administration/jd-vance/", "title": "Vice President JD Vance — The White House" }
+    ]
+  }
+}

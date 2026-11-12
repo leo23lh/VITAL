@@ -1,0 +1,117 @@
+{
+  "name": "Zohran Mamdani",
+  "aliases": ["Zohran Kwame Mamdani"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics", "2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic socialist mayor of New York City and former member of the New York State Assembly.",
+      "sources": [
+        { "url": "https://abc11.com/post/zohran-mamdani-sworn-new-york-city-mayor-historic-subway-station/18338381/", "title": "AP via ABC11: Zohran Mamdani sworn in as New York City mayor" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["alexandria-ocasio-cortez"],
+    "basis": "A close political ally; she endorsed him, raised money for him and introduced him at his inauguration.",
+    "sources": [
+      { "url": "https://abc11.com/post/zohran-mamdani-sworn-new-york-city-mayor-historic-subway-station/18338381/", "title": "AP via ABC11: Zohran Mamdani sworn in as New York City mayor" }
+    ]
+  },
+  "photo": {
+    "file": "zohran-mamdani.jpg",
+    "credit": "Dmitryshein",
+    "license": "CC BY-SA 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Zohran_Mamdani_05.25.25_(b)_(cropped).jpg", "title": "File:Zohran Mamdani 05.25.25 (b) (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Mayor of New York City (since January 1, 2026)",
+  "summary": "Zohran Mamdani, a democratic socialist state assemblyman, won New York City's 2025 mayoral race with the backing of Alexandria Ocasio-Cortez and Bernie Sanders, and was sworn in on January 1, 2026, as the city's first Muslim mayor. Michael Bloomberg spent heavily against him.",
+  "sources": [
+    { "url": "https://abc11.com/post/zohran-mamdani-sworn-new-york-city-mayor-historic-subway-station/18338381/", "title": "AP via ABC11: Zohran Mamdani sworn in as New York City mayor" },
+    { "url": "https://en.wikipedia.org/wiki/Zohran_Mamdani", "title": "Wikipedia: Zohran Mamdani" }
+  ],
+  "timeline": [
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Mayor of New York City",
+      "org": "City of New York",
+      "sources": [
+        { "url": "https://abc11.com/post/zohran-mamdani-sworn-new-york-city-mayor-historic-subway-station/18338381/", "title": "AP via ABC11: Zohran Mamdani sworn in as New York City mayor" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "slug": "alexandria-ocasio-cortez",
+      "relationship_type": "ally",
+      "description": "She endorsed and raised money for Mamdani and introduced him at his January 2026 inauguration.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://abc11.com/post/zohran-mamdani-sworn-new-york-city-mayor-historic-subway-station/18338381/", "title": "AP via ABC11: Zohran Mamdani sworn in as New York City mayor" }
+      ]
+    },
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "ally",
+      "description": "Sanders administered Mamdani's public oath as mayor; Mamdani counts him among his political heroes.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://abc11.com/post/zohran-mamdani-sworn-new-york-city-mayor-historic-subway-station/18338381/", "title": "AP via ABC11: Zohran Mamdani sworn in as New York City mayor" }
+      ]
+    },
+    {
+      "name": "Michael Bloomberg",
+      "slug": "michael-bloomberg",
+      "relationship_type": "enemy",
+      "description": "Bloomberg put $5 million into anti-Mamdani super PACs in 2025, making him the cycle's largest donor.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/articles/bloomberg-pumped-5m-anti-mamdani-164000539.html", "title": "Yahoo News: Bloomberg pumped $5M into anti-Mamdani super PACs" }
+      ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "enemy",
+      "description": "On April 15, 2026 Mamdani posted a video naming Griffin's $238 million penthouse to promote a new pied-à-terre tax; Griffin called it a \"personal attack\" that put him \"in harm's way\", and Citadel said it was reassessing its planned $6 billion Park Avenue headquarters tower. Mamdani refused to apologize.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kenneth_C._Griffin", "title": "Ken Griffin — Wikipedia" },
+        { "url": "https://fortune.com/2026/04/16/nyc-mayor-zohran-mamdani-ken-griffins-penthouse-pied-a-terre-tax/", "title": "NYC mayor Zohran Mamdani's video on Ken Griffin's penthouse — Fortune" },
+        { "url": "https://www.cbsnews.com/newyork/news/mayor-zohran-mamdani-citadel-ken-griffin-pied-a-terre-tax/", "title": "Mamdani, Citadel and Ken Griffin clash over pied-à-terre tax — CBS New York" }
+      ]
+    },
+    {
+      "name": "AIPAC",
+      "slug": "aipac",
+      "relationship_type": "enemy",
+      "description": "In 2025 the National Black Empowerment Action Fund said it would spend $1.3 million against the DSA agenda in New York's mayoral race. Wikipedia says AIPAC helped fund the group; news reports reviewed confirm only that its founder, Darius Jones, is an AIPAC alumnus.",
+      "start_year": 2025,
+      "confidence": 0.45,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" },
+        { "url": "https://www.aol.com/articles/zohran-mamdani-democratic-socialists-agenda-220806181.html", "title": "Zohran Mamdani, Democratic Socialists' agenda is bad for Black New Yorkers, advocacy group says — AOL" },
+        { "url": "https://jewishinsider.com/tag/darius-jones/", "title": "Darius Jones — Jewish Insider" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

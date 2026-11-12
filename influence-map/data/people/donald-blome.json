@@ -1,0 +1,54 @@
+{
+  "name": "Donald Blome",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Assistant Secretary for Near Eastern Affairs",
+  "summary": "Donald Blome leads the State Department’s Bureau of Near Eastern Affairs, which reports to the under secretary for political affairs; State’s September 2026 schedules list Blome in the post.",
+  "sources": [
+    { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" },
+    { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Assistant Secretary for Near Eastern Affairs",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Allison Hooker",
+      "slug": "allison-hooker",
+      "relationship_type": "employer",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary for Near Eastern Affairs",
+    "unit": "state",
+    "rank": 4,
+    "reports_to": "allison-hooker",
+    "sources": [
+      { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" },
+      { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+    ]
+  },
+  "notes": "Checked against State Department pages via searches restricted to state.gov (the June 15, 2026 organization chart, bureau pages and September 2026 public schedules).",
+  "last_researched": "2026-11-08"
+}

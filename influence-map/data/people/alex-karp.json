@@ -1,0 +1,686 @@
+{
+  "name": "Alex Karp",
+  "aliases": ["Alexander Karp", "Alexander C. Karp"],
+  "public_figure": true,
+  "sector": "ai-defense",
+  "groups": ["tech-right", "defense-tech"],
+  "photo": {
+    "file": "alex-karp.jpg",
+    "credit": "UK Government",
+    "license": "CC BY 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Alex_Karp_attends_AI_Summit_(53302457013)_4-5_ratio.jpg", "title": "File:Alex Karp attends AI Summit (53302457013) 4-5 ratio.jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": 2024,
+      "basis": "Called himself a socialist and progressive (\"but not woke\") in 2018, said he voted for Hillary Clinton, and was described by the Financial Times in 2024 as a major Biden donor.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Wikipedia: Alex Karp" }
+      ]
+    },
+    {
+      "value": 0,
+      "start_year": 2025,
+      "end_year": null,
+      "basis": "Still calls himself a \"progressive warrior\" but has defended Palantir's work for the Trump administration and drawn criticism from Democrats for switching sides. Mixed record, so Centrist.",
+      "sources": [
+        { "url": "https://www.aol.com/articles/palantir-courts-major-federal-contracts-170000722.html", "title": "AOL: Palantir courts major federal contracts in Trump era" },
+        { "url": "https://www.mprnews.org/story/2025/05/01/npr-palantir-tech-contracts-trump", "title": "NPR: How Palantir is rising in the Trump era" }
+      ]
+    }
+  ],
+  "current_role": "Co-founder and CEO of Palantir Technologies",
+  "summary": "Alex Karp co-founded the data-analytics and defense software company Palantir with Peter Thiel and others and has been its CEO since the company's early years. Raised in a left-leaning household and once a Trump critic, he gave $1 million to Trump's 2025 inaugural committee and has publicly praised Trump's border and national-security policies while Palantir's U.S. government business, including immigration-enforcement work for ICE, has grown sharply.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" },
+    { "url": "https://www.inquirer.com/politics/nation/palantir-ceo-alex-karp-trump-administration-20251216.html", "title": "Palantir CEO Alex Karp and the Trump administration — Philadelphia Inquirer" },
+    { "url": "https://www.thestar.com.my/tech/tech-news/2026/02/03/palantir-ceo-defends-surveillance-tech-as-us-government-contracts-boost-sales", "title": "Palantir CEO defends surveillance tech as US government contracts boost sales — Reuters via The Star" }
+  ],
+  "timeline": [
+    {
+      "year": 1989,
+      "role": "BA in philosophy",
+      "org": "Haverford College",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1992,
+      "role": "JD",
+      "org": "Stanford Law School",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2002,
+      "role": "PhD in neoclassical social theory",
+      "org": "Goethe University Frankfurt",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2004,
+      "end_year": null,
+      "role": "Co-founder and chief executive officer (company incorporated 2003)",
+      "org": "Palantir Technologies",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Palantir Technologies",
+      "role": "Co-founder and CEO",
+      "start_year": 2004,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir in 2003; Karp has been CEO since 2005 and Thiel chairman since 2003.",
+      "start_year": 2003,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm", "title": "Palantir 2025 proxy statement — SEC" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Once critical of Trump, Karp wrote a $1 million check to the Trump-Vance Inaugural Committee and has since praised Trump on border and national security, calling him \"a peace president\" and backing strikes on suspected drug boats. Palantir's U.S. government revenue rose sharply under the administration, including a 2025 ICE contract.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.inquirer.com/politics/nation/palantir-ceo-alex-karp-trump-administration-20251216.html", "title": "Palantir CEO Alex Karp and the Trump administration — Philadelphia Inquirer" },
+        { "url": "https://www.foxbusiness.com/media/palantir-ceo-claims-company-first-completely-anti-woke-backs-trump-admins-bombing-drug-boats", "title": "Palantir CEO claims company is first to be 'completely anti-woke,' backs Trump admin's bombing of drug boats — Fox Business" },
+        { "url": "https://www.thestar.com.my/tech/tech-news/2026/02/03/palantir-ceo-defends-surveillance-tech-as-us-government-contracts-boost-sales", "title": "Palantir CEO defends surveillance tech as US government contracts boost sales — Reuters via The Star" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "ally",
+      "description": "In December 2024 Palantir and Luckey's Anduril were reported (by the Financial Times) to be forming a consortium with other tech firms to bid jointly for U.S. defense contracts.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/2024/12/23/palantir-anduril-spacex-openai-could-partner-to-bid-for-u-s-defense-contracts/", "title": "Palantir, Anduril, SpaceX and OpenAI could partner to bid for U.S. defense contracts — Fortune" },
+        { "url": "https://siliconangle.com/2024/12/22/report-palantir-anduril-join-forces-try-secure-u-s-government-defense-contracts/", "title": "Report: Palantir and Anduril join forces to try to secure U.S. government defense contracts — SiliconANGLE" }
+      ]
+    },
+    {
+      "name": "Brian Schimpf",
+      "slug": "brian-schimpf",
+      "relationship_type": "employee",
+      "description": "Schimpf worked at Palantir from 2007, ending as a director of engineering, before leaving in 2017 to co-found Anduril. Karp was Palantir's CEO throughout; no source describes them working together directly.",
+      "start_year": 2007,
+      "end_year": 2017,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://news.cornell.edu/index%2Ephp/node/331982", "title": "Brian Schimpf '07 and Anduril — Cornell Chronicle" },
+        { "url": "https://businessinsider.in/tech/news/the-left-leaning-cofounder-of-a-1-billion-defense-startup-building-drone-destroyers-and-a-virtual-border-wall-says-if-they-dont-do-the-work-the-united-states-military-loses/articleshow/71775020.cms", "title": "The left-leaning cofounder of a $1 billion defense startup — Business Insider" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir together in 2003–2004 with Peter Thiel, Stephen Cohen and Nathan Gettings.",
+      "start_year": 2003,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" },
+        { "url": "https://generalist.com/briefing/palantir-ipo", "title": "Palantir in one minute — The Generalist" },
+        { "url": "https://techcrunch.com/2017/01/16/joe-lonsdale-moves-forward-with-8vcs-new-fund-and-more/", "title": "Joe Lonsdale moves forward with 8VC’s new fund — TechCrunch" }
+      ]
+    },
+    {
+      "name": "Stephen Cohen",
+      "slug": "stephen-cohen",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir together; Cohen remains the company's president.",
+      "start_year": 2003,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520230013/d904406ds1.htm", "title": "Palantir Technologies Inc. — Form S-1 (SEC, 2020)" },
+        { "url": "https://www.cnbc.com/2014/06/17/disruptors-in-2014-palantir.html", "title": "Disruptors in 2014: Palantir — CNBC" }
+      ]
+    },
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "donor",
+      "description": "The first institutional investor in Palantir, which Karp runs as CEO.",
+      "start_year": 2005,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "employee",
+      "description": "Jacob Helberg was Karp’s senior policy adviser at Palantir from about 2023 until he joined the State Department in 2025.",
+      "start_year": 2023,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://uscc.gov/commission-members/jacob-helberg", "title": "U.S.-China Economic and Security Review Commission: Jacob Helberg" },
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "title": "Revolving Door Project: Jacob Helberg" },
+        { "url": "https://www.axios.com/2025/07/23/hill-valley-helberg-trump-ai", "title": "Axios: Why Hill and Valley is defense tech’s \"Rosetta Stone\"" }
+      ]
+    },
+    {
+      "name": "Palantir Technologies",
+      "slug": "palantir-technologies",
+      "relationship_type": "co-founder",
+      "description": "Karp co-founded Palantir and has been its CEO since 2004.",
+      "start_year": 2004,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir", "title": "Palantir — Wikipedia" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520230013/d904406ds1.htm", "title": "Palantir Technologies Inc. — Form S-1 (SEC, 2020)" },
+        { "url": "https://www.cnbc.com/2014/06/17/disruptors-in-2014-palantir.html", "title": "Disruptors in 2014: Palantir — CNBC" }
+      ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $1,000,000 from Alex Karp to MAGA Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00892471&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to MAGA Inc." }
+      ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $10,000 from Alex Karp to CLF in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to CLF" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "When Karp became Palantir's CEO",
+      "details": "Wikipedia's Karp article says he co-founded Palantir and became CEO in 2004; other accounts say Thiel hired him as CEO in 2003, the year the company was incorporated; this map's Peter Thiel file says CEO since 2005.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+      ]
+    },
+    {
+      "topic": "Political lean",
+      "details": "Karp describes himself as a progressive and has backed Democrats, while reporting describes him as having switched sides to support Trump.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Wikipedia: Alex Karp" },
+        { "url": "https://www.aol.com/articles/palantir-courts-major-federal-contracts-170000722.html", "title": "AOL" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. No documented personal link found to Musk, Altman, Amodei, Vance, Miller or the other PayPal co-founders beyond Thiel. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "leverage": {
+    "level": 2,
+    "basis": "CEO of Palantir, holder of a $10 billion, 10-year Army enterprise agreement (2025) and a $1 billion DHS contract supporting ICE (2026), and part of the group building Golden Dome’s software.",
+    "sources": [
+      { "url": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000048/pltr-20260930.htm", "title": "Palantir Technologies Form 10-Q, quarter ended September 30, 2026 — SEC" },
+      { "url": "https://therevolvingdoorproject.org/billionaires-and-the-trump-admin-peter-thiel/", "title": "Billionaires and the Trump administration: Peter Thiel — Revolving Door Project (advocacy group)" },
+      { "url": "https://www.bloomberg.com/news/articles/2026-04-22/spacex-tapped-for-industry-group-developing-golden-dome-software", "title": "SpaceX joins group building Pentagon’s Golden Dome defense software — Bloomberg (April 2026)" }
+    ]
+  },
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 2581430,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&two_year_transaction_period=2026", "title": "FEC itemized receipts: KARP, ALEX, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Grow the Majority",
+            "kind": "pac",
+            "amount_usd": 360000,
+            "fec_usd": 360000,
+            "fec_ids": ["C00858373"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00858373&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Grow the Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 310100,
+            "fec_usd": 310100,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00075820&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to NRCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Texans for a Conservative Majority",
+            "kind": "super-pac",
+            "amount_usd": 255000,
+            "fec_usd": 255000,
+            "fec_ids": ["C00542217"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00542217&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Texans for a Conservative Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "America One",
+            "kind": "super-pac",
+            "amount_usd": 125000,
+            "fec_usd": 125000,
+            "fec_ids": ["C00728667"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00728667&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to America One, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Louisiana Legacy PAC",
+            "kind": "super-pac",
+            "amount_usd": 125000,
+            "fec_usd": 125000,
+            "fec_ids": ["C00638528"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00638528&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Louisiana Legacy PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Last Frontier PAC",
+            "kind": "super-pac",
+            "amount_usd": 125000,
+            "fec_usd": 125000,
+            "fec_ids": ["C00875278"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00875278&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Last Frontier PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Cornyn Victory Committee",
+            "kind": "pac",
+            "amount_usd": 114015,
+            "fec_usd": 114015,
+            "fec_ids": ["C00770180"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00770180&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Cornyn Victory Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Pine Tree Results PAC",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00894709"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00894709&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Pine Tree Results PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Americans 4 Security PAC",
+            "kind": "super-pac",
+            "amount_usd": 525000,
+            "fec_usd": 525000,
+            "fec_ids": ["C00733352"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00733352&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Americans 4 Security PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 88315,
+            "fec_usd": 88315,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to NRSC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10000,
+            "fec_usd": 10000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: CLF $10,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to CLF, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 7000,
+            "fec_usd": 7000,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $7,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Mike Johnson for Louisiana, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Security Is Strength PAC",
+            "kind": "super-pac",
+            "amount_usd": 90000,
+            "fec_usd": 90000,
+            "fec_ids": ["C00573733"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00573733&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to Security Is Strength PAC, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 2864140,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&two_year_transaction_period=2024", "title": "FEC itemized receipts: KARP, ALEX, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "org": "maga-inc",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00892471"],
+            "description": "Per FEC filings: MAGA Inc. $1,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00892471&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to MAGA Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Harris Victory Fund",
+            "kind": "pac",
+            "amount_usd": 360000,
+            "fec_usd": 360000,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Harris Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 141520,
+            "fec_usd": 141520,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00027466&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to NRSC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Cornyn Victory Committee",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00770180"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00770180&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Cornyn Victory Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Mission Iowa",
+            "kind": "super-pac",
+            "amount_usd": 90000,
+            "fec_usd": 90000,
+            "fec_ids": ["C00874370"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00874370&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Mission Iowa, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 86000,
+            "fec_usd": 86000,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00042366&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to DSCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 77800,
+            "fec_usd": 77800,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00000935&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to DCCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Hoosier Honor",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00774257"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00774257&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Hoosier Honor, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Nevada Senate Victory 2024",
+            "kind": "pac",
+            "amount_usd": 41300,
+            "fec_usd": 41300,
+            "fec_ids": ["C00829929"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00829929&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Nevada Senate Victory 2024, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 41300,
+            "fec_usd": 41300,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00010603&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to DNC Services Corp / Democratic National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Emmer Victory Committee Dba Republican Congressional Victory Committee",
+            "kind": "pac",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00573444"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00573444&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Emmer Victory Committee Dba Republican Congressional Victory Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00620518"],
+            "description": "Per FEC filings: Marco Rubio for Senate $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00620518&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Marco Rubio for Senate, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00409581"],
+            "description": "Per FEC filings: Friends of John Thune $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00409581&two_year_transaction_period=2024", "title": "FEC receipts: KARP, ALEX to Friends of John Thune, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 52770,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&two_year_transaction_period=2022", "title": "FEC itemized receipts: KARP, ALEX, 2022 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 123500,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&two_year_transaction_period=2020", "title": "FEC itemized receipts: KARP, ALEX, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Biden Victory Fund",
+            "kind": "pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00744946&two_year_transaction_period=2020", "title": "FEC receipts: KARP, ALEX to Biden Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 35500,
+            "fec_usd": 35500,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00010603&two_year_transaction_period=2020", "title": "FEC receipts: KARP, ALEX to DNC Services Corp / Democratic National Committee, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 46400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&two_year_transaction_period=2018", "title": "FEC itemized receipts: KARP, ALEX, 2018 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 144400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&two_year_transaction_period=2016", "title": "FEC itemized receipts: KARP, ALEX, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Hillary Victory Fund",
+            "kind": "pac",
+            "amount_usd": 32500,
+            "fec_usd": 32500,
+            "fec_ids": ["C00586537"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00586537&two_year_transaction_period=2016", "title": "FEC receipts: KARP, ALEX to Hillary Victory Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 30000,
+            "fec_usd": 30000,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00075820&two_year_transaction_period=2016", "title": "FEC receipts: KARP, ALEX to NRCC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 30000,
+            "fec_usd": 30000,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00042366&two_year_transaction_period=2016", "title": "FEC receipts: KARP, ALEX to DSCC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp./dem. Nat'l Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 29800,
+            "fec_usd": 29800,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00010603&two_year_transaction_period=2016", "title": "FEC receipts: KARP, ALEX to DNC Services Corp./dem. Nat'l Committee, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "asks": [
+    {
+      "date": "2025-05",
+      "with": [],
+      "kind": "contract",
+      "outcome": "granted",
+      "decided": "2025-07-31",
+      "what": "Palantir won an Army enterprise agreement worth up to $10 billion over 10 years, folding 75 contracts into one.",
+      "sources": [
+        { "url": "https://defensescoop.com/2025/07/31/army-palantir-software-enterprise-agreement-10-billion/", "title": "Army, Palantir software enterprise agreement — DefenseScoop" },
+        { "url": "https://www.theregister.com/2025/08/01/palantir_us_army_contract/", "title": "$10 billion US Army contract — The Register" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "name": "Howard Lutnick",
+  "aliases": ["Howard William Lutnick"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": 2024,
+      "end_year": null,
+      "basis": "Major donor to and fundraiser for Trump's 2024 campaign, co-chair of his transition, and commerce secretary since 2025.",
+      "sources": [
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/08/16/howard-lutnick-linda-mcmahon-to-chair-trump-transition-team", "title": "Bloomberg: Howard Lutnick, Linda McMahon to chair Trump transition team" },
+        { "url": "https://www.ibj.com/articles/u-s-senate-confirms-financier-howard-lutnick-as-commerce-secretary", "title": "AP via IBJ: Senate confirms Howard Lutnick as commerce secretary" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "howard-lutnick.jpg",
+    "credit": "Daniel Torok",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Howard_Lutnick_2025.jpg", "title": "File:Howard Lutnick 2025.jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. Secretary of Commerce (since February 2025)",
+  "summary": "Howard Lutnick joined the bond brokerage Cantor Fitzgerald in 1983, became its CEO in 1991 and chairman in 1996, and rebuilt it after the September 11 attacks killed 658 of its employees. A major Trump donor, he co-chaired the 2024 transition with Linda McMahon, lost a public contest with Scott Bessent for Treasury despite Elon Musk's backing, and was confirmed as commerce secretary 51–45 in February 2025.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Howard_Lutnick", "title": "Wikipedia: Howard Lutnick" },
+    { "url": "https://www.ibj.com/articles/u-s-senate-confirms-financier-howard-lutnick-as-commerce-secretary", "title": "AP via IBJ: Senate confirms Howard Lutnick as commerce secretary" },
+    { "url": "https://bnnbloomberg.ca/business/company-news/2024/08/16/howard-lutnick-linda-mcmahon-to-chair-trump-transition-team", "title": "Bloomberg: Howard Lutnick, Linda McMahon to chair Trump transition team" }
+  ],
+  "timeline": [
+    {
+      "year": 1991,
+      "end_year": 2025,
+      "role": "President and CEO (from 1991), chairman (from 1996)",
+      "org": "Cantor Fitzgerald",
+      "sources": [
+        { "url": "https://www.ibj.com/articles/u-s-senate-confirms-financier-howard-lutnick-as-commerce-secretary", "title": "AP via IBJ: Senate confirms Howard Lutnick as commerce secretary" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": 2025,
+      "role": "Co-chair of the Trump–Vance transition",
+      "org": "Trump–Vance transition",
+      "sources": [
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/08/16/howard-lutnick-linda-mcmahon-to-chair-trump-transition-team", "title": "Bloomberg: Howard Lutnick, Linda McMahon to chair Trump transition team" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Secretary of Commerce (confirmed 51–45 on February 18, 2025)",
+      "org": "U.S. Department of Commerce",
+      "sources": [
+        { "url": "https://www.ibj.com/articles/u-s-senate-confirms-financier-howard-lutnick-as-commerce-secretary", "title": "AP via IBJ: Senate confirms Howard Lutnick as commerce secretary" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump named Lutnick commerce secretary; he was confirmed in February 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.ibj.com/articles/u-s-senate-confirms-financier-howard-lutnick-as-commerce-secretary", "title": "AP via IBJ: Senate confirms Howard Lutnick as commerce secretary" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Lutnick was a major donor to Trump's 2024 campaign and among the largest donors to his transition, which he co-chaired.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/08/16/howard-lutnick-linda-mcmahon-to-chair-trump-transition-team", "title": "Bloomberg: Howard Lutnick, Linda McMahon to chair Trump transition team" },
+        { "url": "https://www.nbcnews.com/politics/white-house/trump-transition-team-discloses-donors-one-year-pledged-release-rcna246131", "title": "NBC News: Trump transition team discloses donors" }
+      ]
+    },
+    {
+      "name": "Linda McMahon",
+      "slug": "linda-mcmahon",
+      "relationship_type": "colleague",
+      "description": "Co-chairs of Trump's 2024 transition.",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/08/16/howard-lutnick-linda-mcmahon-to-chair-trump-transition-team", "title": "Bloomberg: Howard Lutnick, Linda McMahon to chair Trump transition team" }
+      ]
+    },
+    {
+      "name": "Scott Bessent",
+      "slug": "scott-bessent",
+      "relationship_type": "rival",
+      "description": "Lutnick openly competed with Bessent for the Treasury nomination in November 2024 and lost; they later worked together on the April 2025 tariff pause.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://fortune.com/2024/11/16/elon-musk-cantor-fitzgerald-howard-lutnick-treasury-secretary-bitcoin-scott-bessent-trump-cabinet/", "title": "Fortune: Musk backs Lutnick over Bessent for Treasury" },
+        { "url": "https://www.foxbusiness.com/politics/how-howard-lutnick-lost-his-epic-battle-trumps-treasury-lot-more", "title": "Fox Business: How Howard Lutnick lost his battle for Treasury" },
+        { "url": "https://www.wsj.com/politics/policy/trump-tariff-pause-navarro-bessent-lutnick-b9e864fb", "title": "WSJ: Tariff pause" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "ally",
+      "description": "Musk publicly backed Lutnick for Treasury in November 2024, saying he would \"actually enact change\".",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://fortune.com/2024/11/16/elon-musk-cantor-fitzgerald-howard-lutnick-treasury-secretary-bitcoin-scott-bessent-trump-cabinet/", "title": "Fortune: Musk backs Lutnick over Bessent for Treasury" }
+      ]
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "ally",
+      "description": "Fox Business reported that Kennedy, with Musk, helped Lutnick persuade Trump to reopen the Treasury search in November 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.foxbusiness.com/politics/how-howard-lutnick-lost-his-epic-battle-trumps-treasury-lot-more", "title": "Fox Business: How Howard Lutnick lost his battle for Treasury" }
+      ]
+    },
+    {
+      "name": "Paul Dabbar",
+      "slug": "paul-dabbar",
+      "relationship_type": "employee",
+      "description": "Lutnick’s deputy at Commerce since June 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.commerce.gov/about/leadership/paul-m-dabbar", "title": "Paul M. Dabbar — U.S. Department of Commerce" },
+        { "url": "https://www.upi.com/Top_News/US/2025/06/25/paul-dabbar-commerce-deputy-secretary/2971750894180/", "title": "Senate confirms Dabbar as Commerce Department deputy secretary — UPI" }
+      ]
+    },
+    {
+      "name": "Jeffrey Kessler",
+      "slug": "jeffrey-kessler",
+      "relationship_type": "employee",
+      "description": "Leads the Bureau of Industry and Security under Lutnick.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.commerce.gov/about/leadership", "title": "Leadership — U.S. Department of Commerce" },
+        { "url": "https://en.wikipedia.org/wiki/Bureau_of_Industry_and_Security", "title": "Bureau of Industry and Security — Wikipedia" }
+      ]
+    },
+    {
+      "name": "William Kimmitt",
+      "slug": "william-kimmitt",
+      "relationship_type": "employee",
+      "description": "Leads the International Trade Administration under Lutnick.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.commerce.gov/about/leadership", "title": "Leadership — U.S. Department of Commerce" }
+      ]
+    },
+    {
+      "name": "Neil Jacobs",
+      "slug": "neil-jacobs",
+      "relationship_type": "employee",
+      "description": "Runs NOAA, a Commerce Department agency, under Lutnick.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.noaa.gov/about-our-agency/leadership-and-senior-advisors", "title": "Leadership and senior advisors — NOAA" },
+        { "url": "https://www.commerce.gov/bureaus-and-offices/noaa", "title": "National Oceanic and Atmospheric Administration — U.S. Department of Commerce" }
+      ]
+    },
+    {
+      "name": "John Squires",
+      "slug": "john-squires",
+      "relationship_type": "employee",
+      "description": "Heads the USPTO, a Commerce Department agency, as under secretary for intellectual property.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.uspto.gov/about-us/news-updates/uspto-welcomes-new-director-john-squires", "title": "USPTO welcomes new Director John A. Squires — USPTO" },
+        { "url": "https://ipwatchdog.com/2026/09/29/senate-ip-subcommittee-focuses-on-fee-setting-ptab-rule-in-uspto-oversight-hearing/", "title": "Senate IP subcommittee focuses on fee-setting, PTAB rule in USPTO oversight hearing — IPWatchdog (September 2026)" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Commerce",
+    "unit": "commerce",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Howard_Lutnick", "title": "Wikipedia: Howard Lutnick" },
+      { "url": "https://www.ibj.com/articles/u-s-senate-confirms-financier-howard-lutnick-as-commerce-secretary", "title": "AP via IBJ: Senate confirms Howard Lutnick as commerce secretary" }
+    ]
+  }
+}

@@ -1,0 +1,591 @@
+{
+  "name": "Joe Lonsdale",
+  "aliases": ["Joseph Lonsdale"],
+  "public_figure": true,
+  "sector": "tech",
+  "groups": ["tech-right", "ai-race", "2028-race"],
+  "photo": {
+    "file": "joe-lonsdale.jpg",
+    "credit": "TechCrunch",
+    "license": "CC BY 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Joe_Lonsdale.jpg", "title": "File:Joe Lonsdale.jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Active Republican donor and fundraiser: helped lead Musk's pro-Trump America PAC in 2024 and hosted a Republican fundraiser for Vance in 2026.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Wikipedia: Joe Lonsdale" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Hawaii Tribune-Herald: America PAC" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["jd-vance"],
+    "basis": "Hosted a $50,000-a-head fundraiser for Vance in March 2026 and has said Vance could be the party's 2028 pick; named among Vance's donor network.",
+    "sources": [
+      { "url": "https://www.fox7austin.com/news/vice-president-jd-vance-visits-austin-fundraising-event", "title": "Fox 7 Austin: Vance visits Austin fundraising event" },
+      { "url": "https://www.forbes.com/sites/alisondurkee/2026/04/16/here-are-the-billionaires-cozying-up-to-jd-vance/", "title": "Forbes: The billionaires cozying up to JD Vance" }
+    ]
+  },
+  "current_role": "Co-founder and managing partner of 8VC",
+  "summary": "Joe Lonsdale, a Peter Thiel protégé, co-founded Palantir in 2004, then Addepar and OpenGov, and the venture firms Formation 8 and 8VC, which he moved to Austin in 2020. An active Republican donor and fundraiser, he helped lead Elon Musk's pro-Trump America PAC in 2024, backs the pro-AI super PAC Leading the Future, invested in Palmer Luckey's Erebor bank, and hosted a JD Vance fundraiser in Austin in 2026. He also founded the Cicero Institute and co-founded the University of Austin.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+    { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
+    { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
+  ],
+  "timeline": [
+    {
+      "year": 2002,
+      "end_year": 2003,
+      "role": "Editor-in-chief",
+      "org": "The Stanford Review",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2004,
+      "end_year": 2009,
+      "role": "Co-founder (after working at Thiel's hedge fund Clarium Capital)",
+      "org": "Palantir Technologies",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2009,
+      "role": "Co-founder; CEO, then chairman from 2013",
+      "org": "Addepar",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2011,
+      "end_year": 2015,
+      "role": "Co-founder",
+      "org": "Formation 8",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2012,
+      "end_year": 2024,
+      "role": "Co-founder and chairman",
+      "org": "OpenGov",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": null,
+      "role": "Co-founder and managing partner (investor in Anduril among others)",
+      "org": "8VC",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "role": "Helped lead and fund America PAC, Elon Musk's pro-Trump super PAC",
+      "org": "America PAC",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
+        { "url": "https://hn.jakechampion.name/reader/https://www.theverge.com/2024/7/16/24199700/elon-musk-joe-lonsdale-america-pac-donald-trump", "title": "Elon Musk and tech elite back a pro-Trump super PAC — The Verge" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "8VC",
+      "role": "Co-founder and managing partner",
+      "start_year": 2015,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Cicero Institute",
+      "role": "Founder",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "name": "University of Austin",
+      "role": "Co-founder",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Leading the Future (pro-AI super PAC)",
+      "role": "Backer",
+      "start_year": 2025,
+      "sources": [
+        { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
+      ]
+    },
+    {
+      "name": "Erebor (bank)",
+      "role": "Investor",
+      "start_year": 2025,
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/tech-billionaires-led-palmer-luckey-124008946.html", "title": "Palmer Luckey, backed by Palantir's Lonsdale, to launch crypto-focused bank — Reuters via Yahoo Finance" },
+        { "url": "https://finance.yahoo.com/news/palmer-luckey-backed-erebor-receives-225304165.html", "title": "Palmer Luckey-backed Erebor receives US national banking charter — Reuters via Yahoo Finance" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Alex Karp",
+      "slug": "alex-karp",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir together in 2003–2004 with Peter Thiel, Stephen Cohen and Nathan Gettings.",
+      "start_year": 2003,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Alex_Karp", "title": "Alex Karp — Wikipedia" },
+        { "url": "https://generalist.com/briefing/palantir-ipo", "title": "Palantir in one minute — The Generalist" },
+        { "url": "https://techcrunch.com/2017/01/16/joe-lonsdale-moves-forward-with-8vcs-new-fund-and-more/", "title": "Joe Lonsdale moves forward with 8VC’s new fund — TechCrunch" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "mentor",
+      "description": "Thiel, who co-founded The Stanford Review that Lonsdale later edited, became his mentor; Lonsdale worked as an early executive at Thiel's hedge fund Clarium Capital.",
+      "start_year": 2004,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://stanforddaily.com/2013/02/18/QA-JOE-LONSDALE-04-FOUNDER-OF-PALANTIR-ADDEPAR-TALKS-ABOUT-STANFORD-ROOTS/", "title": "Joe Lonsdale, Palantir and Addepar co-founder, talks about Stanford roots — Stanford Daily" },
+        { "url": "https://www.bloomberg.com/news/articles/2024-11-01/joe-lonsdale-like-peter-thiel-plows-his-tech-fortune-into-conservative-causes", "title": "Joe Lonsdale is seed funding young conservative minds — Bloomberg" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir together in 2004 with Alex Karp, Stephen Cohen and Nathan Gettings; Lonsdale left in 2009 but kept an advisory role and a stake. Thiel was also an early investor in Lonsdale's Addepar.",
+      "start_year": 2004,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://generalist.com/briefing/palantir-ipo", "title": "Palantir in one minute — The Generalist" },
+        { "url": "https://stanforddaily.com/2014/03/16/palantir-co-founder-talks-technology-transformations/", "title": "Palantir co-founder talks technology transformations — Stanford Daily" },
+        { "url": "https://techcrunch.com/2017/01/16/joe-lonsdale-moves-forward-with-8vcs-new-fund-and-more/", "title": "Joe Lonsdale moves forward with 8VC’s new fund — TechCrunch" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "ally",
+      "description": "Described by The New York Times as a friend and \"political confidant\" of Musk, Lonsdale was among the leaders and fundraisers of Musk's pro-Trump America PAC in 2024.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
+        { "url": "https://hn.jakechampion.name/reader/https://www.theverge.com/2024/7/16/24199700/elon-musk-joe-lonsdale-america-pac-donald-trump", "title": "Elon Musk and tech elite back a pro-Trump super PAC — The Verge" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Lonsdale hosted a $50,000-a-head Republican fundraiser for Vance in Austin in March 2026 and has said Vance could be the party's 2028 pick.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.fox7austin.com/news/vice-president-jd-vance-visits-austin-fundraising-event", "title": "Vice President JD Vance visits Austin for fundraising event — FOX 7 Austin" },
+        { "url": "https://www.kxan.com/news/texas-politics/vance-visits-austin-for-fundraiser-with-50000-cover-charge/amp/", "title": "Vance visits Austin for fundraiser with $50,000 cover charge — KXAN" },
+        { "url": "https://www.bloomberg.com/news/articles/2024-11-01/joe-lonsdale-like-peter-thiel-plows-his-tech-fortune-into-conservative-causes", "title": "Joe Lonsdale Is Seed Funding Young Conservative Minds — Bloomberg" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "ally",
+      "description": "Lonsdale backed Erebor, the crypto- and defense-focused bank Luckey launched in 2025 (it won a national charter in 2025–2026), and his firm 8VC invested in Luckey's Anduril.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/tech-billionaires-led-palmer-luckey-124008946.html", "title": "Palmer Luckey, backed by Palantir's Lonsdale, to launch crypto-focused bank — Reuters via Yahoo Finance" },
+        { "url": "https://finance.yahoo.com/news/palmer-luckey-backed-erebor-receives-225304165.html", "title": "Palmer Luckey-backed Erebor receives US national banking charter — Reuters via Yahoo Finance" },
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "ally",
+      "description": "Sacks led the $50 million Series C in 2014 of Addepar, which Lonsdale co-founded. Wikipedia says both backed Musk's America PAC in 2024; filings reported in July 2024 list Lonsdale's company as a donor but not Sacks.",
+      "start_year": 2009,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://blumbergcapital.com/news-insights/addepar-seeks-funding-pre-money-valuation/", "title": "Addepar funding — Blumberg Capital" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "ally",
+      "description": "Co-backers of the pro-AI super PAC network Leading the Future, launched in August 2025 with Andreessen Horowitz, Greg Brockman and Ron Conway.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "ally",
+      "description": "Co-backers of the pro-AI super PAC network Leading the Future, launched in August 2025 with Andreessen Horowitz, Greg Brockman and Ron Conway.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
+      ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "ally",
+      "description": "Co-backers of the pro-AI super PAC network Leading the Future, launched in August 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
+      ]
+    },
+    {
+      "name": "Stephen Cohen",
+      "slug": "stephen-cohen",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Palantir together in 2004.",
+      "start_year": 2004,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://www.cnbc.com/2014/06/17/disruptors-in-2014-palantir.html", "title": "Disruptors in 2014: Palantir — CNBC" },
+        { "url": "https://fortune.com/2025/05/06/palantir-cultural-shift-us-justified-20-years-thankless-toil-freak-show/", "title": "Defense contractor Palantir says 'massive cultural shift in the U.S.' has justified 20 years of thankless toil — Fortune" }
+      ]
+    },
+    {
+      "name": "America PAC",
+      "slug": "america-pac",
+      "relationship_type": "funded_by",
+      "description": "Among its founding backers in 2024; Lonsdale helped lead and raise money for it, and his company gave it $1 million.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" }
+      ]
+    },
+    {
+      "name": "Leading the Future",
+      "slug": "leading-the-future",
+      "relationship_type": "funded_by",
+      "description": "Named among its founding backers in August 2025.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" },
+        { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "friend",
+      "description": "The New York Times described Lonsdale as a friend and “political confidant” of Musk.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" },
+        { "url": "https://hn.jakechampion.name/reader/https://www.theverge.com/2024/7/16/24199700/elon-musk-joe-lonsdale-america-pac-donald-trump", "title": "Elon Musk and tech elite back a pro-Trump super PAC — The Verge" }
+      ]
+    },
+    {
+      "name": "Palantir Technologies",
+      "slug": "palantir-technologies",
+      "relationship_type": "co-founder",
+      "description": "Lonsdale co-founded Palantir and left in 2009, keeping an advisory role and a stake.",
+      "start_year": 2004,
+      "end_year": 2009,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir", "title": "Palantir — Wikipedia" },
+        { "url": "https://www.cnbc.com/2018/05/14/palantir-co-founder-joe-lonsdale-wouldnt-mind-if-it-went-public.html", "title": "Palantir co-founder Joe Lonsdale 'wouldn't mind' if the company went public in the next few years — CNBC" },
+        { "url": "https://fortune.com/2025/05/06/palantir-cultural-shift-us-justified-20-years-thankless-toil-freak-show/", "title": "Defense contractor Palantir says 'massive cultural shift in the U.S.' has justified 20 years of thankless toil — Fortune" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $17,200 from Joe Lonsdale to Ted Cruz for Senate, Ted Cruz Victory Committee, Jobs, Freedom, and Security PAC in 2 cycles (2022–2024).",
+      "start_year": 2021,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: LONSDALE, JOE to Ted Cruz for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: LONSDALE, JOE to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: LONSDALE, JOE to Jobs, Freedom, and Security PAC" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Role at Erebor",
+      "details": "Some reports call Lonsdale a co-founder of Erebor with Palmer Luckey; most describe him as a backer or investor.",
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/tech-billionaires-led-palmer-luckey-124008946.html", "title": "Palmer Luckey, backed by Palantir's Lonsdale, to launch crypto-focused bank — Reuters via Yahoo Finance" },
+        { "url": "https://finance.yahoo.com/news/palmer-luckey-backed-erebor-receives-225304165.html", "title": "Palmer Luckey-backed Erebor receives US national banking charter — Reuters via Yahoo Finance" }
+      ]
+    },
+    {
+      "topic": "Palantir founding year",
+      "details": "Lonsdale's Wikipedia article gives 2004; this map's Karp record and other sources date Palantir's incorporation to 2003.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palantir_Technologies", "title": "Palantir Technologies — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched with web searches plus direct reads of Wikipedia articles (other pages could not be opened); facts were checked against search results tied to each cited URL. Not recorded: a 2015 lawsuit involving Lonsdale (private matter, settled). No documented role in DOGE was found. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 318500,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&two_year_transaction_period=2026", "title": "FEC itemized receipts: LONSDALE, JOE, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "One Team Senate Majority",
+            "kind": "pac",
+            "amount_usd": 150000,
+            "fec_usd": 150000,
+            "fec_ids": ["C00897918"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00897918&two_year_transaction_period=2026", "title": "FEC receipts: LONSDALE, JOE to One Team Senate Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Markwayne Mullin",
+            "slug": "markwayne-mullin",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5000,
+            "fec_usd": 5000,
+            "fec_ids": ["C00498345"],
+            "description": "Per FEC filings: Mullin for America $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00498345&two_year_transaction_period=2026", "title": "FEC receipts: LONSDALE, JOE to Mullin for America, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 107100,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&two_year_transaction_period=2024", "title": "FEC itemized receipts: LONSDALE, JOE, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 13200,
+            "fec_usd": 13200,
+            "fec_ids": ["C00492785", "C00536540", "C00542423"],
+            "description": "Per FEC filings: Ted Cruz Victory Committee $6,600; Ted Cruz for Senate $4,600; Jobs, Freedom, and Security PAC $2,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00542423&two_year_transaction_period=2024", "title": "FEC receipts: LONSDALE, JOE to Ted Cruz Victory Committee, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: LONSDALE, JOE to Ted Cruz for Senate, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: LONSDALE, JOE to Jobs, Freedom, and Security PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ron DeSantis",
+            "slug": "ron-desantis",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00841130"],
+            "description": "Per FEC filings: Restore Our Nation (Ron PAC) $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: LONSDALE, JOE to Restore Our Nation (Ron PAC), 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 94780,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&two_year_transaction_period=2022", "title": "FEC itemized receipts: LONSDALE, JOE, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 4000,
+            "fec_usd": 4000,
+            "fec_ids": ["C00492785", "C00542423"],
+            "description": "Per FEC filings: Ted Cruz for Senate $2,000; Ted Cruz Victory Committee $2,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00492785&two_year_transaction_period=2022", "title": "FEC receipts: LONSDALE, JOE to Ted Cruz for Senate, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00542423&two_year_transaction_period=2022", "title": "FEC receipts: LONSDALE, JOE to Ted Cruz Victory Committee, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Mehmet Oz",
+            "slug": "mehmet-oz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 3900,
+            "fec_usd": 3900,
+            "fec_ids": ["C00795930"],
+            "description": "Per FEC filings: Doctor Oz for Senate $3,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00795930&two_year_transaction_period=2022", "title": "FEC receipts: LONSDALE, JOE to Doctor Oz for Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00783142"],
+            "description": "Per FEC filings: JD Vance for Senate Inc. $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: LONSDALE, JOE to JD Vance for Senate Inc., 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 141173,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&two_year_transaction_period=2020", "title": "FEC itemized receipts: LONSDALE, JOE, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 35000,
+            "fec_usd": 35000,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00027466&two_year_transaction_period=2020", "title": "FEC receipts: LONSDALE, JOE to NRSC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Pete Buttigieg",
+            "slug": "pete-buttigieg",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 1000,
+            "fec_usd": 1000,
+            "fec_ids": ["C00697441"],
+            "description": "Per FEC filings: Win the Era PAC $1,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00697441&two_year_transaction_period=2020", "title": "FEC receipts: LONSDALE, JOE to Win the Era PAC, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 83500,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&two_year_transaction_period=2018", "title": "FEC itemized receipts: LONSDALE, JOE, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 30000,
+            "fec_usd": 30000,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00027466&two_year_transaction_period=2018", "title": "FEC receipts: LONSDALE, JOE to NRSC, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 33400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&two_year_transaction_period=2016", "title": "FEC itemized receipts: LONSDALE, JOE, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "John Ratcliffe",
+            "slug": "john-ratcliffe",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 1000,
+            "fec_usd": 1000,
+            "fec_ids": ["C00554113"],
+            "description": "Per FEC filings: Ratcliffe for Congress $1,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LONSDALE%2C+JOE&committee_id=C00554113&two_year_transaction_period=2016", "title": "FEC receipts: LONSDALE, JOE to Ratcliffe for Congress, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

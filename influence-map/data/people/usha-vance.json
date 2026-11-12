@@ -1,0 +1,73 @@
+{
+  "name": "Usha Vance",
+  "aliases": ["Usha Chilukuri Vance"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["jd-vance"],
+    "basis": "His wife and a prominent public figure as second lady; she has said 2028 discussions are deferred to 2027.",
+    "sources": [
+      { "url": "https://ground.news/article/usha-vance-on-disagreements-with-jd-vance-2028-and-shopping-at-costco_5d1112", "title": "Ground News: Usha Vance on 2028" }
+    ]
+  },
+  "photo": {
+    "file": "usha-vance.jpg",
+    "credit": "Emily Higgins",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Usha_Vance,_official_portrait_(2025)_(cropped_reasonable).jpg", "title": "File:Usha Vance, official portrait (2025) (cropped reasonable).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Second Lady of the United States (since January 2025)",
+  "summary": "Usha Vance, a Yale-trained lawyer, clerked for Brett Kavanaugh on the D.C. Circuit and for Chief Justice John Roberts, then litigated at Munger, Tolles & Olson until her husband became Trump's running mate in 2024. As second lady she leads a children's literacy project and has become a prominent public figure.",
+  "sources": [
+    { "url": "https://ballotpedia.org/Usha_Vance", "title": "Ballotpedia: Usha Vance" },
+    { "url": "https://ktvz.com/politics/cnn-us-politics/2025/03/09/from-high-powered-lawyer-to-high-profile-public-figure-usha-vance-settles-into-a-new-role/", "title": "CNN via KTVZ: Usha Vance settles into a new role" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2018,
+      "role": "Law clerk to Chief Justice John Roberts (earlier clerked for Judge Brett Kavanaugh)",
+      "org": "U.S. Supreme Court",
+      "sources": [
+        { "url": "https://abajournal.com/syndicated/article/wife-of-trumps-vp-pick-who-clerked-for-roberts-and-kavanaugh-leaves-her-firm", "title": "ABA Journal" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": 2024,
+      "role": "Litigator",
+      "org": "Munger, Tolles & Olson",
+      "sources": [
+        { "url": "https://abajournal.com/syndicated/article/wife-of-trumps-vp-pick-who-clerked-for-roberts-and-kavanaugh-leaves-her-firm", "title": "ABA Journal" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Second Lady of the United States",
+      "org": "Office of the Vice President",
+      "sources": [
+        { "url": "https://ktvz.com/politics/cnn-us-politics/2025/03/09/from-high-powered-lawyer-to-high-profile-public-figure-usha-vance-settles-into-a-new-role/", "title": "CNN via KTVZ" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "family",
+      "description": "Married in 2014; she has been second lady since January 2025.",
+      "start_year": 2014,
+      "end_year": null,
+      "confidence": 0.99,
+      "sources": [
+        { "url": "https://ballotpedia.org/Usha_Vance", "title": "Ballotpedia: Usha Vance" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

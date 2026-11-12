@@ -1,0 +1,113 @@
+{
+  "name": "Heritage Foundation",
+  "aliases": [],
+  "kind": "think-tank",
+  "side": "R",
+  "groups": [],
+  "summary": "A Washington conservative think tank that JD Vance called \"the most influential engine of ideas for Republicans from Ronald Reagan to Donald Trump\". Under president Kevin Roberts (since 2021) it led Project 2025, the policy blueprint for a second Trump administration, with Russ Vought among its main architects. In late 2025 Roberts's video defending Tucker Carlson's interview with Nick Fuentes drew public protests from Heritage staff and an apology for his wording.",
+  "sources": [
+    { "url": "https://www.axios.com/2024/07/25/vance-project-2025-book-trump-heritage-foundation", "title": "J.D. Vance wrote foreword of upcoming book from Project 2025 architect — Axios" },
+    { "url": "https://www.cbsnews.com/news/heritage-foundation-kevin-roberts-tucker-carlson-interview-nick-fuentes/", "title": "Heritage Foundation head defends Tucker Carlson for hosting Nick Fuentes — CBS News" },
+    { "url": "https://www.ksat.com/news/politics/2025/10/31/heritage-foundation-head-defends-tucker-carlson-for-hosting-white-nationalist-with-antisemitic-views/", "title": "Heritage Foundation head defends Tucker Carlson for hosting white nationalist with antisemitic views — AP via KSAT" },
+    { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" }
+  ],
+  "connections": [
+    {
+      "name": "Kevin Roberts",
+      "slug": "kevin-roberts",
+      "relationship_type": "employee",
+      "description": "President since 2021 and the leader of Project 2025.",
+      "start_year": 2021,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2024/07/25/vance-project-2025-book-trump-heritage-foundation", "title": "J.D. Vance wrote foreword of upcoming book from Project 2025 architect — Axios" },
+        { "url": "https://www.cbsnews.com/news/heritage-foundation-kevin-roberts-tucker-carlson-interview-nick-fuentes/", "title": "Heritage Foundation head defends Tucker Carlson for hosting Nick Fuentes — CBS News" }
+      ]
+    },
+    {
+      "name": "Russ Vought",
+      "slug": "russ-vought",
+      "relationship_type": "ally",
+      "description": "One of the main architects of Project 2025, Heritage's blueprint for a second Trump administration, before he returned to lead the budget office.",
+      "start_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russell_Vought", "title": "Russell Vought — Wikipedia" },
+        { "url": "https://www.bostonglobe.com/2024/08/05/nation/russell-vought-project-2025-architect-is-ready-shock-washington-if-trump-wins-second-term/", "title": "Russell Vought, Project 2025 architect, is ready to shock Washington — Boston Globe" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Vance wrote the foreword to president Kevin Roberts's 2024 book, praising Roberts and calling Heritage \"the most influential engine of ideas for Republicans from Ronald Reagan to Donald Trump\".",
+      "start_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.axios.com/2024/07/25/vance-project-2025-book-trump-heritage-foundation", "title": "J.D. Vance wrote foreword of upcoming book from Project 2025 architect — Axios" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "In October 2025 Heritage president Kevin Roberts publicly defended Carlson over his interview with Nick Fuentes, calling his critics a \"venomous coalition\"; after staff protests he apologized for the wording but said Heritage was not distancing itself from Carlson.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/heritage-foundation-kevin-roberts-tucker-carlson-interview-nick-fuentes/", "title": "Heritage Foundation head defends Tucker Carlson for hosting Nick Fuentes — CBS News" },
+        { "url": "https://www.ksat.com/news/politics/2025/10/31/heritage-foundation-head-defends-tucker-carlson-for-hosting-white-nationalist-with-antisemitic-views/", "title": "Heritage Foundation head defends Tucker Carlson for hosting white nationalist with antisemitic views — AP via KSAT" }
+      ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "employee",
+      "description": "Trustee since 2014 per Wikipedia; InfluenceWatch lists her as emeritus, so her current status is unclear.",
+      "start_year": 2014,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rebekah_Mercer", "title": "Rebekah Mercer — Wikipedia" },
+        { "url": "https://www.influencewatch.org/person/rebekah-mercer/", "title": "Rebekah Mercer — InfluenceWatch" }
+      ]
+    },
+    {
+      "name": "Christopher DeMuth",
+      "slug": "christopher-demuth",
+      "relationship_type": "employee",
+      "description": "Distinguished fellow at its Simon Center for American Studies since 2023.",
+      "start_year": 2023,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.heritage.org/node/25156056", "title": "Chris DeMuth — Heritage Foundation" }
+      ]
+    },
+    {
+      "name": "Mike Pence",
+      "slug": "mike-pence",
+      "relationship_type": "employee",
+      "description": "Pence was a distinguished visiting fellow from February 2021 to 2022, advising its experts and writing a monthly column.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.heritage.org/press/vice-president-mike-pence-joins-heritage-foundation-distinguished-visiting-fellow", "title": "Vice President Mike Pence joins Heritage Foundation as distinguished visiting fellow — Heritage Foundation" },
+        { "url": "https://www.washingtonian.com/2021/02/04/mike-pence-is-joining-the-heritage-foundation-and-writing-a-column/", "title": "Mike Pence is joining the Heritage Foundation and writing a column — Washingtonian" }
+      ]
+    },
+    {
+      "name": "Tom Homan",
+      "slug": "tom-homan",
+      "relationship_type": "employee",
+      "description": "Visiting fellow from 2022 and a contributor to Project 2025.",
+      "start_year": 2022,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Homan", "title": "Tom Homan — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and news reporting. Most news pages could not be opened in the research sandbox, so facts were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

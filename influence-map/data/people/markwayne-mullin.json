@@ -1,0 +1,248 @@
+{
+  "name": "Markwayne Mullin",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican congressman (2013–2023) and senator (2023–2026) from Oklahoma; Trump's homeland security secretary.",
+      "sources": [
+        { "url": "https://history.house.gov/People/Listing/M/MULLIN,-Markwayne-(M001190)/", "title": "History, Art & Archives, U.S. House: Markwayne Mullin" },
+        { "url": "https://www.kgou.org/markwayne-mullin-dhs-confirmed", "title": "KGOU: Markwayne Mullin confirmed as DHS secretary" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "markwayne-mullin.jpg",
+    "credit": "U.S. Department of Homeland Security (DHS)",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:DHS_Secretary_Markwayne_Mullin_Official_Portrait_(55166865268).jpg", "title": "File:DHS Secretary Markwayne Mullin Official Portrait (55166865268).jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. Secretary of Homeland Security (since March 2026)",
+  "summary": "Markwayne Mullin, a plumbing-business owner and former mixed martial arts fighter, represented Oklahoma in the House from 2013 to 2023 and in the Senate from 2023, where he became a close Trump ally. After Trump fired Kristi Noem in March 2026, the Senate confirmed Mullin as homeland security secretary 54–45 on March 23, 2026, during a DHS funding standoff.",
+  "sources": [
+    { "url": "https://www.mullin.senate.gov/wp-content/uploads/Senator_Markwayne_Mullin_Biography.pdf", "title": "Senator Markwayne Mullin biography" },
+    { "url": "https://www.kgou.org/markwayne-mullin-dhs-confirmed", "title": "KGOU: Markwayne Mullin confirmed as DHS secretary" },
+    { "url": "https://m.washingtontimes.com/news/2026/mar/23/markwayne-mullin-confirmed-lead-homeland-security/", "title": "Washington Times: Mullin confirmed to lead Homeland Security" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2012,
+      "role": "Owner and CEO",
+      "org": "Mullin Plumbing",
+      "sources": [
+        { "url": "https://www.mullin.senate.gov/wp-content/uploads/Senator_Markwayne_Mullin_Biography.pdf", "title": "Senator Markwayne Mullin biography" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": 2023,
+      "role": "U.S. representative for Oklahoma's 2nd district",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://history.house.gov/People/Listing/M/MULLIN,-Markwayne-(M001190)/", "title": "History, Art & Archives, U.S. House" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": 2026,
+      "role": "U.S. senator from Oklahoma",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://www.mullin.senate.gov/wp-content/uploads/Senator_Markwayne_Mullin_Biography.pdf", "title": "Senator Markwayne Mullin biography" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Secretary of Homeland Security (confirmed 54–45 on March 23, 2026)",
+      "org": "U.S. Department of Homeland Security",
+      "sources": [
+        { "url": "https://www.kgou.org/markwayne-mullin-dhs-confirmed", "title": "KGOU: Markwayne Mullin confirmed as DHS secretary" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump nominated Mullin to replace Kristi Noem at Homeland Security in March 2026; confirmed March 23, 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.kgou.org/markwayne-mullin-dhs-confirmed", "title": "KGOU: Markwayne Mullin confirmed as DHS secretary" },
+        { "url": "https://ballotpedia.org/Donald_Trump%27s_Cabinet,_2025-2026", "title": "Ballotpedia: Donald Trump's Cabinet, 2025–2026" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "As a senator, Mullin built his influence as a close ally of Trump in Washington.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.coloradopolitics.com/2025/03/13/markwayne-mullin-finds-his-coalition-of-power-in-trumps-washington-15967267-2bfc-5d41-a723-3a4f9f6f8063/", "title": "Colorado Politics: Markwayne Mullin finds his coalition of power in Trump's Washington" }
+      ]
+    },
+    {
+      "name": "Rand Paul",
+      "slug": "rand-paul",
+      "relationship_type": "enemy",
+      "description": "As chairman of the Senate Homeland Security Committee, Paul challenged Mullin's fitness to lead DHS at his March 2026 hearing and was the only Republican to vote against him; Democrat John Fetterman's vote carried the nomination 8–7.",
+      "start_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/markwayne-mullin-nomination-homeland-security-secretary-rand-paul", "title": "Markwayne Mullin nomination for Homeland Security secretary — CBS News" },
+        { "url": "https://abc7news.com/post/markwayne-mullin-nomination-dhs-secretary-narrowly-clears-senate-committee-support-democrat-fetterman/18735272/", "title": "Markwayne Mullin nomination to be DHS secretary narrowly clears Senate committee — ABC News" }
+      ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "colleague",
+      "description": "At Mullin's 2026 confirmation hearing, Democrats pressed him on whether Miller, the White House deputy chief of staff who drives immigration policy, would effectively run DHS; Mullin would only say he serves at the president's discretion.",
+      "start_year": 2026,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://www.npr.org/2026/03/23/g-s1-114813/markwayne-mullin-confirmed-homeland-security", "title": "Markwayne Mullin confirmed as the next secretary of Homeland Security — NPR" },
+        { "url": "https://www.krmg.com/2026/03/18/mullin-makes-his-case-as-a-steady-hand-for-dhs-but-faces-senate-pushback-over-his-temperament", "title": "Mullin makes his case as a steady hand for DHS but faces Senate pushback — AP via KRMG" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "ally",
+      "description": "Mullin was one of Hegseth’s most vocal defenders in the Senate, during the December 2024 nomination fight and the January 2025 hearing, and again after the March 2025 Signal chat leak, which he called a thoughtful conversation.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://newson6.com/story/67871bedf293c740252c8296/sen-mullin-defends-hegseths-nomination-calls-out-double-standards-in-senate", "title": "News On 6: Sen. Mullin defends Hegseth’s nomination, calls out double standards" },
+        { "url": "https://www.washingtontimes.com/news/2024/dec/8/markwayne-mullin-defends-pete-hegseth-drinking-all/", "title": "Washington Times: Markwayne Mullin defends Pete Hegseth" },
+        { "url": "https://www.foxnews.com/politics/gop-senators-rally-behind-defense-secretary-pete-hegseth-say-calls-his-firing-hot-garbage", "title": "Fox News: GOP senators rally behind Hegseth after Signal chat leak" }
+      ]
+    },
+    {
+      "name": "Troy Edgar",
+      "slug": "troy-edgar",
+      "relationship_type": "employee",
+      "description": "The No. 2 at Homeland Security, under Mullin since March 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.govconwire.com/articles/troy-edgar-dhs-2026-homeland-security-summit-keynote-govcon", "title": "DHS Deputy Secretary Troy Edgar lays out operational priorities at 2026 Homeland Security Summit — GovCon Wire" },
+        { "url": "https://www.congress.gov/nomination/119th-congress/12/14", "title": "PN12-14: Nomination of Troy Edgar — Congress.gov" }
+      ]
+    },
+    {
+      "name": "Rodney Scott",
+      "slug": "rodney-scott",
+      "relationship_type": "employee",
+      "description": "Runs Customs and Border Protection inside the department Mullin leads.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" }
+      ]
+    },
+    {
+      "name": "Joseph Edlow",
+      "slug": "joseph-edlow",
+      "relationship_type": "employee",
+      "description": "Runs Citizenship and Immigration Services inside the department Mullin leads.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" }
+      ]
+    },
+    {
+      "name": "Sean Curran",
+      "slug": "sean-curran",
+      "relationship_type": "employee",
+      "description": "Runs the Secret Service inside the department Mullin leads.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" },
+        { "url": "https://www.secretservice.gov/about/leadership/director", "title": "Director Sean M. Curran — U.S. Secret Service" }
+      ]
+    },
+    {
+      "name": "Cameron Hamilton",
+      "slug": "cameron-hamilton",
+      "relationship_type": "employee",
+      "description": "Runs FEMA, a DHS agency, under Mullin since August 2026.",
+      "start_year": 2026,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.fema.gov/press-release/20260810/cameron-hamilton-confirmed-new-fema-administrator", "title": "Cameron Hamilton confirmed as new FEMA Administrator — FEMA (August 2026)" },
+        { "url": "https://www.hstoday.us/subject-matter-areas/emergency-preparedness/senate-confirms-cameron-hamilton-as-fema-administrator/", "title": "Senate confirms Cameron Hamilton as FEMA Administrator — HSToday" }
+      ]
+    },
+    {
+      "name": "David Venturella",
+      "slug": "david-venturella",
+      "relationship_type": "employee",
+      "description": "Leads ICE, a DHS agency, under Mullin since June 2026.",
+      "start_year": 2026,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Venturella", "title": "David Venturella — Wikipedia" },
+        { "url": "https://thehill.com/homenews/administration/5835825-lyons-departure-ice-acting-head/", "title": "Todd Lyons to step down as acting ICE head, Markwayne Mullin announces — The Hill" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $19,200 from Paul Singer to Mullin for America in 2 cycles (2022–2026).",
+      "start_year": 2022,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00498345&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Mullin for America" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $12,000 from Stephen Schwarzman to Mullin for America, Boots Political Action Committee in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00498345&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Mullin for America" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00567545&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Boots Political Action Committee" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Homeland Security",
+    "unit": "dhs",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2026-03",
+    "sources": [
+      { "url": "https://www.kgou.org/markwayne-mullin-dhs-confirmed", "title": "KGOU: Markwayne Mullin confirmed as DHS secretary" },
+      { "url": "https://m.washingtontimes.com/news/2026/mar/23/markwayne-mullin-confirmed-lead-homeland-security/", "title": "Washington Times: Mullin confirmed to lead Homeland Security" }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Richard Fordyce",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "USDA Under Secretary for Farm Production and Conservation",
+  "summary": "Richard Fordyce, a Missouri farmer who ran the Farm Service Agency in Trump’s first term, is USDA’s Senate-confirmed under secretary for farm production and conservation.",
+  "sources": [
+    { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/01/20/one-year-anniversary-president-trumps-second-term-secretary-rollins-signs-commissions-senate", "title": "Secretary Rollins signs commissions for Senate-confirmed USDA leadership — USDA (January 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Under Secretary for Farm Production and Conservation",
+      "org": "U.S. Department of Agriculture",
+      "sources": [
+        { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/01/20/one-year-anniversary-president-trumps-second-term-secretary-rollins-signs-commissions-senate", "title": "Secretary Rollins signs commissions for Senate-confirmed USDA leadership — USDA (January 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Brooke Rollins",
+      "slug": "brooke-rollins",
+      "relationship_type": "employer",
+      "description": "Senate-confirmed under secretary; Rollins signed his commission in January 2026.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/01/20/one-year-anniversary-president-trumps-second-term-secretary-rollins-signs-commissions-senate", "title": "Secretary Rollins signs commissions for Senate-confirmed USDA leadership — USDA (January 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Under Secretary for Farm Production and Conservation",
+    "unit": "agriculture",
+    "rank": 3,
+    "reports_to": "brooke-rollins",
+    "sources": [
+      { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/01/20/one-year-anniversary-president-trumps-second-term-secretary-rollins-signs-commissions-senate", "title": "Secretary Rollins signs commissions for Senate-confirmed USDA leadership — USDA (January 2026)" }
+    ]
+  },
+  "notes": "Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

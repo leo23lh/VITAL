@@ -1,0 +1,82 @@
+{
+  "name": "Daniel Aronowitz",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Assistant Secretary of Labor for the Employee Benefits Security Administration (since September 2025)",
+  "summary": "Daniel Aronowitz runs the Employee Benefits Security Administration, which oversees private retirement and health plans. A labor lawyer turned fiduciary-liability insurer, he was president of Ullico Casualty and in 2011 founded Euclid Fiduciary (now Encore). Nominated in February 2025, he was confirmed on September 18, 2025, as part of a block vote, after telling senators the agency needed “a major turnaround.”",
+  "sources": [
+    { "url": "https://www.plansponsor.com/daniel-aronowitz-confirmed-as-head-of-dols-ebsa/", "title": "Daniel Aronowitz confirmed as head of DOL’s EBSA — PLANSPONSOR" },
+    { "url": "https://www.kiplinger.com/retirement/retirement-plans/who-is-trump-nominee-daniel-aronowitz-tapped-to-oversee-pensions", "title": "Who is Trump nominee Daniel Aronowitz, tapped to oversee pensions? — Kiplinger" },
+    { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "role": "President",
+      "org": "Ullico Casualty",
+      "sources": [
+        { "url": "https://www.kiplinger.com/retirement/retirement-plans/who-is-trump-nominee-daniel-aronowitz-tapped-to-oversee-pensions", "title": "Who is Trump nominee Daniel Aronowitz, tapped to oversee pensions? — Kiplinger" }
+      ]
+    },
+    {
+      "year": 2011,
+      "end_year": 2025,
+      "role": "Founder",
+      "org": "Euclid Fiduciary (later Encore Fiduciary)",
+      "sources": [
+        { "url": "https://www.kiplinger.com/retirement/retirement-plans/who-is-trump-nominee-daniel-aronowitz-tapped-to-oversee-pensions", "title": "Who is Trump nominee Daniel Aronowitz, tapped to oversee pensions? — Kiplinger" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Assistant Secretary, Employee Benefits Security Administration",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.plansponsor.com/daniel-aronowitz-confirmed-as-head-of-dols-ebsa/", "title": "Daniel Aronowitz confirmed as head of DOL’s EBSA — PLANSPONSOR" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Serves in Sonderling’s department as head of the Employee Benefits Security Administration; confirmed in fall 2025 while Sonderling was deputy secretary, and has reported to him as secretary since April 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary, Employee Benefits Security Administration",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "keith-sonderling",
+    "since": "2025-09",
+    "sources": [
+      { "url": "https://www.plansponsor.com/daniel-aronowitz-confirmed-as-head-of-dols-ebsa/", "title": "Daniel Aronowitz confirmed as head of DOL’s EBSA — PLANSPONSOR" },
+      { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+    ]
+  },
+  "source_conflicts": [
+    {
+      "topic": "Confirmation vote",
+      "details": "PLANSPONSOR and BenefitsPro report the September 18, 2025 block vote as 51–47; Wikipedia’s list of Labor appointments gives 51–44.",
+      "sources": [
+        { "url": "https://www.plansponsor.com/daniel-aronowitz-confirmed-as-head-of-dols-ebsa/", "title": "Daniel Aronowitz confirmed as head of DOL’s EBSA — PLANSPONSOR" },
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Labor_appointments_by_Donald_Trump", "title": "List of Department of Labor appointments by Donald Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "last_researched": "2026-11-08"
+}

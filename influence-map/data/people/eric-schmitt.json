@@ -1,0 +1,255 @@
+{
+  "name": "Eric Schmitt",
+  "aliases": ["Eric Stephen Schmitt"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon", "2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican senator from Missouri since 2023; as attorney general joined the suit to overturn the 2020 election (Texas v. Pennsylvania) and sued the Biden administration 25 times; openly backs national conservatism.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "eric-schmitt.jpg",
+    "credit": "United States Senate",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Sen._Eric_Schmitt,_official_portrait,_118th_Congress.jpg", "title": "File:Sen. Eric Schmitt, official portrait, 118th Congress.jpg — Wikimedia Commons" }
+  },
+  "current_role": "US senator from Missouri (Republican); vice chair of the Joint Economic Committee",
+  "summary": "Eric Schmitt was Missouri treasurer and then attorney general (2019–2023), succeeding Josh Hawley, before winning a Senate seat in 2022. He openly embraces national conservatism: at NatCon 2025 he said it \"is an idea whose time has arrived\" and, in a speech titled \"What is an American?\", rejected the idea that America is defined by shared principles alone.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+    { "url": "https://www.usnews.com/news/politics/articles/2025-09-05/national-conservatism-asserts-its-dominance-in-trumps-washington", "title": "National Conservatism Asserts Its Dominance in Trump's Washington — AP via US News" },
+    { "url": "https://www.c-span.org/program/public-affairs-event/national-conservatism-conference-senator-eric-schmitt-and-others/665005", "title": "National Conservatism Conference: Senator Eric Schmitt and Others — C-SPAN" }
+  ],
+  "timeline": [
+    {
+      "year": 2009,
+      "end_year": 2017,
+      "role": "State senator",
+      "org": "Missouri Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2019,
+      "role": "State treasurer",
+      "org": "State of Missouri",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2023,
+      "role": "Attorney general",
+      "org": "State of Missouri",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": null,
+      "role": "US senator",
+      "org": "US Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "National Conservatism Conference",
+      "role": "Speaker (2025)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+        { "url": "https://nationalconservatism.org/natcon-5-2025/", "title": "National Conservatism Conference, Washington 2025" },
+        { "url": "https://www.c-span.org/program/public-affairs-event/national-conservatism-conference-senator-eric-schmitt-and-others/665005", "title": "National Conservatism Conference: Senator Eric Schmitt and Others — C-SPAN" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Josh Hawley",
+      "slug": "josh-hawley",
+      "relationship_type": "colleague",
+      "description": "Missouri's two Republican senators since 2023; Schmitt succeeded Hawley as state attorney general in 2019.",
+      "start_year": 2023,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
+        { "url": "https://www.newstribune.com/news/2022/nov/08/schmitt-defeats-busch-beer-heir-in-missouri-us-senate-race/", "title": "Schmitt defeats Busch beer heir in Missouri US Senate race — News Tribune" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Schmitt spoke at Hazony's NatCon 5 in 2025, declaring national conservatism \"an idea whose time has arrived\".",
+      "start_year": 2025,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+        { "url": "https://www.usnews.com/news/politics/articles/2025-09-05/national-conservatism-asserts-its-dominance-in-trumps-washington", "title": "National Conservatism Asserts Its Dominance in Trump's Washington — AP via US News" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "As Missouri attorney general Schmitt backed the Texas suit to overturn the 2020 election; Trump endorsed \"ERIC\" before the 2022 Senate primary, and Schmitt has defended Trump's policies in the Senate.",
+      "start_year": 2020,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+        { "url": "https://www.axios.com/2022/08/03/missouri-primary-eric-schmitt-trump-greitens", "title": "Missouri Attorney General Eric Schmitt wins GOP Senate primary — Axios" },
+        { "url": "https://www.nbcnews.com/politics/2022-election/trump-baffles-gop-endorsing-eric-missouri-senate-primary-race-three-er-rcna41049", "title": "Trump baffles GOP by endorsing 'Eric' in Missouri Senate primary — NBC News" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "funded_by",
+      "description": "Klingenstein gave the maximum direct donations to Schmitt's 2022 Senate campaign.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://vice.com/en/article/claremont-institute-thomas-klingenstein-super-pac", "title": "Claremont Institute chairman Thomas Klingenstein super PAC — Vice" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "Thiel put $250,000 into Save Missouri Values, the super PAC backing Schmitt's 2022 Senate bid; the Intercept tied it to Thiel's closeness to Hawley.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://clips.cato.org/sites/default/files/Cato_intercept_koch.pdf", "title": "How the leading Republican candidate for Missouri Senate lost Koch support — The Intercept (Cato clip)" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Described as arguably Vance's closest friend in the Senate; Vance calls Schmitt one of the administration's most valuable allies on the Hill, and Axios reported in 2026 that Vance saw him as a possible 2028 running mate.",
+      "start_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://kvia.com/politics/cnn-us-politics/2024/08/02/jd-vances-republican-colleagues-defend-trumps-running-mate-saying-ohio-senator-is-a-voice-for-next-generation-of-gop-voters/", "title": "JD Vance's Republican colleagues defend Trump's running mate — CNN via KVIA" },
+        { "url": "https://www.semafor.com/article/08/05/2025/why-a-first-term-senator-passed-up-trumps-cabinet", "title": "Why a first-term senator passed up Trump's Cabinet — Semafor" },
+        { "url": "https://www.thedailybeast.com/vance-veep-eric-schmitt-buzz-backfires-almost-immediately/", "title": "Vance veep Eric Schmitt buzz backfires almost immediately — Daily Beast" },
+        { "url": "https://www.washingtonexaminer.com/news/senate/3497255/capitol-tea-jd-vance-redshirt-freshman-senate/", "title": "Washington Examiner: Vance and the Senate’s \"redshirt freshmen\"" },
+        { "url": "https://dailycaller.com/2023/01/31/jd-vance-eric-schmitt-back-trump-2024-campaign-politico/", "title": "Daily Caller: Senators Vance, Schmitt set to endorse Trump’s 2024 bid" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "friend",
+      "description": "Schmitt has been described as arguably Vance’s closest friend in the Senate.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://kvia.com/politics/cnn-us-politics/2024/08/02/jd-vances-republican-colleagues-defend-trumps-running-mate-saying-ohio-senator-is-a-voice-for-next-generation-of-gop-voters/", "title": "JD Vance's Republican colleagues defend Trump's running mate — CNN via KVIA" },
+        { "url": "https://www.semafor.com/article/08/05/2025/why-a-first-term-senator-passed-up-trumps-cabinet", "title": "Why a first-term senator passed up Trump's Cabinet — Semafor" },
+        { "url": "https://www.thedailybeast.com/vance-veep-eric-schmitt-buzz-backfires-almost-immediately/", "title": "Vance veep Eric Schmitt buzz backfires almost immediately — Daily Beast" }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,000 from Ben Horowitz to Winning for America PAC in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00826362&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Winning for America PAC" }
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "donor",
+      "description": "FEC filings show $11,600 from Marc Andreessen to Winning for America PAC, Schmitt for Senate in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00826362&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Winning for America PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00775015&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Schmitt for Senate" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,500 from Paul Singer to Schmitt for Senate in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00775015&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Schmitt for Senate" }
+      ]
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "slug": "stephen-schwarzman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $17,000 from Stephen Schwarzman to Winning for America PAC, Schmitt for Senate in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00826362&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Winning for America PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHWARZMAN%2C+STEPHEN&committee_id=C00775015&two_year_transaction_period=2026", "title": "FEC receipts: SCHWARZMAN, STEPHEN to Schmitt for Senate" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $17,400 from Thomas Klingenstein to Schmitt for Senate, Winning for America PAC in 2 cycles (2022–2024).",
+      "start_year": 2021,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00775015&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Schmitt for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00826362&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Winning for America PAC" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-07",
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["jd-vance"],
+    "basis": "One of Vance's closest Senate allies; Axios reported in September 2026 that Vance viewed him as a possible 2028 running mate.",
+    "sources": [
+      { "url": "https://www.thedailybeast.com/vance-veep-eric-schmitt-buzz-backfires-almost-immediately/", "title": "Vance veep Eric Schmitt buzz backfires almost immediately — Daily Beast" },
+      { "url": "https://www.semafor.com/article/08/05/2025/why-a-first-term-senator-passed-up-trumps-cabinet", "title": "Why a first-term senator passed up Trump's Cabinet — Semafor" }
+    ]
+  },
+  "office": {
+    "title": "Senator (R-MO)",
+    "unit": "senate",
+    "rank": 4,
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+      { "url": "https://www.usnews.com/news/politics/articles/2025-09-05/national-conservatism-asserts-its-dominance-in-trumps-washington", "title": "National Conservatism Asserts Its Dominance in Trump's Washington — AP via US News" }
+    ]
+  }
+}

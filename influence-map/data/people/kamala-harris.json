@@ -1,0 +1,376 @@
+{
+  "name": "Kamala Harris",
+  "aliases": ["Kamala Devi Harris"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics", "2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic district attorney, California attorney general, senator, vice president (2021–2025) and 2024 presidential nominee.",
+      "sources": [
+        { "url": "https://ballotpedia.org/Kamala_Harris", "title": "Ballotpedia: Kamala Harris" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Has led most national 2028 Democratic primary polls since spring 2026 and has hired staff, met donors and traveled to battleground states, though she says she is undecided and many former aides doubt she will run.",
+    "sources": [
+      { "url": "https://abcnews.com/Politics/kamala-harris-eyes-2028-comeback-former-allies-fresh/story?id=133522340", "title": "ABC News: Kamala Harris eyes possible 2028 comeback" },
+      { "url": "https://www.axios.com/2026/09/20/kamala-harris-ex-aides-2028-campaign", "title": "Axios: Many ex-aides to Harris betting against a 2028 run" },
+      { "url": "https://en.wikipedia.org/wiki/Statewide_opinion_polling_for_the_2028_Democratic_Party_presidential_primaries", "title": "Wikipedia: Opinion polling for the 2028 Democratic primaries" }
+    ]
+  },
+  "photo": {
+    "file": "kamala-harris.jpg",
+    "credit": "Lawrence Jackson",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Kamala_Harris_Vice_Presidential_Portrait.jpg", "title": "File:Kamala Harris Vice Presidential Portrait.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Former Vice President of the United States (2021–2025); head of the Fight for the People PAC",
+  "summary": "Kamala Harris was San Francisco district attorney, California attorney general and a U.S. senator before serving as vice president under Joe Biden from 2021 to 2025. She became the Democratic nominee after Biden withdrew in 2024 and lost to Donald Trump. She leads many 2028 primary polls and has kept a political operation through her Fight for the People PAC, but has not decided whether to run.",
+  "sources": [
+    { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" },
+    { "url": "https://ballotpedia.org/Kamala_Harris", "title": "Ballotpedia: Kamala Harris" },
+    { "url": "https://abcnews.com/Politics/kamala-harris-eyes-2028-comeback-former-allies-fresh/story?id=133522340", "title": "ABC News: Kamala Harris eyes possible 2028 comeback" }
+  ],
+  "timeline": [
+    {
+      "year": 2004,
+      "end_year": 2011,
+      "role": "District Attorney of San Francisco",
+      "org": "City and County of San Francisco",
+      "sources": [
+        { "url": "https://ballotpedia.org/Kamala_Harris", "title": "Ballotpedia: Kamala Harris" }
+      ]
+    },
+    {
+      "year": 2011,
+      "end_year": 2017,
+      "role": "Attorney General of California",
+      "org": "State of California",
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2021,
+      "role": "U.S. senator from California",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://ballotpedia.org/Kamala_Harris", "title": "Ballotpedia: Kamala Harris" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2025,
+      "role": "Vice President of the United States",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://ballotpedia.org/Kamala_Harris", "title": "Ballotpedia: Kamala Harris" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": 2024,
+      "role": "Democratic presidential nominee (lost to Donald Trump)",
+      "org": "Harris for President",
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "Trump defeated Harris, the Democratic nominee after Biden withdrew, in the November 5, 2024 presidential election.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" },
+        { "url": "https://www.washingtonexaminer.com/news/3210669/donald-trump-wins-2024-election-defeating-kamala-harris/", "title": "Washington Examiner: Donald Trump wins the 2024 election, defeating Kamala Harris" },
+        { "url": "https://www.foxnews.com/politics/fox-news-projects-donald-trump-defeats-kamala-harris-become-47th-president-united-states", "title": "Fox News projects Trump defeats Harris to become 47th president" }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "donor",
+      "description": "In October 2024 Horowitz said he and his wife Felicia would make \"a significant donation to entities who support the Harris Walz campaign\", citing their friendship with Harris, months after endorsing Trump.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Axios: Ben Horowitz plans significant donation to Kamala Harris" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "donor",
+      "description": "Hoffman gave at least $7–11 million to elect Harris in 2024; in 2026 he said she would face \"a very challenging path\" in 2028. The Washington Examiner put his 2024 total at at least $11.6 million, and later at $17 million; totals differ by source.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2024/07/26/reid-hoffman-angers-democrats-republicans-trump-harris-lina-khan/", "title": "Fortune: Reid Hoffman angers Democrats and Republicans" },
+        { "url": "https://www.axios.com/2026/09/20/kamala-harris-ex-aides-2028-campaign", "title": "Axios: Many ex-aides to Harris betting against a 2028 run" },
+        { "url": "https://www.washingtonexaminer.com/politics/3179215/kamala-harris-influential-megadonors/", "title": "Washington Examiner: Meet Kamala Harris’s influential megadonors" },
+        { "url": "https://www.washingtonexaminer.com/policy/finance/4729704/reid-hoffman-linkedin-cofounder-cool-kamala-harris-2028/", "title": "Washington Examiner: Hoffman cool on Harris’s chances in 2028" },
+        { "url": "https://freebeacon.com/democrats/awkward-top-dem-donor-tries-to-explain-hes-not-buying-influence-with-kamala/", "title": "Washington Free Beacon: Top Dem donor says he isn’t buying influence with Harris" }
+      ]
+    },
+    {
+      "name": "Doug Emhoff",
+      "slug": "doug-emhoff",
+      "relationship_type": "family",
+      "description": "Married in 2014; he was second gentleman from 2021 to 2025.",
+      "start_year": 2014,
+      "end_year": null,
+      "confidence": 0.99,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" },
+        { "url": "https://www.npr.org/sections/live-updates-2020-election-results/2020/11/08/932821182/meet-doug-emhoff-americas-first-second-gentleman", "title": "Who Is Kamala Harris' Husband? Meet Doug Emhoff — NPR" }
+      ]
+    },
+    {
+      "name": "Brian Fallon",
+      "slug": "brian-fallon",
+      "relationship_type": "employee",
+      "description": "Fallon was her campaign communications director (2023–2024) and is reported to run her Fight for the People PAC.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://thedonorclass.substack.com/p/exclusive-the-team-kamala-harris", "title": "The Donor Class: The team Kamala Harris is building" },
+        { "url": "https://wikiwand.com/en/Brian_Fallon_(press_secretary)", "title": "Wikipedia: Brian Fallon" }
+      ]
+    },
+    {
+      "name": "Ace Smith",
+      "slug": "ace-smith",
+      "relationship_type": "employee",
+      "description": "Smith and his Bearstar partners ran the races that elected Harris California attorney general and senator.",
+      "start_year": 2010,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    },
+    {
+      "name": "Sean Clegg",
+      "slug": "sean-clegg",
+      "relationship_type": "employee",
+      "description": "Clegg, a Bearstar founding partner, counts Harris among his clients.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    },
+    {
+      "name": "Gavin Newsom",
+      "slug": "gavin-newsom",
+      "relationship_type": "ally",
+      "description": "Fellow San Francisco Democrats who share consultants, donors and networks; Newsom has said he would not run for president if Harris ran.",
+      "start_year": 2004,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.axios.com/local/san-francisco/2026/09/16/gavin-newsom-kamala-harris-2028-democratic-primary", "title": "Axios San Francisco: Newsom's 2028 plans could hinge on Harris' decision" },
+        { "url": "https://kmph.com/news/nation-world/why-experts-see-newsoms-pledge-to-avoid-running-against-harris-as-strategic-move-gavin-newsom-kamala-harris-democrats-2028-presidential-race", "title": "Why experts see Newsom's pledge to avoid running against Harris as strategic" }
+      ]
+    },
+    {
+      "name": "Dustin Moskovitz",
+      "slug": "dustin-moskovitz",
+      "relationship_type": "donor",
+      "description": "Moskovitz gave about $50 million to Future Forward, the main pro-Harris super PAC, plus $929,600 to the Harris Victory Fund.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },
+        { "url": "https://www.cnn.com/2024/10/30/politics/democratic-digital-advertising-future-forward/index.html", "title": "If you've been seeing more pro-Harris ads online lately, here's why — CNN" },
+        { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Chris Larsen",
+      "slug": "chris-larsen",
+      "relationship_type": "donor",
+      "description": "Larsen endorsed Harris and gave at least $1 million in XRP to the pro-Harris super PAC Future Forward in 2024 (Decrypt reported about $10 million more), saying she would bring \"clear rules\" for crypto. Fox News put his total for Harris at $5,444,975; figures differ by source. FEC filings show $819,700 from Chris Larsen to Harris Victory Fund in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/10/15/kamala-harris-got-1-million-from-ripples-chris-larsen-crypto-warms.html", "title": "Harris PAC's $1 million contribution from Ripple's Chris Larsen shows crypto industry warming to VP — CNBC" },
+        { "url": "https://www.theblock.co/post/320785/ripple-co-founder-chris-larsen-donates-1-million-in-crypto-to-pac-supporting-kamala-harris-campaign", "title": "Ripple co-founder Chris Larsen donates $1 million in crypto to PAC supporting Kamala Harris — The Block" },
+        { "url": "https://decrypt.co/287549/ripple-founder-10-million-xrp-kamala-harris", "title": "Ripple founder donates another $10 million in XRP to support Kamala Harris — Decrypt" },
+        { "url": "https://www.foxnews.com/politics/top-trump-ally-warns-super-pac-bankrolled-dem-billionaire-meddling-gop-primary", "title": "Fox News: Larsen gave $5,444,975 to support Harris (in a report on his 2026 PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Harris Victory Fund" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "ally",
+      "description": "Pelosi, who pushed Biden to step aside, endorsed Harris on July 22, 2024, a day after Biden withdrew, with \"enthusiastic support\", though coverage noted her backing had been tepid at times.",
+      "start_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.semafor.com/article/07/22/2024/nancy-pelosi-endorses-kamala-harris-democrat-president-nominee", "title": "Nancy Pelosi endorses Kamala Harris as Democratic presidential nominee — Semafor" },
+        { "url": "https://abcnews.go.com/US/wireStory/former-house-speaker-nancy-pelosi-endorses-vice-president-112170203", "title": "Former House Speaker Nancy Pelosi endorses Vice President Kamala Harris — AP via ABC News" }
+      ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "enemy",
+      "description": "Much of its 2024 spending attacked Joe Biden and then Harris.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/10/maga-inc-3/", "title": "MAGA Inc. — FactCheck.org" }
+      ]
+    },
+    {
+      "name": "Restoration of America PAC",
+      "slug": "restoration-pac",
+      "relationship_type": "enemy",
+      "description": "Spent over $34 million against Harris in 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" }
+      ]
+    },
+    {
+      "name": "Preserve America PAC",
+      "slug": "preserve-america-pac",
+      "relationship_type": "enemy",
+      "description": "Ran attack ads against Harris in Michigan, Pennsylvania and Wisconsin from the 2024 Olympics to Election Day.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" },
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" }
+      ]
+    },
+    {
+      "name": "Mike Pence",
+      "slug": "mike-pence",
+      "relationship_type": "rival",
+      "description": "Opposing vice-presidential nominees in 2020; they debated in Salt Lake City on October 7, 2020, and the Biden–Harris ticket won.",
+      "start_year": 2020,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Pence", "title": "Mike Pence — Wikipedia" },
+        { "url": "https://www.deseret.com/utah/2020/10/7/21505856/vice-presidential-debate-kamala-harris-mike-pence-university-utah-salt-lake-city-republican-democrat", "title": "The protesters, the fly and other sideshows from Utah’s VP debate — Deseret News" },
+        { "url": "https://www.fox9.com/news/vp-debate-pence-harris-clash-on-coronavirus-taxes-climate-health-care", "title": "VP debate: Pence, Harris clash on coronavirus, taxes, climate, health care — Fox 9" }
+      ]
+    },
+    {
+      "name": "Future Forward PAC",
+      "slug": "future-forward",
+      "relationship_type": "donor",
+      "description": "Future Forward, her main 2024 super PAC, supplied most of the outside money backing her.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://gvwire.com/2024/10/17/inside-the-secretive-700-million-ad-testing-factory-for-kamala-harris", "title": "Inside the secretive $700 million ad-testing factory for Kamala Harris — New York Times via GV Wire" },
+        { "url": "https://www.brennancenter.org/our-work/analysis-opinion/megadonors-playing-larger-role-presidential-race-fec-data-shows", "title": "Megadonors playing larger role in presidential race, FEC data shows — Brennan Center" }
+      ]
+    },
+    {
+      "name": "Andy Beshear",
+      "slug": "andy-beshear",
+      "relationship_type": "ally",
+      "description": "One of the six finalists Harris interviewed for her 2024 running mate, seen as a compromise between moderates and progressives; she chose Tim Walz.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/harris-campaign-met-6-potential-vp-picks-selection-process-nears-end-rcna164706", "title": "Harris campaign met 6 potential VP picks — NBC News" },
+        { "url": "https://www.stripes.com/theaters/us/2024-08-02/harris-narrows-vp-search-to-six-finalists,-plans-to-interview-them-this-weekend-14709978.html", "title": "Harris narrows VP search to six finalists — AP via Stars and Stripes" }
+      ]
+    },
+    {
+      "name": "Wes Moore",
+      "slug": "wes-moore",
+      "relationship_type": "ally",
+      "description": "He gave a keynote address at the 2024 Democratic National Convention and campaigned in early states as a surrogate for Biden and Harris.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2028-election/maryland-governor-wes-moore-ruling-out-presidential-run-redistricting-rcna229615", "title": "Maryland Gov. Wes Moore rules out presidential run — NBC News" }
+      ]
+    },
+    {
+      "name": "Ben Horowitz",
+      "slug": "ben-horowitz",
+      "relationship_type": "friend",
+      "description": "In October 2024 Horowitz cited his and his wife’s friendship with Harris when announcing donations to groups backing her.",
+      "start_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" }
+      ]
+    },
+    {
+      "name": "Brian Schimpf",
+      "slug": "brian-schimpf",
+      "relationship_type": "donor",
+      "description": "FEC filings show $516,600 from Brian Schimpf to Harris Victory Fund, Harris for President in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: SCHIMPF, BRIAN to Harris Victory Fund" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00703975&two_year_transaction_period=2024", "title": "FEC receipts: SCHIMPF, BRIAN to Harris for President" }
+      ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "donor",
+      "description": "FEC filings show $905,400 from George Soros to Kamala Harris for Senate, Harris Victory Fund in 2 cycles (2016–2024).",
+      "start_year": 2015,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00571919&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Kamala Harris for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Harris Victory Fund" }
+      ]
+    },
+    {
+      "name": "Jeremy Stoppelman",
+      "slug": "jeremy-stoppelman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $130,400 from Jeremy Stoppelman to Kamala Harris for Senate, Harris Victory Fund in 2 cycles (2016–2024).",
+      "start_year": 2015,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00571919&two_year_transaction_period=2024", "title": "FEC receipts: STOPPELMAN, JEREMY to Kamala Harris for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: STOPPELMAN, JEREMY to Harris Victory Fund" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

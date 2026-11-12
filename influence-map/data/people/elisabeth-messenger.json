@@ -1,0 +1,55 @@
+{
+  "name": "Elisabeth Messenger",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Director, Office of Labor-Management Standards (since February 2025)",
+  "summary": "Elisabeth Messenger directs the Office of Labor-Management Standards, which enforces union financial-disclosure and democracy laws; she was appointed in February 2025 and announced the office’s May 2026 final rule.",
+  "sources": [
+    { "url": "https://www.dol.gov/agencies/olms/about/leadership/director", "title": "Director — Office of Labor-Management Standards" },
+    { "url": "https://www.dol.gov/newsroom/releases/olms/olms20260529", "title": "US Department of Labor finalizes rule protecting union workers — U.S. Department of Labor (May 29, 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Director, Office of Labor-Management Standards",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/olms/about/leadership/director", "title": "Director — Office of Labor-Management Standards" },
+        { "url": "https://www.dol.gov/newsroom/releases/olms/olms20260529", "title": "US Department of Labor finalizes rule protecting union workers — U.S. Department of Labor (May 29, 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Directs labor-management standards in Sonderling’s department.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/olms/about/leadership/director", "title": "Director — Office of Labor-Management Standards" },
+        { "url": "https://www.dol.gov/newsroom/releases/olms/olms20260529", "title": "US Department of Labor finalizes rule protecting union workers — U.S. Department of Labor (May 29, 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Director, Office of Labor-Management Standards",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "keith-sonderling",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://www.dol.gov/agencies/olms/about/leadership/director", "title": "Director — Office of Labor-Management Standards" },
+      { "url": "https://www.dol.gov/newsroom/releases/olms/olms20260529", "title": "US Department of Labor finalizes rule protecting union workers — U.S. Department of Labor (May 29, 2026)" }
+    ]
+  },
+  "notes": "dol.gov pages could not be opened from this session (the site blocks automated readers); facts were confirmed with searches restricted to dol.gov and the cited outlets.",
+  "last_researched": "2026-11-08"
+}

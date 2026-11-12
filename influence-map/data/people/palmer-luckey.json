@@ -1,0 +1,924 @@
+{
+  "name": "Palmer Luckey",
+  "aliases": ["Palmer Freeman Luckey"],
+  "public_figure": true,
+  "sector": "ai-defense",
+  "groups": ["tech-right", "defense-tech"],
+  "photo": {
+    "file": "palmer-luckey.jpg",
+    "credit": "Xuthoria",
+    "license": "CC BY-SA 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:CES_2026_-_Palmer_Luckey_01_(cropped).jpg", "title": "File:CES 2026 - Palmer Luckey 01 (cropped).jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": 2016,
+      "end_year": null,
+      "basis": "Funded the pro-Trump group Nimble America in 2016 and gave $100,000 to Trump's 2017 inauguration; a prominent Trump supporter in defense tech since.",
+      "sources": [
+        { "url": "https://fortune.com/2016/09/23/palmer-luckey-trump/", "title": "Fortune: Palmer Luckey and Trump" },
+        { "url": "https://fortune.com/2017/04/23/palmer-luckey-trump-contributions/", "title": "Fortune: Palmer Luckey's Trump contributions" }
+      ]
+    }
+  ],
+  "current_role": "Founder of Anduril Industries",
+  "summary": "Palmer Luckey founded the virtual-reality company Oculus VR in 2012 and sold it to Facebook in 2014; he left Facebook in 2017 after controversy over his funding of a pro-Trump group, which he says got him fired and Facebook denies. He then co-founded the defense company Anduril, backed by Peter Thiel's Founders Fund and valued at $30.5 billion in 2025, and is an outspoken Trump supporter.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Palmer_Luckey", "title": "Palmer Luckey — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+    { "url": "https://fortune.com/2025/06/05/anduril-palmer-luckey-funding-30-billion-valuation-founders-fund/", "title": "Anduril raises at $30.5 billion valuation, led by Founders Fund — Fortune" }
+  ],
+  "timeline": [
+    {
+      "year": 2012,
+      "end_year": 2017,
+      "role": "Founder (sold to Facebook in March 2014)",
+      "org": "Oculus VR",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Palmer_Luckey", "title": "Palmer Luckey — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": null,
+      "role": "Co-founder",
+      "org": "Anduril Industries",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palmer_Luckey", "title": "Palmer Luckey — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": null,
+      "role": "Co-founder",
+      "org": "ModRetro",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/ModRetro", "title": "ModRetro — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Anduril Industries",
+      "role": "Co-founder",
+      "start_year": 2017,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Brian Schimpf",
+      "slug": "brian-schimpf",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Anduril in 2017 with Trae Stephens, Matt Grimm and Joe Chen; Schimpf has been CEO from the start while Luckey is the company's public face.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+        { "url": "https://fortune.com/2026/05/08/anduril-brian-schimpf-term-sheet/", "title": "Anduril's Brian Schimpf — Fortune Term Sheet" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "ally",
+      "description": "Thiel's Founders Fund, an early Oculus investor, seeded Anduril in 2017, led its 2018 Series A and put $1 billion, its largest-ever check, into the 2025 round that valued Anduril at $30.5 billion. Luckey met co-founder Trae Stephens at a Founders Fund retreat in 2014.",
+      "start_year": 2014,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2025/06/05/anduril-palmer-luckey-funding-30-billion-valuation-founders-fund/", "title": "Anduril raises at $30.5 billion valuation, led by Founders Fund — Fortune" },
+        { "url": "https://www.ocbj.com/oc-homepage/palmer-luckey-teams-with-peter-thiel-for-latest-anduril-push-forward/", "title": "Palmer Luckey teams with Peter Thiel for latest Anduril push forward — Orange County Business Journal" },
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "In 2016 Luckey gave $10,000 to Nimble America, a pro-Trump group, which led to his exit from Facebook in 2017; Fortune later reported further Trump contributions. He has hosted Trump fundraisers and says he has been on \"the tech-for-Trump train\" longer than almost anyone. FEC filings show $1,167,800 from Palmer Luckey to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. in 2 cycles (2020–2024).",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2016/09/23/palmer-luckey-trump/", "title": "Oculus founder Palmer Luckey funded pro-Trump group — Fortune" },
+        { "url": "https://fortune.com/2017/04/23/palmer-luckey-trump-contributions/", "title": "Palmer Luckey's Trump contributions — Fortune" },
+        { "url": "https://m.washingtontimes.com/news/2025/oct/9/charismatic-defense-tech-leader-says-silicon-valley-warming-trump/", "title": "Charismatic defense tech leader says Silicon Valley warming to Trump — The Washington Times" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Trump 47 Committee, Inc." }
+      ]
+    },
+    {
+      "name": "Alex Karp",
+      "slug": "alex-karp",
+      "relationship_type": "ally",
+      "description": "In December 2024 Anduril and Karp's Palantir were reported to be forming a consortium with other tech firms to bid jointly for U.S. defense contracts.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/2024/12/23/palantir-anduril-spacex-openai-could-partner-to-bid-for-u-s-defense-contracts/", "title": "Palantir, Anduril, SpaceX and OpenAI could partner to bid for U.S. defense contracts — Fortune" },
+        { "url": "https://siliconangle.com/2024/12/22/report-palantir-anduril-join-forces-try-secure-u-s-government-defense-contracts/", "title": "Report: Palantir and Anduril join forces to try to secure U.S. government defense contracts — SiliconANGLE" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Vance invested in Anduril's first venture round while at Steve Case's firm Revolution, per Bloomberg. That investment is the only documented tie; no source describes a personal relationship.",
+      "start_year": 2017,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://fortune.com/2024/11/16/anduril-chairman-trae-stephens-donald-trump-us-military-reform-defense-spending/", "title": "Anduril chairman Trae Stephens on Trump and military reform — Fortune (Bloomberg)" }
+      ]
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "slug": "mark-zuckerberg",
+      "relationship_type": "employer",
+      "description": "Facebook bought Luckey's Oculus in 2014 and he worked there until March 2017, leaving amid controversy over his pro-Trump donation (Facebook says his politics were not the reason). In May 2025 Anduril and Meta announced a partnership on military XR headsets.",
+      "start_year": 2014,
+      "end_year": 2017,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Palmer_Luckey", "title": "Palmer Luckey — Wikipedia" },
+        { "url": "https://siliconangle.com/2017/03/30/controversial-oculus-founder-palmer-luckey-leaves-facebook/", "title": "Controversial Oculus founder Palmer Luckey leaves Facebook — SiliconANGLE" },
+        { "url": "https://fortune.com/2025/05/29/palmer-luckey-mark-zuckerberg-anduril-meta-rivalry-silicon-valley-military-market/", "title": "Palmer Luckey and Mark Zuckerberg team up on military tech — Fortune" }
+      ]
+    },
+    {
+      "name": "Trae Stephens",
+      "slug": "trae-stephens",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Anduril in 2017; Stephens, a Founders Fund partner, is its executive chairman.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" },
+        { "url": "https://research.contrary.com/report/anduril", "title": "Anduril business breakdown & founding story — Contrary Research" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "ally",
+      "description": "Lonsdale backed Erebor, the crypto- and defense-focused bank Luckey launched in 2025 (it won a national charter in 2025–2026), and his firm 8VC invested in Luckey's Anduril.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/tech-billionaires-led-palmer-luckey-124008946.html", "title": "Palmer Luckey, backed by Palantir's Lonsdale, to launch crypto-focused bank — Reuters via Yahoo Finance" },
+        { "url": "https://finance.yahoo.com/news/palmer-luckey-backed-erebor-receives-225304165.html", "title": "Palmer Luckey-backed Erebor receives US national banking charter — Reuters via Yahoo Finance" },
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "donor",
+      "description": "An early Oculus investor; it seeded Anduril in 2017, led its 2018 Series A and put $1 billion, its largest-ever check, into the 2025 round.",
+      "start_year": 2017,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://fortune.com/2025/06/05/anduril-palmer-luckey-funding-30-billion-valuation-founders-fund/", "title": "Anduril raises at $30.5 billion valuation, led by Founders Fund — Fortune" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "colleague",
+      "description": "Hegseth toured Anduril’s Costa Mesa campus with Luckey before the December 2025 Reagan National Defense Forum and its Quonset Point, Rhode Island factory in February 2026, and in October 2026 named Luckey a co-leader of Project Meridian, the Pentagon’s future-of-warfare review.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.theepochtimes.com/us/hegseth-lays-out-trumps-america-first-military-strategy-in-reagan-forum-visit-5954907", "title": "Epoch Times: Hegseth lays out Trump’s America First military strategy in Reagan Forum visit" },
+        { "url": "https://whatsupnewp.com/2026/02/hegseth-touts-speed-and-innovation-in-tour-of-quonset-point-facilities/", "title": "What’sUpNewp: Hegseth touts speed and innovation in tour of Quonset Point facilities" },
+        { "url": "https://thehill.com/policy/defense/6121108-pete-hegseth-pentagon-project-meridian-warfare-future/", "title": "The Hill: Hegseth puts Musk, Luckey, Gingrich in charge of military future warfare review" },
+        { "url": "https://asiatimes.com/2026/10/hegseth-taps-three-to-lead-future-of-warfare-project/", "title": "Asia Times: Hegseth taps three to lead Future of Warfare project" }
+      ]
+    },
+    {
+      "name": "Anduril Industries",
+      "slug": "anduril-industries",
+      "relationship_type": "co-founder",
+      "description": "Luckey co-founded Anduril in 2017.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Palmer_Luckey", "title": "Palmer Luckey — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+        { "url": "https://www.anduril.com/anduril-leadership", "title": "Anduril Leadership — Anduril Industries" },
+        { "url": "https://www.cnbc.com/2025/06/10/anduril-cnbc-disruptor-50.html", "title": "Anduril: 2025 CNBC Disruptor 50 — CNBC" }
+      ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $17,300 from Palmer Luckey to CLF in 3 cycles (2018–2026).",
+      "start_year": 2018,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to CLF" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $11,200 from Palmer Luckey to Ted Cruz Victory Committee, Ted Cruz for Senate in 2 cycles (2018–2022).",
+      "start_year": 2017,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00542423&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Ted Cruz Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00492785&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Ted Cruz for Senate" }
+      ]
+    },
+    {
+      "name": "Mike Waltz",
+      "slug": "mike-waltz",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $13,400 from Palmer Luckey to Michael Waltz for Congress in 3 cycles (2020–2024).",
+      "start_year": 2019,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Michael Waltz for Congress" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $10,800 from Palmer Luckey to Working for Ohio, JD Vance for Senate Inc. in the 2022 cycle.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "John Thune",
+      "slug": "john-thune",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $25,800 from Palmer Luckey to Friends of John Thune, Heartland Values PAC in 3 cycles (2022–2026).",
+      "start_year": 2021,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409581&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Friends of John Thune" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409003&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Heartland Values PAC" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Why Luckey left Facebook",
+      "details": "Luckey says he was fired for his pro-Trump donation; Facebook says his departure was not due to his political views.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Palmer_Luckey", "title": "Palmer Luckey — Wikipedia" },
+        { "url": "https://siliconangle.com/2017/03/30/controversial-oculus-founder-palmer-luckey-leaves-facebook/", "title": "Controversial Oculus founder Palmer Luckey leaves Facebook — SiliconANGLE" }
+      ]
+    },
+    {
+      "topic": "Anduril founding date",
+      "details": "Wikipedia's Anduril infobox gives April 20, 2017; its body text and other sources say June 2017.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Not recorded: a reported $100,000 2017 inaugural donation through an LLC (single unverified report) and claims of a 2024 fundraiser co-hosting from a dossier site. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "leverage": {
+    "level": 2,
+    "basis": "Founder of Anduril, a fast-growing defense contractor (about $2.2 billion in 2025 revenue) that is part of the group building the Pentagon’s Golden Dome software with SpaceX and Palantir.",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+      { "url": "https://www.bloomberg.com/news/articles/2026-04-22/spacex-tapped-for-industry-group-developing-golden-dome-software", "title": "SpaceX joins group building Pentagon’s Golden Dome defense software — Bloomberg (April 2026)" }
+    ]
+  },
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 1610322,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&two_year_transaction_period=2026", "title": "FEC itemized receipts: LUCKEY, PALMER, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00003418&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Republican National Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "One Team Senate Majority",
+            "kind": "pac",
+            "amount_usd": 231300,
+            "fec_usd": 231300,
+            "fec_ids": ["C00897918"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00897918&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to One Team Senate Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Grow the Majority",
+            "kind": "pac",
+            "amount_usd": 194100,
+            "fec_usd": 194100,
+            "fec_ids": ["C00858373"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00858373&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Grow the Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 96600,
+            "fec_usd": 96600,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to NRSC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 89786,
+            "fec_usd": 89786,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00075820&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to NRCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 10000,
+            "fec_usd": 10000,
+            "fec_ids": ["C00409003"],
+            "description": "Per FEC filings: Heartland Values PAC $10,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409003&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Heartland Values PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 7000,
+            "fec_usd": 7000,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $7,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to Mike Johnson for Louisiana, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1500,
+            "fec_usd": 1500,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: CLF $1,500.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: LUCKEY, PALMER to CLF, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 1847103,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&two_year_transaction_period=2024", "title": "FEC itemized receipts: LUCKEY, PALMER, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Protect the House 2024",
+            "kind": "pac",
+            "amount_usd": 225000,
+            "fec_usd": 225000,
+            "fec_ids": ["C00831925"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00831925&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Protect the House 2024, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00867937"],
+            "description": "Per FEC filings: Trump 47 Committee, Inc. $200,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Trump 47 Committee, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00003418&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Republican National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 174300,
+            "fec_usd": 174300,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00027466&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to NRSC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "2024 Thune Republican Senate Victory",
+            "kind": "pac",
+            "amount_usd": 149900,
+            "fec_usd": 149900,
+            "fec_ids": ["C00837435"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00837435&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to 2024 Thune Republican Senate Victory, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 101200,
+            "fec_usd": 101200,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00075820&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to NRCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Thune Victory Committee",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00673715"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00673715&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Thune Victory Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Club for Growth Action",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00487470"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00487470&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Club for Growth Action, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 10000,
+            "fec_usd": 10000,
+            "fec_ids": ["C00409003", "C00409581"],
+            "description": "Per FEC filings: Heartland Values PAC $5,000; Friends of John Thune $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409003&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Heartland Values PAC, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409581&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Friends of John Thune, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00666396"],
+            "description": "Per FEC filings: Michael Waltz for Congress $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Michael Waltz for Congress, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Josh Hawley",
+            "slug": "josh-hawley",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00652727"],
+            "description": "Per FEC filings: Josh Hawley for Senate $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00652727&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Josh Hawley for Senate, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Eric Schmitt",
+            "slug": "eric-schmitt",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 3000,
+            "fec_usd": 3000,
+            "fec_ids": ["C00775015", "C00826362"],
+            "description": "Per FEC filings: Schmitt for Senate $1,500; Winning for America PAC $1,500.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00775015&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Schmitt for Senate, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00826362&two_year_transaction_period=2024", "title": "FEC receipts: LUCKEY, PALMER to Winning for America PAC, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 1472950,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&two_year_transaction_period=2022", "title": "FEC itemized receipts: LUCKEY, PALMER, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Take Back the House 2022",
+            "kind": "pac",
+            "amount_usd": 300000,
+            "fec_usd": 300000,
+            "fec_ids": ["C00766782"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00766782&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Take Back the House 2022, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 251200,
+            "fec_usd": 251200,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00075820&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to NRCC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "The Lincoln Club of Orange County Federal Ie Committee",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00490136"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00490136&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to The Lincoln Club of Orange County Federal Ie Committee, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Saving Arizona PAC",
+            "kind": "super-pac",
+            "amount_usd": 99750,
+            "fec_usd": 99750,
+            "fec_ids": ["C00777185"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00777185&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Saving Arizona PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Take Back the Senate",
+            "kind": "pac",
+            "amount_usd": 36500,
+            "fec_usd": 36500,
+            "fec_ids": ["C00780122"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00780122&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Take Back the Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 35500,
+            "fec_usd": 35500,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00027466&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to NRSC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 10800,
+            "fec_usd": 10800,
+            "fec_ids": ["C00783142", "C00783167"],
+            "description": "Per FEC filings: JD Vance for Senate Inc. $5,800; Working for Ohio $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to JD Vance for Senate Inc., 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Working for Ohio, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00492785"],
+            "description": "Per FEC filings: Ted Cruz for Senate $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00492785&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Ted Cruz for Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00620518"],
+            "description": "Per FEC filings: Marco Rubio for Senate $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00620518&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Marco Rubio for Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00666396"],
+            "description": "Per FEC filings: Michael Waltz for Congress $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00666396&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Michael Waltz for Congress, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00409581"],
+            "description": "Per FEC filings: Friends of John Thune $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00409581&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Friends of John Thune, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 5000,
+            "fec_usd": 5000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00504530&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Congressional Leadership Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Mehmet Oz",
+            "slug": "mehmet-oz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00795930"],
+            "description": "Per FEC filings: Doctor Oz for Senate $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00795930&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Doctor Oz for Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Eric Schmitt",
+            "slug": "eric-schmitt",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2900,
+            "fec_usd": 2900,
+            "fec_ids": ["C00775015"],
+            "description": "Per FEC filings: Schmitt for Senate $2,900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00775015&two_year_transaction_period=2022", "title": "FEC receipts: LUCKEY, PALMER to Schmitt for Senate, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 3002069,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&two_year_transaction_period=2020", "title": "FEC itemized receipts: LUCKEY, PALMER, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 967800,
+            "fec_usd": 967800,
+            "fec_ids": ["C00580100", "C00618389"],
+            "description": "Per FEC filings: Trump Victory $962,200; Donald J. Trump for President, Inc. $5,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: LUCKEY, PALMER to Trump Victory, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00580100&two_year_transaction_period=2020", "title": "FEC receipts: LUCKEY, PALMER to Donald J. Trump for President, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 499400,
+            "fec_usd": 499400,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00003418&two_year_transaction_period=2020", "title": "FEC receipts: LUCKEY, PALMER to Republican National Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Take Back the House 2020",
+            "kind": "pac",
+            "amount_usd": 450000,
+            "fec_usd": 450000,
+            "fec_ids": ["C00695585"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00695585&two_year_transaction_period=2020", "title": "FEC receipts: LUCKEY, PALMER to Take Back the House 2020, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 177500,
+            "fec_usd": 177500,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00075820&two_year_transaction_period=2020", "title": "FEC receipts: LUCKEY, PALMER to NRCC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 71000,
+            "fec_usd": 71000,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00027466&two_year_transaction_period=2020", "title": "FEC receipts: LUCKEY, PALMER to NRSC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Waltz",
+            "slug": "mike-waltz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 1000,
+            "fec_usd": 1000,
+            "fec_ids": ["C00666396"],
+            "description": "Per FEC filings: Michael Waltz for Congress $1,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00666396&two_year_transaction_period=2020", "title": "FEC receipts: LUCKEY, PALMER to Michael Waltz for Congress, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 661959,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&two_year_transaction_period=2018", "title": "FEC itemized receipts: LUCKEY, PALMER, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Protect the House",
+            "kind": "pac",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00669622"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00669622&two_year_transaction_period=2018", "title": "FEC receipts: LUCKEY, PALMER to Protect the House, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "California Victory 2018",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00652461"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00652461&two_year_transaction_period=2018", "title": "FEC receipts: LUCKEY, PALMER to California Victory 2018, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 86100,
+            "fec_usd": 86100,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00075820&two_year_transaction_period=2018", "title": "FEC receipts: LUCKEY, PALMER to NRCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 10800,
+            "fec_usd": 10800,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $10,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00504530&two_year_transaction_period=2018", "title": "FEC receipts: LUCKEY, PALMER to Congressional Leadership Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00542423"],
+            "description": "Per FEC filings: Ted Cruz Victory Committee $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00542423&two_year_transaction_period=2018", "title": "FEC receipts: LUCKEY, PALMER to Ted Cruz Victory Committee, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Rand Paul",
+            "slug": "rand-paul",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 5000,
+            "fec_usd": 5000,
+            "fec_ids": ["C00493924"],
+            "description": "Per FEC filings: Reinventing a New Direction Political Action Committee $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LUCKEY%2C+PALMER&committee_id=C00493924&two_year_transaction_period=2018", "title": "FEC receipts: LUCKEY, PALMER to Reinventing a New Direction Political Action Committee, 2018 cycle" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "asks": [
+    {
+      "date": "2025-02",
+      "with": [],
+      "kind": "contract",
+      "outcome": "granted",
+      "decided": "2025-04-10",
+      "what": "Anduril sought to take over Microsoft's $22 billion Army IVAS headset program; the Army approved the transfer on April 10.",
+      "sources": [
+        { "url": "https://breakingdefense.com/2025/04/anduril-gets-green-light-from-army-to-take-over-microsofts-ivas-project-exec/", "title": "Anduril gets green light from Army to take over IVAS — Breaking Defense" },
+        { "url": "https://techcrunch.com/2025/02/11/anduril-takes-control-of-microsofts-22b-vr-military-headset-program/", "title": "Anduril takes control of Microsoft's $22B headset program — TechCrunch" }
+      ]
+    }
+  ]
+}

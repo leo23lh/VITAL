@@ -1,0 +1,162 @@
+{
+  "name": "Roelof Botha",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "tech",
+  "groups": ["paypal-mafia"],
+  "photo": {
+    "file": "roelof-botha.jpg",
+    "credit": "TechCrunch",
+    "license": "CC BY 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Roelof_Botha_TechCrunch_Disrupt_2025_(cropped).jpg", "title": "File:Roelof Botha TechCrunch Disrupt 2025 (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Adviser to Sequoia Capital (steward until November 2025); SpaceX board member (since 2026)",
+  "summary": "Roelof Botha was PayPal's chief financial officer from 2000 to 2003 and took it public in 2002. He joined Sequoia Capital in 2003, where he oversaw its investments in YouTube, Instagram and Square, and led the firm as steward until stepping aside in November 2025 in favor of Alfred Lin and Pat Grady. In 2026 he joined SpaceX's board, reuniting with Elon Musk.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Roelof_Botha", "title": "Roelof Botha — Wikipedia" },
+    { "url": "https://fortune.com/2025/11/04/roelof-botha-steps-aside-as-sequoias-steward-passing-the-role-to-alfred-lin-and-pat-grady/", "title": "Roelof Botha steps aside as Sequoia's steward — Fortune" }
+  ],
+  "timeline": [
+    {
+      "year": 2000,
+      "end_year": 2003,
+      "role": "Chief financial officer (took the company public in 2002)",
+      "org": "PayPal",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Roelof_Botha", "title": "Roelof Botha — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2003,
+      "end_year": 2025,
+      "role": "Partner; later steward (head) of the firm until November 2025, then adviser",
+      "org": "Sequoia Capital",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Roelof_Botha", "title": "Roelof Botha — Wikipedia" },
+        { "url": "https://fortune.com/2025/11/04/roelof-botha-steps-aside-as-sequoias-steward-passing-the-role-to-alfred-lin-and-pat-grady/", "title": "Roelof Botha steps aside as Sequoia's steward — Fortune" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Board member",
+      "org": "SpaceX",
+      "sources": [
+        { "url": "https://fortune.com/2026/06/17/paypal-mafia-member-and-ex-sequoia-steward-roelof-botha-joins-spacex-board-reuniting-with-elon-musk-after-decades/", "title": "PayPal mafia member and ex-Sequoia steward Roelof Botha joins SpaceX board — Fortune" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "PayPal Mafia",
+      "role": "Member; in Fortune's 2007 group photo",
+      "start_year": 2007,
+      "sources": [
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "colleague",
+      "description": "PayPal colleagues in 2000; Botha joined SpaceX's board in 2026, which Fortune described as a reunion after decades.",
+      "start_year": 2000,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2026/06/17/paypal-mafia-member-and-ex-sequoia-steward-roelof-botha-joins-spacex-board-reuniting-with-elon-musk-after-decades/", "title": "PayPal mafia member and ex-Sequoia steward Roelof Botha joins SpaceX board — Fortune" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "colleague",
+      "description": "Botha was PayPal's CFO while Thiel was CEO, taking the company public together in 2002.",
+      "start_year": 2000,
+      "end_year": 2002,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Roelof_Botha", "title": "Roelof Botha — Wikipedia" },
+        { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" }
+      ]
+    },
+    {
+      "name": "Alfred Lin",
+      "slug": "alfred-lin",
+      "relationship_type": "colleague",
+      "description": "Sequoia partner who, with Pat Grady, succeeded Botha as the firm's leader in November 2025.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2025/11/04/roelof-botha-steps-aside-as-sequoias-steward-passing-the-role-to-alfred-lin-and-pat-grady/", "title": "Roelof Botha steps aside as Sequoia's steward — Fortune" }
+      ]
+    },
+    {
+      "name": "Chad Hurley",
+      "slug": "chad-hurley",
+      "relationship_type": "funded_by",
+      "description": "Sequoia Capital, where Botha oversaw the investment, put $3.5 million into YouTube in November 2005, and Botha joined its board; Sequoia added more in April 2006 before Google bought YouTube.",
+      "start_year": 2005,
+      "end_year": 2006,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/History_of_YouTube", "title": "History of YouTube — Wikipedia" },
+        { "url": "https://blog.youtube/news-and-events/youtube-receives-35m-in-funding-from/", "title": "YouTube receives $3.5M in funding from Sequoia Capital — YouTube Official Blog (2005)" }
+      ]
+    },
+    {
+      "name": "Steve Chen",
+      "slug": "steve-chen",
+      "relationship_type": "funded_by",
+      "description": "Sequoia Capital, where Botha oversaw the investment, put $3.5 million into YouTube in November 2005, and Botha joined its board; Sequoia added more in April 2006 before Google bought YouTube.",
+      "start_year": 2005,
+      "end_year": 2006,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/History_of_YouTube", "title": "History of YouTube — Wikipedia" },
+        { "url": "https://blog.youtube/news-and-events/youtube-receives-35m-in-funding-from/", "title": "YouTube receives $3.5M in funding from Sequoia Capital — YouTube Official Blog (2005)" }
+      ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "relationship_type": "employer",
+      "description": "At PayPal: Chief financial officer; took the company public in 2002.",
+      "start_year": 2000,
+      "end_year": 2003,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Roelof_Botha", "title": "Roelof Botha — Wikipedia" },
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "When Botha left Sequoia's leadership",
+      "details": "Fortune reported in November 2025 that he stepped aside as steward but stays on as an adviser; Wikipedia lists his partnership as running to 2026.",
+      "sources": [
+        { "url": "https://fortune.com/2025/11/04/roelof-botha-steps-aside-as-sequoias-steward-passing-the-role-to-alfred-lin-and-pat-grady/", "title": "Roelof Botha steps aside as Sequoia's steward — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/Roelof_Botha", "title": "Roelof Botha — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Links to YouTube's founders (Sequoia's YouTube investment) are in their files.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2022,
+        "total_usd": 10000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BOTHA%2C+ROELOF&two_year_transaction_period=2022", "title": "FEC itemized receipts: BOTHA, ROELOF, 2022 cycle" }
+        ],
+        "recipients": []
+      }
+    ]
+  }
+}

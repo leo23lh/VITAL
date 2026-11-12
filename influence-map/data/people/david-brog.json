@@ -1,0 +1,159 @@
+{
+  "name": "David Brog",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon", "middle-east"],
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": 1990,
+      "basis": "By his own account a Democrat until law school (Harvard Law, 1991).",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 1991,
+      "end_year": null,
+      "basis": "Chief of staff to Republican Sen. Arlen Specter; led Christians United for Israel and the Adelson-funded Maccabee Task Force; ran in the 2022 Republican primary for Nevada's 1st district, endorsed by Mike Pompeo, pledging to finish Trump's border wall.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "Co-founder and president of the Edmund Burke Foundation (National Conservatism Conference)",
+  "summary": "David Brog is an American conservative activist. A Harvard-trained lawyer, he was chief of staff to Sen. Arlen Specter and staff director of the Senate Judiciary Committee, then ran Christians United for Israel from 2006 to 2015 and the Adelson- and Saban-funded Maccabee Task Force against campus BDS. In 2019 he co-founded the Edmund Burke Foundation with Yoram Hazony and co-organizes the NatCon conferences. He is a cousin of former Israeli prime minister Ehud Barak.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" },
+    { "url": "https://patriotictalks.mcc.hu/en/node/43", "title": "David Brog — MCC Patriotic Talks" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "role": "Chief of staff to Sen. Arlen Specter; staff director, Senate Judiciary Committee",
+      "org": "US Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" },
+        { "url": "https://patriotictalks.mcc.hu/en/node/43", "title": "David Brog — MCC Patriotic Talks" }
+      ]
+    },
+    {
+      "year": 2006,
+      "end_year": 2015,
+      "role": "Executive director",
+      "org": "Christians United for Israel",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" },
+        { "url": "https://patriotictalks.mcc.hu/en/node/43", "title": "David Brog — MCC Patriotic Talks" }
+      ]
+    },
+    {
+      "year": 2015,
+      "role": "Head",
+      "org": "Maccabee Task Force (anti-BDS group formed by the Adelsons and Haim Saban)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "Co-founder and president",
+      "org": "Edmund Burke Foundation",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    },
+    {
+      "year": 2022,
+      "end_year": 2022,
+      "role": "Candidate, Republican primary (second place, 17%)",
+      "org": "Nevada's 1st congressional district",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "co-founder",
+      "description": "Co-founded the Edmund Burke Foundation in 2019 and organize the National Conservatism Conference together; Hazony is chairman, Brog president.",
+      "start_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "employer",
+      "description": "In July 2015 Brog was named to head the Campus Maccabees (Maccabee Task Force), the anti-BDS group Sheldon and Miriam Adelson launched with Haim Saban; Brog is often described as an Adelson protégé.",
+      "start_year": 2015,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" },
+        { "url": "https://forward.com/news/311662/leader-of-christian-zionists-named-head-of-adelson-campus-anti-bds-group/?amp=1", "title": "Leader of Christian Zionists named head of Adelson campus anti-BDS group — The Forward" },
+        { "url": "https://www.timesofisrael.com/how-sheldon-adelson-just-might-be-turning-the-tide-against-bds-on-us-campuses/", "title": "How Sheldon Adelson just might be turning the tide against BDS on US campuses — Times of Israel" }
+      ]
+    },
+    {
+      "name": "Arlen Specter",
+      "slug": "arlen-specter",
+      "relationship_type": "employer",
+      "description": "Brog was Specter's chief of staff and staff director of the Senate Judiciary Committee.",
+      "start_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" },
+        { "url": "https://patriotictalks.mcc.hu/en/node/43", "title": "David Brog — MCC Patriotic Talks" }
+      ]
+    },
+    {
+      "name": "John Hagee",
+      "slug": "john-hagee",
+      "relationship_type": "employer",
+      "description": "Hagee hired Brog in 2006 to run Christians United for Israel, which he led until 2015.",
+      "start_year": 2006,
+      "end_year": 2015,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ehud Barak",
+      "slug": "ehud-barak",
+      "relationship_type": "family",
+      "description": "Cousin; Barak's family name was Brog until he Hebraized it in 1972.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Edmund Burke Foundation",
+      "slug": "edmund-burke-foundation",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and president.",
+      "start_year": 2019,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and, where available, with Wikipedia via its API.",
+  "last_researched": "2026-11-07"
+}

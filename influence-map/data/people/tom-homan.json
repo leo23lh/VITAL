@@ -1,0 +1,110 @@
+{
+  "name": "Tom Homan",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "current_role": "White House “border czar” (since January 2025)",
+  "summary": "Tom Homan, a 30-year immigration-enforcement veteran who was acting director of ICE in Trump’s first term, has been the White House “border czar” since January 2025, an informal title overseeing border and deportation operations. Between the two administrations he was a visiting fellow at the Heritage Foundation and a contributor to Project 2025. Democrats have pressed for an inquiry into reports that he accepted $50,000 in cash from undercover FBI agents in 2024.",
+  "sources": [
+    { "url": "https://wbhm.org/npr-story/what-to-know-about-tom-homan-the-former-ice-head-returning-as-trumps-border-czar", "title": "What to know about Tom Homan, the former ICE head returning as Trump’s ‘border czar’ — NPR via WBHM" },
+    { "url": "https://en.wikipedia.org/wiki/Tom_Homan", "title": "Tom Homan — Wikipedia" },
+    { "url": "https://www.washingtontimes.com/news/2026/oct/27/sen-whitehouse-tries-turn-trumps-new-fraud-tip-line-homan/", "title": "Sen. Whitehouse submits tip on Trump’s border czar — The Washington Times (October 27, 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2018,
+      "role": "Acting Director",
+      "org": "U.S. Immigration and Customs Enforcement",
+      "sources": [
+        { "url": "https://wbhm.org/npr-story/what-to-know-about-tom-homan-the-former-ice-head-returning-as-trumps-border-czar", "title": "What to know about Tom Homan, the former ICE head returning as Trump’s ‘border czar’ — NPR via WBHM" },
+        { "url": "https://en.wikipedia.org/wiki/Tom_Homan", "title": "Tom Homan — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2022,
+      "end_year": 2024,
+      "role": "Visiting fellow",
+      "org": "Heritage Foundation",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Homan", "title": "Tom Homan — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Border czar",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://wbhm.org/npr-story/what-to-know-about-tom-homan-the-former-ice-head-returning-as-trumps-border-czar", "title": "What to know about Tom Homan, the former ICE head returning as Trump’s ‘border czar’ — NPR via WBHM" },
+        { "url": "https://www.washingtontimes.com/news/2026/oct/27/sen-whitehouse-tries-turn-trumps-new-fraud-tip-line-homan/", "title": "Sen. Whitehouse submits tip on Trump’s border czar — The Washington Times (October 27, 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Ran ICE as acting director in Trump’s first term; his border czar since 2025.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://wbhm.org/npr-story/what-to-know-about-tom-homan-the-former-ice-head-returning-as-trumps-border-czar", "title": "What to know about Tom Homan, the former ICE head returning as Trump’s ‘border czar’ — NPR via WBHM" },
+        { "url": "https://en.wikipedia.org/wiki/Tom_Homan", "title": "Tom Homan — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Heritage Foundation",
+      "slug": "heritage-foundation",
+      "relationship_type": "employer",
+      "description": "Visiting fellow from 2022 and a contributor to Project 2025.",
+      "start_year": 2022,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Homan", "title": "Tom Homan — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Rodney Scott",
+      "slug": "rodney-scott",
+      "relationship_type": "colleague",
+      "description": "Both central to the administration’s border and deportation operations.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://time.com/7377432/ice-cbp-congress-hearing-testimony-minneapolis-lyons-scott/", "title": "Five key takeaways from ICE and CBP leaders’ first testimony before Congress — TIME" },
+        { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" }
+      ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "colleague",
+      "description": "Both served in Trump’s first administration (Homan as acting ICE director, Miller as senior policy adviser) and were named together in November 2024 to lead his immigration agenda: Homan as border czar in charge of deportations, Miller as deputy chief of staff for policy. Homan reports to Miller as chief of staff from November 9, 2026.",
+      "start_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.news4jax.com/news/politics/2024/11/12/a-pair-of-trump-officials-have-defended-family-separation-and-ramped-up-deportations/", "title": "A pair of Trump officials have defended family separation and ramped up deportations — AP via News4JAX" },
+        { "url": "https://www.aljazeera.com/news/2024/11/11/trump-announces-immigration-official-tom-homan-as-border-czar", "title": "Trump picks Tom Homan as ‘border czar’, Stephen Miller for top policy role — Al Jazeera" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Border Czar",
+    "unit": "white-house",
+    "rank": 3,
+    "reports_to": "stephen-miller",
+    "since": "2025-01",
+    "sources": [
+      { "url": "https://wbhm.org/npr-story/what-to-know-about-tom-homan-the-former-ice-head-returning-as-trumps-border-czar", "title": "What to know about Tom Homan, the former ICE head returning as Trump’s ‘border czar’ — NPR via WBHM" },
+      { "url": "https://www.washingtontimes.com/news/2026/oct/27/sen-whitehouse-tries-turn-trumps-new-fraud-tip-line-homan/", "title": "Sen. Whitehouse submits tip on Trump’s border czar — The Washington Times (October 27, 2026)" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

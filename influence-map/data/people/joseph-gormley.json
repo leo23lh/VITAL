@@ -1,0 +1,64 @@
+{
+  "name": "Joseph Gormley",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "President of Ginnie Mae; acting FHA Commissioner and Assistant Secretary for Housing (since June 2026)",
+  "summary": "Joseph Gormley, president of Ginnie Mae, has also run the Federal Housing Administration on an acting basis since Frank Cassidy left in June 2026; Trump nominated Matt Jones for the FHA post in September 2026.",
+  "sources": [
+    { "url": "https://www.scotsmanguide.com/news/gormley-temporarily-steps-into-fha-commissioner-role-as-cassidy-takes-leave/", "title": "Gormley temporarily steps into FHA commissioner role as Cassidy takes leave — Scotsman Guide" },
+    { "url": "https://themortgagepoint.com/2026/09/16/former-mba-official-nominated-for-fha-commissioner/", "title": "Trump appoints FHA single-family head Matt Jones to top agency post — The MortgagePoint (September 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "President",
+      "org": "Ginnie Mae",
+      "sources": [
+        { "url": "https://www.scotsmanguide.com/news/gormley-temporarily-steps-into-fha-commissioner-role-as-cassidy-takes-leave/", "title": "Gormley temporarily steps into FHA commissioner role as Cassidy takes leave — Scotsman Guide" },
+        { "url": "https://themortgagepoint.com/2026/09/16/former-mba-official-nominated-for-fha-commissioner/", "title": "Trump appoints FHA single-family head Matt Jones to top agency post — The MortgagePoint (September 2026)" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Acting FHA Commissioner and Assistant Secretary for Housing",
+      "org": "U.S. Department of Housing and Urban Development",
+      "sources": [
+        { "url": "https://www.scotsmanguide.com/news/gormley-temporarily-steps-into-fha-commissioner-role-as-cassidy-takes-leave/", "title": "Gormley temporarily steps into FHA commissioner role as Cassidy takes leave — Scotsman Guide" },
+        { "url": "https://themortgagepoint.com/2026/09/16/former-mba-official-nominated-for-fha-commissioner/", "title": "Trump appoints FHA single-family head Matt Jones to top agency post — The MortgagePoint (September 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Scott Turner",
+      "slug": "scott-turner",
+      "relationship_type": "employer",
+      "description": "Runs Ginnie Mae and, acting, the FHA under Turner.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.scotsmanguide.com/news/gormley-temporarily-steps-into-fha-commissioner-role-as-cassidy-takes-leave/", "title": "Gormley temporarily steps into FHA commissioner role as Cassidy takes leave — Scotsman Guide" },
+        { "url": "https://themortgagepoint.com/2026/09/16/former-mba-official-nominated-for-fha-commissioner/", "title": "Trump appoints FHA single-family head Matt Jones to top agency post — The MortgagePoint (September 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "President of Ginnie Mae; acting FHA Commissioner (until a successor is confirmed)",
+    "unit": "hud",
+    "rank": 3,
+    "reports_to": "scott-turner",
+    "acting": true,
+    "sources": [
+      { "url": "https://www.scotsmanguide.com/news/gormley-temporarily-steps-into-fha-commissioner-role-as-cassidy-takes-leave/", "title": "Gormley temporarily steps into FHA commissioner role as Cassidy takes leave — Scotsman Guide" },
+      { "url": "https://themortgagepoint.com/2026/09/16/former-mba-official-nominated-for-fha-commissioner/", "title": "Trump appoints FHA single-family head Matt Jones to top agency post — The MortgagePoint (September 2026)" }
+    ]
+  },
+  "notes": "Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

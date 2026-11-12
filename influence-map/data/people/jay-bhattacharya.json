@@ -1,0 +1,73 @@
+{
+  "name": "Jay Bhattacharya",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Director of the National Institutes of Health (since April 2025)",
+  "summary": "Jay Bhattacharya, a Stanford health economist who co-wrote the Great Barrington Declaration against pandemic lockdowns, has directed the NIH since April 2025. From February 2026 he also ran the CDC as acting director until Erica Schwartz was confirmed in August.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Jay_Bhattacharya", "title": "Jay Bhattacharya — Wikipedia" },
+    { "url": "https://www.healthcare-brew.com/stories/2025/03/27/nih-fda-heads-confirmed", "title": "NIH, FDA heads confirmed — Healthcare Brew" },
+    { "url": "https://www.aacom.org/news-reports/news/2025/04/07/senate-confirms-nih-and-fda-directors--cms-administrator", "title": "Senate confirms NIH and FDA directors, CMS administrator — AACOM" },
+    { "url": "https://www.ajc.com/news/2026/02/nih-director-will-temporarily-run-cdc-in-leadership-shake-up", "title": "NIH director will temporarily run CDC in leadership shake-up — Atlanta Journal-Constitution (February 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2025,
+      "role": "Professor of Medicine",
+      "org": "Stanford University",
+      "sources": [
+        { "url": "https://www.healthcare-brew.com/stories/2025/03/27/nih-fda-heads-confirmed", "title": "NIH, FDA heads confirmed — Healthcare Brew" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Director",
+      "org": "National Institutes of Health",
+      "sources": [
+        { "url": "https://www.healthcare-brew.com/stories/2025/03/27/nih-fda-heads-confirmed", "title": "NIH, FDA heads confirmed — Healthcare Brew" },
+        { "url": "https://www.aacom.org/news-reports/news/2025/04/07/senate-confirms-nih-and-fda-directors--cms-administrator", "title": "Senate confirms NIH and FDA directors, CMS administrator — AACOM" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": 2026,
+      "role": "Acting Director",
+      "org": "Centers for Disease Control and Prevention",
+      "sources": [
+        { "url": "https://www.ajc.com/news/2026/02/nih-director-will-temporarily-run-cdc-in-leadership-shake-up", "title": "NIH director will temporarily run CDC in leadership shake-up — Atlanta Journal-Constitution (February 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "employer",
+      "description": "Kennedy’s NIH director, who also ran the CDC as acting director in 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.healthcare-brew.com/stories/2025/03/27/nih-fda-heads-confirmed", "title": "NIH, FDA heads confirmed — Healthcare Brew" },
+        { "url": "https://www.ajc.com/news/2026/02/nih-director-will-temporarily-run-cdc-in-leadership-shake-up", "title": "NIH director will temporarily run CDC in leadership shake-up — Atlanta Journal-Constitution (February 2026)" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Director, NIH",
+    "unit": "hhs",
+    "rank": 3,
+    "reports_to": "robert-f-kennedy-jr",
+    "since": "2025-04",
+    "sources": [
+      { "url": "https://www.healthcare-brew.com/stories/2025/03/27/nih-fda-heads-confirmed", "title": "NIH, FDA heads confirmed — Healthcare Brew" },
+      { "url": "https://www.ajc.com/news/2026/02/nih-director-will-temporarily-run-cdc-in-leadership-shake-up", "title": "NIH director will temporarily run CDC in leadership shake-up — Atlanta Journal-Constitution (February 2026)" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

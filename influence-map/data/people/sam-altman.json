@@ -1,0 +1,625 @@
+{
+  "name": "Sam Altman",
+  "aliases": ["Samuel Altman", "Samuel Harris Altman"],
+  "public_figure": true,
+  "sector": "ai-defense",
+  "groups": ["ai-race"],
+  "photo": {
+    "file": "sam-altman.jpg",
+    "credit": "首相官邸ホームページ / Office of the Prime Minister of Japan Official Website",
+    "license": "CC BY 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Meeting_with_Masayoshi_Son_and_Sam_Altman_(February_3,_2025)_(3x4_cropped_on_Altman).jpg", "title": "File:Meeting with Masayoshi Son and Sam Altman (February 3, 2025) (3x4 cropped on Altman).jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": 2024,
+      "basis": "A prominent Democratic donor: gave more than $1 million, almost all to Democrats, including six-figure sums for Biden in 2020 and 2023.",
+      "sources": [
+        { "url": "https://www.brennancenter.org/our-work/research-reports/money-politics-roundup-october-2025", "title": "Brennan Center: Money in politics roundup, October 2025" },
+        { "url": "https://www.foxbusiness.com/politics/openai-ceo-sam-altman-donated-200000-biden-campaign", "title": "Fox Business: Sam Altman donated $200,000 to Biden campaign" }
+      ]
+    },
+    {
+      "value": 0,
+      "start_year": 2025,
+      "end_year": null,
+      "basis": "Gave $1 million to Trump's inauguration (December 2024) and in July 2025 called himself \"politically homeless\", saying the Democratic Party had lost the plot.",
+      "sources": [
+        { "url": "https://www.npr.org/2024/12/13/nx-s1-5227874/trump-bezos-zuckerberg-amazon-facebook-open-ai-meta-inauguration-fund", "title": "NPR: Tech moguls donate to Trump's inauguration fund" },
+        { "url": "https://fortune.com/2025/07/08/sam-altman-democratic-party-politically-homeless-silicon-valley-politics-openai/", "title": "Fortune: Sam Altman says he is politically homeless" }
+      ]
+    }
+  ],
+  "current_role": "CEO of OpenAI",
+  "summary": "Sam Altman co-founded Loopt, ran the startup accelerator Y Combinator from 2014 to 2019 and co-founded OpenAI in 2015 with Elon Musk and others, becoming its CEO in 2019. Briefly ousted by OpenAI's board in November 2023 and reinstated days later, he gave $1 million to Trump's 2025 inauguration and launched the $500 billion Stargate AI infrastructure venture with Trump, Larry Ellison and Masayoshi Son. In May 2026 a jury rejected Musk's lawsuit against him and OpenAI.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Sam_Altman", "title": "Sam Altman — Wikipedia" },
+    { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
+    { "url": "https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed", "title": "Jury dismisses all claims in Elon Musk's lawsuit against OpenAI CEO Sam Altman — NPR" }
+  ],
+  "timeline": [
+    {
+      "year": 2005,
+      "end_year": 2012,
+      "role": "Co-founder and CEO (sold to Green Dot)",
+      "org": "Loopt",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sam_Altman", "title": "Sam Altman — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2014,
+      "end_year": 2019,
+      "role": "President",
+      "org": "Y Combinator",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sam_Altman", "title": "Sam Altman — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2015,
+      "role": "Co-founder",
+      "org": "OpenAI",
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "Chief executive officer (removed November 17, 2023; reinstated days later)",
+      "org": "OpenAI",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sam_Altman", "title": "Sam Altman — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI", "title": "Removal of Sam Altman from OpenAI — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Co-launched the $500 billion Stargate AI infrastructure venture (OpenAI has operational responsibility)",
+      "org": "Stargate (OpenAI, SoftBank, Oracle, MGX)",
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
+        { "url": "https://www.aljazeera.com/news/2025/1/22/trump-announces-500bn-stargate-venture-to-build-up-ai-infrastucture", "title": "Trump announces $500bn 'Stargate' venture to build up AI infrastructure — Al Jazeera" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "OpenAI",
+      "role": "Co-founder and CEO",
+      "start_year": 2015,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/Sam_Altman", "title": "Sam Altman — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Y Combinator",
+      "role": "President",
+      "start_year": 2014,
+      "end_year": 2019,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sam_Altman", "title": "Sam Altman — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "colleague",
+      "description": "Partners in the Stargate AI infrastructure venture (OpenAI, SoftBank, Oracle and MGX), which Ellison, Altman and SoftBank's Masayoshi Son launched with Trump at the White House on January 21, 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
+        { "url": "https://www.hollywoodreporter.com/business/business-news/stargate-trump-openai-ellison-1236114430/", "title": "Stargate, Trump, OpenAI and Ellison — The Hollywood Reporter" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "co-founder",
+      "description": "Co-founded OpenAI as a nonprofit in December 2015; Musk left its board in February 2018 after co-founders including Altman rejected his proposal to take control.",
+      "start_year": 2015,
+      "end_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://openai.com/index/openai-elon-musk/", "title": "OpenAI and Elon Musk — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "rival",
+      "description": "After leaving OpenAI, Musk launched the rival xAI and in 2024 sued Altman and OpenAI over its shift to a for-profit model, seeking up to $134 billion; on May 18, 2026 a jury found the claims time-barred. Musk said he would appeal.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Musk_v._Altman", "title": "Musk v. Altman — Wikipedia" },
+        { "url": "https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed", "title": "Jury dismisses all claims in Elon Musk's lawsuit against OpenAI CEO Sam Altman — NPR" },
+        { "url": "https://www.axios.com/2026/05/18/musk-loses-ai-trial-openai-altman", "title": "Elon Musk loses lawsuit against OpenAI, Sam Altman — Axios" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Altman personally gave $1 million to Trump's 2025 inaugural fund, saying Trump \"will lead our country into the age of AI\".",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.npr.org/2024/12/13/nx-s1-5227874/trump-bezos-zuckerberg-amazon-facebook-open-ai-meta-inauguration-fund", "title": "Tech moguls Altman, Bezos and Zuckerberg donate to Trump's inauguration fund — NPR" },
+        { "url": "https://www.foxbusiness.com/media/openai-ceo-sam-altman-donate-1-million-trumps-inaugural-fund", "title": "Fox Business: OpenAI CEO Sam Altman to donate $1 million to Trump’s inaugural fund" },
+        { "url": "https://www.breitbart.com/news/openais-altman-will-donate-1-million-to-trumps-inaugural-fund/", "title": "Breitbart: OpenAI’s Altman will donate $1 million to Trump’s inaugural fund" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Altman stood with Trump at the White House on January 21, 2025 to launch the $500 billion Stargate venture, which he called \"the most important project of this era\"; the Wall Street Journal described him as having become Trump's \"AI buddy\".",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
+        { "url": "https://www.aljazeera.com/news/2025/1/22/trump-announces-500bn-stargate-venture-to-build-up-ai-infrastucture", "title": "Trump announces $500bn 'Stargate' venture to build up AI infrastructure — Al Jazeera" },
+        { "url": "https://www.tovima.com/wsj/how-sam-altman-outfoxed-elon-musk-to-become-trumps-ai-buddy/", "title": "How Sam Altman Outfoxed Elon Musk to Become Trump's AI Buddy — The Wall Street Journal (via To Vima)" },
+        { "url": "https://www.breitbart.com/politics/2025/01/21/trump-announces-500-billion-artificial-intelligence-investment-in-america/", "title": "Breitbart: Trump announces $500 billion artificial intelligence investment in America" },
+        { "url": "https://www.washingtontimes.com/news/2025/jan/21/donald-trump-announces-500-billion-ai-investment-n/", "title": "Washington Times: Donald Trump announces $500 billion AI investment" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "mentor",
+      "description": "Thiel is widely described as Altman's longtime mentor and was the main backer of Altman's first venture fund, Hydrazine Capital; Altman reportedly sought Thiel's advice weeks before his 2023 ouster.",
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://the-decoder.com/peter-thiel-reportedly-warned-sam-altman-about-ai-safety-conflicts-shortly-before-the-openai-crisis/", "title": "Peter Thiel reportedly warned Sam Altman about AI safety conflicts shortly before the OpenAI crisis — The Decoder" },
+        { "url": "https://www.adn.com/nation-world/2023/12/24/king-of-the-cannibals-how-sam-altman-took-over-silicon-valley/", "title": "'King of the cannibals': How Sam Altman took over Silicon Valley — The Washington Post via Anchorage Daily News" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "Thiel was among the founding funders of the nonprofit OpenAI in December 2015, whose backers jointly pledged $1 billion (far less was ultimately paid in).",
+      "start_year": 2015,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "ally",
+      "description": "Hoffman was a founding funder of OpenAI in 2015 and sat on its board until March 2023, leaving to avoid conflicts with other AI investments; Altman thanked him for years of \"support, guidance, and friendship\".",
+      "start_year": 2015,
+      "end_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://theprint.in/tech/openais-long-time-backer-reid-hoffman-leaves-board/1417019/", "title": "OpenAI's long-time backer Reid Hoffman leaves board — Reuters via ThePrint" }
+      ]
+    },
+    {
+      "name": "Dario Amodei",
+      "slug": "dario-amodei",
+      "relationship_type": "rival",
+      "description": "Amodei worked at OpenAI from 2016, rising to vice president of research, then left with others over directional differences to found Anthropic in 2021. The two companies are now direct competitors: in February 2026 Altman called Anthropic's Super Bowl ads \"clearly dishonest\" and the company \"authoritarian\".",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dario_Amodei", "title": "Dario Amodei — Wikipedia" },
+        { "url": "https://fortune.com/2026/02/09/super-bowl-ads-anthropic-openai-rivalry-trash-talk-ai-agent-war/", "title": "Super Bowl ads and the Anthropic–OpenAI rivalry — Fortune" },
+        { "url": "https://campustechnology.com/articles/2026/02/10/anthropic-criticizes-openai-ad-strategy.aspx", "title": "Anthropic Criticizes OpenAI Ad Strategy — Campus Technology" }
+      ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "co-founder",
+      "description": "Co-founded OpenAI in 2015; Brockman, its president, left and returned with Altman during the November 2023 board crisis. Co-founded OpenAI in 2015; Brockman, its president, quit and returned with Altman during the November 2023 board crisis.",
+      "start_year": 2015,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI", "title": "Removal of Sam Altman from OpenAI — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Greg_Brockman", "title": "Greg Brockman — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Masayoshi Son",
+      "slug": "masayoshi-son",
+      "relationship_type": "colleague",
+      "description": "Partners in Stargate, announced at the White House on January 21, 2025; Son chairs the venture and SoftBank has financial responsibility while OpenAI has operational responsibility.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
+        { "url": "https://www.aljazeera.com/news/2025/1/22/trump-announces-500bn-stargate-venture-to-build-up-ai-infrastucture", "title": "Trump announces $500bn 'Stargate' venture to build up AI infrastructure — Al Jazeera" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "colleague",
+      "description": "Hours after Hegseth's department moved against Anthropic on February 27, 2026, Altman announced an agreement to put OpenAI's models on the Pentagon's classified networks, with limits on domestic surveillance and autonomous weapons. A company-level deal; no source describes the two working together directly.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.foxbusiness.com/politics/openai-reaches-pentagon-agreement-trump-orders-anthropic-off-federal-systems", "title": "OpenAI reaches Pentagon agreement as Trump orders Anthropic off federal systems — Fox Business" }
+      ]
+    },
+    {
+      "name": "Dustin Moskovitz",
+      "slug": "dustin-moskovitz",
+      "relationship_type": "donor",
+      "description": "Through Open Philanthropy, Moskovitz and Tuna's Good Ventures granted $30 million to OpenAI over three years from 2017, and Open Philanthropy's head joined OpenAI's board.",
+      "start_year": 2017,
+      "end_year": 2020,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.openphilanthropy.org/grants/openai-general-support", "title": "OpenAI — General Support (grant) — Open Philanthropy" }
+      ]
+    },
+    {
+      "name": "Chris Wright",
+      "slug": "chris-wright",
+      "relationship_type": "colleague",
+      "description": "Fellow board members of the nuclear startup Oklo, which Altman chaired: Wright resigned from its board on becoming energy secretary in February 2025, and Altman stepped down as chairman that April.",
+      "start_year": null,
+      "end_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.businesswire.com/news/home/20250206004616/en/Oklo-Announces-Board-Transition-Following-Chris-Wrights-Confirmation-as-Secretary-of-Energy", "title": "Oklo announces board transition following Chris Wright's confirmation as Secretary of Energy — Business Wire" },
+        { "url": "https://www.nucnet.org/news/sam-altman-steps-down-chair-of-nuclear-startup-oklo-clearing-way-for-supply-talks-with-ai-companies-4-3-2025", "title": "Sam Altman steps down as chair of nuclear startup Oklo — NucNet" },
+        { "url": "https://www.businesswire.com/news/home/20250206004616/en/Oklo-Announces-Board-Transition-Following-Chris-Wright%E2%80%99s-Confirmation-as-Secretary-of-Energy", "title": "Oklo: Board transition following Chris Wright’s confirmation as Secretary of Energy" }
+      ]
+    },
+    {
+      "name": "Jacob Helberg",
+      "slug": "jacob-helberg",
+      "relationship_type": "friend",
+      "description": "Altman officiated Jacob Helberg’s 2018 wedding to Keith Rabois.",
+      "start_year": 2018,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jacob_Helberg", "title": "Jacob Helberg — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://finance.yahoo.com/news/trump-appointee-jacob-helbergs-miami-151516830.html", "title": "Yahoo Finance (citing The Wall Street Journal): Trump appointee Jacob Helberg’s Miami home" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "friend",
+      "description": "Altman officiated Keith Rabois’s 2018 wedding to Jacob Helberg.",
+      "start_year": 2018,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jacob_Helberg", "title": "Jacob Helberg — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://finance.yahoo.com/news/trump-appointee-jacob-helbergs-miami-151516830.html", "title": "Yahoo Finance (citing The Wall Street Journal): Trump appointee Jacob Helberg’s Miami home" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "friend",
+      "description": "Altman thanked Hoffman for years of “support, guidance, and friendship” when Hoffman left OpenAI’s board in 2023.",
+      "start_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://theprint.in/tech/openais-long-time-backer-reid-hoffman-leaves-board/1417019/", "title": "OpenAI's long-time backer Reid Hoffman leaves board — Reuters via ThePrint" }
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "slug": "openai",
+      "relationship_type": "co-founder",
+      "description": "Altman co-founded OpenAI in 2015 and has been CEO since 2019 (briefly removed in November 2023).",
+      "start_year": 2015,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://openai.com/index/introducing-openai/", "title": "Introducing OpenAI — OpenAI" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Sam_Altman", "title": "Sam Altman — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI", "title": "Removal of Sam Altman from OpenAI — Wikipedia" },
+        { "url": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment", "title": "Trump announces private-sector AI infrastructure investment — CBS News" },
+        { "url": "https://www.aljazeera.com/news/2025/1/22/trump-announces-500bn-stargate-venture-to-build-up-ai-infrastucture", "title": "Trump announces $500bn 'Stargate' venture to build up AI infrastructure — Al Jazeera" },
+        { "url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Senate Majority PAC",
+      "slug": "senate-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $600,000 from Sam Altman to SMP in 3 cycles (2018–2022).",
+      "start_year": 2018,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00484642&two_year_transaction_period=2022", "title": "FEC receipts: ALTMAN, SAM to SMP" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Why Altman was removed in 2023",
+      "details": "OpenAI's board said he was not consistently candid; former board member Helen Toner later cited withheld information and other concerns; Altman disputes these accounts, and an outside review in March 2024 found his conduct did not mandate removal.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI", "title": "Removal of Sam Altman from OpenAI — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Sam_Altman", "title": "Sam Altman — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Not recorded: a reported friendship with Alexandr Wang (not confirmed by any source found). Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "leverage": {
+    "level": 2,
+    "basis": "CEO of OpenAI, the leading U.S. AI lab, a guest at Trump’s 2026 state dinner for Xi Jinping.",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Sam_Altman", "title": "Sam Altman — Wikipedia" },
+      { "url": "https://thehill.com/homenews/administration/6110866-trump-xi-white-house-dinner/", "title": "President Trump hosts tech giants, political figures at White House state dinner with Xi Jinping — The Hill" }
+    ]
+  },
+  "access": [
+    {
+      "date": "2026-09",
+      "with": ["donald-trump"],
+      "what": "Guest at Trump’s White House state dinner for Xi Jinping.",
+      "sources": [
+        { "url": "https://thehill.com/homenews/administration/6110866-trump-xi-white-house-dinner/", "title": "President Trump hosts tech giants, political figures at White House state dinner with Xi Jinping — The Hill" }
+      ]
+    }
+  ],
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 38300,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&two_year_transaction_period=2026", "title": "FEC itemized receipts: ALTMAN, SAM, 2026 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 338578,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&two_year_transaction_period=2024", "title": "FEC itemized receipts: ALTMAN, SAM, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Harris Victory Fund",
+            "kind": "pac",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: ALTMAN, SAM to Harris Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 41300,
+            "fec_usd": 41300,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00010603&two_year_transaction_period=2024", "title": "FEC receipts: ALTMAN, SAM to DNC Services Corp / Democratic National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 3300,
+            "fec_usd": 3300,
+            "fec_ids": ["C00492785"],
+            "description": "Per FEC filings: Ted Cruz for Senate $3,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: ALTMAN, SAM to Ted Cruz for Senate, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 449000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&two_year_transaction_period=2022", "title": "FEC itemized receipts: ALTMAN, SAM, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 310000,
+            "fec_usd": 310000,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00010603&two_year_transaction_period=2022", "title": "FEC receipts: ALTMAN, SAM to DNC Services Corp / Democratic National Committee, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $100,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00484642&two_year_transaction_period=2022", "title": "FEC receipts: ALTMAN, SAM to SMP, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 840137,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&two_year_transaction_period=2020", "title": "FEC itemized receipts: ALTMAN, SAM, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $250,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00484642&two_year_transaction_period=2020", "title": "FEC receipts: ALTMAN, SAM to SMP, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Ab PAC",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00492140"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00492140&two_year_transaction_period=2020", "title": "FEC receipts: ALTMAN, SAM to Ab PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Tech for Campaigns",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00636027"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00636027&two_year_transaction_period=2020", "title": "FEC receipts: ALTMAN, SAM to Tech for Campaigns, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Biden Victory Fund",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00744946&two_year_transaction_period=2020", "title": "FEC receipts: ALTMAN, SAM to Biden Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 35500,
+            "fec_usd": 35500,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00010603&two_year_transaction_period=2020", "title": "FEC receipts: ALTMAN, SAM to DNC Services Corp / Democratic National Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Kamala Harris",
+            "slug": "kamala-harris",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 5600,
+            "fec_usd": 5600,
+            "fec_ids": ["C00694455"],
+            "description": "Per FEC filings: Kamala Harris for the People $5,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00694455&two_year_transaction_period=2020", "title": "FEC receipts: ALTMAN, SAM to Kamala Harris for the People, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Pete Buttigieg",
+            "slug": "pete-buttigieg",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00697441"],
+            "description": "Per FEC filings: Win the Era PAC $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00697441&two_year_transaction_period=2020", "title": "FEC receipts: ALTMAN, SAM to Win the Era PAC, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 337550,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&two_year_transaction_period=2018", "title": "FEC itemized receipts: ALTMAN, SAM, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $250,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00484642&two_year_transaction_period=2018", "title": "FEC receipts: ALTMAN, SAM to SMP, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 7700,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&two_year_transaction_period=2016", "title": "FEC itemized receipts: ALTMAN, SAM, 2016 cycle" }
+        ],
+        "recipients": []
+      }
+    ]
+  },
+  "asks": [
+    {
+      "date": "2025-10",
+      "with": ["david-sacks", "donald-trump"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-11-06",
+      "what": "An OpenAI letter to the White House (Oct. 27) reportedly sought federal loan guarantees for AI infrastructure; after its CFO floated a federal \"backstop,\" David Sacks said there would be \"no federal bailout for AI.\" OpenAI and Altman deny seeking a bailout.",
+      "sources": [
+        { "url": "https://decrypt.co/347866/openai-sought-government-loan-guarantees-sam-altman-denial", "title": "OpenAI sought government loan guarantees despite Altman denial — Decrypt" },
+        { "url": "https://techcrunch.com/2025/11/06/sam-altman-says-he-doesnt-want-the-government-to-bail-out-openai-if-it-fails", "title": "Sam Altman says he doesn't want the government to bail out OpenAI — TechCrunch" }
+      ]
+    }
+  ]
+}

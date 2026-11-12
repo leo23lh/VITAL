@@ -1,0 +1,179 @@
+{
+  "name": "Josh Hawley",
+  "aliases": ["Joshua David Hawley"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican senator from Missouri since 2019 (attorney general 2017–2019); first senator to announce an objection to certifying the 2020 election; described as populist and socially conservative.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "josh-hawley.jpg",
+    "credit": "Office of Senator Josh Hawley",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Josh_Hawley_(cropped)(b).jpg", "title": "File:Josh Hawley (cropped)(b).jpg — Wikimedia Commons" }
+  },
+  "current_role": "US senator from Missouri (Republican)",
+  "summary": "Josh Hawley, a former clerk to Chief Justice John Roberts and Missouri attorney general, has been a Republican senator from Missouri since 2019. His speech at the first National Conservatism Conference in 2019, attacking a \"cosmopolitan elite\", made him an early face of the movement (critics, including the ADL, called the language antisemitic; he rejected that); he gave NatCon keynotes again in 2021 and 2022.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
+    { "url": "https://www.hawley.senate.gov/senator-josh-hawleys-speech-national-conservatism-conference", "title": "Senator Josh Hawley's Speech at the National Conservatism Conference (2019)" },
+    { "url": "https://www.timesofisrael.com/senators-speech-an-anti-semitic-dog-whistle-or-poli-sci-speak/", "title": "Senator's speech an anti-Semitic dog whistle or poli-sci speak? — Times of Israel" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2019,
+      "role": "Attorney general",
+      "org": "State of Missouri",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "US senator (reelected 2024)",
+      "org": "US Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "National Conservatism Conference",
+      "role": "Speaker (2019, 2021 keynote, 2022, 2025)",
+      "sources": [
+        { "url": "https://www.hawley.senate.gov/senator-josh-hawleys-speech-national-conservatism-conference", "title": "Senator Josh Hawley's Speech at the National Conservatism Conference (2019)" },
+        { "url": "https://www.hawley.senate.gov/?p=3398", "title": "Senator Hawley Delivers National Conservatism Keynote on the Left's Attack on Men in America (2021)" },
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
+        { "url": "https://nationalconservatism.org/natcon-5-2025/", "title": "National Conservatism Conference, Washington 2025" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Hawley's \"cosmopolitan elite\" speech at Hazony's first NatCon in 2019 made him a face of the movement; Hazony defended the term against charges of antisemitism. Hawley returned as a keynote speaker in 2021 and 2022.",
+      "start_year": 2019,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
+        { "url": "https://www.timesofisrael.com/senators-speech-an-anti-semitic-dog-whistle-or-poli-sci-speak/", "title": "Senator's speech an anti-Semitic dog whistle or poli-sci speak? — Times of Israel" },
+        { "url": "https://www.hawley.senate.gov/?p=3398", "title": "Senator Hawley Delivers National Conservatism Keynote on the Left's Attack on Men in America (2021)" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Hawley's 2018 Senate run; Hawley was the first senator to announce an objection to certifying Biden's 2020 win, raising a fist to protesters on January 6, 2021.",
+      "start_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
+        { "url": "https://kvia.com/politics/2021/01/04/the-trump-ally-in-the-senate-leading-the-presidents-futile-effort-to-challenge-the-electoral-college-votes/", "title": "The Trump ally in the Senate leading the president's futile effort to challenge the electoral college votes — CNN via KVIA" },
+        { "url": "https://www.npr.org/sections/biden-transition-updates/2020/12/30/951430323/gop-sen-hawley-will-object-to-electoral-college-certification", "title": "GOP Sen. Hawley will object to Electoral College certification — NPR" },
+        { "url": "https://m.washingtontimes.com/news/2020/dec/30/josh-hawley-becomes-first-senator-declare-hell-obj/", "title": "Josh Hawley becomes first senator to declare he’ll object — The Washington Times" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Described, with Marco Rubio, as the Senate bloc behind Oren Cass's American Compass economic-populist agenda until Vance became vice president.",
+      "start_year": 2023,
+      "end_year": 2025,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" }
+      ]
+    },
+    {
+      "name": "Eric Schmitt",
+      "slug": "eric-schmitt",
+      "relationship_type": "colleague",
+      "description": "Missouri's two Republican senators since 2023; Schmitt succeeded Hawley as state attorney general in 2019.",
+      "start_year": 2023,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
+        { "url": "https://www.newstribune.com/news/2022/nov/08/schmitt-defeats-busch-beer-heir-in-missouri-us-senate-race/", "title": "Schmitt defeats Busch beer heir in Missouri US Senate race — News Tribune" }
+      ]
+    },
+    {
+      "name": "Oren Cass",
+      "slug": "oren-cass",
+      "relationship_type": "ally",
+      "description": "Hawley was among the senators who encouraged Cass to found American Compass and has been part of its Senate bloc.",
+      "start_year": 2020,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/jd-vance-allied-think-tank-185111362.html", "title": "Conservative Economic Populists Are Taking a Victory Lap — Yahoo News" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "Thiel gave $100,000 to Hawley's 2016 attorney-general run in 2015 and two more $100,000 gifts in 2016, then the maximum $5,400 to his 2018 Senate campaign.",
+      "start_year": 2015,
+      "end_year": 2018,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.bloombergquint.com/technology/2017/11/15/peter-thiel-gave-money-to-attorney-general-going-after-google", "title": "Peter Thiel gave money to attorney general going after Google — Bloomberg" },
+        { "url": "https://electionlawblog.org/?p=107525", "title": "Silicon Valley billionaire Thiel invests in Kobach, Hawley and rise of nationalism — Election Law Blog" }
+      ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $14,900 from Richard Uihlein to Josh Hawley for Senate, Fighting for Missouri PAC in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00652727&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Josh Hawley for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00692640&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Fighting for Missouri PAC" }
+      ]
+    },
+    {
+      "name": "Thomas Klingenstein",
+      "slug": "thomas-klingenstein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $27,100 from Thomas Klingenstein to Josh Hawley for Senate, Fighting for Missouri PAC, Hawley Victory Committee in 3 cycles (2018–2024).",
+      "start_year": 2018,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00652727&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Josh Hawley for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00692640&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Fighting for Missouri PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00656926&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Hawley Victory Committee" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Senator (R-MO)",
+    "unit": "senate",
+    "rank": 4,
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
+      { "url": "https://www.hawley.senate.gov/senator-josh-hawleys-speech-national-conservatism-conference", "title": "Senator Josh Hawley's Speech at the National Conservatism Conference (2019)" }
+    ]
+  }
+}

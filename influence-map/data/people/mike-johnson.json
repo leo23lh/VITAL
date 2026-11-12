@@ -1,0 +1,142 @@
+{
+  "name": "Mike Johnson",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": 2017,
+      "end_year": null,
+      "basis": "Republican congressman since 2017 and Speaker since 2023.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Johnson", "title": "Mike Johnson — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "mike-johnson.jpg",
+    "credit": "United States Congress",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Speaker_Mike_Johnson_Official_Portrait_(cropped)(b).jpg", "title": "File:Speaker Mike Johnson Official Portrait (cropped)(b).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Speaker of the House (since October 2023; until January 2027)",
+  "summary": "Mike Johnson, a Louisiana Republican, has been Speaker since October 2023 and steered Trump’s agenda through a razor-thin House majority, relying on Trump to settle revolts in his conference. He won a sixth term in November 2026, but Republicans lost the House, and he told staff he would not run for minority leader.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Mike_Johnson", "title": "Mike Johnson — Wikipedia" },
+    { "url": "https://www.ksla.com/2026/11/05/johnson-wins-sixth-term-house-majority-flips/", "title": "Johnson wins sixth term as House majority flips — KSLA" },
+    { "url": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/entry/20015206/", "title": "Speaker Johnson not running for House minority leader: sources — ABC7 New York" },
+    { "url": "https://www.washingtonexaminer.com/?p=4603630", "title": "FISA spat puts Johnson’s alliance with Trump to the test — Washington Examiner" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": null,
+      "role": "U.S. Representative (R-LA)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Johnson", "title": "Mike Johnson — Wikipedia" },
+        { "url": "https://www.ksla.com/2026/11/05/johnson-wins-sixth-term-house-majority-flips/", "title": "Johnson wins sixth term as House majority flips — KSLA" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": null,
+      "role": "Speaker of the House",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Johnson", "title": "Mike Johnson — Wikipedia" },
+        { "url": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/entry/20015206/", "title": "Speaker Johnson not running for House minority leader: sources — ABC7 New York" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Trump endorsed Johnson for Speaker and Johnson ran the House closely in step with him, talking to him more often than Senate leader Thune and leaning on him to end revolts; NOTUS reported he ceded some of the Speaker’s powers to Trump.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=4603630", "title": "FISA spat puts Johnson’s alliance with Trump to the test — Washington Examiner" },
+        { "url": "https://www.notus.org/congress/mike-johnson-speaker-of-the-house", "title": "It’s Johnson’s gavel but Trump’s House — NOTUS" }
+      ]
+    },
+    {
+      "name": "John Thune",
+      "slug": "john-thune",
+      "relationship_type": "colleague",
+      "description": "The two Republican congressional leaders during Trump’s second term.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=4603630", "title": "FISA spat puts Johnson’s alliance with Trump to the test — Washington Examiner" }
+      ]
+    },
+    {
+      "name": "Hakeem Jeffries",
+      "slug": "hakeem-jeffries",
+      "relationship_type": "rival",
+      "description": "Opposing House leaders since 2023; after the 2026 midterms Jeffries mocked Johnson for saying the polls were wrong.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://thehill.com/homenews/6198897-jeffries-ribs-johnson-midterms/", "title": "Jeffries taunts Speaker Johnson for saying polls were wrong — The Hill" },
+        { "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house", "title": "House Democratic Leader Hakeem Jeffries declares “America is back” — NPR" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "donor",
+      "description": "FEC filings show $13,600 from Keith Rabois to Mike Johnson for Louisiana in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=RABOIS%2C+KEITH&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: RABOIS, KEITH to Mike Johnson for Louisiana" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,500 from Paul Singer to Mike Johnson for Louisiana in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: SINGER, PAUL to Mike Johnson for Louisiana" }
+      ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,800 from Richard Uihlein to Mike Johnson for Louisiana in 2 cycles (2016–2018).",
+      "start_year": 2016,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00608695&two_year_transaction_period=2018", "title": "FEC receipts: UIHLEIN, RICHARD to Mike Johnson for Louisiana" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Speaker of the House (until January 2027)",
+    "unit": "house",
+    "rank": 1,
+    "since": "2023-10",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Mike_Johnson", "title": "Mike Johnson — Wikipedia" },
+      { "url": "https://abc7ny.com/live-updates/midterm-elections-2026-live-updates-election-results-key-races-us/20001292/entry/20015206/", "title": "Speaker Johnson not running for House minority leader: sources — ABC7 New York" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

@@ -1,0 +1,219 @@
+{
+  "aliases": ["Bibi"],
+  "public_figure": true,
+  "connections": [
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "ally",
+      "description": "Disputed. Haaretz reported in September 2021 that Ellison offered Netanyahu a seat on Oracle's board; Netanyahu denied receiving the offer and Oracle declined to comment. In August 2021 Netanyahu dined with Ellison in Hawaii while Ellison was listed as a state's witness in Netanyahu's corruption trial.",
+      "start_year": 2021,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.haaretz.com/israel-news/2021-09-16/ty-article/.highlight/larry-ellison-netanyahu-trial-witness-offers-ex-pm-seat-on-oracle-board/0000017f-dbd9-d3a5-af7f-fbff9ae80000", "title": "Larry Ellison Offers Netanyahu Lucrative Oracle Post — Haaretz" },
+        { "url": "https://www.jpost.com/israel-news/netanyahu-dines-with-states-witness-against-him-in-hawaii-678055", "title": "Benjamin Netanyahu dines with state's witness against him in Hawaii — The Jerusalem Post" }
+      ],
+      "end_year": 2021
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "ally",
+      "description": "The Adelsons were early backers of Netanyahu in 1996, and Israel Hayom has been widely seen as favoring him. They fell out after Israel's attorney general alleged in 2017 that Netanyahu sought a deal with a rival paper's publisher, and by about 2019 had cut off contact with him and his wife.",
+      "start_year": 1996,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Miriam_Adelson", "title": "Miriam Adelson — Wikipedia" },
+        { "url": "https://www.jpost.com/breaking-news/adelson-sara-netanyahu-said-if-israel-is-destroyed-itll-be-my-fault-600768", "title": "Adelson: Sara Netanyahu said if Israel is destroyed it'll be my fault — Jerusalem Post" }
+      ],
+      "end_year": 2019
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "employee",
+      "description": "In the early 1990s Hazony worked as an aide to then-opposition leader Netanyahu, attending the Madrid peace talks with him and helping with two of his books.",
+      "start_year": 1990,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
+        { "url": "https://www.yoramhazony.org/about/", "title": "About — Yoram Hazony" }
+      ],
+      "end_year": 1993
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Netanyahu made his closeness to Trump central to his political appeal.",
+      "start_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu", "title": "Benjamin Netanyahu — Wikipedia" },
+        { "url": "https://www.timesofisrael.com/netanyahu-plays-a-trump-card-as-elections-near/", "title": "Netanyahu plays his 'Trump card' as elections near — Times of Israel" },
+        { "url": "https://www.npr.org/2019/04/01/708206468/netanyahus-tough-election-campaign-approach-appears-to-channel-trump", "title": "Netanyahu's tough election campaign approach appears to channel Trump — NPR" }
+      ]
+    },
+    {
+      "name": "AIPAC",
+      "slug": "aipac",
+      "relationship_type": "ally",
+      "description": "Netanyahu has addressed its policy conferences in person and by satellite.",
+      "start_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/AIPAC", "title": "AIPAC — Wikipedia" },
+        { "url": "https://kmph.com/news/nation-world/pence-netanyahu-applaud-trump-for-support-of-israel-at-aipac", "title": "Pence, Netanyahu applaud Trump for support of Israel at AIPAC — AP via KMPH" }
+      ]
+    },
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "friend",
+      "description": "Netanyahu has been a friend of the Kushner family, especially Charles Kushner, since Jared Kushner was young; Kushner has confirmed Netanyahu once stayed at the family home.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.jpost.com/american-politics/when-netanyahu-slept-at-the-kushners-and-other-media-tales-of-trumps-jewish-confidantes-481486", "title": "Jerusalem Post (JTA): When Netanyahu slept at the Kushners’" },
+        { "url": "https://www.i24news.tv/en/news/international/americas/137466-170212-nyt-report-reveals-netanyahu-and-kushner-have-long-history-of-friendship", "title": "i24NEWS: NYT report reveals Netanyahu and Kushner have long history of friendship" },
+        { "url": "https://www.jewishvirtuallibrary.org/jared-kushner", "title": "Jewish Virtual Library: Jared Kushner" }
+      ]
+    },
+    {
+      "name": "Larry Ellison",
+      "slug": "larry-ellison",
+      "relationship_type": "friend",
+      "description": "Haaretz described Ellison as one of Netanyahu’s close friends: Netanyahu’s family vacationed at Ellison’s private Hawaiian island in August 2021, and Ellison reportedly offered him an Oracle board seat that year, which Netanyahu denied receiving; Ellison was also a prosecution witness in Netanyahu’s corruption trial.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.benzinga.com/news/21/09/22944530/former-israeli-prime-minister-benjamin-netanyahu-asked-to-join-oracle-board-by-co-founder-report", "title": "Benzinga (citing Haaretz): Netanyahu asked to join Oracle board by co-founder" },
+        { "url": "https://thejewishindependent.com.au/larry-ellison-netanyahu-trial-witness-offers-ex-pm-seat-on-oracles-board", "title": "The Jewish Independent: Larry Ellison offers ex-PM seat on Oracle’s board" }
+      ]
+    },
+    {
+      "name": "Miriam Adelson",
+      "slug": "miriam-adelson",
+      "relationship_type": "friend",
+      "description": "Miriam and Sheldon Adelson had an extraordinarily close relationship with Netanyahu, who persuaded them to start the newspaper Israel Hayom; the Forward reported the friendship soured in Sheldon’s final months, before his 2021 death.",
+      "start_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Miriam_Adelson", "title": "Miriam Adelson — Wikipedia" },
+        { "url": "https://forward.com/fast-forward/461930/sheldon-adelson-jewish-philanthropist-and-mega-donor-to-netanyahu-and/", "title": "The Forward: Before Sheldon Adelson’s death, his relationships soured with both Netanyahu and Trump" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-08",
+  "name": "Benjamin Netanyahu",
+  "sector": "politics",
+  "groups": ["middle-east"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Leader of the right-wing Likud since 1993 (with a break) and prime minister at the head of right-wing coalitions; made his closeness to Donald Trump central to his appeal.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu", "title": "Benjamin Netanyahu — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "benjamin-netanyahu.jpg",
+    "credit": "Avi Ohayon",
+    "license": "CC BY-SA 3.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Benjamin_Netanyahu,_February_2023_(cropped)(b).jpg", "title": "File:Benjamin Netanyahu, February 2023 (cropped)(b).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Prime Minister of Israel (caretaker after the October 27, 2026 election; see source conflicts)",
+  "summary": "Benjamin Netanyahu is Israel's longest-serving prime minister (1996–1999, 2009–2021 and since 2022). A former special-forces soldier and UN ambassador, he has led Likud since 1993 with a break, and built his politics around close ties to Donald Trump. Yoram Hazony was his aide in the early 1990s; the Adelsons were early backers. The October 2026 election left his bloc short of a majority.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu", "title": "Benjamin Netanyahu — Wikipedia" },
+    { "url": "https://jns.org/news/israel-news/israel-news/right-wing-bloc-wins-israeli-election-with-53-seats-likud-emerges-as-largest-party", "title": "Right-wing bloc wins Israeli election with 53 seats — JNS" }
+  ],
+  "timeline": [
+    {
+      "year": 1984,
+      "end_year": 1988,
+      "role": "Ambassador to the United Nations",
+      "org": "Israel",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu", "title": "Benjamin Netanyahu — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1996,
+      "end_year": 1999,
+      "role": "Prime Minister",
+      "org": "Israel",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu", "title": "Benjamin Netanyahu — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2009,
+      "end_year": 2021,
+      "role": "Prime Minister",
+      "org": "Israel",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu", "title": "Benjamin Netanyahu — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2022,
+      "end_year": null,
+      "role": "Prime Minister",
+      "org": "Israel",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu", "title": "Benjamin Netanyahu — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Likud",
+      "role": "Chairman",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu", "title": "Benjamin Netanyahu — Wikipedia" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "After the October 2026 election",
+      "details": "Wikipedia says he lost and is set to be replaced by Gadi Eisenkot on November 8, 2026; late-October reporting found his bloc ahead (53 seats to 48) but short of a majority, with both sides claiming a mandate and no government formed.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu", "title": "Benjamin Netanyahu — Wikipedia" },
+        { "url": "https://jns.org/news/israel-news/israel-news/right-wing-bloc-wins-israeli-election-with-53-seats-likud-emerges-as-largest-party", "title": "Right-wing bloc wins Israeli election with 53 seats — JNS" },
+        { "url": "https://www.khaleejtimes.com/world/mena/israel-elections-tight-vote-netanyaho-eisenkot-claim-mandate-exit-polls", "title": "Israel elections: Netanyahu, Eisenkot each claim mandate after tight vote — Khaleej Times" }
+      ]
+    }
+  ],
+  "asks": [
+    {
+      "date": "2025-04",
+      "with": ["donald-trump"],
+      "kind": "policy",
+      "outcome": "denied",
+      "decided": "2025-04-07",
+      "what": "Flew to Washington, the first foreign leader to do so, to seek relief from the 17% tariff on Israel; Trump gave none.",
+      "sources": [
+        { "url": "https://www.axios.com/2025/04/07/trump-netanyahu-visit-tariff-deal", "title": "Trump doesn't give Israel a break on tariffs despite Netanyahu visit — Axios" },
+        { "url": "https://www.deseret.com/u-s-world/2025/04/07/netanyahu-april-white-house-visit/", "title": "Netanyahu's April White House visit — Deseret News" }
+      ]
+    },
+    {
+      "date": "2025-06",
+      "with": ["donald-trump"],
+      "kind": "policy",
+      "outcome": "granted",
+      "decided": "2025-06-21",
+      "what": "Israel asked the US to join its strikes on Iran's nuclear program, above all the Fordow site; Trump ordered the strikes on June 21. Accounts differ on how much Israel's push drove the decision.",
+      "sources": [
+        { "url": "https://kyivindependent.com/israel-asks-us-to-join-strikes-on-irans-nuclear-sites-officials-told-axios", "title": "Israel asks US to join strikes on Iran's nuclear sites, officials told Axios — Kyiv Independent" },
+        { "url": "https://www.axios.com/2025/06/22/trump-israel-iran-strikes-air-defenses", "title": "At Trump's request, Israel cleared way for U.S. bombers in Iran — Axios" }
+      ]
+    }
+  ]
+}

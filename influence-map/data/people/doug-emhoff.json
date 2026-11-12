@@ -1,0 +1,68 @@
+{
+  "name": "Doug Emhoff",
+  "aliases": ["Douglas Craig Emhoff"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["kamala-harris"],
+    "basis": "Her husband; the Wall Street Journal reported he has privately said he would prefer she not run again.",
+    "sources": [
+      { "url": "https://townhall.com/news/josephchalfant/2026/10/10/this-story-could-thwart-kamala-harriss-2028-desires-n2684465", "title": "Townhall: citing WSJ on Emhoff and 2028" }
+    ]
+  },
+  "photo": {
+    "file": "doug-emhoff.jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Douglas_Emhoff_(cropped1).jpg", "title": "File:Douglas Emhoff (cropped1).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Lawyer; former Second Gentleman of the United States (2021–2025)",
+  "summary": "Doug Emhoff, an entertainment and commercial lawyer for three decades, married Kamala Harris in 2014 and became the first second gentleman of the United States in 2021, as well as the first Jewish spouse of a vice president.",
+  "sources": [
+    { "url": "https://ballotpedia.org/Douglas_Emhoff", "title": "Ballotpedia: Douglas Emhoff" },
+    { "url": "https://bidenwhitehouse.archives.gov/wp-content/uploads/2025/01/The-Official-Biography-for-Second-Gentleman-Douglas-Emhoff1.pdf", "title": "Biden White House: Official biography of Second Gentleman Douglas Emhoff" }
+  ],
+  "timeline": [
+    {
+      "year": 2021,
+      "end_year": 2025,
+      "role": "Second Gentleman of the United States",
+      "org": "Office of the Vice President",
+      "sources": [
+        { "url": "https://bidenwhitehouse.archives.gov/wp-content/uploads/2025/01/The-Official-Biography-for-Second-Gentleman-Douglas-Emhoff1.pdf", "title": "Biden White House biography" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "family",
+      "description": "Married in 2014; he was second gentleman from 2021 to 2025.",
+      "start_year": 2014,
+      "end_year": null,
+      "confidence": 0.99,
+      "sources": [
+        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" },
+        { "url": "https://www.npr.org/sections/live-updates-2020-election-results/2020/11/08/932821182/meet-doug-emhoff-americas-first-second-gentleman", "title": "Who Is Kamala Harris' Husband? Meet Doug Emhoff — NPR" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "lean": [
+    {
+      "value": -2,
+      "start_year": 2019,
+      "end_year": null,
+      "basis": "Campaigned for Kamala Harris's Democratic campaigns and served as second gentleman in the Biden administration (2021–2025).",
+      "sources": [
+        { "url": "https://ballotpedia.org/Douglas_Emhoff", "title": "Ballotpedia: Douglas Emhoff" },
+        { "url": "https://bidenwhitehouse.archives.gov/wp-content/uploads/2025/01/The-Official-Biography-for-Second-Gentleman-Douglas-Emhoff1.pdf", "title": "Biden White House: Official biography of Second Gentleman Douglas Emhoff" }
+      ]
+    }
+  ]
+}

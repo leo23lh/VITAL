@@ -1,0 +1,89 @@
+{
+  "name": "Kevin Hassett",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "photo": {
+    "file": "kevin-hassett.jpg",
+    "credit": "Executive Office of the President of the United States",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Kevin_Hassett_official_photo_(cropped)(2).jpg", "title": "File:Kevin Hassett official photo (cropped)(2).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Director of the National Economic Council (since January 2025)",
+  "summary": "Kevin Hassett is Trump’s top White House economic adviser as director of the National Economic Council. An economist long at the American Enterprise Institute, he chaired the Council of Economic Advisers in Trump’s first term. He was considered for Federal Reserve chair, but Trump nominated Kevin Warsh in January 2026.",
+  "sources": [
+    { "url": "https://www.britannica.com/money/Kevin-Hassett", "title": "Kevin Hassett — Britannica" },
+    { "url": "https://www.cnbc.com/video/2026/05/11/watch-cnbcs-full-interview-with-white-house-national-economic-council-director-kevin-hassett.html", "title": "CNBC interview with National Economic Council Director Kevin Hassett (May 11, 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2017,
+      "role": "Senior fellow",
+      "org": "American Enterprise Institute",
+      "sources": [
+        { "url": "https://www.britannica.com/money/Kevin-Hassett", "title": "Kevin Hassett — Britannica" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2019,
+      "role": "Chairman, Council of Economic Advisers",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.britannica.com/money/Kevin-Hassett", "title": "Kevin Hassett — Britannica" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Director, National Economic Council",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://www.britannica.com/money/Kevin-Hassett", "title": "Kevin Hassett — Britannica" },
+        { "url": "https://www.cnbc.com/video/2026/05/11/watch-cnbcs-full-interview-with-white-house-national-economic-council-director-kevin-hassett.html", "title": "CNBC interview with National Economic Council Director Kevin Hassett (May 11, 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Chaired Trump’s Council of Economic Advisers (2017–2019) and has directed his National Economic Council since 2025.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.britannica.com/money/Kevin-Hassett", "title": "Kevin Hassett — Britannica" }
+      ]
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "colleague",
+      "description": "Senior White House staff together since January 2025 (Hassett at the National Economic Council, Miller as deputy chief of staff for policy); inferred from their overlapping posts. Hassett reports to Miller as chief of staff from November 9, 2026.",
+      "start_year": 2025,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.cnbc.com/video/2026/05/11/watch-cnbcs-full-interview-with-white-house-national-economic-council-director-kevin-hassett.html", "title": "CNBC interview with National Economic Council Director Kevin Hassett (May 2026)" },
+        { "url": "https://thehill.com/homenews/campaign/4988270-trump-white-house-staff-stephen-miller-scavino-blair-budowich/", "title": "Trump names top campaign aides as senior White House staff — The Hill" },
+        { "url": "https://www.pbs.org/newshour/politics/trump-names-stephen-miller-his-next-chief-of-staff-after-major-republican-midterm-losses", "title": "Trump names Stephen Miller his next chief of staff after major Republican midterm losses — PBS NewsHour (AP)" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Director, National Economic Council",
+    "unit": "white-house",
+    "rank": 3,
+    "reports_to": "stephen-miller",
+    "since": "2025-01",
+    "sources": [
+      { "url": "https://www.britannica.com/money/Kevin-Hassett", "title": "Kevin Hassett — Britannica" },
+      { "url": "https://www.cnbc.com/video/2026/05/11/watch-cnbcs-full-interview-with-white-house-national-economic-council-director-kevin-hassett.html", "title": "CNBC interview with National Economic Council Director Kevin Hassett (May 11, 2026)" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

@@ -1,0 +1,912 @@
+{
+  "name": "Chris Larsen",
+  "aliases": ["Christian Larsen", "Christian A. Larsen"],
+  "public_figure": true,
+  "sector": "tech",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Mostly a Democratic donor (Kamala Harris in 2024, Josh Shapiro, House Majority PAC, and Gavin Newsom for 2028) with a centrist, business-friendly bent: he spent millions against California's proposed billionaire tax, backed moderate San Francisco candidates, and gave to both a Democrat and a Republican in the California governor's race. His firm Ripple funds the bipartisan crypto super PAC Fairshake.",
+      "sources": [
+        { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" },
+        { "url": "https://fortune.com/2026/08/18/california-billionaires-chris-larsen-john-doerr-40-million-fresh-funds-building-a-better-california-proposition-40/", "title": "California's billionaires poured $40 million into blocking a wealth tax — Fortune" },
+        { "url": "https://www.cnbc.com/2024/10/15/kamala-harris-got-1-million-from-ripples-chris-larsen-crypto-warms.html", "title": "Harris PAC's $1 million contribution from Ripple's Chris Larsen shows crypto industry warming to VP — CNBC" },
+        { "url": "https://www.yahoo.com/news/articles/billionaire-chris-larsen-says-boost-175822022.html", "title": "Billionaire Chris Larsen says he will boost Newsom 'any way we can' in 2028 — Politico via Yahoo News" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["gavin-newsom"],
+    "basis": "Told Politico in May 2026 he plans to back Newsom in a likely 2028 run (\"we're already supporting him any way we can\"). Wikipedia's 2028 primaries page instead lists him as a Pete Buttigieg endorser; see source conflicts.",
+    "sources": [
+      { "url": "https://www.yahoo.com/news/articles/billionaire-chris-larsen-says-boost-175822022.html", "title": "Billionaire Chris Larsen says he will boost Newsom 'any way we can' in 2028 — Politico via Yahoo News" },
+      { "url": "https://en.wikipedia.org/wiki/2028_Democratic_Party_presidential_primaries", "title": "2028 Democratic Party presidential primaries — Wikipedia" }
+    ]
+  },
+  "photo": {
+    "file": "chris-larsen.jpg",
+    "credit": "When Shift Happens",
+    "license": "CC BY 3.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Chris_Larsen_on_When_Shift_Happens_(2025).jpg", "title": "File:Chris Larsen on When Shift Happens (2025).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Co-founder and executive chairman of Ripple",
+  "summary": "Chris Larsen co-founded the online lenders E-Loan (1996) and Prosper (2005) and, in 2012 with Jed McCaleb, the crypto firm that became Ripple, which he led as CEO before becoming executive chairman. The SEC sued Ripple and him in 2020 and dropped its remaining claims against him in 2023. With his partner Lyna Lam he is a leading Democratic-leaning donor, while Ripple is one of the biggest funders of the crypto super PAC Fairshake.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Chris_Larsen", "title": "Chris Larsen — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Ripple_Labs", "title": "Ripple Labs — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 1996,
+      "end_year": 2005,
+      "role": "Co-founder and CEO; chairman until its 2005 sale to Banco Popular",
+      "org": "E-Loan",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Larsen", "title": "Chris Larsen — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2005,
+      "end_year": 2011,
+      "role": "Co-founder (with John Witchel) and CEO",
+      "org": "Prosper Marketplace",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Larsen", "title": "Chris Larsen — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2012,
+      "end_year": null,
+      "role": "Co-founder; first CEO, now executive chairman",
+      "org": "Ripple (founded as NewCoin / OpenCoin)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Larsen", "title": "Chris Larsen — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Ripple_Labs", "title": "Ripple Labs — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Building a Better California (against Prop. 40, the billionaire tax)",
+      "role": "Major funder (an extra $10M in August 2026)",
+      "start_year": 2026,
+      "sources": [
+        { "url": "https://fortune.com/2026/08/18/california-billionaires-chris-larsen-john-doerr-40-million-fresh-funds-building-a-better-california-proposition-40/", "title": "California's billionaires poured $40 million into blocking a wealth tax — Fortune" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Gavin Newsom",
+      "slug": "gavin-newsom",
+      "relationship_type": "funded_by",
+      "description": "Larsen told Politico in May 2026 he plans to back Newsom in a likely 2028 run, calling him someone who \"gets the balance right between tech and the broader community\", and already supports Newsom's Campaign for Democracy PAC. Wikipedia lists him as a Pete Buttigieg endorser instead. FEC filings show $25,000 from Chris Larsen to Campaign for Democracy Committee in the 2026 cycle.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/articles/billionaire-chris-larsen-says-boost-175822022.html", "title": "Billionaire Chris Larsen says he will boost Newsom 'any way we can' in 2028 — Politico via Yahoo News" },
+        { "url": "https://en.wikipedia.org/wiki/2028_Democratic_Party_presidential_primaries", "title": "2028 Democratic Party presidential primaries — Wikipedia" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00836346&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to Campaign for Democracy Committee" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "funded_by",
+      "description": "Larsen endorsed Harris and gave at least $1 million in XRP to the pro-Harris super PAC Future Forward in 2024 (Decrypt reported about $10 million more), saying she would bring \"clear rules\" for crypto. Fox News put his total for Harris at $5,444,975; figures differ by source. FEC filings show $819,700 from Chris Larsen to Harris Victory Fund in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/10/15/kamala-harris-got-1-million-from-ripples-chris-larsen-crypto-warms.html", "title": "Harris PAC's $1 million contribution from Ripple's Chris Larsen shows crypto industry warming to VP — CNBC" },
+        { "url": "https://www.theblock.co/post/320785/ripple-co-founder-chris-larsen-donates-1-million-in-crypto-to-pac-supporting-kamala-harris-campaign", "title": "Ripple co-founder Chris Larsen donates $1 million in crypto to PAC supporting Kamala Harris — The Block" },
+        { "url": "https://decrypt.co/287549/ripple-founder-10-million-xrp-kamala-harris", "title": "Ripple founder donates another $10 million in XRP to support Kamala Harris — Decrypt" },
+        { "url": "https://www.foxnews.com/politics/top-trump-ally-warns-super-pac-bankrolled-dem-billionaire-meddling-gop-primary", "title": "Fox News: Larsen gave $5,444,975 to support Harris (in a report on his 2026 PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Harris Victory Fund" }
+      ]
+    },
+    {
+      "name": "Josh Shapiro",
+      "slug": "josh-shapiro",
+      "relationship_type": "funded_by",
+      "description": "Larsen has given Shapiro $2.2 million since 2023, including $1 million in December 2023 and $1 million in early 2026, the largest single gift to his reelection campaign.",
+      "start_year": 2023,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cityandstatepa.com/politics/2026/04/shapiro-raises-10m-and-other-takeaways-pennsylvanias-newest-campaign-finance-reports/412715/", "title": "Shapiro raises $10M and other takeaways from Pennsylvania's newest campaign finance reports — City & State PA" }
+      ]
+    },
+    {
+      "name": "Jed McCaleb",
+      "slug": "jed-mccaleb",
+      "relationship_type": "co-founder",
+      "description": "Co-founded NewCoin (later Ripple) in 2012; McCaleb recruited Larsen as CEO.",
+      "start_year": 2012,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ripple_Labs", "title": "Ripple Labs — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Alex Bores",
+      "slug": "alex-bores",
+      "relationship_type": "funded_by",
+      "description": "Larsen committed $3.5 million (the San Francisco Chronicle counts $4.5 million) to back Bores's 2026 House run as a \"counterweight\" to attack ads from the pro-AI super PAC Leading the Future. Bores lost the primary.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Bores", "title": "Alex Bores — Wikipedia" },
+        { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" }
+      ]
+    },
+    {
+      "name": "Lyna Lam",
+      "slug": "lyna-lam",
+      "relationship_type": "family",
+      "description": "Partner and co-donor; the 2026 rankings list them together.",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+        { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" }
+      ]
+    },
+    {
+      "name": "Leading the Future",
+      "slug": "leading-the-future",
+      "relationship_type": "enemy",
+      "description": "Larsen put millions behind Alex Bores's 2026 House run as a counterweight to the PAC's attack ads against Bores.",
+      "start_year": 2026,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Alex_Bores", "title": "Alex Bores — Wikipedia" },
+        { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" },
+        { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Fairshake",
+      "slug": "fairshake",
+      "relationship_type": "funded_by",
+      "description": "Through Ripple, which he co-founded and chairs: $45 million through 2024 and $48 million for 2026, 96% of Ripple's 2026 political spending.",
+      "start_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" },
+        { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" }
+      ]
+    },
+    {
+      "name": "House Majority PAC",
+      "slug": "house-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "Gave $2.5 million in the 2026 cycle. FEC filings show $2,200,000 from Chris Larsen to HMP in 3 cycles (2022–2026).",
+      "start_year": 2021,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00495028&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to HMP" }
+      ]
+    },
+    {
+      "name": "Future Forward PAC",
+      "slug": "future-forward",
+      "relationship_type": "funded_by",
+      "description": "Gave $1 million in XRP in August 2024; Decrypt reported about $10 million more in September. FEC filings show $11,649,925 from Chris Larsen to FF PAC in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.theblock.co/post/320785/ripple-co-founder-chris-larsen-donates-1-million-in-crypto-to-pac-supporting-kamala-harris-campaign", "title": "Ripple co-founder Chris Larsen donates $1 million in crypto to PAC supporting Kamala Harris — The Block" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00669259&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to FF PAC" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $305,400 from Chris Larsen to Nancy Pelosi Victory Fund, PAC to the Future, Nancy Pelosi for Congress in 2 cycles (2022–2024).",
+      "start_year": 2022,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00492421&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Nancy Pelosi Victory Fund" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00344234&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to PAC to the Future" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00213512&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Nancy Pelosi for Congress" }
+      ]
+    },
+    {
+      "name": "Hakeem Jeffries",
+      "slug": "hakeem-jeffries",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $16,600 from Chris Larsen to Jobs, Education, & Families First  Jeff PAC, Jeffries for Congress in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00617803&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Jobs, Education, & Families First  Jeff PAC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00503052&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Jeffries for Congress" }
+      ]
+    },
+    {
+      "name": "Senate Majority PAC",
+      "slug": "senate-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $2,000,000 from Chris Larsen to SMP in the 2026 cycle.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00484642&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to SMP" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "2028 pick",
+      "details": "Politico (May 2026) quotes Larsen saying he will back Gavin Newsom; Wikipedia's 2028 Democratic primaries page lists him among Pete Buttigieg's endorsers.",
+      "sources": [
+        { "url": "https://www.yahoo.com/news/articles/billionaire-chris-larsen-says-boost-175822022.html", "title": "Billionaire Chris Larsen says he will boost Newsom 'any way we can' in 2028 — Politico via Yahoo News" },
+        { "url": "https://en.wikipedia.org/wiki/2028_Democratic_Party_presidential_primaries", "title": "2028 Democratic Party presidential primaries — Wikipedia" }
+      ]
+    },
+    {
+      "topic": "Giving to Harris in 2024",
+      "details": "CNBC counted about $1.9M to Harris directly and via PACs as of October 2024; Decrypt reported a further $10M in XRP to Future Forward in September 2024.",
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/10/15/kamala-harris-got-1-million-from-ripples-chris-larsen-crypto-warms.html", "title": "Harris PAC's $1 million contribution from Ripple's Chris Larsen shows crypto industry warming to VP — CNBC" },
+        { "url": "https://decrypt.co/287549/ripple-founder-10-million-xrp-kamala-harris", "title": "Ripple founder donates another $10 million in XRP to support Kamala Harris — Decrypt" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where news pages could not be opened, OpenSecrets was blocked and Wikipedia was rate-limiting at first (the article was read later via its API); facts were confirmed with web searches tied to each cited URL. Lyna Lam (partner and co-donor) is a suggested connection only.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 68000000,
+        "rank": 10,
+        "ranking": "Rank among all 2026 donors, groups included (FEC data, per Al Jazeera and the Washington Post); \"over $68M\" for Ripple and Larsen combined per AFP",
+        "description": "Two streams: Ripple (about $49.6M, nearly all to the crypto super PAC Fairshake) and Larsen and Lyna Lam personally ($21.5M, mostly Democratic). Ripple also gave $5M toward Trump's White House ballroom.",
+        "sources": [
+          { "url": "https://www.france24.com/en/live-news/20261023-from-tech-giants-to-anonymous-nonprofits-the-biggest-donors-in-us-midterms", "title": "From tech giants to anonymous nonprofits, the biggest donors in US midterms — AFP via France 24" },
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+          { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },
+          { "url": "https://sfstandard.com/2026/10/17/san-francisco-crypto-ripple-chris-larsen-brad-garlinghouse/", "title": "SF-based crypto firm gave $5M to Trump's ballroom project — The San Francisco Standard" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&two_year_transaction_period=2026", "title": "FEC itemized receipts: LARSEN, CHRIS, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Fairshake (crypto super PAC, via Ripple)",
+            "org": "fairshake",
+            "kind": "super-pac",
+            "side": "both",
+            "amount_usd": 48000000,
+            "description": "96% of Ripple's 2026 political spending. Fairshake's biggest bets favored Republicans, including about $56M against Democrat Sherrod Brown in Ohio.",
+            "sources": [
+              { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },
+              { "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election", "title": "Crypto PACs spent $170 million, with most going to Republicans in final weeks — CoinDesk" }
+            ]
+          },
+          {
+            "name": "Building a Better California (against Prop. 40)",
+            "kind": "ballot-measure",
+            "side": "nonpartisan",
+            "amount_usd": 10000000,
+            "description": "Fighting a proposed 5% wealth tax on California billionaires; state-level, not counted in federal totals.",
+            "sources": [
+              { "url": "https://fortune.com/2026/08/18/california-billionaires-chris-larsen-john-doerr-40-million-fresh-funds-building-a-better-california-proposition-40/", "title": "California's billionaires poured $40 million into blocking a wealth tax — Fortune" }
+            ]
+          },
+          {
+            "name": "Invest in Tomorrow Coalition",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 6000000,
+            "description": "Pro-renewable-energy super PAC.",
+            "sources": [
+              { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" }
+            ]
+          },
+          {
+            "name": "You Can Push Back (for Alex Bores)",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 4500000,
+            "description": "Backed the New York assemblyman's House run, a proxy fight between AI groups aligned with OpenAI and Anthropic; Bores lost the primary.",
+            "sources": [
+              { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" },
+              { "url": "https://en.wikipedia.org/wiki/Alex_Bores", "title": "Alex Bores — Wikipedia" }
+            ]
+          },
+          {
+            "name": "House Majority PAC",
+            "org": "house-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 2500000,
+            "sources": [
+              { "url": "https://www.sfchronicle.com/politics/article/san-francisco-top-donors-election-22502991.php", "title": "The S.F. donors keeping these midterms on track to be the most expensive in history — San Francisco Chronicle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00495028&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to HMP, 2026 cycle" }
+            ],
+            "fec_usd": 1750000,
+            "fec_ids": ["C00495028"]
+          },
+          {
+            "name": "Josh Shapiro (reelection)",
+            "slug": "josh-shapiro",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 1000000,
+            "description": "The biggest single gift to Shapiro's campaign in early 2026; $2.2M since 2023.",
+            "sources": [
+              { "url": "https://www.cityandstatepa.com/politics/2026/04/shapiro-raises-10m-and-other-takeaways-pennsylvanias-newest-campaign-finance-reports/412715/", "title": "Shapiro raises $10M and other takeaways from Pennsylvania's newest campaign finance reports — City & State PA" }
+            ]
+          },
+          {
+            "name": "Invest in Tomorrow Coalition PAC",
+            "kind": "super-pac",
+            "amount_usd": 6000000,
+            "fec_usd": 6000000,
+            "fec_ids": ["C00936997"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00936997&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to Invest in Tomorrow Coalition PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "You Can Push Back",
+            "kind": "super-pac",
+            "amount_usd": 4514412,
+            "fec_usd": 4514412,
+            "fec_ids": ["C00946830"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00946830&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to You Can Push Back, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $2,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00484642&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to SMP, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Lone Star Rising PAC",
+            "kind": "super-pac",
+            "amount_usd": 1750000,
+            "fec_usd": 1750000,
+            "fec_ids": ["C00918268"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00918268&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to Lone Star Rising PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Jane Fonda Climate PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00806893"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00806893&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to Jane Fonda Climate PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 620100,
+            "fec_usd": 620100,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00042366&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to DSCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 355700,
+            "fec_usd": 355700,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00000935&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to DCCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Abundant Future",
+            "kind": "super-pac",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00922229"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00922229&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to Abundant Future, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Growusa",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00958744"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00958744&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to Growusa, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "New Era Leadership",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00945824"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00945824&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to New Era Leadership, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Abdul for Michigan Victory Fund",
+            "kind": "pac",
+            "amount_usd": 57800,
+            "fec_usd": 57800,
+            "fec_ids": ["C00958066"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00958066&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to Abdul for Michigan Victory Fund, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Gavin Newsom",
+            "slug": "gavin-newsom",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00836346"],
+            "description": "Per FEC filings: Campaign for Democracy Committee $25,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00836346&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to Campaign for Democracy Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Jon Ossoff",
+            "slug": "jon-ossoff",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 7000,
+            "fec_usd": 7000,
+            "fec_ids": ["C00718866"],
+            "description": "Per FEC filings: Jon Ossoff for Senate $7,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00718866&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to Jon Ossoff for Senate, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "description": "Backed Kamala Harris, mostly in XRP to the super PAC Future Forward; figures disagree (see source conflicts).",
+        "sources": [
+          { "url": "https://www.cnbc.com/2024/10/15/kamala-harris-got-1-million-from-ripples-chris-larsen-crypto-warms.html", "title": "Harris PAC's $1 million contribution from Ripple's Chris Larsen shows crypto industry warming to VP — CNBC" },
+          { "url": "https://decrypt.co/287549/ripple-founder-10-million-xrp-kamala-harris", "title": "Ripple founder donates another $10 million in XRP to support Kamala Harris — Decrypt" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&two_year_transaction_period=2024", "title": "FEC itemized receipts: LARSEN, CHRIS, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Future Forward PAC (pro-Harris)",
+            "slug": "kamala-harris",
+            "org": "future-forward",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 1000000,
+            "description": "$1M in XRP in August 2024; Decrypt reported about $10M more in September.",
+            "sources": [
+              { "url": "https://www.theblock.co/post/320785/ripple-co-founder-chris-larsen-donates-1-million-in-crypto-to-pac-supporting-kamala-harris-campaign", "title": "Ripple co-founder Chris Larsen donates $1 million in crypto to PAC supporting Kamala Harris — The Block" },
+              { "url": "https://www.cnbc.com/2024/10/15/kamala-harris-got-1-million-from-ripples-chris-larsen-crypto-warms.html", "title": "Harris PAC's $1 million contribution from Ripple's Chris Larsen shows crypto industry warming to VP — CNBC" },
+              { "url": "https://decrypt.co/287549/ripple-founder-10-million-xrp-kamala-harris", "title": "Ripple founder donates another $10 million in XRP to support Kamala Harris — Decrypt" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00669259&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to FF PAC, 2024 cycle" }
+            ],
+            "fec_usd": 11649925,
+            "fec_ids": ["C00669259"]
+          },
+          {
+            "name": "Kamala Harris",
+            "slug": "kamala-harris",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 819700,
+            "fec_usd": 819700,
+            "fec_ids": ["C00744946"],
+            "description": "Per FEC filings: Harris Victory Fund $819,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Harris Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 507300,
+            "fec_usd": 507300,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00000935&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to DCCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 403100,
+            "fec_usd": 403100,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00010603&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to DNC Services Corp / Democratic National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Jeffries Victory Fund",
+            "kind": "pac",
+            "amount_usd": 300000,
+            "fec_usd": 300000,
+            "fec_ids": ["C00768200"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00768200&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Jeffries Victory Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC Vice Chair Padilla Fund",
+            "kind": "pac",
+            "amount_usd": 295700,
+            "fec_usd": 295700,
+            "fec_ids": ["C00777953"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00777953&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to DSCC Vice Chair Padilla Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 289100,
+            "fec_usd": 289100,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00042366&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to DSCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Blue to the Future 2024",
+            "kind": "pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00872556"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00872556&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Blue to the Future 2024, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "House Majority PAC",
+            "org": "house-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00495028"],
+            "description": "Per FEC filings: HMP $200,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00495028&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to HMP, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Count the Vote",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00875690"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00875690&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Count the Vote, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Harris Action Fund",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00838912"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00838912&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Harris Action Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Jane Fonda Climate PAC",
+            "kind": "super-pac",
+            "amount_usd": 60803,
+            "fec_usd": 60803,
+            "fec_ids": ["C00806893"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00806893&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Jane Fonda Climate PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Equality California Votes",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00701797"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00701797&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Equality California Votes, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Nancy Pelosi",
+            "slug": "nancy-pelosi",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 44600,
+            "fec_usd": 44600,
+            "fec_ids": ["C00213512", "C00492421"],
+            "description": "Per FEC filings: Nancy Pelosi Victory Fund $41,300; Nancy Pelosi for Congress $3,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00492421&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Nancy Pelosi Victory Fund, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00213512&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Nancy Pelosi for Congress, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Hakeem Jeffries",
+            "slug": "hakeem-jeffries",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 16600,
+            "fec_usd": 16600,
+            "fec_ids": ["C00503052", "C00617803"],
+            "description": "Per FEC filings: Jobs, Education, & Families First  Jeff PAC $10,000; Jeffries for Congress $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00617803&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Jobs, Education, & Families First  Jeff PAC, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00503052&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Jeffries for Congress, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 1900,
+            "fec_usd": 1900,
+            "fec_ids": ["C00828541", "C00873893"],
+            "description": "Per FEC filings: Trump National Committee JFC, Inc. $1,000; Never Surrender, Inc. $900.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00873893&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Trump National Committee JFC, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Never Surrender, Inc., 2024 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 15946338,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 848610,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&two_year_transaction_period=2022", "title": "FEC itemized receipts: LARSEN, CHRIS, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Nancy Pelosi",
+            "slug": "nancy-pelosi",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 260800,
+            "fec_usd": 260800,
+            "fec_ids": ["C00213512", "C00344234", "C00492421"],
+            "description": "Per FEC filings: Nancy Pelosi Victory Fund $250,000; Nancy Pelosi for Congress $5,800; PAC to the Future $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00492421&two_year_transaction_period=2022", "title": "FEC receipts: LARSEN, CHRIS to Nancy Pelosi Victory Fund, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00213512&two_year_transaction_period=2022", "title": "FEC receipts: LARSEN, CHRIS to Nancy Pelosi for Congress, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00344234&two_year_transaction_period=2022", "title": "FEC receipts: LARSEN, CHRIS to PAC to the Future, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "House Majority PAC",
+            "org": "house-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00495028"],
+            "description": "Per FEC filings: House Majority PAC $250,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00495028&two_year_transaction_period=2022", "title": "FEC receipts: LARSEN, CHRIS to House Majority PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "DCCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 239200,
+            "fec_usd": 239200,
+            "fec_ids": ["C00000935"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00000935&two_year_transaction_period=2022", "title": "FEC receipts: LARSEN, CHRIS to DCCC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Chuck Schumer",
+            "slug": "chuck-schumer",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00346312"],
+            "description": "Per FEC filings: Friends of Schumer $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00346312&two_year_transaction_period=2022", "title": "FEC receipts: LARSEN, CHRIS to Friends of Schumer, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 162220,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&two_year_transaction_period=2020", "title": "FEC itemized receipts: LARSEN, CHRIS, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Biden Victory Fund",
+            "kind": "pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00744946&two_year_transaction_period=2020", "title": "FEC receipts: LARSEN, CHRIS to Biden Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 35500,
+            "fec_usd": 35500,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00010603&two_year_transaction_period=2020", "title": "FEC receipts: LARSEN, CHRIS to DNC Services Corp / Democratic National Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 1100,
+            "fec_usd": 1100,
+            "fec_ids": ["C00580100"],
+            "description": "Per FEC filings: Donald J. Trump for President, Inc. $1,100.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00580100&two_year_transaction_period=2020", "title": "FEC receipts: LARSEN, CHRIS to Donald J. Trump for President, Inc., 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 80100,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&two_year_transaction_period=2018", "title": "FEC itemized receipts: LARSEN, CHRIS, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "314 Action Fund",
+            "kind": "super-pac",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00633248"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00633248&two_year_transaction_period=2018", "title": "FEC receipts: LARSEN, CHRIS to 314 Action Fund, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 30800,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&two_year_transaction_period=2016", "title": "FEC itemized receipts: LARSEN, CHRIS, 2016 cycle" }
+        ],
+        "recipients": []
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "Larsen has said he will back Gavin Newsom in 2028 \"any way we can\". Ripple is expected to keep funding Fairshake, its main political vehicle in 2024 and 2026.",
+      "sources": [
+        { "url": "https://www.yahoo.com/news/articles/billionaire-chris-larsen-says-boost-175822022.html", "title": "Billionaire Chris Larsen says he will boost Newsom 'any way we can' in 2028 — Politico via Yahoo News" },
+        { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" }
+      ],
+      "likely": [
+        {
+          "name": "Gavin Newsom",
+          "slug": "gavin-newsom",
+          "kind": "candidate",
+          "side": "D",
+          "basis": "Told Politico in May 2026 he plans to back Newsom and already supports Newsom's Campaign for Democracy PAC; Wikipedia lists him as a Buttigieg endorser instead.",
+          "confidence": 0.75,
+          "sources": [
+            { "url": "https://www.yahoo.com/news/articles/billionaire-chris-larsen-says-boost-175822022.html", "title": "Billionaire Chris Larsen says he will boost Newsom 'any way we can' in 2028 — Politico via Yahoo News" },
+            { "url": "https://en.wikipedia.org/wiki/2028_Democratic_Party_presidential_primaries", "title": "2028 Democratic Party presidential primaries — Wikipedia" }
+          ]
+        },
+        {
+          "name": "Fairshake (crypto super PAC, via Ripple)",
+          "org": "fairshake",
+          "kind": "super-pac",
+          "side": "both",
+          "basis": "Ripple's main political vehicle in 2024 and 2026.",
+          "confidence": 0.8,
+          "sources": [
+            { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },
+            { "url": "https://www.coindesk.com/policy/2026/01/28/crypto-s-political-power-supercharged-with-usd193-million-in-fairshake-thanks-to-new-cash", "title": "Crypto's political power supercharged with $193 million in Fairshake — CoinDesk" }
+          ]
+        },
+        {
+          "name": "Josh Shapiro",
+          "slug": "josh-shapiro",
+          "kind": "candidate",
+          "side": "D",
+          "basis": "Gave him $2.2M since 2023, including his largest single 2026 gift.",
+          "confidence": 0.45,
+          "sources": [
+            { "url": "https://www.cityandstatepa.com/politics/2026/04/shapiro-raises-10m-and-other-takeaways-pennsylvanias-newest-campaign-finance-reports/412715/", "title": "Shapiro raises $10M and other takeaways from Pennsylvania's newest campaign finance reports — City & State PA" }
+          ]
+        }
+      ]
+    }
+  },
+  "leverage": {
+    "level": 1,
+    "basis": "Co-founder of Ripple and one of the ten largest donors of the 2026 cycle (about $68 million), much of it through the crypto industry’s super PACs.",
+    "sources": [
+      { "url": "https://www.france24.com/en/live-news/20261023-from-tech-giants-to-anonymous-nonprofits-the-biggest-donors-in-us-midterms", "title": "From tech giants to anonymous nonprofits, the biggest donors in US midterms — AFP via France 24" }
+    ]
+  },
+  "asks": [
+    {
+      "date": "2025-03",
+      "with": [],
+      "kind": "regulatory",
+      "outcome": "partial",
+      "decided": "2025-08-22",
+      "what": "Ripple sought to end the SEC case on softer terms; the SEC agreed to cut the penalty to $50 million, but the judge refused, and both sides dropped their appeals with the $125 million penalty in place.",
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/litigation/ripple-sec-drop-appeal-after-settlement-path-blocked-by-judge", "title": "Ripple, SEC drop appeal after settlement path blocked by judge — Bloomberg Law" },
+        { "url": "https://decrypt.co/334144/sec-ripple-end-appeals-closing-landmark-crypto-case", "title": "SEC and Ripple end appeals — Decrypt" }
+      ]
+    },
+    {
+      "date": "2025-07",
+      "with": [],
+      "kind": "regulatory",
+      "outcome": "granted",
+      "decided": "2025-12-12",
+      "what": "Ripple applied for a national trust bank charter; the OCC conditionally approved it on Dec. 12.",
+      "sources": [
+        { "url": "https://www.axios.com/2025/12/12/banks-crypto-occ-charters", "title": "OCC conditionally approves 5 crypto firms for national trust bank charters — Axios" },
+        { "url": "https://ripple.com/ripple-press/ripple-secures-federal-approval-to-establish-national-trust-bank/", "title": "Ripple secures federal approval to establish national trust bank — Ripple" }
+      ]
+    }
+  ]
+}

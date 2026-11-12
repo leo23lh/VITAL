@@ -1,0 +1,53 @@
+{
+  "name": "Melanie Calhoun",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Deputy Assistant Secretary for Operations, Mine Safety and Health Administration",
+  "summary": "Melanie Calhoun is the Mine Safety and Health Administration’s deputy assistant secretary for operations under Wayne Palmer, per the agency’s July 2026 organization chart.",
+  "sources": [
+    { "url": "https://www.msha.gov/about/leadership/office-assistant-secretary/melanie-calhoun", "title": "Melanie Calhoun — Mine Safety and Health Administration" },
+    { "url": "https://www.msha.gov/sites/default/files/Organizational_Charts/OAS/July2026-OAS-External.pdf", "title": "MSHA Office of the Assistant Secretary organization chart (July 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Deputy Assistant Secretary for Operations, Mine Safety and Health Administration",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.msha.gov/about/leadership/office-assistant-secretary/melanie-calhoun", "title": "Melanie Calhoun — Mine Safety and Health Administration" },
+        { "url": "https://www.msha.gov/sites/default/files/Organizational_Charts/OAS/July2026-OAS-External.pdf", "title": "MSHA Office of the Assistant Secretary organization chart (July 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Wayne Palmer",
+      "slug": "wayne-palmer",
+      "relationship_type": "employer",
+      "description": "Palmer’s deputy for operations at MSHA.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.msha.gov/sites/default/files/Organizational_Charts/OAS/July2026-OAS-External.pdf", "title": "MSHA Office of the Assistant Secretary organization chart (July 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Assistant Secretary for Operations, MSHA",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "wayne-palmer",
+    "sources": [
+      { "url": "https://www.msha.gov/sites/default/files/Organizational_Charts/OAS/July2026-OAS-External.pdf", "title": "MSHA Office of the Assistant Secretary organization chart (July 2026)" },
+      { "url": "https://www.msha.gov/about/leadership/office-assistant-secretary/melanie-calhoun", "title": "Melanie Calhoun — Mine Safety and Health Administration" }
+    ]
+  },
+  "notes": "dol.gov pages could not be opened from this session (the site blocks automated readers); facts were confirmed with searches restricted to dol.gov and the cited outlets.",
+  "last_researched": "2026-11-08"
+}

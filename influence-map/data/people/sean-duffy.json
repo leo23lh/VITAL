@@ -1,0 +1,218 @@
+{
+  "name": "Sean Duffy",
+  "aliases": ["Sean Patrick Duffy"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican congressman from Wisconsin (2011–2019), Fox Business host, and Trump's transportation secretary.",
+      "sources": [
+        { "url": "https://www.space.com/space-exploration/trump-names-transportation-secretary-sean-duffy-as-interim-nasa-administrator", "title": "Space.com: Trump names Sean Duffy interim NASA administrator" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "sean-duffy.jpg",
+    "credit": "U.S. Department of Transportation",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Secretary_of_Transportation_Sean_Duffy_Official_Portrait.jpg", "title": "File:Secretary of Transportation Sean Duffy Official Portrait.jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. Secretary of Transportation (since January 2025); acting NASA administrator July–December 2025",
+  "summary": "Sean Duffy, a former reality-TV personality and district attorney, represented Wisconsin in Congress as a Republican from 2011 to 2019 and later hosted on Fox Business. Confirmed as transportation secretary 77–22 in January 2025, he was also named acting NASA administrator in July 2025, which led to a public feud with Elon Musk over SpaceX's moon contract.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Sean_Duffy", "title": "Wikipedia: Sean Duffy" },
+    { "url": "https://www.space.com/space-exploration/trump-names-transportation-secretary-sean-duffy-as-interim-nasa-administrator", "title": "Space.com: Trump names Sean Duffy interim NASA administrator" },
+    { "url": "https://techcrunch.com/2025/07/10/trump-taps-transportation-secretary-sean-duffy-as-acting-nasa-chief/", "title": "TechCrunch: Trump taps Duffy as acting NASA chief" },
+    { "url": "https://www.space.com/space-exploration/us-senate-confirms-jared-isaacman-as-new-nasa-administrator", "title": "US Senate confirms Jared Isaacman as new NASA administrator — Space.com" }
+  ],
+  "timeline": [
+    {
+      "year": 2011,
+      "end_year": 2019,
+      "role": "U.S. representative for Wisconsin (sources give 2010 or 2011 as the start)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://www.space.com/space-exploration/trump-names-transportation-secretary-sean-duffy-as-interim-nasa-administrator", "title": "Space.com: Trump names Sean Duffy interim NASA administrator" },
+        { "url": "https://spaceflightnow.com/2025/07/10/transportation-secretary-sean-duffy-picked-as-interim-nasa-administrator/", "title": "Spaceflight Now" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": 2024,
+      "role": "Host",
+      "org": "Fox Business",
+      "sources": [
+        { "url": "https://www.space.com/space-exploration/trump-names-transportation-secretary-sean-duffy-as-interim-nasa-administrator", "title": "Space.com: Trump names Sean Duffy interim NASA administrator" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Secretary of Transportation (confirmed 77–22)",
+      "org": "U.S. Department of Transportation",
+      "sources": [
+        { "url": "https://www.fox13news.com/news/sean-duffy-nasa-administrator", "title": "Fox 13: Duffy named acting NASA administrator" }
+      ]
+    },
+    {
+      "year": 2025,
+      "role": "Acting NASA administrator (named July 2025)",
+      "org": "NASA",
+      "sources": [
+        { "url": "https://www.space.com/space-exploration/trump-names-transportation-secretary-sean-duffy-as-interim-nasa-administrator", "title": "Space.com: Trump names Sean Duffy interim NASA administrator" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump appointed Duffy transportation secretary in January 2025 and acting NASA administrator in July 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.space.com/space-exploration/trump-names-transportation-secretary-sean-duffy-as-interim-nasa-administrator", "title": "Space.com: Trump names Sean Duffy interim NASA administrator" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "enemy",
+      "description": "In October 2025, after Duffy said SpaceX was behind schedule and moved to reopen its lunar-lander contract, Musk called him \"Sean Dummy\" and said he was trying to kill NASA.",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2025/10/21/elon-musk-trump-nasa-spacex-duffy", "title": "Axios: Musk rages at Transportation head Duffy" },
+        { "url": "https://www.space.com/space-exploration/sean-dummy-why-is-elon-musk-attacking-the-acting-nasa-chief", "title": "Space.com: 'Sean Dummy'" }
+      ]
+    },
+    {
+      "name": "Jared Isaacman",
+      "slug": "jared-isaacman",
+      "relationship_type": "rival",
+      "description": "Duffy and Musk ally Jared Isaacman were reported to be jockeying to lead NASA in 2025.",
+      "start_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.axios.com/2025/10/21/elon-musk-trump-nasa-spacex-duffy", "title": "Axios: Musk rages at Transportation head Duffy" },
+        { "url": "https://www.notus.org/trump-white-house/sean-duffy-elon-musk-feud", "title": "NOTUS: Duffy on thin ice after Musk feud" }
+      ]
+    },
+    {
+      "name": "Pete Buttigieg",
+      "slug": "pete-buttigieg",
+      "relationship_type": "rival",
+      "description": "Duffy, his successor at Transportation, has repeatedly blamed Buttigieg for air-traffic-control failures; Buttigieg accused Duffy of a blame game.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.foxnews.com/politics/duffy-blasts-buttigieg-accusing-biden-era-official-mismanagement-mayor-pete-failed-four-years", "title": "Fox News: Duffy blasts Buttigieg over Biden-era mismanagement" },
+        { "url": "https://www.flyingmag.com/?p=265717", "title": "Flying: Duffy blames Biden, Buttigieg for 'bungled' Newark tech" }
+      ]
+    },
+    {
+      "name": "Steven Bradbury",
+      "slug": "steven-bradbury",
+      "relationship_type": "employee",
+      "description": "Duffy’s deputy at Transportation since March 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://landline.media/bradbury-confirmed-as-department-of-transportation-deputy-secretary/", "title": "Bradbury confirmed as Transportation deputy secretary — Land Line" },
+        { "url": "https://www.nextgov.com/artificial-intelligence/2026/07/transportation-looks-ai-accelerate-its-modernization-initiatives/414885/", "title": "Transportation looks to AI to accelerate its modernization initiatives — Nextgov/FCW (July 2026)" }
+      ]
+    },
+    {
+      "name": "Bryan Bedford",
+      "slug": "bryan-bedford",
+      "relationship_type": "employee",
+      "description": "Runs the FAA under Duffy; the two front its air traffic control overhaul.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.transportation.gov/mission/meet-key-officials", "title": "DOT leadership — U.S. Department of Transportation" },
+        { "url": "https://www.faa.gov/newsroom/trumps-transportation-secretary-duffy-faa-administrator-bedford-celebrate-opening-key", "title": "Duffy and FAA Administrator Bedford celebrate opening of key plant for air traffic control modernization — FAA" }
+      ]
+    },
+    {
+      "name": "Sean McMaster",
+      "slug": "sean-mcmaster",
+      "relationship_type": "employee",
+      "description": "Runs the Federal Highway Administration under Duffy.",
+      "start_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.transportation.gov/mission/meet-key-officials", "title": "DOT leadership — U.S. Department of Transportation" }
+      ]
+    },
+    {
+      "name": "Jonathan Morrison",
+      "slug": "jonathan-morrison",
+      "relationship_type": "employee",
+      "description": "Runs NHTSA under Duffy.",
+      "start_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.transportation.gov/mission/meet-key-officials", "title": "DOT leadership — U.S. Department of Transportation" }
+      ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,800 from Ken Griffin to Duffy for Wisconsin in 2 cycles (2016–2018).",
+      "start_year": 2015,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00464339&two_year_transaction_period=2018", "title": "FEC receipts: GRIFFIN, KEN to Duffy for Wisconsin" }
+      ]
+    },
+    {
+      "name": "Paul Singer",
+      "slug": "paul-singer",
+      "relationship_type": "donor",
+      "description": "FEC filings show $19,100 from Paul Singer to Duffy for Wisconsin in 3 cycles (2016–2020).",
+      "start_year": 2015,
+      "end_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SINGER%2C+PAUL&committee_id=C00464339&two_year_transaction_period=2020", "title": "FEC receipts: SINGER, PAUL to Duffy for Wisconsin" }
+      ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $13,717 from Richard Uihlein to Duffy for Wisconsin in 3 cycles (2016–2020).",
+      "start_year": 2015,
+      "end_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00464339&two_year_transaction_period=2020", "title": "FEC receipts: UIHLEIN, RICHARD to Duffy for Wisconsin" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Transportation",
+    "unit": "transportation",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Sean_Duffy", "title": "Wikipedia: Sean Duffy" },
+      { "url": "https://www.space.com/space-exploration/trump-names-transportation-secretary-sean-duffy-as-interim-nasa-administrator", "title": "Space.com: Trump names Sean Duffy interim NASA administrator" }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Sean Curran",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Director of the U.S. Secret Service",
+  "summary": "Sean Curran, who led Trump’s personal protective detail and shielded him during the 2024 assassination attempt in Butler, Pennsylvania, directs the Secret Service; in 2026 he told Congress the agency was too small for the World Cup, the 2028 Olympics and the 2028 campaign.",
+  "sources": [
+    { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" },
+    { "url": "https://en.wikipedia.org/wiki/Sean_Curran_(Secret_Service)", "title": "Sean Curran (Secret Service) — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Director",
+      "org": "U.S. Secret Service",
+      "sources": [
+        { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Markwayne Mullin",
+      "slug": "markwayne-mullin",
+      "relationship_type": "employer",
+      "description": "Runs the Secret Service inside the department Mullin leads.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" },
+        { "url": "https://www.secretservice.gov/about/leadership/director", "title": "Director Sean M. Curran — U.S. Secret Service" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "colleague",
+      "description": "Led Trump’s protective detail, including at the 2024 Butler assassination attempt, before Trump made him Secret Service director.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sean_Curran_(Secret_Service)", "title": "Sean Curran (Secret Service) — Wikipedia" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Director, Secret Service",
+    "unit": "dhs",
+    "rank": 3,
+    "reports_to": "markwayne-mullin",
+    "since": "2025",
+    "sources": [
+      { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" },
+      { "url": "https://www.secretservice.gov/about/leadership/director", "title": "Director Sean M. Curran — U.S. Secret Service" }
+    ]
+  },
+  "last_researched": "2026-11-08",
+  "notes": "Second sources added on 2026-11-09 were confirmed by web searches restricted to each source's domain; the pages themselves were not opened."
+}

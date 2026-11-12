@@ -1,0 +1,54 @@
+{
+  "name": "John Squires",
+  "aliases": ["John A. Squires"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Under Secretary of Commerce for Intellectual Property and Director of the USPTO (since September 2025)",
+  "summary": "John Squires has led the U.S. Patent and Trademark Office since September 2025, tightening the routes for challenging patents and widening patent eligibility for AI-enabled inventions.",
+  "sources": [
+    { "url": "https://www.uspto.gov/about-us/news-updates/uspto-welcomes-new-director-john-squires", "title": "USPTO welcomes new Director John A. Squires — USPTO" },
+    { "url": "https://ipwatchdog.com/2026/09/29/senate-ip-subcommittee-focuses-on-fee-setting-ptab-rule-in-uspto-oversight-hearing/", "title": "Senate IP subcommittee focuses on fee-setting, PTAB rule in USPTO oversight hearing — IPWatchdog (September 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Director",
+      "org": "U.S. Patent and Trademark Office",
+      "sources": [
+        { "url": "https://www.uspto.gov/about-us/news-updates/uspto-welcomes-new-director-john-squires", "title": "USPTO welcomes new Director John A. Squires — USPTO" },
+        { "url": "https://ipwatchdog.com/2026/09/29/senate-ip-subcommittee-focuses-on-fee-setting-ptab-rule-in-uspto-oversight-hearing/", "title": "Senate IP subcommittee focuses on fee-setting, PTAB rule in USPTO oversight hearing — IPWatchdog (September 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Howard Lutnick",
+      "slug": "howard-lutnick",
+      "relationship_type": "employer",
+      "description": "Heads the USPTO, a Commerce Department agency, as under secretary for intellectual property.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.uspto.gov/about-us/news-updates/uspto-welcomes-new-director-john-squires", "title": "USPTO welcomes new Director John A. Squires — USPTO" },
+        { "url": "https://ipwatchdog.com/2026/09/29/senate-ip-subcommittee-focuses-on-fee-setting-ptab-rule-in-uspto-oversight-hearing/", "title": "Senate IP subcommittee focuses on fee-setting, PTAB rule in USPTO oversight hearing — IPWatchdog (September 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Director, U.S. Patent and Trademark Office",
+    "unit": "commerce",
+    "rank": 3,
+    "reports_to": "howard-lutnick",
+    "since": "2025-09",
+    "sources": [
+      { "url": "https://www.uspto.gov/about-us/news-updates/uspto-welcomes-new-director-john-squires", "title": "USPTO welcomes new Director John A. Squires — USPTO" },
+      { "url": "https://ipwatchdog.com/2026/09/29/senate-ip-subcommittee-focuses-on-fee-setting-ptab-rule-in-uspto-oversight-hearing/", "title": "Senate IP subcommittee focuses on fee-setting, PTAB rule in USPTO oversight hearing — IPWatchdog (September 2026)" }
+    ]
+  },
+  "notes": "Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

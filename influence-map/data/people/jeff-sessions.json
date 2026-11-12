@@ -1,0 +1,300 @@
+{
+  "name": "Jeff Sessions",
+  "aliases": ["Jefferson Beauregard Sessions III"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "photo": {
+    "file": "jeff-sessions.jpg",
+    "credit": "United States Department of Justice",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Jeff_Sessions,_official_portrait.jpg", "title": "File:Jeff Sessions, official portrait.jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Alabama Republican senator 1997–2017, first senator to endorse Trump, attorney general 2017–2018, and 2020 Republican Senate candidate.",
+      "sources": [
+        { "url": "https://rollcall.com/2016/02/28/sessions-first-senator-to-endorse-trump/", "title": "Roll Call: Sessions first senator to endorse Trump" },
+        { "url": "https://www.npr.org/2020/07/15/891290828/former-attorney-general-jeff-sessions-loses-alabama-runoff-election", "title": "NPR: Sessions loses Alabama runoff" }
+      ]
+    }
+  ],
+  "current_role": "Former U.S. Attorney General (2017–2018) and former U.S. Senator from Alabama (1997–2017)",
+  "summary": "Jeff Sessions is an Alabama Republican who served as U.S. Attorney for the Southern District of Alabama, Alabama attorney general, U.S. senator from 1997 to 2017, and the 84th U.S. Attorney General from 2017 to 2018. He was the first senator to endorse Donald Trump in 2016, but his recusal from the Russia investigation led to a public rift; he resigned at Trump's request in November 2018 and lost the 2020 Alabama Senate Republican runoff to the Trump-endorsed Tommy Tuberville. A 1986 nomination to the federal bench was rejected by the Senate Judiciary Committee.",
+  "sources": [
+    { "url": "https://www.justice.gov/ag/bio/attorney-general-jeff-sessions", "title": "Attorney General Jeff Sessions — U.S. Department of Justice" },
+    { "url": "https://en.wikipedia.org/wiki/Jeff_Sessions", "title": "Jeff Sessions — Wikipedia" },
+    { "url": "https://www.npr.org/2020/07/15/891290828/former-attorney-general-jeff-sessions-loses-alabama-runoff-election", "title": "Former Attorney General Jeff Sessions Loses Alabama Runoff Election — NPR" }
+  ],
+  "timeline": [
+    {
+      "year": 1981,
+      "end_year": 1993,
+      "role": "U.S. Attorney",
+      "org": "U.S. Attorney's Office, Southern District of Alabama",
+      "sources": [
+        { "url": "https://www.justice.gov/ag/bio/attorney-general-jeff-sessions", "title": "Attorney General Jeff Sessions — U.S. Department of Justice" },
+        { "url": "https://encyclopediaofalabama.org/article/h-3976", "title": "Jeff Sessions — Encyclopedia of Alabama" }
+      ]
+    },
+    {
+      "year": 1986,
+      "end_year": 1986,
+      "role": "Nominee, U.S. District Judge (nomination rejected by the Senate Judiciary Committee, 10–8)",
+      "org": "U.S. District Court for the Southern District of Alabama",
+      "sources": [
+        { "url": "https://www.npr.org/2016/11/18/502636034/racially-charged-remarks-derailed-trumps-attorney-general-nominee-30-years-ago", "title": "Racially Charged Remarks Derailed Trump's Attorney General Nominee 30 Years Ago — NPR" },
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Sessions", "title": "Jeff Sessions — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1995,
+      "end_year": 1997,
+      "role": "Attorney General of Alabama (elected 1994)",
+      "org": "State of Alabama",
+      "sources": [
+        { "url": "https://www.justice.gov/ag/bio/attorney-general-jeff-sessions", "title": "Attorney General Jeff Sessions — U.S. Department of Justice" },
+        { "url": "https://encyclopediaofalabama.org/article/h-3976", "title": "Jeff Sessions — Encyclopedia of Alabama" }
+      ]
+    },
+    {
+      "year": 1997,
+      "end_year": 2017,
+      "role": "U.S. Senator from Alabama (elected 1996; re-elected 2002, 2008, 2014)",
+      "org": "United States Senate",
+      "sources": [
+        { "url": "https://www.justice.gov/ag/bio/attorney-general-jeff-sessions", "title": "Attorney General Jeff Sessions — U.S. Department of Justice" },
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Sessions", "title": "Jeff Sessions — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2016,
+      "end_year": 2016,
+      "role": "First U.S. senator to endorse Donald Trump (February 28, 2016); campaign adviser who helped assemble Trump's foreign-policy team",
+      "org": "Donald J. Trump for President campaign",
+      "sources": [
+        { "url": "https://rollcall.com/2016/02/28/sessions-first-senator-to-endorse-trump/", "title": "Sessions First Senator to Endorse Trump — Roll Call" },
+        { "url": "https://www.foxnews.com/us/in-trump-alabama-senator-finds-political-kindred-spirit", "title": "In Trump, Alabama senator finds political kindred spirit — Fox News (AP)" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2018,
+      "role": "84th Attorney General of the United States (confirmed 52–47; resigned at Trump's request November 7, 2018)",
+      "org": "U.S. Department of Justice",
+      "sources": [
+        { "url": "https://www.justice.gov/ag/bio/attorney-general-jeff-sessions", "title": "Attorney General Jeff Sessions — U.S. Department of Justice" },
+        { "url": "https://law.com/nationallawjournal/2018/11/07/read-jeff-sessionss-resignation-letter", "title": "READ: Jeff Sessions's Resignation Letter — The National Law Journal" }
+      ]
+    },
+    {
+      "year": 2020,
+      "end_year": 2020,
+      "role": "Candidate for U.S. Senate (lost the July 14 Republican runoff to Tommy Tuberville, 39%–61%)",
+      "org": "Alabama Republican primary",
+      "sources": [
+        { "url": "https://www.npr.org/2020/07/15/891290828/former-attorney-general-jeff-sessions-loses-alabama-runoff-election", "title": "Former Attorney General Jeff Sessions Loses Alabama Runoff Election — NPR" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "U.S. Army Reserve",
+      "role": "Officer",
+      "start_year": null,
+      "end_year": null,
+      "sources": [
+        { "url": "https://www.justice.gov/ag/bio/attorney-general-jeff-sessions", "title": "Attorney General Jeff Sessions — U.S. Department of Justice" }
+      ]
+    },
+    {
+      "name": "Senate Judiciary Committee",
+      "role": "Member",
+      "start_year": null,
+      "end_year": 2017,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Sessions", "title": "Jeff Sessions — Wikipedia" },
+        { "url": "https://www.congress.gov/118/meeting/house/116925/witnesses/HMTG-118-JU01-Bio-HamiltonG-20240307.pdf", "title": "Gene Hamilton witness biography — U.S. House Judiciary Committee" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "employee",
+      "description": "Miller worked in Sessions's Senate office from June 2009 to January 2016, first as press secretary and then communications director, writing speeches and immigration messaging. He was among the first to leave Sessions's office for the Trump campaign in January 2016.",
+      "start_year": 2009,
+      "end_year": 2016,
+      "confidence": 0.97,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)", "title": "Stephen Miller (political advisor) — Wikipedia" },
+        { "url": "https://www.npr.org/2017/08/12/542811416/-that-s-stephen-white-house-adviser-s-controversial-style-dates-back-to-his-yout", "title": "'That's Stephen': White House Adviser's Controversial Style Dates Back To His Youth — NPR" },
+        { "url": "https://www.pbs.org/wgbh/frontline/article/last-man-standing-stephen-miller-white-house/", "title": "Stephen Miller, the Firebrand Who Has Survived the White House — PBS FRONTLINE" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump appointed Sessions attorney general in 2017 and asked for his resignation the day after the 2018 midterms; Sessions's letter said he resigned \"at your request.\"",
+      "start_year": 2017,
+      "end_year": 2018,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://www.justice.gov/ag/bio/attorney-general-jeff-sessions", "title": "Attorney General Jeff Sessions — U.S. Department of Justice" },
+        { "url": "https://law.com/nationallawjournal/2018/11/07/read-jeff-sessionss-resignation-letter", "title": "READ: Jeff Sessions's Resignation Letter — The National Law Journal" },
+        { "url": "https://www.breitbart.com/politics/2018/11/07/jeff-sessions-resigns-as-donald-trump-attorney-general/", "title": "Breitbart: Jeff Sessions resigns as attorney general" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Sessions was the first U.S. senator to endorse Trump, at a February 28, 2016 rally in Madison, Alabama, and became an early campaign adviser on foreign policy and immigration.",
+      "start_year": 2016,
+      "end_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://rollcall.com/2016/02/28/sessions-first-senator-to-endorse-trump/", "title": "Sessions First Senator to Endorse Trump — Roll Call" },
+        { "url": "https://www.foxnews.com/us/in-trump-alabama-senator-finds-political-kindred-spirit", "title": "In Trump, Alabama senator finds political kindred spirit — Fox News (AP)" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "After Sessions recused himself from the Russia investigation, Trump repeatedly attacked him publicly, said he would not have nominated him had he known, forced his resignation in 2018, and endorsed Tommy Tuberville against him in the 2020 Senate race.",
+      "start_year": 2017,
+      "end_year": 2020,
+      "confidence": 0.92,
+      "sources": [
+        { "url": "https://www.ktvu.com/news/jeff-sessions-submits-resignation-to-president-trump-at-your-request", "title": "Jeff Sessions submits resignation to President Trump 'at your request' — KTVU (Fox)" },
+        { "url": "https://www.npr.org/2020/07/15/891290828/former-attorney-general-jeff-sessions-loses-alabama-runoff-election", "title": "Former Attorney General Jeff Sessions Loses Alabama Runoff Election — NPR" },
+        { "url": "https://www.washingtontimes.com/news/2018/nov/7/sessions-resigns-as-attorney-general-at-white-hous/", "title": "Washington Times: Jeff Sessions pushed out after a year of attacks from Trump" },
+        { "url": "https://www.breitbart.com/politics/2018/11/07/jeff-sessions-resigns-as-donald-trump-attorney-general/", "title": "Breitbart: Jeff Sessions resigns as attorney general" }
+      ]
+    },
+    {
+      "name": "Tommy Tuberville",
+      "slug": "tommy-tuberville",
+      "relationship_type": "rival",
+      "description": "Tuberville, with Trump's endorsement, beat Sessions about 61% to 39% in the July 14, 2020 Alabama Republican Senate runoff, the first loss of Sessions's political career.",
+      "start_year": 2020,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.npr.org/2020/07/15/891290828/former-attorney-general-jeff-sessions-loses-alabama-runoff-election", "title": "Former Attorney General Jeff Sessions Loses Alabama Runoff Election — NPR" },
+        { "url": "https://www.nationalreview.com/news/jeff-sessions-loses-senate-primary-runoff-to-tommy-tuberville/", "title": "Jeff Sessions Loses Senate Primary Runoff to Tommy Tuberville — National Review" }
+      ]
+    },
+    {
+      "name": "Matthew Whitaker",
+      "slug": "matthew-whitaker",
+      "relationship_type": "employee",
+      "description": "Whitaker was Sessions's chief of staff at the Justice Department and was named acting attorney general when Sessions was forced out on November 7, 2018.",
+      "start_year": 2017,
+      "end_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.ktvu.com/news/jeff-sessions-submits-resignation-to-president-trump-at-your-request", "title": "Jeff Sessions submits resignation to President Trump 'at your request' — KTVU (Fox)" },
+        { "url": "https://abc7news.com/post/attorney-general-jeff-sessions-resigns-at-trumps-request/4640653/", "title": "Attorney General Jeff Sessions resigns at President Trump's request — ABC7" }
+      ]
+    },
+    {
+      "name": "Rod Rosenstein",
+      "slug": "rod-rosenstein",
+      "relationship_type": "colleague",
+      "description": "Rosenstein was Deputy Attorney General under Sessions and oversaw the Russia investigation after Sessions recused himself.",
+      "start_year": 2017,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.ktvu.com/news/jeff-sessions-submits-resignation-to-president-trump-at-your-request", "title": "Jeff Sessions submits resignation to President Trump 'at your request' — KTVU (Fox)" },
+        { "url": "https://en.wikipedia.org/wiki/Jeff_Sessions", "title": "Jeff Sessions — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Gene Hamilton",
+      "slug": "gene-hamilton",
+      "relationship_type": "employee",
+      "description": "Hamilton was general counsel to Sen. Sessions on the Senate Judiciary Committee (2015 to January 2017) and then Counselor to the Attorney General at the Justice Department. His DOJ end date differs by source: ProPublica lists March 2019; his America First Legal biography says 2021.",
+      "start_year": 2015,
+      "end_year": 2019,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.congress.gov/118/meeting/house/116925/witnesses/HMTG-118-JU01-Bio-HamiltonG-20240307.pdf", "title": "Gene Hamilton witness biography — U.S. House Judiciary Committee" },
+        { "url": "https://projects.propublica.org/trump-town/staffers/gene-p-hamilton-justice", "title": "Gene P. Hamilton — ProPublica Trump Town" },
+        { "url": "https://fedsoc.org/contributors/gene-hamilton", "title": "Gene Hamilton — The Federalist Society" }
+      ]
+    },
+    {
+      "name": "Rick Dearborn",
+      "slug": "rick-dearborn",
+      "relationship_type": "employee",
+      "description": "Dearborn was Sessions's longtime Senate aide, first legislative director and then chief of staff (one source dates the chief-of-staff role 2005–2017), before becoming a White House deputy chief of staff in 2017.",
+      "start_year": null,
+      "end_year": 2017,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rick_Dearborn", "title": "Rick Dearborn — Wikipedia" },
+        { "url": "https://yellowhammernews.com/rick-dearborn-longtime-sessions-chief-staff-lands-powerful-post-trump-white-house", "title": "Rick Dearborn, longtime Sessions chief of staff, lands powerful post in Trump White House — Yellowhammer News" }
+      ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "ally",
+      "description": "Bannon, then Breitbart News executive chairman, tried to recruit Sessions to run for president in 2013, called him a mentor, and is reported to have urged him to endorse Trump in February 2016. Breitbart defended Sessions during his attorney general confirmation.",
+      "start_year": 2013,
+      "end_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.breitbart.com/politics/2017/03/26/steve-bannon-tried-to-recruit-jeff-sessions-to-run-for-president", "title": "NYT Mag: Steve Bannon Tried to Recruit Jeff Sessions to Run for President — Breitbart" },
+        { "url": "https://www.businessinsider.in/bannon-convinced-jeff-sessions-to-endorse-trump-and-sessions-worried-his-career-in-the-republican-party-might-end-because-of-it/articleshow/59777317.cms", "title": "Bannon convinced Jeff Sessions to endorse Trump — Business Insider" }
+      ]
+    },
+    {
+      "name": "David Horowitz",
+      "slug": "david-horowitz",
+      "relationship_type": "ally",
+      "description": "Sessions accepted the David Horowitz Freedom Center's 2014 Annie Taylor Award for Courage and credited Horowitz's writing with influencing his thinking. At his 2017 attorney general confirmation hearing he called Horowitz \"a brilliant writer\" while saying he was not comfortable with some of his language, and conceded he should have disclosed the award. Horowitz publicly objected to Trump's 2017 attacks on Sessions, and says he recommended Stephen Miller to him.",
+      "start_year": 2014,
+      "end_year": 2017,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://forward.com/fast-forward/359624/for-jeff-sessions-david-horowitz-award-a-stumbling-block/", "title": "For Jeff Sessions, David Horowitz Award a Stumbling Block — The Forward" },
+        { "url": "https://www.thedailybeast.com/jeff-sessions-said-secularists-are-unfit-for-government", "title": "Jeff Sessions Said Secularists Are Unfit for Government — The Daily Beast" },
+        { "url": "https://forward.com/fast-forward/378013/david-horowitz-isnt-happy-with-trumps-attack-on-sessions/", "title": "David Horowitz Isn't Happy With Trump's Attack On Sessions — The Forward" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "enemy",
+      "description": "Sessions led Senate opposition to Rubio's 2013 Gang of Eight immigration bill and, during the 2016 primaries, accused Rubio of rewriting his role in it.",
+      "start_year": 2013,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/rubio-takes-the-lead-in-selling-immigration-reform", "title": "Rubio takes the lead in selling immigration reform — PBS NewsHour" },
+        { "url": "https://www.breitbart.com/politics/2016/02/16/jeff-sessions-rubio-rewriting-history-gang-eight-bill-nearly-became-law-cantor-lost-race/", "title": "Jeff Sessions: Rubio rewriting history of Gang of Eight bill — Breitbart" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "1986 judicial nomination testimony",
+      "details": "Justice Department lawyers who had worked with Sessions testified that he made racially charged remarks; Sessions denied the allegations. The Republican-controlled Judiciary Committee voted 10–8 against advancing the nomination.",
+      "sources": [
+        { "url": "https://www.npr.org/2016/11/18/502636034/racially-charged-remarks-derailed-trumps-attorney-general-nominee-30-years-ago", "title": "Racially Charged Remarks Derailed Trump's Attorney General Nominee 30 Years Ago — NPR" },
+        { "url": "https://www.npr.org/2017/01/09/509016284/who-is-the-real-jeff-sessions-two-hearings-within-a-month-in-1986-show-two-sides", "title": "Who's The Real Jeff Sessions? Two Hearings In 1986 Show A Conflicting Picture — NPR" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. No reliable source found for Sessions's activities after 2020. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07"
+}

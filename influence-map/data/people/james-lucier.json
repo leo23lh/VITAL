@@ -1,0 +1,110 @@
+{
+  "name": "James Lucier",
+  "aliases": ["James P. Lucier"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Spent 25 years as a Senate staffer for Republican Sen. Jesse Helms, including as minority staff director of the Foreign Relations Committee; treasurer and director of the national-conservative Edmund Burke Foundation.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/James_P._Lucier", "title": "James P. Lucier — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "james-lucier.png",
+    "credit": "AnonymousUnknown author",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:James_P._Lucier_in_the_1952_University_of_Detroit_Jesuit_High_School_yearbook.png", "title": "File:James P. Lucier in the 1952 University of Detroit Jesuit High School yearbook.png — Wikimedia Commons" }
+  },
+  "current_role": "Co-founder and managing director of Capital Alpha Partners; treasurer and director of the Edmund Burke Foundation",
+  "summary": "James Lucier was a Senate staffer for 25 years, most prominently as Jesse Helms's foreign-policy aide and, from 1987, minority staff director of the Senate Foreign Relations Committee. He later spent nine years in Prudential's Washington policy research group and in 2007 co-founded the policy research firm Capital Alpha Partners. He is treasurer and a director of the Edmund Burke Foundation, which runs the NatCon conferences.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/James_P._Lucier", "title": "James P. Lucier — Wikipedia" },
+    { "url": "https://ch.marketscreener.com/insider/JAMES-P-LUCIER-A04MMA", "title": "James P. Lucier — MarketScreener" },
+    { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 1992,
+      "role": "Aide to Sen. Jesse Helms; minority staff director, Senate Foreign Relations Committee (from 1987)",
+      "org": "US Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/James_P._Lucier", "title": "James P. Lucier — Wikipedia" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": 2007,
+      "role": "Senior vice president, Washington strategy group",
+      "org": "Prudential Equity Group",
+      "sources": [
+        { "url": "https://ch.marketscreener.com/insider/JAMES-P-LUCIER-A04MMA", "title": "James P. Lucier — MarketScreener" }
+      ]
+    },
+    {
+      "year": 2007,
+      "end_year": null,
+      "role": "Co-founder and managing director",
+      "org": "Capital Alpha Partners",
+      "sources": [
+        { "url": "https://ch.marketscreener.com/insider/JAMES-P-LUCIER-A04MMA", "title": "James P. Lucier — MarketScreener" },
+        { "url": "https://en.wikipedia.org/wiki/James_P._Lucier", "title": "James P. Lucier — Wikipedia" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Treasurer and director (2022 filing)",
+      "org": "Edmund Burke Foundation",
+      "sources": [
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "colleague",
+      "description": "Lucier is treasurer and a director of the Edmund Burke Foundation, which Hazony chairs (2022 filing).",
+      "start_year": 2019,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    },
+    {
+      "name": "Jesse Helms",
+      "slug": "jesse-helms",
+      "relationship_type": "employer",
+      "description": "Lucier was Helms's legislative and foreign-policy aide and minority staff director of the Foreign Relations Committee until 1992.",
+      "start_year": null,
+      "end_year": 1992,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/James_P._Lucier", "title": "James P. Lucier — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Edmund Burke Foundation",
+      "slug": "edmund-burke-foundation",
+      "relationship_type": "employer",
+      "description": "Treasurer and a director, per its 2022 filing.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and, where available, with Wikipedia via its API. His Edmund Burke Foundation role comes from its 2022 Form 990 as summarized by DeSmog; no source found on his part in founding NatCon.",
+  "last_researched": "2026-11-07"
+}

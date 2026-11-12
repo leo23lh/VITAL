@@ -1,0 +1,429 @@
+{
+  "name": "Yoram Hazony",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon", "middle-east"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Leading theorist of national conservatism (The Virtue of Nationalism, 2018; Conservatism: A Rediscovery, 2022); an aide to Likud leader Benjamin Netanyahu in the early 1990s; chairs the foundation behind the NatCon conferences, where Republican officials including JD Vance, Marco Rubio and Russ Vought speak.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
+        { "url": "https://www.yoramhazony.org/about/", "title": "About — Yoram Hazony" },
+        { "url": "https://www.usnews.com/news/politics/articles/2025-09-05/national-conservatism-asserts-its-dominance-in-trumps-washington", "title": "National Conservatism Asserts Its Dominance in Trump's Washington — AP via US News" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "yoram-hazony.jpg",
+    "credit": "National Conservatism",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Yoram_Hazony_wearing_a_kippa.jpg", "title": "File:Yoram Hazony wearing a kippa.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Chairman of the Edmund Burke Foundation (which runs the National Conservatism Conference); president of the Herzl Institute in Jerusalem",
+  "summary": "Yoram Hazony is an Israeli-American philosopher and political theorist, born in Israel in 1964 and raised in the US. He founded the Shalem Center in Jerusalem (1994) and, with Ofir Haivry, the Herzl Institute (2012). In 2019 he and David Brog set up the Edmund Burke Foundation, whose National Conservatism conferences have become a main venue of the Trump-era right; his 2018 book The Virtue of Nationalism is the movement's core text.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
+    { "url": "https://www.yoramhazony.org/about/", "title": "About — Yoram Hazony" },
+    { "url": "https://herzlinstitute.org/en/people/yoram-hazony/", "title": "Dr. Yoram Hazony — The Herzl Institute" },
+    { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 1994,
+      "end_year": 2012,
+      "role": "Founder; president (1994–2002) and provost (2005–2012)",
+      "org": "Shalem Center, Jerusalem",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
+        { "url": "https://www.yoramhazony.org/about/", "title": "About — Yoram Hazony" }
+      ]
+    },
+    {
+      "year": 2012,
+      "end_year": null,
+      "role": "Co-founder and president",
+      "org": "Herzl Institute, Jerusalem",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
+        { "url": "https://herzlinstitute.org/en/people/yoram-hazony/", "title": "Dr. Yoram Hazony — The Herzl Institute" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "Co-founder and chairman",
+      "org": "Edmund Burke Foundation (National Conservatism Conference)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" },
+        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "National Conservatism Conference",
+      "role": "Organizer since 2019 (Washington, London, Rome, Orlando, Miami, Brussels)",
+      "start_year": 2019,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" },
+        { "url": "https://www.nationalreview.com/2019/07/national-conservatism-conference-intellectual-trumpist-movement/amp/", "title": "At the National Conservatism Conference, an \"Intellectual Trumpist\" Movement Begins to Take Shape — National Review" }
+      ]
+    },
+    {
+      "name": "Edmund Burke Foundation funders",
+      "role": "Grants reported to his foundation: Klingenstein Fund ($100,058 in 2019; $201,258 in 2024), Common Sense Society ($400,000 in 2022; $205,000 in 2023), National Christian Charitable Foundation ($200,000 in 2021 and 2022; $210,000 in 2024), DonorsTrust ($250,000 in 2021; $300,000 in 2022), Jewish Philosophy Fund ($174,000 in 2019)",
+      "start_year": 2019,
+      "sources": [
+        { "url": "https://www.influencewatch.org/non-profit/edmund-burke-foundation/", "title": "Edmund Burke Foundation — InfluenceWatch" },
+        { "url": "https://www.influencewatch.org/person/thomas-d-klingenstein/", "title": "Thomas D. Klingenstein — InfluenceWatch" },
+        { "url": "https://www.causeiq.com/organizations/common-sense-society,861543050/", "title": "Common Sense Society — Cause IQ" },
+        { "url": "https://www.monitoringinfluence.org/org/donors-trust", "title": "DonorsTrust — Monitoring Influence" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "David Brog",
+      "slug": "david-brog",
+      "relationship_type": "co-founder",
+      "description": "Co-founded the Edmund Burke Foundation in 2019 and organize the National Conservatism Conference together; Hazony is chairman, Brog president.",
+      "start_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Brog", "title": "David Brog — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    },
+    {
+      "name": "Ofir Haivry",
+      "slug": "ofir-haivry",
+      "relationship_type": "co-founder",
+      "description": "Co-founders of the Shalem Center (1994) and the Herzl Institute (2012), co-authors of national-conservative essays, and fellow officers of the Edmund Burke Foundation.",
+      "start_year": 1994,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ofir_Haivry", "title": "Ofir Haivry — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    },
+    {
+      "name": "Christopher DeMuth",
+      "slug": "christopher-demuth",
+      "relationship_type": "colleague",
+      "description": "DeMuth joined Hazony in organizing the first National Conservatism conference in 2019 and is a director of his Edmund Burke Foundation.",
+      "start_year": 2019,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Christopher_DeMuth", "title": "Christopher DeMuth — Wikipedia" },
+        { "url": "https://www.niskanencenter.org/is-there-a-benign-trumpian-nationalism/", "title": "Is there a benign Trumpian nationalism? — Niskanen Center" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    },
+    {
+      "name": "James Lucier",
+      "slug": "james-lucier",
+      "relationship_type": "colleague",
+      "description": "Lucier is treasurer and a director of the Edmund Burke Foundation, which Hazony chairs (2022 filing).",
+      "start_year": 2019,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" }
+      ]
+    },
+    {
+      "name": "Will Chamberlain",
+      "slug": "will-chamberlain",
+      "relationship_type": "colleague",
+      "description": "Chamberlain is the Edmund Burke Foundation's vice president for external affairs and co-drafted its national conservatism statement of principles with Hazony.",
+      "start_year": 2019,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dailysignal.com/author/will-chamberlain/", "title": "Will Chamberlain — Daily Signal author page" },
+        { "url": "https://www.theamericanconservative.com/?p=306317", "title": "National Conservatism: A Statement of Principles — The American Conservative" }
+      ]
+    },
+    {
+      "name": "Rachel Bovard",
+      "slug": "rachel-bovard",
+      "relationship_type": "colleague",
+      "description": "Bovard sits on the Edmund Burke Foundation's board and speaks regularly at its NatCon conferences.",
+      "start_year": 2019,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.dailysignal.com/2025/09/05/6-takeaways-national-conservatism-conference/", "title": "6 Takeaways From the National Conservatism Conference — Daily Signal" },
+        { "url": "https://www.dailysignal.com/2025/08/31/national-conservatism-conference-promises-debate-amid-unity/", "title": "National Conservatism Conference Promises Debate Amid Unity — Daily Signal" }
+      ]
+    },
+    {
+      "name": "James Orr",
+      "slug": "james-orr",
+      "relationship_type": "colleague",
+      "description": "Orr is UK chairman of Hazony's Edmund Burke Foundation.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/James_Orr_(philosopher)", "title": "James Orr (philosopher) — Wikipedia" },
+        { "url": "https://www.dailysignal.com/2023/05/22/why-national-conservatism-could-herald-future-of-uk-politics/", "title": "4 major themes from the National Conservatism Conference — Daily Signal" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation — DeSmog" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Hazony invited Vance to the first NatCon in 2019 (\"Getting Beyond Libertarianism\"); Hazony says Vance \"appears at almost every conference\" and \"personifies the concept of national conservatism\". Vance's 2024 NatCon line \"America is not just an idea\" echoes Hazony's core argument.",
+      "start_year": 2019,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.globes.co.il/en/article-1001487027", "title": "The Israeli behind a global conservative movement — Globes" },
+        { "url": "https://www.thebulwark.com/p/understanding-jd-vances-national", "title": "Understanding J.D. Vance's 'National Conservatism' Convention Speech — The Bulwark" },
+        { "url": "https://dailycaller.com/2019/07/15/yoram-hazony-national-conservatism-conference/", "title": "Daily Caller: The future of conservatism is nationalist, says Yoram Hazony" },
+        { "url": "https://www.theamericanconservative.com/up-from-libertarianism/", "title": "The American Conservative: Up from libertarianism? (Vance at the first NatCon)" }
+      ]
+    },
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "ally",
+      "description": "Rubio keynoted Hazony's NatCon in 2021 (calling for \"corporate patriotism\") and spoke again in 2022.",
+      "start_year": 2021,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://floridapolitics.com/archives/555498-we-know-better-marco-rubio-warns-of-internal-marxist-threat-globalism-in-natcon-keynote", "title": "Marco Rubio warns of internal Marxist threat, globalism in NatCon keynote — Florida Politics" },
+        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "ally",
+      "description": "Thiel gave a keynote at Hazony's first National Conservatism conference in July 2019.",
+      "start_year": 2019,
+      "end_year": 2019,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.nationalreview.com/2019/07/national-conservatism-conference-intellectual-trumpist-movement/amp/", "title": "At the National Conservatism Conference, an \"Intellectual Trumpist\" Movement Begins to Take Shape — National Review" },
+        { "url": "https://www.dailysignal.com/2019/07/28/national-conservatives-set-out-to-define-future-of-politics-on-right/", "title": "\"National Conservatives\" Set Out to Define Future of Politics on Right — Daily Signal" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "Carlson spoke at Hazony's first National Conservatism conference in July 2019.",
+      "start_year": 2019,
+      "end_year": 2019,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://www.dailysignal.com/2019/07/28/national-conservatives-set-out-to-define-future-of-politics-on-right/", "title": "\"National Conservatives\" Set Out to Define Future of Politics on Right — Daily Signal" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "ally",
+      "description": "DeSantis gave the opening-night keynote at Hazony's third US National Conservatism Conference, near Miami, on September 11, 2022.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" },
+        { "url": "https://floridapolitics.com/archives/555339-ron-desantis-plays-greatest-hits-and-then-some-in-keynote-speech-to-enthusiastic-natcon-crowd", "title": "Ron DeSantis plays greatest hits in keynote speech to enthusiastic NatCon crowd — Florida Politics" },
+        { "url": "https://www.dailysignal.com/2022/09/12/desantis-touts-floridas-successes-paints-stark-contrast-with-blue-states/", "title": "DeSantis touts Florida's successes — Daily Signal" }
+      ]
+    },
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "ally",
+      "description": "Bannon was a confirmed speaker at Hazony's NatCon 5 in Washington in September 2025.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-5-2025/confirmed-speakers/", "title": "Confirmed Speakers — NatCon Washington 2025" }
+      ]
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "slug": "benjamin-netanyahu",
+      "relationship_type": "employer",
+      "description": "In the early 1990s Hazony worked as an aide to then-opposition leader Netanyahu, attending the Madrid peace talks with him and helping with two of his books.",
+      "start_year": 1990,
+      "end_year": 1993,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
+        { "url": "https://www.yoramhazony.org/about/", "title": "About — Yoram Hazony" }
+      ]
+    },
+    {
+      "name": "Julius Krein",
+      "slug": "julius-krein",
+      "relationship_type": "ally",
+      "description": "Krein spoke at Hazony's NatCon in 2019 (\"A Strategy for National Development\") and 2021.",
+      "start_year": 2019,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/julius-krein/", "title": "Julius Krein — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" }
+      ]
+    },
+    {
+      "name": "Sohrab Ahmari",
+      "slug": "sohrab-ahmari",
+      "relationship_type": "ally",
+      "description": "Ahmari spoke at Hazony's NatCon in 2021.",
+      "start_year": 2021,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" }
+      ]
+    },
+    {
+      "name": "Josh Hawley",
+      "slug": "josh-hawley",
+      "relationship_type": "ally",
+      "description": "Hawley's \"cosmopolitan elite\" speech at Hazony's first NatCon in 2019 made him a face of the movement; Hazony defended the term against charges of antisemitism. Hawley returned as a keynote speaker in 2021 and 2022.",
+      "start_year": 2019,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Josh_Hawley", "title": "Josh Hawley — Wikipedia" },
+        { "url": "https://www.timesofisrael.com/senators-speech-an-anti-semitic-dog-whistle-or-poli-sci-speak/", "title": "Senator's speech an anti-Semitic dog whistle or poli-sci speak? — Times of Israel" },
+        { "url": "https://www.hawley.senate.gov/?p=3398", "title": "Senator Hawley Delivers National Conservatism Keynote on the Left's Attack on Men in America (2021)" }
+      ]
+    },
+    {
+      "name": "Eric Schmitt",
+      "slug": "eric-schmitt",
+      "relationship_type": "ally",
+      "description": "Schmitt spoke at Hazony's NatCon 5 in 2025, declaring national conservatism \"an idea whose time has arrived\".",
+      "start_year": 2025,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Eric_Schmitt", "title": "Eric Schmitt — Wikipedia" },
+        { "url": "https://www.usnews.com/news/politics/articles/2025-09-05/national-conservatism-asserts-its-dominance-in-trumps-washington", "title": "National Conservatism Asserts Its Dominance in Trump's Washington — AP via US News" }
+      ]
+    },
+    {
+      "name": "Russ Vought",
+      "slug": "russ-vought",
+      "relationship_type": "ally",
+      "description": "Vought made his first NatCon appearance at Hazony's 2025 conference, defending Trump's spending cuts.",
+      "start_year": 2025,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://www.dailysignal.com/2025/09/03/omb-director-vought-deconstructing-the-administrative-state/", "title": "OMB Director: How President Trump Is Deconstructing the Administrative State — Daily Signal" },
+        { "url": "https://www.usnews.com/news/politics/articles/2025-09-05/national-conservatism-asserts-its-dominance-in-trumps-washington", "title": "National Conservatism Asserts Its Dominance in Trump's Washington — AP via US News" }
+      ]
+    },
+    {
+      "name": "Giorgia Meloni",
+      "slug": "giorgia-meloni",
+      "relationship_type": "ally",
+      "description": "Meloni opened Hazony's National Conservatism conference in Rome in February 2020 with a speech titled \"God, Honor, Country\".",
+      "start_year": 2020,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.theamericanconservative.com/rome-conference-national-conservatism/", "title": "The Rome conference on national conservatism — The American Conservative" },
+        { "url": "https://www.catholicworldreport.com/2020/02/16/national-conservatism-and-the-true-europe", "title": "National Conservatism and the 'True Europe' — Catholic World Report" }
+      ]
+    },
+    {
+      "name": "Nigel Farage",
+      "slug": "nigel-farage",
+      "relationship_type": "ally",
+      "description": "Farage spoke at Hazony's NatCon in Brussels in April 2024 (police moved to shut it down during his speech) and at NatCon Washington in 2025.",
+      "start_year": 2024,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://itv.com/news/2024-04-16/brussels-police-move-to-shut-down-right-wing-event-where-farage-was-speaking", "title": "Brussels police move to shut down right-wing conference where Nigel Farage was speaking — ITV" },
+        { "url": "https://nationalconservatism.org/natcon-5-2025/", "title": "National Conservatism Conference, Washington 2025" }
+      ]
+    },
+    {
+      "name": "Patrick Deneen",
+      "slug": "patrick-deneen",
+      "relationship_type": "ally",
+      "description": "Deneen has spoken at Hazony's NatCon in 2019, 2021 and as a 2025 plenary speaker.",
+      "start_year": 2019,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/patrick-deneen/", "title": "Patrick Deneen — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/presenters/patrick-deneen/", "title": "Patrick Deneen — National Conservatism Conference 2021" },
+        { "url": "https://nationalconservatism.org/natcon-5-2025/confirmed-speakers/", "title": "Confirmed Speakers — NatCon Washington 2025" }
+      ]
+    },
+    {
+      "name": "R. R. Reno",
+      "slug": "r-r-reno",
+      "relationship_type": "colleague",
+      "description": "Reno co-authored the National Conservatism statement of principles with Hazony and others and has spoken at nearly every NatCon, including Jerusalem in 2026.",
+      "start_year": 2019,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.theamericanconservative.com/?p=306317", "title": "National Conservatism: A Statement of Principles — The American Conservative" },
+        { "url": "https://en.wikipedia.org/wiki/R._R._Reno", "title": "R. R. Reno — Wikipedia" },
+        { "url": "https://nationalconservatism.org/natcon-jerusalem-2026/en/presenters/rusty-reno/", "title": "Rusty Reno — National Conservatism Conference, Jerusalem 2026" }
+      ]
+    },
+    {
+      "name": "Oren Cass",
+      "slug": "oren-cass",
+      "relationship_type": "ally",
+      "description": "Cass spoke at Hazony's NatCon in 2019 and 2021.",
+      "start_year": 2019,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/", "title": "Presenters — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/presenters/oren-cass/", "title": "Oren Cass — National Conservatism Conference 2021" }
+      ]
+    },
+    {
+      "name": "Michael Anton",
+      "slug": "michael-anton",
+      "relationship_type": "ally",
+      "description": "Anton spoke at Hazony's NatCon in 2019 and 2021.",
+      "start_year": 2019,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/", "title": "Presenters — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" }
+      ]
+    },
+    {
+      "name": "Suella Braverman",
+      "slug": "suella-braverman",
+      "relationship_type": "ally",
+      "description": "Braverman spoke at Hazony's NatCon in London (2023), warning about immigration and Britain's \"national character\", and in Brussels (2024).",
+      "start_year": 2023,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" },
+        { "url": "https://lbc.co.uk/news/farage-nigel-braverman-suella-brussels-conference-natcon-police", "title": "Chaos as authorities close down 'right-wing' conference with Farage and Braverman as speakers — LBC" }
+      ]
+    },
+    {
+      "name": "Edmund Burke Foundation",
+      "slug": "edmund-burke-foundation",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and chairman; organizer of every NatCon since 2019.",
+      "start_year": 2019,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Yoram_Hazony", "title": "Yoram Hazony — Wikipedia" },
+        { "url": "https://www.desmog.com/edmund-burke-foundation/", "title": "Edmund Burke Foundation (2022 Form 990 officers) — DeSmog" },
+        { "url": "https://en.wikipedia.org/wiki/National_Conservatism_Conference", "title": "National Conservatism Conference — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and, where available, with Wikipedia via its API. The Edmund Burke Foundation's funders are organizations, not people, so they are listed under affiliations; figures come from grant trackers (InfluenceWatch, Cause IQ, Monitoring Influence), not the foundation's own filings.",
+  "last_researched": "2026-11-07"
+}

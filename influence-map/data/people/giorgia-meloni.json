@@ -1,0 +1,177 @@
+{
+  "name": "Giorgia Meloni",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 3,
+      "start_year": 1992,
+      "end_year": 1995,
+      "basis": "Joined the Youth Front of the neo-fascist Italian Social Movement (MSI) at 15.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Giorgia_Meloni", "title": "Giorgia Meloni — Wikipedia" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 1996,
+      "end_year": null,
+      "basis": "National Alliance, then co-founder (2012) and leader (2014–) of Brothers of Italy; prime minister since 2022 heading a right-wing coalition; president of the European Conservatives and Reformists Party 2020–2025. Many outlets and scholars call FdI far-right or post-fascist (see source conflicts).",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Giorgia_Meloni", "title": "Giorgia Meloni — Wikipedia" },
+        { "url": "https://theweek.com/news/world-news/europe/958535/brothers-of-italy-giorgia-meloni-political-party", "title": "Brothers of Italy: understanding Giorgia Meloni's political party — The Week" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "giorgia-meloni.jpg",
+    "credit": "Governo Italiano",
+    "license": "CC BY 3.0 it",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Giorgia_Meloni_Official_2024_(cropped).jpg", "title": "File:Giorgia Meloni Official 2024 (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Prime Minister of Italy (since October 2022); president of Brothers of Italy",
+  "summary": "Giorgia Meloni is Italy's first woman prime minister and heads its longest-serving postwar government. She came up through the youth wings of the neo-fascist MSI and post-fascist National Alliance, co-founded Brothers of Italy in 2012 and won the 2022 election. She opened Yoram Hazony's NatCon in Rome in February 2020 (\"God, Honor, Country\"). The only EU leader at Trump's second inauguration, she clashed with him from April 2026.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Giorgia_Meloni", "title": "Giorgia Meloni — Wikipedia" },
+    { "url": "https://www.theamericanconservative.com/rome-conference-national-conservatism/", "title": "The Rome conference on national conservatism — The American Conservative" },
+    { "url": "https://www.news4jax.com/news/world/2025/01/16/italys-meloni-to-leverage-strong-ties-with-trump-but-as-president-whisperer-or-trojan-horse", "title": "Italy's Meloni to leverage strong ties with Trump — AP" }
+  ],
+  "timeline": [
+    {
+      "year": 2006,
+      "end_year": null,
+      "role": "Member",
+      "org": "Chamber of Deputies",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Giorgia_Meloni", "title": "Giorgia Meloni — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2008,
+      "end_year": 2011,
+      "role": "Minister for Youth Policies",
+      "org": "Fourth Berlusconi government",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Giorgia_Meloni", "title": "Giorgia Meloni — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2014,
+      "end_year": null,
+      "role": "President (co-founder, 2012)",
+      "org": "Brothers of Italy",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Giorgia_Meloni", "title": "Giorgia Meloni — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2020,
+      "end_year": 2025,
+      "role": "President",
+      "org": "European Conservatives and Reformists Party",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Giorgia_Meloni", "title": "Giorgia Meloni — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2022,
+      "end_year": null,
+      "role": "Prime Minister",
+      "org": "Italy",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Giorgia_Meloni", "title": "Giorgia Meloni — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "National Conservatism Conference",
+      "role": "Opening speaker, Rome (February 2020)",
+      "start_year": 2020,
+      "end_year": 2020,
+      "sources": [
+        { "url": "https://www.theamericanconservative.com/rome-conference-national-conservatism/", "title": "The Rome conference on national conservatism — The American Conservative" },
+        { "url": "https://www.catholicworldreport.com/2020/02/16/national-conservatism-and-the-true-europe", "title": "National Conservatism and the 'True Europe' — Catholic World Report" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Meloni opened Hazony's National Conservatism conference in Rome in February 2020 with a speech titled \"God, Honor, Country\".",
+      "start_year": 2020,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.theamericanconservative.com/rome-conference-national-conservatism/", "title": "The Rome conference on national conservatism — The American Conservative" },
+        { "url": "https://www.catholicworldreport.com/2020/02/16/national-conservatism-and-the-true-europe", "title": "National Conservatism and the 'True Europe' — Catholic World Report" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "The only EU leader at Trump's second inauguration and a frequent White House visitor in 2025; the relationship soured from April 2026 over disputes including Iran and NATO, with Trump saying it \"is no longer the same\".",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.news4jax.com/news/world/2025/01/16/italys-meloni-to-leverage-strong-ties-with-trump-but-as-president-whisperer-or-trojan-horse", "title": "Italy's Meloni to leverage strong ties with Trump — AP" },
+        { "url": "https://en.wikipedia.org/wiki/Giorgia_Meloni", "title": "Giorgia Meloni — Wikipedia" },
+        { "url": "https://en.ilsole24ore.com/art/donald-e-giorgia-special-relationship-scontro-totale-AIXvwCmD", "title": "Donald and Giorgia: from special relationship to total clash — Il Sole 24 Ore" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "ally",
+      "description": "Meloni has called Musk a personal \"friend\" and a \"genius\" and worked to build close ties with him; Musk denied a romantic relationship in 2024.",
+      "start_year": 2023,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://fortune.com/europe/2025/01/07/meloni-closeness-musk-trump-big-risk/", "title": "Meloni's closeness to Musk and Trump — Fortune" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Vance met Meloni in Rome on April 18, 2025, a day after her White House visit; she hailed a \"privileged relationship\" and he called it a \"great meeting\" with a like-minded leader.",
+      "start_year": 2025,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://thepeninsulaqatar.com/article/18/04/2025/vance-meets-italys-meloni-before-easter-at-the-vatican", "title": "Vance meets Italy's Meloni before Easter at the Vatican — AFP via The Peninsula" },
+        { "url": "https://www.thestar.com.my/news/world/2025/04/18/melodic-italian-bolsters-meloni-in-talks-with-trump-and-vance", "title": "Melodic Italian bolsters Meloni in talks with Trump and Vance — Reuters via The Star" },
+        { "url": "https://www.washingtontimes.com/news/2025/apr/18/vance-visits-italy-vatican-tangling-pope-migration/", "title": "Washington Times: Vance visits Italy and Vatican" },
+        { "url": "https://www.washingtontimes.com/news/2026/feb/6/vance-meets-pm-meloni-bolster-us-italy-relationship-milan-opening/", "title": "Washington Times: Vance meets Meloni to bolster U.S.–Italy relationship" },
+        { "url": "https://www.breitbart.com/news/meloni-vance-hail-shared-values-amid-pre-olympic-protests/", "title": "Breitbart: Meloni, Vance hail \"shared values\"" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "friend",
+      "description": "Meloni has called Musk a personal “friend”; the tie is mostly reported through their public political alignment.",
+      "start_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://fortune.com/europe/2025/01/07/meloni-closeness-musk-trump-big-risk/", "title": "Meloni's closeness to Musk and Trump — Fortune" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Far-right label",
+      "details": "Wikipedia calls Brothers of Italy \"right-wing to far-right\"; political scientists cited by The Week call it far-right or post-fascist; others, including Wikipedia's own description of Meloni, say conservative and right-wing populist, and some commentators argue she has moved to the mainstream.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Giorgia_Meloni", "title": "Giorgia Meloni — Wikipedia" },
+        { "url": "https://theweek.com/news/world-news/europe/958535/brothers-of-italy-giorgia-meloni-political-party", "title": "Brothers of Italy: understanding Giorgia Meloni's political party — The Week" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-07"
+}

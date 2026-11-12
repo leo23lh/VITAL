@@ -1,0 +1,55 @@
+{
+  "name": "Julie Hocker",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Assistant Secretary of Labor for Disability Employment Policy (since October 2025)",
+  "summary": "Julie Hocker leads the Office of Disability Employment Policy; she was sworn in on October 23, 2025, after Senate confirmation.",
+  "sources": [
+    { "url": "https://www.dol.gov/agencies/odep/julie-hocker", "title": "Assistant Secretary Julie Hocker — Office of Disability Employment Policy" },
+    { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Assistant Secretary, Office of Disability Employment Policy",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/odep/julie-hocker", "title": "Assistant Secretary Julie Hocker — Office of Disability Employment Policy" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Heads disability employment policy in Sonderling’s department.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/odep/julie-hocker", "title": "Assistant Secretary Julie Hocker — Office of Disability Employment Policy" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary, Disability Employment Policy",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "keith-sonderling",
+    "since": "2025-10-23",
+    "sources": [
+      { "url": "https://www.dol.gov/agencies/odep/julie-hocker", "title": "Assistant Secretary Julie Hocker — Office of Disability Employment Policy" },
+      { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+    ]
+  },
+  "notes": "dol.gov pages could not be opened from this session (the site blocks automated readers); facts were confirmed with searches restricted to dol.gov and the cited outlets.",
+  "last_researched": "2026-11-08"
+}

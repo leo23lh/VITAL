@@ -1,0 +1,82 @@
+{
+  "name": "Sean Clegg",
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic political consultant whose clients include Newsom and Harris.",
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["gavin-newsom", "kamala-harris"],
+    "basis": "Bearstar founding partner who continues to advise Newsom and has advised Harris.",
+    "sources": [
+      { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+    ]
+  },
+  "current_role": "Founding partner, Bearstar Strategies",
+  "summary": "Sean Clegg is a founding partner of Bearstar Strategies whose client list includes Gavin Newsom and Kamala Harris.",
+  "sources": [
+    { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Founding partner",
+      "org": "Bearstar Strategies",
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Gavin Newsom",
+      "slug": "gavin-newsom",
+      "relationship_type": "employer",
+      "description": "Clegg continues to advise Newsom.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "employer",
+      "description": "Clegg counts Harris among his clients.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    },
+    {
+      "name": "Ace Smith",
+      "slug": "ace-smith",
+      "relationship_type": "colleague",
+      "description": "Partners at the California political consulting firm Bearstar Strategies.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}
