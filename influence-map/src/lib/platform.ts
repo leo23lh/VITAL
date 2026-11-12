@@ -51,3 +51,6 @@ export const ORGS_COLLECTION = 'orgs';
 
 /** The Updates feed: one document per entry (date, text, people). */
 export const UPDATES_COLLECTION = 'updates';
+
+/** Monthly snapshots for trends: one document per month (doc_id YYYY-MM), body = that month in data/history.json. */
+export const HISTORY_COLLECTION = 'history';

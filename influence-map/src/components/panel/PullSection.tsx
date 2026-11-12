@@ -5,10 +5,14 @@ import { DEFAULT_PULL, earOf, LEVERAGE_LABELS, power, pullOf, type BondIndex } f
 import { deciderAccess, OUTCOME_LABEL, recordOf } from '../../lib/trackrecord';
 import type { Selection } from '../../lib/view';
 import { SourceList } from './parts';
+import { TrendArrow } from '../PullView';
+import type { Snapshot } from '../../lib/trends';
 
 export interface PullTools {
   nodes: GraphNode[];
   bonds: BondIndex;
+  /** The last monthly snapshot from before this month (trend arrows), or null. */
+  trendBase: Snapshot | null;
   onPullOf: (id: string) => void;
 }
 
@@ -80,7 +84,7 @@ export function PullSection({
           <strong className="closeness-score">{pull.score}</strong>
           <span>
             <strong>{pull.label}</strong>
-            <span className="muted small"> · out of 100</span>
+            <span className="muted small"> · out of 100</span> <TrendArrow id={node.id} score={pull.score} base={tools.trendBase} />
           </span>
         </div>
         <div className="closeness-bar" aria-hidden="true">

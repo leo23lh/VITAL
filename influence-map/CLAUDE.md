@@ -487,7 +487,9 @@ map's donors and writes what it finds into their files. A dry run by default;
   it is plainly them. When unsure, leave it out.
 - **Privacy:** filings carry contributors' addresses. The import never reads
   or keeps them, and its cache of raw responses lives outside the repo (the
-  system temp folder, or `--cache <dir>`). Only committee names, amounts,
+  system temp folder, or `--cache <dir>`). Cached responses expire after 12
+  hours: the FEC loads filings in batches (the 2026 pre-general reports
+  arrived on Nov. 10), and an older cache silently misses them. Only committee names, amounts,
   years and fec.gov links are written (research rule 2).
 - **What it writes.** Per cycle, a `giving` recipient for every person or
   organization on the map that got $1,000 or more (all their committees
@@ -778,7 +780,13 @@ in 30 days ("checked 2 months ago").
   last ran.
 - `npm run freshness -- --snapshot` records this month's Pull scores and 2028
   first choices in `data/history.json` (one entry a month; a later run in the
-  same month replaces it). Rising and falling arrows will read these.
+  same month replaces it).
+- **Trend arrows.** The Pull ranking and each person's Pull tab show ▲ or ▼
+  with the change since the latest snapshot from an earlier month, when it is
+  3 points or more (`src/lib/trends.ts`). The first arrows appear in December,
+  once there is a November snapshot to compare against. The phone page reads
+  the snapshots from its `history` collection (one document per month,
+  `doc_id` YYYY-MM); `/sync-map` copies them.
 - The weekly refresh (see "Updates feed") works from this list: it confirms
   the posts that are due (setting `office.verified`), refreshes the people
   who made news and the most overdue files, re-runs the FEC import, saves a
@@ -822,8 +830,9 @@ on a phone. Its link is in `artifact.json`.
 
 - **Data:** the page reads its Artifact database, collection `people`: one
   document per person, `doc_id` = slug, body = the file's JSON, unchanged.
-  Organizations go in collection `orgs` the same way, and the Updates feed in
-  collection `updates` (`doc_id` = the entry's `id`). `/add-person`,
+  Organizations go in collection `orgs` the same way, the Updates feed in
+  collection `updates` (`doc_id` = the entry's `id`), and the monthly
+  snapshots in collection `history` (`doc_id` = the month). `/add-person`,
   `/refresh-person` and `/add-org` copy the files they change; `/sync-map`
   copies everything and removes documents whose file is gone. The files stay the
   source of truth; never edit the database by hand.

@@ -10,6 +10,7 @@ import type { Connect, Plugin, ViteDevServer } from 'vite';
 export function peopleData(dataDir: string): Plugin {
   const orgsDir = path.join(dataDir, '..', 'orgs');
   const updatesFile = path.join(dataDir, '..', 'updates.json');
+  const historyFile = path.join(dataDir, '..', 'history.json');
   const middleware: Connect.NextHandleFunction = (req, res, next) => {
     if (req.method !== 'GET') return next();
     res.setHeader('Content-Type', 'application/json; charset=utf-8');
@@ -22,11 +23,18 @@ export function peopleData(dataDir: string): Plugin {
     } catch {
       // No feed yet, or it doesn't parse (the validator reports that).
     }
+    let history: unknown = [];
+    try {
+      history = JSON.parse(fs.readFileSync(historyFile, 'utf8')).months ?? [];
+    } catch {
+      // No snapshots yet.
+    }
     res.end(
       JSON.stringify({
         people: people.people,
         orgs: orgs.people,
         updates,
+        history,
         errors: [...people.errors, ...orgs.errors.map((e) => ({ ...e, file: `orgs/${e.file}` }))],
       }),
     );
@@ -39,9 +47,10 @@ export function peopleData(dataDir: string): Plugin {
       server.watcher.add(dataDir);
       if (fs.existsSync(orgsDir)) server.watcher.add(orgsDir);
       server.watcher.add(updatesFile);
+      server.watcher.add(historyFile);
       const watched = [path.resolve(dataDir), path.resolve(orgsDir)];
       const notify = (file: string) => {
-        const isFeed = path.resolve(file) === path.resolve(updatesFile);
+        const isFeed = [updatesFile, historyFile].some((f) => path.resolve(file) === path.resolve(f));
         if ((!isFeed && !watched.includes(path.dirname(path.resolve(file)))) || !file.endsWith('.json')) return;
         server.ws.send({ type: 'custom', event: 'people:changed', data: { file: path.basename(file) } });
       };

@@ -3,9 +3,24 @@ import { useMemo, useState } from 'react';
 import type { GraphNode } from '../lib/graph';
 import { earOf, LEVERAGE_LABELS, power, rankPull, type BondIndex } from '../lib/pull';
 import Avatar from './Avatar';
+import { monthLabel, pullTrend, TREND_MIN, type Snapshot } from '../lib/trends';
+
+/** "▲ 5" / "▼ 4" beside a score, against the last monthly snapshot. */
+export function TrendArrow({ id, score, base }: { id: string; score: number; base: Snapshot | null }) {
+  const t = pullTrend(id, score, base);
+  if (!t) return null;
+  const up = t.delta > 0;
+  return (
+    <span className={`trend ${up ? 'trend-up' : 'trend-down'}`} title={`${up ? 'Up' : 'Down'} ${Math.abs(t.delta)} since ${monthLabel(t.since.month)}`}>
+      {up ? '▲' : '▼'} {Math.abs(t.delta)}
+    </span>
+  );
+}
 
 interface Props {
   nodes: GraphNode[];
+  /** The last monthly snapshot from before this month (trend arrows), or null. */
+  trendBase: Snapshot | null;
   bonds: BondIndex;
   /** Whose ear: unset = anyone in power. */
   of?: string;
@@ -18,7 +33,7 @@ type Scope = 'all' | 'inside' | 'outside';
 
 const roleOf = (n?: GraphNode) => n?.person?.office?.title ?? n?.person?.current_role ?? '';
 
-export default function PullView({ nodes, bonds, of, onOf, selectedId, onSelect }: Props) {
+export default function PullView({ nodes, bonds, of, onOf, selectedId, onSelect, trendBase }: Props) {
   const [scope, setScope] = useState<Scope>('all');
   const byId = useMemo(() => new Map(nodes.map((n) => [n.id, n])), [nodes]);
   const name = (id: string) => byId.get(id)?.name ?? id;
@@ -45,7 +60,7 @@ export default function PullView({ nodes, bonds, of, onOf, selectedId, onSelect 
       <p className="org-key muted small">
         {of
           ? `Everyone with a recorded tie to ${name(of)}, strongest bond first.`
-          : 'How close each person is to people in power, plus what they control that power needs. Access: their bond with each official, weighted by the post (the President counts most), with recent documented meetings and deals strengthening a tie. Leverage: companies, contracts, media and money the White House needs (sourced, rated notable, major or systemic). Setbacks don’t lower anyone’s score.'}
+          : `${trendBase ? `Arrows show moves of ${TREND_MIN} or more since ${monthLabel(trendBase.month)}. ` : ''}How close each person is to people in power, plus what they control that power needs. Access: their bond with each official, weighted by the post (the President counts most), with recent documented meetings and deals strengthening a tie. Leverage: companies, contracts, media and money the White House needs (sourced, rated notable, major or systemic). Setbacks don’t lower anyone’s score.`}
       </p>
 
       <div className="pull-controls">
@@ -97,6 +112,7 @@ export default function PullView({ nodes, bonds, of, onOf, selectedId, onSelect 
                 </span>
                 <span className="pull-score" title={r.label}>
                   {r.score}
+                  <TrendArrow id={r.id} score={r.score} base={trendBase} />
                 </span>
               </button>
             </li>

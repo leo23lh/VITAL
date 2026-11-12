@@ -3,10 +3,15 @@
 // proxy adds it to requests for api.open.fec.gov. Outside that environment, set FEC_API_KEY.
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const API = 'https://api.open.fec.gov/v1';
+/**
+ * Cached responses older than this are fetched again. The FEC loads new filings in batches (the
+ * 2026 pre-general reports arrived on Nov. 10), so a cache from before a load silently misses them.
+ */
+const CACHE_HOURS = 12;
 /** Stay under the key's rate limit (60 a minute). */
 const GAP_MS = 1100;
 let last = 0;
@@ -14,14 +19,14 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 /**
  * GET an API path with query parameters; returns the parsed JSON. With `cacheDir`, a response is
- * reused for the rest of the run and for later runs (delete the folder to refetch).
+ * reused for CACHE_HOURS, so a rerun the same day is quick but a later run sees new filings.
  */
 export async function fec(path, params = {}, cacheDir) {
   const q = new URLSearchParams();
   for (const [k, v] of Object.entries(params)) for (const x of [].concat(v)) if (x !== undefined && x !== null) q.append(k, String(x));
   const url = `${API}${path}?${q}`;
   const file = cacheDir ? join(cacheDir, `${createHash('sha1').update(url).digest('hex')}.json`) : null;
-  if (file && existsSync(file)) return JSON.parse(readFileSync(file, 'utf8'));
+  if (file && existsSync(file) && Date.now() - statSync(file).mtimeMs < CACHE_HOURS * 3600e3) return JSON.parse(readFileSync(file, 'utf8'));
 
   for (let attempt = 0; ; attempt++) {
     const wait = last + GAP_MS - Date.now();

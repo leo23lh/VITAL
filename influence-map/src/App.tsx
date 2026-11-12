@@ -15,6 +15,7 @@ import { EDGE_FAMILIES, type EdgeFamily } from './lib/schema';
 import { useLayout, useMenus, useToggleSet } from './lib/useAppChrome';
 import { buildOrgChart } from './lib/orgchart';
 import { bondIndex } from './lib/pull';
+import { baseline } from './lib/trends';
 import { backingBoard, type BackingBoard } from './lib/backing';
 import { usePeople } from './lib/usePeople';
 import {
@@ -36,7 +37,9 @@ import {
 } from './lib/view';
 
 export default function App() {
-  const { people, orgs, errors, loaded, fetchError, lastUpdated, live, updates = [] } = usePeople();
+  const { people, orgs, errors, loaded, fetchError, lastUpdated, live, updates = [], history = [] } = usePeople();
+  // The latest monthly snapshot from before this month, for rising and falling arrows.
+  const trendBase = useMemo(() => baseline(history), [history]);
   const layout = useLayout();
   const { menu, openMenu, unseen, unseenAtOpen } = useMenus(updates);
   const closeMenu = () => openMenu(null);
@@ -91,8 +94,8 @@ export default function App() {
   // Bond for every linked pair (all-time ties), for Pull.
   const bonds = useMemo(() => bondIndex(graph.nodes, graph.links, workplaces), [graph, workplaces]);
   const pullTools = useMemo(
-    () => ({ nodes: graph.nodes, bonds, onPullOf: (id: string) => setView({ kind: 'pull', of: id }) }),
-    [graph, bonds],
+    () => ({ nodes: graph.nodes, bonds, trendBase, onPullOf: (id: string) => setView({ kind: 'pull', of: id }) }),
+    [graph, bonds, trendBase],
   );
   // 2028 backing: scored on first use (the view or a person's 2028 tab), then kept until the files change.
   const boardCache = useRef<{ links: unknown; board: BackingBoard } | null>(null);
@@ -233,6 +236,7 @@ export default function App() {
             </div>
           ) : view.kind === 'pull' ? (
             <PullView
+              trendBase={trendBase}
               nodes={graph.nodes}
               bonds={bonds}
               of={view.of}

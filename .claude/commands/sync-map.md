@@ -26,6 +26,10 @@ the page.
    `influence-map/data/updates.json`, `set` it with `doc_id` = its `id` and `data` =
    the entry (with `if_version` when already stored); `delete` stored documents
    whose id is no longer in the file.
+   Monthly snapshots: ArtifactData `list` the `history` collection. For every month
+   in `influence-map/data/history.json` → `months`, `set` it with `doc_id` = the
+   month (YYYY-MM) and `data` = that month's object (with `if_version` when already
+   stored). They feed the Pull trend arrows.
 6. Photos: Artifact `list` with `scope: "files"` and the page `url`. If any file in
    `influence-map/public/photos/` isn't published as `photos/<file>`, publish the
    missing ones as CLAUDE.md "Phone page → Photos" describes.

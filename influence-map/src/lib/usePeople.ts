@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import {
   IS_ARTIFACT,
   ORGS_COLLECTION,
+  HISTORY_COLLECTION,
   PEOPLE_COLLECTION,
   UPDATES_COLLECTION,
   capability,
@@ -9,6 +10,7 @@ import {
   type ArtifactQuerySnapshot,
 } from './platform';
 import type { LoadError, MapUpdate, Org, OrgFile, PeoplePayload, Person, PersonFile } from './schema';
+import { cleanHistory, type Snapshot } from './trends';
 
 /** Newest first; drops malformed entries. */
 function cleanUpdates(raw: unknown): MapUpdate[] {
@@ -43,6 +45,7 @@ export function usePeople() {
         orgs: data.orgs ?? [],
         errors: data.errors ?? [],
         updates: cleanUpdates(data.updates),
+        history: cleanHistory(data.history),
       });
       setFetchError(null);
       setLastUpdated(new Date());
@@ -81,10 +84,11 @@ export function usePeople() {
     let peopleErrors: LoadError[] = [];
     let orgErrors: LoadError[] = [];
     let updates: MapUpdate[] = [];
+    let history: Snapshot[] = [];
     const publish = () => {
       if (!people) return;
       count.current = people.length;
-      setPayload({ people, orgs, errors: [...peopleErrors, ...orgErrors], updates });
+      setPayload({ people, orgs, errors: [...peopleErrors, ...orgErrors], updates, history });
       setLastUpdated(new Date());
       setLoaded(true);
       setLive(true);
@@ -147,6 +151,14 @@ export function usePeople() {
         db.collection(UPDATES_COLLECTION).onSnapshot(
           (snap) => {
             updates = cleanUpdates(snap.docs.map((d) => d.data()));
+            publish();
+          },
+          () => {},
+        ),
+        // Monthly snapshots for trend arrows: one document per month (doc_id YYYY-MM).
+        db.collection(HISTORY_COLLECTION).onSnapshot(
+          (snap) => {
+            history = cleanHistory(snap.docs.map((d) => ({ month: d.id, ...d.data() })));
             publish();
           },
           () => {},

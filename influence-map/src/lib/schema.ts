@@ -615,6 +615,8 @@ export interface PeoplePayload {
   errors: LoadError[];
   /** Newest first. */
   updates?: MapUpdate[];
+  /** Monthly snapshots (data/history.json), oldest first; see src/lib/trends.ts. */
+  history?: import('./trends').Snapshot[];
 }
 
 /** Accepts "protege"/"Protégé"/"funded by" etc. Returns null for unknown types. */
