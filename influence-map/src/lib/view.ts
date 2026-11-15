@@ -39,7 +39,11 @@ export type View =
   /** People ranked by pull: overall (`of` unset) or with one person. */
   | { kind: 'pull'; of?: string }
   /** Who is likely to back each 2028 contender: the board (`of` unset) or one contender's backers. */
-  | { kind: 'backing'; of?: string };
+  | { kind: 'backing'; of?: string }
+  /** The factions the map's ties divide into, or the friendly ties most at risk of breaking. */
+  | { kind: 'factions'; tab?: 'factions' | 'rifts' }
+  /** One faction on the map (its members are carried in the view, since factions are computed). */
+  | { kind: 'faction'; id: string; label: string; members: string[] };
 
 export type Layout = 'wide' | 'card' | 'sheet';
 
@@ -133,13 +137,15 @@ export function spotlightFor(
   links: GraphLink[],
   f: Pick<Filters, 'showOrgs' | 'showSuggested'>,
 ): Spotlight | null {
-  if (view.kind !== 'group' && view.kind !== 'camp' && view.kind !== 'money' && view.kind !== 'feuds') return null;
+  if (view.kind !== 'group' && view.kind !== 'camp' && view.kind !== 'money' && view.kind !== 'feuds' && view.kind !== 'faction') return null;
   const lens: EdgeFamily[] | null = view.kind === 'money' ? ['money'] : view.kind === 'feuds' ? FEUD_FAMILIES : null;
   const shown = (n: GraphNode | undefined) =>
     !!n && (f.showOrgs || !n.isOrg) && (n.researched || f.showSuggested) && !n.person?.org_chart_only;
   const core = new Set<string>();
   if (view.kind === 'group') {
     for (const n of nodes) if (n.groups.includes(view.id) && shown(n)) core.add(n.id);
+  } else if (view.kind === 'faction') {
+    for (const id of view.members) if (shown(byId.get(id))) core.add(id);
   } else if (view.kind === 'camp') {
     core.add(view.id);
     for (const n of nodes) if (n.person?.race_2028?.contenders?.includes(view.id) && shown(n)) core.add(n.id);

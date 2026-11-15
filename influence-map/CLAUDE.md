@@ -28,6 +28,8 @@ the slash commands in the repo root's `.claude/commands/`:
 | `data/fec.json` | Settings for the import: politicians' FEC candidate ids, which committees belong to whom, and matching rules per donor. |
 | `scripts/freshness.mjs` | What to check next (unconfirmed posts, old files) and when the recurring jobs last ran (`npm run freshness`). See "Freshness". |
 | `data/history.json` | Monthly snapshots of Pull and 2028 first choices, for trends (`npm run freshness -- --snapshot`). |
+| `scripts/rift-check.mjs` | Backtests the rift watch, lists today's warnings and logs them (`npm run rifts`). See "Factions and rifts". |
+| `data/rifts.json` | The rift log: dated runs of `[person, person, score, strains]` (`npm run rifts -- --save`). |
 | `scripts/tune-pull.mjs` | Tests Pull's weights against the track record of asks (`npm run tune-pull`). See "Track record". |
 | `src/` | Vite + React + TypeScript viewer (`npm run dev`). Reads the data folder and live-reloads. |
 
@@ -776,8 +778,8 @@ in 30 days ("checked 2 months ago").
 - `npm run freshness` lists what to check first: unconfirmed posts and old
   files, ordered by how much the person matters (their post's weight, their
   Pull, or their connections) times how overdue they are. It also says when
-  the FEC import, the prediction log, the scorecard and the monthly snapshot
-  last ran.
+  the FEC import, the prediction log, the scorecard, the rift log and the
+  monthly snapshot last ran.
 - `npm run freshness -- --snapshot` records this month's Pull scores and 2028
   first choices in `data/history.json` (one entry a month; a later run in the
   same month replaces it).
@@ -790,7 +792,63 @@ in 30 days ("checked 2 months ago").
 - The weekly refresh (see "Updates feed") works from this list: it confirms
   the posts that are due (setting `office.verified`), refreshes the people
   who made news and the most overdue files, re-runs the FEC import, saves a
-  prediction run and a scorecard run, and takes the monthly snapshot.
+  prediction run, a rift-watch run and a scorecard run, and takes the monthly
+  snapshot.
+
+## Factions and rifts
+
+**Views → Factions & rifts** has two tabs.
+
+**Factions** (`src/lib/factions.ts`) are the blocs the map's current ties
+divide into, found by signed modularity (Traag and Bruggeman) with Louvain's
+moves: friendly ties pull two people together (closeness × confidence; an
+ended tie counts 0.3 as much), and current feuds push them apart (enemy 0.8,
+rival 0.5, × confidence). A pair that is feuding gets no friendly weight.
+Only researched people count (not org-chart-only staff, not files marked
+`public_figure: false`, not the dead); organizations ride along but do not
+count toward the four people a faction needs to be listed.
+
+- **Label**: the group at least 40% (and at least 3) of its people share,
+  leaving out the 2028 race and critics, which cut across factions; else
+  "Around" a 2028 contender among its five best-tied people; else its
+  best-tied person.
+- **Loyalty** is the share of a member's friendly ties that stay inside;
+  **cohesion** is the same for the whole faction. **At odds with** counts the
+  feuds between two factions, **feuds inside** lists feuds within one, and
+  **bridges** are members with 30% or more of their friendly ties in another
+  faction.
+- **Show on map** spotlights a faction like a group.
+
+**Rift watch** (`src/lib/rifts.ts`) scores every friendly tie that still
+stands, between two people, for strains that have come before public breaks,
+and lists the reasons:
+
+| Strain | Adds |
+| --- | --- |
+| Unbalanced triangle: someone close to one is feuding with the other | up to 0.5 |
+| Different factions (feuding factions: full; otherwise half) | 0.35 |
+| The same 2028 prize: same-side contenders, or one in a same-side rival's camp | 0.45 |
+| An ask one made of the other turned down in the past two years (partly granted: half) | 0.4 each |
+| Politics 3 steps apart (4 or more: full) | 0.15–0.25 |
+| An old feud, since mended | 0.3 |
+
+Strains combine so each adds less than the one before: score = 100 × (1 −
+∏(1 − strain)). Labels: High 60+, Elevated 40+, Watch 20+, else Low; pairs
+with no strain are left out. A pair's panel shows its warning.
+
+- `npm run rifts` freezes the map at the end of 2020, 2022 and 2024 (the
+  2028 race left out as hindsight) and checks whether the friendly ties that
+  later broke (a rivalry or feud with a later `start_year`) scored higher
+  than the ones that held. First run: 5 breaks (Trump–DeSantis twice,
+  Trump–Pence, Trump–Carlson, Trump–Musk), AUC 0.82. That is too few breaks
+  to tune weights on; the weights in `RIFT_WEIGHTS` are judgment. Re-run it
+  as feuds are added and change them only when it holds up across cutoffs.
+- `npm run rifts -- --top 25` lists today's top warnings with reasons;
+  `--save` logs today's warnings at 40+ in `data/rifts.json`, and each run
+  reports how saved warnings are holding up (which pairs have since begun a
+  rivalry or feud).
+- A warning is a reason to look, not a forecast, and never a fact for a file:
+  record a break only when sources report one (rules 3 and 4).
 
 ## Two-way links
 
@@ -816,7 +874,7 @@ bar), with a badge for entries this device hasn't seen. Each entry:
 A scheduled task ("Influence Map weekly refresh", Sundays 5:34 PM Arizona time)
 starts a fresh cloud session each week that confirms the posts due for a
 check, refreshes up to 8 people who made news or are most overdue, re-runs
-the FEC import, saves prediction and scorecard runs and the monthly snapshot
+the FEC import, saves prediction, rift-watch and scorecard runs and the monthly snapshot
 (see "Freshness"), adds a `YYYY-MM-DD-weekly-refresh` entry, pushes and syncs
 the phone page. The
 text only summarizes what the files say (no new facts, so no sources of its

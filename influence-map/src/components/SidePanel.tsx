@@ -7,6 +7,7 @@ import { PairPanel } from './panel/PairPanel';
 import { ComparePanel } from './panel/ComparePanel';
 import type { BackingTools } from './panel/BackingSection';
 import type { PullTools } from './panel/PullSection';
+import type { RiftWarning } from '../lib/rifts';
 
 interface Props {
   layout: Layout;
@@ -22,6 +23,8 @@ interface Props {
   workplaces: WorkplaceIndex;
   pullTools: PullTools;
   backingTools: BackingTools;
+  /** Rift-watch warning for a pair, if their tie shows strain. */
+  riftOf: (a: string, b: string) => RiftWarning | undefined;
   onClose: () => void;
 }
 
@@ -37,6 +40,7 @@ export default function SidePanel({
   workplaces,
   pullTools,
   backingTools,
+  riftOf,
   onClose,
 }: Props) {
   // Bottom sheet (folded phone): starts as a short peek, drag or tap the handle to expand.
@@ -101,6 +105,7 @@ export default function SidePanel({
       body = (
         <PairPanel
           links={pair}
+          rift={riftOf(pair[0].sourceId, pair[0].targetId)}
           nameOf={nameOf}
           isOrg={isOrg}
           onSelect={onSelect}

@@ -2367,3 +2367,79 @@ a.source-chip:hover {
 .trend-down {
   color: var(--red-text);
 }
+
+/* Factions & rifts */
+.faction-list {
+  display: grid;
+  gap: 12px;
+}
+.faction-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+.faction-card p {
+  margin: 6px 0 0;
+}
+.faction-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+}
+.faction-head h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+.faction-head .org-jump-chip {
+  margin-left: auto;
+}
+.faction-faces {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+  align-items: center;
+}
+.faction-face {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: none;
+  border: 0;
+  padding: 2px 6px 2px 2px;
+  border-radius: 999px;
+  color: inherit;
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.faction-face:hover {
+  background: rgba(127, 127, 127, 0.15);
+}
+.faction-face .org-photo {
+  width: 22px;
+  height: 22px;
+  font-size: 0.6rem;
+}
+.rift-faces {
+  display: inline-flex;
+}
+.rift-faces .org-photo + .org-photo {
+  margin-left: -10px;
+}
+.rift-box {
+  margin: 10px 0;
+  padding: 8px 12px;
+  border-left: 3px solid #d9822b;
+  background: rgba(217, 130, 43, 0.08);
+  border-radius: 4px;
+}
+.rift-box h3 {
+  margin: 0 0 4px;
+  font-size: 0.95rem;
+}
+.rift-box ul {
+  margin: 0;
+  padding-left: 18px;
+}

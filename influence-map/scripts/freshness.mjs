@@ -1,5 +1,5 @@
 // What needs checking: posts not confirmed lately and files not researched lately, most important
-// first; plus when the FEC import, predictions, scorecard and monthly snapshot last ran.
+// first; plus when the FEC import, predictions, scorecard, rift watch and monthly snapshot last ran.
 //   node influence-map/scripts/freshness.mjs [how many to list, default 25]
 //   node influence-map/scripts/freshness.mjs --snapshot    also record this month's Pull and 2028 first choices
 // The weekly refresh works from this list. See CLAUDE.md "Freshness".
@@ -44,11 +44,13 @@ await withLib(async (lib) => {
   const preds = read('predictions.json');
   const card = read('scorecard.json');
   const history = read('history.json');
+  const rifts = read('rifts.json');
   const last = (d) => (d ? `${d} (${daysSince(d)} days ago)` : 'never');
   console.log('\nLast runs:');
   console.log(`  FEC import     ${last(fec?.last_import)}`);
   console.log(`  predictions    ${last(preds?.runs?.[0]?.date)}`);
   console.log(`  scorecard      ${last(card?.runs?.[0]?.date)}`);
+  console.log(`  rift watch     ${last(rifts?.runs?.[0]?.date)}`);
   const months = Object.keys(history?.months ?? {}).sort();
   console.log(`  snapshot       ${months.length ? `${months.at(-1)} (${months.length} months on file)` : 'never'}`);
 

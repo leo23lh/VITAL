@@ -2,10 +2,12 @@
 import { describeLink, familyOf, yearRange, type GraphLink } from '../../lib/graph';
 import { EDGE_FAMILY_BY_ID, EDGE_GROUP_BY_ID } from '../../lib/schema';
 import type { Selection } from '../../lib/view';
+import { describeReason, type RiftWarning } from '../../lib/rifts';
 import { Confidence, EvidenceTag, SourceList } from './parts';
 
 export function PairPanel({
   links,
+  rift,
   nameOf,
   isOrg,
   onSelect,
@@ -13,6 +15,7 @@ export function PairPanel({
   meter,
 }: {
   links: GraphLink[];
+  rift?: RiftWarning;
   nameOf: (id: string) => string;
   isOrg: (id: string) => boolean;
   onSelect: (s: Selection) => void;
@@ -41,6 +44,20 @@ export function PairPanel({
       </header>
 
       {meter}
+
+      {rift && (
+        <section className="rift-box">
+          <h3>
+            Rift watch: {rift.label} <span className="muted">({rift.score})</span>
+          </h3>
+          <ul className="small">
+            {rift.reasons.map((r, i) => (
+              <li key={i}>{describeReason(r, nameOf)}</li>
+            ))}
+          </ul>
+          <p className="muted small">Strains that have come before public breaks; not a forecast. See Views → Factions &amp; rifts.</p>
+        </section>
+      )}
 
       {links.map((link) => {
         const g = EDGE_GROUP_BY_ID[link.group];

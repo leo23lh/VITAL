@@ -98,6 +98,10 @@ function ViewsMenu({ view, onView, groupCounts, camps, selectedNode, onWorld }: 
         <span>2028 backing</span>
         <span className="muted">who is likely to back whom</span>
       </button>
+      <button className={`menu-item${view.kind === 'factions' ? ' current' : ''}`} onClick={() => onView({ kind: 'factions' })}>
+        <span>Factions &amp; rifts</span>
+        <span className="muted">blocs, and ties under strain</span>
+      </button>
 
       <h4>Groups</h4>
       {GROUPS.map((g) => (

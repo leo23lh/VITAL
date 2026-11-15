@@ -3,6 +3,7 @@ import GraphView, { BACKGROUND, type GraphHandle } from './components/GraphView'
 import OrgChart from './components/OrgChart';
 import PullView from './components/PullView';
 import BackingView from './components/BackingView';
+import FactionsView from './components/FactionsView';
 import Menus from './components/Menus';
 import SidePanel from './components/SidePanel';
 import Toolbar from './components/Toolbar';
@@ -10,7 +11,9 @@ import SpotlightBar from './components/SpotlightBar';
 import TabBar from './components/TabBar';
 import ViewChips from './components/ViewChips';
 import { canExport, exportGraphPng } from './lib/exportPng';
-import { buildGraph, yearSpan, workplaceIndex, type GraphNode, type YearRange } from './lib/graph';
+import { buildGraph, mergePairs, pairKey, yearSpan, workplaceIndex, type GraphNode, type YearRange } from './lib/graph';
+import { findFactions, type Faction } from './lib/factions';
+import { riftWatch, type RiftWarning } from './lib/rifts';
 import { EDGE_FAMILIES, type EdgeFamily } from './lib/schema';
 import { useLayout, useMenus, useToggleSet } from './lib/useAppChrome';
 import { buildOrgChart } from './lib/orgchart';
@@ -112,6 +115,18 @@ export default function App() {
     }),
     [graph],
   );
+  // Factions and the rift watch: computed on first use, then kept until the files change.
+  const factionCache = useRef<{ links: unknown; factions: Faction[]; rifts: RiftWarning[]; byPair: Map<string, RiftWarning> } | null>(null);
+  const getFactions = useCallback(() => {
+    if (factionCache.current?.links !== graph.links) {
+      const pairs = mergePairs(graph.links);
+      const factions = findFactions(graph.nodes, pairs);
+      const rifts = riftWatch(graph.nodes, pairs, factions);
+      factionCache.current = { links: graph.links, factions, rifts, byPair: new Map(rifts.map((w) => [pairKey(w.a, w.b), w])) };
+    }
+    return factionCache.current;
+  }, [graph]);
+  const riftOf = useCallback((a: string, b: string) => getFactions().byPair.get(pairKey(a, b)), [getFactions]);
   const orgChart = useMemo(
     () => (view.kind === 'org' ? buildOrgChart(graph.nodes, graph.links, workplaces) : null),
     [view.kind, graph, workplaces],
@@ -253,6 +268,20 @@ export default function App() {
               selectedId={selectedNodeId}
               onSelect={(id) => setSelection({ kind: 'node', id })}
             />
+          ) : view.kind === 'factions' ? (
+            <FactionsView
+              nodes={graph.nodes}
+              factions={getFactions().factions}
+              rifts={getFactions().rifts}
+              tab={view.tab ?? 'factions'}
+              onTab={(tab) => setView({ kind: 'factions', tab })}
+              onShow={(f) => {
+                setSelection(null);
+                setView({ kind: 'faction', id: f.id, label: f.label, members: f.members.map((m) => m.id) });
+              }}
+              onSelect={(id) => setSelection({ kind: 'node', id })}
+              onPair={(a, b) => setSelection({ kind: 'link', id: pairKey(a, b) })}
+            />
           ) : orgChart ? (
             <OrgChart chart={orgChart} selectedId={selectedNodeId} onSelect={(id) => setSelection({ kind: 'node', id })} />
           ) : (
@@ -364,6 +393,7 @@ export default function App() {
           workplaces={workplaces}
           pullTools={pullTools}
           backingTools={backingTools}
+          riftOf={riftOf}
           onClose={() => (selection ? setSelection(null) : setView({ kind: 'all' }))}
         />
       </main>

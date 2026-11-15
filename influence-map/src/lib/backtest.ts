@@ -54,6 +54,7 @@ export function freeze({ people, orgs }: MapFiles, year: number, opts: FreezeOpt
         office,
         org_chart_only: office ? d.org_chart_only : undefined,
         access: d.access?.filter((e) => (opts.date ? firstDay(e.date) <= opts.date : yearOf(e.date) <= year)),
+        asks: d.asks?.filter((a) => a.decided && (opts.date ? firstDay(a.decided) <= opts.date : yearOf(a.decided) <= year)),
         giving: cycles?.length ? { cycles } : undefined,
         timeline: clipTimeline(d.timeline),
         connections: clipConnections(d.connections, year),

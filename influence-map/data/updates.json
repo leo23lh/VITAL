@@ -1,5 +1,19 @@
 [
   {
+    "id": "2026-11-15-factions-rifts",
+    "date": "2026-11-15",
+    "text": "New: Views → Factions & rifts. Factions sorts the map into nine blocs from who is allied with and feuding with whom, among them Trump's inner circle, a JD Vance and donor bloc, a Donald Trump Jr. and Tucker Carlson bloc, the PayPal Mafia, national conservatives, Middle East dealmakers and the Harris-led Democrats, with the feuds between them and the people who bridge them. Rift watch ranks friendly ties showing strains that came before past breaks: a friend of one feuding with the other, rival 2028 ambitions, a recent request turned down, an old feud. Tested on ties frozen at 2020, 2022 and 2024, the five that later broke (including Trump and DeSantis, and Trump and Musk) scored above 82% of those that held, though five is a small test. Top of the list now: Trump and Bannon, Vance and Rubio, Ken Griffin and DeSantis. A pair's panel shows its warning.",
+    "people": [
+      "donald-trump",
+      "steve-bannon",
+      "jd-vance",
+      "marco-rubio",
+      "ken-griffin",
+      "ron-desantis",
+      "donald-trump-jr",
+      "tucker-carlson"
+    ]
+  },  {
     "id": "2026-11-12-fec-2026-reports",
     "date": "2026-11-12",
     "text": "Campaign finance filings re-imported after the FEC loaded the 2026 pre-general reports, which an earlier import had missed. Elon Musk's filings now show $168 million to the Senate Leadership Fund, matching the reported figure, and about $139 million to America PAC in his own name (reporting counts $216 million, including money given through his entities). Coming next month: arrows beside Pull scores showing who rose or fell since November.",

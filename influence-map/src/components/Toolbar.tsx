@@ -56,6 +56,10 @@ export function viewLabel(view: View, nameOf: (id: string) => string): string {
       return view.of ? `Pull with ${nameOf(view.of)}` : 'Pull';
     case 'backing':
       return view.of ? `Who backs ${nameOf(view.of)}` : '2028 backing';
+    case 'factions':
+      return 'Factions & rifts';
+    case 'faction':
+      return view.label;
   }
 }
 
