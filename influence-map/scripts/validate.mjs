@@ -610,7 +610,8 @@ export function validateUpdates(file, slugs) {
     ids.add(u.id);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(u.date ?? '')) err(`${where}: "date" must be YYYY-MM-DD`);
     if (typeof u.text !== 'string' || !u.text.trim()) err(`${where}: missing "text"`);
-    if (!Array.isArray(u.people) || !u.people.length) err(`${where}: "people" must list at least one slug`);
+    // Empty only for changes to the viewer itself, which name no one.
+    if (!Array.isArray(u.people)) err(`${where}: "people" must be a list of slugs (empty for a change to the viewer itself)`);
     for (const s of u.people ?? []) if (!slugs.has(s)) err(`${where}: "${s}" has no file in data/people or data/orgs`);
   });
   return errs;

@@ -878,7 +878,8 @@ the FEC import, saves prediction, rift-watch and scorecard runs and the monthly 
 (see "Freshness"), adds a `YYYY-MM-DD-weekly-refresh` entry, pushes and syncs
 the phone page. The
 text only summarizes what the files say (no new facts, so no sources of its
-own); `people` must be slugs with files, and the chips jump to them. The
+own); `people` must be slugs with files, and the chips jump to them (an
+empty list is fine for a change to the viewer itself, which names no one). The
 validator checks ids (date plus a short label, unique), dates and slugs.
 
 ## Phone page
@@ -917,7 +918,8 @@ on a phone. Its link is in `artifact.json`.
 - `npm install` once, then `npm run dev` (opens http://127.0.0.1:5173).
 - `npm test` runs unit tests; `npm run typecheck`; `npm run validate` checks data;
   `npm run evidence`, `npm run scorecard` and `npm run tune-pull` report on
-  sourcing and predictive power; `npm run freshness` on what is out of date.
+  sourcing and predictive power; `npm run freshness` on what is out of date;
+  `npm run touch-check` tests the map on a simulated phone.
 - **Code layout.** `src/lib/graph.ts` turns files into nodes and links and
   scores them (compare, bond, clusters). `src/lib/evidence.ts` grades each
   link's sources; `src/lib/backing.ts` scores 2028 backing; `src/lib/backtest.ts` is the scorecard (not part of the app
@@ -937,6 +939,16 @@ on a phone. Its link is in `artifact.json`.
   (deeper bond, thicker line); feud-only lines follow their confidence.
 - **Phone tab bar.** On a folded phone (narrow screens), Map, Views, Filters and
   Updates sit in a bottom tab bar instead of the header.
+- **Touch.** The map library's clicks and hover are made for a mouse, so on
+  touch screens `GraphView` ignores them: hover is off, and a tap counts only
+  when one finger moved 10 pixels or less and lifted within half a second.
+  What it lands on is picked from where things are drawn at that moment
+  (`src/lib/touch.ts`): the nearest dot within 14 pixels of its edge, else a
+  line within 7 pixels, else empty map. On a phone, a tap on empty map folds
+  the details sheet down instead of closing it; × or a swipe down closes it.
+  `npm run touch-check` replays taps, pans, pinches and nudges as an iPhone
+  and fails if anything opens, closes or changes by accident. Run it after any
+  change to the map or the details sheet, and before republishing the phone page.
 - **Person panel.** Tabs: **Overview** (summary and the five closest ties by
   Bond score), **Ties** (everyone, strongest bond first), **Pull** (with the
   track record of asks), **2028**

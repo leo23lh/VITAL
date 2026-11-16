@@ -25,6 +25,8 @@ interface Props {
   backingTools: BackingTools;
   /** Rift-watch warning for a pair, if their tie shows strain. */
   riftOf: (a: string, b: string) => RiftWarning | undefined;
+  /** Bumped when the bottom sheet should fold down to its peek (a tap on empty map). */
+  foldKey: number;
   onClose: () => void;
 }
 
@@ -41,17 +43,20 @@ export default function SidePanel({
   pullTools,
   backingTools,
   riftOf,
+  foldKey,
   onClose,
 }: Props) {
   // Bottom sheet (folded phone): starts as a short peek, drag or tap the handle to expand.
   const [expanded, setExpanded] = useState(false);
   const drag = useRef<{ y: number } | null>(null);
+  const swiped = useRef(false);
   const bodyRef = useRef<HTMLDivElement>(null);
   const selKey = selection ? `${selection.kind}:${selection.id}` : comparison ? `cmp:${comparison.a}|${comparison.b}` : '';
   useEffect(() => {
     setExpanded(false);
     bodyRef.current?.scrollTo({ top: 0 });
   }, [selKey]);
+  useEffect(() => setExpanded(false), [foldKey]);
 
   if (!selection && !comparison) return null;
   const nodeById = new Map(nodes.map((n) => [n.id, n]));
@@ -130,13 +135,18 @@ export default function SidePanel({
         <button
           className="sheet-handle"
           aria-label={expanded ? 'Collapse details' : 'Expand details'}
-          onClick={() => setExpanded((e) => !e)}
+          onClick={() => {
+            // A swipe was already handled on pointerup; only a plain tap toggles.
+            if (swiped.current) swiped.current = false;
+            else setExpanded((e) => !e);
+          }}
           onPointerDown={(e) => (drag.current = { y: e.clientY })}
           onPointerUp={(e) => {
             const start = drag.current;
             drag.current = null;
             if (!start) return;
             const dy = e.clientY - start.y;
+            swiped.current = Math.abs(dy) > 24;
             if (dy < -24) setExpanded(true);
             else if (dy > 24) (expanded ? setExpanded(false) : onClose());
           }}
@@ -147,7 +157,7 @@ export default function SidePanel({
       <button className="panel-close" onClick={onClose} aria-label="Close details">
         ×
       </button>
-      <div className="panel-scroll" ref={bodyRef} onScroll={() => sheet && !expanded && setExpanded(true)}>
+      <div className="panel-scroll" ref={bodyRef} onScroll={(e) => sheet && !expanded && e.currentTarget.scrollTop > 0 && setExpanded(true)}>
         {body}
       </div>
     </aside>

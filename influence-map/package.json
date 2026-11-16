@@ -18,6 +18,7 @@
     "tune-pull": "node scripts/tune-pull.mjs",
     "freshness": "node scripts/freshness.mjs",
     "rifts": "node scripts/rift-check.mjs",
+    "touch-check": "node scripts/touch-check.mjs",
     "build:artifact": "node scripts/build-artifact.mjs"
   },
   "engines": {

@@ -48,6 +48,8 @@ export default function App() {
   const closeMenu = () => openMenu(null);
 
   const [selection, setSelection] = useState<Selection>(null);
+  // Phone: a tap on empty map folds the details sheet down instead of closing it.
+  const [foldKey, setFoldKey] = useState(0);
   const [query, setQuery] = useState('');
   const [view, setView] = useState<View>({ kind: 'all' });
 
@@ -300,6 +302,7 @@ export default function App() {
               fitKey={fitKey(view, filters, loaded)}
               fgRef={fgRef}
               onSelect={setSelection}
+              onBackgroundTap={layout === 'sheet' ? () => setFoldKey((k) => k + 1) : undefined}
             />
           )}
 
@@ -394,6 +397,7 @@ export default function App() {
           pullTools={pullTools}
           backingTools={backingTools}
           riftOf={riftOf}
+          foldKey={foldKey}
           onClose={() => (selection ? setSelection(null) : setView({ kind: 'all' }))}
         />
       </main>

@@ -1,5 +1,10 @@
 [
   {
+    "id": "2026-11-16-touch-fixes",
+    "date": "2026-11-16",
+    "text": "Fixed: on phones the map no longer opens or closes things on its own while you move around. A tap now counts only when your finger barely moves, so pans, pinches and small nudges select nothing; taps land on the nearest person instead of a stray line; nothing lights up unless you tap it; and tapping empty map folds the details sheet down instead of closing it (use × or swipe down to close).",
+    "people": []
+  },  {
     "id": "2026-11-15-factions-rifts",
     "date": "2026-11-15",
     "text": "New: Views → Factions & rifts. Factions sorts the map into nine blocs from who is allied with and feuding with whom, among them Trump's inner circle, a JD Vance and donor bloc, a Donald Trump Jr. and Tucker Carlson bloc, the PayPal Mafia, national conservatives, Middle East dealmakers and the Harris-led Democrats, with the feuds between them and the people who bridge them. Rift watch ranks friendly ties showing strains that came before past breaks: a friend of one feuding with the other, rival 2028 ambitions, a recent request turned down, an old feud. Tested on ties frozen at 2020, 2022 and 2024, the five that later broke (including Trump and DeSantis, and Trump and Musk) scored above 82% of those that held, though five is a small test. Top of the list now: Trump and Bannon, Vance and Rubio, Ken Griffin and DeSantis. A pair's panel shows its warning.",

@@ -3,6 +3,7 @@ import ForceGraph2D, { type ForceGraphMethods } from 'react-force-graph-2d';
 import { describeLink, familyOf, linkEndId, matchesQuery, type GraphNode, type PairLink } from '../lib/graph';
 import { EDGE_FAMILY_BY_ID, GROUPS, ORG_KIND_LABEL, SECTOR_BY_ID, orgSideColor, type EdgeFamily } from '../lib/schema';
 import type { Compass, Forces, RadialLayout, Selection } from '../lib/view';
+import { isCleanTap, pickAt, type Pt } from '../lib/touch';
 
 export const BACKGROUND = '#0f1117';
 const GREY = '#94a3b8';
@@ -41,7 +42,15 @@ interface Props {
   fitKey: string;
   fgRef: RefObject<GraphHandle>;
   onSelect: (s: Selection) => void;
+  /** A clean tap on empty map on a touch screen; without it, the tap clears the selection. */
+  onBackgroundTap?: () => void;
 }
+
+/** A click the map library reports from a finger or pen (it passes the pointerup event). */
+const fromTouch = (ev: unknown) => {
+  const t = (ev as PointerEvent | undefined)?.pointerType;
+  return !!t && t !== 'mouse';
+};
 
 export function nodeRadius(n: GraphNode): number {
   return n.researched ? 5 + 2.6 * Math.sqrt(n.degree) : 2.5 + 1.4 * Math.sqrt(n.degree);
@@ -62,6 +71,7 @@ export default function GraphView({
   fitKey,
   fgRef,
   onSelect,
+  onBackgroundTap,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState({ width: 800, height: 600 });
@@ -364,6 +374,94 @@ export default function GraphView({
     [clusters, focus, hoverPairId, selectedPairId],
   );
 
+  // Touch: the library's clicks and hover are made for a mouse. A wobbling finger counts as a
+  // tap, a tap goes to whatever its hover canvas last saw under the finger, and a finger that
+  // lifted keeps "hovering" whatever drifts under it. So on touch, hover is off and taps are
+  // decided here: one finger, barely moved, quickly lifted, picked from where things are drawn
+  // now (src/lib/touch.ts).
+  const touching = useRef(false);
+  const gesture = useRef<{ start: Map<number, Pt>; max: number; travel: number; t0: number } | null>(null);
+  const tapAt = useRef<(p: Pt) => void>(() => {});
+  tapAt.current = (p: Pt) => {
+    const fg = fgRef.current;
+    if (!fg) return;
+    const k = fg.zoom();
+    const screen = (n: GraphNode | string | number | undefined) =>
+      n && typeof n === 'object' && n.x != null && n.y != null ? fg.graph2ScreenCoords(n.x, n.y) : null;
+    const hit = pickAt(
+      p,
+      graphData.nodes,
+      pairs,
+      screen,
+      (n) => nodeRadius(n) * k,
+      (l) => {
+        const a = screen(l.source as GraphNode);
+        const b = screen(l.target as GraphNode);
+        return a && b ? [a, b] : null;
+      },
+    );
+    if (hit?.kind === 'node') onSelect({ kind: 'node', id: hit.node.id });
+    else if (hit?.kind === 'link') onSelect({ kind: 'link', id: hit.link.id });
+    else if (onBackgroundTap) onBackgroundTap();
+    else onSelect(null);
+  };
+  // For scripts/touch-check.mjs: where each dot is on screen (dev server only).
+  if (import.meta.env.DEV)
+    (window as unknown as { __mapDots?: () => unknown }).__mapDots = () => {
+      const fg = fgRef.current;
+      if (!fg) return [];
+      return graphData.nodes
+        .filter((n) => n.x != null && n.y != null)
+        .map((n) => ({ id: n.id, name: n.name, ...fg.graph2ScreenCoords(n.x!, n.y!), r: nodeRadius(n) * fg.zoom() }));
+    };
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const local = (e: PointerEvent): Pt => {
+      const r = el.getBoundingClientRect();
+      return { x: e.clientX - r.left, y: e.clientY - r.top };
+    };
+    const down = (e: PointerEvent) => {
+      touching.current = e.pointerType !== 'mouse';
+      if (!touching.current) return;
+      setHoverId(null);
+      setHoverPairId(null);
+      if (!gesture.current) gesture.current = { start: new Map(), max: 0, travel: 0, t0: e.timeStamp };
+      const g = gesture.current;
+      g.start.set(e.pointerId, local(e));
+      g.max = Math.max(g.max, g.start.size);
+    };
+    const move = (e: PointerEvent) => {
+      if (e.pointerType === 'mouse') touching.current = false;
+      const s = gesture.current?.start.get(e.pointerId);
+      if (!s) return;
+      const p = local(e);
+      gesture.current!.travel = Math.max(gesture.current!.travel, Math.hypot(p.x - s.x, p.y - s.y));
+    };
+    const up = (e: PointerEvent) => {
+      const g = gesture.current;
+      const s = g?.start.get(e.pointerId);
+      if (!g || !s) return;
+      const p = local(e);
+      g.travel = Math.max(g.travel, Math.hypot(p.x - s.x, p.y - s.y));
+      g.start.delete(e.pointerId);
+      if (g.start.size) return;
+      gesture.current = null;
+      if (e.type === 'pointerup' && isCleanTap({ maxPointers: g.max, travel: g.travel, ms: e.timeStamp - g.t0 })) tapAt.current(p);
+    };
+    const opts = { capture: true, passive: true };
+    el.addEventListener('pointerdown', down, opts);
+    el.addEventListener('pointermove', move, opts);
+    el.addEventListener('pointerup', up, opts);
+    el.addEventListener('pointercancel', up, opts);
+    return () => {
+      el.removeEventListener('pointerdown', down, opts);
+      el.removeEventListener('pointermove', move, opts);
+      el.removeEventListener('pointerup', up, opts);
+      el.removeEventListener('pointercancel', up, opts);
+    };
+  }, []);
+
   return (
     <div ref={containerRef} className="graph-canvas">
       <ForceGraph2D<GraphNode, PairLink>
@@ -401,11 +499,12 @@ export default function GraphView({
         linkDirectionalParticleColor={() => '#5cf08a'}
         linkLabel={(p) => pairTooltip(p, nameOf, isOrg)}
         linkHoverPrecision={6}
-        onNodeHover={(n) => setHoverId(n ? n.id : null)}
-        onLinkHover={(p) => setHoverPairId(p ? p.id : null)}
-        onNodeClick={(n) => onSelect({ kind: 'node', id: n.id })}
-        onLinkClick={(p) => onSelect({ kind: 'link', id: p.id })}
-        onBackgroundClick={() => onSelect(null)}
+        // Mouse only: on touch, hover is off and taps are handled above.
+        onNodeHover={(n) => !touching.current && setHoverId(n ? n.id : null)}
+        onLinkHover={(p) => !touching.current && setHoverPairId(p ? p.id : null)}
+        onNodeClick={(n, ev) => !fromTouch(ev) && onSelect({ kind: 'node', id: n.id })}
+        onLinkClick={(p, ev) => !fromTouch(ev) && onSelect({ kind: 'link', id: p.id })}
+        onBackgroundClick={(ev) => !fromTouch(ev) && onSelect(null)}
         onEngineStop={() => {
           if (!needsFit.current) return;
           needsFit.current = false;
