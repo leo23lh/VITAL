@@ -247,6 +247,54 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
       ]
+    },
+    {
+      "name": "Tom Steyer",
+      "slug": "tom-steyer",
+      "relationship_type": "donor",
+      "description": "Steyer hosted a 2023 fundraiser for Biden's re-election at his San Francisco home.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jen O'Malley Dillon",
+      "slug": "jen-omalley-dillon",
+      "relationship_type": "employee",
+      "description": "O'Malley Dillon managed Biden's 2020 campaign, was his deputy chief of staff (2021–2024) and chaired his 2024 campaign.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
+      ]
+    },
+    {
+      "name": "David Plouffe",
+      "slug": "david-plouffe",
+      "relationship_type": "colleague",
+      "description": "Worked alongside Plouffe in the Obama White House; in 2015 Plouffe reportedly helped persuade Biden not to challenge Clinton.",
+      "start_year": 2011,
+      "end_year": 2015,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Rahm Emanuel",
+      "slug": "rahm-emanuel",
+      "relationship_type": "employee",
+      "description": "Biden appointed Emanuel ambassador to Japan; he served from March 2022 to January 2025.",
+      "start_year": 2022,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Health matters are left out under the research rules.",

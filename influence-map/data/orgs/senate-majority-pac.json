@@ -178,6 +178,18 @@
       "sources": [
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ALTMAN%2C+SAM&committee_id=C00484642&two_year_transaction_period=2022", "title": "FEC receipts: ALTMAN, SAM to SMP" }
       ]
+    },
+    {
+      "name": "Laurene Powell Jobs",
+      "slug": "laurene-powell-jobs",
+      "relationship_type": "donor",
+      "description": "FEC filings show $1,500,000 from Laurene Powell Jobs to Senate Majority PAC in the 2016 cycle.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00484642&two_year_transaction_period=2016", "title": "FEC receipts: JOBS, LAURENE to Senate Majority PAC" }
+      ]
     }
   ],
   "notes": "Built from sources already cited in the people files plus campaign-finance reporting (Public Citizen, Issue One, FEC-based news coverage). Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",

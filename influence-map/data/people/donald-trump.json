@@ -2406,6 +2406,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
       ]
+    },
+    {
+      "name": "Tom Steyer",
+      "slug": "tom-steyer",
+      "relationship_type": "enemy",
+      "description": "Steyer spent about $10 million on a 2017 ad campaign calling for Trump's impeachment.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

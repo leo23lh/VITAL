@@ -102,6 +102,18 @@
         { "url": "https://en.wikipedia.org/wiki/Miriam_Adelson", "title": "Miriam Adelson — Wikipedia" },
         { "url": "https://forward.com/fast-forward/461930/sheldon-adelson-jewish-philanthropist-and-mega-donor-to-netanyahu-and/", "title": "The Forward: Before Sheldon Adelson’s death, his relationships soured with both Netanyahu and Trump" }
       ]
+    },
+    {
+      "name": "Rahm Emanuel",
+      "slug": "rahm-emanuel",
+      "relationship_type": "enemy",
+      "description": "Emanuel criticized Netanyahu in a July 2026 Tel Aviv University speech and called for ending U.S. military aid to Israel.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

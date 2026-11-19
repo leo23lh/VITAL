@@ -481,6 +481,59 @@
         { "url": "https://digital-release.newsnationnow.com/?p=3418428", "title": "Clintons, Harris attend Hamptons wedding of Huma Abedin, Alex Soros — NewsNation" },
         { "url": "https://www.cnn.com/2023/06/12/investing/george-soros-taps-son-alexander/index.html", "title": "George Soros has handed control of his charitable and political activities to his son Alex — CNN" }
       ]
+    },
+    {
+      "name": "Laurene Powell Jobs",
+      "slug": "laurene-powell-jobs",
+      "relationship_type": "friend",
+      "description": "Friends for about two decades; Powell Jobs has backed Harris since her 2003 district attorney race and gave millions to groups supporting her 2024 campaign.",
+      "start_year": 2003,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/", "title": "Laurene Powell Jobs is one of Kamala Harris's biggest bankrollers—and closest friends — Fortune" },
+        { "url": "https://semafor.com/article/08/22/2024/first-friend-kamala-harriss-alliance-with-laurene-powell-jobs", "title": "First friend: Kamala Harris's alliance with Laurene Powell Jobs — Semafor" },
+        { "url": "https://en.wikipedia.org/wiki/Laurene_Powell_Jobs", "title": "Laurene Powell Jobs — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Laurene Powell Jobs",
+      "slug": "laurene-powell-jobs",
+      "relationship_type": "donor",
+      "description": "Powell Jobs has given to Harris since 2003, including nearly $1 million to the Biden–Harris re-election effort in 2023. FEC filings show $10,400 from Laurene Powell Jobs to Kamala Harris for Senate, Fearless for the People PAC in 2 cycles (2016–2018).",
+      "start_year": 2003,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/", "title": "Laurene Powell Jobs is one of Kamala Harris's biggest bankrollers—and closest friends — Fortune" },
+        { "url": "https://semafor.com/article/08/22/2024/first-friend-kamala-harriss-alliance-with-laurene-powell-jobs", "title": "First friend: Kamala Harris's alliance with Laurene Powell Jobs — Semafor" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00571919&two_year_transaction_period=2018", "title": "FEC receipts: JOBS, LAURENE to Kamala Harris for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00629071&two_year_transaction_period=2018", "title": "FEC receipts: JOBS, LAURENE to Fearless for the People PAC" }
+      ]
+    },
+    {
+      "name": "Jen O'Malley Dillon",
+      "slug": "jen-omalley-dillon",
+      "relationship_type": "employee",
+      "description": "O'Malley Dillon chaired Harris's 2024 presidential campaign.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
+      ]
+    },
+    {
+      "name": "David Plouffe",
+      "slug": "david-plouffe",
+      "relationship_type": "employee",
+      "description": "Plouffe was a senior adviser to Harris's 2024 campaign.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

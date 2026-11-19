@@ -231,6 +231,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
       ]
+    },
+    {
+      "name": "Rahm Emanuel",
+      "slug": "rahm-emanuel",
+      "relationship_type": "ally",
+      "description": "Pelosi persuaded Emanuel to become House Democratic Caucus chair after the 2006 elections he helped win as DCCC chair.",
+      "start_year": 2005,
+      "end_year": 2009,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

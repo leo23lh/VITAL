@@ -1,0 +1,138 @@
+{
+  "name": "David Plouffe",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic strategist: Obama's 2008 campaign manager and White House senior adviser, and senior adviser to Kamala Harris's 2024 campaign.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "Democratic strategist; senior adviser to Kamala Harris's 2024 campaign",
+  "summary": "David Plouffe managed Barack Obama's 2008 presidential campaign and served as a White House senior adviser from 2011 to 2013. He later led policy at the Chan Zuckerberg Initiative (from 2017) and was a senior adviser to Kamala Harris's 2024 campaign.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2007,
+      "end_year": 2008,
+      "role": "Campaign manager",
+      "org": "Obama 2008 campaign",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2011,
+      "end_year": 2013,
+      "role": "Senior adviser to the President",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": null,
+      "role": "Head of policy and advocacy",
+      "org": "Chan Zuckerberg Initiative",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": 2024,
+      "role": "Senior adviser",
+      "org": "Harris for President",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "employer",
+      "description": "Plouffe managed Obama's 2008 presidential campaign and was a White House senior adviser from 2011 to 2013.",
+      "start_year": 2007,
+      "end_year": 2013,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "employer",
+      "description": "Plouffe joined Harris's 2024 campaign as a senior adviser in August 2024.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "slug": "mark-zuckerberg",
+      "relationship_type": "employer",
+      "description": "Zuckerberg hired Plouffe in January 2017 to lead policy and advocacy at the Chan Zuckerberg Initiative.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "colleague",
+      "description": "Worked alongside Biden in the Obama White House; in 2015 Plouffe reportedly helped persuade him not to challenge Hillary Clinton.",
+      "start_year": 2011,
+      "end_year": 2015,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "rival",
+      "description": "Plouffe's 2008 strategy for Obama, built on the Iowa caucus and delegate math, beat Clinton's campaign; he later advised her 2016 run.",
+      "start_year": 2007,
+      "end_year": 2008,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jen O'Malley Dillon",
+      "slug": "jen-omalley-dillon",
+      "relationship_type": "colleague",
+      "description": "Both worked on Obama's 2008 campaign and were senior leaders of Harris's 2024 campaign.",
+      "start_year": 2008,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly); other pages could not be opened in this environment.",
+  "last_researched": "2026-11-19"
+}

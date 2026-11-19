@@ -156,7 +156,8 @@
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" },
-        { "url": "https://theweek.com/articles/468775/obamas-centers-ofpower", "title": "Obama's centers of power — The Week" }
+        { "url": "https://theweek.com/articles/468775/obamas-centers-ofpower", "title": "Obama's centers of power — The Week" },
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
       ]
     },
     {
@@ -168,7 +169,8 @@
       "end_year": 2013,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
       ]
     },
     {
@@ -276,6 +278,30 @@
       "confidence": 0.85,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Tom Steyer",
+      "slug": "tom-steyer",
+      "relationship_type": "donor",
+      "description": "Steyer was one of Obama's most prolific fundraisers from 2008.",
+      "start_year": 2008,
+      "end_year": 2012,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jen O'Malley Dillon",
+      "slug": "jen-omalley-dillon",
+      "relationship_type": "employee",
+      "description": "O'Malley Dillon was battleground states director for Obama's 2008 campaign and worked in his transition.",
+      "start_year": 2008,
+      "end_year": 2009,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
       ]
     }
   ],

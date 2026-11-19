@@ -157,6 +157,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
       ]
+    },
+    {
+      "name": "Tom Steyer",
+      "slug": "tom-steyer",
+      "relationship_type": "ally",
+      "description": "Bloomberg, Steyer and Henry Paulson launched the Risky Business climate-risk initiative in 2014.",
+      "start_year": 2014,
+      "end_year": 2020,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

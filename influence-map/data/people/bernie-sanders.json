@@ -215,6 +215,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
       ]
+    },
+    {
+      "name": "Tom Steyer",
+      "slug": "tom-steyer",
+      "relationship_type": "rival",
+      "description": "Rivals in the 2020 Democratic primaries; Steyer's campaign ran ads against Sanders's Medicare for All plan.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

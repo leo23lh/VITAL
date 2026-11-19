@@ -719,6 +719,18 @@
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00828541&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Never Surrender, Inc." },
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00762591&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to Save America" }
       ]
+    },
+    {
+      "name": "Rahm Emanuel",
+      "slug": "rahm-emanuel",
+      "relationship_type": "funded_by",
+      "description": "Musk gave more than $55,000 to Emanuel's campaigns; as mayor, Emanuel picked Musk's Boring Company for a planned O'Hare express loop.",
+      "start_year": 2011,
+      "end_year": 2019,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

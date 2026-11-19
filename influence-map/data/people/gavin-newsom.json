@@ -167,6 +167,18 @@
         { "url": "https://en.wikipedia.org/wiki/2028_Democratic_Party_presidential_primaries", "title": "2028 Democratic Party presidential primaries — Wikipedia" },
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00836346&two_year_transaction_period=2026", "title": "FEC receipts: LARSEN, CHRIS to Campaign for Democracy Committee" }
       ]
+    },
+    {
+      "name": "Tom Steyer",
+      "slug": "tom-steyer",
+      "relationship_type": "ally",
+      "description": "Newsom picked Steyer in April 2020 to chair California's economic recovery task force.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

@@ -1,0 +1,167 @@
+{
+  "name": "Rahm Emanuel",
+  "aliases": ["Rahm Israel Emanuel"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic congressman, Obama's chief of staff, two-term mayor of Chicago and Biden's ambassador to Japan; a centrist Democrat and free-trade advocate whom progressives opposed for a Biden cabinet post.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Confirmed in June 2025 that he is considering a 2028 run and spent much of 2026 visiting early states such as New Hampshire, without a formal announcement.",
+    "sources": [
+      { "url": "https://www.axios.com/local/chicago/2025/06/18/mayor-rahm-emanuel-considering-2028-presidential-run-white-house", "title": "Former Chicago Mayor Rahm Emanuel considering 2028 presidential run — Axios" },
+      { "url": "https://www.foxnews.com/politics/emanuel-pushes-back-straight-white-man-question-says-ideas-matter-most-2028", "title": "Potential 2028 Democratic presidential contender Rahm Emanuel says 'tough times… require a tough leader' — Fox News" }
+    ]
+  },
+  "current_role": "Former U.S. ambassador to Japan (2022–2025) and mayor of Chicago (2011–2019); political commentator weighing a 2028 presidential run",
+  "summary": "Rahm Emanuel was a senior adviser in Bill Clinton's White House, a three-term Illinois congressman who led House Democrats' 2006 campaign, Barack Obama's first chief of staff (2009–2010), mayor of Chicago (2011–2019) and Joe Biden's ambassador to Japan (2022–2025). Since 2025 he has openly weighed a 2028 presidential run, pitching himself as a centrist critic of his party's brand.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" },
+    { "url": "https://www.axios.com/local/chicago/2025/06/18/mayor-rahm-emanuel-considering-2028-presidential-run-white-house", "title": "Former Chicago Mayor Rahm Emanuel considering 2028 presidential run — Axios" }
+  ],
+  "timeline": [
+    {
+      "year": 1993,
+      "end_year": 1998,
+      "role": "Senior adviser to President Bill Clinton",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2003,
+      "end_year": 2009,
+      "role": "U.S. representative from Illinois; DCCC chair (2005–2007), House Democratic Caucus chair (2007–2009)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2009,
+      "end_year": 2010,
+      "role": "White House chief of staff",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2011,
+      "end_year": 2019,
+      "role": "Mayor of Chicago",
+      "org": "City of Chicago",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2022,
+      "end_year": 2025,
+      "role": "U.S. ambassador to Japan",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "employer",
+      "description": "Emanuel was Obama's first White House chief of staff (2009–2010), leaving to run for mayor of Chicago.",
+      "start_year": 2009,
+      "end_year": 2010,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "employer",
+      "description": "Biden nominated Emanuel ambassador to Japan in August 2021; he served from March 2022 to January 2025.",
+      "start_year": 2022,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "ally",
+      "description": "Emanuel said in 2006 he would back Hillary Clinton for president and stayed close to her; he earlier served in Bill Clinton's White House.",
+      "start_year": 1993,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "ally",
+      "description": "Pelosi persuaded Emanuel to run for House Democratic Caucus chair rather than whip after the 2006 elections he helped win as DCCC chair.",
+      "start_year": 2005,
+      "end_year": 2009,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "donor",
+      "description": "Musk gave more than $55,000 to Emanuel's campaigns; in 2018 Mayor Emanuel picked Musk's Boring Company for a planned O'Hare express loop, raising conflict-of-interest criticism.",
+      "start_year": 2011,
+      "end_year": 2019,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "slug": "benjamin-netanyahu",
+      "relationship_type": "enemy",
+      "description": "In a July 2026 speech at Tel Aviv University Emanuel criticized Netanyahu and called for ending U.S. military aid to Israel.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Bill Clinton",
+      "slug": "bill-clinton",
+      "relationship_type": "employer",
+      "description": "Emanuel was finance director of Clinton's 1992 campaign and a senior White House adviser (1993–1998).",
+      "start_year": 1992,
+      "end_year": 1998,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. The Musk donation figure and the Netanyahu speech rest on Wikipedia only.",
+  "last_researched": "2026-11-19"
+}

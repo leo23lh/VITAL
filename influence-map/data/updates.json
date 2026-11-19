@@ -1,5 +1,37 @@
 [
   {
+    "id": "2026-11-19-democrats",
+    "date": "2026-11-19",
+    "text": "25 Democrats added, with sourced ties to everyone already on the map: Barack Obama, Joe Biden and Hillary Clinton; 2028 hopefuls JB Pritzker, Cory Booker, Chris Murphy, Ro Khanna, Ruben Gallego, Mark Kelly and Rahm Emanuel; congressional leaders Dick Durbin, Elizabeth Warren, Adam Schiff, Katherine Clark, Pete Aguilar and Jamie Raskin; Amy Klobuchar, Minnesota's governor-elect; governors Gretchen Whitmer and Tim Walz; DNC chair Ken Martin; strategists Jen O'Malley Dillon and David Plouffe; and donors Alex Soros, Tom Steyer and Laurene Powell Jobs, whose FEC filings are now imported. Most of them now sit in one Democratic bloc with Harris, Newsom and Sanders in Factions & rifts.",
+    "people": [
+      "barack-obama",
+      "joe-biden",
+      "hillary-clinton",
+      "jb-pritzker",
+      "gretchen-whitmer",
+      "cory-booker",
+      "chris-murphy",
+      "ro-khanna",
+      "ruben-gallego",
+      "mark-kelly",
+      "elizabeth-warren",
+      "amy-klobuchar",
+      "tim-walz",
+      "ken-martin",
+      "katherine-clark",
+      "pete-aguilar",
+      "dick-durbin",
+      "adam-schiff",
+      "jamie-raskin",
+      "alex-soros",
+      "tom-steyer",
+      "laurene-powell-jobs",
+      "jen-omalley-dillon",
+      "david-plouffe",
+      "rahm-emanuel"
+    ]
+  },
+  {
     "id": "2026-11-16-touch-fixes",
     "date": "2026-11-16",
     "text": "Fixed: on phones the map no longer opens or closes things on its own while you move around. A tap now counts only when your finger barely moves, so pans, pinches and small nudges select nothing; taps land on the nearest person instead of a stray line; nothing lights up unless you tap it; and tapping empty map folds the details sheet down instead of closing it (use × or swipe down to close).",

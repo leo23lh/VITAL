@@ -107,5 +107,59 @@
     }
   ],
   "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Records for George Soros and Democracy PAC mirror those already in their files.",
-  "last_researched": "2026-11-19"
+  "last_researched": "2026-11-19",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2018,
+        "total_usd": 35000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+ALEX&two_year_transaction_period=2018", "title": "FEC itemized receipts: SOROS, ALEX, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Citizens for a Better Illinois",
+            "kind": "super-pac",
+            "amount_usd": 35000,
+            "fec_usd": 35000,
+            "fec_ids": ["C00669820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+ALEX&committee_id=C00669820&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, ALEX to Citizens for a Better Illinois, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 1060800,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+ALEX&two_year_transaction_period=2016", "title": "FEC itemized receipts: SOROS, ALEX, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Priorities USA Action",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00495861"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+ALEX&committee_id=C00495861&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, ALEX to Priorities USA Action, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Coalition for Progress",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00582841"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+ALEX&committee_id=C00582841&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, ALEX to Coalition for Progress, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

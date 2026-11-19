@@ -19,7 +19,7 @@ const args = process.argv.slice(2);
 const write = args.includes('--write');
 const cacheAt = args.indexOf('--cache');
 const CACHE = cacheAt >= 0 ? args[cacheAt + 1] : join(tmpdir(), 'influence-map-fec');
-const only = args.filter((a, i) => !a.startsWith('--') && i !== cacheAt + 1);
+const only = args.filter((a, i) => !a.startsWith('--') && (cacheAt < 0 || i !== cacheAt + 1));
 
 const config = JSON.parse(readFileSync(join(ROOT, 'data', 'fec.json'), 'utf8'));
 const { people, orgs } = readData();

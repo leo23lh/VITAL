@@ -327,6 +327,18 @@
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00503052&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jeffries for Congress" },
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00617803&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jobs, Education, & Families First  Jeff PAC" }
       ]
+    },
+    {
+      "name": "Laurene Powell Jobs",
+      "slug": "laurene-powell-jobs",
+      "relationship_type": "ally",
+      "description": "Both have financed progressive voter-engagement efforts; reported together among the deepest pockets in progressive politics.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Laurene_Powell_Jobs", "title": "Laurene Powell Jobs — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [
