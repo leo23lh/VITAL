@@ -21,6 +21,7 @@
     "touch-check": "node scripts/touch-check.mjs",
     "build:artifact": "node scripts/build-artifact.mjs",
     "build:web": "node scripts/build-web.mjs",
+    "publish:web": "node scripts/publish-web.mjs",
     "briefing": "node scripts/briefing.mjs"
   },
   "engines": {

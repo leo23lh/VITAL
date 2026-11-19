@@ -31,6 +31,7 @@ the slash commands in the repo root's `.claude/commands/`:
 | `scripts/rift-check.mjs` | Backtests the rift watch, lists today's warnings and logs them (`npm run rifts`). See "Factions and rifts". |
 | `data/rifts.json` | The rift log: dated runs of `[person, person, score, strains]` (`npm run rifts -- --save`). |
 | `scripts/build-web.mjs` | Builds the public site into `dist-web/` (`npm run build:web`). See "Public site". |
+| `scripts/publish-web.mjs` | Builds the public site and pushes it to the `gh-pages` branch (`npm run publish:web`). See "Public site". |
 | `scripts/briefing.mjs` | Drafts a "what changed this week" note from the files (`npm run briefing`). See "Public site". |
 | `scripts/tune-pull.mjs` | Tests Pull's weights against the track record of asks (`npm run tune-pull`). See "Track record". |
 | `src/` | Vite + React + TypeScript viewer (`npm run dev`). Reads the data folder and live-reloads. |
@@ -919,7 +920,12 @@ on a phone. Its link is in `artifact.json`.
 
 `npm run build:web` builds a public, read-only copy of the viewer into
 `dist-web/`: static files with relative paths (any folder or host serves
-them) plus `data.json`, the public copy of the data.
+them) plus `data.json`, the public copy of the data. `npm run publish:web`
+builds it and pushes the files, alone, to the repo's `gh-pages` branch, which
+GitHub Pages serves at https://leo23lh.github.io/VITAL/ (repo Settings →
+Pages → Deploy from a branch → `gh-pages`, root). Publish after every change
+to the data or the viewer; the weekly refresh does. This session's network
+cannot open github.io, so check the live site from a browser.
 
 - **What stays out** (`scripts/lib/public-data.mjs`): every file marked
   `public_figure: false` or `self_added` (the owner's own file), every link to
