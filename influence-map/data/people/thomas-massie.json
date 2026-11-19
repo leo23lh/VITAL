@@ -164,6 +164,19 @@
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00509729&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Thomas Massie for Congress" },
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ANDREESSEN%2C+MARC&committee_id=C00563429&two_year_transaction_period=2024", "title": "FEC receipts: ANDREESSEN, MARC to Making a Sensible Shift in Elections PAC" }
       ]
+    },
+    {
+      "name": "Ro Khanna",
+      "slug": "ro-khanna",
+      "relationship_type": "ally",
+      "description": "Massie and Khanna led the bipartisan discharge petition that forced the House to pass the Epstein Files Transparency Act, 427–1, on November 18, 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.npr.org/2025/11/18/nx-s1-5611438/epstein-files-bill-house-vote", "title": "House votes to release the Epstein files — NPR" },
+        { "url": "https://www.axios.com/2025/11/18/house-votes-to-release-jeffrey-epstein-files", "title": "House votes to release the Epstein files — Axios" }
+      ]
     }
   ],
   "aliases": [],

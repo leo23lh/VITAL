@@ -1,0 +1,237 @@
+{
+  "name": "Joe Biden",
+  "aliases": [
+    "Joseph Robinette Biden Jr."
+  ],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [
+    "critics"
+  ],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic U.S. senator from Delaware (1973–2009), Democratic vice president and Democratic president.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
+          "title": "Joe Biden — Wikipedia"
+        }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "joe-biden.jpg",
+    "credit": "Adam Schultz",
+    "license": "Public domain",
+    "source": {
+      "url": "https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg",
+      "title": "File:Joe Biden presidential portrait.jpg — Wikimedia Commons"
+    }
+  },
+  "current_role": "Former President of the United States (2021–2025)",
+  "summary": "Joe Biden was the 46th president of the United States from 2021 to 2025, after 36 years as a U.S. senator from Delaware and eight years as Barack Obama's vice president. He ended his 2024 reelection campaign on July 21, 2024 and endorsed Vice President Kamala Harris, who lost the election to Donald Trump.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Joe_Biden",
+      "title": "Joe Biden — Wikipedia"
+    },
+    {
+      "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/",
+      "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1973,
+      "end_year": 2009,
+      "role": "U.S. senator from Delaware",
+      "org": "U.S. Senate",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
+          "title": "Joe Biden — Wikipedia"
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "end_year": 2017,
+      "role": "47th Vice President of the United States",
+      "org": "The White House",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
+          "title": "Joe Biden — Wikipedia"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2025,
+      "role": "46th President of the United States",
+      "org": "The White House",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
+          "title": "Joe Biden — Wikipedia"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "role": "Withdrew from the presidential race on July 21 and endorsed Kamala Harris",
+      "org": "Biden for President",
+      "sources": [
+        {
+          "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/",
+          "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "ally",
+      "description": "Biden was Obama's running mate in 2008 and his vice president for both terms; Obama campaigned for him in 2020, though in July 2024 he questioned Biden's chances.",
+      "start_year": 2008,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
+          "title": "Joe Biden — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "Biden chose Harris as his 2020 running mate; she was his vice president from 2021 to 2025, and when he withdrew on July 21, 2024 he endorsed her within about half an hour.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
+          "title": "Joe Biden — Wikipedia"
+        },
+        {
+          "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/",
+          "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now"
+        }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "Biden defeated Trump in the 2020 presidential election, 306–232 in the Electoral College; they were set for a rematch in 2024 until Biden withdrew.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.98,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
+          "title": "Joe Biden — Wikipedia"
+        },
+        {
+          "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/",
+          "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now"
+        }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "On June 4, 2025 Trump ordered an investigation into whether Biden's aides concealed his mental decline and used an autopen to sign his executive actions; Biden called it a distraction.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        {
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/06/reviewing-certain-presidential-actions/",
+          "title": "Reviewing Certain Presidential Actions — The White House"
+        },
+        {
+          "url": "https://www.npr.org/2025/06/05/nx-s1-5424313/trump-investigation-biden-autopen-cognitive-decline",
+          "title": "Trump orders a probe into the Biden administration and its alleged autopen use — NPR"
+        },
+        {
+          "url": "https://m.washingtontimes.com/news/2025/jun/4/trump-orders-probe-biden-aides-commandeering-autopen/",
+          "title": "Trump orders probe of Biden aides — The Washington Times"
+        }
+      ]
+    },
+    {
+      "name": "Pete Buttigieg",
+      "slug": "pete-buttigieg",
+      "relationship_type": "employee",
+      "description": "Biden named his former primary rival Secretary of Transportation; the Senate confirmed him 86–13 on February 2, 2021, and he served to January 2025.",
+      "start_year": 2021,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/amp/2021/02/02/pete-buttigieg-confirmed-by-senate-as-biden-transportation-secretary.html",
+          "title": "Pete Buttigieg confirmed by Senate as Biden transportation secretary — CNBC"
+        },
+        {
+          "url": "https://www.pbs.org/newshour/politics/watch-live-senate-votes-to-confirm-pete-buttigieg-bidens-transportation-nominee",
+          "title": "Senate votes to confirm Pete Buttigieg — PBS NewsHour"
+        }
+      ]
+    },
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "rival",
+      "description": "Sanders was Biden's last remaining opponent in the 2020 Democratic primaries; he dropped out on April 8, 2020 and endorsed Biden.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.9,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
+          "title": "Joe Biden — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Jill Biden",
+      "slug": "jill-biden",
+      "relationship_type": "family",
+      "description": "Wife, married 1977; first lady from 2021 to 2025.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
+          "title": "Joe Biden — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Gretchen Whitmer",
+      "slug": "gretchen-whitmer",
+      "relationship_type": "ally",
+      "description": "Whitmer endorsed Biden in March 2020, became a national co-chair of his campaign and was a finalist for running mate.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer",
+          "title": "Gretchen Whitmer — Wikipedia"
+        }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Health matters are left out under the research rules.",
+  "last_researched": "2026-11-19"
+}

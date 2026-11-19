@@ -74,6 +74,18 @@
         { "url": "https://www.nbcnews.com/politics/justice-department/fbi-director-kash-patel-clashes-democrats-oversight-hearing-rcna597915", "title": "FBI Director Kash Patel clashes with Democrats at oversight hearing — NBC News (September 2026)" },
         { "url": "https://en.wikipedia.org/wiki/Kash_Patel", "title": "Kash Patel — Wikipedia" }
       ]
+    },
+    {
+      "name": "Cory Booker",
+      "slug": "cory-booker",
+      "relationship_type": "enemy",
+      "description": "Booker has sharply criticized Patel as FBI director, calling him a \"lackey\" in a 2025 Judiciary Committee hearing.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
     }
   ],
   "office": {

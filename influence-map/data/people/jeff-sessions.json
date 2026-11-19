@@ -283,6 +283,18 @@
         { "url": "https://www.pbs.org/newshour/politics/rubio-takes-the-lead-in-selling-immigration-reform", "title": "Rubio takes the lead in selling immigration reform — PBS NewsHour" },
         { "url": "https://www.breitbart.com/politics/2016/02/16/jeff-sessions-rubio-rewriting-history-gang-eight-bill-nearly-became-law-cantor-lost-race/", "title": "Jeff Sessions: Rubio rewriting history of Gang of Eight bill — Breitbart" }
       ]
+    },
+    {
+      "name": "Cory Booker",
+      "slug": "cory-booker",
+      "relationship_type": "enemy",
+      "description": "Booker testified against Sessions's attorney general nomination on January 11, 2017, the first senator to testify against a colleague at a cabinet confirmation hearing.",
+      "start_year": 2017,
+      "end_year": 2017,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

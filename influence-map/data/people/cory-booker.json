@@ -1,0 +1,185 @@
+{
+  "name": "Cory Booker",
+  "aliases": ["Cory Anthony Booker"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics", "2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic mayor of Newark (2006–2013) and Democratic U.S. senator since 2013; co-sponsored Medicare for All.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Said he is \"definitely not ruling out\" a 2028 run while seeking re-election in 2026; after the midterms he went straight to South Carolina, the first potential 2028 contender to visit since the election.",
+    "sources": [
+      { "url": "https://axios.com/2026/11/05/cory-booker-south-carolina-2028-president", "title": "Scoop: Cory Booker wastes no time hitting the 2028 trail — Axios" },
+      { "url": "https://www.thewrap.com/media-platforms/politics/cory-booker-refuses-to-rule-out-2028-presidential-run-excited-about-whatever-challenges-video/", "title": "Cory Booker refuses to rule out 2028 presidential run — TheWrap" }
+    ]
+  },
+  "office": {
+    "title": "U.S. senator from New Jersey; chair of the Senate Democratic Strategic Communications Committee",
+    "unit": "senate",
+    "rank": 4,
+    "since": "2013-10",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" },
+      { "url": "https://bioguide.congress.gov/search/bio/B001288", "title": "Booker, Cory Anthony — Biographical Directory of the U.S. Congress" }
+    ]
+  },
+  "current_role": "U.S. senator from New Jersey (since 2013; re-elected November 2026)",
+  "summary": "Cory Booker has been a Democratic U.S. senator from New Jersey since 2013, after serving as mayor of Newark from 2006 to 2013, and was re-elected in 2026. He ran for president in 2020 and, from March 31 to April 1, 2025, gave the longest speech in Senate history, 25 hours, in protest of Trump's second-term policies. He is weighing a 2028 presidential run.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" },
+    { "url": "https://bioguide.congress.gov/search/bio/B001288", "title": "Booker, Cory Anthony — Biographical Directory of the U.S. Congress" },
+    { "url": "https://www.npr.org/2025/04/01/nx-s1-5347318/cory-booker-senate-speech", "title": "Cory Booker breaks a 68-year-old Senate record with a 25-hour speech — NPR" }
+  ],
+  "timeline": [
+    {
+      "year": 1998,
+      "end_year": 2002,
+      "role": "Member, Municipal Council",
+      "org": "City of Newark",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2006,
+      "end_year": 2013,
+      "role": "Mayor of Newark",
+      "org": "City of Newark",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": null,
+      "role": "U.S. senator from New Jersey",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" },
+        { "url": "https://bioguide.congress.gov/search/bio/B001288", "title": "Booker, Cory Anthony — Biographical Directory of the U.S. Congress" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2020,
+      "role": "Candidate for the Democratic presidential nomination (withdrew January 13, 2020)",
+      "org": "Cory 2020",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Booker's record 25-hour Senate speech on March 31–April 1, 2025 was a protest against Trump's policies; he has been one of the administration's most vocal Senate critics.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2025/04/01/nx-s1-5347318/cory-booker-senate-speech", "title": "Cory Booker breaks a 68-year-old Senate record with a 25-hour speech — NPR" },
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Kash Patel",
+      "slug": "kash-patel",
+      "relationship_type": "enemy",
+      "description": "Booker has sharply criticized Patel's tenure as FBI director, calling him a \"lackey\" in a 2025 Judiciary Committee hearing.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jeff Sessions",
+      "slug": "jeff-sessions",
+      "relationship_type": "enemy",
+      "description": "On January 11, 2017 Booker testified against Sessions's nomination as attorney general, the first time a sitting senator testified against another at a cabinet confirmation hearing.",
+      "start_year": 2017,
+      "end_year": 2017,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "slug": "mark-zuckerberg",
+      "relationship_type": "donor",
+      "description": "Zuckerberg announced a $100 million challenge gift to Newark's public schools with then-Mayor Booker on The Oprah Winfrey Show on September 24, 2010, after the two met that summer; Booker raised matching money. The effort was later widely judged a disappointment.",
+      "start_year": 2010,
+      "end_year": 2015,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://m.washingtontimes.com/news/2010/sep/24/facebook-ceo-announces-100m-gift-to-nj-school/", "title": "Facebook CEO announces $100M gift to NJ schools — AP via The Washington Times" },
+        { "url": "https://www.foxnews.com/tech/facebook-founder-donates-100m-to-newark-school", "title": "Facebook founder donates $100M to Newark schools — Fox News" },
+        { "url": "https://www.tc.edu/articles/2016/february/what-did-mark-zuckerberg-learn-in-newark-/", "title": "What did Mark Zuckerberg learn in Newark? — Teachers College" }
+      ]
+    },
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "ally",
+      "description": "Booker campaigned for Obama in 2008, and in 2009 Obama offered him the leadership of the new White House Office of Urban Affairs, which he declined.",
+      "start_year": 2007,
+      "end_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "rival",
+      "description": "Both senators sought the 2020 Democratic presidential nomination; Harris withdrew in December 2019 and Booker in January 2020.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Chuck Schumer",
+      "slug": "chuck-schumer",
+      "relationship_type": "colleague",
+      "description": "Booker has served in Schumer's Senate Democratic leadership team since January 2025 as chair of the Strategic Communications Committee.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Bob Menendez",
+      "slug": "bob-menendez",
+      "relationship_type": "colleague",
+      "description": "New Jersey's other senator from 2013 until Menendez resigned in August 2024 after his corruption conviction; Booker supported him during his first trial.",
+      "start_year": 2013,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Wikipedia reports his November 2026 re-election.",
+  "last_researched": "2026-11-19"
+}

@@ -340,6 +340,19 @@
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00536540&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Jobs, Freedom, and Security PAC" },
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Ted Cruz for Senate" }
       ]
+    },
+    {
+      "name": "Chris Murphy",
+      "slug": "chris-murphy",
+      "relationship_type": "ally",
+      "description": "Cruz and Murphy co-sponsored the bipartisan Kids Off Social Media Act in January 2025, with Brian Schatz and Katie Britt.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.schatz.senate.gov/kosma", "title": "Kids Off Social Media Act — Sen. Brian Schatz" },
+        { "url": "https://www.britt.senate.gov/news/press-releases/u-s-senators-katie-britt-brian-schatz-ted-cruz-chris-murphy-introduce-bill-to-protect-kids-on-social-media/", "title": "Senators Britt, Schatz, Cruz, Murphy introduce bill to protect kids on social media — Sen. Katie Britt" }
+      ]
     }
   ],
   "affiliations": [],

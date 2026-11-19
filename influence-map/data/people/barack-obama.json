@@ -1,0 +1,352 @@
+{
+  "name": "Barack Obama",
+  "aliases": [
+    "Barack Hussein Obama II",
+    "Obama"
+  ],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [
+    "critics"
+  ],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic Illinois state senator, U.S. senator and two-term Democratic president; has campaigned for Democratic candidates since leaving office.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "barack-obama.jpg",
+    "credit": "Official White House Photo by Pete Souza",
+    "license": "Public domain",
+    "source": {
+      "url": "https://commons.wikimedia.org/wiki/File:President_Barack_Obama.jpg",
+      "title": "File:President Barack Obama.jpg — Wikimedia Commons"
+    }
+  },
+  "current_role": "Former President of the United States (2009–2017); head of the Obama Foundation",
+  "summary": "Barack Obama was the 44th president of the United States from 2009 to 2017, after serving as a U.S. senator from Illinois (2005–2008) and an Illinois state senator. Since leaving office he has campaigned for Democratic candidates, including Joe Biden in 2020 and Kamala Harris in 2024, and remains the party's most prominent figure.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+      "title": "Barack Obama — Wikipedia"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1997,
+      "end_year": 2004,
+      "role": "Illinois state senator (13th district)",
+      "org": "Illinois Senate",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "end_year": 2008,
+      "role": "U.S. senator from Illinois",
+      "org": "U.S. Senate",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "end_year": 2017,
+      "role": "44th President of the United States",
+      "org": "The White House",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": null,
+      "role": "Founder; leads the Obama Foundation and presidential center",
+      "org": "Obama Foundation",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "ally",
+      "description": "Obama chose Biden as his 2008 running mate; Biden served as his vice president for both terms, and Obama campaigned for Biden in 2020. In July 2024 Obama privately questioned whether Biden could still win.",
+      "start_year": 2008,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
+          "title": "Joe Biden — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "rival",
+      "description": "Obama beat Clinton in a close 2008 Democratic primary; she then endorsed him at the convention.",
+      "start_year": 2007,
+      "end_year": 2008,
+      "confidence": 0.95,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "employee",
+      "description": "Obama appointed his former primary rival as Secretary of State; she served 2009 to 2013.",
+      "start_year": 2009,
+      "end_year": 2013,
+      "confidence": 0.95,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "Barack and Michelle Obama endorsed Harris for president in a video released July 26, 2024, after Biden withdrew; Obama later campaigned for her in swing states.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2024/7/26/barack-obama-endorses-kamala-harris-for-us-president",
+          "title": "Barack Obama endorses Kamala Harris for US president — Al Jazeera"
+        },
+        {
+          "url": "https://m.washingtontimes.com/news/2024/jul/26/obama-endorses-kamala-harris-for-president-she-has/",
+          "title": "Obama endorses Kamala Harris for president — The Washington Times"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Trump accused Obama of \"treason\" over the 2016 Russia investigation on July 22, 2025; Obama's office called the claims \"bizarre\" and \"a weak attempt at distraction.\" Obama has criticized Trump's administration in speeches.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        {
+          "url": "https://goodmorningamerica.com/news/story/trump-accuses-obama-treason-oval-office-123963917",
+          "title": "Trump accuses Obama of treason in Oval Office — ABC News / GMA"
+        },
+        {
+          "url": "https://www.startribune.com/obamas-office-rebukes-trump-admins-treason-claims-as-distraction/601441072",
+          "title": "Obama's office rebukes Trump administration's treason claims as distraction — Star Tribune (AP)"
+        },
+        {
+          "url": "https://www.aljazeera.com/amp/news/2025/7/23/trump-admin-leans-into-unsubstantiated-claims-obama-committed-treason",
+          "title": "Trump admin leans into unsubstantiated claims Obama committed treason — Al Jazeera"
+        }
+      ]
+    },
+    {
+      "name": "Elizabeth Warren",
+      "slug": "elizabeth-warren",
+      "relationship_type": "employee",
+      "description": "Obama named Warren Assistant to the President and special adviser on setting up the Consumer Financial Protection Bureau in September 2010.",
+      "start_year": 2010,
+      "end_year": 2011,
+      "confidence": 0.95,
+      "sources": [
+        {
+          "url": "https://obamawhitehouse.archives.gov/the-press-office/2010/09/17/president-obama-names-elizabeth-warren-assistant-president-and-special-a",
+          "title": "President Obama Names Elizabeth Warren Assistant to the President and Special Advisor — The White House (archived)"
+        },
+        {
+          "url": "https://rollcall.com/2010/09/17/obama-appoints-warren-as-adviser-to-consumer-bureau/",
+          "title": "Obama appoints Warren as adviser to consumer bureau — Roll Call"
+        }
+      ]
+    },
+    {
+      "name": "Rahm Emanuel",
+      "slug": "rahm-emanuel",
+      "relationship_type": "employee",
+      "description": "Emanuel, then an Illinois congressman, was Obama's first White House chief of staff (2009–2010).",
+      "start_year": 2009,
+      "end_year": 2010,
+      "confidence": 0.9,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        },
+        {
+          "url": "https://theweek.com/articles/468775/obamas-centers-ofpower",
+          "title": "Obama's centers of power — The Week"
+        }
+      ]
+    },
+    {
+      "name": "David Plouffe",
+      "slug": "david-plouffe",
+      "relationship_type": "employee",
+      "description": "Plouffe managed Obama's 2008 presidential campaign and later served as a senior adviser in the White House (2011–2013).",
+      "start_year": 2007,
+      "end_year": 2013,
+      "confidence": 0.85,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Zohran Mamdani",
+      "slug": "zohran-mamdani",
+      "relationship_type": "ally",
+      "description": "Obama called Mamdani before the 2025 New York mayoral election, praised his campaign and offered to be a \"sounding board\" if he won; he did not formally endorse him.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        {
+          "url": "https://www.timesofisrael.com/liveblog_entry/obama-calls-mamdani-praises-his-campaign-offers-to-serve-as-sounding-board-if-he-wins-nyc-mayoral-race/",
+          "title": "Obama calls Mamdani, offers to serve as sounding board — Times of Israel (citing NYT)"
+        },
+        {
+          "url": "https://www.washingtontimes.com/news/2025/nov/3/obama-held-private-phone-call-zohran-mamdani-campaigning-sherrill/",
+          "title": "Obama held private phone call with Zohran Mamdani — The Washington Times"
+        }
+      ]
+    },
+    {
+      "name": "Michelle Obama",
+      "slug": "michelle-obama",
+      "relationship_type": "family",
+      "description": "Wife, married 1992; former first lady (2009–2017) and author.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Valerie Jarrett",
+      "slug": "valerie-jarrett",
+      "relationship_type": "employee",
+      "description": "Longtime Chicago friend and senior adviser to Obama throughout his presidency.",
+      "start_year": 2009,
+      "end_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "John McCain",
+      "slug": "john-mccain",
+      "relationship_type": "rival",
+      "description": "Obama defeated the Republican nominee McCain in the 2008 presidential election.",
+      "start_year": 2008,
+      "end_year": 2008,
+      "confidence": 0.95,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Mitt Romney",
+      "slug": "mitt-romney",
+      "relationship_type": "rival",
+      "description": "Obama defeated Romney in the 2012 presidential election.",
+      "start_year": 2012,
+      "end_year": 2012,
+      "confidence": 0.95,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Cory Booker",
+      "slug": "cory-booker",
+      "relationship_type": "ally",
+      "description": "Booker campaigned for Obama in 2008; Obama offered him the White House Office of Urban Affairs in 2009, which he declined.",
+      "start_year": 2007,
+      "end_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cory_Booker",
+          "title": "Cory Booker — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Ro Khanna",
+      "slug": "ro-khanna",
+      "relationship_type": "employee",
+      "description": "Obama appointed Khanna a deputy assistant secretary of Commerce (2009–2011).",
+      "start_year": 2009,
+      "end_year": 2011,
+      "confidence": 0.8,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ro_Khanna",
+          "title": "Ro Khanna — Wikipedia"
+        }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so each news fact was confirmed through search results tied to the cited URL. Ties to Biden, Clinton, Plouffe and Emanuel will gain sources as their own files are added.",
+  "last_researched": "2026-11-19"
+}

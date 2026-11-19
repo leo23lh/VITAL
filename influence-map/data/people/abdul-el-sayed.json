@@ -118,6 +118,18 @@
         { "url": "https://www.foxnews.com/politics/schumer-faces-mutiny-from-newly-elected-senate-dems-party-prepares-seize-power", "title": "Chuck Schumer faces leadership rebellion from incoming Democrats — Fox News" },
         { "url": "https://www.democracynow.org/2026/11/6/headlines/incoming_freshman_senators_call_for_new_leadership_to_replace_top_democrat_chuck_schumer", "title": "Incoming freshman senators call for new leadership to replace Chuck Schumer — Democracy Now!" }
       ]
+    },
+    {
+      "name": "Gretchen Whitmer",
+      "slug": "gretchen-whitmer",
+      "relationship_type": "rival",
+      "description": "El-Sayed lost the 2018 Democratic primary for governor of Michigan to Whitmer, 30% to 52%.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where Wikipedia was rate-limiting and most news pages could not be opened; Wikipedia facts were confirmed with web searches restricted to en.wikipedia.org, and news facts with searches tied to each cited URL.",

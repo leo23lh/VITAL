@@ -143,6 +143,42 @@
         { "url": "https://michiganadvance.com/2026/05/04/bernie-sanders-stumps-for-el-sayed-mckinney-while-continuing-push-against-oligarchy/", "title": "Bernie Sanders stumps for El-Sayed, McKinney — Michigan Advance" },
         { "url": "https://theintercept.com/2018/07/25/bernie-sanders-endorses-abdul-el-sayed-for-governor-of-michigan/", "title": "Bernie Sanders endorses Abdul El-Sayed for governor of Michigan — The Intercept" }
       ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "rival",
+      "description": "Sanders was Biden's main rival in the 2020 Democratic primaries until he dropped out on April 8, 2020 and endorsed him.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Chris Murphy",
+      "slug": "chris-murphy",
+      "relationship_type": "ally",
+      "description": "Sanders, Murphy and Mike Lee pushed a 2018 war powers resolution to end U.S. support for the Saudi-led war in Yemen.",
+      "start_year": 2018,
+      "end_year": 2019,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Murphy", "title": "Chris Murphy — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ro Khanna",
+      "slug": "ro-khanna",
+      "relationship_type": "ally",
+      "description": "Khanna endorsed Sanders in 2016 and co-chaired his 2020 presidential campaign.",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

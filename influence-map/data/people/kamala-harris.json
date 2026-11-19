@@ -368,6 +368,69 @@
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00571919&two_year_transaction_period=2024", "title": "FEC receipts: STOPPELMAN, JEREMY to Kamala Harris for Senate" },
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: STOPPELMAN, JEREMY to Harris Victory Fund" }
       ]
+    },
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "ally",
+      "description": "Barack and Michelle Obama endorsed Harris for president on July 26, 2024, and Obama campaigned for her in swing states.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.aljazeera.com/news/2024/7/26/barack-obama-endorses-kamala-harris-for-us-president", "title": "Barack Obama endorses Kamala Harris for US president — Al Jazeera" },
+        { "url": "https://m.washingtontimes.com/news/2024/jul/26/obama-endorses-kamala-harris-for-president-she-has/", "title": "Obama endorses Kamala Harris for president — The Washington Times" },
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "ally",
+      "description": "Harris was Biden's 2020 running mate and his vice president (2021–2025); he endorsed her when he withdrew from the race on July 21, 2024.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
+        { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now" }
+      ]
+    },
+    {
+      "name": "JB Pritzker",
+      "slug": "jb-pritzker",
+      "relationship_type": "ally",
+      "description": "Harris interviewed Pritzker as a possible 2024 running mate before choosing Tim Walz; he campaigned for her.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Gretchen Whitmer",
+      "slug": "gretchen-whitmer",
+      "relationship_type": "ally",
+      "description": "Whitmer endorsed Harris for president in July 2024 rather than seek the nomination herself.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Cory Booker",
+      "slug": "cory-booker",
+      "relationship_type": "rival",
+      "description": "Both senators sought the 2020 Democratic presidential nomination; Harris withdrew in December 2019 and Booker in January 2020.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

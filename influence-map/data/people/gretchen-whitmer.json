@@ -1,0 +1,128 @@
+{
+  "name": "Gretchen Whitmer",
+  "aliases": ["Gretchen Esther Whitmer"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic state legislator (2001–2015) and Democratic governor of Michigan since 2019; DNC vice chair 2021–2025. By 2025 she called herself a centrist Democrat.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "Governor of Michigan (since 2019; term-limited, leaves office in January 2027)",
+  "summary": "Gretchen Whitmer has been the Democratic governor of Michigan since 2019 after 14 years in the state legislature, and is term-limited out in January 2027. She was a national co-chair of Joe Biden's 2020 campaign and a finalist to be his running mate. In Trump's second term she has worked with him on Michigan priorities, which drew criticism from some Democrats; on May 28, 2026 she said she would not run for president in 2028, then walked it back hours later.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" },
+    { "url": "https://wtop.com/government/2026/05/democratic-gov-gretchen-whitmer-of-michigan-says-she-wont-run-for-president-in-2028/", "title": "Michigan Gov. Whitmer says she won't run for president in 2028, then backtracks hours later — WTOP (AP)" }
+  ],
+  "timeline": [
+    {
+      "year": 2001,
+      "end_year": 2006,
+      "role": "State representative",
+      "org": "Michigan House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2006,
+      "end_year": 2015,
+      "role": "State senator; Senate Democratic leader from 2011",
+      "org": "Michigan Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "Governor of Michigan",
+      "org": "State of Michigan",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2025,
+      "role": "Vice chair",
+      "org": "Democratic National Committee",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "ally",
+      "description": "Whitmer endorsed Biden days before Michigan's March 2020 primary and became a national co-chair of his campaign; she was one of the finalists he considered for running mate.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "When Biden withdrew in July 2024, Whitmer said she would not seek the nomination and endorsed Harris.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "In 2020 Whitmer criticized Trump's pandemic response and Trump reportedly told Pence \"don't call the woman in Michigan.\" In his second term relations warmed: after an April 2025 Oval Office visit where she hid her face from cameras, Trump credited her when he announced a new fighter mission for Michigan's Selfridge base.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/donald-trump/trump-praises-gov-gretchen-whitmer-michigan-air-base-rcna203610", "title": "Trump praises Gov. Gretchen Whitmer while announcing new fighter jets — NBC News" },
+        { "url": "https://www.michiganpublic.org/politics-government/2025-04-29/trump-announces-new-fighter-jet-mission-at-michigan-air-base-alongside-gov-whitmer", "title": "Trump announces new fighter jet mission at Michigan air base alongside Gov. Whitmer — Michigan Public" }
+      ]
+    },
+    {
+      "name": "Abdul El-Sayed",
+      "slug": "abdul-el-sayed",
+      "relationship_type": "rival",
+      "description": "Whitmer beat El-Sayed in the 2018 Democratic primary for governor, 52% to 30%.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ken Martin",
+      "slug": "ken-martin",
+      "relationship_type": "colleague",
+      "description": "Both served as vice chairs of the Democratic National Committee from 2021 until Martin became chair in 2025.",
+      "start_year": 2021,
+      "end_year": 2025,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. No race_2028 entry: on May 28, 2026 she said she would not run in 2028, then said she had \"nothing to announce\"; reporting does not treat her as a declared or likely candidate.",
+  "last_researched": "2026-11-19"
+}

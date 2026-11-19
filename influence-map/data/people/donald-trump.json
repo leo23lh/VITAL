@@ -402,7 +402,9 @@
       "end_year": 2024,
       "confidence": 0.98,
       "sources": [
-        { "url": "https://www.britannica.com/event/United-States-presidential-election-of-2020", "title": "U.S. presidential election of 2020 — Britannica" }
+        { "url": "https://www.britannica.com/event/United-States-presidential-election-of-2020", "title": "U.S. presidential election of 2020 — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
+        { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now" }
       ]
     },
     {
@@ -2190,6 +2192,89 @@
       "sources": [
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: WITKOFF, ZACH to Trump Victory" },
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00580100&two_year_transaction_period=2020", "title": "FEC receipts: WITKOFF, ZACH to Donald J. Trump for President, Inc." }
+      ]
+    },
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "enemy",
+      "description": "Trump accused Obama of \"treason\" over the 2016 Russia investigation on July 22, 2025; Obama's office called the claims \"bizarre\" and \"a weak attempt at distraction.\"",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://goodmorningamerica.com/news/story/trump-accuses-obama-treason-oval-office-123963917", "title": "Trump accuses Obama of treason in Oval Office — ABC News / GMA" },
+        { "url": "https://www.startribune.com/obamas-office-rebukes-trump-admins-treason-claims-as-distraction/601441072", "title": "Obama's office rebukes Trump administration's treason claims as distraction — Star Tribune (AP)" },
+        { "url": "https://www.aljazeera.com/amp/news/2025/7/23/trump-admin-leans-into-unsubstantiated-claims-obama-committed-treason", "title": "Trump admin leans into unsubstantiated claims Obama committed treason — Al Jazeera" }
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "enemy",
+      "description": "Trump ordered an investigation on June 4, 2025 into whether Biden's aides hid his decline and used an autopen for his executive actions; Biden called it a distraction.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/presidential-actions/2025/06/reviewing-certain-presidential-actions/", "title": "Reviewing Certain Presidential Actions — The White House" },
+        { "url": "https://www.npr.org/2025/06/05/nx-s1-5424313/trump-investigation-biden-autopen-cognitive-decline", "title": "Trump orders a probe into the Biden administration and its alleged autopen use — NPR" },
+        { "url": "https://m.washingtontimes.com/news/2025/jun/4/trump-orders-probe-biden-aides-commandeering-autopen/", "title": "Trump orders probe of Biden aides — The Washington Times" }
+      ]
+    },
+    {
+      "name": "JB Pritzker",
+      "slug": "jb-pritzker",
+      "relationship_type": "enemy",
+      "description": "Trump wrote on October 8, 2025 that Pritzker \"should be in jail\" after Illinois sued to stop his National Guard deployment to Chicago; Pritzker called him a coward.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.axios.com/2025/10/08/trump-jb-pritzker-brandon-johnson-chicago-jail", "title": "Trump baselessly calls for Pritzker, Chicago mayor to be jailed — Axios" },
+        { "url": "https://www.nprillinois.org/illinois/2025-10-08/pritzker-johnson-fight-back-after-president-trump-says-they-should-be-jailed-for-failing-to-protect-ice", "title": "Pritzker, Johnson fight back after Trump says they should be jailed — NPR Illinois" },
+        { "url": "https://fox32chicago.com/news/trump-brandon-johnson-pritzker-ice", "title": "Trump says Johnson, Pritzker 'should be in jail' — Fox 32 Chicago" }
+      ]
+    },
+    {
+      "name": "Gretchen Whitmer",
+      "slug": "gretchen-whitmer",
+      "relationship_type": "enemy",
+      "description": "Trump clashed with Whitmer over the pandemic in 2020 (\"don't call the woman in Michigan\"); in 2025 relations warmed and he credited her when announcing a fighter mission for Michigan's Selfridge base.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/donald-trump/trump-praises-gov-gretchen-whitmer-michigan-air-base-rcna203610", "title": "Trump praises Gov. Gretchen Whitmer while announcing new fighter jets — NBC News" },
+        { "url": "https://www.michiganpublic.org/politics-government/2025-04-29/trump-announces-new-fighter-jet-mission-at-michigan-air-base-alongside-gov-whitmer", "title": "Trump announces new fighter jet mission at Michigan air base alongside Gov. Whitmer — Michigan Public" }
+      ]
+    },
+    {
+      "name": "Cory Booker",
+      "slug": "cory-booker",
+      "relationship_type": "enemy",
+      "description": "Booker gave a record 25-hour Senate speech (March 31–April 1, 2025) protesting Trump's policies.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2025/04/01/nx-s1-5347318/cory-booker-senate-speech", "title": "Cory Booker breaks a 68-year-old Senate record with a 25-hour speech — NPR" },
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Chris Murphy",
+      "slug": "chris-murphy",
+      "relationship_type": "enemy",
+      "description": "Murphy has been one of Trump's most outspoken Senate critics since 2024; the White House called him \"a lightweight, anti-American disgrace.\"",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Murphy", "title": "Chris Murphy — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/congress/-become-party-status-quo-chris-murphy-makes-case-lead-democrats-forwar-rcna194027", "title": "Chris Murphy makes his case to lead Democrats forward — NBC News" },
+        { "url": "https://www.coloradopolitics.com/2025/06/02/chris-murphy-launches-national-pac-to-fund-anti-trump-organizers-report-d304ec70-eac1-54a5-893a-d1e0f8cb4fa8", "title": "Chris Murphy launches national PAC to fund anti-Trump organizers — Colorado Politics (Washington Examiner)" }
       ]
     }
   ],

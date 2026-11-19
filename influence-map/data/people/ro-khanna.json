@@ -1,0 +1,194 @@
+{
+  "name": "Ro Khanna",
+  "aliases": ["Rohit Khanna"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics", "2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic congressman since 2017; co-chaired Bernie Sanders's 2020 campaign; calls himself a \"progressive capitalist.\"",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Frequent trips to New Hampshire and South Carolina and town halls in Republican districts; national outlets describe him as a potential 2028 contender, though he says he hasn't decided whether to run or back someone else.",
+    "sources": [
+      { "url": "https://www.thenation.com/article/politics/ro-khanna-not-running", "title": "Ro Khanna isn't running for president, yet — The Nation" },
+      { "url": "https://www.inquirer.com/politics/election/ro-khanna-us-congress-california-campaign-endorse-progressive-democrats-midterms-2028-persidential-run-20260922.html", "title": "Ro Khanna, the left's busiest midterm surrogate — The Philadelphia Inquirer" },
+      { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+    ]
+  },
+  "office": {
+    "title": "U.S. representative for California's 17th district",
+    "unit": "house",
+    "rank": 4,
+    "since": "2017-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+    ]
+  },
+  "current_role": "U.S. representative for California's 17th district (Silicon Valley, since 2017)",
+  "summary": "Ro Khanna, a Democratic congressman representing Silicon Valley since 2017, co-chaired Bernie Sanders's 2020 campaign while keeping ties to tech investors who backed his earlier runs. With Republican Thomas Massie he led the discharge petition that forced the House's 427–1 vote on November 18, 2025 to release the Epstein files, and he is discussed as a possible 2028 presidential candidate.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" },
+    { "url": "https://www.npr.org/2025/11/18/nx-s1-5611438/epstein-files-bill-house-vote", "title": "House votes to release the Epstein files — NPR" },
+    { "url": "https://www.axios.com/2025/11/18/house-votes-to-release-jeffrey-epstein-files", "title": "House votes to release the Epstein files — Axios" }
+  ],
+  "timeline": [
+    {
+      "year": 2009,
+      "end_year": 2011,
+      "role": "Deputy assistant secretary, appointed by President Obama",
+      "org": "U.S. Department of Commerce",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": null,
+      "role": "U.S. representative (California's 17th district)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2020,
+      "role": "National co-chair of Bernie Sanders's presidential campaign",
+      "org": "Bernie 2020",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "role": "Co-led the discharge petition for the Epstein Files Transparency Act with Thomas Massie",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://www.npr.org/2025/11/18/nx-s1-5611438/epstein-files-bill-house-vote", "title": "House votes to release the Epstein files — NPR" },
+        { "url": "https://www.axios.com/2025/11/18/house-votes-to-release-jeffrey-epstein-files", "title": "House votes to release the Epstein files — Axios" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Thomas Massie",
+      "slug": "thomas-massie",
+      "relationship_type": "ally",
+      "description": "Khanna and Massie led the bipartisan discharge petition that forced the House vote on the Epstein Files Transparency Act, which passed 427–1 on November 18, 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.npr.org/2025/11/18/nx-s1-5611438/epstein-files-bill-house-vote", "title": "House votes to release the Epstein files — NPR" },
+        { "url": "https://www.axios.com/2025/11/18/house-votes-to-release-jeffrey-epstein-files", "title": "House votes to release the Epstein files — Axios" }
+      ]
+    },
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "ally",
+      "description": "Khanna endorsed Sanders in 2016 and co-chaired his 2020 presidential campaign.",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "employer",
+      "description": "Obama appointed Khanna a deputy assistant secretary of Commerce (2009–2011); as a student Khanna had walked precincts in Obama's 1996 state senate race.",
+      "start_year": 2009,
+      "end_year": 2011,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "donor",
+      "description": "Thiel supported Khanna's congressional candidacies in 2011, 2013 and 2016.",
+      "start_year": 2011,
+      "end_year": 2016,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "ally",
+      "description": "Pelosi backed Khanna's 2014 House bid and in April 2018 asked him to draft an Internet Bill of Rights after the Cambridge Analytica scandal.",
+      "start_year": 2014,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Chuck Schumer",
+      "slug": "chuck-schumer",
+      "relationship_type": "ally",
+      "description": "Khanna, Schumer, Todd Young and Mike Gallagher co-wrote the Endless Frontier Act on technology research funding, a forerunner of the CHIPS and Science Act.",
+      "start_year": 2020,
+      "end_year": 2022,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "slug": "alexandria-ocasio-cortez",
+      "relationship_type": "ally",
+      "description": "Khanna signed on to Ocasio-Cortez's Green New Deal proposal in 2018; both are prominent House progressives.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Hakeem Jeffries",
+      "slug": "hakeem-jeffries",
+      "relationship_type": "colleague",
+      "description": "Jeffries appointed Khanna to the House Select Committee on the Chinese Communist Party.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Mike Honda",
+      "slug": "mike-honda",
+      "relationship_type": "rival",
+      "description": "Khanna lost to the incumbent Democrat Honda in 2014 and unseated him in 2016.",
+      "start_year": 2014,
+      "end_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Thiel's support is sourced to Wikipedia only.",
+  "last_researched": "2026-11-19"
+}

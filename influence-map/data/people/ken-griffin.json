@@ -218,6 +218,20 @@
       "sources": [
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=GRIFFIN%2C+KEN&committee_id=C00666396&two_year_transaction_period=2024", "title": "FEC receipts: GRIFFIN, KEN to Michael Waltz for Congress" }
       ]
+    },
+    {
+      "name": "JB Pritzker",
+      "slug": "jb-pritzker",
+      "relationship_type": "enemy",
+      "description": "Griffin spent tens of millions (reports range from about $47 million to $54 million) to defeat Pritzker's 2020 graduated income tax, then moved Citadel to Miami in 2022.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" },
+        { "url": "https://www.wbez.org/politics/2022/06/23/ken-griffins-illinois-exit-leaves-irvin-behind", "title": "Ken Griffin's Illinois exit leaves Irvin behind — WBEZ" },
+        { "url": "https://blockclubchicago.org/2022/06/23/ken-griffin-illinois-richest-man-moving-citadel-headquarters-to-miami/", "title": "Ken Griffin moving Citadel headquarters to Miami — Block Club Chicago" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where news pages could not be opened and OpenSecrets was blocked; facts were confirmed with web searches tied to each cited URL and with the Wikipedia article via its API.",

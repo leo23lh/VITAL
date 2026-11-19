@@ -113,6 +113,20 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
       ]
+    },
+    {
+      "name": "Cory Booker",
+      "slug": "cory-booker",
+      "relationship_type": "funded_by",
+      "description": "Zuckerberg gave a $100 million challenge gift to Newark's public schools, announced with then-Mayor Booker on The Oprah Winfrey Show in September 2010.",
+      "start_year": 2010,
+      "end_year": 2015,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://m.washingtontimes.com/news/2010/sep/24/facebook-ceo-announces-100m-gift-to-nj-school/", "title": "Facebook CEO announces $100M gift to NJ schools — AP via The Washington Times" },
+        { "url": "https://www.foxnews.com/tech/facebook-founder-donates-100m-to-newark-school", "title": "Facebook founder donates $100M to Newark schools — Fox News" },
+        { "url": "https://www.tc.edu/articles/2016/february/what-did-mark-zuckerberg-learn-in-newark-/", "title": "What did Mark Zuckerberg learn in Newark? — Teachers College" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

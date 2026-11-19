@@ -146,6 +146,18 @@
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00503052&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jeffries for Congress" },
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00617803&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jobs, Education, & Families First  Jeff PAC" }
       ]
+    },
+    {
+      "name": "Ro Khanna",
+      "slug": "ro-khanna",
+      "relationship_type": "colleague",
+      "description": "Jeffries appointed Khanna to the House Select Committee on the Chinese Communist Party.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
     }
   ],
   "office": {

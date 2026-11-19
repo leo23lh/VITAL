@@ -130,6 +130,19 @@
         { "url": "https://www.pbs.org/newshour/politics/buttigieg-scrambles-to-turn-2020-buzz-into-momentum", "title": "Buttigieg scrambles to turn 2020 buzz into momentum — AP via PBS NewsHour" },
         { "url": "https://ballotpedia.org/Mike_Schmuhl", "title": "Mike Schmuhl — Ballotpedia" }
       ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "employer",
+      "description": "Buttigieg served as Biden's Secretary of Transportation from February 2021 to January 2025.",
+      "start_year": 2021,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cnbc.com/amp/2021/02/02/pete-buttigieg-confirmed-by-senate-as-biden-transportation-secretary.html", "title": "Pete Buttigieg confirmed by Senate as Biden transportation secretary — CNBC" },
+        { "url": "https://www.pbs.org/newshour/politics/watch-live-senate-votes-to-confirm-pete-buttigieg-bidens-transportation-nominee", "title": "Senate votes to confirm Pete Buttigieg — PBS NewsHour" }
+      ]
     }
   ],
   "affiliations": [],

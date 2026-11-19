@@ -104,6 +104,42 @@
         { "url": "https://www.foxnews.com/politics/schumer-faces-mutiny-from-newly-elected-senate-dems-party-prepares-seize-power", "title": "Chuck Schumer faces leadership rebellion from incoming Democrats — Fox News" },
         { "url": "https://www.democracynow.org/2026/11/6/headlines/incoming_freshman_senators_call_for_new_leadership_to_replace_top_democrat_chuck_schumer", "title": "Incoming freshman senators call for new leadership to replace Chuck Schumer — Democracy Now!" }
       ]
+    },
+    {
+      "name": "Cory Booker",
+      "slug": "cory-booker",
+      "relationship_type": "colleague",
+      "description": "Booker has been part of Schumer's Senate Democratic leadership team since January 2025, chairing the Strategic Communications Committee.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Chris Murphy",
+      "slug": "chris-murphy",
+      "relationship_type": "colleague",
+      "description": "Murphy has been deputy secretary of the Senate Democratic Caucus in Schumer's leadership since January 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Murphy", "title": "Chris Murphy — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ro Khanna",
+      "slug": "ro-khanna",
+      "relationship_type": "ally",
+      "description": "Schumer and Khanna co-wrote the Endless Frontier Act (with Todd Young and Mike Gallagher), a forerunner of the CHIPS and Science Act.",
+      "start_year": 2020,
+      "end_year": 2022,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
     }
   ],
   "office": {

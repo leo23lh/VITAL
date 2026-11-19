@@ -109,6 +109,19 @@
         { "url": "https://www.aol.com/articles/zohran-mamdani-democratic-socialists-agenda-220806181.html", "title": "Zohran Mamdani, Democratic Socialists' agenda is bad for Black New Yorkers, advocacy group says — AOL" },
         { "url": "https://jewishinsider.com/tag/darius-jones/", "title": "Darius Jones — Jewish Insider" }
       ]
+    },
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "ally",
+      "description": "Obama called Mamdani before the 2025 mayoral election, praised his campaign and offered to be a \"sounding board\"; he did not formally endorse him.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.timesofisrael.com/liveblog_entry/obama-calls-mamdani-praises-his-campaign-offers-to-serve-as-sounding-board-if-he-wins-nyc-mayoral-race/", "title": "Obama calls Mamdani, offers to serve as sounding board — Times of Israel (citing NYT)" },
+        { "url": "https://www.washingtontimes.com/news/2025/nov/3/obama-held-private-phone-call-zohran-mamdani-campaigning-sherrill/", "title": "Obama held private phone call with Zohran Mamdani — The Washington Times" }
+      ]
     }
   ],
   "affiliations": [],

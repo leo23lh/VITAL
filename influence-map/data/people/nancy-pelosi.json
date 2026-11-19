@@ -171,6 +171,18 @@
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00213512&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Nancy Pelosi for Congress" },
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00344234&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to PAC to the Future" }
       ]
+    },
+    {
+      "name": "Ro Khanna",
+      "slug": "ro-khanna",
+      "relationship_type": "ally",
+      "description": "Pelosi backed Khanna's 2014 House bid and in 2018 asked him to draft an Internet Bill of Rights.",
+      "start_year": 2014,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

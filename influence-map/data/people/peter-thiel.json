@@ -591,6 +591,18 @@
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00536540&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Jobs, Freedom, and Security PAC" },
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=THIEL%2C+PETER&committee_id=C00492785&two_year_transaction_period=2022", "title": "FEC receipts: THIEL, PETER to Ted Cruz for Senate" }
       ]
+    },
+    {
+      "name": "Ro Khanna",
+      "slug": "ro-khanna",
+      "relationship_type": "funded_by",
+      "description": "Thiel supported Khanna's congressional candidacies in 2011, 2013 and 2016.",
+      "start_year": 2011,
+      "end_year": 2016,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [
