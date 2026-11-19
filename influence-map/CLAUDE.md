@@ -30,6 +30,8 @@ the slash commands in the repo root's `.claude/commands/`:
 | `data/history.json` | Monthly snapshots of Pull and 2028 first choices, for trends (`npm run freshness -- --snapshot`). |
 | `scripts/rift-check.mjs` | Backtests the rift watch, lists today's warnings and logs them (`npm run rifts`). See "Factions and rifts". |
 | `data/rifts.json` | The rift log: dated runs of `[person, person, score, strains]` (`npm run rifts -- --save`). |
+| `scripts/build-web.mjs` | Builds the public site into `dist-web/` (`npm run build:web`). See "Public site". |
+| `scripts/briefing.mjs` | Drafts a "what changed this week" note from the files (`npm run briefing`). See "Public site". |
 | `scripts/tune-pull.mjs` | Tests Pull's weights against the track record of asks (`npm run tune-pull`). See "Track record". |
 | `src/` | Vite + React + TypeScript viewer (`npm run dev`). Reads the data folder and live-reloads. |
 
@@ -912,6 +914,30 @@ on a phone. Its link is in `artifact.json`.
   database rule above, and `downloads` for PNG export).
 - The same source builds both versions; `src/lib/platform.ts` switches data
   loading and PNG saving on `import.meta.env.MODE === 'artifact'`.
+
+## Public site
+
+`npm run build:web` builds a public, read-only copy of the viewer into
+`dist-web/`: static files with relative paths (any folder or host serves
+them) plus `data.json`, the public copy of the data.
+
+- **What stays out** (`scripts/lib/public-data.mjs`): every file marked
+  `public_figure: false` or `self_added` (the owner's own file), every link to
+  them, sentences in other files' notes that name them, Updates entries that
+  name them, and their monthly snapshots. The build then searches the result
+  for any slug, full name or `user-provided` source left behind and refuses to
+  build if it finds one; `publicData.test.ts` checks the same on every test run.
+- **Shareable links.** Outside the claude.ai page, the address bar follows
+  what is open: `?p=<slug>` opens a person, `?pair=<a>|<b>` the ties between
+  two. Anyone opening the link lands on the same thing.
+- **About this map** (Views) says in plain words what the map is, where the
+  facts come from and what the scores mean. Keep it in step with this file.
+- `npm run briefing` drafts a short note on the past week (`-- --since
+  YYYY-MM-DD` for another period, `-- --save` to keep it in `briefings/`):
+  the Updates entries, new people, new feuds, ended and new ties (by comparing
+  the files with git history), the biggest Pull moves since the last monthly
+  snapshot, and the top rift warnings. It restates only what the files say and
+  leaves private files out. Edit it before posting.
 
 ## Working on the viewer
 

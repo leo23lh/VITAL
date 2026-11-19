@@ -31,6 +31,17 @@ export default defineConfig(({ mode }) => {
     };
   }
 
+  if (mode === 'web') {
+    // `npm run build:web`: the public site. Static files with relative paths, so it can be
+    // served from any folder (GitHub Pages serves it under /VITAL/); scripts/build-web.mjs
+    // writes the public data next to it as data.json.
+    return {
+      plugins: [react()],
+      base: './',
+      build: { outDir: 'dist-web', emptyOutDir: true },
+    };
+  }
+
   return {
     plugins: [react(), peopleData(dataDir)],
     server: {

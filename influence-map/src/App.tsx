@@ -4,6 +4,8 @@ import OrgChart from './components/OrgChart';
 import PullView from './components/PullView';
 import BackingView from './components/BackingView';
 import FactionsView from './components/FactionsView';
+import AboutView from './components/AboutView';
+import { IS_ARTIFACT } from './lib/platform';
 import Menus from './components/Menus';
 import SidePanel from './components/SidePanel';
 import Toolbar from './components/Toolbar';
@@ -192,6 +194,31 @@ export default function App() {
     setSelection(null);
   }, []);
 
+  // Shareable links (not on the claude.ai page): ?p=<slug> opens a person, ?pair=<a>|<b> a pair,
+  // and the address bar follows whatever is open.
+  const linked = useRef(false);
+  useEffect(() => {
+    if (IS_ARTIFACT || !loaded || linked.current || !byId.size) return;
+    linked.current = true;
+    const q = new URLSearchParams(window.location.search);
+    const p = q.get('p');
+    const [a, b] = (q.get('pair') ?? '').split('|');
+    if (p && byId.has(p)) {
+      focusNode(p);
+      // The layout has no positions yet on first load; center once the dots have spread out.
+      window.setTimeout(() => focusNode(p), 1500);
+    } else if (a && b && byId.has(a) && byId.has(b)) setSelection({ kind: 'link', id: pairKey(a, b) });
+  }, [loaded, byId, focusNode]);
+  useEffect(() => {
+    if (IS_ARTIFACT || !linked.current) return;
+    const url = new URL(window.location.href);
+    url.searchParams.delete('p');
+    url.searchParams.delete('pair');
+    if (selection?.kind === 'node') url.searchParams.set('p', selection.id);
+    else if (selection?.kind === 'link') url.searchParams.set('pair', selection.id);
+    if (url.href !== window.location.href) window.history.replaceState(null, '', url);
+  }, [selection]);
+
   const empty = loaded && people.length === 0;
   const filtersActive = activeFilterCount(filters);
   const stats = {
@@ -284,6 +311,8 @@ export default function App() {
               onSelect={(id) => setSelection({ kind: 'node', id })}
               onPair={(a, b) => setSelection({ kind: 'link', id: pairKey(a, b) })}
             />
+          ) : view.kind === 'about' ? (
+            <AboutView people={stats.researched} orgs={stats.orgs} links={stats.links} updated={updates[0]?.date} />
           ) : orgChart ? (
             <OrgChart chart={orgChart} selectedId={selectedNodeId} onSelect={(id) => setSelection({ kind: 'node', id })} />
           ) : (

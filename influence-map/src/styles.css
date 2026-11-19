@@ -2443,3 +2443,24 @@ a.source-chip:hover {
   margin: 0;
   padding-left: 18px;
 }
+
+/* About this map */
+.about p,
+.about ul {
+  max-width: 640px;
+  line-height: 1.55;
+}
+.about h3 {
+  margin: 20px 0 6px;
+  font-size: 1rem;
+}
+.about ul {
+  padding-left: 20px;
+}
+.about li {
+  margin: 4px 0;
+}
+.about a {
+  color: inherit;
+  text-decoration: underline;
+}

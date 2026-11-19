@@ -1,9 +1,14 @@
-// The viewer runs in two places:
+// The viewer runs in three places:
 // - locally (`npm run dev`), reading data/people/ through the dev server
 // - as a claude.ai Artifact page (`npm run build:artifact`), reading the
-//   page's own database, which /add-person keeps in sync with data/people/.
+//   page's own database, which /add-person keeps in sync with data/people/
+// - as the public site (`npm run build:web`), reading a static data.json
+//   with private files left out (scripts/lib/public-data.mjs).
 
 export const IS_ARTIFACT = import.meta.env.MODE === 'artifact';
+
+/** The public site (`npm run build:web`): reads a static data.json made at build time, with private files left out. */
+export const IS_WEB = import.meta.env.MODE === 'web';
 
 /** Minimal slice of the claude.ai Artifact runtime used by this app. */
 export interface ArtifactDocSnapshot {

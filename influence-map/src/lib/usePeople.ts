@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import {
   IS_ARTIFACT,
+  IS_WEB,
   ORGS_COLLECTION,
   HISTORY_COLLECTION,
   PEOPLE_COLLECTION,
@@ -37,7 +38,7 @@ export function usePeople() {
 
   const load = useCallback(async () => {
     try {
-      const res = await fetch('/api/people', { cache: 'no-store' });
+      const res = await fetch(IS_WEB ? 'data.json' : '/api/people', { cache: IS_WEB ? 'no-cache' : 'no-store' });
       if (!res.ok) throw new Error(`Server returned ${res.status}`);
       const data = (await res.json()) as Partial<PeoplePayload>;
       setPayload({

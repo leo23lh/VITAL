@@ -43,7 +43,9 @@ export type View =
   /** The factions the map's ties divide into, or the friendly ties most at risk of breaking. */
   | { kind: 'factions'; tab?: 'factions' | 'rifts' }
   /** One faction on the map (its members are carried in the view, since factions are computed). */
-  | { kind: 'faction'; id: string; label: string; members: string[] };
+  | { kind: 'faction'; id: string; label: string; members: string[] }
+  /** What the map is, where its facts come from, what the scores mean. */
+  | { kind: 'about' };
 
 export type Layout = 'wide' | 'card' | 'sheet';
 

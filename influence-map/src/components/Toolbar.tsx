@@ -60,6 +60,8 @@ export function viewLabel(view: View, nameOf: (id: string) => string): string {
       return 'Factions & rifts';
     case 'faction':
       return view.label;
+    case 'about':
+      return 'About this map';
   }
 }
 
