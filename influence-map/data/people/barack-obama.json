@@ -251,6 +251,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
       ]
+    },
+    {
+      "name": "Amy Klobuchar",
+      "slug": "amy-klobuchar",
+      "relationship_type": "ally",
+      "description": "Klobuchar endorsed Obama in the 2008 primaries and pledged her superdelegate vote to him.",
+      "start_year": 2008,
+      "end_year": 2016,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so each news fact was confirmed through search results tied to the cited URL. Ties to Biden, Clinton, Plouffe and Emanuel will gain sources as their own files are added.",

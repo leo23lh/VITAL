@@ -1,0 +1,147 @@
+{
+  "name": "Katherine Clark",
+  "aliases": ["Katherine Marlea Clark"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic Massachusetts legislator and congresswoman since 2013; House Democratic whip since 2023.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "House Democratic whip (minority whip; majority leader-designate for January 2027)",
+    "unit": "house",
+    "rank": 2,
+    "since": "2023-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" }
+    ]
+  },
+  "current_role": "House Democratic whip (since 2023); majority leader-designate for the Congress that opens January 3, 2027",
+  "summary": "Katherine Clark has represented Massachusetts's 5th district in the House since 2013 and has been the House Democratic whip, the party's second-ranking leader, since 2023, after serving as caucus vice chair and assistant speaker under Nancy Pelosi. After Democrats won the House majority in November 2026 she was designated to become majority leader in January 2027.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" },
+    { "url": "https://www.ajc.com/news/2026/11/house-democrats-prepare-to-elect-leaders-for-the-new-congress-as-party-pushes-for-change/", "title": "House Democrats prepare to elect leaders for the new Congress — AJC (AP)" }
+  ],
+  "timeline": [
+    {
+      "year": 2011,
+      "end_year": 2013,
+      "role": "State representative, then state senator",
+      "org": "Massachusetts General Court",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": null,
+      "role": "U.S. representative (Massachusetts's 5th district)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2021,
+      "role": "Vice chair of the House Democratic Caucus",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" },
+        { "url": "https://thehill.com/homenews/house/418836-clark-wins-spot-as-dem-caucus-vice-chair", "title": "Clark wins spot as Dem caucus vice chair — The Hill" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2023,
+      "role": "Assistant speaker",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": null,
+      "role": "House Democratic whip",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Hakeem Jeffries",
+      "slug": "hakeem-jeffries",
+      "relationship_type": "ally",
+      "description": "Clark has been Jeffries's whip, his second-in-command in the House Democratic leadership, since both were elected on November 30, 2022.",
+      "start_year": 2022,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "colleague",
+      "description": "Clark rose through Pelosi's leadership team as caucus vice chair (2019–2021) and assistant speaker (2021–2023).",
+      "start_year": 2019,
+      "end_year": 2023,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Pete Aguilar",
+      "slug": "pete-aguilar",
+      "relationship_type": "rival",
+      "description": "Clark beat Aguilar 144–90 for vice chair of the House Democratic Caucus on November 28, 2018; they have since served together in the leadership.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" },
+        { "url": "https://thehill.com/homenews/house/418836-clark-wins-spot-as-dem-caucus-vice-chair", "title": "Clark wins spot as Dem caucus vice chair — The Hill" }
+      ]
+    },
+    {
+      "name": "Pete Aguilar",
+      "slug": "pete-aguilar",
+      "relationship_type": "colleague",
+      "description": "Fellow members of the House Democratic leadership under Jeffries since 2023 (whip and caucus chair).",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Clark boycotted Trump's 2017 inauguration and has led House Democratic opposition to his agenda as whip.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment. Wikipedia lists her as majority leader-designate after the November 18–19, 2026 caucus elections; no news report of the vote was found by search.",
+  "last_researched": "2026-11-19"
+}

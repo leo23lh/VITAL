@@ -158,6 +158,30 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
       ]
+    },
+    {
+      "name": "Katherine Clark",
+      "slug": "katherine-clark",
+      "relationship_type": "ally",
+      "description": "Clark has been Jeffries's whip, his second-in-command in the House Democratic leadership, since 2023.",
+      "start_year": 2022,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Pete Aguilar",
+      "slug": "pete-aguilar",
+      "relationship_type": "ally",
+      "description": "Aguilar succeeded Jeffries as House Democratic Caucus chair in 2023 and is part of his leadership team.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+      ]
     }
   ],
   "office": {

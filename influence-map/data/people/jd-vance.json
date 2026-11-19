@@ -752,6 +752,18 @@
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00783167&two_year_transaction_period=2024", "title": "FEC receipts: WITKOFF, ZACH to Working for Ohio" },
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&committee_id=C00783142&two_year_transaction_period=2024", "title": "FEC receipts: WITKOFF, ZACH to JD Vance for Senate Inc." }
       ]
+    },
+    {
+      "name": "Tim Walz",
+      "slug": "tim-walz",
+      "relationship_type": "rival",
+      "description": "Opposing vice-presidential nominees in 2024; Vance questioned the timing of Walz's military retirement, and Walz called Trump and Vance \"weird.\"",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [],

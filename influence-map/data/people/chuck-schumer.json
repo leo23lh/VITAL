@@ -152,6 +152,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
       ]
+    },
+    {
+      "name": "Amy Klobuchar",
+      "slug": "amy-klobuchar",
+      "relationship_type": "colleague",
+      "description": "Klobuchar has served in Schumer's Senate Democratic leadership team, chairing the Steering Committee, since 2015.",
+      "start_year": 2015,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" }
+      ]
     }
   ],
   "office": {

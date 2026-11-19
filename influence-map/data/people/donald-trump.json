@@ -2304,6 +2304,44 @@
         { "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act", "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)" },
         { "url": "https://decrypt.co/359364/elizabeth-warren-occ-chief-spar-over-trump-linked-crypto-bank-bid", "title": "Elizabeth Warren, OCC chief spar over Trump-linked crypto bank bid — Decrypt" }
       ]
+    },
+    {
+      "name": "Tim Walz",
+      "slug": "tim-walz",
+      "relationship_type": "enemy",
+      "description": "Trump called Walz \"grossly incompetent\" and \"corrupt\" over Minnesota's fraud scandal; Walz blamed Trump and his allies when he dropped his reelection bid in January 2026.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.nbcnewyork.com/news/national-international/minnesota-gov-tim-walz-ends-reelection-bid-fraud-investigations-donald-trump/6439197/", "title": "Minnesota Gov. Tim Walz ends reelection bid amid fraud investigations — NBC News" },
+        { "url": "https://fortune.com/2026/01/05/minnesota-gov-tim-walz-drops-bid-for-reelection-citing-extraordinarily-difficult-year-for-our-state/", "title": "Minnesota Gov. Tim Walz drops bid for reelection — Fortune (AP)" },
+        { "url": "https://freebeacon.com/latest-news/walz-drops-reelection-bid-as-minnesota-reels-from-massive-welfare-fraud/", "title": "Walz drops reelection bid as Minnesota reels from massive welfare fraud — Washington Free Beacon" }
+      ]
+    },
+    {
+      "name": "Katherine Clark",
+      "slug": "katherine-clark",
+      "relationship_type": "enemy",
+      "description": "Clark boycotted Trump's 2017 inauguration and has led House Democratic opposition to his agenda as whip.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Pete Aguilar",
+      "slug": "pete-aguilar",
+      "relationship_type": "enemy",
+      "description": "Aguilar sat on the January 6 select committee and led its 2022 hearing on Trump's pressure on Pence.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

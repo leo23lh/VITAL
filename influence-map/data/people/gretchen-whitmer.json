@@ -15,6 +15,12 @@
       ]
     }
   ],
+  "photo": {
+    "file": "gretchen-whitmer.jpg",
+    "credit": "City of Detroit",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:8R4A9872_(53367444225)_(Whitmer1).jpg", "title": "File:8R4A9872 (53367444225) (Whitmer1).jpg — Wikimedia Commons" }
+  },
   "current_role": "Governor of Michigan (since 2019; term-limited, leaves office in January 2027)",
   "summary": "Gretchen Whitmer has been the Democratic governor of Michigan since 2019 after 14 years in the state legislature, and is term-limited out in January 2027. She was a national co-chair of Joe Biden's 2020 campaign and a finalist to be his running mate. In Trump's second term she has worked with him on Michigan priorities, which drew criticism from some Democrats; on May 28, 2026 she said she would not run for president in 2028, then walked it back hours later.",
   "sources": [
@@ -119,7 +125,8 @@
       "end_year": 2025,
       "confidence": 0.6,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Ken_Martin_(politician)", "title": "Ken Martin (politician) — Wikipedia" }
       ]
     }
   ],

@@ -187,6 +187,30 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
       ]
+    },
+    {
+      "name": "Amy Klobuchar",
+      "slug": "amy-klobuchar",
+      "relationship_type": "ally",
+      "description": "Klobuchar ended her 2020 campaign and endorsed Biden before Super Tuesday; she was the first speaker at his inauguration.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Pete Aguilar",
+      "slug": "pete-aguilar",
+      "relationship_type": "ally",
+      "description": "Biden pre-emptively pardoned the January 6 select committee members, including Aguilar, in January 2025.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Health matters are left out under the research rules.",

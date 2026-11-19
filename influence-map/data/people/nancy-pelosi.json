@@ -183,6 +183,30 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
       ]
+    },
+    {
+      "name": "Katherine Clark",
+      "slug": "katherine-clark",
+      "relationship_type": "colleague",
+      "description": "Clark served in Pelosi's leadership as caucus vice chair (2019–2021) and assistant speaker (2021–2023).",
+      "start_year": 2019,
+      "end_year": 2023,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Pete Aguilar",
+      "slug": "pete-aguilar",
+      "relationship_type": "colleague",
+      "description": "Aguilar was caucus vice chair under Pelosi (2021–2023) and served on her January 6 select committee.",
+      "start_year": 2021,
+      "end_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

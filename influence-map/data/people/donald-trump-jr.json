@@ -307,6 +307,18 @@
         { "url": "https://en.wikipedia.org/wiki/Eric_Trump", "title": "Eric Trump — Wikipedia" },
         { "url": "https://fortune.com/crypto/2025/03/31/eric-trump-donald-trump-jr-american-bitcoin-hut-8/", "title": "Eric Trump and Donald Trump Jr. launch American Bitcoin with Hut 8 — Fortune" }
       ]
+    },
+    {
+      "name": "Tim Walz",
+      "slug": "tim-walz",
+      "relationship_type": "enemy",
+      "description": "Trump Jr. attacked the timing of Walz's National Guard retirement during the 2024 campaign.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

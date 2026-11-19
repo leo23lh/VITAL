@@ -1,0 +1,195 @@
+{
+  "name": "Tim Walz",
+  "aliases": [
+    "Timothy James Walz"
+  ],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [
+    "critics"
+  ],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic–Farmer–Labor congressman (2007–2019) and governor of Minnesota since 2019; Kamala Harris's 2024 running mate.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
+          "title": "Tim Walz — Wikipedia"
+        }
+      ]
+    }
+  ],
+  "current_role": "Governor of Minnesota (since 2019; did not seek a third term; leaves office January 2027)",
+  "summary": "Tim Walz, a former teacher and Army National Guard veteran, served six terms in the U.S. House before becoming governor of Minnesota in 2019, and was Kamala Harris's running mate in 2024. He dropped his bid for a third term on January 5, 2026 as a welfare-fraud scandal in state-funded social services, seized on by President Trump, intensified; Amy Klobuchar won the race to succeed him.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Tim_Walz",
+      "title": "Tim Walz — Wikipedia"
+    },
+    {
+      "url": "https://www.nbcnewyork.com/news/national-international/minnesota-gov-tim-walz-ends-reelection-bid-fraud-investigations-donald-trump/6439197/",
+      "title": "Minnesota Gov. Tim Walz ends reelection bid amid fraud investigations — NBC News"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 2007,
+      "end_year": 2019,
+      "role": "U.S. representative (Minnesota's 1st district)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
+          "title": "Tim Walz — Wikipedia"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "Governor of Minnesota",
+      "org": "State of Minnesota",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
+          "title": "Tim Walz — Wikipedia"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "role": "Democratic nominee for vice president",
+      "org": "Harris for President",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
+          "title": "Tim Walz — Wikipedia"
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "role": "Ended his campaign for a third term on January 5",
+      "org": "State of Minnesota",
+      "sources": [
+        {
+          "url": "https://www.nbcnewyork.com/news/national-international/minnesota-gov-tim-walz-ends-reelection-bid-fraud-investigations-donald-trump/6439197/",
+          "title": "Minnesota Gov. Tim Walz ends reelection bid amid fraud investigations — NBC News"
+        },
+        {
+          "url": "https://fortune.com/2026/01/05/minnesota-gov-tim-walz-drops-bid-for-reelection-citing-extraordinarily-difficult-year-for-our-state/",
+          "title": "Minnesota Gov. Tim Walz drops bid for reelection — Fortune (AP)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "Harris named Walz her running mate on August 6, 2024; they lost to Trump and Vance.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
+          "title": "Tim Walz — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "rival",
+      "description": "Opposing vice-presidential nominees in 2024, including the October 1, 2024 debate; Walz popularized calling Trump and Vance \"weird,\" and Vance questioned the timing of Walz's military retirement.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
+          "title": "Tim Walz — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Trump called Walz \"grossly incompetent\" and \"corrupt\" over Minnesota's social-services fraud scandal; Walz said Trump and his allies \"want to make our state a colder, meaner place\" when he dropped his reelection bid in January 2026.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        {
+          "url": "https://www.nbcnewyork.com/news/national-international/minnesota-gov-tim-walz-ends-reelection-bid-fraud-investigations-donald-trump/6439197/",
+          "title": "Minnesota Gov. Tim Walz ends reelection bid amid fraud investigations — NBC News"
+        },
+        {
+          "url": "https://fortune.com/2026/01/05/minnesota-gov-tim-walz-drops-bid-for-reelection-citing-extraordinarily-difficult-year-for-our-state/",
+          "title": "Minnesota Gov. Tim Walz drops bid for reelection — Fortune (AP)"
+        },
+        {
+          "url": "https://freebeacon.com/latest-news/walz-drops-reelection-bid-as-minnesota-reels-from-massive-welfare-fraud/",
+          "title": "Walz drops reelection bid as Minnesota reels from massive welfare fraud — Washington Free Beacon"
+        }
+      ]
+    },
+    {
+      "name": "Amy Klobuchar",
+      "slug": "amy-klobuchar",
+      "relationship_type": "ally",
+      "description": "Walz endorsed Klobuchar's 2020 presidential bid in February 2019; she ran to succeed him after he withdrew in 2026 and won.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
+          "title": "Tim Walz — Wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar",
+          "title": "Amy Klobuchar — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "enemy",
+      "description": "During the 2024 campaign Trump Jr. was among the Republicans who attacked the timing of Walz's retirement from the National Guard.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
+          "title": "Tim Walz — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Ken Martin",
+      "slug": "ken-martin",
+      "relationship_type": "colleague",
+      "description": "Martin chaired the Minnesota DFL through Walz's House races and his 2018 and 2022 governor wins; based on overlapping roles.",
+      "start_year": 2011,
+      "end_year": 2025,
+      "confidence": 0.5,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ken_Martin_(politician)",
+          "title": "Ken Martin (politician) — Wikipedia"
+        }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL.",
+  "last_researched": "2026-11-19"
+}

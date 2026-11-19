@@ -443,6 +443,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Mark_Kelly", "title": "Mark Kelly — Wikipedia" }
       ]
+    },
+    {
+      "name": "Tim Walz",
+      "slug": "tim-walz",
+      "relationship_type": "ally",
+      "description": "Harris chose Walz as her running mate on August 6, 2024; they lost to Trump and Vance.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],
