@@ -2342,6 +2342,70 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
       ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "rival",
+      "description": "Trump defeated Clinton in the 2016 presidential election; she won the popular vote but lost the Electoral College.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "enemy",
+      "description": "Trump's campaigns attacked Clinton with \"lock her up\"; his March 2025 memo barred her from classified information and secure facilities.",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.nbcwashington.com/news/national-international/trump-revokes-access-to-classified-material-for-kamala-harris-hillary-clinton-and-biden-officials/3873990/", "title": "Trump revokes access to classified material for Kamala Harris, Hillary Clinton and Biden officials — NBC News" },
+        { "url": "https://www.foxnews.com/politics/trump-revokes-security-clearances-former-opponents-kamala-harris-hillary-clinton", "title": "Trump revokes security clearances of former opponents Kamala Harris, Hillary Clinton — Fox News" },
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Dick Durbin",
+      "slug": "dick-durbin",
+      "relationship_type": "enemy",
+      "description": "Durbin voted to convict Trump at his first impeachment trial and called for invoking the 25th Amendment after January 6, 2021.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Adam Schiff",
+      "slug": "adam-schiff",
+      "relationship_type": "enemy",
+      "description": "Schiff led the House managers in Trump's first impeachment trial; in 2025 Trump called him a \"scam artist\" after a mortgage-fraud referral against him, which Schiff denies.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" },
+        { "url": "https://news.inman.com/2025/07/15/trump-adminstration-accuses-another-political-opponent-of-mortgage-fraud-adam-schiff/", "title": "Trump administration accuses another political opponent of mortgage fraud: Adam Schiff — Inman" },
+        { "url": "https://www.foxnews.com/politics/timeline-scam-artist-adam-schiffs-mortgage-fraud-allegations-stretching-back-years", "title": "Timeline of Adam Schiff mortgage fraud allegations — Fox News" }
+      ]
+    },
+    {
+      "name": "Jamie Raskin",
+      "slug": "jamie-raskin",
+      "relationship_type": "enemy",
+      "description": "Raskin wrote the impeachment article after January 6, 2021 and was lead manager in Trump's second impeachment trial.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

@@ -163,6 +163,18 @@
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00692640&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Fighting for Missouri PAC" },
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KLINGENSTEIN%2C+THOMAS&committee_id=C00656926&two_year_transaction_period=2024", "title": "FEC receipts: KLINGENSTEIN, THOMAS to Hawley Victory Committee" }
       ]
+    },
+    {
+      "name": "Dick Durbin",
+      "slug": "dick-durbin",
+      "relationship_type": "enemy",
+      "description": "Durbin said Hawley, who objected to certifying the 2020 election, was partly responsible for the January 6 attack.",
+      "start_year": 2021,
+      "end_year": 2021,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",

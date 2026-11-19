@@ -211,6 +211,42 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
       ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "ally",
+      "description": "Clinton served alongside Biden in Obama's administration and endorsed him for president in April 2020.",
+      "start_year": 2009,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Adam Schiff",
+      "slug": "adam-schiff",
+      "relationship_type": "ally",
+      "description": "Biden pre-emptively pardoned Schiff and the other January 6 committee members in January 2025, though Schiff had urged him to quit the 2024 race.",
+      "start_year": 2021,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jamie Raskin",
+      "slug": "jamie-raskin",
+      "relationship_type": "ally",
+      "description": "Biden pre-emptively pardoned the January 6 select committee members, including Raskin, on January 20, 2025.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Health matters are left out under the research rules.",

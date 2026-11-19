@@ -164,6 +164,30 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" }
       ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "colleague",
+      "description": "New York's two senators from 2001 to 2009; together they secured $21 billion for rebuilding the World Trade Center site.",
+      "start_year": 2001,
+      "end_year": 2009,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Dick Durbin",
+      "slug": "dick-durbin",
+      "relationship_type": "ally",
+      "description": "Durbin has been Schumer's whip, the No. 2 Senate Democrat, since 2017; in 2015 they agreed Schumer would succeed Reid with Durbin as whip.",
+      "start_year": 2015,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+      ]
     }
   ],
   "office": {

@@ -207,6 +207,30 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
       ]
+    },
+    {
+      "name": "Adam Schiff",
+      "slug": "adam-schiff",
+      "relationship_type": "ally",
+      "description": "Pelosi named Schiff lead manager for Trump's first impeachment (2020) and backed his Senate run.",
+      "start_year": 2014,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jamie Raskin",
+      "slug": "jamie-raskin",
+      "relationship_type": "ally",
+      "description": "Pelosi named Raskin to the January 6 select committee and lead manager of Trump's second impeachment.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

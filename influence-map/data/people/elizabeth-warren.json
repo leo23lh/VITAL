@@ -226,6 +226,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
       ]
+    },
+    {
+      "name": "Jamie Raskin",
+      "slug": "jamie-raskin",
+      "relationship_type": "ally",
+      "description": "Warren campaigned with Raskin in his 2016 House race.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news and Senate pages could not be opened in this environment, so those facts were confirmed through search results tied to each cited URL. The Banking Committee pages are her own minority office's releases.",

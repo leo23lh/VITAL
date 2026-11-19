@@ -203,6 +203,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
       ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "rival",
+      "description": "Sanders challenged Clinton for the 2016 Democratic nomination before endorsing her in July 2016.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

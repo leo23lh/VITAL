@@ -455,6 +455,32 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" }
       ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "ally",
+      "description": "Bill and Hillary Clinton endorsed Harris on July 21, 2024, the day Biden withdrew.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" },
+        { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris — AP via Hawaii News Now" }
+      ]
+    },
+    {
+      "name": "Alex Soros",
+      "slug": "alex-soros",
+      "relationship_type": "ally",
+      "description": "Harris attended Alex Soros's June 2025 wedding; the Soros operation backed her 2024 campaign through Democracy PAC.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://digital-release.newsnationnow.com/?p=3418428", "title": "Clintons, Harris attend Hamptons wedding of Huma Abedin, Alex Soros — NewsNation" },
+        { "url": "https://www.cnn.com/2023/06/12/investing/george-soros-taps-son-alexander/index.html", "title": "George Soros has handed control of his charitable and political activities to his son Alex — CNN" }
+      ]
     }
   ],
   "affiliations": [],

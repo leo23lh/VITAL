@@ -87,7 +87,8 @@
       "end_year": 2008,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
       ]
     },
     {
@@ -99,7 +100,8 @@
       "end_year": 2013,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
       ]
     },
     {
@@ -262,6 +264,18 @@
       "confidence": 0.7,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Dick Durbin",
+      "slug": "dick-durbin",
+      "relationship_type": "ally",
+      "description": "Illinois's two senators from 2005 to 2008; Durbin introduced Obama at the 2008 Democratic National Convention.",
+      "start_year": 2005,
+      "end_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
       ]
     }
   ],
