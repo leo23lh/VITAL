@@ -353,6 +353,18 @@
         { "url": "https://www.schatz.senate.gov/kosma", "title": "Kids Off Social Media Act — Sen. Brian Schatz" },
         { "url": "https://www.britt.senate.gov/news/press-releases/u-s-senators-katie-britt-brian-schatz-ted-cruz-chris-murphy-introduce-bill-to-protect-kids-on-social-media/", "title": "Senators Britt, Schatz, Cruz, Murphy introduce bill to protect kids on social media — Sen. Katie Britt" }
       ]
+    },
+    {
+      "name": "Ruben Gallego",
+      "slug": "ruben-gallego",
+      "relationship_type": "enemy",
+      "description": "After the 2022 Uvalde shooting Gallego attacked Cruz on social media for opposing gun control.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

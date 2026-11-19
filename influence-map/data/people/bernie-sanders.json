@@ -179,6 +179,30 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
       ]
+    },
+    {
+      "name": "Elizabeth Warren",
+      "slug": "elizabeth-warren",
+      "relationship_type": "ally",
+      "description": "Leading progressive allies in the Senate who have backed each other's bills.",
+      "start_year": 2013,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elizabeth Warren",
+      "slug": "elizabeth-warren",
+      "relationship_type": "rival",
+      "description": "Both sought the 2020 Democratic nomination; Warren withdrew on March 5, 2020.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

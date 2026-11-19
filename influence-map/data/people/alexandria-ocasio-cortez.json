@@ -158,6 +158,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
       ]
+    },
+    {
+      "name": "Elizabeth Warren",
+      "slug": "elizabeth-warren",
+      "relationship_type": "ally",
+      "description": "Warren wrote Ocasio-Cortez's 2019 Time 100 entry; they have introduced legislation together.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

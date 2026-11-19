@@ -1,13 +1,9 @@
 {
   "name": "Joe Biden",
-  "aliases": [
-    "Joseph Robinette Biden Jr."
-  ],
+  "aliases": ["Joseph Robinette Biden Jr."],
   "public_figure": true,
   "sector": "politics",
-  "groups": [
-    "critics"
-  ],
+  "groups": ["critics"],
   "lean": [
     {
       "value": -2,
@@ -15,10 +11,7 @@
       "end_year": null,
       "basis": "Democratic U.S. senator from Delaware (1973–2009), Democratic vice president and Democratic president.",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
       ]
     }
   ],
@@ -26,22 +19,13 @@
     "file": "joe-biden.jpg",
     "credit": "Adam Schultz",
     "license": "Public domain",
-    "source": {
-      "url": "https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg",
-      "title": "File:Joe Biden presidential portrait.jpg — Wikimedia Commons"
-    }
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg", "title": "File:Joe Biden presidential portrait.jpg — Wikimedia Commons" }
   },
   "current_role": "Former President of the United States (2021–2025)",
   "summary": "Joe Biden was the 46th president of the United States from 2021 to 2025, after 36 years as a U.S. senator from Delaware and eight years as Barack Obama's vice president. He ended his 2024 reelection campaign on July 21, 2024 and endorsed Vice President Kamala Harris, who lost the election to Donald Trump.",
   "sources": [
-    {
-      "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-      "title": "Joe Biden — Wikipedia"
-    },
-    {
-      "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/",
-      "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now"
-    }
+    { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
+    { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now" }
   ],
   "timeline": [
     {
@@ -50,10 +34,7 @@
       "role": "U.S. senator from Delaware",
       "org": "U.S. Senate",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
       ]
     },
     {
@@ -62,10 +43,7 @@
       "role": "47th Vice President of the United States",
       "org": "The White House",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
       ]
     },
     {
@@ -74,10 +52,7 @@
       "role": "46th President of the United States",
       "org": "The White House",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
       ]
     },
     {
@@ -85,10 +60,7 @@
       "role": "Withdrew from the presidential race on July 21 and endorsed Kamala Harris",
       "org": "Biden for President",
       "sources": [
-        {
-          "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/",
-          "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now"
-        }
+        { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now" }
       ]
     }
   ],
@@ -102,10 +74,7 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
       ]
     },
     {
@@ -117,14 +86,8 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        },
-        {
-          "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/",
-          "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
+        { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now" }
       ]
     },
     {
@@ -136,14 +99,8 @@
       "end_year": 2024,
       "confidence": 0.98,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        },
-        {
-          "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/",
-          "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
+        { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now" }
       ]
     },
     {
@@ -155,18 +112,9 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://www.whitehouse.gov/presidential-actions/2025/06/reviewing-certain-presidential-actions/",
-          "title": "Reviewing Certain Presidential Actions — The White House"
-        },
-        {
-          "url": "https://www.npr.org/2025/06/05/nx-s1-5424313/trump-investigation-biden-autopen-cognitive-decline",
-          "title": "Trump orders a probe into the Biden administration and its alleged autopen use — NPR"
-        },
-        {
-          "url": "https://m.washingtontimes.com/news/2025/jun/4/trump-orders-probe-biden-aides-commandeering-autopen/",
-          "title": "Trump orders probe of Biden aides — The Washington Times"
-        }
+        { "url": "https://www.whitehouse.gov/presidential-actions/2025/06/reviewing-certain-presidential-actions/", "title": "Reviewing Certain Presidential Actions — The White House" },
+        { "url": "https://www.npr.org/2025/06/05/nx-s1-5424313/trump-investigation-biden-autopen-cognitive-decline", "title": "Trump orders a probe into the Biden administration and its alleged autopen use — NPR" },
+        { "url": "https://m.washingtontimes.com/news/2025/jun/4/trump-orders-probe-biden-aides-commandeering-autopen/", "title": "Trump orders probe of Biden aides — The Washington Times" }
       ]
     },
     {
@@ -178,14 +126,8 @@
       "end_year": 2025,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://www.cnbc.com/amp/2021/02/02/pete-buttigieg-confirmed-by-senate-as-biden-transportation-secretary.html",
-          "title": "Pete Buttigieg confirmed by Senate as Biden transportation secretary — CNBC"
-        },
-        {
-          "url": "https://www.pbs.org/newshour/politics/watch-live-senate-votes-to-confirm-pete-buttigieg-bidens-transportation-nominee",
-          "title": "Senate votes to confirm Pete Buttigieg — PBS NewsHour"
-        }
+        { "url": "https://www.cnbc.com/amp/2021/02/02/pete-buttigieg-confirmed-by-senate-as-biden-transportation-secretary.html", "title": "Pete Buttigieg confirmed by Senate as Biden transportation secretary — CNBC" },
+        { "url": "https://www.pbs.org/newshour/politics/watch-live-senate-votes-to-confirm-pete-buttigieg-bidens-transportation-nominee", "title": "Senate votes to confirm Pete Buttigieg — PBS NewsHour" }
       ]
     },
     {
@@ -197,10 +139,7 @@
       "end_year": 2020,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
       ]
     },
     {
@@ -210,10 +149,7 @@
       "description": "Wife, married 1977; first lady from 2021 to 2025.",
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
       ]
     },
     {
@@ -225,10 +161,31 @@
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer",
-          "title": "Gretchen Whitmer — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ruben Gallego",
+      "slug": "ruben-gallego",
+      "relationship_type": "ally",
+      "description": "Gallego endorsed Biden in March 2020.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elizabeth Warren",
+      "slug": "elizabeth-warren",
+      "relationship_type": "rival",
+      "description": "Warren ran against Biden in the 2020 primaries and was one of the finalists he considered for running mate.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
       ]
     }
   ],

@@ -140,6 +140,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
       ]
+    },
+    {
+      "name": "Elizabeth Warren",
+      "slug": "elizabeth-warren",
+      "relationship_type": "colleague",
+      "description": "Warren has been vice chair of the Senate Democratic Caucus in Schumer's leadership since 2017.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
     }
   ],
   "office": {

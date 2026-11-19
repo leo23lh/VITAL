@@ -2276,6 +2276,34 @@
         { "url": "https://www.nbcnews.com/politics/congress/-become-party-status-quo-chris-murphy-makes-case-lead-democrats-forwar-rcna194027", "title": "Chris Murphy makes his case to lead Democrats forward — NBC News" },
         { "url": "https://www.coloradopolitics.com/2025/06/02/chris-murphy-launches-national-pac-to-fund-anti-trump-organizers-report-d304ec70-eac1-54a5-893a-d1e0f8cb4fa8", "title": "Chris Murphy launches national PAC to fund anti-Trump organizers — Colorado Politics (Washington Examiner)" }
       ]
+    },
+    {
+      "name": "Mark Kelly",
+      "slug": "mark-kelly",
+      "relationship_type": "enemy",
+      "description": "Trump called the 2025 \"illegal orders\" video by Kelly and other lawmakers \"seditious behavior\" and said they should be arrested; Kelly voted to convict Trump in 2021.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cbsnews.com/amp/news/mark-kelly-lawsuit-pete-hegseth-pentagon", "title": "Sen. Mark Kelly sues Hegseth to block move to cut rank and pension over illegal orders video — CBS News" },
+        { "url": "https://www.fox10phoenix.com/news/mark-kelly-sues-pete-hegseth-after-being-censured-illegal-orders-video", "title": "Mark Kelly sues Pete Hegseth after being censured for 'illegal orders' video — Fox 10 Phoenix" },
+        { "url": "https://en.wikipedia.org/wiki/Mark_Kelly", "title": "Mark Kelly — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elizabeth Warren",
+      "slug": "elizabeth-warren",
+      "relationship_type": "enemy",
+      "description": "A Trump critic since 2016; in his second term she has accused him of profiting from the presidency through his family's crypto businesses.",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" },
+        { "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act", "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)" },
+        { "url": "https://decrypt.co/359364/elizabeth-warren-occ-chief-spar-over-trump-linked-crypto-bank-bid", "title": "Elizabeth Warren, OCC chief spar over Trump-linked crypto bank bid — Decrypt" }
+      ]
     }
   ],
   "source_conflicts": [

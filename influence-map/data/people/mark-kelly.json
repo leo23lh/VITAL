@@ -1,0 +1,140 @@
+{
+  "name": "Mark Kelly",
+  "aliases": ["Mark Edward Kelly"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics", "2028-race"],
+  "lean": [
+    {
+      "value": -1,
+      "start_year": 2020,
+      "end_year": null,
+      "basis": "Democratic U.S. senator since 2020 who ran as a moderate and has criticized Biden's border policy; voted to confirm some Trump nominees in 2025.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mark_Kelly", "title": "Mark Kelly — Wikipedia" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Has said he will \"seriously consider\" a 2028 run and would decide after the 2026 midterms.",
+    "sources": [
+      { "url": "https://www.kjzz.org/politics/2026-09-21/kelly-says-he-wont-decide-on-a-presidential-run-until-after-the-2026-election", "title": "Kelly says he won't decide on a presidential run until after the 2026 election — KJZZ" },
+      { "url": "https://www.thedailybeast.com/top-trump-foe-mark-kelly-floats-presidential-run-amid-pentagon-probe/", "title": "Top Trump foe Mark Kelly floats presidential run amid Pentagon probe — The Daily Beast" }
+    ]
+  },
+  "office": {
+    "title": "U.S. senator from Arizona",
+    "unit": "senate",
+    "rank": 4,
+    "since": "2020-12",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Mark_Kelly", "title": "Mark Kelly — Wikipedia" }
+    ]
+  },
+  "current_role": "U.S. senator from Arizona (since December 2020)",
+  "summary": "Mark Kelly, a retired Navy captain and NASA astronaut, has been a Democratic U.S. senator from Arizona since winning the 2020 special election for John McCain's former seat. After he and five other lawmakers released a November 2025 video urging service members to refuse illegal orders, Trump called it \"seditious behavior\" and Defense Secretary Hegseth moved to cut his retirement rank and pay; Kelly sued in January 2026 and says he is seriously considering a 2028 presidential run.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Mark_Kelly", "title": "Mark Kelly — Wikipedia" },
+    { "url": "https://www.cbsnews.com/amp/news/mark-kelly-lawsuit-pete-hegseth-pentagon", "title": "Sen. Mark Kelly sues Hegseth to block move to cut rank and pension over illegal orders video — CBS News" }
+  ],
+  "timeline": [
+    {
+      "year": 1987,
+      "end_year": 2011,
+      "role": "Naval aviator, then NASA astronaut (four Space Shuttle missions); retired as a captain",
+      "org": "U.S. Navy / NASA",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mark_Kelly", "title": "Mark Kelly — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2020,
+      "end_year": null,
+      "role": "U.S. senator from Arizona",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mark_Kelly", "title": "Mark Kelly — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "enemy",
+      "description": "Hegseth censured Kelly and opened proceedings to cut his retired rank and pay over the November 2025 \"illegal orders\" video; Kelly sued Hegseth and the Pentagon on January 12, 2026, citing the First Amendment and the Speech or Debate Clause.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cbsnews.com/amp/news/mark-kelly-lawsuit-pete-hegseth-pentagon", "title": "Sen. Mark Kelly sues Hegseth to block move to cut rank and pension over illegal orders video — CBS News" },
+        { "url": "https://www.nbcnews.com/politics/politics-news/sen-mark-kelly-sues-defense-secretary-pete-hegseth-efforts-reduce-mili-rcna253658", "title": "Sen. Mark Kelly sues Defense Secretary Pete Hegseth — NBC News" },
+        { "url": "https://www.fox10phoenix.com/news/mark-kelly-sues-pete-hegseth-after-being-censured-illegal-orders-video", "title": "Mark Kelly sues Pete Hegseth after being censured for 'illegal orders' video — Fox 10 Phoenix" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Trump called the November 2025 video in which Kelly and five other lawmakers urged troops to refuse illegal orders \"SEDITIOUS BEHAVIOR AT THE HIGHEST LEVEL\" and said they should be arrested and tried. Kelly voted to convict Trump at his second impeachment trial in 2021.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cbsnews.com/amp/news/mark-kelly-lawsuit-pete-hegseth-pentagon", "title": "Sen. Mark Kelly sues Hegseth to block move to cut rank and pension over illegal orders video — CBS News" },
+        { "url": "https://www.fox10phoenix.com/news/mark-kelly-sues-pete-hegseth-after-being-censured-illegal-orders-video", "title": "Mark Kelly sues Pete Hegseth after being censured for 'illegal orders' video — Fox 10 Phoenix" },
+        { "url": "https://en.wikipedia.org/wiki/Mark_Kelly", "title": "Mark Kelly — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "Kelly was one of the finalists Harris considered for her 2024 running mate before she chose Tim Walz, and campaigned for her.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mark_Kelly", "title": "Mark Kelly — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Gabby Giffords",
+      "slug": "gabby-giffords",
+      "relationship_type": "family",
+      "description": "Wife, married 2007; former congresswoman from Arizona and gun-safety advocate who survived a 2011 assassination attempt.",
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mark_Kelly", "title": "Mark Kelly — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Martha McSally",
+      "slug": "martha-mcsally",
+      "relationship_type": "rival",
+      "description": "Kelly defeated the appointed Republican senator McSally in the 2020 special election.",
+      "start_year": 2020,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mark_Kelly", "title": "Mark Kelly — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ruben Gallego",
+      "slug": "ruben-gallego",
+      "relationship_type": "colleague",
+      "description": "Arizona's two Democratic senators since January 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Mark_Kelly", "title": "Mark Kelly — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. The lawsuit's outcome after January 2026 was not found.",
+  "last_researched": "2026-11-19"
+}

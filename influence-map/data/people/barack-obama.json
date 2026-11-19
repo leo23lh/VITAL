@@ -1,14 +1,9 @@
 {
   "name": "Barack Obama",
-  "aliases": [
-    "Barack Hussein Obama II",
-    "Obama"
-  ],
+  "aliases": ["Barack Hussein Obama II", "Obama"],
   "public_figure": true,
   "sector": "politics",
-  "groups": [
-    "critics"
-  ],
+  "groups": ["critics"],
   "lean": [
     {
       "value": -2,
@@ -16,10 +11,7 @@
       "end_year": null,
       "basis": "Democratic Illinois state senator, U.S. senator and two-term Democratic president; has campaigned for Democratic candidates since leaving office.",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-          "title": "Barack Obama — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
       ]
     }
   ],
@@ -27,18 +19,12 @@
     "file": "barack-obama.jpg",
     "credit": "Official White House Photo by Pete Souza",
     "license": "Public domain",
-    "source": {
-      "url": "https://commons.wikimedia.org/wiki/File:President_Barack_Obama.jpg",
-      "title": "File:President Barack Obama.jpg — Wikimedia Commons"
-    }
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:President_Barack_Obama.jpg", "title": "File:President Barack Obama.jpg — Wikimedia Commons" }
   },
   "current_role": "Former President of the United States (2009–2017); head of the Obama Foundation",
   "summary": "Barack Obama was the 44th president of the United States from 2009 to 2017, after serving as a U.S. senator from Illinois (2005–2008) and an Illinois state senator. Since leaving office he has campaigned for Democratic candidates, including Joe Biden in 2020 and Kamala Harris in 2024, and remains the party's most prominent figure.",
   "sources": [
-    {
-      "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-      "title": "Barack Obama — Wikipedia"
-    }
+    { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
   ],
   "timeline": [
     {
@@ -47,10 +33,7 @@
       "role": "Illinois state senator (13th district)",
       "org": "Illinois Senate",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-          "title": "Barack Obama — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
       ]
     },
     {
@@ -59,10 +42,7 @@
       "role": "U.S. senator from Illinois",
       "org": "U.S. Senate",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-          "title": "Barack Obama — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
       ]
     },
     {
@@ -71,10 +51,7 @@
       "role": "44th President of the United States",
       "org": "The White House",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-          "title": "Barack Obama — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
       ]
     },
     {
@@ -83,10 +60,7 @@
       "role": "Founder; leads the Obama Foundation and presidential center",
       "org": "Obama Foundation",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-          "title": "Barack Obama — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
       ]
     }
   ],
@@ -100,14 +74,8 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-          "title": "Barack Obama — Wikipedia"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
       ]
     },
     {
@@ -119,10 +87,7 @@
       "end_year": 2008,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-          "title": "Barack Obama — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
       ]
     },
     {
@@ -134,10 +99,7 @@
       "end_year": 2013,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-          "title": "Barack Obama — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
       ]
     },
     {
@@ -149,18 +111,9 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://www.aljazeera.com/news/2024/7/26/barack-obama-endorses-kamala-harris-for-us-president",
-          "title": "Barack Obama endorses Kamala Harris for US president — Al Jazeera"
-        },
-        {
-          "url": "https://m.washingtontimes.com/news/2024/jul/26/obama-endorses-kamala-harris-for-president-she-has/",
-          "title": "Obama endorses Kamala Harris for president — The Washington Times"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-          "title": "Barack Obama — Wikipedia"
-        }
+        { "url": "https://www.aljazeera.com/news/2024/7/26/barack-obama-endorses-kamala-harris-for-us-president", "title": "Barack Obama endorses Kamala Harris for US president — Al Jazeera" },
+        { "url": "https://m.washingtontimes.com/news/2024/jul/26/obama-endorses-kamala-harris-for-president-she-has/", "title": "Obama endorses Kamala Harris for president — The Washington Times" },
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
       ]
     },
     {
@@ -172,18 +125,9 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://goodmorningamerica.com/news/story/trump-accuses-obama-treason-oval-office-123963917",
-          "title": "Trump accuses Obama of treason in Oval Office — ABC News / GMA"
-        },
-        {
-          "url": "https://www.startribune.com/obamas-office-rebukes-trump-admins-treason-claims-as-distraction/601441072",
-          "title": "Obama's office rebukes Trump administration's treason claims as distraction — Star Tribune (AP)"
-        },
-        {
-          "url": "https://www.aljazeera.com/amp/news/2025/7/23/trump-admin-leans-into-unsubstantiated-claims-obama-committed-treason",
-          "title": "Trump admin leans into unsubstantiated claims Obama committed treason — Al Jazeera"
-        }
+        { "url": "https://goodmorningamerica.com/news/story/trump-accuses-obama-treason-oval-office-123963917", "title": "Trump accuses Obama of treason in Oval Office — ABC News / GMA" },
+        { "url": "https://www.startribune.com/obamas-office-rebukes-trump-admins-treason-claims-as-distraction/601441072", "title": "Obama's office rebukes Trump administration's treason claims as distraction — Star Tribune (AP)" },
+        { "url": "https://www.aljazeera.com/amp/news/2025/7/23/trump-admin-leans-into-unsubstantiated-claims-obama-committed-treason", "title": "Trump admin leans into unsubstantiated claims Obama committed treason — Al Jazeera" }
       ]
     },
     {
@@ -195,14 +139,9 @@
       "end_year": 2011,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://obamawhitehouse.archives.gov/the-press-office/2010/09/17/president-obama-names-elizabeth-warren-assistant-president-and-special-a",
-          "title": "President Obama Names Elizabeth Warren Assistant to the President and Special Advisor — The White House (archived)"
-        },
-        {
-          "url": "https://rollcall.com/2010/09/17/obama-appoints-warren-as-adviser-to-consumer-bureau/",
-          "title": "Obama appoints Warren as adviser to consumer bureau — Roll Call"
-        }
+        { "url": "https://obamawhitehouse.archives.gov/the-press-office/2010/09/17/president-obama-names-elizabeth-warren-assistant-president-and-special-a", "title": "President Obama Names Elizabeth Warren Assistant to the President and Special Advisor — The White House (archived)" },
+        { "url": "https://rollcall.com/2010/09/17/obama-appoints-warren-as-adviser-to-consumer-bureau/", "title": "Obama appoints Warren as adviser to consumer bureau — Roll Call" },
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
       ]
     },
     {
@@ -214,14 +153,8 @@
       "end_year": 2010,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-          "title": "Barack Obama — Wikipedia"
-        },
-        {
-          "url": "https://theweek.com/articles/468775/obamas-centers-ofpower",
-          "title": "Obama's centers of power — The Week"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" },
+        { "url": "https://theweek.com/articles/468775/obamas-centers-ofpower", "title": "Obama's centers of power — The Week" }
       ]
     },
     {
@@ -233,10 +166,7 @@
       "end_year": 2013,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-          "title": "Barack Obama — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
       ]
     },
     {
@@ -248,14 +178,8 @@
       "end_year": null,
       "confidence": 0.7,
       "sources": [
-        {
-          "url": "https://www.timesofisrael.com/liveblog_entry/obama-calls-mamdani-praises-his-campaign-offers-to-serve-as-sounding-board-if-he-wins-nyc-mayoral-race/",
-          "title": "Obama calls Mamdani, offers to serve as sounding board — Times of Israel (citing NYT)"
-        },
-        {
-          "url": "https://www.washingtontimes.com/news/2025/nov/3/obama-held-private-phone-call-zohran-mamdani-campaigning-sherrill/",
-          "title": "Obama held private phone call with Zohran Mamdani — The Washington Times"
-        }
+        { "url": "https://www.timesofisrael.com/liveblog_entry/obama-calls-mamdani-praises-his-campaign-offers-to-serve-as-sounding-board-if-he-wins-nyc-mayoral-race/", "title": "Obama calls Mamdani, offers to serve as sounding board — Times of Israel (citing NYT)" },
+        { "url": "https://www.washingtontimes.com/news/2025/nov/3/obama-held-private-phone-call-zohran-mamdani-campaigning-sherrill/", "title": "Obama held private phone call with Zohran Mamdani — The Washington Times" }
       ]
     },
     {
@@ -265,10 +189,7 @@
       "description": "Wife, married 1992; former first lady (2009–2017) and author.",
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-          "title": "Barack Obama — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
       ]
     },
     {
@@ -280,10 +201,7 @@
       "end_year": 2017,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-          "title": "Barack Obama — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
       ]
     },
     {
@@ -295,10 +213,7 @@
       "end_year": 2008,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-          "title": "Barack Obama — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
       ]
     },
     {
@@ -310,10 +225,7 @@
       "end_year": 2012,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
-          "title": "Barack Obama — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
       ]
     },
     {
@@ -325,10 +237,7 @@
       "end_year": 2016,
       "confidence": 0.75,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Cory_Booker",
-          "title": "Cory Booker — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
       ]
     },
     {
@@ -340,10 +249,7 @@
       "end_year": 2011,
       "confidence": 0.8,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Ro_Khanna",
-          "title": "Ro Khanna — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
       ]
     }
   ],

@@ -411,6 +411,20 @@
         { "url": "https://taskandpurpose.com/news/adam-telle-army-secretary-driscoll/", "title": "Official who oversees Corps of Engineers named acting Army Secretary — Task & Purpose" },
         { "url": "https://www.nbcnews.com/politics/national-security/army-secretary-dan-driscoll-submits-resignation-white-house-rcna595437", "title": "Army Secretary Dan Driscoll submits resignation after tensions with Pete Hegseth — NBC News" }
       ]
+    },
+    {
+      "name": "Mark Kelly",
+      "slug": "mark-kelly",
+      "relationship_type": "enemy",
+      "description": "Hegseth censured Kelly and moved to cut his retired rank and pay over the 2025 \"illegal orders\" video; Kelly sued him in January 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cbsnews.com/amp/news/mark-kelly-lawsuit-pete-hegseth-pentagon", "title": "Sen. Mark Kelly sues Hegseth to block move to cut rank and pension over illegal orders video — CBS News" },
+        { "url": "https://www.nbcnews.com/politics/politics-news/sen-mark-kelly-sues-defense-secretary-pete-hegseth-efforts-reduce-mili-rcna253658", "title": "Sen. Mark Kelly sues Defense Secretary Pete Hegseth — NBC News" },
+        { "url": "https://www.fox10phoenix.com/news/mark-kelly-sues-pete-hegseth-after-being-censured-illegal-orders-video", "title": "Mark Kelly sues Pete Hegseth after being censured for 'illegal orders' video — Fox 10 Phoenix" }
+      ]
     }
   ],
   "source_conflicts": [

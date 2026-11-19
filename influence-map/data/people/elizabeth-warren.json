@@ -1,0 +1,233 @@
+{
+  "name": "Elizabeth Warren",
+  "aliases": ["Elizabeth Ann Warren"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": 2012,
+      "end_year": null,
+      "basis": "Progressive Democratic U.S. senator from Massachusetts since 2013 and 2020 presidential candidate.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "U.S. senator from Massachusetts; ranking member, Senate Banking Committee; vice chair of the Senate Democratic Caucus",
+    "unit": "senate",
+    "rank": 3,
+    "since": "2013-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" },
+      { "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act", "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)" }
+    ]
+  },
+  "current_role": "U.S. senator from Massachusetts (since 2013); ranking Democrat on the Senate Banking Committee",
+  "summary": "Elizabeth Warren, a former Harvard law professor who designed the Consumer Financial Protection Bureau, has been a Democratic U.S. senator from Massachusetts since 2013 and finished third in the 2020 presidential primaries. As the ranking Democrat on the Senate Banking Committee she has led opposition to the Trump family's crypto businesses, including World Liberty Financial's bank charter, approved in August 2026.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" },
+    { "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act", "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)" }
+  ],
+  "timeline": [
+    {
+      "year": 1992,
+      "end_year": 2012,
+      "role": "Professor of law (bankruptcy and commercial law)",
+      "org": "Harvard Law School",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2008,
+      "end_year": 2010,
+      "role": "Chair, Congressional Oversight Panel for TARP",
+      "org": "U.S. Congress",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2010,
+      "end_year": 2011,
+      "role": "Special adviser for the Consumer Financial Protection Bureau",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": null,
+      "role": "U.S. senator from Massachusetts",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2020,
+      "role": "Candidate for the Democratic presidential nomination (withdrew March 5, 2020)",
+      "org": "Warren for President",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "employer",
+      "description": "Obama named Warren Assistant to the President and special adviser to set up the Consumer Financial Protection Bureau (2010–2011).",
+      "start_year": 2010,
+      "end_year": 2011,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "name": "World Liberty Financial",
+      "slug": "world-liberty-financial",
+      "relationship_type": "enemy",
+      "description": "Warren has led Senate Democratic opposition to the Trump family's crypto company: urging divestment (May 2025), pressing regulators to reject its bank charter, and introducing the Ending Presidential Corruption in Banking Act after the charter's approval in August 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.banking.senate.gov/newsroom/minority/warren-van-hollen-call-on-trump-and-trump-family-to-divest-from-world-liberty-financial-sound-alarm-on-foreign-governments-using-trump-crypto-to-curry-presidential-favors", "title": "Warren, Van Hollen call on Trump and Trump family to divest from World Liberty Financial — Senate Banking Committee (minority)" },
+        { "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act", "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)" },
+        { "url": "https://decrypt.co/359364/elizabeth-warren-occ-chief-spar-over-trump-linked-crypto-bank-bid", "title": "Elizabeth Warren, OCC chief spar over Trump-linked crypto bank bid — Decrypt" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "A Trump critic since 2016, when she called him \"a loser\"; in his second term she has accused him of profiting from the presidency through crypto, saying he became \"the first President in history to approve, operate, and supervise his own bank.\"",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" },
+        { "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act", "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)" },
+        { "url": "https://decrypt.co/359364/elizabeth-warren-occ-chief-spar-over-trump-linked-crypto-bank-bid", "title": "Elizabeth Warren, OCC chief spar over Trump-linked crypto bank bid — Decrypt" }
+      ]
+    },
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "ally",
+      "description": "Leading progressive allies in the Senate who have backed each other's bills, though they ran against each other in the 2020 primaries.",
+      "start_year": 2013,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "rival",
+      "description": "Both sought the 2020 Democratic nomination; Warren finished third behind Biden and Sanders and withdrew on March 5, 2020.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "rival",
+      "description": "Warren ran against Biden in the 2020 primaries and was later one of the four finalists he considered for running mate.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "ally",
+      "description": "Warren endorsed Clinton in June 2016 and campaigned for her, including at the Democratic convention.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Michael Bloomberg",
+      "slug": "michael-bloomberg",
+      "relationship_type": "enemy",
+      "description": "At a February 19, 2020 primary debate Warren attacked Bloomberg over his tax records, non-disclosure agreements and record on women and redlining.",
+      "start_year": 2020,
+      "end_year": 2020,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jeff Sessions",
+      "slug": "jeff-sessions",
+      "relationship_type": "enemy",
+      "description": "During the February 2017 debate on Sessions's attorney general nomination, Warren was formally silenced on the Senate floor for reading Coretta Scott King's letter against him.",
+      "start_year": 2017,
+      "end_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Chuck Schumer",
+      "slug": "chuck-schumer",
+      "relationship_type": "colleague",
+      "description": "Warren has been vice chair of the Senate Democratic Caucus in Schumer's leadership since 2017.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "slug": "alexandria-ocasio-cortez",
+      "relationship_type": "ally",
+      "description": "Warren wrote Ocasio-Cortez's 2019 Time 100 entry and they have introduced legislation together.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Scott Brown",
+      "slug": "scott-brown",
+      "relationship_type": "rival",
+      "description": "Warren unseated the Republican senator Brown in 2012.",
+      "start_year": 2012,
+      "end_year": 2012,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news and Senate pages could not be opened in this environment, so those facts were confirmed through search results tied to each cited URL. The Banking Committee pages are her own minority office's releases.",
+  "last_researched": "2026-11-19"
+}

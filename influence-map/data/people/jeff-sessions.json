@@ -295,6 +295,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
       ]
+    },
+    {
+      "name": "Elizabeth Warren",
+      "slug": "elizabeth-warren",
+      "relationship_type": "enemy",
+      "description": "Warren was formally silenced on the Senate floor in February 2017 for reading Coretta Scott King's letter against Sessions's nomination.",
+      "start_year": 2017,
+      "end_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

@@ -145,6 +145,18 @@
       "sources": [
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BLOOMBERG%2C+MICHAEL&committee_id=C00484642&two_year_transaction_period=2018", "title": "FEC receipts: BLOOMBERG, MICHAEL to SMP" }
       ]
+    },
+    {
+      "name": "Elizabeth Warren",
+      "slug": "elizabeth-warren",
+      "relationship_type": "enemy",
+      "description": "Warren attacked Bloomberg at a February 2020 primary debate over his tax records, non-disclosure agreements and record on women.",
+      "start_year": 2020,
+      "end_year": 2020,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],
