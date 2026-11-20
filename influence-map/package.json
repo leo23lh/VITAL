@@ -22,6 +22,7 @@
     "build:artifact": "node scripts/build-artifact.mjs",
     "build:web": "node scripts/build-web.mjs",
     "publish:web": "node scripts/publish-web.mjs",
+    "og-image": "node scripts/og-image.mjs",
     "briefing": "node scripts/briefing.mjs"
   },
   "engines": {

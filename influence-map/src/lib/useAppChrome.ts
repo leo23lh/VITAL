@@ -23,21 +23,38 @@ export function useLayout(): Layout {
 
 const SEEN_UPDATES_KEY = 'influence-map:updates-seen';
 
-function readSeen(): number {
+/** How many entries this device has seen, or null on a first visit (or when storage is blocked). */
+function readSeen(): number | null {
   try {
-    return Number(localStorage.getItem(SEEN_UPDATES_KEY)) || 0;
+    const v = localStorage.getItem(SEEN_UPDATES_KEY);
+    return v === null ? null : Number(v) || 0;
   } catch {
-    return 0;
+    return null;
   }
+}
+
+const FIRST_VISIT_DAYS = 14;
+const FIRST_VISIT_MAX = 5;
+
+/**
+ * What a first-time visitor counts as already seen: everything except entries from the last
+ * two weeks (at most five), so a newcomer sees "3 new", not the whole history as unread.
+ */
+export function firstVisitSeen(updates: { date: string }[], now = Date.now()): number {
+  const cutoff = now - FIRST_VISIT_DAYS * 86_400_000;
+  const recent = updates.filter((u) => Date.parse(u.date) >= cutoff).length;
+  return updates.length - Math.min(recent, FIRST_VISIT_MAX);
 }
 
 /**
  * The open menu, plus the Updates feed's unread count. Entries are only ever added,
  * so this device remembers how many it has seen; opening the Updates menu marks them read.
+ * A first visit counts only the latest few as new (firstVisitSeen).
  */
 export function useMenus(updates: MapUpdate[]) {
   const [menu, setMenu] = useState<MenuName | null>(null);
-  const [seen, setSeen] = useState(readSeen);
+  const [stored, setSeen] = useState(readSeen);
+  const seen = stored ?? firstVisitSeen(updates);
   const unseen = Math.max(0, updates.length - seen);
   // Kept while the Updates menu is open, so the unread dots stay until it closes.
   const [unseenAtOpen, setUnseenAtOpen] = useState(0);

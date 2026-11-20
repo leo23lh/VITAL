@@ -3,7 +3,8 @@ import { useState } from 'react';
 import { bond, familyOf, linkEndId, matchesQuery, type WorkplaceIndex, pairKey, roleOfOther, yearRange, type GraphLink, type GraphNode } from '../../lib/graph';
 import { EDGE_FAMILY_BY_ID, GROUPS, ORG_KIND_LABEL, RECIPIENT_KIND_LABEL, SECTOR_BY_ID, formatUsd, leanLabel, orgSideColor, sourceUrl, type Affiliation, type Giving, type GivingSide, type OrgFinance } from '../../lib/schema';
 import type { Selection } from '../../lib/view';
-import { Confidence, CopyCommand, SourceList, dedupeSources, otherEnd, uniqueDescriptions } from './parts';
+import { Confidence, CopyCommand, ShareButton, SourceList, dedupeSources, otherEnd, uniqueDescriptions } from './parts';
+import { IS_WEB } from '../../lib/platform';
 import { BackingSection, hasBackingTab, type BackingTools } from './BackingSection';
 import { PullSection, type PullTools } from './PullSection';
 import { ago, daysSince, freshnessOf, officeChecked } from '../../lib/freshness';
@@ -145,6 +146,7 @@ export function NodePanel({
           <button className={picking ? 'on' : ''} onClick={() => setPicking((v) => !v)} aria-expanded={picking}>
             Compare
           </button>
+          {IS_WEB && <ShareButton slug={node.id} name={node.name} />}
           <span className="muted small">
             {people.length} connection{people.length === 1 ? '' : 's'}
             {groupLabels.length > 0 && ` · ${groupLabels.join(' · ')}`}

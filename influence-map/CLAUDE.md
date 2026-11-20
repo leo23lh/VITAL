@@ -32,6 +32,7 @@ the slash commands in the repo root's `.claude/commands/`:
 | `data/rifts.json` | The rift log: dated runs of `[person, person, score, strains]` (`npm run rifts -- --save`). |
 | `scripts/build-web.mjs` | Builds the public site into `dist-web/` (`npm run build:web`). See "Public site". |
 | `scripts/publish-web.mjs` | Builds the public site and pushes it to the `gh-pages` branch (`npm run publish:web`). See "Public site". |
+| `scripts/og-image.mjs` | Draws `public/og.png`, the public site's link-preview card (`npm run og-image`). See "Public site". |
 | `scripts/briefing.mjs` | Drafts a "what changed this week" note from the files (`npm run briefing`). See "Public site". |
 | `scripts/tune-pull.mjs` | Tests Pull's weights against the track record of asks (`npm run tune-pull`). See "Track record". |
 | `src/` | Vite + React + TypeScript viewer (`npm run dev`). Reads the data folder and live-reloads. |
@@ -865,7 +866,9 @@ the viewer as faint "suggested" nodes.
 
 `data/updates.json` lists what changed on the map, newest first, and the viewer
 shows it under **Updates** (header button; on a folded phone, the bottom tab
-bar), with a badge for entries this device hasn't seen. Each entry:
+bar), with a badge for entries this device hasn't seen. A first visit counts
+only entries from the last two weeks, at most five, as new (`firstVisitSeen`
+in `src/lib/useAppChrome.ts`). Each entry:
 
 ```json
 { "id": "2026-11-08-hegseth-refresh", "date": "2026-11-08",
@@ -936,6 +939,19 @@ cannot open github.io, so check the live site from a browser.
 - **Shareable links.** Outside the claude.ai page, the address bar follows
   what is open: `?p=<slug>` opens a person, `?pair=<a>|<b>` the ties between
   two. Anyone opening the link lands on the same thing.
+- **Link previews.** Chat apps read `<meta>` tags and run no JavaScript, so
+  the build adds the map's own card to the front page and writes a small share
+  page per person and organization at `p/<slug>/`
+  (`scripts/lib/share-pages.mjs`): their name, current role, number of ties
+  and photo (with its credit), then a redirect to `?p=<slug>`. The **Share**
+  button in a person's panel (public site only) hands out that address, through
+  the phone's share sheet where there is one. Only files in the public payload
+  get a page; the build refuses to publish if a left-out file has one.
+  Previews need absolute addresses: the build uses
+  https://leo23lh.github.io/VITAL/ (`SITE_URL=` to change it).
+- **The front-page card** is `public/og.png` (1200×630), drawn by
+  `npm run og-image` with Playwright. Its network is decorative and its words
+  carry no counts, so it needs redrawing only if the look changes.
 - **About this map** (Views) says in plain words what the map is, where the
   facts come from and what the scores mean. Keep it in step with this file.
 - `npm run briefing` drafts a short note on the past week (`-- --since

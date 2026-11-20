@@ -85,6 +85,31 @@ export function CopyCommand({ text }: { text: string }) {
   );
 }
 
+/**
+ * Public site only: hands out the person's share page (p/<slug>/, written by build-web), whose
+ * tags give chat apps a preview with their name, role and photo before opening the map on them.
+ */
+export function ShareButton({ slug, name }: { slug: string; name: string }) {
+  const [copied, setCopied] = useState(false);
+  const share = () => {
+    const url = new URL(`p/${encodeURIComponent(slug)}/`, new URL('.', window.location.href)).href;
+    const ask = () => window.prompt('Copy this link', url);
+    if (navigator.share) {
+      navigator.share({ title: `${name} · Influence Map`, url }).catch(() => {});
+    } else if (navigator.clipboard) {
+      navigator.clipboard.writeText(url).then(() => {
+        setCopied(true);
+        window.setTimeout(() => setCopied(false), 1500);
+      }, ask);
+    } else ask();
+  };
+  return (
+    <button onClick={share} title={`Share a link to ${name}`}>
+      {copied ? 'Link copied' : 'Share'}
+    </button>
+  );
+}
+
 export function otherEnd(l: GraphLink, selfId: string): string {
   const s = linkEndId(l.source);
   return s === selfId ? linkEndId(l.target) : s;
