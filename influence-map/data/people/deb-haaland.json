@@ -1,0 +1,114 @@
+{
+  "name": "Deb Haaland",
+  "aliases": ["Debra Haaland"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Progressive Democrat: former New Mexico Democratic Party chair, congresswoman (2019–2021), Biden's Interior secretary and governor-elect; supports the Green New Deal and Medicare for All.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Deb_Haaland", "title": "Deb Haaland — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "deb-haaland.jpg",
+    "credit": "Department of the Interior",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Secretary_Deb_Haaland,_official_headshot.jpg", "title": "File:Secretary Deb Haaland, official headshot.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Governor-elect of New Mexico (takes office January 1, 2027)",
+  "summary": "Deb Haaland, a member of Laguna Pueblo, represented New Mexico in Congress from 2019 to 2021 and was Biden's Interior secretary from 2021 to 2025, the first Native American cabinet secretary. She won New Mexico's 2026 governor's race and will be the first Native American woman to govern a state. New Mexico is among the first states in the 2028 Democratic calendar, and she says she wants a say in candidates' platforms.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Deb_Haaland", "title": "Deb Haaland — Wikipedia" },
+    { "url": "https://thehill.com/homenews/campaign/6222976-democrats-powerbrokers-2028-presidential-primary/", "title": "The new Democratic power brokers 2028 hopefuls need to know — The Hill" }
+  ],
+  "timeline": [
+    {
+      "year": 2015,
+      "end_year": 2017,
+      "role": "Chair",
+      "org": "Democratic Party of New Mexico",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Deb_Haaland", "title": "Deb Haaland — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2021,
+      "role": "U.S. representative from New Mexico",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Deb_Haaland", "title": "Deb Haaland — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2025,
+      "role": "Secretary of the Interior",
+      "org": "U.S. Department of the Interior",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Deb_Haaland", "title": "Deb Haaland — Wikipedia" },
+        { "url": "https://www.cbsnews.com/news/deb-haaland-confirmation-interior-secretary", "title": "Senate confirms Deb Haaland as Interior secretary — CBS News" },
+        { "url": "https://www.npr.org/2021/03/15/977558590/deb-haaland-confirmed-as-first-native-american-interior-secretary", "title": "Deb Haaland confirmed as first Native American Interior secretary — NPR" }
+      ]
+    },
+    {
+      "year": 2027,
+      "end_year": null,
+      "role": "Governor of New Mexico (elected November 2026)",
+      "org": "State of New Mexico",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Deb_Haaland", "title": "Deb Haaland — Wikipedia" },
+        { "url": "https://thehill.com/homenews/campaign/6222976-democrats-powerbrokers-2028-presidential-primary/", "title": "The new Democratic power brokers 2028 hopefuls need to know — The Hill" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "employer",
+      "description": "Biden nominated Haaland as Interior secretary; the Senate confirmed her 51–40 in March 2021 and she served through his term.",
+      "start_year": 2021,
+      "end_year": 2025,
+      "confidence": 0.97,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/deb-haaland-confirmation-interior-secretary", "title": "Senate confirms Deb Haaland as Interior secretary — CBS News" },
+        { "url": "https://www.npr.org/2021/03/15/977558590/deb-haaland-confirmed-as-first-native-american-interior-secretary", "title": "Deb Haaland confirmed as first Native American Interior secretary — NPR" },
+        { "url": "https://en.wikipedia.org/wiki/Deb_Haaland", "title": "Deb Haaland — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elizabeth Warren",
+      "slug": "elizabeth-warren",
+      "relationship_type": "ally",
+      "description": "Haaland endorsed Warren for president in July 2019 and became a co-chair of her 2020 campaign, calling her a great partner for Indian Country.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cbsnews.com/amp/boston/news/native-american-congresswoman-endorses-elizabeth-warren-debra-haaland", "title": "Native American congresswoman endorses Elizabeth Warren for president — CBS Boston" },
+        { "url": "https://www.krwg.org/post/warren-taps-us-rep-deb-haaland-2-others-co-chairs", "title": "Warren taps U.S. Rep. Deb Haaland, 2 others as co-chairs — KRWG" }
+      ]
+    },
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "employer",
+      "description": "Haaland was New Mexico's Native American vote director for Obama's 2012 reelection campaign.",
+      "start_year": 2012,
+      "end_year": 2012,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Deb_Haaland", "title": "Deb Haaland — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-20 from the Wikipedia article's source text (read directly) and web searches tied to each cited URL; other pages could not be opened in this environment.",
+  "last_researched": "2026-11-20"
+}

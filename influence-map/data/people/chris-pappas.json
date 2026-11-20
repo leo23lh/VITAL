@@ -1,0 +1,90 @@
+{
+  "name": "Chris Pappas",
+  "aliases": ["Christopher Pappas"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic New Hampshire executive councilor, congressman since 2019 and senator-elect.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Pappas_(American_politician)", "title": "Chris Pappas — Wikipedia" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "U.S. representative from New Hampshire; U.S. senator-elect (takes office January 2027)",
+    "unit": "house",
+    "rank": 4,
+    "since": "2019-01-03",
+    "verified": "2026-11-20",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Chris_Pappas_(American_politician)", "title": "Chris Pappas — Wikipedia" },
+      { "url": "https://keyt.com/politics/cnn-us-politics/2026/11/03/democrat-chris-pappas-will-win-new-hampshire-senate-race-cnn-projects-2/", "title": "Democrat Chris Pappas will win New Hampshire Senate race, CNN projects — CNN via KEYT" }
+    ]
+  },
+  "photo": {
+    "file": "chris-pappas.jpg",
+    "credit": "Nate Payne",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Chris_Pappas,_official_portrait_-_2022.jpg", "title": "File:Chris Pappas, official portrait - 2022.jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. representative from New Hampshire; senator-elect",
+  "summary": "Chris Pappas has represented New Hampshire's 1st district since 2019 and won the state's open Senate seat in 2026 against John E. Sununu, becoming the first openly gay man elected to the Senate. New Hampshire is an early 2028 primary state; 2028 hopefuls campaigned for him, and he calls himself an \"ambassador\" for the contest.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Chris_Pappas_(American_politician)", "title": "Chris Pappas — Wikipedia" },
+    { "url": "https://keyt.com/politics/cnn-us-politics/2026/11/03/democrat-chris-pappas-will-win-new-hampshire-senate-race-cnn-projects-2/", "title": "Democrat Chris Pappas will win New Hampshire Senate race, CNN projects — CNN via KEYT" },
+    { "url": "https://thehill.com/homenews/campaign/6222976-democrats-powerbrokers-2028-presidential-primary/", "title": "The new Democratic power brokers 2028 hopefuls need to know — The Hill" }
+  ],
+  "timeline": [
+    {
+      "year": 2013,
+      "end_year": 2019,
+      "role": "Executive councilor",
+      "org": "New Hampshire Executive Council",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Pappas_(American_politician)", "title": "Chris Pappas — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "U.S. representative from New Hampshire",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Pappas_(American_politician)", "title": "Chris Pappas — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2027,
+      "end_year": null,
+      "role": "U.S. senator from New Hampshire (elected November 2026)",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Pappas_(American_politician)", "title": "Chris Pappas — Wikipedia" },
+        { "url": "https://keyt.com/politics/cnn-us-politics/2026/11/03/democrat-chris-pappas-will-win-new-hampshire-senate-race-cnn-projects-2/", "title": "Democrat Chris Pappas will win New Hampshire Senate race, CNN projects — CNN via KEYT" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Pete Buttigieg",
+      "slug": "pete-buttigieg",
+      "relationship_type": "ally",
+      "description": "Buttigieg campaigned for Pappas's Senate bid in February 2026 at his family's Manchester restaurant and again at rallies and a party fundraiser that October, fueling talk of a 2028 run.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.bostonglobe.com/2026/02/19/metro/nh-primary-secretary-pete-buttigieg-pappas/", "title": "Pete Buttigieg stumps with Chris Pappas and other N.H. Democrats — The Boston Globe" },
+        { "url": "https://www.wmur.com/article/pete-buttigieg-campaigns-for-chris-pappas-in-new-hampshire/70424922", "title": "Pete Buttigieg campaigns for Chris Pappas in New Hampshire — WMUR" },
+        { "url": "https://www.bostonglobe.com/2026/10/05/metro/nh-democrats-us-senate-midterms-buttigieg/", "title": "Pete Buttigieg helps N.H. Democrats play defense in US Senate race — The Boston Globe" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-20 from the Wikipedia article's source text (read directly) and web searches tied to each cited URL; other pages could not be opened in this environment.",
+  "last_researched": "2026-11-20"
+}

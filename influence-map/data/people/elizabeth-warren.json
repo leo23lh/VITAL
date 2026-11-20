@@ -1,9 +1,13 @@
 {
   "name": "Elizabeth Warren",
-  "aliases": ["Elizabeth Ann Warren"],
+  "aliases": [
+    "Elizabeth Ann Warren"
+  ],
   "public_figure": true,
   "sector": "politics",
-  "groups": ["critics"],
+  "groups": [
+    "critics"
+  ],
   "lean": [
     {
       "value": -2,
@@ -11,7 +15,10 @@
       "end_year": null,
       "basis": "Progressive Democratic U.S. senator from Massachusetts since 2013 and 2020 presidential candidate.",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     }
   ],
@@ -21,10 +28,22 @@
     "rank": 3,
     "since": "2013-01",
     "sources": [
-      { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" },
-      { "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act", "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)" },
-      { "url": "https://www.jenner.com/en/news-insights/client-alerts/democrats-flip-the-senate-incoming-committee-chairs-and-oversight-priorities", "title": "Democrats flip the Senate: incoming committee chairs — Jenner & Block" },
-      { "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/11/13/democrats-chair-congress-top-committees-2027", "title": "Democrats in line to lead committees in the new Congress — Spectrum News" }
+      {
+        "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+        "title": "Elizabeth Warren — Wikipedia"
+      },
+      {
+        "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act",
+        "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)"
+      },
+      {
+        "url": "https://www.jenner.com/en/news-insights/client-alerts/democrats-flip-the-senate-incoming-committee-chairs-and-oversight-priorities",
+        "title": "Democrats flip the Senate: incoming committee chairs — Jenner & Block"
+      },
+      {
+        "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/11/13/democrats-chair-congress-top-committees-2027",
+        "title": "Democrats in line to lead committees in the new Congress — Spectrum News"
+      }
     ],
     "verified": "2026-11-20"
   },
@@ -32,13 +51,22 @@
     "file": "elizabeth-warren.jpg",
     "credit": "Gage Skidmore",
     "license": "CC BY-SA 3.0",
-    "source": { "url": "https://commons.wikimedia.org/wiki/File:Elizabeth_Warren_by_Gage_Skidmore.jpg", "title": "File:Elizabeth Warren by Gage Skidmore.jpg — Wikimedia Commons" }
+    "source": {
+      "url": "https://commons.wikimedia.org/wiki/File:Elizabeth_Warren_by_Gage_Skidmore.jpg",
+      "title": "File:Elizabeth Warren by Gage Skidmore.jpg — Wikimedia Commons"
+    }
   },
   "current_role": "U.S. senator from Massachusetts (since 2013); ranking Democrat on the Senate Banking Committee",
   "summary": "Elizabeth Warren, a former Harvard law professor who designed the Consumer Financial Protection Bureau, has been a Democratic U.S. senator from Massachusetts since 2013 and finished third in the 2020 presidential primaries. As the ranking Democrat on the Senate Banking Committee she has led opposition to the Trump family's crypto businesses, including World Liberty Financial's bank charter, approved in August 2026.",
   "sources": [
-    { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" },
-    { "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act", "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)" }
+    {
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+      "title": "Elizabeth Warren — Wikipedia"
+    },
+    {
+      "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act",
+      "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)"
+    }
   ],
   "timeline": [
     {
@@ -47,7 +75,10 @@
       "role": "Professor of law (bankruptcy and commercial law)",
       "org": "Harvard Law School",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     },
     {
@@ -56,7 +87,10 @@
       "role": "Chair, Congressional Oversight Panel for TARP",
       "org": "U.S. Congress",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     },
     {
@@ -65,7 +99,10 @@
       "role": "Special adviser for the Consumer Financial Protection Bureau",
       "org": "The White House",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     },
     {
@@ -74,7 +111,10 @@
       "role": "U.S. senator from Massachusetts",
       "org": "U.S. Senate",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     },
     {
@@ -83,7 +123,10 @@
       "role": "Candidate for the Democratic presidential nomination (withdrew March 5, 2020)",
       "org": "Warren for President",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     }
   ],
@@ -97,7 +140,10 @@
       "end_year": 2011,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     },
     {
@@ -109,9 +155,18 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://www.banking.senate.gov/newsroom/minority/warren-van-hollen-call-on-trump-and-trump-family-to-divest-from-world-liberty-financial-sound-alarm-on-foreign-governments-using-trump-crypto-to-curry-presidential-favors", "title": "Warren, Van Hollen call on Trump and Trump family to divest from World Liberty Financial — Senate Banking Committee (minority)" },
-        { "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act", "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)" },
-        { "url": "https://decrypt.co/359364/elizabeth-warren-occ-chief-spar-over-trump-linked-crypto-bank-bid", "title": "Elizabeth Warren, OCC chief spar over Trump-linked crypto bank bid — Decrypt" }
+        {
+          "url": "https://www.banking.senate.gov/newsroom/minority/warren-van-hollen-call-on-trump-and-trump-family-to-divest-from-world-liberty-financial-sound-alarm-on-foreign-governments-using-trump-crypto-to-curry-presidential-favors",
+          "title": "Warren, Van Hollen call on Trump and Trump family to divest from World Liberty Financial — Senate Banking Committee (minority)"
+        },
+        {
+          "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act",
+          "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)"
+        },
+        {
+          "url": "https://decrypt.co/359364/elizabeth-warren-occ-chief-spar-over-trump-linked-crypto-bank-bid",
+          "title": "Elizabeth Warren, OCC chief spar over Trump-linked crypto bank bid — Decrypt"
+        }
       ]
     },
     {
@@ -123,9 +178,18 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" },
-        { "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act", "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)" },
-        { "url": "https://decrypt.co/359364/elizabeth-warren-occ-chief-spar-over-trump-linked-crypto-bank-bid", "title": "Elizabeth Warren, OCC chief spar over Trump-linked crypto bank bid — Decrypt" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        },
+        {
+          "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act",
+          "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)"
+        },
+        {
+          "url": "https://decrypt.co/359364/elizabeth-warren-occ-chief-spar-over-trump-linked-crypto-bank-bid",
+          "title": "Elizabeth Warren, OCC chief spar over Trump-linked crypto bank bid — Decrypt"
+        }
       ]
     },
     {
@@ -137,7 +201,10 @@
       "end_year": null,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     },
     {
@@ -149,7 +216,10 @@
       "end_year": 2020,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     },
     {
@@ -161,7 +231,10 @@
       "end_year": 2020,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     },
     {
@@ -173,7 +246,10 @@
       "end_year": 2016,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     },
     {
@@ -185,7 +261,10 @@
       "end_year": 2020,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     },
     {
@@ -197,7 +276,10 @@
       "end_year": 2017,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     },
     {
@@ -209,7 +291,10 @@
       "end_year": null,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     },
     {
@@ -221,7 +306,10 @@
       "end_year": null,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     },
     {
@@ -233,7 +321,10 @@
       "end_year": 2012,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+          "title": "Elizabeth Warren — Wikipedia"
+        }
       ]
     },
     {
@@ -245,7 +336,29 @@
       "end_year": 2016,
       "confidence": 0.6,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Jamie_Raskin",
+          "title": "Jamie Raskin — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Deb Haaland",
+      "slug": "deb-haaland",
+      "relationship_type": "ally",
+      "description": "Haaland endorsed Warren for president in July 2019 and became a co-chair of her 2020 campaign, calling her a great partner for Indian Country.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.9,
+      "sources": [
+        {
+          "url": "https://www.cbsnews.com/amp/boston/news/native-american-congresswoman-endorses-elizabeth-warren-debra-haaland",
+          "title": "Native American congresswoman endorses Elizabeth Warren for president — CBS Boston"
+        },
+        {
+          "url": "https://www.krwg.org/post/warren-taps-us-rep-deb-haaland-2-others-co-chairs",
+          "title": "Warren taps U.S. Rep. Deb Haaland, 2 others as co-chairs — KRWG"
+        }
       ]
     }
   ],

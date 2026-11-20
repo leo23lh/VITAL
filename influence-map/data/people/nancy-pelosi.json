@@ -1,9 +1,14 @@
 {
   "name": "Nancy Pelosi",
-  "aliases": ["Nancy Patricia Pelosi"],
+  "aliases": [
+    "Nancy Patricia Pelosi"
+  ],
   "public_figure": true,
   "sector": "politics",
-  "groups": ["critics", "2028-race"],
+  "groups": [
+    "critics",
+    "2028-race"
+  ],
   "lean": [
     {
       "value": -2,
@@ -11,29 +16,46 @@
       "end_year": null,
       "basis": "Democratic congresswoman from San Francisco since 1987 and Democratic leader, including two stints as House speaker.",
       "sources": [
-        { "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/", "title": "Roll Call: Pelosi announces retirement" }
+        {
+          "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/",
+          "title": "Roll Call: Pelosi announces retirement"
+        }
       ]
     }
   ],
   "race_2028": {
     "role": "camp",
-    "contenders": ["gavin-newsom"],
+    "contenders": [
+      "gavin-newsom"
+    ],
     "basis": "Former aides say boosting Newsom for 2028 is one of her next campaigns; she has called him a potential great president.",
     "sources": [
-      { "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028", "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028" }
+      {
+        "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028",
+        "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028"
+      }
     ]
   },
   "photo": {
     "file": "nancy-pelosi.jpg",
     "credit": "John Harrington",
     "license": "Public domain",
-    "source": { "url": "https://commons.wikimedia.org/wiki/File:Official_photo_of_Speaker_Nancy_Pelosi_in_2019.jpg", "title": "File:Official photo of Speaker Nancy Pelosi in 2019.jpg — Wikimedia Commons" }
+    "source": {
+      "url": "https://commons.wikimedia.org/wiki/File:Official_photo_of_Speaker_Nancy_Pelosi_in_2019.jpg",
+      "title": "File:Official photo of Speaker Nancy Pelosi in 2019.jpg — Wikimedia Commons"
+    }
   },
   "current_role": "U.S. representative from California (retiring January 2027); Speaker Emerita",
   "summary": "Nancy Pelosi has represented San Francisco in the House since 1987 and was the first woman to serve as speaker (2007–2011, 2019–2023), overseeing both impeachments of Donald Trump. She announced in November 2025 that she would not seek reelection, and has made promoting Gavin Newsom for 2028 one of her causes.",
   "sources": [
-    { "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/", "title": "Roll Call" },
-    { "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028", "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028" }
+    {
+      "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/",
+      "title": "Roll Call"
+    },
+    {
+      "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028",
+      "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028"
+    }
   ],
   "timeline": [
     {
@@ -42,7 +64,10 @@
       "role": "U.S. representative from San Francisco (not seeking reelection in 2026)",
       "org": "U.S. House of Representatives",
       "sources": [
-        { "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/", "title": "Roll Call" }
+        {
+          "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/",
+          "title": "Roll Call"
+        }
       ]
     },
     {
@@ -51,7 +76,10 @@
       "role": "Speaker of the House (2007–2011, 2019–2023)",
       "org": "U.S. House of Representatives",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Nancy_Pelosi", "title": "Wikipedia: Nancy Pelosi" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Nancy_Pelosi",
+          "title": "Wikipedia: Nancy Pelosi"
+        }
       ]
     }
   ],
@@ -65,7 +93,10 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028", "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028" }
+        {
+          "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028",
+          "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028"
+        }
       ]
     },
     {
@@ -77,9 +108,18 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Nancy_Pelosi", "title": "Wikipedia: Nancy Pelosi" },
-        { "url": "https://www.npr.org/2019/09/24/763700264/trumps-ukraine-call-may-be-game-changer-on-impeachment", "title": "Pelosi announces formal impeachment inquiry into President Trump — NPR" },
-        { "url": "https://www.cnn.com/politics/impeachment-fast-facts", "title": "Impeachment fast facts — CNN" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Nancy_Pelosi",
+          "title": "Wikipedia: Nancy Pelosi"
+        },
+        {
+          "url": "https://www.npr.org/2019/09/24/763700264/trumps-ukraine-call-may-be-game-changer-on-impeachment",
+          "title": "Pelosi announces formal impeachment inquiry into President Trump — NPR"
+        },
+        {
+          "url": "https://www.cnn.com/politics/impeachment-fast-facts",
+          "title": "Impeachment fast facts — CNN"
+        }
       ]
     },
     {
@@ -90,8 +130,14 @@
       "start_year": 2024,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.semafor.com/article/07/22/2024/nancy-pelosi-endorses-kamala-harris-democrat-president-nominee", "title": "Nancy Pelosi endorses Kamala Harris as Democratic presidential nominee — Semafor" },
-        { "url": "https://abcnews.go.com/US/wireStory/former-house-speaker-nancy-pelosi-endorses-vice-president-112170203", "title": "Former House Speaker Nancy Pelosi endorses Vice President Kamala Harris — AP via ABC News" }
+        {
+          "url": "https://www.semafor.com/article/07/22/2024/nancy-pelosi-endorses-kamala-harris-democrat-president-nominee",
+          "title": "Nancy Pelosi endorses Kamala Harris as Democratic presidential nominee — Semafor"
+        },
+        {
+          "url": "https://abcnews.go.com/US/wireStory/former-house-speaker-nancy-pelosi-endorses-vice-president-112170203",
+          "title": "Former House Speaker Nancy Pelosi endorses Vice President Kamala Harris — AP via ABC News"
+        }
       ]
     },
     {
@@ -103,8 +149,14 @@
       "end_year": 2021,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://www.pbs.org/newshour/politics/pence-tells-pelosi-he-wont-invoke-the-25th-amendment", "title": "Pence tells Pelosi he won't invoke the 25th Amendment — PBS NewsHour" },
-        { "url": "https://www.npr.org/sections/trump-impeachment-effort-live-updates/2021/01/12/955750169/house-to-vote-on-25th-amendment-resolution-against-trump", "title": "House approves 25th Amendment resolution against Trump; Pence says he won't invoke — NPR" }
+        {
+          "url": "https://www.pbs.org/newshour/politics/pence-tells-pelosi-he-wont-invoke-the-25th-amendment",
+          "title": "Pence tells Pelosi he won't invoke the 25th Amendment — PBS NewsHour"
+        },
+        {
+          "url": "https://www.npr.org/sections/trump-impeachment-effort-live-updates/2021/01/12/955750169/house-to-vote-on-25th-amendment-resolution-against-trump",
+          "title": "House approves 25th Amendment resolution against Trump; Pence says he won't invoke — NPR"
+        }
       ]
     },
     {
@@ -115,7 +167,10 @@
       "start_year": 2022,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://thehill.com/homenews/campaign/3705040-michael-bloomberg-gives-pelosi-aligned-super-pac-another-10m-as-midterms-near/", "title": "Michael Bloomberg gives Pelosi-aligned super PAC another $10M as midterms near — The Hill" }
+        {
+          "url": "https://thehill.com/homenews/campaign/3705040-michael-bloomberg-gives-pelosi-aligned-super-pac-another-10m-as-midterms-near/",
+          "title": "Michael Bloomberg gives Pelosi-aligned super PAC another $10M as midterms near — The Hill"
+        }
       ]
     },
     {
@@ -127,8 +182,14 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries", "title": "Hakeem Jeffries — Wikipedia" },
-        { "url": "https://pelosi.house.gov/news/press-releases/pelosi-statement-on-election-of-top-house-democratic-leadership-for-the-118th", "title": "Pelosi statement on election of top House Democratic leadership for the 118th Congress — pelosi.house.gov" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries",
+          "title": "Hakeem Jeffries — Wikipedia"
+        },
+        {
+          "url": "https://pelosi.house.gov/news/press-releases/pelosi-statement-on-election-of-top-house-democratic-leadership-for-the-118th",
+          "title": "Pelosi statement on election of top House Democratic leadership for the 118th Congress — pelosi.house.gov"
+        }
       ]
     },
     {
@@ -140,9 +201,18 @@
       "end_year": 2024,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00492421&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Nancy Pelosi Victory Fund" },
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00344234&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to PAC to the Future" },
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00213512&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Nancy Pelosi for Congress" }
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00492421&two_year_transaction_period=2024",
+          "title": "FEC receipts: LARSEN, CHRIS to Nancy Pelosi Victory Fund"
+        },
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00344234&two_year_transaction_period=2024",
+          "title": "FEC receipts: LARSEN, CHRIS to PAC to the Future"
+        },
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00213512&two_year_transaction_period=2024",
+          "title": "FEC receipts: LARSEN, CHRIS to Nancy Pelosi for Congress"
+        }
       ]
     },
     {
@@ -154,9 +224,18 @@
       "end_year": 2019,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00492421&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Nancy Pelosi Victory Fund" },
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00344234&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to PAC to the Future" },
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00213512&two_year_transaction_period=2020", "title": "FEC receipts: SOROS, GEORGE to Nancy Pelosi for Congress" }
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00492421&two_year_transaction_period=2020",
+          "title": "FEC receipts: SOROS, GEORGE to Nancy Pelosi Victory Fund"
+        },
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00344234&two_year_transaction_period=2020",
+          "title": "FEC receipts: SOROS, GEORGE to PAC to the Future"
+        },
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00213512&two_year_transaction_period=2020",
+          "title": "FEC receipts: SOROS, GEORGE to Nancy Pelosi for Congress"
+        }
       ]
     },
     {
@@ -168,9 +247,18 @@
       "end_year": 2021,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00492421&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Nancy Pelosi Victory Fund" },
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00213512&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to Nancy Pelosi for Congress" },
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00344234&two_year_transaction_period=2022", "title": "FEC receipts: HOFFMAN, REID to PAC to the Future" }
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00492421&two_year_transaction_period=2022",
+          "title": "FEC receipts: HOFFMAN, REID to Nancy Pelosi Victory Fund"
+        },
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00213512&two_year_transaction_period=2022",
+          "title": "FEC receipts: HOFFMAN, REID to Nancy Pelosi for Congress"
+        },
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00344234&two_year_transaction_period=2022",
+          "title": "FEC receipts: HOFFMAN, REID to PAC to the Future"
+        }
       ]
     },
     {
@@ -182,7 +270,10 @@
       "end_year": null,
       "confidence": 0.7,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Ro_Khanna",
+          "title": "Ro Khanna — Wikipedia"
+        }
       ]
     },
     {
@@ -194,7 +285,10 @@
       "end_year": 2023,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Katherine_Clark",
+          "title": "Katherine Clark — Wikipedia"
+        }
       ]
     },
     {
@@ -206,7 +300,10 @@
       "end_year": 2023,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Pete_Aguilar",
+          "title": "Pete Aguilar — Wikipedia"
+        }
       ]
     },
     {
@@ -218,7 +315,10 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Adam_Schiff",
+          "title": "Adam Schiff — Wikipedia"
+        }
       ]
     },
     {
@@ -230,7 +330,10 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Jamie_Raskin",
+          "title": "Jamie Raskin — Wikipedia"
+        }
       ]
     },
     {
@@ -242,7 +345,29 @@
       "end_year": 2009,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel",
+          "title": "Rahm Emanuel — Wikipedia"
+        }
+      ]
+    },
+    {
+      "name": "Jim Clyburn",
+      "slug": "jim-clyburn",
+      "relationship_type": "colleague",
+      "description": "Clyburn served as Pelosi's whip or assistant leader for 16 years, from 2007 to 2023.",
+      "start_year": 2007,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jim_Clyburn",
+          "title": "Jim Clyburn — Wikipedia"
+        },
+        {
+          "url": "https://www.npr.org/2007/01/12/6827972/rep-james-clyburn-herding-democratic-cats",
+          "title": "Rep. James Clyburn: herding Democratic cats — NPR"
+        }
       ]
     }
   ],
@@ -254,8 +379,14 @@
     "unit": "house",
     "rank": 4,
     "sources": [
-      { "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/", "title": "Roll Call" },
-      { "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028", "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028" }
+      {
+        "url": "https://rollcall.com/2025/11/06/pelosi-announces-retirement-as-history-making-career-comes-to-a-close/",
+        "title": "Roll Call"
+      },
+      {
+        "url": "https://www.axios.com/2026/02/15/pelosis-new-campaign-boost-newsom-for-2028",
+        "title": "Axios: Pelosi's new campaign: Boost Newsom for 2028"
+      }
     ]
   }
 }

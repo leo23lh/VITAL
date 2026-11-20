@@ -1,9 +1,14 @@
 {
   "name": "Kamala Harris",
-  "aliases": ["Kamala Devi Harris"],
+  "aliases": [
+    "Kamala Devi Harris"
+  ],
   "public_figure": true,
   "sector": "politics",
-  "groups": ["critics", "2028-race"],
+  "groups": [
+    "critics",
+    "2028-race"
+  ],
   "lean": [
     {
       "value": -2,
@@ -11,7 +16,10 @@
       "end_year": null,
       "basis": "Democratic district attorney, California attorney general, senator, vice president (2021–2025) and 2024 presidential nominee.",
       "sources": [
-        { "url": "https://ballotpedia.org/Kamala_Harris", "title": "Ballotpedia: Kamala Harris" }
+        {
+          "url": "https://ballotpedia.org/Kamala_Harris",
+          "title": "Ballotpedia: Kamala Harris"
+        }
       ]
     }
   ],
@@ -19,23 +27,44 @@
     "role": "contender",
     "basis": "Has led most national 2028 Democratic primary polls since spring 2026 and has hired staff, met donors and traveled to battleground states, though she says she is undecided and many former aides doubt she will run.",
     "sources": [
-      { "url": "https://abcnews.com/Politics/kamala-harris-eyes-2028-comeback-former-allies-fresh/story?id=133522340", "title": "ABC News: Kamala Harris eyes possible 2028 comeback" },
-      { "url": "https://www.axios.com/2026/09/20/kamala-harris-ex-aides-2028-campaign", "title": "Axios: Many ex-aides to Harris betting against a 2028 run" },
-      { "url": "https://en.wikipedia.org/wiki/Statewide_opinion_polling_for_the_2028_Democratic_Party_presidential_primaries", "title": "Wikipedia: Opinion polling for the 2028 Democratic primaries" }
+      {
+        "url": "https://abcnews.com/Politics/kamala-harris-eyes-2028-comeback-former-allies-fresh/story?id=133522340",
+        "title": "ABC News: Kamala Harris eyes possible 2028 comeback"
+      },
+      {
+        "url": "https://www.axios.com/2026/09/20/kamala-harris-ex-aides-2028-campaign",
+        "title": "Axios: Many ex-aides to Harris betting against a 2028 run"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Statewide_opinion_polling_for_the_2028_Democratic_Party_presidential_primaries",
+        "title": "Wikipedia: Opinion polling for the 2028 Democratic primaries"
+      }
     ]
   },
   "photo": {
     "file": "kamala-harris.jpg",
     "credit": "Lawrence Jackson",
     "license": "Public domain",
-    "source": { "url": "https://commons.wikimedia.org/wiki/File:Kamala_Harris_Vice_Presidential_Portrait.jpg", "title": "File:Kamala Harris Vice Presidential Portrait.jpg — Wikimedia Commons" }
+    "source": {
+      "url": "https://commons.wikimedia.org/wiki/File:Kamala_Harris_Vice_Presidential_Portrait.jpg",
+      "title": "File:Kamala Harris Vice Presidential Portrait.jpg — Wikimedia Commons"
+    }
   },
   "current_role": "Former Vice President of the United States (2021–2025); head of the Fight for the People PAC",
   "summary": "Kamala Harris was San Francisco district attorney, California attorney general and a U.S. senator before serving as vice president under Joe Biden from 2021 to 2025. She became the Democratic nominee after Biden withdrew in 2024 and lost to Donald Trump. She leads many 2028 primary polls and has kept a political operation through her Fight for the People PAC, but has not decided whether to run.",
   "sources": [
-    { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" },
-    { "url": "https://ballotpedia.org/Kamala_Harris", "title": "Ballotpedia: Kamala Harris" },
-    { "url": "https://abcnews.com/Politics/kamala-harris-eyes-2028-comeback-former-allies-fresh/story?id=133522340", "title": "ABC News: Kamala Harris eyes possible 2028 comeback" }
+    {
+      "url": "https://www.britannica.com/biography/Kamala-Harris",
+      "title": "Britannica: Kamala Harris"
+    },
+    {
+      "url": "https://ballotpedia.org/Kamala_Harris",
+      "title": "Ballotpedia: Kamala Harris"
+    },
+    {
+      "url": "https://abcnews.com/Politics/kamala-harris-eyes-2028-comeback-former-allies-fresh/story?id=133522340",
+      "title": "ABC News: Kamala Harris eyes possible 2028 comeback"
+    }
   ],
   "timeline": [
     {
@@ -44,7 +73,10 @@
       "role": "District Attorney of San Francisco",
       "org": "City and County of San Francisco",
       "sources": [
-        { "url": "https://ballotpedia.org/Kamala_Harris", "title": "Ballotpedia: Kamala Harris" }
+        {
+          "url": "https://ballotpedia.org/Kamala_Harris",
+          "title": "Ballotpedia: Kamala Harris"
+        }
       ]
     },
     {
@@ -53,7 +85,10 @@
       "role": "Attorney General of California",
       "org": "State of California",
       "sources": [
-        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" }
+        {
+          "url": "https://www.britannica.com/biography/Kamala-Harris",
+          "title": "Britannica: Kamala Harris"
+        }
       ]
     },
     {
@@ -62,7 +97,10 @@
       "role": "U.S. senator from California",
       "org": "U.S. Senate",
       "sources": [
-        { "url": "https://ballotpedia.org/Kamala_Harris", "title": "Ballotpedia: Kamala Harris" }
+        {
+          "url": "https://ballotpedia.org/Kamala_Harris",
+          "title": "Ballotpedia: Kamala Harris"
+        }
       ]
     },
     {
@@ -71,7 +109,10 @@
       "role": "Vice President of the United States",
       "org": "The White House",
       "sources": [
-        { "url": "https://ballotpedia.org/Kamala_Harris", "title": "Ballotpedia: Kamala Harris" }
+        {
+          "url": "https://ballotpedia.org/Kamala_Harris",
+          "title": "Ballotpedia: Kamala Harris"
+        }
       ]
     },
     {
@@ -80,7 +121,10 @@
       "role": "Democratic presidential nominee (lost to Donald Trump)",
       "org": "Harris for President",
       "sources": [
-        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" }
+        {
+          "url": "https://www.britannica.com/biography/Kamala-Harris",
+          "title": "Britannica: Kamala Harris"
+        }
       ]
     }
   ],
@@ -94,9 +138,18 @@
       "end_year": 2024,
       "confidence": 0.98,
       "sources": [
-        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" },
-        { "url": "https://www.washingtonexaminer.com/news/3210669/donald-trump-wins-2024-election-defeating-kamala-harris/", "title": "Washington Examiner: Donald Trump wins the 2024 election, defeating Kamala Harris" },
-        { "url": "https://www.foxnews.com/politics/fox-news-projects-donald-trump-defeats-kamala-harris-become-47th-president-united-states", "title": "Fox News projects Trump defeats Harris to become 47th president" }
+        {
+          "url": "https://www.britannica.com/biography/Kamala-Harris",
+          "title": "Britannica: Kamala Harris"
+        },
+        {
+          "url": "https://www.washingtonexaminer.com/news/3210669/donald-trump-wins-2024-election-defeating-kamala-harris/",
+          "title": "Washington Examiner: Donald Trump wins the 2024 election, defeating Kamala Harris"
+        },
+        {
+          "url": "https://www.foxnews.com/politics/fox-news-projects-donald-trump-defeats-kamala-harris-become-47th-president-united-states",
+          "title": "Fox News projects Trump defeats Harris to become 47th president"
+        }
       ]
     },
     {
@@ -108,7 +161,10 @@
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Axios: Ben Horowitz plans significant donation to Kamala Harris" }
+        {
+          "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris",
+          "title": "Axios: Ben Horowitz plans significant donation to Kamala Harris"
+        }
       ]
     },
     {
@@ -120,11 +176,26 @@
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://fortune.com/2024/07/26/reid-hoffman-angers-democrats-republicans-trump-harris-lina-khan/", "title": "Fortune: Reid Hoffman angers Democrats and Republicans" },
-        { "url": "https://www.axios.com/2026/09/20/kamala-harris-ex-aides-2028-campaign", "title": "Axios: Many ex-aides to Harris betting against a 2028 run" },
-        { "url": "https://www.washingtonexaminer.com/politics/3179215/kamala-harris-influential-megadonors/", "title": "Washington Examiner: Meet Kamala Harris’s influential megadonors" },
-        { "url": "https://www.washingtonexaminer.com/policy/finance/4729704/reid-hoffman-linkedin-cofounder-cool-kamala-harris-2028/", "title": "Washington Examiner: Hoffman cool on Harris’s chances in 2028" },
-        { "url": "https://freebeacon.com/democrats/awkward-top-dem-donor-tries-to-explain-hes-not-buying-influence-with-kamala/", "title": "Washington Free Beacon: Top Dem donor says he isn’t buying influence with Harris" }
+        {
+          "url": "https://fortune.com/2024/07/26/reid-hoffman-angers-democrats-republicans-trump-harris-lina-khan/",
+          "title": "Fortune: Reid Hoffman angers Democrats and Republicans"
+        },
+        {
+          "url": "https://www.axios.com/2026/09/20/kamala-harris-ex-aides-2028-campaign",
+          "title": "Axios: Many ex-aides to Harris betting against a 2028 run"
+        },
+        {
+          "url": "https://www.washingtonexaminer.com/politics/3179215/kamala-harris-influential-megadonors/",
+          "title": "Washington Examiner: Meet Kamala Harris’s influential megadonors"
+        },
+        {
+          "url": "https://www.washingtonexaminer.com/policy/finance/4729704/reid-hoffman-linkedin-cofounder-cool-kamala-harris-2028/",
+          "title": "Washington Examiner: Hoffman cool on Harris’s chances in 2028"
+        },
+        {
+          "url": "https://freebeacon.com/democrats/awkward-top-dem-donor-tries-to-explain-hes-not-buying-influence-with-kamala/",
+          "title": "Washington Free Beacon: Top Dem donor says he isn’t buying influence with Harris"
+        }
       ]
     },
     {
@@ -136,8 +207,14 @@
       "end_year": null,
       "confidence": 0.99,
       "sources": [
-        { "url": "https://www.britannica.com/biography/Kamala-Harris", "title": "Britannica: Kamala Harris" },
-        { "url": "https://www.npr.org/sections/live-updates-2020-election-results/2020/11/08/932821182/meet-doug-emhoff-americas-first-second-gentleman", "title": "Who Is Kamala Harris' Husband? Meet Doug Emhoff — NPR" }
+        {
+          "url": "https://www.britannica.com/biography/Kamala-Harris",
+          "title": "Britannica: Kamala Harris"
+        },
+        {
+          "url": "https://www.npr.org/sections/live-updates-2020-election-results/2020/11/08/932821182/meet-doug-emhoff-americas-first-second-gentleman",
+          "title": "Who Is Kamala Harris' Husband? Meet Doug Emhoff — NPR"
+        }
       ]
     },
     {
@@ -149,8 +226,14 @@
       "end_year": null,
       "confidence": 0.7,
       "sources": [
-        { "url": "https://thedonorclass.substack.com/p/exclusive-the-team-kamala-harris", "title": "The Donor Class: The team Kamala Harris is building" },
-        { "url": "https://wikiwand.com/en/Brian_Fallon_(press_secretary)", "title": "Wikipedia: Brian Fallon" }
+        {
+          "url": "https://thedonorclass.substack.com/p/exclusive-the-team-kamala-harris",
+          "title": "The Donor Class: The team Kamala Harris is building"
+        },
+        {
+          "url": "https://wikiwand.com/en/Brian_Fallon_(press_secretary)",
+          "title": "Wikipedia: Brian Fallon"
+        }
       ]
     },
     {
@@ -161,7 +244,10 @@
       "start_year": 2010,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+        {
+          "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/",
+          "title": "Capitol Weekly's Top 100: Bearstar Strategies"
+        }
       ]
     },
     {
@@ -172,7 +258,10 @@
       "start_year": null,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/", "title": "Capitol Weekly's Top 100: Bearstar Strategies" }
+        {
+          "url": "https://capitolweekly.net/capitol-weeklys-top-100-bearstar-strategies/",
+          "title": "Capitol Weekly's Top 100: Bearstar Strategies"
+        }
       ]
     },
     {
@@ -184,8 +273,14 @@
       "end_year": null,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://www.axios.com/local/san-francisco/2026/09/16/gavin-newsom-kamala-harris-2028-democratic-primary", "title": "Axios San Francisco: Newsom's 2028 plans could hinge on Harris' decision" },
-        { "url": "https://kmph.com/news/nation-world/why-experts-see-newsoms-pledge-to-avoid-running-against-harris-as-strategic-move-gavin-newsom-kamala-harris-democrats-2028-presidential-race", "title": "Why experts see Newsom's pledge to avoid running against Harris as strategic" }
+        {
+          "url": "https://www.axios.com/local/san-francisco/2026/09/16/gavin-newsom-kamala-harris-2028-democratic-primary",
+          "title": "Axios San Francisco: Newsom's 2028 plans could hinge on Harris' decision"
+        },
+        {
+          "url": "https://kmph.com/news/nation-world/why-experts-see-newsoms-pledge-to-avoid-running-against-harris-as-strategic-move-gavin-newsom-kamala-harris-democrats-2028-presidential-race",
+          "title": "Why experts see Newsom's pledge to avoid running against Harris as strategic"
+        }
       ]
     },
     {
@@ -197,9 +292,18 @@
       "end_year": 2024,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html", "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC" },
-        { "url": "https://www.cnn.com/2024/10/30/politics/democratic-digital-advertising-future-forward/index.html", "title": "If you've been seeing more pro-Harris ads online lately, here's why — CNN" },
-        { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" }
+        {
+          "url": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html",
+          "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges — CNBC"
+        },
+        {
+          "url": "https://www.cnn.com/2024/10/30/politics/democratic-digital-advertising-future-forward/index.html",
+          "title": "If you've been seeing more pro-Harris ads online lately, here's why — CNN"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz",
+          "title": "Dustin Moskovitz — Wikipedia"
+        }
       ]
     },
     {
@@ -211,11 +315,26 @@
       "end_year": 2024,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://www.cnbc.com/2024/10/15/kamala-harris-got-1-million-from-ripples-chris-larsen-crypto-warms.html", "title": "Harris PAC's $1 million contribution from Ripple's Chris Larsen shows crypto industry warming to VP — CNBC" },
-        { "url": "https://www.theblock.co/post/320785/ripple-co-founder-chris-larsen-donates-1-million-in-crypto-to-pac-supporting-kamala-harris-campaign", "title": "Ripple co-founder Chris Larsen donates $1 million in crypto to PAC supporting Kamala Harris — The Block" },
-        { "url": "https://decrypt.co/287549/ripple-founder-10-million-xrp-kamala-harris", "title": "Ripple founder donates another $10 million in XRP to support Kamala Harris — Decrypt" },
-        { "url": "https://www.foxnews.com/politics/top-trump-ally-warns-super-pac-bankrolled-dem-billionaire-meddling-gop-primary", "title": "Fox News: Larsen gave $5,444,975 to support Harris (in a report on his 2026 PAC)" },
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: LARSEN, CHRIS to Harris Victory Fund" }
+        {
+          "url": "https://www.cnbc.com/2024/10/15/kamala-harris-got-1-million-from-ripples-chris-larsen-crypto-warms.html",
+          "title": "Harris PAC's $1 million contribution from Ripple's Chris Larsen shows crypto industry warming to VP — CNBC"
+        },
+        {
+          "url": "https://www.theblock.co/post/320785/ripple-co-founder-chris-larsen-donates-1-million-in-crypto-to-pac-supporting-kamala-harris-campaign",
+          "title": "Ripple co-founder Chris Larsen donates $1 million in crypto to PAC supporting Kamala Harris — The Block"
+        },
+        {
+          "url": "https://decrypt.co/287549/ripple-founder-10-million-xrp-kamala-harris",
+          "title": "Ripple founder donates another $10 million in XRP to support Kamala Harris — Decrypt"
+        },
+        {
+          "url": "https://www.foxnews.com/politics/top-trump-ally-warns-super-pac-bankrolled-dem-billionaire-meddling-gop-primary",
+          "title": "Fox News: Larsen gave $5,444,975 to support Harris (in a report on his 2026 PAC)"
+        },
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=LARSEN%2C+CHRIS&committee_id=C00744946&two_year_transaction_period=2024",
+          "title": "FEC receipts: LARSEN, CHRIS to Harris Victory Fund"
+        }
       ]
     },
     {
@@ -226,8 +345,14 @@
       "start_year": 2024,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.semafor.com/article/07/22/2024/nancy-pelosi-endorses-kamala-harris-democrat-president-nominee", "title": "Nancy Pelosi endorses Kamala Harris as Democratic presidential nominee — Semafor" },
-        { "url": "https://abcnews.go.com/US/wireStory/former-house-speaker-nancy-pelosi-endorses-vice-president-112170203", "title": "Former House Speaker Nancy Pelosi endorses Vice President Kamala Harris — AP via ABC News" }
+        {
+          "url": "https://www.semafor.com/article/07/22/2024/nancy-pelosi-endorses-kamala-harris-democrat-president-nominee",
+          "title": "Nancy Pelosi endorses Kamala Harris as Democratic presidential nominee — Semafor"
+        },
+        {
+          "url": "https://abcnews.go.com/US/wireStory/former-house-speaker-nancy-pelosi-endorses-vice-president-112170203",
+          "title": "Former House Speaker Nancy Pelosi endorses Vice President Kamala Harris — AP via ABC News"
+        }
       ]
     },
     {
@@ -239,7 +364,10 @@
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.factcheck.org/2026/10/maga-inc-3/", "title": "MAGA Inc. — FactCheck.org" }
+        {
+          "url": "https://www.factcheck.org/2026/10/maga-inc-3/",
+          "title": "MAGA Inc. — FactCheck.org"
+        }
       ]
     },
     {
@@ -251,7 +379,10 @@
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/", "title": "Restoration of America PAC — FactCheck.org" }
+        {
+          "url": "https://www.factcheck.org/2026/08/restoration-of-america-pac/",
+          "title": "Restoration of America PAC — FactCheck.org"
+        }
       ]
     },
     {
@@ -263,8 +394,14 @@
       "end_year": 2024,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC", "title": "Preserve America PAC — Wikipedia" },
-        { "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin", "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Preserve_America_PAC",
+          "title": "Preserve America PAC — Wikipedia"
+        },
+        {
+          "url": "https://bnnbloomberg.ca/business/company-news/2024/10/16/adelson-spends-95-million-to-boost-trump-in-michigan-wisconsin",
+          "title": "Adelson spends $95 million to boost Trump in Michigan, Wisconsin — Bloomberg via BNN"
+        }
       ]
     },
     {
@@ -276,9 +413,18 @@
       "end_year": 2020,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Mike_Pence", "title": "Mike Pence — Wikipedia" },
-        { "url": "https://www.deseret.com/utah/2020/10/7/21505856/vice-presidential-debate-kamala-harris-mike-pence-university-utah-salt-lake-city-republican-democrat", "title": "The protesters, the fly and other sideshows from Utah’s VP debate — Deseret News" },
-        { "url": "https://www.fox9.com/news/vp-debate-pence-harris-clash-on-coronavirus-taxes-climate-health-care", "title": "VP debate: Pence, Harris clash on coronavirus, taxes, climate, health care — Fox 9" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Mike_Pence",
+          "title": "Mike Pence — Wikipedia"
+        },
+        {
+          "url": "https://www.deseret.com/utah/2020/10/7/21505856/vice-presidential-debate-kamala-harris-mike-pence-university-utah-salt-lake-city-republican-democrat",
+          "title": "The protesters, the fly and other sideshows from Utah’s VP debate — Deseret News"
+        },
+        {
+          "url": "https://www.fox9.com/news/vp-debate-pence-harris-clash-on-coronavirus-taxes-climate-health-care",
+          "title": "VP debate: Pence, Harris clash on coronavirus, taxes, climate, health care — Fox 9"
+        }
       ]
     },
     {
@@ -290,8 +436,14 @@
       "end_year": 2024,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://gvwire.com/2024/10/17/inside-the-secretive-700-million-ad-testing-factory-for-kamala-harris", "title": "Inside the secretive $700 million ad-testing factory for Kamala Harris — New York Times via GV Wire" },
-        { "url": "https://www.brennancenter.org/our-work/analysis-opinion/megadonors-playing-larger-role-presidential-race-fec-data-shows", "title": "Megadonors playing larger role in presidential race, FEC data shows — Brennan Center" }
+        {
+          "url": "https://gvwire.com/2024/10/17/inside-the-secretive-700-million-ad-testing-factory-for-kamala-harris",
+          "title": "Inside the secretive $700 million ad-testing factory for Kamala Harris — New York Times via GV Wire"
+        },
+        {
+          "url": "https://www.brennancenter.org/our-work/analysis-opinion/megadonors-playing-larger-role-presidential-race-fec-data-shows",
+          "title": "Megadonors playing larger role in presidential race, FEC data shows — Brennan Center"
+        }
       ]
     },
     {
@@ -303,8 +455,14 @@
       "end_year": 2024,
       "confidence": 0.7,
       "sources": [
-        { "url": "https://www.nbcnews.com/politics/2024-election/harris-campaign-met-6-potential-vp-picks-selection-process-nears-end-rcna164706", "title": "Harris campaign met 6 potential VP picks — NBC News" },
-        { "url": "https://www.stripes.com/theaters/us/2024-08-02/harris-narrows-vp-search-to-six-finalists,-plans-to-interview-them-this-weekend-14709978.html", "title": "Harris narrows VP search to six finalists — AP via Stars and Stripes" }
+        {
+          "url": "https://www.nbcnews.com/politics/2024-election/harris-campaign-met-6-potential-vp-picks-selection-process-nears-end-rcna164706",
+          "title": "Harris campaign met 6 potential VP picks — NBC News"
+        },
+        {
+          "url": "https://www.stripes.com/theaters/us/2024-08-02/harris-narrows-vp-search-to-six-finalists,-plans-to-interview-them-this-weekend-14709978.html",
+          "title": "Harris narrows VP search to six finalists — AP via Stars and Stripes"
+        }
       ]
     },
     {
@@ -316,7 +474,10 @@
       "end_year": 2024,
       "confidence": 0.7,
       "sources": [
-        { "url": "https://www.nbcnews.com/politics/2028-election/maryland-governor-wes-moore-ruling-out-presidential-run-redistricting-rcna229615", "title": "Maryland Gov. Wes Moore rules out presidential run — NBC News" }
+        {
+          "url": "https://www.nbcnews.com/politics/2028-election/maryland-governor-wes-moore-ruling-out-presidential-run-redistricting-rcna229615",
+          "title": "Maryland Gov. Wes Moore rules out presidential run — NBC News"
+        }
       ]
     },
     {
@@ -327,7 +488,10 @@
       "start_year": null,
       "confidence": 0.7,
       "sources": [
-        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" }
+        {
+          "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris",
+          "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios"
+        }
       ]
     },
     {
@@ -339,8 +503,14 @@
       "end_year": 2024,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: SCHIMPF, BRIAN to Harris Victory Fund" },
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00703975&two_year_transaction_period=2024", "title": "FEC receipts: SCHIMPF, BRIAN to Harris for President" }
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00744946&two_year_transaction_period=2024",
+          "title": "FEC receipts: SCHIMPF, BRIAN to Harris Victory Fund"
+        },
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SCHIMPF%2C+BRIAN&committee_id=C00703975&two_year_transaction_period=2024",
+          "title": "FEC receipts: SCHIMPF, BRIAN to Harris for President"
+        }
       ]
     },
     {
@@ -352,8 +522,14 @@
       "end_year": 2024,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00571919&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Kamala Harris for Senate" },
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: SOROS, GEORGE to Harris Victory Fund" }
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00571919&two_year_transaction_period=2024",
+          "title": "FEC receipts: SOROS, GEORGE to Kamala Harris for Senate"
+        },
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00744946&two_year_transaction_period=2024",
+          "title": "FEC receipts: SOROS, GEORGE to Harris Victory Fund"
+        }
       ]
     },
     {
@@ -365,8 +541,14 @@
       "end_year": 2024,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00571919&two_year_transaction_period=2024", "title": "FEC receipts: STOPPELMAN, JEREMY to Kamala Harris for Senate" },
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00744946&two_year_transaction_period=2024", "title": "FEC receipts: STOPPELMAN, JEREMY to Harris Victory Fund" }
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00571919&two_year_transaction_period=2024",
+          "title": "FEC receipts: STOPPELMAN, JEREMY to Kamala Harris for Senate"
+        },
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&committee_id=C00744946&two_year_transaction_period=2024",
+          "title": "FEC receipts: STOPPELMAN, JEREMY to Harris Victory Fund"
+        }
       ]
     },
     {
@@ -378,9 +560,18 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://www.aljazeera.com/news/2024/7/26/barack-obama-endorses-kamala-harris-for-us-president", "title": "Barack Obama endorses Kamala Harris for US president — Al Jazeera" },
-        { "url": "https://m.washingtontimes.com/news/2024/jul/26/obama-endorses-kamala-harris-for-president-she-has/", "title": "Obama endorses Kamala Harris for president — The Washington Times" },
-        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
+        {
+          "url": "https://www.aljazeera.com/news/2024/7/26/barack-obama-endorses-kamala-harris-for-us-president",
+          "title": "Barack Obama endorses Kamala Harris for US president — Al Jazeera"
+        },
+        {
+          "url": "https://m.washingtontimes.com/news/2024/jul/26/obama-endorses-kamala-harris-for-president-she-has/",
+          "title": "Obama endorses Kamala Harris for president — The Washington Times"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "title": "Barack Obama — Wikipedia"
+        }
       ]
     },
     {
@@ -392,8 +583,14 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
-        { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
+          "title": "Joe Biden — Wikipedia"
+        },
+        {
+          "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/",
+          "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now"
+        }
       ]
     },
     {
@@ -405,7 +602,10 @@
       "end_year": 2024,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/JB_Pritzker",
+          "title": "JB Pritzker — Wikipedia"
+        }
       ]
     },
     {
@@ -417,7 +617,10 @@
       "end_year": 2024,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer",
+          "title": "Gretchen Whitmer — Wikipedia"
+        }
       ]
     },
     {
@@ -429,7 +632,10 @@
       "end_year": 2020,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Cory_Booker", "title": "Cory Booker — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Cory_Booker",
+          "title": "Cory Booker — Wikipedia"
+        }
       ]
     },
     {
@@ -441,7 +647,10 @@
       "end_year": 2024,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Mark_Kelly", "title": "Mark Kelly — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Mark_Kelly",
+          "title": "Mark Kelly — Wikipedia"
+        }
       ]
     },
     {
@@ -453,9 +662,18 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" },
-        { "url": "https://www.cbsnews.com/news/tim-walz-vp-kamala-harris-running-mate-2024/", "title": "Kamala Harris picks Minnesota Governor Tim Walz as her VP running mate — CBS News" },
-        { "url": "https://www.foxnews.com/politics/vice-president-kamala-harris-names-minnesota-gov-tim-walz-her-running-mate", "title": "Vice President Kamala Harris names Minnesota Gov. Tim Walz as her running mate — Fox News" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
+          "title": "Tim Walz — Wikipedia"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/tim-walz-vp-kamala-harris-running-mate-2024/",
+          "title": "Kamala Harris picks Minnesota Governor Tim Walz as her VP running mate — CBS News"
+        },
+        {
+          "url": "https://www.foxnews.com/politics/vice-president-kamala-harris-names-minnesota-gov-tim-walz-her-running-mate",
+          "title": "Vice President Kamala Harris names Minnesota Gov. Tim Walz as her running mate — Fox News"
+        }
       ]
     },
     {
@@ -467,8 +685,14 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" },
-        { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris — AP via Hawaii News Now" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Hillary_Clinton",
+          "title": "Hillary Clinton — Wikipedia"
+        },
+        {
+          "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/",
+          "title": "Biden ends his 2024 presidential campaign, endorses Harris — AP via Hawaii News Now"
+        }
       ]
     },
     {
@@ -480,8 +704,14 @@
       "end_year": null,
       "confidence": 0.65,
       "sources": [
-        { "url": "https://digital-release.newsnationnow.com/?p=3418428", "title": "Clintons, Harris attend Hamptons wedding of Huma Abedin, Alex Soros — NewsNation" },
-        { "url": "https://www.cnn.com/2023/06/12/investing/george-soros-taps-son-alexander/index.html", "title": "George Soros has handed control of his charitable and political activities to his son Alex — CNN" }
+        {
+          "url": "https://digital-release.newsnationnow.com/?p=3418428",
+          "title": "Clintons, Harris attend Hamptons wedding of Huma Abedin, Alex Soros — NewsNation"
+        },
+        {
+          "url": "https://www.cnn.com/2023/06/12/investing/george-soros-taps-son-alexander/index.html",
+          "title": "George Soros has handed control of his charitable and political activities to his son Alex — CNN"
+        }
       ]
     },
     {
@@ -493,9 +723,18 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/", "title": "Laurene Powell Jobs is one of Kamala Harris's biggest bankrollers—and closest friends — Fortune" },
-        { "url": "https://semafor.com/article/08/22/2024/first-friend-kamala-harriss-alliance-with-laurene-powell-jobs", "title": "First friend: Kamala Harris's alliance with Laurene Powell Jobs — Semafor" },
-        { "url": "https://en.wikipedia.org/wiki/Laurene_Powell_Jobs", "title": "Laurene Powell Jobs — Wikipedia" }
+        {
+          "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/",
+          "title": "Laurene Powell Jobs is one of Kamala Harris's biggest bankrollers—and closest friends — Fortune"
+        },
+        {
+          "url": "https://semafor.com/article/08/22/2024/first-friend-kamala-harriss-alliance-with-laurene-powell-jobs",
+          "title": "First friend: Kamala Harris's alliance with Laurene Powell Jobs — Semafor"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Laurene_Powell_Jobs",
+          "title": "Laurene Powell Jobs — Wikipedia"
+        }
       ]
     },
     {
@@ -507,10 +746,22 @@
       "end_year": 2024,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/", "title": "Laurene Powell Jobs is one of Kamala Harris's biggest bankrollers—and closest friends — Fortune" },
-        { "url": "https://semafor.com/article/08/22/2024/first-friend-kamala-harriss-alliance-with-laurene-powell-jobs", "title": "First friend: Kamala Harris's alliance with Laurene Powell Jobs — Semafor" },
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00571919&two_year_transaction_period=2018", "title": "FEC receipts: JOBS, LAURENE to Kamala Harris for Senate" },
-        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00629071&two_year_transaction_period=2018", "title": "FEC receipts: JOBS, LAURENE to Fearless for the People PAC" }
+        {
+          "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/",
+          "title": "Laurene Powell Jobs is one of Kamala Harris's biggest bankrollers—and closest friends — Fortune"
+        },
+        {
+          "url": "https://semafor.com/article/08/22/2024/first-friend-kamala-harriss-alliance-with-laurene-powell-jobs",
+          "title": "First friend: Kamala Harris's alliance with Laurene Powell Jobs — Semafor"
+        },
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00571919&two_year_transaction_period=2018",
+          "title": "FEC receipts: JOBS, LAURENE to Kamala Harris for Senate"
+        },
+        {
+          "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00629071&two_year_transaction_period=2018",
+          "title": "FEC receipts: JOBS, LAURENE to Fearless for the People PAC"
+        }
       ]
     },
     {
@@ -522,7 +773,10 @@
       "end_year": 2024,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon",
+          "title": "Jen O'Malley Dillon — Wikipedia"
+        }
       ]
     },
     {
@@ -534,7 +788,10 @@
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+        {
+          "url": "https://en.wikipedia.org/wiki/David_Plouffe",
+          "title": "David Plouffe — Wikipedia"
+        }
       ]
     },
     {
@@ -546,9 +803,37 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://giffords.org/press-release/2024/07/gabby-giffords-kamala-harris-will-be-a-great-president/", "title": "Gabby Giffords: Kamala Harris will be a great president — Giffords" },
-        { "url": "https://www.nbcnews.com/politics/2024-election/giffords-gun-safety-group-commits-15-million-help-harris-beat-trump-rcna163424", "title": "Giffords group commits $15 million to help Harris beat Trump — NBC News" },
-        { "url": "https://www.cbsnews.com/amp/colorado/news/gabby-giffords-mark-kelly-dnc-speech", "title": "Gabby Giffords and husband Sen. Mark Kelly, in DNC speeches, praise Harris — CBS News" }
+        {
+          "url": "https://giffords.org/press-release/2024/07/gabby-giffords-kamala-harris-will-be-a-great-president/",
+          "title": "Gabby Giffords: Kamala Harris will be a great president — Giffords"
+        },
+        {
+          "url": "https://www.nbcnews.com/politics/2024-election/giffords-gun-safety-group-commits-15-million-help-harris-beat-trump-rcna163424",
+          "title": "Giffords group commits $15 million to help Harris beat Trump — NBC News"
+        },
+        {
+          "url": "https://www.cbsnews.com/amp/colorado/news/gabby-giffords-mark-kelly-dnc-speech",
+          "title": "Gabby Giffords and husband Sen. Mark Kelly, in DNC speeches, praise Harris — CBS News"
+        }
+      ]
+    },
+    {
+      "name": "Jim Clyburn",
+      "slug": "jim-clyburn",
+      "relationship_type": "ally",
+      "description": "Clyburn endorsed Harris for president on July 21, 2024, the day Biden withdrew.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        {
+          "url": "https://abcnews.go.com/US/wireStory/south-carolina-rep-jim-clyburn-credited-helping-biden-112148759",
+          "title": "Clyburn, credited with helping Biden win the 2020 nomination, endorses Harris — ABC News (AP)"
+        },
+        {
+          "url": "https://www.washingtonexaminer.com/live-blog-posts/jim-clyburn-endorses-kamala-harris-after-biden-bows-out",
+          "title": "Jim Clyburn endorses Kamala Harris after Biden bows out — Washington Examiner"
+        }
       ]
     }
   ],
