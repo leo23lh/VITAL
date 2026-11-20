@@ -314,6 +314,18 @@
         { "url": "https://www.nbcnews.com/politics/2016-election/hillary-clinton-hire-former-obama-deputy-campaign-manager-n515561", "title": "Hillary Clinton to hire former Obama deputy campaign manager — NBC News" },
         { "url": "https://www.texastribune.org/2019/03/25/beto-orourke-hires-former-top-barack-obama-aide-campaign-manager/", "title": "Beto O'Rourke hires former top Barack Obama aide as campaign manager — Texas Tribune" }
       ]
+    },
+    {
+      "name": "Ron Klain",
+      "slug": "ron-klain",
+      "relationship_type": "employee",
+      "description": "Obama appointed Klain White House Ebola response coordinator (2014–2015); Klain also helped prepare him for presidential debates.",
+      "start_year": 2008,
+      "end_year": 2015,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so each news fact was confirmed through search results tied to the cited URL. Ties to Biden, Clinton, Plouffe and Emanuel will gain sources as their own files are added.",

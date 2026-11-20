@@ -251,6 +251,18 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
       ]
+    },
+    {
+      "name": "Ron Klain",
+      "slug": "ron-klain",
+      "relationship_type": "employee",
+      "description": "Klain helped prepare her for the 2016 primary and general-election debates.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Records for Obama, Warren and Pritzker mirror those already in their files.",

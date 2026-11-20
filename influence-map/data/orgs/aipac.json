@@ -118,6 +118,20 @@
         { "url": "https://www.wsls.com/news/politics/2026/07/19/aipac-has-spent-a-record-amount-on-michigans-senate-primary-the-biggest-test-of-its-influence-yet/", "title": "AIPAC has spent a record amount on Michigan's Senate primary — AP via WSLS" },
         { "url": "https://www.mediaite.com/politics/abdul-el-sayed-fends-off-30-million-aipac-ad-buy-to-win-michigan-primary-nbc-projects/", "title": "Abdul El-Sayed fends off $30 million AIPAC ad buy to win Michigan primary — Mediaite" }
       ]
+    },
+    {
+      "name": "Jamaal Bowman",
+      "slug": "jamaal-bowman",
+      "relationship_type": "enemy",
+      "description": "AIPAC's super PAC and allied groups spent about $15 million to defeat Bowman in his 2024 primary; he called AIPAC a threat to democracy.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamaal_Bowman", "title": "Jamaal Bowman — Wikipedia" },
+        { "url": "https://www.politico.com/news/2024/06/25/jamaal-bowman-loses-george-latimer-00164997", "title": "Jamaal Bowman loses to George Latimer — Politico" },
+        { "url": "https://www.jta.org/2024/06/22/ny/criticism-of-israel-and-aipac-features-in-rally-for-jamaal-bowman-with-aoc-and-bernie-sanders", "title": "Criticism of Israel and AIPAC features in rally for Jamaal Bowman with AOC and Bernie Sanders — JTA" }
+      ]
     }
   ],
   "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and news reporting. Most news pages could not be opened in the research sandbox, so facts were confirmed with web searches tied to each cited URL.",

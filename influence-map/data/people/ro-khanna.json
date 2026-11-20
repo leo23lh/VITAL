@@ -193,6 +193,32 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Ro_Khanna", "title": "Ro Khanna — Wikipedia" }
       ]
+    },
+    {
+      "name": "Ron Klain",
+      "slug": "ron-klain",
+      "relationship_type": "ally",
+      "description": "Klain has been informally advising Khanna as he weighs a 2028 presidential run (Politico, June 2026).",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.mediaite.com/media/news/ex-biden-honcho-ron-klain-advising-ro-khanna-as-he-mulls-2028-white-house-bid-report/", "title": "Ex-Biden honcho Ron Klain advising Ro Khanna as he mulls 2028 White House bid — Mediaite (citing Politico)" },
+        { "url": "https://www.inquirer.com/politics/election/ro-khanna-us-congress-california-campaign-endorse-progressive-democrats-midterms-2028-persidential-run-20260922.html", "title": "Ro Khanna weighs 2028 run — The Philadelphia Inquirer" }
+      ]
+    },
+    {
+      "name": "Jamaal Bowman",
+      "slug": "jamaal-bowman",
+      "relationship_type": "ally",
+      "description": "Bowman co-chairs Run Ro, a draft committee launched in November 2026 to urge Khanna to run for president.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.nbcbayarea.com/news/politics/ro-khanna-allies-launch-draft-campaign-2028-presidential-race/4170859/", "title": "Ro Khanna allies launch draft campaign for 2028 presidential race — NBC" },
+        { "url": "https://www.thedailybeast.com/dem-star-ro-khannas-allies-fire-2028-starting-gun-days-after-midterms-rout", "title": "Dem star's allies fire 2028 starting gun days after rout — The Daily Beast" }
+      ]
     }
   ],
   "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Thiel's support is sourced to Wikipedia only.",

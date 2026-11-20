@@ -536,6 +536,20 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
       ]
+    },
+    {
+      "name": "Gabby Giffords",
+      "slug": "gabby-giffords",
+      "relationship_type": "ally",
+      "description": "Giffords endorsed Harris for Senate in 2016 and president in 2024; her group committed $15 million to help Harris, and she spoke for her at the 2024 Democratic convention.",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://giffords.org/press-release/2024/07/gabby-giffords-kamala-harris-will-be-a-great-president/", "title": "Gabby Giffords: Kamala Harris will be a great president — Giffords" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/giffords-gun-safety-group-commits-15-million-help-harris-beat-trump-rcna163424", "title": "Giffords group commits $15 million to help Harris beat Trump — NBC News" },
+        { "url": "https://www.cbsnews.com/amp/colorado/news/gabby-giffords-mark-kelly-dnc-speech", "title": "Gabby Giffords and husband Sen. Mark Kelly, in DNC speeches, praise Harris — CBS News" }
+      ]
     }
   ],
   "affiliations": [],

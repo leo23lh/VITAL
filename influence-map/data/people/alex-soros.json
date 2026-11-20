@@ -166,6 +166,27 @@
           }
         ]
       }
-    ]
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No 2028 pick reported. He runs the family's political operation, which put about $103 million into the 2026 midterms, mostly through Democracy PAC; in July 2024 he and his father backed Harris within a day of Biden's withdrawal.",
+      "sources": [
+        { "url": "https://wjla.com/news/nation-world/soros-family-emerges-as-financial-powerhouse-for-democrats-as-fundraising-lags-republican-national-committee-politics", "title": "Soros family emerges as financial powerhouse for Democrats — WJLA" },
+        { "url": "https://fortune.com/2024/07/22/kamala-harris-endorsement-george-alex-soros-alex-joe-biden-democrats-donor/", "title": "George and Alex Soros endorse Kamala Harris — Fortune" }
+      ],
+      "likely": [
+        {
+          "name": "The Democratic presidential nominee (via Democracy PAC or similar)",
+          "kind": "super-pac",
+          "side": "D",
+          "basis": "Pattern: the family backed the nominee in 2016 (Alex gave $1 million to Priorities USA Action) and 2024 (Harris), and funds Democrats through Democracy PAC every cycle.",
+          "confidence": 0.65,
+          "sources": [
+            { "url": "https://fortune.com/2024/07/22/kamala-harris-endorsement-george-alex-soros-alex-joe-biden-democrats-donor/", "title": "George and Alex Soros endorse Kamala Harris — Fortune" },
+            { "url": "https://wjla.com/news/nation-world/soros-family-emerges-as-financial-powerhouse-for-democrats-as-fundraising-lags-republican-national-committee-politics", "title": "Soros family emerges as financial powerhouse for Democrats — WJLA" }
+          ]
+        }
+      ]
+    }
   }
 }

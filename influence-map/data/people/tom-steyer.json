@@ -452,6 +452,26 @@
           }
         ]
       }
-    ]
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No 2028 plans reported. He spent more than $200 million of his own money on California's 2026 governor race and finished third in the June primary. In 2020 and 2024 he gave to the Democratic nominee's joint committees and the DNC.",
+      "sources": [
+        { "url": "https://www.foxnews.com/politics/billionare-tom-steyer-ends-california-governor-campaign-falling-short-jungle-primary", "title": "Billionaire Tom Steyer ends California governor campaign after falling short in primary — Fox News" },
+        { "url": "https://semafor.com/article/06/10/2026/why-democrats-rejected-class-traitor-steyer-in-california", "title": "Why Democrats rejected 'class traitor' Steyer in California — Semafor" }
+      ],
+      "likely": [
+        {
+          "name": "The Democratic presidential nominee (joint fundraising committees and the DNC)",
+          "kind": "party",
+          "side": "D",
+          "basis": "Pattern: Biden Action Fund and the DNC in 2020, Harris Action Fund and the DNC in 2024 (FEC filings).",
+          "confidence": 0.6,
+          "sources": [
+            { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=Steyer%2C+Thomas&contributor_employer=Fahr", "title": "Individual contributions from Thomas Steyer — FEC" }
+          ]
+        }
+      ]
+    }
   }
 }

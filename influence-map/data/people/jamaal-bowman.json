@@ -1,0 +1,112 @@
+{
+  "name": "Jamaal Bowman",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic congressman (2021–2025) recruited by Justice Democrats and a member of the Squad.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamaal_Bowman", "title": "Jamaal Bowman — Wikipedia" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["ro-khanna"],
+    "basis": "Co-chairs Run Ro, a draft committee he and strategist Nomiki Konst launched in November 2026 to urge Khanna into the 2028 race; Khanna himself has not declared.",
+    "sources": [
+      { "url": "https://www.nbcbayarea.com/news/politics/ro-khanna-allies-launch-draft-campaign-2028-presidential-race/4170859/", "title": "Ro Khanna allies launch draft campaign for 2028 presidential race — NBC" },
+      { "url": "https://www.thedailybeast.com/dem-star-ro-khannas-allies-fire-2028-starting-gun-days-after-midterms-rout", "title": "Dem star's allies fire 2028 starting gun days after rout — The Daily Beast" }
+    ]
+  },
+  "current_role": "Former U.S. representative from New York; co-chair of the Run Ro draft effort",
+  "summary": "Jamaal Bowman, a former Bronx middle-school principal, beat 16-term incumbent Eliot Engel in the 2020 Democratic primary and served in the House from 2021 to 2025 as a member of the Squad. He lost renomination in 2024 to George Latimer in the most expensive House primary to that date, most of the outside money coming from AIPAC-linked groups. In November 2026 he launched a draft campaign for Ro Khanna.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Jamaal_Bowman", "title": "Jamaal Bowman — Wikipedia" },
+    { "url": "https://www.politico.com/news/2024/06/25/jamaal-bowman-loses-george-latimer-00164997", "title": "Jamaal Bowman loses to George Latimer — Politico" }
+  ],
+  "timeline": [
+    {
+      "year": 2021,
+      "end_year": 2025,
+      "role": "U.S. representative from New York's 16th district",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamaal_Bowman", "title": "Jamaal Bowman — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Co-chair",
+      "org": "Run Ro (draft Ro Khanna committee)",
+      "sources": [
+        { "url": "https://www.nbcbayarea.com/news/politics/ro-khanna-allies-launch-draft-campaign-2028-presidential-race/4170859/", "title": "Ro Khanna allies launch draft campaign for 2028 presidential race — NBC" },
+        { "url": "https://www.thedailybeast.com/dem-star-ro-khannas-allies-fire-2028-starting-gun-days-after-midterms-rout", "title": "Dem star's allies fire 2028 starting gun days after rout — The Daily Beast" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "slug": "alexandria-ocasio-cortez",
+      "relationship_type": "ally",
+      "description": "Fellow Squad member whose 2018 campaign inspired his run; she rallied for him in the Bronx before his 2024 primary.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamaal_Bowman", "title": "Jamaal Bowman — Wikipedia" },
+        { "url": "https://www.jta.org/2024/06/22/ny/criticism-of-israel-and-aipac-features-in-rally-for-jamaal-bowman-with-aoc-and-bernie-sanders", "title": "Criticism of Israel and AIPAC features in rally for Jamaal Bowman with AOC and Bernie Sanders — JTA" },
+        { "url": "https://forward.com/fast-forward/626236/criticism-of-israel-and-aipac-features-in-rally-for-jamaal-bowman-with-aoc-and-bernie-sanders", "title": "Rally for Jamaal Bowman with AOC and Bernie Sanders — The Forward" }
+      ]
+    },
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "ally",
+      "description": "Sanders campaigned for Bowman in his 2024 primary, including a joint rally with Ocasio-Cortez.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.jta.org/2024/06/22/ny/criticism-of-israel-and-aipac-features-in-rally-for-jamaal-bowman-with-aoc-and-bernie-sanders", "title": "Criticism of Israel and AIPAC features in rally for Jamaal Bowman with AOC and Bernie Sanders — JTA" },
+        { "url": "https://forward.com/fast-forward/626236/criticism-of-israel-and-aipac-features-in-rally-for-jamaal-bowman-with-aoc-and-bernie-sanders", "title": "Rally for Jamaal Bowman with AOC and Bernie Sanders — The Forward" }
+      ]
+    },
+    {
+      "name": "AIPAC",
+      "slug": "aipac",
+      "relationship_type": "enemy",
+      "description": "AIPAC's super PAC and allied groups spent about $15 million to defeat Bowman in his 2024 primary; he called AIPAC a threat to democracy.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamaal_Bowman", "title": "Jamaal Bowman — Wikipedia" },
+        { "url": "https://www.politico.com/news/2024/06/25/jamaal-bowman-loses-george-latimer-00164997", "title": "Jamaal Bowman loses to George Latimer — Politico" },
+        { "url": "https://www.jta.org/2024/06/22/ny/criticism-of-israel-and-aipac-features-in-rally-for-jamaal-bowman-with-aoc-and-bernie-sanders", "title": "Criticism of Israel and AIPAC features in rally for Jamaal Bowman with AOC and Bernie Sanders — JTA" }
+      ]
+    },
+    {
+      "name": "Ro Khanna",
+      "slug": "ro-khanna",
+      "relationship_type": "ally",
+      "description": "Bowman co-chairs Run Ro, a draft committee launched in November 2026 to urge Khanna to run for president.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.nbcbayarea.com/news/politics/ro-khanna-allies-launch-draft-campaign-2028-presidential-race/4170859/", "title": "Ro Khanna allies launch draft campaign for 2028 presidential race — NBC" },
+        { "url": "https://www.thedailybeast.com/dem-star-ro-khannas-allies-fire-2028-starting-gun-days-after-midterms-rout", "title": "Dem star's allies fire 2028 starting gun days after rout — The Daily Beast" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-20 from the Wikipedia article's source text (read directly) and web searches tied to each cited URL; other pages could not be opened in this environment.",
+  "last_researched": "2026-11-20"
+}

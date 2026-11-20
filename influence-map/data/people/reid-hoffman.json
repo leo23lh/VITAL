@@ -1251,6 +1251,27 @@
           }
         ]
       }
-    ]
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No 2028 pick. At Politico's Decoded Summit in September 2026 he said a second Harris run faces a \"very challenging path\" and that backing Ocasio-Cortez \"depends a little bit\", calling her \"much more pragmatic than people give her credit for\". He has funded the Democratic nominee in every presidential cycle since 2016.",
+      "sources": [
+        { "url": "https://www.foxnews.com/politics/dem-megadonor-unleashes-reality-check-harris-2028-eying-socialist-firebrand", "title": "Dem megadonor unleashes reality check on Harris for 2028 while eying socialist firebrand — Fox News" },
+        { "url": "https://www.texastribune.org/2026/07/16/texas-senate-james-talarico-super-pac-reid-hoffman-10-million-lone-star-rising/", "title": "Reid Hoffman gives $10 million to super PAC backing Talarico — The Texas Tribune" }
+      ],
+      "likely": [
+        {
+          "name": "The Democratic presidential nominee (via Future Forward or similar)",
+          "kind": "super-pac",
+          "side": "D",
+          "basis": "Pattern across three cycles: the Hillary Victory Fund in 2016, the pro-Biden Unite the Country in 2020 and $10.3 million to Future Forward for Harris in 2024 (FEC filings).",
+          "confidence": 0.75,
+          "sources": [
+            { "url": "https://www.texastribune.org/2026/07/16/texas-senate-james-talarico-super-pac-reid-hoffman-10-million-lone-star-rising/", "title": "Reid Hoffman gives $10 million to super PAC backing Talarico — The Texas Tribune" },
+            { "url": "https://ballotpedia.org/Reid_Hoffman", "title": "Reid Hoffman — Ballotpedia" }
+          ]
+        }
+      ]
+    }
   }
 }

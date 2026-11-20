@@ -300,6 +300,34 @@
         { "url": "https://jp.usembassy.gov/ambassador-rahm-emanuel/", "title": "Ambassador Rahm Emanuel — U.S. Embassy & Consulates in Japan" },
         { "url": "https://www.npr.org/2021/12/18/1065519715/rahm-emanuel-among-dozens-of-late-night-diplomatic-post-confirmations-by-the-sen", "title": "Rahm Emanuel among dozens of late-night diplomatic confirmations — NPR" }
       ]
+    },
+    {
+      "name": "Ron Klain",
+      "slug": "ron-klain",
+      "relationship_type": "employee",
+      "description": "Klain was his vice-presidential chief of staff (2009–2011) and his first White House chief of staff (2021–2023).",
+      "start_year": 2009,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" },
+        { "url": "https://www.foxnews.com/politics/biden-selects-ronald-klain-white-house-chief-of-staff", "title": "Biden selects Ronald Klain as White House chief of staff — Fox News" },
+        { "url": "http://thecaucus.blogs.nytimes.com/2011/01/04/ron-klain-leaving-vice-presidents-staff", "title": "Ron Klain leaving vice president's staff — The New York Times" }
+      ]
+    },
+    {
+      "name": "Gabby Giffords",
+      "slug": "gabby-giffords",
+      "relationship_type": "ally",
+      "description": "Giffords's group helped shape Biden's gun-safety agenda and endorsed his 2024 re-election; Biden awarded her the Presidential Medal of Freedom in 2022.",
+      "start_year": 2022,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gabby_Giffords", "title": "Gabby Giffords — Wikipedia" },
+        { "url": "https://giffords.org/press-release/2023/08/giffords-endorses-president-biden-for-re-election/", "title": "Giffords endorses President Biden for re-election — Giffords" },
+        { "url": "https://www.pbs.org/newshour/politics/major-gun-safety-groups-come-together-to-endorse-biden-for-2024-election", "title": "Major gun safety groups come together to endorse Biden for 2024 — PBS NewsHour" }
+      ]
     }
   ],
   "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Health matters are left out under the research rules.",

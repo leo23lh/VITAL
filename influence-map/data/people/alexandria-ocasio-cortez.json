@@ -170,6 +170,20 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
       ]
+    },
+    {
+      "name": "Jamaal Bowman",
+      "slug": "jamaal-bowman",
+      "relationship_type": "ally",
+      "description": "Fellow Squad member who was inspired to run by her 2018 campaign; she rallied for him in the Bronx before his 2024 primary.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamaal_Bowman", "title": "Jamaal Bowman — Wikipedia" },
+        { "url": "https://www.jta.org/2024/06/22/ny/criticism-of-israel-and-aipac-features-in-rally-for-jamaal-bowman-with-aoc-and-bernie-sanders", "title": "Criticism of Israel and AIPAC features in rally for Jamaal Bowman with AOC and Bernie Sanders — JTA" },
+        { "url": "https://forward.com/fast-forward/626236/criticism-of-israel-and-aipac-features-in-rally-for-jamaal-bowman-with-aoc-and-bernie-sanders", "title": "Rally for Jamaal Bowman with AOC and Bernie Sanders — The Forward" }
+      ]
     }
   ],
   "affiliations": [],

@@ -3,7 +3,7 @@
   "aliases": ["Laurene Powell"],
   "public_figure": true,
   "sector": "business",
-  "groups": ["media", "critics"],
+  "groups": ["media", "critics", "2028-race"],
   "lean": [
     {
       "value": -2,
@@ -328,6 +328,37 @@
           }
         ]
       }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No 2028 plans reported. She has funded Harris since her 2003 district attorney race and is among her closest confidantes; her other recent giving went to House Majority PAC.",
+      "sources": [
+        { "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/", "title": "Laurene Powell Jobs is one of Kamala Harris' biggest bankrollers—and closest friends — Fortune" },
+        { "url": "https://semafor.com/article/08/22/2024/first-friend-kamala-harriss-alliance-with-laurene-powell-jobs", "title": "First friend: Kamala Harris's alliance with Laurene Powell Jobs — Semafor" }
+      ],
+      "likely": [
+        {
+          "name": "Kamala Harris",
+          "slug": "kamala-harris",
+          "kind": "candidate",
+          "side": "D",
+          "basis": "Pattern: she has backed every Harris race since 2003, including nearly $1 million to the Biden–Harris re-election effort in 2023. Not a stated plan, and Harris has not decided whether to run.",
+          "confidence": 0.65,
+          "sources": [
+            { "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/", "title": "Laurene Powell Jobs is one of Kamala Harris' biggest bankrollers—and closest friends — Fortune" },
+            { "url": "https://semafor.com/article/08/22/2024/first-friend-kamala-harriss-alliance-with-laurene-powell-jobs", "title": "First friend: Kamala Harris's alliance with Laurene Powell Jobs — Semafor" }
+          ]
+        }
+      ]
+    }
+  },
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["kamala-harris"],
+    "basis": "One of Harris's closest friends and biggest backers for two decades. Harris has not decided whether to run in 2028, and no 2028 role for Powell Jobs is reported.",
+    "sources": [
+      { "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/", "title": "Laurene Powell Jobs is one of Kamala Harris' biggest bankrollers—and closest friends — Fortune" },
+      { "url": "https://semafor.com/article/08/22/2024/first-friend-kamala-harriss-alliance-with-laurene-powell-jobs", "title": "First friend: Kamala Harris's alliance with Laurene Powell Jobs — Semafor" }
     ]
   }
 }
