@@ -68,6 +68,28 @@
     }
   ],
   "affiliations": [],
-  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL. Lean sources were confirmed through web search results rather than opened pages (2026-11-20).",
+  "last_researched": "2026-11-07",
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": 2014,
+      "basis": "Registered Democrat until at least 2014, per voter records.",
+      "sources": [
+        { "url": "https://www.aol.com/articles/usha-vance-democrat-until-she-204307064.html", "title": "Usha Vance was a Democrat until she… — AOL" },
+        { "url": "https://www.npr.org/2024/08/08/nx-s1-5068007/what-to-know-about-usha-vance-jd-vances-wife", "title": "What to know about Usha Vance — NPR" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2022,
+      "end_year": null,
+      "basis": "Registered Republican (confirmed to NBC's Kate Snow); voted in the 2022 Republican Senate primary and spoke for her husband at the 2024 Republican convention.",
+      "sources": [
+        { "url": "https://www.aol.com/entertainment/usha-vance-appeared-thrown-off-171100177.html", "title": "Usha Vance appeared thrown off when asked about her politics — AOL (TODAY)" },
+        { "url": "https://www.aol.com/articles/usha-vance-democrat-until-she-204307064.html", "title": "Usha Vance was a Democrat until she… — AOL" }
+      ]
+    }
+  ]
 }

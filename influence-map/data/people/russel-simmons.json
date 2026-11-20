@@ -92,5 +92,16 @@
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "last_researched": "2026-11-07",
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": null,
+      "basis": "His itemized federal gifts naming his company Learnirvana as employer (2016) went to Democrats, including Zephyr Teachout's House race, through ActBlue. A thin record.",
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SIMMONS%2C+RUSSEL&two_year_transaction_period=2016", "title": "FEC itemized receipts: SIMMONS, RUSSEL, 2016 cycle" }
+      ]
+    }
+  ]
 }

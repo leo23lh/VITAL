@@ -220,5 +220,18 @@
         "recipients": []
       }
     ]
-  }
+  },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": 2024,
+      "end_year": null,
+      "basis": "FEC filings show $500,000 to Turnout for America, a super PAC canvassing for Trump (2024), and $100,000 to the RNC (2026 cycle). No partisan giving of note before 2024.",
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=NOSEK%2C+LUKE&two_year_transaction_period=2024&committee_id=C00883520", "title": "FEC itemized receipts: NOSEK, LUKE, 2024 cycle" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=NOSEK%2C+LUKE&two_year_transaction_period=2026&committee_id=C00003418", "title": "FEC itemized receipts: NOSEK, LUKE, 2026 cycle" },
+        { "url": "https://www.influencewatch.org/political-party/turnout-for-america/", "title": "Turnout for America — InfluenceWatch" }
+      ]
+    }
+  ]
 }

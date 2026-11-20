@@ -202,5 +202,18 @@
         ]
       }
     ]
-  }
+  },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Trump appointee (Social Security commissioner, then IRS chief executive); FEC filings show $125,000 to Trump Victory in 2020, alongside smaller gifts to Chuck Schumer (2016, 2022).",
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&two_year_transaction_period=2020", "title": "FEC itemized receipts: BISIGNANO, FRANK, 2020 cycle" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BISIGNANO%2C+FRANK&two_year_transaction_period=2022", "title": "FEC itemized receipts: BISIGNANO, FRANK, 2022 cycle" },
+        { "url": "https://en.wikipedia.org/wiki/Frank_Bisignano", "title": "Frank Bisignano — Wikipedia" }
+      ]
+    }
+  ]
 }

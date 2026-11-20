@@ -117,7 +117,7 @@
       ]
     }
   ],
-  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Scale AI was reported in December 2024 to be in talks to join the Palantir–Anduril defense consortium; not recorded as a personal link. A reported past friendship with Sam Altman could not be confirmed.",
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Scale AI was reported in December 2024 to be in talks to join the Palantir–Anduril defense consortium; not recorded as a personal link. A reported past friendship with Sam Altman could not be confirmed. Lean sources were confirmed through web search results rather than opened pages (2026-11-20).",
   "last_researched": "2026-11-07",
   "giving": {
     "cycles": [
@@ -131,5 +131,17 @@
         "recipients": []
       }
     ]
-  }
+  },
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": null,
+      "basis": "His only itemized federal gifts (2024) went to Democratic senators Martin Heinrich and Maria Cantwell. In January 2025 he attended Trump's inauguration and published an open letter urging Trump to 'win the AI war' — lobbying rather than partisan support.",
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WANG%2C+ALEXANDR&two_year_transaction_period=2024", "title": "FEC itemized receipts: WANG, ALEXANDR, 2024 cycle" },
+        { "url": "https://techcrunch.com/2025/01/21/scale-ais-alexandr-wang-has-published-an-open-letter-lobbying-trump-to-invest-in-ai", "title": "Scale AI's Alexandr Wang has published an open letter lobbying Trump to invest in AI — TechCrunch" }
+      ]
+    }
+  ]
 }

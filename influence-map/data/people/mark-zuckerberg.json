@@ -145,7 +145,7 @@
       ]
     }
   ],
-  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API. Lean sources were confirmed through web search results rather than opened pages (2026-11-20).",
   "last_researched": "2026-11-08",
   "name": "Mark Zuckerberg",
   "sector": "tech",
@@ -278,6 +278,28 @@
       "sources": [
         { "url": "https://www.thestar.com.my/tech/tech-news/2025/04/03/meta-ceo-zuckerberg-lobbies-trump-to-avoid-antitrust-trial-wsj-reports", "title": "Meta CEO Zuckerberg lobbies Trump to avoid antitrust trial, WSJ reports — Reuters via The Star" },
         { "url": "https://gizmodo.com/zuckerberg-really-thought-trump-would-make-metas-legal-problems-go-away-2000589897", "title": "Zuckerberg thought Trump would make Meta's legal problems go away — Gizmodo" }
+      ]
+    }
+  ],
+  "lean": [
+    {
+      "value": 0,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Has no party role and presents himself as nonpartisan. His philanthropy funded immigration reform (FWD.us) and 2020 election administration; from 2024 he courted Trump and ended Meta's U.S. fact-checking. Whether that is a political shift or a business one is disputed (see source_conflicts).",
+      "sources": [
+        { "url": "https://www.nbcnews.com/tech/social-media/mark-zuckerberg-pivoted-meta-right-rcna186687", "title": "How Mark Zuckerberg pivoted Meta to the right — NBC News" },
+        { "url": "https://fortune.com/2025/09/23/mark-zuckerberg-partisan-politics-trump-us-investment-ai-infrastucture-political-views/", "title": "Zuckerberg on partisan politics and Trump — Fortune" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Political lean",
+      "details": "NBC News and others describe a rightward pivot from 2024; Zuckerberg (Fortune, 2025) and his former policy chief Katie Harbath describe it as business pragmatism rather than a change in his politics.",
+      "sources": [
+        { "url": "https://www.nbcnews.com/tech/social-media/mark-zuckerberg-pivoted-meta-right-rcna186687" },
+        { "url": "https://fortune.com/2025/09/23/mark-zuckerberg-partisan-politics-trump-us-investment-ai-infrastucture-political-views/" }
       ]
     }
   ]

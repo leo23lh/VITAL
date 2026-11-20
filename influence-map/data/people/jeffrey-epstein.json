@@ -152,6 +152,18 @@
       ]
     }
   ],
-  "notes": "Researched with web searches; pages could not be opened, so facts were confirmed through search results tied to each cited URL. At the map owner’s request, only clear ties are recorded (friendship, employment); contacts that appear in the Epstein files (meetings, visits, emails) are deliberately not recorded as links, so their absence says nothing either way. Victims are not named. No lean is recorded.",
-  "last_researched": "2026-11-08"
+  "notes": "Researched with web searches; pages could not be opened, so facts were confirmed through search results tied to each cited URL. At the map owner’s request, only clear ties are recorded (friendship, employment); contacts that appear in the Epstein files (meetings, visits, emails) are deliberately not recorded as links, so their absence says nothing either way. Victims are not named. No lean is recorded. Lean sources were confirmed through web search results rather than opened pages (2026-11-20).",
+  "last_researched": "2026-11-08",
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Gave mostly to Democrats: about $139,000 to Democratic federal candidates versus $18,000 to Republicans (1989–2003, per OpenSecrets), including Hillary Clinton's and Chuck Schumer's Senate campaigns.",
+      "sources": [
+        { "url": "https://www.goodmorningamerica.com/news/story/jeffrey-epstein-donated-democrats-1990s-early-2000s-64255485", "title": "Jeffrey Epstein donated to several Democrats throughout 1990s and early 2000s — ABC News" },
+        { "url": "https://m.washingtontimes.com/news/2019/jul/11/jeffrey-epstein-donations-favored-chuck-schumer-ch/", "title": "Jeffrey Epstein donations favored Chuck Schumer — Washington Times" }
+      ]
+    }
+  ]
 }

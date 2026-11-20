@@ -116,5 +116,16 @@
         "recipients": []
       }
     ]
-  }
+  },
+  "lean": [
+    {
+      "value": 1,
+      "start_year": null,
+      "end_year": null,
+      "basis": "His one itemized gift listing Valar Ventures as employer is $5,800 to Blake Masters, Peter Thiel's protégé, in the 2022 Republican Senate race. A thin record.",
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MCCORMACK%2C+ANDREW&two_year_transaction_period=2022", "title": "FEC itemized receipts: MCCORMACK, ANDREW, 2022 cycle" }
+      ]
+    }
+  ]
 }

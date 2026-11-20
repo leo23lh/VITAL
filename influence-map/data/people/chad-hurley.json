@@ -155,5 +155,16 @@
         ]
       }
     ]
-  }
+  },
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": null,
+      "basis": "FEC filings show his 2016 giving went to the Hillary Victory Fund, the DNC and Democratic state parties; no other cycle shows notable partisan giving.",
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HURLEY%2C+CHAD&two_year_transaction_period=2016", "title": "FEC itemized receipts: HURLEY, CHAD, 2016 cycle" }
+      ]
+    }
+  ]
 }

@@ -249,5 +249,18 @@
         ]
       }
     ]
-  }
+  },
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Consistent, major Democratic giving per FEC filings: Kamala Harris's Senate race (2016), $100,000 to the Biden Victory Fund (2020) and $125,000 to the Harris Victory Fund (2024). One exception: $2,700 to Republican Josh Hawley (2018), a fellow Google critic.",
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&two_year_transaction_period=2020&committee_id=C00744946", "title": "FEC itemized receipts: STOPPELMAN, JEREMY, 2020 cycle" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&two_year_transaction_period=2024&committee_id=C00744946", "title": "FEC itemized receipts: STOPPELMAN, JEREMY, 2024 cycle" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STOPPELMAN%2C+JEREMY&two_year_transaction_period=2018&committee_id=C00652727", "title": "FEC itemized receipts: STOPPELMAN, JEREMY, 2018 cycle" }
+      ]
+    }
+  ]
 }

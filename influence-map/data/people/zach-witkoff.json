@@ -251,5 +251,18 @@
         ]
       }
     ]
-  }
+  },
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Co-founded World Liberty Financial with the Trump family; FEC filings show $150,000 to Trump Victory (2020), gifts to JD Vance's committees (2024) and $225,000 to the RNC (2026 cycle).",
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&two_year_transaction_period=2020", "title": "FEC itemized receipts: WITKOFF, ZACH, 2020 cycle" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=WITKOFF%2C+ZACH&two_year_transaction_period=2026&committee_id=C00003418", "title": "FEC itemized receipts: WITKOFF, ZACH, 2026 cycle" },
+        { "url": "https://en.wikipedia.org/wiki/World_Liberty_Financial", "title": "World Liberty Financial — Wikipedia" }
+      ]
+    }
+  ]
 }

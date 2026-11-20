@@ -50,6 +50,18 @@
   ],
   "aliases": [],
   "affiliations": [],
-  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
-  "last_researched": "2026-11-07"
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL. Lean sources were confirmed through web search results rather than opened pages (2026-11-20).",
+  "last_researched": "2026-11-07",
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democrat; First Partner of California, married to Democratic governor Gavin Newsom; endorsed Elizabeth Warren for president in 2020.",
+      "sources": [
+        { "url": "https://preview-prod.w.sfchronicle.com/politics/article/Jennifer-Siebel-Newsom-endorses-Elizabeth-Warren-15093393.php", "title": "Jennifer Siebel Newsom endorses Elizabeth Warren — San Francisco Chronicle" },
+        { "url": "https://www.democracyinaction.us/2020/warren/warrencaendorse.html", "title": "Elizabeth Warren California endorsements — Democracy in Action" }
+      ]
+    }
+  ]
 }

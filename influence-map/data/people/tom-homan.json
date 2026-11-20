@@ -107,5 +107,27 @@
       { "url": "https://www.washingtontimes.com/news/2026/oct/27/sen-whitehouse-tries-turn-trumps-new-fraud-tip-line-homan/", "title": "Sen. Whitehouse submits tip on Trump’s border czar — The Washington Times (October 27, 2026)" }
     ]
   },
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "lean": [
+    {
+      "value": 0,
+      "start_year": null,
+      "end_year": 2016,
+      "basis": "Career immigration enforcement officer under presidents of both parties; received a Presidential Rank Award under Obama.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Homan", "title": "Tom Homan — Wikipedia" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2017,
+      "end_year": null,
+      "basis": "Acting ICE director under Trump (2017–2018), then a Trump ally; named White House border czar by Trump in November 2024.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Homan", "title": "Tom Homan — Wikipedia" },
+        { "url": "https://www.pbs.org/newshour/politics/trump-picks-tom-homan-for-border-czar", "title": "Trump picks Tom Homan for border czar — PBS NewsHour" }
+      ]
+    }
+  ],
+  "notes": "Lean sources were confirmed through web search results rather than opened pages (2026-11-20)."
 }

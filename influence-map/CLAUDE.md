@@ -248,7 +248,9 @@ comes from `lean`:
   who the person works with and funds. If sources disagree (they call
   themselves a Democrat but fund Republicans), pick the value the record
   supports, say so in `basis`, and add a `source_conflicts` entry.
-- Leave `lean` out when there is no public political record. The person is then
+- Leave `lean` out when there is no public political record. Once you have
+  looked (FEC filings and news) and found none, write `"lean": []` and say so in
+  `notes`; that silences the validator's reminder. The person is then
   placed left–right only by their links. No lean for `"public_figure": false`.
   The validator reminds you of a missing lean only for people on the main web
   (not `org_chart_only` officials, whose lean places nothing).
