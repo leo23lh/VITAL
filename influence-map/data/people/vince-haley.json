@@ -58,13 +58,15 @@
     {
       "name": "Stephen Miller",
       "slug": "stephen-miller",
-      "relationship_type": "colleague",
-      "description": "Haley’s Domestic Policy Council sits on the White House policy team that Miller oversaw as deputy chief of staff for policy.",
-      "start_year": 2025,
+      "relationship_type": "employer",
+      "description": "Haley worked under Miller in the first Trump White House, co-running the speechwriting office, and from January 2025 led the Domestic Policy Council, which reported to Miller.",
+      "start_year": 2017,
       "end_year": null,
-      "confidence": 0.75,
+      "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Vince_Haley", "title": "Vince Haley — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Vince_Haley", "title": "Vince Haley — Wikipedia" },
+        { "url": "https://www.axios.com/2024/05/26/trump-campaign-policy-stephen-miller-newt-gingrich", "title": "Trump's new policy wonks are protégés of Stephen Miller and Newt Gingrich — Axios" },
+        { "url": "https://justthenews.com/politics-policy/all-things-trump/trump-announces-campaign-speechwriter-will-head-his-domestic", "title": "Trump announces campaign speechwriter will head his Domestic Policy Council — Just the News" }
       ]
     }
   ],
