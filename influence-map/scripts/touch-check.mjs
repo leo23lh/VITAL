@@ -57,8 +57,25 @@ try {
   const expanded = () => page.locator('.panel.expanded').count();
   const dots = () => page.evaluate(() => window.__mapDots());
 
+  // Waits until the camera is still (no dot jumps more than 4px in 120ms), up to 4 seconds. The layout
+  // keeps drifting slowly, which taps must survive; a fit or re-center animation is a different matter:
+  // a person tapping aims at what has stopped moving, so the test does too.
+  async function still() {
+    for (let i = 0, prev = await dots(); i < 33; i++) {
+      await page.waitForTimeout(120);
+      const now = await dots();
+      const moved = Math.max(0, ...now.slice(0, 40).map((d) => {
+        const p = prev.find((o) => o.id === d.id);
+        return p ? Math.hypot(p.x - d.x, p.y - d.y) : 0;
+      }));
+      if (moved < 4) return;
+      prev = now;
+    }
+  }
+
   // A dot with room around it, well inside the map and above the sheet.
   async function loneDot(exclude = []) {
+    await still();
     const all = await dots();
     const inView = all.filter((d) => d.x > 40 && d.x < box.width - 40 && d.y > 60 && d.y < box.height * 0.55 && !exclude.includes(d.id));
     return inView
@@ -91,6 +108,7 @@ try {
     await page.locator('.sheet-handle').click();
     await page.waitForTimeout(300);
   }
+  await still();
   const all = await dots();
   let empty = null;
   for (let y = 70; y < box.height * 0.45 && !empty; y += 12)

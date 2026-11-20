@@ -69,7 +69,7 @@ export function sharePage(p) {
     <link rel="canonical" href="${esc(p.url)}" />
     <meta http-equiv="refresh" content="0; url=${esc(target)}" />
     <script>location.replace(${JSON.stringify(target)} + location.hash);</script>
-    <style>body{margin:0;padding:24px;background:#0b1322;color:#f4f1ea;font:16px/1.5 system-ui,sans-serif}a{color:#f0e5c9}</style>
+    <style>body{margin:0;padding:24px;background:#08090b;color:#eceef0;font:16px/1.5 system-ui,sans-serif}a{color:#ffb21a}</style>
   </head>
   <body>
     <p><a href="${esc(target)}">${esc(p.name)} on the Influence Map</a></p>

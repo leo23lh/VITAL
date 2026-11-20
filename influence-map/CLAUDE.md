@@ -1018,12 +1018,20 @@ cannot open github.io, so check the live site from a browser.
   color-blind separation against the dark background; the viewer always pairs
   color with text (legend, tooltips, details), so keep it that way.
 - **Chrome theme.** Everything around the map (header, menus, chips, tooltips,
-  details panel) uses a navy, cream and deep-red palette with Instrument Serif
-  titles and Instrument Sans text, after the 2026 whitehouse.gov look. The
-  tokens are in the "Theme" block at the end of `src/styles.css`; the fonts load
-  from Google Fonts (`index.html` and `scripts/build-artifact.mjs`). It borrows
-  the look only: no seals, logos or official names. The map keeps its own colors
-  (`--map-bg`, sector and family colors).
+  details panel) has a console look in the spirit of defense-tech sites:
+  near-black (`--ink`), off-white type (`--fg`), 1px hairlines (`--line`),
+  square corners, and one accent (`--signal`, amber) used only for what is
+  selected, live or the primary action, with `--on-signal` text on it.
+  `--alert` (red) is for bad news only: denied asks, broken bonds, stale
+  research, falling Pull. Type is Geist; every number (scores, counts) is Geist
+  Mono. The tokens are in the "Theme" block at the end of `src/styles.css`,
+  followed by "Console details"; the fonts load from Google Fonts
+  (`index.html` and `scripts/build-artifact.mjs`). Map labels stay in the
+  system face (`MAP_FONT` in `GraphView.tsx`): drawing them in the downloaded
+  variable font slowed the layout enough to fail the touch check. It borrows a feel only: no other
+  company's name, logo, product names, fonts or imagery. The map keeps its own
+  sector and family colors; its background (`BACKGROUND`, `--map-bg`) matches
+  the chrome.
 - If you add a sector or group, update `src/lib/schema.ts`, `scripts/validate.mjs`,
   the "Sectors and groups" table above, and both commands.
 - If you add an organization kind, update `ORG_KINDS` in `src/lib/schema.ts` and

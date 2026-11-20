@@ -5,7 +5,12 @@ import { EDGE_FAMILY_BY_ID, GROUPS, ORG_KIND_LABEL, SECTOR_BY_ID, orgSideColor, 
 import type { Compass, Forces, RadialLayout, Selection } from '../lib/view';
 import { isCleanTap, pickAt, type Pt } from '../lib/touch';
 
-export const BACKGROUND = '#0f1117';
+export const BACKGROUND = '#08090b';
+/**
+ * Map labels stay in the system face: drawing hundreds of names a frame in the chrome's
+ * downloaded variable font (Geist) slowed the layout enough to make taps land mid-animation.
+ */
+const MAP_FONT = "system-ui, -apple-system, 'Segoe UI', sans-serif";
 const GREY = '#94a3b8';
 /** Radial views: distance between rings, and how much room the core gets per person. */
 const RING_GAP = 130;
@@ -300,7 +305,7 @@ export default function GraphView({
       if (showLabel) {
         const fontSize = (node.researched ? 12 : 10.5) / scale;
         // Organization names are italic, so they read as groups rather than people.
-        ctx.font = `${node.isOrg ? 'italic ' : ''}${node.researched ? 600 : 400} ${fontSize}px system-ui, -apple-system, Segoe UI, sans-serif`;
+        ctx.font = `${node.isOrg ? 'italic ' : ''}${node.researched ? 600 : 400} ${fontSize}px ${MAP_FONT}`;
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
         const ty = y + r + 3 / scale;
@@ -732,7 +737,7 @@ function drawHalos(ctx: CanvasRenderingContext2D, scale: number, halos: Halo[], 
     ctx.arc(cx, cy, r, 0, 2 * Math.PI);
     ctx.fill();
     const size = Math.min(15, Math.max(11, 9 + pts.length / 6)) / scale;
-    const font = `700 ${size}px system-ui, -apple-system, Segoe UI, sans-serif`;
+    const font = `700 ${size}px ${MAP_FONT}`;
     ctx.font = font;
     const text = h.name.toUpperCase();
     const half = ctx.measureText(text).width / 2;
@@ -859,7 +864,7 @@ function drawCompass(ctx: CanvasRenderingContext2D, scale: number) {
   ctx.lineTo(0, br.y);
   ctx.stroke();
   ctx.fillStyle = 'rgba(148, 163, 184, 0.55)';
-  ctx.font = `600 ${11 / scale}px system-ui, -apple-system, Segoe UI, sans-serif`;
+  ctx.font = `600 ${11 / scale}px ${MAP_FONT}`;
   ctx.textBaseline = 'bottom';
   ctx.textAlign = 'left';
   const labelY = br.y - pad;
@@ -876,7 +881,7 @@ function drawRings(ctx: CanvasRenderingContext2D, scale: number, { core, rings, 
   ctx.save();
   ctx.setLineDash([3 / scale, 5 / scale]);
   ctx.lineWidth = 1 / scale;
-  ctx.font = `500 ${11 / scale}px system-ui, -apple-system, Segoe UI, sans-serif`;
+  ctx.font = `500 ${11 / scale}px ${MAP_FONT}`;
   ctx.textAlign = 'center';
   ctx.textBaseline = 'bottom';
   for (const r of [...used].filter((r) => r > 0).sort((a, b) => a - b)) {

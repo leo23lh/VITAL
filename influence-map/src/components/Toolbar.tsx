@@ -91,15 +91,15 @@ export default function Toolbar(props: Props) {
         className="brand"
         title={props.live ? `Live${props.lastUpdated ? ` · updated ${props.lastUpdated.toLocaleTimeString()}` : ''}` : undefined}
       >
-        <svg width="22" height="22" viewBox="0 0 32 32" aria-hidden="true">
-          <g stroke="#f0e5c9" strokeOpacity="0.7" strokeWidth="2.2">
+        <svg className="brand-logo" width="22" height="22" viewBox="0 0 32 32" aria-hidden="true">
+          <g className="brand-logo-lines" strokeWidth="1.6">
             <line x1="9" y1="10" x2="22" y2="8" />
             <line x1="9" y1="10" x2="16" y2="23" />
             <line x1="22" y1="8" x2="16" y2="23" />
           </g>
-          <circle cx="9" cy="10" r="4" fill="#d1201b" />
-          <circle cx="22" cy="8" r="3" fill="#f0e5c9" />
-          <circle cx="16" cy="23" r="5" fill="#f0e5c9" />
+          <rect className="brand-logo-signal" x="5.5" y="6.5" width="7" height="7" />
+          <rect className="brand-logo-node" x="19.5" y="5.5" width="5" height="5" />
+          <rect className="brand-logo-node" x="12" y="19" width="8" height="8" />
         </svg>
         <span className="brand-name">Influence Map</span>
         {props.live && <span className="live-dot" aria-label="Live" />}
