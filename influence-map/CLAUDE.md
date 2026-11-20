@@ -200,10 +200,15 @@ cluster its own patch of the map, and draws the lines between clusters thinner
 so each cluster's own lines stand out. Filters → Forces has sliders for spread,
 line length, clustering and center pull. Names that would overlap a
 better-connected person's name are hidden until you zoom in or hover. Each
-cluster of three or more gets a soft colored glow and a name: the group most of
-its people share ("National conservatism"), or "Around [best-connected
-member]" when no group fits. Money lines of the tapped person (and all of them
-in Follow the money) carry green pulses moving from giver to receiver.
+cluster of three or more gets a faint wash, a dotted hairline ring and a name
+in small capitals (amber for the hovered or selected person's cluster): the
+group most of its people share ("National conservatism"), or "Around
+[best-connected member]" when no group fits. The selected person gets amber
+corner brackets. Money lines of the tapped person (and all of them
+in Follow the money) carry green pulses moving from giver to receiver. Over
+the map, a heads-up layer (`MapHud.tsx`) draws a fixed fine grid, frame
+corners and a readout of the people and ties on screen and the date of the
+last update; it never takes taps.
 
 Filters → Display → **Left–right by political lean** switches to the lean
 layout: left–right is political lean; up–down is left to the links. Left–right

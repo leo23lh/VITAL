@@ -2798,3 +2798,86 @@ a.source-chip:hover {
   text-transform: uppercase;
   vertical-align: 1px;
 }
+
+/* ------------------------------------------------------------------ */
+/* Map heads-up layer: a fixed fine grid, frame corners, a readout.    */
+/* ------------------------------------------------------------------ */
+.graph-canvas {
+  background:
+    linear-gradient(rgba(236, 238, 240, 0.03) 1px, transparent 1px) 0 0 / 56px 56px,
+    linear-gradient(90deg, rgba(236, 238, 240, 0.03) 1px, transparent 1px) 0 0 / 56px 56px,
+    radial-gradient(ellipse 70% 60% at 50% 45%, rgba(236, 238, 240, 0.025), transparent 70%),
+    var(--map-bg);
+}
+
+.map-hud {
+  position: absolute;
+  inset: 8px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.hud-corner {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-color: rgba(236, 238, 240, 0.28);
+  border-style: solid;
+  border-width: 0;
+}
+
+.hud-tl {
+  top: 0;
+  left: 0;
+  border-top-width: 1px;
+  border-left-width: 1px;
+}
+
+.hud-tr {
+  top: 0;
+  right: 0;
+  border-top-width: 1px;
+  border-right-width: 1px;
+}
+
+.hud-bl {
+  bottom: 0;
+  left: 0;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+
+.hud-br {
+  bottom: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+}
+
+.hud-status {
+  position: absolute;
+  top: 6px;
+  right: 22px;
+  display: flex;
+  gap: 12px;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.06em;
+  color: var(--fg);
+  text-shadow: 0 1px 6px var(--map-bg);
+}
+
+.hud-status em {
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--fg-dim);
+}
+
+/* Narrow phones: the Now / All time switch sits top left, so the readout keeps to two items */
+@media (max-width: 420px) {
+  .hud-status span:nth-child(3) {
+    display: none;
+  }
+}

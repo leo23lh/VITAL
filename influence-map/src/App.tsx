@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import GraphView, { BACKGROUND, type GraphHandle } from './components/GraphView';
+import MapHud from './components/MapHud';
 import OrgChart from './components/OrgChart';
 import PullView from './components/PullView';
 import BackingView from './components/BackingView';
@@ -332,6 +333,14 @@ export default function App() {
               fgRef={fgRef}
               onSelect={setSelection}
               onBackgroundTap={layout === 'sheet' ? () => setFoldKey((k) => k + 1) : undefined}
+            />
+          )}
+
+          {loaded && !empty && !orgChart && !['pull', 'backing', 'factions', 'about'].includes(view.kind) && (
+            <MapHud
+              people={visible.nodes.filter((n) => !n.isOrg).length}
+              ties={visible.pairs.length}
+              updated={updates[0]?.date}
             />
           )}
 

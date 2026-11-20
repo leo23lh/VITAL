@@ -6,6 +6,8 @@ import type { Compass, Forces, RadialLayout, Selection } from '../lib/view';
 import { isCleanTap, pickAt, type Pt } from '../lib/touch';
 
 export const BACKGROUND = '#08090b';
+/** The chrome's accent (--signal in styles.css): the selected person's target brackets. */
+const SIGNAL = '#ffb21a';
 /**
  * Map labels stay in the system face: drawing hundreds of names a frame in the chrome's
  * downloaded variable font (Geist) slowed the layout enough to make taps land mid-animation.
@@ -279,14 +281,15 @@ export default function GraphView({
         }
       }
 
-      if (node.id === selectedNodeId || matched) {
+      if (node.id === selectedNodeId) drawBrackets(ctx, x, y, r + 6 / scale, scale);
+      else if (matched) {
         if (node.isOrg) roundedSquare(ctx, x, y, r * 0.9 + 3 / scale);
         else {
           ctx.beginPath();
           ctx.arc(x, y, r + 3 / scale, 0, 2 * Math.PI);
         }
-        ctx.lineWidth = 2 / scale;
-        ctx.strokeStyle = matched && node.id !== selectedNodeId ? '#f5c542' : '#4ea1ff';
+        ctx.lineWidth = 1.5 / scale;
+        ctx.strokeStyle = SIGNAL;
         ctx.stroke();
       }
 
@@ -532,12 +535,14 @@ export default function GraphView({
           ctx.textBaseline = 'bottom';
           for (const h of haloNames.current) {
             ctx.font = h.font;
+            ctx.letterSpacing = h.spacing;
             ctx.lineWidth = 4 / scale;
             ctx.strokeStyle = BACKGROUND;
             ctx.strokeText(h.text, h.x, h.y);
             ctx.fillStyle = h.color;
             ctx.fillText(h.text, h.x, h.y);
           }
+          ctx.letterSpacing = '0px';
           ctx.textBaseline = 'top';
           for (const l of labelQueue.current) {
             ctx.globalAlpha = l.alpha;
@@ -663,13 +668,9 @@ function clusterForce(clusters: Map<string, number>, forces: Forces) {
   return force;
 }
 
-/** Halo colors, one per cluster in size order; muted so the lines stay readable on top. */
-const HALO_COLORS = ['#4ea1ff', '#e0605e', '#9085e9', '#2fbf8f', '#f0a640', '#d55181', '#4fc3d9', '#c7cf4a', '#b07ce8', '#8b95a8'];
-
 interface Halo {
   cluster: number;
   name: string;
-  color: string;
   members: GraphNode[];
 }
 
@@ -690,7 +691,7 @@ function clusterHalos(nodes: GraphNode[], clusters: Map<string, number>): Halo[]
   return [...byCluster.entries()]
     .filter(([, ms]) => ms.length >= 3)
     .sort((a, b) => b[1].length - a[1].length || a[0] - b[0])
-    .map(([cluster, members], i) => {
+    .map(([cluster, members]) => {
       const count = new Map<string, number>();
       for (const m of members) for (const g of m.groups) count.set(g, (count.get(g) ?? 0) + 1);
       const [top, hits] = [...count.entries()].sort((a, b) => b[1] - a[1])[0] ?? [null, 0];
@@ -699,7 +700,7 @@ function clusterHalos(nodes: GraphNode[], clusters: Map<string, number>): Halo[]
       let name = label && hits >= Math.max(2, members.length * 0.35) && !used.has(label) ? label : `Around ${hub.name}`;
       if (used.has(name)) name = `Around ${hub.name}`;
       used.add(name);
-      return { cluster, name, color: HALO_COLORS[i % HALO_COLORS.length], members };
+      return { cluster, name, members };
     });
 }
 
@@ -712,6 +713,8 @@ interface HaloName {
   x: number;
   y: number;
   font: string;
+  /** Tracking for the small capitals (canvas letterSpacing). */
+  spacing: string;
   color: string;
   box: { x0: number; y0: number; x1: number; y1: number };
 }
@@ -728,17 +731,22 @@ function drawHalos(ctx: CanvasRenderingContext2D, scale: number, halos: Halo[], 
     // Most of the cluster, not its stragglers.
     const r = Math.max(45, d[Math.floor(d.length * 0.8)] + 35);
     const hot = hoverId != null && pts.some((m) => m.id === hoverId);
-    const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, r);
-    g.addColorStop(0, withAlpha(h.color, hot ? 0.2 : 0.11));
-    g.addColorStop(0.7, withAlpha(h.color, hot ? 0.1 : 0.05));
-    g.addColorStop(1, withAlpha(h.color, 0));
-    ctx.fillStyle = g;
+    // A faint wash and a hairline ring, like a sector on a scope; the hovered or selected
+    // person's cluster lights up in the accent.
+    ctx.fillStyle = hot ? 'rgba(255, 178, 26, 0.035)' : 'rgba(236, 238, 240, 0.018)';
     ctx.beginPath();
     ctx.arc(cx, cy, r, 0, 2 * Math.PI);
     ctx.fill();
-    const size = Math.min(15, Math.max(11, 9 + pts.length / 6)) / scale;
-    const font = `700 ${size}px ${MAP_FONT}`;
+    ctx.setLineDash([2 / scale, 5 / scale]);
+    ctx.lineWidth = 1 / scale;
+    ctx.strokeStyle = hot ? 'rgba(255, 178, 26, 0.45)' : 'rgba(236, 238, 240, 0.12)';
+    ctx.stroke();
+    ctx.setLineDash([]);
+    const size = Math.min(12, Math.max(9.5, 8 + pts.length / 8)) / scale;
+    const font = `600 ${size}px ${MAP_FONT}`;
     ctx.font = font;
+    const spacing = `${(size * 0.16).toFixed(3)}px`;
+    ctx.letterSpacing = spacing;
     const text = h.name.toUpperCase();
     const half = ctx.measureText(text).width / 2;
     // Bigger clusters name first; a smaller one's name moves up a line if it would
@@ -753,12 +761,32 @@ function drawHalos(ctx: CanvasRenderingContext2D, scale: number, halos: Halo[], 
       x: cx,
       y,
       font,
-      color: withAlpha(h.color, hot ? 1 : 0.85),
+      spacing,
+      color: hot ? SIGNAL : 'rgba(236, 238, 240, 0.62)',
       box: { x0: cx - half, y0: y - size * 1.2, x1: cx + half, y1: y },
     });
   }
+  ctx.letterSpacing = '0px';
   ctx.restore();
   return names;
+}
+
+/** Target brackets: four amber corners around the selected person's dot. */
+function drawBrackets(ctx: CanvasRenderingContext2D, x: number, y: number, half: number, scale: number) {
+  const arm = Math.max(half * 0.45, 4 / scale);
+  ctx.save();
+  ctx.lineWidth = 1.75 / scale;
+  ctx.strokeStyle = SIGNAL;
+  ctx.beginPath();
+  for (const [sx, sy] of [[-1, -1], [1, -1], [1, 1], [-1, 1]] as const) {
+    const cx = x + sx * half;
+    const cy = y + sy * half;
+    ctx.moveTo(cx, cy - sy * arm);
+    ctx.lineTo(cx, cy);
+    ctx.lineTo(cx - sx * arm, cy);
+  }
+  ctx.stroke();
+  ctx.restore();
 }
 
 /** Pulls core people into the middle and everyone else onto the ring for their distance. */
