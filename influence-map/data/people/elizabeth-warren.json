@@ -16,14 +16,17 @@
     }
   ],
   "office": {
-    "title": "U.S. senator from Massachusetts; ranking member, Senate Banking Committee; vice chair of the Senate Democratic Caucus",
+    "title": "U.S. senator from Massachusetts; ranking member, Senate Banking Committee, slated to chair it from January 2027; vice chair of the Senate Democratic Caucus",
     "unit": "senate",
     "rank": 3,
     "since": "2013-01",
     "sources": [
       { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" },
-      { "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act", "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)" }
-    ]
+      { "url": "https://www.banking.senate.gov/newsroom/minority/following-approval-of-trump-crypto-company-bank-application-warren-and-colleagues-to-introduce-the-ending-presidential-corruption-in-banking-act", "title": "Following approval of Trump crypto company bank application, Warren and colleagues to introduce the Ending Presidential Corruption in Banking Act — Senate Banking Committee (minority)" },
+      { "url": "https://www.jenner.com/en/news-insights/client-alerts/democrats-flip-the-senate-incoming-committee-chairs-and-oversight-priorities", "title": "Democrats flip the Senate: incoming committee chairs — Jenner & Block" },
+      { "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/11/13/democrats-chair-congress-top-committees-2027", "title": "Democrats in line to lead committees in the new Congress — Spectrum News" }
+    ],
+    "verified": "2026-11-20"
   },
   "photo": {
     "file": "elizabeth-warren.jpg",

@@ -15,7 +15,7 @@
       ]
     }
   ],
-  "current_role": "Senate Majority Leader (since January 2025; until January 2027)",
+  "current_role": "Senate Majority Leader until January 2027; re-elected Senate Republican leader on November 10, 2026 (minority leader from January)",
   "summary": "John Thune, a South Dakota Republican senator since 2005, became Senate majority leader in January 2025. After Democrats won the Senate in November 2026, he said he would run to stay on as Republican leader in the minority, with the conference vote set for November 10.",
   "sources": [
     { "url": "https://en.wikipedia.org/wiki/John_Thune", "title": "John Thune — Wikipedia" },
@@ -125,14 +125,17 @@
     }
   ],
   "office": {
-    "title": "Senate Majority Leader (until January 2027)",
+    "title": "Senate Majority Leader until January 2027; re-elected Senate Republican leader on November 10, 2026 (minority leader from January)",
     "unit": "senate",
     "rank": 1,
     "since": "2025-01",
     "sources": [
       { "url": "https://en.wikipedia.org/wiki/John_Thune", "title": "John Thune — Wikipedia" },
-      { "url": "https://www.washingtonexaminer.com/news/senate/4792161/john-thune-run-second-term-senate-gop-leader-midterm-election-loss/", "title": "Thune to run for second term as Senate GOP leader — Washington Examiner" }
-    ]
+      { "url": "https://www.washingtonexaminer.com/news/senate/4792161/john-thune-run-second-term-senate-gop-leader-midterm-election-loss/", "title": "Thune to run for second term as Senate GOP leader — Washington Examiner" },
+      { "url": "https://aljazeera.com/news/2026/11/11/thune-re-elected-as-us-senate-republican-leader-after-midterm-losses", "title": "John Thune re-elected as US Senate Republican leader after midterm losses — Al Jazeera" },
+      { "url": "https://www.dailysignal.com/2026/11/10/senate-gop-leadership-stays-in-power/", "title": "Senate GOP leadership stays in power — The Daily Signal" }
+    ],
+    "verified": "2026-11-20"
   },
   "last_researched": "2026-11-08"
 }

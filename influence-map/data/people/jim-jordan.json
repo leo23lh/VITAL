@@ -1,0 +1,181 @@
+{
+  "name": "Jim Jordan",
+  "aliases": [
+    "James Daniel Jordan"
+  ],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican congressman from Ohio since 2007, co-founder and first chair of the House Freedom Caucus, and a close Trump ally; some outlets describe him as far right.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jim_Jordan",
+          "title": "Jim Jordan — Wikipedia"
+        }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Chair, House Judiciary Committee; elected House Republican leader on November 10, 2026 (minority leader from January 2027)",
+    "unit": "house",
+    "rank": 3,
+    "since": "2023-01-03",
+    "verified": "2026-11-20",
+    "sources": [
+      {
+        "url": "https://www.michiganpublic.org/2026-11-10/house-gop-elects-jim-jordan-as-new-leader-as-the-party-looks-to-rebuild-from-midterms",
+        "title": "House GOP elects Jim Jordan as new leader as the party looks to rebuild — Michigan Public (NPR)"
+      },
+      {
+        "url": "https://www.foxnews.com/politics/jim-jordan-becomes-new-house-gop-leader-after-closed-door-vote-defeating-steve-scalise",
+        "title": "Jim Jordan becomes new House GOP leader after closed-door vote defeating Steve Scalise — Fox News"
+      }
+    ]
+  },
+  "photo": {
+    "file": "jim-jordan.jpg",
+    "credit": "US Congress",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Jim_Jordan.jpg", "title": "File:Jim Jordan.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Chair, House Judiciary Committee; House Republican leader-elect (minority leader from January 2027)",
+  "summary": "Jim Jordan has represented Ohio in the House since 2007. He co-founded the House Freedom Caucus, chaired the Judiciary Committee from 2023, and is a close ally of Donald Trump, who awarded him the Presidential Medal of Freedom in 2021. After Republicans lost the House in the 2026 midterms, he beat Steve Scalise 106–73 to lead House Republicans in the minority.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Jim_Jordan",
+      "title": "Jim Jordan — Wikipedia"
+    },
+    {
+      "url": "https://www.michiganpublic.org/2026-11-10/house-gop-elects-jim-jordan-as-new-leader-as-the-party-looks-to-rebuild-from-midterms",
+      "title": "House GOP elects Jim Jordan as new leader as the party looks to rebuild — Michigan Public (NPR)"
+    },
+    {
+      "url": "https://www.foxnews.com/politics/jim-jordan-becomes-new-house-gop-leader-after-closed-door-vote-defeating-steve-scalise",
+      "title": "Jim Jordan becomes new House GOP leader after closed-door vote defeating Steve Scalise — Fox News"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 2007,
+      "end_year": null,
+      "role": "U.S. representative from Ohio",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jim_Jordan",
+          "title": "Jim Jordan — Wikipedia"
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": 2017,
+      "role": "First chair",
+      "org": "House Freedom Caucus",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jim_Jordan",
+          "title": "Jim Jordan — Wikipedia"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": null,
+      "role": "Chair",
+      "org": "House Judiciary Committee",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jim_Jordan",
+          "title": "Jim Jordan — Wikipedia"
+        },
+        {
+          "url": "http://www.washingtonexaminer.com/news/house/4803088/jamie-raskin-ask-back-house-judiciary-chairman/",
+          "title": "Raskin asks colleagues to back him for House Judiciary chairman — Washington Examiner"
+        }
+      ]
+    },
+    {
+      "year": 2027,
+      "end_year": null,
+      "role": "House Republican leader (elected November 10, 2026)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        {
+          "url": "https://www.michiganpublic.org/2026-11-10/house-gop-elects-jim-jordan-as-new-leader-as-the-party-looks-to-rebuild-from-midterms",
+          "title": "House GOP elects Jim Jordan as new leader as the party looks to rebuild — Michigan Public (NPR)"
+        },
+        {
+          "url": "https://www.foxnews.com/politics/jim-jordan-becomes-new-house-gop-leader-after-closed-door-vote-defeating-steve-scalise",
+          "title": "Jim Jordan becomes new House GOP leader after closed-door vote defeating Steve Scalise — Fox News"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "A close Trump ally: Jordan fought the Russia and impeachment inquiries in Trump's first term and voted against certifying the 2020 result; Trump awarded him the Presidential Medal of Freedom in 2021.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jim_Jordan",
+          "title": "Jim Jordan — Wikipedia"
+        },
+        {
+          "url": "https://www.ibtimes.co.uk/jim-jordan-defeats-steve-scalise-house-minority-leader-1831496",
+          "title": "Trump ally Jim Jordan defeats Steve Scalise to become House Republicans' minority leader — IBTimes"
+        }
+      ]
+    },
+    {
+      "name": "Mike Johnson",
+      "slug": "mike-johnson",
+      "relationship_type": "colleague",
+      "description": "Jordan chaired House Judiciary under Speaker Johnson and succeeds him as House Republican leader after Johnson stepped aside following the 2026 midterm losses.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        {
+          "url": "https://www.michiganpublic.org/2026-11-10/house-gop-elects-jim-jordan-as-new-leader-as-the-party-looks-to-rebuild-from-midterms",
+          "title": "House GOP elects Jim Jordan as new leader as the party looks to rebuild — Michigan Public (NPR)"
+        },
+        {
+          "url": "https://www.axios.com/2026/11/04/speaker-mike-johnson-retires-house-republicans-midterms",
+          "title": "Mike Johnson bows out of leadership after crushing House GOP defeat — Axios"
+        }
+      ]
+    },
+    {
+      "name": "Jamie Raskin",
+      "slug": "jamie-raskin",
+      "relationship_type": "rival",
+      "description": "Jordan chaired House Judiciary from 2023 with Raskin as its ranking Democrat; Raskin is seeking the chairmanship when Democrats take the House in January 2027.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        {
+          "url": "http://www.washingtonexaminer.com/news/house/4803088/jamie-raskin-ask-back-house-judiciary-chairman/",
+          "title": "Raskin asks colleagues to back him for House Judiciary chairman — Washington Examiner"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Jim_Jordan",
+          "title": "Jim Jordan — Wikipedia"
+        }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-20 from the Wikipedia article's source text (read directly) and web searches tied to each cited URL; other pages could not be opened in this environment.",
+  "last_researched": "2026-11-20"
+}

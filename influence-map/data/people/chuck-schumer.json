@@ -190,17 +190,32 @@
         { "url": "https://www.democrats.senate.gov/newsroom/press-releases/majority-leader-schumer-announces-senate-democratic-leadership-team-for-the-119th-congress", "title": "Schumer announces Senate Democratic leadership team for the 119th Congress — Senate Democrats" },
         { "url": "https://www.pbs.org/newshour/politics/senate-democrats-stick-with-schumer-as-leader-strategy-for-countering-trump-uncertain", "title": "Senate Democrats stick with Schumer as leader — PBS NewsHour (AP)" }
       ]
+    },
+    {
+      "name": "Brian Schatz",
+      "slug": "brian-schatz",
+      "relationship_type": "ally",
+      "description": "Schumer backed Schatz to succeed Durbin as Democratic whip, the No. 2 post under him.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/congress/brian-schatz-racks-support-succeed-dick-durbin-no-2-senate-democrat-rcna204192", "title": "Brian Schatz racks up support to succeed Dick Durbin as the No. 2 Senate Democrat — NBC News" },
+        { "url": "https://www.washingtonexaminer.com/news/senate/3393658/brian-schatz-senate-bid-replace-dick-durbin-democratic-whip/", "title": "Schatz launches bid to replace Durbin as Democratic whip — Washington Examiner" }
+      ]
     }
   ],
   "office": {
-    "title": "Senate Minority Leader (expected majority leader from January 2027)",
+    "title": "Senate Minority Leader; expected majority leader from January 2027 (caucus vote due early December 2026; Chris Van Hollen is challenging him)",
     "unit": "senate",
     "rank": 2,
     "since": "2017-01",
     "sources": [
       { "url": "https://en.wikipedia.org/wiki/Chuck_Schumer", "title": "Chuck Schumer — Wikipedia" },
-      { "url": "https://rollcall.com/2026/11/04/will-be-reelected-as-majority-leader-schumer-says/", "title": "‘I’ll be reelected as majority leader,’ Schumer says — Roll Call" }
-    ]
+      { "url": "https://rollcall.com/2026/11/04/will-be-reelected-as-majority-leader-schumer-says/", "title": "‘I’ll be reelected as majority leader,’ Schumer says — Roll Call" },
+      { "url": "https://thehill.com/homenews/senate/6220115-senate-democrats-leadership-election-update/", "title": "Democratic allies predict Schumer will secure 40+ votes in leadership race — The Hill" }
+    ],
+    "verified": "2026-11-20"
   },
   "last_researched": "2026-11-08",
   "asks": [

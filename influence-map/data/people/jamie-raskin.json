@@ -16,13 +16,16 @@
     }
   ],
   "office": {
-    "title": "Ranking member, House Judiciary Committee",
+    "title": "Ranking member, House Judiciary Committee; seeking the chairmanship when Democrats take the House in January 2027",
     "unit": "house",
     "rank": 3,
     "since": "2017-01",
     "sources": [
-      { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
-    ]
+      { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" },
+      { "url": "http://www.washingtonexaminer.com/news/house/4803088/jamie-raskin-ask-back-house-judiciary-chairman/", "title": "Raskin asks colleagues to back him for House Judiciary chairman — Washington Examiner" },
+      { "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/11/13/democrats-chair-congress-top-committees-2027", "title": "Democrats in line to lead committees in the new Congress — Spectrum News" }
+    ],
+    "verified": "2026-11-20"
   },
   "photo": {
     "file": "jamie-raskin.jpg",
@@ -30,7 +33,7 @@
     "license": "Public domain",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Jamie_Raskin_Official_Portrait_2019.jpg", "title": "File:Jamie Raskin Official Portrait 2019.jpg — Wikimedia Commons" }
   },
-  "current_role": "U.S. representative for Maryland's 8th district (since 2017); ranking Democrat on the House Judiciary Committee (since December 2024)",
+  "current_role": "Ranking member, House Judiciary Committee; seeking the chairmanship when Democrats take the House in January 2027",
   "summary": "Jamie Raskin, a former constitutional law professor, has represented Maryland's 8th district since 2017. He was the lead House manager in Trump's second impeachment trial (2021), served on the January 6 select committee, and has been the ranking Democrat on the House Judiciary Committee since December 2024.",
   "sources": [
     { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
@@ -131,6 +134,19 @@
       "confidence": 0.85,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jim Jordan",
+      "slug": "jim-jordan",
+      "relationship_type": "rival",
+      "description": "Raskin has been ranking Democrat on House Judiciary under Chairman Jordan since 2023 and is seeking the gavel when Democrats take the House in January 2027.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "http://www.washingtonexaminer.com/news/house/4803088/jamie-raskin-ask-back-house-judiciary-chairman/", "title": "Raskin asks colleagues to back him for House Judiciary chairman — Washington Examiner" },
+        { "url": "https://en.wikipedia.org/wiki/Jim_Jordan", "title": "Jim Jordan — Wikipedia" }
       ]
     }
   ],

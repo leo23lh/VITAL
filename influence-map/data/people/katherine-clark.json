@@ -16,13 +16,16 @@
     }
   ],
   "office": {
-    "title": "House Democratic whip (minority whip; majority leader-designate for January 2027)",
+    "title": "House Democratic whip; nominated majority leader for the new Congress (November 18, 2026; takes office January 2027)",
     "unit": "house",
     "rank": 2,
     "since": "2023-01",
     "sources": [
-      { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" }
-    ]
+      { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" },
+      { "url": "https://www.npr.org/2026/11/19/nx-s1-6045750/katherine-clark-hakeem-jeffries-house-democrats", "title": "Incoming House majority leader Katherine Clark stresses Democratic unity — NPR" },
+      { "url": "https://rollcall.com/2026/11/18/democrats-nominate-jeffries-to-be-house-speaker-a-historic-first", "title": "Democrats nominate Jeffries to be House speaker, a historic first — Roll Call" }
+    ],
+    "verified": "2026-11-20"
   },
   "photo": {
     "file": "katherine-clark.jpg",
@@ -30,7 +33,7 @@
     "license": "Public domain",
     "source": { "url": "https://commons.wikimedia.org/wiki/File:Katherine_Clark,_official_portrait,_118th_Congress_cropped).jpg", "title": "File:Katherine Clark, official portrait, 118th Congress cropped).jpg — Wikimedia Commons" }
   },
-  "current_role": "House Democratic whip (since 2023); majority leader-designate for the Congress that opens January 3, 2027",
+  "current_role": "House Democratic whip; nominated majority leader for the new Congress (November 18, 2026; takes office January 2027)",
   "summary": "Katherine Clark has represented Massachusetts's 5th district in the House since 2013 and has been the House Democratic whip, the party's second-ranking leader, since 2023, after serving as caucus vice chair and assistant speaker under Nancy Pelosi. After Democrats won the House majority in November 2026 she was designated to become majority leader in January 2027.",
   "sources": [
     { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" },

@@ -15,7 +15,7 @@
       ]
     }
   ],
-  "current_role": "House Democratic Leader (since January 2023); running for Speaker in January 2027",
+  "current_role": "House Minority Leader; Democrats' nominee for Speaker (caucus vote 251–11 on November 18, 2026; the full House votes in January 2027)",
   "summary": "Hakeem Jeffries, a Brooklyn congressman since 2013, succeeded Nancy Pelosi as House Democratic leader in January 2023. After Democrats won the House in November 2026 he launched his bid to become Speaker in January, when he would be the first Black Speaker.",
   "sources": [
     { "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries", "title": "Hakeem Jeffries — Wikipedia" },
@@ -190,14 +190,17 @@
     }
   ],
   "office": {
-    "title": "House Minority Leader (Speaker candidate for January 2027)",
+    "title": "House Minority Leader; Democrats' nominee for Speaker (caucus vote 251–11 on November 18, 2026; the full House votes in January 2027)",
     "unit": "house",
     "rank": 2,
     "since": "2023-01",
     "sources": [
       { "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries", "title": "Hakeem Jeffries — Wikipedia" },
-      { "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house", "title": "House Democratic Leader Hakeem Jeffries declares “America is back” — NPR" }
-    ]
+      { "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house", "title": "House Democratic Leader Hakeem Jeffries declares “America is back” — NPR" },
+      { "url": "https://rollcall.com/2026/11/18/democrats-nominate-jeffries-to-be-house-speaker-a-historic-first", "title": "Democrats nominate Jeffries to be House speaker, a historic first — Roll Call" },
+      { "url": "https://www.cbsnews.com/news/house-democrats-hakeem-jeffries-speaker-nomination-progressives/", "title": "Jeffries wins Democratic nomination for House speaker — CBS News" }
+    ],
+    "verified": "2026-11-20"
   },
   "last_researched": "2026-11-08",
   "asks": [

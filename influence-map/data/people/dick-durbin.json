@@ -125,6 +125,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
       ]
+    },
+    {
+      "name": "Brian Schatz",
+      "slug": "brian-schatz",
+      "relationship_type": "colleague",
+      "description": "Schatz is Durbin's chief deputy whip and the front-runner to succeed him as whip when Durbin retires in January 2027.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/congress/brian-schatz-racks-support-succeed-dick-durbin-no-2-senate-democrat-rcna204192", "title": "Brian Schatz racks up support to succeed Dick Durbin as the No. 2 Senate Democrat — NBC News" },
+        { "url": "https://www.cbsnews.com/news/dick-durbin-retirement-announcement-senate-democrats-leadership/", "title": "Durbin retirement to prompt shakeup in Senate Democratic leadership — CBS News" }
+      ]
     }
   ],
   "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly); other pages could not be opened in this environment.",

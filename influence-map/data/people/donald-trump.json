@@ -2432,6 +2432,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
       ]
+    },
+    {
+      "name": "Jim Jordan",
+      "slug": "jim-jordan",
+      "relationship_type": "ally",
+      "description": "A close ally: Jordan fought the Russia and impeachment inquiries in Trump's first term and voted against certifying the 2020 result; Trump awarded him the Presidential Medal of Freedom in 2021.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jim_Jordan", "title": "Jim Jordan — Wikipedia" },
+        { "url": "https://www.ibtimes.co.uk/jim-jordan-defeats-steve-scalise-house-minority-leader-1831496", "title": "Trump ally Jim Jordan defeats Steve Scalise to become House Republicans' minority leader — IBTimes" }
+      ]
     }
   ],
   "source_conflicts": [

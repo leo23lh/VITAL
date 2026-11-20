@@ -326,6 +326,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" }
       ]
+    },
+    {
+      "name": "Brian Schatz",
+      "slug": "brian-schatz",
+      "relationship_type": "ally",
+      "description": "One of Obama's earliest backers: in December 2006 Schatz founded a group of Hawaii Democrats urging him to run for president.",
+      "start_year": 2006,
+      "end_year": 2008,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Brian_Schatz", "title": "Brian Schatz — Wikipedia" },
+        { "url": "https://www.theatlantic.com/politics/archive/2012/12/who-is-brian-schatz-the-new-us-senator-from-hawaii/266652/", "title": "Who is Brian Schatz, the new U.S. senator from Hawaii? — The Atlantic" }
+      ]
     }
   ],
   "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so each news fact was confirmed through search results tied to the cited URL. Ties to Biden, Clinton, Plouffe and Emanuel will gain sources as their own files are added.",
