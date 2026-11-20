@@ -1,12 +1,13 @@
 // Details panel for one person or organization: overview, ties, money and record tabs.
-import { useState } from 'react';
-import { bond, familyOf, linkEndId, matchesQuery, type WorkplaceIndex, pairKey, roleOfOther, yearRange, type GraphLink, type GraphNode } from '../../lib/graph';
+import { useMemo, useState } from 'react';
+import { bond, familyOf, leanAt, linkEndId, matchesQuery, type WorkplaceIndex, pairKey, roleOfOther, yearRange, type GraphLink, type GraphNode } from '../../lib/graph';
 import { EDGE_FAMILY_BY_ID, GROUPS, ORG_KIND_LABEL, RECIPIENT_KIND_LABEL, SECTOR_BY_ID, formatUsd, leanLabel, orgSideColor, sourceUrl, type Affiliation, type Giving, type GivingSide, type OrgFinance } from '../../lib/schema';
 import type { Selection } from '../../lib/view';
 import { Confidence, CopyCommand, ShareButton, SourceList, dedupeSources, otherEnd, uniqueDescriptions } from './parts';
 import { IS_WEB } from '../../lib/platform';
 import { BackingSection, hasBackingTab, type BackingTools } from './BackingSection';
 import { PullSection, type PullTools } from './PullSection';
+import { pullOf } from '../../lib/pull';
 import { ago, daysSince, freshnessOf, officeChecked } from '../../lib/freshness';
 
 export function NodePanel({
@@ -69,6 +70,26 @@ export function NodePanel({
   const sector = node.sector ? SECTOR_BY_ID[node.sector] : null;
   const groupLabels = node.groups.map((g) => GROUPS.find((x) => x.id === g)?.label ?? g);
 
+  // The header's readouts: Pull for living researched people, ties for everyone, then their 2028
+  // role, or their current political lean, or an organization's side.
+  const scored = !!p && node.researched && !p.died;
+  const pull = useMemo(
+    () => (scored ? pullOf(node.id, pullTools.nodes, pullTools.bonds, new Date(), node) : null),
+    [scored, node, pullTools.nodes, pullTools.bonds],
+  );
+  const lean = p ? leanAt(p.lean, new Date().getFullYear()) : undefined;
+  const readouts: ReadoutCell[] = [
+    ...(pull ? [{ label: 'Pull', value: String(pull.score), meter: pull.score, note: pull.label }] : []),
+    { label: 'Ties', value: String(people.length) },
+    ...(p?.race_2028
+      ? [{ label: '2028', value: p.race_2028.role === 'contender' ? 'Contender' : 'Camp', note: p.race_2028.role === 'camp' ? (p.race_2028.contenders ?? []).map(nameOf).join(', ') : undefined }]
+      : lean
+        ? [{ label: 'Lean', value: leanLabel(lean.value) }]
+        : o?.side
+          ? [{ label: 'Side', value: o.side === 'R' ? 'Republican' : o.side === 'D' ? 'Democratic' : o.side === 'both' ? 'Both' : 'Nonpartisan' }]
+          : []),
+  ];
+
   const timeline = [...(p?.timeline ?? [])].sort((a, b) => (a.year ?? 0) - (b.year ?? 0));
   const hasMoney = !!(p?.giving || (o?.finances && o.finances.length > 0));
 
@@ -84,7 +105,10 @@ export function NodePanel({
               style={{ borderColor: sector?.color ?? 'var(--border)' }}
             />
           )}
-          <h2>{node.name}</h2>
+          <div className="panel-name">
+            <h2>{node.name}</h2>
+            {p?.current_role && <div className="role">{p.current_role}</div>}
+          </div>
         </div>
         <div className="badges">
           {!node.researched && <span className="badge badge-suggested">Suggested · no file yet</span>}
@@ -108,30 +132,8 @@ export function NodePanel({
             <span className="badge badge-private">Not a public figure · user-provided info only</span>
           )}
         </div>
-        {p?.race_2028 && (
-          <div className="race-2028">
-            <strong>2028:</strong>{' '}
-            {p.race_2028.role === 'contender' ? (
-              'likely contender'
-            ) : (
-              <>
-                in the camp of{' '}
-                {(p.race_2028.contenders ?? []).map((s, i) => (
-                  <span key={s}>
-                    {i > 0 && ', '}
-                    <button className="link-button" onClick={() => onSelect({ kind: 'node', id: s })}>
-                      {nameOf(s)}
-                    </button>
-                  </span>
-                ))}
-              </>
-            )}
-            <span className="muted"> · {p.race_2028.basis}</span>
-            <SourceList sources={p.race_2028.sources} compact />
-          </div>
-        )}
+        <Readouts cells={readouts} />
         {d?.aliases && d.aliases.length > 0 && <div className="muted">Also: {d.aliases.join(', ')}</div>}
-        {p?.current_role && <div className="role">{p.current_role}</div>}
         {p?.photo && (
           <div className="photo-credit muted">
             Photo:{' '}
@@ -147,10 +149,7 @@ export function NodePanel({
             Compare
           </button>
           {IS_WEB && <ShareButton slug={node.id} name={node.name} />}
-          <span className="muted small">
-            {people.length} connection{people.length === 1 ? '' : 's'}
-            {groupLabels.length > 0 && ` · ${groupLabels.join(' · ')}`}
-          </span>
+          {groupLabels.length > 0 && <span className="muted small panel-groups">{groupLabels.join(' · ')}</span>}
         </div>
         {picking && (
           <ComparePicker
@@ -196,6 +195,33 @@ export function NodePanel({
             Mentioned in {node.mentionedBy.join(', ')}'s file. To research this person, run in Claude Code:
           </p>
           <CopyCommand text={`/add-person ${node.name}`} />
+        </section>
+      )}
+
+      {p?.race_2028 && (
+        <section className="race-2028">
+          <h3>2028 race</h3>
+          <p>
+            <strong>
+              {p.race_2028.role === 'contender' ? (
+                'Likely contender'
+              ) : (
+                <>
+                  In the camp of{' '}
+                  {(p.race_2028.contenders ?? []).map((s, i) => (
+                    <span key={s}>
+                      {i > 0 && ', '}
+                      <button className="link-button" onClick={() => onSelect({ kind: 'node', id: s })}>
+                        {nameOf(s)}
+                      </button>
+                    </span>
+                  ))}
+                </>
+              )}
+            </strong>
+            <span className="muted"> · {p.race_2028.basis}</span>
+          </p>
+          <SourceList sources={p.race_2028.sources} compact />
         </section>
       )}
 
@@ -619,5 +645,36 @@ function ResearchAge({ date }: { date: string }) {
       · {ago(days)}
       {f === 'stale' ? ' (stale: due for a refresh)' : f === 'aging' ? ' (aging)' : ''}
     </span>
+  );
+}
+
+interface ReadoutCell {
+  label: string;
+  value: string;
+  /** 0–100: draws a thin meter under the value. */
+  meter?: number;
+  note?: string;
+}
+
+/** A row of instrument-style readouts under the name: small label, big mono value. */
+function Readouts({ cells }: { cells: ReadoutCell[] }) {
+  if (!cells.length) return null;
+  return (
+    <dl className="readouts" style={{ gridTemplateColumns: `repeat(${cells.length}, 1fr)` }}>
+      {cells.map((c) => (
+        <div key={c.label} className="readout">
+          <dt>{c.label}</dt>
+          <dd>
+            <span className={`readout-value${/^[\d.,]+$/.test(c.value) ? '' : ' word'}`}>{c.value}</span>
+            {c.meter != null && (
+              <span className="readout-meter" aria-hidden="true">
+                <span style={{ width: `${Math.max(0, Math.min(100, c.meter))}%` }} />
+              </span>
+            )}
+            {c.note && <span className="readout-note">{c.note}</span>}
+          </dd>
+        </div>
+      ))}
+    </dl>
   );
 }
