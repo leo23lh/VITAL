@@ -79,5 +79,16 @@
       { "url": "https://www.pbs.org/newshour/politics/senate-confirms-john-ratcliffe-as-cia-director-giving-trump-his-2nd-cabinet-member", "title": "Senate confirms John Ratcliffe as CIA director — PBS NewsHour (AP)" }
     ]
   },
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican congressman from Texas (2015–2020), then Trump's director of national intelligence and CIA director.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/John_Ratcliffe", "title": "John Ratcliffe — Wikipedia" }
+      ]
+    }
+  ]
 }

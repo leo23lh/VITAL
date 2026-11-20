@@ -1,13 +1,9 @@
 {
   "name": "Joe Biden",
-  "aliases": [
-    "Joseph Robinette Biden Jr."
-  ],
+  "aliases": ["Joseph Robinette Biden Jr."],
   "public_figure": true,
   "sector": "politics",
-  "groups": [
-    "critics"
-  ],
+  "groups": ["critics"],
   "lean": [
     {
       "value": -2,
@@ -15,10 +11,7 @@
       "end_year": null,
       "basis": "Democratic U.S. senator from Delaware (1973–2009), Democratic vice president and Democratic president.",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
       ]
     }
   ],
@@ -26,22 +19,13 @@
     "file": "joe-biden.jpg",
     "credit": "Adam Schultz",
     "license": "Public domain",
-    "source": {
-      "url": "https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg",
-      "title": "File:Joe Biden presidential portrait.jpg — Wikimedia Commons"
-    }
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg", "title": "File:Joe Biden presidential portrait.jpg — Wikimedia Commons" }
   },
   "current_role": "Former President of the United States (2021–2025)",
   "summary": "Joe Biden was the 46th president of the United States from 2021 to 2025, after 36 years as a U.S. senator from Delaware and eight years as Barack Obama's vice president. He ended his 2024 reelection campaign on July 21, 2024 and endorsed Vice President Kamala Harris, who lost the election to Donald Trump.",
   "sources": [
-    {
-      "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-      "title": "Joe Biden — Wikipedia"
-    },
-    {
-      "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/",
-      "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now"
-    }
+    { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
+    { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now" }
   ],
   "timeline": [
     {
@@ -50,10 +34,7 @@
       "role": "U.S. senator from Delaware",
       "org": "U.S. Senate",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
       ]
     },
     {
@@ -62,10 +43,7 @@
       "role": "47th Vice President of the United States",
       "org": "The White House",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
       ]
     },
     {
@@ -74,10 +52,7 @@
       "role": "46th President of the United States",
       "org": "The White House",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
       ]
     },
     {
@@ -85,10 +60,7 @@
       "role": "Withdrew from the presidential race on July 21 and endorsed Kamala Harris",
       "org": "Biden for President",
       "sources": [
-        {
-          "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/",
-          "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now"
-        }
+        { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now" }
       ]
     }
   ],
@@ -102,10 +74,7 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
       ]
     },
     {
@@ -117,14 +86,8 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        },
-        {
-          "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/",
-          "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
+        { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now" }
       ]
     },
     {
@@ -136,14 +99,8 @@
       "end_year": 2024,
       "confidence": 0.98,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        },
-        {
-          "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/",
-          "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
+        { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now" }
       ]
     },
     {
@@ -155,18 +112,9 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://www.whitehouse.gov/presidential-actions/2025/06/reviewing-certain-presidential-actions/",
-          "title": "Reviewing Certain Presidential Actions — The White House"
-        },
-        {
-          "url": "https://www.npr.org/2025/06/05/nx-s1-5424313/trump-investigation-biden-autopen-cognitive-decline",
-          "title": "Trump orders a probe into the Biden administration and its alleged autopen use — NPR"
-        },
-        {
-          "url": "https://m.washingtontimes.com/news/2025/jun/4/trump-orders-probe-biden-aides-commandeering-autopen/",
-          "title": "Trump orders probe of Biden aides — The Washington Times"
-        }
+        { "url": "https://www.whitehouse.gov/presidential-actions/2025/06/reviewing-certain-presidential-actions/", "title": "Reviewing Certain Presidential Actions — The White House" },
+        { "url": "https://www.npr.org/2025/06/05/nx-s1-5424313/trump-investigation-biden-autopen-cognitive-decline", "title": "Trump orders a probe into the Biden administration and its alleged autopen use — NPR" },
+        { "url": "https://m.washingtontimes.com/news/2025/jun/4/trump-orders-probe-biden-aides-commandeering-autopen/", "title": "Trump orders probe of Biden aides — The Washington Times" }
       ]
     },
     {
@@ -178,14 +126,8 @@
       "end_year": 2025,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://www.cnbc.com/amp/2021/02/02/pete-buttigieg-confirmed-by-senate-as-biden-transportation-secretary.html",
-          "title": "Pete Buttigieg confirmed by Senate as Biden transportation secretary — CNBC"
-        },
-        {
-          "url": "https://www.pbs.org/newshour/politics/watch-live-senate-votes-to-confirm-pete-buttigieg-bidens-transportation-nominee",
-          "title": "Senate votes to confirm Pete Buttigieg — PBS NewsHour"
-        }
+        { "url": "https://www.cnbc.com/amp/2021/02/02/pete-buttigieg-confirmed-by-senate-as-biden-transportation-secretary.html", "title": "Pete Buttigieg confirmed by Senate as Biden transportation secretary — CNBC" },
+        { "url": "https://www.pbs.org/newshour/politics/watch-live-senate-votes-to-confirm-pete-buttigieg-bidens-transportation-nominee", "title": "Senate votes to confirm Pete Buttigieg — PBS NewsHour" }
       ]
     },
     {
@@ -197,10 +139,7 @@
       "end_year": 2020,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
       ]
     },
     {
@@ -210,15 +149,10 @@
       "description": "Wife, married 1977; first lady from 2021 to 2025.",
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Joe_Biden",
-          "title": "Joe Biden — Wikipedia"
-        },
-        {
-          "url": "https://www.bidenlibrary.gov/bidens/first-lady-dr-jill-biden",
-          "title": "First Lady Dr. Jill Biden — Biden Presidential Library"
-        }
-      ]
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
+        { "url": "https://www.bidenlibrary.gov/bidens/first-lady-dr-jill-biden", "title": "First Lady Dr. Jill Biden — Biden Presidential Library" }
+      ],
+      "public_figure_confirmed": true
     },
     {
       "name": "Gretchen Whitmer",
@@ -229,10 +163,7 @@
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer",
-          "title": "Gretchen Whitmer — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
       ]
     },
     {
@@ -244,10 +175,7 @@
       "end_year": 2024,
       "confidence": 0.75,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Ruben_Gallego",
-          "title": "Ruben Gallego — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
       ]
     },
     {
@@ -259,10 +187,7 @@
       "end_year": 2020,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
-          "title": "Elizabeth Warren — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
       ]
     },
     {
@@ -274,10 +199,7 @@
       "end_year": 2024,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar",
-          "title": "Amy Klobuchar — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" }
       ]
     },
     {
@@ -289,10 +211,7 @@
       "end_year": 2025,
       "confidence": 0.7,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Pete_Aguilar",
-          "title": "Pete Aguilar — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
       ]
     },
     {
@@ -304,10 +223,7 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Hillary_Clinton",
-          "title": "Hillary Clinton — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
       ]
     },
     {
@@ -319,10 +235,7 @@
       "end_year": 2025,
       "confidence": 0.7,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Adam_Schiff",
-          "title": "Adam Schiff — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" }
       ]
     },
     {
@@ -334,10 +247,7 @@
       "end_year": 2025,
       "confidence": 0.75,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Jamie_Raskin",
-          "title": "Jamie Raskin — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
       ]
     },
     {
@@ -349,10 +259,7 @@
       "end_year": 2024,
       "confidence": 0.75,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tom_Steyer",
-          "title": "Tom Steyer — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
       ]
     },
     {
@@ -364,18 +271,9 @@
       "end_year": 2024,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon",
-          "title": "Jen O'Malley Dillon — Wikipedia"
-        },
-        {
-          "url": "https://www.cnbc.com/amp/2020/11/17/biden-picks-for-senior-white-house-staff-include-loyalists-rising-democratic-stars.html",
-          "title": "Biden picks for senior White House staff — CNBC"
-        },
-        {
-          "url": "https://foxnews.com/politics/bidens-campaign-manager-headed-to-white-house-as-deputy-chief-of-staff.amp",
-          "title": "Biden's campaign manager headed to White House as deputy chief of staff — Fox News"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" },
+        { "url": "https://www.cnbc.com/amp/2020/11/17/biden-picks-for-senior-white-house-staff-include-loyalists-rising-democratic-stars.html", "title": "Biden picks for senior White House staff — CNBC" },
+        { "url": "https://foxnews.com/politics/bidens-campaign-manager-headed-to-white-house-as-deputy-chief-of-staff.amp", "title": "Biden's campaign manager headed to White House as deputy chief of staff — Fox News" }
       ]
     },
     {
@@ -387,10 +285,7 @@
       "end_year": 2015,
       "confidence": 0.65,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/David_Plouffe",
-          "title": "David Plouffe — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
       ]
     },
     {
@@ -402,18 +297,9 @@
       "end_year": 2025,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel",
-          "title": "Rahm Emanuel — Wikipedia"
-        },
-        {
-          "url": "https://jp.usembassy.gov/ambassador-rahm-emanuel/",
-          "title": "Ambassador Rahm Emanuel — U.S. Embassy & Consulates in Japan"
-        },
-        {
-          "url": "https://www.npr.org/2021/12/18/1065519715/rahm-emanuel-among-dozens-of-late-night-diplomatic-post-confirmations-by-the-sen",
-          "title": "Rahm Emanuel among dozens of late-night diplomatic confirmations — NPR"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" },
+        { "url": "https://jp.usembassy.gov/ambassador-rahm-emanuel/", "title": "Ambassador Rahm Emanuel — U.S. Embassy & Consulates in Japan" },
+        { "url": "https://www.npr.org/2021/12/18/1065519715/rahm-emanuel-among-dozens-of-late-night-diplomatic-post-confirmations-by-the-sen", "title": "Rahm Emanuel among dozens of late-night diplomatic confirmations — NPR" }
       ]
     },
     {
@@ -425,18 +311,9 @@
       "end_year": 2023,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Ron_Klain",
-          "title": "Ron Klain — Wikipedia"
-        },
-        {
-          "url": "https://www.foxnews.com/politics/biden-selects-ronald-klain-white-house-chief-of-staff",
-          "title": "Biden selects Ronald Klain as White House chief of staff — Fox News"
-        },
-        {
-          "url": "http://thecaucus.blogs.nytimes.com/2011/01/04/ron-klain-leaving-vice-presidents-staff",
-          "title": "Ron Klain leaving vice president's staff — The New York Times"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" },
+        { "url": "https://www.foxnews.com/politics/biden-selects-ronald-klain-white-house-chief-of-staff", "title": "Biden selects Ronald Klain as White House chief of staff — Fox News" },
+        { "url": "http://thecaucus.blogs.nytimes.com/2011/01/04/ron-klain-leaving-vice-presidents-staff", "title": "Ron Klain leaving vice president's staff — The New York Times" }
       ]
     },
     {
@@ -448,18 +325,9 @@
       "end_year": 2024,
       "confidence": 0.8,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Gabby_Giffords",
-          "title": "Gabby Giffords — Wikipedia"
-        },
-        {
-          "url": "https://giffords.org/press-release/2023/08/giffords-endorses-president-biden-for-re-election/",
-          "title": "Giffords endorses President Biden for re-election — Giffords"
-        },
-        {
-          "url": "https://www.pbs.org/newshour/politics/major-gun-safety-groups-come-together-to-endorse-biden-for-2024-election",
-          "title": "Major gun safety groups come together to endorse Biden for 2024 — PBS NewsHour"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Gabby_Giffords", "title": "Gabby Giffords — Wikipedia" },
+        { "url": "https://giffords.org/press-release/2023/08/giffords-endorses-president-biden-for-re-election/", "title": "Giffords endorses President Biden for re-election — Giffords" },
+        { "url": "https://www.pbs.org/newshour/politics/major-gun-safety-groups-come-together-to-endorse-biden-for-2024-election", "title": "Major gun safety groups come together to endorse Biden for 2024 — PBS NewsHour" }
       ]
     },
     {
@@ -471,18 +339,9 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Jim_Clyburn",
-          "title": "Jim Clyburn — Wikipedia"
-        },
-        {
-          "url": "https://abcnews.go.com/US/wireStory/south-carolina-rep-jim-clyburn-credited-helping-biden-112148759",
-          "title": "Clyburn, credited with helping Biden win the 2020 nomination, endorses Harris — ABC News (AP)"
-        },
-        {
-          "url": "https://abcnews4.com/news/beyond-the-podium/does-biden-win-south-carolina-and-the-white-house-without-clyburns-endorsement",
-          "title": "Does Biden win South Carolina without Clyburn's endorsement? — ABC News 4"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Jim_Clyburn", "title": "Jim Clyburn — Wikipedia" },
+        { "url": "https://abcnews.go.com/US/wireStory/south-carolina-rep-jim-clyburn-credited-helping-biden-112148759", "title": "Clyburn, credited with helping Biden win the 2020 nomination, endorses Harris — ABC News (AP)" },
+        { "url": "https://abcnews4.com/news/beyond-the-podium/does-biden-win-south-carolina-and-the-white-house-without-clyburns-endorsement", "title": "Does Biden win South Carolina without Clyburn's endorsement? — ABC News 4" }
       ]
     },
     {
@@ -494,18 +353,9 @@
       "end_year": 2025,
       "confidence": 0.97,
       "sources": [
-        {
-          "url": "https://www.cbsnews.com/news/deb-haaland-confirmation-interior-secretary",
-          "title": "Senate confirms Deb Haaland as Interior secretary — CBS News"
-        },
-        {
-          "url": "https://www.npr.org/2021/03/15/977558590/deb-haaland-confirmed-as-first-native-american-interior-secretary",
-          "title": "Deb Haaland confirmed as first Native American Interior secretary — NPR"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Deb_Haaland",
-          "title": "Deb Haaland — Wikipedia"
-        }
+        { "url": "https://www.cbsnews.com/news/deb-haaland-confirmation-interior-secretary", "title": "Senate confirms Deb Haaland as Interior secretary — CBS News" },
+        { "url": "https://www.npr.org/2021/03/15/977558590/deb-haaland-confirmed-as-first-native-american-interior-secretary", "title": "Deb Haaland confirmed as first Native American Interior secretary — NPR" },
+        { "url": "https://en.wikipedia.org/wiki/Deb_Haaland", "title": "Deb Haaland — Wikipedia" }
       ]
     }
   ],

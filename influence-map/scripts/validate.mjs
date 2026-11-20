@@ -251,7 +251,8 @@ export function validatePeople(records, opts = {}) {
         if (typeof l.basis !== 'string' || !l.basis.trim()) err(file, `${where}: "basis" must say what the value rests on`);
         checkSources(l.sources, where);
       });
-    } else if (researched && p.lean === undefined) {
+    } else if (researched && p.lean === undefined && p.org_chart_only !== true) {
+      // Lean only places people on the main map, so org-chart-only officials don't need one.
       warn(file, 'No "lean"; on the main map the person is placed left–right by their links only');
     }
 
@@ -529,8 +530,10 @@ export function validatePeople(records, opts = {}) {
         const existing = byNameSlug.get(slugify(c.name ?? ''));
         if (existing && existing !== slug)
           err(file, `${where}: slug "${c.slug}" has no file, but ${bySlug.get(existing)?.file ?? `${existing}.json`} is this one — use slug "${existing}"`);
-        if (c.relationship_type === 'family' || c.relationship_type === 'friend')
-          warn(file, `${where}: ${c.relationship_type} link to someone without a file — confirm they are a public figure`);
+        // Once someone has checked that the relative or friend is a public figure in their own
+        // right, the link carries "public_figure_confirmed": true and the reminder stops.
+        if ((c.relationship_type === 'family' || c.relationship_type === 'friend') && c.public_figure_confirmed !== true)
+          warn(file, `${where}: ${c.relationship_type} link to someone without a file — confirm they are a public figure, then mark the link "public_figure_confirmed": true`);
         return;
       }
 

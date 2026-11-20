@@ -85,5 +85,16 @@
       { "url": "https://www.cnbc.com/video/2026/05/11/watch-cnbcs-full-interview-with-white-house-national-economic-council-director-kevin-hassett.html", "title": "CNBC interview with National Economic Council Director Kevin Hassett (May 11, 2026)" }
     ]
   },
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican economist: chaired Trump's Council of Economic Advisers and directs his National Economic Council.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Hassett", "title": "Kevin Hassett — Wikipedia" }
+      ]
+    }
+  ]
 }

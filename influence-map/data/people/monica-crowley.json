@@ -79,5 +79,16 @@
     ]
   },
   "notes": "Checked against State Department pages via searches restricted to state.gov (the June 15, 2026 organization chart, bureau pages and September 2026 public schedules).",
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican: conservative commentator and Trump administration official in both terms.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Monica_Crowley", "title": "Monica Crowley — Wikipedia" }
+      ]
+    }
+  ]
 }

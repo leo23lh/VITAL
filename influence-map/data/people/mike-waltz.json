@@ -174,5 +174,16 @@
       { "url": "https://www.senate.gov/pagelayout/legislative/one_item_and_teasers/nom_confc.htm", "title": "Nominations confirmed (civilian) — U.S. Senate" }
     ]
   },
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican congressman from Florida (2019–2025), then Trump's national security adviser and UN ambassador.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Mike_Waltz", "title": "Mike Waltz — Wikipedia" }
+      ]
+    }
+  ]
 }

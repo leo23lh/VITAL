@@ -106,5 +106,16 @@
       { "url": "https://www.washingtonexaminer.com/news/white-house/4680559/trump-will-scharf-replace-david-warrington-white-house-counsel/", "title": "Will Scharf will replace David Warrington as White House counsel in September — Washington Examiner" }
     ]
   },
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican: ran for Missouri attorney general as a Republican in 2024; Trump's lawyer and White House staff secretary.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Will_Scharf", "title": "Will Scharf — Wikipedia" }
+      ]
+    }
+  ]
 }

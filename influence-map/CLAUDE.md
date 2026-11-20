@@ -56,7 +56,9 @@ These apply to every command and every edit to `data/people/` and `data/orgs/`. 
    health information, or details about private relatives or minors. `family`
    connections are allowed only when the relationship is publicly documented and
    the relative is a public figure in their own right; the same goes for
-   `friend` connections. Never name children.
+   `friend` connections. Never name children. When the relative or friend has
+   no file, the validator asks you to confirm they are a public figure; once
+   checked, mark the link `"public_figure_confirmed": true`.
    **One exception:** the map's owner may add themselves. Their file has
    `"public_figure": false` and `"self_added": true`, holds only what they
    provide (sources `["user-provided"]`), gets no web research and no photo, and
@@ -248,6 +250,8 @@ comes from `lean`:
   supports, say so in `basis`, and add a `source_conflicts` entry.
 - Leave `lean` out when there is no public political record. The person is then
   placed left–right only by their links. No lean for `"public_figure": false`.
+  The validator reminds you of a missing lean only for people on the main web
+  (not `org_chart_only` officials, whose lean places nothing).
 - Links also pull people together: the closer the relationship (family,
   co-founder, mentor, employer, friend, then donor and ally, then colleague), and the
   higher its confidence, the harder it pulls. Rivals barely pull.

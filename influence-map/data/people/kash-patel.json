@@ -99,5 +99,16 @@
       { "url": "https://www.liberty.edu/news/2026/10/14/fbi-director-kash-patel-engages-with-liberty-university-students-during-law-enforcement-roundtable/", "title": "FBI Director Kash Patel engages with Liberty University students — Liberty University (October 14, 2026)" }
     ]
   },
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican: former House Intelligence Committee aide under Devin Nunes and Trump's FBI director.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kash_Patel", "title": "Kash Patel — Wikipedia" }
+      ]
+    }
+  ]
 }

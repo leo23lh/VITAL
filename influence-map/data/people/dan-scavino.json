@@ -110,5 +110,17 @@
       { "url": "https://www.npr.org/2026/11/06/nx-s1-6032795/stephen-miller-replace-susie-wiles-trumps-chief-of-staff", "title": "Stephen Miller replaces Susie Wiles as Trump’s chief of staff — NPR" }
     ]
   },
-  "last_researched": "2026-11-08"
+  "last_researched": "2026-11-08",
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Trump campaign and White House aide since 2016, running his social media; deputy chief of staff since 2025.",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/politics/trump-appoints-4-campaign-advisers-to-new-white-house-positions", "title": "Trump appoints 4 campaign advisers to new White House positions — PBS NewsHour (AP)" },
+        { "url": "https://en.wikipedia.org/wiki/Dan_Scavino", "title": "Dan Scavino — Wikipedia" }
+      ]
+    }
+  ]
 }
