@@ -1,0 +1,60 @@
+{
+  "name": "S. Paul Kapur",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "photo": {
+    "file": "paul-kapur.jpg",
+    "credit": "United States Department of State",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Assistant_Secretary_of_State_for_South_and_Central_Asian_Affairs_Samir_Paul_Kapur.jpg", "title": "File:Assistant Secretary of State for South and Central Asian Affairs Samir Paul Kapur.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Assistant Secretary for South and Central Asian Affairs",
+  "summary": "S. Paul Kapur leads the State Department’s Bureau of South and Central Asian Affairs, which reports to the under secretary for political affairs; State’s September 2026 schedules list Kapur in the post.",
+  "sources": [
+    { "url": "https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-south-and-central-asian-affairs/", "title": "Bureau of South and Central Asian Affairs — U.S. Department of State" },
+    { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Assistant Secretary for South and Central Asian Affairs",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-south-and-central-asian-affairs/", "title": "Bureau of South and Central Asian Affairs — U.S. Department of State" },
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Allison Hooker",
+      "slug": "allison-hooker",
+      "relationship_type": "employer",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-south-and-central-asian-affairs/", "title": "Bureau of South and Central Asian Affairs — U.S. Department of State" },
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary for South and Central Asian Affairs",
+    "unit": "state",
+    "rank": 4,
+    "reports_to": "allison-hooker",
+    "sources": [
+      { "url": "https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-south-and-central-asian-affairs/", "title": "Bureau of South and Central Asian Affairs — U.S. Department of State" },
+      { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" }
+    ]
+  },
+  "notes": "Checked against State Department pages via searches restricted to state.gov (the June 15, 2026 organization chart, bureau pages and September 2026 public schedules).",
+  "last_researched": "2026-11-08"
+}

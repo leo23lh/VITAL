@@ -1,0 +1,127 @@
+{
+  "name": "Jon Ossoff",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "basis": "Democratic U.S. senator since 2021; re-elected in 2026 on lowering costs and protecting health coverage.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jon_Ossoff", "title": "Jon Ossoff — Wikipedia" },
+        { "url": "https://www.opb.org/article/2026/11/03/georgia-sen-jon-ossoff-wins-reelection-defeating-rep-mike-collins-to-hold-a-key-democratic-seat/", "title": "Georgia Sen. Jon Ossoff wins reelection, defeating Rep. Mike Collins — AP via OPB" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "After his 2026 re-election, prediction markets made him a favorite for the Democratic nomination (Polymarket about 24%) and a national polling average put him fifth at 10.8%; he has said repeatedly that he is not running in 2028 and will serve his full term.",
+    "sources": [
+      { "url": "https://www.yahoo.com/news/politics/articles/2028-presidential-contenders-democrats-republicans-212030114.html", "title": "2028 presidential contenders after the midterm election results — Yahoo News" },
+      { "url": "https://dnyuz.com/2026/11/04/meet-the-democratic-rising-stars-who-could-shape-2028/", "title": "Meet the Democratic rising stars who could shape 2028 — Time, via DNyuz" },
+      { "url": "https://www2.thedailybeast.com/jon-ossoff-emerges-as-new-2028-presidential-favorite", "title": "Rising star Dem emerges as 2028 presidential favorite — Daily Beast" },
+      { "url": "https://www.opb.org/article/2026/11/03/georgia-sen-jon-ossoff-wins-reelection-defeating-rep-mike-collins-to-hold-a-key-democratic-seat/", "title": "Georgia Sen. Jon Ossoff wins reelection, defeating Rep. Mike Collins — AP via OPB" }
+    ]
+  },
+  "photo": {
+    "file": "jon-ossoff.jpg",
+    "credit": "U.S. Senate Photographic Studio",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Jon_Ossoff_Senate_Portrait_2021.jpg", "title": "File:Jon Ossoff Senate Portrait 2021.jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. senator from Georgia (since 2021; re-elected November 2026)",
+  "summary": "Jon Ossoff (born 1987), a former documentary filmmaker and investigative journalist, won Georgia's 2021 Senate runoff to become the first millennial senator. He won re-election in November 2026 over Republican Rep. Mike Collins despite a record $44 million Senate Leadership Fund effort against him, and clips of his speeches made him a national Democratic favorite for 2028, though he says he will not run.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Jon_Ossoff", "title": "Jon Ossoff — Wikipedia" },
+    { "url": "https://www.opb.org/article/2026/11/03/georgia-sen-jon-ossoff-wins-reelection-defeating-rep-mike-collins-to-hold-a-key-democratic-seat/", "title": "Georgia Sen. Jon Ossoff wins reelection, defeating Rep. Mike Collins — AP via OPB" },
+    { "url": "https://www.ajc.com/politics/2026/04/gop-super-pac-commits-record-44m-to-oust-ossoff-in-georgia", "title": "GOP super PAC commits record $44M to oust Ossoff in Georgia — Atlanta Journal-Constitution" },
+    { "url": "https://www2.thedailybeast.com/jon-ossoff-emerges-as-new-2028-presidential-favorite", "title": "Rising star Dem emerges as 2028 presidential favorite — Daily Beast" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2017,
+      "role": "Democratic nominee in the special election for Georgia's 6th congressional district (lost)",
+      "org": "U.S. House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jon_Ossoff", "title": "Jon Ossoff — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": null,
+      "role": "U.S. senator from Georgia",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jon_Ossoff", "title": "Jon Ossoff — Wikipedia" },
+        { "url": "https://www.opb.org/article/2026/11/03/georgia-sen-jon-ossoff-wins-reelection-defeating-rep-mike-collins-to-hold-a-key-democratic-seat/", "title": "Georgia Sen. Jon Ossoff wins reelection, defeating Rep. Mike Collins — AP via OPB" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Senate Leadership Fund",
+      "slug": "senate-leadership-fund",
+      "relationship_type": "enemy",
+      "description": "The Senate Leadership Fund committed a record $44 million to defeat Ossoff in 2026; he won re-election.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.ajc.com/politics/2026/04/gop-super-pac-commits-record-44m-to-oust-ossoff-in-georgia", "title": "GOP super PAC commits record $44M to oust Ossoff in Georgia — Atlanta Journal-Constitution" },
+        { "url": "https://www.opb.org/article/2026/11/03/georgia-sen-jon-ossoff-wins-reelection-defeating-rep-mike-collins-to-hold-a-key-democratic-seat/", "title": "Georgia Sen. Jon Ossoff wins reelection, defeating Rep. Mike Collins — AP via OPB" }
+      ]
+    },
+    {
+      "name": "Senate Majority PAC",
+      "slug": "senate-majority-pac",
+      "relationship_type": "donor",
+      "description": "Senate Majority PAC reserved $20 million of TV time in Georgia, then scaled back its ads in the fall as Republican spending slowed.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.newsfromthestates.com/article/top-democratic-us-senate-pac-commits-9-states-eyes-more-republican-targets", "title": "Top Democratic US Senate PAC commits to 9 states — States Newsroom" },
+        { "url": "https://bizpacreview.com/2026/10/14/democrats-ramp-up-spending-in-two-states-after-pulling-money-from-georgia-north-carolina-1663330", "title": "Democrats ramp up spending in two states after pulling money from Georgia, North Carolina — BizPac Review" }
+      ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "donor",
+      "description": "FEC filings show $13,600 from George Soros to Jon Ossoff for Congress, Jon Ossoff for Senate in 3 cycles (2018–2026).",
+      "start_year": 2017,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00630426&two_year_transaction_period=2026", "title": "FEC receipts: SOROS, GEORGE to Jon Ossoff for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+GEORGE&committee_id=C00718866&two_year_transaction_period=2026", "title": "FEC receipts: SOROS, GEORGE to Jon Ossoff for Senate" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "donor",
+      "description": "FEC filings show $10,864 from Reid Hoffman to Jon Ossoff for Senate in 2 cycles (2020–2026).",
+      "start_year": 2020,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOFFMAN%2C+REID&committee_id=C00718866&two_year_transaction_period=2026", "title": "FEC receipts: HOFFMAN, REID to Jon Ossoff for Senate" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where Wikipedia was rate-limiting and most news pages could not be opened; Wikipedia facts were confirmed with web searches restricted to en.wikipedia.org, and news facts with searches tied to each cited URL.",
+  "last_researched": "2026-11-08",
+  "office": {
+    "title": "Senator (D-GA)",
+    "unit": "senate",
+    "rank": 4,
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Jon_Ossoff", "title": "Jon Ossoff — Wikipedia" },
+      { "url": "https://www.opb.org/article/2026/11/03/georgia-sen-jon-ossoff-wins-reelection-defeating-rep-mike-collins-to-hold-a-key-democratic-seat/", "title": "Georgia Sen. Jon Ossoff wins reelection, defeating Rep. Mike Collins — AP via OPB" }
+    ]
+  }
+}

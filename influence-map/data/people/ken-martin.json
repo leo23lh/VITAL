@@ -1,0 +1,106 @@
+{
+  "name": "Ken Martin",
+  "aliases": ["Kenneth Nathan Martin"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Chair of the Minnesota DFL (2011–2025) and of the Democratic National Committee since 2025.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ken_Martin_(politician)", "title": "Ken Martin (politician) — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "Chair of the Democratic National Committee (since February 2025)",
+  "summary": "Ken Martin has chaired the Democratic National Committee since February 1, 2025, when he won the first ballot with about 246 votes to Ben Wikler's 134 after the party's 2024 defeat. He previously led Minnesota's Democratic–Farmer–Labor Party for 14 years, was a DNC vice chair and president of the Association of State Democratic Committees.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Ken_Martin_(politician)", "title": "Ken Martin (politician) — Wikipedia" },
+    { "url": "https://www.npr.org/2025/02/01/g-s1-45886/democrats-dnc-chair-elections", "title": "The Democratic Party votes for new leadership, choosing Minnesota's Ken Martin as chair — NPR" }
+  ],
+  "timeline": [
+    {
+      "year": 2011,
+      "end_year": 2025,
+      "role": "Chair",
+      "org": "Minnesota Democratic–Farmer–Labor Party",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ken_Martin_(politician)", "title": "Ken Martin (politician) — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": 2025,
+      "role": "Vice chair; president of the Association of State Democratic Committees",
+      "org": "Democratic National Committee",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ken_Martin_(politician)", "title": "Ken Martin (politician) — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Chair",
+      "org": "Democratic National Committee",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ken_Martin_(politician)", "title": "Ken Martin (politician) — Wikipedia" },
+        { "url": "https://www.npr.org/2025/02/01/g-s1-45886/democrats-dnc-chair-elections", "title": "The Democratic Party votes for new leadership, choosing Minnesota's Ken Martin as chair — NPR" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Gretchen Whitmer",
+      "slug": "gretchen-whitmer",
+      "relationship_type": "colleague",
+      "description": "Both served as vice chairs of the Democratic National Committee from 2021 until Martin became chair in 2025.",
+      "start_year": 2021,
+      "end_year": 2025,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ken_Martin_(politician)", "title": "Ken Martin (politician) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Tim Walz",
+      "slug": "tim-walz",
+      "relationship_type": "colleague",
+      "description": "Martin chaired the Minnesota DFL when Walz was re-elected to Congress and elected governor in 2018 and 2022; based on overlapping roles, with no direct evidence of their working relationship in the sources.",
+      "start_year": 2011,
+      "end_year": 2025,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ken_Martin_(politician)", "title": "Ken Martin (politician) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ben Wikler",
+      "slug": "ben-wikler",
+      "relationship_type": "rival",
+      "description": "Martin beat the Wisconsin party chair Wikler, who had broader backing from donors and congressional leaders, for DNC chair on February 1, 2025.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.npr.org/2025/02/01/g-s1-45886/democrats-dnc-chair-elections", "title": "The Democratic Party votes for new leadership, choosing Minnesota's Ken Martin as chair — NPR" }
+      ]
+    },
+    {
+      "name": "Martin O'Malley",
+      "slug": "martin-omalley",
+      "relationship_type": "rival",
+      "description": "Former Maryland governor O'Malley also ran for DNC chair in 2025 and finished third.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.npr.org/2025/02/01/g-s1-45886/democrats-dnc-chair-elections", "title": "The Democratic Party votes for new leadership, choosing Minnesota's Ken Martin as chair — NPR" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Vote totals differ slightly between reports (246 or 246.5 for Martin).",
+  "last_researched": "2026-11-19"
+}

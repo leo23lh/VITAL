@@ -1,0 +1,71 @@
+{
+  "name": "Amanda Wood Laihow",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "photo": {
+    "file": "amanda-wood-laihow.webp",
+    "credit": "White House",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Amanda-laihow.webp", "title": "File:Amanda-laihow.webp — Wikimedia Commons" }
+  },
+  "current_role": "Deputy Assistant Secretary of Labor for Occupational Safety and Health (since February 2025)",
+  "summary": "Amanda Wood Laihow is OSHA’s political deputy assistant secretary. She ran the agency as acting assistant secretary from March to October 2025, until David Keeling took office, and was still speaking for it as deputy in February 2026.",
+  "sources": [
+    { "url": "https://osha.gov/aboutosha/biography/laihow", "title": "Amanda Wood Laihow — OSHA" },
+    { "url": "https://www.osha.gov/quicktakes/022726", "title": "OSHA QuickTakes, February 27, 2026" },
+    { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": 2025,
+      "role": "Acting Assistant Secretary for Occupational Safety and Health",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://osha.gov/aboutosha/biography/laihow", "title": "Amanda Wood Laihow — OSHA" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Deputy Assistant Secretary for Occupational Safety and Health",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://osha.gov/aboutosha/biography/laihow", "title": "Amanda Wood Laihow — OSHA" },
+        { "url": "https://www.osha.gov/quicktakes/022726", "title": "OSHA QuickTakes, February 27, 2026" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "David Keeling",
+      "slug": "david-keeling",
+      "relationship_type": "employer",
+      "description": "Ran OSHA as acting head until Keeling arrived in fall 2025, then became his deputy.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://osha.gov/aboutosha/biography/laihow", "title": "Amanda Wood Laihow — OSHA" },
+        { "url": "https://www.osha.gov/quicktakes/022726", "title": "OSHA QuickTakes, February 27, 2026" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Assistant Secretary, OSHA",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "david-keeling",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://osha.gov/aboutosha/biography/laihow", "title": "Amanda Wood Laihow — OSHA" },
+      { "url": "https://www.osha.gov/quicktakes/022726", "title": "OSHA QuickTakes, February 27, 2026" }
+    ]
+  },
+  "notes": "dol.gov pages could not be opened from this session (the site blocks automated readers); facts were confirmed with searches restricted to dol.gov and the cited outlets.",
+  "last_researched": "2026-11-08"
+}

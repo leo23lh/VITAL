@@ -1,0 +1,477 @@
+{
+  "name": "Tom Steyer",
+  "aliases": ["Thomas Fahr Steyer"],
+  "public_figure": true,
+  "sector": "business",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "One of the largest Democratic donors (NextGen America), a 2020 Democratic presidential candidate and a 2026 Democratic candidate for governor of California.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "tom-steyer.jpg",
+    "credit": "Gage Skidmore from Surprise, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Tom_Steyer_February_2019.jpg", "title": "File:Tom Steyer February 2019.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Founder of NextGen America and Galvanize Climate Solutions; finished third in California's June 2026 governor primary",
+  "summary": "Tom Steyer founded the hedge fund Farallon Capital and, after leaving it in 2012, became one of the largest Democratic donors, funding climate causes, the NextGen America PAC and a roughly $10 million 2017 ad campaign calling for Trump's impeachment. He ran for president in 2020 and for governor of California in 2026, spending heavily but missing the November runoff after finishing behind Xavier Becerra and Steve Hilton in the June 2 primary.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" },
+    { "url": "https://localnewsmatters.org/2026/06/03/five-takeaways-from-californias-primary-election-from-governors-race-to-congress/", "title": "Five takeaways from California's primary election — Local News Matters" }
+  ],
+  "timeline": [
+    {
+      "year": 1986,
+      "end_year": 2012,
+      "role": "Founder and co-senior managing partner",
+      "org": "Farallon Capital",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": null,
+      "role": "Founder",
+      "org": "NextGen America",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2020,
+      "role": "Candidate for the Democratic presidential nomination (withdrew after South Carolina)",
+      "org": "Tom Steyer 2020",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Candidate for governor of California; eliminated in the June 2, 2026 primary",
+      "org": "Steyer for Governor",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" },
+        { "url": "https://localnewsmatters.org/2026/06/03/five-takeaways-from-californias-primary-election-from-governors-race-to-congress/", "title": "Five takeaways from California's primary election — Local News Matters" },
+        { "url": "https://www.inquirer.com/politics/nation/california-governor-primary-election-results-20260603.html", "title": "California governor primary election results — The Philadelphia Inquirer (AP)" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "In October 2017 Steyer spent about $10 million on television ads, plus digital ads, calling for Trump's impeachment (the Need to Impeach campaign).",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "funded_by",
+      "description": "After backing Hillary Clinton early in 2008, Steyer became one of Obama's most prolific fundraisers.",
+      "start_year": 2008,
+      "end_year": 2012,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "funded_by",
+      "description": "Steyer hosted a 2023 fundraiser for Biden's re-election at his San Francisco home.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "rival",
+      "description": "Rivals in the 2020 Democratic primaries; Steyer's campaign ran ads against Sanders's Medicare for All plan.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Gavin Newsom",
+      "slug": "gavin-newsom",
+      "relationship_type": "ally",
+      "description": "Newsom picked Steyer in April 2020 to chair California's economic recovery task force; Steyer later ran to succeed him.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Michael Bloomberg",
+      "slug": "michael-bloomberg",
+      "relationship_type": "ally",
+      "description": "Steyer, Bloomberg and Henry Paulson launched the Risky Business climate-risk initiative in 2014; they were later rival self-funding billionaires in the 2020 primaries.",
+      "start_year": 2014,
+      "end_year": 2020,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "funded_by",
+      "description": "Steyer was an early supporter of Clinton's 2008 campaign.",
+      "start_year": 2007,
+      "end_year": 2008,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Xavier Becerra",
+      "slug": "xavier-becerra",
+      "relationship_type": "rival",
+      "description": "Becerra finished ahead of Steyer in California's June 2026 governor primary and advanced to the November runoff.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://localnewsmatters.org/2026/06/03/five-takeaways-from-californias-primary-election-from-governors-race-to-congress/", "title": "Five takeaways from California's primary election — Local News Matters" },
+        { "url": "https://www.inquirer.com/politics/nation/california-governor-primary-election-results-20260603.html", "title": "California governor primary election results — The Philadelphia Inquirer (AP)" }
+      ]
+    },
+    {
+      "name": "House Majority PAC",
+      "slug": "house-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $2,000,000 from Tom Steyer to HMP in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00495028&two_year_transaction_period=2024", "title": "FEC receipts: STEYER, TOM to HMP" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. His FEC giving can be added by the FEC import.",
+  "last_researched": "2026-11-19",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 120000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&two_year_transaction_period=2026", "title": "FEC itemized receipts: STEYER, TOM, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Tom Steyer PAC",
+            "kind": "super-pac",
+            "amount_usd": 85000,
+            "fec_usd": 85000,
+            "fec_ids": ["C00745869"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00745869&two_year_transaction_period=2026", "title": "FEC receipts: STEYER, TOM to Tom Steyer PAC, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 4235432,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&two_year_transaction_period=2024", "title": "FEC itemized receipts: STEYER, TOM, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "House Majority PAC",
+            "org": "house-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 2000000,
+            "fec_usd": 2000000,
+            "fec_ids": ["C00495028"],
+            "description": "Per FEC filings: HMP $2,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00495028&two_year_transaction_period=2024", "title": "FEC receipts: STEYER, TOM to HMP, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Harris Action Fund",
+            "kind": "pac",
+            "amount_usd": 832366,
+            "fec_usd": 832366,
+            "fec_ids": ["C00838912"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00838912&two_year_transaction_period=2024", "title": "FEC receipts: STEYER, TOM to Harris Action Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 825766,
+            "fec_usd": 825766,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00010603&two_year_transaction_period=2024", "title": "FEC receipts: STEYER, TOM to DNC Services Corp / Democratic National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Jane Fonda Climate PAC",
+            "kind": "super-pac",
+            "amount_usd": 260000,
+            "fec_usd": 260000,
+            "fec_ids": ["C00806893"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00806893&two_year_transaction_period=2024", "title": "FEC receipts: STEYER, TOM to Jane Fonda Climate PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Tom Steyer PAC",
+            "kind": "super-pac",
+            "amount_usd": 70000,
+            "fec_usd": 70000,
+            "fec_ids": ["C00745869"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00745869&two_year_transaction_period=2024", "title": "FEC receipts: STEYER, TOM to Tom Steyer PAC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Hakeem Jeffries",
+            "slug": "hakeem-jeffries",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 3300,
+            "fec_usd": 3300,
+            "fec_ids": ["C00503052"],
+            "description": "Per FEC filings: Jeffries for Congress $3,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00503052&two_year_transaction_period=2024", "title": "FEC receipts: STEYER, TOM to Jeffries for Congress, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 2348667,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&two_year_transaction_period=2022", "title": "FEC itemized receipts: STEYER, TOM, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Tom Steyer PAC",
+            "kind": "super-pac",
+            "amount_usd": 2299767,
+            "fec_usd": 2299767,
+            "fec_ids": ["C00745869"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00745869&two_year_transaction_period=2022", "title": "FEC receipts: STEYER, TOM to Tom Steyer PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Chuck Schumer",
+            "slug": "chuck-schumer",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 5800,
+            "fec_usd": 5800,
+            "fec_ids": ["C00346312"],
+            "description": "Per FEC filings: Friends of Schumer $5,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00346312&two_year_transaction_period=2022", "title": "FEC receipts: STEYER, TOM to Friends of Schumer, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 7690396,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&two_year_transaction_period=2020", "title": "FEC itemized receipts: STEYER, TOM, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Tom Steyer PAC",
+            "kind": "super-pac",
+            "amount_usd": 6111853,
+            "fec_usd": 6111853,
+            "fec_ids": ["C00745869"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00745869&two_year_transaction_period=2020", "title": "FEC receipts: STEYER, TOM to Tom Steyer PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Biden Action Fund",
+            "kind": "pac",
+            "amount_usd": 355000,
+            "fec_usd": 355000,
+            "fec_ids": ["C00746651"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00746651&two_year_transaction_period=2020", "title": "FEC receipts: STEYER, TOM to Biden Action Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp / Democratic National Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 355000,
+            "fec_usd": 355000,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00010603&two_year_transaction_period=2020", "title": "FEC receipts: STEYER, TOM to DNC Services Corp / Democratic National Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Biden Victory Fund",
+            "kind": "pac",
+            "amount_usd": 340000,
+            "fec_usd": 340000,
+            "fec_ids": ["C00744946"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00744946&two_year_transaction_period=2020", "title": "FEC receipts: STEYER, TOM to Biden Victory Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Democracy Engine, Inc., PAC",
+            "kind": "pac",
+            "amount_usd": 75000,
+            "fec_usd": 75000,
+            "fec_ids": ["C00468314"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00468314&two_year_transaction_period=2020", "title": "FEC receipts: STEYER, TOM to Democracy Engine, Inc., PAC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Jon Ossoff",
+            "slug": "jon-ossoff",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00718866"],
+            "description": "Per FEC filings: Jon Ossoff for Senate $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00718866&two_year_transaction_period=2020", "title": "FEC receipts: STEYER, TOM to Jon Ossoff for Senate, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Kamala Harris",
+            "slug": "kamala-harris",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00694455"],
+            "description": "Per FEC filings: Kamala Harris for the People $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00694455&two_year_transaction_period=2020", "title": "FEC receipts: STEYER, TOM to Kamala Harris for the People, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 358400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&two_year_transaction_period=2018", "title": "FEC itemized receipts: STEYER, TOM, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Young Democrats of America Political Action Committee",
+            "kind": "super-pac",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00515064"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00515064&two_year_transaction_period=2018", "title": "FEC receipts: STEYER, TOM to Young Democrats of America Political Action Committee, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Alexandria Ocasio-Cortez",
+            "slug": "alexandria-ocasio-cortez",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00639591"],
+            "description": "Per FEC filings: Alexandria Ocasio-Cortez for Congress $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00639591&two_year_transaction_period=2018", "title": "FEC receipts: STEYER, TOM to Alexandria Ocasio-Cortez for Congress, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 266093,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&two_year_transaction_period=2016", "title": "FEC itemized receipts: STEYER, TOM, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Latino Victory Fund",
+            "kind": "super-pac",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00562777"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=STEYER%2C+TOM&committee_id=C00562777&two_year_transaction_period=2016", "title": "FEC receipts: STEYER, TOM to Latino Victory Fund, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No 2028 plans reported. He spent more than $200 million of his own money on California's 2026 governor race and finished third in the June primary. In 2020 and 2024 he gave to the Democratic nominee's joint committees and the DNC.",
+      "sources": [
+        { "url": "https://www.foxnews.com/politics/billionare-tom-steyer-ends-california-governor-campaign-falling-short-jungle-primary", "title": "Billionaire Tom Steyer ends California governor campaign after falling short in primary — Fox News" },
+        { "url": "https://semafor.com/article/06/10/2026/why-democrats-rejected-class-traitor-steyer-in-california", "title": "Why Democrats rejected 'class traitor' Steyer in California — Semafor" }
+      ],
+      "likely": [
+        {
+          "name": "The Democratic presidential nominee (joint fundraising committees and the DNC)",
+          "kind": "party",
+          "side": "D",
+          "basis": "Pattern: Biden Action Fund and the DNC in 2020, Harris Action Fund and the DNC in 2024 (FEC filings).",
+          "confidence": 0.6,
+          "sources": [
+            { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=Steyer%2C+Thomas&contributor_employer=Fahr", "title": "Individual contributions from Thomas Steyer — FEC" }
+          ]
+        }
+      ]
+    }
+  }
+}

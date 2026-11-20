@@ -1,0 +1,191 @@
+{
+  "name": "Scott Bessent",
+  "aliases": ["Scott Kenneth Homer Bessent"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": 2023,
+      "basis": "Hosted a 2000 fundraiser for Al Gore and was described at the time as a Democrat who supported liberal causes.",
+      "sources": [
+        { "url": "https://www.nytimes.com/2000/08/06/us/2000-campaign-vice-president-gore-s-theme-day-tour-will-start-with-no-2-pick.html", "title": "New York Times, August 6, 2000" },
+        { "url": "https://www.newsweek.com/scott-bessents-ties-barack-obama-hillary-clinton-explained-1990585", "title": "Newsweek: Scott Bessent's ties to Obama and Clinton explained" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2024,
+      "end_year": null,
+      "basis": "Economic adviser, fundraiser and donor for Trump's 2024 campaign; Republican treasury secretary since 2025.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Scott_Bessent", "title": "Wikipedia: Scott Bessent" },
+        { "url": "https://www.npr.org/2024/11/22/nx-s1-5189652/trump-scott-bessent-treasury-secretary-cabinet-pick", "title": "NPR: Trump nominates Wall Street investor Scott Bessent as treasury secretary" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "scott-bessent.jpg",
+    "credit": "U.S. Department of the Treasury",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Treasury_Secretary_Scott_Bessent_(borderless)_(cropped).jpg", "title": "File:Official portrait of Treasury Secretary Scott Bessent (borderless) (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. Secretary of the Treasury (since January 2025)",
+  "summary": "Scott Bessent spent most of 1991–2015 at George Soros's Soros Fund Management, latterly as chief investment officer, then founded the hedge fund Key Square Group with a $2 billion anchor investment from Soros. An economic adviser and fundraiser for Trump's 2024 campaign, he beat Howard Lutnick for the Treasury nomination and was confirmed 68–29 in January 2025; he has also served as acting IRS commissioner.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Scott_Bessent", "title": "Wikipedia: Scott Bessent" },
+    { "url": "https://www.npr.org/2024/11/22/nx-s1-5189652/trump-scott-bessent-treasury-secretary-cabinet-pick", "title": "NPR: Trump nominates Wall Street investor Scott Bessent as treasury secretary" },
+    { "url": "https://www.usatoday.com/story/news/politics/2025/01/27/senate-confirms-trump-treasury-secretary-scott-bessent/77967067007/", "title": "USA Today: Senate confirms Scott Bessent" }
+  ],
+  "timeline": [
+    {
+      "year": 1991,
+      "end_year": 2015,
+      "role": "Joined Soros Fund Management; head of its London office, later chief investment officer (2011–2015)",
+      "org": "Soros Fund Management",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Scott_Bessent", "title": "Wikipedia: Scott Bessent" },
+        { "url": "https://www.forbes.com/sites/johnhyatt/2024/11/23/the-inside-story-of-scott-bessents-ascent-to-possible-treasury-secretary-nominee/", "title": "Forbes: The inside story of Scott Bessent's ascent" }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": 2024,
+      "role": "Founder and CEO (Soros provided a $2 billion anchor investment, returned in 2018)",
+      "org": "Key Square Group",
+      "sources": [
+        { "url": "https://www.reuters.com/article/business/soros-cio-to-start-own-hedge-fund-with-2-billion-idUSKCN0Q91Z1/", "title": "Reuters: Soros CIO to start own hedge fund with $2 billion" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Secretary of the Treasury (confirmed 68–29 on January 27, 2025)",
+      "org": "U.S. Department of the Treasury",
+      "sources": [
+        { "url": "https://www.usatoday.com/story/news/politics/2025/01/27/senate-confirms-trump-treasury-secretary-scott-bessent/77967067007/", "title": "USA Today: Senate confirms Scott Bessent" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Acting Commissioner of Internal Revenue (August 2025 – March 2026)",
+      "org": "Internal Revenue Service",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Scott_Bessent", "title": "Wikipedia: Scott Bessent" },
+        { "url": "https://www.nytimes.com/2025/08/08/us/politics/trump-billy-long-irs-commissioner.html", "title": "New York Times: Trump removes Billy Long as IRS commissioner" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump nominated Bessent, a 2024 campaign economic adviser and fundraiser, as treasury secretary in November 2024; he has served since January 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.npr.org/2024/11/22/nx-s1-5189652/trump-scott-bessent-treasury-secretary-cabinet-pick", "title": "NPR: Trump nominates Wall Street investor Scott Bessent as treasury secretary" },
+        { "url": "https://www.usatoday.com/story/news/politics/2025/01/27/senate-confirms-trump-treasury-secretary-scott-bessent/77967067007/", "title": "USA Today: Senate confirms Scott Bessent" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "rival",
+      "description": "Musk called Bessent the \"business-as-usual\" Treasury pick and backed Lutnick in November 2024; in April 2025 the two had a West Wing shouting match over who should run the IRS, which Bessent won.",
+      "start_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2024/11/16/elon-musk-cantor-fitzgerald-howard-lutnick-treasury-secretary-bitcoin-scott-bessent-trump-cabinet/", "title": "Fortune: Musk backs Lutnick over Bessent for Treasury" },
+        { "url": "https://www.axios.com/2025/04/23/musk-bessent-trump-white-house-irs", "title": "Axios: Musk vs. Bessent dispute erupted into West Wing shouting match" }
+      ]
+    },
+    {
+      "name": "Howard Lutnick",
+      "slug": "howard-lutnick",
+      "relationship_type": "rival",
+      "description": "Lutnick campaigned openly against Bessent for the Treasury nomination in November 2024, with Musk's backing; Trump chose Bessent. As cabinet colleagues the two were later credited with persuading Trump to pause tariffs in April 2025.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://fortune.com/2024/11/16/elon-musk-cantor-fitzgerald-howard-lutnick-treasury-secretary-bitcoin-scott-bessent-trump-cabinet/", "title": "Fortune: Musk backs Lutnick over Bessent for Treasury" },
+        { "url": "https://www.foxbusiness.com/politics/how-howard-lutnick-lost-his-epic-battle-trumps-treasury-lot-more", "title": "Fox Business: How Howard Lutnick lost his battle for Treasury" },
+        { "url": "https://www.wsj.com/politics/policy/trump-tariff-pause-navarro-bessent-lutnick-b9e864fb", "title": "WSJ: How Bessent and Lutnick won the tariff pause" }
+      ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "employer",
+      "description": "Bessent worked for Soros Fund Management from 1991 to 2015 (with a break), finishing as chief investment officer; Soros then anchored his Key Square fund.",
+      "start_year": 1991,
+      "end_year": 2015,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Scott_Bessent", "title": "Wikipedia: Scott Bessent" },
+        { "url": "https://www.reuters.com/article/business/soros-cio-to-start-own-hedge-fund-with-2-billion-idUSKCN0Q91Z1/", "title": "Reuters: Soros CIO to start own hedge fund" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "colleague",
+      "description": "Fellow member of Trump’s cabinet-level national security team; both were in the March 2025 Signal group chat on the Houthi strikes, to which a journalist was accidentally added and in which Hegseth posted the attack timeline.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/meet-19-members-houthi-attacks-180815116.html", "title": "Yahoo News: Meet the 19 members of the Houthi attacks group chat" },
+        { "url": "https://ajc.com/news/white-house-inner-circle-discussed-secret-military-plans-in-extraordinary-breach/4HS5BQMHRVBRVMKZK3IY3LMK44", "title": "AJC: White House inner circle discussed secret military plans in extraordinary breach" },
+        { "url": "https://www.timesofisrael.com/us-cabinet-officials-accidentally-add-journalist-to-group-chat-share-war-plans/", "title": "Times of Israel: US cabinet officials accidentally add journalist to group chat, share war plans" }
+      ]
+    },
+    {
+      "name": "Francis Brooke",
+      "slug": "francis-brooke",
+      "relationship_type": "employee",
+      "description": "Bessent picked Brooke to perform the deputy secretary’s duties in April 2026 and sent him to lead the IMF delegation in his place that October.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://home.treasury.gov/news/press-releases/sb0479", "title": "Treasury Department announces new appointments — U.S. Department of the Treasury (April 2026)" },
+        { "url": "https://www.freemalaysiatoday.com/category/business/2026/10/10/us-treasury-chief-to-skip-imf-annual-meetings-in-bangkok", "title": "US Treasury chief to skip IMF annual meetings in Bangkok — Reuters via Free Malaysia Today" }
+      ]
+    },
+    {
+      "name": "Frank Bisignano",
+      "slug": "frank-bisignano",
+      "relationship_type": "employee",
+      "description": "Bessent made him the IRS’s first CEO in October 2025; he reports to Bessent, who stays acting commissioner.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.taxnotes.com/featured-news/bessent-taps-social-security-chief-first-ever-ceo-irs/2025/10/06/7t2mq", "title": "Bessent taps Social Security chief as first-ever CEO of IRS — Tax Notes" },
+        { "url": "https://www.taxnotes.com/featured-news/bisignano-expected-stay-helm-irs/2026/01/06/7tf5p", "title": "Bisignano expected to stay at the helm of IRS — Tax Notes (January 2026)" },
+        { "url": "https://home.treasury.gov/news/press-releases/sb0271", "title": "Treasury Department Announces Frank Bisignano as Chief Executive Officer of the IRS — U.S. Treasury" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of the Treasury",
+    "unit": "treasury",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Scott_Bessent", "title": "Wikipedia: Scott Bessent" },
+      { "url": "https://www.npr.org/2024/11/22/nx-s1-5189652/trump-scott-bessent-treasury-secretary-cabinet-pick", "title": "NPR: Trump nominates Wall Street investor Scott Bessent as treasury secretary" }
+    ]
+  }
+}

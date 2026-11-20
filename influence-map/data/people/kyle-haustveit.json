@@ -1,0 +1,90 @@
+{
+  "name": "Kyle Haustveit",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Under Secretary of Energy (since May 2026)",
+  "summary": "Kyle Haustveit, a petroleum engineer, was confirmed by the Senate on May 18, 2026, and sworn in as under secretary of energy on May 22, overseeing the department’s energy and infrastructure offices. He had run its fossil energy office (renamed Hydrocarbons and Geothermal Energy) as assistant secretary from September 2025.",
+  "sources": [
+    { "url": "https://www.energy.gov/person/kyle-haustveit", "title": "Kyle Haustveit — U.S. Department of Energy" },
+    { "url": "https://jpt.spe.org/kyle-haustveit-confirmed-as-us-doe-under-secretary-of-energy", "title": "Kyle Haustveit confirmed as US DOE under secretary of energy — Journal of Petroleum Technology" },
+    { "url": "https://www.tdworld.com/policy/news/55381266/doe-leadership-changes-highlight-shift-in-domestic-energy-priorities-toward-hydrocarbons", "title": "DOE leadership changes highlight shift toward hydrocarbons — T&D World" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Assistant Secretary, Hydrocarbons and Geothermal Energy (formerly Fossil Energy)",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://jpt.spe.org/kyle-haustveit-confirmed-as-us-doe-under-secretary-of-energy", "title": "Kyle Haustveit confirmed as US DOE under secretary of energy — Journal of Petroleum Technology" },
+        { "url": "https://www.energy.gov/person/kyle-haustveit", "title": "Kyle Haustveit — U.S. Department of Energy" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Under Secretary of Energy",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://www.energy.gov/person/kyle-haustveit", "title": "Kyle Haustveit — U.S. Department of Energy" },
+        { "url": "https://jpt.spe.org/kyle-haustveit-confirmed-as-us-doe-under-secretary-of-energy", "title": "Kyle Haustveit confirmed as US DOE under secretary of energy — Journal of Petroleum Technology" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Chris Wright",
+      "slug": "chris-wright",
+      "relationship_type": "employer",
+      "description": "Wright’s fossil energy chief from 2025 and under secretary from May 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.energy.gov/person/kyle-haustveit", "title": "Kyle Haustveit — U.S. Department of Energy" },
+        { "url": "https://www.tdworld.com/policy/news/55381266/doe-leadership-changes-highlight-shift-in-domestic-energy-priorities-toward-hydrocarbons", "title": "DOE leadership changes highlight shift toward hydrocarbons — T&D World" }
+      ]
+    },
+    {
+      "name": "Alex Fitzsimmons",
+      "slug": "alex-fitzsimmons",
+      "relationship_type": "colleague",
+      "description": "Fitzsimmons held the under secretary post as acting until Haustveit was confirmed to it in May 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.energy.gov/articles/secretary-wright-announces-leadership-changes-deliver-affordable-reliable-and-secure", "title": "Secretary Wright announces leadership changes — U.S. Department of Energy" },
+        { "url": "https://www.tdworld.com/policy/news/55381266/doe-leadership-changes-highlight-shift-in-domestic-energy-priorities-toward-hydrocarbons", "title": "DOE leadership changes highlight shift toward hydrocarbons — T&D World" }
+      ]
+    },
+    {
+      "name": "James Danly",
+      "slug": "james-danly",
+      "relationship_type": "colleague",
+      "description": "Senior Energy Department officials together under Wright.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Under Secretary of Energy (Infrastructure)",
+    "unit": "energy",
+    "rank": 3,
+    "reports_to": "chris-wright",
+    "since": "2026-05-22",
+    "sources": [
+      { "url": "https://www.energy.gov/person/kyle-haustveit", "title": "Kyle Haustveit — U.S. Department of Energy" },
+      { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

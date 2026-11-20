@@ -1,0 +1,56 @@
+{
+  "name": "Erica Schwartz",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Director of the Centers for Disease Control and Prevention (since August 2026)",
+  "summary": "Erica Schwartz was confirmed 51–44 on August 5, 2026, as CDC director, ending months in which NIH director Jay Bhattacharya also ran the agency as acting director.",
+  "sources": [
+    { "url": "https://www.aha.org/topics/government-appointments", "title": "Government appointments — American Hospital Association" },
+    { "url": "https://www.ajc.com/news/2026/02/nih-director-will-temporarily-run-cdc-in-leadership-shake-up", "title": "NIH director will temporarily run CDC in leadership shake-up — Atlanta Journal-Constitution (February 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Director",
+      "org": "Centers for Disease Control and Prevention",
+      "sources": [
+        { "url": "https://www.aha.org/topics/government-appointments", "title": "Government appointments — American Hospital Association" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "employer",
+      "description": "Kennedy’s CDC director since August 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.aha.org/topics/government-appointments", "title": "Government appointments — American Hospital Association" },
+        { "url": "https://www.cdc.gov/about/leadership/director.html", "title": "CDC Director and ATSDR Administrator — CDC" },
+        { "url": "https://www.hhs.gov/about/leadership/erica-schwartz.html", "title": "Erica Schwartz, MD, MPH, JD — HHS leadership" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Director, CDC",
+    "unit": "hhs",
+    "rank": 3,
+    "reports_to": "robert-f-kennedy-jr",
+    "since": "2026-08",
+    "sources": [
+      { "url": "https://www.aha.org/topics/government-appointments", "title": "Government appointments — American Hospital Association" },
+      { "url": "https://www.cdc.gov/about/leadership/director.html", "title": "CDC Director and ATSDR Administrator — CDC" },
+      { "url": "https://www.hhs.gov/about/leadership/erica-schwartz.html", "title": "Erica Schwartz, MD, MPH, JD — HHS leadership" }
+    ]
+  },
+  "last_researched": "2026-11-08",
+  "notes": "Second sources added on 2026-11-09 were confirmed by web searches restricted to each source's domain; the pages themselves were not opened."
+}

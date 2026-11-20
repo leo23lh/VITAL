@@ -1,0 +1,108 @@
+{
+  "name": "Michael Rigas",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "photo": {
+    "file": "michael-rigas.jpg",
+    "credit": "United States Department of State",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:United_States_Deputy_Secretary_of_State_for_Management_and_Resources_Michael_John_Rigas.jpg", "title": "File:United States Deputy Secretary of State for Management and Resources Michael John Rigas.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Deputy Secretary of State for Management and Resources; performing the duties of CEO of the U.S. Agency for Global Media (since March 2026)",
+  "summary": "Michael Rigas is the State Department’s deputy secretary for management and resources, running its budget, staffing and operations. When Trump nominated Sarah Rogers to lead the U.S. Agency for Global Media in March 2026, Rigas was named to perform the agency’s CEO duties in the interim, over Kari Lake, who stayed on as deputy CEO.",
+  "sources": [
+    { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/05/public-schedule-june-1-2026", "title": "Public Schedule, June 1, 2026 — U.S. Department of State" },
+    { "url": "https://en.wikipedia.org/wiki/Michael_Rigas", "title": "Michael Rigas — Wikipedia" },
+    { "url": "https://theprint.in/world/trump-nominates-state-dept-official-to-lead-diminished-us-global-media-agency/2877603", "title": "Trump nominates State Dept official to lead diminished US global media agency — Reuters via ThePrint" },
+    { "url": "https://www.notus.org/trump-white-house/trump-picks-replacement-for-kari-lake-voice-of-america-global-media-judge", "title": "Trump picks replacement for Kari Lake at Voice of America parent — NOTUS" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Deputy Secretary of State for Management and Resources",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/05/public-schedule-june-1-2026", "title": "Public Schedule, June 1, 2026 — U.S. Department of State" },
+        { "url": "https://en.wikipedia.org/wiki/Michael_Rigas", "title": "Michael Rigas — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Performing the duties of Chief Executive Officer",
+      "org": "U.S. Agency for Global Media",
+      "sources": [
+        { "url": "https://theprint.in/world/trump-nominates-state-dept-official-to-lead-diminished-us-global-media-agency/2877603", "title": "Trump nominates State Dept official to lead diminished US global media agency — Reuters via ThePrint" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Rubio’s deputy secretary for management and resources.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/05/public-schedule-june-1-2026", "title": "Public Schedule, June 1, 2026 — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "Christopher Landau",
+      "slug": "christopher-landau",
+      "relationship_type": "colleague",
+      "description": "The State Department’s two deputy secretaries.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/05/public-schedule-june-1-2026", "title": "Public Schedule, June 1, 2026 — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "colleague",
+      "description": "Has performed the CEO duties of the U.S. Agency for Global Media since March 2026, with Lake staying on as deputy CEO.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://theprint.in/world/trump-nominates-state-dept-official-to-lead-diminished-us-global-media-agency/2877603", "title": "Trump nominates State Dept official to lead diminished US global media agency — Reuters via ThePrint" },
+        { "url": "https://www.notus.org/trump-white-house/trump-picks-replacement-for-kari-lake-voice-of-america-global-media-judge", "title": "Trump picks replacement for Kari Lake at Voice of America parent — NOTUS" }
+      ]
+    },
+    {
+      "name": "Jason S. Evans",
+      "slug": "jason-evans",
+      "relationship_type": "employee",
+      "description": "Runs the management bureaus under Deputy Secretary for Management and Resources Rigas.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.state.gov/biographies/jason-s-evans", "title": "Jason S. Evans — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Secretary for Management and Resources (also acting head of USAGM)",
+    "unit": "state",
+    "rank": 2,
+    "reports_to": "marco-rubio",
+    "since": "2025",
+    "sources": [
+      { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/05/public-schedule-june-1-2026", "title": "Public Schedule, June 1, 2026 — U.S. Department of State" },
+      { "url": "https://theprint.in/world/trump-nominates-state-dept-official-to-lead-diminished-us-global-media-agency/2877603", "title": "Trump nominates State Dept official to lead diminished US global media agency — Reuters via ThePrint" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

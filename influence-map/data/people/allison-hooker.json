@@ -1,0 +1,155 @@
+{
+  "name": "Allison Hooker",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Under Secretary of State for Political Affairs (since June 2025)",
+  "summary": "Allison Hooker is the State Department’s third-ranking official, managing regional and bilateral policy day to day. Confirmed 59–36 in June 2025, she is a longtime Korea specialist who was senior director for Korea on Trump’s National Security Council in his first term.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Allison_Hooker", "title": "Allison Hooker — Wikipedia" },
+    { "url": "https://www.congress.gov/nomination/119th-congress/25/19", "title": "PN25-19: Nomination of Allison Hooker — Congress.gov" },
+    { "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/under-secretary-hookers-travel-to-the-republic-of-korea/", "title": "Under Secretary Hooker’s travel to the Republic of Korea — U.S. Department of State (May 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": 2018,
+      "end_year": 2021,
+      "role": "Senior Director for Korea",
+      "org": "National Security Council",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Allison_Hooker", "title": "Allison Hooker — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Under Secretary for Political Affairs",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://www.congress.gov/nomination/119th-congress/25/19", "title": "PN25-19: Nomination of Allison Hooker — Congress.gov" },
+        { "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/under-secretary-hookers-travel-to-the-republic-of-korea/", "title": "Under Secretary Hooker’s travel to the Republic of Korea — U.S. Department of State (May 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Rubio’s under secretary for political affairs since June 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.congress.gov/nomination/119th-congress/25/19", "title": "PN25-19: Nomination of Allison Hooker — Congress.gov" },
+        { "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/under-secretary-hookers-travel-to-the-republic-of-korea/", "title": "Under Secretary Hooker’s travel to the Republic of Korea — U.S. Department of State (May 2026)" }
+      ]
+    },
+    {
+      "name": "Frank Garcia",
+      "slug": "frank-garcia",
+      "relationship_type": "employee",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    },
+    {
+      "name": "Michael G. DeSombre",
+      "slug": "michael-desombre",
+      "relationship_type": "employee",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-east-asian-and-pacific-affairs/", "title": "Bureau of East Asian and Pacific Affairs — U.S. Department of State" },
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "Brendan Hanrahan",
+      "slug": "brendan-hanrahan",
+      "relationship_type": "employee",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    },
+    {
+      "name": "Donald Blome",
+      "slug": "donald-blome",
+      "relationship_type": "employee",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    },
+    {
+      "name": "Juan Pablo Segura",
+      "slug": "juan-pablo-segura",
+      "relationship_type": "employee",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-western-hemisphere-affairs/", "title": "Bureau of Western Hemisphere Affairs — U.S. Department of State" },
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "S. Paul Kapur",
+      "slug": "paul-kapur",
+      "relationship_type": "employee",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-south-and-central-asian-affairs/", "title": "Bureau of South and Central Asian Affairs — U.S. Department of State" },
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "McCoy Pitt",
+      "slug": "mccoy-pitt",
+      "relationship_type": "employee",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-23-2026", "title": "Public Schedule, September 23, 2026 — U.S. Department of State" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Under Secretary for Political Affairs",
+    "unit": "state",
+    "rank": 3,
+    "reports_to": "marco-rubio",
+    "since": "2025-06",
+    "sources": [
+      { "url": "https://www.congress.gov/nomination/119th-congress/25/19", "title": "PN25-19: Nomination of Allison Hooker — Congress.gov" },
+      { "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/under-secretary-hookers-travel-to-the-republic-of-korea/", "title": "Under Secretary Hooker’s travel to the Republic of Korea — U.S. Department of State (May 2026)" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

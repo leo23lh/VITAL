@@ -1,0 +1,859 @@
+{
+  "name": "Ben Horowitz",
+  "aliases": ["Benjamin Horowitz", "Benjamin A. Horowitz"],
+  "public_figure": true,
+  "sector": "tech",
+  "groups": ["tech-right"],
+  "photo": {
+    "file": "ben-horowitz.jpg",
+    "credit": "TechCrunch",
+    "license": "CC BY 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:TechCrunch_Disrupt_San_Francisco_2018_-_day_2_(42713740520)_(cropped).jpg", "title": "File:TechCrunch Disrupt San Francisco 2018 - day 2 (42713740520) (cropped).jpg — Wikimedia Commons" }
+  },
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": 2021,
+      "basis": "Federal filings show he gave only to Democrats, including Obama's campaign, until 2022.",
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=3126217", "title": "Washington Examiner: Ben and Felicia Horowitz's political pivot" }
+      ]
+    },
+    {
+      "value": 1,
+      "start_year": 2022,
+      "end_year": null,
+      "basis": "Most of his donations since 2022 went to Republicans; endorsed Trump in July 2024, then in October 2024 pledged a \"significant\" donation to groups backing Harris. Mixed record, so Center-right.",
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=3126217", "title": "Washington Examiner: Ben and Felicia Horowitz's political pivot" },
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Axios: Ben Horowitz plans significant donation to Kamala Harris" }
+      ]
+    }
+  ],
+  "current_role": "Co-founder and general partner of Andreessen Horowitz (a16z)",
+  "summary": "Ben Horowitz worked with Marc Andreessen at Netscape, co-founded Loudcloud (later Opsware, sold to Hewlett-Packard in 2007) and in 2009 co-founded the venture capital firm Andreessen Horowitz; he wrote The Hard Thing About Hard Things (2014). Son of conservative activist David Horowitz, he endorsed and funded Donald Trump in July 2024 alongside Andreessen, then in October 2024 pledged a significant donation to groups backing Kamala Harris. He and Andreessen are major funders of the pro-AI super PAC Leading the Future.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" },
+    { "url": "https://fortune.com/2024/07/16/andreessen-horowitz-founders-the-latest-to-stake-trump/", "title": "Andreessen Horowitz founders the latest to stake Trump — Fortune" },
+    { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" }
+  ],
+  "timeline": [
+    {
+      "year": 1995,
+      "end_year": 1998,
+      "role": "Product manager, then vice president for the Directory and Security product line",
+      "org": "Netscape Communications",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1999,
+      "end_year": 2007,
+      "role": "Co-founder and CEO",
+      "org": "Loudcloud / Opsware",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Opsware", "title": "Opsware — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2009,
+      "end_year": null,
+      "role": "Co-founder and general partner",
+      "org": "Andreessen Horowitz",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2014,
+      "role": "Published The Hard Thing About Hard Things (Harper Business)",
+      "org": "Author",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Andreessen Horowitz",
+      "role": "Co-founder and general partner",
+      "start_year": 2009,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Leading the Future (pro-AI super PAC)",
+      "role": "Donor; gave $12.5 million per FEC filings reported in January 2026",
+      "start_year": 2025,
+      "sources": [
+        { "url": "https://www.notus.org/money/ai-super-pac-fundraising-midterms-democrats-republicans", "title": "AI super PAC fundraising — NOTUS" },
+        { "url": "https://news.bgov.com/private-equity/andreessen-horowitz-fuel-ai-industrys-51-million-midterm-haul", "title": "Andreessen, Horowitz Fuel AI Industry's $51 Million Midterm Haul — Bloomberg Government" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Marc Andreessen",
+      "slug": "marc-andreessen",
+      "relationship_type": "co-founder",
+      "description": "Horowitz joined Andreessen at Netscape in 1995; they co-founded Loudcloud (later Opsware) in 1999 and the venture firm Andreessen Horowitz in 2009, and published its \"Little Tech Agenda\" and endorsed Trump together in July 2024.",
+      "start_year": 1999,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Opsware", "title": "Opsware — Wikipedia" },
+        { "url": "https://fortune.com/2024/07/16/andreessen-horowitz-founders-the-latest-to-stake-trump/", "title": "Andreessen Horowitz founders the latest to stake Trump — Fortune" }
+      ]
+    },
+    {
+      "name": "David Horowitz",
+      "slug": "david-horowitz",
+      "relationship_type": "family",
+      "description": "Father: the conservative activist and Freedom Center founder, who died in April 2025. Reporting describes the family's political split after David's turn to the right in the 1980s, and Ben's later, separate shift toward Republicans.",
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/David_Horowitz", "title": "David Horowitz — Wikipedia" },
+        { "url": "https://www.coloradopolitics.com/2024/08/19/ben-and-felicia-horowitzs-political-pivot-from-liberal-darlings-to-trump-backers/", "title": "Ben and Felicia Horowitz's political pivot from liberal darlings to Trump backers — Colorado Politics" },
+        { "url": "https://acquired.fm/episodes/andreessen-horowitz-part-i", "title": "Andreessen Horowitz, Part I — Acquired" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Horowitz endorsed Trump in July 2024 (\"for little tech, we think Donald Trump is actually the right choice\") and gave $2.5 million to the pro-Trump super PAC Right for America, per FEC filings. In October 2024 he told staff he and his wife would also make a significant donation to groups supporting Kamala Harris, citing friendship with her, while the firm stayed neutral. FEC filings show $2,500,000 from Ben Horowitz to Right for America in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://fortune.com/2024/07/16/andreessen-horowitz-founders-the-latest-to-stake-trump/", "title": "Andreessen Horowitz founders the latest to stake Trump — Fortune" },
+        { "url": "https://www.business-standard.com/world-news/silicon-valley-s-andreessen-horowitz-give-millions-to-pro-trump-pac-124101600146_1.html", "title": "Silicon Valley's Andreessen, Horowitz give millions to pro-Trump PAC — Business Standard (Bloomberg)" },
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00867036&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Right for America" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "funded_by",
+      "description": "In October 2024 Horowitz said he and his wife Felicia would make \"a significant donation to entities who support the Harris Walz campaign\", citing their friendship with Harris, months after endorsing Trump.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" }
+      ]
+    },
+    {
+      "name": "Scott Kupor",
+      "slug": "scott-kupor",
+      "relationship_type": "employee",
+      "description": "Kupor was Andreessen Horowitz's first hire and its managing partner for about 16 years before becoming director of the Office of Personnel Management in July 2025.",
+      "start_year": 2009,
+      "end_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.opm.gov/news/scott-kupor-sworn-in-as-opm-director", "title": "Scott Kupor sworn in as OPM director — U.S. Office of Personnel Management" },
+        { "url": "https://fortune.com/2025/04/03/trump-appointee-scott-kupor-resigns-some-a16z-funds-boards-opm-confirmation/", "title": "Trump appointee Scott Kupor resigns from some a16z funds, boards — Fortune" }
+      ]
+    },
+    {
+      "name": "Greg Brockman",
+      "slug": "greg-brockman",
+      "relationship_type": "ally",
+      "description": "Co-funders of the pro-AI super PAC Leading the Future: FEC filings reported in January 2026 showed Horowitz, Andreessen and Brockman each giving $12.5 million.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.notus.org/money/ai-super-pac-fundraising-midterms-democrats-republicans", "title": "AI super PAC fundraising — NOTUS" },
+        { "url": "https://news.bgov.com/private-equity/andreessen-horowitz-fuel-ai-industrys-51-million-midterm-haul", "title": "Andreessen, Horowitz Fuel AI Industry's $51 Million Midterm Haul — Bloomberg Government" },
+        { "url": "https://fortune.com/2025/08/26/openai-president-greg-brockman-andreessen-horowitz-super-pac-ai-pro-innovation/", "title": "OpenAI president Greg Brockman and Andreessen Horowitz back AI super PAC — Fortune" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "ally",
+      "description": "Co-backers of the pro-AI super PAC network Leading the Future, launched in August 2025 with Andreessen Horowitz, Greg Brockman and Ron Conway.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://siliconangle.com/2025/08/25/silicon-valley-ai-leaders-launch-100m-leading-future-super-pac/", "title": "Silicon Valley AI leaders launch $100M Leading the Future super PAC — SiliconANGLE" }
+      ]
+    },
+    {
+      "name": "Leading the Future",
+      "slug": "leading-the-future",
+      "relationship_type": "funded_by",
+      "description": "Lead backer with Marc Andreessen through Andreessen Horowitz; FEC filings showed $12.5 million each. FEC filings show $25,000,000 from Ben Horowitz to Leading the Future in the 2026 cycle.",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Leading_the_Future", "title": "Leading the Future — Wikipedia" },
+        { "url": "https://www.axios.com/2026/01/30/openai-a16z-cash-ai-super-pac", "title": "Exclusive: OpenAI's Brockman and a16z funnel cash to pro-AI super PAC — Axios" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00916114&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Leading the Future" }
+      ]
+    },
+    {
+      "name": "Fairshake",
+      "slug": "fairshake",
+      "relationship_type": "funded_by",
+      "description": "Gave $33.5 million through 2024 and, with Marc Andreessen, $23.8 million more for 2026. FEC filings show $45,400,000 from Ben Horowitz to Fairshake in 2 cycles (2024–2026).",
+      "start_year": 2023,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Fairshake", "title": "Fairshake — Wikipedia" },
+        { "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html", "title": "Coinbase, a16z and others pour more than $78 million into pro-crypto PAC for 2026 election — CNBC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00835959&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Fairshake" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "friend",
+      "description": "In October 2024 Horowitz cited his and his wife’s friendship with Harris when announcing donations to groups backing her.",
+      "start_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" }
+      ]
+    },
+    {
+      "name": "Senate Majority PAC",
+      "slug": "senate-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $500,000 from Ben Horowitz to SMP in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00484642&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to SMP" }
+      ]
+    },
+    {
+      "name": "Senate Leadership Fund",
+      "slug": "senate-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $1,250,000 from Ben Horowitz to SLF PAC in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to SLF PAC" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $23,200 from Ben Horowitz to Vance Victory, Working for Ohio, JD Vance for Senate Inc. in the 2024 cycle.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00817072&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Vance Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00783167&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00783142&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to JD Vance for Senate Inc." }
+      ]
+    },
+    {
+      "name": "Byron Donalds",
+      "slug": "byron-donalds",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $15,100 from Ben Horowitz to Byron Donalds for Congress, Proven Conservatives PAC - Federal in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00733329&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Byron Donalds for Congress" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00894147&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Proven Conservatives PAC - Federal" }
+      ]
+    },
+    {
+      "name": "MAGA Inc.",
+      "slug": "maga-inc",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $6,000,000 from Ben Horowitz to MAGA Inc. in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to MAGA Inc." }
+      ]
+    },
+    {
+      "name": "Eric Schmitt",
+      "slug": "eric-schmitt",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $10,000 from Ben Horowitz to Winning for America PAC in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00826362&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Winning for America PAC" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Opsware sale price",
+      "details": "Wikipedia's Ben Horowitz article gives $1.6 billion; its Opsware article gives $1.65 billion.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Opsware", "title": "Opsware — Wikipedia" }
+      ]
+    },
+    {
+      "topic": "2024 presidential support",
+      "details": "Horowitz endorsed Trump in July 2024 and gave to a pro-Trump super PAC, then in October 2024 pledged a significant donation to groups backing Kamala Harris without endorsing her policies.",
+      "sources": [
+        { "url": "https://www.axios.com/2024/07/16/marc-andreeessen-ben-horowitz-trump", "title": "Axios" },
+        { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Axios" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open pages; facts were checked against search results tied to each cited URL. Targeted searches found no documented personal link to Musk, Sacks, Thiel or the other PayPal co-founders beyond his firm's investments, so none is recorded. Political lean added 2026-11-07; its sources were confirmed through web search results rather than by opening every page.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 92200000,
+        "rank": 8,
+        "ranking": "Rank among all 2026 donors, groups included (FEC data, per Al Jazeera and the Washington Post); total as cited: $92.2M is the Washington Post's figure for Andreessen and Horowitz together, with a16z",
+        "description": "Counted jointly with Ben Horowitz and their firm, mostly to the crypto super PAC Fairshake and the AI super PAC Leading the Future. Other tallies run higher: AFP over $113M, Newsweek $116.4M.",
+        "sources": [
+          { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+          { "url": "https://www.france24.com/en/live-news/20261023-from-tech-giants-to-anonymous-nonprofits-the-biggest-donors-in-us-midterms", "title": "From tech giants to anonymous nonprofits, the biggest donors in US midterms — AFP via France 24" },
+          { "url": "https://www.newsweek.com/the-billionaires-who-spent-won-and-lost-the-most-at-the-midterms-12661688", "title": "The billionaires who spent, won and lost the most at the midterms — Newsweek" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&two_year_transaction_period=2026", "title": "FEC itemized receipts: HOROWITZ, BEN, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Fairshake (crypto super PAC)",
+            "org": "fairshake",
+            "kind": "super-pac",
+            "side": "both",
+            "amount_usd": 47000000,
+            "description": "a16z pledged $23M for 2026 in November 2024 and added $24M in January 2026. Fairshake spends for both parties, but CoinDesk found its biggest 2026 bets favored Republicans, including about $56M against Sherrod Brown in Ohio.",
+            "sources": [
+              { "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html", "title": "Coinbase, a16z and others pour more than $78 million into pro-crypto PAC for 2026 election — CNBC" },
+              { "url": "https://www.coindesk.com/policy/2026/01/28/crypto-s-political-power-supercharged-with-usd193-million-in-fairshake-thanks-to-new-cash", "title": "Crypto's political power supercharged with $193 million in Fairshake — CoinDesk" },
+              { "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election", "title": "Crypto PACs spent $170 million, with most going to Republicans in final weeks — CoinDesk" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00835959&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Fairshake, 2026 cycle" }
+            ],
+            "fec_usd": 11900000,
+            "fec_ids": ["C00835959"]
+          },
+          {
+            "name": "Leading the Future (pro-AI super PAC)",
+            "org": "leading-the-future",
+            "kind": "super-pac",
+            "side": "both",
+            "amount_usd": 25000000,
+            "description": "$12.5M each from Andreessen and Horowitz in late 2025. The network raised about $140M and fought the Anthropic-funded Public First groups.",
+            "sources": [
+              { "url": "https://www.nbcnews.com/politics/2026-election/ai-crypto-trump-super-pacs-stash-millions-spend-midterms-rcna256622", "title": "AI, crypto and Trump super PACs stash millions to spend on the midterms — NBC News" },
+              { "url": "https://www.axios.com/2026/01/30/openai-a16z-cash-ai-super-pac", "title": "Exclusive: OpenAI's Brockman and a16z funnel cash to pro-AI super PAC — Axios" },
+              { "url": "https://www.cnbc.com/2026/04/15/ai-2026-elections-midterms-campaign-donations.html", "title": "AI becomes contentious issue in 2026 midterm elections over donations — CNBC" },
+              { "url": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html", "title": "Silicon Valley AI political groups turn on each other in the 2026 election — CNBC" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00916114&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Leading the Future, 2026 cycle" }
+            ],
+            "fec_usd": 25000000,
+            "fec_ids": ["C00916114"]
+          },
+          {
+            "name": "MAGA Inc.",
+            "slug": "donald-trump",
+            "org": "maga-inc",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 6000000,
+            "fec_usd": 6000000,
+            "fec_ids": ["C00892471"],
+            "description": "Per FEC filings: MAGA Inc. $6,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00892471&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to MAGA Inc., 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 875000,
+            "fec_usd": 875000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: SLF PAC $875,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00571703&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to SLF PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 226767,
+            "fec_usd": 226767,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to NRSC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Grow the Majority",
+            "kind": "pac",
+            "amount_usd": 122483,
+            "fec_usd": 122483,
+            "fec_ids": ["C00858373"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00858373&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Grow the Majority, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 105483,
+            "fec_usd": 105483,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00075820&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to NRCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 86917,
+            "fec_usd": 86917,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00042366&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to DSCC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Defend American Jobs",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00836221"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00836221&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Defend American Jobs, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Protect Progress",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00848440"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00848440&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Protect Progress, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Eric Schmitt",
+            "slug": "eric-schmitt",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 10000,
+            "fec_usd": 10000,
+            "fec_ids": ["C00826362"],
+            "description": "Per FEC filings: Winning for America PAC $10,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00826362&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Winning for America PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Byron Donalds",
+            "slug": "byron-donalds",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 8500,
+            "fec_usd": 8500,
+            "fec_ids": ["C00733329", "C00894147"],
+            "description": "Per FEC filings: Proven Conservatives PAC - Federal $5,000; Byron Donalds for Congress $3,500.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00894147&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Proven Conservatives PAC - Federal, 2026 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00733329&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Byron Donalds for Congress, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 7000,
+            "fec_usd": 7000,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $7,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Mike Johnson for Louisiana, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 5000,
+            "fec_usd": 5000,
+            "fec_ids": ["C00748186"],
+            "description": "Per FEC filings: Commonsense, Conservative Values PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00748186&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Commonsense, Conservative Values PAC, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 5000,
+            "fec_usd": 5000,
+            "fec_ids": ["C00536540"],
+            "description": "Per FEC filings: Jobs, Freedom, and Security PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00536540&two_year_transaction_period=2026", "title": "FEC receipts: HOROWITZ, BEN to Jobs, Freedom, and Security PAC, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "description": "Not in the 2024 top ten (Andreessen was tenth). Gave to a pro-Trump super PAC, then pledged a \"significant\" donation to groups backing Harris.",
+        "sources": [
+          { "url": "https://www.newser.com/story/366297/musk-easily-tops-all-donors-in-2024-race.html", "title": "The Top 10 Donors in the 2024 Election (OpenSecrets) — Newser" },
+          { "url": "https://www.business-standard.com/world-news/silicon-valley-s-andreessen-horowitz-give-millions-to-pro-trump-pac-124101600146_1.html", "title": "Silicon Valley's Andreessen, Horowitz give millions to pro-Trump PAC — Business Standard (Bloomberg)" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&two_year_transaction_period=2024", "title": "FEC itemized receipts: HOROWITZ, BEN, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Right for America (pro-Trump super PAC)",
+            "slug": "donald-trump",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 2500000,
+            "sources": [
+              { "url": "https://www.business-standard.com/world-news/silicon-valley-s-andreessen-horowitz-give-millions-to-pro-trump-pac-124101600146_1.html", "title": "Silicon Valley's Andreessen, Horowitz give millions to pro-Trump PAC — Business Standard (Bloomberg)" }
+            ]
+          },
+          {
+            "name": "Groups backing Kamala Harris",
+            "slug": "kamala-harris",
+            "kind": "super-pac",
+            "side": "D",
+            "description": "Pledged in October 2024; amount not reported.",
+            "sources": [
+              { "url": "https://www.axios.com/2024/10/04/ben-horowitz-endorse-kamala-harris", "title": "Scoop: VC titan Ben Horowitz plans \"significant\" donation to Kamala Harris — Axios" }
+            ]
+          },
+          {
+            "name": "Fairshake (crypto super PAC, via a16z)",
+            "org": "fairshake",
+            "kind": "super-pac",
+            "side": "both",
+            "sources": [
+              { "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html", "title": "Coinbase, a16z and others pour more than $78 million into pro-crypto PAC for 2026 election — CNBC" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00835959&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Fairshake, 2024 cycle" }
+            ],
+            "amount_usd": 33500000,
+            "fec_usd": 33500000,
+            "fec_ids": ["C00835959"]
+          },
+          {
+            "name": "Blackpac",
+            "kind": "super-pac",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00609388"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00609388&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Blackpac, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 2500000,
+            "fec_usd": 2500000,
+            "fec_ids": ["C00867036"],
+            "description": "Per FEC filings: Right for America $2,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00867036&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Right for America, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Protect Progress",
+            "kind": "super-pac",
+            "amount_usd": 875000,
+            "fec_usd": 875000,
+            "fec_ids": ["C00848440"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00848440&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Protect Progress, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Defend American Jobs",
+            "kind": "super-pac",
+            "amount_usd": 875000,
+            "fec_usd": 875000,
+            "fec_ids": ["C00836221"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00836221&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Defend American Jobs, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: SMP $500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00484642&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to SMP, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 375000,
+            "fec_usd": 375000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $375,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00571703&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Senate Leadership Fund, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 41300,
+            "fec_usd": 41300,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00027466&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to NRSC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Cornyn Victory Committee",
+            "kind": "pac",
+            "amount_usd": 31917,
+            "fec_usd": 31917,
+            "fec_ids": ["C00770180"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00770180&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Cornyn Victory Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "2024 Thune Republican Senate Victory",
+            "kind": "pac",
+            "amount_usd": 31917,
+            "fec_usd": 31917,
+            "fec_ids": ["C00837435"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00837435&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to 2024 Thune Republican Senate Victory, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 27534,
+            "fec_usd": 27534,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00042366&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to DSCC, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 23200,
+            "fec_usd": 23200,
+            "fec_ids": ["C00783142", "C00783167", "C00817072"],
+            "description": "Per FEC filings: Vance Victory $11,600; JD Vance for Senate Inc. $6,600; Working for Ohio $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00817072&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Vance Victory, 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00783142&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to JD Vance for Senate Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00783167&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Working for Ohio, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Byron Donalds",
+            "slug": "byron-donalds",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00733329"],
+            "description": "Per FEC filings: Byron Donalds for Congress $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00733329&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Byron Donalds for Congress, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "John Thune",
+            "slug": "john-thune",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 3300,
+            "fec_usd": 3300,
+            "fec_ids": ["C00409581"],
+            "description": "Per FEC filings: Friends of John Thune $3,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00409581&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Friends of John Thune, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Jon Ossoff",
+            "slug": "jon-ossoff",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 3300,
+            "fec_usd": 3300,
+            "fec_ids": ["C00718866"],
+            "description": "Per FEC filings: Jon Ossoff for Senate $3,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00718866&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Jon Ossoff for Senate, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 3300,
+            "fec_usd": 3300,
+            "fec_ids": ["C00492785"],
+            "description": "Per FEC filings: Ted Cruz for Senate $3,300.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: HOROWITZ, BEN to Ted Cruz for Senate, 2024 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 42165543,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 1049300,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&two_year_transaction_period=2022", "title": "FEC itemized receipts: HOROWITZ, BEN, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Gmi PAC, Inc.",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00788679"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00788679&two_year_transaction_period=2022", "title": "FEC receipts: HOROWITZ, BEN to Gmi PAC, Inc., 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 12300,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&two_year_transaction_period=2018", "title": "FEC itemized receipts: HOROWITZ, BEN, 2018 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 66800,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&two_year_transaction_period=2016", "title": "FEC itemized receipts: HOROWITZ, BEN, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Democratic Hope Fund",
+            "kind": "pac",
+            "amount_usd": 33400,
+            "fec_usd": 33400,
+            "fec_ids": ["C00586842"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00586842&two_year_transaction_period=2016", "title": "FEC receipts: HOROWITZ, BEN to Democratic Hope Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "DNC Services Corp./dem. Nat'l Committee",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 30900,
+            "fec_usd": 30900,
+            "fec_ids": ["C00010603"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=HOROWITZ%2C+BEN&committee_id=C00010603&two_year_transaction_period=2016", "title": "FEC receipts: HOROWITZ, BEN to DNC Services Corp./dem. Nat'l Committee, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No reporting on a 2028 presidential pick. Horowitz and a16z have funded the same industry super PACs in 2024 and 2026, and Fairshake and Leading the Future are expected to keep spending.",
+      "sources": [
+        { "url": "https://www.coindesk.com/policy/2026/01/28/crypto-s-political-power-supercharged-with-usd193-million-in-fairshake-thanks-to-new-cash", "title": "Crypto's political power supercharged with $193 million in Fairshake — CoinDesk" },
+        { "url": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html", "title": "Silicon Valley AI political groups turn on each other in the 2026 election — CNBC" }
+      ],
+      "likely": [
+        {
+          "name": "Fairshake (crypto super PAC)",
+          "org": "fairshake",
+          "kind": "super-pac",
+          "side": "both",
+          "basis": "a16z has been a lead funder in 2024 and 2026, and pledged its 2026 money right after the 2024 election.",
+          "confidence": 0.8,
+          "sources": [
+            { "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html", "title": "Coinbase, a16z and others pour more than $78 million into pro-crypto PAC for 2026 election — CNBC" },
+            { "url": "https://www.coindesk.com/policy/2026/01/28/crypto-s-political-power-supercharged-with-usd193-million-in-fairshake-thanks-to-new-cash", "title": "Crypto's political power supercharged with $193 million in Fairshake — CoinDesk" }
+          ]
+        },
+        {
+          "name": "Leading the Future (pro-AI super PAC)",
+          "org": "leading-the-future",
+          "kind": "super-pac",
+          "side": "both",
+          "basis": "Founding funder in 2025–26; AI regulation stays a live fight (Semafor, after the election).",
+          "confidence": 0.7,
+          "sources": [
+            { "url": "https://www.nbcnews.com/politics/2026-election/ai-crypto-trump-super-pacs-stash-millions-spend-midterms-rcna256622", "title": "AI, crypto and Trump super PACs stash millions to spend on the midterms — NBC News" },
+            { "url": "https://www.semafor.com/article/11/05/2026/where-ai-money-worked-in-the-midterms", "title": "Where AI money worked in the midterms — Semafor" }
+          ]
+        }
+      ]
+    }
+  },
+  "leverage": {
+    "level": 2,
+    "basis": "Co-founder of Andreessen Horowitz (a16z); with Marc Andreessen, among the top ten donors of the 2026 cycle (about $92.2 million), largely to crypto and AI super PACs.",
+    "sources": [
+      { "url": "https://www.washingtonpost.com/elections/interactive/2026/06/25/these-are-biggest-individual-donors-2026-election-cycle/", "title": "These are the biggest individual donors in the 2026 election cycle — Washington Post" },
+      { "url": "https://en.wikipedia.org/wiki/Ben_Horowitz", "title": "Ben Horowitz — Wikipedia" }
+    ]
+  }
+}

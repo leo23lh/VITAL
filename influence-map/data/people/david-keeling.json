@@ -1,0 +1,95 @@
+{
+  "name": "David Keeling",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Assistant Secretary of Labor for Occupational Safety and Health (since October 2025)",
+  "summary": "David Keeling heads the Occupational Safety and Health Administration. He started at UPS as a package handler in 1985 and spent 38 years there, ending as vice president of global health and safety, then spent two years as a transportation-safety director at Amazon. Nominated in February 2025, he was confirmed in October 2025.",
+  "sources": [
+    { "url": "https://www.osha.gov/aboutosha/biography/keeling", "title": "David Keeling, Assistant Secretary — OSHA" },
+    { "url": "https://news.bloomberglaw.com/construction-labor/amazon-ups-safety-maven-faces-osha-staffing-policy-pressures", "title": "Amazon, UPS safety maven faces OSHA staffing, policy pressures — Bloomberg Law" },
+    { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+  ],
+  "timeline": [
+    {
+      "year": 1985,
+      "role": "Package handler, rising to Vice President of Global Health and Safety",
+      "org": "UPS",
+      "sources": [
+        { "url": "https://www.osha.gov/aboutosha/biography/keeling", "title": "David Keeling, Assistant Secretary — OSHA" },
+        { "url": "https://news.bloomberglaw.com/construction-labor/amazon-ups-safety-maven-faces-osha-staffing-policy-pressures", "title": "Amazon, UPS safety maven faces OSHA staffing, policy pressures — Bloomberg Law" }
+      ]
+    },
+    {
+      "year": null,
+      "role": "Director of Global Transportation Safety",
+      "org": "Amazon",
+      "sources": [
+        { "url": "https://www.osha.gov/aboutosha/biography/keeling", "title": "David Keeling, Assistant Secretary — OSHA" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Assistant Secretary for Occupational Safety and Health",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.osha.gov/aboutosha/biography/keeling", "title": "David Keeling, Assistant Secretary — OSHA" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Serves in Sonderling’s department as head of OSHA; confirmed in fall 2025 while Sonderling was deputy secretary, and has reported to him as secretary since April 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    },
+    {
+      "name": "Amanda Wood Laihow",
+      "slug": "amanda-wood-laihow",
+      "relationship_type": "employee",
+      "description": "Ran OSHA as acting head until Keeling arrived in fall 2025, then became his deputy.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://osha.gov/aboutosha/biography/laihow", "title": "Amanda Wood Laihow — OSHA" },
+        { "url": "https://www.osha.gov/quicktakes/022726", "title": "OSHA QuickTakes, February 27, 2026" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary, Occupational Safety and Health (OSHA)",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "keith-sonderling",
+    "since": "2025-10",
+    "sources": [
+      { "url": "https://www.osha.gov/aboutosha/biography/keeling", "title": "David Keeling, Assistant Secretary — OSHA" },
+      { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+    ]
+  },
+  "source_conflicts": [
+    {
+      "topic": "Confirmation date and Amazon title",
+      "details": "His OSHA biography says the Senate confirmed him on October 2, 2025; Wikipedia’s list of Labor appointments gives October 7 (a 107-nominee block vote). Some sources call his Amazon post director of road and transportation safety (2021–2023).",
+      "sources": [
+        { "url": "https://www.osha.gov/aboutosha/biography/keeling", "title": "David Keeling, Assistant Secretary — OSHA" },
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Labor_appointments_by_Donald_Trump", "title": "List of Department of Labor appointments by Donald Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "last_researched": "2026-11-08"
+}

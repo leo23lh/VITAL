@@ -1,0 +1,142 @@
+{
+  "name": "Jen O'Malley Dillon",
+  "aliases": ["Jennifer O'Malley Dillon", "Jennifer Brigid O'Malley Dillon", "JOD"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Career Democratic strategist: DNC executive director (2009–2011), Biden's 2020 campaign manager and White House deputy chief of staff, chair of the Biden and Harris 2024 campaigns.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "jen-omalley-dillon.jpg",
+    "credit": "University of Chicago Institute of Politics",
+    "license": "CC BY 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Jen_O%27Malley_Dillon_in_2012_(cropped).jpg", "title": "File:Jen O'Malley Dillon in 2012 (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Democratic strategist; chaired Kamala Harris's 2024 presidential campaign",
+  "summary": "Jen O'Malley Dillon managed Joe Biden's winning 2020 campaign, the first woman to manage a successful Democratic presidential campaign, then served as White House deputy chief of staff (2021–2024) before chairing Biden's 2024 re-election campaign and, after he withdrew, Kamala Harris's campaign. She earlier worked on Obama's 2008 campaign and transition and co-founded Precision Strategies.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2008,
+      "end_year": 2009,
+      "role": "Battleground states director, then associate director of personnel for the transition",
+      "org": "Obama 2008 campaign",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2009,
+      "end_year": 2011,
+      "role": "Executive director",
+      "org": "Democratic National Committee",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": 2020,
+      "role": "Co-founder",
+      "org": "Precision Strategies",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2020,
+      "end_year": 2020,
+      "role": "Campaign manager",
+      "org": "Biden for President",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2024,
+      "role": "White House deputy chief of staff",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": 2024,
+      "role": "Campaign chair (Biden, then Harris)",
+      "org": "Harris for President",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "employer",
+      "description": "O'Malley Dillon managed Biden's 2020 campaign, was his White House deputy chief of staff (2021–2024) and chaired his 2024 re-election campaign, defending his debate performance before he withdrew.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" },
+        { "url": "https://www.cnbc.com/amp/2020/11/17/biden-picks-for-senior-white-house-staff-include-loyalists-rising-democratic-stars.html", "title": "Biden picks for senior White House staff — CNBC" },
+        { "url": "https://foxnews.com/politics/bidens-campaign-manager-headed-to-white-house-as-deputy-chief-of-staff.amp", "title": "Biden's campaign manager headed to White House as deputy chief of staff — Fox News" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "employer",
+      "description": "O'Malley Dillon chaired Harris's 2024 presidential campaign after Biden withdrew.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "employer",
+      "description": "Battleground states director for Obama's 2008 campaign, associate director of personnel in his transition, and deputy campaign manager of his 2012 reelection.",
+      "start_year": 2008,
+      "end_year": 2009,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2016-election/hillary-clinton-hire-former-obama-deputy-campaign-manager-n515561", "title": "Hillary Clinton to hire former Obama deputy campaign manager — NBC News" },
+        { "url": "https://www.texastribune.org/2019/03/25/beto-orourke-hires-former-top-barack-obama-aide-campaign-manager/", "title": "Beto O'Rourke hires former top Barack Obama aide as campaign manager — Texas Tribune" }
+      ]
+    },
+    {
+      "name": "David Plouffe",
+      "slug": "david-plouffe",
+      "relationship_type": "colleague",
+      "description": "Both worked on Obama's 2008 campaign and were senior leaders of Harris's 2024 campaign.",
+      "start_year": 2008,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly); other pages could not be opened in this environment.",
+  "last_researched": "2026-11-19"
+}

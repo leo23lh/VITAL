@@ -1,0 +1,67 @@
+{
+  "name": "Jennifer Siebel Newsom",
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["gavin-newsom"],
+    "basis": "His wife and First Partner of California.",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Jennifer_Siebel_Newsom", "title": "Wikipedia: Jennifer Siebel Newsom" }
+    ]
+  },
+  "photo": {
+    "file": "jennifer-siebel-newsom.png",
+    "credit": "Cali gov",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:JSN-Headshots-2021-Bio_(cropped).png", "title": "File:JSN-Headshots-2021-Bio (cropped).png — Wikimedia Commons" }
+  },
+  "current_role": "First Partner of California (since 2019); documentary filmmaker",
+  "summary": "Jennifer Siebel Newsom is a documentary filmmaker (The Mask You Live In) who has been First Partner of California since 2019, after serving as second lady of California and first lady of San Francisco.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Jennifer_Siebel_Newsom", "title": "Wikipedia: Jennifer Siebel Newsom" }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "First Partner of California",
+      "org": "State of California",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jennifer_Siebel_Newsom", "title": "Wikipedia: Jennifer Siebel Newsom" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Gavin Newsom",
+      "slug": "gavin-newsom",
+      "relationship_type": "family",
+      "description": "Her husband.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.99,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jennifer_Siebel_Newsom", "title": "Wikipedia: Jennifer Siebel Newsom" },
+        { "url": "https://www.gov.ca.gov/about/first-partner/about-first-partner/", "title": "Jennifer Siebel Newsom, First Partner — Office of the Governor of California" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL. Lean sources were confirmed through web search results rather than opened pages (2026-11-20).",
+  "last_researched": "2026-11-07",
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democrat; First Partner of California, married to Democratic governor Gavin Newsom; endorsed Elizabeth Warren for president in 2020.",
+      "sources": [
+        { "url": "https://preview-prod.w.sfchronicle.com/politics/article/Jennifer-Siebel-Newsom-endorses-Elizabeth-Warren-15093393.php", "title": "Jennifer Siebel Newsom endorses Elizabeth Warren — San Francisco Chronicle" },
+        { "url": "https://www.democracyinaction.us/2020/warren/warrencaendorse.html", "title": "Elizabeth Warren California endorsements — Democracy in Action" }
+      ]
+    }
+  ]
+}

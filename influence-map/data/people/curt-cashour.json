@@ -1,0 +1,59 @@
+{
+  "name": "Curt Cashour",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Chief of Staff, Department of Veterans Affairs (since February 2026)",
+  "summary": "Curt Cashour, previously VA’s assistant secretary for public and intergovernmental affairs, became Secretary Doug Collins’s chief of staff in February 2026.",
+  "sources": [
+    { "url": "https://news.va.gov/press-room/va-announces-new-chief-of-staff/", "title": "VA announces new chief of staff — VA News" }
+  ],
+  "timeline": [
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Chief of Staff",
+      "org": "U.S. Department of Veterans Affairs",
+      "sources": [
+        { "url": "https://news.va.gov/press-room/va-announces-new-chief-of-staff/", "title": "VA announces new chief of staff — VA News" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Assistant Secretary for Public and Intergovernmental Affairs",
+      "org": "U.S. Department of Veterans Affairs",
+      "sources": [
+        { "url": "https://news.va.gov/press-room/va-announces-new-chief-of-staff/", "title": "VA announces new chief of staff — VA News" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Doug Collins",
+      "slug": "doug-collins",
+      "relationship_type": "employer",
+      "description": "Collins’s chief of staff since February 2026, after serving as VA’s public affairs assistant secretary.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://news.va.gov/press-room/va-announces-new-chief-of-staff/", "title": "VA announces new chief of staff — VA News" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Chief of Staff",
+    "unit": "va",
+    "rank": 3,
+    "reports_to": "doug-collins",
+    "since": "2026-02",
+    "sources": [
+      { "url": "https://news.va.gov/press-room/va-announces-new-chief-of-staff/", "title": "VA announces new chief of staff — VA News" }
+    ]
+  },
+  "notes": "Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

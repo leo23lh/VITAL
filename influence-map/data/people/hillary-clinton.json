@@ -1,0 +1,274 @@
+{
+  "name": "Hillary Clinton",
+  "aliases": ["Hillary Rodham Clinton", "Hillary Diane Rodham Clinton"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic U.S. senator from New York (2001–2009), Secretary of State under Obama and the 2016 Democratic presidential nominee.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "hillary-clinton.jpg",
+    "credit": "U.S. Department of State",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Former_United_States_Secretary_of_State_Hillary_Rodham_Clinton_at_the_U.S._Department_of_State_on_September_26,_2023_in_Washington,_D.C._14_(cropped).jpg", "title": "File:Former United States Secretary of State Hillary Rodham Clinton at the U.S. Department of State on September 26, 2023 in Washington, D.C. 14 (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Former Secretary of State (2009–2013) and 2016 Democratic presidential nominee",
+  "summary": "Hillary Clinton was first lady (1993–2001), a U.S. senator from New York (2001–2009) and Barack Obama's secretary of state (2009–2013). She lost the 2008 Democratic primary to Obama and, as the 2016 Democratic nominee, won the popular vote but lost the Electoral College to Donald Trump. She endorsed Biden in 2020 and Harris in 2024.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2001,
+      "end_year": 2009,
+      "role": "U.S. senator from New York",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2009,
+      "end_year": 2013,
+      "role": "67th Secretary of State",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2016,
+      "role": "Democratic nominee for president; lost the Electoral College to Donald Trump",
+      "org": "Hillary for America",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "rival",
+      "description": "Clinton lost a close 2008 Democratic primary to Obama, then endorsed him at the convention.",
+      "start_year": 2007,
+      "end_year": 2008,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "employer",
+      "description": "Clinton served as Obama's Secretary of State from 2009 to 2013.",
+      "start_year": 2009,
+      "end_year": 2013,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" },
+        { "url": "https://history.state.gov/departmenthistory/people/clinton-hillary-rodham", "title": "Biographies of the Secretaries of State: Hillary Rodham Clinton — Office of the Historian, U.S. Department of State" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "Trump beat Clinton in the 2016 presidential election; she won the popular vote but lost the Electoral College.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Trump's campaigns led \"lock her up\" chants against Clinton; in March 2025 his memo barred her, Harris, Liz Cheney and others from classified information and secure facilities.",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.nbcwashington.com/news/national-international/trump-revokes-access-to-classified-material-for-kamala-harris-hillary-clinton-and-biden-officials/3873990/", "title": "Trump revokes access to classified material for Kamala Harris, Hillary Clinton and Biden officials — NBC News" },
+        { "url": "https://www.foxnews.com/politics/trump-revokes-security-clearances-former-opponents-kamala-harris-hillary-clinton", "title": "Trump revokes security clearances of former opponents Kamala Harris, Hillary Clinton — Fox News" },
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "rival",
+      "description": "Sanders challenged Clinton for the 2016 Democratic nomination; he endorsed her in July 2016.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "ally",
+      "description": "Cabinet colleagues in the Obama administration; Clinton endorsed Biden for president on April 28, 2020 and spoke at that year's convention.",
+      "start_year": 2009,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "Bill and Hillary Clinton endorsed Harris on July 21, 2024, the day Biden withdrew.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" },
+        { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris — AP via Hawaii News Now" }
+      ]
+    },
+    {
+      "name": "Chuck Schumer",
+      "slug": "chuck-schumer",
+      "relationship_type": "colleague",
+      "description": "New York's two senators from 2001 to 2009; together they secured $21 billion for rebuilding the World Trade Center site.",
+      "start_year": 2001,
+      "end_year": 2009,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" },
+        { "url": "https://www.senate.gov/states/NY/senators.shtml", "title": "Senators from New York — U.S. Senate" },
+        { "url": "https://www.foxnews.com/us/once-rivals-and-allies-clinton-schumer-eye-new-partnership", "title": "Once rivals and allies, Clinton, Schumer eye new partnership — Fox News (AP)" }
+      ]
+    },
+    {
+      "name": "Elizabeth Warren",
+      "slug": "elizabeth-warren",
+      "relationship_type": "ally",
+      "description": "Warren endorsed Clinton in June 2016 and campaigned for her.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "name": "JB Pritzker",
+      "slug": "jb-pritzker",
+      "relationship_type": "ally",
+      "description": "Pritzker was a national co-chair of Clinton's 2008 presidential campaign.",
+      "start_year": 2007,
+      "end_year": 2016,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Bill Clinton",
+      "slug": "bill-clinton",
+      "relationship_type": "family",
+      "description": "Husband, married 1975; 42nd President of the United States (1993–2001).",
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" },
+        { "url": "https://www.history.com/this-day-in-history/october-11/bill-clinton-marries-hillary-rodham", "title": "Bill Clinton marries Hillary Rodham — HISTORY" },
+        { "url": "https://www.cbsnews.com/amp/news/bill-and-hillary-clinton-celebrate-40-years-of-marriage/", "title": "Bill and Hillary Clinton celebrate 40 years of marriage — CBS News" },
+        { "url": "https://en.wikipedia.org/wiki/Bill_Clinton", "title": "Bill Clinton — Wikipedia" }
+      ],
+      "public_figure_confirmed": true
+    },
+    {
+      "name": "Alex Soros",
+      "slug": "alex-soros",
+      "relationship_type": "friend",
+      "description": "The Clintons attended Alex Soros's June 2025 wedding to Huma Abedin, Hillary Clinton's longtime aide.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://digital-release.newsnationnow.com/?p=3418428", "title": "Clintons, Harris attend Hamptons wedding of Huma Abedin, Alex Soros — NewsNation" },
+        { "url": "https://www.nysun.com/article/democratic-royalty-descend-on-hamptons-for-marriage-of-george-soross-son-and-clinton-aide-huma-abedin", "title": "Democratic royalty descend on Hamptons for marriage of George Soros's son and Clinton aide Huma Abedin — New York Sun" }
+      ]
+    },
+    {
+      "name": "Tom Steyer",
+      "slug": "tom-steyer",
+      "relationship_type": "donor",
+      "description": "Steyer was an early supporter of Clinton's 2008 campaign.",
+      "start_year": 2007,
+      "end_year": 2008,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Laurene Powell Jobs",
+      "slug": "laurene-powell-jobs",
+      "relationship_type": "donor",
+      "description": "Powell Jobs gave $2 million to back Clinton in 2016 and raised another $4 million.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Laurene_Powell_Jobs", "title": "Laurene Powell Jobs — Wikipedia" }
+      ]
+    },
+    {
+      "name": "David Plouffe",
+      "slug": "david-plouffe",
+      "relationship_type": "rival",
+      "description": "Plouffe ran the Obama campaign strategy that beat Clinton in the 2008 primaries; he later advised her 2016 run.",
+      "start_year": 2007,
+      "end_year": 2008,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Rahm Emanuel",
+      "slug": "rahm-emanuel",
+      "relationship_type": "ally",
+      "description": "Emanuel, a Bill Clinton White House aide, said in 2006 he would back Hillary Clinton for president and stayed close to her.",
+      "start_year": 1993,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ron Klain",
+      "slug": "ron-klain",
+      "relationship_type": "employee",
+      "description": "Klain helped prepare her for the 2016 primary and general-election debates.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Records for Obama, Warren and Pritzker mirror those already in their files.",
+  "last_researched": "2026-11-19"
+}

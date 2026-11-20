@@ -1,0 +1,111 @@
+{
+  "name": "James Danly",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Deputy Secretary of Energy (since May 2025)",
+  "summary": "James Danly is the Energy Department’s No. 2, confirmed 52–44 on May 13, 2025. A lawyer and Iraq War veteran, he was a member and briefly chairman of the Federal Energy Regulatory Commission in Trump’s first term.",
+  "sources": [
+    { "url": "https://news.bloomberglaw.com/environment-and-energy/senate-confirms-james-danly-for-deputy-energy-secretary-role", "title": "Senate confirms James Danly for deputy energy secretary role — Bloomberg Law" },
+    { "url": "https://thehill.com/policy/energy-environment/5300806-senate-trump-nominees-energy-interior/", "title": "Senate approves Trump No. 2 picks for Energy, Interior — The Hill" },
+    { "url": "https://en.wikipedia.org/wiki/James_Danly", "title": "James Danly — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "end_year": 2022,
+      "role": "Commissioner (chairman 2020–2021)",
+      "org": "Federal Energy Regulatory Commission",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/James_Danly", "title": "James Danly — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Deputy Secretary of Energy",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/environment-and-energy/senate-confirms-james-danly-for-deputy-energy-secretary-role", "title": "Senate confirms James Danly for deputy energy secretary role — Bloomberg Law" },
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Chris Wright",
+      "slug": "chris-wright",
+      "relationship_type": "employer",
+      "description": "Wright’s deputy at the Energy Department since May 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://news.bloomberglaw.com/environment-and-energy/senate-confirms-james-danly-for-deputy-energy-secretary-role", "title": "Senate confirms James Danly for deputy energy secretary role — Bloomberg Law" }
+      ]
+    },
+    {
+      "name": "Charlie Dankert",
+      "slug": "charlie-dankert",
+      "relationship_type": "colleague",
+      "description": "Senior Energy Department officials together under Wright.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Kyle Haustveit",
+      "slug": "kyle-haustveit",
+      "relationship_type": "colleague",
+      "description": "Senior Energy Department officials together under Wright.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Darío Gil",
+      "slug": "dario-gil",
+      "relationship_type": "colleague",
+      "description": "Senior Energy Department officials together under Wright.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Brandon Williams",
+      "slug": "brandon-williams",
+      "relationship_type": "colleague",
+      "description": "Senior Energy Department officials together under Wright.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Secretary of Energy",
+    "unit": "energy",
+    "rank": 2,
+    "reports_to": "chris-wright",
+    "since": "2025-05",
+    "sources": [
+      { "url": "https://news.bloomberglaw.com/environment-and-energy/senate-confirms-james-danly-for-deputy-energy-secretary-role", "title": "Senate confirms James Danly for deputy energy secretary role — Bloomberg Law" },
+      { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

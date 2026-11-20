@@ -1,0 +1,63 @@
+{
+  "name": "David Venturella",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Acting Director, U.S. Immigration and Customs Enforcement (since June 2026)",
+  "summary": "David Venturella, a longtime ICE official who later worked for the private prison company GEO Group, has led ICE in an acting capacity since Todd Lyons left in May 2026.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/David_Venturella", "title": "David Venturella — Wikipedia" },
+    { "url": "https://thehill.com/homenews/administration/5835825-lyons-departure-ice-acting-head/", "title": "Todd Lyons to step down as acting ICE head, Markwayne Mullin announces — The Hill" }
+  ],
+  "timeline": [
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Acting Director",
+      "org": "U.S. Immigration and Customs Enforcement",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Venturella", "title": "David Venturella — Wikipedia" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": 2026,
+      "role": "Executive roles",
+      "org": "GEO Group",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Venturella", "title": "David Venturella — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Markwayne Mullin",
+      "slug": "markwayne-mullin",
+      "relationship_type": "employer",
+      "description": "Leads ICE, a DHS agency, under Mullin since June 2026.",
+      "start_year": 2026,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Venturella", "title": "David Venturella — Wikipedia" },
+        { "url": "https://thehill.com/homenews/administration/5835825-lyons-departure-ice-acting-head/", "title": "Todd Lyons to step down as acting ICE head, Markwayne Mullin announces — The Hill" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "ICE Director (acting)",
+    "unit": "dhs",
+    "rank": 3,
+    "reports_to": "markwayne-mullin",
+    "since": "2026-06-01",
+    "acting": true,
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/David_Venturella", "title": "David Venturella — Wikipedia" },
+      { "url": "https://thehill.com/homenews/administration/5835825-lyons-departure-ice-acting-head/", "title": "Todd Lyons to step down as acting ICE head, Markwayne Mullin announces — The Hill" }
+    ]
+  },
+  "notes": "Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

@@ -1,0 +1,367 @@
+{
+  "name": "Laurene Powell Jobs",
+  "aliases": ["Laurene Powell"],
+  "public_figure": true,
+  "sector": "business",
+  "groups": ["media", "critics", "2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "A major Democratic donor: gave $2 million to back Hillary Clinton in 2016 and has been one of Kamala Harris's biggest donors since her 2003 district attorney race.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Laurene_Powell_Jobs", "title": "Laurene Powell Jobs — Wikipedia" },
+        { "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/", "title": "Laurene Powell Jobs is one of Kamala Harris's biggest bankrollers—and closest friends — Fortune" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "laurene-powell-jobs.jpg",
+    "credit": "Craig McDean",
+    "license": "CC BY 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Laurene_Powell_Jobs_2025.jpg", "title": "File:Laurene Powell Jobs 2025.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Founder and president of Emerson Collective; chair and majority owner of The Atlantic",
+  "summary": "Laurene Powell Jobs, the widow of Apple co-founder Steve Jobs, runs Emerson Collective, an investment and philanthropy firm, and owns The Atlantic. One of the largest Democratic donors, she has been a close friend and backer of Kamala Harris for about two decades, and gave $2 million to back Hillary Clinton in 2016.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Laurene_Powell_Jobs", "title": "Laurene Powell Jobs — Wikipedia" },
+    { "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/", "title": "Laurene Powell Jobs is one of Kamala Harris's biggest bankrollers—and closest friends — Fortune" }
+  ],
+  "timeline": [
+    {
+      "year": 2004,
+      "end_year": null,
+      "role": "Founder and president",
+      "org": "Emerson Collective",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Laurene_Powell_Jobs", "title": "Laurene Powell Jobs — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": null,
+      "role": "Majority owner and chair",
+      "org": "The Atlantic",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Laurene_Powell_Jobs", "title": "Laurene Powell Jobs — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": null,
+      "role": "Co-founder and chair",
+      "org": "XQ Institute",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Laurene_Powell_Jobs", "title": "Laurene Powell Jobs — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "friend",
+      "description": "Friends for about two decades: Powell Jobs gave to Harris's first district attorney race in 2003, hosted fundraisers for her in 2009 and reportedly 2013, brought her to the 2012 State of the Union, and gave millions to groups backing her 2024 campaign; Harris reportedly sought her advice as Biden faced pressure to withdraw.",
+      "start_year": 2003,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/", "title": "Laurene Powell Jobs is one of Kamala Harris's biggest bankrollers—and closest friends — Fortune" },
+        { "url": "https://semafor.com/article/08/22/2024/first-friend-kamala-harriss-alliance-with-laurene-powell-jobs", "title": "First friend: Kamala Harris's alliance with Laurene Powell Jobs — Semafor" },
+        { "url": "https://en.wikipedia.org/wiki/Laurene_Powell_Jobs", "title": "Laurene Powell Jobs — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "funded_by",
+      "description": "Powell Jobs has funded Harris since 2003, including nearly $1 million to the Biden–Harris re-election effort in 2023 and millions more to groups backing Harris in 2024. FEC filings show $10,400 from Laurene Powell Jobs to Kamala Harris for Senate, Fearless for the People PAC in 2 cycles (2016–2018).",
+      "start_year": 2003,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/", "title": "Laurene Powell Jobs is one of Kamala Harris's biggest bankrollers—and closest friends — Fortune" },
+        { "url": "https://semafor.com/article/08/22/2024/first-friend-kamala-harriss-alliance-with-laurene-powell-jobs", "title": "First friend: Kamala Harris's alliance with Laurene Powell Jobs — Semafor" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00571919&two_year_transaction_period=2018", "title": "FEC receipts: JOBS, LAURENE to Kamala Harris for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00629071&two_year_transaction_period=2018", "title": "FEC receipts: JOBS, LAURENE to Fearless for the People PAC" }
+      ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "funded_by",
+      "description": "In 2016 Powell Jobs gave $2 million to back Clinton and raised another $4 million, including a $200,000-a-plate fundraiser.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Laurene_Powell_Jobs", "title": "Laurene Powell Jobs — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "ally",
+      "description": "Both have financed progressive voter-engagement efforts, reported together among the deepest pockets in progressive politics.",
+      "start_year": 2018,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Laurene_Powell_Jobs", "title": "Laurene Powell Jobs — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Steve Jobs",
+      "slug": "steve-jobs",
+      "relationship_type": "family",
+      "description": "Husband from 1991 until his death in 2011; co-founder of Apple.",
+      "start_year": 1991,
+      "end_year": 2011,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Laurene_Powell_Jobs", "title": "Laurene Powell Jobs — Wikipedia" },
+        { "url": "https://www.cnbc.com/2020/03/03/lesson-steve-jobs-shared-with-wife-laurene-powell-jobs.html", "title": "The lesson Steve Jobs shared with his wife Laurene Powell Jobs — CNBC" },
+        { "url": "https://www.cultofmac.com/news/steve-jobs-gets-married", "title": "Steve Jobs gets married — Cult of Mac" }
+      ],
+      "public_figure_confirmed": true
+    },
+    {
+      "name": "Senate Majority PAC",
+      "slug": "senate-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $1,500,000 from Laurene Powell Jobs to Senate Majority PAC in the 2016 cycle.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00484642&two_year_transaction_period=2016", "title": "FEC receipts: JOBS, LAURENE to Senate Majority PAC" }
+      ]
+    },
+    {
+      "name": "House Majority PAC",
+      "slug": "house-majority-pac",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $1,000,000 from Laurene Powell Jobs to HMP in the 2026 cycle.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00495028&two_year_transaction_period=2026", "title": "FEC receipts: JOBS, LAURENE to HMP" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Outlets describe her 2023 giving differently. Her FEC giving can be added by the FEC import.",
+  "last_researched": "2026-11-19",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 1000000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&two_year_transaction_period=2026", "title": "FEC itemized receipts: JOBS, LAURENE, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "House Majority PAC",
+            "org": "house-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00495028"],
+            "description": "Per FEC filings: HMP $1,000,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00495028&two_year_transaction_period=2026", "title": "FEC receipts: JOBS, LAURENE to HMP, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 50000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&two_year_transaction_period=2024", "title": "FEC itemized receipts: JOBS, LAURENE, 2024 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 15800,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&two_year_transaction_period=2022", "title": "FEC itemized receipts: JOBS, LAURENE, 2022 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 212800,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&two_year_transaction_period=2020", "title": "FEC itemized receipts: JOBS, LAURENE, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 70900,
+            "fec_usd": 70900,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00042366&two_year_transaction_period=2020", "title": "FEC receipts: JOBS, LAURENE to DSCC, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Joe Kennedy House Victory Fund",
+            "kind": "pac",
+            "amount_usd": 41000,
+            "fec_usd": 41000,
+            "fec_ids": ["C00672584"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00672584&two_year_transaction_period=2020", "title": "FEC receipts: JOBS, LAURENE to Joe Kennedy House Victory Fund, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 167000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&two_year_transaction_period=2018", "title": "FEC itemized receipts: JOBS, LAURENE, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 104400,
+            "fec_usd": 104400,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00042366&two_year_transaction_period=2018", "title": "FEC receipts: JOBS, LAURENE to DSCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Kamala Harris",
+            "slug": "kamala-harris",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 5000,
+            "fec_usd": 5000,
+            "fec_ids": ["C00629071"],
+            "description": "Per FEC filings: Fearless for the People PAC $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00629071&two_year_transaction_period=2018", "title": "FEC receipts: JOBS, LAURENE to Fearless for the People PAC, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 2003406,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&two_year_transaction_period=2016", "title": "FEC itemized receipts: JOBS, LAURENE, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Majority PAC",
+            "org": "senate-majority-pac",
+            "kind": "super-pac",
+            "side": "D",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00484642"],
+            "description": "Per FEC filings: Senate Majority PAC $1,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00484642&two_year_transaction_period=2016", "title": "FEC receipts: JOBS, LAURENE to Senate Majority PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Local Voices",
+            "kind": "super-pac",
+            "amount_usd": 400000,
+            "fec_usd": 400000,
+            "fec_ids": ["C00531624"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00531624&two_year_transaction_period=2016", "title": "FEC receipts: JOBS, LAURENE to Local Voices, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "DSCC",
+            "kind": "party",
+            "side": "D",
+            "amount_usd": 33400,
+            "fec_usd": 33400,
+            "fec_ids": ["C00042366"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00042366&two_year_transaction_period=2016", "title": "FEC receipts: JOBS, LAURENE to DSCC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Chuck Schumer",
+            "slug": "chuck-schumer",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00346312"],
+            "description": "Per FEC filings: Friends of Schumer $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00346312&two_year_transaction_period=2016", "title": "FEC receipts: JOBS, LAURENE to Friends of Schumer, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Kamala Harris",
+            "slug": "kamala-harris",
+            "kind": "candidate",
+            "side": "D",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00571919"],
+            "description": "Per FEC filings: Kamala Harris for Senate $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=JOBS%2C+LAURENE&committee_id=C00571919&two_year_transaction_period=2016", "title": "FEC receipts: JOBS, LAURENE to Kamala Harris for Senate, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No 2028 plans reported. She has funded Harris since her 2003 district attorney race and is among her closest confidantes; her other recent giving went to House Majority PAC.",
+      "sources": [
+        { "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/", "title": "Laurene Powell Jobs is one of Kamala Harris' biggest bankrollers—and closest friends — Fortune" },
+        { "url": "https://semafor.com/article/08/22/2024/first-friend-kamala-harriss-alliance-with-laurene-powell-jobs", "title": "First friend: Kamala Harris's alliance with Laurene Powell Jobs — Semafor" }
+      ],
+      "likely": [
+        {
+          "name": "Kamala Harris",
+          "slug": "kamala-harris",
+          "kind": "candidate",
+          "side": "D",
+          "basis": "Pattern: she has backed every Harris race since 2003, including nearly $1 million to the Biden–Harris re-election effort in 2023. Not a stated plan, and Harris has not decided whether to run.",
+          "confidence": 0.65,
+          "sources": [
+            { "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/", "title": "Laurene Powell Jobs is one of Kamala Harris' biggest bankrollers—and closest friends — Fortune" },
+            { "url": "https://semafor.com/article/08/22/2024/first-friend-kamala-harriss-alliance-with-laurene-powell-jobs", "title": "First friend: Kamala Harris's alliance with Laurene Powell Jobs — Semafor" }
+          ]
+        }
+      ]
+    }
+  },
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["kamala-harris"],
+    "basis": "One of Harris's closest friends and biggest backers for two decades. Harris has not decided whether to run in 2028, and no 2028 role for Powell Jobs is reported.",
+    "sources": [
+      { "url": "https://fortune.com/2024/09/26/laurene-powell-jobs-kamala-harris-biggest-donor-friends/", "title": "Laurene Powell Jobs is one of Kamala Harris' biggest bankrollers—and closest friends — Fortune" },
+      { "url": "https://semafor.com/article/08/22/2024/first-friend-kamala-harriss-alliance-with-laurene-powell-jobs", "title": "First friend: Kamala Harris's alliance with Laurene Powell Jobs — Semafor" }
+    ]
+  }
+}

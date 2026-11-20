@@ -1,0 +1,77 @@
+{
+  "name": "James Macy",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Director, Office of Workers’ Compensation Programs",
+  "summary": "James Macy directs the Office of Workers’ Compensation Programs, which runs federal workers’ compensation and black-lung and energy-worker benefits, and is quoted as director in its May 2026 announcements. He was earlier principal deputy administrator of the Wage and Hour Division and its acting administrator from September 2025 until Andrew Rogers took over.",
+  "sources": [
+    { "url": "https://www.dol.gov/agencies/owcp/leadership", "title": "OWCP Leadership — U.S. Department of Labor" },
+    { "url": "https://www.dol.gov/newsroom/releases/owcp/owcp20260505", "title": "US Department of Labor announces expansion of FECA pharmacy benefit program — U.S. Department of Labor (May 2026)" },
+    { "url": "https://www.dol.gov/agencies/whd/about/leadership/James-macy", "title": "James Macy, Wage and Hour Division Principal Deputy Administrator — U.S. Department of Labor" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": 2025,
+      "role": "Principal Deputy Administrator and Acting Administrator, Wage and Hour Division",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/whd/about/leadership/James-macy", "title": "James Macy, Wage and Hour Division Principal Deputy Administrator — U.S. Department of Labor" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Director, Office of Workers’ Compensation Programs",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/owcp/owcp20260505", "title": "US Department of Labor announces expansion of FECA pharmacy benefit program — U.S. Department of Labor (May 2026)" },
+        { "url": "https://www.dol.gov/agencies/owcp/leadership", "title": "OWCP Leadership — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Ran Wage and Hour as acting administrator in 2025 and now directs workers’ compensation programs.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/whd/about/leadership/James-macy", "title": "James Macy, Wage and Hour Division Principal Deputy Administrator — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/newsroom/releases/owcp/owcp20260505", "title": "US Department of Labor announces expansion of FECA pharmacy benefit program — U.S. Department of Labor (May 2026)" }
+      ]
+    },
+    {
+      "name": "Andrew Rogers",
+      "slug": "andrew-rogers",
+      "relationship_type": "colleague",
+      "description": "Macy was Wage and Hour’s principal deputy and acting administrator until Rogers was confirmed to run the division.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/whd/about/leadership/James-macy", "title": "James Macy, Wage and Hour Division Principal Deputy Administrator — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Director, Office of Workers’ Compensation Programs",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "keith-sonderling",
+    "since": "2026",
+    "sources": [
+      { "url": "https://www.dol.gov/newsroom/releases/owcp/owcp20260505", "title": "US Department of Labor announces expansion of FECA pharmacy benefit program — U.S. Department of Labor (May 2026)" },
+      { "url": "https://www.dol.gov/agencies/owcp/leadership", "title": "OWCP Leadership — U.S. Department of Labor" }
+    ]
+  },
+  "notes": "dol.gov pages could not be opened from this session (the site blocks automated readers); facts were confirmed with searches restricted to dol.gov and the cited outlets.",
+  "last_researched": "2026-11-08"
+}

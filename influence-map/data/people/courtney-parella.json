@@ -1,0 +1,124 @@
+{
+  "name": "Courtney Parella Spencer",
+  "aliases": ["Courtney Parella"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Acting Assistant Secretary for Public Affairs, U.S. Department of Health and Human Services (since May 2026)",
+  "summary": "Courtney Parella Spencer leads public affairs at the Department of Health and Human Services, where Robert F. Kennedy Jr. made her his top spokesperson in May 2026 after Rich Danker resigned in protest over the administration’s approval of fruit-flavored vapes. A former Trump 2020 campaign press secretary, she was previously deputy assistant secretary for public affairs and the main press contact at the Labor Department from March 2025.",
+  "sources": [
+    { "url": "https://www.hhs.gov/about/leadership/courtney-parella-spencer.html", "title": "Courtney Parella Spencer — U.S. Department of Health and Human Services" },
+    { "url": "https://subscriber.politicopro.com/article/2026/05/rfk-jr-taps-labor-official-as-top-spokesperson-00940497", "title": "RFK Jr. taps Labor official as top spokesperson — POLITICO Pro (May 2026)" },
+    { "url": "https://x.com/kelhoops/status/2059825786916331910", "title": "Kelly Hooper (POLITICO) on X, May 27, 2026" },
+    { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" }
+  ],
+  "timeline": [
+    {
+      "year": 2020,
+      "end_year": 2020,
+      "role": "Press Secretary",
+      "org": "Trump 2020 campaign",
+      "sources": [
+        { "url": "https://subscriber.politicopro.com/article/2026/05/rfk-jr-taps-labor-official-as-top-spokesperson-00940497", "title": "RFK Jr. taps Labor official as top spokesperson — POLITICO Pro (May 2026)" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Deputy Assistant Secretary, Office of Public Affairs",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
+        { "url": "https://ohsonline.com/articles/2025/03/18/us-department-of-labor-announces-senior-trump-administration-appointees.aspx", "title": "US Department of Labor announces senior Trump Administration appointees — OH&S (March 18, 2025)" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Acting Assistant Secretary for Public Affairs",
+      "org": "U.S. Department of Health and Human Services",
+      "sources": [
+        { "url": "https://www.hhs.gov/about/leadership/courtney-parella-spencer.html", "title": "Courtney Parella Spencer — U.S. Department of Health and Human Services" },
+        { "url": "https://subscriber.politicopro.com/article/2026/05/rfk-jr-taps-labor-official-as-top-spokesperson-00940497", "title": "RFK Jr. taps Labor official as top spokesperson — POLITICO Pro (May 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Worked in Sonderling’s Labor Department as deputy assistant secretary for public affairs and press contact until she moved to HHS in May 2026.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (media contact)" }
+      ]
+    },
+    {
+      "name": "Aaron Britt",
+      "slug": "aaron-britt",
+      "relationship_type": "colleague",
+      "description": "Named to Labor’s Office of Public Affairs together in March 2025: Parella as deputy assistant secretary, Britt as its chief of staff; she left for HHS in May 2026.",
+      "start_year": 2025,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" },
+        { "url": "https://ohsonline.com/articles/2025/03/18/us-department-of-labor-announces-senior-trump-administration-appointees.aspx", "title": "US Department of Labor announces senior Trump Administration appointees — OH&S (March 18, 2025)" }
+      ]
+    },
+    {
+      "name": "David O'Brien",
+      "slug": "david-obrien",
+      "relationship_type": "colleague",
+      "description": "Both worked in the Labor Department’s Office of Public Affairs, which O’Brien now leads, until Parella moved to HHS in May 2026.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/general/contact/leadership-team/opa", "title": "Office of Public Affairs leadership — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" }
+      ]
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "employer",
+      "description": "Kennedy picked her as HHS’s top spokesperson in May 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.hhs.gov/about/leadership/courtney-parella-spencer.html", "title": "Courtney Parella Spencer — U.S. Department of Health and Human Services" },
+        { "url": "https://subscriber.politicopro.com/article/2026/05/rfk-jr-taps-labor-official-as-top-spokesperson-00940497", "title": "RFK Jr. taps Labor official as top spokesperson — POLITICO Pro (May 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary for Public Affairs",
+    "acting": true,
+    "unit": "hhs",
+    "rank": 4,
+    "reports_to": "robert-f-kennedy-jr",
+    "since": "2026-05",
+    "sources": [
+      { "url": "https://www.hhs.gov/about/leadership/courtney-parella-spencer.html", "title": "Courtney Parella Spencer — U.S. Department of Health and Human Services" },
+      { "url": "https://subscriber.politicopro.com/article/2026/05/rfk-jr-taps-labor-official-as-top-spokesperson-00940497", "title": "RFK Jr. taps Labor official as top spokesperson — POLITICO Pro (May 2026)" }
+    ]
+  },
+  "source_conflicts": [
+    {
+      "topic": "Title at HHS",
+      "details": "Her HHS biography calls her acting assistant secretary for public affairs; the HHS leadership index lists her as assistant secretary. A consultancy’s personnel tracker reports a Senate confirmation that no official source confirms.",
+      "sources": [
+        { "url": "https://www.hhs.gov/about/leadership/courtney-parella-spencer.html", "title": "Courtney Parella Spencer — U.S. Department of Health and Human Services" }
+      ]
+    }
+  ],
+  "last_researched": "2026-11-08"
+}

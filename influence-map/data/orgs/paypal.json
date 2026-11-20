@@ -1,0 +1,225 @@
+{
+  "name": "PayPal",
+  "aliases": ["Confinity", "X.com"],
+  "kind": "company",
+  "founded": 1998,
+  "groups": ["paypal-mafia"],
+  "summary": "PayPal grew out of Confinity, founded in 1998 by Peter Thiel, Max Levchin, Luke Nosek and Ken Howery, which merged with Elon Musk’s X.com on March 30, 2000. Thiel returned as CEO in September 2000 and took it public in 2002, the year eBay bought it; its early staff became known as the PayPal Mafia.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/PayPal", "title": "PayPal — Wikipedia" },
+    { "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702025557/a2082506zs-1a.htm", "title": "PayPal Inc. — Form S-1/A (2002, SEC)" }
+  ],
+  "connections": [
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity in 1998; CEO and chairman of PayPal after the 2000 merger until 2002.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.britannica.com/money/Peter-Thiel", "title": "Peter Thiel — Britannica" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" },
+        { "url": "https://en.wikipedia.org/wiki/PayPal_Mafia", "title": "PayPal Mafia — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Max Levchin",
+      "slug": "max-levchin",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity in 1998; chief technology officer until 2002.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Max_Levchin", "title": "Max Levchin — Wikipedia" },
+        { "url": "https://www.britannica.com/money/PayPal", "title": "PayPal — Britannica" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Luke Nosek",
+      "slug": "luke-nosek",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity in 1998; vice president of marketing and strategy until 2002.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Luke_Nosek", "title": "Luke Nosek — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Ken Howery",
+      "slug": "ken-howery",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Confinity in 1998; first chief financial officer until 2002.",
+      "start_year": 1998,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Ken_Howery", "title": "Ken Howery — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "co-founder",
+      "description": "Co-founded X.com (1999), which merged with Confinity in 2000; replaced as CEO in 2000.",
+      "start_year": 1999,
+      "end_year": 2000,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/X.com_(bank)", "title": "X.com (bank) — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Confinity", "title": "Confinity — Wikipedia" },
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "slug": "david-sacks",
+      "relationship_type": "employee",
+      "description": "Chief operating officer and product leader.",
+      "start_year": 1999,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Sacks", "title": "David Sacks — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "slug": "reid-hoffman",
+      "relationship_type": "employee",
+      "description": "Senior executive (sources give COO or executive vice president).",
+      "start_year": 2000,
+      "end_year": 2002,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://www.cnbc.com/2017/08/27/linkedins-reid-hoffman-talks-going-from-investor-to-entrepreneur.html", "title": "How a master of scale climbed to the top: Reid Hoffman — CNBC" },
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "slug": "keith-rabois",
+      "relationship_type": "employee",
+      "description": "Executive vice president, business development and public affairs.",
+      "start_year": 2000,
+      "end_year": 2002,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Keith_Rabois", "title": "Keith Rabois — Wikipedia" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Roelof Botha",
+      "slug": "roelof-botha",
+      "relationship_type": "employee",
+      "description": "Chief financial officer; took the company public in 2002.",
+      "start_year": 2000,
+      "end_year": 2003,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Roelof_Botha", "title": "Roelof Botha — Wikipedia" },
+        { "url": "https://fortune.com/2024/07/21/paypal-mafia-silicon-valley-thiel-hoffman-botha-rabois-musk/", "title": "The PayPal Mafia still rules Silicon Valley — Fortune" }
+      ]
+    },
+    {
+      "name": "Jeremy Stoppelman",
+      "slug": "jeremy-stoppelman",
+      "relationship_type": "employee",
+      "description": "Vice president of engineering.",
+      "start_year": 2000,
+      "end_year": 2003,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001345016/000119312511315562/d245328ds1.htm", "title": "Yelp Form S-1 (2011) — SEC" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Premal Shah",
+      "slug": "premal-shah",
+      "relationship_type": "employee",
+      "description": "Product manager, one of the first 50 employees.",
+      "start_year": 2000,
+      "end_year": 2006,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://carnegie.org/great-immigrants/premal-shah/", "title": "Premal Shah — Carnegie Corporation Great Immigrants" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Andrew McCormack",
+      "slug": "andrew-mccormack",
+      "relationship_type": "employee",
+      "description": "Worked closely with Peter Thiel.",
+      "start_year": 2001,
+      "end_year": 2002,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.institutionalinvestor.com/index%2ephp/article/2bsvd7mvbvru9jvmqyxhc/portfolio/the-2015-fintech-finance-35-andrew-mccormack-valar-ventures-management", "title": "The 2015 Fintech Finance 35: Andrew McCormack — Institutional Investor" },
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Russel Simmons",
+      "slug": "russel-simmons",
+      "relationship_type": "employee",
+      "description": "Lead software architect (some sources call him a co-founder).",
+      "start_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Russel_Simmons", "title": "Russel Simmons — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/PayPal_Mafia", "title": "PayPal Mafia — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Chad Hurley",
+      "slug": "chad-hurley",
+      "relationship_type": "employee",
+      "description": "Early PayPal employee, before co-founding YouTube.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Steve Chen",
+      "slug": "steve-chen",
+      "relationship_type": "employee",
+      "description": "Early PayPal engineer, before co-founding YouTube.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    },
+    {
+      "name": "Jawed Karim",
+      "slug": "jawed-karim",
+      "relationship_type": "employee",
+      "description": "Early PayPal engineer, before co-founding YouTube.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://fortune.com/article/paypal-mafia/", "title": "The PayPal Mafia — Fortune" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Facts confirmed through search results for the cited pages. Links come from each person’s own sourced timeline entries or PayPal Mafia affiliation.",
+  "last_researched": "2026-11-08"
+}

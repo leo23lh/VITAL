@@ -1,0 +1,104 @@
+{
+  "name": "Julius Krein",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": 2016,
+      "end_year": 2016,
+      "basis": "Ran the pro-Trump blog Journal of American Greatness and voted for Trump.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Julius_Krein", "title": "Julius Krein — Wikipedia" }
+      ]
+    },
+    {
+      "value": 1,
+      "start_year": 2017,
+      "end_year": null,
+      "basis": "Launched American Affairs in February 2017 to give Trumpism \"intellectual heft\", then in August 2017 wrote in The New York Times \"I Voted for Trump and I Sorely Regret It\". Calls himself a conservative and nationalist (not a white nationalist) and critic of Reaganomics; now an industrial-policy advocate.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Julius_Krein", "title": "Julius Krein — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "Founder and editor of American Affairs; president of the New American Industrial Alliance",
+  "summary": "Julius Krein (born 1986) is a Harvard-educated former finance worker (Bank of America, Blackstone) who co-ran a pro-Trump blog in 2016 and in February 2017 founded American Affairs, a quarterly meant to give the Trump movement intellectual weight. After Charlottesville he publicly repudiated Trump in The New York Times. He now promotes industrial policy, including an American sovereign wealth fund, and spoke at NatCon in 2019 and 2021.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Julius_Krein", "title": "Julius Krein — Wikipedia" },
+    { "url": "https://www.chathamhouse.org/publications/twt/julius-krein-trumps-wunderkind", "title": "Julius Krein, Trump's wunderkind — Chatham House" },
+    { "url": "https://www.buzzsprout.com/1080440/episodes/17751286-an-american-sovereign-wealth-fund-with-julius-krein", "title": "An American Sovereign Wealth Fund with Julius Krein — The American Compass Podcast" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": null,
+      "role": "Founder and editor",
+      "org": "American Affairs",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Julius_Krein", "title": "Julius Krein — Wikipedia" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": null,
+      "role": "President",
+      "org": "New American Industrial Alliance",
+      "sources": [
+        { "url": "https://www.buzzsprout.com/1080440/episodes/17751286-an-american-sovereign-wealth-fund-with-julius-krein", "title": "An American Sovereign Wealth Fund with Julius Krein — The American Compass Podcast" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "National Conservatism Conference",
+      "role": "Speaker (2019, 2021)",
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/julius-krein/", "title": "Julius Krein — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Krein spoke at Hazony's NatCon in 2019 (\"A Strategy for National Development\") and 2021.",
+      "start_year": 2019,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/julius-krein/", "title": "Julius Krein — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "ally",
+      "description": "Krein met Thiel years earlier through a reading group on Leo Strauss; Thiel spoke at the 2017 launch of American Affairs. No source shows Thiel funding the journal.",
+      "start_year": 2017,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.chathamhouse.org/publications/twt/julius-krein-trumps-wunderkind", "title": "Julius Krein, Trump's wunderkind — Chatham House" },
+        { "url": "https://en.wikipedia.org/wiki/Julius_Krein", "title": "Julius Krein — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Oren Cass",
+      "slug": "oren-cass",
+      "relationship_type": "ally",
+      "description": "Fellow industrial-policy advocates: Krein appears on the American Compass podcast and contributed to the 2025 Techno-Industrial Policy Playbook co-published by American Compass.",
+      "start_year": 2025,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.buzzsprout.com/1080440/episodes/17751286-an-american-sovereign-wealth-fund-with-julius-krein", "title": "An American Sovereign Wealth Fund with Julius Krein — The American Compass Podcast" },
+        { "url": "https://www.rebuilding.tech/pdf/The-Techno-Industrial-Policy-Playbook-2025.pdf", "title": "The Techno-Industrial Policy Playbook 2025" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-07"
+}

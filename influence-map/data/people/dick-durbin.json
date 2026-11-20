@@ -1,0 +1,145 @@
+{
+  "name": "Dick Durbin",
+  "aliases": ["Richard Joseph Durbin", "Richard Durbin"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic congressman (1983–1997) and U.S. senator from Illinois since 1997; Senate Democratic whip since 2005.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Senate Democratic whip; ranking member, Senate Judiciary Committee (retiring January 2027)",
+    "unit": "senate",
+    "rank": 2,
+    "since": "2005-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+    ]
+  },
+  "photo": {
+    "file": "dick-durbin.jpg",
+    "credit": "U.S. Senate",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Dick_Durbin_2022_official_portrait_(cropped).jpg", "title": "File:Dick Durbin 2022 official portrait (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. senator from Illinois and Senate Democratic whip (since 2005); not seeking re-election, leaves office January 2027",
+  "summary": "Dick Durbin has been a U.S. senator from Illinois since 1997 and the Senate Democrats' whip, their second-ranking leader, since 2005, serving under Harry Reid and then Chuck Schumer; he chaired the Judiciary Committee from 2021 to 2025. He announced on April 23, 2025 that he would not seek re-election in 2026.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 1983,
+      "end_year": 1997,
+      "role": "U.S. representative from Illinois",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1997,
+      "end_year": null,
+      "role": "U.S. senator from Illinois",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2005,
+      "end_year": null,
+      "role": "Senate Democratic whip",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2025,
+      "role": "Chair, Senate Judiciary Committee",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Chuck Schumer",
+      "slug": "chuck-schumer",
+      "relationship_type": "ally",
+      "description": "Durbin has been Schumer's whip, the No. 2 Senate Democrat, since Schumer became leader in 2017; in 2015 they agreed on Schumer as Reid's successor with Durbin keeping the whip post.",
+      "start_year": 2015,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" },
+        { "url": "https://www.democrats.senate.gov/newsroom/press-releases/majority-leader-schumer-announces-senate-democratic-leadership-team-for-the-119th-congress", "title": "Schumer announces Senate Democratic leadership team for the 119th Congress — Senate Democrats" },
+        { "url": "https://www.pbs.org/newshour/politics/senate-democrats-stick-with-schumer-as-leader-strategy-for-countering-trump-uncertain", "title": "Senate Democrats stick with Schumer as leader — PBS NewsHour (AP)" }
+      ]
+    },
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "ally",
+      "description": "Illinois's two senators from 2005 to 2008; Durbin introduced his fellow Illinoisan at the 2008 Democratic National Convention.",
+      "start_year": 2005,
+      "end_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" },
+        { "url": "https://rollcall.com/2008/06/04/durbins-long-shot-pays-off/", "title": "Durbin's Long Shot Pays Off — Roll Call" },
+        { "url": "https://news.wttw.com/2012/09/06/web-extra-durbin-president-obama", "title": "Web Extra: Durbin on President Obama — WTTW" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Durbin voted to convict Trump in his first impeachment trial and, after January 6, 2021, blamed him for the attack and called for invoking the 25th Amendment.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Josh Hawley",
+      "slug": "josh-hawley",
+      "relationship_type": "enemy",
+      "description": "Durbin said Hawley, who objected to certifying the 2020 election, was partly responsible for the January 6, 2021 attack.",
+      "start_year": 2021,
+      "end_year": 2021,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Brian Schatz",
+      "slug": "brian-schatz",
+      "relationship_type": "colleague",
+      "description": "Schatz is Durbin's chief deputy whip and the front-runner to succeed him as whip when Durbin retires in January 2027.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/congress/brian-schatz-racks-support-succeed-dick-durbin-no-2-senate-democrat-rcna204192", "title": "Brian Schatz racks up support to succeed Dick Durbin as the No. 2 Senate Democrat — NBC News" },
+        { "url": "https://www.cbsnews.com/news/dick-durbin-retirement-announcement-senate-democrats-leadership/", "title": "Durbin retirement to prompt shakeup in Senate Democratic leadership — CBS News" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly); other pages could not be opened in this environment.",
+  "last_researched": "2026-11-19"
+}

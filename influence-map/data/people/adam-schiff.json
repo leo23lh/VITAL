@@ -1,0 +1,143 @@
+{
+  "name": "Adam Schiff",
+  "aliases": ["Adam Bennett Schiff"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic congressman (2001–2024) and U.S. senator from California since December 2024.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "U.S. senator from California",
+    "unit": "senate",
+    "rank": 4,
+    "since": "2024-12",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" }
+    ]
+  },
+  "photo": {
+    "file": "adam-schiff.jpg",
+    "credit": "U.S. Senate Photographic Studio",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Schiff_Adam_119th_Congress.jpg", "title": "File:Schiff Adam 119th Congress.jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. senator from California (since December 2024)",
+  "summary": "Adam Schiff represented a Los Angeles-area district in the House from 2001 to 2024, chaired the House Intelligence Committee (2019–2023) and was the lead manager in Trump's first impeachment trial; he has been a U.S. senator from California since December 2024. In 2025 the Trump administration's housing finance chief referred him to the Justice Department over alleged mortgage fraud, which Schiff denies and calls political; no charges had been reported by late 2025.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" },
+    { "url": "https://news.inman.com/2025/07/15/trump-adminstration-accuses-another-political-opponent-of-mortgage-fraud-adam-schiff/", "title": "Trump administration accuses another political opponent of mortgage fraud: Adam Schiff — Inman" }
+  ],
+  "timeline": [
+    {
+      "year": 2001,
+      "end_year": 2024,
+      "role": "U.S. representative from California",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2023,
+      "role": "Chair, House Intelligence Committee",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2020,
+      "role": "Lead House manager in Trump's first impeachment trial",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": null,
+      "role": "U.S. senator from California",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Schiff led the House managers in Trump's first impeachment trial (2020). In 2025 Trump called him a \"scam artist\" after FHFA director Bill Pulte referred Schiff to the Justice Department over alleged mortgage fraud; Schiff denies wrongdoing.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" },
+        { "url": "https://news.inman.com/2025/07/15/trump-adminstration-accuses-another-political-opponent-of-mortgage-fraud-adam-schiff/", "title": "Trump administration accuses another political opponent of mortgage fraud: Adam Schiff — Inman" },
+        { "url": "https://www.foxnews.com/politics/timeline-scam-artist-adam-schiffs-mortgage-fraud-allegations-stretching-back-years", "title": "Timeline of Adam Schiff mortgage fraud allegations — Fox News" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "ally",
+      "description": "Pelosi named Schiff to the Benghazi select committee and, on January 15, 2020, lead manager for Trump's first impeachment; she endorsed him for the Senate in 2023.",
+      "start_year": 2014,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "ally",
+      "description": "Schiff publicly called on Biden to end his reelection bid on July 17, 2024; Biden later pre-emptively pardoned him and the other members of the January 6 committee in January 2025.",
+      "start_year": 2021,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Bill Pulte",
+      "slug": "bill-pulte",
+      "relationship_type": "enemy",
+      "description": "As FHFA director, Pulte sent a criminal referral in May 2025 alleging Schiff claimed two primary residences on mortgage applications; Schiff denies wrongdoing.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://news.inman.com/2025/07/15/trump-adminstration-accuses-another-political-opponent-of-mortgage-fraud-adam-schiff/", "title": "Trump administration accuses another political opponent of mortgage fraud: Adam Schiff — Inman" },
+        { "url": "https://san.com/cc/sen-adam-schiff-under-investigation-for-alleged-mortgage-fraud-report/", "title": "Sen. Adam Schiff under investigation for alleged mortgage fraud — Straight Arrow News" }
+      ]
+    },
+    {
+      "name": "Katie Porter",
+      "slug": "katie-porter",
+      "relationship_type": "rival",
+      "description": "Schiff beat fellow Democrat Porter in the March 2024 California Senate primary.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. The mortgage investigation's status after November 2025 was not found.",
+  "last_researched": "2026-11-19"
+}

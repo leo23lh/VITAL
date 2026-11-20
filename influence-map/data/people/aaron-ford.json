@@ -1,0 +1,79 @@
+{
+  "name": "Aaron Ford",
+  "aliases": ["Aaron D. Ford"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic Nevada Senate leader, two-term Democratic attorney general and governor-elect.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Aaron_D._Ford", "title": "Aaron D. Ford — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "aaron-ford.jpg",
+    "credit": "United States Mission to Geneva, United States Department of State",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Nevada_Attorney_General_Aaron_Ford_addresses_the_United_Nations_Human_Rights_Committee,_October_17-18,_2023_1_(cropped).jpg", "title": "File:Nevada Attorney General Aaron Ford addresses the United Nations Human Rights Committee, October 17-18, 2023 1 (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Attorney general of Nevada; governor-elect (takes office January 4, 2027)",
+  "summary": "Aaron Ford, a former math teacher and lawyer, led Democrats in the Nevada Senate and has been the state's attorney general since 2019, suing the Trump administration more than 40 times in 2025. He defeated Republican Gov. Joe Lombardo in 2026 and will be Nevada's first Black governor. Nevada votes early in the 2028 Democratic calendar, and he has urged contenders to campaign there often.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Aaron_D._Ford", "title": "Aaron D. Ford — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Nevada_gubernatorial_election", "title": "2026 Nevada gubernatorial election — Wikipedia" },
+    { "url": "https://thehill.com/homenews/campaign/6222976-democrats-powerbrokers-2028-presidential-primary/", "title": "The new Democratic power brokers 2028 hopefuls need to know — The Hill" }
+  ],
+  "timeline": [
+    {
+      "year": 2013,
+      "end_year": 2018,
+      "role": "Nevada state senator; minority leader (2014–2016), majority leader (2016–2018)",
+      "org": "Nevada Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Aaron_D._Ford", "title": "Aaron D. Ford — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "Attorney general",
+      "org": "State of Nevada",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Aaron_D._Ford", "title": "Aaron D. Ford — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2027,
+      "end_year": null,
+      "role": "Governor of Nevada (elected November 2026)",
+      "org": "State of Nevada",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Aaron_D._Ford", "title": "Aaron D. Ford — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/2026_Nevada_gubernatorial_election", "title": "2026 Nevada gubernatorial election — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "As Nevada attorney general, Ford sued the Trump administration more than 40 times in 2025, mostly in multistate coalitions: over tariffs, the dismantling of the Education Department, frozen school grants, election rules and funding conditions.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://thenevadaindependent.com/article/breaking-down-attorney-general-fords-lawsuits-against-trump-administration-by-the-issues", "title": "Breaking down Attorney General Ford's lawsuits against the Trump administration — The Nevada Independent" },
+        { "url": "https://ag.nv.gov/News/PR/2025/Attorney_General_Ford_Sues_Trump_Administration_to_Stop_Illegal_Tariffs_That_Are_Inflicting_Chaos_on_the_American_Economy/", "title": "Attorney General Ford sues Trump administration to stop illegal tariffs — Nevada Attorney General" },
+        { "url": "https://ag.nv.gov/News/PR/2025/Attorney_General_Ford_Sues_Trump_Administration_to_Stop_Dismantling_of_Department_of_Education_and_Protect_Nevada_Students/", "title": "Attorney General Ford sues to stop dismantling of the Department of Education — Nevada Attorney General" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-20 from the Wikipedia article's source text (read directly) and web searches tied to each cited URL; other pages could not be opened in this environment.",
+  "last_researched": "2026-11-20"
+}

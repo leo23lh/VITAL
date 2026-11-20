@@ -1,0 +1,62 @@
+{
+  "name": "Robert Cekada",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Director of the Bureau of Alcohol, Tobacco, Firearms and Explosives (since April 2026)",
+  "summary": "Robert Cekada, an ATF agent since 2005 who had been running its day-to-day operations as deputy director, was confirmed 59–39 on April 29, 2026, the first ATF director confirmed under a Republican president. He then joined Todd Blanche to announce nearly three dozen final and proposed firearms rules.",
+  "sources": [
+    { "url": "https://www.govexec.com/management/2026/04/career-agent-confirmed-atf/413209/", "title": "Career agent confirmed to lead ATF — Government Executive (April 2026)" },
+    { "url": "https://rollcall.com/2026/04/29/senate-confirms-atf-director-who-announces-new-rules/", "title": "Senate confirms ATF director, who announces new rules — Roll Call" }
+  ],
+  "timeline": [
+    {
+      "year": 2005,
+      "end_year": 2025,
+      "role": "Agent, later Deputy Director",
+      "org": "Bureau of Alcohol, Tobacco, Firearms and Explosives",
+      "sources": [
+        { "url": "https://www.govexec.com/management/2026/04/career-agent-confirmed-atf/413209/", "title": "Career agent confirmed to lead ATF — Government Executive (April 2026)" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Director",
+      "org": "Bureau of Alcohol, Tobacco, Firearms and Explosives",
+      "sources": [
+        { "url": "https://www.govexec.com/management/2026/04/career-agent-confirmed-atf/413209/", "title": "Career agent confirmed to lead ATF — Government Executive (April 2026)" },
+        { "url": "https://rollcall.com/2026/04/29/senate-confirms-atf-director-who-announces-new-rules/", "title": "Senate confirms ATF director, who announces new rules — Roll Call" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Todd Blanche",
+      "slug": "todd-blanche",
+      "relationship_type": "employer",
+      "description": "Confirmed to run ATF in April 2026 and announced its rule changes alongside Blanche.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://rollcall.com/2026/04/29/senate-confirms-atf-director-who-announces-new-rules/", "title": "Senate confirms ATF director, who announces new rules — Roll Call" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Director, ATF",
+    "unit": "justice",
+    "rank": 3,
+    "reports_to": "todd-blanche",
+    "since": "2026-04-29",
+    "sources": [
+      { "url": "https://www.govexec.com/management/2026/04/career-agent-confirmed-atf/413209/", "title": "Career agent confirmed to lead ATF — Government Executive (April 2026)" },
+      { "url": "https://rollcall.com/2026/04/29/senate-confirms-atf-director-who-announces-new-rules/", "title": "Senate confirms ATF director, who announces new rules — Roll Call" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

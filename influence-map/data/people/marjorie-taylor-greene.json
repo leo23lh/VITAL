@@ -1,0 +1,131 @@
+{
+  "name": "Marjorie Taylor Greene",
+  "aliases": ["MTG"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": 2020,
+      "end_year": null,
+      "basis": "Republican congresswoman from Georgia and longtime Trump ally who broke with him over the Iran war in 2025–2026 and said she had left the Republican Party; remains on the populist right.",
+      "sources": [
+        { "url": "https://www.npr.org/2026/04/09/nx-s1-5778195/some-of-trumps-biggest-supporters-become-his-loudest-critics-over-iran-war", "title": "NPR: Some of Trump's biggest supporters become his loudest critics over Iran war" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=371383", "title": "AP via Hawaii Tribune-Herald: Tucker Carlson and Marjorie Taylor Greene say they are done with the GOP" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["jd-vance"],
+    "basis": "Placed in Vance's camp by the map owner as part of Tucker Carlson's circle (Carlson is Vance's close friend). The sources show Greene urging Carlson himself to run in 2028; Kent said the group thinks Vance is too compromised.",
+    "sources": [
+      { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+    ]
+  },
+  "photo": {
+    "file": "marjorie-taylor-greene.jpg",
+    "credit": "U.S. House of Representatives",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Marjorie_Taylor_Greene_(cropped).jpg", "title": "File:Marjorie Taylor Greene (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Former U.S. representative from Georgia; anti-war populist activist",
+  "summary": "Marjorie Taylor Greene, a Georgia Republican elected to the House in 2020, was one of Trump's most prominent allies before breaking with him over the Iran war. She called for his removal via the 25th Amendment, said she was done with the GOP, and in August 2026 joined Tucker Carlson, Thomas Massie and Joe Kent in urging Carlson to run for president.",
+  "sources": [
+    { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" },
+    { "url": "https://www.npr.org/2026/04/09/nx-s1-5778195/some-of-trumps-biggest-supporters-become-his-loudest-critics-over-iran-war", "title": "NPR: Some of Trump's biggest supporters become his loudest critics over Iran war" },
+    { "url": "https://www.hawaiitribune-herald.com/?p=371383", "title": "AP via Hawaii Tribune-Herald: Tucker Carlson and Marjorie Taylor Greene say they are done with the GOP" }
+  ],
+  "timeline": [
+    {
+      "year": 2021,
+      "role": "U.S. representative for Georgia's 14th district",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "Greene joined Carlson, Massie and Kent at his Maine home in August 2026 and urged him to run for president; she and Carlson both said they were done with the GOP.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=371383", "title": "AP via Hawaii Tribune-Herald: Tucker Carlson and Marjorie Taylor Greene say they are done with the GOP" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Once a leading Trump ally, Greene broke with him over the Iran war and called for his removal; Trump attacked her and Carlson as \"LOSERS ALL\".",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.npr.org/2026/04/09/nx-s1-5778195/some-of-trumps-biggest-supporters-become-his-loudest-critics-over-iran-war", "title": "NPR: Some of Trump's biggest supporters become his loudest critics over Iran war" },
+        { "url": "https://salon.com/2026/08/22/i-wish-i-had-never-supported-him-mtg-fires-back-after-trumps-attack-on-maga-losers", "title": "Salon: 'I wish I had never supported him': MTG fires back" }
+      ]
+    },
+    {
+      "name": "Thomas Massie",
+      "slug": "thomas-massie",
+      "relationship_type": "ally",
+      "description": "Fellow anti-war Republicans who joined Carlson's August 2026 gathering and urged him to run.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+      ]
+    },
+    {
+      "name": "Joe Kent",
+      "slug": "joe-kent",
+      "relationship_type": "ally",
+      "description": "Both urged Carlson to run in 2028 and discussed a new anti-war political movement.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://cbsaustin.com/news/nation-world/joe-kent-mtg-and-thomas-massie-tried-to-convince-tucker-carlson-to-run-for-president-donald-trump-iran-israel", "title": "CBS Austin: Joe Kent, MTG and Thomas Massie tried to convince Tucker Carlson to run for president" }
+      ]
+    },
+    {
+      "name": "Richard Uihlein",
+      "slug": "richard-uihlein",
+      "relationship_type": "donor",
+      "description": "FEC filings show $14,500 from Richard Uihlein to Greene for Congress in 2 cycles (2022–2024).",
+      "start_year": 2022,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=UIHLEIN%2C+RICHARD&committee_id=C00708289&two_year_transaction_period=2024", "title": "FEC receipts: UIHLEIN, RICHARD to Greene for Congress" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "asks": [
+    {
+      "date": "2025-07",
+      "with": ["donald-trump", "mike-johnson"],
+      "kind": "policy",
+      "outcome": "granted",
+      "decided": "2025-11-19",
+      "what": "One of four Republicans who signed the discharge petition to release the Epstein files; Trump signed the bill on Nov. 19 after first opposing it.",
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=3891771", "title": "Trump signs Epstein bill after swift passage in Senate — Washington Examiner" },
+        { "url": "https://www.cbsnews.com/news/trump-says-signed-epstein-files-bill", "title": "Trump says he signed Epstein files bill — CBS News" }
+      ]
+    }
+  ]
+}

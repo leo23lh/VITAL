@@ -1,0 +1,77 @@
+{
+  "name": "Alex Fitzsimmons",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Associate Deputy Secretary of Energy and Senior Advisor to the Secretary (since May 2026)",
+  "summary": "Alex Fitzsimmons was acting under secretary of energy from October 2025 until Kyle Haustveit was confirmed in May 2026, when Wright named him associate deputy secretary and senior adviser.",
+  "sources": [
+    { "url": "https://www.energy.gov/node/4853461", "title": "Secretary Wright names Alex Fitzsimmons new acting under secretary of energy — U.S. Department of Energy" },
+    { "url": "https://www.energy.gov/articles/secretary-wright-announces-leadership-changes-deliver-affordable-reliable-and-secure", "title": "Secretary Wright announces leadership changes — U.S. Department of Energy" },
+    { "url": "https://www.tdworld.com/policy/news/55381266/doe-leadership-changes-highlight-shift-in-domestic-energy-priorities-toward-hydrocarbons", "title": "DOE leadership changes highlight shift toward hydrocarbons — T&D World" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Acting Under Secretary of Energy",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://www.energy.gov/node/4853461", "title": "Secretary Wright names Alex Fitzsimmons new acting under secretary of energy — U.S. Department of Energy" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Associate Deputy Secretary and Senior Advisor to the Secretary",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://www.energy.gov/articles/secretary-wright-announces-leadership-changes-deliver-affordable-reliable-and-secure", "title": "Secretary Wright announces leadership changes — U.S. Department of Energy" },
+        { "url": "https://www.tdworld.com/policy/news/55381266/doe-leadership-changes-highlight-shift-in-domestic-energy-priorities-toward-hydrocarbons", "title": "DOE leadership changes highlight shift toward hydrocarbons — T&D World" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Chris Wright",
+      "slug": "chris-wright",
+      "relationship_type": "employer",
+      "description": "Wright named him acting under secretary in October 2025 and his senior adviser in 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.energy.gov/node/4853461", "title": "Secretary Wright names Alex Fitzsimmons new acting under secretary of energy — U.S. Department of Energy" },
+        { "url": "https://www.energy.gov/articles/secretary-wright-announces-leadership-changes-deliver-affordable-reliable-and-secure", "title": "Secretary Wright announces leadership changes — U.S. Department of Energy" }
+      ]
+    },
+    {
+      "name": "Kyle Haustveit",
+      "slug": "kyle-haustveit",
+      "relationship_type": "colleague",
+      "description": "Fitzsimmons held the under secretary post as acting until Haustveit was confirmed to it in May 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.energy.gov/articles/secretary-wright-announces-leadership-changes-deliver-affordable-reliable-and-secure", "title": "Secretary Wright announces leadership changes — U.S. Department of Energy" },
+        { "url": "https://www.tdworld.com/policy/news/55381266/doe-leadership-changes-highlight-shift-in-domestic-energy-priorities-toward-hydrocarbons", "title": "DOE leadership changes highlight shift toward hydrocarbons — T&D World" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Associate Deputy Secretary; Senior Advisor to the Secretary",
+    "unit": "energy",
+    "rank": 4,
+    "reports_to": "chris-wright",
+    "since": "2026-05",
+    "sources": [
+      { "url": "https://www.energy.gov/articles/secretary-wright-announces-leadership-changes-deliver-affordable-reliable-and-secure", "title": "Secretary Wright announces leadership changes — U.S. Department of Energy" },
+      { "url": "https://www.tdworld.com/policy/news/55381266/doe-leadership-changes-highlight-shift-in-domestic-energy-priorities-toward-hydrocarbons", "title": "DOE leadership changes highlight shift toward hydrocarbons — T&D World" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

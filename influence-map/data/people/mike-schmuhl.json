@@ -1,0 +1,61 @@
+{
+  "name": "Mike Schmuhl",
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic operative from Indiana.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Buttigieg_2020_presidential_campaign", "title": "Wikipedia: Pete Buttigieg 2020 presidential campaign" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["pete-buttigieg"],
+    "basis": "Longtime Buttigieg aide who managed his 2020 presidential campaign; no 2028 role reported yet.",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Pete_Buttigieg_2020_presidential_campaign", "title": "Wikipedia: Pete Buttigieg 2020 presidential campaign" }
+    ]
+  },
+  "current_role": "Democratic operative in Indiana",
+  "summary": "Mike Schmuhl, a longtime aide to Pete Buttigieg from South Bend, managed Buttigieg's 2020 presidential campaign.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Pete_Buttigieg_2020_presidential_campaign", "title": "Wikipedia: Pete Buttigieg 2020 presidential campaign" }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "end_year": 2020,
+      "role": "Campaign manager",
+      "org": "Pete for America",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Buttigieg_2020_presidential_campaign", "title": "Wikipedia: Pete Buttigieg 2020 presidential campaign" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Pete Buttigieg",
+      "slug": "pete-buttigieg",
+      "relationship_type": "employer",
+      "description": "Schmuhl managed his 2020 presidential campaign.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Buttigieg_2020_presidential_campaign", "title": "Wikipedia: Pete Buttigieg 2020 presidential campaign" },
+        { "url": "https://www.pbs.org/newshour/politics/buttigieg-scrambles-to-turn-2020-buzz-into-momentum", "title": "Buttigieg scrambles to turn 2020 buzz into momentum — AP via PBS NewsHour" },
+        { "url": "https://ballotpedia.org/Mike_Schmuhl", "title": "Mike Schmuhl — Ballotpedia" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Courtney Walter",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Chief of Staff, U.S. Department of Labor (since May 2026)",
+  "summary": "Courtney Walter became chief of staff of the Labor Department on May 1, 2026, when Acting Secretary Keith Sonderling named his senior team after Lori Chavez-DeRemer resigned. She had been senior counselor to the secretary since March 2025, and in the first Trump administration held several posts at the department, including senior counsel in the Office of the Solicitor, with private labor and employment practice in between.",
+  "sources": [
+    { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" },
+    { "url": "https://www.dol.gov/agencies/osec/chief-of-staff", "title": "Courtney Walter, Chief of Staff — U.S. Department of Labor" },
+    { "url": "https://news.bloomberglaw.com/daily-labor-report/acting-labor-secretary-sonderling-appoints-seasoned-dol-aides", "title": "Acting Labor Secretary Sonderling appoints seasoned DOL aides — Bloomberg Law" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "role": "Senior Counsel, Office of the Solicitor (and other posts)",
+      "org": "U.S. Department of Labor (first Trump administration)",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" },
+        { "url": "https://www.dol.gov/agencies/osec/chief-of-staff", "title": "Courtney Walter, Chief of Staff — U.S. Department of Labor" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Senior Counselor to the Secretary",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 13, 2025)" },
+        { "url": "https://www.dol.gov/agencies/osec/chief-of-staff", "title": "Courtney Walter, Chief of Staff — U.S. Department of Labor" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Chief of Staff",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" },
+        { "url": "https://www.dol.gov/agencies/osec/chief-of-staff", "title": "Courtney Walter, Chief of Staff — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Sonderling named Walter his chief of staff on May 1, 2026, when he was acting secretary.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" },
+        { "url": "https://news.bloomberglaw.com/daily-labor-report/acting-labor-secretary-sonderling-appoints-seasoned-dol-aides", "title": "Acting Labor Secretary Sonderling appoints seasoned DOL aides — Bloomberg Law" }
+      ]
+    },
+    {
+      "name": "Cynthia McKnight",
+      "slug": "cynthia-mcknight",
+      "relationship_type": "colleague",
+      "description": "Both named to the Office of the Secretary’s senior team on May 1, 2026: Walter as chief of staff, McKnight as a deputy chief of staff.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    },
+    {
+      "name": "Garrett Buttrey",
+      "slug": "garrett-buttrey",
+      "relationship_type": "colleague",
+      "description": "Both named to the Office of the Secretary’s senior team on May 1, 2026: Walter as chief of staff, Buttrey as a deputy chief of staff.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Chief of Staff",
+    "unit": "labor",
+    "rank": 3,
+    "reports_to": "keith-sonderling",
+    "since": "2026-05",
+    "sources": [
+      { "url": "https://www.dol.gov/newsroom/releases/osec/osec20260501", "title": "US Department of Labor names Office of the Secretary’s senior leadership team — U.S. Department of Labor (May 1, 2026)" },
+      { "url": "https://www.dol.gov/agencies/osec/chief-of-staff", "title": "Courtney Walter, Chief of Staff — U.S. Department of Labor" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

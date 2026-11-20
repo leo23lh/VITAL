@@ -1,0 +1,166 @@
+{
+  "name": "JB Pritzker",
+  "aliases": ["Jay Robert Pritzker", "J. B. Pritzker"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics", "2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic governor of Illinois since 2019; a national co-chair of Hillary Clinton's 2008 campaign and a longtime Democratic donor.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Has declined to rule out a 2028 presidential run (\"I can't rule anything out,\" Meet the Press, August 2025); reporting expects a decision during 2027.",
+    "sources": [
+      { "url": "https://m.washingtontimes.com/news/2025/aug/10/illinois-gov-jb-pritzker-wont-rule-2028-democratic-presidential-run/", "title": "Illinois Gov. JB Pritzker won't rule out 2028 Democratic presidential run — The Washington Times" },
+      { "url": "https://www.cbsnews.com/chicago/news/2028-presidential-run-illinois-gov-jb-pritzker-comments/", "title": "Pritzker comments on a 2028 presidential run — CBS Chicago" }
+    ]
+  },
+  "photo": {
+    "file": "jb-pritzker.jpg",
+    "credit": "Oscar Garza",
+    "license": "CC BY-SA 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Governor_JB_Pritzker_Official_Portrait.jpg", "title": "File:Governor JB Pritzker Official Portrait.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Governor of Illinois (since 2019; elected to a third term in November 2026)",
+  "summary": "JB Pritzker, an heir to the Hyatt hotel fortune and a venture investor, has been the Democratic governor of Illinois since 2019 and in November 2026 became the first Democratic governor of Illinois elected to a third term. He has become one of the most prominent Democratic critics of President Trump's second term and is discussed as a 2028 presidential contender.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 1998,
+      "role": "Ran unsuccessfully for Congress (Illinois's 9th district)",
+      "org": "Democratic Party",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2007,
+      "end_year": 2008,
+      "role": "National co-chair of Hillary Clinton's presidential campaign",
+      "org": "Hillary Clinton 2008 campaign",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": null,
+      "role": "Governor of Illinois",
+      "org": "State of Illinois",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Illinois and Chicago sued on October 6, 2025 to stop Trump's National Guard deployment to Chicago; two days later Trump wrote that Pritzker \"should be in jail,\" and Pritzker called him a coward and said \"come and get me.\"",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.axios.com/2025/10/08/trump-jb-pritzker-brandon-johnson-chicago-jail", "title": "Trump baselessly calls for Pritzker, Chicago mayor to be jailed — Axios" },
+        { "url": "https://www.nprillinois.org/illinois/2025-10-08/pritzker-johnson-fight-back-after-president-trump-says-they-should-be-jailed-for-failing-to-protect-ice", "title": "Pritzker, Johnson fight back after Trump says they should be jailed — NPR Illinois" },
+        { "url": "https://fox32chicago.com/news/trump-brandon-johnson-pritzker-ice", "title": "Trump says Johnson, Pritzker 'should be in jail' — Fox 32 Chicago" }
+      ]
+    },
+    {
+      "name": "Ken Griffin",
+      "slug": "ken-griffin",
+      "relationship_type": "enemy",
+      "description": "Griffin spent roughly $47 million to $54 million (reports differ) to defeat Pritzker's 2020 graduated income tax amendment, which voters rejected; he moved Citadel's headquarters from Chicago to Miami in 2022.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" },
+        { "url": "https://www.wbez.org/politics/2022/06/23/ken-griffins-illinois-exit-leaves-irvin-behind", "title": "Ken Griffin's Illinois exit leaves Irvin behind — WBEZ" },
+        { "url": "https://blockclubchicago.org/2022/06/23/ken-griffin-illinois-richest-man-moving-citadel-headquarters-to-miami/", "title": "Ken Griffin moving Citadel headquarters to Miami — Block Club Chicago" }
+      ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "ally",
+      "description": "Pritzker was a national co-chair of Clinton's 2008 presidential campaign and attended her 2016 election-night event.",
+      "start_year": 2007,
+      "end_year": 2016,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "Pritzker was interviewed as a possible 2024 running mate for Harris (Tim Walz was chosen) and campaigned for her.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Penny Pritzker",
+      "slug": "penny-pritzker",
+      "relationship_type": "family",
+      "description": "Sister; U.S. Secretary of Commerce under Barack Obama (2013–2017).",
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" }
+      ],
+      "public_figure_confirmed": true
+    },
+    {
+      "name": "Darren Bailey",
+      "slug": "darren-bailey",
+      "relationship_type": "rival",
+      "description": "Pritzker defeated the Republican Bailey for governor in 2022 and again in 2026.",
+      "start_year": 2022,
+      "end_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Bruce Rauner",
+      "slug": "bruce-rauner",
+      "relationship_type": "rival",
+      "description": "Pritzker unseated the Republican governor Rauner in 2018.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Reports differ on how much Griffin spent against the 2020 tax amendment. Wikipedia reports Pritzker's November 2026 re-election; no news page confirming the result was found by search.",
+  "source_conflicts": [
+    {
+      "topic": "Griffin's spending against the 2020 graduated income tax",
+      "details": "Reports put it at about $47 million, about $50 million, and about $53.75 million.",
+      "sources": [
+        { "url": "https://www.wbez.org/politics/2022/06/23/ken-griffins-illinois-exit-leaves-irvin-behind", "title": "WBEZ" },
+        { "url": "https://en.wikipedia.org/wiki/JB_Pritzker", "title": "JB Pritzker — Wikipedia" }
+      ]
+    }
+  ],
+  "last_researched": "2026-11-19"
+}

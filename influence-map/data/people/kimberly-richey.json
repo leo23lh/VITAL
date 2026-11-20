@@ -1,0 +1,54 @@
+{
+  "name": "Kimberly Richey",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Assistant Secretary for Civil Rights, Department of Education (confirmed October 2025)",
+  "summary": "Kimberly Richey, who served in the Office for Civil Rights in Trump’s first term, was confirmed 51–47 in October 2025 to lead it under Education Secretary Linda McMahon.",
+  "sources": [
+    { "url": "https://www.highereddive.com/news/richey-confirmed-to-lead-education-departments-office-for-civil-rights-2025-trump-mcmahon/802374/", "title": "Richey confirmed to lead Education Department’s Office for Civil Rights — Higher Ed Dive" },
+    { "url": "https://www.ed.gov/media/document/ed-department-organizational-charts-september-16-2026-109982.pdf", "title": "U.S. Department of Education organizational charts, September 16, 2026 — ed.gov" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Assistant Secretary for Civil Rights",
+      "org": "U.S. Department of Education",
+      "sources": [
+        { "url": "https://www.highereddive.com/news/richey-confirmed-to-lead-education-departments-office-for-civil-rights-2025-trump-mcmahon/802374/", "title": "Richey confirmed to lead Education Department’s Office for Civil Rights — Higher Ed Dive" },
+        { "url": "https://www.ed.gov/media/document/ed-department-organizational-charts-september-16-2026-109982.pdf", "title": "U.S. Department of Education organizational charts, September 16, 2026 — ed.gov" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Linda McMahon",
+      "slug": "linda-mcmahon",
+      "relationship_type": "employer",
+      "description": "Leads the Office for Civil Rights; McMahon has praised her appointment.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.highereddive.com/news/richey-confirmed-to-lead-education-departments-office-for-civil-rights-2025-trump-mcmahon/802374/", "title": "Richey confirmed to lead Education Department’s Office for Civil Rights — Higher Ed Dive" },
+        { "url": "https://www.ed.gov/media/document/ed-department-organizational-charts-september-16-2026-109982.pdf", "title": "U.S. Department of Education organizational charts, September 16, 2026 — ed.gov" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary for Civil Rights",
+    "unit": "education",
+    "rank": 4,
+    "reports_to": "linda-mcmahon",
+    "since": "2025-10",
+    "sources": [
+      { "url": "https://www.highereddive.com/news/richey-confirmed-to-lead-education-departments-office-for-civil-rights-2025-trump-mcmahon/802374/", "title": "Richey confirmed to lead Education Department’s Office for Civil Rights — Higher Ed Dive" },
+      { "url": "https://www.ed.gov/media/document/ed-department-organizational-charts-september-16-2026-109982.pdf", "title": "U.S. Department of Education organizational charts, September 16, 2026 — ed.gov" }
+    ]
+  },
+  "notes": "One Education Department page also lists her as assistant secretary for special education (OSERS); unconfirmed. Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

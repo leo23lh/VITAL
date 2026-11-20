@@ -1,0 +1,118 @@
+{
+  "name": "Brian Schatz",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Progressive Democrat: Hawaii Democratic Party chair, lieutenant governor and U.S. senator since 2012.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Brian_Schatz", "title": "Brian Schatz — Wikipedia" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "U.S. senator from Hawaii; chief deputy whip; front-runner to succeed Dick Durbin as Democratic whip (caucus vote due early December 2026)",
+    "unit": "senate",
+    "rank": 4,
+    "since": "2012-12-26",
+    "verified": "2026-11-20",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Brian_Schatz", "title": "Brian Schatz — Wikipedia" },
+      { "url": "https://www.nbcnews.com/politics/congress/brian-schatz-racks-support-succeed-dick-durbin-no-2-senate-democrat-rcna204192", "title": "Brian Schatz racks up support to succeed Dick Durbin as the No. 2 Senate Democrat — NBC News" },
+      { "url": "https://thehill.com/homenews/senate/6220115-senate-democrats-leadership-election-update/", "title": "Democratic allies predict Schumer will secure 40+ votes in leadership race — The Hill" }
+    ]
+  },
+  "photo": {
+    "file": "brian-schatz.jpg",
+    "credit": "United States Senate",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Brian_Schatz,_official_portrait,_113th_Congress_2.jpg", "title": "File:Brian Schatz, official portrait, 113th Congress 2.jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. senator from Hawaii; chief deputy whip and front-runner for Democratic whip",
+  "summary": "Brian Schatz has been a U.S. senator from Hawaii since December 2012, after serving as the state's lieutenant governor. A progressive Democrat and the caucus's chief deputy whip, he moved quickly after Dick Durbin announced his retirement and has lined up support, including Chuck Schumer's, to become the No. 2 Senate Democrat in 2027.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Brian_Schatz", "title": "Brian Schatz — Wikipedia" },
+    { "url": "https://www.nbcnews.com/politics/congress/brian-schatz-racks-support-succeed-dick-durbin-no-2-senate-democrat-rcna204192", "title": "Brian Schatz racks up support to succeed Dick Durbin as the No. 2 Senate Democrat — NBC News" }
+  ],
+  "timeline": [
+    {
+      "year": 2010,
+      "end_year": 2012,
+      "role": "Lieutenant governor",
+      "org": "State of Hawaii",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Brian_Schatz", "title": "Brian Schatz — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2012,
+      "end_year": null,
+      "role": "U.S. senator from Hawaii",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Brian_Schatz", "title": "Brian Schatz — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Chuck Schumer",
+      "slug": "chuck-schumer",
+      "relationship_type": "ally",
+      "description": "Schumer backed Schatz to succeed Durbin as whip, the No. 2 post under him.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/congress/brian-schatz-racks-support-succeed-dick-durbin-no-2-senate-democrat-rcna204192", "title": "Brian Schatz racks up support to succeed Dick Durbin as the No. 2 Senate Democrat — NBC News" },
+        { "url": "https://www.washingtonexaminer.com/news/senate/3393658/brian-schatz-senate-bid-replace-dick-durbin-democratic-whip/", "title": "Schatz launches bid to replace Durbin as Democratic whip — Washington Examiner" }
+      ]
+    },
+    {
+      "name": "Dick Durbin",
+      "slug": "dick-durbin",
+      "relationship_type": "colleague",
+      "description": "Schatz is chief deputy whip under Durbin and the front-runner to succeed him as whip when Durbin retires in January 2027.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/congress/brian-schatz-racks-support-succeed-dick-durbin-no-2-senate-democrat-rcna204192", "title": "Brian Schatz racks up support to succeed Dick Durbin as the No. 2 Senate Democrat — NBC News" },
+        { "url": "https://www.cbsnews.com/news/dick-durbin-retirement-announcement-senate-democrats-leadership/", "title": "Durbin retirement to prompt shakeup in Senate Democratic leadership — CBS News" }
+      ]
+    },
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "ally",
+      "description": "One of Obama's earliest backers: in December 2006 Schatz founded a group of Hawaii Democrats urging him to run for president.",
+      "start_year": 2006,
+      "end_year": 2008,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Brian_Schatz", "title": "Brian Schatz — Wikipedia" },
+        { "url": "https://www.theatlantic.com/politics/archive/2012/12/who-is-brian-schatz-the-new-us-senator-from-hawaii/266652/", "title": "Who is Brian Schatz, the new U.S. senator from Hawaii? — The Atlantic" }
+      ]
+    },
+    {
+      "name": "Chris Murphy",
+      "slug": "chris-murphy",
+      "relationship_type": "ally",
+      "description": "Co-sponsors of the Kids Off Social Media Act and fellow members of the Senate Democratic leadership.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.schatz.senate.gov/kosma", "title": "Kids Off Social Media Act — Sen. Brian Schatz" },
+        { "url": "https://en.wikipedia.org/wiki/Chris_Murphy", "title": "Chris Murphy — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-20 from the Wikipedia article's source text (read directly) and web searches tied to each cited URL; other pages could not be opened in this environment.",
+  "last_researched": "2026-11-20"
+}

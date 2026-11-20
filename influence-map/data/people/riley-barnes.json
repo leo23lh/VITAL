@@ -1,0 +1,54 @@
+{
+  "name": "Riley Barnes",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Assistant Secretary of State for Democracy, Human Rights, and Labor",
+  "summary": "Riley Barnes heads the State Department’s Bureau of Democracy, Human Rights, and Labor.",
+  "sources": [
+    { "url": "https://www.state.gov/releases/bureau-of-democracy-human-rights-and-labor/2026/02/remarks-by-assistant-secretary-riley-barnes-at-the-2026-losar-reception", "title": "Remarks by Assistant Secretary Riley Barnes at the 2026 Losar reception — U.S. Department of State (February 2026)" },
+    { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Assistant Secretary for Democracy, Human Rights, and Labor",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://www.state.gov/releases/bureau-of-democracy-human-rights-and-labor/2026/02/remarks-by-assistant-secretary-riley-barnes-at-the-2026-losar-reception", "title": "Remarks by Assistant Secretary Riley Barnes at the 2026 Losar reception — U.S. Department of State (February 2026)" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "employer",
+      "description": "Heads the human rights bureau under Rubio.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.state.gov/releases/bureau-of-democracy-human-rights-and-labor/2026/02/remarks-by-assistant-secretary-riley-barnes-at-the-2026-losar-reception", "title": "Remarks by Assistant Secretary Riley Barnes at the 2026 Losar reception — U.S. Department of State (February 2026)" },
+        { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary for Democracy, Human Rights, and Labor",
+    "unit": "state",
+    "rank": 4,
+    "reports_to": "marco-rubio",
+    "sources": [
+      { "url": "https://www.state.gov/releases/bureau-of-democracy-human-rights-and-labor/2026/02/remarks-by-assistant-secretary-riley-barnes-at-the-2026-losar-reception", "title": "Remarks by Assistant Secretary Riley Barnes at the 2026 Losar reception — U.S. Department of State (February 2026)" },
+      { "url": "https://www.state.gov/wp-content/uploads/2026/06/2026.06.15_Organizational-Chart.pdf", "title": "Department of State organization chart, June 15, 2026" }
+    ]
+  },
+  "notes": "Checked against State Department pages via searches restricted to state.gov (the June 15, 2026 organization chart, bureau pages and September 2026 public schedules).",
+  "last_researched": "2026-11-08"
+}

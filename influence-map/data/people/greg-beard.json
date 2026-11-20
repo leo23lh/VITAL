@@ -1,0 +1,50 @@
+{
+  "name": "Greg Beard",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "business",
+  "groups": [],
+  "current_role": "Director, Office of Energy Dominance Financing, U.S. Department of Energy (since January 2026)",
+  "summary": "Greg Beard runs the Energy Department’s Office of Energy Dominance Financing, the renamed loan office that finances power, fuel and grid projects, appointed in January 2026.",
+  "sources": [
+    { "url": "https://www.energy.gov/edf/articles/letter-leadership-edf-2025-year-review-and-looking-forward-2026", "title": "Letter from leadership: EDF 2025 year in review — U.S. Department of Energy" }
+  ],
+  "timeline": [
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Director, Office of Energy Dominance Financing",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://www.energy.gov/edf/articles/letter-leadership-edf-2025-year-review-and-looking-forward-2026", "title": "Letter from leadership: EDF 2025 year in review — U.S. Department of Energy" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Chris Wright",
+      "slug": "chris-wright",
+      "relationship_type": "employer",
+      "description": "Runs the department’s financing office under Wright since January 2026.",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.energy.gov/edf/articles/letter-leadership-edf-2025-year-review-and-looking-forward-2026", "title": "Letter from leadership: EDF 2025 year in review — U.S. Department of Energy" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Director, Office of Energy Dominance Financing",
+    "unit": "energy",
+    "rank": 4,
+    "reports_to": "chris-wright",
+    "since": "2026-01",
+    "sources": [
+      { "url": "https://www.energy.gov/edf/articles/letter-leadership-edf-2025-year-review-and-looking-forward-2026", "title": "Letter from leadership: EDF 2025 year in review — U.S. Department of Energy" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

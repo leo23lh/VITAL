@@ -1,0 +1,161 @@
+{
+  "name": "Pete Aguilar",
+  "aliases": ["Peter Rey Aguilar"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic mayor of Redlands, California, and congressman since 2015; chair of the House Democratic Caucus since 2023.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Chair of the House Democratic Caucus; elected majority whip for the new Congress (November 18, 2026; takes office January 2027)",
+    "unit": "house",
+    "rank": 3,
+    "since": "2023-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" },
+      { "url": "https://rollcall.com/2026/11/18/democrats-nominate-jeffries-to-be-house-speaker-a-historic-first", "title": "Democrats nominate Jeffries to be House speaker, a historic first — Roll Call" },
+      { "url": "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes", "title": "Democrats formally nominate Hakeem Jeffries for speaker of the House — NPR" }
+    ],
+    "verified": "2026-11-20"
+  },
+  "photo": {
+    "file": "pete-aguilar.jpg",
+    "credit": "House Creative Services, Franmarie Metzler",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Pete_Aguilar_117th_congress.jpeg", "title": "File:Pete Aguilar 117th congress.jpeg — Wikimedia Commons" }
+  },
+  "current_role": "Chair of the House Democratic Caucus; elected majority whip for the new Congress (November 18, 2026; takes office January 2027)",
+  "summary": "Pete Aguilar, a former mayor of Redlands, has represented an Inland Empire district of California in the House since 2015 and chaired the House Democratic Caucus since 2023, making him the highest-ranking Latino in Congress. He served on the January 6 select committee, and after Democrats won the House in November 2026 he was designated to become majority whip.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" },
+    { "url": "https://www.ajc.com/news/2026/11/house-democrats-prepare-to-elect-leaders-for-the-new-congress-as-party-pushes-for-change/", "title": "House Democrats prepare to elect leaders for the new Congress — AJC (AP)" }
+  ],
+  "timeline": [
+    {
+      "year": 2010,
+      "end_year": 2014,
+      "role": "Mayor",
+      "org": "City of Redlands, California",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": null,
+      "role": "U.S. representative (California's 31st, now 33rd district)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2022,
+      "role": "Member, House Select Committee on the January 6 Attack",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": null,
+      "role": "Chair of the House Democratic Caucus",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Hakeem Jeffries",
+      "slug": "hakeem-jeffries",
+      "relationship_type": "ally",
+      "description": "Aguilar succeeded Jeffries as House Democratic Caucus chair in 2023 and serves in his leadership team.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" },
+        { "url": "https://www.cnbc.com/2022/11/30/house-democrats-elect-rep-hakeem-jeffries-as-leader-the-first-black-person-to-lead-congressional-caucus.html", "title": "House Democrats elect Rep. Hakeem Jeffries as leader — CNBC" },
+        { "url": "https://spectrumnews1.com/ca/la-west/politics/2022/11/30/house-democrats-elect-jeffries--clark--aguilar-to-lead-party", "title": "House Democrats elect Jeffries, Clark, Aguilar to lead party — Spectrum News" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "colleague",
+      "description": "Aguilar was vice chair of the House Democratic Caucus (2021–2023) under Speaker Pelosi, and she named him to the January 6 select committee.",
+      "start_year": 2021,
+      "end_year": 2023,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "As a member of the January 6 select committee Aguilar led a 2022 hearing on Trump's pressure on Mike Pence to overturn the election; he was among the committee members Biden pre-emptively pardoned in January 2025.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "ally",
+      "description": "Biden pre-emptively pardoned the members of the January 6 select committee, including Aguilar, in January 2025.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Katherine Clark",
+      "slug": "katherine-clark",
+      "relationship_type": "rival",
+      "description": "Aguilar lost the 2018 race for House Democratic Caucus vice chair to Clark, 90–144.",
+      "start_year": 2018,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" },
+        { "url": "https://thehill.com/homenews/house/418836-clark-wins-spot-as-dem-caucus-vice-chair", "title": "Clark wins spot as Dem caucus vice chair — The Hill" }
+      ]
+    },
+    {
+      "name": "Katherine Clark",
+      "slug": "katherine-clark",
+      "relationship_type": "colleague",
+      "description": "Fellow members of the House Democratic leadership under Jeffries since 2023 (caucus chair and whip).",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" },
+        { "url": "https://spectrumnews1.com/ca/la-west/politics/2022/11/30/house-democrats-elect-jeffries--clark--aguilar-to-lead-party", "title": "House Democrats elect Jeffries, Clark, Aguilar to lead party — Spectrum News" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment. Wikipedia lists him as majority whip-designate after the November 2026 caucus elections; no news report of the vote was found by search. The Clark records mirror those in her file.",
+  "last_researched": "2026-11-19"
+}

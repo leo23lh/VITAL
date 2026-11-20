@@ -1,0 +1,45 @@
+{
+  "name": "Fox News",
+  "aliases": [],
+  "kind": "media",
+  "founded": 1996,
+  "groups": ["media"],
+  "summary": "Fox News Channel was created by Rupert Murdoch, with Roger Ailes as founding CEO, and launched on October 7, 1996. Owned by Fox Corporation, it is the most-watched U.S. cable news network and has been widely described as favoring the Republican Party.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Fox_News", "title": "Fox News — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/History_of_Fox_News", "title": "History of Fox News — Wikipedia" }
+  ],
+  "connections": [
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "employee",
+      "description": "Political analyst from 2009, then host of Tucker Carlson Tonight (2016–2023).",
+      "start_year": 2009,
+      "end_year": 2023,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" },
+        { "url": "https://www.theguardian.com/media/2023/apr/24/tucker-carlson-leaving-fox-news", "title": "Guardian: Tucker Carlson leaves Fox News, reportedly fired by Rupert Murdoch" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "employee",
+      "description": "Contributor from 2014; co-host of Fox & Friends Weekend from 2017 until November 2024.",
+      "start_year": 2014,
+      "end_year": 2024,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://millercenter.org/pete-hegseth-2025", "title": "Pete Hegseth (2025– ) — Miller Center" },
+        { "url": "https://en.wikipedia.org/wiki/Pete_Hegseth", "title": "Pete Hegseth — Wikipedia" },
+        { "url": "https://www.newscaststudio.com/2024/11/13/pete-hegseth-exits-fox-after-being-announced-as-trumps-pick-to-lead-dod/", "title": "NewscastStudio: Pete Hegseth exits Fox after being announced as Trump’s pick to lead DoD" },
+        { "url": "https://digital-release.thehill.com/policy/defense/4987358-pete-hegseth-defense-secretary", "title": "The Hill: Trump taps Fox News host Pete Hegseth for Defense secretary" }
+      ]
+    }
+  ],
+  "source_conflicts": [],
+  "notes": "Facts confirmed through search results for the cited pages. Links come from each person’s own sourced timeline entries.",
+  "last_researched": "2026-11-08"
+}

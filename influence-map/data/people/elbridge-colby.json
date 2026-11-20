@@ -1,0 +1,77 @@
+{
+  "name": "Elbridge Colby",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Under Secretary of War (Defense) for Policy (since April 2025)",
+  "summary": "Elbridge Colby, the Pentagon’s top policy official, was confirmed 54–45 on April 8, 2025. A defense strategist who argues the U.S. should prioritize deterring China, he helped write the 2018 National Defense Strategy as a deputy assistant secretary in Trump’s first term.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Elbridge_Colby", "title": "Elbridge Colby — Wikipedia" },
+    { "url": "https://www.congress.gov/nomination/119th-congress/12/9", "title": "PN12-9: Nomination of Elbridge Colby — Congress.gov" },
+    { "url": "https://www.war.gov/News/Transcripts/Transcript/Article/4567089/remarks-by-under-secretary-of-war-for-policy-elbridge-colby-at-the-2026-united/", "title": "Remarks by Under Secretary of War for Policy Elbridge Colby, 2026 Deterrence Symposium — U.S. Department of War" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2018,
+      "role": "Deputy Assistant Secretary of Defense for Strategy and Force Development",
+      "org": "U.S. Department of Defense",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elbridge_Colby", "title": "Elbridge Colby — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Under Secretary of Defense (War) for Policy",
+      "org": "U.S. Department of Defense",
+      "sources": [
+        { "url": "https://www.congress.gov/nomination/119th-congress/12/9", "title": "PN12-9: Nomination of Elbridge Colby — Congress.gov" },
+        { "url": "https://www.war.gov/News/Transcripts/Transcript/Article/4567089/remarks-by-under-secretary-of-war-for-policy-elbridge-colby-at-the-2026-united/", "title": "Remarks by Under Secretary of War for Policy Elbridge Colby, 2026 Deterrence Symposium — U.S. Department of War" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "employer",
+      "description": "The Pentagon’s policy chief under Hegseth since April 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.congress.gov/nomination/119th-congress/12/9", "title": "PN12-9: Nomination of Elbridge Colby — Congress.gov" },
+        { "url": "https://www.war.gov/News/Transcripts/Transcript/Article/4567089/remarks-by-under-secretary-of-war-for-policy-elbridge-colby-at-the-2026-united/", "title": "Remarks by Under Secretary of War for Policy Elbridge Colby, 2026 Deterrence Symposium — U.S. Department of War" }
+      ]
+    },
+    {
+      "name": "Steve Feinberg",
+      "slug": "steve-feinberg",
+      "relationship_type": "colleague",
+      "description": "Senior Pentagon officials together since spring 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.war.gov/News/Transcripts/Transcript/Article/4567089/remarks-by-under-secretary-of-war-for-policy-elbridge-colby-at-the-2026-united/", "title": "Remarks by Under Secretary of War for Policy Elbridge Colby, 2026 Deterrence Symposium — U.S. Department of War" },
+        { "url": "https://history.defense.gov/DOD-History/Deputy-Secretaries-of-Defense/Article-View/Article/4244309/stephen-a-feinberg", "title": "Stephen A. Feinberg — Office of the Secretary of Defense Historical Office" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Under Secretary of War (Defense) for Policy",
+    "unit": "war",
+    "rank": 3,
+    "reports_to": "pete-hegseth",
+    "since": "2025-04",
+    "sources": [
+      { "url": "https://www.congress.gov/nomination/119th-congress/12/9", "title": "PN12-9: Nomination of Elbridge Colby — Congress.gov" },
+      { "url": "https://www.war.gov/News/Transcripts/Transcript/Article/4567089/remarks-by-under-secretary-of-war-for-policy-elbridge-colby-at-the-2026-united/", "title": "Remarks by Under Secretary of War for Policy Elbridge Colby, 2026 Deterrence Symposium — U.S. Department of War" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

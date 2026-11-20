@@ -1,0 +1,148 @@
+{
+  "name": "Ron Klain",
+  "aliases": ["Ronald Klain"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic operative: chief of staff to Vice Presidents Gore and Biden, Obama's Ebola response coordinator and Biden's White House chief of staff; seen as an ally of the party's progressive wing.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" },
+        { "url": "https://www.foxnews.com/politics/biden-selects-ronald-klain-white-house-chief-of-staff", "title": "Biden selects Ronald Klain as White House chief of staff — Fox News" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["ro-khanna"],
+    "basis": "Politico reported in June 2026 that Klain has been informally advising Khanna as he weighs a 2028 run; the Inquirer confirmed it in September. Klain also advises other Democrats and calls his political work \"low-key\".",
+    "sources": [
+      { "url": "https://www.mediaite.com/media/news/ex-biden-honcho-ron-klain-advising-ro-khanna-as-he-mulls-2028-white-house-bid-report/", "title": "Ex-Biden honcho Ron Klain advising Ro Khanna as he mulls 2028 White House bid — Mediaite (citing Politico)" },
+      { "url": "https://www.inquirer.com/politics/election/ro-khanna-us-congress-california-campaign-endorse-progressive-democrats-midterms-2028-persidential-run-20260922.html", "title": "Ro Khanna weighs 2028 run — The Philadelphia Inquirer" }
+    ]
+  },
+  "photo": {
+    "file": "ron-klain.jpg",
+    "credit": "Executive the Office of the President of the United States",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Ron_Klain,_White_House_Chief_of_Staff.jpg", "title": "File:Ron Klain, White House Chief of Staff.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Chief legal officer of Airbnb (since 2024); informal adviser to Ro Khanna",
+  "summary": "Ron Klain was chief of staff to Vice Presidents Al Gore (1995–1999) and Joe Biden (2009–2011), Obama's Ebola response coordinator (2014–2015), and Biden's first White House chief of staff (2021–2023). A longtime debate coach for Democratic nominees, he joined Airbnb as chief legal officer in 2024 and has been advising Ro Khanna on a possible 2028 run.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" },
+    { "url": "https://www.foxnews.com/politics/biden-selects-ronald-klain-white-house-chief-of-staff", "title": "Biden selects Ronald Klain as White House chief of staff — Fox News" },
+    { "url": "https://news.airbnb.com/ron-klain-to-join-airbnb-as-chief-legal-officer", "title": "Ron Klain to join Airbnb as Chief Legal Officer — Airbnb" }
+  ],
+  "timeline": [
+    {
+      "year": 1995,
+      "end_year": 1999,
+      "role": "Chief of staff to Vice President Al Gore",
+      "org": "Office of the Vice President",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2009,
+      "end_year": 2011,
+      "role": "Chief of staff to Vice President Joe Biden",
+      "org": "Office of the Vice President",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" },
+        { "url": "http://thecaucus.blogs.nytimes.com/2011/01/04/ron-klain-leaving-vice-presidents-staff", "title": "Ron Klain leaving vice president's staff — The New York Times" }
+      ]
+    },
+    {
+      "year": 2014,
+      "end_year": 2015,
+      "role": "White House Ebola Response Coordinator",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2023,
+      "role": "White House chief of staff",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" },
+        { "url": "https://www.foxnews.com/politics/biden-selects-ronald-klain-white-house-chief-of-staff", "title": "Biden selects Ronald Klain as White House chief of staff — Fox News" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": null,
+      "role": "Chief legal officer",
+      "org": "Airbnb",
+      "sources": [
+        { "url": "https://news.airbnb.com/ron-klain-to-join-airbnb-as-chief-legal-officer", "title": "Ron Klain to join Airbnb as Chief Legal Officer — Airbnb" },
+        { "url": "https://www.axios.com/2023/11/20/ron-klain-biden-airbnb-chief-legal-officer", "title": "Former Biden official Ron Klain to join Airbnb as chief legal officer — Axios" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "employer",
+      "description": "Klain was Vice President Biden's chief of staff (2009–2011), a senior adviser to his 2020 campaign, and his first White House chief of staff (2021–2023).",
+      "start_year": 2009,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" },
+        { "url": "https://www.foxnews.com/politics/biden-selects-ronald-klain-white-house-chief-of-staff", "title": "Biden selects Ronald Klain as White House chief of staff — Fox News" },
+        { "url": "http://thecaucus.blogs.nytimes.com/2011/01/04/ron-klain-leaving-vice-presidents-staff", "title": "Ron Klain leaving vice president's staff — The New York Times" }
+      ]
+    },
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "employer",
+      "description": "Obama appointed Klain White House Ebola response coordinator (2014–2015); Klain also helped prepare him for the 2008 and 2012 presidential debates.",
+      "start_year": 2008,
+      "end_year": 2015,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" },
+        { "url": "https://obamawhitehouse.archives.gov/blog/2014/10/17/president-obama-names-ron-klain-coordinate-us-response-ebola", "title": "President Obama names Ron Klain to coordinate U.S. response to Ebola — Obama White House archives" },
+        { "url": "https://fortune.com/2014/10/17/obama-appoints-ron-klain-as-ebola-czar/", "title": "Obama appoints Ron Klain as Ebola czar — Fortune" }
+      ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "employer",
+      "description": "Klain joined Clinton's 2016 campaign and helped prepare her for the primary and general-election debates.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ro Khanna",
+      "slug": "ro-khanna",
+      "relationship_type": "ally",
+      "description": "Klain has been informally advising Khanna as he weighs a 2028 presidential run (Politico, June 2026).",
+      "start_year": 2026,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.mediaite.com/media/news/ex-biden-honcho-ron-klain-advising-ro-khanna-as-he-mulls-2028-white-house-bid-report/", "title": "Ex-Biden honcho Ron Klain advising Ro Khanna as he mulls 2028 White House bid — Mediaite (citing Politico)" },
+        { "url": "https://www.inquirer.com/politics/election/ro-khanna-us-congress-california-campaign-endorse-progressive-democrats-midterms-2028-persidential-run-20260922.html", "title": "Ro Khanna weighs 2028 run — The Philadelphia Inquirer" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-20 from the Wikipedia article's source text (read directly) and web searches tied to each cited URL; other pages could not be opened in this environment.",
+  "last_researched": "2026-11-20"
+}

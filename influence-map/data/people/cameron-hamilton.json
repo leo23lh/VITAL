@@ -1,0 +1,60 @@
+{
+  "name": "Cameron Hamilton",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "photo": {
+    "file": "cameron-hamilton.jpg",
+    "credit": "Federal Emergency Management Agency",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Acting_FEMA_Cameron_Hamilton.jpg", "title": "File:Acting FEMA Cameron Hamilton.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Administrator, Federal Emergency Management Agency (confirmed August 2026)",
+  "summary": "Cameron Hamilton, a former Navy SEAL who ran FEMA in an acting capacity in 2025, was confirmed as its administrator in August 2026.",
+  "sources": [
+    { "url": "https://www.fema.gov/press-release/20260810/cameron-hamilton-confirmed-new-fema-administrator", "title": "Cameron Hamilton confirmed as new FEMA Administrator — FEMA (August 2026)" },
+    { "url": "https://www.hstoday.us/subject-matter-areas/emergency-preparedness/senate-confirms-cameron-hamilton-as-fema-administrator/", "title": "Senate confirms Cameron Hamilton as FEMA Administrator — HSToday" }
+  ],
+  "timeline": [
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Administrator",
+      "org": "Federal Emergency Management Agency",
+      "sources": [
+        { "url": "https://www.fema.gov/press-release/20260810/cameron-hamilton-confirmed-new-fema-administrator", "title": "Cameron Hamilton confirmed as new FEMA Administrator — FEMA (August 2026)" },
+        { "url": "https://www.hstoday.us/subject-matter-areas/emergency-preparedness/senate-confirms-cameron-hamilton-as-fema-administrator/", "title": "Senate confirms Cameron Hamilton as FEMA Administrator — HSToday" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Markwayne Mullin",
+      "slug": "markwayne-mullin",
+      "relationship_type": "employer",
+      "description": "Runs FEMA, a DHS agency, under Mullin since August 2026.",
+      "start_year": 2026,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.fema.gov/press-release/20260810/cameron-hamilton-confirmed-new-fema-administrator", "title": "Cameron Hamilton confirmed as new FEMA Administrator — FEMA (August 2026)" },
+        { "url": "https://www.hstoday.us/subject-matter-areas/emergency-preparedness/senate-confirms-cameron-hamilton-as-fema-administrator/", "title": "Senate confirms Cameron Hamilton as FEMA Administrator — HSToday" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "FEMA Administrator",
+    "unit": "dhs",
+    "rank": 3,
+    "reports_to": "markwayne-mullin",
+    "since": "2026-08-10",
+    "sources": [
+      { "url": "https://www.fema.gov/press-release/20260810/cameron-hamilton-confirmed-new-fema-administrator", "title": "Cameron Hamilton confirmed as new FEMA Administrator — FEMA (August 2026)" },
+      { "url": "https://www.hstoday.us/subject-matter-areas/emergency-preparedness/senate-confirms-cameron-hamilton-as-fema-administrator/", "title": "Senate confirms Cameron Hamilton as FEMA Administrator — HSToday" }
+    ]
+  },
+  "notes": "Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Doug Collins",
+  "aliases": ["Douglas Allen Collins"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican congressman from Georgia (2013–2021) and ranking Republican on House Judiciary during the first Trump impeachment; Trump's veterans affairs secretary.",
+      "sources": [
+        { "url": "https://millercenter.org/node/100766", "title": "Miller Center: Doug Collins" },
+        { "url": "https://www.axios.com/2019/12/18/trump-impeachment-doug-collins-opening-statement", "title": "Axios: Doug Collins opening statement on impeachment" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "doug-collins.jpg",
+    "credit": "Unknown photographer, U.S. Department of Veterans Affairs",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Douglas_Collins,_U.S._Secretary_of_Veterans_Affairs.jpeg", "title": "File:Official portrait of Douglas Collins, U.S. Secretary of Veterans Affairs.jpeg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. Secretary of Veterans Affairs (since February 2025)",
+  "summary": "Doug Collins, an Air Force Reserve chaplain, represented Georgia in the House from 2013 to 2021 and, as the top Republican on the Judiciary Committee, led Trump's defense in the 2019 impeachment. He finished third in Georgia's 2020 Senate special election. The Senate confirmed him as veterans affairs secretary 77–23 in February 2025.",
+  "sources": [
+    { "url": "https://www.cbsnews.com/news/doug-collins-confirmed-veterans-affairs-secretary", "title": "CBS News: Doug Collins confirmed as veterans affairs secretary" },
+    { "url": "https://millercenter.org/node/100766", "title": "Miller Center: Doug Collins" },
+    { "url": "https://en.wikipedia.org/wiki/Doug_Collins_(politician)", "title": "Wikipedia: Doug Collins (politician)" }
+  ],
+  "timeline": [
+    {
+      "year": 2013,
+      "end_year": 2021,
+      "role": "U.S. representative for Georgia's 9th district; ranking member of the House Judiciary Committee (2019–2020)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://millercenter.org/node/100766", "title": "Miller Center" },
+        { "url": "https://www.npr.org/2019/12/05/785103454/rep-doug-collins-says-white-house-should-participate-in-impeachment-inquiry", "title": "NPR" }
+      ]
+    },
+    {
+      "year": 2020,
+      "end_year": 2020,
+      "role": "Candidate in the Georgia U.S. Senate special election (finished third)",
+      "org": "Collins for Senate",
+      "sources": [
+        { "url": "https://www.yahoo.com/news/us-senate-confirms-former-ga-181209318.html", "title": "Yahoo News: US Senate confirms former GA Rep. Doug Collins" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Secretary of Veterans Affairs (confirmed 77–23 on February 4, 2025)",
+      "org": "U.S. Department of Veterans Affairs",
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/doug-collins-confirmed-veterans-affairs-secretary", "title": "CBS News: Doug Collins confirmed as veterans affairs secretary" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump nominated Collins as veterans affairs secretary in November 2024; confirmed February 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/doug-collins-confirmed-veterans-affairs-secretary", "title": "CBS News: Doug Collins confirmed as veterans affairs secretary" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "As ranking Republican on House Judiciary, Collins led Trump's defense in the 2019 impeachment, calling it a \"sham\".",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2019/12/18/trump-impeachment-doug-collins-opening-statement", "title": "Axios: Doug Collins opening statement on impeachment" },
+        { "url": "https://www.npr.org/2019/12/05/785103454/rep-doug-collins-says-white-house-should-participate-in-impeachment-inquiry", "title": "NPR: Top Judiciary Republican on impeachment inquiry" }
+      ]
+    },
+    {
+      "name": "Paul Lawrence",
+      "slug": "paul-lawrence",
+      "relationship_type": "employee",
+      "description": "Collins’s deputy at Veterans Affairs since March 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.executivegov.com/articles/va-paul-lawrence-deputy-secretary-senate-confirmation", "title": "Senate confirms former Army captain Paul Lawrence as VA deputy secretary — ExecutiveGov" },
+        { "url": "https://www.kiro7.com/news/local/deputy-secretary-veterans-affairs-visits-seattle-tout-new-medical-records-system/WXXDSHW6JFCIRHDO6MG6ZCUQ44/", "title": "Deputy secretary for Veterans Affairs visits Seattle to tout new medical records system — KIRO 7 (October 2026)" }
+      ]
+    },
+    {
+      "name": "Curt Cashour",
+      "slug": "curt-cashour",
+      "relationship_type": "employee",
+      "description": "Collins’s chief of staff since February 2026, after serving as VA’s public affairs assistant secretary.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://news.va.gov/press-room/va-announces-new-chief-of-staff/", "title": "VA announces new chief of staff — VA News" }
+      ]
+    },
+    {
+      "name": "John Figueroa",
+      "slug": "john-figueroa",
+      "relationship_type": "employee",
+      "description": "Senior adviser to Collins, named by him to run the Veterans Health Administration in July 2026.",
+      "start_year": 2026,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://department.va.gov/vha/under-secretary-for-health/", "title": "Under Secretary for Health — Veterans Health Administration" },
+        { "url": "https://www.va.gov/vapubs/viewPublication.asp?Pub_ID=1736", "title": "Memorandum from the Secretary of Veterans Affairs, July 9, 2026 — VA" },
+        { "url": "https://federalnewsnetwork.com/veterans-affairs/2026/07/vas-top-healthcare-official-is-stepping-down/", "title": "VA’s top healthcare official is stepping down — Federal News Network (July 2026)" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "office": {
+    "title": "Secretary of Veterans Affairs",
+    "unit": "va",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-02",
+    "sources": [
+      { "url": "https://www.cbsnews.com/news/doug-collins-confirmed-veterans-affairs-secretary", "title": "CBS News: Doug Collins confirmed as veterans affairs secretary" },
+      { "url": "https://millercenter.org/node/100766", "title": "Miller Center: Doug Collins" }
+    ]
+  }
+}

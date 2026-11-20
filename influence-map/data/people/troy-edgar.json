@@ -1,0 +1,73 @@
+{
+  "name": "Troy Edgar",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Deputy Secretary of Homeland Security (since March 2025)",
+  "summary": "Troy Edgar, a former mayor of Los Alamitos, California, who was DHS’s chief financial officer in Trump’s first term, is the department’s second-ranking official, now under Secretary Markwayne Mullin.",
+  "sources": [
+    { "url": "https://www.govconwire.com/articles/troy-edgar-dhs-2026-homeland-security-summit-keynote-govcon", "title": "DHS Deputy Secretary Troy Edgar lays out operational priorities at 2026 Homeland Security Summit — GovCon Wire" },
+    { "url": "https://www.congress.gov/nomination/119th-congress/12/14", "title": "PN12-14: Nomination of Troy Edgar — Congress.gov" },
+    { "url": "https://en.wikipedia.org/wiki/Troy_Edgar", "title": "Troy Edgar — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "end_year": 2021,
+      "role": "Chief Financial Officer",
+      "org": "U.S. Department of Homeland Security",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Troy_Edgar", "title": "Troy Edgar — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Deputy Secretary of Homeland Security",
+      "org": "U.S. Department of Homeland Security",
+      "sources": [
+        { "url": "https://www.congress.gov/nomination/119th-congress/12/14", "title": "PN12-14: Nomination of Troy Edgar — Congress.gov" },
+        { "url": "https://www.govconwire.com/articles/troy-edgar-dhs-2026-homeland-security-summit-keynote-govcon", "title": "DHS Deputy Secretary Troy Edgar lays out operational priorities at 2026 Homeland Security Summit — GovCon Wire" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Markwayne Mullin",
+      "slug": "markwayne-mullin",
+      "relationship_type": "employer",
+      "description": "The No. 2 at Homeland Security, under Mullin since March 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.govconwire.com/articles/troy-edgar-dhs-2026-homeland-security-summit-keynote-govcon", "title": "DHS Deputy Secretary Troy Edgar lays out operational priorities at 2026 Homeland Security Summit — GovCon Wire" },
+        { "url": "https://www.congress.gov/nomination/119th-congress/12/14", "title": "PN12-14: Nomination of Troy Edgar — Congress.gov" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Secretary of Homeland Security",
+    "unit": "dhs",
+    "rank": 2,
+    "reports_to": "markwayne-mullin",
+    "since": "2025-03",
+    "sources": [
+      { "url": "https://www.govconwire.com/articles/troy-edgar-dhs-2026-homeland-security-summit-keynote-govcon", "title": "DHS Deputy Secretary Troy Edgar lays out operational priorities at 2026 Homeland Security Summit — GovCon Wire" },
+      { "url": "https://www.congress.gov/nomination/119th-congress/12/14", "title": "PN12-14: Nomination of Troy Edgar — Congress.gov" }
+    ]
+  },
+  "source_conflicts": [
+    {
+      "topic": "Continuity in the post",
+      "details": "Wikipedia’s appointments table cites a Politico report that Edgar returned to the deputy post in April 2026; the details of any gap were not found.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" }
+      ]
+    }
+  ],
+  "last_researched": "2026-11-08"
+}

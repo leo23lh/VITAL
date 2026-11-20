@@ -1,0 +1,75 @@
+{
+  "name": "Charlie Dankert",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Chief of Staff, U.S. Department of Energy (since August 2026)",
+  "summary": "Charlie Dankert became Energy Secretary Chris Wright’s chief of staff when Carl Coe, a former DOGE lead at the department, stepped down effective July 31, 2026. Wright called Dankert a key member of his leadership team; he had been deputy chief of staff for policy.",
+  "sources": [
+    { "url": "https://www.energy.gov/node/4859594", "title": "Secretary Wright announces leadership transition in the Office of the Secretary — U.S. Department of Energy (July 2026)" },
+    { "url": "https://www.eenews.net/articles/coe-out-as-doe-chief-of-staff/", "title": "Coe out as DOE chief of staff — E&E News" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Deputy Chief of Staff for Policy",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://www.eenews.net/articles/coe-out-as-doe-chief-of-staff/", "title": "Coe out as DOE chief of staff — E&E News" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Chief of Staff",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://www.energy.gov/node/4859594", "title": "Secretary Wright announces leadership transition in the Office of the Secretary — U.S. Department of Energy (July 2026)" },
+        { "url": "https://www.eenews.net/articles/coe-out-as-doe-chief-of-staff/", "title": "Coe out as DOE chief of staff — E&E News" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Chris Wright",
+      "slug": "chris-wright",
+      "relationship_type": "employer",
+      "description": "Wright’s deputy chief of staff for policy, then his chief of staff from August 2026.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.energy.gov/node/4859594", "title": "Secretary Wright announces leadership transition in the Office of the Secretary — U.S. Department of Energy (July 2026)" },
+        { "url": "https://www.eenews.net/articles/coe-out-as-doe-chief-of-staff/", "title": "Coe out as DOE chief of staff — E&E News" }
+      ]
+    },
+    {
+      "name": "James Danly",
+      "slug": "james-danly",
+      "relationship_type": "colleague",
+      "description": "Senior Energy Department officials together under Wright.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Chief of Staff",
+    "unit": "energy",
+    "rank": 3,
+    "reports_to": "chris-wright",
+    "since": "2026-08",
+    "sources": [
+      { "url": "https://www.energy.gov/node/4859594", "title": "Secretary Wright announces leadership transition in the Office of the Secretary — U.S. Department of Energy (July 2026)" },
+      { "url": "https://www.eenews.net/articles/coe-out-as-doe-chief-of-staff/", "title": "Coe out as DOE chief of staff — E&E News" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

@@ -1,0 +1,368 @@
+{
+  "name": "Joe Biden",
+  "aliases": ["Joseph Robinette Biden Jr."],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic U.S. senator from Delaware (1973–2009), Democratic vice president and Democratic president.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "joe-biden.jpg",
+    "credit": "Adam Schultz",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg", "title": "File:Joe Biden presidential portrait.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Former President of the United States (2021–2025)",
+  "summary": "Joe Biden was the 46th president of the United States from 2021 to 2025, after 36 years as a U.S. senator from Delaware and eight years as Barack Obama's vice president. He ended his 2024 reelection campaign on July 21, 2024 and endorsed Vice President Kamala Harris, who lost the election to Donald Trump.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
+    { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now" }
+  ],
+  "timeline": [
+    {
+      "year": 1973,
+      "end_year": 2009,
+      "role": "U.S. senator from Delaware",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2009,
+      "end_year": 2017,
+      "role": "47th Vice President of the United States",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2025,
+      "role": "46th President of the United States",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "role": "Withdrew from the presidential race on July 21 and endorsed Kamala Harris",
+      "org": "Biden for President",
+      "sources": [
+        { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "ally",
+      "description": "Biden was Obama's running mate in 2008 and his vice president for both terms; Obama campaigned for him in 2020, though in July 2024 he questioned Biden's chances.",
+      "start_year": 2008,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
+        { "url": "https://obamawhitehouse.archives.gov/photos-and-video/photo/2017/01/president-obama-awards-vice-president-biden-presidential-medal-freedo", "title": "President Obama awards Vice President Biden the Presidential Medal of Freedom with Distinction — Obama White House archives" },
+        { "url": "https://www.npr.org/2017/01/12/509545778/in-surprise-send-off-president-obama-awards-biden-presidential-medal-of-freedom", "title": "In surprise send-off, President Obama awards Biden Presidential Medal of Freedom — NPR" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "Biden chose Harris as his 2020 running mate; she was his vice president from 2021 to 2025, and when he withdrew on July 21, 2024 he endorsed her within about half an hour.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
+        { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "rival",
+      "description": "Biden defeated Trump in the 2020 presidential election, 306–232 in the Electoral College; they were set for a rematch in 2024 until Biden withdrew.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
+        { "url": "https://www.hawaiinewsnow.com/2024/07/21/sen-joe-manchin-democrat-turned-independent-urges-biden-withdraw-2024-race/", "title": "Biden ends his 2024 presidential campaign, endorses Harris as Democratic nominee — AP via Hawaii News Now" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "On June 4, 2025 Trump ordered an investigation into whether Biden's aides concealed his mental decline and used an autopen to sign his executive actions; Biden called it a distraction.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.whitehouse.gov/presidential-actions/2025/06/reviewing-certain-presidential-actions/", "title": "Reviewing Certain Presidential Actions — The White House" },
+        { "url": "https://www.npr.org/2025/06/05/nx-s1-5424313/trump-investigation-biden-autopen-cognitive-decline", "title": "Trump orders a probe into the Biden administration and its alleged autopen use — NPR" },
+        { "url": "https://m.washingtontimes.com/news/2025/jun/4/trump-orders-probe-biden-aides-commandeering-autopen/", "title": "Trump orders probe of Biden aides — The Washington Times" }
+      ]
+    },
+    {
+      "name": "Pete Buttigieg",
+      "slug": "pete-buttigieg",
+      "relationship_type": "employee",
+      "description": "Biden named his former primary rival Secretary of Transportation; the Senate confirmed him 86–13 on February 2, 2021, and he served to January 2025.",
+      "start_year": 2021,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cnbc.com/amp/2021/02/02/pete-buttigieg-confirmed-by-senate-as-biden-transportation-secretary.html", "title": "Pete Buttigieg confirmed by Senate as Biden transportation secretary — CNBC" },
+        { "url": "https://www.pbs.org/newshour/politics/watch-live-senate-votes-to-confirm-pete-buttigieg-bidens-transportation-nominee", "title": "Senate votes to confirm Pete Buttigieg — PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "rival",
+      "description": "Sanders was Biden's last remaining opponent in the 2020 Democratic primaries; he dropped out on April 8, 2020 and endorsed Biden.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jill Biden",
+      "slug": "jill-biden",
+      "relationship_type": "family",
+      "description": "Wife, married 1977; first lady from 2021 to 2025.",
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
+        { "url": "https://www.bidenlibrary.gov/bidens/first-lady-dr-jill-biden", "title": "First Lady Dr. Jill Biden — Biden Presidential Library" }
+      ],
+      "public_figure_confirmed": true
+    },
+    {
+      "name": "Gretchen Whitmer",
+      "slug": "gretchen-whitmer",
+      "relationship_type": "ally",
+      "description": "Whitmer endorsed Biden in March 2020, became a national co-chair of his campaign and was a finalist for running mate.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gretchen_Whitmer", "title": "Gretchen Whitmer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ruben Gallego",
+      "slug": "ruben-gallego",
+      "relationship_type": "ally",
+      "description": "Gallego endorsed Biden in March 2020.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elizabeth Warren",
+      "slug": "elizabeth-warren",
+      "relationship_type": "rival",
+      "description": "Warren ran against Biden in the 2020 primaries and was one of the finalists he considered for running mate.",
+      "start_year": 2019,
+      "end_year": 2020,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren", "title": "Elizabeth Warren — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Amy Klobuchar",
+      "slug": "amy-klobuchar",
+      "relationship_type": "ally",
+      "description": "Klobuchar ended her 2020 campaign and endorsed Biden before Super Tuesday; she was the first speaker at his inauguration.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" },
+        { "url": "https://www.pbs.org/newshour/politics/klobuchar-ending-2020-campaign", "title": "Klobuchar ends her 2020 campaign, will endorse Biden — PBS NewsHour (AP)" },
+        { "url": "https://www.cnbc.com/2020/03/02/sen-amy-klobuchar-will-suspend-her-presidential-campaign-endorse-joe-biden.html", "title": "Sen. Amy Klobuchar will suspend her presidential campaign, endorse Joe Biden — CNBC" }
+      ]
+    },
+    {
+      "name": "Pete Aguilar",
+      "slug": "pete-aguilar",
+      "relationship_type": "ally",
+      "description": "Biden pre-emptively pardoned the January 6 select committee members, including Aguilar, in January 2025.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "ally",
+      "description": "Clinton served alongside Biden in Obama's administration and endorsed him for president in April 2020.",
+      "start_year": 2009,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Adam Schiff",
+      "slug": "adam-schiff",
+      "relationship_type": "ally",
+      "description": "Biden pre-emptively pardoned Schiff and the other January 6 committee members in January 2025, though Schiff had urged him to quit the 2024 race.",
+      "start_year": 2021,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Adam_Schiff", "title": "Adam Schiff — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jamie Raskin",
+      "slug": "jamie-raskin",
+      "relationship_type": "ally",
+      "description": "Biden pre-emptively pardoned the January 6 select committee members, including Raskin, on January 20, 2025.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Tom Steyer",
+      "slug": "tom-steyer",
+      "relationship_type": "donor",
+      "description": "Steyer hosted a 2023 fundraiser for Biden's re-election at his San Francisco home.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tom_Steyer", "title": "Tom Steyer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jen O'Malley Dillon",
+      "slug": "jen-omalley-dillon",
+      "relationship_type": "employee",
+      "description": "O'Malley Dillon managed Biden's 2020 campaign, was his deputy chief of staff (2021–2024) and chaired his 2024 campaign.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" },
+        { "url": "https://www.cnbc.com/amp/2020/11/17/biden-picks-for-senior-white-house-staff-include-loyalists-rising-democratic-stars.html", "title": "Biden picks for senior White House staff — CNBC" },
+        { "url": "https://foxnews.com/politics/bidens-campaign-manager-headed-to-white-house-as-deputy-chief-of-staff.amp", "title": "Biden's campaign manager headed to White House as deputy chief of staff — Fox News" }
+      ]
+    },
+    {
+      "name": "David Plouffe",
+      "slug": "david-plouffe",
+      "relationship_type": "colleague",
+      "description": "Worked alongside Plouffe in the Obama White House; in 2015 Plouffe reportedly helped persuade Biden not to challenge Clinton.",
+      "start_year": 2011,
+      "end_year": 2015,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Rahm Emanuel",
+      "slug": "rahm-emanuel",
+      "relationship_type": "employee",
+      "description": "Biden appointed Emanuel ambassador to Japan; he served from March 2022 to January 2025.",
+      "start_year": 2022,
+      "end_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" },
+        { "url": "https://jp.usembassy.gov/ambassador-rahm-emanuel/", "title": "Ambassador Rahm Emanuel — U.S. Embassy & Consulates in Japan" },
+        { "url": "https://www.npr.org/2021/12/18/1065519715/rahm-emanuel-among-dozens-of-late-night-diplomatic-post-confirmations-by-the-sen", "title": "Rahm Emanuel among dozens of late-night diplomatic confirmations — NPR" }
+      ]
+    },
+    {
+      "name": "Ron Klain",
+      "slug": "ron-klain",
+      "relationship_type": "employee",
+      "description": "Klain was his vice-presidential chief of staff (2009–2011) and his first White House chief of staff (2021–2023).",
+      "start_year": 2009,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" },
+        { "url": "https://www.foxnews.com/politics/biden-selects-ronald-klain-white-house-chief-of-staff", "title": "Biden selects Ronald Klain as White House chief of staff — Fox News" },
+        { "url": "http://thecaucus.blogs.nytimes.com/2011/01/04/ron-klain-leaving-vice-presidents-staff", "title": "Ron Klain leaving vice president's staff — The New York Times" }
+      ]
+    },
+    {
+      "name": "Gabby Giffords",
+      "slug": "gabby-giffords",
+      "relationship_type": "ally",
+      "description": "Giffords's group helped shape Biden's gun-safety agenda and endorsed his 2024 re-election; Biden awarded her the Presidential Medal of Freedom in 2022.",
+      "start_year": 2022,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gabby_Giffords", "title": "Gabby Giffords — Wikipedia" },
+        { "url": "https://giffords.org/press-release/2023/08/giffords-endorses-president-biden-for-re-election/", "title": "Giffords endorses President Biden for re-election — Giffords" },
+        { "url": "https://www.pbs.org/newshour/politics/major-gun-safety-groups-come-together-to-endorse-biden-for-2024-election", "title": "Major gun safety groups come together to endorse Biden for 2024 — PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Jim Clyburn",
+      "slug": "jim-clyburn",
+      "relationship_type": "ally",
+      "description": "Clyburn endorsed Biden three days before the 2020 South Carolina primary; Biden won the state by about 30 points and credits the endorsement with reviving his campaign.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jim_Clyburn", "title": "Jim Clyburn — Wikipedia" },
+        { "url": "https://abcnews.go.com/US/wireStory/south-carolina-rep-jim-clyburn-credited-helping-biden-112148759", "title": "Clyburn, credited with helping Biden win the 2020 nomination, endorses Harris — ABC News (AP)" },
+        { "url": "https://abcnews4.com/news/beyond-the-podium/does-biden-win-south-carolina-and-the-white-house-without-clyburns-endorsement", "title": "Does Biden win South Carolina without Clyburn's endorsement? — ABC News 4" }
+      ]
+    },
+    {
+      "name": "Deb Haaland",
+      "slug": "deb-haaland",
+      "relationship_type": "employee",
+      "description": "Biden nominated Haaland as Interior secretary; she served from March 2021 through his term.",
+      "start_year": 2021,
+      "end_year": 2025,
+      "confidence": 0.97,
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/deb-haaland-confirmation-interior-secretary", "title": "Senate confirms Deb Haaland as Interior secretary — CBS News" },
+        { "url": "https://www.npr.org/2021/03/15/977558590/deb-haaland-confirmed-as-first-native-american-interior-secretary", "title": "Deb Haaland confirmed as first Native American Interior secretary — NPR" },
+        { "url": "https://en.wikipedia.org/wiki/Deb_Haaland", "title": "Deb Haaland — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Health matters are left out under the research rules.",
+  "last_researched": "2026-11-19"
+}

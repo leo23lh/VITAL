@@ -1,0 +1,83 @@
+{
+  "name": "Francis Brooke",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Deputy Secretary of the Treasury (performing the duties from April 2026; confirmed August 2026)",
+  "summary": "Francis Brooke is Scott Bessent’s deputy at Treasury. Bessent had him perform the deputy’s duties from April 28, 2026, while he was acting under secretary for international affairs, and the Senate confirmed him on August 7, 2026, in a 51–47 block vote. He was earlier policy director for House Majority Leader Steve Scalise for nearly four years and deputy director of the National Economic Council in Trump’s first term. In October 2026 he led the U.S. delegation to the IMF meetings in Bangkok.",
+  "sources": [
+    { "url": "https://home.treasury.gov/about/general-information/officials/francis-brooke", "title": "Francis Brooke — U.S. Department of the Treasury" },
+    { "url": "https://home.treasury.gov/news/press-releases/sb0479", "title": "Treasury Department announces new appointments — U.S. Department of the Treasury (April 2026)" },
+    { "url": "https://en.wikipedia.org/wiki/Francis_Brooke_(political_advisor)", "title": "Francis Brooke (political advisor) — Wikipedia" },
+    { "url": "https://www.freemalaysiatoday.com/category/business/2026/10/10/us-treasury-chief-to-skip-imf-annual-meetings-in-bangkok", "title": "US Treasury chief to skip IMF annual meetings in Bangkok — Reuters via Free Malaysia Today" }
+  ],
+  "timeline": [
+    {
+      "year": 2018,
+      "end_year": 2021,
+      "role": "Deputy Director, National Economic Council",
+      "org": "The White House",
+      "sources": [
+        { "url": "https://home.treasury.gov/news/press-releases/sb0479", "title": "Treasury Department announces new appointments — U.S. Department of the Treasury (April 2026)" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": 2025,
+      "role": "Policy Director to House Majority Leader Steve Scalise",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://home.treasury.gov/news/press-releases/sb0479", "title": "Treasury Department announces new appointments — U.S. Department of the Treasury (April 2026)" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2026,
+      "role": "Assistant Secretary for International Trade and Development; Acting Under Secretary for International Affairs",
+      "org": "U.S. Department of the Treasury",
+      "sources": [
+        { "url": "https://home.treasury.gov/news/press-releases/sb0479", "title": "Treasury Department announces new appointments — U.S. Department of the Treasury (April 2026)" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Deputy Secretary of the Treasury",
+      "org": "U.S. Department of the Treasury",
+      "sources": [
+        { "url": "https://home.treasury.gov/about/general-information/officials/francis-brooke", "title": "Francis Brooke — U.S. Department of the Treasury" },
+        { "url": "https://en.wikipedia.org/wiki/Francis_Brooke_(political_advisor)", "title": "Francis Brooke (political advisor) — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Scott Bessent",
+      "slug": "scott-bessent",
+      "relationship_type": "employer",
+      "description": "Bessent picked Brooke to perform the deputy secretary’s duties in April 2026 and sent him to lead the IMF delegation in his place that October.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://home.treasury.gov/news/press-releases/sb0479", "title": "Treasury Department announces new appointments — U.S. Department of the Treasury (April 2026)" },
+        { "url": "https://www.freemalaysiatoday.com/category/business/2026/10/10/us-treasury-chief-to-skip-imf-annual-meetings-in-bangkok", "title": "US Treasury chief to skip IMF annual meetings in Bangkok — Reuters via Free Malaysia Today" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Secretary of the Treasury",
+    "unit": "treasury",
+    "rank": 2,
+    "reports_to": "scott-bessent",
+    "since": "2026-04-28",
+    "sources": [
+      { "url": "https://home.treasury.gov/about/general-information/officials/francis-brooke", "title": "Francis Brooke — U.S. Department of the Treasury" },
+      { "url": "https://home.treasury.gov/news/press-releases/sb0479", "title": "Treasury Department announces new appointments — U.S. Department of the Treasury (April 2026)" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

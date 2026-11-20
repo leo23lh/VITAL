@@ -1,0 +1,133 @@
+{
+  "name": "Jim Clyburn",
+  "aliases": ["James Clyburn", "James E. Clyburn"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic congressman from South Carolina since 1993 and House Democratic whip or assistant leader from 2007 to 2024.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jim_Clyburn", "title": "Jim Clyburn — Wikipedia" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "U.S. representative from South Carolina; dean of the state's delegation",
+    "unit": "house",
+    "rank": 4,
+    "since": "1993-01-03",
+    "verified": "2026-11-20",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Jim_Clyburn", "title": "Jim Clyburn — Wikipedia" },
+      { "url": "https://www.nysun.com/article/south-carolinas-clyburn-set-to-emerge-from-primary-as-the-biggest-democratic-kingmaker-for-2028", "title": "South Carolina's Clyburn set to emerge as the biggest Democratic kingmaker for 2028 — The New York Sun" }
+    ]
+  },
+  "photo": {
+    "file": "jim-clyburn.jpg",
+    "credit": "Donald Baker",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Jim_Clyburn_official_portrait_116th_Congress.jpg", "title": "File:Jim Clyburn official portrait 116th Congress.jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. representative from South Carolina; the leading voice in the first 2028 Democratic primary state",
+  "summary": "Jim Clyburn has represented South Carolina in the House since 1993 and was the No. 3 House Democrat from 2007 to 2023. His endorsement of Joe Biden three days before the 2020 South Carolina primary is widely credited with reviving Biden's campaign. With South Carolina voting first in the 2028 Democratic calendar, he is described as the party's biggest kingmaker for the nomination.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Jim_Clyburn", "title": "Jim Clyburn — Wikipedia" },
+    { "url": "https://www.nysun.com/article/south-carolinas-clyburn-set-to-emerge-from-primary-as-the-biggest-democratic-kingmaker-for-2028", "title": "South Carolina's Clyburn set to emerge as the biggest Democratic kingmaker for 2028 — The New York Sun" },
+    { "url": "https://justthenews.com/politics-policy/south-carolina-will-be-first-dems-2028-primary", "title": "South Carolina will be first in Dems' 2028 primary — Just the News" }
+  ],
+  "timeline": [
+    {
+      "year": 1993,
+      "end_year": null,
+      "role": "U.S. representative from South Carolina",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jim_Clyburn", "title": "Jim Clyburn — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2007,
+      "end_year": 2023,
+      "role": "House Democratic whip (2007–2011, 2019–2023) and assistant leader (2011–2019)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jim_Clyburn", "title": "Jim Clyburn — Wikipedia" },
+        { "url": "https://www.npr.org/2007/01/12/6827972/rep-james-clyburn-herding-democratic-cats", "title": "Rep. James Clyburn: herding Democratic cats — NPR" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "ally",
+      "description": "Clyburn endorsed Biden three days before the 2020 South Carolina primary; Biden won the state by about 30 points and credits the endorsement with reviving his campaign.",
+      "start_year": 2020,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jim_Clyburn", "title": "Jim Clyburn — Wikipedia" },
+        { "url": "https://abcnews.go.com/US/wireStory/south-carolina-rep-jim-clyburn-credited-helping-biden-112148759", "title": "Clyburn, credited with helping Biden win the 2020 nomination, endorses Harris — ABC News (AP)" },
+        { "url": "https://abcnews4.com/news/beyond-the-podium/does-biden-win-south-carolina-and-the-white-house-without-clyburns-endorsement", "title": "Does Biden win South Carolina without Clyburn's endorsement? — ABC News 4" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "Clyburn endorsed Harris for president on July 21, 2024, the day Biden withdrew.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://abcnews.go.com/US/wireStory/south-carolina-rep-jim-clyburn-credited-helping-biden-112148759", "title": "Clyburn, credited with helping Biden win the 2020 nomination, endorses Harris — ABC News (AP)" },
+        { "url": "https://www.washingtonexaminer.com/live-blog-posts/jim-clyburn-endorses-kamala-harris-after-biden-bows-out", "title": "Jim Clyburn endorses Kamala Harris after Biden bows out — Washington Examiner" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "colleague",
+      "description": "Clyburn served as Pelosi's whip or assistant leader for 16 years, from 2007 to 2023.",
+      "start_year": 2007,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jim_Clyburn", "title": "Jim Clyburn — Wikipedia" },
+        { "url": "https://www.npr.org/2007/01/12/6827972/rep-james-clyburn-herding-democratic-cats", "title": "Rep. James Clyburn: herding Democratic cats — NPR" }
+      ]
+    },
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "ally",
+      "description": "Officially neutral in the 2008 primary, Clyburn voted for Obama, clashed with Bill Clinton over the South Carolina result, and was whip for Obama's agenda in the House.",
+      "start_year": 2008,
+      "end_year": 2016,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jim_Clyburn", "title": "Jim Clyburn — Wikipedia" },
+        { "url": "https://www.pbs.org/newshour/show/rep-clyburn-reflects-on-the-historical-through-line-between-obama-biden-and-harris", "title": "Rep. Clyburn reflects on the through line between Obama, Biden and Harris — PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Bill Clinton",
+      "slug": "bill-clinton",
+      "relationship_type": "rival",
+      "description": "Clashed with Bill Clinton over his remarks on the 2008 South Carolina primary.",
+      "start_year": 2008,
+      "end_year": 2008,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jim_Clyburn", "title": "Jim Clyburn — Wikipedia" },
+        { "url": "http://thecaucus.blogs.nytimes.com/2008/04/24/black-congressman-denounces-b-clintons-remarks/", "title": "Black Leader in House Denounces Bill Clinton's Remarks — The New York Times" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-20 from the Wikipedia article's source text (read directly) and web searches tied to each cited URL; other pages could not be opened in this environment.",
+  "last_researched": "2026-11-20"
+}

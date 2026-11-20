@@ -1,0 +1,52 @@
+{
+  "name": "Steve Pearce",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Director, Bureau of Land Management",
+  "summary": "Steve Pearce, a former Republican congressman from New Mexico, directs the Bureau of Land Management under Interior Secretary Doug Burgum.",
+  "sources": [
+    { "url": "https://dailycaller.com/2026/11/07/interior-blm-planning-rule-areas-critical-environmental-concern-burgum-pearce/", "title": "Doug Burgum moves to rein in “oversized” buffer zones on federal land — Daily Caller (November 2026)" },
+    { "url": "https://en.wikipedia.org/wiki/Steve_Pearce_(politician)", "title": "Steve Pearce (politician) — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Director",
+      "org": "Bureau of Land Management",
+      "sources": [
+        { "url": "https://dailycaller.com/2026/11/07/interior-blm-planning-rule-areas-critical-environmental-concern-burgum-pearce/", "title": "Doug Burgum moves to rein in “oversized” buffer zones on federal land — Daily Caller (November 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Doug Burgum",
+      "slug": "doug-burgum",
+      "relationship_type": "employer",
+      "description": "Directs the Bureau of Land Management under Burgum.",
+      "start_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://dailycaller.com/2026/11/07/interior-blm-planning-rule-areas-critical-environmental-concern-burgum-pearce/", "title": "Doug Burgum moves to rein in “oversized” buffer zones on federal land — Daily Caller (November 2026)" },
+        { "url": "https://en.wikipedia.org/wiki/Steve_Pearce_(politician)", "title": "Steve Pearce (politician) — Wikipedia" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Director, Bureau of Land Management",
+    "unit": "interior",
+    "rank": 4,
+    "reports_to": "doug-burgum",
+    "sources": [
+      { "url": "https://dailycaller.com/2026/11/07/interior-blm-planning-rule-areas-critical-environmental-concern-burgum-pearce/", "title": "Doug Burgum moves to rein in “oversized” buffer zones on federal land — Daily Caller (November 2026)" },
+      { "url": "https://en.wikipedia.org/wiki/Steve_Pearce_(politician)", "title": "Steve Pearce (politician) — Wikipedia" }
+    ]
+  },
+  "notes": "Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

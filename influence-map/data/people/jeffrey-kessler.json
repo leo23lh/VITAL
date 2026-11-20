@@ -1,0 +1,53 @@
+{
+  "name": "Jeffrey Kessler",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Under Secretary of Commerce for Industry and Security (export controls)",
+  "summary": "Jeffrey Kessler heads the Bureau of Industry and Security, which runs U.S. export controls, including on advanced AI chips, under Commerce Secretary Howard Lutnick.",
+  "sources": [
+    { "url": "https://www.commerce.gov/about/leadership", "title": "Leadership — U.S. Department of Commerce" },
+    { "url": "https://en.wikipedia.org/wiki/Bureau_of_Industry_and_Security", "title": "Bureau of Industry and Security — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Under Secretary for Industry and Security",
+      "org": "U.S. Department of Commerce",
+      "sources": [
+        { "url": "https://www.commerce.gov/about/leadership", "title": "Leadership — U.S. Department of Commerce" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Howard Lutnick",
+      "slug": "howard-lutnick",
+      "relationship_type": "employer",
+      "description": "Leads the Bureau of Industry and Security under Lutnick.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.commerce.gov/about/leadership", "title": "Leadership — U.S. Department of Commerce" },
+        { "url": "https://en.wikipedia.org/wiki/Bureau_of_Industry_and_Security", "title": "Bureau of Industry and Security — Wikipedia" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Under Secretary for Industry and Security (BIS)",
+    "unit": "commerce",
+    "rank": 3,
+    "reports_to": "howard-lutnick",
+    "since": "2025",
+    "sources": [
+      { "url": "https://www.commerce.gov/about/leadership", "title": "Leadership — U.S. Department of Commerce" },
+      { "url": "https://en.wikipedia.org/wiki/Bureau_of_Industry_and_Security", "title": "Bureau of Industry and Security — Wikipedia" }
+    ]
+  },
+  "notes": "Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

@@ -1,0 +1,147 @@
+{
+  "name": "Amy Klobuchar",
+  "aliases": ["Amy Jean Klobuchar"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic–Farmer–Labor U.S. senator from Minnesota since 2007, a member of the Senate Democratic leadership, and 2020 presidential candidate; known as a pragmatic, bipartisan-leaning Democrat.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "U.S. senator from Minnesota (governor-elect; takes office January 4, 2027); chair, Senate Democratic Steering and Policy Committee",
+    "unit": "senate",
+    "rank": 3,
+    "since": "2007-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" },
+      { "url": "https://www.news5cleveland.com/politics/midterm-elections/democrat-amy-klobuchar-wins-minnesota-governors-race-becoming-states-first-woman-governor", "title": "Democrat Amy Klobuchar wins Minnesota governor's race, becoming state's first woman governor — Scripps News" }
+    ]
+  },
+  "photo": {
+    "file": "amy-klobuchar.jpg",
+    "credit": "United States Senate",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Amy_Klobuchar,_official_portrait,_113th_Congress.jpg", "title": "File:Amy Klobuchar, official portrait, 113th Congress.jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. senator from Minnesota (since 2007); governor-elect of Minnesota (elected November 2026)",
+  "summary": "Amy Klobuchar, a former Hennepin County attorney, has been a Democratic U.S. senator from Minnesota since 2007 and ran for president in 2020 before endorsing Joe Biden. After Governor Tim Walz dropped his reelection bid in January 2026 she ran for governor and won on November 3, 2026 with about 55.5% of the vote against Republican Lisa Demuth, becoming the state's first woman elected governor.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" },
+    { "url": "https://www.news5cleveland.com/politics/midterm-elections/democrat-amy-klobuchar-wins-minnesota-governors-race-becoming-states-first-woman-governor", "title": "Democrat Amy Klobuchar wins Minnesota governor's race, becoming state's first woman governor — Scripps News" },
+    { "url": "https://www.kttc.com/2026/11/04/democrat-amy-klobuchar-wins-election-governor-minnesota/", "title": "Democrat Amy Klobuchar wins election for governor in Minnesota — KTTC (AP)" }
+  ],
+  "timeline": [
+    {
+      "year": 1999,
+      "end_year": 2007,
+      "role": "County attorney",
+      "org": "Hennepin County",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2007,
+      "end_year": null,
+      "role": "U.S. senator from Minnesota",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2019,
+      "end_year": 2020,
+      "role": "Candidate for the Democratic presidential nomination (withdrew March 2, 2020)",
+      "org": "Amy for America",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2026,
+      "role": "Elected governor of Minnesota; takes office January 4, 2027",
+      "org": "State of Minnesota",
+      "sources": [
+        { "url": "https://www.news5cleveland.com/politics/midterm-elections/democrat-amy-klobuchar-wins-minnesota-governors-race-becoming-states-first-woman-governor", "title": "Democrat Amy Klobuchar wins Minnesota governor's race, becoming state's first woman governor — Scripps News" },
+        { "url": "https://www.kttc.com/2026/11/04/democrat-amy-klobuchar-wins-election-governor-minnesota/", "title": "Democrat Amy Klobuchar wins election for governor in Minnesota — KTTC (AP)" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "ally",
+      "description": "Klobuchar ended her 2020 campaign on March 2, 2020 and endorsed Biden before Super Tuesday; she was reported as a possible running mate and was the first speaker at his inauguration.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" },
+        { "url": "https://www.pbs.org/newshour/politics/klobuchar-ending-2020-campaign", "title": "Klobuchar ends her 2020 campaign, will endorse Biden — PBS NewsHour (AP)" },
+        { "url": "https://www.cnbc.com/2020/03/02/sen-amy-klobuchar-will-suspend-her-presidential-campaign-endorse-joe-biden.html", "title": "Sen. Amy Klobuchar will suspend her presidential campaign, endorse Joe Biden — CNBC" }
+      ]
+    },
+    {
+      "name": "Chuck Schumer",
+      "slug": "chuck-schumer",
+      "relationship_type": "colleague",
+      "description": "A member of Schumer's Senate Democratic leadership team, chairing the Steering (now Steering and Policy) Committee since 2015.",
+      "start_year": 2015,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Barack Obama",
+      "slug": "barack-obama",
+      "relationship_type": "ally",
+      "description": "Klobuchar endorsed Obama in the 2008 primaries on March 30, 2008 and pledged her superdelegate vote to him.",
+      "start_year": 2008,
+      "end_year": 2016,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Lisa Demuth",
+      "slug": "lisa-demuth",
+      "relationship_type": "rival",
+      "description": "Klobuchar defeated the Republican House speaker Demuth for governor in November 2026, about 55.5% to 42.6%.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.news5cleveland.com/politics/midterm-elections/democrat-amy-klobuchar-wins-minnesota-governors-race-becoming-states-first-woman-governor", "title": "Democrat Amy Klobuchar wins Minnesota governor's race, becoming state's first woman governor — Scripps News" },
+        { "url": "https://www.kttc.com/2026/11/04/democrat-amy-klobuchar-wins-election-governor-minnesota/", "title": "Democrat Amy Klobuchar wins election for governor in Minnesota — KTTC (AP)" }
+      ]
+    },
+    {
+      "name": "Tim Walz",
+      "slug": "tim-walz",
+      "relationship_type": "ally",
+      "description": "Walz endorsed Klobuchar's 2020 presidential bid; she ran to succeed him as governor in 2026 after he withdrew, and won.",
+      "start_year": 2019,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL.",
+  "last_researched": "2026-11-19"
+}

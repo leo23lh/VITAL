@@ -1,0 +1,103 @@
+{
+  "aliases": [],
+  "public_figure": true,
+  "connections": [
+    {
+      "name": "Jeff Sessions",
+      "slug": "jeff-sessions",
+      "relationship_type": "employer",
+      "description": "Hamilton was general counsel to Sen. Sessions on the Senate Judiciary Committee (2015 to January 2017) and then Counselor to the Attorney General at the Justice Department. His DOJ end date differs by source: ProPublica lists March 2019; his America First Legal biography says 2021.",
+      "start_year": 2015,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.congress.gov/118/meeting/house/116925/witnesses/HMTG-118-JU01-Bio-HamiltonG-20240307.pdf", "title": "Gene Hamilton witness biography — U.S. House Judiciary Committee" },
+        { "url": "https://projects.propublica.org/trump-town/staffers/gene-p-hamilton-justice", "title": "Gene P. Hamilton — ProPublica Trump Town" },
+        { "url": "https://fedsoc.org/contributors/gene-hamilton", "title": "Gene Hamilton — The Federalist Society" }
+      ],
+      "end_year": 2019
+    },
+    {
+      "name": "Stephen Miller",
+      "slug": "stephen-miller",
+      "relationship_type": "co-founder",
+      "description": "Hamilton, a former Justice Department and Homeland Security official, helped Miller launch America First Legal in 2021. Axios and Fox News call him a co-founder; Wikipedia lists Miller as sole founder and Hamilton as vice president.",
+      "start_year": 2021,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.axios.com/2025/03/08/stephen-miller-dei-outside-trump-white-house", "title": "Stephen Miller's legal army outside the White House — Axios" },
+        { "url": "https://www.foxnews.com/person/h/gene-hamilton", "title": "Gene Hamilton — Fox News contributor page" },
+        { "url": "https://en.wikipedia.org/wiki/America_First_Legal", "title": "America First Legal — Wikipedia" }
+      ],
+      "end_year": null
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Hamilton served in Trump's first-term Justice and Homeland Security departments and as deputy White House counsel from January to June 2025.",
+      "start_year": 2017,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://projects.propublica.org/trump-team-financial-disclosures/appointees/hamilton-gene", "title": "Gene Hamilton — ProPublica Trump Team financial disclosures" },
+        { "url": "https://fedsoc.org/bio/gene-hamilton", "title": "Gene Hamilton — Federalist Society" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-08",
+  "name": "Gene Hamilton",
+  "sector": "politics",
+  "groups": ["trump-circle"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Aide to Republican Sen. Jeff Sessions, Trump Justice Department and Homeland Security official, co-founder of Stephen Miller's America First Legal and deputy White House counsel in 2025.",
+      "sources": [
+        { "url": "https://fedsoc.org/bio/gene-hamilton", "title": "Gene Hamilton — Federalist Society" },
+        { "url": "https://projects.propublica.org/trump-team-financial-disclosures/appointees/hamilton-gene", "title": "Gene Hamilton — ProPublica Trump Team financial disclosures" }
+      ]
+    }
+  ],
+  "current_role": "President of America First Legal (returned after serving as deputy White House counsel in 2025)",
+  "summary": "Gene Hamilton was general counsel to Sen. Jeff Sessions on the Judiciary Committee, then a Justice Department and Homeland Security official in Trump's first term. In 2021 he co-founded America First Legal with Stephen Miller, served as deputy White House counsel from January to June 2025, and returned to lead the group as president.",
+  "sources": [
+    { "url": "https://fedsoc.org/bio/gene-hamilton", "title": "Gene Hamilton — Federalist Society" },
+    { "url": "https://projects.propublica.org/trump-team-financial-disclosures/appointees/hamilton-gene", "title": "Gene Hamilton — ProPublica Trump Team financial disclosures" },
+    { "url": "https://www.breitbart.com/politics/2025/09/08/exclusive-former-wh-lawyer-gene-hamilton-trump-admin-no-longer-accepting-radical-lawfare", "title": "Former WH lawyer Gene Hamilton — Breitbart" }
+  ],
+  "timeline": [
+    {
+      "year": 2015,
+      "end_year": 2017,
+      "role": "General counsel to Sen. Jeff Sessions, Senate Judiciary Committee",
+      "org": "US Senate",
+      "sources": [
+        { "url": "https://fedsoc.org/bio/gene-hamilton", "title": "Gene Hamilton — Federalist Society" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": null,
+      "role": "Co-founder; executive vice president and general counsel, then president",
+      "org": "America First Legal",
+      "sources": [
+        { "url": "https://fedsoc.org/bio/gene-hamilton", "title": "Gene Hamilton — Federalist Society" },
+        { "url": "https://www.breitbart.com/politics/2025/09/08/exclusive-former-wh-lawyer-gene-hamilton-trump-admin-no-longer-accepting-radical-lawfare", "title": "Former WH lawyer Gene Hamilton — Breitbart" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": 2025,
+      "role": "Special assistant to the president and senior (deputy) counsel",
+      "org": "White House",
+      "sources": [
+        { "url": "https://projects.propublica.org/trump-team-financial-disclosures/appointees/hamilton-gene", "title": "Gene Hamilton — ProPublica Trump Team financial disclosures" },
+        { "url": "https://www.axios.com/2025/03/08/stephen-miller-dei-outside-trump-white-house", "title": "Stephen Miller's outside army — Axios" }
+      ]
+    }
+  ],
+  "affiliations": []
+}

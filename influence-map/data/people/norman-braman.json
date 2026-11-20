@@ -1,0 +1,397 @@
+{
+  "name": "Norman Braman",
+  "public_figure": true,
+  "sector": "business",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican megadonor; gave about $6 million to the pro-Rubio super PAC in the 2016 cycle.",
+      "sources": [
+        { "url": "https://ballotpedia.org/Norman_Braman", "title": "Ballotpedia: Norman Braman" },
+        { "url": "https://www.rollingstone.com/politics/politics-news/meet-the-gop-mega-donors-of-the-2016-election-223992/2/", "title": "Rolling Stone: Meet the GOP mega-donors of the 2016 election" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["marco-rubio"],
+    "basis": "Rubio's longtime political patron and largest 2016 backer; no 2028 role reported yet.",
+    "sources": [
+      { "url": "https://www.rollingstone.com/politics/politics-news/meet-the-gop-mega-donors-of-the-2016-election-223992/2/", "title": "Rolling Stone: Meet the GOP mega-donors of the 2016 election" },
+      { "url": "https://forward.com/articles/218769/norman-braman-the-money-man-behind-marco-rubios-ca", "title": "Forward: Norman Braman, the money man behind Marco Rubio's campaign" }
+    ]
+  },
+  "current_role": "Miami auto dealer and philanthropist",
+  "summary": "Norman Braman is a Miami auto dealer and former owner of the Philadelphia Eagles. Described as Marco Rubio's political patron, he employed Rubio as a lawyer, backed his early career, and gave about $6 million to the pro-Rubio super PAC in Rubio's 2016 presidential run.",
+  "sources": [
+    { "url": "https://ballotpedia.org/Norman_Braman", "title": "Ballotpedia: Norman Braman" },
+    { "url": "https://forward.com/articles/218769/norman-braman-the-money-man-behind-marco-rubios-ca", "title": "Forward: Norman Braman, the money man behind Marco Rubio's campaign" }
+  ],
+  "timeline": [
+    {
+      "year": 2015,
+      "end_year": 2016,
+      "role": "Largest donor to Conservative Solutions PAC, backing Rubio (about $6 million)",
+      "org": "Conservative Solutions PAC",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2016-01-31/singer-griffin-give-combined-5-million-to-super-pac-backing-rubio", "title": "Bloomberg: Singer, Griffin give $5 million to super PAC backing Rubio" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Marco Rubio",
+      "slug": "marco-rubio",
+      "relationship_type": "funded_by",
+      "description": "Braman is described as Rubio's political patron: he employed Rubio as a lawyer, backed his career, and gave about $6 million to the pro-Rubio super PAC in 2015–2016. FEC filings show $52,600 from Norman Braman to Marco Rubio for Senate, Rubio Victory Committee, Reclaim America PAC and others in 2 cycles (2016–2022).",
+      "start_year": 2014,
+      "end_year": 2021,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.rollingstone.com/politics/politics-news/meet-the-gop-mega-donors-of-the-2016-election-223992/2/", "title": "Rolling Stone: Meet the GOP mega-donors of the 2016 election" },
+        { "url": "https://forward.com/articles/218769/norman-braman-the-money-man-behind-marco-rubios-ca", "title": "Forward: Norman Braman, the money man behind Marco Rubio's campaign" },
+        { "url": "https://www.thenation.com/article/archive/meet-marco-rubios-far-right-neocon-donors/", "title": "The Nation: Meet Marco Rubio's donors" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00620518&two_year_transaction_period=2022", "title": "FEC receipts: BRAMAN, NORMAN to Marco Rubio for Senate" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00494617&two_year_transaction_period=2022", "title": "FEC receipts: BRAMAN, NORMAN to Rubio Victory Committee" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00500025&two_year_transaction_period=2022", "title": "FEC receipts: BRAMAN, NORMAN to Reclaim America PAC" }
+      ]
+    },
+    {
+      "name": "Senate Leadership Fund",
+      "slug": "senate-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $75,000 from Norman Braman to Senate Leadership Fund in 2 cycles (2020–2022).",
+      "start_year": 2020,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00571703&two_year_transaction_period=2022", "title": "FEC receipts: BRAMAN, NORMAN to Senate Leadership Fund" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $316,600 from Norman Braman to Never Back Down Inc., Restore Our Nation (Ron PAC), Team Desantis 2024 and others in the 2024 cycle.",
+      "start_year": 2023,
+      "end_year": 2023,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00834077&two_year_transaction_period=2024", "title": "FEC receipts: BRAMAN, NORMAN to Never Back Down Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: BRAMAN, NORMAN to Restore Our Nation (Ron PAC)" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00841155&two_year_transaction_period=2024", "title": "FEC receipts: BRAMAN, NORMAN to Team Desantis 2024" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 17000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&two_year_transaction_period=2026", "title": "FEC itemized receipts: BRAMAN, NORMAN, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Mike Johnson",
+            "slug": "mike-johnson",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 3333,
+            "fec_usd": 3333,
+            "fec_ids": ["C00608695"],
+            "description": "Per FEC filings: Mike Johnson for Louisiana $3,333.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00608695&two_year_transaction_period=2026", "title": "FEC receipts: BRAMAN, NORMAN to Mike Johnson for Louisiana, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "total_usd": 451300,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&two_year_transaction_period=2024", "title": "FEC itemized receipts: BRAMAN, NORMAN, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Ron DeSantis",
+            "slug": "ron-desantis",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 316600,
+            "fec_usd": 316600,
+            "fec_ids": ["C00834077", "C00841130", "C00841148", "C00841155"],
+            "description": "Per FEC filings: Never Back Down Inc. $300,000; Restore Our Nation (Ron PAC) $6,600; Team Desantis 2024 $5,000; Great American Comeback $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00834077&two_year_transaction_period=2024", "title": "FEC receipts: BRAMAN, NORMAN to Never Back Down Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: BRAMAN, NORMAN to Restore Our Nation (Ron PAC), 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00841155&two_year_transaction_period=2024", "title": "FEC receipts: BRAMAN, NORMAN to Team Desantis 2024, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Project Rescue America",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00837427"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00837427&two_year_transaction_period=2024", "title": "FEC receipts: BRAMAN, NORMAN to Project Rescue America, 2024 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 498200,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&two_year_transaction_period=2022", "title": "FEC itemized receipts: BRAMAN, NORMAN, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Florida First Project",
+            "kind": "super-pac",
+            "amount_usd": 225000,
+            "fec_usd": 225000,
+            "fec_ids": ["C00620476"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00620476&two_year_transaction_period=2022", "title": "FEC receipts: BRAMAN, NORMAN to Florida First Project, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Rick Scott Victory Fund",
+            "kind": "pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00676957"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00676957&two_year_transaction_period=2022", "title": "FEC receipts: BRAMAN, NORMAN to Rick Scott Victory Fund, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 94800,
+            "fec_usd": 94800,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00027466&two_year_transaction_period=2022", "title": "FEC receipts: BRAMAN, NORMAN to NRSC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 30800,
+            "fec_usd": 30800,
+            "fec_ids": ["C00494617", "C00500025", "C00620518"],
+            "description": "Per FEC filings: Marco Rubio for Senate $11,600; Rubio Victory Committee $10,000; Reclaim America PAC $9,200.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00620518&two_year_transaction_period=2022", "title": "FEC receipts: BRAMAN, NORMAN to Marco Rubio for Senate, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00494617&two_year_transaction_period=2022", "title": "FEC receipts: BRAMAN, NORMAN to Rubio Victory Committee, 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00500025&two_year_transaction_period=2022", "title": "FEC receipts: BRAMAN, NORMAN to Reclaim America PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $25,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00571703&two_year_transaction_period=2022", "title": "FEC receipts: BRAMAN, NORMAN to Senate Leadership Fund, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 143825,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&two_year_transaction_period=2020", "title": "FEC itemized receipts: BRAMAN, NORMAN, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Senate Leadership Fund",
+            "org": "senate-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00571703"],
+            "description": "Per FEC filings: Senate Leadership Fund $50,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00571703&two_year_transaction_period=2020", "title": "FEC receipts: BRAMAN, NORMAN to Senate Leadership Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Americans for Tomorrow's Future",
+            "kind": "super-pac",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00741009"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00741009&two_year_transaction_period=2020", "title": "FEC receipts: BRAMAN, NORMAN to Americans for Tomorrow's Future, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 40400,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&two_year_transaction_period=2018", "title": "FEC itemized receipts: BRAMAN, NORMAN, 2018 cycle" }
+        ],
+        "recipients": []
+      },
+      {
+        "cycle": 2016,
+        "description": "Rubio's most generous backer; he had pledged up to $10M before Rubio entered the race.",
+        "sources": [
+          { "url": "https://www.pressreader.com/canada/bloomberg-businessweek-north-america/20160314/282754880802251", "title": "Bloomberg Businessweek (March 14, 2016)" },
+          { "url": "https://forward.com/news/breaking-news/218769/norman-braman-the-money-man-behind-marco-rubios-ca/?amp=1", "title": "Norman Braman, the Money Man Behind Marco Rubio's Campaign — The Forward" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&two_year_transaction_period=2016", "title": "FEC itemized receipts: BRAMAN, NORMAN, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Pro-Rubio super PAC",
+            "slug": "marco-rubio",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 6000000,
+            "sources": [
+              { "url": "https://www.pressreader.com/canada/bloomberg-businessweek-north-america/20160314/282754880802251", "title": "Bloomberg Businessweek (March 14, 2016)" },
+              { "url": "https://forward.com/news/breaking-news/218769/norman-braman-the-money-man-behind-marco-rubios-ca/?amp=1", "title": "Norman Braman, the Money Man Behind Marco Rubio's Campaign — The Forward" }
+            ]
+          },
+          {
+            "name": "Pro-Lopez-Cantera super PAC (Florida Senate)",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 200000,
+            "sources": [
+              { "url": "https://floridabulldog.org/2015/08/billionaire-car-dealer-braman-also-gives-big-to-lopez-canteras-senate-run", "title": "Billionaire car dealer Braman also gives big to Lopez-Cantera's Senate run — Florida Bulldog" }
+            ]
+          },
+          {
+            "name": "Conservative Solutions PAC",
+            "kind": "super-pac",
+            "amount_usd": 7000000,
+            "fec_usd": 7000000,
+            "fec_ids": ["C00541292"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00541292&two_year_transaction_period=2016", "title": "FEC receipts: BRAMAN, NORMAN to Conservative Solutions PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Reform Government",
+            "kind": "super-pac",
+            "amount_usd": 200000,
+            "fec_usd": 200000,
+            "fec_ids": ["C00575456"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00575456&two_year_transaction_period=2016", "title": "FEC receipts: BRAMAN, NORMAN to Reform Government, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Florida First Project",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00620476"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00620476&two_year_transaction_period=2016", "title": "FEC receipts: BRAMAN, NORMAN to Florida First Project, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "American Opportunity PAC",
+            "kind": "super-pac",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00550368"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00550368&two_year_transaction_period=2016", "title": "FEC receipts: BRAMAN, NORMAN to American Opportunity PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00003418&two_year_transaction_period=2016", "title": "FEC receipts: BRAMAN, NORMAN to Republican National Committee, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Friends of Mike Lee Inc",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00473827"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00473827&two_year_transaction_period=2016", "title": "FEC receipts: BRAMAN, NORMAN to Friends of Mike Lee Inc, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 21800,
+            "fec_usd": 21800,
+            "fec_ids": ["C00458844", "C00494617", "C00500025", "C00620518"],
+            "description": "Per FEC filings: Marco Rubio for Senate 2016 $16,200; Rubio Victory Committee $5,400; Marco Rubio for President $200; Reclaim America PAC $0.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00620518&two_year_transaction_period=2016", "title": "FEC receipts: BRAMAN, NORMAN to Marco Rubio for Senate 2016, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00494617&two_year_transaction_period=2016", "title": "FEC receipts: BRAMAN, NORMAN to Rubio Victory Committee, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=BRAMAN%2C+NORMAN&committee_id=C00458844&two_year_transaction_period=2016", "title": "FEC receipts: BRAMAN, NORMAN to Marco Rubio for President, 2016 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 7515750,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No recent giving found after 2016. He has been Rubio's main financial patron since Rubio's Florida days.",
+      "sources": [
+        { "url": "https://forward.com/news/breaking-news/218769/norman-braman-the-money-man-behind-marco-rubios-ca/?amp=1", "title": "Norman Braman, the Money Man Behind Marco Rubio's Campaign — The Forward" }
+      ],
+      "likely": [
+        {
+          "name": "Marco Rubio",
+          "slug": "marco-rubio",
+          "kind": "candidate",
+          "side": "R",
+          "basis": "His biggest benefactor in 2016; nothing reported about 2028, and Rubio may not run against Vance.",
+          "confidence": 0.45,
+          "sources": [
+            { "url": "https://www.pressreader.com/canada/bloomberg-businessweek-north-america/20160314/282754880802251", "title": "Bloomberg Businessweek (March 14, 2016)" },
+            { "url": "https://forward.com/news/breaking-news/218769/norman-braman-the-money-man-behind-marco-rubios-ca/?amp=1", "title": "Norman Braman, the Money Man Behind Marco Rubio's Campaign — The Forward" }
+          ]
+        }
+      ]
+    }
+  }
+}

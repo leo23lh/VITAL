@@ -1,0 +1,205 @@
+{
+  "name": "Alex Soros",
+  "aliases": ["Alexander Soros"],
+  "public_figure": true,
+  "sector": "business",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Runs the Soros family's political operation, which funds Democrats through Democracy PAC; a longtime Democratic donor.",
+      "sources": [
+        { "url": "https://www.cnn.com/2023/06/12/investing/george-soros-taps-son-alexander/index.html", "title": "George Soros has handed control of his charitable and political activities to his son Alex — CNN" },
+        { "url": "https://en.wikipedia.org/wiki/Alex_Soros", "title": "Alex Soros — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "alex-soros.jpg",
+    "credit": "Nathalie Schuller Moran Wright at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Alexander_Soros_on_March_9_2012.jpg", "title": "File:Alexander Soros on March 9 2012.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Chair of the Open Society Foundations (since December 2022); head of the Soros family's political operation",
+  "summary": "Alex Soros, a son of George Soros, chairs the Open Society Foundations and since 2023 has run the family's charitable and political activities, including Democracy PAC, one of the largest Democratic funders. He married Huma Abedin, Hillary Clinton's longtime aide, in June 2025 at a wedding attended by the Clintons, Kamala Harris, Nancy Pelosi and Chuck Schumer.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Alex_Soros", "title": "Alex Soros — Wikipedia" },
+    { "url": "https://www.cnn.com/2023/06/12/investing/george-soros-taps-son-alexander/index.html", "title": "George Soros has handed control of his charitable and political activities to his son Alex — CNN" },
+    { "url": "https://www.opensocietyfoundations.org/who-we-are/board-of-directors", "title": "Board of Directors — Open Society Foundations" }
+  ],
+  "timeline": [
+    {
+      "year": 2022,
+      "end_year": null,
+      "role": "Chair of the board",
+      "org": "Open Society Foundations",
+      "sources": [
+        { "url": "https://www.opensocietyfoundations.org/who-we-are/board-of-directors", "title": "Board of Directors — Open Society Foundations" },
+        { "url": "https://www.cnn.com/2023/06/12/investing/george-soros-taps-son-alexander/index.html", "title": "George Soros has handed control of his charitable and political activities to his son Alex — CNN" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": null,
+      "role": "Took control of the family's political spending, including Democracy PAC",
+      "org": "Democracy PAC",
+      "sources": [
+        { "url": "https://www.cnn.com/2023/06/12/investing/george-soros-taps-son-alexander/index.html", "title": "George Soros has handed control of his charitable and political activities to his son Alex — CNN" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "family",
+      "description": "Father; handed Alex control of his charitable and political activities in 2023.",
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.cnn.com/2023/06/12/investing/george-soros-taps-son-alexander/index.html", "title": "George Soros has handed control of his charitable and political activities to his son Alex — CNN" },
+        { "url": "https://www.opensocietyfoundations.org/who-we-are/board-of-directors", "title": "Board of Directors — Open Society Foundations" }
+      ]
+    },
+    {
+      "name": "Democracy PAC",
+      "slug": "democracy-pac",
+      "relationship_type": "employer",
+      "description": "Alex Soros runs the family's political operation, including Democracy PAC.",
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.cnn.com/2023/06/12/investing/george-soros-taps-son-alexander/index.html", "title": "George Soros has handed control of his charitable and political activities to his son Alex — CNN" },
+        { "url": "https://www.cnn.com/2026/10/26/politics/elon-musk-campaign-spending", "title": "Elon Musk is now a mega-donor unlike anyone this country has ever seen — CNN" }
+      ]
+    },
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "friend",
+      "description": "Hillary and Bill Clinton attended Soros's June 14, 2025 wedding to Huma Abedin, Clinton's longtime aide.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://digital-release.newsnationnow.com/?p=3418428", "title": "Clintons, Harris attend Hamptons wedding of Huma Abedin, Alex Soros — NewsNation" },
+        { "url": "https://www.nysun.com/article/democratic-royalty-descend-on-hamptons-for-marriage-of-george-soross-son-and-clinton-aide-huma-abedin", "title": "Democratic royalty descend on Hamptons for marriage of George Soros's son and Clinton aide Huma Abedin — New York Sun" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "Harris and Doug Emhoff attended Soros's June 2025 wedding; the Soros operation backed her 2024 campaign through Democracy PAC.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://digital-release.newsnationnow.com/?p=3418428", "title": "Clintons, Harris attend Hamptons wedding of Huma Abedin, Alex Soros — NewsNation" },
+        { "url": "https://www.cnn.com/2023/06/12/investing/george-soros-taps-son-alexander/index.html", "title": "George Soros has handed control of his charitable and political activities to his son Alex — CNN" }
+      ]
+    },
+    {
+      "name": "Huma Abedin",
+      "slug": "huma-abedin",
+      "relationship_type": "family",
+      "description": "Wife, married June 14, 2025; Hillary Clinton's longtime aide and vice chair of her 2016 campaign.",
+      "start_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://digital-release.newsnationnow.com/?p=3418428", "title": "Clintons, Harris attend Hamptons wedding of Huma Abedin, Alex Soros — NewsNation" },
+        { "url": "https://www.nysun.com/article/democratic-royalty-descend-on-hamptons-for-marriage-of-george-soross-son-and-clinton-aide-huma-abedin", "title": "Democratic royalty descend on Hamptons for marriage of George Soros's son and Clinton aide Huma Abedin — New York Sun" }
+      ],
+      "public_figure_confirmed": true
+    },
+    {
+      "name": "Bill Clinton",
+      "slug": "bill-clinton",
+      "relationship_type": "friend",
+      "description": "Hillary and Bill Clinton attended Soros's June 14, 2025 wedding to Huma Abedin, Clinton's longtime aide.",
+      "start_year": 2025,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://digital-release.newsnationnow.com/?p=3418428", "title": "Huma Abedin and Alex Soros wedding — NewsNation" },
+        { "url": "https://www.nysun.com/article/democratic-royalty-descend-on-hamptons-for-marriage-of-george-soross-son-and-clinton-aide-huma-abedin", "title": "Democratic royalty descend on Hamptons for marriage of George Soros's son and Clinton aide Huma Abedin — New York Sun" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Records for George Soros and Democracy PAC mirror those already in their files.",
+  "last_researched": "2026-11-19",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2018,
+        "total_usd": 35000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+ALEX&two_year_transaction_period=2018", "title": "FEC itemized receipts: SOROS, ALEX, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Citizens for a Better Illinois",
+            "kind": "super-pac",
+            "amount_usd": 35000,
+            "fec_usd": 35000,
+            "fec_ids": ["C00669820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+ALEX&committee_id=C00669820&two_year_transaction_period=2018", "title": "FEC receipts: SOROS, ALEX to Citizens for a Better Illinois, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 1060800,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+ALEX&two_year_transaction_period=2016", "title": "FEC itemized receipts: SOROS, ALEX, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Priorities USA Action",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00495861"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+ALEX&committee_id=C00495861&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, ALEX to Priorities USA Action, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Coalition for Progress",
+            "kind": "super-pac",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00582841"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=SOROS%2C+ALEX&committee_id=C00582841&two_year_transaction_period=2016", "title": "FEC receipts: SOROS, ALEX to Coalition for Progress, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No 2028 pick reported. He runs the family's political operation, which put about $103 million into the 2026 midterms, mostly through Democracy PAC; in July 2024 he and his father backed Harris within a day of Biden's withdrawal.",
+      "sources": [
+        { "url": "https://wjla.com/news/nation-world/soros-family-emerges-as-financial-powerhouse-for-democrats-as-fundraising-lags-republican-national-committee-politics", "title": "Soros family emerges as financial powerhouse for Democrats — WJLA" },
+        { "url": "https://fortune.com/2024/07/22/kamala-harris-endorsement-george-alex-soros-alex-joe-biden-democrats-donor/", "title": "George and Alex Soros endorse Kamala Harris — Fortune" }
+      ],
+      "likely": [
+        {
+          "name": "The Democratic presidential nominee (via Democracy PAC or similar)",
+          "kind": "super-pac",
+          "side": "D",
+          "basis": "Pattern: the family backed the nominee in 2016 (Alex gave $1 million to Priorities USA Action) and 2024 (Harris), and funds Democrats through Democracy PAC every cycle.",
+          "confidence": 0.65,
+          "sources": [
+            { "url": "https://fortune.com/2024/07/22/kamala-harris-endorsement-george-alex-soros-alex-joe-biden-democrats-donor/", "title": "George and Alex Soros endorse Kamala Harris — Fortune" },
+            { "url": "https://wjla.com/news/nation-world/soros-family-emerges-as-financial-powerhouse-for-democrats-as-fundraising-lags-republican-national-committee-politics", "title": "Soros family emerges as financial powerhouse for Democrats — WJLA" }
+          ]
+        }
+      ]
+    }
+  }
+}

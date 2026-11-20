@@ -1,0 +1,75 @@
+{
+  "name": "Stephen Vaden",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Deputy Secretary of Agriculture (since July 2025)",
+  "summary": "Stephen Vaden has been Brooke Rollins’s deputy at the Agriculture Department since July 2025. In Trump’s first term he was USDA’s general counsel and then a judge on the Court of International Trade.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Stephen_Vaden", "title": "Stephen Vaden — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2017,
+      "end_year": 2020,
+      "role": "General Counsel",
+      "org": "U.S. Department of Agriculture",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Vaden", "title": "Stephen Vaden — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2020,
+      "end_year": 2025,
+      "role": "Judge",
+      "org": "U.S. Court of International Trade",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Vaden", "title": "Stephen Vaden — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Deputy Secretary of Agriculture",
+      "org": "U.S. Department of Agriculture",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Vaden", "title": "Stephen Vaden — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Brooke Rollins",
+      "slug": "brooke-rollins",
+      "relationship_type": "employer",
+      "description": "Rollins’s deputy at the Agriculture Department since July 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Stephen_Vaden", "title": "Stephen Vaden — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" },
+        { "url": "https://www.usda.gov/about-usda/news/press-releases/2025/07/07/judge-vaden-sworn-deputy-secretary-us-department-agriculture", "title": "Judge Vaden Sworn in as Deputy Secretary at the U.S. Department of Agriculture — USDA" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Secretary of Agriculture",
+    "unit": "agriculture",
+    "rank": 2,
+    "reports_to": "brooke-rollins",
+    "since": "2025-07-07",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Stephen_Vaden", "title": "Stephen Vaden — Wikipedia" },
+      { "url": "https://en.wikipedia.org/wiki/Political_appointments_of_the_second_Trump_administration", "title": "Political appointments of the second Trump administration — Wikipedia" },
+      { "url": "https://www.usda.gov/about-usda/news/press-releases/2025/07/07/judge-vaden-sworn-deputy-secretary-us-department-agriculture", "title": "Judge Vaden Sworn in as Deputy Secretary at the U.S. Department of Agriculture — USDA" }
+    ]
+  },
+  "last_researched": "2026-11-08",
+  "notes": "Second sources added on 2026-11-09 were confirmed by web searches restricted to each source's domain; the pages themselves were not opened."
+}

@@ -1,0 +1,413 @@
+{
+  "name": "Omeed Malik",
+  "public_figure": true,
+  "sector": "business",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": 2020,
+      "basis": "Described as a New York Democrat when he bought a minority stake in the Daily Caller in 2020.",
+      "sources": [
+        { "url": "https://thehill.com/homenews/media/512421-ny-democrat-omeed-malik-joins-daily-caller-as-minority-investor-contributing/", "title": "NY Democrat Omeed Malik joins Daily Caller as minority investor — The Hill" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2021,
+      "end_year": null,
+      "basis": "Trump donor and financier of conservative \"patriotic capitalism\" ventures.",
+      "sources": [
+        { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["donald-trump-jr"],
+    "basis": "Trump Jr.'s business partner at 1789 Capital and co-owner with him of the Executive Branch club.",
+    "sources": [
+      { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" },
+      { "url": "https://en.wikipedia.org/wiki/Executive_Branch_(club)", "title": "Wikipedia: Executive Branch (club)" }
+    ]
+  },
+  "current_role": "Co-founder and president of 1789 Capital",
+  "summary": "Omeed Malik, an investment banker and Trump donor, co-founded the venture firm 1789 Capital in 2022 with Chris Buskirk and Rebekah Mercer; Donald Trump Jr. joined as a partner in late 2024. Malik co-owns the Washington club Executive Branch and helped negotiate Robert F. Kennedy Jr.'s 2024 endorsement of Trump.",
+  "sources": [
+    { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" },
+    { "url": "https://en.wikipedia.org/wiki/Executive_Branch_(club)", "title": "Wikipedia: Executive Branch (club)" }
+  ],
+  "timeline": [
+    {
+      "year": 2022,
+      "end_year": null,
+      "role": "Co-founder and president",
+      "org": "1789 Capital",
+      "sources": [
+        { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" },
+        { "url": "https://www.adn.com/nation-world/2025/11/04/inside-the-billionaire-network-shaping-magas-post-trump-future/", "title": "Washington Post via ADN: Inside the billionaire network shaping MAGA's post-Trump future" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump Jr.",
+      "slug": "donald-trump-jr",
+      "relationship_type": "colleague",
+      "description": "Partners at 1789 Capital and co-owners of the Executive Branch club.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" },
+        { "url": "https://en.wikipedia.org/wiki/Executive_Branch_(club)", "title": "Wikipedia: Executive Branch (club)" }
+      ]
+    },
+    {
+      "name": "Chris Buskirk",
+      "slug": "chris-buskirk",
+      "relationship_type": "co-founder",
+      "description": "Co-founded 1789 Capital in 2022.",
+      "start_year": 2022,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" },
+        { "url": "https://www.adn.com/nation-world/2025/11/04/inside-the-billionaire-network-shaping-magas-post-trump-future/", "title": "Washington Post via ADN" }
+      ]
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "slug": "robert-f-kennedy-jr",
+      "relationship_type": "ally",
+      "description": "NBC reported that Malik, with Carlson and Trump Jr., held meetings and calls to negotiate Kennedy's 2024 exit and Trump endorsement.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" }
+      ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "co-founder",
+      "description": "Reported co-founders, with Chris Buskirk, of the venture firm 1789 Capital in 2022.",
+      "start_year": 2022,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.axios.com/2026/08/13/1789-capital-real-estate-fund", "title": "1789 Capital closes $1.2B real estate fund — Axios" },
+        { "url": "https://www.washingtonpost.com/technology/interactive/2026/07/13/trumps-sons-invest-heavily-defense-fathers-administration-pours-money/", "title": "Trump's sons invest heavily in defense tech — Washington Post" }
+      ]
+    },
+    {
+      "name": "Ron DeSantis",
+      "slug": "ron-desantis",
+      "relationship_type": "funded_by",
+      "description": "Malik maxed out to DeSantis's 2024 campaign and was a Wall Street fundraiser for him before switching to Trump in February 2024.",
+      "start_year": 2023,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.axios.com/2023/07/12/big-money-backing-desantis-rfk", "title": "The big-money donors backing both DeSantis and RFK Jr. — Axios" },
+        { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Gave $25,000 to Trump Victory in 2020 and in 2024 pledged to raise $3M+ and give at least $100,000 to Trump's campaign. FEC filings show $129,400 from Omeed Malik to Trump Victory, Donald J. Trump for President, Inc., Trump National Committee JFC, Inc. and others in 2 cycles (2020–2024).",
+      "start_year": 2019,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: MALIK, OMEED to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: MALIK, OMEED to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00873893&two_year_transaction_period=2024", "title": "FEC receipts: MALIK, OMEED to Trump National Committee JFC, Inc." }
+      ]
+    },
+    {
+      "name": "1789 Capital",
+      "slug": "1789-capital",
+      "relationship_type": "co-founder",
+      "description": "Co-founder and president.",
+      "start_year": 2022,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/1789_Capital", "title": "1789 Capital — Wikipedia" },
+        { "url": "https://www.cnn.com/2026/07/20/politics/trump-jr-investments-federal-funding-invs", "title": "CNN: Trump Jr.'s 1789 fund invests in companies that have scored billions in federal funding" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $10,521 from Omeed Malik to Working for Ohio, JD Vance for Senate Inc. in the 2022 cycle.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: MALIK, OMEED to Working for Ohio" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: MALIK, OMEED to JD Vance for Senate Inc." }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 310000,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&two_year_transaction_period=2026", "title": "FEC itemized receipts: MALIK, OMEED, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 250000,
+            "fec_usd": 250000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00003418&two_year_transaction_period=2026", "title": "FEC receipts: MALIK, OMEED to Republican National Committee, 2026 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 25000,
+            "fec_usd": 25000,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00027466&two_year_transaction_period=2026", "title": "FEC receipts: MALIK, OMEED to NRSC, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "description": "A fundraiser more than a big personal donor: maxed out ($6,600) to both Ron DeSantis and Robert F. Kennedy Jr. in 2023, hosted a Kennedy fundraiser that raised about $500,000, then switched to Trump, pledging to raise $3M+ and give at least $100,000 to a Trump committee.",
+        "sources": [
+          { "url": "https://www.axios.com/2023/07/12/big-money-backing-desantis-rfk", "title": "The big-money donors backing both DeSantis and RFK Jr. — Axios" },
+          { "url": "https://www.cnbc.com/2023/06/21/robert-f-kennedy-jr-gets-boost-wall-street-veteran.html", "title": "Robert F. Kennedy Jr.'s presidential run gets support from Wall Street veteran Omeed Malik — CNBC" },
+          { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&two_year_transaction_period=2024", "title": "FEC itemized receipts: MALIK, OMEED, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Trump fundraising committee",
+            "slug": "donald-trump",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 100000,
+            "description": "Pledged (at least $100,000), February 2024; he gave $25,000 to Trump Victory in 2020.",
+            "sources": [
+              { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" }
+            ]
+          },
+          {
+            "name": "Ron DeSantis (presidential campaign)",
+            "slug": "ron-desantis",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "sources": [
+              { "url": "https://www.axios.com/2023/07/12/big-money-backing-desantis-rfk", "title": "The big-money donors backing both DeSantis and RFK Jr. — Axios" }
+            ]
+          },
+          {
+            "name": "Robert F. Kennedy Jr. (presidential campaign)",
+            "slug": "robert-f-kennedy-jr",
+            "kind": "candidate",
+            "side": "nonpartisan",
+            "amount_usd": 6600,
+            "sources": [
+              { "url": "https://www.axios.com/2023/07/12/big-money-backing-desantis-rfk", "title": "The big-money donors backing both DeSantis and RFK Jr. — Axios" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 68200,
+            "fec_usd": 68200,
+            "fec_ids": ["C00762591", "C00828541", "C00867937", "C00873893"],
+            "description": "Per FEC filings: Trump 47 Committee, Inc. $31,600; Trump National Committee JFC, Inc. $25,000; Never Surrender, Inc. $6,600; Save America $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: MALIK, OMEED to Trump 47 Committee, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00873893&two_year_transaction_period=2024", "title": "FEC receipts: MALIK, OMEED to Trump National Committee JFC, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: MALIK, OMEED to Never Surrender, Inc., 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ron DeSantis",
+            "slug": "ron-desantis",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00841130"],
+            "description": "Per FEC filings: Restore Our Nation (Ron PAC) $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00841130&two_year_transaction_period=2024", "title": "FEC receipts: MALIK, OMEED to Restore Our Nation (Ron PAC), 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Robert F. Kennedy Jr.",
+            "slug": "robert-f-kennedy-jr",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00836916"],
+            "description": "Per FEC filings: Team Kennedy $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00836916&two_year_transaction_period=2024", "title": "FEC receipts: MALIK, OMEED to Team Kennedy, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 6600,
+            "fec_usd": 6600,
+            "fec_ids": ["C00492785"],
+            "description": "Per FEC filings: Ted Cruz for Senate $6,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00492785&two_year_transaction_period=2024", "title": "FEC receipts: MALIK, OMEED to Ted Cruz for Senate, 2024 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 137313,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      },
+      {
+        "cycle": 2022,
+        "total_usd": 79841,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&two_year_transaction_period=2022", "title": "FEC itemized receipts: MALIK, OMEED, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 36500,
+            "fec_usd": 36500,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00003418&two_year_transaction_period=2022", "title": "FEC receipts: MALIK, OMEED to Republican National Committee, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 10521,
+            "fec_usd": 10521,
+            "fec_ids": ["C00783142", "C00783167"],
+            "description": "Per FEC filings: JD Vance for Senate Inc. $5,521; Working for Ohio $5,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00783142&two_year_transaction_period=2022", "title": "FEC receipts: MALIK, OMEED to JD Vance for Senate Inc., 2022 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00783167&two_year_transaction_period=2022", "title": "FEC receipts: MALIK, OMEED to Working for Ohio, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Mehmet Oz",
+            "slug": "mehmet-oz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00795930"],
+            "description": "Per FEC filings: Doctor Oz for Senate $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00795930&two_year_transaction_period=2022", "title": "FEC receipts: MALIK, OMEED to Doctor Oz for Senate, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "Marco Rubio",
+            "slug": "marco-rubio",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2000,
+            "fec_usd": 2000,
+            "fec_ids": ["C00620518"],
+            "description": "Per FEC filings: Marco Rubio for Senate $2,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00620518&two_year_transaction_period=2022", "title": "FEC receipts: MALIK, OMEED to Marco Rubio for Senate, 2022 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 145907,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&two_year_transaction_period=2020", "title": "FEC itemized receipts: MALIK, OMEED, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 61200,
+            "fec_usd": 61200,
+            "fec_ids": ["C00580100", "C00618389"],
+            "description": "Per FEC filings: Trump Victory $55,600; Donald J. Trump for President, Inc. $5,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: MALIK, OMEED to Trump Victory, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00580100&two_year_transaction_period=2020", "title": "FEC receipts: MALIK, OMEED to Donald J. Trump for President, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 50000,
+            "fec_usd": 50000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00003418&two_year_transaction_period=2020", "title": "FEC receipts: MALIK, OMEED to Republican National Committee, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Pete Buttigieg",
+            "slug": "pete-buttigieg",
+            "kind": "pac",
+            "side": "D",
+            "amount_usd": 2800,
+            "fec_usd": 2800,
+            "fec_ids": ["C00697441"],
+            "description": "Per FEC filings: Win the Era PAC $2,800.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MALIK%2C+OMEED&committee_id=C00697441&two_year_transaction_period=2020", "title": "FEC receipts: MALIK, OMEED to Win the Era PAC, 2020 cycle" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "No 2028 pick reported. His business partners Chris Buskirk and Donald Trump Jr. are close to JD Vance's operation.",
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/02/13/trump-scores-desantis-fundraiser-to-bolster-campaign-war-chest.html", "title": "Former Ron DeSantis Wall Street fundraiser to bolster Trump's campaign war chest — CNBC" }
+      ],
+      "likely": []
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "name": "Gabby Giffords",
+  "aliases": ["Gabrielle Giffords"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -1,
+      "start_year": 2000,
+      "end_year": 2012,
+      "basis": "Switched from Republican to Democrat in 2000; in Congress she was a moderate and a member of the Blue Dog and New Democrat coalitions.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gabby_Giffords", "title": "Gabby Giffords — Wikipedia" }
+      ]
+    },
+    {
+      "value": -2,
+      "start_year": 2013,
+      "end_year": null,
+      "basis": "Since 2013 her gun-safety group has backed Democrats, including $15 million to help Kamala Harris in 2024.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gabby_Giffords", "title": "Gabby Giffords — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/giffords-gun-safety-group-commits-15-million-help-harris-beat-trump-rcna163424", "title": "Giffords group commits $15 million to help Harris beat Trump — NBC News" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["mark-kelly"],
+    "basis": "Kelly's wife; he says he has been discussing a 2028 run with her and will decide after the 2026 midterms.",
+    "sources": [
+      { "url": "https://ktar.com/arizona-news/mark-kelly-president-decision", "title": "Mark Kelly on a presidential decision — KTAR News" },
+      { "url": "https://deseret.com/politics/2026/10/28/mark-kelly-make-decision-on-presidential-run/", "title": "Mark Kelly to make decision on presidential run after midterms — Deseret News" }
+    ]
+  },
+  "photo": {
+    "file": "gabby-giffords.jpg",
+    "credit": "Sen. Tammy Baldwin",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Baldwin_and_Giffords_(cropped).jpg", "title": "File:Baldwin and Giffords (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Co-founder of Giffords, a gun-safety group; former U.S. representative from Arizona",
+  "summary": "Gabby Giffords served in the Arizona legislature (2001–2005) and the U.S. House (2007–2012), resigning after she was shot in a 2011 assassination attempt in Tucson. With her husband, Mark Kelly, she founded the gun-safety group now called Giffords in 2013. Biden awarded her the Presidential Medal of Freedom in 2022.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Gabby_Giffords", "title": "Gabby Giffords — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2001,
+      "end_year": 2005,
+      "role": "Arizona state representative, then state senator",
+      "org": "Arizona Legislature",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gabby_Giffords", "title": "Gabby Giffords — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2007,
+      "end_year": 2012,
+      "role": "U.S. representative from Arizona",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gabby_Giffords", "title": "Gabby Giffords — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": null,
+      "role": "Co-founder",
+      "org": "Giffords (founded as Americans for Responsible Solutions)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gabby_Giffords", "title": "Gabby Giffords — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/giffords-gun-safety-group-commits-15-million-help-harris-beat-trump-rcna163424", "title": "Giffords group commits $15 million to help Harris beat Trump — NBC News" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Mark Kelly",
+      "slug": "mark-kelly",
+      "relationship_type": "family",
+      "description": "Husband, married 2007; they founded her gun-safety group together in 2013, and he says she has a big say in whether he runs for president in 2028.",
+      "start_year": 2007,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gabby_Giffords", "title": "Gabby Giffords — Wikipedia" },
+        { "url": "https://ktar.com/arizona-news/mark-kelly-president-decision", "title": "Mark Kelly on a presidential decision — KTAR News" }
+      ]
+    },
+    {
+      "name": "Kamala Harris",
+      "slug": "kamala-harris",
+      "relationship_type": "ally",
+      "description": "Endorsed Harris for Senate in 2016 and president in 2024; her group committed $15 million to help Harris, and she spoke for her at the 2024 Democratic convention.",
+      "start_year": 2016,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://giffords.org/press-release/2024/07/gabby-giffords-kamala-harris-will-be-a-great-president/", "title": "Gabby Giffords: Kamala Harris will be a great president — Giffords" },
+        { "url": "https://www.nbcnews.com/politics/2024-election/giffords-gun-safety-group-commits-15-million-help-harris-beat-trump-rcna163424", "title": "Giffords group commits $15 million to help Harris beat Trump — NBC News" },
+        { "url": "https://www.cbsnews.com/amp/colorado/news/gabby-giffords-mark-kelly-dnc-speech", "title": "Gabby Giffords and husband Sen. Mark Kelly, in DNC speeches, praise Harris — CBS News" }
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "ally",
+      "description": "Her group helped shape Biden's gun-safety agenda and endorsed his 2024 re-election; Biden awarded her the Presidential Medal of Freedom in 2022.",
+      "start_year": 2022,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Gabby_Giffords", "title": "Gabby Giffords — Wikipedia" },
+        { "url": "https://giffords.org/press-release/2023/08/giffords-endorses-president-biden-for-re-election/", "title": "Giffords endorses President Biden for re-election — Giffords" },
+        { "url": "https://www.pbs.org/newshour/politics/major-gun-safety-groups-come-together-to-endorse-biden-for-2024-election", "title": "Major gun safety groups come together to endorse Biden for 2024 — PBS NewsHour" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-20 from the Wikipedia article's source text (read directly) and web searches tied to each cited URL; other pages could not be opened in this environment.",
+  "last_researched": "2026-11-20"
+}

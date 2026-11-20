@@ -1,0 +1,188 @@
+{
+  "aliases": ["Steven Charles Witkoff"],
+  "public_figure": true,
+  "connections": [
+    {
+      "name": "Jared Kushner",
+      "slug": "jared-kushner",
+      "relationship_type": "colleague",
+      "description": "Partners in Trump's second-term diplomacy: together they negotiated over Gaza, met Vladimir Putin in Moscow in December 2025, led 2026 nuclear talks with Iran, and sit on the Board of Peace's executive boards.",
+      "start_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Kushner", "title": "Jared Kushner — Wikipedia" },
+        { "url": "https://www.aljazeera.com/news/2026/1/16/trump-names-tony-blair-jared-kushner-to-gaza-board-of-peace", "title": "Trump names Tony Blair, Jared Kushner to Gaza 'Board of Peace' — Al Jazeera" },
+        { "url": "https://www.aol.com/articles/trump-says-son-law-kushner-152430541.html", "title": "Trump says son-in-law Kushner promoted to 'peace envoy' — NewsNation via AOL" },
+        { "url": "https://www.foxnews.com/world/kushner-joins-witkoff-gaza-ceasefire-talks-trump-pushes-peace-plan-cautiously-optimistic", "title": "Fox News: Kushner joins Witkoff for Gaza ceasefire talks" },
+        { "url": "https://www.washingtonexaminer.com/news/3845035/trump-kushner-witkoff-israel-hamas-peace-deal/", "title": "Washington Examiner: Trump appoints Kushner and Witkoff to execute Gaza peace deal" }
+      ],
+      "end_year": null
+    },
+    {
+      "name": "Tony Blair",
+      "slug": "tony-blair",
+      "relationship_type": "colleague",
+      "description": "Both sit on the Board of Peace's founding Executive Board and its Gaza Executive Board, named in January 2026.",
+      "start_year": 2026,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.britannica.com/topic/Board-of-Peace", "title": "Board of Peace — Britannica" },
+        { "url": "https://www.cbsnews.com/news/tony-blair-rubio-kushner-witkoff-help-oversee-gaza-reconstruction", "title": "Tony Blair, Rubio, Kushner and Witkoff to help oversee Gaza reconstruction — CBS News" }
+      ],
+      "end_year": null
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Friends since a 1986 real estate deal and golf partners (Witkoff was on the course during the September 2024 assassination attempt); Witkoff has given millions to Trump's causes and Trump made him special envoy in 2025.",
+      "start_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.ksat.com/news/world/2025/03/13/steve-witkoff-has-gone-from-spotting-trump-cash-at-a-deli-to-helping-him-navigate-ukraine-and-gaza/", "title": "Steve Witkoff has gone from spotting Trump cash at a deli to helping him navigate Ukraine and Gaza — AP" },
+        { "url": "https://www.nbcnews.com/news/world/witkoff-trump-gaza-hamas-israel-ceasefire-envoy-rcna187954", "title": "How an NYC real estate tycoon became Trump's man in the room for Gaza negotiations — NBC News" },
+        { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Michael Anton",
+      "slug": "michael-anton",
+      "relationship_type": "colleague",
+      "description": "Witkoff led the US side of the 2025 Iran nuclear talks; Anton led the expert-level track.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations", "title": "2025–2026 Iran–United States negotiations — Wikipedia" },
+        { "url": "https://www.dailysignal.com/2025/04/24/heres-trumps-team-negotiating-iran/", "title": "Anton to lead Trump team negotiating with Iran — Daily Signal" },
+        { "url": "https://digital-release.thehill.com/?p=5265909", "title": "Trump taps Michael Anton to lead technical talks with Iran — The Hill" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "colleague",
+      "description": "Fellow member of Trump’s cabinet-level national security team; both were in the March 2025 Signal group chat on the Houthi strikes, to which a journalist was accidentally added and in which Hegseth posted the attack timeline.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.yahoo.com/news/meet-19-members-houthi-attacks-180815116.html", "title": "Yahoo News: Meet the 19 members of the Houthi attacks group chat" },
+        { "url": "https://ajc.com/news/white-house-inner-circle-discussed-secret-military-plans-in-extraordinary-breach/4HS5BQMHRVBRVMKZK3IY3LMK44", "title": "AJC: White House inner circle discussed secret military plans in extraordinary breach" },
+        { "url": "https://www.timesofisrael.com/us-cabinet-officials-accidentally-add-journalist-to-group-chat-share-war-plans/", "title": "Times of Israel: US cabinet officials accidentally add journalist to group chat, share war plans" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "friend",
+      "description": "Friends since a 1986 real estate deal and regular golf partners; Witkoff was on the course with Trump during the September 2024 assassination attempt.",
+      "start_year": 1986,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.ksat.com/news/world/2025/03/13/steve-witkoff-has-gone-from-spotting-trump-cash-at-a-deli-to-helping-him-navigate-ukraine-and-gaza/", "title": "Steve Witkoff has gone from spotting Trump cash at a deli to helping him navigate Ukraine and Gaza — AP" },
+        { "url": "https://www.nbcnews.com/news/world/witkoff-trump-gaza-hamas-israel-ceasefire-envoy-rcna187954", "title": "How an NYC real estate tycoon became Trump's man in the room for Gaza negotiations — NBC News" },
+        { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" }
+      ]
+    },
+    {
+      "name": "World Liberty Financial",
+      "slug": "world-liberty-financial",
+      "relationship_type": "co-founder",
+      "description": "Co-founder (now emeritus) of the Trump family crypto company, which his sons Zach and Alex helped start; his affiliate WC Digital Fi holds half of the founders’ 25% revenue share and Witkoff-linked firms received about $31 million from the UAE stake. Whether he has divested is disputed.",
+      "start_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/trump-family-took-over-world-093753031.html", "title": "How the Trump family took over World Liberty Financial — Reuters via Yahoo Finance" },
+        { "url": "https://decrypt.co/344907/what-is-world-liberty-financial-the-trump-family-defi-project-explained", "title": "What is World Liberty Financial? The Trump family DeFi project explained — Decrypt (updated February 2026)" },
+        { "url": "https://www.nbcnews.com/tech/crypto/trump-family-gets-75-crypto-coin-revenue-no-liability-new-document-rev-rcna176088", "title": "Trump family gets 75% of crypto coin revenue, has no liability, new document reveals — NBC News" },
+        { "url": "https://www.theblock.co/news/deals/2026-02-01-uae-sheikh-secretly-acquired-49-of-trumps-world-liberty-financial-days-before-inauguration-wsj-387931", "title": "UAE sheikh secretly acquired 49% of Trump’s World Liberty Financial days before inauguration: WSJ — The Block" },
+        { "url": "https://www.schiff.senate.gov/?p=10959", "title": "Schiff and colleagues press Witkoff on crypto holdings and ethics — Office of Sen. Adam Schiff (October 2025)" }
+      ]
+    },
+    {
+      "name": "Zach Witkoff",
+      "slug": "zach-witkoff",
+      "relationship_type": "family",
+      "description": "His son; co-founder and chief executive of World Liberty Financial.",
+      "start_year": 1993,
+      "confidence": 1,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Zach_Witkoff", "title": "Zach Witkoff — Wikipedia" },
+        { "url": "https://www.thedailybeast.com/trump-envoy-steve-witkoffs-son-zach-witkoff-melts-down-defending-dads-bromance-with-russias-putin", "title": "Trump Envoy Steve Witkoff's Son Zach Witkoff Melts Down Defending Dad — The Daily Beast" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-08",
+  "name": "Steve Witkoff",
+  "sector": "politics",
+  "groups": ["trump-circle", "middle-east"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Longtime donor of millions to Trump's political causes and his special envoy since 2025.",
+      "sources": [
+        { "url": "https://www.ksat.com/news/world/2025/03/13/steve-witkoff-has-gone-from-spotting-trump-cash-at-a-deli-to-helping-him-navigate-ukraine-and-gaza/", "title": "Steve Witkoff has gone from spotting Trump cash at a deli to helping him navigate Ukraine and Gaza — AP" },
+        { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "steve-witkoff.jpg",
+    "credit": "U.S. Embassy Jerusalem",
+    "license": "CC BY 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Steve_Witkoff_(2025)_(cropped).jpg", "title": "File:Steve Witkoff (2025) (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "US Special Envoy to the Middle East and Special Envoy for Peace Missions (since 2025); founder of the Witkoff Group",
+  "summary": "Steve Witkoff is a New York and Miami real estate developer and Trump's friend since a 1986 deal. As special envoy since 2025 he has led talks over Gaza, Iran and Russia's war in Ukraine, criticized for perceived pro-Russian positions; his family's business ties to Gulf governments, including through the Trump-linked crypto firm World Liberty Financial, have raised conflict-of-interest concerns.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" },
+    { "url": "https://www.ksat.com/news/world/2025/03/13/steve-witkoff-has-gone-from-spotting-trump-cash-at-a-deli-to-helping-him-navigate-ukraine-and-gaza/", "title": "Steve Witkoff has gone from spotting Trump cash at a deli to helping him navigate Ukraine and Gaza — AP" },
+    { "url": "https://www.nbcnews.com/news/world/witkoff-trump-gaza-hamas-israel-ceasefire-envoy-rcna187954", "title": "How an NYC real estate tycoon became Trump's man in the room for Gaza negotiations — NBC News" }
+  ],
+  "timeline": [
+    {
+      "year": 1997,
+      "end_year": null,
+      "role": "Founder and chairman",
+      "org": "Witkoff Group",
+      "sources": [
+        { "url": "https://www.ksat.com/news/world/2025/03/13/steve-witkoff-has-gone-from-spotting-trump-cash-at-a-deli-to-helping-him-navigate-ukraine-and-gaza/", "title": "Steve Witkoff has gone from spotting Trump cash at a deli to helping him navigate Ukraine and Gaza — AP" },
+        { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Special Envoy to the Middle East; Special Envoy for Peace Missions",
+      "org": "US government",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "World Liberty Financial",
+      "role": "Partner (crypto venture founded by his sons and Trump family members)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" },
+        { "url": "https://www.ksat.com/news/world/2025/03/13/steve-witkoff-has-gone-from-spotting-trump-cash-at-a-deli-to-helping-him-navigate-ukraine-and-gaza/", "title": "Steve Witkoff has gone from spotting Trump cash at a deli to helping him navigate Ukraine and Gaza — AP" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Special Envoy for Peace Missions",
+    "unit": "envoys",
+    "rank": 3,
+    "reports_to": "donald-trump",
+    "since": "2025-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Steve_Witkoff", "title": "Steve Witkoff — Wikipedia" },
+      { "url": "https://www.ksat.com/news/world/2025/03/13/steve-witkoff-has-gone-from-spotting-trump-cash-at-a-deli-to-helping-him-navigate-ukraine-and-gaza/", "title": "Steve Witkoff has gone from spotting Trump cash at a deli to helping him navigate Ukraine and Gaza — AP" }
+    ]
+  }
+}

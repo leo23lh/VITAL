@@ -1,0 +1,59 @@
+{
+  "name": "Michael Boren",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "photo": {
+    "file": "michael-boren.jpg",
+    "credit": "U.S. Department of Agriculture",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Michael_Boren_USDA.jpg", "title": "File:Michael Boren USDA.jpg — Wikimedia Commons" }
+  },
+  "current_role": "USDA Under Secretary for Natural Resources and Environment (oversees the Forest Service)",
+  "summary": "Michael Boren is USDA’s Senate-confirmed under secretary for natural resources and environment, overseeing the Forest Service; he issued the June 2026 directive to restore grazing on national forests.",
+  "sources": [
+    { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/01/20/one-year-anniversary-president-trumps-second-term-secretary-rollins-signs-commissions-senate", "title": "Secretary Rollins signs commissions for Senate-confirmed USDA leadership — USDA (January 2026)" },
+    { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/06/12/usda-issues-directive-restore-grazing-national-forest-lands-and-strengthen-support-americas-ranchers", "title": "USDA issues directive to restore grazing on national forest lands — USDA (June 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Under Secretary for Natural Resources and Environment",
+      "org": "U.S. Department of Agriculture",
+      "sources": [
+        { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/01/20/one-year-anniversary-president-trumps-second-term-secretary-rollins-signs-commissions-senate", "title": "Secretary Rollins signs commissions for Senate-confirmed USDA leadership — USDA (January 2026)" },
+        { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/06/12/usda-issues-directive-restore-grazing-national-forest-lands-and-strengthen-support-americas-ranchers", "title": "USDA issues directive to restore grazing on national forest lands — USDA (June 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Brooke Rollins",
+      "slug": "brooke-rollins",
+      "relationship_type": "employer",
+      "description": "Senate-confirmed under secretary; Rollins signed his commission in January 2026.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/01/20/one-year-anniversary-president-trumps-second-term-secretary-rollins-signs-commissions-senate", "title": "Secretary Rollins signs commissions for Senate-confirmed USDA leadership — USDA (January 2026)" },
+        { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/06/12/usda-issues-directive-restore-grazing-national-forest-lands-and-strengthen-support-americas-ranchers", "title": "USDA issues directive to restore grazing on national forest lands — USDA (June 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Under Secretary for Natural Resources and Environment",
+    "unit": "agriculture",
+    "rank": 3,
+    "reports_to": "brooke-rollins",
+    "sources": [
+      { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/01/20/one-year-anniversary-president-trumps-second-term-secretary-rollins-signs-commissions-senate", "title": "Secretary Rollins signs commissions for Senate-confirmed USDA leadership — USDA (January 2026)" },
+      { "url": "https://www.usda.gov/about-usda/news/press-releases/2026/06/12/usda-issues-directive-restore-grazing-national-forest-lands-and-strengthen-support-americas-ranchers", "title": "USDA issues directive to restore grazing on national forest lands — USDA (June 2026)" }
+    ]
+  },
+  "notes": "Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

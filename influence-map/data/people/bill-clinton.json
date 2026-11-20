@@ -1,0 +1,139 @@
+{
+  "name": "Bill Clinton",
+  "aliases": ["William Jefferson Clinton", "William J. Clinton"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic governor of Arkansas and 42nd president (1993–2001); ran as a centrist \"New Democrat\", and his \"Third Way\" philosophy became known as Clintonism.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Bill_Clinton", "title": "Bill Clinton — Wikipedia" }
+      ]
+    }
+  ],
+  "current_role": "Former President of the United States (1993–2001); founder of the Clinton Foundation",
+  "summary": "Bill Clinton, a Democrat, was governor of Arkansas and the 42nd president of the United States (1993–2001), governing as a centrist \"New Democrat\". He founded the Clinton Foundation after leaving office and is married to Hillary Clinton. His past ties to Jeffrey Epstein led the House Oversight Committee to depose him in February 2026, where he said he knew nothing of Epstein's crimes.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Bill_Clinton", "title": "Bill Clinton — Wikipedia" },
+    { "url": "https://www.npr.org/2026/03/02/nx-s1-5732871/bill-clinton-hillary-clinton-depositions-epstein-files", "title": "Bill and Hillary Clinton depositions in the Epstein files probe — NPR" }
+  ],
+  "timeline": [
+    {
+      "year": 1979,
+      "end_year": 1981,
+      "role": "Governor",
+      "org": "State of Arkansas",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Bill_Clinton", "title": "Bill Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1983,
+      "end_year": 1992,
+      "role": "Governor",
+      "org": "State of Arkansas",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Bill_Clinton", "title": "Bill Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1993,
+      "end_year": 2001,
+      "role": "42nd President",
+      "org": "United States",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Bill_Clinton", "title": "Bill Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2001,
+      "end_year": null,
+      "role": "Founder",
+      "org": "Clinton Foundation",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Bill_Clinton", "title": "Bill Clinton — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "New Democrats",
+      "role": "Leading figure of the centrist Democratic faction; his \"Third Way\" became known as Clintonism",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Bill_Clinton", "title": "Bill Clinton — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Hillary Clinton",
+      "slug": "hillary-clinton",
+      "relationship_type": "family",
+      "description": "Wife, married 1975; senator, secretary of state and the 2016 Democratic nominee.",
+      "start_year": 1975,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Bill_Clinton", "title": "Bill Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Rahm Emanuel",
+      "slug": "rahm-emanuel",
+      "relationship_type": "employee",
+      "description": "Emanuel was finance director of Clinton's 1992 campaign and a senior White House adviser (1993–1998).",
+      "start_year": 1992,
+      "end_year": 1998,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Bill_Clinton", "title": "Bill Clinton — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jeffrey Epstein",
+      "slug": "jeffrey-epstein",
+      "relationship_type": "friend",
+      "description": "Clinton flew with Epstein on four trips abroad in 2002–2003 tied to Clinton Foundation work, his spokesman said in 2019; flight logs reportedly show more flights. In a February 2026 House deposition he said he knew nothing of Epstein's crimes and never visited his island.",
+      "start_year": 2001,
+      "end_year": 2003,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://amp.cnn.com/cnn/2019/07/08/politics/bill-clinton-jeffrey-epstein", "title": "Bill Clinton 'knows nothing' about Epstein's crimes, spokesman says — CNN" },
+        { "url": "https://en.wikipedia.org/wiki/Relationship_of_Bill_Clinton_and_Jeffrey_Epstein", "title": "Relationship of Bill Clinton and Jeffrey Epstein — Wikipedia" },
+        { "url": "https://www.axios.com/2026/02/27/bill-clinton-deposition-jeffrey-epstein", "title": "Bill Clinton plunges into historic Epstein deposition — Axios" }
+      ]
+    },
+    {
+      "name": "Jim Clyburn",
+      "slug": "jim-clyburn",
+      "relationship_type": "rival",
+      "description": "Clyburn, officially neutral, clashed with Clinton over his remarks after Barack Obama's 2008 South Carolina primary win.",
+      "start_year": 2008,
+      "end_year": 2008,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jim_Clyburn", "title": "Jim Clyburn — Wikipedia" },
+        { "url": "http://thecaucus.blogs.nytimes.com/2008/04/24/black-congressman-denounces-b-clintons-remarks/", "title": "Black Leader in House Denounces Bill Clinton's Remarks — The New York Times" }
+      ]
+    },
+    {
+      "name": "Alex Soros",
+      "slug": "alex-soros",
+      "relationship_type": "friend",
+      "description": "Attended Soros's June 2025 wedding to Huma Abedin, Hillary Clinton's longtime aide.",
+      "start_year": 2025,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://digital-release.newsnationnow.com/?p=3418428", "title": "Huma Abedin and Alex Soros wedding — NewsNation" },
+        { "url": "https://www.nysun.com/article/democratic-royalty-descend-on-hamptons-for-marriage-of-george-soross-son-and-clinton-aide-huma-abedin", "title": "Democratic royalty descend on Hamptons for marriage of George Soros's son and Clinton aide Huma Abedin — New York Sun" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where news pages could not be opened; facts were confirmed with Wikipedia source text and web searches tied to each cited URL.",
+  "last_researched": "2026-11-20"
+}

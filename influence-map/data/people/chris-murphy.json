@@ -1,0 +1,164 @@
+{
+  "name": "Chris Murphy",
+  "aliases": ["Christopher Scott Murphy", "Christopher Murphy"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics", "2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic Connecticut legislator, congressman (2007–2013) and U.S. senator since 2013; argues for an aggressively populist Democratic Party.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Murphy", "title": "Chris Murphy — Wikipedia" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Launched the American Mobilization PAC in June 2025 to fund anti-Trump organizing; NBC News wrote that he sounds like someone eyeing a 2028 bid, though he has denied laying groundwork for one.",
+    "sources": [
+      { "url": "https://www.nbcnews.com/politics/congress/-become-party-status-quo-chris-murphy-makes-case-lead-democrats-forwar-rcna194027", "title": "Chris Murphy makes his case to lead Democrats forward — NBC News" },
+      { "url": "https://www.coloradopolitics.com/2025/06/02/chris-murphy-launches-national-pac-to-fund-anti-trump-organizers-report-d304ec70-eac1-54a5-893a-d1e0f8cb4fa8", "title": "Chris Murphy launches national PAC to fund anti-Trump organizers — Colorado Politics (Washington Examiner)" }
+    ]
+  },
+  "office": {
+    "title": "U.S. senator from Connecticut; deputy secretary of the Senate Democratic Caucus",
+    "unit": "senate",
+    "rank": 4,
+    "since": "2013-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Chris_Murphy", "title": "Chris Murphy — Wikipedia" }
+    ]
+  },
+  "photo": {
+    "file": "chris-murphy.jpg",
+    "credit": "Chris Murphy",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Chris_Murphy_in_Paris,_France_2025_(headshot).jpg", "title": "File:Chris Murphy in Paris, France 2025 (headshot).jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. senator from Connecticut (since 2013)",
+  "summary": "Chris Murphy has been a Democratic U.S. senator from Connecticut since 2013, after three terms in the House. Since the 2024 election he has become one of the most prominent Democratic critics of Trump, using social media heavily and a super PAC (the American Mobilization PAC) to fund opposition organizing; he is discussed as a possible 2028 presidential candidate.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Chris_Murphy", "title": "Chris Murphy — Wikipedia" },
+    { "url": "https://www.nbcnews.com/politics/congress/-become-party-status-quo-chris-murphy-makes-case-lead-democrats-forwar-rcna194027", "title": "Chris Murphy makes his case to lead Democrats forward — NBC News" }
+  ],
+  "timeline": [
+    {
+      "year": 1999,
+      "end_year": 2007,
+      "role": "State representative, then state senator",
+      "org": "Connecticut General Assembly",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Murphy", "title": "Chris Murphy — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2007,
+      "end_year": 2013,
+      "role": "U.S. representative (Connecticut's 5th district)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Murphy", "title": "Chris Murphy — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2013,
+      "end_year": null,
+      "role": "U.S. senator from Connecticut",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Murphy", "title": "Chris Murphy — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "role": "Launched the American Mobilization PAC to fund anti-Trump organizing",
+      "org": "American Mobilization PAC",
+      "sources": [
+        { "url": "https://www.coloradopolitics.com/2025/06/02/chris-murphy-launches-national-pac-to-fund-anti-trump-organizers-report-d304ec70-eac1-54a5-893a-d1e0f8cb4fa8", "title": "Chris Murphy launches national PAC to fund anti-Trump organizers — Colorado Politics (Washington Examiner)" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Since the 2024 election Murphy has been one of Trump's most outspoken Senate critics, saying Trump is trying \"to seize control of power, and for corrupt purposes\"; a White House spokesperson called Murphy \"a lightweight, anti-American disgrace.\"",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Murphy", "title": "Chris Murphy — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/congress/-become-party-status-quo-chris-murphy-makes-case-lead-democrats-forwar-rcna194027", "title": "Chris Murphy makes his case to lead Democrats forward — NBC News" },
+        { "url": "https://www.coloradopolitics.com/2025/06/02/chris-murphy-launches-national-pac-to-fund-anti-trump-organizers-report-d304ec70-eac1-54a5-893a-d1e0f8cb4fa8", "title": "Chris Murphy launches national PAC to fund anti-Trump organizers — Colorado Politics (Washington Examiner)" }
+      ]
+    },
+    {
+      "name": "Linda McMahon",
+      "slug": "linda-mcmahon",
+      "relationship_type": "rival",
+      "description": "Murphy defeated the Republican McMahon in Connecticut's 2012 Senate race, one of the most expensive Senate races that year.",
+      "start_year": 2012,
+      "end_year": 2012,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Murphy", "title": "Chris Murphy — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "ally",
+      "description": "Murphy, Cruz, Brian Schatz and Katie Britt introduced the bipartisan Kids Off Social Media Act in January 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.schatz.senate.gov/kosma", "title": "Kids Off Social Media Act — Sen. Brian Schatz" },
+        { "url": "https://www.britt.senate.gov/news/press-releases/u-s-senators-katie-britt-brian-schatz-ted-cruz-chris-murphy-introduce-bill-to-protect-kids-on-social-media/", "title": "Senators Britt, Schatz, Cruz, Murphy introduce bill to protect kids on social media — Sen. Katie Britt" }
+      ]
+    },
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "ally",
+      "description": "Murphy, Sanders and Republican Mike Lee pushed a 2018 war powers resolution to end U.S. support for the Saudi-led war in Yemen.",
+      "start_year": 2018,
+      "end_year": 2019,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Murphy", "title": "Chris Murphy — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Chuck Schumer",
+      "slug": "chuck-schumer",
+      "relationship_type": "colleague",
+      "description": "Murphy has been deputy secretary of the Senate Democratic Caucus in Schumer's leadership team since January 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chris_Murphy", "title": "Chris Murphy — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Brian Schatz",
+      "slug": "brian-schatz",
+      "relationship_type": "ally",
+      "description": "Co-sponsors of the Kids Off Social Media Act and fellow members of the Senate Democratic leadership.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.schatz.senate.gov/kosma", "title": "Kids Off Social Media Act — Sen. Brian Schatz" },
+        { "url": "https://en.wikipedia.org/wiki/Chris_Murphy", "title": "Chris Murphy — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. He has denied that his PAC is groundwork for a 2028 run.",
+  "last_researched": "2026-11-19"
+}

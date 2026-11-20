@@ -1,0 +1,146 @@
+{
+  "name": "America PAC",
+  "aliases": [],
+  "kind": "super-pac",
+  "side": "R",
+  "founded": 2024,
+  "groups": [],
+  "summary": "Elon Musk's super PAC, created in 2024 with tech backers to run canvassing for Trump's campaign; Musk supplied 91% of its money by December 2024, and the campaign outsourced much of its swing-state door-knocking to it. It spent heavily on Wisconsin's state Supreme Court race in 2025, and in the 2026 cycle raised $216 million and spent $172 million by mid-October, its biggest bet being Ken Paxton's Texas Senate run, which Paxton lost.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+    { "url": "https://www.factcheck.org/2026/09/america-pac-2/", "title": "America PAC — FactCheck.org" },
+    { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" },
+    { "url": "https://edition.cnn.com/2026/09/05/politics/musk-america-pac-texas-paxton", "title": "Musk has started spending money to help Ken Paxton — CNN" }
+  ],
+  "finances": [
+    {
+      "cycle": 2024,
+      "description": "Musk was its only donor through September 2024 (about $75M), rising past $118M in October; he gave 91% of its declared money.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" }
+      ]
+    },
+    {
+      "cycle": 2026,
+      "raised_usd": 216000000,
+      "spent_usd": 172000000,
+      "description": "January 2025 to October 14, 2026.",
+      "sources": [
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "co-founder",
+      "description": "Musk created America PAC in 2024 and is its dominant funder.",
+      "start_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://westhawaiitoday.com/?p=269629", "title": "Elon Musk allies help start pro-Trump super PAC — West Hawaii Today" },
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "donor",
+      "description": "More than $118 million by October 2024 (91% of its money), then $216 million in the 2026 cycle. In all he spent at least $250 million backing Trump in 2024, mostly through America PAC (other counts run higher). FEC filings show $377,699,130 from Elon Musk to America PAC in 2 cycles (2024–2026).",
+      "start_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://www.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans", "title": "Here's what Elon Musk's $445 million is getting Republicans — CNN" },
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" },
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" },
+        { "url": "https://www.axios.com/2026/07/29/musk-pac-midterm-election", "title": "Musk plans massive spending for GOP in midterms — Axios" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MUSK%2C+ELON&committee_id=C00879510&two_year_transaction_period=2026", "title": "FEC receipts: MUSK, ELON to America PAC" }
+      ]
+    },
+    {
+      "name": "Joe Lonsdale",
+      "slug": "joe-lonsdale",
+      "relationship_type": "donor",
+      "description": "Among its founding backers in 2024; Lonsdale helped lead and raise money for it, and his company gave it $1 million.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Joe_Lonsdale", "title": "Joe Lonsdale — Wikipedia" },
+        { "url": "https://www.hawaiitribune-herald.com/?p=327888", "title": "Elon Musk allies help start pro-Trump super PAC — The New York Times via Hawaii Tribune-Herald" }
+      ]
+    },
+    {
+      "name": "Ken Howery",
+      "slug": "ken-howery",
+      "relationship_type": "donor",
+      "description": "Among its launch backers in 2024: Howery gave $1 million in four donations of $250,000, per its first FEC report.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://westhawaiitoday.com/?p=269629", "title": "Elon Musk allies help start pro-Trump super PAC — West Hawaii Today" },
+        { "url": "https://decrypt.co/239952/trump-super-pac-gets-millions-from-crypto-backers", "title": "New Trump super PAC gets millions in donations from crypto backers — Decrypt" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "Built to back Trump in 2024: the campaign outsourced much of its swing-state canvassing to the PAC.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://www.pbs.org/newshour/politics/musk-says-he-will-cut-back-on-political-spending-after-paying-at-least-250m-backing-trump-in-2024", "title": "Musk says he will cut back on political spending after paying at least $250M backing Trump in 2024 — PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Joe Kent",
+      "slug": "joe-kent",
+      "relationship_type": "funded_by",
+      "description": "Spent about $1 million on canvassing in Kent's 2024 House race, the largest outside spending line there by mid-October; Kent lost to Marie Gluesenkamp Pérez.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://projects.propublica.org/itemizer/races/2024/states/wa/house/3", "title": "Washington's 3rd District House race, 2024 — ProPublica Itemizer" }
+      ]
+    },
+    {
+      "name": "Ken Paxton",
+      "slug": "ken-paxton",
+      "relationship_type": "funded_by",
+      "description": "Its largest 2026 investment went to Paxton's Texas Senate run, which he lost.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/America_PAC", "title": "America PAC — Wikipedia" },
+        { "url": "https://edition.cnn.com/2026/09/05/politics/musk-america-pac-texas-paxton", "title": "Musk has started spending money to help Ken Paxton — CNN" },
+        { "url": "https://www.newsweek.com/elon-musk-donate-republican-campaigns-midterms-elections-2026-12660475", "title": "Elon Musk wasted nearly half a billion dollars on major midterm defeats — Newsweek" }
+      ]
+    },
+    {
+      "name": "James Talarico",
+      "slug": "james-talarico",
+      "relationship_type": "enemy",
+      "description": "Musk's America PAC made Paxton's race its biggest 2026 investment and spent about $1.4 million directly against Talarico by September.",
+      "start_year": 2026,
+      "end_year": 2026,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.texastribune.org/2026/09/04/elon-musk-ken-paxton-super-pac-spending-texas-senate-race/", "title": "Elon Musk's super PAC starts spending to boost Ken Paxton — Texas Tribune" }
+      ]
+    }
+  ],
+  "notes": "Built from sources already cited in the people files, plus Wikipedia, FactCheck.org and campaign-finance reporting. Most news pages could not be opened in the research sandbox, so figures were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-08"
+}

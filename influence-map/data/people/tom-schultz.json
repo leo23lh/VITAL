@@ -1,0 +1,53 @@
+{
+  "name": "Tom Schultz",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Chief of the U.S. Forest Service (since 2025)",
+  "summary": "Tom Schultz, former head of the Idaho Department of Lands and a former timber executive, was picked by Brooke Rollins in 2025 to lead the Forest Service and is carrying out its largest reorganization in a century.",
+  "sources": [
+    { "url": "https://sourcenm.com/2026/07/06/repub/chief-tom-schultz-details-defends-largest-forest-service-reorganization-in-a-century/", "title": "Chief Tom Schultz details, defends largest Forest Service reorganization in a century — Source NM (July 2026)" },
+    { "url": "https://www.citizen.org/article/uprooting-the-forest-service-a-trump-official-with-deep-timber-industry-ties-is-putting-public-lands-and-the-climate-at-risk/", "title": "Uprooting the Forest Service — Public Citizen (advocacy group)" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Chief",
+      "org": "U.S. Forest Service",
+      "sources": [
+        { "url": "https://sourcenm.com/2026/07/06/repub/chief-tom-schultz-details-defends-largest-forest-service-reorganization-in-a-century/", "title": "Chief Tom Schultz details, defends largest Forest Service reorganization in a century — Source NM (July 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Brooke Rollins",
+      "slug": "brooke-rollins",
+      "relationship_type": "employer",
+      "description": "Rollins picked him in 2025 to lead the Forest Service, bypassing career foresters.",
+      "start_year": 2025,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://sourcenm.com/2026/07/06/repub/chief-tom-schultz-details-defends-largest-forest-service-reorganization-in-a-century/", "title": "Chief Tom Schultz details, defends largest Forest Service reorganization in a century — Source NM (July 2026)" },
+        { "url": "https://www.citizen.org/article/uprooting-the-forest-service-a-trump-official-with-deep-timber-industry-ties-is-putting-public-lands-and-the-climate-at-risk/", "title": "Uprooting the Forest Service — Public Citizen (advocacy group)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Chief, U.S. Forest Service",
+    "unit": "agriculture",
+    "rank": 4,
+    "reports_to": "michael-boren",
+    "since": "2025",
+    "sources": [
+      { "url": "https://sourcenm.com/2026/07/06/repub/chief-tom-schultz-details-defends-largest-forest-service-reorganization-in-a-century/", "title": "Chief Tom Schultz details, defends largest Forest Service reorganization in a century — Source NM (July 2026)" },
+      { "url": "https://www.citizen.org/article/uprooting-the-forest-service-a-trump-official-with-deep-timber-industry-ties-is-putting-public-lands-and-the-climate-at-risk/", "title": "Uprooting the Forest Service — Public Citizen (advocacy group)" }
+    ]
+  },
+  "notes": "Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

@@ -1,0 +1,139 @@
+{
+  "name": "Ruben Gallego",
+  "aliases": ["Ruben Marinelarena Gallego"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics", "2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Democratic state legislator, congressman (2015–2025) and U.S. senator; once a self-described progressive, he moved toward the center in his 2024 Senate campaign.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "contender",
+    "basis": "Visited the Iowa State Fair and New Hampshire in August 2025 amid 2028 speculation, saying it was \"too early\" to decide; reporting in 2026 says he leaves the door open.",
+    "sources": [
+      { "url": "https://www.deseret.com/politics/2025/08/12/ruben-gallego-jb-pritzker-2028-democratic-hopefuls", "title": "Ruben Gallego and JB Pritzker among 2028 Democratic hopefuls — Deseret News" },
+      { "url": "https://www.spokesman.com/stories/2025/aug/23/gallego-gives-democrats-blunt-advice-in-new-hampsh", "title": "Gallego gives Democrats blunt advice in New Hampshire — Spokesman-Review (AP)" }
+    ]
+  },
+  "office": {
+    "title": "U.S. senator from Arizona",
+    "unit": "senate",
+    "rank": 4,
+    "since": "2025-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
+    ]
+  },
+  "photo": {
+    "file": "ruben-gallego.jpg",
+    "credit": "U.S. Senate Photographic Studio",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Senator_Ruben_Gallego_Official_Portrait.jpg", "title": "File:Senator Ruben Gallego Official Portrait.jpg — Wikimedia Commons" }
+  },
+  "current_role": "U.S. senator from Arizona (since January 2025)",
+  "summary": "Ruben Gallego, a Marine Corps veteran of the Iraq war, has been a Democratic U.S. senator from Arizona since January 2025 after ten years in the House. He won the 2024 Senate race against Republican Kari Lake by 2.4 points while Harris lost Arizona, after moving to the center from his earlier progressive profile, and has visited early primary states amid 2028 speculation.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2011,
+      "end_year": 2014,
+      "role": "State representative",
+      "org": "Arizona House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2015,
+      "end_year": 2025,
+      "role": "U.S. representative (Arizona's 7th, later 3rd district)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "U.S. senator from Arizona",
+      "org": "U.S. Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Kari Lake",
+      "slug": "kari-lake",
+      "relationship_type": "rival",
+      "description": "Gallego beat Lake in the November 2024 Arizona Senate race, winning by about 2.4 points.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Mark Kelly",
+      "slug": "mark-kelly",
+      "relationship_type": "colleague",
+      "description": "Arizona's two Democratic senators since January 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "ally",
+      "description": "Gallego endorsed Biden in March 2020 after his first choices, Eric Swalwell and Kamala Harris, left the race.",
+      "start_year": 2020,
+      "end_year": 2024,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "enemy",
+      "description": "After the May 2022 Uvalde school shooting Gallego attacked Cruz on social media for opposing gun control (\"you are useless\").",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Kyrsten Sinema",
+      "slug": "kyrsten-sinema",
+      "relationship_type": "rival",
+      "description": "Gallego criticized Sinema over the filibuster and launched a Senate challenge to her in 2023; she did not seek re-election in 2024.",
+      "start_year": 2021,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. The Lake record mirrors the one already in her file.",
+  "last_researched": "2026-11-19"
+}

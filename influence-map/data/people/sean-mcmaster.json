@@ -1,0 +1,49 @@
+{
+  "name": "Sean McMaster",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Administrator, Federal Highway Administration",
+  "summary": "Sean McMaster runs the Federal Highway Administration under Transportation Secretary Sean Duffy.",
+  "sources": [
+    { "url": "https://www.transportation.gov/mission/meet-key-officials", "title": "DOT leadership — U.S. Department of Transportation" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Administrator",
+      "org": "Federal Highway Administration",
+      "sources": [
+        { "url": "https://www.transportation.gov/mission/meet-key-officials", "title": "DOT leadership — U.S. Department of Transportation" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Sean Duffy",
+      "slug": "sean-duffy",
+      "relationship_type": "employer",
+      "description": "Runs the Federal Highway Administration under Duffy.",
+      "start_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.transportation.gov/mission/meet-key-officials", "title": "DOT leadership — U.S. Department of Transportation" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Federal Highway Administrator",
+    "unit": "transportation",
+    "rank": 4,
+    "reports_to": "sean-duffy",
+    "sources": [
+      { "url": "https://www.transportation.gov/mission/meet-key-officials", "title": "DOT leadership — U.S. Department of Transportation" }
+    ]
+  },
+  "notes": "Current post confirmed with web searches (November 2026); pages cited were not all opened directly.",
+  "last_researched": "2026-11-09"
+}

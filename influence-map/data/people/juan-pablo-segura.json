@@ -1,0 +1,54 @@
+{
+  "name": "Juan Pablo Segura",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Assistant Secretary for Western Hemisphere Affairs",
+  "summary": "Juan Pablo Segura leads the State Department’s Bureau of Western Hemisphere Affairs, which reports to the under secretary for political affairs; State’s September 2026 schedules list Segura in the post.",
+  "sources": [
+    { "url": "https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-western-hemisphere-affairs/", "title": "Bureau of Western Hemisphere Affairs — U.S. Department of State" },
+    { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Assistant Secretary for Western Hemisphere Affairs",
+      "org": "U.S. Department of State",
+      "sources": [
+        { "url": "https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-western-hemisphere-affairs/", "title": "Bureau of Western Hemisphere Affairs — U.S. Department of State" },
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Allison Hooker",
+      "slug": "allison-hooker",
+      "relationship_type": "employer",
+      "description": "Leads a regional bureau that reports to Under Secretary Hooker.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-western-hemisphere-affairs/", "title": "Bureau of Western Hemisphere Affairs — U.S. Department of State" },
+        { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary for Western Hemisphere Affairs",
+    "unit": "state",
+    "rank": 4,
+    "reports_to": "allison-hooker",
+    "sources": [
+      { "url": "https://www.state.gov/bureaus-offices/under-secretary-for-political-affairs/bureau-of-western-hemisphere-affairs/", "title": "Bureau of Western Hemisphere Affairs — U.S. Department of State" },
+      { "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/public-schedule-september-24-2026", "title": "Public Schedule, September 24, 2026 — U.S. Department of State" }
+    ]
+  },
+  "notes": "Checked against State Department pages via searches restricted to state.gov (the June 15, 2026 organization chart, bureau pages and September 2026 public schedules).",
+  "last_researched": "2026-11-08"
+}

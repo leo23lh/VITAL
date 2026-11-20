@@ -1,0 +1,781 @@
+{
+  "name": "Robert Mercer",
+  "aliases": ["Robert Leroy Mercer", "Bob Mercer"],
+  "public_figure": true,
+  "sector": "business",
+  "groups": ["media"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Has given about $34.9M to Republican campaigns since 2006 and funded conservative and populist-right outlets and groups (Breitbart, Heritage, Club for Growth); top backer of Ted Cruz and then Trump in 2016; co-chaired a 2024 Trump fundraiser.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://edition.cnn.com/2024/03/19/politics/republican-billionaires-trump-fundraiser/index.html", "title": "Republican billionaires rally around Trump for April fundraiser — CNN" }
+      ]
+    }
+  ],
+  "current_role": "Former co-CEO of Renaissance Technologies; Republican megadonor",
+  "summary": "Robert Mercer is a computer scientist who helped pioneer statistical machine translation at IBM before joining the hedge fund Renaissance Technologies in 1993, becoming co-CEO in 2009. With his daughter Rebekah he built a network of right-wing institutions: he was a major funder of Breitbart News, majority owner of Cambridge Analytica's parent SCL Group, and a top backer of Ted Cruz and then Donald Trump in 2016, helping place Steve Bannon and Kellyanne Conway in Trump's campaign. Under scrutiny he stepped down from Renaissance and sold his Breitbart stake to his daughters in November 2017, scaling back his giving before returning to back Trump in 2020 and 2024.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+    { "url": "https://www.npr.org/2017/11/02/561634551/billionaire-investor-robert-mercer-to-step-down-from-firm-selling-stake-in-breit", "title": "Billionaire Investor Robert Mercer To Step Down From Firm, Selling Stake In Breitbart — NPR" },
+    { "url": "https://www.washingtonpost.com/graphics/politics/mercer-bannon/", "title": "The Mercers and Stephen Bannon: How a populist power base was funded and built — Washington Post" }
+  ],
+  "timeline": [
+    {
+      "year": 1972,
+      "end_year": 1993,
+      "role": "Researcher (speech recognition and statistical machine translation)",
+      "org": "IBM Research",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+      ]
+    },
+    {
+      "year": 1993,
+      "end_year": 2017,
+      "role": "Executive; co-CEO from 2009",
+      "org": "Renaissance Technologies",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://www.npr.org/2017/11/02/561634551/billionaire-investor-robert-mercer-to-step-down-from-firm-selling-stake-in-breit", "title": "Billionaire Investor Robert Mercer To Step Down From Firm, Selling Stake In Breitbart — NPR" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Breitbart News",
+      "role": "Part owner and funder (at least $10M); sold stake to his daughters in 2017",
+      "end_year": 2017,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://www.npr.org/2017/11/02/561634551/billionaire-investor-robert-mercer-to-step-down-from-firm-selling-stake-in-breit", "title": "Billionaire Investor Robert Mercer To Step Down From Firm, Selling Stake In Breitbart — NPR" }
+      ]
+    },
+    {
+      "name": "SCL Group / Cambridge Analytica",
+      "role": "Majority owner of SCL Group until its 2018 dissolution; Cambridge Analytica's main backer",
+      "end_year": 2018,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Mercer Family Foundation",
+      "role": "Funder (run by Rebekah Mercer)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://www.influencewatch.org/non-profit/mercer-family-foundation/", "title": "Mercer Family Foundation — InfluenceWatch" }
+      ]
+    },
+    {
+      "name": "Make America Number 1 (super PAC)",
+      "role": "Principal benefactor (pro-Cruz as Keep the Promise I, then pro-Trump in 2016)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Steve Bannon",
+      "slug": "steve-bannon",
+      "relationship_type": "funded_by",
+      "description": "Mercer funded and co-owned Breitbart News, which Bannon chaired, and backed Cambridge Analytica, where Bannon was a vice president; the Mercers helped install Bannon in Trump's 2016 campaign. In November 2017 Mercer wrote that they did not always see eye to eye; Bannon left Breitbart in January 2018 and the family cut off support.",
+      "start_year": 2012,
+      "end_year": 2018,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.washingtonpost.com/graphics/politics/mercer-bannon/", "title": "The Mercers and Stephen Bannon: How a populist power base was funded and built — Washington Post" },
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://thehill.com/homenews/media/358438-billionaire-trump-backer-cuts-ties-to-milo-yiannopoulos-distances-from-bannon/", "title": "Billionaire Trump backer cuts ties with Milo Yiannopoulos, distances from Bannon — The Hill" },
+        { "url": "https://www.npr.org/sections/thetwo-way/2018/01/09/576868468/bannon-out-at-breitbart-news", "title": "Steve Bannon Out At Breitbart News — NPR" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "funded_by",
+      "description": "A top Trump backer in 2016 through the Make America Number 1 super PAC; a former colleague said Trump would not have won without him. He also helped pay Trump's legal bills in 2017, gave to Trump Victory in 2020, and co-chaired an April 2024 Trump fundraiser. FEC filings show $1,312,089 from Robert Mercer to Trump Victory, Donald J. Trump for President, Inc., Trump 47 Committee, Inc. and others in 3 cycles (2016–2024).",
+      "start_year": 2016,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://www.newsweek.com/trump-legal-fund-paid-billionaire-robert-mercer-day-comey-fired-676383", "title": "Billionaire Robert Mercer Is Helping Pay Donald Trump's Legal Bills — Newsweek" },
+        { "url": "https://www.cnbc.com/2020/04/15/robert-mercer-starts-big-money-effort-for-trump-campaign.html", "title": "Robert Mercer starts big money effort for Trump and RNC after cutting back support — CNBC" },
+        { "url": "https://edition.cnn.com/2024/03/19/politics/republican-billionaires-trump-fundraiser/index.html", "title": "Republican billionaires rally around Trump for April fundraiser — CNN" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00618389&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, ROBERT to Trump Victory" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00580100&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, ROBERT to Donald J. Trump for President, Inc." },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, ROBERT to Trump 47 Committee, Inc." }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "funded_by",
+      "description": "Mercer's initial $11 million (per FEC filings) founded Keep the Promise I, almost the sole funder of one of four super PACs backing Cruz's 2016 run; it was renamed Make America Number 1 and turned pro-Trump in June 2016.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://ballotpedia.org/Make_America_Number_1", "title": "Make America Number 1 — Ballotpedia" },
+        { "url": "https://www.texastribune.org/2015/08/04/pro-cruz-super-pac-ramps-7-figure-media-blitz", "title": "Pro-Cruz super PAC ramps up with 7-figure media blitz — Texas Tribune" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "funded_by",
+      "description": "The Mercers made a \"significant contribution\" to Protect Ohio Values, the super PAC for Vance's 2022 Senate run (Robert gave $100,000); Wikipedia reports Vance advised Rebekah Mercer on Parler. FEC filings show $100,000 from Robert Mercer to Protect Ohio Values PAC (POV PAC) in the 2022 cycle.",
+      "start_year": 2021,
+      "end_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnn.com/2021/03/15/politics/hillbilly-elegy-author-vance-pac-donation-senate/index.html", "title": "'Hillbilly Elegy' author J.D. Vance gets $10 million boost for potential Senate bid — CNN" },
+        { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" },
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://www.breitbart.com/politics/2021/03/16/peter-thiel-pours-10-million-super-pac-backing-likely-j-d-vance-senate-bid-ohio/", "title": "Breitbart: Mercer family makes \"significant\" gift to pro-Vance super PAC" },
+        { "url": "https://www.washingtontimes.com/news/2021/mar/15/jd-vance-likely-ohio-senate-run-backed-peter-thiel/", "title": "Washington Times: Vance super PAC backed by Thiel and the Mercer family" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, ROBERT to Protect Ohio Values PAC (POV PAC)" }
+      ]
+    },
+    {
+      "name": "Nigel Farage",
+      "slug": "nigel-farage",
+      "relationship_type": "funded_by",
+      "description": "Leave.EU's communications director Andy Wigmore said Mercer donated Cambridge Analytica's data services to Farage's Brexit campaign; Cambridge Analytica said it did no paid or unpaid work for Leave.EU, Wigmore later said it did no formal work, and no donation was declared to the Electoral Commission.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.4,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://uk.news.yahoo.com/revealed-us-billionaire-helped-back-000415306.html", "title": "Revealed: how US billionaire helped to back Brexit — The Observer via Yahoo" },
+        { "url": "https://uk.news.yahoo.com/leave-eu-used-creepy-facebook-171458675.html", "title": "Leave.EU used 'creepy' Facebook profiling technology — Yahoo News UK" }
+      ]
+    },
+    {
+      "name": "Rebekah Mercer",
+      "slug": "rebekah-mercer",
+      "relationship_type": "family",
+      "description": "Daughter; runs the Mercer Family Foundation and the family's political giving, co-owner of Breitbart, and co-founder of 1789 Capital. Daughter; runs the Mercer Family Foundation and the family's political giving.",
+      "start_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://www.cnbc.com/2019/12/02/mercer-spent-millions-on-conservative-causes-as-they-distanced-from-trump.html", "title": "Mercer family spent millions on conservative causes in 2018 — CNBC" },
+        { "url": "https://en.wikipedia.org/wiki/Rebekah_Mercer", "title": "Rebekah Mercer — Wikipedia" },
+        { "url": "https://ballotpedia.org/Rebekah_Mercer", "title": "Rebekah Mercer — Ballotpedia" }
+      ]
+    },
+    {
+      "name": "Jim Simons",
+      "slug": "jim-simons",
+      "relationship_type": "employer",
+      "description": "Mercer joined Simons's Renaissance Technologies in 1993 and became co-CEO when Simons retired in 2009.",
+      "start_year": 1993,
+      "end_year": 2017,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Kellyanne Conway",
+      "slug": "kellyanne-conway",
+      "relationship_type": "ally",
+      "description": "Conway ran the Mercer-funded pro-Cruz super PAC with Rebekah Mercer; the Mercers helped place her at the top of Trump's 2016 campaign.",
+      "start_year": 2015,
+      "end_year": 2016,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+        { "url": "https://ballotpedia.org/Make_America_Number_1", "title": "Make America Number 1 — Ballotpedia" },
+        { "url": "https://www.factcheck.org/2016/11/make-america-number-1/", "title": "Make America Number 1 — FactCheck.org" }
+      ]
+    },
+    {
+      "name": "Milo Yiannopoulos",
+      "slug": "milo-yiannopoulos",
+      "relationship_type": "funded_by",
+      "description": "Mercer backed Yiannopoulos and cut ties with him in November 2017, saying he regretted it.",
+      "start_year": null,
+      "end_year": 2017,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://thehill.com/homenews/media/358438-billionaire-trump-backer-cuts-ties-to-milo-yiannopoulos-distances-from-bannon/", "title": "Billionaire Trump backer cuts ties with Milo Yiannopoulos, distances from Bannon — The Hill" },
+        { "url": "https://www.cnbc.com/2017/11/02/billionaire-trump-backer-robert-mercer-to-step-down-from-hedge-fund.html", "title": "Trump backer Mercer stepping down at fund, selling Breitbart stake. Read full letter — CNBC" }
+      ]
+    },
+    {
+      "name": "Congressional Leadership Fund",
+      "slug": "congressional-leadership-fund",
+      "relationship_type": "funded_by",
+      "description": "FEC filings show $1,900,000 from Robert Mercer to Congressional Leadership Fund in 2 cycles (2018–2020).",
+      "start_year": 2018,
+      "end_year": 2020,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00504530&two_year_transaction_period=2020", "title": "FEC receipts: MERCER, ROBERT to Congressional Leadership Fund" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Brexit role",
+      "details": "Leave.EU's communications director said Mercer donated Cambridge Analytica's services to Nigel Farage's campaign; no such donation was reported to the UK Electoral Commission, and the claim remains contested.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+      ]
+    },
+    {
+      "topic": "Breitbart stake",
+      "details": "Most reports say he sold it to his daughters; some name only Rebekah Mercer.",
+      "sources": [
+        { "url": "https://www.npr.org/2017/11/02/561634551/billionaire-investor-robert-mercer-to-step-down-from-firm-selling-stake-in-breit", "title": "Billionaire Investor Robert Mercer To Step Down From Firm, Selling Stake In Breitbart — NPR" },
+        { "url": "https://www.npr.org/sections/thetwo-way/2018/01/09/576868468/bannon-out-at-breitbart-news", "title": "Steve Bannon Out At Breitbart News — NPR" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API. Rebekah Mercer, who runs the family's political operation, is a suggested connection.",
+  "last_researched": "2026-11-08",
+  "giving": {
+    "cycles": [
+      {
+        "cycle": 2026,
+        "total_usd": 100350,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&two_year_transaction_period=2026", "title": "FEC itemized receipts: MERCER, ROBERT, 2026 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00003418&two_year_transaction_period=2026", "title": "FEC receipts: MERCER, ROBERT to Republican National Committee, 2026 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2024,
+        "description": "Returned to Trump after saying in 2022 he had no plans to back him: co-chaired an April 2024 Palm Beach fundraiser for the Trump 47 Committee, Save America and the RNC; Fortune listed him among billionaires giving to Trump. No total found.",
+        "sources": [
+          { "url": "https://edition.cnn.com/2024/03/19/politics/republican-billionaires-trump-fundraiser/index.html", "title": "Republican billionaires rally around Trump for April fundraiser — CNN" },
+          { "url": "https://fortune.com/2024/02/01/america-billionaire-investors-favorite-candidates-2024-giving-haley-trump-rfk-jr/", "title": "America's billionaire investors are lining up behind their favorite candidates for 2024 — Fortune" },
+          { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&two_year_transaction_period=2024", "title": "FEC itemized receipts: MERCER, ROBERT, 2024 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Trump 47 Committee / RNC fundraiser (co-chair)",
+            "slug": "donald-trump",
+            "kind": "party",
+            "side": "R",
+            "sources": [
+              { "url": "https://edition.cnn.com/2024/03/19/politics/republican-billionaires-trump-fundraiser/index.html", "title": "Republican billionaires rally around Trump for April fundraiser — CNN" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 940489,
+            "fec_usd": 940489,
+            "fec_ids": ["C00762591", "C00828541", "C00867937", "C00873893"],
+            "description": "Per FEC filings: Trump 47 Committee, Inc. $927,900; Never Surrender, Inc. $7,068; Save America $5,000; Trump National Committee JFC, Inc. $521.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00867937&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, ROBERT to Trump 47 Committee, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00828541&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, ROBERT to Never Surrender, Inc., 2024 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00762591&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, ROBERT to Save America, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 473601,
+            "fec_usd": 473601,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00003418&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, ROBERT to Republican National Committee, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Black Americans for a Better Future",
+            "kind": "super-pac",
+            "amount_usd": 35000,
+            "fec_usd": 35000,
+            "fec_ids": ["C00567784"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00567784&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, ROBERT to Black Americans for a Better Future, 2024 cycle" }
+            ]
+          },
+          {
+            "name": "Robert F. Kennedy Jr.",
+            "slug": "robert-f-kennedy-jr",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2530,
+            "fec_usd": 2530,
+            "fec_ids": ["C00836916"],
+            "description": "Per FEC filings: Team Kennedy $2,530.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00836916&two_year_transaction_period=2024", "title": "FEC receipts: MERCER, ROBERT to Team Kennedy, 2024 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 1842720,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      },
+      {
+        "cycle": 2022,
+        "description": "A low-key cycle; a GOP adviser described him as \"not participating politically\".",
+        "sources": [
+          { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&two_year_transaction_period=2022", "title": "FEC itemized receipts: MERCER, ROBERT, 2022 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "General John Stark PAC (New Hampshire)",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 500000,
+            "sources": [
+              { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" }
+            ]
+          },
+          {
+            "name": "Protect Ohio Values (pro-Vance super PAC)",
+            "slug": "jd-vance",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 100000,
+            "sources": [
+              { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" },
+              { "url": "https://www.cnn.com/2021/03/15/politics/hillbilly-elegy-author-vance-pac-donation-senate/index.html", "title": "'Hillbilly Elegy' author J.D. Vance gets $10 million boost for potential Senate bid — CNN" }
+            ]
+          },
+          {
+            "name": "General John Stark PAC",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00815407"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00815407&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, ROBERT to General John Stark PAC, 2022 cycle" }
+            ]
+          },
+          {
+            "name": "JD Vance",
+            "slug": "jd-vance",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 100000,
+            "fec_usd": 100000,
+            "fec_ids": ["C00770495"],
+            "description": "Per FEC filings: Protect Ohio Values PAC (POV PAC) $100,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00770495&two_year_transaction_period=2022", "title": "FEC receipts: MERCER, ROBERT to Protect Ohio Values PAC (POV PAC), 2022 cycle" }
+            ]
+          }
+        ],
+        "total_usd": 600500,
+        "ranking": "FEC itemized receipts (federal committees only)"
+      },
+      {
+        "cycle": 2020,
+        "total_usd": 2233500,
+        "ranking": "FEC itemized receipts (federal committees only)",
+        "sources": [
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&two_year_transaction_period=2020", "title": "FEC itemized receipts: MERCER, ROBERT, 2020 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 1500000,
+            "fec_usd": 1500000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $1,500,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00504530&two_year_transaction_period=2020", "title": "FEC receipts: MERCER, ROBERT to Congressional Leadership Fund, 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 360800,
+            "fec_usd": 360800,
+            "fec_ids": ["C00580100", "C00618389"],
+            "description": "Per FEC filings: Trump Victory $355,200; Donald J. Trump for President, Inc. $5,600.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00618389&two_year_transaction_period=2020", "title": "FEC receipts: MERCER, ROBERT to Trump Victory, 2020 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00580100&two_year_transaction_period=2020", "title": "FEC receipts: MERCER, ROBERT to Donald J. Trump for President, Inc., 2020 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 349600,
+            "fec_usd": 349600,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00003418&two_year_transaction_period=2020", "title": "FEC receipts: MERCER, ROBERT to Republican National Committee, 2020 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2018,
+        "total_usd": 6400000,
+        "ranking": "Center for Responsive Politics, via CNBC",
+        "description": "His lowest total since 2012, after the Cambridge Analytica scandal.",
+        "sources": [
+          { "url": "https://www.cnbc.com/2018/12/21/robert-mercer-scales-back-gop-support-after-scrutiny-for-backing-trump.html", "title": "Robert Mercer cuts back on support for GOP after scrutiny for backing Trump — CNBC" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&two_year_transaction_period=2018", "title": "FEC itemized receipts: MERCER, ROBERT, 2018 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Remember Mississippi",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00641423"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00641423&two_year_transaction_period=2018", "title": "FEC receipts: MERCER, ROBERT to Remember Mississippi, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "John Bolton Super PAC",
+            "kind": "super-pac",
+            "amount_usd": 1000000,
+            "fec_usd": 1000000,
+            "fec_ids": ["C00542464"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00542464&two_year_transaction_period=2018", "title": "FEC receipts: MERCER, ROBERT to John Bolton Super PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Kellipac",
+            "kind": "super-pac",
+            "amount_usd": 800000,
+            "fec_usd": 800000,
+            "fec_ids": ["C00572941"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00572941&two_year_transaction_period=2018", "title": "FEC receipts: MERCER, ROBERT to Kellipac, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 434000,
+            "fec_usd": 434000,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00003418&two_year_transaction_period=2018", "title": "FEC receipts: MERCER, ROBERT to Republican National Committee, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 406800,
+            "fec_usd": 406800,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00075820&two_year_transaction_period=2018", "title": "FEC receipts: MERCER, ROBERT to NRCC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Congressional Leadership Fund",
+            "org": "congressional-leadership-fund",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 400000,
+            "fec_usd": 400000,
+            "fec_ids": ["C00504530"],
+            "description": "Per FEC filings: Congressional Leadership Fund $400,000.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00504530&two_year_transaction_period=2018", "title": "FEC receipts: MERCER, ROBERT to Congressional Leadership Fund, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Great America PAC",
+            "kind": "super-pac",
+            "amount_usd": 400000,
+            "fec_usd": 400000,
+            "fec_ids": ["C00608489"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00608489&two_year_transaction_period=2018", "title": "FEC receipts: MERCER, ROBERT to Great America PAC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Protect the House",
+            "kind": "pac",
+            "amount_usd": 366100,
+            "fec_usd": 366100,
+            "fec_ids": ["C00669622"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00669622&two_year_transaction_period=2018", "title": "FEC receipts: MERCER, ROBERT to Protect the House, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Team Ryan",
+            "kind": "pac",
+            "amount_usd": 247700,
+            "fec_usd": 247700,
+            "fec_ids": ["C00545947"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00545947&two_year_transaction_period=2018", "title": "FEC receipts: MERCER, ROBERT to Team Ryan, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 237300,
+            "fec_usd": 237300,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00027466&two_year_transaction_period=2018", "title": "FEC receipts: MERCER, ROBERT to NRSC, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Black Americans for a Better Future",
+            "kind": "super-pac",
+            "amount_usd": 177100,
+            "fec_usd": 177100,
+            "fec_ids": ["C00567784"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00567784&two_year_transaction_period=2018", "title": "FEC receipts: MERCER, ROBERT to Black Americans for a Better Future, 2018 cycle" }
+            ]
+          },
+          {
+            "name": "Ted Cruz",
+            "slug": "ted-cruz",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 2700,
+            "fec_usd": 2700,
+            "fec_ids": ["C00492785"],
+            "description": "Per FEC filings: Ted Cruz for Senate $2,700.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00492785&two_year_transaction_period=2018", "title": "FEC receipts: MERCER, ROBERT to Ted Cruz for Senate, 2018 cycle" }
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": 2016,
+        "total_usd": 22500000,
+        "ranking": "Wikipedia (one of the biggest donors of the cycle)",
+        "sources": [
+          { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" },
+          { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&two_year_transaction_period=2016", "title": "FEC itemized receipts: MERCER, ROBERT, 2016 cycle" }
+        ],
+        "recipients": [
+          {
+            "name": "Keep the Promise I (pro-Cruz super PAC)",
+            "slug": "ted-cruz",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 11000000,
+            "description": "Run with Kellyanne Conway; renamed Make America Number 1 and turned pro-Trump after Cruz lost.",
+            "sources": [
+              { "url": "https://en.wikipedia.org/wiki/Robert_Mercer", "title": "Robert Mercer — Wikipedia" }
+            ]
+          },
+          {
+            "name": "Make America Number 1 (pro-Trump)",
+            "slug": "donald-trump",
+            "kind": "super-pac",
+            "side": "R",
+            "amount_usd": 2000000,
+            "sources": [
+              { "url": "https://www.cnbc.com/2016/09/09/the-biggest-hedge-fund-donor-this-election-why-it-stays-so-quiet.html", "title": "The biggest hedge fund donor this election — CNBC" }
+            ]
+          },
+          {
+            "name": "Make America Number 1",
+            "kind": "super-pac",
+            "amount_usd": 15500000,
+            "fec_usd": 15500000,
+            "fec_ids": ["C00575373"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00575373&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, ROBERT to Make America Number 1, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "John Bolton Super PAC",
+            "kind": "super-pac",
+            "amount_usd": 3000000,
+            "fec_usd": 3000000,
+            "fec_ids": ["C00542464"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00542464&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, ROBERT to John Bolton Super PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Kellipac",
+            "kind": "super-pac",
+            "amount_usd": 700000,
+            "fec_usd": 700000,
+            "fec_ids": ["C00572941"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00572941&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, ROBERT to Kellipac, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Warrior PAC",
+            "kind": "super-pac",
+            "amount_usd": 600000,
+            "fec_usd": 600000,
+            "fec_ids": ["C00619445"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00619445&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, ROBERT to Warrior PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Fighting for Ohio Fund",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00573014"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00573014&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, ROBERT to Fighting for Ohio Fund, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "New York Wins PAC",
+            "kind": "super-pac",
+            "amount_usd": 500000,
+            "fec_usd": 500000,
+            "fec_ids": ["C00603365"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00603365&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, ROBERT to New York Wins PAC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Republican National Committee",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 467600,
+            "fec_usd": 467600,
+            "fec_ids": ["C00003418"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00003418&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, ROBERT to Republican National Committee, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Black Americans for a Better Future",
+            "kind": "super-pac",
+            "amount_usd": 425000,
+            "fec_usd": 425000,
+            "fec_ids": ["C00567784"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00567784&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, ROBERT to Black Americans for a Better Future, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRCC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 400800,
+            "fec_usd": 400800,
+            "fec_ids": ["C00075820"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00075820&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, ROBERT to NRCC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "NRSC",
+            "kind": "party",
+            "side": "R",
+            "amount_usd": 334000,
+            "fec_usd": 334000,
+            "fec_ids": ["C00027466"],
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00027466&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, ROBERT to NRSC, 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Donald Trump",
+            "slug": "donald-trump",
+            "kind": "pac",
+            "side": "R",
+            "amount_usd": 10800,
+            "fec_usd": 10800,
+            "fec_ids": ["C00580100", "C00618389"],
+            "description": "Per FEC filings: Trump Victory $5,400; Donald J. Trump for President, Inc. $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00618389&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, ROBERT to Trump Victory, 2016 cycle" },
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00580100&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, ROBERT to Donald J. Trump for President, Inc., 2016 cycle" }
+            ]
+          },
+          {
+            "name": "Ron DeSantis",
+            "slug": "ron-desantis",
+            "kind": "candidate",
+            "side": "R",
+            "amount_usd": 5400,
+            "fec_usd": 5400,
+            "fec_ids": ["C00511568"],
+            "description": "Per FEC filings: Ron Desantis for Florida $5,400.",
+            "sources": [
+              { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=MERCER%2C+ROBERT&committee_id=C00511568&two_year_transaction_period=2016", "title": "FEC receipts: MERCER, ROBERT to Ron Desantis for Florida, 2016 cycle" }
+            ]
+          }
+        ]
+      }
+    ],
+    "outlook": {
+      "cycle": 2028,
+      "summary": "Mercer has kept a low profile since 2018 and his giving is far below its 2016 peak; the family foundation held $88.4M at the start of 2023. No 2028 plans reported. The family backed JD Vance's 2022 Senate run.",
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/11/21/mercers-weigh-backing-trump-with-massive-war-chest.html", "title": "Mercer family weighs backing Trump as they maintain massive war chest — CNBC" },
+        { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" }
+      ],
+      "likely": [
+        {
+          "name": "JD Vance",
+          "slug": "jd-vance",
+          "kind": "candidate",
+          "side": "R",
+          "basis": "Mercer and Rebekah Mercer funded Vance's 2022 Senate run (Robert $100,000; Rebekah $60,800 and a fundraiser); nothing reported about 2028.",
+          "confidence": 0.45,
+          "sources": [
+            { "url": "https://www.cnbc.com/2022/11/18/gop-megadonor-mercers-distance-themselves-from-trump-for-2024-campaign.html", "title": "GOP megadonor Mercer family has no plans to boost Trump's 2024 campaign — CNBC" },
+            { "url": "https://www.cnn.com/2021/03/15/politics/hillbilly-elegy-author-vance-pac-donation-senate/index.html", "title": "'Hillbilly Elegy' author J.D. Vance gets $10 million boost for potential Senate bid — CNN" }
+          ]
+        },
+        {
+          "name": "Trump-aligned committees (MAGA Inc., RNC)",
+          "slug": "donald-trump",
+          "kind": "party",
+          "side": "R",
+          "basis": "Backed Trump in 2016, 2020 and 2024 after a pause.",
+          "confidence": 0.4,
+          "sources": [
+            { "url": "https://www.cnbc.com/2020/04/15/robert-mercer-starts-big-money-effort-for-trump-campaign.html", "title": "Robert Mercer starts big money effort for Trump and RNC after cutting back support — CNBC" },
+            { "url": "https://edition.cnn.com/2024/03/19/politics/republican-billionaires-trump-fundraiser/index.html", "title": "Republican billionaires rally around Trump for April fundraiser — CNN" }
+          ]
+        }
+      ]
+    }
+  }
+}

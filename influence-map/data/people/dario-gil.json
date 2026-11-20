@@ -1,0 +1,82 @@
+{
+  "name": "Darío Gil",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "tech",
+  "groups": [],
+  "photo": {
+    "file": "dario-gil.jpg",
+    "credit": "U.S. Department of Energy",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Dar%C3%ADo_Gil_portrait.jpg", "title": "File:Darío Gil portrait.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Under Secretary of Energy for Science and Innovation (since September 2025)",
+  "summary": "Darío Gil, formerly IBM’s director of research, has been the Energy Department’s under secretary for science and innovation since September 2025, overseeing the national laboratories and the Office of Science.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Dar%C3%ADo_Gil", "title": "Darío Gil — Wikipedia" },
+    { "url": "https://www.exchangemonitor.com/white-house-nominees-for-science-legal-among-doe-group-confirmed/", "title": "White House nominees for science, legal among DOE group confirmed — Exchange Monitor (September 2025)" },
+    { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": 2025,
+      "role": "Senior Vice President and Director of Research",
+      "org": "IBM",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Dar%C3%ADo_Gil", "title": "Darío Gil — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Under Secretary for Science and Innovation",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://www.exchangemonitor.com/white-house-nominees-for-science-legal-among-doe-group-confirmed/", "title": "White House nominees for science, legal among DOE group confirmed — Exchange Monitor (September 2025)" },
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Chris Wright",
+      "slug": "chris-wright",
+      "relationship_type": "employer",
+      "description": "Wright’s under secretary for science since September 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.exchangemonitor.com/white-house-nominees-for-science-legal-among-doe-group-confirmed/", "title": "White House nominees for science, legal among DOE group confirmed — Exchange Monitor (September 2025)" },
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "James Danly",
+      "slug": "james-danly",
+      "relationship_type": "colleague",
+      "description": "Senior Energy Department officials together under Wright.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Under Secretary for Science and Innovation",
+    "unit": "energy",
+    "rank": 3,
+    "reports_to": "chris-wright",
+    "since": "2025-09",
+    "sources": [
+      { "url": "https://www.exchangemonitor.com/white-house-nominees-for-science-legal-among-doe-group-confirmed/", "title": "White House nominees for science, legal among DOE group confirmed — Exchange Monitor (September 2025)" },
+      { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Wayne Palmer",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Assistant Secretary of Labor for Mine Safety and Health (since November 2025)",
+  "summary": "Wayne Palmer heads the Mine Safety and Health Administration. He was confirmed 51–47 on October 7, 2025, in a block vote and took office on November 5, after the fall 2025 shutdown delayed swearings-in.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Labor_appointments_by_Donald_Trump", "title": "List of Department of Labor appointments by Donald Trump — Wikipedia" },
+    { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Assistant Secretary, Mine Safety and Health Administration",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Labor_appointments_by_Donald_Trump", "title": "List of Department of Labor appointments by Donald Trump — Wikipedia" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Serves in Sonderling’s department as head of the Mine Safety and Health Administration.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" },
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Labor_appointments_by_Donald_Trump", "title": "List of Department of Labor appointments by Donald Trump — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Melanie Calhoun",
+      "slug": "melanie-calhoun",
+      "relationship_type": "employee",
+      "description": "Palmer’s deputy for operations at MSHA.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.msha.gov/sites/default/files/Organizational_Charts/OAS/July2026-OAS-External.pdf", "title": "MSHA Office of the Assistant Secretary organization chart (July 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary, Mine Safety and Health (MSHA)",
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "keith-sonderling",
+    "since": "2025-11",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Labor_appointments_by_Donald_Trump", "title": "List of Department of Labor appointments by Donald Trump — Wikipedia" },
+      { "url": "https://www.dol.gov/newsroom/releases/osec/osec20251105", "title": "US Department of Labor welcomes senior Trump Administration appointees — U.S. Department of Labor (November 5, 2025)" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

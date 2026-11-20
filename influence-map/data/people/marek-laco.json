@@ -1,0 +1,65 @@
+{
+  "name": "Marek Laco",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Acting head, Employment and Training Administration (deputy assistant secretary since February 2025)",
+  "summary": "Marek Laco joined the Employment and Training Administration in February 2025 as its chief of staff and deputy assistant secretary. Labor’s leadership page lists him as acting assistant secretary, running the agency after Henry Mack left in July 2026 to become Florida’s education commissioner.",
+  "sources": [
+    { "url": "https://www.dol.gov/agencies/eta/about/marek-laco", "title": "Deputy Assistant Secretary Marek Laco — Employment and Training Administration" },
+    { "url": "https://www.dol.gov/general/contact/leadership-team", "title": "Leadership Team — U.S. Department of Labor" },
+    { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Chief of Staff, then Deputy Assistant Secretary, Employment and Training Administration",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/agencies/eta/about/marek-laco", "title": "Deputy Assistant Secretary Marek Laco — Employment and Training Administration" },
+        { "url": "https://www.dol.gov/newsroom/releases/osec/osec20250313", "title": "US Department of Labor announces senior Trump Administration appointees — U.S. Department of Labor (March 2025)" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Acting Assistant Secretary, Employment and Training Administration",
+      "org": "U.S. Department of Labor",
+      "sources": [
+        { "url": "https://www.dol.gov/general/contact/leadership-team", "title": "Leadership Team — U.S. Department of Labor" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Keith Sonderling",
+      "slug": "keith-sonderling",
+      "relationship_type": "employer",
+      "description": "Runs the job-training agency in Sonderling’s department as acting head.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.dol.gov/general/contact/leadership-team", "title": "Leadership Team — U.S. Department of Labor" },
+        { "url": "https://www.dol.gov/agencies/eta/about/marek-laco", "title": "Deputy Assistant Secretary Marek Laco — Employment and Training Administration" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary, Employment and Training Administration",
+    "acting": true,
+    "unit": "labor",
+    "rank": 4,
+    "reports_to": "keith-sonderling",
+    "sources": [
+      { "url": "https://www.dol.gov/general/contact/leadership-team", "title": "Leadership Team — U.S. Department of Labor" },
+      { "url": "https://www.dol.gov/agencies/eta/about/marek-laco", "title": "Deputy Assistant Secretary Marek Laco — Employment and Training Administration" }
+    ]
+  },
+  "notes": "dol.gov pages could not be opened from this session (the site blocks automated readers); facts were confirmed with searches restricted to dol.gov and the cited outlets.",
+  "last_researched": "2026-11-08"
+}

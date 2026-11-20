@@ -1,0 +1,53 @@
+{
+  "name": "Joseph Edlow",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Director of U.S. Citizenship and Immigration Services",
+  "summary": "Joseph Edlow directs U.S. Citizenship and Immigration Services, the agency that processes visas, green cards and naturalization; in 2026 he told Congress the agency wanted its own law-enforcement arm of some 200 officers, separate from ICE and CBP.",
+  "sources": [
+    { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" },
+    { "url": "https://federalnewsnetwork.com/federal-newscast/2026/01/ice-cbp-uscis-leaders-to-testify-before-house-homeland-security-committee/", "title": "ICE, CBP, USCIS leaders to testify before House Homeland Security Committee — Federal News Network (January 2026)" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Director",
+      "org": "U.S. Citizenship and Immigration Services",
+      "sources": [
+        { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" },
+        { "url": "https://federalnewsnetwork.com/federal-newscast/2026/01/ice-cbp-uscis-leaders-to-testify-before-house-homeland-security-committee/", "title": "ICE, CBP, USCIS leaders to testify before House Homeland Security Committee — Federal News Network (January 2026)" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Markwayne Mullin",
+      "slug": "markwayne-mullin",
+      "relationship_type": "employer",
+      "description": "Runs Citizenship and Immigration Services inside the department Mullin leads.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Director, Citizenship and Immigration Services",
+    "unit": "dhs",
+    "rank": 3,
+    "reports_to": "markwayne-mullin",
+    "since": "2025",
+    "sources": [
+      { "url": "https://www.wvtf.org/2026-04-16/top-five-takeaways-from-homeland-security-budget-hearings", "title": "Top five takeaways from Homeland Security budget hearings — NPR via WVTF (April 2026)" },
+      { "url": "https://federalnewsnetwork.com/federal-newscast/2026/01/ice-cbp-uscis-leaders-to-testify-before-house-homeland-security-committee/", "title": "ICE, CBP, USCIS leaders to testify before House Homeland Security Committee — Federal News Network (January 2026)" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}

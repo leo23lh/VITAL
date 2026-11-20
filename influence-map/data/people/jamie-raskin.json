@@ -1,0 +1,157 @@
+{
+  "name": "Jamie Raskin",
+  "aliases": ["Jamin Ben Raskin", "Jamin Raskin"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["critics"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Progressive Democratic Maryland state senator and congressman since 2017; endorsed by Our Revolution in 2016.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Ranking member, House Judiciary Committee; seeking the chairmanship when Democrats take the House in January 2027",
+    "unit": "house",
+    "rank": 3,
+    "since": "2017-01",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" },
+      { "url": "http://www.washingtonexaminer.com/news/house/4803088/jamie-raskin-ask-back-house-judiciary-chairman/", "title": "Raskin asks colleagues to back him for House Judiciary chairman — Washington Examiner" },
+      { "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/11/13/democrats-chair-congress-top-committees-2027", "title": "Democrats in line to lead committees in the new Congress — Spectrum News" }
+    ],
+    "verified": "2026-11-20"
+  },
+  "photo": {
+    "file": "jamie-raskin.jpg",
+    "credit": "Leah Herman",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Jamie_Raskin_Official_Portrait_2019.jpg", "title": "File:Jamie Raskin Official Portrait 2019.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Ranking member, House Judiciary Committee; seeking the chairmanship when Democrats take the House in January 2027",
+  "summary": "Jamie Raskin, a former constitutional law professor, has represented Maryland's 8th district since 2017. He was the lead House manager in Trump's second impeachment trial (2021), served on the January 6 select committee, and has been the ranking Democrat on the House Judiciary Committee since December 2024.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+  ],
+  "timeline": [
+    {
+      "year": 2007,
+      "end_year": 2016,
+      "role": "State senator",
+      "org": "Maryland Senate",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": null,
+      "role": "U.S. representative (Maryland's 8th district)",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "role": "Lead House manager in Trump's second impeachment trial",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": null,
+      "role": "Ranking member, House Judiciary Committee",
+      "org": "U.S. House of Representatives",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "enemy",
+      "description": "Raskin was the primary author of the impeachment article after January 6, 2021 and the lead manager in Trump's second impeachment trial; he also served on the January 6 select committee.",
+      "start_year": 2017,
+      "end_year": null,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Nancy Pelosi",
+      "slug": "nancy-pelosi",
+      "relationship_type": "ally",
+      "description": "Pelosi named Raskin to the January 6 select committee and lead manager of Trump's second impeachment in January 2021.",
+      "start_year": 2021,
+      "end_year": null,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" },
+        { "url": "https://raskin.house.gov/2021/1/speaker-pelosi-names-raskin-lead-impeachment-manager", "title": "Speaker Pelosi names Raskin lead impeachment manager — Rep. Jamie Raskin" },
+        { "url": "https://www.axios.com/pelosi-names-impeachment-managers-bf3d12ab-e063-44dc-8520-bf6eb101f8a4.html", "title": "Pelosi names impeachment managers — Axios" }
+      ]
+    },
+    {
+      "name": "Joe Biden",
+      "slug": "joe-biden",
+      "relationship_type": "ally",
+      "description": "Biden pre-emptively pardoned the members of the January 6 select committee, including Raskin, on January 20, 2025.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Elizabeth Warren",
+      "slug": "elizabeth-warren",
+      "relationship_type": "ally",
+      "description": "Warren campaigned with Raskin in his 2016 House race.",
+      "start_year": 2016,
+      "end_year": 2016,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jerry Nadler",
+      "slug": "jerry-nadler",
+      "relationship_type": "rival",
+      "description": "Raskin challenged Nadler for the top Democratic post on the Judiciary Committee in 2024; Nadler withdrew and endorsed him.",
+      "start_year": 2024,
+      "end_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jamie_Raskin", "title": "Jamie Raskin — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Jim Jordan",
+      "slug": "jim-jordan",
+      "relationship_type": "rival",
+      "description": "Raskin has been ranking Democrat on House Judiciary under Chairman Jordan since 2023 and is seeking the gavel when Democrats take the House in January 2027.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "http://www.washingtonexaminer.com/news/house/4803088/jamie-raskin-ask-back-house-judiciary-chairman/", "title": "Raskin asks colleagues to back him for House Judiciary chairman — Washington Examiner" },
+        { "url": "https://en.wikipedia.org/wiki/Jim_Jordan", "title": "Jim Jordan — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly); other pages could not be opened in this environment.",
+  "last_researched": "2026-11-19"
+}

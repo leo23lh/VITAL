@@ -1,0 +1,169 @@
+{
+  "name": "Sohrab Ahmari",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon", "media"],
+  "lean": [
+    {
+      "value": 1,
+      "start_year": null,
+      "end_year": 2018,
+      "basis": "Neoconservative writer (Wall Street Journal opinion pages, Commentary) who criticized Trump, Putin and Le Pen as part of a global illiberal trend.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
+    },
+    {
+      "value": 2,
+      "start_year": 2019,
+      "end_year": null,
+      "basis": "Turned to post-liberal \"common-good\" conservatism (\"Against David French-ism\", 2019), backed Trump and Orbán, and served as an adviser to Vice President JD Vance; combines social conservatism with pro-worker economics.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "sohrab-ahmari.jpg",
+    "credit": "Elekes Andor",
+    "license": "CC BY 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Sohrab_Ahmari_in_2026.jpg", "title": "File:Sohrab Ahmari in 2026.jpg — Wikimedia Commons" }
+  },
+  "current_role": "US editor of UnHerd; founding editor of Compact; adviser to Vice President JD Vance",
+  "summary": "Sohrab Ahmari (born 1985 in Tehran) is an Iranian-American writer and editor, formerly op-ed editor of the New York Post. A convert to Catholicism, he broke with \"David French-ism\" in 2019 and became a leading post-liberal voice; in 2022 he co-founded the magazine Compact. Wikipedia describes him as an adviser to Vice President Vance in Trump's second term; in June 2026 he flew with Vance to Switzerland for talks with Iran without a security clearance.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+    { "url": "https://en.wikipedia.org/wiki/Compact_(American_magazine)", "title": "Compact (American magazine) — Wikipedia" },
+    { "url": "https://unherd.com/author/sohrab-ahmariunherd-com/?edition=us", "title": "Sohrab Ahmari — UnHerd" }
+  ],
+  "timeline": [
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Op-ed editor",
+      "org": "New York Post",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2022,
+      "end_year": null,
+      "role": "Co-founder and founding editor (with Matthew Schmitz and Edwin Aponte)",
+      "org": "Compact",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Compact_(American_magazine)", "title": "Compact (American magazine) — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": null,
+      "role": "US editor",
+      "org": "UnHerd",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+        { "url": "https://unherd.com/author/sohrab-ahmariunherd-com/?edition=us", "title": "Sohrab Ahmari — UnHerd" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "National Conservatism Conference",
+      "role": "Speaker (2021)",
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "A long-time Vance ally, per Yahoo News; as UnHerd's US editor he interviewed Vance in December 2025 and June 2026, and in March 2026 criticized him for siding with foreign-policy hawks. Wikipedia describes him as a Vance adviser who flew with him to Iran talks in June 2026; news reports reviewed don't confirm a formal role.",
+      "start_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+        { "url": "https://www.yahoo.com/news/articles/pretty-bad-vance-vp-silence-013923015.html", "title": "'Pretty bad for Vance': the VP's silence on Iran peeves allies — Yahoo News" },
+        { "url": "https://unherd.com/2025/12/full-transcript-jd-vance-on-american-identity/", "title": "Full transcript: JD Vance on American identity — UnHerd" },
+        { "url": "https://unherd.com/2026/03/how-jd-vance-lost-the-foreign-policy-war/", "title": "How JD Vance lost the foreign policy war — UnHerd" }
+      ]
+    },
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "ally",
+      "description": "Ahmari spoke at Hazony's NatCon in 2021.",
+      "start_year": 2021,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" }
+      ]
+    },
+    {
+      "name": "George Soros",
+      "slug": "george-soros",
+      "relationship_type": "funded_by",
+      "description": "Vanity Fair reported in October 2024 that Compact, the magazine Ahmari co-founded, received extensive funding from the Soros family's Open Society Foundations (a $200,000 grant in 2023, per Wikipedia's summary); Salon had earlier linked Peter Thiel to its funding, and Compact names other funders.",
+      "start_year": 2022,
+      "confidence": 0.4,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+        { "url": "https://shot.allsides.com/news/2024-10-24-0225/media-industry-why-progressive-mega-donor-funding-right-wing-ideas", "title": "Why is a progressive mega-donor funding right-wing ideas? — Vanity Fair, via AllSides" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "enemy",
+      "description": "After Carlson's September 2024 interview with Darryl Cooper, who cast Churchill as WWII's \"chief villain\", Ahmari called Cooper's claims \"the same old Hitler apologetic\" and warned that such views were moving from the fringe to the mainstream.",
+      "start_year": 2024,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+        { "url": "https://theweek.com/politics/tucker-carlson-interview-darryl-cooper-holocaust", "title": "Tucker Carlson's WWII interview fractures conservatives — The Week" },
+        { "url": "https://thefp.com/p/world-war-ii-and-the-rise-of-anti-798/comments", "title": "World War II and the rise of anti-history — The Free Press" }
+      ]
+    },
+    {
+      "name": "R. R. Reno",
+      "slug": "r-r-reno",
+      "relationship_type": "employer",
+      "description": "Ahmari is a First Things columnist; his 2019 essay \"Against David French-ism\" ran in Reno's magazine.",
+      "start_year": 2019,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+        { "url": "https://firstthings.com/blogs/firstthoughts/2019/06/sohrabs-conservatism", "title": "Sohrab's conservatism — First Things" },
+        { "url": "https://quillette.com/2019/06/11/the-rise-of-the-illiberal-right/", "title": "The rise of the illiberal right — Quillette" }
+      ]
+    },
+    {
+      "name": "Patrick Deneen",
+      "slug": "patrick-deneen",
+      "relationship_type": "ally",
+      "description": "Leading figures of the \"post-liberal\" right, routinely reviewed and named together; Deneen's Regime Change and Ahmari's Tyranny, Inc. (both 2023) were read as companion books.",
+      "start_year": 2019,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://lareviewofbooks.org/article/the-enemy-of-my-enemy-is-not-my-friend-on-sohrab-ahmaris-tyranny-inc-and-patrick-j-deneens-regime-change", "title": "On Sohrab Ahmari's Tyranny, Inc. and Patrick J. Deneen's Regime Change — LA Review of Books" },
+        { "url": "https://www.liberalcurrents.com/the-book-of-post-liberalism/", "title": "The Book of Post-Liberalism — Liberal Currents" }
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Compact's funding",
+      "details": "Salon reported that Peter Thiel was behind Compact; a later Vanity Fair report said it received extensive funding from the Soros family's Open Society Foundations, contradicting Salon.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and with Wikipedia via its API.",
+  "last_researched": "2026-11-07"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Mike Casca",
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": -2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Progressive Democratic staffer for Sanders and Ocasio-Cortez.",
+      "sources": [
+        { "url": "https://www.axios.com/2026/08/28/aoc-staff-changes-2028-decision", "title": "Axios: AOC shakes up team ahead of 2028 decision" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["alexandria-ocasio-cortez"],
+    "basis": "Her chief of staff, whose portfolio was expanded in 2026 ahead of her 2028 decision.",
+    "sources": [
+      { "url": "https://www.axios.com/2026/08/28/aoc-staff-changes-2028-decision", "title": "Axios: AOC shakes up team ahead of 2028 decision" }
+    ]
+  },
+  "current_role": "Chief of staff to Rep. Alexandria Ocasio-Cortez (since late 2023)",
+  "summary": "Mike Casca was a senior communications adviser on Bernie Sanders's 2020 presidential campaign and deputy chief of staff in Sanders's Senate office before becoming Alexandria Ocasio-Cortez's chief of staff in late 2023; his portfolio was expanded in 2026 as she weighs a 2028 run.",
+  "sources": [
+    { "url": "https://www.axios.com/2026/08/28/aoc-staff-changes-2028-decision", "title": "Axios: AOC shakes up team ahead of 2028 decision" },
+    { "url": "https://punchbowl.news/article/washington/alexandria-ocasio-cortez-gets-new-chief-of-staff-mike-casca", "title": "Punchbowl News" }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "end_year": 2023,
+      "role": "Senior communications adviser (2020 campaign), then deputy chief of staff",
+      "org": "Sen. Bernie Sanders",
+      "sources": [
+        { "url": "https://www.axios.com/2026/08/28/aoc-staff-changes-2028-decision", "title": "Axios: AOC shakes up team ahead of 2028 decision" }
+      ]
+    },
+    {
+      "year": 2023,
+      "end_year": null,
+      "role": "Chief of staff",
+      "org": "Office of Rep. Alexandria Ocasio-Cortez",
+      "sources": [
+        { "url": "https://www.axios.com/2026/08/28/aoc-staff-changes-2028-decision", "title": "Axios: AOC shakes up team ahead of 2028 decision" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "slug": "alexandria-ocasio-cortez",
+      "relationship_type": "employer",
+      "description": "Her chief of staff since late 2023.",
+      "start_year": 2023,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.axios.com/2026/08/28/aoc-staff-changes-2028-decision", "title": "Axios: AOC shakes up team ahead of 2028 decision" }
+      ]
+    },
+    {
+      "name": "Bernie Sanders",
+      "slug": "bernie-sanders",
+      "relationship_type": "employer",
+      "description": "Senior communications adviser on Sanders's 2020 campaign and deputy chief of staff in his Senate office.",
+      "start_year": 2019,
+      "end_year": 2023,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.axios.com/2026/08/28/aoc-staff-changes-2028-decision", "title": "Axios: AOC shakes up team ahead of 2028 decision" }
+      ]
+    }
+  ],
+  "aliases": [],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

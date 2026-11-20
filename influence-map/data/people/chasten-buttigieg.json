@@ -1,0 +1,66 @@
+{
+  "name": "Chasten Buttigieg",
+  "aliases": ["Chasten Glezman"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["pete-buttigieg"],
+    "basis": "His husband, who served as a spokesperson and adviser on the 2020 campaign.",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Chasten_Buttigieg", "title": "Wikipedia: Chasten Buttigieg" }
+    ]
+  },
+  "photo": {
+    "file": "chasten-buttigieg.jpg",
+    "credit": "MyCatIsAChonk",
+    "license": "CC BY-SA 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Chasten_Buttigieg_at_Books_in_Bloom_2023_(cropped).jpg", "title": "File:Chasten Buttigieg at Books in Bloom 2023 (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Author and LGBTQ activist",
+  "summary": "Chasten Buttigieg is a former teacher and the author of the bestselling memoir I Have Something to Tell You. He took leave to serve as a spokesperson and adviser on his husband Pete Buttigieg's 2020 campaign, and later joined the Democratic communications firm KNP Communications.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Chasten_Buttigieg", "title": "Wikipedia: Chasten Buttigieg" }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "end_year": 2020,
+      "role": "Spokesperson and adviser",
+      "org": "Pete for America",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chasten_Buttigieg", "title": "Wikipedia: Chasten Buttigieg" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Pete Buttigieg",
+      "slug": "pete-buttigieg",
+      "relationship_type": "family",
+      "description": "His husband.",
+      "start_year": null,
+      "end_year": null,
+      "confidence": 0.99,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chasten_Buttigieg", "title": "Wikipedia: Chasten Buttigieg" },
+        { "url": "https://www.npr.org/2019/05/20/725132053/love-that-motivates-pete-buttigieg-on-marriage-and-faith", "title": "'Love that motivates': Pete Buttigieg on marriage and faith — NPR" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "notes": "Researched in a sandbox that could run web searches but not open most pages; facts were checked against search results tied to each cited URL.",
+  "last_researched": "2026-11-07",
+  "lean": [
+    {
+      "value": -2,
+      "start_year": 2019,
+      "end_year": null,
+      "basis": "Spokesperson and adviser on Pete Buttigieg's 2020 Democratic presidential campaign; later joined a Democratic communications firm.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Chasten_Buttigieg", "title": "Wikipedia: Chasten Buttigieg" }
+      ]
+    }
+  ]
+}

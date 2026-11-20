@@ -1,0 +1,102 @@
+{
+  "name": "Will Chamberlain",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Senior counsel at Mike Davis's Article III Project, which backs Trump's judicial and legal agenda; revived the conservative magazine Human Events; co-author of the national conservatism statement of principles.",
+      "sources": [
+        { "url": "https://article3project.org/post/article-iii-project-adds-will-chamberlain-josh-hammer-as-senior-counsel", "title": "Article III Project adds Will Chamberlain, Josh Hammer as senior counsel" },
+        { "url": "https://www.dailysignal.com/author/will-chamberlain/", "title": "Will Chamberlain — Daily Signal author page" },
+        { "url": "https://www.theamericanconservative.com/?p=306317", "title": "National Conservatism: A Statement of Principles — The American Conservative" }
+      ]
+    }
+  ],
+  "current_role": "Senior counsel, Article III Project; vice president for external affairs, Edmund Burke Foundation",
+  "summary": "Will Chamberlain is a conservative lawyer and commentator. He relaunched Human Events in 2019 as publisher and editor-in-chief, is senior counsel at the Article III Project founded by Mike Davis, and is vice president for external affairs at the Edmund Burke Foundation. He is one of the drafters of the National Conservatism statement of principles.",
+  "sources": [
+    { "url": "https://article3project.org/post/article-iii-project-adds-will-chamberlain-josh-hammer-as-senior-counsel", "title": "Article III Project adds Will Chamberlain, Josh Hammer as senior counsel" },
+    { "url": "https://www.dailysignal.com/author/will-chamberlain/", "title": "Will Chamberlain — Daily Signal author page" },
+    { "url": "https://www.theamericanconservative.com/?p=306317", "title": "National Conservatism: A Statement of Principles — The American Conservative" }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "role": "Publisher and editor-in-chief (relaunch)",
+      "org": "Human Events",
+      "sources": [
+        { "url": "https://www.dailysignal.com/author/will-chamberlain/", "title": "Will Chamberlain — Daily Signal author page" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Senior counsel",
+      "org": "Article III Project",
+      "sources": [
+        { "url": "https://article3project.org/post/article-iii-project-adds-will-chamberlain-josh-hammer-as-senior-counsel", "title": "Article III Project adds Will Chamberlain, Josh Hammer as senior counsel" }
+      ]
+    },
+    {
+      "year": null,
+      "end_year": null,
+      "role": "Vice president for external affairs",
+      "org": "Edmund Burke Foundation",
+      "sources": [
+        { "url": "https://www.dailysignal.com/author/will-chamberlain/", "title": "Will Chamberlain — Daily Signal author page" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "National Conservatism: A Statement of Principles",
+      "role": "Co-drafter",
+      "sources": [
+        { "url": "https://www.theamericanconservative.com/?p=306317", "title": "National Conservatism: A Statement of Principles — The American Conservative" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "colleague",
+      "description": "Chamberlain is the Edmund Burke Foundation's vice president for external affairs and co-drafted its national conservatism statement of principles with Hazony.",
+      "start_year": 2019,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dailysignal.com/author/will-chamberlain/", "title": "Will Chamberlain — Daily Signal author page" },
+        { "url": "https://www.theamericanconservative.com/?p=306317", "title": "National Conservatism: A Statement of Principles — The American Conservative" }
+      ]
+    },
+    {
+      "name": "Mike Davis",
+      "slug": "mike-davis",
+      "relationship_type": "employer",
+      "description": "Chamberlain is senior counsel at the Article III Project, founded and led by Davis.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://article3project.org/post/article-iii-project-adds-will-chamberlain-josh-hammer-as-senior-counsel", "title": "Article III Project adds Will Chamberlain, Josh Hammer as senior counsel" }
+      ]
+    },
+    {
+      "name": "Edmund Burke Foundation",
+      "slug": "edmund-burke-foundation",
+      "relationship_type": "employer",
+      "description": "Vice president for external affairs; co-drafted its statement of national conservative principles.",
+      "start_year": null,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://www.dailysignal.com/author/will-chamberlain/", "title": "Will Chamberlain — Daily Signal author page" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened; facts were confirmed with web searches tied to each cited URL and, where available, with Wikipedia via its API.",
+  "last_researched": "2026-11-07"
+}

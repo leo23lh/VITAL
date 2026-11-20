@@ -1,0 +1,102 @@
+{
+  "name": "R. R. Reno",
+  "aliases": ["Rusty Reno", "Russell Ronald Reno"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon", "media"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Editor of the religious-conservative journal First Things; co-author of the national conservatism statement of principles; author of Return of the Strong Gods: Nationalism, Populism, and the Future of the West (2019).",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/R._R._Reno", "title": "R. R. Reno — Wikipedia" },
+        { "url": "https://www.theamericanconservative.com/?p=306317", "title": "National Conservatism: A Statement of Principles — The American Conservative" },
+        { "url": "https://nationalconservatism.org/people/russel-reno/", "title": "R. R. Reno — National Conservatism" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "r-r-reno.jpg",
+    "credit": "Germán Saucedo",
+    "license": "CC BY 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Headshot_of_Rusty.jpg", "title": "File:Headshot of Rusty.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Editor of First Things",
+  "summary": "R. R. \"Rusty\" Reno taught theology and ethics at Creighton University from 1990 and has edited the religious journal First Things since the early 2010s, turning it toward national conservatism. He wrote Return of the Strong Gods (2019), co-authored the National Conservatism statement of principles, and has spoken at NatCon in Washington, Orlando, Miami and Jerusalem (2026).",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/R._R._Reno", "title": "R. R. Reno — Wikipedia" },
+    { "url": "https://nationalconservatism.org/people/russel-reno/", "title": "R. R. Reno — National Conservatism" }
+  ],
+  "timeline": [
+    {
+      "year": 1990,
+      "end_year": 2010,
+      "role": "Professor of theology and ethics",
+      "org": "Creighton University",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/R._R._Reno", "title": "R. R. Reno — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2010,
+      "end_year": null,
+      "role": "Editor",
+      "org": "First Things",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/R._R._Reno", "title": "R. R. Reno — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "National Conservatism: A Statement of Principles",
+      "role": "Co-author (2022)",
+      "sources": [
+        { "url": "https://www.theamericanconservative.com/?p=306317", "title": "National Conservatism: A Statement of Principles — The American Conservative" },
+        { "url": "https://en.wikipedia.org/wiki/R._R._Reno", "title": "R. R. Reno — Wikipedia" }
+      ]
+    },
+    {
+      "name": "National Conservatism Conference",
+      "role": "Speaker (2019, 2021, 2022, 2025, Jerusalem 2026)",
+      "sources": [
+        { "url": "https://nationalconservatism.org/natcon-dc-2019/presenters/rusty-reno/", "title": "Rusty Reno — National Conservatism Conference 2019" },
+        { "url": "https://nationalconservatism.org/natcon-2-2021/", "title": "National Conservatism Conference, 2021" },
+        { "url": "https://nationalconservatism.org/natcon-5-2025/confirmed-speakers/", "title": "Confirmed Speakers — NatCon Washington 2025" },
+        { "url": "https://nationalconservatism.org/natcon-jerusalem-2026/en/presenters/rusty-reno/", "title": "Rusty Reno — National Conservatism Conference, Jerusalem 2026" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Yoram Hazony",
+      "slug": "yoram-hazony",
+      "relationship_type": "colleague",
+      "description": "Reno co-authored the National Conservatism statement of principles with Hazony and others and has spoken at nearly every NatCon, including Jerusalem in 2026.",
+      "start_year": 2019,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.theamericanconservative.com/?p=306317", "title": "National Conservatism: A Statement of Principles — The American Conservative" },
+        { "url": "https://en.wikipedia.org/wiki/R._R._Reno", "title": "R. R. Reno — Wikipedia" },
+        { "url": "https://nationalconservatism.org/natcon-jerusalem-2026/en/presenters/rusty-reno/", "title": "Rusty Reno — National Conservatism Conference, Jerusalem 2026" }
+      ]
+    },
+    {
+      "name": "Sohrab Ahmari",
+      "slug": "sohrab-ahmari",
+      "relationship_type": "employee",
+      "description": "Ahmari is a First Things columnist; his 2019 essay \"Against David French-ism\" ran in Reno's magazine.",
+      "start_year": 2019,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sohrab_Ahmari", "title": "Sohrab Ahmari — Wikipedia" },
+        { "url": "https://firstthings.com/blogs/firstthoughts/2019/06/sohrabs-conservatism", "title": "Sohrab's conservatism — First Things" },
+        { "url": "https://quillette.com/2019/06/11/the-rise-of-the-illiberal-right/", "title": "The rise of the illiberal right — Quillette" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where most news pages could not be opened and Wikipedia was rate-limiting; facts were confirmed with web searches tied to each cited URL.",
+  "last_researched": "2026-11-07"
+}

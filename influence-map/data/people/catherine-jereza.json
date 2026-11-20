@@ -1,0 +1,54 @@
+{
+  "name": "Catherine Jereza",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Assistant Secretary of Energy for Electricity (since October 2025)",
+  "summary": "Catherine Jereza heads the Energy Department’s Office of Electricity, which works on grid reliability and transmission; the Senate Energy Committee advanced her nomination in 2025 over Democratic objections, and she took office in October 2025.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" },
+    { "url": "https://www.energy.senate.gov/2025/5/senate-energy-committee-advances-four-doe-usgs-nominees", "title": "Senate Energy Committee advances four DOE, USGS nominees — Senate Energy and Natural Resources Committee" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Assistant Secretary for Electricity",
+      "org": "U.S. Department of Energy",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Chris Wright",
+      "slug": "chris-wright",
+      "relationship_type": "employer",
+      "description": "Wright’s electricity chief since October 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" },
+        { "url": "https://www.energy.gov/oe/person/catherine-jereza-office-electricity-assistant-secretary", "title": "Catherine Jereza, Office of Electricity Assistant Secretary — Department of Energy" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Assistant Secretary, Electricity",
+    "unit": "energy",
+    "rank": 4,
+    "reports_to": "chris-wright",
+    "since": "2025-10",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/List_of_Department_of_Energy_appointments_by_Donald_Trump", "title": "List of Department of Energy appointments by Donald Trump — Wikipedia" },
+      { "url": "https://www.energy.gov/oe/person/catherine-jereza-office-electricity-assistant-secretary", "title": "Catherine Jereza, Office of Electricity Assistant Secretary — Department of Energy" }
+    ]
+  },
+  "last_researched": "2026-11-08",
+  "notes": "Second sources added on 2026-11-09 were confirmed by web searches restricted to each source's domain; the pages themselves were not opened."
+}

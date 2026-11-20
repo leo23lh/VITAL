@@ -1,0 +1,63 @@
+{
+  "name": "Katharine MacGregor",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": [],
+  "current_role": "Deputy Secretary of the Interior (since June 2025)",
+  "summary": "Katharine MacGregor is Interior’s No. 2 for the second time: she held the same post at the end of Trump’s first term and returned in June 2025 under Doug Burgum.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Katharine_MacGregor", "title": "Katharine MacGregor — Wikipedia" },
+    { "url": "https://www.congress.gov/nomination/119th-congress/13/10", "title": "PN13-10: Nomination of Katharine MacGregor — Congress.gov" }
+  ],
+  "timeline": [
+    {
+      "year": 2020,
+      "end_year": 2021,
+      "role": "Deputy Secretary of the Interior",
+      "org": "U.S. Department of the Interior",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katharine_MacGregor", "title": "Katharine MacGregor — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Deputy Secretary of the Interior",
+      "org": "U.S. Department of the Interior",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katharine_MacGregor", "title": "Katharine MacGregor — Wikipedia" },
+        { "url": "https://www.congress.gov/nomination/119th-congress/13/10", "title": "PN13-10: Nomination of Katharine MacGregor — Congress.gov" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Doug Burgum",
+      "slug": "doug-burgum",
+      "relationship_type": "employer",
+      "description": "Burgum’s deputy at Interior since June 2025.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Katharine_MacGregor", "title": "Katharine MacGregor — Wikipedia" },
+        { "url": "https://www.congress.gov/nomination/119th-congress/13/10", "title": "PN13-10: Nomination of Katharine MacGregor — Congress.gov" }
+      ]
+    }
+  ],
+  "org_chart_only": true,
+  "office": {
+    "title": "Deputy Secretary of the Interior",
+    "unit": "interior",
+    "rank": 2,
+    "reports_to": "doug-burgum",
+    "since": "2025-06-09",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Katharine_MacGregor", "title": "Katharine MacGregor — Wikipedia" },
+      { "url": "https://www.congress.gov/nomination/119th-congress/13/10", "title": "PN13-10: Nomination of Katharine MacGregor — Congress.gov" }
+    ]
+  },
+  "last_researched": "2026-11-08"
+}
