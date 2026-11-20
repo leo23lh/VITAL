@@ -8,8 +8,6 @@ interface Props {
   updated?: string;
 }
 
-const ISSUES = 'https://github.com/leo23lh/VITAL/issues';
-
 export default function AboutView({ people, orgs, links, updated }: Props) {
   return (
     <div className="orgchart pullview about">
@@ -72,8 +70,8 @@ export default function AboutView({ people, orgs, links, updated }: Props) {
 
       <h3>Spot a mistake?</h3>
       <p>
-        Report it on <a href={ISSUES} target="_blank" rel="noreferrer">GitHub</a> with a link to a source, and it will
-        be checked and corrected.
+        Every fact links to its source, so you can check it. If one doesn't say what the map says, tell whoever shared
+        this map with you, with a link to a better source, and it will be checked and corrected.
       </p>
     </div>
   );

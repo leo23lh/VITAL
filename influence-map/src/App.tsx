@@ -42,6 +42,18 @@ import {
   type View,
 } from './lib/view';
 
+/** Views a link can open with ?view=<name> (public site; the landing page's tiles use them). */
+const VIEW_LINKS: Record<string, View> = {
+  pull: { kind: 'pull' },
+  backing: { kind: 'backing' },
+  factions: { kind: 'factions' },
+  rifts: { kind: 'factions', tab: 'rifts' },
+  money: { kind: 'money' },
+  feuds: { kind: 'feuds' },
+  org: { kind: 'org' },
+  about: { kind: 'about' },
+};
+
 export default function App() {
   const { people, orgs, errors, loaded, fetchError, lastUpdated, live, updates = [], history = [] } = usePeople();
   // The latest monthly snapshot from before this month, for rising and falling arrows.
@@ -204,6 +216,14 @@ export default function App() {
     const q = new URLSearchParams(window.location.search);
     const p = q.get('p');
     const [a, b] = (q.get('pair') ?? '').split('|');
+    // ?view=pull (and the others below) opens a view: the landing page's tiles link here.
+    const linkedView = VIEW_LINKS[q.get('view') ?? ''];
+    if (linkedView) {
+      setView(linkedView);
+      const url = new URL(window.location.href);
+      url.searchParams.delete('view');
+      window.history.replaceState(null, '', url);
+    }
     if (p && byId.has(p)) {
       focusNode(p);
       // The layout has no positions yet on first load; center once the dots have spread out.

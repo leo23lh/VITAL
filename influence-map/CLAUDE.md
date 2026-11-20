@@ -31,6 +31,7 @@ the slash commands in the repo root's `.claude/commands/`:
 | `scripts/rift-check.mjs` | Backtests the rift watch, lists today's warnings and logs them (`npm run rifts`). See "Factions and rifts". |
 | `data/rifts.json` | The rift log: dated runs of `[person, person, score, strains]` (`npm run rifts -- --save`). |
 | `scripts/build-web.mjs` | Builds the public site into `dist-web/` (`npm run build:web`). See "Public site". |
+| `scripts/lib/landing.mjs` | The public site's landing page, with live readings from the map. See "Public site". |
 | `scripts/publish-web.mjs` | Builds the public site and pushes it to the `gh-pages` branch (`npm run publish:web`). See "Public site". |
 | `scripts/og-image.mjs` | Draws `public/og.png`, the public site's link-preview card (`npm run og-image`). See "Public site". |
 | `scripts/briefing.mjs` | Drafts a "what changed this week" note from the files (`npm run briefing`). See "Public site". |
@@ -926,9 +927,10 @@ on a phone. Its link is in `artifact.json`.
 
 ## Public site
 
-`npm run build:web` builds a public, read-only copy of the viewer into
-`dist-web/`: static files with relative paths (any folder or host serves
-them) plus `data.json`, the public copy of the data. `npm run publish:web`
+`npm run build:web` builds the public site into `dist-web/`: static files
+with relative paths (any folder or host serves them). The root is a landing
+page; the read-only viewer lives at `map/`, with `data.json` (the public copy
+of the data) and its photos; share pages live at `p/<slug>/`. `npm run publish:web`
 builds it and pushes the files, alone, to the repo's `gh-pages` branch, which
 GitHub Pages serves at https://leo23lh.github.io/VITAL/ (repo Settings →
 Pages → Deploy from a branch → `gh-pages`, root). Publish after every change
@@ -941,14 +943,27 @@ cannot open github.io, so check the live site from a browser.
   name them, and their monthly snapshots. The build then searches the result
   for any slug, full name or `user-provided` source left behind and refuses to
   build if it finds one; `publicData.test.ts` checks the same on every test run.
+- **Landing page** (`scripts/lib/landing.mjs`, written by the build from the
+  public payload only): a headline over a decorative network, live counts
+  (people, ties between files, distinct sources cited, organizations), four
+  tiles that read the map with its own scoring code (the top of Pull, the 2028
+  contenders with the most camp and leaning backers, the number of factions
+  and the top rift warning, the biggest donors by latest reported cycle), the
+  three latest Updates and a short "how it works". Its tiles link into the map
+  with `?view=`. The build refuses to publish if it names a left-out file, and
+  `landing.test.ts` checks its links and escaping. No photos on it: their
+  licenses ask for a credit beside each one.
 - **Shareable links.** Outside the claude.ai page, the address bar follows
-  what is open: `?p=<slug>` opens a person, `?pair=<a>|<b>` the ties between
-  two. Anyone opening the link lands on the same thing.
+  what is open: `map/?p=<slug>` opens a person, `map/?pair=<a>|<b>` the ties
+  between two, and `map/?view=pull` (also `backing`, `factions`, `rifts`,
+  `money`, `feuds`, `org`, `about`) a view. Anyone opening the link lands on
+  the same thing. Older links that opened the map at the site root (`?p=…`)
+  are forwarded to `map/` by the landing page.
 - **Link previews.** Chat apps read `<meta>` tags and run no JavaScript, so
   the build adds the map's own card to the front page and writes a small share
   page per person and organization at `p/<slug>/`
   (`scripts/lib/share-pages.mjs`): their name, current role, number of ties
-  and photo (with its credit), then a redirect to `?p=<slug>`. The **Share**
+  and photo (with its credit), then a redirect to `map/?p=<slug>`. The **Share**
   button in a person's panel (public site only) hands out that address, through
   the phone's share sheet where there is one. Only files in the public payload
   get a page; the build refuses to publish if a left-out file has one.
@@ -959,6 +974,12 @@ cannot open github.io, so check the live site from a browser.
   carry no counts, so it needs redrawing only if the look changes.
 - **About this map** (Views) says in plain words what the map is, where the
   facts come from and what the scores mean. Keep it in step with this file.
+  It asks readers to send corrections to whoever shared the map, not to the
+  repository, which may be private.
+- **Hosting.** GitHub Pages serves a site from a private repository only on a
+  paid GitHub plan. If the repository is private on a free plan, the site
+  needs another host for `dist-web/` (a separate public repository holding
+  only the built site works: it contains nothing the public build leaves out).
 - `npm run briefing` drafts a short note on the past week (`-- --since
   YYYY-MM-DD` for another period, `-- --save` to keep it in `briefings/`):
   the Updates entries, new people, new feuds, ended and new ties (by comparing

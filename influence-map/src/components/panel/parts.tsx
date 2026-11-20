@@ -92,7 +92,8 @@ export function CopyCommand({ text }: { text: string }) {
 export function ShareButton({ slug, name }: { slug: string; name: string }) {
   const [copied, setCopied] = useState(false);
   const share = () => {
-    const url = new URL(`p/${encodeURIComponent(slug)}/`, new URL('.', window.location.href)).href;
+    // The map lives at <site>/map/ and the share pages at <site>/p/<slug>/.
+    const url = new URL(`../p/${encodeURIComponent(slug)}/`, window.location.href).href;
     const ask = () => window.prompt('Copy this link', url);
     if (navigator.share) {
       navigator.share({ title: `${name} · Influence Map`, url }).catch(() => {});

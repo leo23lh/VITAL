@@ -1,7 +1,8 @@
 // Link previews for the public site. Chat apps and social sites read <meta> tags from the
 // page they fetch and run no JavaScript, so every person and organization gets a tiny static
 // page at p/<slug>/ with its own title, description and picture, which then sends the
-// browser on to ../../?p=<slug>. The viewer's Share button hands out these addresses.
+// browser on to the map at ../../map/?p=<slug>. The viewer's Share button hands out these
+// addresses. The site's root is the landing page (scripts/lib/landing.mjs); the map is map/.
 
 export const SITE_TITLE = 'Influence Map';
 export const SITE_DESCRIPTION =
@@ -42,7 +43,7 @@ export function previewOf(f, site) {
   const ties = (d.connections ?? []).length;
   const lead = d.current_role || clip(d.summary, 140) || (d.kind ? `${d.kind}` : '');
   const description = clip(`${lead ? `${lead}. ` : ''}${ties} sourced tie${ties === 1 ? '' : 's'} on the Influence Map.`, 200);
-  const photo = d.photo?.file ? `${site}photos/${encodeURIComponent(d.photo.file)}` : null;
+  const photo = d.photo?.file ? `${site}map/photos/${encodeURIComponent(d.photo.file)}` : null;
   return {
     slug: f.slug,
     name: d.name || f.slug,
@@ -58,7 +59,7 @@ export function previewOf(f, site) {
 
 /** The whole p/<slug>/index.html page. */
 export function sharePage(p) {
-  const target = `../../?p=${encodeURIComponent(p.slug)}`;
+  const target = `../../map/?p=${encodeURIComponent(p.slug)}`;
   return `<!doctype html>
 <html lang="en">
   <head>
