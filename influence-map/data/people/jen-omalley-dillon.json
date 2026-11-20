@@ -92,7 +92,9 @@
       "end_year": 2024,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" },
+        { "url": "https://www.cnbc.com/amp/2020/11/17/biden-picks-for-senior-white-house-staff-include-loyalists-rising-democratic-stars.html", "title": "Biden picks for senior White House staff — CNBC" },
+        { "url": "https://foxnews.com/politics/bidens-campaign-manager-headed-to-white-house-as-deputy-chief-of-staff.amp", "title": "Biden's campaign manager headed to White House as deputy chief of staff — Fox News" }
       ]
     },
     {
@@ -111,12 +113,14 @@
       "name": "Barack Obama",
       "slug": "barack-obama",
       "relationship_type": "employer",
-      "description": "Battleground states director for Obama's 2008 campaign and associate director of personnel in his transition.",
+      "description": "Battleground states director for Obama's 2008 campaign, associate director of personnel in his transition, and deputy campaign manager of his 2012 reelection.",
       "start_year": 2008,
       "end_year": 2009,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2016-election/hillary-clinton-hire-former-obama-deputy-campaign-manager-n515561", "title": "Hillary Clinton to hire former Obama deputy campaign manager — NBC News" },
+        { "url": "https://www.texastribune.org/2019/03/25/beto-orourke-hires-former-top-barack-obama-aide-campaign-manager/", "title": "Beto O'Rourke hires former top Barack Obama aide as campaign manager — Texas Tribune" }
       ]
     },
     {

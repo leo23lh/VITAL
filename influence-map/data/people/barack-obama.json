@@ -101,7 +101,8 @@
       "confidence": 0.95,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Hillary_Clinton", "title": "Hillary Clinton — Wikipedia" },
+        { "url": "https://history.state.gov/departmenthistory/people/clinton-hillary-rodham", "title": "Biographies of the Secretaries of State: Hillary Rodham Clinton — Office of the Historian, U.S. Department of State" }
       ]
     },
     {
@@ -170,7 +171,9 @@
       "confidence": 0.85,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/David_Plouffe", "title": "David Plouffe — Wikipedia" },
+        { "url": "https://m.washingtontimes.com/news/2010/nov/14/obama-aide-axelrod-to-leave-in-2011-to-prepare-for/", "title": "Obama aide Axelrod to leave in 2011; Plouffe to replace him — The Washington Times" },
+        { "url": "https://theweek.com/articles/482149/david-plouffe-obamas-election-guru", "title": "David Plouffe: Obama's election guru — The Week" }
       ]
     },
     {
@@ -193,7 +196,9 @@
       "description": "Wife, married 1992; former first lady (2009–2017) and author.",
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" },
+        { "url": "https://obamalibrary.archives.gov/obamas/first-lady-michelle-obama", "title": "First Lady Michelle Obama — Barack Obama Presidential Library (National Archives)" },
+        { "url": "https://whitehousehistory.org/bios/michelle-obama", "title": "Michelle Obama — White House Historical Association" }
       ]
     },
     {
@@ -205,7 +210,9 @@
       "end_year": 2017,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" },
+        { "url": "https://obamawhitehouse.archives.gov/administration/senior-leadership/valerie-jarrett", "title": "Senior Advisor Valerie Jarrett — Obama White House archives" },
+        { "url": "https://www.npr.org/2008/11/22/97350111/obamas-senior-adviser-is-close-connected", "title": "Obama's senior adviser is close, connected — NPR" }
       ]
     },
     {
@@ -277,7 +284,9 @@
       "end_year": 2017,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" },
+        { "url": "https://rollcall.com/2008/06/04/durbins-long-shot-pays-off/", "title": "Durbin's Long Shot Pays Off — Roll Call" },
+        { "url": "https://news.wttw.com/2012/09/06/web-extra-durbin-president-obama", "title": "Web Extra: Durbin on President Obama — WTTW" }
       ]
     },
     {
@@ -296,12 +305,14 @@
       "name": "Jen O'Malley Dillon",
       "slug": "jen-omalley-dillon",
       "relationship_type": "employee",
-      "description": "O'Malley Dillon was battleground states director for Obama's 2008 campaign and worked in his transition.",
+      "description": "O'Malley Dillon was battleground states director for Obama's 2008 campaign, worked in his transition, and was deputy campaign manager of his 2012 reelection.",
       "start_year": 2008,
       "end_year": 2009,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Jen_O%27Malley_Dillon", "title": "Jen O'Malley Dillon — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2016-election/hillary-clinton-hire-former-obama-deputy-campaign-manager-n515561", "title": "Hillary Clinton to hire former Obama deputy campaign manager — NBC News" },
+        { "url": "https://www.texastribune.org/2019/03/25/beto-orourke-hires-former-top-barack-obama-aide-campaign-manager/", "title": "Beto O'Rourke hires former top Barack Obama aide as campaign manager — Texas Tribune" }
       ]
     }
   ],

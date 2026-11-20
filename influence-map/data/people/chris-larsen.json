@@ -128,7 +128,9 @@
       "start_year": 2012,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Ripple_Labs", "title": "Ripple Labs — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Ripple_Labs", "title": "Ripple Labs — Wikipedia" },
+        { "url": "https://xrpl.org/history.html", "title": "History — XRP Ledger" },
+        { "url": "https://www.coindesk.com/learn/ripple-labs", "title": "Ripple Labs — CoinDesk" }
       ]
     },
     {

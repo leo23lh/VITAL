@@ -377,7 +377,9 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://www.npr.org/2020/07/15/891290828/former-attorney-general-jeff-sessions-loses-alabama-runoff-election", "title": "Former Attorney General Jeff Sessions Loses Alabama Runoff Election — NPR" }
+        { "url": "https://www.npr.org/2020/07/15/891290828/former-attorney-general-jeff-sessions-loses-alabama-runoff-election", "title": "Former Attorney General Jeff Sessions Loses Alabama Runoff Election — NPR" },
+        { "url": "https://alreporter.com/2020/03/11/analysis-trump-officially-endorses-tuberville-crushing-sessions", "title": "Trump officially endorses Tuberville — Alabama Political Reporter" },
+        { "url": "https://pbs.org/newshour/politics/sen-tommy-tuberville-wins-republican-nomination-for-alabama-governor", "title": "Sen. Tommy Tuberville wins Republican nomination for Alabama governor — PBS NewsHour (AP)" }
       ]
     },
     {
@@ -957,7 +959,9 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://www.yahoo.com/news/senate-confirms-rfk-jr-health-164450683.html", "title": "AP via Yahoo: Senate confirms RFK Jr. as HHS secretary" }
+        { "url": "https://www.yahoo.com/news/senate-confirms-rfk-jr-health-164450683.html", "title": "AP via Yahoo: Senate confirms RFK Jr. as HHS secretary" },
+        { "url": "https://www.semafor.com/article/08/23/2024/robert-f-kennedy-jr-ends-his-independent-presidential-campaign", "title": "Robert F. Kennedy Jr. suspends presidential campaign and endorses Trump — Semafor" },
+        { "url": "https://www.cbsnews.com/news/rfk-jr-ends-presidential-bid", "title": "RFK Jr. ends presidential bid — CBS News" }
       ]
     },
     {
@@ -969,7 +973,9 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://www.voanews.com/a/independent-presidential-candidate-rfk-jr-suspends-campaign-endorses-trump-/7754899.html", "title": "VOA: RFK Jr. suspends campaign, endorses Trump" }
+        { "url": "https://www.voanews.com/a/independent-presidential-candidate-rfk-jr-suspends-campaign-endorses-trump-/7754899.html", "title": "VOA: RFK Jr. suspends campaign, endorses Trump" },
+        { "url": "https://www.semafor.com/article/08/23/2024/robert-f-kennedy-jr-ends-his-independent-presidential-campaign", "title": "Robert F. Kennedy Jr. suspends presidential campaign and endorses Trump — Semafor" },
+        { "url": "https://www.cbsnews.com/news/rfk-jr-ends-presidential-bid", "title": "RFK Jr. ends presidential bid — CBS News" }
       ]
     },
     {
@@ -1112,7 +1118,9 @@
       "end_year": 2026,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://www.notus.org/trump-white-house/joe-kent-national-counterterrorism-center-director-resigns-iran-war", "title": "NOTUS: Joe Kent, Trump's National Counterterrorism Center director, resigns over Iran war" }
+        { "url": "https://www.notus.org/trump-white-house/joe-kent-national-counterterrorism-center-director-resigns-iran-war", "title": "NOTUS: Joe Kent, Trump's National Counterterrorism Center director, resigns over Iran war" },
+        { "url": "https://www.govinfo.gov/content/pkg/CREC-2025-07-30/html/CREC-2025-07-30-pt1-PgS4869.htm", "title": "Congressional Record, July 30, 2025 (Kent nomination) — GovInfo" },
+        { "url": "https://www.stripes.com/theaters/us/2025-07-31/joe-kent-national-counterterrorism-center-18625508.html", "title": "Senate confirms Joe Kent to lead National Counterterrorism Center — Stars and Stripes" }
       ]
     },
     {
@@ -1125,7 +1133,9 @@
       "confidence": 0.85,
       "sources": [
         { "url": "https://www.notus.org/trump-white-house/joe-kent-national-counterterrorism-center-director-resigns-iran-war", "title": "NOTUS: Joe Kent, Trump's National Counterterrorism Center director, resigns over Iran war" },
-        { "url": "https://www.aljazeera.com/news/2026/3/17/us-national-counterterrorism-center-director-joe-kent-resigns-over-iran-war", "title": "Al Jazeera" }
+        { "url": "https://www.aljazeera.com/news/2026/3/17/us-national-counterterrorism-center-director-joe-kent-resigns-over-iran-war", "title": "Al Jazeera" },
+        { "url": "https://www.govinfo.gov/content/pkg/CREC-2025-07-30/html/CREC-2025-07-30-pt1-PgS4869.htm", "title": "Congressional Record, July 30, 2025 (Kent nomination) — GovInfo" },
+        { "url": "https://www.stripes.com/theaters/us/2025-07-31/joe-kent-national-counterterrorism-center-18625508.html", "title": "Senate confirms Joe Kent to lead National Counterterrorism Center — Stars and Stripes" }
       ]
     },
     {
@@ -1595,7 +1605,9 @@
       "confidence": 0.95,
       "sources": [
         { "url": "https://www.factcheck.org/2026/10/maga-inc-3/", "title": "MAGA Inc. — FactCheck.org" },
-        { "url": "https://www.factcheck.org/2024/01/maga-inc-2", "title": "MAGA Inc. — FactCheck.org (2024)" }
+        { "url": "https://www.factcheck.org/2024/01/maga-inc-2", "title": "MAGA Inc. — FactCheck.org (2024)" },
+        { "url": "https://docquery.fec.gov/pdf/222/202511149792607222/202511149792607222.pdf", "title": "MAGA Inc. report of receipts and disbursements — Federal Election Commission" },
+        { "url": "https://www.foxnews.com/politics/trump-aligned-super-pac-enters-2026-midterms-nearly-300m-war-chest.amp", "title": "Trump-aligned super PAC enters 2026 midterms with nearly $300M war chest — Fox News" }
       ]
     },
     {
@@ -2018,7 +2030,9 @@
       "end_year": null,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Mehmet_Oz", "title": "Mehmet Oz — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Mehmet_Oz", "title": "Mehmet Oz — Wikipedia" },
+        { "url": "https://rollcall.com/2025/04/03/senate-confirms-oz-for-cms-administrator-on-party-line-vote/", "title": "Senate confirms Oz for CMS administrator on party-line vote — Roll Call" },
+        { "url": "https://www.cbsnews.com/news/dr-oz-confirmed-senate-centers-for-medicare-and-medicaid-services", "title": "Dr. Oz confirmed to head Medicare and Medicaid — CBS News" }
       ]
     },
     {

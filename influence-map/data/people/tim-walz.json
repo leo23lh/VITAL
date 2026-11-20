@@ -1,13 +1,9 @@
 {
   "name": "Tim Walz",
-  "aliases": [
-    "Timothy James Walz"
-  ],
+  "aliases": ["Timothy James Walz"],
   "public_figure": true,
   "sector": "politics",
-  "groups": [
-    "critics"
-  ],
+  "groups": ["critics"],
   "lean": [
     {
       "value": -2,
@@ -15,10 +11,7 @@
       "end_year": null,
       "basis": "Democratic–Farmer–Labor congressman (2007–2019) and governor of Minnesota since 2019; Kamala Harris's 2024 running mate.",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
-          "title": "Tim Walz — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" }
       ]
     }
   ],
@@ -31,14 +24,8 @@
   "current_role": "Governor of Minnesota (since 2019; did not seek a third term; leaves office January 2027)",
   "summary": "Tim Walz, a former teacher and Army National Guard veteran, served six terms in the U.S. House before becoming governor of Minnesota in 2019, and was Kamala Harris's running mate in 2024. He dropped his bid for a third term on January 5, 2026 as a welfare-fraud scandal in state-funded social services, seized on by President Trump, intensified; Amy Klobuchar won the race to succeed him.",
   "sources": [
-    {
-      "url": "https://en.wikipedia.org/wiki/Tim_Walz",
-      "title": "Tim Walz — Wikipedia"
-    },
-    {
-      "url": "https://www.nbcnewyork.com/news/national-international/minnesota-gov-tim-walz-ends-reelection-bid-fraud-investigations-donald-trump/6439197/",
-      "title": "Minnesota Gov. Tim Walz ends reelection bid amid fraud investigations — NBC News"
-    }
+    { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" },
+    { "url": "https://www.nbcnewyork.com/news/national-international/minnesota-gov-tim-walz-ends-reelection-bid-fraud-investigations-donald-trump/6439197/", "title": "Minnesota Gov. Tim Walz ends reelection bid amid fraud investigations — NBC News" }
   ],
   "timeline": [
     {
@@ -47,10 +34,7 @@
       "role": "U.S. representative (Minnesota's 1st district)",
       "org": "U.S. House of Representatives",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
-          "title": "Tim Walz — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" }
       ]
     },
     {
@@ -59,10 +43,7 @@
       "role": "Governor of Minnesota",
       "org": "State of Minnesota",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
-          "title": "Tim Walz — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" }
       ]
     },
     {
@@ -70,10 +51,7 @@
       "role": "Democratic nominee for vice president",
       "org": "Harris for President",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
-          "title": "Tim Walz — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" }
       ]
     },
     {
@@ -81,14 +59,8 @@
       "role": "Ended his campaign for a third term on January 5",
       "org": "State of Minnesota",
       "sources": [
-        {
-          "url": "https://www.nbcnewyork.com/news/national-international/minnesota-gov-tim-walz-ends-reelection-bid-fraud-investigations-donald-trump/6439197/",
-          "title": "Minnesota Gov. Tim Walz ends reelection bid amid fraud investigations — NBC News"
-        },
-        {
-          "url": "https://fortune.com/2026/01/05/minnesota-gov-tim-walz-drops-bid-for-reelection-citing-extraordinarily-difficult-year-for-our-state/",
-          "title": "Minnesota Gov. Tim Walz drops bid for reelection — Fortune (AP)"
-        }
+        { "url": "https://www.nbcnewyork.com/news/national-international/minnesota-gov-tim-walz-ends-reelection-bid-fraud-investigations-donald-trump/6439197/", "title": "Minnesota Gov. Tim Walz ends reelection bid amid fraud investigations — NBC News" },
+        { "url": "https://fortune.com/2026/01/05/minnesota-gov-tim-walz-drops-bid-for-reelection-citing-extraordinarily-difficult-year-for-our-state/", "title": "Minnesota Gov. Tim Walz drops bid for reelection — Fortune (AP)" }
       ]
     }
   ],
@@ -102,10 +74,9 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
-          "title": "Tim Walz — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" },
+        { "url": "https://www.cbsnews.com/news/tim-walz-vp-kamala-harris-running-mate-2024/", "title": "Kamala Harris picks Minnesota Governor Tim Walz as her VP running mate — CBS News" },
+        { "url": "https://www.foxnews.com/politics/vice-president-kamala-harris-names-minnesota-gov-tim-walz-her-running-mate", "title": "Vice President Kamala Harris names Minnesota Gov. Tim Walz as her running mate — Fox News" }
       ]
     },
     {
@@ -117,10 +88,7 @@
       "end_year": 2024,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
-          "title": "Tim Walz — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" }
       ]
     },
     {
@@ -132,18 +100,9 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        {
-          "url": "https://www.nbcnewyork.com/news/national-international/minnesota-gov-tim-walz-ends-reelection-bid-fraud-investigations-donald-trump/6439197/",
-          "title": "Minnesota Gov. Tim Walz ends reelection bid amid fraud investigations — NBC News"
-        },
-        {
-          "url": "https://fortune.com/2026/01/05/minnesota-gov-tim-walz-drops-bid-for-reelection-citing-extraordinarily-difficult-year-for-our-state/",
-          "title": "Minnesota Gov. Tim Walz drops bid for reelection — Fortune (AP)"
-        },
-        {
-          "url": "https://freebeacon.com/latest-news/walz-drops-reelection-bid-as-minnesota-reels-from-massive-welfare-fraud/",
-          "title": "Walz drops reelection bid as Minnesota reels from massive welfare fraud — Washington Free Beacon"
-        }
+        { "url": "https://www.nbcnewyork.com/news/national-international/minnesota-gov-tim-walz-ends-reelection-bid-fraud-investigations-donald-trump/6439197/", "title": "Minnesota Gov. Tim Walz ends reelection bid amid fraud investigations — NBC News" },
+        { "url": "https://fortune.com/2026/01/05/minnesota-gov-tim-walz-drops-bid-for-reelection-citing-extraordinarily-difficult-year-for-our-state/", "title": "Minnesota Gov. Tim Walz drops bid for reelection — Fortune (AP)" },
+        { "url": "https://freebeacon.com/latest-news/walz-drops-reelection-bid-as-minnesota-reels-from-massive-welfare-fraud/", "title": "Walz drops reelection bid as Minnesota reels from massive welfare fraud — Washington Free Beacon" }
       ]
     },
     {
@@ -155,14 +114,8 @@
       "end_year": null,
       "confidence": 0.75,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
-          "title": "Tim Walz — Wikipedia"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar",
-          "title": "Amy Klobuchar — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Amy_Klobuchar", "title": "Amy Klobuchar — Wikipedia" }
       ]
     },
     {
@@ -174,10 +127,7 @@
       "end_year": 2024,
       "confidence": 0.7,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Tim_Walz",
-          "title": "Tim Walz — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" }
       ]
     },
     {
@@ -189,10 +139,7 @@
       "end_year": 2025,
       "confidence": 0.5,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Ken_Martin_(politician)",
-          "title": "Ken Martin (politician) — Wikipedia"
-        }
+        { "url": "https://en.wikipedia.org/wiki/Ken_Martin_(politician)", "title": "Ken Martin (politician) — Wikipedia" }
       ]
     }
   ],

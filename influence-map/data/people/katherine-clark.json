@@ -94,7 +94,9 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" },
+        { "url": "https://www.cnbc.com/2022/11/30/house-democrats-elect-rep-hakeem-jeffries-as-leader-the-first-black-person-to-lead-congressional-caucus.html", "title": "House Democrats elect Rep. Hakeem Jeffries as leader — CNBC" },
+        { "url": "https://spectrumnews1.com/ca/la-west/politics/2022/11/30/house-democrats-elect-jeffries--clark--aguilar-to-lead-party", "title": "House Democrats elect Jeffries, Clark, Aguilar to lead party — Spectrum News" }
       ]
     },
     {
@@ -132,7 +134,8 @@
       "confidence": 0.85,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Katherine_Clark", "title": "Katherine Clark — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Pete_Aguilar", "title": "Pete Aguilar — Wikipedia" },
+        { "url": "https://spectrumnews1.com/ca/la-west/politics/2022/11/30/house-democrats-elect-jeffries--clark--aguilar-to-lead-party", "title": "House Democrats elect Jeffries, Clark, Aguilar to lead party — Spectrum News" }
       ]
     },
     {

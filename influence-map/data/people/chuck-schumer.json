@@ -186,7 +186,9 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" },
+        { "url": "https://www.democrats.senate.gov/newsroom/press-releases/majority-leader-schumer-announces-senate-democratic-leadership-team-for-the-119th-congress", "title": "Schumer announces Senate Democratic leadership team for the 119th Congress — Senate Democrats" },
+        { "url": "https://www.pbs.org/newshour/politics/senate-democrats-stick-with-schumer-as-leader-strategy-for-countering-trump-uncertain", "title": "Senate Democrats stick with Schumer as leader — PBS NewsHour (AP)" }
       ]
     }
   ],

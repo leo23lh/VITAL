@@ -83,7 +83,9 @@
       "end_year": null,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" },
+        { "url": "https://www.democrats.senate.gov/newsroom/press-releases/majority-leader-schumer-announces-senate-democratic-leadership-team-for-the-119th-congress", "title": "Schumer announces Senate Democratic leadership team for the 119th Congress — Senate Democrats" },
+        { "url": "https://www.pbs.org/newshour/politics/senate-democrats-stick-with-schumer-as-leader-strategy-for-countering-trump-uncertain", "title": "Senate Democrats stick with Schumer as leader — PBS NewsHour (AP)" }
       ]
     },
     {
@@ -95,7 +97,9 @@
       "end_year": 2017,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Dick_Durbin", "title": "Dick Durbin — Wikipedia" },
+        { "url": "https://rollcall.com/2008/06/04/durbins-long-shot-pays-off/", "title": "Durbin's Long Shot Pays Off — Roll Call" },
+        { "url": "https://news.wttw.com/2012/09/06/web-extra-durbin-president-obama", "title": "Web Extra: Durbin on President Obama — WTTW" }
       ]
     },
     {

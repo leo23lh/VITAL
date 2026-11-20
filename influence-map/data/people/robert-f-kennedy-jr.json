@@ -80,7 +80,9 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://www.yahoo.com/news/senate-confirms-rfk-jr-health-164450683.html", "title": "AP via Yahoo: Senate confirms RFK Jr. as HHS secretary" }
+        { "url": "https://www.yahoo.com/news/senate-confirms-rfk-jr-health-164450683.html", "title": "AP via Yahoo: Senate confirms RFK Jr. as HHS secretary" },
+        { "url": "https://www.semafor.com/article/08/23/2024/robert-f-kennedy-jr-ends-his-independent-presidential-campaign", "title": "Robert F. Kennedy Jr. suspends presidential campaign and endorses Trump — Semafor" },
+        { "url": "https://www.cbsnews.com/news/rfk-jr-ends-presidential-bid", "title": "RFK Jr. ends presidential bid — CBS News" }
       ]
     },
     {
@@ -92,7 +94,9 @@
       "end_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://www.voanews.com/a/independent-presidential-candidate-rfk-jr-suspends-campaign-endorses-trump-/7754899.html", "title": "VOA: RFK Jr. suspends campaign, endorses Trump" }
+        { "url": "https://www.voanews.com/a/independent-presidential-candidate-rfk-jr-suspends-campaign-endorses-trump-/7754899.html", "title": "VOA: RFK Jr. suspends campaign, endorses Trump" },
+        { "url": "https://www.semafor.com/article/08/23/2024/robert-f-kennedy-jr-ends-his-independent-presidential-campaign", "title": "Robert F. Kennedy Jr. suspends presidential campaign and endorses Trump — Semafor" },
+        { "url": "https://www.cbsnews.com/news/rfk-jr-ends-presidential-bid", "title": "RFK Jr. ends presidential bid — CBS News" }
       ]
     },
     {
@@ -128,7 +132,8 @@
       "start_year": null,
       "confidence": 0.99,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.", "title": "Wikipedia: Robert F. Kennedy Jr." }
+        { "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.", "title": "Wikipedia: Robert F. Kennedy Jr." },
+        { "url": "https://hhs.gov/about/news/2025/02/13/robert-kennedy-jr-sworn-26th-secretary-hhs-president-trump-signs-executive-order-make-america-healthy-again.html", "title": "Robert F. Kennedy Jr. sworn in as 26th Secretary of HHS — U.S. Department of Health and Human Services" }
       ]
     },
     {
