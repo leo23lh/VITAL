@@ -172,7 +172,9 @@
       "start_year": 2022,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Reid_Hoffman", "title": "Reid Hoffman — Wikipedia" },
+        { "url": "https://www.cnbc.com/2022/03/08/reid-hoffman-has-set-up-a-new-ai-company-with-deepminds-co-founder.html", "title": "Reid Hoffman has set up a new AI company with DeepMind's co-founder — CNBC" },
+        { "url": "https://techcrunch.com/2024/03/19/microsoft-hires-inflection-founders-to-run-new-consumer-ai-division/", "title": "Microsoft hires Inflection founders to run new consumer AI division — TechCrunch" }
       ]
     },
     {

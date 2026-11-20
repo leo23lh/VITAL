@@ -272,7 +272,9 @@
       "end_year": 2023,
       "confidence": 0.85,
       "sources": [
-        { "url": "https://www.theguardian.com/media/2023/apr/24/tucker-carlson-leaving-fox-news", "title": "Guardian: Tucker Carlson leaves Fox News, reportedly fired by Rupert Murdoch" }
+        { "url": "https://www.theguardian.com/media/2023/apr/24/tucker-carlson-leaving-fox-news", "title": "Guardian: Tucker Carlson leaves Fox News, reportedly fired by Rupert Murdoch" },
+        { "url": "https://www.pbs.org/newshour/nation/tucker-carlson-out-at-fox-news-agreed-to-part-ways-network-says", "title": "Tucker Carlson out at Fox News — PBS NewsHour (AP)" },
+        { "url": "https://www.nbcnews.com/media/tucker-carlson-leaving-fox-news-rcna81146", "title": "Tucker Carlson leaving Fox News — NBC News" }
       ]
     },
     {
@@ -332,7 +334,9 @@
       "start_year": 2024,
       "confidence": 0.8,
       "sources": [
-        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" }
+        { "url": "https://www.nbcnews.com/politics/2024-election/tucker-carlson-donald-trump-jr-lobbied-rfk-jr-drop-endorse-trump-rcna167665", "title": "NBC News: Carlson and Donald Trump Jr. lobbied RFK Jr. to drop out and endorse Trump" },
+        { "url": "https://bnnbloomberg.ca/business/company-news/2024/11/12/trumps-early-staff-picks-show-sway-held-by-don-jr-tucker-carlson", "title": "Trump's early staff picks show sway held by Don Jr., Tucker Carlson — Bloomberg via BNN" },
+        { "url": "https://www.mediaite.com/trump/tucker-carlson-certainly-a-contender-to-be-trumps-vice-president-don-jr-says", "title": "Tucker Carlson 'certainly a contender' to be Trump's vice president, Don Jr. says — Mediaite" }
       ]
     },
     {
@@ -424,7 +428,9 @@
       "confidence": 0.85,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" },
-        { "url": "https://en.wikipedia.org/wiki/Neil_Patel_(political_advisor)", "title": "Wikipedia: Neil Patel (political advisor)" }
+        { "url": "https://en.wikipedia.org/wiki/Neil_Patel_(political_advisor)", "title": "Wikipedia: Neil Patel (political advisor)" },
+        { "url": "https://ca.news.yahoo.com/tucker-carlson-former-college-roommate-204859746.html", "title": "Tucker Carlson and his former college roommate plan a new media company — Yahoo News" },
+        { "url": "https://businessinsider.in/tech/news/tucker-carlson-and-his-former-college-roommate-are-reportedly-looking-to-raise-hundreds-of-millions-to-launch-a-new-media-company/amp_articleshow/101767412.cms", "title": "Tucker Carlson and his former college roommate look to raise hundreds of millions — Business Insider" }
       ],
       "public_figure_confirmed": true
     },

@@ -75,7 +75,9 @@
       "confidence": 0.9,
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Barack_Obama", "title": "Barack Obama — Wikipedia" },
-        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Joe_Biden", "title": "Joe Biden — Wikipedia" },
+        { "url": "https://obamawhitehouse.archives.gov/photos-and-video/photo/2017/01/president-obama-awards-vice-president-biden-presidential-medal-freedo", "title": "President Obama awards Vice President Biden the Presidential Medal of Freedom with Distinction — Obama White House archives" },
+        { "url": "https://www.npr.org/2017/01/12/509545778/in-surprise-send-off-president-obama-awards-biden-presidential-medal-of-freedom", "title": "In surprise send-off, President Obama awards Biden Presidential Medal of Freedom — NPR" }
       ]
     },
     {
@@ -325,7 +327,9 @@
       "end_year": 2015,
       "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Ron_Klain", "title": "Ron Klain — Wikipedia" },
+        { "url": "https://obamawhitehouse.archives.gov/blog/2014/10/17/president-obama-names-ron-klain-coordinate-us-response-ebola", "title": "President Obama names Ron Klain to coordinate U.S. response to Ebola — Obama White House archives" },
+        { "url": "https://fortune.com/2014/10/17/obama-appoints-ron-klain-as-ebola-czar/", "title": "Obama appoints Ron Klain as Ebola czar — Fortune" }
       ]
     },
     {

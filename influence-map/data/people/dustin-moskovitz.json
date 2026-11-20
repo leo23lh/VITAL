@@ -83,7 +83,8 @@
       "end_year": 2020,
       "confidence": 0.75,
       "sources": [
-        { "url": "https://www.openphilanthropy.org/grants/openai-general-support", "title": "OpenAI — General Support (grant) — Open Philanthropy" }
+        { "url": "https://www.openphilanthropy.org/grants/openai-general-support", "title": "OpenAI — General Support (grant) — Open Philanthropy" },
+        { "url": "https://en.wikipedia.org/wiki/Holden_Karnofsky", "title": "Holden Karnofsky — Wikipedia" }
       ]
     },
     {
@@ -118,7 +119,9 @@
       "start_year": null,
       "confidence": 0.95,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Dustin_Moskovitz", "title": "Dustin Moskovitz — Wikipedia" },
+        { "url": "https://openphilanthropy.org/about/team/dustin-moskovitz", "title": "Dustin Moskovitz — Open Philanthropy" },
+        { "url": "https://www.aol.com/news/cari-tuna-dustin-moskovitz-113223166.html", "title": "Cari Tuna and Dustin Moskovitz — AOL" }
       ],
       "public_figure_confirmed": true
     },
