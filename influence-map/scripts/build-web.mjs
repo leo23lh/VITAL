@@ -20,7 +20,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const out = path.join(root, 'dist-web');
 const app = path.join(out, 'map');
 // Link previews need absolute addresses.
-const site = (process.env.SITE_URL ?? 'https://leo23lh.github.io/VITAL/').replace(/\/?$/, '/');
+const site = (process.env.SITE_URL ?? 'https://leo23lh.github.io/INFLUENCE-MAP/').replace(/\/?$/, '/');
 
 const { payload, dropped } = publicPayload(root);
 const found = leaks(payload, dropped);

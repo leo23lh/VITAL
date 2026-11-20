@@ -931,11 +931,18 @@ on a phone. Its link is in `artifact.json`.
 with relative paths (any folder or host serves them). The root is a landing
 page; the read-only viewer lives at `map/`, with `data.json` (the public copy
 of the data) and its photos; share pages live at `p/<slug>/`. `npm run publish:web`
-builds it and pushes the files, alone, to the repo's `gh-pages` branch, which
-GitHub Pages serves at https://leo23lh.github.io/VITAL/ (repo Settings →
-Pages → Deploy from a branch → `gh-pages`, root). Publish after every change
-to the data or the viewer; the weekly refresh does. This session's network
-cannot open github.io, so check the live site from a browser.
+builds it and pushes the files, alone, to the `gh-pages` branch of a separate
+public repository that holds only the built site, `leo23lh/INFLUENCE-MAP`,
+which GitHub Pages serves at https://leo23lh.github.io/INFLUENCE-MAP/ (that
+repo's Settings → Pages → Deploy from a branch → `gh-pages`, root). The source
+repository (`leo23lh/VITAL`) can then be private: the built site contains
+nothing the public build leaves out. A session that publishes needs push
+access to `leo23lh/INFLUENCE-MAP` (attach it with `add_repo`);
+`PAGES_REPO=<git url>` publishes elsewhere. Publish after every change to the
+data or the viewer; the weekly refresh does. This session's network
+cannot open github.io, so check the live site from a browser. The old address
+(https://leo23lh.github.io/VITAL/) was left forwarding every path to the new
+one, for as long as GitHub serves it.
 
 - **What stays out** (`scripts/lib/public-data.mjs`): every file marked
   `public_figure: false` or `self_added` (the owner's own file), every link to
@@ -968,7 +975,7 @@ cannot open github.io, so check the live site from a browser.
   the phone's share sheet where there is one. Only files in the public payload
   get a page; the build refuses to publish if a left-out file has one.
   Previews need absolute addresses: the build uses
-  https://leo23lh.github.io/VITAL/ (`SITE_URL=` to change it).
+  https://leo23lh.github.io/INFLUENCE-MAP/ (`SITE_URL=` to change it).
 - **The front-page card** is `public/og.png` (1200×630), drawn by
   `npm run og-image` with Playwright. Its network is decorative and its words
   carry no counts, so it needs redrawing only if the look changes.
@@ -976,10 +983,6 @@ cannot open github.io, so check the live site from a browser.
   facts come from and what the scores mean. Keep it in step with this file.
   It asks readers to send corrections to whoever shared the map, not to the
   repository, which may be private.
-- **Hosting.** GitHub Pages serves a site from a private repository only on a
-  paid GitHub plan. If the repository is private on a free plan, the site
-  needs another host for `dist-web/` (a separate public repository holding
-  only the built site works: it contains nothing the public build leaves out).
 - `npm run briefing` drafts a short note on the past week (`-- --since
   YYYY-MM-DD` for another period, `-- --save` to keep it in `briefings/`):
   the Updates entries, new people, new feuds, ended and new ties (by comparing

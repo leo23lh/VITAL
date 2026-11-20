@@ -1,6 +1,8 @@
 #!/usr/bin/env node
-// Builds the public site and publishes it to the repo's gh-pages branch, which GitHub Pages
-// serves at https://leo23lh.github.io/VITAL/. Only the built files go on that branch.
+// Builds the public site and publishes it to the gh-pages branch of a separate, public
+// repository that holds only the built site (leo23lh/INFLUENCE-MAP), which GitHub Pages serves
+// at https://leo23lh.github.io/INFLUENCE-MAP/. The source repository can then stay private.
+// PAGES_REPO=<git url> publishes somewhere else. The session must have push access to it.
 //   npm run publish:web            build, then push if anything changed
 //   npm run publish:web -- --dry   build and show what would change, push nothing
 // See CLAUDE.md "Public site".
@@ -14,7 +16,7 @@ const dry = process.argv.includes('--dry');
 const BRANCH = 'gh-pages';
 const run = (cmd, args, opts = {}) => execFileSync(cmd, args, { encoding: 'utf8', stdio: ['ignore', 'pipe', 'inherit'], ...opts }).trim();
 const repo = join(ROOT, '..');
-const remote = run('git', ['-C', repo, 'remote', 'get-url', 'origin']);
+const remote = process.env.PAGES_REPO ?? 'https://github.com/leo23lh/INFLUENCE-MAP';
 
 execFileSync('node', [join(ROOT, 'scripts', 'build-web.mjs')], { stdio: 'inherit' });
 
