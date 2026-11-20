@@ -446,6 +446,19 @@
         { "url": "https://en.wikipedia.org/wiki/Tucker_Carlson", "title": "Wikipedia: Tucker Carlson" },
         { "url": "https://www.theguardian.com/media/2023/apr/24/tucker-carlson-leaving-fox-news", "title": "Guardian: Tucker Carlson leaves Fox News, reportedly fired by Rupert Murdoch" }
       ]
+    },
+    {
+      "name": "Kevin Roberts",
+      "slug": "kevin-roberts",
+      "relationship_type": "ally",
+      "description": "The Heritage president defended Carlson in an October 2025 video after Carlson's Fuentes interview, prompting resignations at Heritage.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.politico.com/newsletters/politico-nightly/2025/10/31/israel-maga-antisemitism-00632356", "title": "This statement on Israel is tearing MAGA apart — Politico" },
+        { "url": "https://www.timesofisrael.com/us-jewish-groups-bail-from-heritage-foundations-antisemitism-initiative-over-tucker-carlson/", "title": "US Jewish groups bail from Heritage Foundation's antisemitism initiative over Tucker Carlson — Times of Israel" },
+        { "url": "https://www.cbsnews.com/news/heritage-foundation-kevin-roberts-tucker-carlson-interview-nick-fuentes/", "title": "Heritage Foundation president defends Tucker Carlson — CBS News" }
+      ]
     }
   ],
   "source_conflicts": [

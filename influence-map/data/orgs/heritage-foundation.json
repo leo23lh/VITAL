@@ -18,10 +18,12 @@
       "relationship_type": "employee",
       "description": "President since 2021 and the leader of Project 2025.",
       "start_year": 2021,
-      "confidence": 0.9,
+      "confidence": 0.95,
       "sources": [
         { "url": "https://www.axios.com/2024/07/25/vance-project-2025-book-trump-heritage-foundation", "title": "J.D. Vance wrote foreword of upcoming book from Project 2025 architect — Axios" },
-        { "url": "https://www.cbsnews.com/news/heritage-foundation-kevin-roberts-tucker-carlson-interview-nick-fuentes/", "title": "Heritage Foundation head defends Tucker Carlson for hosting Nick Fuentes — CBS News" }
+        { "url": "https://www.cbsnews.com/news/heritage-foundation-kevin-roberts-tucker-carlson-interview-nick-fuentes/", "title": "Heritage Foundation head defends Tucker Carlson for hosting Nick Fuentes — CBS News" },
+        { "url": "https://thehill.com/homenews/campaign/576743-heritage-foundation-names-new-president", "title": "Heritage Foundation names new president — The Hill" },
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" }
       ]
     },
     {

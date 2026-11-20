@@ -132,6 +132,20 @@
         { "url": "https://www.pbs.org/newshour/world/king-charles-iii-strips-prince-andrew-of-titles-evicts-him-from-royal-residence-over-epstein-ties", "title": "PBS NewsHour: King Charles III strips Prince Andrew of titles, evicts him from royal residence over Epstein ties" }
       ],
       "public_figure_confirmed": true
+    },
+    {
+      "name": "Bill Clinton",
+      "slug": "bill-clinton",
+      "relationship_type": "friend",
+      "description": "Clinton flew with Epstein on four trips abroad in 2002–2003, his spokesman said in 2019 (flight logs reportedly show more). In a February 2026 House deposition Clinton said he knew nothing of Epstein's crimes and never visited his island.",
+      "start_year": 2001,
+      "end_year": 2003,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://amp.cnn.com/cnn/2019/07/08/politics/bill-clinton-jeffrey-epstein", "title": "Bill Clinton 'knows nothing' about Epstein's crimes, spokesman says — CNN" },
+        { "url": "https://en.wikipedia.org/wiki/Relationship_of_Bill_Clinton_and_Jeffrey_Epstein", "title": "Relationship of Bill Clinton and Jeffrey Epstein — Wikipedia" },
+        { "url": "https://www.axios.com/2026/02/27/bill-clinton-deposition-jeffrey-epstein", "title": "Bill Clinton plunges into historic Epstein deposition — Axios" }
+      ]
     }
   ],
   "source_conflicts": [

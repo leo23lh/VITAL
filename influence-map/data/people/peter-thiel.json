@@ -607,6 +607,18 @@
         { "url": "https://www.breitbart.com/california/2016/07/23/democrat-ro-khanna-applauds-peter-thiel-blasts-mike-hondas-hypocrisy/", "title": "Democrat Ro Khanna applauds Peter Thiel for Republican convention speech — Breitbart" },
         { "url": "https://theintercept.com/2017/05/15/will-freshman-congressman-ro-khanna-chart-a-new-course-for-democrats/", "title": "Will freshman congressman Ro Khanna chart a new course for Democrats? — The Intercept" }
       ]
+    },
+    {
+      "name": "Trae Stephens",
+      "slug": "trae-stephens",
+      "relationship_type": "employee",
+      "description": "Partner at Thiel's Founders Fund since 2014 and Anduril's executive chairman.",
+      "start_year": 2014,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" },
+        { "url": "https://www.generalist.com/p/founders-fund-4", "title": "Founders Fund — The Generalist" }
+      ]
     }
   ],
   "source_conflicts": [

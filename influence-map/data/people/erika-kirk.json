@@ -1,0 +1,120 @@
+{
+  "name": "Erika Kirk",
+  "aliases": ["Erika Frantzve", "Erika Lane Kirk"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["2028-race"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Republican; chair and CEO of the conservative youth group Turning Point USA; endorsed JD Vance for 2028 and pledged Turning Point's help keeping Congress Republican.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Erika_Kirk", "title": "Erika Kirk — Wikipedia" },
+        { "url": "https://www.nbcnews.com/politics/2028-election/erika-kirk-endorses-jd-vance-president-2028-turning-point-usa-rcna250004", "title": "Erika Kirk endorses JD Vance for president in 2028 — NBC News" }
+      ]
+    }
+  ],
+  "race_2028": {
+    "role": "camp",
+    "contenders": ["jd-vance"],
+    "basis": "At Turning Point's AmericaFest in December 2025 she said: \"We are going to get my husband's friend JD Vance elected for 48 in the most resounding way possible.\"",
+    "sources": [
+      { "url": "https://www.nbcnews.com/politics/2028-election/erika-kirk-endorses-jd-vance-president-2028-turning-point-usa-rcna250004", "title": "Erika Kirk endorses JD Vance for president in 2028 — NBC News" },
+      { "url": "https://www.cbsnews.com/amp/news/erika-kirk-endorses-jd-vance-for-president", "title": "Erika Kirk endorses JD Vance for president — CBS News" },
+      { "url": "https://www.pbs.org/newshour/amp/politics/erika-kirk-backs-jd-vances-potential-2028-presidential-bid-at-turning-point-usa-conference", "title": "Erika Kirk backs JD Vance's potential 2028 presidential bid — PBS NewsHour" }
+    ]
+  },
+  "photo": {
+    "file": "erika-kirk.jpg",
+    "credit": "Gage Skidmore",
+    "license": "CC BY-SA 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Erika_Kirk,_2025_(3x4_cropped).jpg", "title": "File:Erika Kirk, 2025 (3x4 cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Chair and CEO of Turning Point USA (since September 2025)",
+  "summary": "Erika Kirk, a former Miss Arizona USA and podcaster, became chair and CEO of Turning Point USA after her husband, co-founder Charlie Kirk, was assassinated in September 2025. She endorsed JD Vance for president in December 2025, and Trump named her to the Air Force Academy Board of Visitors in March 2026.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Erika_Kirk", "title": "Erika Kirk — Wikipedia" },
+    { "url": "https://www.kjzz.org/politics/2025-09-18/charlie-kirks-widow-erika-kirk-unanimously-elected-turning-point-usas-ceo", "title": "Charlie Kirk's widow Erika Kirk unanimously elected Turning Point USA's CEO — KJZZ" }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Chair and CEO",
+      "org": "Turning Point USA",
+      "sources": [
+        { "url": "https://www.fox5ny.com/news/erika-kirk-widow-charlie-kirk-elected-ceo-turning-point-usa", "title": "Erika Kirk, widow of Charlie Kirk, elected CEO of Turning Point USA — FOX 5 New York" },
+        { "url": "https://www.kjzz.org/politics/2025-09-18/charlie-kirks-widow-erika-kirk-unanimously-elected-turning-point-usas-ceo", "title": "Charlie Kirk's widow Erika Kirk unanimously elected Turning Point USA's CEO — KJZZ" }
+      ]
+    },
+    {
+      "year": 2026,
+      "end_year": null,
+      "role": "Member, Board of Visitors (appointed by Trump)",
+      "org": "U.S. Air Force Academy",
+      "sources": [
+        { "url": "https://www.koaa.com/news/local-news/erika-kirk-appointed-to-air-force-academy-board-of-visitors-could-help-vote-to-recommend-charlie-kirk-for-honorary-usafa-degree", "title": "Erika Kirk appointed to Air Force Academy Board of Visitors — KOAA" },
+        { "url": "https://en.wikipedia.org/wiki/Erika_Kirk", "title": "Erika Kirk — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Turning Point USA",
+      "slug": "turning-point-usa",
+      "relationship_type": "employer",
+      "description": "The board unanimously elected her chair and CEO on September 18, 2025, after her husband's assassination.",
+      "start_year": 2025,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://www.fox5ny.com/news/erika-kirk-widow-charlie-kirk-elected-ceo-turning-point-usa", "title": "Erika Kirk, widow of Charlie Kirk, elected CEO of Turning Point USA — FOX 5 New York" },
+        { "url": "https://www.kjzz.org/politics/2025-09-18/charlie-kirks-widow-erika-kirk-unanimously-elected-turning-point-usas-ceo", "title": "Charlie Kirk's widow Erika Kirk unanimously elected Turning Point USA's CEO — KJZZ" },
+        { "url": "https://en.wikipedia.org/wiki/Erika_Kirk", "title": "Erika Kirk — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Charlie Kirk",
+      "slug": "charlie-kirk",
+      "relationship_type": "family",
+      "description": "Husband (married 2021) and Turning Point USA co-founder, assassinated in September 2025; she succeeded him as CEO.",
+      "start_year": 2021,
+      "end_year": 2025,
+      "confidence": 0.98,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Erika_Kirk", "title": "Erika Kirk — Wikipedia" },
+        { "url": "https://www.independent.co.uk/news/world/americas/us-politics/charlie-kirk-wife-erika-frantzve-family-b2824744.html", "title": "Charlie Kirk's wife Erika Frantzve — The Independent" }
+      ],
+      "public_figure_confirmed": true
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Endorsed Vance for president at AmericaFest in December 2025, calling him her husband's friend.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2028-election/erika-kirk-endorses-jd-vance-president-2028-turning-point-usa-rcna250004", "title": "Erika Kirk endorses JD Vance for president in 2028 — NBC News" },
+        { "url": "https://www.cbsnews.com/amp/news/erika-kirk-endorses-jd-vance-for-president", "title": "Erika Kirk endorses JD Vance for president — CBS News" },
+        { "url": "https://www.pbs.org/newshour/amp/politics/erika-kirk-backs-jd-vances-potential-2028-presidential-bid-at-turning-point-usa-conference", "title": "Erika Kirk backs JD Vance's potential 2028 presidential bid — PBS NewsHour" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "ally",
+      "description": "Trump spoke at her husband's memorial and in March 2026 appointed her to the Air Force Academy Board of Visitors.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.koaa.com/news/local-news/erika-kirk-appointed-to-air-force-academy-board-of-visitors-could-help-vote-to-recommend-charlie-kirk-for-honorary-usafa-degree", "title": "Erika Kirk appointed to Air Force Academy Board of Visitors — KOAA" },
+        { "url": "https://en.wikipedia.org/wiki/Erika_Kirk", "title": "Erika Kirk — Wikipedia" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where news pages could not be opened; facts were confirmed with Wikipedia source text and web searches tied to each cited URL.",
+  "last_researched": "2026-11-20"
+}

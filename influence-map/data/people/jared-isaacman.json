@@ -1,0 +1,194 @@
+{
+  "name": "Jared Isaacman",
+  "aliases": ["Jared Taylor Isaacman"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["trump-circle", "tech-right"],
+  "lean": [
+    {
+      "value": -1,
+      "start_year": null,
+      "end_year": 2024,
+      "basis": "Gave mostly to Democrats per FEC filings: the DSCC, Senate Majority PAC ($100,000 in 2022) and Democratic senators including Mark Kelly, Chuck Schumer and Bob Casey. Trump cited these \"prior associations\" when he withdrew his NASA nomination in 2025.",
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ISAACMAN%2C+JARED&two_year_transaction_period=2022", "title": "FEC itemized receipts: ISAACMAN, JARED, 2022 cycle" },
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ISAACMAN%2C+JARED&two_year_transaction_period=2024", "title": "FEC itemized receipts: ISAACMAN, JARED, 2024 cycle" },
+        { "url": "https://wbhm.org/npr-story/trump-says-he-will-withdraw-nomination-of-musk-associate-jared-isaacman-to-lead-nasa", "title": "Trump says he will withdraw nomination of Musk associate Jared Isaacman — NPR" }
+      ]
+    },
+    {
+      "value": 1,
+      "start_year": 2025,
+      "end_year": null,
+      "basis": "Trump's NASA administrator since December 2025; in July 2025 said he was considering running for Congress as a Republican.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Isaacman", "title": "Jared Isaacman — Wikipedia" },
+        { "url": "https://www.space.com/space-exploration/us-senate-confirms-jared-isaacman-as-new-nasa-administrator", "title": "US Senate confirms Jared Isaacman as new NASA administrator — Space.com" }
+      ]
+    }
+  ],
+  "office": {
+    "title": "Administrator of NASA",
+    "unit": "agencies",
+    "rank": 1,
+    "reports_to": "donald-trump",
+    "since": "2025-12",
+    "sources": [
+      { "url": "https://www.space.com/space-exploration/us-senate-confirms-jared-isaacman-as-new-nasa-administrator", "title": "US Senate confirms Jared Isaacman as new NASA administrator — Space.com" },
+      { "url": "https://en.wikipedia.org/wiki/Jared_Isaacman", "title": "Jared Isaacman — Wikipedia" }
+    ]
+  },
+  "photo": {
+    "file": "jared-isaacman.jpg",
+    "credit": "Bill Ingalls",
+    "license": "Public domain",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Jared_isaacman_official_portrait.jpg", "title": "File:Jared isaacman official portrait.jpg — Wikimedia Commons" }
+  },
+  "current_role": "Administrator of NASA (since December 2025)",
+  "summary": "Jared Isaacman founded the payments company Shift4, which he led until 2025, and co-founded the air-combat training firm Draken International. A close Elon Musk associate, he bought and commanded two SpaceX private missions, including the first private spacewalk. Trump nominated him to run NASA in December 2024, withdrew the nomination in May 2025 amid his split with Musk, renominated him that November, and the Senate confirmed him in December 2025.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Jared_Isaacman", "title": "Jared Isaacman — Wikipedia" },
+    { "url": "https://www.cnbc.com/2025/11/04/trump-renominates-musk-ally-jared-isaacman-to-run-nasa-months-after-withdrawal.html", "title": "Trump renominates Musk ally Jared Isaacman to run NASA months after withdrawal — CNBC" }
+  ],
+  "timeline": [
+    {
+      "year": 1999,
+      "end_year": 2025,
+      "role": "Founder and chief executive",
+      "org": "Shift4 Payments (founded as United Bank Card)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Isaacman", "title": "Jared Isaacman — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2011,
+      "end_year": null,
+      "role": "Co-founder",
+      "org": "Draken International",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Isaacman", "title": "Jared Isaacman — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": 2021,
+      "role": "Commander, Inspiration4 (first all-civilian orbital flight, on SpaceX Crew Dragon)",
+      "org": "SpaceX mission (privately funded)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Isaacman", "title": "Jared Isaacman — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2024,
+      "end_year": 2024,
+      "role": "Commander, Polaris Dawn (first private spacewalk)",
+      "org": "Polaris Program",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jared_Isaacman", "title": "Jared Isaacman — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2025,
+      "end_year": null,
+      "role": "Administrator (confirmed December 2025 after a withdrawn first nomination)",
+      "org": "NASA",
+      "sources": [
+        { "url": "https://www.space.com/space-exploration/us-senate-confirms-jared-isaacman-as-new-nasa-administrator", "title": "US Senate confirms Jared Isaacman as new NASA administrator — Space.com" },
+        { "url": "https://www.cnbc.com/2025/11/04/trump-renominates-musk-ally-jared-isaacman-to-run-nasa-months-after-withdrawal.html", "title": "Trump renominates Musk ally Jared Isaacman to run NASA months after withdrawal — CNBC" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Trump nominated him to lead NASA in December 2024, withdrew the nomination on May 31, 2025 citing his past Democratic donations, renominated him on November 4, 2025, and he was confirmed that December.",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2025/11/04/trump-renominates-musk-ally-jared-isaacman-to-run-nasa-months-after-withdrawal.html", "title": "Trump renominates Musk ally Jared Isaacman to run NASA months after withdrawal — CNBC" },
+        { "url": "https://www.space.com/space-exploration/us-senate-confirms-jared-isaacman-as-new-nasa-administrator", "title": "US Senate confirms Jared Isaacman as new NASA administrator — Space.com" },
+        { "url": "https://wbhm.org/npr-story/trump-says-he-will-withdraw-nomination-of-musk-associate-jared-isaacman-to-lead-nasa", "title": "Trump says he will withdraw nomination of Musk associate Jared Isaacman — NPR" }
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "slug": "elon-musk",
+      "relationship_type": "ally",
+      "description": "A close Musk associate who bought and commanded two SpaceX missions; Musk backed his NASA nomination, and its May 2025 withdrawal came as Trump and Musk fell out.",
+      "start_year": 2021,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnbc.com/2025/11/04/trump-renominates-musk-ally-jared-isaacman-to-run-nasa-months-after-withdrawal.html", "title": "Trump renominates Musk ally Jared Isaacman to run NASA months after withdrawal — CNBC" },
+        { "url": "https://www.nytimes.com/2025/04/09/science/nasa-jared-isaacman-confirmation.html", "title": "Jared Isaacman, Trump's pick for NASA, faces Senate — The New York Times" },
+        { "url": "https://spaceflightnow.com/2025/05/31/president-trump-withdraws-isaacman-nomination-for-nasa-administrator-days-before-senate-confirmation-vote/", "title": "President Trump withdraws Isaacman nomination — Spaceflight Now" }
+      ]
+    },
+    {
+      "name": "Sergio Gor",
+      "slug": "sergio-gor",
+      "relationship_type": "enemy",
+      "description": "Gor, then Trump's personnel chief and a Musk critic, was reported to be a driving force behind the May 2025 withdrawal of his NASA nomination.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.axios.com/2025/06/06/trump-musk-feud-nasa-white-house-aide", "title": "Trump–Musk feud: the White House aide behind the NASA pick — Axios" },
+        { "url": "https://www.thefp.com/p/the-billionaire-astronaut-caught", "title": "The billionaire astronaut caught in the middle — The Free Press" }
+      ]
+    },
+    {
+      "name": "Sean Duffy",
+      "slug": "sean-duffy",
+      "relationship_type": "rival",
+      "description": "Duffy, acting NASA administrator after the withdrawal, was reported to be jockeying with Isaacman for the job in fall 2025.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.axios.com/2025/10/21/elon-musk-trump-nasa-spacex-duffy", "title": "Musk, Trump, NASA and Duffy — Axios" },
+        { "url": "https://www.cnn.com/2025/10/27/politics/sean-duffy-nasa-transportation", "title": "Sean Duffy irks White House as drama over top job at NASA seeps into public view — CNN" }
+      ]
+    },
+    {
+      "name": "Chris Wright",
+      "slug": "chris-wright",
+      "relationship_type": "colleague",
+      "description": "Signed a memorandum of understanding with Energy Secretary Wright on space nuclear power and propulsion in October 2026.",
+      "start_year": 2026,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/", "title": "NASA, Energy Department advance new era of nuclear-powered exploration — NASA" },
+        { "url": "https://en.wikipedia.org/wiki/Jared_Isaacman", "title": "Jared Isaacman — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Mark Kelly",
+      "slug": "mark-kelly",
+      "relationship_type": "funded_by",
+      "description": "Gave Kelly's 2022 Senate campaign $5,800, per FEC filings.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ISAACMAN%2C+JARED&two_year_transaction_period=2022&committee_id=C00696948", "title": "FEC itemized receipts: ISAACMAN, JARED, 2022 cycle" }
+      ]
+    },
+    {
+      "name": "Chuck Schumer",
+      "slug": "chuck-schumer",
+      "relationship_type": "funded_by",
+      "description": "Gave Friends of Schumer $5,800 in the 2022 cycle, per FEC filings.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ISAACMAN%2C+JARED&two_year_transaction_period=2022&committee_id=C00346312", "title": "FEC itemized receipts: ISAACMAN, JARED, 2022 cycle" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where news pages could not be opened; facts were confirmed with Wikipedia source text and web searches tied to each cited URL. FEC records for 2022 and 2024 list Shift4 as his employer.",
+  "last_researched": "2026-11-20"
+}

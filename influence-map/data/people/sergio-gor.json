@@ -139,6 +139,19 @@
       "sources": [
         { "url": "https://wlos.com/news/nation-world/trump-announces-dan-scavino-will-lead-the-white-house-presidential-personnel-office-sergio-gor-government-shutdown-democrats-republicans", "title": "Trump announces Dan Scavino will lead the White House Presidential Personnel Office — WLOS" }
       ]
+    },
+    {
+      "name": "Jared Isaacman",
+      "slug": "jared-isaacman",
+      "relationship_type": "enemy",
+      "description": "Reported to be a driving force behind the May 2025 withdrawal of Isaacman's NASA nomination.",
+      "start_year": 2025,
+      "end_year": 2025,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.axios.com/2025/06/06/trump-musk-feud-nasa-white-house-aide", "title": "Trump–Musk feud: the White House aide behind the NASA pick — Axios" },
+        { "url": "https://www.thefp.com/p/the-billionaire-astronaut-caught", "title": "The billionaire astronaut caught in the middle — The Free Press" }
+      ]
     }
   ],
   "aliases": [],

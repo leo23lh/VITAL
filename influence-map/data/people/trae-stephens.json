@@ -1,0 +1,166 @@
+{
+  "name": "Trae Stephens",
+  "aliases": [],
+  "public_figure": true,
+  "sector": "ai-defense",
+  "groups": ["defense-tech", "tech-right"],
+  "lean": [
+    {
+      "value": 1,
+      "start_year": null,
+      "end_year": null,
+      "basis": "No party role; interned for Republican congressman Rob Portman and led the Defense Department team on Trump's 2016–17 transition.",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" },
+        { "url": "https://www.wired.com/story/big-interview-trae-stephens-has-built-ai-weapons-and-worked-for-donald-trump-as-he-sees-it-jesus-would-approve/", "title": "Trae Stephens Has Built AI Weapons and Worked for Donald Trump — Wired" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "trae-stephens.jpg",
+    "credit": "TechCrunch",
+    "license": "CC BY 2.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Trae_Stephens_of_Founders_Fund_at_2024_TechCrunch_StrictlyVC_event_(cropped).jpg", "title": "File:Trae Stephens of Founders Fund at 2024 TechCrunch StrictlyVC event (cropped).jpg — Wikimedia Commons" }
+  },
+  "current_role": "Co-founder and executive chairman of Anduril Industries; partner at Founders Fund",
+  "summary": "Trae Stephens worked as a computational linguist in the intelligence community and was an early Palantir employee before joining Peter Thiel's Founders Fund as a partner in 2014. He led the Pentagon transition for President-elect Trump in 2016 and in 2017 co-founded the defense company Anduril with Palmer Luckey and other Palantir veterans; he is its executive chairman and a billionaire.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" },
+    { "url": "https://www.forbes.com/profile/trae-stephens/", "title": "Trae Stephens — Forbes profile" }
+  ],
+  "timeline": [
+    {
+      "year": 2008,
+      "end_year": 2013,
+      "role": "Early employee (defense, intelligence and international growth)",
+      "org": "Palantir Technologies",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" },
+        { "url": "https://www.generalist.com/p/founders-fund-4", "title": "Founders Fund — The Generalist" }
+      ]
+    },
+    {
+      "year": 2014,
+      "end_year": null,
+      "role": "Partner",
+      "org": "Founders Fund",
+      "sources": [
+        { "url": "https://foundersfund.com/team/trae-stephens/", "title": "Trae Stephens — Founders Fund" },
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2016,
+      "end_year": 2017,
+      "role": "Led the Department of Defense transition team",
+      "org": "Trump presidential transition",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" },
+        { "url": "https://www.wired.com/story/big-interview-trae-stephens-has-built-ai-weapons-and-worked-for-donald-trump-as-he-sees-it-jesus-would-approve/", "title": "Trae Stephens Has Built AI Weapons and Worked for Donald Trump — Wired" }
+      ]
+    },
+    {
+      "year": 2017,
+      "end_year": null,
+      "role": "Co-founder; executive chairman",
+      "org": "Anduril Industries",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" }
+      ]
+    }
+  ],
+  "affiliations": [],
+  "connections": [
+    {
+      "name": "Founders Fund",
+      "slug": "founders-fund",
+      "relationship_type": "employer",
+      "description": "Partner at Founders Fund since 2014, focused on government and defense startups.",
+      "start_year": 2014,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://foundersfund.com/team/trae-stephens/", "title": "Trae Stephens — Founders Fund" },
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Anduril Industries",
+      "slug": "anduril-industries",
+      "relationship_type": "co-founder",
+      "description": "Co-founded Anduril in 2017 and is its executive chairman.",
+      "start_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Palmer Luckey",
+      "slug": "palmer-luckey",
+      "relationship_type": "co-founder",
+      "description": "Met Luckey at a Founders Fund retreat in 2014; they co-founded Anduril in 2017.",
+      "start_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" },
+        { "url": "https://www.wired.com/story/palmer-luckey-anduril-border-wall/", "title": "Inside Anduril, Palmer Luckey's Bid to Build a Border Wall — Wired" }
+      ]
+    },
+    {
+      "name": "Brian Schimpf",
+      "slug": "brian-schimpf",
+      "relationship_type": "co-founder",
+      "description": "Fellow Palantir veteran and Anduril co-founder (2017); Schimpf is CEO.",
+      "start_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "slug": "peter-thiel",
+      "relationship_type": "employer",
+      "description": "Partner at Thiel's Founders Fund since 2014 and described as close to Thiel there; Thiel's firm backed Anduril.",
+      "start_year": 2014,
+      "confidence": 0.8,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" },
+        { "url": "https://www.generalist.com/p/founders-fund-4", "title": "Founders Fund — The Generalist" }
+      ]
+    },
+    {
+      "name": "Alex Karp",
+      "slug": "alex-karp",
+      "relationship_type": "employer",
+      "description": "Early Palantir employee under CEO Karp, who reportedly kept him away from Thiel for two years so he would not be poached.",
+      "start_year": 2008,
+      "end_year": 2013,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" },
+        { "url": "https://www.generalist.com/p/founders-fund-4", "title": "Founders Fund — The Generalist" }
+      ]
+    },
+    {
+      "name": "Donald Trump",
+      "slug": "donald-trump",
+      "relationship_type": "employer",
+      "description": "Led the Defense Department team on President-elect Trump's 2016–17 transition.",
+      "start_year": 2016,
+      "end_year": 2017,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.wired.com/story/big-interview-trae-stephens-has-built-ai-weapons-and-worked-for-donald-trump-as-he-sees-it-jesus-would-approve/", "title": "Trae Stephens Has Built AI Weapons and Worked for Donald Trump — Wired" },
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" },
+        { "url": "https://fortune.com/2024/11/16/anduril-chairman-trae-stephens-donald-trump-us-military-reform-defense-spending/", "title": "Anduril chairman Trae Stephens on Trump and military reform — Fortune (Bloomberg)" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where news pages could not be opened; facts were confirmed with Wikipedia source text and web searches tied to each cited URL.",
+  "last_researched": "2026-11-20"
+}

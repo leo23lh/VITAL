@@ -768,6 +768,31 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Tim_Walz", "title": "Tim Walz — Wikipedia" }
       ]
+    },
+    {
+      "name": "Kevin Roberts",
+      "slug": "kevin-roberts",
+      "relationship_type": "ally",
+      "description": "Vance wrote the foreword to the Heritage president's 2024 book Dawn's Early Light.",
+      "start_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.forbes.com/sites/alisondurkee/2024/08/07/project-2025-think-tank-leader-delays-book-with-jd-vance-foreword-amid-controversy/", "title": "Project 2025 think tank leader delays book—with JD Vance foreword—amid controversy — Forbes" },
+        { "url": "https://www.poynter.org/fact-checking/2024/jd-vance-who-wrote-project-2025/", "title": "JD Vance wrote the foreword for Project 2025's Kevin Roberts' upcoming book — Poynter" }
+      ]
+    },
+    {
+      "name": "Erika Kirk",
+      "slug": "erika-kirk",
+      "relationship_type": "ally",
+      "description": "Turning Point's CEO endorsed Vance for 2028 at AmericaFest in December 2025.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/2028-election/erika-kirk-endorses-jd-vance-president-2028-turning-point-usa-rcna250004", "title": "Erika Kirk endorses JD Vance for president in 2028 — NBC News" },
+        { "url": "https://www.cbsnews.com/amp/news/erika-kirk-endorses-jd-vance-for-president", "title": "Erika Kirk endorses JD Vance for president — CBS News" },
+        { "url": "https://www.pbs.org/newshour/amp/politics/erika-kirk-backs-jd-vances-potential-2028-presidential-bid-at-turning-point-usa-conference", "title": "Erika Kirk backs JD Vance's potential 2028 presidential bid — PBS NewsHour" }
+      ]
     }
   ],
   "source_conflicts": [],

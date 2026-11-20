@@ -206,6 +206,19 @@
         { "url": "https://sourcenm.com/2026/07/06/repub/chief-tom-schultz-details-defends-largest-forest-service-reorganization-in-a-century/", "title": "Chief Tom Schultz details, defends largest Forest Service reorganization in a century — Source NM (July 2026)" },
         { "url": "https://www.citizen.org/article/uprooting-the-forest-service-a-trump-official-with-deep-timber-industry-ties-is-putting-public-lands-and-the-climate-at-risk/", "title": "Uprooting the Forest Service — Public Citizen (advocacy group)" }
       ]
+    },
+    {
+      "name": "Kevin Roberts",
+      "slug": "kevin-roberts",
+      "relationship_type": "employee",
+      "description": "Rollins, as TPPF chief executive, hired Roberts as executive vice president in 2016; he succeeded her in 2018.",
+      "start_year": 2016,
+      "end_year": 2018,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.texaspolicy.com/press/texas-public-policy-foundation-announces-kevin-roberts-as-new-executive-vice-president", "title": "Texas Public Policy Foundation announces Kevin Roberts as new executive vice president — TPPF" },
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

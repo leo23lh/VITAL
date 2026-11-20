@@ -737,6 +737,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Rahm_Emanuel", "title": "Rahm Emanuel — Wikipedia" }
       ]
+    },
+    {
+      "name": "Jared Isaacman",
+      "slug": "jared-isaacman",
+      "relationship_type": "ally",
+      "description": "Musk ally who bought and flew two SpaceX missions; Musk backed his NASA nomination.",
+      "start_year": 2021,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.cnbc.com/2025/11/04/trump-renominates-musk-ally-jared-isaacman-to-run-nasa-months-after-withdrawal.html", "title": "Trump renominates Musk ally Jared Isaacman to run NASA months after withdrawal — CNBC" },
+        { "url": "https://www.nytimes.com/2025/04/09/science/nasa-jared-isaacman-confirmation.html", "title": "Jared Isaacman, Trump's pick for NASA, faces Senate — The New York Times" },
+        { "url": "https://spaceflightnow.com/2025/05/31/president-trump-withdraws-isaacman-nomination-for-nasa-administrator-days-before-senate-confirmation-vote/", "title": "President Trump withdraws Isaacman nomination — Spaceflight Now" }
+      ]
     }
   ],
   "source_conflicts": [

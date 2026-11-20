@@ -111,6 +111,18 @@
         { "url": "https://www.nysun.com/article/democratic-royalty-descend-on-hamptons-for-marriage-of-george-soross-son-and-clinton-aide-huma-abedin", "title": "Democratic royalty descend on Hamptons for marriage of George Soros's son and Clinton aide Huma Abedin — New York Sun" }
       ],
       "public_figure_confirmed": true
+    },
+    {
+      "name": "Bill Clinton",
+      "slug": "bill-clinton",
+      "relationship_type": "friend",
+      "description": "Hillary and Bill Clinton attended Soros's June 14, 2025 wedding to Huma Abedin, Clinton's longtime aide.",
+      "start_year": 2025,
+      "confidence": 0.5,
+      "sources": [
+        { "url": "https://digital-release.newsnationnow.com/?p=3418428", "title": "Huma Abedin and Alex Soros wedding — NewsNation" },
+        { "url": "https://www.nysun.com/article/democratic-royalty-descend-on-hamptons-for-marriage-of-george-soross-son-and-clinton-aide-huma-abedin", "title": "Democratic royalty descend on Hamptons for marriage of George Soros's son and Clinton aide Huma Abedin — New York Sun" }
+      ]
     }
   ],
   "notes": "Researched 2026-11-19 from the Wikipedia article's source text (read directly) and web search results; news pages could not be opened in this environment, so news facts were confirmed through search results tied to each cited URL. Records for George Soros and Democracy PAC mirror those already in their files.",

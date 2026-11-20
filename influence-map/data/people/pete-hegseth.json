@@ -425,6 +425,19 @@
         { "url": "https://www.nbcnews.com/politics/politics-news/sen-mark-kelly-sues-defense-secretary-pete-hegseth-efforts-reduce-mili-rcna253658", "title": "Sen. Mark Kelly sues Defense Secretary Pete Hegseth — NBC News" },
         { "url": "https://www.fox10phoenix.com/news/mark-kelly-sues-pete-hegseth-after-being-censured-illegal-orders-video", "title": "Mark Kelly sues Pete Hegseth after being censured for 'illegal orders' video — Fox 10 Phoenix" }
       ]
+    },
+    {
+      "name": "Kevin Roberts",
+      "slug": "kevin-roberts",
+      "relationship_type": "ally",
+      "description": "The Heritage president pressed Republican senators to confirm Hegseth in late 2024.",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://apnews.com/article/project-2025-cabinet-nominees-heritage-foundation-hegseth-d770431b8022159dc3f6c53458bdcf0e", "title": "An architect of Project 2025 is pressuring Republican senators to confirm Pete Hegseth — AP" },
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [

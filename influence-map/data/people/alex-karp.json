@@ -230,6 +230,19 @@
       "sources": [
         { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=KARP%2C+ALEX&committee_id=C00504530&two_year_transaction_period=2026", "title": "FEC receipts: KARP, ALEX to CLF" }
       ]
+    },
+    {
+      "name": "Trae Stephens",
+      "slug": "trae-stephens",
+      "relationship_type": "employee",
+      "description": "Stephens was an early Palantir employee under Karp.",
+      "start_year": 2008,
+      "end_year": 2013,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" },
+        { "url": "https://www.generalist.com/p/founders-fund-4", "title": "Founders Fund — The Generalist" }
+      ]
     }
   ],
   "source_conflicts": [

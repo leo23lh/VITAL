@@ -365,6 +365,19 @@
       "sources": [
         { "url": "https://en.wikipedia.org/wiki/Ruben_Gallego", "title": "Ruben Gallego — Wikipedia" }
       ]
+    },
+    {
+      "name": "Kevin Roberts",
+      "slug": "kevin-roberts",
+      "relationship_type": "enemy",
+      "description": "Cruz condemned the Heritage president's October 2025 defense of Tucker Carlson.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://www.politico.com/newsletters/politico-nightly/2025/10/31/israel-maga-antisemitism-00632356", "title": "This statement on Israel is tearing MAGA apart — Politico" },
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" }
+      ]
     }
   ],
   "affiliations": [],

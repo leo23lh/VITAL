@@ -231,6 +231,18 @@
       "sources": [
         { "url": "https://www.energy.gov/edf/articles/letter-leadership-edf-2025-year-review-and-looking-forward-2026", "title": "Letter from leadership: EDF 2025 year in review — U.S. Department of Energy" }
       ]
+    },
+    {
+      "name": "Jared Isaacman",
+      "slug": "jared-isaacman",
+      "relationship_type": "colleague",
+      "description": "Signed a NASA–Energy agreement on space nuclear power with NASA administrator Isaacman in October 2026.",
+      "start_year": 2026,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/", "title": "NASA, Energy Department advance new era of nuclear-powered exploration — NASA" },
+        { "url": "https://en.wikipedia.org/wiki/Jared_Isaacman", "title": "Jared Isaacman — Wikipedia" }
+      ]
     }
   ],
   "notes": "Researched in a sandbox that could run web searches but not open most pages; Wikipedia was read directly where its API allowed, and other facts were checked against search results tied to each cited URL.",

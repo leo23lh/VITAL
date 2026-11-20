@@ -205,6 +205,18 @@
         { "url": "https://www.nbcnews.com/politics/congress/brian-schatz-racks-support-succeed-dick-durbin-no-2-senate-democrat-rcna204192", "title": "Brian Schatz racks up support to succeed Dick Durbin as the No. 2 Senate Democrat — NBC News" },
         { "url": "https://www.washingtonexaminer.com/news/senate/3393658/brian-schatz-senate-bid-replace-dick-durbin-democratic-whip/", "title": "Schatz launches bid to replace Durbin as Democratic whip — Washington Examiner" }
       ]
+    },
+    {
+      "name": "Jared Isaacman",
+      "slug": "jared-isaacman",
+      "relationship_type": "donor",
+      "description": "Isaacman gave Friends of Schumer $5,800 in the 2022 cycle, per FEC filings.",
+      "start_year": 2022,
+      "end_year": 2022,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=ISAACMAN%2C+JARED&two_year_transaction_period=2022&committee_id=C00346312", "title": "FEC itemized receipts: ISAACMAN, JARED, 2022 cycle" }
+      ]
     }
   ],
   "office": {

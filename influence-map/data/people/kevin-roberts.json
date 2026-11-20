@@ -1,0 +1,189 @@
+{
+  "name": "Kevin Roberts",
+  "aliases": ["Kevin D. Roberts", "Kevin David Roberts"],
+  "public_figure": true,
+  "sector": "politics",
+  "groups": ["natcon"],
+  "lean": [
+    {
+      "value": 2,
+      "start_year": null,
+      "end_year": null,
+      "basis": "Leads the Heritage Foundation and Heritage Action, which produced Project 2025 for a Republican administration; describes Heritage's role as \"institutionalizing Trumpism\".",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" },
+        { "url": "https://www.nytimes.com/2024/01/21/magazine/heritage-foundation-kevin-roberts.html", "title": "The Heritage Foundation and Kevin Roberts — The New York Times Magazine" }
+      ]
+    }
+  ],
+  "photo": {
+    "file": "kevin-roberts.jpg",
+    "credit": "Gage Skidmore",
+    "license": "CC BY-SA 4.0",
+    "source": { "url": "https://commons.wikimedia.org/wiki/File:Kevin_Roberts_2025.jpg", "title": "File:Kevin Roberts 2025.jpg — Wikimedia Commons" }
+  },
+  "current_role": "President of the Heritage Foundation and Heritage Action (since December 2021)",
+  "summary": "Kevin Roberts, a historian by training, ran Wyoming Catholic College and the Texas Public Policy Foundation before becoming president of the Heritage Foundation in 2021, where he oversaw Project 2025, the personnel and policy plan for a second Trump administration. His October 2025 video defending Tucker Carlson after Carlson's interview with Nick Fuentes set off board resignations and staff departures.",
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" },
+    { "url": "https://thehill.com/homenews/campaign/576743-heritage-foundation-names-new-president", "title": "Heritage Foundation names new president — The Hill" }
+  ],
+  "timeline": [
+    {
+      "year": 2013,
+      "end_year": 2016,
+      "role": "President",
+      "org": "Wyoming Catholic College",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2016,
+      "end_year": 2018,
+      "role": "Executive vice president",
+      "org": "Texas Public Policy Foundation",
+      "sources": [
+        { "url": "https://www.texaspolicy.com/press/texas-public-policy-foundation-announces-kevin-roberts-as-new-executive-vice-president", "title": "Texas Public Policy Foundation announces Kevin Roberts as new executive vice president — TPPF" },
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" }
+      ]
+    },
+    {
+      "year": 2018,
+      "end_year": 2021,
+      "role": "Chief executive",
+      "org": "Texas Public Policy Foundation",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" },
+        { "url": "https://thehill.com/homenews/campaign/576743-heritage-foundation-names-new-president", "title": "Heritage Foundation names new president — The Hill" }
+      ]
+    },
+    {
+      "year": 2021,
+      "end_year": null,
+      "role": "President",
+      "org": "Heritage Foundation and Heritage Action",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" },
+        { "url": "https://thehill.com/homenews/campaign/576743-heritage-foundation-names-new-president", "title": "Heritage Foundation names new president — The Hill" }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "Project 2025",
+      "role": "Led it as Heritage president; called its \"mastermind\"",
+      "start_year": 2022,
+      "end_year": 2024,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" },
+        { "url": "https://www.axios.com/2024/07/25/vance-project-2025-book-trump-heritage-foundation", "title": "Vance, Project 2025 and the Heritage Foundation — Axios" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "Heritage Foundation",
+      "slug": "heritage-foundation",
+      "relationship_type": "employer",
+      "description": "President of the Heritage Foundation and its lobbying arm Heritage Action since December 2021.",
+      "start_year": 2021,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://thehill.com/homenews/campaign/576743-heritage-foundation-names-new-president", "title": "Heritage Foundation names new president — The Hill" },
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "slug": "jd-vance",
+      "relationship_type": "ally",
+      "description": "Vance wrote the foreword to Roberts's 2024 book Dawn's Early Light, whose release was delayed amid the Project 2025 controversy.",
+      "start_year": 2024,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.forbes.com/sites/alisondurkee/2024/08/07/project-2025-think-tank-leader-delays-book-with-jd-vance-foreword-amid-controversy/", "title": "Project 2025 think tank leader delays book—with JD Vance foreword—amid controversy — Forbes" },
+        { "url": "https://www.poynter.org/fact-checking/2024/jd-vance-who-wrote-project-2025/", "title": "JD Vance wrote the foreword for Project 2025's Kevin Roberts' upcoming book — Poynter" }
+      ]
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "relationship_type": "ally",
+      "description": "In October 2025 Roberts released a video defending Carlson after his interview with Nick Fuentes, calling Carlson's critics a \"venomous coalition\"; board members and staff quit over it.",
+      "start_year": 2025,
+      "confidence": 0.85,
+      "sources": [
+        { "url": "https://www.politico.com/newsletters/politico-nightly/2025/10/31/israel-maga-antisemitism-00632356", "title": "This statement on Israel is tearing MAGA apart — Politico" },
+        { "url": "https://www.timesofisrael.com/us-jewish-groups-bail-from-heritage-foundations-antisemitism-initiative-over-tucker-carlson/", "title": "US Jewish groups bail from Heritage Foundation's antisemitism initiative over Tucker Carlson — Times of Israel" },
+        { "url": "https://www.cbsnews.com/news/heritage-foundation-kevin-roberts-tucker-carlson-interview-nick-fuentes/", "title": "Heritage Foundation president defends Tucker Carlson — CBS News" }
+      ]
+    },
+    {
+      "name": "Pete Hegseth",
+      "slug": "pete-hegseth",
+      "relationship_type": "ally",
+      "description": "Pressured Republican senators to confirm Hegseth as defense secretary in late 2024.",
+      "start_year": 2024,
+      "end_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://apnews.com/article/project-2025-cabinet-nominees-heritage-foundation-hegseth-d770431b8022159dc3f6c53458bdcf0e", "title": "An architect of Project 2025 is pressuring Republican senators to confirm Pete Hegseth — AP" },
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Brooke Rollins",
+      "slug": "brooke-rollins",
+      "relationship_type": "employer",
+      "description": "Roberts joined the Texas Public Policy Foundation as executive vice president in 2016 under Rollins, then its CEO, and succeeded her as CEO in 2018.",
+      "start_year": 2016,
+      "end_year": 2018,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://www.texaspolicy.com/press/texas-public-policy-foundation-announces-kevin-roberts-as-new-executive-vice-president", "title": "Texas Public Policy Foundation announces Kevin Roberts as new executive vice president — TPPF" },
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Ted Cruz",
+      "slug": "ted-cruz",
+      "relationship_type": "enemy",
+      "description": "Cruz was among the Republicans who condemned Roberts's October 2025 defense of Tucker Carlson as trading in an antisemitic trope.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.65,
+      "sources": [
+        { "url": "https://www.politico.com/newsletters/politico-nightly/2025/10/31/israel-maga-antisemitism-00632356", "title": "This statement on Israel is tearing MAGA apart — Politico" },
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Mike Pence",
+      "slug": "mike-pence",
+      "relationship_type": "rival",
+      "description": "More than a dozen Heritage staff who quit over Roberts's leadership in December 2025 joined Pence's think tank, Advancing American Freedom.",
+      "start_year": 2025,
+      "end_year": null,
+      "confidence": 0.55,
+      "sources": [
+        { "url": "https://www.politico.com/news/2025/12/22/heritage-staff-join-pence-nonprofit-00703192", "title": "Heritage staff join Pence's nonprofit — Politico" },
+        { "url": "https://en.wikipedia.org/wiki/Kevin_Roberts_(political_strategist)", "title": "Kevin Roberts (political strategist) — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Patrick Deneen",
+      "slug": "patrick-deneen",
+      "relationship_type": "ally",
+      "description": "Joined Deneen and JD Vance on the 2023 launch panel for Deneen's book Regime Change.",
+      "start_year": 2023,
+      "confidence": 0.7,
+      "sources": [
+        { "url": "https://isi.org/events/regime-change-and-the-future-of-liberalism/", "title": "Modern Age Panel: Regime Change and the Future of Liberalism — ISI" },
+        { "url": "https://www.rollingstone.com/politics/political-commentary/jd-vance-extremist-christian-vp-mike-pence-1235069117/", "title": "JD Vance and the post-liberal right — Rolling Stone" }
+      ]
+    }
+  ],
+  "notes": "Researched in a sandbox where news pages could not be opened; facts were confirmed with Wikipedia source text and web searches tied to each cited URL.",
+  "last_researched": "2026-11-20"
+}

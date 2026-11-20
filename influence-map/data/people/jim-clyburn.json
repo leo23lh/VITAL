@@ -113,6 +113,19 @@
         { "url": "https://en.wikipedia.org/wiki/Jim_Clyburn", "title": "Jim Clyburn — Wikipedia" },
         { "url": "https://www.pbs.org/newshour/show/rep-clyburn-reflects-on-the-historical-through-line-between-obama-biden-and-harris", "title": "Rep. Clyburn reflects on the through line between Obama, Biden and Harris — PBS NewsHour" }
       ]
+    },
+    {
+      "name": "Bill Clinton",
+      "slug": "bill-clinton",
+      "relationship_type": "rival",
+      "description": "Clashed with Bill Clinton over his remarks on the 2008 South Carolina primary.",
+      "start_year": 2008,
+      "end_year": 2008,
+      "confidence": 0.6,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Jim_Clyburn", "title": "Jim Clyburn — Wikipedia" },
+        { "url": "http://thecaucus.blogs.nytimes.com/2008/04/24/black-congressman-denounces-b-clintons-remarks/", "title": "Black Leader in House Denounces Bill Clinton's Remarks — The New York Times" }
+      ]
     }
   ],
   "notes": "Researched 2026-11-20 from the Wikipedia article's source text (read directly) and web searches tied to each cited URL; other pages could not be opened in this environment.",

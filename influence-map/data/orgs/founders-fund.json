@@ -71,9 +71,11 @@
       "relationship_type": "employee",
       "description": "Partner; co-founder and executive chairman of Anduril.",
       "start_year": null,
-      "confidence": 0.85,
+      "confidence": 0.9,
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" }
+        { "url": "https://en.wikipedia.org/wiki/Founders_Fund", "title": "Founders Fund — Wikipedia" },
+        { "url": "https://foundersfund.com/team/trae-stephens/", "title": "Trae Stephens — Founders Fund" },
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" }
       ]
     },
     {

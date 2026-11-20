@@ -39,6 +39,18 @@
         { "url": "https://fortune.com/2026/05/08/anduril-brian-schimpf-term-sheet/", "title": "Anduril's Brian Schimpf — Fortune Term Sheet" },
         { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" }
       ]
+    },
+    {
+      "name": "Trae Stephens",
+      "slug": "trae-stephens",
+      "relationship_type": "co-founder",
+      "description": "Co-founder (2017) and executive chairman.",
+      "start_year": 2017,
+      "confidence": 0.95,
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Anduril_Industries", "title": "Anduril Industries — Wikipedia" },
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" }
+      ]
     }
   ],
   "source_conflicts": [],

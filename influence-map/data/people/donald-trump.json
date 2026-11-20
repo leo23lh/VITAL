@@ -2464,6 +2464,45 @@
         { "url": "https://ag.nv.gov/News/PR/2025/Attorney_General_Ford_Sues_Trump_Administration_to_Stop_Illegal_Tariffs_That_Are_Inflicting_Chaos_on_the_American_Economy/", "title": "Attorney General Ford sues Trump administration to stop illegal tariffs — Nevada Attorney General" },
         { "url": "https://ag.nv.gov/News/PR/2025/Attorney_General_Ford_Sues_Trump_Administration_to_Stop_Dismantling_of_Department_of_Education_and_Protect_Nevada_Students/", "title": "Attorney General Ford sues to stop dismantling of the Department of Education — Nevada Attorney General" }
       ]
+    },
+    {
+      "name": "Erika Kirk",
+      "slug": "erika-kirk",
+      "relationship_type": "ally",
+      "description": "Appointed the Turning Point CEO to the Air Force Academy Board of Visitors in March 2026.",
+      "start_year": 2025,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.koaa.com/news/local-news/erika-kirk-appointed-to-air-force-academy-board-of-visitors-could-help-vote-to-recommend-charlie-kirk-for-honorary-usafa-degree", "title": "Erika Kirk appointed to Air Force Academy Board of Visitors — KOAA" },
+        { "url": "https://en.wikipedia.org/wiki/Erika_Kirk", "title": "Erika Kirk — Wikipedia" }
+      ]
+    },
+    {
+      "name": "Trae Stephens",
+      "slug": "trae-stephens",
+      "relationship_type": "employee",
+      "description": "Stephens led the Pentagon team on Trump's 2016–17 transition; he later chaired Anduril.",
+      "start_year": 2016,
+      "end_year": 2017,
+      "confidence": 0.75,
+      "sources": [
+        { "url": "https://www.wired.com/story/big-interview-trae-stephens-has-built-ai-weapons-and-worked-for-donald-trump-as-he-sees-it-jesus-would-approve/", "title": "Trae Stephens Has Built AI Weapons and Worked for Donald Trump — Wired" },
+        { "url": "https://en.wikipedia.org/wiki/Trae_Stephens", "title": "Trae Stephens — Wikipedia" },
+        { "url": "https://fortune.com/2024/11/16/anduril-chairman-trae-stephens-donald-trump-us-military-reform-defense-spending/", "title": "Anduril chairman Trae Stephens on Trump and military reform — Fortune (Bloomberg)" }
+      ]
+    },
+    {
+      "name": "Jared Isaacman",
+      "slug": "jared-isaacman",
+      "relationship_type": "employee",
+      "description": "Trump's NASA administrator since December 2025, after withdrawing and then renominating him.",
+      "start_year": 2025,
+      "confidence": 0.9,
+      "sources": [
+        { "url": "https://www.cnbc.com/2025/11/04/trump-renominates-musk-ally-jared-isaacman-to-run-nasa-months-after-withdrawal.html", "title": "Trump renominates Musk ally Jared Isaacman to run NASA months after withdrawal — CNBC" },
+        { "url": "https://www.space.com/space-exploration/us-senate-confirms-jared-isaacman-as-new-nasa-administrator", "title": "US Senate confirms Jared Isaacman as new NASA administrator — Space.com" },
+        { "url": "https://wbhm.org/npr-story/trump-says-he-will-withdraw-nomination-of-musk-associate-jared-isaacman-to-lead-nasa", "title": "Trump says he will withdraw nomination of Musk associate Jared Isaacman — NPR" }
+      ]
     }
   ],
   "source_conflicts": [

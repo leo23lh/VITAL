@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-11-20-five-new",
+    "date": "2026-11-20",
+    "text": "Five often-mentioned figures added: Heritage Foundation president Kevin Roberts, Turning Point USA chief Erika Kirk (who endorsed JD Vance for 2028), Anduril chairman Trae Stephens, NASA administrator Jared Isaacman and Bill Clinton.",
+    "people": ["kevin-roberts", "erika-kirk", "trae-stephens", "jared-isaacman", "bill-clinton"]
+  },
+  {
+    "id": "2026-11-20-leans-complete",
+    "date": "2026-11-20",
+    "text": "Political leans added for the last 21 people on the main map, including Mark Zuckerberg (centrist, disputed), Tom Homan, Usha Vance, Zach Witkoff and Jay Bhattacharya. Seven with no partisan record are marked as checked and left blank.",
+    "people": ["mark-zuckerberg", "tom-homan", "usha-vance", "zach-witkoff", "jay-bhattacharya", "luke-nosek", "jeremy-stoppelman", "frank-bisignano", "dan-caine"]
+  },
+  {
     "id": "2026-11-20-sources-round-2",
     "date": "2026-11-20",
     "text": "Second round of sourcing: 25 ties that rested on one source now have a second, independent one, including official records such as the Obama White House archives and whitehouse.gov. Single-source ties fell from 234 to 209. Twelve officials also gained a sourced political lean, and validator warnings fell from 159 to 21.",
